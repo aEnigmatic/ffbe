@@ -14004,7 +14004,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n4%: Meteor (20430)\n24%: Death (20280)\n24%: Aeroga (20240)\n24%: Bio (20070)\n24%: Stone (20060)"],
+        "effects": ["Randomly use:\n4%: Meteor (20430): Magical damage (2x MAG) to all enemies. Ignore reflect.\n24%: Death (20280): Instant KO (30%) to one enemy.\n24%: Aeroga (20240): Air magical damage (1.8x MAG) to all enemies.\n24%: Bio (20070): Dark magical damage (1.2x MAG) to one enemy. and Inflict Poison (15%) on one enemy.\n24%: Stone (20060): Earth magical damage (1.2x MAG) to one enemy."],
         "effects_raw": "82:20430&4,20280&24,20240&24,20070&24,20060&24",
         "unit_restriction": null,
         "strings": {
@@ -14176,7 +14176,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Six Dragons (500060)\n70%: Six Dragons (500070)"],
+        "effects": ["Randomly use:\n30%: Six Dragons (500060): Restore 100% HP and MP to all allies.\n70%: Six Dragons (500070): Restore 0% HP and MP to all allies."],
         "effects_raw": "29:500060&30,500070&70,0,0,0",
         "unit_restriction": null,
         "strings": {
@@ -14512,7 +14512,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n20%: Power Generator (500080)\n25%: Laser Cannon (500090)\n25%: Blastshot (500100)\n30%: Failure (500110)"],
+        "effects": ["Randomly use:\n20%: Power Generator (500080): Fire physical damage (1.8x ATK) to all enemies.\n25%: Laser Cannon (500090): Lightning physical damage (1.4x ATK) to all enemies.\n25%: Blastshot (500100): Physical damage (1x ATK) to all enemies.\n30%: Failure (500110):  for 0 turn(s) to self."],
         "effects_raw": "29:500080&20,500090&25,500100&25,500110&30,0",
         "unit_restriction": null,
         "strings": {
@@ -17629,7 +17629,7 @@
         "effect_type": "Default",
         "damage_type": "UNKNOWN",
         "element_inflict": null,
-        "effects": ["Randomly use:\n33%: Firebomb (500130)\n34%: Dagger Toss (500140)\n34%: Ring Toss (500150)"],
+        "effects": ["Randomly use:\n33%: Firebomb (500130): Fire magical damage (1.4x ATK) to one enemy. and Inflict Confusion (20%) on one enemy.\n34%: Dagger Toss (500140): Physical damage (1.4x ATK) to one enemy. and Inflict Disease (20%) on one enemy.\n34%: Ring Toss (500150): Inflict Stop (30%) for 3 turn(s) on one enemy."],
         "effects_raw": "29:500130&33,500140&34,500150&34,0,0",
         "unit_restriction": null,
         "strings": {
@@ -19636,7 +19636,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n50%: Burst (500160)\n30%: Super Burst (500170)\n15%: Mega Burst (500180)\n5%: Giga Burst (500190)"],
+        "effects": ["Randomly use:\n50%: Burst (500160): Magical damage (1.8x MAG) to all enemies.\n30%: Super Burst (500170): Magical damage (2.2x MAG) to all enemies.\n15%: Mega Burst (500180): Magical damage (2.27x MAG) to all enemies. Ignore reflect.\n5%: Giga Burst (500190): Magical damage (2.56x MAG) to all enemies. Ignore reflect."],
         "effects_raw": "29:500160&50,500170&30,500180&15,500190&5,0",
         "unit_restriction": null,
         "strings": {
@@ -19678,7 +19678,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n70%: Short Burst (500200)\n20%: Long Burst (500210)\n10%: Mega Stop (500220)"],
+        "effects": ["Randomly use:\n70%: Short Burst (500200): Inflict Stop (30%) for 1 turn(s) on one enemy.\n20%: Long Burst (500210): Inflict Stop (30%) for 3 turn(s) on one enemy.\n10%: Mega Stop (500220): Inflict Stop (30%) for 5 turn(s) on one enemy."],
         "effects_raw": "29:500200&70,500210&20,500220&10,0,0",
         "unit_restriction": null,
         "strings": {
@@ -19720,7 +19720,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n70%: MP Charge (500230)\n20%: MP Super Charge (500240)\n10%: MP Mega Charge (500250)"],
+        "effects": ["Randomly use:\n70%: MP Charge (500230): Restore 30 MP to self.\n20%: MP Super Charge (500240): Restore 75 MP to self.\n10%: MP Mega Charge (500250): Restore 120 MP to self."],
         "effects_raw": "29:500230&70,500240&20,500250&10,0,0",
         "unit_restriction": null,
         "strings": {
@@ -19762,7 +19762,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n70%: HP Charge (500260)\n20%: HP Super Charge (500270)\n10%: HP Mega Charge (500280)"],
+        "effects": ["Randomly use:\n70%: HP Charge (500260): Restore 40% HP and MP to self.\n20%: HP Super Charge (500270): Restore 70% HP and MP to self.\n10%: HP Mega Charge (500280): Restore 100% HP and MP to self."],
         "effects_raw": "29:500260&70,500270&20,500280&10,0,0",
         "unit_restriction": null,
         "strings": {
@@ -20572,7 +20572,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n25%: Giga Burst (500190)\n25%: Mega Burst (500180)\n25%: Short Burst (500200)\n25%: Long Burst (500210)"],
+        "effects": ["Randomly use:\n25%: Giga Burst (500190): Magical damage (2.56x MAG) to all enemies. Ignore reflect.\n25%: Mega Burst (500180): Magical damage (2.27x MAG) to all enemies. Ignore reflect.\n25%: Short Burst (500200): Inflict Stop (30%) for 1 turn(s) on one enemy.\n25%: Long Burst (500210): Inflict Stop (30%) for 3 turn(s) on one enemy."],
         "effects_raw": "29:500190&25,500180&25,500200&25,500210&25,0",
         "unit_restriction": [254000105, 254000106],
         "strings": {
@@ -32438,7 +32438,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n25%: Punishment (500310)\n25%: Punishment (500320)\n25%: Punishment (500330)\n25%: Punishment (500340)"],
+        "effects": ["Randomly use:\n25%: Punishment (500310): Reduce resistance to Fire and Water by 50% for 3 turns to all enemies.\n25%: Punishment (500320): Reduce resistance to Ice and Air by 50% for 3 turns to all enemies.\n25%: Punishment (500330): Reduce resistance to Lightning and Earth by 50% for 3 turns to all enemies.\n25%: Punishment (500340): Reduce resistance to Light and Dark by 50% for 3 turns to all enemies."],
         "effects_raw": "29:500310&25,500320&25,500330&25,500340&25,0",
         "unit_restriction": null,
         "strings": {
@@ -32648,7 +32648,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n25%: Your Guardian (500360)\n25%: Your Guardian (500370)\n25%: Your Guardian (500380)\n25%: Your Guardian (500390)"],
+        "effects": ["Randomly use:\n25%: Your Guardian (500360): Increase resistance to Fire and Water by 70% for 3 turns to all allies.\n25%: Your Guardian (500370): Increase resistance to Ice and Air by 70% for 3 turns to all allies.\n25%: Your Guardian (500380): Increase resistance to Lightning and Earth by 70% for 3 turns to all allies.\n25%: Your Guardian (500390): Increase resistance to Light and Dark by 70% for 3 turns to all allies."],
         "effects_raw": "29:500360&25,500370&25,500380&25,500390&25,0",
         "unit_restriction": null,
         "strings": {
@@ -35301,7 +35301,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Ice Blast (910068)\n30%: Ice Wave (910043)\n20%: Glacial Wave (910069)\n20%: Sub Zero (910044)"],
+        "effects": ["Randomly use:\n30%: Ice Blast (910068): Ice magical damage (1.6x MAG) to one enemy. and Reduce resistance to Ice by 30% for 3 turns to one enemy.\n30%: Ice Wave (910043): Ice magical damage (1.8x MAG) to all enemies.\n20%: Glacial Wave (910069): Ice magical damage (2.1x MAG) to all enemies. and Inflict Paralyze (30%) on all enemies.\n20%: Sub Zero (910044): Ice magical damage (2x MAG) to one enemy., Reduce resistance to Ice by 50% for 3 turns to one enemy. and Inflict Paralyze (100%) on one enemy."],
         "effects_raw": "29:910068&30,910043&30,910069&20,910044&20,0",
         "unit_restriction": null,
         "strings": {
@@ -35695,7 +35695,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n60%: Heal Self (910052)\n40%: Mass Heal (910053)"],
+        "effects": ["Randomly use:\n60%: Heal Self (910052): Restore 500 (+3x SPR) HP to UNKNOWN.\n40%: Mass Heal (910053): Restore 500 (+3x SPR) HP to all allies."],
         "effects_raw": "29:910052&60,910053&40,0,0,0",
         "unit_restriction": null,
         "strings": {
