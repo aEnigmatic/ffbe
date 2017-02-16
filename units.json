@@ -9019,7 +9019,7 @@
     },
     "202000103": {
         "rarity_min": 3,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Firion",
         "names": [
             "Firion",
@@ -9203,6 +9203,60 @@
                         ]
                     }
                 }
+            },
+            "202000106": {
+                "compendium_id": 428,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1167, 3537, 390],
+                    "MP": [47, 143, 65],
+                    "ATK": [44, 132, 26],
+                    "DEF": [42, 128, 34],
+                    "MAG": [38, 114, 26],
+                    "SPR": [38, 114, 26]
+                },
+                "attack_count": 2,
+                "attack_frames": [20, 41],
+                "max_lb_drop": 6,
+                "ability_slots": 4,
+                "magic_affinity": [5, 4, 4, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. Firion joined the rebel army led by Princess Hilda in order to recover his homeland of Fynn from the clutches of the Palamecian Empire. Unfortunately, however, the war costs Firion many of his allies and he is left to cope with the grief accompanying their loss. Eventually he welcomes back his childhood friend turned Dark Knight for the empire, Leon, and together they face off against the Emperor seeking to destroy their world.",
+                    "summon": "It seems you are able to fight without<br>giving up on your dreams, as well.<br>Allow me to assist you.",
+                    "evolution": "No matter what trials befall us,<br>we must keep moving forward.",
+                    "affinity": "My friends give me strength.<br>Nothing would make me happier than to make you feel the same.",
+                    "fusion": "Believe in the future, and push forward!<br>That's all you've got to do!"
+                },
+                "limitburst": {
+                    "names": "Sword of Rebellion",
+                    "attack_count": 5,
+                    "attack_frames": [45, 66, 78, 90, 105],
+                    "damage_type": "Physical",
+                    "element_inflict": null,
+                    "effects": ["Physical damage (3.1x ATK) to one enemy."],
+                    "effects_raw": "1:0,0,0,0,0,0,310",
+                    "strings": {
+                        "name": [
+                            "Sword of Rebellion",
+                            "\u53db\u9006\u4e4b\u528d",
+                            "\ubc18\ub780\uc758 \uac80",
+                            "\u00c9p\u00e9e de la rebellion",
+                            "Schwert der Rebellion",
+                            "Espada de rebeli\u00f3n"
+                        ],
+                        "desc": [
+                            "Damage one enemy",
+                            "\u653b\u64ca1\u540d\u6575\u4eba",
+                            "\uc801 1\uba85\uc5d0\uac8c \ud53c\ud574",
+                            "D\u00e9g\u00e2ts sur un ennemi",
+                            "Schaden, ein Ziel",
+                            "Da\u00f1a a un enemigo"
+                        ]
+                    }
+                }
             }
         },
         "skills": [
@@ -9214,12 +9268,25 @@
             {"rarity": 4, "level": 54, "type": "ABILITY", "id": 200270},
             {"rarity": 5, "level": 18, "type": "MAGIC", "id": 10120},
             {"rarity": 5, "level": 46, "type": "ABILITY", "id": 200440},
-            {"rarity": 5, "level": 69, "type": "ABILITY", "id": 200670}
+            {"rarity": 5, "level": 69, "type": "ABILITY", "id": 200670},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 205190},
+            {"rarity": 6, "level": 12, "type": "ABILITY", "id": 205240},
+            {"rarity": 6, "level": 21, "type": "ABILITY", "id": 101050},
+            {"rarity": 6, "level": 32, "type": "ABILITY", "id": 205230},
+            {"rarity": 6, "level": 41, "type": "ABILITY", "id": 101070},
+            {"rarity": 6, "level": 47, "type": "ABILITY", "id": 100070},
+            {"rarity": 6, "level": 47, "type": "ABILITY", "id": 100130},
+            {"rarity": 6, "level": 52, "type": "ABILITY", "id": 205220},
+            {"rarity": 6, "level": 55, "type": "ABILITY", "id": 100020},
+            {"rarity": 6, "level": 61, "type": "ABILITY", "id": 101080},
+            {"rarity": 6, "level": 72, "type": "ABILITY", "id": 205210},
+            {"rarity": 6, "level": 84, "type": "ABILITY", "id": 205250},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 205200}
         ]
     },
     "202000203": {
         "rarity_min": 3,
-        "rarity_max": 4,
+        "rarity_max": 5,
         "name": "Maria",
         "names": [
             "Maria",
@@ -9349,6 +9416,60 @@
                         ]
                     }
                 }
+            },
+            "202000205": {
+                "compendium_id": 429,
+                "rarity": 5,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [639, 1935, 390],
+                    "MP": [41, 123, 65],
+                    "ATK": [26, 80, 26],
+                    "DEF": [25, 75, 26],
+                    "MAG": [33, 99, 26],
+                    "SPR": [36, 110, 34]
+                },
+                "attack_count": 3,
+                "attack_frames": [69, 86, 103],
+                "max_lb_drop": 4,
+                "ability_slots": 3,
+                "magic_affinity": [7, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young lady who appears in a tale of rebels and empires, in a far-flung world. Maria joins the rebel army alongside Firion and Guy, and together they succeed in liberating Fynn after rescuing the captured Princess Hilda. Eventually they learn that the Palamecian Empire's Dark Knight is none other than Leon, which rocks Maria to the core. When Leon sought to crown himself the new emperor after the original Emperor's , Maria volunteers to help her brother regain his senses. Although stubborn by nature, Leon is moved by Maria's words and rejoins his friends.",
+                    "summon": "I'm looking for my long-lost brother.<br>If you know anything about him,<br>please let me know.",
+                    "evolution": "I wish there was no fighting in the world,<br>then no one would have to die...",
+                    "affinity": "We will need your strength if we hope to ever live in peace again.<br>I hope you will continue to aid us.",
+                    "fusion": "I can't allow myself to die<br>until I'm reunited with my family."
+                },
+                "limitburst": {
+                    "names": "Life Rain",
+                    "attack_count": 1,
+                    "attack_frames": [204],
+                    "damage_type": "Magical",
+                    "element_inflict": ["Light"],
+                    "effects": ["Restore 800 (+1.6x SPR) HP to all allies."],
+                    "effects_raw": "2:0,0,800,160,100",
+                    "strings": {
+                        "name": [
+                            "Life Rain",
+                            "\u751f\u547d\u6148\u96e8",
+                            "\uc0dd\uba85\uc758 \ub2e8\ube44",
+                            "Pluie r\u00e9g\u00e9n\u00e9ratrice",
+                            "Lebensregen",
+                            "Lluvia L\u00e1zaro"
+                        ],
+                        "desc": [
+                            "Restore HP for all allies",
+                            "\u6062\u5fa9\u5168\u9ad4\u968a\u54e1\u7684HP",
+                            "\uc544\uad70 \uc804\uccb4\uc758 HP \ud68c\ubcf5",
+                            "Soigne tous les alli\u00e9s",
+                            "Heilt LP, alle Verb.",
+                            "Recupera la VIT de todos los aliados"
+                        ]
+                    }
+                }
             }
         },
         "skills": [
@@ -9361,7 +9482,526 @@
             {"rarity": 3, "level": 40, "type": "ABILITY", "id": 201230},
             {"rarity": 4, "level": 7, "type": "MAGIC", "id": 10130},
             {"rarity": 4, "level": 23, "type": "MAGIC", "id": 10120},
-            {"rarity": 4, "level": 53, "type": "MAGIC", "id": 10150}
+            {"rarity": 4, "level": 53, "type": "MAGIC", "id": 10150},
+            {"rarity": 5, "level": 21, "type": "ABILITY", "id": 100050},
+            {"rarity": 5, "level": 38, "type": "MAGIC", "id": 10200},
+            {"rarity": 5, "level": 64, "type": "MAGIC", "id": 10160},
+            {"rarity": 5, "level": 70, "type": "ABILITY", "id": 205340},
+            {"rarity": 5, "level": 80, "type": "MAGIC", "id": 10100}
+        ]
+    },
+    "202000303": {
+        "rarity_min": 3,
+        "rarity_max": 5,
+        "name": "Guy",
+        "names": [
+            "Guy",
+            "\u5361\u4f0a",
+            "\uac00\uc774",
+            "Guy",
+            "Guy",
+            "Guy"
+        ],
+        "game_id": 10002,
+        "game": "FFII",
+        "job_id": 5,
+        "job": "Warrior",
+        "sex_id": 1,
+        "sex": "Male",
+        "is_summonable": true,
+        "TMR": [
+            "MATERIA",
+            504205350
+        ],
+        "equip": [1, 2, 8, 9, 10, 16, 30, 40, 41, 50, 51, 60],
+        "entries": {
+            "202000303": {
+                "compendium_id": 438,
+                "rarity": 3,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [531, 1609, 210],
+                    "MP": [21, 64, 25],
+                    "ATK": [21, 63, 10],
+                    "DEF": [19, 57, 10],
+                    "MAG": [17, 50, 10],
+                    "SPR": [18, 56, 10]
+                },
+                "attack_count": 1,
+                "attack_frames": [29],
+                "max_lb_drop": 6,
+                "ability_slots": 2,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. Guy was taken in by Leon and Maria's parents along with the orphaned Firion as part of their family. He boasts of great physical power to match his bulky and gigantic stature, but contrary to what his appearance may lead others to believe, is very gentle and kind in nature. His eloquence with words leaves much to be desired, however, as being raised by wolves when he was a babe impaired his ability to speak from infancy.",
+                    "summon": "I will follow you.<br>I, now with you.<br>My power, now yours.",
+                    "evolution": "",
+                    "affinity": "I am happy with you.<br>Our journey was fun.<br>Fight more, with me!",
+                    "fusion": "I'm stronger.<br>Still, I can grow stronger."
+                },
+                "limitburst": {
+                    "names": "Gaia's Roar",
+                    "attack_count": 1,
+                    "attack_frames": [62],
+                    "damage_type": "Physical",
+                    "element_inflict": ["Earth"],
+                    "effects": ["Earth physical damage (2.3x ATK) to one enemy."],
+                    "effects_raw": "1:0,0,0,0,0,0,230",
+                    "strings": {
+                        "name": [
+                            "Gaia's Roar",
+                            "\u5927\u5730\u5486\u54ee",
+                            "\uc9c0\uc5f4\ucc38",
+                            "Grondement de Ga\u00efa",
+                            "Gaias Br\u00fcllen",
+                            "Rugido de Gaia"
+                        ],
+                        "desc": [
+                            "Earth damage to one enemy",
+                            "\u5c0d1\u540d\u6575\u4eba\u767c\u52d5\u571f\u5c6c\u6027\u653b\u64ca",
+                            "\uc801 1\uba85\uc5d0\uac8c \ub545\uc18d\uc131 \ud53c\ud574",
+                            "D\u00e9g\u00e2ts de terre sur un ennemi",
+                            "Erdschaden, ein Ziel",
+                            "Da\u00f1o de tierra a un enemigo"
+                        ]
+                    }
+                }
+            },
+            "202000304": {
+                "compendium_id": 439,
+                "rarity": 4,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [690, 2092, 270],
+                    "MP": [28, 84, 35],
+                    "ATK": [27, 83, 14],
+                    "DEF": [25, 75, 14],
+                    "MAG": [21, 65, 14],
+                    "SPR": [24, 73, 14]
+                },
+                "attack_count": 1,
+                "attack_frames": [29],
+                "max_lb_drop": 8,
+                "ability_slots": 3,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. Guy possesses both an superhuman strength and a massive physical frame not present in any of his other adoptive siblings--Firion, Leon, and Maria. However, contrary to what his appearance may suggest, he is a kind a gentle soul at heart. Guy's ability to speak is no better than a child's after having been raised by wolves during the earliest years of his infancy. Curiously enough though, he is rumored to have been able to understand animals.",
+                    "summon": "I can understand animals.<br>They want to save you.<br>Surely, they will be of help.",
+                    "evolution": "Leave it to me.<br>I will protect everyone.<br>I will not lose!",
+                    "affinity": "I am happy with you.<br>Our journey was fun.<br>Fight more, with me!",
+                    "fusion": "Are there giant beavers<br>in this world, as well?"
+                },
+                "limitburst": {
+                    "names": "Gaia's Howl",
+                    "attack_count": 1,
+                    "attack_frames": [62],
+                    "damage_type": "Physical",
+                    "element_inflict": ["Earth"],
+                    "effects": ["Earth physical damage (2.5x ATK) to one enemy."],
+                    "effects_raw": "1:0,0,0,0,0,0,250",
+                    "strings": {
+                        "name": [
+                            "Gaia's Howl",
+                            "\u5927\u5730\u5486\u54ee",
+                            "\ub300\uc9c0\uc758 \ud3ec\ud6a8",
+                            "Grondement de Ga\u00efa",
+                            "Gaias Br\u00fcllen",
+                            "Rugido de Gaia"
+                        ],
+                        "desc": [
+                            "Earth damage to one enemy",
+                            "\u5c0d1\u540d\u6575\u4eba\u767c\u52d5\u571f\u5c6c\u6027\u653b\u64ca",
+                            "\uc801 1\uba85\uc5d0\uac8c \ub545\uc18d\uc131 \ud53c\ud574",
+                            "D\u00e9g\u00e2ts de terre sur un ennemi",
+                            "Erdschaden, ein Ziel",
+                            "Da\u00f1o de tierra a un enemigo"
+                        ]
+                    }
+                }
+            },
+            "202000305": {
+                "compendium_id": 440,
+                "rarity": 5,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [898, 2720, 360],
+                    "MP": [36, 110, 40],
+                    "ATK": [36, 108, 16],
+                    "DEF": [32, 98, 16],
+                    "MAG": [28, 85, 16],
+                    "SPR": [32, 96, 16]
+                },
+                "attack_count": 1,
+                "attack_frames": [29],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. Guy is a gentle-hearted lad of great prowess and stature who decided to join the rebel army alongside Firion and Maria after his homeland of Fynn met its destruction at the hands of the Emperor. He uses both his strength and his unique ability to communicate with animals in order to protect his friends throughout their journey. Vowing to fight until peace returns to their world, Guy continues supporting Firion every step of the way.",
+                    "summon": "You and me, now friends.<br>Friends make me happy.<br>I can try even harder.",
+                    "evolution": "I will end the fight.<br>I won't let anyone die.<br>No one!",
+                    "affinity": "I am happy with you.<br>Our journey was fun.<br>Fight more, with me!",
+                    "fusion": "I am happy.<br>With this power,<br>I can protect my friends."
+                },
+                "limitburst": {
+                    "names": "Gaia's Howl",
+                    "attack_count": 1,
+                    "attack_frames": [67],
+                    "damage_type": "Physical",
+                    "element_inflict": ["Earth"],
+                    "effects": ["Earth physical damage (2.7x ATK) to one enemy."],
+                    "effects_raw": "1:0,0,0,0,0,0,270",
+                    "strings": {
+                        "name": [
+                            "Gaia's Howl",
+                            "\u5927\u5730\u5486\u54ee",
+                            "\ub300\uc9c0\uc758 \ud3ec\ud6a8",
+                            "Grondement de Ga\u00efa",
+                            "Gaias Br\u00fcllen",
+                            "Rugido de Gaia"
+                        ],
+                        "desc": [
+                            "Earth damage to one enemy",
+                            "\u5c0d1\u540d\u6575\u4eba\u767c\u52d5\u571f\u5c6c\u6027\u653b\u64ca",
+                            "\uc801 1\uba85\uc5d0\uac8c \ub545\uc18d\uc131 \ud53c\ud574",
+                            "D\u00e9g\u00e2ts de terre sur un ennemi",
+                            "Erdschaden, ein Ziel",
+                            "Da\u00f1o de tierra a un enemigo"
+                        ]
+                    }
+                }
+            }
+        },
+        "skills": [
+            {"rarity": 3, "level": 4, "type": "ABILITY", "id": 101340},
+            {"rarity": 3, "level": 16, "type": "ABILITY", "id": 205370},
+            {"rarity": 4, "level": 25, "type": "ABILITY", "id": 205390},
+            {"rarity": 4, "level": 42, "type": "ABILITY", "id": 101410},
+            {"rarity": 4, "level": 60, "type": "ABILITY", "id": 205380},
+            {"rarity": 5, "level": 30, "type": "ABILITY", "id": 100010},
+            {"rarity": 5, "level": 51, "type": "ABILITY", "id": 205360},
+            {"rarity": 5, "level": 71, "type": "ABILITY", "id": 100070},
+            {"rarity": 5, "level": 71, "type": "ABILITY", "id": 100140},
+            {"rarity": 5, "level": 79, "type": "ABILITY", "id": 201170}
+        ]
+    },
+    "202000404": {
+        "rarity_min": 4,
+        "rarity_max": 5,
+        "name": "Leon",
+        "names": [
+            "Leon",
+            "\u840a\u6602\u54c8\u7279",
+            "\ub808\uc628\ud558\ub974\ud2b8",
+            "L\u00e9on",
+            "Leon",
+            "Leon"
+        ],
+        "game_id": 10002,
+        "game": "FFII",
+        "job_id": 64,
+        "job": "Fell Knight",
+        "sex_id": 1,
+        "sex": "Male",
+        "is_summonable": true,
+        "TMR": [
+            "MATERIA",
+            504205260
+        ],
+        "equip": [1, 2, 7, 8, 10, 30, 31, 40, 41, 51, 52, 60],
+        "entries": {
+            "202000404": {
+                "compendium_id": 441,
+                "rarity": 4,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [684, 2073, 210],
+                    "MP": [30, 90, 35],
+                    "ATK": [28, 86, 18],
+                    "DEF": [25, 77, 14],
+                    "MAG": [23, 70, 14],
+                    "SPR": [23, 70, 14]
+                },
+                "attack_count": 2,
+                "attack_frames": [22, 57],
+                "max_lb_drop": 4,
+                "ability_slots": 3,
+                "magic_affinity": [0, 2, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. Leon is older brother to Maria, and adoptive brother to Firion and Guy. Eventually he loses his parents to the invasion of the Palamecian Empire that strikes his homeland, and becomes separated from his siblings after suffering an attack by a Dark Knight. Lead astray by the circumstances surrounding him, he comes to believe that power is everything and joins forces with the empire, where his skill is immediately recognized and rewarded.",
+                    "summon": "It was you who called upon me?<br>You think you can beat me?",
+                    "evolution": "",
+                    "affinity": "To have supported me,<br>a betrayer of my homeland, for so long...<br>You're quite a curious one.",
+                    "fusion": "I've become stronger!<br>There's no way I'm letting go<br>of this new power!"
+                },
+                "limitburst": {
+                    "names": "Dark Ambition",
+                    "attack_count": 1,
+                    "attack_frames": [110],
+                    "damage_type": "Physical",
+                    "element_inflict": ["Dark"],
+                    "effects": [
+                        "Dark physical damage (2.3x ATK) to all enemies.",
+                        "Inflict Confusion (30%) on all enemies."
+                    ],
+                    "effects_raw": "1@6:0,0,0,0,0,0,230@0,0,0,0,0,30,0,0,1",
+                    "strings": {
+                        "name": [
+                            "Dark Ambition",
+                            "\u6697\u4e4b\u5919\u9858",
+                            "\uc5b4\ub460\uc758 \uc57c\ub9dd",
+                            "Ambition t\u00e9n\u00e9breuse",
+                            "Dunkle Ambitionen",
+                            "Ambici\u00f3n tenebrosa"
+                        ],
+                        "desc": [
+                            "Dark damage and confuse all enemies",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u6697\u5c6c\u6027\u653b\u64ca+\u6df7\u4e82",
+                            "\uc801 \uc804\uccb4\uc5d0 \uc5b4\ub460\uc18d\uc131 \ud53c\ud574+\ud63c\ub780",
+                            "D\u00e9g\u00e2ts de t\u00e9n\u00e8bres et inflige confusion \u00e0 tous les ennemis",
+                            "Dunkelschaden und Konfus, alle Ziele",
+                            "Da\u00f1o oscuro y confusi\u00f3n a enemigos"
+                        ]
+                    }
+                }
+            },
+            "202000405": {
+                "compendium_id": 442,
+                "rarity": 5,
+                "growth_pattern": 4,
+                "stats": {
+                    "HP": [889, 2695, 240],
+                    "MP": [39, 118, 40],
+                    "ATK": [37, 113, 24],
+                    "DEF": [33, 101, 16],
+                    "MAG": [30, 92, 16],
+                    "SPR": [30, 92, 16]
+                },
+                "attack_count": 2,
+                "attack_frames": [22, 57],
+                "max_lb_drop": 5,
+                "ability_slots": 4,
+                "magic_affinity": [0, 3, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. After the Palamecian Empire gains control of Fynn, Leon leaves the empire's forces to become the Dark Knight. He is then tasked with the building of the Dreadnought and serves as the right-hand man of the Emperor, doing his bidding throughout the land. Leon encounters Firion and the others under the guise of the Dark Knight numerous times, but it was not until they heard him speak that his sister Maria recognized his true identity.",
+                    "summon": "Rest assured,<br>I will not abandon my responsibilities<br>and leave you in the thick of it.",
+                    "evolution": "What is it that rules over all?<br>It's power, I tell you!",
+                    "affinity": "To have supported me,<br>a betrayer of my homeland, for so long...<br>You're quite a curious one.",
+                    "fusion": "This power is mine!<br>I'm not giving it to anyone!"
+                },
+                "limitburst": {
+                    "names": "Dark Ambition",
+                    "attack_count": 1,
+                    "attack_frames": [110],
+                    "damage_type": "Physical",
+                    "element_inflict": ["Dark"],
+                    "effects": [
+                        "Dark physical damage (2.5x ATK) to all enemies.",
+                        "Inflict Confusion (40%) on all enemies."
+                    ],
+                    "effects_raw": "1@6:0,0,0,0,0,0,250@0,0,0,0,0,40,0,0,1",
+                    "strings": {
+                        "name": [
+                            "Dark Ambition",
+                            "\u6697\u4e4b\u5919\u9858",
+                            "\uc5b4\ub460\uc758 \uc57c\ub9dd",
+                            "Ambition t\u00e9n\u00e9breuse",
+                            "Dunkle Ambitionen",
+                            "Ambici\u00f3n tenebrosa"
+                        ],
+                        "desc": [
+                            "Dark damage and confuse all enemies",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u6697\u5c6c\u6027\u653b\u64ca+\u6df7\u4e82",
+                            "\uc801 \uc804\uccb4\uc5d0 \uc5b4\ub460\uc18d\uc131 \ud53c\ud574+\ud63c\ub780",
+                            "D\u00e9g\u00e2ts de t\u00e9n\u00e8bres et inflige confusion \u00e0 tous les ennemis",
+                            "Dunkelschaden und Konfus, alle Ziele",
+                            "Da\u00f1o oscuro y confusi\u00f3n a enemigos"
+                        ]
+                    }
+                }
+            }
+        },
+        "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 205270},
+            {"rarity": 4, "level": 10, "type": "ABILITY", "id": 100080},
+            {"rarity": 4, "level": 10, "type": "ABILITY", "id": 100140},
+            {"rarity": 4, "level": 32, "type": "ABILITY", "id": 205300},
+            {"rarity": 4, "level": 41, "type": "ABILITY", "id": 205320},
+            {"rarity": 4, "level": 60, "type": "ABILITY", "id": 205330},
+            {"rarity": 5, "level": 21, "type": "ABILITY", "id": 205280},
+            {"rarity": 5, "level": 48, "type": "ABILITY", "id": 100010},
+            {"rarity": 5, "level": 55, "type": "ABILITY", "id": 200310},
+            {"rarity": 5, "level": 72, "type": "ABILITY", "id": 205290},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 205310}
+        ]
+    },
+    "202000505": {
+        "rarity_min": 5,
+        "rarity_max": 6,
+        "name": "Emperor",
+        "names": [
+            "Emperor",
+            "\u7687\u5e1d",
+            "\ud669\uc81c",
+            "Empereur",
+            "Imperator",
+            "Emperador"
+        ],
+        "game_id": 10002,
+        "game": "FFII",
+        "job_id": 56,
+        "job": "Emperor",
+        "sex_id": 1,
+        "sex": "Male",
+        "is_summonable": true,
+        "TMR": [
+            "EQUIP",
+            310001700
+        ],
+        "equip": [5, 6, 40, 50, 53, 60],
+        "entries": {
+            "202000505": {
+                "compendium_id": 443,
+                "rarity": 5,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [894, 2708, 240],
+                    "MP": [47, 141, 40],
+                    "ATK": [29, 89, 16],
+                    "DEF": [31, 93, 16],
+                    "MAG": [38, 114, 24],
+                    "SPR": [34, 103, 16]
+                },
+                "attack_count": 2,
+                "attack_frames": [31, 35],
+                "max_lb_drop": 5,
+                "ability_slots": 4,
+                "magic_affinity": [0, 8, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "The ruler of the empire that a rebel army opposes in tales from a distant world. The Emperor stands atop the war-hungry empire of Palamecia, and is a man with no regard for human life. Capable of terrible magic, he summons demonic forces from hell into the mortal realm to destroy the world. After leaving the kingdoms of Deist and Kashuan in ruins, he subjugates the remaining territories around him to his merciless rule. Even more disconcerting, however, he has also begun the construction of the Dreadnought, a war machine of great power capable of ruthless destruction.",
+                    "summon": "You require my power?<br>It will be quite costly, you know.",
+                    "evolution": "",
+                    "affinity": "Ha ha ha ha...<br>I approve of your service to me.",
+                    "fusion": "You're quite thoughtful.<br>I shall use this gift you have given me."
+                },
+                "limitburst": {
+                    "names": "Fierce Wind",
+                    "attack_count": 3,
+                    "attack_frames": [78, 90, 102],
+                    "damage_type": "Magical",
+                    "element_inflict": ["Air"],
+                    "effects": [
+                        "Air magical damage (2.5x MAG) to all enemies.",
+                        "resistance to all elements by -20% for 3 turns to all enemies."
+                    ],
+                    "effects_raw": "15@33:0,0,0,0,0,250@-20,-20,-20,-20,-20,-20,-20,-20,1,3",
+                    "strings": {
+                        "name": [
+                            "Fierce Wind",
+                            "\u9f8d\u6372",
+                            "\ud68c\uc624\ub9ac\ubc14\ub78c",
+                            "Cyclone",
+                            "Heftiger Wind",
+                            "Cicl\u00f3n"
+                        ],
+                        "desc": [
+                            "Wind damage and reduce all elemental resistances for all enemies",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u98a8\u5c6c\u6027\u653b\u64ca+\u964d\u4f4e\u5168\u5c6c\u6027\u8010\u6027",
+                            "\uc801 \uc804\uccb4\uc5d0 \ubc14\ub78c\uc18d\uc131 \ud53c\ud574+\ubaa8\ub4e0 \uc18d\uc131 \uc800\ud56d\ub825 \uac10\uc18c",
+                            "D\u00e9g\u00e2ts de vent et r\u00e9duit toutes les r\u00e9sistances \u00e9l\u00e9mentaires de tous les ennemis",
+                            "Windschaden und alle Res. runter, alle Ziele",
+                            "Da\u00f1o de viento y reduce las res. elementales a enemigos"
+                        ]
+                    }
+                }
+            },
+            "202000506": {
+                "compendium_id": 444,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1162, 3521, 390],
+                    "MP": [61, 184, 65],
+                    "ATK": [38, 116, 26],
+                    "DEF": [40, 121, 26],
+                    "MAG": [49, 149, 34],
+                    "SPR": [44, 134, 26]
+                },
+                "attack_count": 2,
+                "attack_frames": [31, 35],
+                "max_lb_drop": 6,
+                "ability_slots": 4,
+                "magic_affinity": [0, 8, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "strings": {
+                    "description": "The ruler of the empire that a rebel army opposes in tales from a distant world. The Emperor is the leader of the war-hungry empire of Palamecia, and a cruel man who believes in using any means necessary to satisfy his ambitions. He also views the rebel army based in Altair as nothing more than a source of entertainment on his path to world domination. However, he does kidnap the rebel army's leader Princess Hilda, in order to draw Firion and his friends to him. Not only does this lead to their first face to face encounter, but this underhanded tactic also results in the rebels' capture.",
+                    "summon": "What a feast we have before us.<br>I shall personally accompany you.",
+                    "evolution": "Bow before my power!",
+                    "affinity": "Ha ha ha ha...<br>I approve of your service to me.",
+                    "fusion": "I will crush the hopes and dreams<br>of all those pitiful little insects."
+                },
+                "limitburst": {
+                    "names": "Fierce Wind",
+                    "attack_count": 7,
+                    "attack_frames": [78, 82, 86, 90, 94, 98, 102],
+                    "damage_type": "Magical",
+                    "element_inflict": ["Air"],
+                    "effects": [
+                        "Air magical damage (2.7x MAG) to all enemies.",
+                        "resistance to all elements by -25% for 3 turns to all enemies."
+                    ],
+                    "effects_raw": "15@33:0,0,0,0,0,270@-25,-25,-25,-25,-25,-25,-25,-25,1,3",
+                    "strings": {
+                        "name": [
+                            "Fierce Wind",
+                            "\u9f8d\u6372",
+                            "\ud68c\uc624\ub9ac\ubc14\ub78c",
+                            "Cyclone",
+                            "Heftiger Wind",
+                            "Cicl\u00f3n"
+                        ],
+                        "desc": [
+                            "Wind damage and reduce all elemental resistances for all enemies",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u98a8\u5c6c\u6027\u653b\u64ca+\u964d\u4f4e\u5168\u5c6c\u6027\u8010\u6027",
+                            "\uc801 \uc804\uccb4\uc5d0 \ubc14\ub78c\uc18d\uc131 \ud53c\ud574+\ubaa8\ub4e0 \uc18d\uc131 \uc800\ud56d\ub825 \uac10\uc18c",
+                            "D\u00e9g\u00e2ts de vent et r\u00e9duit toutes les r\u00e9sistances \u00e9l\u00e9mentaires de tous les ennemis",
+                            "Windschaden und alle Res. runter, alle Ziele",
+                            "Da\u00f1o de viento y reduce las res. elementales a enemigos"
+                        ]
+                    }
+                }
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 3, "type": "MAGIC", "id": 20200},
+            {"rarity": 5, "level": 3, "type": "MAGIC", "id": 20210},
+            {"rarity": 5, "level": 3, "type": "MAGIC", "id": 20220},
+            {"rarity": 5, "level": 12, "type": "ABILITY", "id": 205020},
+            {"rarity": 5, "level": 27, "type": "MAGIC", "id": 20240},
+            {"rarity": 5, "level": 35, "type": "ABILITY", "id": 204990},
+            {"rarity": 5, "level": 40, "type": "ABILITY", "id": 100050},
+            {"rarity": 5, "level": 50, "type": "ABILITY", "id": 204980},
+            {"rarity": 5, "level": 60, "type": "ABILITY", "id": 205010},
+            {"rarity": 5, "level": 70, "type": "ABILITY", "id": 100120},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 200160},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 204960},
+            {"rarity": 6, "level": 21, "type": "ABILITY", "id": 205030},
+            {"rarity": 6, "level": 84, "type": "MAGIC", "id": 20350},
+            {"rarity": 6, "level": 92, "type": "ABILITY", "id": 205000},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 204970}
         ]
     },
     "202001402": {
@@ -19063,7 +19703,7 @@
                         "desc": [
                             "Damage one enemy and boost ATK, MAG, SPR, and DEF for all allies",
                             "\u653b\u64ca1\u540d\u6575\u4eba + \u6211\u65b9\u5168\u9ad4\u7684\u653b\u64ca\u9b54\u529b\u7cbe\u795e\u9632\u79a6\u63d0\u5347",
-                            "\uc801 \uc804\uccb4\uc5d0 \ud53c\ud574+\uc544\uad70 \uc804\uccb4\uc758 \uacf5\uaca9\ub825, \ub9c8\ub825, \uc815\uc2e0\ub825, \ubc29\uc5b4\ub825 \uc0c1\uc2b9",
+                            "\uc801 1\uba85\uc5d0\uac8c \ud53c\ud574+\uc544\uad70 \uc804\uccb4\uc758 \uacf5\uaca9\ub825, \ub9c8\ub825, \uc815\uc2e0\ub825, \ubc29\uc5b4\ub825 \uc0c1\uc2b9",
                             "Attaque un ennemi et augmente l'ATT, la MAGIE, la PSY et la DEF de tous les alli\u00e9s",
                             "Schaden f\u00fcr 1 Geg. u. erh\u00f6ht ANG, MAG, PSY u. ABW, alle Verb.",
                             "Da\u00f1o a un enemigo y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
@@ -19120,7 +19760,7 @@
                         "desc": [
                             "Damage one enemy and boost ATK, MAG, SPR, and DEF for all allies",
                             "\u653b\u64ca1\u540d\u6575\u4eba + \u6211\u65b9\u5168\u9ad4\u7684\u653b\u64ca\u9b54\u529b\u7cbe\u795e\u9632\u79a6\u63d0\u5347",
-                            "\uc801 \uc804\uccb4\uc5d0 \ud53c\ud574+\uc544\uad70 \uc804\uccb4\uc758 \uacf5\uaca9\ub825, \ub9c8\ub825, \uc815\uc2e0\ub825, \ubc29\uc5b4\ub825 \uc0c1\uc2b9",
+                            "\uc801 1\uba85\uc5d0\uac8c \ud53c\ud574+\uc544\uad70 \uc804\uccb4\uc758 \uacf5\uaca9\ub825, \ub9c8\ub825, \uc815\uc2e0\ub825, \ubc29\uc5b4\ub825 \uc0c1\uc2b9",
                             "Attaque un ennemi et augmente l'ATT, la MAGIE, la PSY et la DEF de tous les alli\u00e9s",
                             "Schaden f\u00fcr 1 Geg. u. erh\u00f6ht ANG, MAG, PSY u. ABW, alle Verb.",
                             "Da\u00f1o a un enemigo y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
@@ -20766,7 +21406,7 @@
                         ],
                         "desc": [
                             "Deal partial unmitigated fire damage to all enemies",
-                            "<br>\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
                             "\uc801 \uc804\uccb4\uc5d0 \ubd88\uc18d\uc131\uc758 \uc77c\ubd80 \ubc29\uc5b4 \ubb34\uc2dc \ud53c\ud574",
                             "D\u00e9g\u00e2ts magiques de feu en partie fixes sur tous les ennemis",
                             "Teilweise direkter Feuerschaden, alle Ziele",
@@ -20820,7 +21460,7 @@
                         ],
                         "desc": [
                             "Deal partial unmitigated fire damage to all enemies",
-                            "<br>\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
                             "\uc801 \uc804\uccb4\uc5d0 \ubd88\uc18d\uc131\uc758 \uc77c\ubd80 \ubc29\uc5b4 \ubb34\uc2dc \ud53c\ud574",
                             "D\u00e9g\u00e2ts magiques de feu en partie fixes sur tous les ennemis",
                             "Teilweise direkter Feuerschaden, alle Ziele",
@@ -20874,7 +21514,7 @@
                         ],
                         "desc": [
                             "Deal partial unmitigated fire damage to all enemies",
-                            "<br>\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
+                            "\u5c0d\u5168\u9ad4\u6575\u4eba\u767c\u52d5\u706b\u5c6c\u6027\u7121\u8996\u90e8\u4efd\u9632\u79a6\u7684\u653b\u64ca",
                             "\uc801 \uc804\uccb4\uc5d0 \ubd88\uc18d\uc131\uc758 \uc77c\ubd80 \ubc29\uc5b4 \ubb34\uc2dc \ud53c\ud574",
                             "D\u00e9g\u00e2ts magiques de feu en partie fixes sur tous les ennemis",
                             "Teilweise direkter Feuerschaden, alle Ziele",
@@ -25107,7 +25747,7 @@
                             "Damage and reduce dark and lightning resistance for all enemies",
                             "\u653b\u64ca\u5168\u9ad4\u6575\u4eba + \u964d\u4f4e\u6697\u96f7\u5c6c\u6027\u8010\u6027",
                             "\uc801 \uc804\uccb4\uc5d0 \ud53c\ud574+\ubc88\uac1c\uc640 \uc5b4\ub460\uc18d\uc131 \uc800\ud56d\ub825 \uac10\uc18c",
-                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la lumi\u00e8re de tous les ennemis",
+                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la foudre de tous les ennemis",
                             "Schaden und reduzierte Dunkel- und Blitzr. runter, alle Gegner.",
                             "Da\u00f1a y reduce la res. a oscuridad y rayo de todos los enemigos"
                         ]
@@ -25164,7 +25804,7 @@
                             "Damage and reduce dark and lightning resistance for all enemies",
                             "\u653b\u64ca\u5168\u9ad4\u6575\u4eba + \u964d\u4f4e\u6697\u96f7\u5c6c\u6027\u8010\u6027",
                             "\uc801 \uc804\uccb4\uc5d0 \ud53c\ud574+\ubc88\uac1c\uc640 \uc5b4\ub460\uc18d\uc131 \uc800\ud56d\ub825 \uac10\uc18c",
-                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la lumi\u00e8re de tous les ennemis",
+                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la foudre de tous les ennemis",
                             "Schaden und reduzierte Dunkel- und Blitzr. runter, alle Gegner.",
                             "Da\u00f1a y reduce la res. a oscuridad y rayo de todos los enemigos"
                         ]
@@ -25221,7 +25861,7 @@
                             "Damage and reduce dark and lightning resistance for all enemies",
                             "\u653b\u64ca\u5168\u9ad4\u6575\u4eba + \u964d\u4f4e\u6697\u96f7\u5c6c\u6027\u8010\u6027",
                             "\uc801 \uc804\uccb4\uc5d0 \ud53c\ud574+\ubc88\uac1c\uc640 \uc5b4\ub460\uc18d\uc131 \uc800\ud56d\ub825 \uac10\uc18c",
-                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la lumi\u00e8re de tous les ennemis",
+                            "D\u00e9g\u00e2ts et r\u00e9duit la r\u00e9sistance aux t\u00e9n\u00e8bres et \u00e0 la foudre de tous les ennemis",
                             "Schaden und reduzierte Dunkel- und Blitzr. runter, alle Gegner.",
                             "Da\u00f1a y reduce la res. a oscuridad y rayo de todos los enemigos"
                         ]
