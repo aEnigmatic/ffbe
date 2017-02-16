@@ -320,7 +320,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 400 (+3x SPR) HP to UNKNOWN."],
+        "effects": ["Restore 400 (+3x SPR) HP to all allies."],
         "effects_raw": "2:0,0,400,300,100",
         "strings": {
             "name": [
@@ -856,7 +856,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+3.4x SPR) HP to UNKNOWN."],
+        "effects": ["Restore 1000 (+3.4x SPR) HP to all allies."],
         "effects_raw": "2:0,0,1000,340,100",
         "strings": {
             "name": [
@@ -7713,8 +7713,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "UNKNOWN EFFECT when HP drops below 30%.",
-            "UNKNOWN EFFECT when HP drops below 30%."
+            "Increase MAG by 20% when HP drops below 30%.",
+            "Increase HP by 20% when HP drops below 30%."
         ],
         "effects_raw": "4@4:2,20,9000,30,0,-1@4,20,9000,30,0,-1",
         "unit_restriction": null,
@@ -13235,7 +13235,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Nullify next spell(s) for 1 turn(s) on UNKNOWN."],
+        "effects": ["Nullify next spell(s) for 1 turn(s) on self."],
         "effects_raw": "84:1,0,1",
         "unit_restriction": null,
         "strings": {
@@ -17197,7 +17197,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Fixed  damage (2000) to UNKNOWN.",
+            "Fixed  damage (2000) to self.",
             "Increase ATK by 50% for 3 turn(s) to all allies."
         ],
         "effects_raw": "41@3:2000@50,0,0,0,3,1",
@@ -26571,7 +26571,7 @@
         "element_inflict": null,
         "effects": [
             "Reduce SPR by 40% for 5 turn(s) to all enemies.",
-            "Increase SPR by 60% for 5 turn(s) to UNKNOWN."
+            "Increase SPR by 60% for 5 turn(s) to self."
         ],
         "effects_raw": "24@3:0,0,0,-40,5,1@0,0,0,60,5,1",
         "unit_restriction": null,
@@ -26615,7 +26615,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Increase MAG by 100% for 5 turn(s) to UNKNOWN.",
+            "Increase MAG by 100% for 5 turn(s) to self.",
             "Reduce SPR by 20% for 5 turn(s) to the rest of the party."
         ],
         "effects_raw": "3@24:0,0,100,0,5,1@0,0,0,-20,5,1",
@@ -26661,7 +26661,7 @@
         "element_inflict": null,
         "effects": [
             "50% HP damage to the rest of the party.",
-            "Restore 100 MP to UNKNOWN."
+            "Restore 100 MP to self."
         ],
         "effects_raw": "9@17:50,50,100@100",
         "unit_restriction": null,
@@ -28956,10 +28956,10 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "UNKNOWN EFFECT when HP drops below 50%.",
-            "UNKNOWN EFFECT when HP drops below 50%.",
-            "UNKNOWN EFFECT when HP drops below 50%.",
-            "UNKNOWN EFFECT when HP drops below 50%."
+            "Increase DEF by 40% when HP drops below 50%.",
+            "Increase MAG by 40% when HP drops below 50%.",
+            "Increase SPR by 40% when HP drops below 50%.",
+            "Increase HP by 40% when HP drops below 50%."
         ],
         "effects_raw": "4@4@4@4:1,40,9000,50,0,-1@2,40,9000,50,0,-1@3,40,9000,50,0,-1@4,40,9000,50,0,-1",
         "unit_restriction": null,
@@ -34943,7 +34943,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["UNKNOWN EFFECT when HP drops below 30%."],
+        "effects": ["Increase DEF by 30% when HP drops below 30%."],
         "effects_raw": "4:1,30,9000,30,0,-1",
         "unit_restriction": null,
         "strings": {
@@ -35545,8 +35545,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "UNKNOWN EFFECT for 3 turn(s) when HP drops below 30%.",
-            "UNKNOWN EFFECT for 3 turn(s) when HP drops below 30%."
+            "Increase DEF by 30% for 3 turn(s) when HP drops below 30%.",
+            "Increase SPR by 30% for 3 turn(s) when HP drops below 30%."
         ],
         "effects_raw": "4@4:1,30,9000,30,0,3@3,30,9000,30,0,3",
         "unit_restriction": null,
@@ -35725,8 +35725,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "UNKNOWN EFFECT when HP drops below 30%.",
-            "UNKNOWN EFFECT when HP drops below 30%."
+            "Increase MAG by 30% when HP drops below 30%.",
+            "Increase HP by 30% when HP drops below 30%."
         ],
         "effects_raw": "4@4:2,30,9000,30,0,-1@4,30,9000,30,0,-1",
         "unit_restriction": null,
@@ -36865,7 +36865,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase SPR by 60% and Reduce ATK by 30% for 4 turn(s) to UNKNOWN."],
+        "effects": ["Increase SPR by 60% and Reduce ATK by 30% for 4 turn(s) to self."],
         "effects_raw": "3:-30,0,0,60,4,1",
         "unit_restriction": null,
         "strings": {
@@ -36998,8 +36998,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Cure Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease, Stone for UNKNOWN.",
-            "Increase resistance to all status effects by 100% for UNKNOWN."
+            "Cure Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease, Stone for self.",
+            "Increase resistance to all status effects by 100% for self."
         ],
         "effects_raw": "5@7:1,2,3,4,5,6,7,8@100,100,100,100,100,100,100,100,1,2",
         "unit_restriction": null,
@@ -37042,7 +37042,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n60%: Heal Self (910052): Restore 500 (+3x SPR) HP to UNKNOWN.\n40%: Mass Heal (910053): Restore 500 (+3x SPR) HP to all allies."],
+        "effects": ["Randomly use:\n60%: Heal Self (910052): Restore 500 (+3x SPR) HP to self.\n40%: Mass Heal (910053): Restore 500 (+3x SPR) HP to all allies."],
         "effects_raw": "29:910052&60,910053&40,0,0,0",
         "unit_restriction": null,
         "strings": {
@@ -37084,7 +37084,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Restore 500 (+3x SPR) HP to UNKNOWN."],
+        "effects": ["Restore 500 (+3x SPR) HP to self."],
         "effects_raw": "2:0,0,500,300,100",
         "unit_restriction": null,
         "strings": {
@@ -38613,9 +38613,9 @@
         "element_inflict": null,
         "effects": [
             "Skip 1 turn(s).",
-            "Restore 0 HP (15x) over 3 turn(s) to UNKNOWN.",
-            "Restore 0 MP (+0.65x) over 3 turn(s) to UNKNOWN.",
-            "Increase ATK and DEF by 40% for 3 turn(s) to UNKNOWN."
+            "Restore 0 HP (15x) over 3 turn(s) to self.",
+            "Restore 0 MP (+0.65x) over 3 turn(s) to self.",
+            "Increase ATK and DEF by 40% for 3 turn(s) to self."
         ],
         "effects_raw": "56@8@30@3:0,1,0,2@0,1,1500,3@0,1,65,3@40,40,0,0,3,1",
         "unit_restriction": null,
@@ -38659,7 +38659,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Inflict berserk (+100% ATK) on UNKNOWN for 3 turns.",
+            "Inflict berserk (+100% ATK) on self for 3 turns.",
             "Increase chance of being targeted by 50 for 3 turn(s)."
         ],
         "effects_raw": "68@61:3,100@50,3",
