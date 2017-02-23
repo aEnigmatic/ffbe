@@ -31787,16 +31787,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            205560,
-            "Adds chance of escaping death when HP drops below a certain level.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 51,
-                "scaling": [40, 50, 0, 3]
-            }
-        ],
+        "effects": ["40% chance to ignore fatal damage when HP is above 50% (max 3 times)."],
         "effects_raw": "51:40,50,0,3",
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -32755,16 +32746,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            205790,
-            "Adds a chance of taking physical damage for an ally.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 96,
-                "scaling": [1, 0, 30, 30, 20, 100, 1, 1]
-            }
-        ],
+        "effects": ["Gain 20% chance of intercepting physical damage to allies for 1 turn(s), reducing all damage by 30%."],
         "effects_raw": "96:1,0,30,30,20,100,1,1",
         "unit_restriction": null,
         "icon": "ability_69.png",
@@ -34134,16 +34116,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            206120,
-            "Adds chance of escaping death when HP drops below a certain level.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 51,
-                "scaling": [40, 30, 0, 1]
-            }
-        ],
+        "effects": ["40% chance to ignore fatal damage when HP is above 30% (max 1 times)."],
         "effects_raw": "51:40,30,0,1",
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -35246,16 +35219,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            206370,
-            "Boosts MAG for next turn.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 90,
-                "scaling": [200, 200, 0]
-            }
-        ],
+        "effects": ["Increase MAG by 200% for the next turn to self."],
         "effects_raw": "90:200,200,0",
         "unit_restriction": null,
         "icon": "ability_87.png",
@@ -35733,16 +35697,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            206480,
-            "Adds a chance of taking physical damage for an ally.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 96,
-                "scaling": [1, 0, 50, 50, 50, 100, 3, 1]
-            }
-        ],
+        "effects": ["Gain 50% chance of intercepting physical damage to allies for 3 turn(s), reducing all damage by 50%."],
         "effects_raw": "96:1,0,50,50,50,100,3,1",
         "unit_restriction": null,
         "icon": "ability_69.png",
@@ -40146,16 +40101,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            207480,
-            "Adds chance of escaping death when HP drops below a certain level.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 51,
-                "scaling": [10, 80, 0, 1]
-            }
-        ],
+        "effects": ["10% chance to ignore fatal damage when HP is above 80% (max 1 times)."],
         "effects_raw": "51:10,80,0,1",
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -44739,7 +44685,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Leap (500930): Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy.\n25%: Leap (500940): Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy.\n25%: Leap (500950): Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy.\n15%: Leap (500960): Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover.\n5%: Leap (500970): Grants access to following skills for 2 turns:\nCat Scratch (500900): Physical damage (1x ATK) to one enemy.\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to random ally."],
+        "effects": ["Randomly use:\n30%: Leap (500930): Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy.\n25%: Leap (500940): Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy.\n25%: Leap (500950): Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy.\n15%: Leap (500960): Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover.\n5%: Leap (500970): Grants access to following skills for 2 turns:\nCat Scratch (500900): Physical damage (1x ATK) to one enemy.\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to one random ally."],
         "effects_raw": "29:500930&30,500940&25,500950&25,500960&15,500970&5",
         "unit_restriction": null,
         "icon": "ability_83.png",
@@ -48181,16 +48127,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            209370,
-            "Adds a chance of taking physical damage for an ally.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 96,
-                "scaling": [1, 0, 30, 30, 20, 100, 1, 1]
-            }
-        ],
+        "effects": ["Gain 20% chance of intercepting physical damage to allies for 1 turn(s), reducing all damage by 30%."],
         "effects_raw": "96:1,0,30,30,20,100,1,1",
         "unit_restriction": null,
         "icon": "ability_69.png",
@@ -60094,16 +60031,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            600060,
-            "Adds chance of escaping death when HP drops below a certain level.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 51,
-                "scaling": [40, 30, 0, 1]
-            }
-        ],
+        "effects": ["40% chance to ignore fatal damage when HP is above 30% (max 1 times)."],
         "effects_raw": "51:40,30,0,1",
         "unit_restriction": null,
         "icon": "ability_41.png",
