@@ -32292,7 +32292,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Physical damage (10.42x ATK) to UNKNOWN. Ignore cover."],
+        "effects": ["Physical damage (10.42x ATK) to random unit. Ignore cover."],
         "effects_raw": "21:0,0,375,-64",
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -41518,14 +41518,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            207790,
-            "Damages one enemy, and increase damage dealt when used after fast blade.",
-            {
-                "target_area_type": 1,
-                "target_faction_type": 1,
-                "scaling_type": 99,
-                "scaling": [2, 207780, 2, 500530, 2, 500540]
-            }
+            "If used after Fast Blade: \"Physical damage (3x ATK) to one enemy.\", otherwise: \"Physical damage (1.5x ATK) to one enemy.\"."
         ],
         "effects_raw": "99:2,207780,2,500530,2,500540",
         "unit_restriction": null,
@@ -43298,7 +43291,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n50%: Aqua Gamble (500560): Adds Water (100%) element to physical attacks for 3.\n50%: Aqua Gamble (500570): Water physical damage (2x ATK) to all allies."],
+        "effects": ["Randomly use:\n50%: Aqua Gamble (500560): Adds  element to physical attacks for 3 turn(s).\n50%: Aqua Gamble (500570): Water physical damage (2x ATK) to all allies."],
         "effects_raw": "29:500560&50,500570&50,0,0,0",
         "unit_restriction": null,
         "icon": "ability_83.png",
@@ -43431,14 +43424,7 @@
         "damage_type": "Magical",
         "element_inflict": null,
         "effects": [
-            208250,
-            "Deals damage unaffected by SPR to all enemies.",
-            {
-                "target_area_type": 2,
-                "target_faction_type": 1,
-                "scaling_type": 99,
-                "scaling": [2, 208240, 2, 500590, 2, 500580]
-            }
+            "If used after Magical Activation: \"Magical damage (7.2x MAG) to all enemies. Ignore reflect.\", otherwise: \"Magical damage (3.6x MAG) to all enemies. Ignore reflect.\"."
         ],
         "effects_raw": "99:2,208240,2,500590,2,500580",
         "unit_restriction": null,
@@ -44012,20 +43998,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50% for 4 turn(s) to self.",
-            208390,
-            "Boosts MAG for the caster, and enables use of special abilities for three turns.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 1, 2],
-                    [200150, 20430, 500580],
-                    99999,
-                    4,
-                    1
-                ]
-            }
+            "Grants access to following skills for 2 turns:\nDualcast (200150): Enable unit to use magic (excluding blue magic) twice in one turn.\nMeteor (20430): Magical damage (3.33x MAG) to all enemies. Ignore reflect.\nChaos Wave (500580): Magical damage (3.6x MAG) to all enemies. Ignore reflect."
         ],
         "effects_raw": "3@100:0,0,50,0,4,1@2&1&2,200150&20430&500580,99999,4,1",
         "unit_restriction": null,
@@ -44766,7 +44739,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Leap (500930): Unknown\n25%: Leap (500940): Unknown\n25%: Leap (500950): Unknown\n15%: Leap (500960): Unknown\n5%: Leap (500970): Unknown"],
+        "effects": ["Randomly use:\n30%: Leap (500930): Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy.\n25%: Leap (500940): Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy.\n25%: Leap (500950): Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy.\n15%: Leap (500960): Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover.\n5%: Leap (500970): Grants access to following skills for 2 turns:\nCat Scratch (500900): Physical damage (1x ATK) to one enemy.\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to random ally."],
         "effects_raw": "29:500930&30,500940&25,500950&25,500960&15,500970&5",
         "unit_restriction": null,
         "icon": "ability_83.png",
@@ -45606,20 +45579,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            208750,
-            "Enables special abilities and reduces damage taken by caster for one turn.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [501060, 501070, 501080],
-                    99999,
-                    2,
-                    1
-                ]
-            },
+            "Grants access to following skills for 2 turns:\nHP Enhancer (501060): Restore 100% HP and MP to all allies.\nMP Enhancer (501070): Restore 75 MP to all allies.\nPower Down (501080): Reduce ATK, DEF, MAG and SPR by 30% for 3 turn(s) to all enemies.",
             "Reduces damage dealt by 20% to self for 1 turn(s)."
         ],
         "effects_raw": "100@101:2&2&2,501060&501070&501080,99999,2,1@20,1,1",
@@ -46277,20 +46237,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to all enemies.",
-            208930,
-            "Damages all enemies and enable special abilities for one turn.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [501090, 501100, 501110],
-                    99999,
-                    2,
-                    1
-                ]
-            }
+            "Grants access to following skills for 2 turns:\nBerserker Serum (501090): Increase ATK and MAG by 80% for 1 turn(s) to all allies.\nBlockade Serum (501100): Increase DEF and SPR by 80% for 1 turn(s) to all allies.\nResist Down (501110): Reduce resistance to all elements by 50% for 1 turns to all enemies."
         ],
         "effects_raw": "1@100:0,0,0,0,0,0,180@2&2&2,501090&501100&501110,99999,2,1",
         "unit_restriction": null,
@@ -46681,22 +46628,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            209020,
-            "Enables special abilities for three turns.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [501120, 501130, 501140],
-                    99999,
-                    4,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nSunburst (501120): Fixed  damage (19998) to all enemies.\nHazardous Shell (501130): Physical damage (1.8x ATK) to all enemies. and Inflict 2 random status effects (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%).\nHyper NulAll (501140): Increase resistance to all elements by 40% for 3 turns to all allies. and Reduces damage dealt by 30% to all allies for 3 turn(s)."],
         "effects_raw": "100:2&2&2,501120&501130&501140,99999,4,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -47524,8 +47456,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Increase UNKNOWN by 800% when HP drops below 50%.",
-            "Increase UNKNOWN by 20% when HP drops below 50%."
+            "Regenerate 800 HP per turn when HP drops below 50%.",
+            "Regenerate 20 MP per turn when HP drops below 50%."
         ],
         "effects_raw": "4@4:20,800,9000,50,0,-1@22,20,9000,50,0,-1",
         "unit_restriction": null,
@@ -47614,17 +47546,7 @@
         "element_inflict": null,
         "effects": [
             "15% chance of evading physical attacks.",
-            209230,
-            "Adds chance of dodging a physical or magic attack, and nullifies paralysis, confusion, and stone.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 54,
-                "scaling": [
-                    "-1",
-                    15
-                ]
-            },
+            "15% chance of evading magical attacks.",
             "Increase resistance to Paralyze, Confusion and Stone by 100%."
         ],
         "effects_raw": "22@54@2:15@-1,15@0,0,0,0,100,100,0,100",
@@ -50074,14 +49996,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            210000,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 209960, 2, 501240, 2, 501250]
-            }
+            "If used after : \"Reduce ATK and DEF by 45% for 3 turn(s) to all enemies.\", otherwise: \"Reduce ATK and DEF by 45% for 3 turn(s) to one enemy.\"."
         ],
         "effects_raw": "99:2,209960,2,501240,2,501250",
         "unit_restriction": null,
@@ -50105,14 +50020,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            210010,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 501320, 2, 501260, 2, 501270]
-            }
+            "If used after : \"Auto-revive (80% HP) for 3 turn(s) to all allies.\", otherwise: \"Auto-revive (80% HP) for 3 turn(s) to self.\"."
         ],
         "effects_raw": "99:2,501320,2,501260,2,501270",
         "unit_restriction": null,
@@ -50136,14 +50044,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            210020,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 501240, 2, 501280, 2, 501290]
-            }
+            "If used after : \"Physical damage (5x ATK) to all enemies. Ignore cover.\", otherwise: \"Physical damage (2.5x ATK) to all enemies.\"."
         ],
         "effects_raw": "99:2,501240,2,501280,2,501290",
         "unit_restriction": null,
@@ -50167,14 +50068,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            210030,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 501260, 2, 501300, 2, 501310]
-            }
+            "If used after : \"Restore 130 MP to all allies.\", otherwise: \"Restore 30 MP (+0.1x) over 3 turn(s) to all allies.\"."
         ],
         "effects_raw": "99:2,501260,2,501300,2,501310",
         "unit_restriction": null,
@@ -50198,14 +50092,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            210040,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 209960, 2, 501320, 2, 501330]
-            }
+            "If used after : \"Physical damage (2.4x ATK) to one enemy. Ignore cover. and Increase ATK by 100% for 3 turn(s) to self.\", otherwise: \"Physical damage (2.4x ATK) to one enemy. Ignore cover.\"."
         ],
         "effects_raw": "99:2,209960,2,501320,2,501330",
         "unit_restriction": null,
@@ -50229,14 +50116,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            210050,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 99,
-                "scaling": [2, 501320, 2, 501340, 2, 501350]
-            }
+            "If used after : \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\n (501360): Physical damage (1x ATK) to one enemy. Ignore cover. and Reduces damage dealt by 50% to self for 2 turn(s).\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
         ],
         "effects_raw": "99:2,501320,2,501340,2,501350",
         "unit_restriction": null,
@@ -51777,7 +51657,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "25% chance to cast Holy (10280) on one random enemy after being attacked. Can trigger multiple times.",
+            "25% chance to cast Holy (10280) on the attacker after being attacked. Can trigger multiple times.",
             "25% chance of evading physical attacks."
         ],
         "effects_raw": "49@22:25,2,10280@25",
@@ -58450,7 +58330,7 @@
         "effect_type": "Revive",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Auto-revive (80% HP) for 3 turn(s) to UNKNOWN."],
+        "effects": ["Auto-revive (80% HP) for 3 turn(s) to one random ally."],
         "effects_raw": "27:80,3",
         "unit_restriction": null,
         "icon": "ability_1.png",
@@ -58493,22 +58373,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            500930,
-            "Randomly enables a special ability only usable during this battle.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2],
-                    [500790, 500800],
-                    99999,
-                    99999,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy."],
         "effects_raw": "100:2&2,500790&500800,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58551,22 +58416,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            500940,
-            "Randomly enables a special ability only usable during this battle.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [500810, 500820, 500830],
-                    99999,
-                    99999,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy."],
         "effects_raw": "100:2&2&2,500810&500820&500830,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58609,22 +58459,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            500950,
-            "Randomly enables a special ability only usable during this battle.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [500840, 500850, 500860],
-                    99999,
-                    99999,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy."],
         "effects_raw": "100:2&2&2,500840&500850&500860,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58667,22 +58502,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            500960,
-            "Randomly enables a special ability only usable during this battle.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [500890, 500870, 500880],
-                    99999,
-                    99999,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover."],
         "effects_raw": "100:2&2&2,500890&500870&500880,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58725,22 +58545,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            500970,
-            "Randomly enables a special ability only usable during this battle.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [
-                    [2, 2, 2],
-                    [500900, 500910, 500920],
-                    99999,
-                    99999,
-                    1
-                ]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nCat Scratch (500900): Physical damage (1x ATK) to one enemy.\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to one random ally."],
         "effects_raw": "100:2&2&2,500900&500910&500920,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -59520,16 +59325,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": [
-            501170,
-            "Enables use of special abilities for one turn.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [2, 501160, 99999, 1, 1]
-            }
-        ],
+        "effects": ["Grants access to following skills for 2 turns:\nFinishing Blow (501160): Physical damage (1x ATK) to one enemy. Ignore cover."],
         "effects_raw": "100:2,501160,99999,1,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -59964,14 +59760,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (3.33x ATK) to all enemies. Ignore cover.",
-            501340,
-            null,
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [2, 501360, 1, 99999, 1]
-            }
+            "Grants access to following skills for 2 turns:\n (501360): Physical damage (1x ATK) to one enemy. Ignore cover. and Reduces damage dealt by 50% to self for 2 turn(s)."
         ],
         "effects_raw": "21@100:0,0,250,-25@2,501360,1,99999,1",
         "unit_restriction": null,
@@ -61935,17 +61724,7 @@
         "element_inflict": null,
         "effects": [
             "30% chance of evading physical attacks.",
-            700330,
-            "Adds chance of dodging a physical or magic attack.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 54,
-                "scaling": [
-                    "-1",
-                    10
-                ]
-            }
+            "10% chance of evading magical attacks."
         ],
         "effects_raw": "22@54:30@-1,10",
         "unit_restriction": null,
@@ -61991,17 +61770,7 @@
         "element_inflict": null,
         "effects": [
             "30% chance of evading physical attacks.",
-            700340,
-            "Adds chance of dodging a physical or magic attack.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 54,
-                "scaling": [
-                    "-1",
-                    20
-                ]
-            }
+            "20% chance of evading magical attacks."
         ],
         "effects_raw": "22@54:30@-1,20",
         "unit_restriction": null,
@@ -62446,14 +62215,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50% for 3 turn(s) to self.",
-            700440,
-            "Boosts MAG for caster and enables use of special abilities for two turns.",
-            {
-                "target_area_type": 0,
-                "target_faction_type": 3,
-                "scaling_type": 100,
-                "scaling": [1, 20171, 9999, 3, 1]
-            }
+            "Grants access to following skills for 1 turns:\nBluff (Comet) (20171): Magical damage (2x MAG) with consecutive damage increase (max. 3 times, +0.1x MAG each) to one enemy."
         ],
         "effects_raw": "3@100:0,0,50,0,3,1@1,20171,9999,3,1",
         "unit_restriction": null,
