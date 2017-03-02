@@ -605,7 +605,7 @@
         "type": "MAGIC",
         "active": true,
         "usable_in_exploration": false,
-        "name": "リジェネ(漆黒用)",
+        "name": "Regen",
         "compendium_id": 14,
         "rarity": 4,
         "magic_type": "White",
@@ -619,7 +619,11 @@
         "effects_raw": "8:100,1,9999,-1",
         "icon": "ability_4.png",
         "strings": {
-            "name": ["リジェネ(漆黒用)"],
+            "name": {
+                "0": "Regen",
+                "1": "リジェネ(漆黒用)",
+                "5": "Revitalia"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -4858,7 +4862,9 @@
         "effects_raw": "70:0,0,280,25",
         "icon": "ability_37.png",
         "strings": {
-            "name": ["アルテマ"],
+            "name": {
+                "1": "アルテマ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -4881,7 +4887,9 @@
         "effects_raw": "70:0,0,280,50",
         "icon": "ability_37.png",
         "strings": {
-            "name": ["アルテマ"],
+            "name": {
+                "1": "アルテマ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -4904,7 +4912,9 @@
         "effects_raw": "4:100",
         "icon": "ability_1.png",
         "strings": {
-            "name": ["アレイズ"],
+            "name": {
+                "1": "アレイズ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -4927,7 +4937,9 @@
         "effects_raw": "4:100",
         "icon": "ability_1.png",
         "strings": {
-            "name": ["アレイズ"],
+            "name": {
+                "1": "アレイズ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -6508,7 +6520,7 @@
                 "Maestría de puños"
             ],
             "desc_short": [
-                "Can equip martial arts gear",
+                "Can equip fists",
                 "可以裝備格鬥武器",
                 "격투무기 장착 가능",
                 "Permet d'équiper des tenues d'arts martiaux",
@@ -6516,7 +6528,7 @@
                 "Permite equiparse con puños"
             ],
             "desc_long": [
-                "Enables unit to equip martial arts gear.",
+                "Enables unit to equip fists.",
                 "可以裝備格鬥武器。",
                 "격투무기를 장착할 수 있게 됩니다.",
                 "Permet d'équiper des poings",
@@ -9906,7 +9918,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 4 times (0.8x each, 3.2x total)."],
+        "effects": ["4 attacks (0.8x each, 3.2x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,80",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -13259,7 +13271,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["000"],
+        "effects": ["Physical damage (4x ATK) to one enemy."],
         "effects_raw": "1:0,0,0,0,0,300,100",
         "unit_restriction": null,
         "icon": "ability_50.png",
@@ -15643,7 +15655,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 3 times (0.8x each, 2.4x total)."],
+        "effects": ["3 attacks (0.8x each, 2.4x total) to one random enemy."],
         "effects_raw": "42:0,0,3,3,80",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -17517,7 +17529,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "Attack a random enemy 3 times (1x each, 3x total).",
+            "3 attacks (1x each, 3x total) to one enemy.",
             "Inflict Confusion (30%) on one enemy."
         ],
         "effects_raw": "42@6:0,0,3,3,100@0,0,0,0,0,30,0,0,1",
@@ -17832,7 +17844,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 1-6 times (1x each, 3.5x total)."],
+        "effects": ["1-6 attacks (1x each, 3.5x total) to one random enemy."],
         "effects_raw": "42:0,0,1,6,100",
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -18282,7 +18294,7 @@
                 "Cinto de adalid"
             ],
             "desc_short": [
-                "Boost ATK and DEF when equipped with martial arts gear",
+                "Boost ATK and DEF when equipped with fists",
                 "裝備格鬥武器時提高攻擊和防禦的數值",
                 "격투무기 장착 시 공격력과 방어력 상승",
                 "Augmente l'ATT et la DEF lorsqu'une tenue d'art martial est équipée",
@@ -18290,7 +18302,7 @@
                 "Aumenta ATQ y DEF al llevar armas de puño"
             ],
             "desc_long": [
-                "Boosts ATK and DEF when equipped with martial arts gear.",
+                "Boosts ATK and DEF when equipped with fists.",
                 "裝備格鬥武器時提高攻擊和防禦的數值。",
                 "격투무기를 장착하면 공격력과 방어력이 상승합니다.",
                 "Augmente l'ATT et la DEF lorsqu'une tenue d'art martial est équipée.",
@@ -18833,7 +18845,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 5 times (0.6x each, 3x total)."],
+        "effects": ["5 attacks (0.6x each, 3x total) to one random enemy."],
         "effects_raw": "42:0,0,5,5,60",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -19005,7 +19017,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 3 times (1x each, 3x total)."],
+        "effects": ["3 attacks (1x each, 3x total) to one enemy."],
         "effects_raw": "42:0,0,3,3,100",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -20841,7 +20853,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 4 times (0.8x each, 3.2x total)."],
+        "effects": ["4 attacks (0.8x each, 3.2x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,80",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -24455,7 +24467,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": ["Wind"],
-        "effects": ["Attack a random enemy 5 times (0.8x each, 4x total)."],
+        "effects": ["5 attacks (0.8x each, 4x total) to one random enemy."],
         "effects_raw": "42:0,0,5,5,80",
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -24733,7 +24745,7 @@
                 "La mejor defensa"
             ],
             "desc_short": [
-                "Boost MAG when equipped with a cane",
+                "Boost MAG when equipped with a staff",
                 "提高裝備手杖時魔力的數值",
                 "지팡이 장착 시 마력 상승",
                 "Augmente la MAGIE lorsqu'une sceptre est équipé",
@@ -24741,7 +24753,7 @@
                 "Aumenta la MAG al equiparse con bastones"
             ],
             "desc_long": [
-                "Boosts MAG when equipped with a cane.",
+                "Boosts MAG when equipped with a staff.",
                 "提高裝備手杖時魔力的數值。",
                 "지팡이를 장착하면 마력이 상승합니다.",
                 "Augmente la MAGIE lorsqu'une sceptre est équipé.",
@@ -24852,7 +24864,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["000"],
+        "effects": ["Physical damage (3x ATK) to one enemy."],
         "effects_raw": "1:0,0,0,0,0,200,100",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -25239,14 +25251,14 @@
         "type": "ABILITY",
         "active": true,
         "rarity": 8,
-        "mp_cost": 24,
+        "mp_cost": 30,
         "attack_count": 1,
         "attack_frames": [0],
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 5 times (0.9x each, 4.5x total)."],
-        "effects_raw": "42:0,0,5,5,90",
+        "effects": ["5 attacks (1.1x each, 5.5x total) to one random enemy."],
+        "effects_raw": "42:0,0,5,5,110",
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
@@ -25259,20 +25271,20 @@
                 "Devastador"
             ],
             "desc_short": [
-                "Attack 5 enemies chosen at random",
-                "隨機對全體敵人攻擊5次",
-                "적 전체에 무작위로 5회 피해",
-                "Attaque 5 ennemis choisis au hasard",
-                "5 zufällige Gegner angreifen",
-                "Ataca a 5 enemigos elegidos al azar"
+                "5x physical attack combo on one enemy",
+                "對1名敵人發動5次連續攻擊",
+                "적 1명에게 물리 공격 5회",
+                "Attaques phys. à cinq reprises sur un ennemi",
+                "Trifft einen Gegner fünfmal.",
+                "Causa 5 veces el daño de un ataque físico a un enemigo"
             ],
             "desc_long": [
-                "Randomly selects targets from all enemies and deals damage five times.",
-                "以全體敵人為對象隨機選擇目標，連續進行5次攻擊。",
-                "적 전체에서 무작위로 대상을 골라 5회 피해를 줍니다.",
-                "Choisit les cibles au hasard parmi les ennemis et inflige des dégâts à cinq reprises.",
-                "Verursacht fünfmal Schaden bei zufällig ausgewählten Gegnern.",
-                "Ataca a 5 enemigos elegidos al azar"
+                "Deals a five hit physical attack combo to one enemy.",
+                "對1名敵人發動5次連續攻擊。",
+                "적 1명에게 5회 물리 피해를 줍니다.",
+                "Attaques physiques à cinq reprises sur un ennemi.",
+                "5x physische Angriffskombo auf einen Gegner",
+                "Causa 5 veces el daño de un ataque físico a un enemigo"
             ]
         }
     },
@@ -25810,7 +25822,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 4 times (0.8x each, 3.2x total)."],
+        "effects": ["4 attacks (0.8x each, 3.2x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,80",
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -25905,7 +25917,7 @@
                 "Quickbolt Stance",
                 "迅雷之型",
                 "신뢰의 자세",
-                "Style tonnerre développé",
+                "Style tonnerre",
                 "Donnerschlag-Kata",
                 "Kata: relámpago"
             ],
@@ -25953,7 +25965,7 @@
                 "Karateka adepto"
             ],
             "desc_short": [
-                "Boost ATK when equipped with martial arts gear",
+                "Boost ATK when equipped with fists",
                 "提高裝備格鬥武器時攻擊的數值",
                 "격투무기 장착 시 공격력 상승",
                 "Augmente l'ATT lorsque des équipements d'arts martiaux sont équipés",
@@ -25961,7 +25973,7 @@
                 "Aumenta el ATQ al llevar armas de puño"
             ],
             "desc_long": [
-                "Boosts ATK when equipped with martial arts gear.",
+                "Boosts ATK when equipped with fists.",
                 "提高裝備格鬥武器時攻擊的數值。",
                 "격투무기를 장착하면 공격력이 상승합니다.",
                 "Augmente l'ATT lorsque des équipements d'arts martiaux sont équipés.",
@@ -26148,14 +26160,14 @@
         "type": "ABILITY",
         "active": true,
         "rarity": 7,
-        "mp_cost": 12,
+        "mp_cost": 20,
         "attack_count": 1,
         "attack_frames": [20],
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Sacrifice 20% HP to deal physical damage (1.8x) to all enemies."],
-        "effects_raw": "81:0,0,0,0,0,0,180,20,0,0",
+        "effects": ["Sacrifice 33% HP to deal physical damage (3.6x) to all enemies."],
+        "effects_raw": "81:0,0,0,0,0,0,360,33,0,0",
         "unit_restriction": [254000205, 254000206],
         "icon": "ability_26.png",
         "strings": {
@@ -26168,20 +26180,20 @@
                 "Estallido anímico"
             ],
             "desc_short": [
-                "Consume caster's HP to damage all enemies",
-                "消費發動者的HP對全體敵人發動攻擊",
-                "사용자의 HP를 소모하여 적 전체에 피해",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis",
-                "Benutzer verbraucht LP für Schaden, alle Ziele",
-                "Daña a enemigos usando VIT propia"
+                "Consume HP to deal physical damage to all enemies",
+                "消耗HP對全體敵人發動攻擊",
+                "HP를 소모하여 적 전체에 물리 피해",
+                "Consume les PV et dégâts phys. sur tous les ennemis",
+                "LP für physischen Schaden nutzen, alle Gegner",
+                "Consume VIT y causa daño a todos los enemigos"
             ],
             "desc_long": [
-                "Unit receives damage equal to 1\/5 their max HP to deal damage to all enemies.",
-                "消耗發動者最大HP的1\/5來對全體敵人發動攻擊。",
-                "최대 HP의 1\/5만큼 피해를 입는 대신 적 전체에 피해를 줍니다.",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis.",
-                "Der Benutzer nimmt Schaden in Höhe von 20 % seiner maximalen LP und fügt dafür allen Gegnern Schaden zu.",
-                "Daña a enemigos usando VIT propia"
+                "Consumes HP to deal physical damage to all enemies.",
+                "消耗HP對全體敵人發動攻擊。",
+                "HP를 소모하여 적 전체에 물리 피해를 줍니다.",
+                "Consume les PV et inflige des dégâts physiques sur tous les ennemis.",
+                "LP für physischen Schaden nutzen, alle Ziele",
+                "Consume VIT y causa daño a todos los enemigos"
             ]
         }
     },
@@ -26199,9 +26211,9 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF by 40% for 3 turn(s) to all allies.",
-            "Restore 400 HP (2x) over 3 turn(s) to all allies."
+            "Restore 400 HP (5x) over 3 turn(s) to all allies."
         ],
-        "effects_raw": "3@8:0,40,0,0,3,1@400,1,200,3",
+        "effects_raw": "3@8:0,40,0,0,3,1@400,1,500,3",
         "unit_restriction": [254000304, 254000305, 254000306],
         "icon": "ability_91.png",
         "strings": {
@@ -26232,7 +26244,7 @@
         }
     },
     "204310": {
-        "name": "Vulcan Shield",
+        "name": "Tempered Shield",
         "compendium_id": 488,
         "type": "ABILITY",
         "active": false,
@@ -26249,7 +26261,7 @@
         "icon": "ability_77.png",
         "strings": {
             "name": [
-                "Vulcan Shield",
+                "Tempered Shield",
                 "硬化護盾",
                 "경화 방패",
                 "Bouclier résistant",
@@ -28183,7 +28195,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n25%: Tempting Tango (201210): Inflict Confusion (30%) on one enemy.\n25%: Jitterbug Duet (201220): Magical damage (0.85x) with HP drain (30%) to one enemy.\n25%: Mystery Waltz (201230): Magical damage (0.35x) with MP drain (30%) to one enemy.\n25%: Sword Dance (201250): 000"],
+        "effects": ["Randomly use:\n25%: Tempting Tango (201210): Inflict Confusion (30%) on one enemy.\n25%: Jitterbug Duet (201220): Magical damage (0.85x) with HP drain (30%) to one enemy.\n25%: Mystery Waltz (201230): Magical damage (0.35x) with MP drain (30%) to one enemy.\n25%: Sword Dance (201250): Physical damage (4x ATK) to one enemy."],
         "effects_raw": "29:201210&25,201220&25,201230&25,201250&25,0",
         "unit_restriction": null,
         "icon": "ability_50.png",
@@ -30293,7 +30305,7 @@
                 "Ultradestrozador"
             ],
             "desc_short": [
-                "Boost ATK when equipped with martial arts gear, spear, hammer, or axe",
+                "Boost ATK when equipped with fists, spear, hammer, or axe",
                 "提高裝備格鬥武器鎚子斧子時攻擊的數值",
                 "격투무기, 창, 망치, 도끼 장착 시 공격력 상승",
                 "Augmente l'ATT lorsque des tenues d'arts martiaux, des lances, des marteaux ou des haches sont équipés",
@@ -30301,7 +30313,7 @@
                 "Aumenta el ATQ al llevar puños, lanzas, martillos o hachas"
             ],
             "desc_long": [
-                "Boosts ATK when equipped with martial arts gear, a spear, hammer, or axe.",
+                "Boosts ATK when equipped with fists, a spear, hammer, or axe.",
                 "提高裝備格鬥武器鎚子斧子時攻擊的數值。",
                 "격투무기, 창, 망치, 도끼를 장착하면 공격력이 상승합니다.",
                 "Augmente l'ATT lorsque des tenues d'arts martiaux, des lances, des marteaux ou des haches sont équipés",
@@ -30389,7 +30401,7 @@
                 "Apoyo total"
             ],
             "desc_short": [
-                "Boost MAG and SPR when equipped with a cane, rod, instrument, or mace",
+                "Boost MAG and SPR when equipped with a staff, rod, instrument, or mace",
                 "提高裝備手杖魔棒樂器權杖時魔力和精神的數值",
                 "지팡이, 홀장, 악기, 메이스 장착 시 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY lorsqu'un bâton, un sceptre, un instrument ou une masse est équipé",
@@ -30397,7 +30409,7 @@
                 "Aumenta MAG\/ESP al llevar bastón, vara, instrumento o maza"
             ],
             "desc_long": [
-                "Boosts MAG and SPR when equipped with a cane, rod, instrument, or mace.",
+                "Boosts MAG and SPR when equipped with a staff, rod, instrument, or mace.",
                 "提高裝備手杖魔棒樂器權杖時魔力和精神的數值。",
                 "지팡이, 홀장, 악기, 메이스를 장착하면 마력과 정신력이 상승합니다.",
                 "Augmente la MAGIE et la PSY lorsqu'un bâton, un sceptre, un instrument ou une masse est équipé",
@@ -30682,7 +30694,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 2 times (1.6x each, 3.2x total)."],
+        "effects": ["2 attacks (1.6x each, 3.2x total) to all enemies."],
         "effects_raw": "42:0,0,2,2,160",
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -31655,7 +31667,7 @@
             "Ice",
             "Wind"
         ],
-        "effects": ["Attack a random enemy 2 times (1.2x each, 2.4x total)."],
+        "effects": ["2 attacks (1.2x each, 2.4x total) to all enemies."],
         "effects_raw": "42:0,0,2,2,120",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -32955,7 +32967,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 4 times (0.7x each, 2.8x total)."],
+        "effects": ["4 attacks (0.7x each, 2.8x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,70",
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -39276,7 +39288,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "Attack a random enemy 3 times (0.6x each, 1.8x total).",
+            "3 attacks (0.6x each, 1.8x total) to one enemy.",
             "Inflict one random status effect (Poison, Sleep, Paralyze, Confusion and Disease 30% and Blind, Silence and Stone 0%)."
         ],
         "effects_raw": "42@34:0,0,3,3,60@30,0,30,0,30,30,30,0,1,1",
@@ -41188,7 +41200,7 @@
         }
     },
     "207730": {
-        "name": "Goddess's Favor",
+        "name": "Shroud of Saints",
         "compendium_id": 832,
         "type": "ABILITY",
         "active": false,
@@ -41208,7 +41220,7 @@
         "icon": "ability_91.png",
         "strings": {
             "name": [
-                "Goddess's Favor",
+                "Shroud of Saints",
                 "女神的加護",
                 "여신의 가호",
                 "Faveurs de la déesse",
@@ -41323,7 +41335,7 @@
         }
     },
     "207760": {
-        "name": "Invocation",
+        "name": "Benediction",
         "compendium_id": 835,
         "type": "ABILITY",
         "active": true,
@@ -41340,7 +41352,7 @@
         "icon": "ability_4.png",
         "strings": {
             "name": [
-                "Invocation",
+                "Benediction",
                 "天賜祝福",
                 "거룩한 축복",
                 "Évocation",
@@ -41761,7 +41773,7 @@
         }
     },
     "207880": {
-        "name": "Shade Shift",
+        "name": "Bloodbath",
         "compendium_id": 845,
         "type": "ABILITY",
         "active": true,
@@ -41778,7 +41790,7 @@
         "icon": "ability_97.png",
         "strings": {
             "name": [
-                "Shade Shift",
+                "Bloodbath",
                 "殘影",
                 "잔영",
                 "Pas sombre",
@@ -41933,7 +41945,7 @@
         }
     },
     "207920": {
-        "name": "Mother's Word",
+        "name": "Word of the Mother",
         "compendium_id": 849,
         "type": "ABILITY",
         "active": false,
@@ -41950,7 +41962,7 @@
         "icon": "ability_19.png",
         "strings": {
             "name": [
-                "Mother's Word",
+                "Word of the Mother",
                 "行星的代言人",
                 "별의 대변인",
                 "Mots d'une mère",
@@ -42664,7 +42676,7 @@
         }
     },
     "208090": {
-        "name": "Protection of the Gods",
+        "name": "Protection of the Twelve",
         "compendium_id": 866,
         "type": "ABILITY",
         "active": false,
@@ -42681,7 +42693,7 @@
         "icon": "ability_68.png",
         "strings": {
             "name": [
-                "Protection of the Gods",
+                "Protection of the Twelve",
                 "十二神的守護",
                 "12신의 가호",
                 "Égide des dieux",
@@ -42735,7 +42747,7 @@
                 "Fragmento de ingenio"
             ],
             "desc_short": [
-                "Boost SPR when equipped with a cane, and DEF when equipped with a robe",
+                "Boost SPR when equipped with a staff, and DEF when equipped with a robe",
                 "提高裝備手杖時精神的數值+提高裝備法袍時防禦的數值",
                 "지팡이 장착 시 정신력 상승+로브 장착 시 방어력 상승",
                 "Augmente la PSY lorsqu'un sceptre est équipé et la DEF lorsqu'une robe est équipée",
@@ -42743,7 +42755,7 @@
                 "Aumenta el ESP al llevar bastones y la DEF al llevar túnicas"
             ],
             "desc_long": [
-                "Boosts SPR when equipped with a cane, and DEF when equipped with a robe.",
+                "Boosts SPR when equipped with a staff, and DEF when equipped with a robe.",
                 "提高裝備手杖時精神的數值，同時提高裝備法袍時防禦的數值。",
                 "지팡이를 장착하면 정신력이 상승하고, 로브를 장착하면 방어력이 상승합니다.",
                 "Augmente la PSY lorsqu'un sceptre est équipé et la DEF lorsqu'une robe est équipée",
@@ -43678,7 +43690,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 1-7 times (1.2x each, 4.8x total)."],
+        "effects": ["1-7 attacks (1.2x each, 4.8x total) to one random enemy."],
         "effects_raw": "42:0,0,1,7,120",
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -43944,7 +43956,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50% for 4 turn(s) to self.",
-            "Grants access to following skills for 2 turns:\nDualcast (200150): Enable unit to use magic (excluding blue magic) twice in one turn.\nMeteor (20430): Magical damage (3.33x MAG) to all enemies. Ignore reflect.\nChaos Wave (500580): Magical damage (3.6x MAG) to all enemies. Ignore reflect."
+            "Grants access to following skills for 2 turns:\nDualcast (200150)\nMeteor (20430)\nChaos Wave (500580)"
         ],
         "effects_raw": "3@100:0,0,50,0,4,1@2&1&2,200150&20430&500580,99999,4,1",
         "unit_restriction": null,
@@ -44685,7 +44697,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Leap (500930): Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy.\n25%: Leap (500940): Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy.\n25%: Leap (500950): Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy.\n15%: Leap (500960): Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover.\n5%: Leap (500970): Grants access to following skills for 2 turns:\nCat Scratch (500900): 000\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to one random ally."],
+        "effects": ["Randomly use:\n30%: Leap (500930): Grants access to following skills for 2 turns:\nLullaby (500790)\nNumb (500800)\n25%: Leap (500940): Grants access to following skills for 2 turns:\nIcestorm (500810)\nNumbclaw (500820)\nLife Shaver (500830)\n25%: Leap (500950): Grants access to following skills for 2 turns:\nFlash Rain (500840)\nWind Slash (500850)\nBlaze (500860)\n15%: Leap (500960): Grants access to following skills for 2 turns:\nGigavolt (500890)\nHose (500870)\nRock Slide (500880)\n5%: Leap (500970): Grants access to following skills for 2 turns:\nCat Scratch (500900)\nFlare Star (500910)\nReraise (500920)"],
         "effects_raw": "29:500930&30,500940&25,500950&25,500960&15,500970&5",
         "unit_restriction": null,
         "icon": "ability_83.png",
@@ -45525,7 +45537,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Grants access to following skills for 2 turns:\nHP Enhancer (501060): Restore 100% HP and MP to all allies.\nMP Enhancer (501070): Restore 75 MP to all allies.\nPower Down (501080): Reduce ATK, DEF, MAG and SPR by 30% for 3 turn(s) to all enemies.",
+            "Grants access to following skills for 2 turns:\nHP Enhancer (501060)\nMP Enhancer (501070)\nPower Down (501080)",
             "Reduces damage dealt by 20% to self for 1 turn(s)."
         ],
         "effects_raw": "100@101:2&2&2,501060&501070&501080,99999,2,1@20,1,1",
@@ -46183,7 +46195,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to all enemies.",
-            "Grants access to following skills for 2 turns:\nBerserker Serum (501090): Increase ATK and MAG by 80% for 1 turn(s) to all allies.\nBlockade Serum (501100): Increase DEF and SPR by 80% for 1 turn(s) to all allies.\nResist Down (501110): Reduce resistance to all elements by 50% for 1 turns to all enemies."
+            "Grants access to following skills for 2 turns:\nBerserker Serum (501090)\nBlockade Serum (501100)\nResist Down (501110)"
         ],
         "effects_raw": "1@100:0,0,0,0,0,0,180@2&2&2,501090&501100&501110,99999,2,1",
         "unit_restriction": null,
@@ -46574,7 +46586,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nSunburst (501120): Fixed  damage (19998) to all enemies.\nHazardous Shell (501130): Physical damage (1.8x ATK) to all enemies. and Inflict 2 random status effects (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%).\nHyper NulAll (501140): Increase resistance to all elements by 40% for 3 turns to all allies. and Reduces damage dealt by 30% to all allies for 3 turn(s)."],
+        "effects": ["Grants access to following skills for 2 turns:\nSunburst (501120)\nHazardous Shell (501130)\nHyper NulAll (501140)"],
         "effects_raw": "100:2&2&2,501120&501130&501140,99999,4,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -48961,7 +48973,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["スペリオエルフ"],
+            "name": {
+                "1": "スペリオエルフ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -48986,7 +49000,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["オレオール・レイ"],
+            "name": {
+                "1": "オレオール・レイ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49008,7 +49024,9 @@
         "unit_restriction": null,
         "icon": "ability_79.png",
         "strings": {
-            "name": ["デモンズアウト"],
+            "name": {
+                "1": "デモンズアウト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49030,7 +49048,9 @@
         "unit_restriction": null,
         "icon": "ability_14.png",
         "strings": {
-            "name": ["ストンスタチュー"],
+            "name": {
+                "1": "ストンスタチュー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49052,7 +49072,9 @@
         "unit_restriction": null,
         "icon": "ability_14.png",
         "strings": {
-            "name": ["パライズスタチュー"],
+            "name": {
+                "1": "パライズスタチュー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49074,7 +49096,9 @@
         "unit_restriction": null,
         "icon": "ability_14.png",
         "strings": {
-            "name": ["サイレススタチュー"],
+            "name": {
+                "1": "サイレススタチュー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49096,7 +49120,9 @@
         "unit_restriction": null,
         "icon": "ability_25.png",
         "strings": {
-            "name": ["ゲイルアロー"],
+            "name": {
+                "1": "ゲイルアロー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49118,7 +49144,9 @@
         "unit_restriction": null,
         "icon": "ability_5.png",
         "strings": {
-            "name": ["グリームアロー"],
+            "name": {
+                "1": "グリームアロー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49143,7 +49171,9 @@
         "unit_restriction": null,
         "icon": "ability_100.png",
         "strings": {
-            "name": ["エルフの歌"],
+            "name": {
+                "1": "エルフの歌"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49165,7 +49195,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["風光の盾"],
+            "name": {
+                "1": "風光の盾"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49187,7 +49219,9 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["ブランの愛"],
+            "name": {
+                "1": "ブランの愛"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49209,7 +49243,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["ノーブルエルフ"],
+            "name": {
+                "1": "ノーブルエルフ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49237,7 +49273,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["サンダークラップ"],
+            "name": {
+                "1": "サンダークラップ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49262,7 +49300,9 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["エルフの誇り"],
+            "name": {
+                "1": "エルフの誇り"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49284,7 +49324,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["トータルスラスト"],
+            "name": {
+                "1": "トータルスラスト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49306,7 +49348,9 @@
         "unit_restriction": null,
         "icon": "ability_20.png",
         "strings": {
-            "name": ["サンダースラスト"],
+            "name": {
+                "1": "サンダースラスト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49328,7 +49372,9 @@
         "unit_restriction": null,
         "icon": "ability_20.png",
         "strings": {
-            "name": ["サンダーバースト"],
+            "name": {
+                "1": "サンダーバースト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49350,7 +49396,9 @@
         "unit_restriction": null,
         "icon": "ability_5.png",
         "strings": {
-            "name": ["ブライトスラスト"],
+            "name": {
+                "1": "ブライトスラスト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49372,7 +49420,9 @@
         "unit_restriction": null,
         "icon": "ability_5.png",
         "strings": {
-            "name": ["ブライトバースト"],
+            "name": {
+                "1": "ブライトバースト"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49394,7 +49444,9 @@
         "unit_restriction": null,
         "icon": "ability_9.png",
         "strings": {
-            "name": ["雷光の盾"],
+            "name": {
+                "1": "雷光の盾"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49416,7 +49468,9 @@
         "unit_restriction": null,
         "icon": "ability_19.png",
         "strings": {
-            "name": ["ルネラの愛"],
+            "name": {
+                "1": "ルネラの愛"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49438,7 +49492,9 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["危機察知"],
+            "name": {
+                "1": "危機察知"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49460,7 +49516,9 @@
         "unit_restriction": null,
         "icon": "ability_72.png",
         "strings": {
-            "name": ["一流冒険家"],
+            "name": {
+                "1": "一流冒険家"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49485,7 +49543,9 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": ["ハイパーメンタル"],
+            "name": {
+                "1": "ハイパーメンタル"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49507,7 +49567,9 @@
         "unit_restriction": null,
         "icon": "ability_40.png",
         "strings": {
-            "name": ["シングルショット"],
+            "name": {
+                "1": "シングルショット"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49529,7 +49591,9 @@
         "unit_restriction": null,
         "icon": "ability_40.png",
         "strings": {
-            "name": ["ベストショット"],
+            "name": {
+                "1": "ベストショット"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49554,7 +49618,9 @@
         "unit_restriction": null,
         "icon": "ability_4.png",
         "strings": {
-            "name": ["スーパーエイド"],
+            "name": {
+                "1": "スーパーエイド"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49576,7 +49642,9 @@
         "unit_restriction": null,
         "icon": "ability_19.png",
         "strings": {
-            "name": ["めげない心"],
+            "name": {
+                "1": "めげない心"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49601,7 +49669,9 @@
         "unit_restriction": null,
         "icon": "ability_4.png",
         "strings": {
-            "name": ["終わらない夢"],
+            "name": {
+                "1": "終わらない夢"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49623,7 +49693,9 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": ["緊急蘇生"],
+            "name": {
+                "1": "緊急蘇生"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49645,7 +49717,9 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": ["奇跡の発掘"],
+            "name": {
+                "1": "奇跡の発掘"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49667,7 +49741,9 @@
         "unit_restriction": null,
         "icon": "ability_83.png",
         "strings": {
-            "name": ["つくりだす"],
+            "name": {
+                "1": "つくりだす"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49689,7 +49765,9 @@
         "unit_restriction": null,
         "icon": "ability_28.png",
         "strings": {
-            "name": ["破砕槌"],
+            "name": {
+                "1": "破砕槌"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49711,7 +49789,9 @@
         "unit_restriction": null,
         "icon": "ability_28.png",
         "strings": {
-            "name": ["地砕豪槌"],
+            "name": {
+                "1": "地砕豪槌"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49736,7 +49816,9 @@
         "unit_restriction": null,
         "icon": "ability_100.png",
         "strings": {
-            "name": ["思い出の歌"],
+            "name": {
+                "1": "思い出の歌"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49758,7 +49840,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["ヘビーハンマー"],
+            "name": {
+                "1": "ヘビーハンマー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49780,7 +49864,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["スペシャルハンマー"],
+            "name": {
+                "1": "スペシャルハンマー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49802,7 +49888,9 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": ["ドワーフの底力"],
+            "name": {
+                "1": "ドワーフの底力"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49824,7 +49912,9 @@
         "unit_restriction": null,
         "icon": "ability_19.png",
         "strings": {
-            "name": ["毒無効"],
+            "name": {
+                "1": "毒無効"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49849,7 +49939,9 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["忌むべき子"],
+            "name": {
+                "1": "忌むべき子"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49871,7 +49963,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["乱撃"],
+            "name": {
+                "1": "乱撃"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49893,7 +49987,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["双竜脚"],
+            "name": {
+                "1": "双竜脚"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49915,7 +50011,9 @@
         "unit_restriction": null,
         "icon": "ability_43.png",
         "strings": {
-            "name": ["剛体香"],
+            "name": {
+                "1": "剛体香"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49939,7 +50037,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["破壊拳"],
+            "name": {
+                "1": "破壊拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49963,7 +50063,9 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": ["生命の意志"],
+            "name": {
+                "1": "生命の意志"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -49987,7 +50089,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["夢想阿修羅拳"],
+            "name": {
+                "1": "夢想阿修羅拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50011,7 +50115,9 @@
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
-            "name": ["みなぎる活力"],
+            "name": {
+                "1": "みなぎる活力"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50035,7 +50141,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["羅刹撃"],
+            "name": {
+                "1": "羅刹撃"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50053,13 +50161,15 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after : \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\n (501360): Physical damage (1x ATK) to one enemy. Ignore cover. and Reduces damage dealt by 50% to self for 2 turn(s).\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
+            "If used after : \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\n (501360)\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
         ],
         "effects_raw": "99:2,501320,2,501340,2,501350",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["闘魂旋風脚"],
+            "name": {
+                "1": "闘魂旋風脚"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50081,7 +50191,9 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["天衣無縫"],
+            "name": {
+                "1": "天衣無縫"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50103,7 +50215,9 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["俊敏"],
+            "name": {
+                "1": "俊敏"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50125,7 +50239,9 @@
         "unit_restriction": null,
         "icon": "ability_19.png",
         "strings": {
-            "name": ["猪突猛進"],
+            "name": {
+                "1": "猪突猛進"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50150,7 +50266,9 @@
         "unit_restriction": null,
         "icon": "ability_19.png",
         "strings": {
-            "name": ["剣豪"],
+            "name": {
+                "1": "剣豪"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50175,7 +50293,9 @@
         "unit_restriction": null,
         "icon": "ability_28.png",
         "strings": {
-            "name": ["ストンフォール"],
+            "name": {
+                "1": "ストンフォール"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50200,7 +50320,9 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["誇り高き剣豪"],
+            "name": {
+                "1": "誇り高き剣豪"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50222,7 +50344,9 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": ["ハードスラッシュ"],
+            "name": {
+                "1": "ハードスラッシュ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50247,7 +50371,9 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": ["ストンレイジ"],
+            "name": {
+                "1": "ストンレイジ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50272,7 +50398,9 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": ["パワースラッシュ"],
+            "name": {
+                "1": "パワースラッシュ"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50297,7 +50425,9 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": ["堅固なる土壁"],
+            "name": {
+                "1": "堅固なる土壁"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50319,7 +50449,9 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": ["ソイルガード"],
+            "name": {
+                "1": "ソイルガード"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50341,7 +50473,9 @@
         "unit_restriction": null,
         "icon": "ability_43.png",
         "strings": {
-            "name": ["守ってやるなの！"],
+            "name": {
+                "1": "守ってやるなの！"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50363,7 +50497,9 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["レイヴンベレー"],
+            "name": {
+                "1": "レイヴンベレー"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50385,7 +50521,9 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": ["パレードゴルゲット"],
+            "name": {
+                "1": "パレードゴルゲット"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50407,7 +50545,9 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_77.png",
         "strings": {
-            "name": ["紅き魂"],
+            "name": {
+                "1": "紅き魂"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50429,7 +50569,9 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_19.png",
         "strings": {
-            "name": ["勇往邁進"],
+            "name": {
+                "1": "勇往邁進"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50451,7 +50593,9 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_91.png",
         "strings": {
-            "name": ["グランシェルトの騎士"],
+            "name": {
+                "1": "グランシェルトの騎士"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50473,7 +50617,9 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_77.png",
         "strings": {
-            "name": ["蒼き魂"],
+            "name": {
+                "1": "蒼き魂"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50495,7 +50641,9 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_19.png",
         "strings": {
-            "name": ["確固不動"],
+            "name": {
+                "1": "確固不動"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50517,7 +50665,9 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_91.png",
         "strings": {
-            "name": ["グランシェルトの騎士"],
+            "name": {
+                "1": "グランシェルトの騎士"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50539,7 +50689,9 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_77.png",
         "strings": {
-            "name": ["蘇りし少女"],
+            "name": {
+                "1": "蘇りし少女"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50561,7 +50713,9 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_19.png",
         "strings": {
-            "name": ["凛々しき純心"],
+            "name": {
+                "1": "凛々しき純心"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50583,7 +50737,9 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_91.png",
         "strings": {
-            "name": ["永遠の花"],
+            "name": {
+                "1": "永遠の花"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -50605,7 +50761,9 @@
         "unit_restriction": null,
         "icon": "ability_81.png",
         "strings": {
-            "name": ["経験値UP1.3倍"],
+            "name": {
+                "1": "経験値UP1.3倍"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -58181,7 +58339,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["000"],
+        "effects": ["Physical damage (4x ATK) to one enemy."],
         "effects_raw": "1:0,0,0,0,0,300,100",
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -58310,7 +58468,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nLullaby (500790): Inflict Sleep (30%) on all enemies.\nNumb (500800): Inflict Paralyze (30%) on one enemy."],
+        "effects": ["Grants access to following skills for 2 turns:\nLullaby (500790)\nNumb (500800)"],
         "effects_raw": "100:2&2,500790&500800,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58353,7 +58511,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nIcestorm (500810): Ice physical damage (1.8x ATK) to all enemies.\nNumbclaw (500820): Inflict Paralyze (50%) on one enemy.\nLife Shaver (500830): Physical damage (0.8x) with HP drain (30%) to one enemy."],
+        "effects": ["Grants access to following skills for 2 turns:\nIcestorm (500810)\nNumbclaw (500820)\nLife Shaver (500830)"],
         "effects_raw": "100:2&2&2,500810&500820&500830,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58396,7 +58554,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nFlash Rain (500840): Ice and water physical damage (2.8x ATK) to all enemies.\nWind Slash (500850): Wind physical damage (2x ATK) to all enemies.\nBlaze (500860): Fire physical damage (1.8x ATK) to one enemy."],
+        "effects": ["Grants access to following skills for 2 turns:\nFlash Rain (500840)\nWind Slash (500850)\nBlaze (500860)"],
         "effects_raw": "100:2&2&2,500840&500850&500860,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58439,7 +58597,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nGigavolt (500890): Lightning physical damage (2.8x ATK) to all enemies.\nHose (500870): Physical damage (2.5x ATK) to one enemy.\nRock Slide (500880): Physical damage (3.33x ATK) to one enemy. Ignore cover."],
+        "effects": ["Grants access to following skills for 2 turns:\nGigavolt (500890)\nHose (500870)\nRock Slide (500880)"],
         "effects_raw": "100:2&2&2,500890&500870&500880,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -58482,7 +58640,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nCat Scratch (500900): 000\nFlare Star (500910): Fire physical damage (3.6x ATK) to all enemies. Ignore cover.\nReraise (500920): Auto-revive (80% HP) for 3 turn(s) to one random ally."],
+        "effects": ["Grants access to following skills for 2 turns:\nCat Scratch (500900)\nFlare Star (500910)\nReraise (500920)"],
         "effects_raw": "100:2&2&2,500900&500910&500920,99999,99999,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -59262,7 +59420,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Grants access to following skills for 2 turns:\nFinishing Blow (501160): Physical damage (1x ATK) to one enemy. Ignore cover."],
+        "effects": ["Grants access to following skills for 2 turns:\nFinishing Blow (501160)"],
         "effects_raw": "100:2,501160,99999,1,1",
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -59353,7 +59511,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["するどい槍"],
+            "name": {
+                "1": "するどい槍"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59378,7 +59538,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["土鈍りの剣"],
+            "name": {
+                "1": "土鈍りの剣"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59404,7 +59566,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["土削りの大剣"],
+            "name": {
+                "1": "土削りの大剣"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59430,7 +59594,9 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["土滅斧"],
+            "name": {
+                "1": "土滅斧"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59455,7 +59621,10 @@
         "unit_restriction": null,
         "icon": "ability_29.png",
         "strings": {
-            "name": ["リタリエイト"],
+            "name": {
+                "1": "リタリエイト",
+                "5": "Resarcimiento"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59477,7 +59646,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["破壊拳"],
+            "name": {
+                "1": "破壊拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59499,7 +59670,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["破壊拳"],
+            "name": {
+                "1": "破壊拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59521,7 +59694,9 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": ["生命の意志"],
+            "name": {
+                "1": "生命の意志"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59543,7 +59718,9 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": ["生命の意志"],
+            "name": {
+                "1": "生命の意志"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59565,7 +59742,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["夢想阿修羅拳"],
+            "name": {
+                "1": "夢想阿修羅拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59587,7 +59766,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["夢想阿修羅拳"],
+            "name": {
+                "1": "夢想阿修羅拳"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59609,7 +59790,9 @@
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
-            "name": ["みなぎる活力"],
+            "name": {
+                "1": "みなぎる活力"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59631,7 +59814,9 @@
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
-            "name": ["みなぎる活力"],
+            "name": {
+                "1": "みなぎる活力"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59656,7 +59841,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["羅刹撃"],
+            "name": {
+                "1": "羅刹撃"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59678,7 +59865,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["羅刹撃"],
+            "name": {
+                "1": "羅刹撃"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59697,13 +59886,15 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (3.33x ATK) to all enemies. Ignore cover.",
-            "Grants access to following skills for 2 turns:\n (501360): Physical damage (1x ATK) to one enemy. Ignore cover. and Reduces damage dealt by 50% to self for 2 turn(s)."
+            "Grants access to following skills for 2 turns:\n (501360)"
         ],
         "effects_raw": "21@100:0,0,250,-25@2,501360,1,99999,1",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["闘魂旋風脚"],
+            "name": {
+                "1": "闘魂旋風脚"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59725,7 +59916,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["闘魂旋風脚"],
+            "name": {
+                "1": "闘魂旋風脚"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59750,7 +59943,9 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": ["プリッシュスペシャル"],
+            "name": {
+                "1": "プリッシュスペシャル"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -59788,14 +59983,7 @@
                 "Chance, nach physischem Angriffe eigene LP zu heilen",
                 "Posibilita recuperar la VIT propia al recibir un ataque físico"
             ],
-            "desc_long": [
-                "Adds chance of restoring own HP when receiving a physical attack.",
-                "受到物理攻擊時以一定機率恢復自身HP。",
-                "물리공격을 받으면 일정 확률로 자신의 HP를 회복합니다.",
-                "Permet de peut-être restaurer ses propres PV après avoir reçu une attaque physique.",
-                "Chance, nach physischem Angriffe eigene LP zu heilen",
-                "Posibilita recuperar la VIT propia al recibir un ataque físico"
-            ]
+            "desc_long": null
         }
     },
     "600010": {
@@ -61059,7 +61247,7 @@
                 "La mejor defensa"
             ],
             "desc_short": [
-                "Boost MAG when equipped with a cane",
+                "Boost MAG when equipped with a staff",
                 "提高裝備手杖時魔力的數值",
                 "지팡이 장착 시 마력 상승",
                 "Augmente la MAGIE lorsqu'un sceptre est équipé",
@@ -61067,7 +61255,7 @@
                 "Aumenta la MAG al equiparse con bastones"
             ],
             "desc_long": [
-                "Boosts MAG when equipped with a cane.",
+                "Boosts MAG when equipped with a staff.",
                 "提高裝備手杖時魔力的數值。",
                 "지팡이를 장착하면 마력이 상승합니다.",
                 "Augmente la MAGIE lorsqu'un sceptre est équipé",
@@ -61102,7 +61290,7 @@
                 "La mejor defensa"
             ],
             "desc_short": [
-                "Boost MAG and SPR when equipped with a cane",
+                "Boost MAG and SPR when equipped with a staff",
                 "提高裝備手杖時魔力精神的數值",
                 "지팡이 장착 시 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY lorsqu'un sceptre est équipé",
@@ -61110,7 +61298,7 @@
                 "Aumenta la MAG y el ESP al llevar bastones"
             ],
             "desc_long": [
-                "Boosts MAG and SPR when equipped with a cane.",
+                "Boosts MAG and SPR when equipped with a staff.",
                 "提高裝備手杖時魔力精神的數值。",
                 "지팡이를 장착하면 마력과 정신력이 상승합니다.",
                 "Augmente la MAGIE et la PSY lorsqu'un sceptre est équipé",
@@ -61564,7 +61752,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 3 times (1.2x each, 3.6x total)."],
+        "effects": ["3 attacks (1.2x each, 3.6x total) to one random enemy."],
         "effects_raw": "42:0,0,3,3,120",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -61607,7 +61795,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 4 times (1.2x each, 4.8x total)."],
+        "effects": ["4 attacks (1.2x each, 4.8x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,120",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -62143,7 +62331,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50% for 3 turn(s) to self.",
-            "Grants access to following skills for 1 turns:\nBluff (Comet) (20171): Magical damage (2x MAG) with consecutive damage increase (max. 3 times, +0.1x MAG each) to one enemy."
+            "Grants access to following skills for 1 turns:\nBluff (Comet) (20171)"
         ],
         "effects_raw": "3@100:0,0,50,0,3,1@1,20171,9999,3,1",
         "unit_restriction": null,
@@ -63184,7 +63372,10 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": ["オートリミット"],
+            "name": {
+                "1": "オートリミット",
+                "5": "AutoLímite"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63209,7 +63400,10 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": ["オートリミット"],
+            "name": {
+                "1": "オートリミット",
+                "5": "AutoLímite"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63231,7 +63425,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["集中"],
+            "name": {
+                "1": "集中",
+                "5": "Concentrar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63253,7 +63450,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["集中"],
+            "name": {
+                "1": "集中",
+                "5": "Concentrar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63278,7 +63478,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["漆黒"],
+            "name": {
+                "1": "漆黒",
+                "5": "Negro azabache"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63298,13 +63501,16 @@
         "effects": [
             "Increase ATK by 40%.",
             "Increase resistance to Dark by 75%.",
-            "Gain  at the start of a battle."
+            "Gain Regen at the start of a battle."
         ],
         "effects_raw": "1@3@35:40,0,0,0,0,0,0@0,0,0,0,0,0,0,75@10123",
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["漆黒"],
+            "name": {
+                "1": "漆黒",
+                "5": "Negro azabache"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63326,7 +63532,10 @@
         "unit_restriction": null,
         "icon": "ability_80.png",
         "strings": {
-            "name": ["竜騎士の魂"],
+            "name": {
+                "1": "竜騎士の魂",
+                "5": "Corazón de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63351,7 +63560,10 @@
         "unit_restriction": null,
         "icon": "ability_80.png",
         "strings": {
-            "name": ["竜騎士の魂"],
+            "name": {
+                "1": "竜騎士の魂",
+                "5": "Corazón de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63376,7 +63588,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["堅守の陣"],
+            "name": {
+                "1": "堅守の陣",
+                "5": "Formación tortuga"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63402,7 +63617,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["堅守の陣"],
+            "name": {
+                "1": "堅守の陣",
+                "5": "Formación tortuga"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63424,7 +63642,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["八壁"],
+            "name": {
+                "1": "八壁",
+                "5": "Yakabe"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63446,7 +63667,10 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["八壁"],
+            "name": {
+                "1": "八壁",
+                "5": "Yakabe"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63471,7 +63695,10 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["カズスのお守り"],
+            "name": {
+                "1": "カズスのお守り",
+                "5": "Guarda de Kazus"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63497,7 +63724,10 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": ["カズスのお守り"],
+            "name": {
+                "1": "カズスのお守り",
+                "5": "Guarda de Kazus"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63519,7 +63749,10 @@
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
-            "name": ["リタリエイト"],
+            "name": {
+                "1": "リタリエイト",
+                "5": "Resarcimiento"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63541,7 +63774,10 @@
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
-            "name": ["リタリエイト"],
+            "name": {
+                "1": "リタリエイト",
+                "5": "Resarcimiento"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63566,7 +63802,10 @@
         "unit_restriction": null,
         "icon": "ability_6.png",
         "strings": {
-            "name": ["りゅうけん"],
+            "name": {
+                "1": "りゅうけん",
+                "5": "Alma de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63591,7 +63830,10 @@
         "unit_restriction": null,
         "icon": "ability_6.png",
         "strings": {
-            "name": ["りゅうけん"],
+            "name": {
+                "1": "りゅうけん",
+                "5": "Alma de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63613,7 +63855,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["明鏡"],
+            "name": {
+                "1": "明鏡",
+                "5": "Tranquilidad"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63635,7 +63880,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["明鏡"],
+            "name": {
+                "1": "明鏡",
+                "5": "Tranquilidad"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63657,7 +63905,10 @@
         "unit_restriction": null,
         "icon": "ability_40.png",
         "strings": {
-            "name": ["マルチバースト"],
+            "name": {
+                "1": "マルチバースト",
+                "5": "Multiexplosión"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63679,7 +63930,10 @@
         "unit_restriction": null,
         "icon": "ability_40.png",
         "strings": {
-            "name": ["マルチバースト"],
+            "name": {
+                "1": "マルチバースト",
+                "5": "Multiexplosión"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63701,7 +63955,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["はげます"],
+            "name": {
+                "1": "はげます",
+                "5": "Ánimo"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63723,7 +63980,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["はげます"],
+            "name": {
+                "1": "はげます",
+                "5": "Ánimo"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63748,7 +64008,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ダークカノン"],
+            "name": {
+                "1": "ダークカノン",
+                "5": "Cañón oscuro"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63773,7 +64036,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ダークカノン"],
+            "name": {
+                "1": "ダークカノン",
+                "5": "Cañón oscuro"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63795,7 +64061,10 @@
         "unit_restriction": null,
         "icon": "ability_80.png",
         "strings": {
-            "name": ["ドラゴンダイブ"],
+            "name": {
+                "1": "ドラゴンダイブ",
+                "5": "Asalto de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63817,7 +64086,10 @@
         "unit_restriction": null,
         "icon": "ability_80.png",
         "strings": {
-            "name": ["ドラゴンダイブ"],
+            "name": {
+                "1": "ドラゴンダイブ",
+                "5": "Asalto de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63842,7 +64114,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["背水の陣"],
+            "name": {
+                "1": "背水の陣",
+                "5": "Depredador"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63868,7 +64143,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["背水の陣"],
+            "name": {
+                "1": "背水の陣",
+                "5": "Depredador"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63890,7 +64168,10 @@
         "unit_restriction": null,
         "icon": "ability_6.png",
         "strings": {
-            "name": ["アスピルウィップ"],
+            "name": {
+                "1": "アスピルウィップ",
+                "5": "Latigazo Aspir"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63912,7 +64193,10 @@
         "unit_restriction": null,
         "icon": "ability_6.png",
         "strings": {
-            "name": ["アスピルウィップ"],
+            "name": {
+                "1": "アスピルウィップ",
+                "5": "Latigazo Aspir"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63934,7 +64218,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["勇気づける"],
+            "name": {
+                "1": "勇気づける",
+                "5": "Envalentonar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63959,7 +64246,10 @@
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
-            "name": ["勇気づける"],
+            "name": {
+                "1": "勇気づける",
+                "5": "Envalentonar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -63981,7 +64271,10 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["フィン・ブライア"],
+            "name": {
+                "1": "フィン・ブライア",
+                "5": "Fin Briar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64003,7 +64296,10 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": ["フィン・ブライア"],
+            "name": {
+                "1": "フィン・ブライア",
+                "5": "Fin Briar"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64025,7 +64321,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["秘刀の継承者"],
+            "name": {
+                "1": "秘刀の継承者",
+                "5": "Heredero de la hoja"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64047,7 +64346,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["秘刀の継承者"],
+            "name": {
+                "1": "秘刀の継承者",
+                "5": "Heredero de la hoja"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64072,7 +64374,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ソウルイーター"],
+            "name": {
+                "1": "ソウルイーター",
+                "5": "Devora almas"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64097,7 +64402,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ソウルイーター"],
+            "name": {
+                "1": "ソウルイーター",
+                "5": "Devora almas"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64122,7 +64430,10 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": ["エレメントウィップ"],
+            "name": {
+                "1": "エレメントウィップ",
+                "5": "Latigazo elemental"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64147,7 +64458,10 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": ["エレメントウィップ"],
+            "name": {
+                "1": "エレメントウィップ",
+                "5": "Latigazo elemental"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64169,7 +64483,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ディストピア"],
+            "name": {
+                "1": "ディストピア",
+                "5": "Distopía"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64191,7 +64508,10 @@
         "unit_restriction": null,
         "icon": "ability_26.png",
         "strings": {
-            "name": ["ディストピア"],
+            "name": {
+                "1": "ディストピア",
+                "5": "Distopía"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64219,7 +64539,10 @@
         "unit_restriction": null,
         "icon": "ability_79.png",
         "strings": {
-            "name": ["レジェンドキラー"],
+            "name": {
+                "1": "レジェンドキラー",
+                "5": "Mataleyendas"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64247,7 +64570,10 @@
         "unit_restriction": null,
         "icon": "ability_79.png",
         "strings": {
-            "name": ["レジェンドキラー"],
+            "name": {
+                "1": "レジェンドキラー",
+                "5": "Mataleyendas"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64273,7 +64599,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["紫電一閃・醒"],
+            "name": {
+                "1": "紫電一閃・醒",
+                "5": "Rayo púrpura - Haz"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64299,7 +64628,10 @@
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
-            "name": ["紫電一閃・醒"],
+            "name": {
+                "1": "紫電一閃・醒",
+                "5": "Rayo púrpura - Haz"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -64883,7 +65215,9 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": ["HP+5%"],
+            "name": {
+                "1": "HP+5%"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -65964,7 +66298,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "Attack a random enemy 3 times (1.4x each, 4.2x total).",
+            "3 attacks (1.4x each, 4.2x total) to one random enemy.",
             "Increase the limit burst gauge fill rate by 100 for 3 turn(s)."
         ],
         "effects_raw": "42@63:0,0,3,3,140@100,3",
@@ -67351,7 +67685,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Attack a random enemy 2-5 times (0.8x each, 2.8x total)."],
+        "effects": ["2-5 attacks (0.8x each, 2.8x total) to one random enemy."],
         "effects_raw": "42:0,0,2,5,80",
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -68665,7 +68999,7 @@
                 "일정 확률로 물리 피해량 감소",
                 "Chance de diminuer les dégâts reçus",
                 "Chance, zugefügten phys. Schaden zu verringern.",
-                "Posibilita reducir el daño físico recibido"
+                "Posibilita anular el daño físico recibido"
             ],
             "desc_long": [
                 "Chance to decrease physical damage taken.",
@@ -68673,7 +69007,7 @@
                 "일정 확률로 물리 공격의 피해량이 감소합니다.",
                 "Augmente les chances de diminuer les dégâts reçus.",
                 "Chance, zugefügten phys. Schaden zu verringern.",
-                "Posibilita reducir el daño físico recibido"
+                "Posibilita anular el daño físico recibido"
             ]
         }
     },
@@ -69678,7 +70012,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": ["Light"],
-        "effects": ["Attack a random enemy 4 times (1x each, 4x total)."],
+        "effects": ["4 attacks (1x each, 4x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,100",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -69692,11 +70026,11 @@
                 "Ráfaga destellante"
             ],
             "desc_short": [
-                "Random light damage four times to all enemies",
+                "Random light damage four times to random enemies",
                 "隨機對全體敵人發動4次光屬性攻擊",
                 "적 전체에 무작위로 빛속성 피해  4회",
-                "Dégâts de lumière sur quatre ennemis au hasard",
-                "Zuf. Lichtschaden, alle Gegner.",
+                "Dégâts de lumière quatre fois sur des ennemis au hasard",
+                "Vier Mal Zuf. Lichtschaden, zuf. Gegner.",
                 "Daño de luz a cuatro enemigos al azar"
             ],
             "desc_long": [
@@ -70126,7 +70460,7 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": ["Dark"],
-        "effects": ["Attack a random enemy 4 times (0.8x each, 3.2x total)."],
+        "effects": ["4 attacks (0.8x each, 3.2x total) to one random enemy."],
         "effects_raw": "42:0,0,4,4,80",
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -70821,6 +71155,396 @@
                 "Inflige des dégâts qui ignorent en partie la DEF d'un ennemi.",
                 "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht.",
                 "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "910133": {
+        "name": "Lightspeed Jab",
+        "compendium_id": 9233,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase ATK by 40% and DEF by -10%."],
+        "effects_raw": "1:40,-10,0,0,0,0,0",
+        "unit_restriction": [254001003, 254001004, 254001005],
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Lightspeed Jab",
+                "光速拳",
+                "광속권",
+                "Coup éclair",
+                "Lichtgeschwindigkeitsschlag",
+                "Puños estela"
+            ],
+            "desc_short": [
+                "Boost ATK, reduce DEF and enable Last Stand",
+                "提高攻擊+降低防禦+誓死抵抗",
+                "공격력 상승+방어력 감소+버티기 발동",
+                "Augmente l'ATT, réduit la DEF et apprend Dernier recours",
+                "Erhöht ANG, verringert ABW und ermöglicht Alles geben",
+                "Aumenta el ATQ, reduce la DEF y aprende Último aliento"
+            ],
+            "desc_long": [
+                "Boosts ATK, reduces DEF and enables Last Stand.",
+                "提高攻擊、降低防禦並可以發動誓死抵抗。",
+                "사용자의 공격력이 상승하고 방어력이 감소하며, 버티기를 발동합니다. ",
+                "Augmente l'ATT, réduit la DEF et permet d'apprendre Dernier recours.",
+                "Erhöht ANG, verringert ABW und ermöglicht Alles geben",
+                "Aumenta el ATQ, reduce la DEF y aprende Último aliento"
+            ]
+        }
+    },
+    "910134": {
+        "name": "Cheerleader",
+        "compendium_id": 9234,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 25%."],
+        "effects_raw": "1:25,25,0,0,0,0,0",
+        "unit_restriction": [254000503, 254000504, 254000505],
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Cheerleader",
+                "士氣",
+                "기합",
+                "Application",
+                "Cheerleader",
+                "Kiai"
+            ],
+            "desc_short": [
+                "Boost ATK and DEF by 25% and enable Cheer",
+                "提高25%攻擊、防禦+鼓勵",
+                "공격력과 방어력 25% 상승+격려 발동",
+                "Augmente ATT\/DEF de 25% et apprend Encourager",
+                "Erhöht ANG und ABW um 25 % und ermöglicht Anfeuern",
+                "Aumenta el ATQ y la DEF un 25% y aprende Ánimo"
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF by 25% and enables Cheer.",
+                "提高25%攻擊、防禦並可以發動鼓勵。",
+                "공격력과 방어력이 25% 상승하고, 격려를 발동합니다.",
+                "Augmente l'ATT et la DEF de 25% et permet d'apprendre Encourager.",
+                "Erhöht ANG und ABW um 25 % und ermöglicht Anfeuern",
+                "Aumenta el ATQ y la DEF un 25% y aprende Ánimo"
+            ]
+        }
+    },
+    "910135": {
+        "name": "Flinchproof Martyr",
+        "compendium_id": 9235,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_type": "Revive",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Auto-revive (1% HP) for 5 turn(s) to self."],
+        "effects_raw": "27:1,5",
+        "unit_restriction": null,
+        "icon": "ability_1.png",
+        "strings": {
+            "name": [
+                "Flinchproof Martyr",
+                "ＥＳ防禦",
+                "ES 가드",
+                "TE ferme",
+                "Echter Märtyrer",
+                "Fuente estoica"
+            ],
+            "desc_short": [
+                "Auto-revive with 1% HP within five turns",
+                "5回合內以1% HP自動復活",
+                "5턴 이내에 전투불능에 빠지면 1% HP로 자동 부활",
+                "Auto-réveil avec 1% de PV dans cinq tours",
+                "Wiederbeleben mit 1 % LP, wenn Einheit in 5 Runden stirbt.",
+                "Revive automáticamente con 1% de VIT (5 turnos)"
+            ],
+            "desc_long": [
+                "Auto-revives with 1% HP if unit is KO'd within five turns.",
+                "5回合內以1% HP自動復活。",
+                "5턴 이내에 전투불능에 빠지면 1% HP로 자동 회복합니다.",
+                "Auto-réveil avec 1% de PV dans cinq tours.",
+                "Wiederbeleben mit 1 % LP in 5 Runden",
+                "Revive automáticamente con 1% de VIT (5 turnos)"
+            ]
+        }
+    },
+    "910136": {
+        "name": "Justice Guard",
+        "compendium_id": 9236,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 4,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase resistance to Blind and Paralyze by 100%."],
+        "effects_raw": "2:0,100,0,0,100,0,0,0",
+        "unit_restriction": null,
+        "icon": "ability_97.png",
+        "strings": {
+            "name": [
+                "Justice Guard",
+                "反射防禦",
+                "리플렉트 가드",
+                "Riposte magique",
+                "Gerechtigkeitswächter",
+                "Desquite"
+            ],
+            "desc_short": [
+                "Nullify blind and paralysis",
+                "失明麻痺無效",
+                "암흑과 마비 무효화",
+                "Imunise contre cécité et paralysie",
+                "Annuliert Blind und Lähmung",
+                "Anula ceguera y parálisis"
+            ],
+            "desc_long": [
+                "Nullifies blind and paralysis.",
+                "失明麻痺無效。",
+                "암흑과 마비를 무효화합니다.",
+                "Imunise contre cécité et paralysie.",
+                "Annuliert Blind und Lähmung",
+                "Anula ceguera y parálisis"
+            ]
+        }
+    },
+    "910137": {
+        "name": "Impulsive",
+        "compendium_id": 9237,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase ATK and SPR by 20%."],
+        "effects_raw": "1:20,0,0,20,0,0,0",
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Impulsive",
+                "直率",
+                "감정적",
+                "Impulsif",
+                "Impulsiv",
+                "Impulsivo"
+            ],
+            "desc_short": [
+                "Boost ATK and SPR by 20%",
+                "提高20%攻擊、精神",
+                "공격력과 정신력 20% 상승",
+                "Augmente ATT\/PSY de 20%",
+                "Erhöht ANG und PSY um 20 %",
+                "Aumenta el ATQ y el ESP un 20%"
+            ],
+            "desc_long": [
+                "Boosts ATK and SPR by 20%.",
+                "提高20%攻擊、精神。",
+                "공격력과 정신력이 20% 상승합니다.",
+                "Augmente l'ATT et la PSY de 20%.",
+                "Erhöht ANG und PSY um 20 %",
+                "Aumenta el ATQ y el ESP un 20%"
+            ]
+        }
+    },
+    "910138": {
+        "name": "Clean Sweep",
+        "compendium_id": 9238,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 32,
+        "attack_count": 3,
+        "attack_frames": [60, 75, 85],
+        "effect_type": "Default",
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "effects": ["Physical damage (2.14x ATK) to all enemies. Ignore cover."],
+        "effects_raw": "21:0,0,150,-30",
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Clean Sweep",
+                "範圍攻擊",
+                "범위 공격",
+                "Grand nettoyage",
+                "Abräumen",
+                "Golpe zonal"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated damage on all enemies",
+                "對全體敵人發動無視部分防禦的攻擊",
+                "적 전체에 일부 방어 무시 피해",
+                "Dégâts en partie fixes sur tous les ennemis",
+                "Fügt allen Gegnern Schaden zu, der teilweise die Abwehr umgeht.",
+                "Daño parcial absoluto a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals damage partially unaffected by DEF to all enemies.",
+                "對全體敵人發動無視部分防禦的攻擊。",
+                "적 전체에 일부 방어 무시 피해를 줍니다.",
+                "Inflige des dégâts en partie fixes sur tous les ennemis.",
+                "Teilweise direkter Schaden, alle Gegner",
+                "Daño parcial absoluto a todos los enemigos"
+            ]
+        }
+    },
+    "910139": {
+        "name": "High Jump: Power↑",
+        "compendium_id": 9239,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase damage inflicted for jump attacks by 160%."],
+        "effects_raw": "17:160",
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "High Jump: Power↑",
+                "增強ＨＪ威力",
+                "HJ 위력 증대",
+                "Grand saut puissant",
+                "Hochsprungkraft",
+                "Salto de altura letal"
+            ],
+            "desc_short": [
+                "Boost damage inflicted by Jump",
+                "提高跳躍的傷害",
+                "공중으로 이탈 후 다음 턴에 공격력 상승",
+                "Augmente les dégâts infligés par Saut",
+                "Sprungangriffe verursachen mehr Schaden",
+                "Aumenta el daño causado con Salto"
+            ],
+            "desc_long": [
+                "Boosts damage inflicted by Jump.",
+                "提高跳躍的傷害。",
+                "공중으로 이탈 후 다음 턴에 사용자의 공격력이 상승합니다.",
+                "Augmente les dégâts infligés par l'aptitude Saut.",
+                "Sprungangriffe verursachen mehr Schaden",
+                "Aumenta el daño causado con Salto"
+            ]
+        }
+    },
+    "910140": {
+        "name": "Last Stand",
+        "compendium_id": 9240,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 4,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20% when HP drops below 30%.",
+            "Increase HP by 20% when HP drops below 30%."
+        ],
+        "effects_raw": "4@4:2,20,9000,30,0,-1@4,20,9000,30,0,-1",
+        "unit_restriction": [254001003, 254001004, 254001005],
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Last Stand",
+                "誓死抵抗",
+                "버티기",
+                "Dernier recours",
+                "Alles geben",
+                "Último aliento"
+            ],
+            "desc_short": [
+                "Boost DEF and SPR when HP drops below a certain level",
+                "HP低於一定量時提高防禦和精神的數值",
+                "HP가 일정량 이하일 때 방어력과 정신력 상승",
+                "Bonus de DEF et PSY quand PV sous un certain seuil",
+                "ABW u. PSY hoch bei geringen LP",
+                "Más DEF y ESP al quedar poca VIT"
+            ],
+            "desc_long": [
+                "Boosts DEF and SPR when HP drops below a certain level.",
+                "HP低於一定量時提高防禦和精神的數值。",
+                "HP가 일정량 이하일 때 방어력과 정신력이 상승합니다.",
+                "Augmente la DEF et la PSY quand les PV tombent sous un certain seuil.",
+                "DEF und PSY steigen, wenn die LP unter einen bestimmten Wert fallen.",
+                "Más DEF y ESP al quedar poca VIT"
+            ]
+        }
+    },
+    "910141": {
+        "name": "Cheer",
+        "compendium_id": 9241,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 4,
+        "mp_cost": 48,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_type": "Default",
+        "damage_type": null,
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 40% for 3 turn(s) to all allies."],
+        "effects_raw": "3:40,40,0,0,3,1",
+        "unit_restriction": [254000503, 254000504, 254000505],
+        "icon": "ability_63.png",
+        "strings": {
+            "name": [
+                "Cheer",
+                "鼓勵",
+                "격려",
+                "Encourager",
+                "Anfeuern",
+                "Ánimo"
+            ],
+            "desc_short": [
+                "Boost ATK and DEF for all allies",
+                "提高全體隊員攻擊和防禦的數值",
+                "아군 전체의 공격력과 방어력 상승",
+                "Augmente l'ATT et la DEF de tous les alliés",
+                "ANG und ABW hoch, alle Verb.",
+                "Más ATQ y DEF para todos los aliados"
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF for all allies.",
+                "提高全體隊員攻擊和防禦的數值。",
+                "아군 전체의 공격력과 방어력이 상승합니다.",
+                "Augmente l'ATT et la DEF de tous les alliés.",
+                "Erhöht ANG und ABW bei allen Verbündeten.",
+                "Más ATQ y DEF para todos los aliados"
             ]
         }
     }
