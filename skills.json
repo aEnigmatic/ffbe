@@ -622,10 +622,16 @@
             "name": {
                 "0": "Regen",
                 "1": "リジェネ(漆黒用)",
+                "3": "Récup",
                 "5": "Revitalia"
             },
-            "desc_short": null,
-            "desc_long": null
+            "desc_short": {
+                "0": "Regenerate HP for one ally over time",
+                "3": "Soigne un allié petit à petit"
+            },
+            "desc_long": {
+                "3": "Soigne légèrement un allié à chaque tour."
+            }
         }
     },
     "10130": {
@@ -8808,7 +8814,7 @@
                 "Attack one enemy and steal item",
                 "攻擊1名敵人＋盜取道具",
                 "적 1명에게 피해+아이템을 훔친다",
-                "Attaque un ennemi lui vole un objet",
+                "Attaque un ennemi et lui vole un objet",
                 "Angriff und Stehlen, ein Gegner",
                 "Roba un objeto y ataca"
             ],
@@ -17545,7 +17551,7 @@
                 "Impacto purgador"
             ],
             "desc_short": [
-                "Three times attack, and confuse, one enemy",
+                "Attack three times and confuse one enemy",
                 "攻擊1名敵人3次+混亂",
                 "적 1명에게 3회 공격+혼란 부여",
                 "Attaque trois fois et rend un ennemi confus",
@@ -18297,7 +18303,7 @@
                 "Boost ATK and DEF when equipped with fists",
                 "裝備格鬥武器時提高攻擊和防禦的數值",
                 "격투무기 장착 시 공격력과 방어력 상승",
-                "Augmente l'ATT et la DEF lorsqu'une tenue d'art martial est équipée",
+                "Augmente l'ATT et la DEF lorsque des poings sont équipés",
                 "ANG und ABW hoch, wenn mit einem Kampfkunstausr.ausger.",
                 "Aumenta ATQ y DEF al llevar armas de puño"
             ],
@@ -18305,7 +18311,7 @@
                 "Boosts ATK and DEF when equipped with fists.",
                 "裝備格鬥武器時提高攻擊和防禦的數值。",
                 "격투무기를 장착하면 공격력과 방어력이 상승합니다.",
-                "Augmente l'ATT et la DEF lorsqu'une tenue d'art martial est équipée.",
+                "Augmente l'ATT et la DEF lorsque des poings sont équipés",
                 "ANG und DEF hoch, wenn mit einem Kampfkunstausr. ausger.",
                 "Aumenta ATQ y DEF al llevar armas de puño o de artes marciales"
             ]
@@ -27893,7 +27899,7 @@
                 "흑사자의 문장",
                 "Emblème du lion noir",
                 "Waffen des Schwarzen Wächters",
-                "Blasón del leon negro"
+                "Blasón del león negro"
             ],
             "desc_short": [
                 "Nullify blind, sleep, and paralysis and boost ATK when equipped with a large sword",
@@ -27990,7 +27996,7 @@
                 "적 1명의 일부 방어력 무시 피해+빛속성 저항력 감소",
                 "Dégâts en partie fixes et réduit la rés. à la lumière d'un ennemi",
                 "Fügt 1 Gegner teilw. dir. Sch. zu und reduziert Lichtr. für 1 Gegner.",
-                "Daño absoluto parcial y reduce la resistencia a la luz de uno"
+                "Daño absoluto parcial y reduce la resistencia a la luz de un enemigo"
             ],
             "desc_long": [
                 "Deals damage partially unaffected by DEF to one enemy and reduces their light resistance.",
@@ -28251,7 +28257,7 @@
                 "無盡旋轉",
                 "엔드리스 턴",
                 "Tour infini",
-                "Endlosrunde",
+                "Endlosdrehung",
                 "Turno infinito"
             ],
             "desc_short": [
@@ -28268,7 +28274,7 @@
                 "수면, 마비, 혼란, 석화를 무효화하고 MP가 15% 상승합니다.",
                 "Annule som., para., conf., pétri. et augmente les PM de 15%",
                 "Annuliert Schlaf, Lähmung, Konfus, VERSteinER und erhöht MP um 15 %.",
-                "Anula sue, par, con y pie, y aumenta los PM un 15%"
+                "Anula sueño, parálisis, confusión y piedra, y aumenta los PM un 15%"
             ]
         }
     },
@@ -28359,7 +28365,7 @@
         }
     },
     "204790": {
-        "name": "Panzer Drance",
+        "name": "Panzer Dance",
         "compendium_id": 537,
         "type": "ABILITY",
         "active": true,
@@ -28376,7 +28382,7 @@
         "icon": "ability_50.png",
         "strings": {
             "name": [
-                "Panzer Drance",
+                "Panzer Dance",
                 "裝甲戰舞",
                 "팬저 댄스",
                 "Danse vivifiante",
@@ -28871,7 +28877,7 @@
                 "奇蹟舞步",
                 "기적의 스텝",
                 "Pas miraculeux",
-                "Wunderstufe",
+                "Wunderschritt",
                 "Paso milagroso"
             ],
             "desc_short": [
@@ -28918,7 +28924,7 @@
                 "성천폭격타",
                 "Écrase-casque",
                 "Helm zerschmettern",
-                "Aplasta-cascos"
+                "Aplastacascos"
             ],
             "desc_short": [
                 "Damage and reduce DEF and SPR for one enemy",
@@ -41223,7 +41229,7 @@
                 "Shroud of Saints",
                 "女神的加護",
                 "여신의 가호",
-                "Faveurs de la déesse",
+                "Voile des saints",
                 "Gefallen der Göttin",
                 "Efigie de la diosa"
             ],
@@ -41312,7 +41318,7 @@
                 "Cleric Stance",
                 "戰姿",
                 "성전 태세",
-                "Pose de prêtre",
+                "Prestance du prêtre",
                 "Kleriker-Kata",
                 "Postura del clérigo"
             ],
@@ -41355,7 +41361,7 @@
                 "Benediction",
                 "天賜祝福",
                 "거룩한 축복",
-                "Évocation",
+                "Bénédiction",
                 "Anrufung",
                 "Evocación"
             ],
@@ -41578,7 +41584,7 @@
                 "Circle of Scorn",
                 "厄運流轉",
                 "파멸의 진",
-                "Cercle du mépris",
+                "Cercle du destin",
                 "Kreis des Hohns",
                 "Círculo del desdén"
             ],
@@ -41621,7 +41627,7 @@
                 "Fight or Flight",
                 "戰逃反應",
                 "임전무퇴",
-                "Combattre ou fuir",
+                "Combat acharné",
                 "Kämpfen oder Fliehen",
                 "Pelea o puerta"
             ],
@@ -41707,7 +41713,7 @@
                 "Foresight",
                 "預見",
                 "예지력",
-                "Vision prémonitoire",
+                "Aguet",
                 "Weitsicht",
                 "Visión de futuro"
             ],
@@ -41750,7 +41756,7 @@
                 "Featherfoot",
                 "飄羽步",
                 "새털 걸음",
-                "Pied léger",
+                "Pieds légers",
                 "Federfuß",
                 "Pies ligeros"
             ],
@@ -41773,7 +41779,7 @@
         }
     },
     "207880": {
-        "name": "Bloodbath",
+        "name": "Perfect Dodge",
         "compendium_id": 845,
         "type": "ABILITY",
         "active": true,
@@ -41790,11 +41796,11 @@
         "icon": "ability_97.png",
         "strings": {
             "name": [
-                "Bloodbath",
+                "Perfect Dodge",
                 "殘影",
                 "잔영",
-                "Pas sombre",
-                "Schattenwechsel",
+                "Décalage d'ombre",
+                "Perfektes Ausweichen",
                 "Paso sombrío"
             ],
             "desc_short": [
@@ -41836,7 +41842,7 @@
                 "Goad",
                 "怒斥",
                 "질타",
-                "Provocation",
+                "Aiguillonnement",
                 "Ansporn",
                 "Puya"
             ],
@@ -41879,7 +41885,7 @@
                 "Tempered Will",
                 "鋼鐵意志",
                 "강철의 의지",
-                "Volonté de fer",
+                "Volonté d'acier",
                 "Maßvoller Wille",
                 "Templanza de hierro"
             ],
@@ -41922,7 +41928,7 @@
                 "The Echo",
                 "超越之力",
                 "초월하는 힘",
-                "L'écho",
+                "L'Écho",
                 "Das Echo",
                 "El eco"
             ],
@@ -41965,7 +41971,7 @@
                 "Word of the Mother",
                 "行星的代言人",
                 "별의 대변인",
-                "Mots d'une mère",
+                "Messagère d'Hydaelyn",
                 "Mutterwort",
                 "Palabra de madre"
             ],
@@ -41983,7 +41989,7 @@
                 "독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 무효화합니다.",
                 "Annule poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification",
                 "Annuliert Gift, Blind, Schlaf, Stille, Lähmung, Konfus, Virus und Stein.",
-                "Anula ven, ceg, sue, sil, par, con, enf y pie a los aliados"
+                "Anula veneno, ceguera, sueño, silencio, parálisis, confusión, enfermedad y piedra"
             ]
         }
     },
@@ -42628,7 +42634,7 @@
                 "아군 1명의 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 회복합니다.",
                 "Soigne pois., céc., som., sil., para., conf., mala. et pétri pour un allié",
                 "Heilt Gift, Blind, Schlaf, Stille, Lähmung, Konfus, Virus und Stein, ein Verb.",
-                "Cura ven, ceg, sue, sil, par, con, enf y pie de un aliado"
+                "Cura veneno, ceguera, sueño, silencio, parálisis, confusión, enfermedad y piedra de un aliado"
             ]
         }
     },
@@ -42696,7 +42702,7 @@
                 "Protection of the Twelve",
                 "十二神的守護",
                 "12신의 가호",
-                "Égide des dieux",
+                "Égide des Douze",
                 "Schutz der Götter",
                 "Guarda de los dioses"
             ],
@@ -48954,7 +48960,7 @@
         }
     },
     "209560": {
-        "name": "スペリオエルフ",
+        "name": "Elf Superior",
         "compendium_id": 1014,
         "type": "ABILITY",
         "active": false,
@@ -48974,14 +48980,17 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "スペリオエルフ"
+                "0": "Elf Superior",
+                "1": "スペリオエルフ",
+                "3": "Élite elfique",
+                "5": "Élite élfica"
             },
-            "desc_short": null,
+            "desc_short": ["Boost wind and light resistance, and MAG and SPR when equipped with a bow"],
             "desc_long": null
         }
     },
     "209570": {
-        "name": "オレオール・レイ",
+        "name": "Aureole Ray",
         "compendium_id": 1015,
         "type": "ABILITY",
         "active": true,
@@ -49001,14 +49010,17 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "オレオール・レイ"
+                "0": "Aureole Ray",
+                "1": "オレオール・レイ",
+                "3": "Rayon auréole",
+                "5": "Rayo áureo"
             },
-            "desc_short": null,
+            "desc_short": ["Wind and light damage to all enemies"],
             "desc_long": null
         }
     },
     "209580": {
-        "name": "デモンズアウト",
+        "name": "Demon's Out",
         "compendium_id": 1016,
         "type": "ABILITY",
         "active": false,
@@ -49025,14 +49037,17 @@
         "icon": "ability_79.png",
         "strings": {
             "name": {
-                "1": "デモンズアウト"
+                "0": "Demon's Out",
+                "1": "デモンズアウト",
+                "3": "Exorcisme",
+                "5": "Exorcismo"
             },
-            "desc_short": null,
+            "desc_short": ["Boost magic damage against demon monsters"],
             "desc_long": null
         }
     },
     "209590": {
-        "name": "ストンスタチュー",
+        "name": "Stone Statue",
         "compendium_id": 1017,
         "type": "ABILITY",
         "active": true,
@@ -49049,14 +49064,17 @@
         "icon": "ability_14.png",
         "strings": {
             "name": {
-                "1": "ストンスタチュー"
+                "0": "Stone Statue",
+                "1": "ストンスタチュー",
+                "3": "Posture pétrifiante",
+                "5": "Pose petrificadora"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of petrifying one enemy"],
             "desc_long": null
         }
     },
     "209600": {
-        "name": "パライズスタチュー",
+        "name": "Paralyzing Stance",
         "compendium_id": 1018,
         "type": "ABILITY",
         "active": true,
@@ -49073,14 +49091,17 @@
         "icon": "ability_14.png",
         "strings": {
             "name": {
-                "1": "パライズスタチュー"
+                "0": "Paralyzing Stance",
+                "1": "パライズスタチュー",
+                "3": "Posture paralysante",
+                "5": "Pose paralizadora"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of paralysing one enemy"],
             "desc_long": null
         }
     },
     "209610": {
-        "name": "サイレススタチュー",
+        "name": "Silencing Stance",
         "compendium_id": 1019,
         "type": "ABILITY",
         "active": true,
@@ -49097,14 +49118,17 @@
         "icon": "ability_14.png",
         "strings": {
             "name": {
-                "1": "サイレススタチュー"
+                "0": "Silencing Stance",
+                "1": "サイレススタチュー",
+                "3": "Posture mutique",
+                "5": "Pose enmudecedora"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of silencing one enemy"],
             "desc_long": null
         }
     },
     "209620": {
-        "name": "ゲイルアロー",
+        "name": "Gail Arrow",
         "compendium_id": 1020,
         "type": "ABILITY",
         "active": true,
@@ -49121,14 +49145,17 @@
         "icon": "ability_25.png",
         "strings": {
             "name": {
-                "1": "ゲイルアロー"
+                "0": "Gail Arrow",
+                "1": "ゲイルアロー",
+                "3": "Flèche tornade",
+                "5": "Saeta tornado"
             },
-            "desc_short": null,
+            "desc_short": ["Wind damage to one enemy and increase power with consecutive use"],
             "desc_long": null
         }
     },
     "209630": {
-        "name": "グリームアロー",
+        "name": "Gleaming Arrow",
         "compendium_id": 1021,
         "type": "ABILITY",
         "active": true,
@@ -49145,14 +49172,17 @@
         "icon": "ability_5.png",
         "strings": {
             "name": {
-                "1": "グリームアロー"
+                "0": "Gleaming Arrow",
+                "1": "グリームアロー",
+                "3": "Flèche étincelante",
+                "5": "Saeta centella"
             },
-            "desc_short": null,
+            "desc_short": ["Light damage to one enemy and increase power with consecutive use"],
             "desc_long": null
         }
     },
     "209640": {
-        "name": "エルフの歌",
+        "name": "Elven Song",
         "compendium_id": 1022,
         "type": "ABILITY",
         "active": true,
@@ -49172,14 +49202,17 @@
         "icon": "ability_100.png",
         "strings": {
             "name": {
-                "1": "エルフの歌"
+                "0": "Elven Song",
+                "1": "エルフの歌",
+                "3": "Chanson elfique",
+                "5": "Balada élfica"
             },
-            "desc_short": null,
+            "desc_short": ["Gradually restore HP and MP for all allies while singing"],
             "desc_long": null
         }
     },
     "209650": {
-        "name": "風光の盾",
+        "name": "Beautiful Shield",
         "compendium_id": 1023,
         "type": "ABILITY",
         "active": true,
@@ -49196,14 +49229,17 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "風光の盾"
+                "0": "Beautiful Shield",
+                "1": "風光の盾",
+                "3": "Bouclier magnifique",
+                "5": "Escudo de esplendor"
             },
-            "desc_short": null,
+            "desc_short": ["Boost wind and light resistance for all allies"],
             "desc_long": null
         }
     },
     "209660": {
-        "name": "ブランの愛",
+        "name": "Blanch's Love",
         "compendium_id": 1024,
         "type": "ABILITY",
         "active": false,
@@ -49220,14 +49256,17 @@
         "icon": "ability_97.png",
         "strings": {
             "name": {
-                "1": "ブランの愛"
+                "0": "Blanch's Love",
+                "1": "ブランの愛",
+                "3": "Amour de Blanch",
+                "5": "Amor de Blanch"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify silence, paralysis and stone"],
             "desc_long": null
         }
     },
     "209670": {
-        "name": "ノーブルエルフ",
+        "name": "Noble Elf",
         "compendium_id": 1025,
         "type": "ABILITY",
         "active": false,
@@ -49244,14 +49283,17 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "ノーブルエルフ"
+                "0": "Noble Elf",
+                "1": "ノーブルエルフ",
+                "3": "Elfe noble",
+                "5": "Elfo noble"
             },
-            "desc_short": null,
+            "desc_short": ["Boost lightning and light resistance by 50%"],
             "desc_long": null
         }
     },
     "209680": {
-        "name": "サンダークラップ",
+        "name": "Thunder Clap",
         "compendium_id": 1026,
         "type": "ABILITY",
         "active": true,
@@ -49274,14 +49316,17 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "サンダークラップ"
+                "0": "Thunder Clap",
+                "1": "サンダークラップ",
+                "3": "Coup de tonnerre",
+                "5": "Trueno atronador"
             },
-            "desc_short": null,
+            "desc_short": ["Lightning and light damage and reduce lightning and light resistance for all enemies"],
             "desc_long": null
         }
     },
     "209690": {
-        "name": "エルフの誇り",
+        "name": "Elven Pride",
         "compendium_id": 1027,
         "type": "ABILITY",
         "active": false,
@@ -49301,14 +49346,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
-                "1": "エルフの誇り"
+                "0": "Elven Pride",
+                "1": "エルフの誇り",
+                "3": "Fierté elfique",
+                "5": "Orgullo élfico"
             },
-            "desc_short": null,
+            "desc_short": ["Boost MP by 30%, ATK by 20%, and lightning resistance by 30%"],
             "desc_long": null
         }
     },
     "209700": {
-        "name": "トータルスラスト",
+        "name": "Total Thrust",
         "compendium_id": 1028,
         "type": "ABILITY",
         "active": true,
@@ -49325,14 +49373,16 @@
         "icon": "ability_10.png",
         "strings": {
             "name": {
-                "1": "トータルスラスト"
+                "0": "Total Thrust",
+                "1": "トータルスラスト",
+                "5": "Estoque maestro"
             },
-            "desc_short": null,
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "209710": {
-        "name": "サンダースラスト",
+        "name": "Thunder Thrust",
         "compendium_id": 1029,
         "type": "ABILITY",
         "active": true,
@@ -49349,14 +49399,16 @@
         "icon": "ability_20.png",
         "strings": {
             "name": {
-                "1": "サンダースラスト"
+                "0": "Thunder Thrust",
+                "1": "サンダースラスト",
+                "5": "Estoque relámpago"
             },
-            "desc_short": null,
+            "desc_short": ["Lightning damage to one enemy"],
             "desc_long": null
         }
     },
     "209720": {
-        "name": "サンダーバースト",
+        "name": "Shockstorm",
         "compendium_id": 1030,
         "type": "ABILITY",
         "active": true,
@@ -49373,14 +49425,16 @@
         "icon": "ability_20.png",
         "strings": {
             "name": {
-                "1": "サンダーバースト"
+                "0": "Shockstorm",
+                "1": "サンダーバースト",
+                "5": "Tormenta electrizante"
             },
-            "desc_short": null,
+            "desc_short": ["Lightning damage to all enemies"],
             "desc_long": null
         }
     },
     "209730": {
-        "name": "ブライトスラスト",
+        "name": "Bright Thrust",
         "compendium_id": 1031,
         "type": "ABILITY",
         "active": true,
@@ -49397,14 +49451,16 @@
         "icon": "ability_5.png",
         "strings": {
             "name": {
-                "1": "ブライトスラスト"
+                "0": "Bright Thrust",
+                "1": "ブライトスラスト",
+                "5": "Estoque luminoso"
             },
-            "desc_short": null,
+            "desc_short": ["Light damage to one enemy"],
             "desc_long": null
         }
     },
     "209740": {
-        "name": "ブライトバースト",
+        "name": "Brightstorm",
         "compendium_id": 1032,
         "type": "ABILITY",
         "active": true,
@@ -49421,14 +49477,16 @@
         "icon": "ability_5.png",
         "strings": {
             "name": {
-                "1": "ブライトバースト"
+                "0": "Brightstorm",
+                "1": "ブライトバースト",
+                "5": "Tormenta deslumbrante"
             },
-            "desc_short": null,
+            "desc_short": ["Light damage to all enemies"],
             "desc_long": null
         }
     },
     "209750": {
-        "name": "雷光の盾",
+        "name": "Lightning Shield",
         "compendium_id": 1033,
         "type": "ABILITY",
         "active": true,
@@ -49445,14 +49503,16 @@
         "icon": "ability_9.png",
         "strings": {
             "name": {
-                "1": "雷光の盾"
+                "0": "Lightning Shield",
+                "1": "雷光の盾",
+                "5": "Escudo de tempestad"
             },
-            "desc_short": null,
+            "desc_short": ["Boost lightning and light resistance for all allies"],
             "desc_long": null
         }
     },
     "209760": {
-        "name": "ルネラの愛",
+        "name": "Lunera's Love",
         "compendium_id": 1034,
         "type": "ABILITY",
         "active": false,
@@ -49469,14 +49529,16 @@
         "icon": "ability_19.png",
         "strings": {
             "name": {
-                "1": "ルネラの愛"
+                "0": "Lunera's Love",
+                "1": "ルネラの愛",
+                "5": "Amor de Lunera"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify paralysis"],
             "desc_long": null
         }
     },
     "209770": {
-        "name": "危機察知",
+        "name": "Danger Sensor",
         "compendium_id": 1035,
         "type": "ABILITY",
         "active": false,
@@ -49493,14 +49555,16 @@
         "icon": "ability_97.png",
         "strings": {
             "name": {
-                "1": "危機察知"
+                "0": "Danger Sensor",
+                "1": "危機察知",
+                "5": "Detector de peligro"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of evading a physical attack"],
             "desc_long": null
         }
     },
     "209780": {
-        "name": "一流冒険家",
+        "name": "Ace Adventurer",
         "compendium_id": 1036,
         "type": "ABILITY",
         "active": false,
@@ -49517,14 +49581,16 @@
         "icon": "ability_72.png",
         "strings": {
             "name": {
-                "1": "一流冒険家"
+                "0": "Ace Adventurer",
+                "1": "一流冒険家",
+                "5": "Aventurero de primera"
             },
-            "desc_short": null,
+            "desc_short": ["Can equip two short swords, whips, throwing items, or guns"],
             "desc_long": null
         }
     },
     "209790": {
-        "name": "ハイパーメンタル",
+        "name": "Hyper Mentalist",
         "compendium_id": 1037,
         "type": "ABILITY",
         "active": false,
@@ -49544,14 +49610,16 @@
         "icon": "ability_91.png",
         "strings": {
             "name": {
-                "1": "ハイパーメンタル"
+                "0": "Hyper Mentalist",
+                "1": "ハイパーメンタル",
+                "5": "Genio mentalista"
             },
-            "desc_short": null,
+            "desc_short": ["Increase fill capacity of burst stones and restore MP each turn"],
             "desc_long": null
         }
     },
     "209800": {
-        "name": "シングルショット",
+        "name": "Single Shot",
         "compendium_id": 1038,
         "type": "ABILITY",
         "active": true,
@@ -49568,14 +49636,16 @@
         "icon": "ability_40.png",
         "strings": {
             "name": {
-                "1": "シングルショット"
+                "0": "Single Shot",
+                "1": "シングルショット",
+                "5": "Tiro único"
             },
-            "desc_short": null,
+            "desc_short": ["Damage one enemy"],
             "desc_long": null
         }
     },
     "209810": {
-        "name": "ベストショット",
+        "name": "Best Shot",
         "compendium_id": 1039,
         "type": "ABILITY",
         "active": true,
@@ -49592,14 +49662,16 @@
         "icon": "ability_40.png",
         "strings": {
             "name": {
-                "1": "ベストショット"
+                "0": "Best Shot",
+                "1": "ベストショット",
+                "5": "Tiro superbio"
             },
-            "desc_short": null,
+            "desc_short": ["Critical damage to one enemy"],
             "desc_long": null
         }
     },
     "209820": {
-        "name": "スーパーエイド",
+        "name": "Super Aid",
         "compendium_id": 1040,
         "type": "ABILITY",
         "active": true,
@@ -49619,14 +49691,16 @@
         "icon": "ability_4.png",
         "strings": {
             "name": {
-                "1": "スーパーエイド"
+                "0": "Super Aid",
+                "1": "スーパーエイド",
+                "5": "Auxilio superior"
             },
-            "desc_short": null,
+            "desc_short": ["Cure poison, blind, silence, and disease and restore HP for one ally"],
             "desc_long": null
         }
     },
     "209830": {
-        "name": "めげない心",
+        "name": "Undiscouraged Heart",
         "compendium_id": 1041,
         "type": "ABILITY",
         "active": true,
@@ -49643,14 +49717,16 @@
         "icon": "ability_19.png",
         "strings": {
             "name": {
-                "1": "めげない心"
+                "0": "Undiscouraged Heart",
+                "1": "めげない心",
+                "5": "Alma inquebrantable"
             },
-            "desc_short": null,
+            "desc_short": ["Boost own poison, blind, paralysis, confusion, disease, and stone resistance"],
             "desc_long": null
         }
     },
     "209840": {
-        "name": "終わらない夢",
+        "name": "Endless Dream",
         "compendium_id": 1042,
         "type": "ABILITY",
         "active": true,
@@ -49670,14 +49746,16 @@
         "icon": "ability_4.png",
         "strings": {
             "name": {
-                "1": "終わらない夢"
+                "0": "Endless Dream",
+                "1": "終わらない夢",
+                "5": "Sueño sinfín"
             },
-            "desc_short": null,
+            "desc_short": ["Put self to sleep and restore HP and MP"],
             "desc_long": null
         }
     },
     "209850": {
-        "name": "緊急蘇生",
+        "name": "Urgent Rebirth",
         "compendium_id": 1043,
         "type": "ABILITY",
         "active": true,
@@ -49694,14 +49772,16 @@
         "icon": "ability_1.png",
         "strings": {
             "name": {
-                "1": "緊急蘇生"
+                "0": "Urgent Rebirth",
+                "1": "緊急蘇生",
+                "5": "Renacer exprés"
             },
-            "desc_short": null,
+            "desc_short": ["Revive one ally from being KO'd"],
             "desc_long": null
         }
     },
     "209860": {
-        "name": "奇跡の発掘",
+        "name": "Miracle Dig",
         "compendium_id": 1044,
         "type": "ABILITY",
         "active": false,
@@ -49718,14 +49798,16 @@
         "icon": "ability_91.png",
         "strings": {
             "name": {
-                "1": "奇跡の発掘"
+                "0": "Miracle Dig",
+                "1": "奇跡の発掘",
+                "5": "Excavación milagrosa"
             },
-            "desc_short": null,
+            "desc_short": ["LB gauge fills each turn"],
             "desc_long": null
         }
     },
     "209870": {
-        "name": "つくりだす",
+        "name": "Manufacture",
         "compendium_id": 1045,
         "type": "ABILITY",
         "active": true,
@@ -49736,20 +49818,22 @@
         "effect_type": "Default",
         "damage_type": "Physical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%:  (501190): Physical damage (1.8x ATK) to all enemies.\n30%:  (501200): Physical damage (1.8x ATK) to all enemies. and Reduce resistance to Earth by 50% for 3 turns to all enemies.\n25%:  (501210): Physical damage (1.8x ATK) to all enemies., Reduce resistance to Earth by 50% for 3 turns to all enemies. and Reduce DEF and SPR by 45% for 3 turn(s) to all enemies.\n15%:  (501220): Physical damage (3.6x ATK) to all enemies. Ignore cover., Reduce resistance to Earth by 50% for 3 turns to all enemies. and Reduce DEF and SPR by 45% for 3 turn(s) to all enemies."],
+        "effects": ["Randomly use:\n30%: Sharp Spear (501190): Physical damage (1.8x ATK) to all enemies.\n30%: Earthen Blade (501200): Physical damage (1.8x ATK) to all enemies. and Reduce resistance to Earth by 50% for 3 turns to all enemies.\n25%: Earthen Great Blade (501210): Physical damage (1.8x ATK) to all enemies., Reduce resistance to Earth by 50% for 3 turns to all enemies. and Reduce DEF and SPR by 45% for 3 turn(s) to all enemies.\n15%: Earth-shattering Axe (501220): Physical damage (3.6x ATK) to all enemies. Ignore cover., Reduce resistance to Earth by 50% for 3 turns to all enemies. and Reduce DEF and SPR by 45% for 3 turn(s) to all enemies."],
         "effects_raw": "29:501190&30,501200&30,501210&25,501220&15",
         "unit_restriction": null,
         "icon": "ability_83.png",
         "strings": {
             "name": {
-                "1": "つくりだす"
+                "0": "Manufacture",
+                "1": "つくりだす",
+                "5": "Manufactura"
             },
-            "desc_short": null,
+            "desc_short": ["Use random ability on all enemies"],
             "desc_long": null
         }
     },
     "209880": {
-        "name": "破砕槌",
+        "name": "Crushing Hammer",
         "compendium_id": 1046,
         "type": "ABILITY",
         "active": true,
@@ -49766,14 +49850,16 @@
         "icon": "ability_28.png",
         "strings": {
             "name": {
-                "1": "破砕槌"
+                "0": "Crushing Hammer",
+                "1": "破砕槌",
+                "5": "Martillo pulverizador"
             },
-            "desc_short": null,
+            "desc_short": ["Earth damage to one enemy"],
             "desc_long": null
         }
     },
     "209890": {
-        "name": "地砕豪槌",
+        "name": "Smashing Hammer",
         "compendium_id": 1047,
         "type": "ABILITY",
         "active": true,
@@ -49790,14 +49876,16 @@
         "icon": "ability_28.png",
         "strings": {
             "name": {
-                "1": "地砕豪槌"
+                "0": "Smashing Hammer",
+                "1": "地砕豪槌",
+                "5": "Martillo aplastador"
             },
-            "desc_short": null,
+            "desc_short": ["Earth damage to all enemies"],
             "desc_long": null
         }
     },
     "209900": {
-        "name": "思い出の歌",
+        "name": "Song of Memories",
         "compendium_id": 1048,
         "type": "ABILITY",
         "active": true,
@@ -49817,14 +49905,16 @@
         "icon": "ability_100.png",
         "strings": {
             "name": {
-                "1": "思い出の歌"
+                "0": "Song of Memories",
+                "1": "思い出の歌",
+                "5": "Canción nostálgica"
             },
-            "desc_short": null,
+            "desc_short": ["Gradually restore HP and MP for all allies while singing"],
             "desc_long": null
         }
     },
     "209910": {
-        "name": "ヘビーハンマー",
+        "name": "Heavy Hammer",
         "compendium_id": 1049,
         "type": "ABILITY",
         "active": true,
@@ -49841,14 +49931,16 @@
         "icon": "ability_10.png",
         "strings": {
             "name": {
-                "1": "ヘビーハンマー"
+                "0": "Heavy Hammer",
+                "1": "ヘビーハンマー",
+                "5": "Martillo pesado"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to one enemy"],
             "desc_long": null
         }
     },
     "209920": {
-        "name": "スペシャルハンマー",
+        "name": "Special Hammer",
         "compendium_id": 1050,
         "type": "ABILITY",
         "active": true,
@@ -49865,14 +49957,16 @@
         "icon": "ability_10.png",
         "strings": {
             "name": {
-                "1": "スペシャルハンマー"
+                "0": "Special Hammer",
+                "1": "スペシャルハンマー",
+                "5": "Martillo especial"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to all enemies"],
             "desc_long": null
         }
     },
     "209930": {
-        "name": "ドワーフの底力",
+        "name": "Dwarven Force",
         "compendium_id": 1051,
         "type": "ABILITY",
         "active": false,
@@ -49889,14 +49983,16 @@
         "icon": "ability_17.png",
         "strings": {
             "name": {
-                "1": "ドワーフの底力"
+                "0": "Dwarven Force",
+                "1": "ドワーフの底力",
+                "5": "Poder enano"
             },
-            "desc_short": null,
+            "desc_short": ["Boost earth resistance by 30%"],
             "desc_long": null
         }
     },
     "209940": {
-        "name": "毒無効",
+        "name": "Poison Resistance",
         "compendium_id": 1052,
         "type": "ABILITY",
         "active": false,
@@ -49913,14 +50009,16 @@
         "icon": "ability_19.png",
         "strings": {
             "name": {
-                "1": "毒無効"
+                "0": "Poison Resistance",
+                "1": "毒無効",
+                "5": "Inmune al veneno"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify poison"],
             "desc_long": null
         }
     },
     "209950": {
-        "name": "忌むべき子",
+        "name": "Abominable child",
         "compendium_id": 1053,
         "type": "ABILITY",
         "active": false,
@@ -49940,14 +50038,16 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
-                "1": "忌むべき子"
+                "0": "Abominable child",
+                "1": "忌むべき子",
+                "5": "Niña maldita"
             },
-            "desc_short": null,
+            "desc_short": ["Boost HP by 20% and gradually restore HP"],
             "desc_long": null
         }
     },
     "209960": {
-        "name": "乱撃",
+        "name": "Raging Fists",
         "compendium_id": 1054,
         "type": "ABILITY",
         "active": true,
@@ -49964,14 +50064,16 @@
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "乱撃"
+                "0": "Raging Fists",
+                "1": "乱撃",
+                "5": "Puños de la ira"
             },
-            "desc_short": null,
+            "desc_short": ["Damage one enemy and add crushing fist and berserk attack next turn"],
             "desc_long": null
         }
     },
     "209980": {
-        "name": "双竜脚",
+        "name": "Dragon Foot",
         "compendium_id": 1055,
         "type": "ABILITY",
         "active": true,
@@ -49988,14 +50090,16 @@
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "双竜脚"
+                "0": "Dragon Foot",
+                "1": "双竜脚",
+                "5": "Patada de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "209990": {
-        "name": "剛体香",
+        "name": "Carnal Incense",
         "compendium_id": 1056,
         "type": "ABILITY",
         "active": true,
@@ -50012,14 +50116,16 @@
         "icon": "ability_43.png",
         "strings": {
             "name": {
-                "1": "剛体香"
+                "0": "Carnal Incense",
+                "1": "剛体香",
+                "5": "Incienso carnal"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce damage to self for two turns"],
             "desc_long": null
         }
     },
     "210000": {
-        "name": "破壊拳",
+        "name": "Crushing Fist",
         "compendium_id": 1057,
         "type": "ABILITY",
         "active": true,
@@ -50031,21 +50137,23 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "If used after : \"Reduce ATK and DEF by 45% for 3 turn(s) to all enemies.\", otherwise: \"Reduce ATK and DEF by 45% for 3 turn(s) to one enemy.\"."
+            "If used after Raging Fists: \"Reduce ATK and DEF by 45% for 3 turn(s) to all enemies.\", otherwise: \"Reduce ATK and DEF by 45% for 3 turn(s) to one enemy.\"."
         ],
         "effects_raw": "99:2,209960,2,501240,2,501250",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "破壊拳"
+                "0": "Crushing Fist",
+                "1": "破壊拳",
+                "5": "Puños pulverizadores"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce ATK and DEF for one enemy"],
             "desc_long": null
         }
     },
     "210010": {
-        "name": "生命の意志",
+        "name": "Will to Live",
         "compendium_id": 1058,
         "type": "ABILITY",
         "active": true,
@@ -50057,21 +50165,23 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "If used after : \"Auto-revive (80% HP) for 3 turn(s) to all allies.\", otherwise: \"Auto-revive (80% HP) for 3 turn(s) to self.\"."
+            "If used after Berserk Attack: \"Auto-revive (80% HP) for 3 turn(s) to all allies.\", otherwise: \"Auto-revive (80% HP) for 3 turn(s) to self.\"."
         ],
         "effects_raw": "99:2,501320,2,501260,2,501270",
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
             "name": {
-                "1": "生命の意志"
+                "0": "Will to Live",
+                "1": "生命の意志",
+                "5": "Voluntad para vivir"
             },
-            "desc_short": null,
+            "desc_short": ["Cast one time auto-revive on self"],
             "desc_long": null
         }
     },
     "210020": {
-        "name": "夢想阿修羅拳",
+        "name": "Asuran Fists",
         "compendium_id": 1059,
         "type": "ABILITY",
         "active": true,
@@ -50083,21 +50193,23 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after : \"Physical damage (5x ATK) to all enemies. Ignore cover.\", otherwise: \"Physical damage (2.5x ATK) to all enemies.\"."
+            "If used after Crushing Fist: \"Physical damage (5x ATK) to all enemies. Ignore cover.\", otherwise: \"Physical damage (2.5x ATK) to all enemies.\"."
         ],
         "effects_raw": "99:2,501240,2,501280,2,501290",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "夢想阿修羅拳"
+                "0": "Asuran Fists",
+                "1": "夢想阿修羅拳",
+                "5": "Puños de Asura"
             },
-            "desc_short": null,
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "210030": {
-        "name": "みなぎる活力",
+        "name": "Swelling Vitality",
         "compendium_id": 1060,
         "type": "ABILITY",
         "active": true,
@@ -50109,21 +50221,23 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "If used after : \"Restore 130 MP to all allies.\", otherwise: \"Restore 30 MP (+0.1x) over 3 turn(s) to all allies.\"."
+            "If used after Will to Live: \"Restore 130 MP to all allies.\", otherwise: \"Restore 30 MP (+0.1x) over 3 turn(s) to all allies.\"."
         ],
         "effects_raw": "99:2,501260,2,501300,2,501310",
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
             "name": {
-                "1": "みなぎる活力"
+                "0": "Swelling Vitality",
+                "1": "みなぎる活力",
+                "5": "Vitalidad rebosante"
             },
-            "desc_short": null,
+            "desc_short": ["Regenerate MP for all allies over time"],
             "desc_long": null
         }
     },
     "210040": {
-        "name": "羅刹撃",
+        "name": "Berserk Attack",
         "compendium_id": 1061,
         "type": "ABILITY",
         "active": true,
@@ -50135,21 +50249,23 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after : \"Physical damage (2.4x ATK) to one enemy. Ignore cover. and Increase ATK by 100% for 3 turn(s) to self.\", otherwise: \"Physical damage (2.4x ATK) to one enemy. Ignore cover.\"."
+            "If used after Raging Fists: \"Physical damage (2.4x ATK) to one enemy. Ignore cover. and Increase ATK by 100% for 3 turn(s) to self.\", otherwise: \"Physical damage (2.4x ATK) to one enemy. Ignore cover.\"."
         ],
         "effects_raw": "99:2,209960,2,501320,2,501330",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "羅刹撃"
+                "0": "Berserk Attack",
+                "1": "羅刹撃",
+                "5": "Furia enloquecida"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to one enemy"],
             "desc_long": null
         }
     },
     "210050": {
-        "name": "闘魂旋風脚",
+        "name": "Tornado Kick",
         "compendium_id": 1062,
         "type": "ABILITY",
         "active": true,
@@ -50161,21 +50277,23 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after : \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\n (501360)\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
+            "If used after Berserk Attack: \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\nPrishe Special (501360)\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
         ],
         "effects_raw": "99:2,501320,2,501340,2,501350",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
             "name": {
-                "1": "闘魂旋風脚"
+                "0": "Tornado Kick",
+                "1": "闘魂旋風脚",
+                "5": "Patada tornado"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to all enemies"],
             "desc_long": null
         }
     },
     "210060": {
-        "name": "天衣無縫",
+        "name": "Flawless",
         "compendium_id": 1061,
         "type": "ABILITY",
         "active": false,
@@ -50192,14 +50310,16 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
-                "1": "天衣無縫"
+                "0": "Flawless",
+                "1": "天衣無縫",
+                "5": "Perfección"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK and SPR when equipped with fists"],
             "desc_long": null
         }
     },
     "210070": {
-        "name": "俊敏",
+        "name": "Quick Wit",
         "compendium_id": 1062,
         "type": "ABILITY",
         "active": false,
@@ -50216,14 +50336,16 @@
         "icon": "ability_97.png",
         "strings": {
             "name": {
-                "1": "俊敏"
+                "0": "Quick Wit",
+                "1": "俊敏",
+                "5": "Ingenio rápido"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of evading a physical attack"],
             "desc_long": null
         }
     },
     "210080": {
-        "name": "猪突猛進",
+        "name": "Wild Charge",
         "compendium_id": 1063,
         "type": "ABILITY",
         "active": false,
@@ -50240,14 +50362,16 @@
         "icon": "ability_19.png",
         "strings": {
             "name": {
-                "1": "猪突猛進"
+                "0": "Wild Charge",
+                "1": "猪突猛進",
+                "5": "Carga salvaje"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify blind and paralysis"],
             "desc_long": null
         }
     },
     "210090": {
-        "name": "剣豪",
+        "name": "Master Fencer",
         "compendium_id": 1064,
         "type": "ABILITY",
         "active": false,
@@ -50267,14 +50391,16 @@
         "icon": "ability_19.png",
         "strings": {
             "name": {
-                "1": "剣豪"
+                "0": "Master Fencer",
+                "1": "剣豪",
+                "5": "Maestro esgrimidor"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify blind and boost ATK when equipped with a large sword"],
             "desc_long": null
         }
     },
     "210100": {
-        "name": "ストンフォール",
+        "name": "Stone Fall",
         "compendium_id": 1065,
         "type": "ABILITY",
         "active": true,
@@ -50293,15 +50419,16 @@
         "unit_restriction": null,
         "icon": "ability_28.png",
         "strings": {
-            "name": {
-                "1": "ストンフォール"
-            },
-            "desc_short": null,
+            "name": [
+                "Stone Fall",
+                "ストンフォール"
+            ],
+            "desc_short": ["Earth damage and reduce earth resistance for all enemies"],
             "desc_long": null
         }
     },
     "210110": {
-        "name": "誇り高き剣豪",
+        "name": "Proud Fencer",
         "compendium_id": 1066,
         "type": "ABILITY",
         "active": false,
@@ -50320,15 +50447,16 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": {
-                "1": "誇り高き剣豪"
-            },
-            "desc_short": null,
+            "name": [
+                "Proud Fencer",
+                "誇り高き剣豪"
+            ],
+            "desc_short": ["Boost HP by 20% and ATK when equipped with a large sword"],
             "desc_long": null
         }
     },
     "210120": {
-        "name": "ハードスラッシュ",
+        "name": "Hard Slash",
         "compendium_id": 1067,
         "type": "ABILITY",
         "active": true,
@@ -50344,15 +50472,16 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": {
-                "1": "ハードスラッシュ"
-            },
-            "desc_short": null,
+            "name": [
+                "Hard Slash",
+                "ハードスラッシュ"
+            ],
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "210130": {
-        "name": "ストンレイジ",
+        "name": "Stone Rage",
         "compendium_id": 1068,
         "type": "ABILITY",
         "active": true,
@@ -50371,15 +50500,16 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": {
-                "1": "ストンレイジ"
-            },
-            "desc_short": null,
+            "name": [
+                "Stone Rage",
+                "ストンレイジ"
+            ],
+            "desc_short": ["Damage all enemies and add earth element to own physical attack"],
             "desc_long": null
         }
     },
     "210140": {
-        "name": "パワースラッシュ",
+        "name": "Power Slash",
         "compendium_id": 1069,
         "type": "ABILITY",
         "active": true,
@@ -50398,15 +50528,16 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": {
-                "1": "パワースラッシュ"
-            },
-            "desc_short": null,
+            "name": [
+                "Power Slash",
+                "パワースラッシュ"
+            ],
+            "desc_short": ["Damage all enemies and boost own ATK"],
             "desc_long": null
         }
     },
     "210150": {
-        "name": "堅固なる土壁",
+        "name": "Solid Earthen Wall",
         "compendium_id": 1070,
         "type": "ABILITY",
         "active": true,
@@ -50425,15 +50556,16 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": {
-                "1": "堅固なる土壁"
-            },
-            "desc_short": null,
+            "name": [
+                "Solid Earthen Wall",
+                "堅固なる土壁"
+            ],
+            "desc_short": ["Boost earth resistance and restore HP for all allies"],
             "desc_long": null
         }
     },
     "210160": {
-        "name": "ソイルガード",
+        "name": "Earth Guard",
         "compendium_id": 1071,
         "type": "ABILITY",
         "active": false,
@@ -50449,15 +50581,16 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": {
-                "1": "ソイルガード"
-            },
-            "desc_short": null,
+            "name": [
+                "Earth Guard",
+                "ソイルガード"
+            ],
+            "desc_short": ["Boost earth resistance by 50%"],
             "desc_long": null
         }
     },
     "210170": {
-        "name": "守ってやるなの！",
+        "name": "I've Got You!",
         "compendium_id": 1072,
         "type": "ABILITY",
         "active": true,
@@ -50473,15 +50606,16 @@
         "unit_restriction": null,
         "icon": "ability_43.png",
         "strings": {
-            "name": {
-                "1": "守ってやるなの！"
-            },
-            "desc_short": null,
+            "name": [
+                "I've Got You!",
+                "守ってやるなの！"
+            ],
+            "desc_short": ["Reduce damage taken for all allies for three turns"],
             "desc_long": null
         }
     },
     "210180": {
-        "name": "レイヴンベレー",
+        "name": "Crisis Evasion",
         "compendium_id": 1073,
         "type": "ABILITY",
         "active": false,
@@ -50497,15 +50631,16 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": {
-                "1": "レイヴンベレー"
-            },
-            "desc_short": null,
+            "name": [
+                "Crisis Evasion",
+                "レイヴンベレー"
+            ],
+            "desc_short": ["Chance of evading a physical attack"],
             "desc_long": null
         }
     },
     "210190": {
-        "name": "パレードゴルゲット",
+        "name": "Wondrous Power",
         "compendium_id": 1074,
         "type": "ABILITY",
         "active": false,
@@ -50521,15 +50656,16 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": {
-                "1": "パレードゴルゲット"
-            },
-            "desc_short": null,
+            "name": [
+                "Wondrous Power",
+                "パレードゴルゲット"
+            ],
+            "desc_short": ["Restore MP every turn"],
             "desc_long": null
         }
     },
     "210200": {
-        "name": "紅き魂",
+        "name": "Crimson Soul",
         "compendium_id": 1075,
         "type": "ABILITY",
         "active": false,
@@ -50545,15 +50681,16 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_77.png",
         "strings": {
-            "name": {
-                "1": "紅き魂"
-            },
-            "desc_short": null,
+            "name": [
+                "Crimson Soul",
+                "紅き魂"
+            ],
+            "desc_short": ["Boost HP and MP by 30%"],
             "desc_long": null
         }
     },
     "210210": {
-        "name": "勇往邁進",
+        "name": "Push Forward",
         "compendium_id": 1076,
         "type": "ABILITY",
         "active": false,
@@ -50569,15 +50706,16 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_19.png",
         "strings": {
-            "name": {
-                "1": "勇往邁進"
-            },
-            "desc_short": null,
+            "name": [
+                "Push Forward",
+                "勇往邁進"
+            ],
+            "desc_short": ["Nullify blind, paralysis, and stone"],
             "desc_long": null
         }
     },
     "210220": {
-        "name": "グランシェルトの騎士",
+        "name": "Knight of Grandshelt",
         "compendium_id": 1077,
         "type": "ABILITY",
         "active": false,
@@ -50593,15 +50731,16 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_91.png",
         "strings": {
-            "name": {
-                "1": "グランシェルトの騎士"
-            },
-            "desc_short": null,
+            "name": [
+                "Knight of Grandshelt",
+                "グランシェルトの騎士"
+            ],
+            "desc_short": ["Restore MP every turn"],
             "desc_long": null
         }
     },
     "210230": {
-        "name": "蒼き魂",
+        "name": "Green Soul",
         "compendium_id": 1078,
         "type": "ABILITY",
         "active": false,
@@ -50617,15 +50756,16 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_77.png",
         "strings": {
-            "name": {
-                "1": "蒼き魂"
-            },
-            "desc_short": null,
+            "name": [
+                "Green Soul",
+                "蒼き魂"
+            ],
+            "desc_short": ["Boost ATK by 40%"],
             "desc_long": null
         }
     },
     "210240": {
-        "name": "確固不動",
+        "name": "Absolute Security",
         "compendium_id": 1079,
         "type": "ABILITY",
         "active": false,
@@ -50641,15 +50781,16 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_19.png",
         "strings": {
-            "name": {
-                "1": "確固不動"
-            },
-            "desc_short": null,
+            "name": [
+                "Absolute Security",
+                "確固不動"
+            ],
+            "desc_short": ["Nullify sleep, paralysis, and confusion"],
             "desc_long": null
         }
     },
     "210250": {
-        "name": "グランシェルトの騎士",
+        "name": "Knight of Grandshelt",
         "compendium_id": 1080,
         "type": "ABILITY",
         "active": false,
@@ -50665,15 +50806,16 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_91.png",
         "strings": {
-            "name": {
-                "1": "グランシェルトの騎士"
-            },
-            "desc_short": null,
+            "name": [
+                "Knight of Grandshelt",
+                "グランシェルトの騎士"
+            ],
+            "desc_short": ["Restore MP every turn"],
             "desc_long": null
         }
     },
     "210260": {
-        "name": "蘇りし少女",
+        "name": "Girl of Rebirth",
         "compendium_id": 1081,
         "type": "ABILITY",
         "active": false,
@@ -50689,15 +50831,16 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_77.png",
         "strings": {
-            "name": {
-                "1": "蘇りし少女"
-            },
-            "desc_short": null,
+            "name": [
+                "Girl of Rebirth",
+                "蘇りし少女"
+            ],
+            "desc_short": ["Boost MP by 40%"],
             "desc_long": null
         }
     },
     "210270": {
-        "name": "凛々しき純心",
+        "name": "Purest of Hearts",
         "compendium_id": 1082,
         "type": "ABILITY",
         "active": false,
@@ -50713,15 +50856,16 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_19.png",
         "strings": {
-            "name": {
-                "1": "凛々しき純心"
-            },
-            "desc_short": null,
+            "name": [
+                "Purest of Hearts",
+                "凛々しき純心"
+            ],
+            "desc_short": ["Nullify sleep, silence, and paralysis"],
             "desc_long": null
         }
     },
     "210280": {
-        "name": "永遠の花",
+        "name": "Eternal Bloom",
         "compendium_id": 1083,
         "type": "ABILITY",
         "active": false,
@@ -50737,15 +50881,16 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_91.png",
         "strings": {
-            "name": {
-                "1": "永遠の花"
-            },
-            "desc_short": null,
+            "name": [
+                "Eternal Bloom",
+                "永遠の花"
+            ],
+            "desc_short": ["Restore MP every turn"],
             "desc_long": null
         }
     },
     "210290": {
-        "name": "経験値UP1.3倍",
+        "name": "EXP Boost x1.3",
         "compendium_id": 1084,
         "type": "ABILITY",
         "active": false,
@@ -50761,10 +50906,11 @@
         "unit_restriction": null,
         "icon": "ability_81.png",
         "strings": {
-            "name": {
-                "1": "経験値UP1.3倍"
-            },
-            "desc_short": null,
+            "name": [
+                "EXP Boost x1.3",
+                "経験値UP1.3倍"
+            ],
+            "desc_short": ["Boost EXP acquired from quests"],
             "desc_long": null
         }
     },
@@ -59495,7 +59641,7 @@
         }
     },
     "501190": {
-        "name": "するどい槍",
+        "name": "Sharp Spear",
         "compendium_id": 10087,
         "type": "ABILITY",
         "active": true,
@@ -59511,15 +59657,16 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": {
-                "1": "するどい槍"
-            },
-            "desc_short": null,
+            "name": [
+                "Sharp Spear",
+                "するどい槍"
+            ],
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "501200": {
-        "name": "土鈍りの剣",
+        "name": "Earthen Blade",
         "compendium_id": 10088,
         "type": "ABILITY",
         "active": true,
@@ -59538,15 +59685,16 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": {
-                "1": "土鈍りの剣"
-            },
-            "desc_short": null,
+            "name": [
+                "Earthen Blade",
+                "土鈍りの剣"
+            ],
+            "desc_short": ["Damage and reduce earth resistance for all enemies"],
             "desc_long": null
         }
     },
     "501210": {
-        "name": "土削りの大剣",
+        "name": "Earthen Great Blade",
         "compendium_id": 10089,
         "type": "ABILITY",
         "active": true,
@@ -59566,15 +59714,16 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": {
-                "1": "土削りの大剣"
-            },
-            "desc_short": null,
+            "name": [
+                "Earthen Great Blade",
+                "土削りの大剣"
+            ],
+            "desc_short": ["Damage and reduce DEF, SPR, and earth resistance for all enemies"],
             "desc_long": null
         }
     },
     "501220": {
-        "name": "土滅斧",
+        "name": "Earth-shattering Axe",
         "compendium_id": 10090,
         "type": "ABILITY",
         "active": true,
@@ -59594,15 +59743,16 @@
         "unit_restriction": null,
         "icon": "ability_10.png",
         "strings": {
-            "name": {
-                "1": "土滅斧"
-            },
-            "desc_short": null,
+            "name": [
+                "Earth-shattering Axe",
+                "土滅斧"
+            ],
+            "desc_short": ["Deal partial unmitigated damage and reduce DEF, SPR, and earth resistance for all enemies"],
             "desc_long": null
         }
     },
     "501230": {
-        "name": "リタリエイト",
+        "name": "Retaliate",
         "compendium_id": 10091,
         "type": "ABILITY",
         "active": true,
@@ -59622,15 +59772,17 @@
         "icon": "ability_29.png",
         "strings": {
             "name": {
+                "0": "Retaliate",
                 "1": "リタリエイト",
+                "3": "Réponse",
                 "5": "Resarcimiento"
             },
-            "desc_short": null,
+            "desc_short": ["Damage all enemies and boost own MAG"],
             "desc_long": null
         }
     },
     "501240": {
-        "name": "破壊拳",
+        "name": "Crushing Fist",
         "compendium_id": 10092,
         "type": "ABILITY",
         "active": true,
@@ -59646,15 +59798,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "破壊拳"
-            },
-            "desc_short": null,
+            "name": [
+                "Crushing Fist",
+                "破壊拳"
+            ],
+            "desc_short": ["Reduce ATK and DEF for all enemies and add asuran fists next turn"],
             "desc_long": null
         }
     },
     "501250": {
-        "name": "破壊拳",
+        "name": "Crushing Fist",
         "compendium_id": 10093,
         "type": "ABILITY",
         "active": true,
@@ -59670,15 +59823,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "破壊拳"
-            },
-            "desc_short": null,
+            "name": [
+                "Crushing Fist",
+                "破壊拳"
+            ],
+            "desc_short": ["Reduce ATK and DEF for one enemy"],
             "desc_long": null
         }
     },
     "501260": {
-        "name": "生命の意志",
+        "name": "Will to Live",
         "compendium_id": 10094,
         "type": "ABILITY",
         "active": true,
@@ -59694,15 +59848,16 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": {
-                "1": "生命の意志"
-            },
-            "desc_short": null,
+            "name": [
+                "Will to Live",
+                "生命の意志"
+            ],
+            "desc_short": ["Cast one time auto-revive on all allies, and add swelling vitality next turn"],
             "desc_long": null
         }
     },
     "501270": {
-        "name": "生命の意志",
+        "name": "Will to Live",
         "compendium_id": 10095,
         "type": "ABILITY",
         "active": true,
@@ -59718,15 +59873,16 @@
         "unit_restriction": null,
         "icon": "ability_1.png",
         "strings": {
-            "name": {
-                "1": "生命の意志"
-            },
-            "desc_short": null,
+            "name": [
+                "Will to Live",
+                "生命の意志"
+            ],
+            "desc_short": ["Cast one time auto-revive on self"],
             "desc_long": null
         }
     },
     "501280": {
-        "name": "夢想阿修羅拳",
+        "name": "Asuran Fists",
         "compendium_id": 10096,
         "type": "ABILITY",
         "active": true,
@@ -59742,15 +59898,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "夢想阿修羅拳"
-            },
-            "desc_short": null,
+            "name": [
+                "Asuran Fists",
+                "夢想阿修羅拳"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to all enemies"],
             "desc_long": null
         }
     },
     "501290": {
-        "name": "夢想阿修羅拳",
+        "name": "Asuran Fists",
         "compendium_id": 10097,
         "type": "ABILITY",
         "active": true,
@@ -59766,15 +59923,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "夢想阿修羅拳"
-            },
-            "desc_short": null,
+            "name": [
+                "Asuran Fists",
+                "夢想阿修羅拳"
+            ],
+            "desc_short": ["Damage all enemies"],
             "desc_long": null
         }
     },
     "501300": {
-        "name": "みなぎる活力",
+        "name": "Swelling Vitality",
         "compendium_id": 10098,
         "type": "ABILITY",
         "active": true,
@@ -59790,15 +59948,16 @@
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
-            "name": {
-                "1": "みなぎる活力"
-            },
-            "desc_short": null,
+            "name": [
+                "Swelling Vitality",
+                "みなぎる活力"
+            ],
+            "desc_short": ["Restore MP for all allies"],
             "desc_long": null
         }
     },
     "501310": {
-        "name": "みなぎる活力",
+        "name": "Swelling Vitality",
         "compendium_id": 10099,
         "type": "ABILITY",
         "active": true,
@@ -59814,15 +59973,16 @@
         "unit_restriction": null,
         "icon": "ability_92.png",
         "strings": {
-            "name": {
-                "1": "みなぎる活力"
-            },
-            "desc_short": null,
+            "name": [
+                "Swelling Vitality",
+                "みなぎる活力"
+            ],
+            "desc_short": ["Regenerate MP for all allies over time"],
             "desc_long": null
         }
     },
     "501320": {
-        "name": "羅刹撃",
+        "name": "Berserk Attack",
         "compendium_id": 10100,
         "type": "ABILITY",
         "active": true,
@@ -59841,15 +60001,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "羅刹撃"
-            },
-            "desc_short": null,
+            "name": [
+                "Berserk Attack",
+                "羅刹撃"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to one enemy, boost own ATK, and add tornado kick and will to live next turn"],
             "desc_long": null
         }
     },
     "501330": {
-        "name": "羅刹撃",
+        "name": "Berserk Attack",
         "compendium_id": 10101,
         "type": "ABILITY",
         "active": true,
@@ -59865,15 +60026,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "羅刹撃"
-            },
-            "desc_short": null,
+            "name": [
+                "Berserk Attack",
+                "羅刹撃"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to one enemy"],
             "desc_long": null
         }
     },
     "501340": {
-        "name": "闘魂旋風脚",
+        "name": "Tornado Kick",
         "compendium_id": 10102,
         "type": "ABILITY",
         "active": true,
@@ -59886,21 +60048,22 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (3.33x ATK) to all enemies. Ignore cover.",
-            "Grants access to following skills for 2 turns:\n (501360)"
+            "Grants access to following skills for 2 turns:\nPrishe Special (501360)"
         ],
         "effects_raw": "21@100:0,0,250,-25@2,501360,1,99999,1",
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "闘魂旋風脚"
-            },
-            "desc_short": null,
+            "name": [
+                "Tornado Kick",
+                "闘魂旋風脚"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to all enemies and enable special abilities one time"],
             "desc_long": null
         }
     },
     "501350": {
-        "name": "闘魂旋風脚",
+        "name": "Tornado Kick",
         "compendium_id": 10103,
         "type": "ABILITY",
         "active": true,
@@ -59916,15 +60079,16 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "闘魂旋風脚"
-            },
-            "desc_short": null,
+            "name": [
+                "Tornado Kick",
+                "闘魂旋風脚"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to all enemies"],
             "desc_long": null
         }
     },
     "501360": {
-        "name": "プリッシュスペシャル",
+        "name": "Prishe Special",
         "compendium_id": 10104,
         "type": "ABILITY",
         "active": true,
@@ -59943,10 +60107,11 @@
         "unit_restriction": null,
         "icon": "ability_51.png",
         "strings": {
-            "name": {
-                "1": "プリッシュスペシャル"
-            },
-            "desc_short": null,
+            "name": [
+                "Prishe Special",
+                "プリッシュスペシャル"
+            ],
+            "desc_short": ["Deal partial unmitigated damage to one enemy and reduce damage taken by self for two turns"],
             "desc_long": null
         }
     },
@@ -62226,7 +62391,7 @@
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
                 "MAg und PSY hoch, alle Verb.",
-                "Más MAG y ESP para todos los aliados"
+                "Aumenta MAG y ESP para todos los aliados"
             ],
             "desc_long": [
                 "Boosts MAG and SPR for all allies.",
@@ -62234,7 +62399,7 @@
                 "아군 전체의 마력과 정신력이 상승합니다.",
                 "Augmente la MAGIE et la PSY de tous les alliés",
                 "Erhöht MAG und PSY bei allen Verbündeten.",
-                "Más MAG y ESP para todos los aliados"
+                "Aumenta MAG y ESP para todos los aliados"
             ]
         }
     },
@@ -62269,7 +62434,7 @@
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
                 "MAg und PSY hoch, alle Verb.",
-                "Más MAG y ESP para todos los aliados"
+                "Aumenta MAG y ESP para todos los aliados"
             ],
             "desc_long": [
                 "Boosts MAG and SPR for all allies.",
@@ -62277,7 +62442,7 @@
                 "아군 전체의 마력과 정신력이 상승합니다.",
                 "Augmente la MAGIE et la PSY de tous les alliés",
                 "Erhöht MAG und PSY bei allen Verbündeten.",
-                "Más MAG y ESP para todos los aliados"
+                "Aumenta MAG y ESP para todos los aliados"
             ]
         }
     },
@@ -63363,7 +63528,7 @@
         }
     },
     "700670": {
-        "name": "オートリミット",
+        "name": "Auto-Limit",
         "compendium_id": 20,
         "type": "ABILITY",
         "active": false,
@@ -63380,15 +63545,17 @@
         "icon": "ability_91.png",
         "strings": {
             "name": {
+                "0": "Auto-Limit",
                 "1": "オートリミット",
+                "3": "Auto-Limite",
                 "5": "AutoLímite"
             },
-            "desc_short": null,
+            "desc_short": ["LB gauge fills each turn"],
             "desc_long": null
         }
     },
     "700680": {
-        "name": "オートリミット",
+        "name": "Auto-Limit",
         "compendium_id": 20,
         "type": "ABILITY",
         "active": false,
@@ -63408,15 +63575,17 @@
         "icon": "ability_91.png",
         "strings": {
             "name": {
+                "0": "Auto-Limit",
                 "1": "オートリミット",
+                "3": "Auto-Limite",
                 "5": "AutoLímite"
             },
-            "desc_short": null,
+            "desc_short": ["Increase LB gauge every turn and increase the fill capacity of burst stones"],
             "desc_long": null
         }
     },
     "700690": {
-        "name": "集中",
+        "name": "Focus",
         "compendium_id": 104,
         "type": "ABILITY",
         "active": true,
@@ -63433,15 +63602,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Focus",
                 "1": "集中",
+                "3": "Concentration",
                 "5": "Concentrar"
             },
-            "desc_short": null,
+            "desc_short": ["Boost MAG and SPR for all allies"],
             "desc_long": null
         }
     },
     "700700": {
-        "name": "集中",
+        "name": "Focus",
         "compendium_id": 104,
         "type": "ABILITY",
         "active": true,
@@ -63458,15 +63629,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Focus",
                 "1": "集中",
+                "3": "Concentration",
                 "5": "Concentrar"
             },
-            "desc_short": null,
+            "desc_short": ["Boost MAG and SPR for all allies"],
             "desc_long": null
         }
     },
     "700710": {
-        "name": "漆黒",
+        "name": "Skikkoku",
         "compendium_id": 331,
         "type": "ABILITY",
         "active": false,
@@ -63486,15 +63659,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Skikkoku",
                 "1": "漆黒",
+                "3": "Skikkoku",
                 "5": "Negro azabache"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK by 40% and dark resistance by 75%"],
             "desc_long": null
         }
     },
     "700720": {
-        "name": "漆黒",
+        "name": "Skikkoku",
         "compendium_id": 331,
         "type": "ABILITY",
         "active": false,
@@ -63515,15 +63690,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Skikkoku",
                 "1": "漆黒",
+                "3": "Skikkoku",
                 "5": "Negro azabache"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK by 40%, dark resistance by 75%, and restore HP every turn"],
             "desc_long": null
         }
     },
     "700730": {
-        "name": "竜騎士の魂",
+        "name": "Dragoon Spirit",
         "compendium_id": 338,
         "type": "ABILITY",
         "active": false,
@@ -63540,15 +63717,17 @@
         "icon": "ability_80.png",
         "strings": {
             "name": {
+                "0": "Dragoon Spirit",
                 "1": "竜騎士の魂",
+                "3": "Esprit de dragon",
                 "5": "Corazón de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Boost damage dealt by jump abilities"],
             "desc_long": null
         }
     },
     "700740": {
-        "name": "竜騎士の魂",
+        "name": "Dragoon Spirit",
         "compendium_id": 338,
         "type": "ABILITY",
         "active": false,
@@ -63568,15 +63747,17 @@
         "icon": "ability_80.png",
         "strings": {
             "name": {
+                "0": "Dragoon Spirit",
                 "1": "竜騎士の魂",
+                "3": "Esprit de dragon",
                 "5": "Corazón de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Boost damage dealt by jump abilities and fire, ice, and lightning resistance by 30%"],
             "desc_long": null
         }
     },
     "700750": {
-        "name": "堅守の陣",
+        "name": "Impenetrable Stance",
         "compendium_id": 349,
         "type": "ABILITY",
         "active": true,
@@ -63596,15 +63777,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Impenetrable Stance",
                 "1": "堅守の陣",
+                "3": "Posture impénétrable",
                 "5": "Formación tortuga"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce ATK and MAG and boost DEF and SPR for all allies"],
             "desc_long": null
         }
     },
     "700760": {
-        "name": "堅守の陣",
+        "name": "Impenetrable Stance",
         "compendium_id": 349,
         "type": "ABILITY",
         "active": true,
@@ -63625,15 +63808,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Impenetrable Stance",
                 "1": "堅守の陣",
+                "3": "Posture impénétrable",
                 "5": "Formación tortuga"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce ATK and MAG and boost DEF and SPR for all allies, and gradually restore HP"],
             "desc_long": null
         }
     },
     "700770": {
-        "name": "八壁",
+        "name": "Yakabe",
         "compendium_id": 376,
         "type": "ABILITY",
         "active": false,
@@ -63650,15 +63835,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Yakabe",
                 "1": "八壁",
+                "3": "Yakabe",
                 "5": "Yakabe"
             },
-            "desc_short": null,
+            "desc_short": ["Boost fire, ice, lightning, water, wind, earth, light, and dark resistance by 30%"],
             "desc_long": null
         }
     },
     "700780": {
-        "name": "八壁",
+        "name": "Yakabe",
         "compendium_id": 376,
         "type": "ABILITY",
         "active": false,
@@ -63675,15 +63862,17 @@
         "icon": "ability_77.png",
         "strings": {
             "name": {
+                "0": "Yakabe",
                 "1": "八壁",
+                "3": "Yakabe",
                 "5": "Yakabe"
             },
-            "desc_short": null,
+            "desc_short": ["Boost fire, ice, lightning, water, wind, earth, light, and dark resistance by 50%"],
             "desc_long": null
         }
     },
     "700790": {
-        "name": "カズスのお守り",
+        "name": "Kazus Pendant",
         "compendium_id": 389,
         "type": "ABILITY",
         "active": false,
@@ -63703,15 +63892,17 @@
         "icon": "ability_97.png",
         "strings": {
             "name": {
+                "0": "Kazus Pendant",
                 "1": "カズスのお守り",
+                "3": "Talisman de Kazus",
                 "5": "Guarda de Kazus"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify silence, paralysis, confusion and stone, and restore own MP while walking on exploration maps"],
             "desc_long": null
         }
     },
     "700800": {
-        "name": "カズスのお守り",
+        "name": "Kazus Pendant",
         "compendium_id": 389,
         "type": "ABILITY",
         "active": false,
@@ -63732,15 +63923,17 @@
         "icon": "ability_97.png",
         "strings": {
             "name": {
+                "0": "Kazus Pendant",
                 "1": "カズスのお守り",
+                "3": "Talisman de Kazus",
                 "5": "Guarda de Kazus"
             },
-            "desc_short": null,
+            "desc_short": ["Nullify silence, paralysis, confusion and stone, restore own MP while walking on exploration maps, and restore MP every turn"],
             "desc_long": null
         }
     },
     "700810": {
-        "name": "リタリエイト",
+        "name": "Retaliate",
         "compendium_id": 490,
         "type": "ABILITY",
         "active": false,
@@ -63757,15 +63950,17 @@
         "icon": "ability_68.png",
         "strings": {
             "name": {
+                "0": "Retaliate",
                 "1": "リタリエイト",
+                "3": "Réponse",
                 "5": "Resarcimiento"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of countering against all enemies when receiving a physical attack"],
             "desc_long": null
         }
     },
     "700820": {
-        "name": "リタリエイト",
+        "name": "Retaliate",
         "compendium_id": 490,
         "type": "ABILITY",
         "active": false,
@@ -63776,21 +63971,23 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["35% chance to cast  (501230) on self after being attacked. Can trigger multiple times."],
+        "effects": ["35% chance to cast Retaliate (501230) on self after being attacked. Can trigger multiple times."],
         "effects_raw": "49:35,3,501230",
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
             "name": {
+                "0": "Retaliate",
                 "1": "リタリエイト",
+                "3": "Réponse",
                 "5": "Resarcimiento"
             },
-            "desc_short": null,
+            "desc_short": ["Chance of countering against all enemies when receiving a physical attack, and boost to own MAG"],
             "desc_long": null
         }
     },
     "700830": {
-        "name": "りゅうけん",
+        "name": "Lance",
         "compendium_id": 87,
         "type": "ABILITY",
         "active": true,
@@ -63810,15 +64007,17 @@
         "icon": "ability_6.png",
         "strings": {
             "name": {
+                "0": "Lance",
                 "1": "りゅうけん",
+                "3": "Transpercer",
                 "5": "Alma de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Drain HP and MP from one enemy"],
             "desc_long": null
         }
     },
     "700840": {
-        "name": "りゅうけん",
+        "name": "Lance",
         "compendium_id": 87,
         "type": "ABILITY",
         "active": true,
@@ -63838,15 +64037,17 @@
         "icon": "ability_6.png",
         "strings": {
             "name": {
+                "0": "Lance",
                 "1": "りゅうけん",
+                "3": "Transpercer",
                 "5": "Alma de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Drain HP and MP from one enemy"],
             "desc_long": null
         }
     },
     "700850": {
-        "name": "明鏡",
+        "name": "Mirror of Equity",
         "compendium_id": 92,
         "type": "ABILITY",
         "active": true,
@@ -63863,15 +64064,17 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Mirror of Equity",
                 "1": "明鏡",
+                "3": "Sérénité",
                 "5": "Tranquilidad"
             },
-            "desc_short": null,
+            "desc_short": ["Damage one enemy"],
             "desc_long": null
         }
     },
     "700860": {
-        "name": "明鏡",
+        "name": "Mirror of Equity",
         "compendium_id": 92,
         "type": "ABILITY",
         "active": true,
@@ -63888,15 +64091,17 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Mirror of Equity",
                 "1": "明鏡",
+                "3": "Sérénité",
                 "5": "Tranquilidad"
             },
-            "desc_short": null,
+            "desc_short": ["Damage one enemy"],
             "desc_long": null
         }
     },
     "700870": {
-        "name": "マルチバースト",
+        "name": "Multiburst",
         "compendium_id": 166,
         "type": "ABILITY",
         "active": true,
@@ -63913,15 +64118,17 @@
         "icon": "ability_40.png",
         "strings": {
             "name": {
+                "0": "Multiburst",
                 "1": "マルチバースト",
+                "3": "Critiques multiples",
                 "5": "Multiexplosión"
             },
-            "desc_short": null,
+            "desc_short": ["Critical damage to all enemies"],
             "desc_long": null
         }
     },
     "700880": {
-        "name": "マルチバースト",
+        "name": "Multiburst",
         "compendium_id": 166,
         "type": "ABILITY",
         "active": true,
@@ -63938,15 +64145,17 @@
         "icon": "ability_40.png",
         "strings": {
             "name": {
+                "0": "Multiburst",
                 "1": "マルチバースト",
+                "3": "Critiques multiples",
                 "5": "Multiexplosión"
             },
-            "desc_short": null,
+            "desc_short": ["Critical damage to all enemies"],
             "desc_long": null
         }
     },
     "700890": {
-        "name": "はげます",
+        "name": "Cheer",
         "compendium_id": 103,
         "type": "ABILITY",
         "active": true,
@@ -63963,15 +64172,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Cheer",
                 "1": "はげます",
+                "3": "Encourager",
                 "5": "Ánimo"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK and DEF for all allies"],
             "desc_long": null
         }
     },
     "700900": {
-        "name": "はげます",
+        "name": "Cheer",
         "compendium_id": 103,
         "type": "ABILITY",
         "active": true,
@@ -63988,15 +64199,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Cheer",
                 "1": "はげます",
+                "3": "Encourager",
                 "5": "Ánimo"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK and DEF for all allies"],
             "desc_long": null
         }
     },
     "700910": {
-        "name": "ダークカノン",
+        "name": "Dark Cannon",
         "compendium_id": 346,
         "type": "ABILITY",
         "active": true,
@@ -64016,15 +64229,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Dark Cannon",
                 "1": "ダークカノン",
+                "3": "Canon obscur",
                 "5": "Cañón oscuro"
             },
-            "desc_short": null,
+            "desc_short": ["Consume own HP to damage and reduce dark resistance for all enemies"],
             "desc_long": null
         }
     },
     "700920": {
-        "name": "ダークカノン",
+        "name": "Dark Cannon",
         "compendium_id": 346,
         "type": "ABILITY",
         "active": true,
@@ -64044,15 +64259,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Dark Cannon",
                 "1": "ダークカノン",
+                "3": "Canon obscur",
                 "5": "Cañón oscuro"
             },
-            "desc_short": null,
+            "desc_short": ["Consume own HP to damage and reduce dark resistance for all enemies"],
             "desc_long": null
         }
     },
     "700930": {
-        "name": "ドラゴンダイブ",
+        "name": "Dragon Dive",
         "compendium_id": 339,
         "type": "ABILITY",
         "active": true,
@@ -64069,15 +64286,17 @@
         "icon": "ability_80.png",
         "strings": {
             "name": {
+                "0": "Dragon Dive",
                 "1": "ドラゴンダイブ",
+                "3": "Plongeon du dragon",
                 "5": "Asalto de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Jump into the air, then attack one enemy next turn"],
             "desc_long": null
         }
     },
     "700940": {
-        "name": "ドラゴンダイブ",
+        "name": "Dragon Dive",
         "compendium_id": 339,
         "type": "ABILITY",
         "active": true,
@@ -64094,15 +64313,17 @@
         "icon": "ability_80.png",
         "strings": {
             "name": {
+                "0": "Dragon Dive",
                 "1": "ドラゴンダイブ",
+                "3": "Plongeon du dragon",
                 "5": "Asalto de dragón"
             },
-            "desc_short": null,
+            "desc_short": ["Jump into the air, then attack one enemy next turn"],
             "desc_long": null
         }
     },
     "700950": {
-        "name": "背水の陣",
+        "name": "Back to the Wall",
         "compendium_id": 348,
         "type": "ABILITY",
         "active": true,
@@ -64122,15 +64343,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Back to the Wall",
                 "1": "背水の陣",
+                "3": "Dos au mur",
                 "5": "Depredador"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce DEF and SPR and boost ATK and MAG for all allies"],
             "desc_long": null
         }
     },
     "700960": {
-        "name": "背水の陣",
+        "name": "Back to the Wall",
         "compendium_id": 348,
         "type": "ABILITY",
         "active": true,
@@ -64151,15 +64374,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Back to the Wall",
                 "1": "背水の陣",
+                "3": "Dos au mur",
                 "5": "Depredador"
             },
-            "desc_short": null,
+            "desc_short": ["Reduce DEF and SPR and boost ATK and MAG for all allies, and gradually restore MP"],
             "desc_long": null
         }
     },
     "700970": {
-        "name": "アスピルウィップ",
+        "name": "Osmoselash",
         "compendium_id": 364,
         "type": "ABILITY",
         "active": true,
@@ -64176,15 +64401,17 @@
         "icon": "ability_6.png",
         "strings": {
             "name": {
+                "0": "Osmoselash",
                 "1": "アスピルウィップ",
+                "3": "Fouet spirituel",
                 "5": "Latigazo Aspir"
             },
-            "desc_short": null,
+            "desc_short": ["Drain MP from one enemy"],
             "desc_long": null
         }
     },
     "700980": {
-        "name": "アスピルウィップ",
+        "name": "Osmoselash",
         "compendium_id": 364,
         "type": "ABILITY",
         "active": true,
@@ -64201,15 +64428,17 @@
         "icon": "ability_6.png",
         "strings": {
             "name": {
+                "0": "Osmoselash",
                 "1": "アスピルウィップ",
+                "3": "Fouet spirituel",
                 "5": "Latigazo Aspir"
             },
-            "desc_short": null,
+            "desc_short": ["Absorb MP from all enemies"],
             "desc_long": null
         }
     },
     "700990": {
-        "name": "勇気づける",
+        "name": "Embolden",
         "compendium_id": 390,
         "type": "ABILITY",
         "active": true,
@@ -64226,15 +64455,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Embolden",
                 "1": "勇気づける",
+                "3": "Enhardir",
                 "5": "Envalentonar"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK and DEF for all allies"],
             "desc_long": null
         }
     },
     "701000": {
-        "name": "勇気づける",
+        "name": "Embolden",
         "compendium_id": 390,
         "type": "ABILITY",
         "active": true,
@@ -64254,15 +64485,17 @@
         "icon": "ability_63.png",
         "strings": {
             "name": {
+                "0": "Embolden",
                 "1": "勇気づける",
+                "3": "Enhardir",
                 "5": "Envalentonar"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK and DEF for all allies, and gradually restore HP"],
             "desc_long": null
         }
     },
     "701010": {
-        "name": "フィン・ブライア",
+        "name": "Fin Briar",
         "compendium_id": 583,
         "type": "ABILITY",
         "active": true,
@@ -64279,15 +64512,17 @@
         "icon": "ability_10.png",
         "strings": {
             "name": {
+                "0": "Fin Briar",
                 "1": "フィン・ブライア",
+                "3": "Fin Briar",
                 "5": "Fin Briar"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to one enemy"],
             "desc_long": null
         }
     },
     "701020": {
-        "name": "フィン・ブライア",
+        "name": "Fin Briar",
         "compendium_id": 583,
         "type": "ABILITY",
         "active": true,
@@ -64304,15 +64539,17 @@
         "icon": "ability_10.png",
         "strings": {
             "name": {
+                "0": "Fin Briar",
                 "1": "フィン・ブライア",
+                "3": "Fin Briar",
                 "5": "Fin Briar"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage to one enemy"],
             "desc_long": null
         }
     },
     "701030": {
-        "name": "秘刀の継承者",
+        "name": "Heir to the Blade",
         "compendium_id": 610,
         "type": "ABILITY",
         "active": false,
@@ -64329,15 +64566,17 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Heir to the Blade",
                 "1": "秘刀の継承者",
+                "3": "Héritier de la lame",
                 "5": "Heredero de la hoja"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK, DEF, MAG, and SPR when equipped with a katana"],
             "desc_long": null
         }
     },
     "701040": {
-        "name": "秘刀の継承者",
+        "name": "Heir to the Blade",
         "compendium_id": 610,
         "type": "ABILITY",
         "active": false,
@@ -64354,15 +64593,17 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Heir to the Blade",
                 "1": "秘刀の継承者",
+                "3": "Héritier de la lame",
                 "5": "Heredero de la hoja"
             },
-            "desc_short": null,
+            "desc_short": ["Boost ATK, DEF, MAG, and SPR when equipped with a katana"],
             "desc_long": null
         }
     },
     "701050": {
-        "name": "ソウルイーター",
+        "name": "Soul Eater",
         "compendium_id": 332,
         "type": "ABILITY",
         "active": true,
@@ -64382,15 +64623,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Soul Eater",
                 "1": "ソウルイーター",
+                "3": "Mangeur d'âme",
                 "5": "Devora almas"
             },
-            "desc_short": null,
+            "desc_short": ["Consume own HP to damage and reduce dark resistance for one enemy"],
             "desc_long": null
         }
     },
     "701060": {
-        "name": "ソウルイーター",
+        "name": "Soul Eater",
         "compendium_id": 332,
         "type": "ABILITY",
         "active": true,
@@ -64410,15 +64653,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Soul Eater",
                 "1": "ソウルイーター",
+                "3": "Mangeur d'âme",
                 "5": "Devora almas"
             },
-            "desc_short": null,
+            "desc_short": ["Consume own HP to damage and reduce dark resistance for one enemy"],
             "desc_long": null
         }
     },
     "701070": {
-        "name": "エレメントウィップ",
+        "name": "Elementalash",
         "compendium_id": 362,
         "type": "ABILITY",
         "active": true,
@@ -64438,15 +64683,17 @@
         "icon": "ability_54.png",
         "strings": {
             "name": {
+                "0": "Elementalash",
                 "1": "エレメントウィップ",
+                "3": "Fouet élémentaire",
                 "5": "Latigazo elemental"
             },
-            "desc_short": null,
+            "desc_short": ["Damage and reduce fire, ice, lightning resistance for one enemy"],
             "desc_long": null
         }
     },
     "701080": {
-        "name": "エレメントウィップ",
+        "name": "Elementalash",
         "compendium_id": 362,
         "type": "ABILITY",
         "active": true,
@@ -64466,15 +64713,17 @@
         "icon": "ability_54.png",
         "strings": {
             "name": {
+                "0": "Elementalash",
                 "1": "エレメントウィップ",
+                "3": "Fouet élémentaire",
                 "5": "Latigazo elemental"
             },
-            "desc_short": null,
+            "desc_short": ["Damage and reduce fire, ice, lightning resistance for one enemy"],
             "desc_long": null
         }
     },
     "701090": {
-        "name": "ディストピア",
+        "name": "Dystopia",
         "compendium_id": 492,
         "type": "ABILITY",
         "active": true,
@@ -64491,15 +64740,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Dystopia",
                 "1": "ディストピア",
+                "3": "Dystopie",
                 "5": "Distopía"
             },
-            "desc_short": null,
+            "desc_short": ["Dark damage all enemies and increase power with consecutive use"],
             "desc_long": null
         }
     },
     "701100": {
-        "name": "ディストピア",
+        "name": "Dystopia",
         "compendium_id": 492,
         "type": "ABILITY",
         "active": true,
@@ -64516,15 +64767,17 @@
         "icon": "ability_26.png",
         "strings": {
             "name": {
+                "0": "Dystopia",
                 "1": "ディストピア",
+                "3": "Dystopie",
                 "5": "Distopía"
             },
-            "desc_short": null,
+            "desc_short": ["Dark damage all enemies and increase power with consecutive use"],
             "desc_long": null
         }
     },
     "701110": {
-        "name": "レジェンドキラー",
+        "name": "Legend Killer",
         "compendium_id": 578,
         "type": "ABILITY",
         "active": false,
@@ -64547,15 +64800,17 @@
         "icon": "ability_79.png",
         "strings": {
             "name": {
+                "0": "Legend Killer",
                 "1": "レジェンドキラー",
+                "3": "Tue-légendaire",
                 "5": "Mataleyendas"
             },
-            "desc_short": null,
+            "desc_short": ["Boost physical damage against beasts, demons, humans, dragons, and reapers."],
             "desc_long": null
         }
     },
     "701120": {
-        "name": "レジェンドキラー",
+        "name": "Legend Killer",
         "compendium_id": 578,
         "type": "ABILITY",
         "active": false,
@@ -64578,15 +64833,17 @@
         "icon": "ability_79.png",
         "strings": {
             "name": {
+                "0": "Legend Killer",
                 "1": "レジェンドキラー",
+                "3": "Tue-légendaire",
                 "5": "Mataleyendas"
             },
-            "desc_short": null,
+            "desc_short": ["Boost physical damage against beasts, demons, humans, dragons, and reapers."],
             "desc_long": null
         }
     },
     "701130": {
-        "name": "紫電一閃・醒",
+        "name": "Blade Flash - Awakened",
         "compendium_id": 609,
         "type": "ABILITY",
         "active": true,
@@ -64607,15 +64864,17 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Blade Flash - Awakened",
                 "1": "紫電一閃・醒",
+                "3": "Flash poupre - Éveillé",
                 "5": "Rayo púrpura - Haz"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated damage and reduce DEF and ice resistance for one enemy"],
             "desc_long": null
         }
     },
     "701140": {
-        "name": "紫電一閃・醒",
+        "name": "Blade Flash - Awakened",
         "compendium_id": 609,
         "type": "ABILITY",
         "active": true,
@@ -64636,10 +64895,12 @@
         "icon": "ability_53.png",
         "strings": {
             "name": {
+                "0": "Blade Flash - Awakened",
                 "1": "紫電一閃・醒",
+                "3": "Flash poupre - Éveillé",
                 "5": "Rayo púrpura - Haz"
             },
-            "desc_short": null,
+            "desc_short": ["Deal partial unmitigated ice damage and reduce DEF and ice resistance for one enemy"],
             "desc_long": null
         }
     },
@@ -67114,7 +67375,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Ice Blast (910068): Ice magical damage (1.6x MAG) to one enemy. and Reduce resistance to Ice by 30% for 3 turns to one enemy.\n30%: Ice Wave (910043): Ice magical damage (1.8x MAG) to all enemies.\n20%: Glacial Wave (910069): Ice magical damage (2.1x MAG) to all enemies. and Inflict Paralyze (30%) on all enemies.\n20%: Sub Zero (910044): Ice magical damage (2x MAG) to one enemy., Reduce resistance to Ice by 50% for 3 turns to one enemy. and Inflict Paralyze (100%) on one enemy."],
+        "effects": ["Randomly use:\n30%: Ice Blast (910068): Ice magical damage (1.6x MAG) to one enemy. and Reduce resistance to Ice by 30% for 3 turns to one enemy.\n30%: Gun Master (910043): Ice magical damage (1.8x MAG) to all enemies.\n20%: Glacial Wave (910069): Ice magical damage (2.1x MAG) to all enemies. and Inflict Paralyze (30%) on all enemies.\n20%: Gun Master (910044): Ice magical damage (2x MAG) to one enemy., Reduce resistance to Ice by 50% for 3 turns to one enemy. and Inflict Paralyze (100%) on one enemy."],
         "effects_raw": "29:910068&30,910043&30,910069&20,910044&20,0",
         "unit_restriction": null,
         "icon": "ability_22.png",
@@ -67146,7 +67407,7 @@
         }
     },
     "910043": {
-        "name": "Ice Wave",
+        "name": "Gun Master",
         "compendium_id": 9143,
         "type": "ABILITY",
         "active": true,
@@ -67163,33 +67424,33 @@
         "icon": "ability_22.png",
         "strings": {
             "name": [
-                "Ice Wave",
-                "冰雪波",
-                "아이스 웨이브",
-                "Vague de glace",
-                "Eiswelle",
-                "Ola helada"
+                "Gun Master",
+                "火槍大師",
+                "건마스터",
+                "Maître des pistolets",
+                "Feuerwaffenmeister",
+                "Maestro pistolero"
             ],
             "desc_short": [
-                "Ice damage to all enemies",
-                "對全體敵人發動冰屬性攻擊",
-                "적 전체에 얼음속성 피해",
-                "Dégâts de glace sur tous les ennemis",
-                "Eisschaden, alle Ziele",
-                "Daño de hielo a todos los enemigos"
+                "Boost ATK by 30% when equipped with a gun",
+                "裝備火槍時，提高30%攻擊",
+                "총 장비 시 공격력 30% 상승",
+                "Augmente l'ATT de 30% lorsqu'un pistolet est équipé",
+                "Erhöht ANG um 30 %, wenn mit einer Schusswaffe ausgerüstet",
+                "Aumenta el ATQ un 30% al llevar pistolas"
             ],
             "desc_long": [
-                "Deals ice damage to all enemies.",
-                "對全體敵人發動冰屬性攻擊。",
-                "적 전체에 얼음속성 피해를 줍니다.",
-                "Inflige des dégâts de glace à tous les ennemis.",
-                "Fügt allen Gegnern Eisschaden zu.",
-                "Daño de hielo a todos los enemigos"
+                "Boosts ATK by 30% when equipped with a gun.",
+                "裝備火槍時，提高30%攻擊數值。",
+                "총 장비 시, 공격력이 30% 상승합니다.",
+                "Augmente l'ATT de 30% lorsqu'un pistolet est équipé.",
+                "Erhöht ANG um 30 %, wenn mit einer Schusswaffe ausgerüstet",
+                "Aumenta el ATQ un 30% al llevar pistolas"
             ]
         }
     },
     "910044": {
-        "name": "Sub Zero",
+        "name": "Gun Master",
         "compendium_id": 9144,
         "type": "ABILITY",
         "active": true,
@@ -67210,29 +67471,15 @@
         "icon": "ability_22.png",
         "strings": {
             "name": [
-                "Sub Zero",
-                "絕對零度",
-                "영하의 기온",
-                "Froid polaire",
-                "Unter Null",
-                "Bajo cero"
+                "Gun Master",
+                "火槍大師",
+                "건마스터",
+                "Maître des pistolets",
+                "Feuerwaffenmeister",
+                "Maestro pistolero"
             ],
-            "desc_short": [
-                "Ice damage and reduce ice resistance and paralyze to one enemy",
-                "對1名敵人發動冰屬性攻擊+降低冰屬性耐性+麻痺",
-                "적 1명에게 얼음속성 피해+얼음속성 저항력 감소+마비",
-                "Dégâts de glace, réduit la rés. à la glace et paralyse un ennemi",
-                "Eisschaden, reduzierte Eisresistenz und Betäuben, ein Gegner",
-                "Daño de hielo, reduce la res. al hielo y paraliza a un enemigo"
-            ],
-            "desc_long": [
-                "Deals ice damage to one enemy, and reduces their ice resistance and paralyzes them.",
-                "對1名敵人發動冰屬性攻擊並降低冰屬性耐性且施加麻痺效果。",
-                "적 1명에게 얼음속성 피해를 주고, 얼음속성 저항력을 감소시키고 마비를 부여합니다.",
-                "Inflige des dégâts de glace, réduit la rés. à la glace et paralyse un ennemi.",
-                "Fügt einem Gegner Eisschaden zu, reduziert seine Eisresistenz und lähmt.",
-                "Daño de hielo, reduce la resistencia al hielo y paraliza a un enemigo"
-            ]
+            "desc_short": null,
+            "desc_long": null
         }
     },
     "910045": {
@@ -71177,7 +71424,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase ATK by 40% and DEF by -10%."],
+        "effects": ["Increase ATK by 40% and Reduce DEF by 10%."],
         "effects_raw": "1:40,-10,0,0,0,0,0",
         "unit_restriction": [254001003, 254001004, 254001005],
         "icon": "ability_77.png",
