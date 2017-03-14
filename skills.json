@@ -15099,7 +15099,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Randomly use:\n30%: Six Dragons (500060): Restore 100% HP and MP to all allies.\n70%: Six Dragons (500070): Restore 0% HP and MP to all allies."],
+        "effects": ["Randomly use:\n30%: Six Dragons (500060): Restore 100% HP to all allies.\n70%: Six Dragons (500070): No effect."],
         "effects_raw": [[2, 2, 29, [[500060,  30], [500070,  70], 0, 0, 0]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -20816,7 +20816,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Randomly use:\n70%: HP Charge (500260): Restore 40% HP and MP to self.\n20%: HP Super Charge (500270): Restore 70% HP and MP to self.\n10%: HP Mega Charge (500280): Restore 100% HP and MP to self."],
+        "effects": ["Randomly use:\n70%: HP Charge (500260): Restore 40% HP to self.\n20%: HP Super Charge (500270): Restore 70% HP to self.\n10%: HP Mega Charge (500280): Restore 100% HP to self."],
         "effects_raw": [[0, 3, 29, [[500260,  70], [500270,  20], [500280,  10], 0, 0]]],
         "unit_restriction": null,
         "icon": "ability_83.png",
@@ -40380,7 +40380,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 100% HP and MP to all allies."],
+        "effects": ["Restore 100% HP to all allies."],
         "effects_raw": [[2, 2, 26, [100,  100,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -41352,7 +41352,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 100% HP and MP to one ally."],
+        "effects": ["Restore 100% HP to one ally."],
         "effects_raw": [[1, 2, 26, [100,  100,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -41482,7 +41482,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after Fast Blade: \"Physical damage (3x ATK) to one enemy.\", otherwise: \"Physical damage (1.5x ATK) to one enemy.\"."
+            "If used after Fast Blade: \"Physical damage (3x ATK) to one ally.\", otherwise: \"Physical damage (1.5x ATK) to one ally.\"."
         ],
         "effects_raw": [[1, 1, 99, [2,  207780,  2,  500530,  2,  500540]]],
         "unit_restriction": null,
@@ -43388,7 +43388,7 @@
         "damage_type": "Magical",
         "element_inflict": null,
         "effects": [
-            "If used after Magical Activation: \"Magical damage (7.2x MAG) to all enemies. Ignore reflect.\", otherwise: \"Magical damage (3.6x MAG) to all enemies. Ignore reflect.\"."
+            "If used after Magical Activation: \"Magical damage (7.2x MAG) to all allies. Ignore reflect.\", otherwise: \"Magical damage (3.6x MAG) to all allies. Ignore reflect.\"."
         ],
         "effects_raw": [[2, 1, 99, [2,  208240,  2,  500590,  2,  500580]]],
         "unit_restriction": null,
@@ -50137,7 +50137,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "If used after Raging Fists: \"Reduce ATK and DEF by 45% for 3 turn(s) to all enemies.\", otherwise: \"Reduce ATK and DEF by 45% for 3 turn(s) to one enemy.\"."
+            "If used after Raging Fists: \"Reduce ATK and DEF by 45% for 3 turn(s) to all allies.\", otherwise: \"Reduce ATK and DEF by 45% for 3 turn(s) to one ally.\"."
         ],
         "effects_raw": [[0, 3, 99, [2,  209960,  2,  501240,  2,  501250]]],
         "unit_restriction": null,
@@ -50165,7 +50165,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "If used after Berserk Attack: \"Auto-revive (80% HP) for 3 turn(s) to all allies.\", otherwise: \"Auto-revive (80% HP) for 3 turn(s) to self.\"."
+            "If used after Berserk Attack: \"Auto-revive (80% HP) for 3 turn(s) to all allies.\", otherwise: \"Auto-revive (80% HP) for 3 turn(s) to the attacker.\"."
         ],
         "effects_raw": [[0, 3, 99, [2,  501320,  2,  501260,  2,  501270]]],
         "unit_restriction": null,
@@ -50193,7 +50193,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after Crushing Fist: \"Physical damage (5x ATK) to all enemies. Ignore cover.\", otherwise: \"Physical damage (2.5x ATK) to all enemies.\"."
+            "If used after Crushing Fist: \"Physical damage (5x ATK) to all allies. Ignore cover.\", otherwise: \"Physical damage (2.5x ATK) to all allies.\"."
         ],
         "effects_raw": [[0, 3, 99, [2,  501240,  2,  501280,  2,  501290]]],
         "unit_restriction": null,
@@ -50249,7 +50249,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after Raging Fists: \"Physical damage (2.4x ATK) to one enemy. Ignore cover. and Increase ATK by 100% for 3 turn(s) to self.\", otherwise: \"Physical damage (2.4x ATK) to one enemy. Ignore cover.\"."
+            "If used after Raging Fists: \"Physical damage (2.4x ATK) to one ally. Ignore cover. and Increase ATK by 100% for 3 turn(s) to the attacker.\", otherwise: \"Physical damage (2.4x ATK) to one ally. Ignore cover.\"."
         ],
         "effects_raw": [[0, 3, 99, [2,  209960,  2,  501320,  2,  501330]]],
         "unit_restriction": null,
@@ -50277,7 +50277,7 @@
         "damage_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "If used after Berserk Attack: \"Physical damage (3.33x ATK) to all enemies. Ignore cover. and Grants access to following skills for 2 turns:\nPrishe Special (501360)\", otherwise: \"Physical damage (3.33x ATK) to all enemies. Ignore cover.\"."
+            "If used after Berserk Attack: \"Physical damage (3.33x ATK) to all allies. Ignore cover. and Grants access to following skills for 2 turns:\nPrishe Special (501360)\", otherwise: \"Physical damage (3.33x ATK) to all allies. Ignore cover.\"."
         ],
         "effects_raw": [[0, 3, 99, [2,  501320,  2,  501340,  2,  501350]]],
         "unit_restriction": null,
@@ -54907,7 +54907,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Restore 100% HP and MP to all allies."],
+        "effects": ["Restore 100% HP to all allies."],
         "effects_raw": [[2, 2, 26, [100,  100,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -54950,7 +54950,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Restore 0% HP and MP to all allies."],
+        "effects": ["No effect."],
         "effects_raw": [[2, 2, 26, [0,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -55773,7 +55773,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 40% HP and MP to self."],
+        "effects": ["Restore 40% HP to self."],
         "effects_raw": [[0, 3, 26, [40,  40,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -55816,7 +55816,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 70% HP and MP to self."],
+        "effects": ["Restore 70% HP to self."],
         "effects_raw": [[0, 3, 26, [70,  70,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -55859,7 +55859,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 100% HP and MP to self."],
+        "effects": ["Restore 100% HP to self."],
         "effects_raw": [[0, 3, 26, [100,  100,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -59130,7 +59130,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Restore 100% HP and MP to all allies."],
+        "effects": ["Restore 100% HP to all allies."],
         "effects_raw": [[2, 2, 26, [100,  100,  100]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -60348,7 +60348,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Reduce physical? damage taken by 50% for 3 turn(s)."],
+        "effects": ["Reduce physical damage taken by 50% for 3 turn(s)."],
         "effects_raw": [[0, 3, 18, [50,  3,  1]]],
         "unit_restriction": null,
         "icon": "ability_43.png",
@@ -66922,7 +66922,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Reduce physical? damage taken by 75% for 1 turn(s).",
+            "Reduce physical damage taken by 75% for 1 turn(s).",
             "Unknown. Increase DEF by 300% for 1 turn(s)?"
         ],
         "effects_raw": [[0, 3, 18, [75,  1,  1]], [0, 3, 19, [300,  1,  1]]],
@@ -67241,7 +67241,7 @@
         "element_inflict": null,
         "effects": [
             "Increase chance of being targeted by 80% for 3 turn(s).",
-            "Reduce physical? damage taken by 50% for 3 turn(s).",
+            "Reduce physical damage taken by 50% for 3 turn(s).",
             "Unknown. Increase SPR by 100% for 1 turn(s)?"
         ],
         "effects_raw": [[0, 3, 61, [80,  3]], [0, 3, 18, [50,  3,  1]], [0, 3, 19, [100,  3,  1]]],
