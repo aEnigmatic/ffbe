@@ -24516,7 +24516,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Sacrifice self to restore 100% HP and 100% MP to the rest of the party."],
+        "effects": ["Sacrifice self to restore 100% HP and 100% MP to one ally, except self."],
         "effects_raw": [[1, 5, 11, [100,  100]]],
         "unit_restriction": null,
         "icon": "ability_78.png",
@@ -29359,7 +29359,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "50% HP damage to the rest of the party.",
+            "50% HP damage to one ally, except self.",
             "Restore 100 MP to self."
         ],
         "effects_raw": [[1, 5, 9, [50,  50,  100]], [1, 3, 17, [100]]],
@@ -41833,7 +41833,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Not implemented. Restore 500 HP and 20 MP to the rest of the party."],
+        "effects": ["Not implemented. Restore 500 HP and 20 MP to one ally, except self."],
         "effects_raw": [[1, 5, 65, [500,  20]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
