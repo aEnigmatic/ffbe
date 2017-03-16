@@ -8344,7 +8344,7 @@
                 "Drains MP from all enemies. (Rem only)",
                 "吸收全體敵人的MP。【蕾姆專用】",
                 "적 전체의 MP를 흡수합니다.【렘のみ장착 가능】",
-                "Absorbe les PM de tous les ennemis",
+                "Absorbe les PM de tous les ennemis. (Uniquement pour Rem)",
                 "Stiehlt allen Gegnern MP. (Nur Rem)",
                 "Drena los PM a todos los enemigos (exclusiva de Rem)"
             ]
@@ -8416,7 +8416,7 @@
                 "Damages one enemy, and increases force of normal attack for caster for next turn. (King only)",
                 "攻擊1名敵人並提高下一回合發動者普通攻擊的威力。【金恩專用】",
                 "적 1명에게 피해를 주고, 다음 턴에 사용자의 일반 공격 위력이 상승합니다.【킹のみ장착 가능】",
-                "Dégâts sur un ennemi  et augmente les attaques normales du lanceur au tour suivant",
+                "Dégâts sur un ennemi  et augmente les attaques normales du lanceur au tour suivant. (Uniquement pour King)",
                 "Fügt einem Gegner Schaden zu und erhöht den normalen Angriff des Benutzers in der nächsten Runde. (Nur King)",
                 "Más daño con ataque normal el siguiente turno (exclusiva de King)"
             ]
@@ -8848,7 +8848,7 @@
                 "Boosts SPR for caster. (Y'shtola only)",
                 "提高發動者精神的數值。【雅・修特拉專用】",
                 "사용자의 정신력이 상승합니다.【야슈톨라のみ장착 가능】",
-                "Augmente la PSY du lanceur",
+                "Augmente la PSY du lanceur (Uniquement pour Y'shtola)",
                 "PSY hoch für Benutzer. (Nur Y'shtola)",
                 "Aumenta el ESP del usuario (exclusiva de Y'shtola)"
             ]
@@ -8884,7 +8884,7 @@
                 "Adds chance of restoring HP for all allies when receiving a physical attack. (Minfilia only)",
                 "受到物理攻擊時一定機率恢復全體隊員的HP。【敏菲利亞專用】",
                 "물리공격을 받으면 일정 확률로 아군 전체의 HP를 회복합니다.【민필리아のみ장착 가능】",
-                "Chance de restaurer les PV de tous les alliés après avoir reçu une attaque physique",
+                "Chance de restaurer les PV de tous les alliés après avoir reçu une attaque physique. (Uniquement pour Minfilia)",
                 "Chance, physischen Angriff mit LP-Heilung zu kontern, alle Verb. (Nur Minfilia)",
                 "Posibilita recuperar la VIT de aliados al recibir un ataque físico  (exclusiva de Minfilia)"
             ]
@@ -9549,7 +9549,10 @@
         "icon": "ability_77.png",
         "strings": {
             "names": null,
-            "desc_short": null,
+            "desc_short": [
+                "Boost MP by 30%, ATK by 20%, and lightning resistance by 30%",
+                "提高30%MP、20%攻擊、30%雷屬性耐性"
+            ],
             "desc_long": null
         }
     },
@@ -9564,7 +9567,10 @@
         "icon": "ability_19.png",
         "strings": {
             "names": null,
-            "desc_short": null,
+            "desc_short": [
+                "Nullify poison",
+                "中毒無效"
+            ],
             "desc_long": null
         }
     },
@@ -9579,7 +9585,10 @@
         "icon": "ability_77.png",
         "strings": {
             "names": null,
-            "desc_short": null,
+            "desc_short": [
+                "Boost HP by 20% and ATK when equipped with a large sword",
+                "提高20%HP + 提高裝備大劍時攻擊的數值"
+            ],
             "desc_long": null
         }
     },
@@ -9602,8 +9611,8 @@
                 "Estilo sinfónico"
             ],
             "desc_short": [
-                "Boost ATK and MAG by 40% when equipped with an instrument",
-                "裝備樂器時，提高40%攻擊與魔力",
+                "Boost ATK and MAG when equipped with an instrument",
+                "提高裝備樂器時攻擊魔力的數值",
                 "악기 장착 시 공격력과 마력 40% 상승",
                 "ATT\/MAGIE + 40% lorsqu'un instrument est équipé",
                 "Erhöht ANG u. MAG um 40 %, wenn mit einem Instrument ausg.",
@@ -9910,10 +9919,10 @@
     "1500000009": {
         "name": "Lightspeed Jab",
         "compendium_id": 90009,
-        "skills": [910133, 910140],
+        "skills": [101470, 910133],
         "effects": [
-            "Grants 'Lightspeed Jab' passive.",
-            "Grants 'Last Stand' passive."
+            "Grants 'Last Stand' passive.",
+            "Grants 'Lightspeed Jab' passive."
         ],
         "unique": false,
         "price_buy": 10000,
@@ -9949,10 +9958,10 @@
     "1500000010": {
         "name": "Cheerleader",
         "compendium_id": 90010,
-        "skills": [910134, 910141],
+        "skills": [200450, 910134],
         "effects": [
-            "Grants 'Cheerleader' passive.",
-            "Grants 'Cheer' ability."
+            "Grants 'Cheer' ability.",
+            "Grants 'Cheerleader' passive."
         ],
         "unique": false,
         "price_buy": 10000,
