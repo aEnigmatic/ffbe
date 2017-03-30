@@ -237,7 +237,7 @@
     },
     "100000202": {
         "rarity_min": 2,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Lasswell",
         "names": [
             "Lasswell",
@@ -399,13 +399,53 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060000": 15,
+                        "290060300": 8,
+                        "290060200": 5,
+                        "290060100": 3,
+                        "290050500": 3
+                    }
+                },
                 "strings": {
                     "description": "A knight of the Kingdom of Grandshelt whose talents earned him command of an airship alongside Rain. Lasswell is a tireless worker, entirely devoted to his duties and training. He holds the utmost respect for Rain's father, Sir Raegen, once a prominent knight of Grandshelt himself. Lasswell lends his strength to Rain as a way to honor the memory of his hero, while struggling with the fact that this prestigious lineage is not his own.",
                     "summon": "You have need of my blade?<br>I will not disappoint you, I promise.",
                     "evolution": "In gaining control over myself...<br>My blade swings true.",
                     "affinity": "We've known each other for a long time now. It would be nice to reminisce, but too much still lies on the road ahead.",
                     "fusion": "This power...<br>Perhaps I have at last drawn closer to my ideal."
+                }
+            },
+            "100000206": {
+                "compendium_id": 424,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1008, 3054, 390],
+                    "MP": [43, 130, 65],
+                    "ATK": [41, 125, 34],
+                    "DEF": [35, 107, 26],
+                    "MAG": [38, 116, 26],
+                    "SPR": [32, 96, 26]
+                },
+                "limitburst_id": 100000206,
+                "attack_count": 1,
+                "attack_frames": [4],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 7, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A knight of the Kingdom of Grandshelt who was raised alongside Rain by Rain's father, Sir Raegen, who also trained Lasswell in various skills. Out of respect for everything he had been given, he has a tendency to worry about Rain and his wellbeing, though he seems to be hiding some dreams and hopes of his own.",
+                    "summon": "",
+                    "evolution": "Finally...<br>Maybe now I can stand beside him.",
+                    "affinity": "We've known each other for a long time now. It would be nice to reminisce, but too much still lies on the road ahead.",
+                    "fusion": "I can grow even stronger.<br>So this is human potential."
                 }
             }
         },

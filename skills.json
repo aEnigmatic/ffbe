@@ -622,14 +622,19 @@
             "name": {
                 "0": "Regen",
                 "1": "リジェネ(漆黒用)",
+                "2": "리제네",
                 "3": "Récup",
                 "5": "Revitalia"
             },
-            "desc_short": {
-                "0": "Regenerate HP for one ally over time",
-                "3": "Soigne un allié petit à petit"
-            },
+            "desc_short": [
+                "Regenerate HP for one ally over time",
+                "持續恢復1名隊員的HP",
+                "아군 1명의 HP 서서히 회복",
+                "Soigne un allié petit à petit"
+            ],
             "desc_long": {
+                "0": "Gradually regenerates HP for one ally.",
+                "2": "아군 1명의 HP를 서서히 회복합니다.",
                 "3": "Soigne légèrement un allié à chaque tour."
             }
         }
@@ -8033,17 +8038,17 @@
             "desc_short": [
                 "Boost drop rate of rare items from enemies",
                 "提高敵人掉落稀有道具的機率",
-                "레어 아이템을 훔칠 확률 상승",
+                "적의 레어 아이템 드랍률 상승",
                 "Meilleure chance de voler des objets rares",
-                "Stiehlt seltene Gegenstände",
+                "Höhere Chance, seltene Gegenstände zu stehlen.",
                 "Más probabilidad de robar objetos raros"
             ],
             "desc_long": [
                 "Boosts the rate of rare items dropped by enemies.",
                 "提高敵人掉落稀有道具的機率。",
-                "레어 아이템을 훔칠 확률이 상승합니다.",
+                "적이 레어 아이템을 떨어뜨릴 확률이 상승합니다.",
                 "Augmente les chances de voler des objets raresistencia",
-                "Höhere Chance, seltene Gegenstände zu stehlen.",
+                "Besiegte Gegner lassen mehr Gegenstände fallen.",
                 "Más probabilidad de robar objetos raros"
             ]
         }
@@ -31424,7 +31429,7 @@
             "desc_long": [
                 "Boosts HP and ATK by 10%.",
                 "提高10%HP、攻擊數值。",
-                "HP와 공격력아 10% 상승합니다.",
+                "HP와 공격력이 10% 상승합니다.",
                 "Augmente les PV et l'ATT de 10%",
                 "Erhöht LP und ANG um 10 %",
                 "Aumenta VIT\/ATQ un 10%"
@@ -31822,14 +31827,14 @@
                 "0": "Chance of escaping death",
                 "1": "一定機率避免陷入無法戰鬥狀態",
                 "2": "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태 견딤",
-                "4": "Chance auf Überl., wenn die LP auf eine bestimmte Stufe fallen.",
+                "4": "Chance, dem Tod zu entkommen.",
                 "5": "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             },
             "desc_long": {
                 "0": "Adds chance of escaping death.",
                 "1": "增加避免陷入無法戰鬥狀態的機率。",
-                "2": "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태를 견딥니다.",
-                "4": "Chance, dem Tod zu entkommen, wenn die LP auf eine bestimmte Stufe fallen.",
+                "2": "일정 확률로 전투불능 상태를 견딥니다.",
+                "4": "Fügt Chance hinzu, dem Tod zu entkommen.",
                 "5": "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             }
         }
@@ -34151,14 +34156,14 @@
                 "0": "Chance of escaping death",
                 "1": "一定機率避免陷入無法戰鬥狀態",
                 "2": "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태 견딤",
-                "4": "Chance auf Überl., wenn die LP auf eine bestimmte Stufe fallen.",
+                "4": "Chance, dem Tod zu entkommen.",
                 "5": "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             },
             "desc_long": {
                 "0": "Adds chance of escaping death.",
                 "1": "增加避免陷入無法戰鬥狀態的機率。",
-                "2": "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태를 견딥니다.",
-                "4": "Chance, dem Tod zu entkommen, wenn die LP auf eine bestimmte Stufe fallen.",
+                "2": "일정 확률로 전투불능 상태를 견딥니다.",
+                "4": "Fügt Chance hinzu, dem Tod zu entkommen.",
                 "5": "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             }
         }
@@ -40137,15 +40142,15 @@
                 "一定機率避免陷入無法戰鬥狀態",
                 "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태 견딤",
                 "Chance d'échapper à la mort lorsque les PV sont en dessous d'un certain seuil",
-                "Chance auf Überl., wenn die LP auf eine bestimmte Stufe fallen.",
+                "Chance, dem Tod zu entkommen.",
                 "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             ],
             "desc_long": [
                 "Adds chance of escaping death.",
                 "增加避免陷入無法戰鬥狀態的機率。",
-                "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태를 견딥니다.",
+                "일정 확률로 전투불능 상태를 견딥니다.",
                 "Augmente les chances d'échapper à la mort lorsque les PV sont en dessous d'un certain seuil.",
-                "Chance, dem Tod zu entkommen, wenn die LP auf eine bestimmte Stufe fallen.",
+                "Fügt Chance hinzu, dem Tod zu entkommen.",
                 "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             ]
         }
@@ -44365,7 +44370,7 @@
                 "Returner",
                 "回歸者",
                 "리터너",
-                "Réplique",
+                "Résitant",
                 "Rückkehrer",
                 "Replicante"
             ],
@@ -48992,6 +48997,7 @@
                 "3": "Augmente rés. Vent\/Lumière. Augmente MAGIE\/PSY lorsqu'un arc est équipé."
             },
             "desc_long": {
+                "0": "Boosts wind and light resistance, and MAG and SPR when equipped with a bow.",
                 "2": "바람과 빛속성 저항력이 50% 상승하고, 활 장착 시 마력과 정신력이 상승합니다."
             }
         }
@@ -49029,6 +49035,7 @@
                 "3": "Dégâts Vent\/Lumière sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals wind and light damage to all enemies.",
                 "2": "적 전체에 바람과 빛속성 피해를 줍니다."
             }
         }
@@ -49063,6 +49070,7 @@
                 "3": "Augmente les dégâts magiques sur les démons"
             },
             "desc_long": {
+                "0": "Boosts magic damage against demon monsters.",
                 "2": "마법공격 시 악마형 마물에게 주는 피해량이 상승합니다."
             }
         }
@@ -49097,6 +49105,7 @@
                 "3": "Chance de pétrifier un ennemi"
             },
             "desc_long": {
+                "0": "Adds a chance of petrifying one enemy.",
                 "2": "적 1명에게 일정 확률로 석화를 부여합니다."
             }
         }
@@ -49131,6 +49140,7 @@
                 "3": "Chance de paralyser un ennemi"
             },
             "desc_long": {
+                "0": "Adds a chance of paralyzing one enemy.",
                 "2": "적 1명에게 일정 확률로 마비를 부여합니다."
             }
         }
@@ -49165,6 +49175,7 @@
                 "3": "Chance d'infliger silence à un ennemi"
             },
             "desc_long": {
+                "0": "Adds a chance of silencing one enemy.",
                 "2": "적 1명에게 일정 확률로 침묵을 부여합니다."
             }
         }
@@ -49199,6 +49210,7 @@
                 "3": "Dégâts de vents sur un ennemi. Augmente en puissance plus elle est utilisée"
             },
             "desc_long": {
+                "0": "Deals wind damage to one enemy. Damage dealt increases with each use.",
                 "2": "적 1명에게 바람속성 피해를 주고, 연속해서 사용하면 피해량이 상승합니다."
             }
         }
@@ -49233,6 +49245,7 @@
                 "3": "Dégâts de lumière sur un ennemi. Augmente en puissance plus elle est utilisée"
             },
             "desc_long": {
+                "0": "Deals light damage to one enemy. Damage dealt increases with each use.",
                 "2": "적 1명에게 빛속성 피해를 주고, 연속해서 사용하면 피해량이 상승합니다."
             }
         }
@@ -49270,6 +49283,7 @@
                 "3": "Augmente progressivement les PV et les PM de tous les alliés en chantant"
             },
             "desc_long": {
+                "0": "Gradually restores HP and MP for all allies while singing.",
                 "2": "노래하는 동안 아군 전체의 HP와 MP가 서서히 회복합니다."
             }
         }
@@ -49304,6 +49318,7 @@
                 "3": "Augmente la rés. vent\/lumière de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts wind and light resistance for all allies.",
                 "2": "아군 전체의 바람과 빛속성 저항력이 상승합니다."
             }
         }
@@ -49338,6 +49353,7 @@
                 "3": "Annule silence, paralysie, et pétrification"
             },
             "desc_long": {
+                "0": "Nullifies silence, paralysis and stone.",
                 "2": "침묵, 마비, 석화를 무효화합니다."
             }
         }
@@ -49372,6 +49388,7 @@
                 "3": "Augmente la rés. foudre\/lumière de 50%"
             },
             "desc_long": {
+                "0": "Boosts lightning and light resistance by 50%.",
                 "2": "번개와 빛속성 저항력이 50% 상승합니다."
             }
         }
@@ -49412,6 +49429,7 @@
                 "3": "Dégâts de foudre\/lumière et réduit la rés. foudre\/lumière de tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals lightning and light damage to all enemies and reduces their lightning and light resistance.",
                 "2": "적 전체에 번개와 빛속성 피해를 주고, 번개와 빛속성 저항력을 감소시킵니다."
             }
         }
@@ -49449,6 +49467,7 @@
                 "3": "Augmente les PM de 30%, l'ATT de 20% et la rés. à la foudre de 30%"
             },
             "desc_long": {
+                "0": "Boosts MP by 30%, ATK by 20%, and lightning resistance by 30%.",
                 "2": "MP가 30%, 공격력이 20%, 번개속성 저항력이 30% 상승합니다."
             }
         }
@@ -49483,6 +49502,7 @@
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -49517,6 +49537,7 @@
                 "3": "Dégâts de foudre sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals lightning damage to one enemy.",
                 "2": "적 1명에게 번개속성 피해를 줍니다."
             }
         }
@@ -49551,6 +49572,7 @@
                 "3": "Dégâts de foudre sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals lightning damage to all enemies.",
                 "2": "적 전체에 번개속성 피해를 줍니다."
             }
         }
@@ -49585,6 +49607,7 @@
                 "3": "Dégâts de lumière sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals light damage to one enemy.",
                 "2": "적 1명에게 빛속성 피해를 줍니다."
             }
         }
@@ -49619,6 +49642,7 @@
                 "3": "Dégâts de lumière sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals light damage to all enemies.",
                 "2": "적 전체에 빛속성 피해를 줍니다."
             }
         }
@@ -49653,6 +49677,7 @@
                 "3": "Augmente la rés. foudre\/lumière de 50%"
             },
             "desc_long": {
+                "0": "Boosts lightning and light resistance for all allies.",
                 "2": "아군 전체의 번개와 빛속성 저항력이 상승합니다."
             }
         }
@@ -49687,6 +49712,7 @@
                 "3": "Annule paralysie"
             },
             "desc_long": {
+                "0": "Nullifies paralysis.",
                 "2": "마비를 무효화합니다."
             }
         }
@@ -49721,6 +49747,7 @@
                 "3": "Chance d'esquiver une attaque physique"
             },
             "desc_long": {
+                "0": "Adds chance of evading a physical attack.",
                 "2": "일정 확률로 물리공격을 회피합니다."
             }
         }
@@ -49755,6 +49782,7 @@
                 "3": "Permet d'équiper deux épées courtes, fouets, armes de jet ou armes à feu"
             },
             "desc_long": {
+                "0": "Enables unit to equip two short swords, whips, throwing items, or guns.",
                 "2": "한손용의 단검, 채찍, 투척무기, 총을 2개 장착할 수 있습니다."
             }
         }
@@ -49792,6 +49820,7 @@
                 "3": "Augmente la rapidité de remplissage de la jauge de limite et restaure les PM à chaque tour"
             },
             "desc_long": {
+                "0": "Increases fill capacity of burst stones and restore MP each turn.",
                 "2": "버스트 스톤에 의한 상승량이 상승하고, 매 턴마다 MP를 회복합니다."
             }
         }
@@ -49826,6 +49855,7 @@
                 "3": "Dégâts sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage to one enemy.",
                 "2": "적 1명에게 피해를 줍니다."
             }
         }
@@ -49860,6 +49890,7 @@
                 "3": "Coup critique sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals critical damage to one enemy.",
                 "2": "적 1명에게 크리티컬 피해를 줍니다."
             }
         }
@@ -49897,6 +49928,7 @@
                 "3": "Soigne poi., céc., sil., mala., et restaure les PV d'un allié"
             },
             "desc_long": {
+                "0": "Cures poison, blind, silence, and disease and restores HP for one ally.",
                 "2": "아군 1명의 HP와 독, 암흑, 침묵, 질병을 회복합니다."
             }
         }
@@ -49931,6 +49963,7 @@
                 "3": "Augmente la rés. à pois., céc., para., conf., mala. et pétri.du lanceur"
             },
             "desc_long": {
+                "0": "Boosts own poison, blind, paralysis, confusion, disease, and stone resistance.",
                 "2": "사용자의 독, 암흑, 침묵, 마비, 혼란, 질병, 석화 저항력이 상승합니다."
             }
         }
@@ -49968,6 +50001,7 @@
                 "3": "Endort le lanceur pour lui restaurer ses PV et PM"
             },
             "desc_long": {
+                "0": "Puts self to sleep and restores HP and MP.",
                 "2": "사용자를 수면 상태에 빠뜨리고 HP와 MP를 회복합니다."
             }
         }
@@ -50002,6 +50036,7 @@
                 "3": "Ranime un allié KO"
             },
             "desc_long": {
+                "0": "Revives one ally from KO.",
                 "2": "아군 1명의 전투불능 상태를 회복합니다."
             }
         }
@@ -50036,6 +50071,7 @@
                 "3": "La jauge de limite se remplit à chaque tour"
             },
             "desc_long": {
+                "0": "Fills limit burst gauge each turn.",
                 "2": "매 턴마다 LB 게이지가 증가합니다."
             }
         }
@@ -50070,6 +50106,7 @@
                 "3": "lance une aptitude au hasard sur tous les ennemis"
             },
             "desc_long": {
+                "0": "0",
                 "2": "적 전체에 무작위로 어빌리티를 사용합니다."
             }
         }
@@ -50104,6 +50141,7 @@
                 "3": "Dégâts de terre sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals earth damage to one enemy.",
                 "2": "적 1명에게 땅속성 피해를 줍니다."
             }
         }
@@ -50138,6 +50176,7 @@
                 "3": "Dégâts de terre sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals earth damage to all enemies.",
                 "2": "적 전체에 땅속성 피해를 줍니다."
             }
         }
@@ -50175,6 +50214,7 @@
                 "3": "Restaure progressivement les PV et les PM de tous les alliés en chantant"
             },
             "desc_long": {
+                "0": "Gradually restores HP and MP for all allies while singing.",
                 "2": "노래하는 동안 아군 전체의 HP와 MP가 서서히 회복합니다."
             }
         }
@@ -50209,6 +50249,7 @@
                 "3": "Dégâts en partie fixes sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy.",
                 "2": "적 1명에게 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -50243,6 +50284,7 @@
                 "3": "Dégâts en partie fixes sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies.",
                 "2": "적 전체에 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -50277,6 +50319,7 @@
                 "3": "Augmente la résistance à la terre de 30%"
             },
             "desc_long": {
+                "0": "Boosts earth resistance by 30%.",
                 "2": "땅속성 저항력이 30% 상승합니다."
             }
         }
@@ -50311,6 +50354,7 @@
                 "3": "Annule le poison"
             },
             "desc_long": {
+                "0": "Nullifies poison.",
                 "2": "독을 무효화합니다."
             }
         }
@@ -50348,6 +50392,7 @@
                 "3": "Augmente les PV de 20% et restaure progressivement les PV"
             },
             "desc_long": {
+                "0": "Boosts HP by 20% and gradually restores HP.",
                 "2": "HP가 20% 상승하고, HP를 서서히 회복합니다."
             }
         }
@@ -50382,6 +50427,7 @@
                 "3": "Dégâts sur un ennemi et permet d'utiliser Poings pulvérisateurs et Attaque furieuse au tour suivant"
             },
             "desc_long": {
+                "0": "Deals damage to one enemy and adds crushing fist and berserk attack next turn.",
                 "2": "적 1명에게 피해를 주고, 다음 턴에 발동하는 '파괴권'과 '나찰격'에 추가 효과를 부여합니다."
             }
         }
@@ -50416,6 +50462,7 @@
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -50450,6 +50497,7 @@
                 "3": "Réduit les dégâts reçus par le lanceur au prochain tour"
             },
             "desc_long": {
+                "0": "Reduces damage to self for two turns.",
                 "2": "2턴 동안 사용자가 받는 피해량이 감소합니다."
             }
         }
@@ -50486,6 +50534,7 @@
                 "3": "Réduit l'ATT et la DEF d'un ennemi"
             },
             "desc_long": {
+                "0": "Reduces ATK and DEF for one enemy.",
                 "2": "적 1명의 공격력과 방어력이 감소합니다."
             }
         }
@@ -50522,6 +50571,7 @@
                 "3": "Lance une fois Auto-réveil sur le lanceur"
             },
             "desc_long": {
+                "0": "Casts one time auto-revive on self.",
                 "2": "자신의 전투불능 상태를 1회 자동회복하는 효과를 부여합니다."
             }
         }
@@ -50558,6 +50608,7 @@
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -50594,6 +50645,7 @@
                 "3": "Rend petit à petit des PM à tous les alliés"
             },
             "desc_long": {
+                "0": "Restores MP for all allies.",
                 "2": "아군 전체의 MP를 서서히 회복합니다."
             }
         }
@@ -50630,6 +50682,7 @@
                 "3": "Dégâts en partie fixes sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy.",
                 "2": "적 1명에게 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -50666,6 +50719,7 @@
                 "3": "Dégâts en partie fixes sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies.",
                 "2": "적 전체에 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -50700,6 +50754,7 @@
                 "3": "Augmente l'ATT et la PSY lorsque des poings sont équipés"
             },
             "desc_long": {
+                "0": "Boosts ATK and SPR when equipped with fists.",
                 "2": "격투무기를 장착하면 공격력과 정신력이 상승합니다."
             }
         }
@@ -50734,6 +50789,7 @@
                 "3": "Chance d'esquiver une attaque physique"
             },
             "desc_long": {
+                "0": "Adds chance of evading a physical attack.",
                 "2": "일정 확률로 물리공격을 회피합니다."
             }
         }
@@ -50768,6 +50824,7 @@
                 "3": "Annule cécité et paralysie"
             },
             "desc_long": {
+                "0": "Nullifies blind and paralysis.",
                 "2": "암흑과 마비를 무 효화합니다."
             }
         }
@@ -50805,6 +50862,7 @@
                 "3": "Annule cécité et augmente l'ATT lorsqu'une longue épée est équipée"
             },
             "desc_long": {
+                "0": "Nullifies blind and boosts ATK when equipped with a large sword.",
                 "2": "암흑을 무효화하고, 대검을 장착하면 공격력이 상승합니다."
             }
         }
@@ -50829,18 +50887,20 @@
         "unit_restriction": null,
         "icon": "ability_28.png",
         "strings": {
-            "name": [
-                "Stone Fall",
-                "墜石",
-                "돌의 벽",
-                "Chute de pierre"
-            ],
+            "name": {
+                "0": "Stone Fall",
+                "1": "墜石",
+                "2": "돌의 벽",
+                "3": "Chute de pierre",
+                "5": "Avalancha de rocas"
+            },
             "desc_short": {
                 "0": "Earth damage and reduce earth resistance for all enemies",
                 "2": "적 전체에 땅속성 피해+땅속성 저항력 감소",
                 "3": "Dégâts de terre et réduit la rés. à la terre de tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals earth damage to all enemies and reduces their earth resistance.",
                 "2": "적 전체에 땅속성 피해를 주고, 땅속성 저항력을 감소시킵니다."
             }
         }
@@ -50865,18 +50925,20 @@
         "unit_restriction": null,
         "icon": "ability_77.png",
         "strings": {
-            "name": [
-                "Proud Fencer",
-                "高傲劍豪",
-                "긍지 높은 검호",
-                "Escrimeur fier"
-            ],
+            "name": {
+                "0": "Proud Fencer",
+                "1": "高傲劍豪",
+                "2": "긍지 높은 검호",
+                "3": "Escrimeur fier",
+                "5": "Esgrimista orgulloso"
+            },
             "desc_short": {
                 "0": "Boost HP by 20% and ATK when equipped with a large sword",
                 "2": "HP 20% 상승+대검 장착 시 공격력 상승",
                 "3": "Augmente les PV de 20% et l'ATT lorsqu'une longue épée est équipée"
             },
             "desc_long": {
+                "0": "Boosts HP by 20% and ATK when equipped with a large sword.",
                 "2": "HP가 20% 상승하고, 대검을 장착하면 공격력이 상승합니다."
             }
         }
@@ -50898,18 +50960,20 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": [
-                "Hard Slash",
-                "強力斬擊",
-                "난폭한 참격",
-                "Coup cinglant"
-            ],
+            "name": {
+                "0": "Hard Slash",
+                "1": "強力斬擊",
+                "2": "난폭한 참격",
+                "3": "Coup cinglant",
+                "5": "Sablazo pesado"
+            },
             "desc_short": {
                 "0": "Damage all enemies",
                 "2": "적 전체에 피해",
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -50934,18 +50998,20 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": [
-                "Stone Rage",
-                "石怒",
-                "돌의 분노",
-                "Tempête de pierre"
-            ],
+            "name": {
+                "0": "Stone Rage",
+                "1": "石怒",
+                "2": "돌의 분노",
+                "3": "Tempête de pierre",
+                "5": "Ira pétrea"
+            },
             "desc_short": {
                 "0": "Damage all enemies and add earth element to own physical attack",
                 "2": "적 전체에 피해+사용자의 물리공격에 땅속성 부여",
                 "3": "Dégâts sur tous les ennemis et ajoute l'élément terre sur les attaques physiques du lanceur"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies and adds earth element to own physical attack.",
                 "2": "적 전체에 피해를 주고, 사용자의 물리공격에 땅속성을 부여합니다."
             }
         }
@@ -50970,18 +51036,20 @@
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
-            "name": [
-                "Power Slash",
-                "力量斬擊",
-                "힘의 참격",
-                "Coup puissant"
-            ],
+            "name": {
+                "0": "Power Slash",
+                "1": "力量斬擊",
+                "2": "힘의 참격",
+                "3": "Coup puissant",
+                "5": "Sablazo poderoso"
+            },
             "desc_short": {
                 "0": "Damage all enemies and boost own ATK",
                 "2": "적 전체에 피해+사용자의 공격력 상승",
                 "3": "Dégâts sur tous les ennemis et augmente l'ATT du lanceur"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies and boosts own ATK.",
                 "2": "적 전체에 피해를 주고, 사용자의 공격력이 상승합니다."
             }
         }
@@ -51006,18 +51074,20 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": [
-                "Solid Earthen Wall",
-                "堅固土壁",
-                "견고한 흙벽",
-                "Mur de terre solide"
-            ],
+            "name": {
+                "0": "Solid Earthen Wall",
+                "1": "堅固土壁",
+                "2": "견고한 흙벽",
+                "3": "Mur de terre solide",
+                "5": "Muro terrestre sólido"
+            },
             "desc_short": {
                 "0": "Boost earth resistance and restore HP for all allies",
                 "2": "아군 전체의 땅속성 저항력 상승+HP 회복",
                 "3": "Augmente la rés. à la terre et restaure les PV de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts earth resistance and restores HP for all allies.",
                 "2": "아군 전체의 땅속성 저항력이 상승하고, HP를 회복합니다."
             }
         }
@@ -51039,18 +51109,20 @@
         "unit_restriction": null,
         "icon": "ability_17.png",
         "strings": {
-            "name": [
-                "Earth Guard",
-                "土壤防禦",
-                "땅의 수호",
-                "Garde de terre"
-            ],
+            "name": {
+                "0": "Earth Guard",
+                "1": "土壤防禦",
+                "2": "땅의 수호",
+                "3": "Garde de terre",
+                "5": "Guardia terrestre"
+            },
             "desc_short": {
                 "0": "Boost earth resistance by 50%",
                 "2": "땅속성 저항력 50% 상승",
                 "3": "Augmente la rés. à la terre de 50%"
             },
             "desc_long": {
+                "0": "Boosts earth resistance by 50%.",
                 "2": "땅속성 저항력이 50% 상승합니다."
             }
         }
@@ -51072,18 +51144,20 @@
         "unit_restriction": null,
         "icon": "ability_43.png",
         "strings": {
-            "name": [
-                "I've Got You!",
-                "我來保護大夥！",
-                "지켜줄 거예요!",
-                "Je te protègerai !"
-            ],
+            "name": {
+                "0": "I've Got You!",
+                "1": "我來保護大夥！",
+                "2": "지켜줄 거예요!",
+                "3": "Je te protègerai !",
+                "5": "Yo te protegeré"
+            },
             "desc_short": {
                 "0": "Reduce damage taken for all allies for three turns",
                 "2": "3턴 동안 아군 전체가 받는 피해량 감소",
                 "3": "Réduit les dégâts reçus par tous les alliés pendant trois tours"
             },
             "desc_long": {
+                "0": "Reduces damage dealt to all allies for three turns.",
                 "2": "3턴 동안 아군 전체가 받는 피해량이 감소합니다."
             }
         }
@@ -51105,18 +51179,20 @@
         "unit_restriction": null,
         "icon": "ability_97.png",
         "strings": {
-            "name": [
-                "Crisis Evasion",
-                "迴避危險",
-                "위험 회피",
-                "Évasion dangereuse"
-            ],
+            "name": {
+                "0": "Crisis Evasion",
+                "1": "迴避危險",
+                "2": "위험 회피",
+                "3": "Évasion dangereuse",
+                "5": "Evasión critica"
+            },
             "desc_short": {
                 "0": "Chance of evading a physical attack",
                 "2": "일정 확률로 물리공격 회피",
                 "3": "Chance d'esquiver une attaque physique"
             },
             "desc_long": {
+                "0": "Adds chance of evading a physical attack.",
                 "2": "일정 확률로 물리공격을 회피합니다."
             }
         }
@@ -51138,18 +51214,20 @@
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
-            "name": [
-                "Wondrous Power",
-                "神秘之力",
-                "신비한 힘",
-                "Pouvoir étrange"
-            ],
+            "name": {
+                "0": "Wondrous Power",
+                "1": "神秘之力",
+                "2": "신비한 힘",
+                "3": "Pouvoir étrange",
+                "5": "Poder misterioso"
+            },
             "desc_short": {
                 "0": "Restore MP every turn",
                 "2": "매 턴마다 MP 회복",
                 "3": "Restaure les PM à chaque tour"
             },
             "desc_long": {
+                "0": "Restores MP every turn.",
                 "2": "매 턴마다 MP를 회복합니다."
             }
         }
@@ -51171,18 +51249,20 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_77.png",
         "strings": {
-            "name": [
-                "Crimson Soul",
-                "緋紅之魂",
-                "붉은 영혼",
-                "Âme poupre"
-            ],
+            "name": {
+                "0": "Crimson Soul",
+                "1": "緋紅之魂",
+                "2": "붉은 영혼",
+                "3": "Âme poupre",
+                "5": "Alma carmesí"
+            },
             "desc_short": {
                 "0": "Boost HP and MP by 30%",
                 "2": "HP와 MP 30% 상승",
                 "3": "Augmente les PV et les PM de 30%"
             },
             "desc_long": {
+                "0": "Boosts HP and MP by 30%.",
                 "2": "HP와 MP가 30% 상승합니다."
             }
         }
@@ -51204,18 +51284,20 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_19.png",
         "strings": {
-            "name": [
-                "Push Forward",
-                "勇往直前",
-                "용왕매진",
-                "Avancée courageuse"
-            ],
+            "name": {
+                "0": "Push Forward",
+                "1": "勇往直前",
+                "2": "용왕매진",
+                "3": "Avancée courageuse",
+                "5": "Marcha al frente"
+            },
             "desc_short": {
                 "0": "Nullify blind, paralysis, and stone",
                 "2": "암흑, 마비, 석화 무효화",
                 "3": "Annule cécité, paralysie et pétrification"
             },
             "desc_long": {
+                "0": "Nullifies blind, paralysis, and stone.",
                 "2": "암흑, 마비, 석화를 무효화합니다."
             }
         }
@@ -51237,24 +51319,26 @@
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_91.png",
         "strings": {
-            "name": [
-                "Knight of Grandshelt",
-                "格蘭謝爾特騎士",
-                "그랑셸트의 기사",
-                "Chevalier de Grandshelt"
-            ],
+            "name": {
+                "0": "Knight of Grandshelt",
+                "1": "格蘭謝爾特騎士",
+                "2": "그랑셸트의 기사",
+                "3": "Chevalier de Grandshelt",
+                "5": "Caballero de Grandshelt"
+            },
             "desc_short": {
                 "0": "Restore MP every turn",
                 "2": "매 턴마다 MP 회복",
                 "3": "Restaure les PM à chaque tour"
             },
             "desc_long": {
+                "0": "Restores MP every turn.",
                 "2": "매 턴마다 MP를 회복합니다."
             }
         }
     },
     "210230": {
-        "name": "Green Soul",
+        "name": "Azure Soul",
         "compendium_id": 1078,
         "type": "ABILITY",
         "active": false,
@@ -51270,18 +51354,20 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_77.png",
         "strings": {
-            "name": [
-                "Green Soul",
-                "蔚藍之魂",
-                "푸른 영혼",
-                "Âme verte"
-            ],
+            "name": {
+                "0": "Azure Soul",
+                "1": "蔚藍之魂",
+                "2": "푸른 영혼",
+                "3": "Âme verte",
+                "5": "Alma azul"
+            },
             "desc_short": {
                 "0": "Boost ATK by 40%",
                 "2": "공격력 40% 상승",
                 "3": "Augmente l'ATT de 40%"
             },
             "desc_long": {
+                "0": "Boosts ATK by 40%.",
                 "2": "공격력이 40% 상승합니다."
             }
         }
@@ -51303,18 +51389,20 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_19.png",
         "strings": {
-            "name": [
-                "Absolute Security",
-                "堅定不移",
-                "확고부동",
-                "Sécurité absolue"
-            ],
+            "name": {
+                "0": "Absolute Security",
+                "1": "堅定不移",
+                "2": "확고부동",
+                "3": "Sécurité absolue",
+                "5": "Seguridad absoluta"
+            },
             "desc_short": {
                 "0": "Nullify sleep, paralysis, and confusion",
                 "2": "수면, 마비, 혼란 무효화",
                 "3": "Annule sommeil, paralysie et confusion"
             },
             "desc_long": {
+                "0": "Nullifies sleep, paralyze and confuse.",
                 "2": "수면, 마비, 혼란을 무효화합니다."
             }
         }
@@ -51336,18 +51424,20 @@
         "unit_restriction": [100000202, 100000203, 100000204, 100000205, 100000206],
         "icon": "ability_91.png",
         "strings": {
-            "name": [
-                "Knight of Grandshelt",
-                "格蘭謝爾特騎士",
-                "그랑셸트의 기사",
-                "Chevalier de Grandshelt"
-            ],
+            "name": {
+                "0": "Knight of Grandshelt",
+                "1": "格蘭謝爾特騎士",
+                "2": "그랑셸트의 기사",
+                "3": "Chevalier de Grandshelt",
+                "5": "Caballero de Grandshelt"
+            },
             "desc_short": {
                 "0": "Restore MP every turn",
                 "2": "매 턴마다 MP 회복",
                 "3": "Restaure les PM à chaque tour"
             },
             "desc_long": {
+                "0": "Restores MP every turn.",
                 "2": "매 턴마다 MP를 회복합니다."
             }
         }
@@ -51369,18 +51459,20 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_77.png",
         "strings": {
-            "name": [
-                "Girl of Rebirth",
-                "甦醒少女",
-                "되살아난 소녀",
-                "Fille ressscitée"
-            ],
+            "name": {
+                "0": "Girl of Rebirth",
+                "1": "甦醒少女",
+                "2": "되살아난 소녀",
+                "3": "Fille ressscitée",
+                "5": "Chica del renacer"
+            },
             "desc_short": {
                 "0": "Boost MP by 40%",
                 "2": "MP 40% 상승",
                 "3": "Augmente les PM de 40%"
             },
             "desc_long": {
+                "0": "Boosts MP by 40%.",
                 "2": "MP가 40% 상승합니다."
             }
         }
@@ -51402,18 +51494,20 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_19.png",
         "strings": {
-            "name": [
-                "Purest of Hearts",
-                "純潔之心",
-                "씩씩하고 순수한 마음",
-                "Cœur pur"
-            ],
+            "name": {
+                "0": "Purest of Hearts",
+                "1": "純潔之心",
+                "2": "씩씩하고 순수한 마음",
+                "3": "Cœur pur",
+                "5": "Corazón pulcro"
+            },
             "desc_short": {
                 "0": "Nullify sleep, silence, and paralysis",
                 "2": "수면, 침묵, 마비 무효화",
                 "3": "Annule sommeil, silence et paralysie"
             },
             "desc_long": {
+                "0": "Nullifies sleep, silence, and paralysis.",
                 "2": "수면, 침묵, 마비를 무효화합니다."
             }
         }
@@ -51435,18 +51529,20 @@
         "unit_restriction": [100000302, 100000303, 100000304, 100000305],
         "icon": "ability_91.png",
         "strings": {
-            "name": [
-                "Eternal Bloom",
-                "永恆之花",
-                "영원의 꽃",
-                "Floraison éternelle"
-            ],
+            "name": {
+                "0": "Eternal Bloom",
+                "1": "永恆之花",
+                "2": "영원의 꽃",
+                "3": "Floraison éternelle",
+                "5": "Florecer eterno"
+            },
             "desc_short": {
                 "0": "Restore MP every turn",
                 "2": "매 턴마다 MP 회복",
                 "3": "Restaure les PM à chaque tour"
             },
             "desc_long": {
+                "0": "Restores MP every turn.",
                 "2": "매 턴마다 MP를 회복합니다."
             }
         }
@@ -51468,18 +51564,20 @@
         "unit_restriction": null,
         "icon": "ability_81.png",
         "strings": {
-            "name": [
-                "EXP Boost x1.3",
-                "經驗值UP1.3倍",
-                "경험치 상승 1.3배",
-                "Boost EXP x1,3"
-            ],
+            "name": {
+                "0": "EXP Boost x1.3",
+                "1": "經驗值UP1.3倍",
+                "2": "경험치 상승 1.3배",
+                "3": "Boost EXP x1,3",
+                "5": "Aumento de EXP x1,3"
+            },
             "desc_short": {
                 "0": "Boost EXP acquired from quests",
                 "2": "퀘스트의 획득 경험치 상승",
                 "3": "Augmente l'EXP obtenue lors d'une quête"
             },
             "desc_long": {
+                "0": "Boosts EXP acquired from quests.",
                 "2": "퀘스트의 획득 경험치가 상승합니다."
             }
         }
@@ -60239,6 +60337,7 @@
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -60274,6 +60373,7 @@
                 "2": "적 전체에 피해+땅속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies and reduces their earth resistance.",
                 "2": "적 전체에 피해를 주고, 땅속성 저항력을 감소시킵니다."
             }
         }
@@ -60310,6 +60410,7 @@
                 "2": "적 전체에 피해+방어력, 정신력, 땅속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies and reduces their DEF, SPR, and earth resistance.",
                 "2": "적 전체에 피해를 주고, 방어력, 정신력, 땅속성 저항력을 감소시킵니다."
             }
         }
@@ -60346,6 +60447,7 @@
                 "2": "적 전체에 일부 방어 무시 피해+방어력, 정신력, 땅속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies and reduces their DEF, SPR, and earth resistance.",
                 "2": "적 전체에 일부 방어 무시 피해를 주고, 방어력, 정신력, 땅속성 저항력을 감소시킵니다."
             }
         }
@@ -60382,6 +60484,7 @@
                 "2": "적 전체에 피해+사용자의 마력 상승"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies and boosts own MAG.",
                 "2": "적 전체에 피해를 주고, 사용자의 마력이 상승합니다."
             }
         }
@@ -60414,6 +60517,7 @@
                 "2": "적 전체의 공격력과 방어력 감소+다음 턴에 발동하는 '몽상아수라권'에 추가 효과 부여"
             },
             "desc_long": {
+                "0": "Reduces ATK and DEF for all enemies and adds asuran fists next turn.",
                 "2": "적 전체의 공격력과 방어력을 감소시키고, 다음 턴에 발동하는 '몽상아수라권'에 추가 효과를 부여합니다."
             }
         }
@@ -60446,6 +60550,7 @@
                 "2": "적 1명의 공격력과 방어력 감소"
             },
             "desc_long": {
+                "0": "Reduces ATK and DEF for one enemy.",
                 "2": "적 1명의 공격력과 방어력을 감소시킵니다."
             }
         }
@@ -60478,6 +60583,7 @@
                 "2": "아군 전체의 전투불능 상태를 1회 자동회복하는 효과 부여+다음 턴에 발동하는 '넘쳐나는 활력'에 추가효과 부여"
             },
             "desc_long": {
+                "0": "Casts one time auto-revive on all allies, and adds swelling vitality next turn.",
                 "2": "아군 전체의 전투불능 상태를 1회 자동회복하는 효과를 부여하고, 다음 턴에 발동하는 '넘쳐나는 활력'에 추가효과를 부여합니다."
             }
         }
@@ -60510,6 +60616,7 @@
                 "2": "사용자의 전투불능 상태를 1회 자동회복하는 효과 부여"
             },
             "desc_long": {
+                "0": "Casts one time auto-revive on self.",
                 "2": "사용자의 전투불능 상태를 1회 자동회복하는 효과를 부여합니다."
             }
         }
@@ -60543,6 +60650,7 @@
                 "3": "Dégâts en partie fixes sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies.",
                 "2": "적 전체에 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -60576,6 +60684,7 @@
                 "3": "Dégâts sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage to all enemies.",
                 "2": "적 전체에 피해를 줍니다."
             }
         }
@@ -60609,6 +60718,7 @@
                 "3": "Restaure les PM de tous les alliés"
             },
             "desc_long": {
+                "0": "Restores MP for all allies.",
                 "2": "아군 전체의 MP를 회복합니다."
             }
         }
@@ -60642,6 +60752,7 @@
                 "3": "Rend petit à petit des PM à tous les alliés"
             },
             "desc_long": {
+                "0": "Restores MP for all allies.",
                 "2": "아군 전체의 MP를 서서히 회복합니다."
             }
         }
@@ -60677,6 +60788,7 @@
                 "2": "적 1명에게 일부 방어 무시 피해+사용자의 공격력 상승+다음 턴에 발동하는 '투귀질풍각', '생명의 의지'에 추가효과 부여"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy, boosts own ATK, and adds tornado kick and will to live next turn.",
                 "2": "적 1명에게 일부 방어 무시 피해를 주고, 사용자의 공격력이 상승하며, 다음 턴에 발동하는 '투귀질풍각'과 '생명의 의지'에 추가효과를 부여합니다."
             }
         }
@@ -60710,6 +60822,7 @@
                 "3": "Dégâts en partie fixes sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy.",
                 "2": "적 1명에게 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -60745,6 +60858,7 @@
                 "2": "적 전체에 일부 방어 무시 피해+특정 어빌리티 1회 사용 가능"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies and enables special abilities one time.",
                 "2": "적 전체에 일부 방어 무시 피해를 주고, 특정 어빌리티를 1회 사용할 수 있게 됩니다."
             }
         }
@@ -60778,6 +60892,7 @@
                 "3": "Dégâts en partie fixes sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to all enemies.",
                 "2": "적 전체에 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -60813,6 +60928,7 @@
                 "2": "적 1명에게 일부 방어 무시 피해+2턴 동안 사용자가 받는 피해량 감소"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy and reduces damage taken by self for two turns.",
                 "2": "적 1명에게 일부 방어 무시 피해를 주고, 2턴 동안 사용자가 받는 피해량이 감소합니다."
             }
         }
@@ -60851,7 +60967,7 @@
                 "Posibilita recuperar la VIT propia al recibir un ataque físico"
             ],
             "desc_long": [
-                "Adds chance of restoring own HP when receiving a physical attack.",
+                "Adds chance of restoring own HP after receiving a physical attack.",
                 "受到物理攻擊時以一定機率恢復自身HP。",
                 "물리공격을 받으면 일정 확률로 자신의 HP를 회복합니다.",
                 "Permet de peut-être restaurer ses propres PV après avoir reçu une attaque physique.",
@@ -61111,15 +61227,15 @@
                 "一定機率避免陷入無法戰鬥狀態",
                 "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태 견딤",
                 "Chance d'échapper à la mort lorsque les PV sont en dessous d'un certain seuil",
-                "Chance auf Üb., wenn die LP auf eine bestimmte Stufe fallen",
+                "Chance, dem Tod zu entkommen.",
                 "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             ],
             "desc_long": [
                 "Adds chance of escaping death.",
                 "增加避免陷入無法戰鬥狀態的機率。",
-                "HP가 일정량 이상일 때, 일정 확률로 전투불능 상태를 견딥니다.",
+                "일정 확률로 전투불능 상태를 견딥니다.",
                 "Chance d'échapper à la mort lorsque les PV sont en dessous d'un certain seuil",
-                "Chance, dem Tod zu entkommen, wenn die LP auf eine bestimmte Stufe fallen.",
+                "Fügt Chance hinzu, dem Tod zu entkommen.",
                 "Posibilita evitar caer K.O. al caer la VIT bajo cierto nivel"
             ]
         }
@@ -64258,6 +64374,7 @@
                 "2": "매 턴마다 LB 게이지 증가"
             },
             "desc_long": {
+                "0": "Fills limit burst gauge each turn.",
                 "2": "매 턴마다 LB 게이지가 증가합니다."
             }
         }
@@ -64294,6 +64411,7 @@
                 "2": "매 턴마다 LB 게이지 증가+버스트 스톤에 의한 상승량 증가"
             },
             "desc_long": {
+                "0": "Increases LB gauge every turn and increases the fill capacity of burst stones.",
                 "2": "매 턴마다 LB 게이지가 증가하고, 버스트 스톤에 의한 상승량이 상승합니다."
             }
         }
@@ -64328,6 +64446,7 @@
                 "3": "Augmente la MAGIE et la PSY de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts MAG and SPR for all allies.",
                 "2": "아군 전체의 마력과 정신력이 상승합니다."
             }
         }
@@ -64362,6 +64481,7 @@
                 "3": "Augmente la MAGIE et la PSY de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts MAG and SPR for all allies.",
                 "2": "아군 전체의 마력과 정신력이 상승합니다."
             }
         }
@@ -64398,6 +64518,7 @@
                 "2": "공격력 40%, 어둠속성 저항력 75% 상승"
             },
             "desc_long": {
+                "0": "Boosts ATK by 40% and dark resistance by 75%.",
                 "2": "공격력이 40%, 어둠속성 저항력이 75% 상승합니다."
             }
         }
@@ -64435,6 +64556,7 @@
                 "2": "공격력 40%, 어둠속성 저항력 75% 상승+매 턴마다 HP 회복"
             },
             "desc_long": {
+                "0": "Boosts ATK by 40%, dark resistance by 75%, and restores HP every turn.",
                 "2": "공격력이 40%, 어둠속성 저항력이 75% 상승하고, 매 턴마다 HP가 회복합니다."
             }
         }
@@ -64469,6 +64591,7 @@
                 "3": "Augmente les dégâts des attaques sautées"
             },
             "desc_long": {
+                "0": "Boosts damage inflicted by jump attacks.",
                 "2": "점프 계열 어빌리티 피해량이 상승합니다."
             }
         }
@@ -64505,6 +64628,7 @@
                 "2": "점프 계열 어빌리티 피해량 상승+불, 물, 번개속성 저항력 30% 상승"
             },
             "desc_long": {
+                "0": "Boosts damage dealt by jump abilities and fire, ice, and lightning resistance by 30%.",
                 "2": "점프 계열 어빌리티 피해량이 상승하고, 불, 얼음, 번개속성 저항력이 30% 상승합니다."
             }
         }
@@ -64541,6 +64665,7 @@
                 "2": "아군 전체의 공격력과 마력 감소, 방어력과 정신력 상승"
             },
             "desc_long": {
+                "0": "Reduces ATK and MAG and boosts DEF and SPR for all allies.",
                 "2": "아군 전체의 공격력과 마력이 감소하고, 방어력과 정신력이 상승합니다."
             }
         }
@@ -64578,6 +64703,7 @@
                 "2": "아군 전체의 공격력과 마력 감소, 방어력과 정신력 상승+HP 서서히 회복"
             },
             "desc_long": {
+                "0": "Reduces ATK and MAG and boosts DEF and SPR for all allies, and gradually restores HP.",
                 "2": "아군 전체의 공격력과 마력이 감소하고, 방어력과 정신력이 상승하며, HP가 서서히 회복합니다."
             }
         }
@@ -64611,6 +64737,7 @@
                 "2": "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 30% 상승"
             },
             "desc_long": {
+                "0": "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance by 30%.",
                 "2": "불, 얼음, 번개, 물, 바람, 땅,. 빛, 어둠속성 저항력이 30% 상승합니다."
             }
         }
@@ -64644,6 +64771,7 @@
                 "2": "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 50% 상승"
             },
             "desc_long": {
+                "0": "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance by 50%.",
                 "2": "불, 얼음, 번개, 물, 바람, 땅,. 빛, 어둠속성 저항력이 50% 상승합니다."
             }
         }
@@ -64680,6 +64808,7 @@
                 "2": "침묵, 마비, 혼란, 석화 무효화+탐색 퀘스트에서 걸으면 사용자의 MP 회복"
             },
             "desc_long": {
+                "0": "Nullifies silence, paralysis, confusion and stone, and restores own MP while walking on exploration maps.",
                 "2": "침묵, 마비, 혼란, 석화를 무효화하고, 탐색퀘스트에서 걸으면 사용자의 MP가 회복합니다."
             }
         }
@@ -64717,6 +64846,7 @@
                 "2": "침묵, 마비, 혼란, 석화 무효화+탐색 퀘스트에서 걸으면 사용자의 MP 회복+매 턴마다 MP 회복"
             },
             "desc_long": {
+                "0": "Nullifies silence, paralysis, confusion and stone, restores own MP while walking on exploration maps, and restores MP every turn.",
                 "2": "침묵, 마비, 혼란, 석화를 무효화하고, 매 턴마다 MP가 회복하며, 탐색퀘스트에서 걸으면 사용자의 MP가 회복합니다."
             }
         }
@@ -64750,6 +64880,7 @@
                 "2": "물리공격을 받으면 일정 확률로 적 전체에 반격"
             },
             "desc_long": {
+                "0": "Adds chance of countering against all enemies when receiving a physical attack.",
                 "2": "물리공격을 받으면 일정 확률로 적 전체에 반격합니다."
             }
         }
@@ -64783,6 +64914,7 @@
                 "2": "물리공격을 받으면 일정 확률로 적 전체에 반격+사용자의 마력 상승"
             },
             "desc_long": {
+                "0": "Adds chance of countering against all enemies when receiving a physical attack, and boosts to own MAG.",
                 "2": "물리공격을 받으면 일정 확률로 적 전체에 반격하고, 사용자의 마력이 상승합니다."
             }
         }
@@ -64820,6 +64952,7 @@
                 "3": "Aspire les PV et PM d'un ennemi"
             },
             "desc_long": {
+                "0": "Drains HP and MP from one enemy.",
                 "2": "적 1명의 HP와 MP를 흡수합니다."
             }
         }
@@ -64857,6 +64990,7 @@
                 "3": "Aspire les PV et PM d'un ennemi"
             },
             "desc_long": {
+                "0": "Drains HP and MP from one enemy.",
                 "2": "적 1명의 HP와 MP를 흡수합니다."
             }
         }
@@ -64891,6 +65025,7 @@
                 "3": "Dégâts sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage to one enemy.",
                 "2": "적 1명에게 피해를 줍니다."
             }
         }
@@ -64925,6 +65060,7 @@
                 "3": "Dégâts sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage to one enemy.",
                 "2": "적 1명에게 피해를 줍니다."
             }
         }
@@ -64959,6 +65095,7 @@
                 "3": "Coup critique sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals critical damage to all enemies.",
                 "2": "적 전체에 크리티컬 피해를 줍니다."
             }
         }
@@ -64993,6 +65130,7 @@
                 "3": "Coup critique sur tous les ennemis"
             },
             "desc_long": {
+                "0": "Deals critical damage to all enemies.",
                 "2": "적 전체에 크리티컬 피해를 줍니다."
             }
         }
@@ -65027,6 +65165,7 @@
                 "3": "Augmente l'ATT et la DEF de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts ATK and DEF for all allies.",
                 "2": "아군 전체의 공격력과 방어력이 상승합니다."
             }
         }
@@ -65061,6 +65200,7 @@
                 "3": "Augmente l'ATT et la DEF de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts ATK and DEF for all allies.",
                 "2": "아군 전체의 공격력과 방어력이 상승합니다."
             }
         }
@@ -65097,6 +65237,7 @@
                 "2": "사용자의 HP를 소비하여 적 전체에 피해+어둠속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Consumes own HP to damage all enemies and reduce their dark resistance.",
                 "2": "사용자의 HP를 소모하여 적 전체에 피해를 주고, 어둠속성 저항력을 감소시킵니다."
             }
         }
@@ -65133,6 +65274,7 @@
                 "2": "사용자의 HP를 소비하여 적 전체에 피해+어둠속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Consumes own HP to damage all enemies and reduce their dark resistance.",
                 "2": "사용자의 HP를 소모하여 적 전체에 피해를 주고, 어둠속성 저항력을 감소시킵니다."
             }
         }
@@ -65166,6 +65308,7 @@
                 "2": "공중으로 이탈한 후 다음 턴에 낙하하여 적 1명에게 피해"
             },
             "desc_long": {
+                "0": "Sends unit into the air then deals damage to one enemy next turn.",
                 "2": "점프해서 공중으로 이탈한 후 다음 턴에 낙하하여 적 1명에게 피해를 줍니다."
             }
         }
@@ -65199,6 +65342,7 @@
                 "2": "공중으로 이탈한 후 다음 턴에 낙하하여 적 1명에게 피해"
             },
             "desc_long": {
+                "0": "Sends unit into the air then deals damage to one enemy next turn.",
                 "2": "점프해서 공중으로 이탈한 후 다음 턴에 낙하하여 적 1명에게 피해를 줍니다."
             }
         }
@@ -65235,6 +65379,7 @@
                 "2": "아군 전체의 방어력과 정신력 감소, 공격력과 마력 상승"
             },
             "desc_long": {
+                "0": "Reduces DEF and SPR and boosts ATK and MAG for all allies.",
                 "2": "아군 전체의 방어력과 정신력이 감소하고, 공격력과 마력이 상승합니다."
             }
         }
@@ -65272,6 +65417,7 @@
                 "2": "아군 전체의 방어력과 정신력 감소, 공격력과 마력 상승+MP 서서히 회복"
             },
             "desc_long": {
+                "0": "Reduces DEF and SPR and boosts ATK and MAG for all allies, and gradually restores MP",
                 "2": "아군 전체의 방어력과 정신력이 감소하고, 공격력과 마력이 상승하며, MP를 서서히 회복합니다."
             }
         }
@@ -65306,6 +65452,7 @@
                 "3": "Aspire les PM d'un ennemi"
             },
             "desc_long": {
+                "0": "Drains MP from one enemy.",
                 "2": "적 1명의 MP를 흡수합니다."
             }
         }
@@ -65340,6 +65487,7 @@
                 "3": "Absorbe les PM de tous les ennemis"
             },
             "desc_long": {
+                "0": "Drains MP from all enemies.",
                 "2": "적 전체의 MP를 흡수합니다."
             }
         }
@@ -65374,6 +65522,7 @@
                 "3": "Augmente l'ATT et la DEF de tous les alliés"
             },
             "desc_long": {
+                "0": "Boosts ATK and DEF for all allies.",
                 "2": "아군 전체의 공격력과 방어력이 상승합니다."
             }
         }
@@ -65410,6 +65559,7 @@
                 "2": "아군 전체의 공격력과 방어력 상승+HP 서서히회복"
             },
             "desc_long": {
+                "0": "Boosts ATK and DEF for all allies, and gradually restores HP.",
                 "2": "아군 전체의 공격력과 방어력이 상승하고, HP를 서서히 회복합니다."
             }
         }
@@ -65444,6 +65594,7 @@
                 "3": "Dégâts en partie fixes sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy.",
                 "2": "적 1명에게 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -65478,6 +65629,7 @@
                 "3": "Dégâts en partie fixes sur un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy.",
                 "2": "적 1명에게 일부 방어 무시 피해를 줍니다."
             }
         }
@@ -65512,6 +65664,7 @@
                 "3": "Augmente l'ATT, ma DEF, la MAGIE et la PSY lorsqu'un katana est équipé"
             },
             "desc_long": {
+                "0": "Boosts ATK, DEF, MAG, and SPR when equipped with a katana.",
                 "2": "칼을 장착하면 공격력, 방어력, 마력, 정신력이 상승합니다."
             }
         }
@@ -65546,6 +65699,7 @@
                 "3": "Augmente l'ATT, ma DEF, la MAGIE et la PSY lorsqu'un katana est équipé"
             },
             "desc_long": {
+                "0": "Boosts ATK, DEF, MAG, and SPR when equipped with a katana.",
                 "2": "칼을 장착하면 공격력, 방어력, 마력, 정신력이 상승합니다."
             }
         }
@@ -65582,6 +65736,7 @@
                 "2": "사용자의 HP를 소비하여 적 1명에게 피해+어둠속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Consumes own HP to deal damage one enemy and reduce their dark resistance.",
                 "2": "사용자의 HP를 소모하여 적 1명에게 피해를 주고, 어둠속성 저항력을 감소시킵니다."
             }
         }
@@ -65618,6 +65773,7 @@
                 "2": "사용자의 HP를 소비하여 적 1명에게 피해+어둠속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Consumes own HP to deal damage one enemy and reduce their dark resistance.",
                 "2": "사용자의 HP를 소모하여 적 1명에게 피해를 주고, 어둠속성 저항력을 감소시킵니다."
             }
         }
@@ -65650,11 +65806,12 @@
                 "5": "Latigazo elemental"
             },
             "desc_short": {
-                "0": "Damage and reduce fire, ice, lightning resistance for one enemy",
+                "0": "Damage and reduce fire, ice, and lightning resistance for one enemy",
                 "2": "적 1명에게 피해+불, 얼음, 번개속성 저항력 감소",
                 "3": "Dégâts et réduit la résistance au feu, à la glace et à la foudre d'un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage and reduces fire, ice, and lightning resistance for one enemy.",
                 "2": "적 1명에게 피해를 주고, 불, 얼음, 번개속성 저항력을 감소시킵니다."
             }
         }
@@ -65687,11 +65844,12 @@
                 "5": "Latigazo elemental"
             },
             "desc_short": {
-                "0": "Damage and reduce fire, ice, lightning resistance for one enemy",
+                "0": "Damage and reduce fire, ice, and lightning resistance for one enemy",
                 "2": "적 1명에게 피해+불, 얼음, 번개속성 저항력 감소",
                 "3": "Dégâts et réduit la résistance au feu, à la glace et à la foudre d'un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage and reduces fire, ice, and lightning resistance for one enemy.",
                 "2": "적 1명에게 피해를 주고, 불, 얼음, 번개속성 저항력을 감소시킵니다."
             }
         }
@@ -65725,6 +65883,7 @@
                 "2": "적 전체에 어둠속성 피해+연속으로 사용하면 피해량 상승"
             },
             "desc_long": {
+                "0": "Deals dark damage to all enemies. Damage dealt increases with each use.",
                 "2": "적 전체에 어둠속성 피해를 주고, 중복해서 사용하면 피해량이 상승합니다."
             }
         }
@@ -65758,6 +65917,7 @@
                 "2": "적 전체에 어둠속성 피해+연속으로 사용하면 피해량 상승"
             },
             "desc_long": {
+                "0": "Deals dark damage to all enemies. Damage dealt increases with each use.",
                 "2": "적 전체에 어둠속성 피해를 주고, 중복해서 사용하면 피해량이 상승합니다."
             }
         }
@@ -65797,6 +65957,7 @@
                 "2": "물리공격 시 야수, 악마, 인간, 드래곤, 사령형 마물에게 주는 피해량 상승"
             },
             "desc_long": {
+                "0": "Boosts physical damage against beasts, demons, humans, dragons, and reapers.",
                 "2": "물리공격 시 야수, 악마, 인간, 사령형 마물에게 주는 피해량이 상승합니다."
             }
         }
@@ -65836,6 +65997,7 @@
                 "2": "물리공격 시 야수, 악마, 인간, 드래곤, 사령형 마물에게 주는 피해량 상승"
             },
             "desc_long": {
+                "0": "Boosts physical damage against beasts, demons, humans, dragons, and reapers.",
                 "2": "물리공격 시 야수, 악마, 인간, 사령형 마물에게 주는 피해량이 상승합니다."
             }
         }
@@ -65874,6 +66036,7 @@
                 "3": "Dégâts en partie fixes et réduit la DEF et la rés. à la glace d'un ennemi"
             },
             "desc_long": {
+                "0": "Deals damage partially unaffected by DEF to one enemy, and reduces their DEF and ice resistance.",
                 "2": "적 1명에게 일부 방어 무시 피해를 주고, 방어력과 얼음속성 저항력을 감소시킵니다."
             }
         }
@@ -65911,6 +66074,7 @@
                 "2": "적 1명에게 얼음속성 일부방어 무시 피해+방어력, 얼음속성 저항력 감소"
             },
             "desc_long": {
+                "0": "Deals ice damage partially unaffected by DEF to one enemy and reduces their DEF and ice resistance.",
                 "2": "적 1명에게 얼음속성 일부 방어 무시 피해를 주고, 더불어 방어력과 얼음속성 저항력을 감소시킵니다."
             }
         }
@@ -68564,9 +68728,10 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR by 30%.",
-            "Increase LB gauge by 1 per turn."
+            "Increase LB gauge by 1 per turn.",
+            "Increase resistance to Paralyze and Stone by 100%."
         ],
-        "effects_raw": [[1, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [1, 3, 33, [100]]],
+        "effects_raw": [[1, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [1, 3, 33, [100]], [1, 3, 2, [0,  0,  0,  0,  100,  0,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
         "strings": {
@@ -68579,20 +68744,20 @@
                 "Espíritu de convicción"
             ],
             "desc_short": [
-                "Boost SPR by 30% and LB gauge fills each turn during battle",
-                "提高30%精神+每回合自動增加極限技槽",
-                "정신력 30% 상승+매 턴마다 LB 게이지 증가",
-                "Augmente la PSY de 30% et la jauge de limite se remplit chaque tour",
-                "Erhöht PSY um 30 % und das Limitmeter steigt langsam",
-                "Aumenta el ESP un 30% y la barra de EL se llena más rápido"
+                "Boost SPR by 30% and LB gauge fills each turn during battle and nullify paralysis and stone",
+                "提高30%精神+每回合自動增加極限技槽+麻痺石化狀態無效",
+                "정신력 30% 상승+매 턴마다 LB 게이지 증가+마비와 석화 무효",
+                "Augmente la PSY de 30%, la jauge de limite se remplit chaque tour et annule para. et pétri.",
+                "Erhöht PSY um 30 %, Limitmeter steigt langsam, ann. Lähmung & Stein.",
+                "Aumenta el ESP un 30%, la barra de EL se llena más rápido y anula parálisis y piedra"
             ],
             "desc_long": [
-                "Boosts SPR by 30% and fills limit burst gauge each turn during battle.",
-                "提高30%精神數值，每回合自動增加極限技槽。",
-                "정신력이 30% 상승하고, 매 턴마다 LB 게이지가 증가합니다.",
-                "Augmente la PSY de 30% et la jauge de limite se remplit chaque tour en combat.",
-                "Erhöht PSY um 30 % und Limitmeter steigt im Kampf jede Runde.",
-                "Aumenta el ESP un 30% y la barra de EL se llena más rápido"
+                "Boosts SPR by 30% and fills limit burst gauge each turn during battle and nullifies paralysis and stone.",
+                "提高30%精神數值，每回合自動增加極限技槽，麻痺石化狀態無效。",
+                "정신력이 30% 상승하고, 매 턴마다 LB 게이지가 증가하며, 마비와 석화를 무효화합니다.",
+                "Augmente la PSY de 30%, la jauge de limite se remplit chaque tour en combat et annule paralysie et pétrification.",
+                "Erhöht PSY um 30 %, Limitmeter steigt langsam, ann. Lähmung & Stein.",
+                "Aumenta el ESP un 30%, la barra de EL se llena más rápido y anula parálisis y piedra"
             ]
         }
     },
@@ -68948,7 +69113,7 @@
                 "아군 전체의 암흑 저항력과 석화 저항력이 상승합니다.",
                 "Augmente la résistance aux ténèbres et à la pétrification de tous les alliés.",
                 "Erhöht Dunkelresistenz und Resistenz gegen Stein, alle Verb.",
-                "Aumenta la res. a oscuridad y piedra a todos los aliados"
+                "Aumenta la resistencia a oscuridad y piedra a todos los aliados"
             ]
         }
     },
@@ -72034,7 +72199,7 @@
                 "적 1명에게 피해를 주고, 방어력과 번개속성 저항력을 감소시킵니다.",
                 "Inflige des dégâts et réduit la DEF et la rés à la foudre d'un ennemi.",
                 "Fügt einem Gegner Schaden zu und reduziert seine Blitzresistenz.",
-                "Daña y reduce la DEF y la res. al rayo de un enemigo"
+                "Daña y reduce la DEF y la resistencia al rayo de un enemigo"
             ]
         }
     },
@@ -72212,7 +72377,7 @@
                 "적 전체에 불속성 피해를 주고, 불속성 저항력을 감소시킵니다.",
                 "Inflige des dégâts de feu et réduit la résistance au feu de tous les ennemis.",
                 "Verursacht Feuerschaden und reduziert Feuerresistenz aller Gegner.",
-                "Daño de fuego y reduce la res. al fuego de todos los enemigos"
+                "Daño de fuego y reduce la resistencia al fuego de todos los enemigos"
             ]
         }
     },
