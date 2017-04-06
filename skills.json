@@ -657,7 +657,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one enemy"],
+        "effects": ["Remove all effects from one enemy"],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "icon": "ability_3.png",
         "strings": {
@@ -921,7 +921,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on all enemies"],
+        "effects": ["Remove all effects from all enemies"],
         "effects_raw": [[2, 1, 59, ["none"]]],
         "icon": "ability_3.png",
         "strings": {
@@ -8760,7 +8760,7 @@
         "effect_type": "Steal Item",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Steal item"],
+        "effects": ["Steal item from one enemy"],
         "effects_raw": [[1, 1, 37, [0]]],
         "unit_restriction": null,
         "icon": "ability_82.png",
@@ -8805,7 +8805,7 @@
         "element_inflict": null,
         "effects": [
             "Damage (1.2x ATK) to one enemy",
-            "Steal item (+50%)"
+            "Steal item (+50%) from one enemy"
         ],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]], [1, 1, 37, [50]]],
         "unit_restriction": null,
@@ -10021,7 +10021,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.1x ATK) to one enemy",
-            "Remove all effects on one enemy"
+            "Remove all effects from one enemy"
         ],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  110]], [1, 1, 59, ["none"]]],
         "unit_restriction": null,
@@ -10323,7 +10323,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove unit from fight for 3-5 turns"],
+        "effects": ["Remove self from fight for 3-5 turns"],
         "effects_raw": [[0, 3, 53, [3,  5]]],
         "unit_restriction": null,
         "icon": "ability_42.png",
@@ -14846,7 +14846,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one ally"],
+        "effects": ["Remove all effects from one ally"],
         "effects_raw": [[1, 2, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_64.png",
@@ -16060,7 +16060,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one enemy"],
+        "effects": ["Remove all effects from one enemy"],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -19118,7 +19118,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one enemy"],
+        "effects": ["Remove all effects from one enemy"],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_82.png",
@@ -23791,7 +23791,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one enemy"],
+        "effects": ["Remove all effects from one enemy"],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -31502,7 +31502,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (3.6x ATK) to all enemies (ignore cover)",
-            "Remove all effects on all enemies"
+            "Remove all effects from all enemies"
         ],
         "effects_raw": [[2, 1, 21, [0, 0, 180, "-50"]], [2, 1, 59, ["none"]]],
         "unit_restriction": null,
@@ -33229,7 +33229,7 @@
         "damage_type": "Magical",
         "element_inflict": null,
         "effects": [
-            "Revive one ally from KO (0% HP) \/ Insta-kill Reaper monster",
+            "Insta-kill Reaper monster",
             "Randomly use:\n50%: NA (500400): Revive one ally from KO (10% HP) \/ Insta-kill Reaper monster\n50%: NA (500410): No effect"
         ],
         "effects_raw": [[1, 2, 4, [0]], [1, 2, 29, [[500400,  50], [500410,  50], 0, 0, 0]]],
@@ -40432,7 +40432,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on all enemies"],
+        "effects": ["Remove all effects from all enemies"],
         "effects_raw": [[2, 1, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -40741,7 +40741,7 @@
         "element_inflict": ["Light"],
         "effects": [
             "Light physical damage (2.1x ATK) to all enemies",
-            "Remove all effects on all enemies"
+            "Remove all effects from all enemies"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  210]], [2, 1, 59, ["none"]]],
         "unit_restriction": null,
@@ -55004,7 +55004,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one enemy"],
+        "effects": ["Remove all effects from one enemy"],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "item_4001.png",
@@ -61900,7 +61900,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Remove all effects on one ally"],
+        "effects": ["Remove all effects from one ally"],
         "effects_raw": [[1, 2, 59, ["none"]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -73900,7 +73900,7 @@
         "element_inflict": null,
         "effects": [
             "Hybrid  damage (2x ATK & MAG) to one enemy",
-            "Remove all effects on one enemy"
+            "Remove all effects from one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [1, 1, 59, ["none"]]],
         "unit_restriction": null,
@@ -74079,7 +74079,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase ATK by 100, MAG by 50 and DEF and SPR by 0 when armed with a single one-handed weapon"],
+        "effects": ["Increase ATK (100%) and MAG (50%) when armed with a single one-handed weapon"],
         "effects_raw": [[1, 3, 10003, [0,  0,  100,  50,  0,  0]]],
         "unit_restriction": null,
         "icon": "ability_76.png",
@@ -74388,7 +74388,7 @@
         "element_inflict": null,
         "effects": [
             "Damage (1.2x ATK) to all enemies",
-            "Steal item (+50%)"
+            "Steal item (+50%) from all enemies"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  120]], [2, 1, 37, [50]]],
         "unit_restriction": null,
@@ -74703,8 +74703,8 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Remove all effects on self",
-            "Remove unit from fight for 1-1 turns"
+            "Remove all effects from self",
+            "Remove self from fight for one turn"
         ],
         "effects_raw": [[0, 3, 59, ["none"]], [0, 3, 53, [1,  1]]],
         "unit_restriction": null,
@@ -74797,7 +74797,7 @@
         "element_inflict": null,
         "effects": [
             "Mirror positive status effects from one enemy on the party.",
-            "Remove all effects on one enemy"
+            "Remove all effects from one enemy"
         ],
         "effects_raw": [[1, 1, 1005, [2, 2, 100, "54;55;59;61;201;202;203"]], [1, 1, 59, ["none"]]],
         "unit_restriction": null,
@@ -75199,7 +75199,7 @@
         "damage_type": "Magical",
         "element_inflict": null,
         "effects": [
-            "Revive one ally from KO (0% HP) \/ Insta-kill Reaper monster",
+            "Insta-kill Reaper monster",
             "Randomly use:\n60%: Raise (Minor) (910181): Revive one ally from KO (10% HP) \/ Insta-kill Reaper monster\n40%: Raise (Full) (910182): Revive one ally from KO (100% HP) \/ Insta-kill Reaper monster"
         ],
         "effects_raw": [[1, 2, 4, [0]], [1, 2, 29, [[910181,  60], [910182,  40], 0, 0, 0]]],
