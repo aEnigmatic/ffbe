@@ -365,7 +365,7 @@
         "effect_type": "Default",
         "damage_type": "Magical",
         "element_inflict": null,
-        "effects": ["Cure Stone for one ally"],
+        "effects": ["Cure Petrify for one ally"],
         "effects_raw": [[1, 2, 5, [8,  0,  0,  0,  0,  0,  0,  0]]],
         "icon": "ability_3.png",
         "strings": {
@@ -18770,7 +18770,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Inflict one random status effect (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
+        "effects": ["Inflict one random status effect (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
         "effects_raw": [[1, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  1]]],
         "unit_restriction": null,
         "icon": "ability_24.png",
@@ -22040,7 +22040,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Blind, Paralyze, Confusion and Stone by 100%"],
+        "effects": ["Increase resistance to Blind, Paralyze, Confusion and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  100,  0,  0,  100,  100,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_97.png",
@@ -22215,7 +22215,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Silence, Paralyze, Confusion and Stone by 100%"],
+        "effects": ["Increase resistance to Silence, Paralyze, Confusion and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  0,  100,  100,  100,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_97.png",
@@ -26395,7 +26395,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Silence, Paralyze and Stone by 100%"],
+        "effects": ["Increase resistance to Silence, Paralyze and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_97.png",
@@ -26567,7 +26567,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Inflict one random status effect (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
+        "effects": ["Inflict one random status effect (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
         "effects_raw": [[2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  1]]],
         "unit_restriction": null,
         "icon": "ability_14.png",
@@ -28250,7 +28250,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Increase resistance to Sleep, Paralyze, Confusion and Stone by 100%",
+            "Increase resistance to Sleep, Paralyze, Confusion and Petrify by 100%",
             "Increase MP by 15%"
         ],
         "effects_raw": [[0, 3, 2, [0,  0,  100,  0,  100,  100,  0,  100]], [0, 3, 1, [0,  0,  0,  0,  0,  15,  0]]],
@@ -30023,7 +30023,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": ["Dark"],
-        "effects": ["Inflict 2 random status effects (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
+        "effects": ["Inflict 2 random status effects (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"],
         "effects_raw": [[1, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  2]]],
         "unit_restriction": null,
         "icon": "ability_14.png",
@@ -32138,7 +32138,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies"],
+        "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -34665,7 +34665,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Stone by 100% for all allies"],
+        "effects": ["Increase resistance to Petrify by 100% for all allies"],
         "effects_raw": [[2, 2, 7, [0,  0,  0,  0,  0,  0,  0,  100,  1,  3]]],
         "unit_restriction": null,
         "icon": "ability_19.png",
@@ -37564,7 +37564,7 @@
         "element_inflict": null,
         "effects": [
             "Restore 1000 (+3.4x SPR) HP to all allies",
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies"
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
         ],
         "effects_raw": [[2, 2, 2, [0,  0,  1000,  340,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
@@ -39300,7 +39300,7 @@
         "element_inflict": null,
         "effects": [
             "3 physical attacks (0.6x each, 1.8x total) to one enemy",
-            "Inflict one random status effect (Poison, Sleep, Paralyze, Confusion and Disease 30% and Blind, Silence and Stone 0%)"
+            "Inflict one random status effect (Poison, Sleep, Paralyze, Confusion and Disease 30% and Blind, Silence and Petrify 0%)"
         ],
         "effects_raw": [[1, 1, 42, [0,  0,  3,  3,  60]], [1, 1, 34, [30,  0,  30,  0,  30,  30,  30,  0,  1,  1]]],
         "unit_restriction": null,
@@ -40871,7 +40871,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies",
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
             "Increase resistance to all status effects by %s by 100% for all allies"
         ],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  1]]],
@@ -41881,7 +41881,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Paralyze and Stone by 100% for self"],
+        "effects": ["Increase resistance to Paralyze and Petrify by 100% for self"],
         "effects_raw": [[0, 3, 7, [0,  0,  0,  0,  100,  0,  0,  100,  1,  3]]],
         "unit_restriction": null,
         "icon": "ability_19.png",
@@ -42612,7 +42612,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for one ally"],
+        "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for one ally"],
         "effects_raw": [[1, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -43657,7 +43657,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to all enemies",
-            "Inflict 2 random status effects (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"
+            "Inflict 2 random status effects (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  2]]],
         "unit_restriction": null,
@@ -44011,7 +44011,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies"],
+        "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -46685,7 +46685,7 @@
         "element_inflict": null,
         "effects": [
             "Restore 1000 HP to all allies",
-            "Cure Stone, Silence and Poison for all allies"
+            "Cure Silence, Poison and Petrify for all allies"
         ],
         "effects_raw": [[2, 2, 16, [1000]], [2, 2, 5, [1,  4,  8,  0,  0,  0,  0,  0]]],
         "unit_restriction": null,
@@ -46903,7 +46903,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to all enemies",
-            "Inflict one random status effect (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)",
+            "Inflict one random status effect (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)",
             "Reduce ATK, DEF, MAG and SPR by 30% for 3 turns to all enemies"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  1]], [2, 1, 24, ["-30", "-30", "-30", "-30", 3, 1]]],
@@ -46948,7 +46948,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies"],
+        "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
         "icon": "ability_3.png",
@@ -47516,7 +47516,7 @@
         "effects": [
             "15% chance of evading physical attacks",
             "15% chance of evading magical attacks",
-            "Increase resistance to Paralyze, Confusion and Stone by 100%"
+            "Increase resistance to Paralyze, Confusion and Petrify by 100%"
         ],
         "effects_raw": [[0, 3, 22, [15]], [0, 3, 54, ["-1", 15]], [0, 3, 2, [0,  0,  0,  0,  100,  100,  0,  100]]],
         "unit_restriction": null,
@@ -48017,7 +48017,7 @@
         "element_inflict": null,
         "effects": [
             "Magical damage (2.3x MAG) to all enemies",
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for all allies"
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  230]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
@@ -49087,7 +49087,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Inflict Stone (50%) on one enemy"],
+        "effects": ["Inflict Petrify (50%) on one enemy"],
         "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  50,  1]]],
         "unit_restriction": null,
         "icon": "ability_14.png",
@@ -49335,7 +49335,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Silence, Paralyze and Stone by 100%"],
+        "effects": ["Increase resistance to Silence, Paralyze and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_97.png",
@@ -49945,7 +49945,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Poison, Blind, Silence, Paralyze, Confusion, Disease and Stone by 100% for self"],
+        "effects": ["Increase resistance to Poison, Blind, Silence, Paralyze, Confusion, Disease and Petrify by 100% for self"],
         "effects_raw": [[0, 3, 7, [100,  100,  0,  100,  100,  100,  100,  100,  1,  3]]],
         "unit_restriction": null,
         "icon": "ability_19.png",
@@ -51279,7 +51279,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Blind, Paralyze and Stone by 100%"],
+        "effects": ["Increase resistance to Blind, Paralyze and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  100,  0,  0,  100,  0,  0,  100]]],
         "unit_restriction": [100000102, 100000103, 100000104, 100000105, 100000106],
         "icon": "ability_19.png",
@@ -54033,7 +54033,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Cure Stone for one ally"],
+        "effects": ["Cure Petrify for one ally"],
         "effects_raw": [[1, 2, 5, [8,  0,  0,  0,  0,  0,  0,  0]]],
         "unit_restriction": null,
         "icon": "item_1013.png",
@@ -60101,7 +60101,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to all enemies",
-            "Inflict 2 random status effects (Stone 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"
+            "Inflict 2 random status effects (Petrify 100% and Poison, Blind, Sleep, Silence, Paralyze, Confusion and Disease 30%)"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  100,  1,  2]]],
         "unit_restriction": null,
@@ -61338,7 +61338,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Stone by 100% for all allies"],
+        "effects": ["Increase resistance to Petrify by 100% for all allies"],
         "effects_raw": [[2, 2, 7, [0,  0,  0,  0,  0,  0,  0,  100,  1,  3]]],
         "unit_restriction": null,
         "icon": "ability_19.png",
@@ -64789,7 +64789,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Increase resistance to Silence, Paralyze, Confusion and Stone by 100%",
+            "Increase resistance to Silence, Paralyze, Confusion and Petrify by 100%",
             "During explorations, recover 5 MP every 3 steps"
         ],
         "effects_raw": [[0, 3, 2, [0,  0,  0,  100,  100,  100,  0,  100]], [0, 3, 29, [0,  0,  5,  5,  3]]],
@@ -64826,7 +64826,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Increase resistance to Silence, Paralyze, Confusion and Stone by 100%",
+            "Increase resistance to Silence, Paralyze, Confusion and Petrify by 100%",
             "During explorations, recover 5 MP every 3 steps",
             "Recover MP (5%) per turn"
         ],
@@ -67561,7 +67561,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG and SPR by 50% for 4 turns to self",
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for self"
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for self"
         ],
         "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  4,  1]], [0, 3, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
@@ -68052,7 +68052,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP by 20%",
-            "Increase resistance to Silence and Stone by 100%"
+            "Increase resistance to Silence and Petrify by 100%"
         ],
         "effects_raw": [[1, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [1, 3, 2, [0,  0,  0,  100,  0,  0,  0,  100]]],
         "unit_restriction": null,
@@ -68729,7 +68729,7 @@
         "effects": [
             "Increase SPR by 30%",
             "Increase LB gauge by 1 per turn",
-            "Increase resistance to Paralyze and Stone by 100%"
+            "Increase resistance to Paralyze and Petrify by 100%"
         ],
         "effects_raw": [[1, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [1, 3, 33, [100]], [1, 3, 2, [0,  0,  0,  0,  100,  0,  0,  100]]],
         "unit_restriction": null,
@@ -68909,7 +68909,7 @@
         "damage_type": null,
         "element_inflict": null,
         "effects": [
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for self",
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for self",
             "Increase resistance to all status effects by %s by 100% for self"
         ],
         "effects_raw": [[1, 3, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [1, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  2]]],
@@ -69085,7 +69085,7 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Dark by 50% for 3 turns to all allies",
-            "Increase resistance to Stone by 100% for all allies"
+            "Increase resistance to Petrify by 100% for all allies"
         ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  0,  0,  50,  1,  3]], [2, 2, 7, [0,  0,  0,  0,  0,  0,  0,  100,  1,  3]]],
         "unit_restriction": null,
@@ -70334,7 +70334,7 @@
         "element_inflict": null,
         "effects": [
             "Increase power of the next normal attack (+1x, max +10x)",
-            "Cure Stone, Sleep, Silence, Poison, Paralyze, Disease, Confusion and Blind for the rest of the party"
+            "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for the rest of the party"
         ],
         "effects_raw": [[1, 3, 20, [100,  1000,  0]], [2, 5, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "unit_restriction": null,
@@ -70469,7 +70469,7 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Fire by 50%",
-            "Increase resistance to Sleep, Paralyze, Confusion and Stone by 100%"
+            "Increase resistance to Sleep, Paralyze, Confusion and Petrify by 100%"
         ],
         "effects_raw": [[1, 3, 3, [50,  0,  0,  0,  0,  0,  0,  0]], [1, 3, 2, [0,  0,  100,  0,  100,  100,  0,  100]]],
         "unit_restriction": null,
@@ -70920,7 +70920,7 @@
         "effect_type": "Default",
         "damage_type": null,
         "element_inflict": null,
-        "effects": ["Increase resistance to Confusion and Stone by 100%"],
+        "effects": ["Increase resistance to Confusion and Petrify by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]]],
         "unit_restriction": null,
         "icon": "ability_97.png",
