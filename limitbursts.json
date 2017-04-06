@@ -18726,6 +18726,340 @@
             ]
         }
     },
+    "302001405": {
+        "name": "Ice Prison",
+        "cost": 0,
+        "attack_count": 4,
+        "attack_frames": [15, 35, 90, 160],
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Hybrid ice damage (3x ATK & MAG) to all enemies",
+                "Inflict Stop (50%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  300,  300]], [2, 1, 88, [50,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Hybrid ice damage (3x ATK & MAG) to all enemies",
+                "Inflict Stop (50%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  300,  300]], [2, 1, 88, [50,  3]]]},
+        "strings": {
+            "name": [
+                "Ice Prison",
+                "寒冰牢獄",
+                "얼음 감옥",
+                "Prison de glace",
+                "Eisgefängnis",
+                "Prisión helada"
+            ],
+            "desc": [
+                "Ice damage and stop all enemies",
+                "對全體敵人發動冰屬性攻擊+停止",
+                "적 전체에 얼음속성 피해+스톱 부여",
+                "Dégâts de glace et stoppe tous les ennemis",
+                "Eisschaden u. „Stopp“, alle Gegner",
+                "Daño de frío y paro a todos los enemigos"
+            ]
+        }
+    },
+    "302001406": {
+        "name": "Ice Prison",
+        "cost": 0,
+        "attack_count": 4,
+        "attack_frames": [15, 35, 90, 160],
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 25,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Hybrid ice damage (4x ATK & MAG) to all enemies",
+                "Inflict Stop (60%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 88, [60,  3]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Hybrid ice damage (4x ATK & MAG) to all enemies",
+                "Inflict Stop (60%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 88, [60,  3]]]},
+        "strings": {
+            "name": [
+                "Ice Prison",
+                "寒冰牢獄",
+                "얼음 감옥",
+                "Prison de glace",
+                "Eisgefängnis",
+                "Prisión helada"
+            ],
+            "desc": [
+                "Ice damage and stop all enemies",
+                "對全體敵人發動冰屬性攻擊+停止",
+                "적 전체에 얼음속성 피해+스톱 부여",
+                "Dégâts de glace et stoppe tous les ennemis",
+                "Eisschaden u. „Stopp“, alle Gegner",
+                "Daño de frío y paro a todos los enemigos"
+            ]
+        }
+    },
+    "302001504": {
+        "name": "Reversal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (2.5x ATK) to one enemy",
+                "Inflict Stop (50%) for 3 turns on one enemy",
+                "Dodge 2 attacks for one turn to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [1, 1, 88, [50,  3]], [0, 3, 54, [2,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (2.5x ATK) to one enemy",
+                "Inflict Stop (50%) for 3 turns on one enemy",
+                "Dodge 2 attacks for one turn to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [1, 1, 88, [50,  3]], [0, 3, 54, [2,  1]]]},
+        "strings": {
+            "name": [
+                "Reversal",
+                "逆轉",
+                "반전",
+                "Inversion",
+                "Umkehr",
+                "Del revés"
+            ],
+            "desc": [
+                "Damage and stop one enemy and caster can dodge two attacks during one turn",
+                "攻擊1名敵人+停止+1回合內發動者可閃避2次攻擊",
+                "적 1명에게 피해+스톱 부여+1턴 동안 사용자가 받는 공격 2회 회피",
+                "Dégâts, stoppe un ennemi et le lanceur peut éviter deux attaques pendant un tour",
+                "Fügt einem Gegner Schaden zu und stoppt ihn, Benutzer kann in einer Runde zwei Angriffen ausweichen.",
+                "Daña y para a un enemigo, y el usuario esquiva dos ataques por un turno"
+            ]
+        }
+    },
+    "302001505": {
+        "name": "Reversal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (2.7x ATK) to one enemy",
+                "Inflict Stop (60%) for 3 turns on one enemy",
+                "Dodge 2 attacks for one turn to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [1, 1, 88, [60,  3]], [0, 3, 54, [2,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (2.7x ATK) to one enemy",
+                "Inflict Stop (60%) for 3 turns on one enemy",
+                "Dodge 2 attacks for one turn to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [1, 1, 88, [60,  3]], [0, 3, 54, [2,  1]]]},
+        "strings": {
+            "name": [
+                "Reversal",
+                "逆轉",
+                "반전",
+                "Inversion",
+                "Umkehr",
+                "Del revés"
+            ],
+            "desc": [
+                "Damage and stop one enemy and caster can dodge two attacks during one turn",
+                "攻擊1名敵人+停止+1回合內發動者可閃避2次攻擊",
+                "적 1명에게 피해+스톱 부여+1턴 동안 사용자가 받는 공격 2회 회피",
+                "Dégâts, stoppe un ennemi et le lanceur peut éviter deux attaques pendant un tour",
+                "Fügt einem Gegner Schaden zu und stoppt ihn, Benutzer kann in einer Runde zwei Angriffen ausweichen.",
+                "Daña y para a un enemigo, y el usuario esquiva dos ataques por un turno"
+            ]
+        }
+    },
+    "302001506": {
+        "name": "Reversal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3.1x ATK) to one enemy",
+                "Inflict Stop (70%) for 3 turns on one enemy",
+                "Dodge 2 attacks for 2 turns to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  310]], [1, 1, 88, [70,  3]], [0, 3, 54, [2,  2]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3.1x ATK) to one enemy",
+                "Inflict Stop (70%) for 3 turns on one enemy",
+                "Dodge 2 attacks for 2 turns to self"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  310]], [1, 1, 88, [70,  3]], [0, 3, 54, [2,  2]]]},
+        "strings": {
+            "name": [
+                "Reversal",
+                "逆轉",
+                "반전",
+                "Inversion",
+                "Umkehr",
+                "Del revés"
+            ],
+            "desc": [
+                "Damage and stop one enemy and caster can dodge two attacks during two turns",
+                "攻擊1名敵人+停止+1回合內發動者可閃避2次攻擊",
+                "적 1명에게 피해+스톱 부여+1턴 동안 사용자가 받는 공격 2회 회피",
+                "Dégâts, stoppe un ennemi et le lanceur peut éviter deux attaques pendant un tour",
+                "Fügt einem Gegner Schaden zu und stoppt ihn, Benutzer kann in zwei Runden zwei Angriffen ausweichen.",
+                "Daña y para a un enemigo, y el usuario esquiva dos ataques por un turno"
+            ]
+        }
+    },
+    "302001603": {
+        "name": "Explosive Heal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "damage_type": "Magical",
+        "element_inflict": ["Light"],
+        "levels": 10,
+        "min_level": {
+            "cost": 10,
+            "effects": [
+                "Restore 400 (+1.2x SPR) HP to all allies",
+                "Increase resistance to all elements by 10% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  400,  120,  100]], [2, 2, 33, [10,  10,  10,  10,  10,  10,  10,  10,  1,  3]]]},
+        "max_level": {
+            "cost": 10,
+            "effects": [
+                "Restore 400 (+1.2x SPR) HP to all allies",
+                "Increase resistance to all elements by 10% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  400,  120,  100]], [2, 2, 33, [10,  10,  10,  10,  10,  10,  10,  10,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Explosive Heal",
+                "爆發治癒",
+                "회복 작렬",
+                "Explosion de soins",
+                "Explosive Heilung",
+                "Curación explosiva"
+            ],
+            "desc": [
+                "Restore HP and boost all elemental resistances for all allies",
+                "恢復全體隊員的HP+提高全屬性耐性",
+                "아군 전체의 HP 회복+모든 속성 저항력 상승",
+                "Restaure les PV, et augmente les rés. élémentaires de tous les alliés",
+                "Stellt LP wieder her, alle Resistenzen hoch, alle Verb.",
+                "Recupera VIT y aumenta todas las resistencias elementales de los aliados"
+            ]
+        }
+    },
+    "302001604": {
+        "name": "Explosive Heal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "damage_type": "Magical",
+        "element_inflict": ["Light"],
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 600 (+1.4x SPR) HP to all allies",
+                "Increase resistance to all elements by 15% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  600,  140,  100]], [2, 2, 33, [15,  15,  15,  15,  15,  15,  15,  15,  1,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 600 (+1.4x SPR) HP to all allies",
+                "Increase resistance to all elements by 15% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  600,  140,  100]], [2, 2, 33, [15,  15,  15,  15,  15,  15,  15,  15,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Explosive Heal",
+                "爆發治癒",
+                "회복 작렬",
+                "Explosion de soins",
+                "Explosive Heilung",
+                "Curación explosiva"
+            ],
+            "desc": [
+                "Restore HP and boost all elemental resistances for all allies",
+                "恢復全體隊員的HP+提高全屬性耐性",
+                "아군 전체의 HP 회복+모든 속성 저항력 상승",
+                "Restaure les PV, et augmente les rés. élémentaires de tous les alliés",
+                "Stellt LP wieder her, alle Resistenzen hoch, alle Verb.",
+                "Recupera VIT y aumenta todas las resistencias elementales de los aliados"
+            ]
+        }
+    },
+    "302001605": {
+        "name": "Explosive Heal",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "damage_type": "Magical",
+        "element_inflict": ["Light"],
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 800 (+1.6x SPR) HP to all allies",
+                "Increase resistance to all elements by 20% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  800,  160,  100]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 800 (+1.6x SPR) HP to all allies",
+                "Increase resistance to all elements by 20% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 2, [0,  0,  800,  160,  100]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Explosive Heal",
+                "爆發治癒",
+                "회복 작렬",
+                "Explosion de soins",
+                "Explosive Heilung",
+                "Curación explosiva"
+            ],
+            "desc": [
+                "Restore HP and boost all elemental resistances for all allies",
+                "恢復全體隊員的HP+提高全屬性耐性",
+                "아군 전체의 HP 회복+모든 속성 저항력 상승",
+                "Restaure les PV, et augmente les rés. élémentaires de tous les alliés",
+                "Stellt LP wieder her, alle Resistenzen hoch, alle Verb.",
+                "Recupera VIT y aumenta todas las resistencias elementales de los aliados"
+            ]
+        }
+    },
     "303000103": {
         "name": "Cross Break",
         "cost": 0,
