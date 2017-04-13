@@ -17776,22 +17776,22 @@
                 "exp": 80,
                 "challenges": [
                     {
-                        "condition_str": null,
+                        "condition_str": "Complete the Quest",
                         "condition_raw": "68",
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No limit bursts",
                         "condition_raw": "17",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "Clear without an ally being KO'd",
                         "condition_raw": "33",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No continues",
                         "condition_raw": "38",
                         "reward": ["LAPIS", 1, 10]
                     }
@@ -17812,22 +17812,22 @@
                 "exp": 80,
                 "challenges": [
                     {
-                        "condition_str": null,
+                        "condition_str": "Complete the Quest",
                         "condition_raw": "68",
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No limit bursts",
                         "condition_raw": "17",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "Clear without an ally being KO'd",
                         "condition_raw": "33",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No continues",
                         "condition_raw": "38",
                         "reward": ["LAPIS", 1, 10]
                     }
@@ -17848,22 +17848,22 @@
                 "exp": 80,
                 "challenges": [
                     {
-                        "condition_str": null,
+                        "condition_str": "Complete the Quest",
                         "condition_raw": "68",
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No limit bursts",
                         "condition_raw": "17",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "Clear without an ally being KO'd",
                         "condition_raw": "33",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": null,
+                        "condition_str": "No continues",
                         "condition_raw": "38",
                         "reward": ["LAPIS", 1, 10]
                     }
@@ -23494,7 +23494,7 @@
         }
     },
     "72401": {
-        "name": "Clown of Corruption",
+        "name": "The Psycho Clown",
         "region_id": "21",
         "subregion_id": "724",
         "type": "Vortex",
@@ -23502,7 +23502,7 @@
         "icon_id": 7240101,
         "missions": {
             "7240101": {
-                "name": "Clown of Corruption",
+                "name": "The Psycho Clown",
                 "type": "BATTLE",
                 "wave_count": 1,
                 "cost_type": "NRG",
@@ -31054,6 +31054,12 @@
         }
     },
     "89937": {
+        "name": "Beasts of the Dark",
+        "region_id": "21",
+        "subregion_id": "899",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 8993007,
         "missions": {
             "8991107": {
                 "name": "Beasts of the Dark ELT",
@@ -31086,8 +31092,80 @@
                     },
                     {
                         "condition_str": "Party of 5 or less (Companion included)",
-                        "condition_raw": "1",
+                        "condition_raw": "35:5",
                         "reward": ["EQUIP", 408001500, 1]
+                    }
+                ]
+            },
+            "89911071": {
+                "name": "Beasts of the Dark ADV",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 10,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["LAPIS", 0, 50],
+                "gil": 80,
+                "exp": 200,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 30]
+                    },
+                    {
+                        "condition_str": "Deal fire and ice damage to an enemy",
+                        "condition_raw": "26:1,26:2",
+                        "reward": ["ITEM", 201000900, 5]
+                    },
+                    {
+                        "condition_str": "Use black magic",
+                        "condition_raw": "13:2",
+                        "reward": ["ITEM", 202002600, 3]
+                    },
+                    {
+                        "condition_str": "No items",
+                        "condition_raw": "1",
+                        "reward": ["ITEM", 290050300, 5]
+                    }
+                ]
+            },
+            "89911072": {
+                "name": "Beasts of the Dark PRO",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["LAPIS", 0, 100],
+                "gil": 100,
+                "exp": 400,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 50]
+                    },
+                    {
+                        "condition_str": "Deal dark damage to an enemy",
+                        "condition_raw": "26:8",
+                        "reward": ["ITEM", 201001000, 5]
+                    },
+                    {
+                        "condition_str": "Use green magic",
+                        "condition_raw": "13:3",
+                        "reward": ["ITEM", 106200100, 3]
+                    },
+                    {
+                        "condition_str": "Evoke an esper",
+                        "condition_raw": "28",
+                        "reward": ["UNIT", 905000102, 3]
                     }
                 ]
             }
@@ -32629,6 +32707,42 @@
                         "condition_str": "No continues",
                         "condition_raw": "38",
                         "reward": ["ITEM", 106301800, 1]
+                    }
+                ]
+            },
+            "9000906": {
+                "name": "Dangerous Woman Tour - The Stage",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["UNIT", 401000104, 1],
+                "gil": 250,
+                "exp": 500,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the Quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 100]
+                    },
+                    {
+                        "condition_str": "Dangerous Ariana in party",
+                        "condition_raw": "36:401000104",
+                        "reward": ["MATERIA", 1500000011, 1]
+                    },
+                    {
+                        "condition_str": "No ability",
+                        "condition_raw": "20",
+                        "reward": ["UNIT", 904000104, 1]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["KEYITEM", 50, 1]
                     }
                 ]
             }

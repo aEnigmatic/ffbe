@@ -3495,7 +3495,7 @@
         "compendium_id": 187,
         "skills": [101040],
         "effects": ["Grants 'Man-Eater' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 8000,
         "price_sell": 800,
         "icon": "ability_79.png",
@@ -3509,12 +3509,12 @@
                 "Comehombres"
             ],
             "desc_short": [
-                "Boost physical damage to human monsters",
-                "物理攻擊時提高對人形系魔物的傷害",
-                "물리공격 시 인간형 마물에 대한 피해량 상승",
-                "Augmente les dégâts physiques sur les humains",
-                "Erhöht physischen Schaden gegen Menschen",
-                "Aumenta el daño contra humanos"
+                "Boost physical damage to human monsters (Not stackable)",
+                "物理攻擊時提高對人形系魔物的傷害[無法重複裝備]",
+                "물리공격 시 인간형 마물에 대한 피해량 상승 [중복 장착 불가]",
+                "Augmente les dégâts physiques sur les humains (pas cumulable)",
+                "Erhöht physischen Schaden gegen Menschen (Nicht stapelbar)",
+                "Aumenta el daño contra humanos (no acumulable)"
             ],
             "desc_long": [
                 "Boost physical damage inflicted on humans.",
@@ -3567,7 +3567,7 @@
         "compendium_id": 217,
         "skills": [101060],
         "effects": ["Grants 'Undead Killer' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 8000,
         "price_sell": 800,
         "icon": "ability_79.png",
@@ -3581,12 +3581,12 @@
                 "Matazombis"
             ],
             "desc_short": [
-                "Boost physical damage against reaper monsters",
-                "物理攻擊時提高對死靈系魔物的傷害",
-                "물리공격 시 사령형 마물에 대한 피해량 상승",
-                "Augmente les dégâts physiques contre les morts-vivants",
-                "Erhöht physischen Schaden gegen untote Monster",
-                "Aumenta el daño físico contra muertos vivientes"
+                "Boost physical damage against reaper monsters (Not Stackable)",
+                "物理攻擊時提高對死靈系魔物的傷害[無法重複裝備]",
+                "물리공격 시 사령형 마물에 대한 피해량 상승 [중복 장착 불가]",
+                "Augmente les dégâts physiques contre les morts-vivants (pas cumulable)",
+                "Erhöht physischen Schaden gegen untote Monster (Nicht stapelbar)",
+                "Aumenta el daño físico contra muertos vivientes (no acumulable)"
             ],
             "desc_long": [
                 "Boosts physical damage inflicted on reaper monsters.",
@@ -3675,7 +3675,7 @@
         "compendium_id": 188,
         "skills": [101090],
         "effects": ["Grants 'Bird Killer' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 8000,
         "price_sell": 800,
         "icon": "ability_79.png",
@@ -3689,12 +3689,12 @@
                 "Matapájaros"
             ],
             "desc_short": [
-                "Boost physical damage to avian monsters",
-                "物理攻擊時提高對鳥系魔物的傷害",
-                "물리공격 시 조류형 마물에 대한 피해량 상승",
-                "Augmente les dégâts physiques sur les oiseaux",
-                "Erhöht physischen Schaden gegen Vögel",
-                "Aumenta el daño físico contra pájaros"
+                "Boost physical damage to avian monsters (Not stackable)",
+                "物理攻擊時提高對鳥系魔物的傷害[無法重複裝備]",
+                "물리공격 시 조류형 마물에 대한 피해량 상승 [중복 장착 불가]",
+                "Augmente les dégâts physiques sur les oiseaux (pas cumulable)",
+                "Erhöht physischen Schaden gegen Vögel (Nicht stapelbar)",
+                "Aumenta el daño físico contra pájaros (no acumulable)"
             ],
             "desc_long": [
                 "Boost physical damage inflicted on bird monsters.",
@@ -9553,14 +9553,25 @@
                 "精靈榮耀",
                 "엘프의 긍지",
                 "Fierté elfique",
-                "Elfenstolz"
+                "Elfenstolz",
+                "Orgullo élfico"
             ],
             "desc_short": [
                 "Boost MP by 30%, ATK by 20%, and lightning resistance by 30%",
                 "提高30%MP、20%攻擊、30%雷屬性耐性",
-                "MP 30%, 공격력 20%, 번개속성 저항력 30% 상승"
+                "MP 30%, 공격력 20%, 번개속성 저항력 30% 상승",
+                "Augmente les PM de 30%, l'ATT de 20% et ka rés. à la foudre de 30%",
+                "Erhöht MP um 30%, ANG um 20% und Lichtresistenz um 30 %.",
+                "Aumenta PM y resistencia al rayo un 30%, ATQ un 20%"
             ],
-            "desc_long": null
+            "desc_long": [
+                "Boosts MP by 30%, ATK by 20%, and lightning resistance by 30%.",
+                "提高30%MP、20%攻擊、30%雷屬性耐性的數值。",
+                "MP가 30%, 공격력이 20%, 번개속성 저항력이 30% 상승합니다.",
+                "Augmente les PM de 30%, l'ATT de 20% et ka rés. à la foudre de 30%",
+                "Erhöht LP um 30%, ANG um 20% und Lichtresistenz um 30 %.",
+                "Aumenta los PM un 30%, el ATQ un 20% y la resistencia a la luz un 30%."
+            ]
         }
     },
     "504209940": {
@@ -9578,14 +9589,25 @@
                 "毒無效",
                 "독 무효",
                 "Immunité (poison)",
-                "Giftresistenz"
+                "Giftresistenz",
+                "Inmune al veneno"
             ],
             "desc_short": [
                 "Nullify poison",
                 "中毒無效",
-                "독 무효화"
+                "독 무효화",
+                "Annule poison",
+                "Annuliert Gift.",
+                "Anula veneno"
             ],
-            "desc_long": null
+            "desc_long": [
+                "Nullifies poison.",
+                "中毒無效。",
+                "독을 무효화합니다.",
+                "Annule poison",
+                "Annuliert Gift.",
+                "Anula veneno."
+            ]
         }
     },
     "504210110": {
@@ -9603,14 +9625,25 @@
                 "高傲劍豪",
                 "긍지 높은 검호",
                 "Escrimeur fier",
-                "Stolzer Fechter"
+                "Stolzer Fechter",
+                "Esgrimista orgulloso"
             ],
             "desc_short": [
                 "Boost HP by 20% and ATK when equipped with a large sword",
                 "提高20%HP + 提高裝備大劍時攻擊的數值",
-                "HP 20% 상승+대검 장착 시 공격력 상승"
+                "HP 20% 상승+대검 장착 시 공격력 상승",
+                "Augmente les PV de 20% et l'ATT lorsqu'une épée longue est équipée",
+                "Erhöht ANG um 20% und LP, wenn mit Langschwert ausgerüstet.",
+                "Aumenta VIT un 20% y el ATQ si lleva una espada larga"
             ],
-            "desc_long": null
+            "desc_long": [
+                "Boosts HP by 20% and ATK when equipped with a large sword.",
+                "提高20%HP並提高裝備大劍時攻擊的數值。",
+                "HP가 20% 상승하고, 대검을 장착하면 공격력이 상승합니다.",
+                "Augmente les PV de 20% et l'ATT lorsqu'une épée longue est équipée",
+                "Erhöht ANG um 20% und LP, wenn mit Langschwert ausgerüstet.",
+                "Aumenta la VIT un 20% y aumenta el ATQ al llevar una espada larga."
+            ]
         }
     },
     "504212570": {
@@ -9628,24 +9661,24 @@
                 "交響樂天賦",
                 "심포닉 플레어",
                 "Style symphonique",
-                "Sinfonisches Leuchten",
+                "Sinfonisches Flair",
                 "Estilo sinfónico"
             ],
             "desc_short": [
                 "Boost ATK and MAG when equipped with an instrument",
                 "提高裝備樂器時攻擊魔力的數值",
                 "악기 장착 시 공격력과 마력 상승",
-                "ATT\/MAGIE + 40% lorsqu'un instrument est équipé",
-                "Erhöht ANG u. MAG um 40 %, wenn mit einem Instrument ausg.",
-                "Aumenta el ATQ y la MAG un 40% al llevar instrumentos"
+                "Augmente l'ATT et la MAGIE lorsqu'un instrument est équipé",
+                "Erhöht ANG u. MAG, wenn mit einem Instrument ausgerüstet.",
+                "Aumenta ATQ y MAG al llevar instrumentos"
             ],
             "desc_long": [
-                "Boosts ATK and MAG by 40% when equipped with an instrument.",
-                "裝備樂器時，提高40%攻擊與魔力的數值。",
-                "악기 장착 시 공격력과 마력이 40% 상승합니다.",
-                "Augmente l'ATT et la MAGIE de 40% lorsqu'un instrument est équipé.",
-                "Erhöht ANG u. MAG um 40 %, wenn mit einem Instrument ausgerüstet.",
-                "Aumenta el ATQ y la MAG un 40% al llevar instrumentos"
+                "Boosts ATK and MAG when equipped with an instrument.",
+                "提高裝備樂器時攻擊魔力的數值。",
+                "악기를 장착하면 공격력과 마력이 상승합니다.",
+                "Augmente l'ATT et la MAGIE lorsqu'un instrument est équipé",
+                "Erhöht ANG u. MAG, wenn mit einem Instrument ausgerüstet.",
+                "Aumenta el ATQ y la MAG al llevar instrumentos."
             ]
         }
     },
@@ -10012,6 +10045,46 @@
                 "Augmente l'ATT et la DEF de 25% et permet d'apprendre Encourager. (Uniq. pour Cinque)",
                 "Erhöht ANG und ABW um 25 % und ermöglicht Anfeuern. (Nur Cinque)",
                 "Aumenta el ATQ y la DEF un 25% y aprende Ánimo (exclusiva de Cinque)"
+            ]
+        }
+    },
+    "1500000011": {
+        "name": "Encore",
+        "compendium_id": 90011,
+        "skills": [910142, 101700, 100010],
+        "effects": [
+            "Grants 'Dualcast' ability.",
+            "Grants 'MAG +15%' passive.",
+            "Grants 'HP +10%' passive."
+        ],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "global_materia_1500000006.png",
+        "strings": {
+            "names": [
+                "Encore",
+                "安可",
+                "앙코르",
+                "Encore",
+                "Zugabe",
+                "Encore"
+            ],
+            "desc_short": [
+                "Boost MAG by 15% and HP by 10% and Dangerous Ariana will gain Dualcast",
+                "提高15%魔力、10%HP，危險・亞莉安娜能夠使用連續詠唱",
+                "마력 15%, HP 10% 상승+'데인저러스 아리아나' 장착 시 '연속 마법' 사용 가능",
+                "Augmente la MAGIE de 15%, les PV de 10% et permet à Dangereuse Ariana d'utiliser Double sort",
+                "Erhöht MAG um 15% und LP um 10% und Gefährliche Ariana kann Doppelmagie einsetzen.",
+                "Aumenta la MAG un 15% y la VIT un 10%. Dangerous Ariana aprende Magia doble"
+            ],
+            "desc_long": [
+                "Boosts MAG by 15% and HP by 10% and enables dualcast for Dangerous Ariana.",
+                "提高15%魔力、10%HP，危險・亞莉安娜能夠使用連續詠唱。",
+                "마력이 15%, HP가 10% 상승하며 '데인저러스 아리아나'가 장착 시 '연속 마법'을 사용할 수 있습니다.",
+                "Augmente la MAGIE de 15%, les PV de 10% et permet à Dangereuse Ariana d'utiliser Double sort",
+                "Erhöht MAG um 15% und LP um 10% und Gefährliche Ariana kann Doppelmagie einsetzen.",
+                "Aumenta la MAG un 15% y la VIT un 10%. Dangerous Ariana aprende Magia doble"
             ]
         }
     }
