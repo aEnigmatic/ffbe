@@ -205,7 +205,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ]
         }
     },
@@ -240,7 +240,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ]
         }
     },
@@ -275,7 +275,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ]
         }
     },
@@ -310,7 +310,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ]
         }
     },
@@ -11757,7 +11757,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ]
         }
     },
@@ -11792,7 +11792,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ]
         }
     },
@@ -13252,7 +13252,7 @@
                 "적 전체에 얼음속성 및 번개속성 피해",
                 "Dégâts de glace et de foudre sur tous les ennemis",
                 "Eis- und Blitzschaden, alle Ziele",
-                "Daño de frío y rayo a los enemigos"
+                "Daño de hielo y rayo a los enemigos"
             ]
         }
     },
@@ -17717,7 +17717,7 @@
                 "적 전체에 얼음속성 피해+공격력과 마력 감소",
                 "Dégâts de glace et réduit l'ATT et la MAGIE de tous les ennemis",
                 "Eisschaden, ANG und MAG runter, alle Ziele",
-                "Daño de frío y reducción de ATQ y MAG a todos los enemigos"
+                "Daño de hielo y reducción de ATQ y MAG a todos los enemigos"
             ]
         }
     },
@@ -17758,7 +17758,7 @@
                 "적 전체에 얼음속성 피해+공격력과 마력 감소",
                 "Dégâts de glace et réduit l'ATT et la MAG de tous les ennemis",
                 "Eisschaden, ANG und MAG runter, alle Ziele",
-                "Daño de frío y reducción de ATQ y MAG a todos los enemigos"
+                "Daño de hielo y reducción de ATQ y MAG a todos los enemigos"
             ]
         }
     },
@@ -18801,7 +18801,7 @@
                 "적 전체에 얼음속성 피해+스톱 부여",
                 "Dégâts de glace et stoppe tous les ennemis",
                 "Eisschaden u. „Stopp“, alle Gegner",
-                "Daño de frío y paro a todos los enemigos"
+                "Daño de hielo y paro a todos los enemigos"
             ]
         }
     },
@@ -18842,7 +18842,7 @@
                 "적 전체에 얼음속성 피해+스톱 부여",
                 "Dégâts de glace et stoppe tous les ennemis",
                 "Eisschaden u. „Stopp“, alle Gegner",
-                "Daño de frío y paro a todos los enemigos"
+                "Daño de hielo y paro a todos los enemigos"
             ]
         }
     },
@@ -20446,7 +20446,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ]
         }
     },
@@ -20481,7 +20481,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ]
         }
     },
@@ -20695,8 +20695,215 @@
             ]
         }
     },
+    "401001705": {
+        "name": "Destructive Thrust",
+        "cost": 0,
+        "attack_count": 12,
+        "attack_frames": [147, 151, 155, 159, 163, 167, 171, 175, 179, 183, 187, 191],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF by 30% for 3 turns to one enemy",
+                "Physical damage (5.5x ATK) to one enemy"
+            ],
+            "effects_raw": [[1, 1, 3, [0, "-30", 0, 0, 3, 1]], [1, 1, 1, [0,  0,  0,  0,  0,  0,  550]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF by 30% for 3 turns to one enemy",
+                "Physical damage (6.45x ATK) to one enemy"
+            ],
+            "effects_raw": [[1, 1, 3, [0, "-30", 0, 0, 3, 1]], [1, 1, 1, [0,  0,  0,  0,  0,  0,  645]]]},
+        "strings": {
+            "name": [
+                "Destructive Thrust",
+                "破壞衝擊",
+                "파괴의 찌르기",
+                "Coup destructeur",
+                "Zerstörungsstoß",
+                "Estoque demoledor"
+            ],
+            "desc": [
+                "Deal physical damage and reduce DEF for one enemy",
+                "對1名敵人發動物理攻擊並降低防禦的數值",
+                "적 1명에게 물리 피해+방어력 감소",
+                "Inflige des dégâts physiques et réduit la DEF d'un ennemi",
+                "Fügt einem Gegner physischen Schaden zu und reduziert ABW.",
+                "Inflige daño físico y reduce la DEF a un enemigo"
+            ]
+        }
+    },
+    "401001706": {
+        "name": "Destructive Thrust",
+        "cost": 0,
+        "attack_count": 12,
+        "attack_frames": [147, 151, 155, 159, 163, 167, 171, 175, 179, 183, 187, 191],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF by 45% for 3 turns to one enemy",
+                "Physical damage (6.5x ATK) to one enemy"
+            ],
+            "effects_raw": [[1, 1, 3, [0, "-45", 0, 0, 3, 1]], [1, 1, 1, [0,  0,  0,  0,  0,  0,  650]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF by 45% for 3 turns to one enemy",
+                "Physical damage (7.7x ATK) to one enemy"
+            ],
+            "effects_raw": [[1, 1, 3, [0, "-45", 0, 0, 3, 1]], [1, 1, 1, [0,  0,  0,  0,  0,  0,  770]]]},
+        "strings": {
+            "name": [
+                "Destructive Thrust",
+                "破壞衝擊",
+                "파괴의 찌르기",
+                "Coup destructeur",
+                "Zerstörungsstoß",
+                "Estoque demoledor"
+            ],
+            "desc": [
+                "Deal physical damage and reduce DEF for one enemy",
+                "對1名敵人發動物理攻擊並降低防禦的數值",
+                "적 1명에게 물리 피해+방어력 감소",
+                "Inflige des dégâts physiques et réduit la DEF d'un ennemi",
+                "Fügt einem Gegner physischen Schaden zu und reduziert ABW.",
+                "Inflige daño físico y reduce la DEF a un enemigo"
+            ]
+        }
+    },
+    "401001804": {
+        "name": "Surging Hydra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [215],
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (4x MAG) to one enemy",
+                "Increase MAG by 40% for 3 turns to self"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  400]], [0, 3, 3, [0,  0,  40,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (4.7x MAG) to one enemy",
+                "Increase MAG by 54% for 3 turns to self"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  470]], [0, 3, 3, [0,  0,  54,  0,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Surging Hydra",
+                "脈動九頭龍",
+                "격동의 히드라",
+                "Hydre déferlante",
+                "Wütende Hydra",
+                "Hidra resurgente"
+            ],
+            "desc": [
+                "Magic damage to one enemy and boost MAG for caster",
+                "對1名敵人發動魔法攻擊並提高自身魔力的數值",
+                "적 1명에게 마법 피해+사용자의 마력 상승",
+                "Inflige des dégâts magiques sur un ennemi et augmente la MAGIE du lanceur",
+                "Magieschaden für einen Gegner und MAG hoch für Benutzer.",
+                "Inflige daño mágico a un enemigo y aumenta la MAG propia"
+            ]
+        }
+    },
+    "401001805": {
+        "name": "Surging Hydra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [215],
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (4.5x MAG) to one enemy",
+                "Increase MAG by 60% for 3 turns to self"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  450]], [0, 3, 3, [0,  0,  60,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (5.45x MAG) to one enemy",
+                "Increase MAG by 79% for 3 turns to self"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  545]], [0, 3, 3, [0,  0,  79,  0,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Surging Hydra",
+                "脈動九頭龍",
+                "격동의 히드라",
+                "Hydre déferlante",
+                "Wütende Hydra",
+                "Hidra resurgente"
+            ],
+            "desc": [
+                "Magic damage to one enemy and boost MAG for caster",
+                "對1名敵人發動魔法攻擊並提高自身魔力的數值",
+                "적 1명에게 마법 피해+사용자의 마력 상승",
+                "Inflige des dégâts magiques sur un ennemi et augmente la MAGIE du lanceur",
+                "Magieschaden für einen Gegner und MAG hoch für Benutzer.",
+                "Inflige daño mágico a un enemigo y aumenta la MAG propia"
+            ]
+        }
+    },
+    "401001806": {
+        "name": "Blood Hydra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [215],
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Magic damage (5x MAG) to one enemy",
+                "Increase MAG by 80% for 3 turns to self",
+                "Grants access to following skills for 2 turns:\nBlood Frenzy (910226)"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [0, 3, 3, [0,  0,  80,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Magic damage (7.4x MAG) to one enemy",
+                "Increase MAG by 104% for 3 turns to self",
+                "Grants access to following skills for 2 turns:\nBlood Frenzy (910226)"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  740]], [0, 3, 3, [0,  0,  104,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Blood Hydra",
+                "赤血九頭龍",
+                "피의 히드라",
+                "Hydre sanglante",
+                "Bluthydra",
+                "Hidra sangrienta"
+            ],
+            "desc": [
+                "Magic damage to one enemy and boost MAG, and enable a special ability for two turns for caster",
+                "對1名敵人發動魔法攻擊並提高自身魔力+2回合內可以使用特殊能力",
+                "적 1명에게 마법 피해+사용자의 마력 상승+2턴 동안 특정 어빌리티 사용 가능",
+                "Inflige des dégâts magiques sur un ennemi, augmente la MAGIE et permet au lanceur d'utiliser une aptitude spéciale pendant deux tours",
+                "Magieschaden für einen Gegner und MAG hoch für Benutzer, ermöglicht Benutzer zwei Spezialfertigkeiten in einer Runde.",
+                "Daño mágico a uno, aumenta la MAG propia y desbloquea habilidades 2 turnos"
+            ]
+        }
+    },
     "990000105": {
-        "name": null,
+        "name": "シャイニングノヴァ",
         "cost": 0,
         "attack_count": 2,
         "attack_frames": [3, 59],
@@ -20717,7 +20924,7 @@
         }
     },
     "990000106": {
-        "name": null,
+        "name": "シャイニングノヴァ",
         "cost": 0,
         "attack_count": 2,
         "attack_frames": [3, 59],
@@ -20738,7 +20945,7 @@
         }
     },
     "990000205": {
-        "name": null,
+        "name": "雲外蒼天",
         "cost": 0,
         "attack_count": 1,
         "attack_frames": [80],
@@ -20759,7 +20966,7 @@
         }
     },
     "990000206": {
-        "name": null,
+        "name": "雲外蒼天",
         "cost": 0,
         "attack_count": 1,
         "attack_frames": [80],
@@ -20780,7 +20987,7 @@
         }
     },
     "990000304": {
-        "name": null,
+        "name": "イノセントグロウ",
         "cost": 0,
         "attack_count": 1,
         "attack_frames": [103],
@@ -20801,7 +21008,7 @@
         }
     },
     "990000305": {
-        "name": null,
+        "name": "ヘブンズジャッジ",
         "cost": 0,
         "attack_count": 1,
         "attack_frames": [103],
@@ -20822,7 +21029,7 @@
         }
     },
     "990000306": {
-        "name": null,
+        "name": "ヘブンズジャッジ",
         "cost": 0,
         "attack_count": 1,
         "attack_frames": [103],
@@ -20843,7 +21050,7 @@
         }
     },
     "990000503": {
-        "name": null,
+        "name": "メカチョコボ突撃！",
         "cost": 0,
         "attack_count": 2,
         "attack_frames": [188, 242],
@@ -20864,7 +21071,7 @@
         }
     },
     "990000504": {
-        "name": null,
+        "name": "メカボ＆メカモーグリ",
         "cost": 0,
         "attack_count": 4,
         "attack_frames": [188, 224, 236, 292],
@@ -20885,7 +21092,7 @@
         }
     },
     "990000505": {
-        "name": null,
+        "name": "メカニカルパレード☆",
         "cost": 0,
         "attack_count": 5,
         "attack_frames": [188, 224, 226, 284, 364],

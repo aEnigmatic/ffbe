@@ -9762,7 +9762,7 @@
         "icon_id": 1310107,
         "missions": {
             "1310601": {
-                "name": "Aquatic Cover - Entrance",
+                "name": "Aquatic Cove - Entrance",
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
@@ -9798,7 +9798,7 @@
                 ]
             },
             "1310602": {
-                "name": "Aquatic Cover - Welling Fountain",
+                "name": "Aquatic Cove - Welling Fountain",
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
@@ -9834,7 +9834,7 @@
                 ]
             },
             "1310603": {
-                "name": "Aquatic Cover - Ultramarine Waters",
+                "name": "Aquatic Cove - Ultramarine Waters",
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
@@ -9870,7 +9870,7 @@
                 ]
             },
             "1310604": {
-                "name": "Aquatic Cover - Splashing Falls",
+                "name": "Aquatic Cove - Splashing Falls",
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
@@ -9906,7 +9906,7 @@
                 ]
             },
             "1310605": {
-                "name": "Aquatic Cover - Dead Man's Way",
+                "name": "Aquatic Cove - Dead Man's Way",
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
@@ -9942,7 +9942,7 @@
                 ]
             },
             "1310606": {
-                "name": "Aquatic Cover - Exploration",
+                "name": "Aquatic Cove - Exploration",
                 "type": "EXPLORATION",
                 "wave_count": 0,
                 "cost_type": "NRG",
@@ -19620,20 +19620,20 @@
                 "name": "Vision of Bahamut - INT",
                 "type": "BATTLE",
                 "wave_count": 1,
-                "cost_type": "NRG",
-                "cost": 3,
+                "cost_type": "STA",
+                "cost": 1,
                 "flags": {
                     "continue_allowed": false,
                     "escape_allowed": true
                 },
-                "reward": null,
-                "gil": 20,
-                "exp": 50,
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 32,
+                "exp": 105,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
                         "condition_raw": "68",
-                        "reward": ["ITEM", 106000100, 1]
+                        "reward": ["LAPIS", 1, 20]
                     },
                     {
                         "condition_str": "No items",
@@ -19656,20 +19656,20 @@
                 "name": "Vision of Bahamut - ADV",
                 "type": "BATTLE",
                 "wave_count": 1,
-                "cost_type": "NRG",
-                "cost": 5,
+                "cost_type": "STA",
+                "cost": 1,
                 "flags": {
                     "continue_allowed": false,
                     "escape_allowed": true
                 },
-                "reward": null,
-                "gil": 32,
-                "exp": 105,
+                "reward": ["ITEM", 1209000825, 200],
+                "gil": 50,
+                "exp": 155,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
                         "condition_raw": "68",
-                        "reward": ["ITEM", 101001200, 1]
+                        "reward": ["LAPIS", 1, 20]
                     },
                     {
                         "condition_str": "Deal light damage to an enemy",
@@ -19692,20 +19692,20 @@
                 "name": "Vision of Bahamut - PRO",
                 "type": "BATTLE",
                 "wave_count": 1,
-                "cost_type": "NRG",
-                "cost": 8,
+                "cost_type": "STA",
+                "cost": 1,
                 "flags": {
                     "continue_allowed": false,
                     "escape_allowed": true
                 },
-                "reward": null,
-                "gil": 50,
-                "exp": 155,
+                "reward": ["ITEM", 1209000825, 300],
+                "gil": 70,
+                "exp": 250,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
                         "condition_raw": "68",
-                        "reward": ["ITEM", 102007100, 1]
+                        "reward": ["LAPIS", 1, 20]
                     },
                     {
                         "condition_str": "Use a limit burst",
@@ -19728,20 +19728,20 @@
                 "name": "Vision of Bahamut - ELT",
                 "type": "BATTLE",
                 "wave_count": 1,
-                "cost_type": "NRG",
-                "cost": 10,
+                "cost_type": "STA",
+                "cost": 1,
                 "flags": {
                     "continue_allowed": false,
                     "escape_allowed": true
                 },
-                "reward": null,
-                "gil": 70,
-                "exp": 250,
+                "reward": ["ITEM", 1209000825, 500],
+                "gil": 85,
+                "exp": 300,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
                         "condition_raw": "68",
-                        "reward": ["ITEM", 101002100, 1]
+                        "reward": ["LAPIS", 1, 20]
                     },
                     {
                         "condition_str": "Deal light damage to an enemy",
@@ -19755,42 +19755,6 @@
                     },
                     {
                         "condition_str": "Clear without an ally being KO'd",
-                        "condition_raw": "33",
-                        "reward": ["LAPIS", 1, 10]
-                    }
-                ]
-            },
-            "2220105": {
-                "name": "",
-                "type": "BATTLE",
-                "wave_count": 1,
-                "cost_type": "NRG",
-                "cost": 13,
-                "flags": {
-                    "continue_allowed": false,
-                    "escape_allowed": true
-                },
-                "reward": null,
-                "gil": 85,
-                "exp": 300,
-                "challenges": [
-                    {
-                        "condition_str": "Complete the quest",
-                        "condition_raw": "68",
-                        "reward": ["LAPIS", 1, 20]
-                    },
-                    {
-                        "condition_str": "",
-                        "condition_raw": "17",
-                        "reward": ["LAPIS", 1, 10]
-                    },
-                    {
-                        "condition_str": "No green magic",
-                        "condition_raw": "13:1,13:2",
-                        "reward": ["LAPIS", 1, 10]
-                    },
-                    {
-                        "condition_str": "Party of 5 or less (Companion included)",
                         "condition_raw": "33",
                         "reward": ["LAPIS", 1, 10]
                     }
@@ -33998,6 +33962,52 @@
                 "gil": 0,
                 "exp": 0,
                 "challenges": []
+            }
+        }
+    },
+    "90012": {
+        "name": "Vision of Bahamut - Trial",
+        "region_id": "21",
+        "subregion_id": "912",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 9000013,
+        "missions": {
+            "2220105": {
+                "name": "Vision of Bahamut - Trial",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 40,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["LAPIS", 0, 500],
+                "gil": 135,
+                "exp": 420,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000104, 1]
+                    },
+                    {
+                        "condition_str": "No green magic",
+                        "condition_raw": "14:3",
+                        "reward": ["ITEM", 1209000825, 10000]
+                    },
+                    {
+                        "condition_str": "Defeat Shadow Bahamut with an esper",
+                        "condition_raw": "32:222010501:407031004:1",
+                        "reward": ["UNIT", 905000104, 1]
+                    },
+                    {
+                        "condition_str": "Party of 5 or less (Companion included)",
+                        "condition_raw": "35:5",
+                        "reward": ["KEYITEM", 50, 2]
+                    }
+                ]
             }
         }
     },
