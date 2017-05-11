@@ -396,7 +396,7 @@
                 "Relax"
             ],
             "desc_short": [
-                "Cure one ally of petrifaction",
+                "Cure one ally of petrification",
                 "治療1名隊員的石化狀態",
                 "아군 1명의 석화 회복",
                 "Guérit un allié de pétrification",
@@ -1172,7 +1172,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy.",
@@ -1497,7 +1497,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ],
             "desc_long": [
                 "Deals ice damage to all enemies.",
@@ -1911,7 +1911,7 @@
             "desc_short": [
                 "Dark damage and chance of poisoning all enemies",
                 "對全體敵人發動暗屬性攻擊＋一定機率施加中毒",
-                "적 1명에게 어둠속성 피해+일정 확률로 독 부여",
+                "적 전체에 어둠속성 피해+일정 확률로 독 부여",
                 "Dégâts de ténèbres et chance d'empoisonner tous les ennemis",
                 "Dunkelschaden und Chance auf Gift, alle Ziele",
                 "Daño oscuro y envenena a los enemigos"
@@ -1919,7 +1919,7 @@
             "desc_long": [
                 "Deals dark damage to all enemies, and chance of poisoning them.",
                 "對全體敵人發動暗屬性攻擊並有一定機率施加中毒的效果。",
-                "적 1명에게 어둠속성 피해를 주고 일정 확률로 독을 부여합니다.",
+                "적 전체에 어둠속성 피해를 주고 일정 확률로 독을 부여합니다.",
                 "Inflige des dégâts de ténèbres et chance d'empoisonner tous les ennemis.",
                 "Fügt allen Gegnern Dunkelschaden zu und Chance auf Gift.",
                 "Inflige daño oscuro a todos los enemigos y los envenena."
@@ -2052,7 +2052,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ],
             "desc_long": [
                 "Deals ice damage to all enemies.",
@@ -2282,7 +2282,7 @@
             "desc_short": [
                 "Dark damage and chance of poisoning all enemies",
                 "對全體敵人發動暗屬性攻擊＋一定機率施加中毒",
-                "적 1명에게 어둠속성 피해+일정 확률로 독 부여",
+                "적 전체에 어둠속성 피해+일정 확률로 독 부여",
                 "Dégâts de ténèbres et chance d'empoisonner tous les ennemis",
                 "Dunkelschaden und Chance auf Gift, alle Ziele",
                 "Daño oscuro y envenena a los enemigos"
@@ -2290,7 +2290,7 @@
             "desc_long": [
                 "Deals dark damage to all enemies, and chance of poisoning them.",
                 "對全體敵人發動暗屬性攻擊並有一定機率施加中毒的效果。",
-                "적 1명에게 어둠속성 피해를 주고 일정 확률로 독을 부여합니다.",
+                "적 전체에 어둠속성 피해를 주고 일정 확률로 독을 부여합니다.",
                 "Inflige des dégâts de ténèbres et chance d'empoisonner tous les ennemis.",
                 "Fügt allen Gegnern Dunkelschaden zu und Chance auf Gift.",
                 "Inflige daño oscuro a todos los enemigos y los envenena."
@@ -3122,7 +3122,7 @@
                 "아군 1명의 얼음속성 저항력 상승",
                 "Augmente la résistance à la glace d'un allié",
                 "Eisres. hoch, ein Verb.",
-                "Aumenta la resistencia al frío de uno"
+                "Aumenta la resistencia al hielo de uno"
             ],
             "desc_long": [
                 "Boosts ice resistance for one ally.",
@@ -3522,7 +3522,7 @@
                 "아군 전체의 얼음속성 저항력 상승",
                 "Augmente la résistance à la glace de tous les alliés",
                 "Eisres. hoch, alle Verb.",
-                "Aumenta la resistencia al frío de todos"
+                "Aumenta la resistencia al hielo de todos"
             ],
             "desc_long": [
                 "Boosts ice resistance for all allies.",
@@ -4198,7 +4198,7 @@
                 "아군 전체의 얼음속성 저항력 상승",
                 "Augmente la résistance à la glace de tous les alliés",
                 "Eisres. hoch, alle Verb.",
-                "Aumenta la resistencia al frío de todos"
+                "Aumenta la resistencia al hielo de todos"
             ],
             "desc_long": [
                 "Boosts ice resistance for all allies.",
@@ -4732,8 +4732,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+3.4x SPR) HP to all allies"],
-        "effects_raw": [[2, 6, 2, [0,  0,  1000,  340,  100]]],
+        "effects": ["Restore 1200 (+3.4x SPR) HP to all allies"],
+        "effects_raw": [[2, 6, 2, [0,  0,  1200,  340,  100]]],
         "icon": "ability_4.png",
         "strings": {
             "name": [
@@ -4778,8 +4778,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1200 (+3.4x SPR) HP to all allies"],
-        "effects_raw": [[2, 6, 2, [0,  0,  1200,  340,  100]]],
+        "effects": ["Restore 1600 (+3.4x SPR) HP to all allies"],
+        "effects_raw": [[2, 6, 2, [0,  0,  1600,  340,  100]]],
         "icon": "ability_4.png",
         "strings": {
             "name": [
@@ -4962,8 +4962,8 @@
         "effect_type": "Revive",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Revive target from KO (90% HP) \/ Insta-kill Reaper monster"],
-        "effects_raw": [[1, 6, 4, [90]]],
+        "effects": ["Revive target from KO (95% HP) \/ Insta-kill Reaper monster"],
+        "effects_raw": [[1, 6, 4, [95]]],
         "icon": "ability_1.png",
         "strings": {
             "name": [
@@ -5088,7 +5088,7 @@
         "type": "MAGIC",
         "active": true,
         "usable_in_exploration": false,
-        "name": "アルテマ",
+        "name": "Ultima",
         "compendium_id": 143,
         "rarity": 8,
         "magic_type": "Black",
@@ -5104,16 +5104,37 @@
         "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
         "icon": "ability_37.png",
         "strings": {
-            "name": [],
-            "desc_short": null,
-            "desc_long": null
+            "name": [
+                "Ultima",
+                "究極",
+                "알테마",
+                "Ultima",
+                "Ultima",
+                "Artema"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage to all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊",
+                "적 전체에 일부 마법방어 무시 피해",
+                "Dégâts magiques en partie fixes sur tous les ennemis",
+                "Teilweise direkter Magieschaden, alle Ziele",
+                "Daño mágico absoluto parcial a los enemigos"
+            ],
+            "desc_long": [
+                "Deals damage partially unmitigated by SPR to all enemies.",
+                "對全體敵人發動無視部分魔法防禦的攻擊。",
+                "적 전체에 마법 방어력을 일부 무시하는 피해를 줍니다.",
+                "Inflige des dégâts ignorant en partie la PSY de tous les ennemis.",
+                "Teilweise direkter Schaden, der die PSY umgeht, alle Ziele",
+                "Daño parcial absoluto mágico a todos los enemigos."
+            ]
         }
     },
     "70140": {
         "type": "MAGIC",
         "active": true,
         "usable_in_exploration": false,
-        "name": "アルテマ",
+        "name": "Ultima",
         "compendium_id": 143,
         "rarity": 8,
         "magic_type": "Black",
@@ -5129,9 +5150,30 @@
         "effects_raw": [[2, 1, 70, [0,  0,  280,  50]]],
         "icon": "ability_37.png",
         "strings": {
-            "name": [],
-            "desc_short": null,
-            "desc_long": null
+            "name": [
+                "Ultima",
+                "究極",
+                "알테마",
+                "Ultima",
+                "Ultima",
+                "Artema"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage to all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊",
+                "적 전체에 일부 마법방어 무시 피해",
+                "Dégâts magiques en partie fixes sur tous les ennemis",
+                "Teilweise direkter Magieschaden, alle Ziele",
+                "Daño mágico absoluto parcial a los enemigos"
+            ],
+            "desc_long": [
+                "Deals damage partially unmitigated by SPR to all enemies.",
+                "對全體敵人發動無視部分魔法防禦的攻擊。",
+                "적 전체에 마법 방어력을 일부 무시하는 피해를 줍니다.",
+                "Inflige des dégâts ignorant en partie la PSY de tous les ennemis.",
+                "Teilweise direkter Schaden, der die PSY umgeht, alle Ziele",
+                "Daño parcial absoluto mágico a todos los enemigos."
+            ]
         }
     },
     "70150": {
@@ -5182,6 +5224,190 @@
             "name": [],
             "desc_short": null,
             "desc_long": null
+        }
+    },
+    "70170": {
+        "type": "MAGIC",
+        "active": true,
+        "usable_in_exploration": false,
+        "name": "Aeroga",
+        "compendium_id": 123,
+        "rarity": 6,
+        "magic_type": "Black",
+        "mp_cost": 20,
+        "is_sealable": true,
+        "is_reflectable": true,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Wind"],
+        "effects": ["Magic wind damage (2.5x MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]],
+        "icon": "ability_25.png",
+        "strings": {
+            "name": [
+                "Aeroga",
+                "大勁風",
+                "에어로가",
+                "Vent X",
+                "Aeroga",
+                "Aero++"
+            ],
+            "desc_short": [
+                "Wind damage to all enemies",
+                "對全體敵人發動風屬性攻擊",
+                "적 전체에 바람속성 피해",
+                "Dégâts de vent sur tous les ennemis",
+                "Windschaden, alle Ziele",
+                "Daño de viento a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals wind damage to all enemies.",
+                "對全體敵人發動風屬性攻擊。",
+                "적 전체에 바람속성 피해를 줍니다.",
+                "Inflige des dégâts de vent à tous les ennemis.",
+                "Fügt allen Gegnern Windschaden zu.",
+                "Inflige daño de viento a todos los enemigos."
+            ]
+        }
+    },
+    "70180": {
+        "type": "MAGIC",
+        "active": true,
+        "usable_in_exploration": false,
+        "name": "Aeroga",
+        "compendium_id": 123,
+        "rarity": 6,
+        "magic_type": "Black",
+        "mp_cost": 20,
+        "is_sealable": true,
+        "is_reflectable": true,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Wind"],
+        "effects": ["Magic wind damage 100 (+1.5x MAG) with consecutive damage increase (max. 5 times, +1x MAG each) to all enemies"],
+        "effects_raw": [[2, 1, 72, [0,  0,  150,  100,  100,  5]]],
+        "icon": "ability_25.png",
+        "strings": {
+            "name": [
+                "Aeroga",
+                "大勁風",
+                "에어로가",
+                "Vent X",
+                "Aeroga",
+                "Aero++"
+            ],
+            "desc_short": [
+                "Wind damage to all enemies and power up",
+                "對全體敵人發動風屬性攻擊+威力上升",
+                "적 전체에 바람속성 피해+위력 상승",
+                "Dégâts de vent sur tous les ennemis et bonus de force",
+                "Windschaden u. Stärkung, alle Ziele",
+                "Daño de viento a todos y aumenta la potencia"
+            ],
+            "desc_long": [
+                "Deals wind damage to all enemies. Damage dealt increases with each use.",
+                "對全體敵人發動風屬性攻擊，重複使用可以增加傷害量。",
+                "적 전체에 바람속성 피해를 주고, 연속해서 사용하면 피해량이 상승합니다.",
+                "Inflige des dégâts de vent à tous les ennemis. Les dommages augmentent à chaque utilisation.",
+                "Fügt allen Gegnern Windschaden zu. Jede Anwendung verursacht mehr Schaden.",
+                "Daño de viento a todos los enemigos y aumenta la potencia."
+            ]
+        }
+    },
+    "70190": {
+        "type": "MAGIC",
+        "active": true,
+        "usable_in_exploration": false,
+        "name": "Waterga",
+        "compendium_id": 122,
+        "rarity": 6,
+        "magic_type": "Black",
+        "mp_cost": 20,
+        "is_sealable": true,
+        "is_reflectable": true,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": ["Magic water damage (2.5x MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]],
+        "icon": "ability_23.png",
+        "strings": {
+            "name": [
+                "Waterga",
+                "大流水",
+                "워터가",
+                "Eau X",
+                "Aquaga",
+                "Aqua++"
+            ],
+            "desc_short": [
+                "Water damage to all enemies",
+                "對全體敵人發動水屬性攻擊",
+                "적 전체에 물속성 피해",
+                "Dégâts d'eau sur tous les ennemis",
+                "Wasserschaden, alle Ziele",
+                "Daño de agua a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals water damage to all enemies.",
+                "對全體敵人發動水屬性攻擊。",
+                "적 전체에 물속성 피해를 줍니다.",
+                "Inflige des dégâts d'eau à tous les ennemis.",
+                "Fügt allen Gegnern Wasserschaden zu.",
+                "Inflige daño de agua a todos los enemigos."
+            ]
+        }
+    },
+    "70200": {
+        "type": "MAGIC",
+        "active": true,
+        "usable_in_exploration": false,
+        "name": "Waterga",
+        "compendium_id": 122,
+        "rarity": 6,
+        "magic_type": "Black",
+        "mp_cost": 20,
+        "is_sealable": true,
+        "is_reflectable": true,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": ["Magic water damage 100 (+1.5x MAG) with consecutive damage increase (max. 5 times, +1x MAG each) to all enemies"],
+        "effects_raw": [[2, 1, 72, [0,  0,  150,  100,  100,  5]]],
+        "icon": "ability_23.png",
+        "strings": {
+            "name": [
+                "Waterga",
+                "大流水",
+                "워터가",
+                "Eau X",
+                "Aquaga",
+                "Aqua++"
+            ],
+            "desc_short": [
+                "Water damage to all enemies and power up",
+                "對全體敵人發動水屬性攻擊+威力上升",
+                "적 전체에 물속성 피해+위력 상승",
+                "Dégâts d'eau sur tous les ennemis et bonus de force",
+                "Wasserschaden u. Stärkung, alle Ziele",
+                "Daño de agua a todos y aumenta la potencia"
+            ],
+            "desc_long": [
+                "Deals water damage to all enemies. Damage dealt increases with each use.",
+                "對全體敵人發動水屬性攻擊，重複使用可以增加傷害量。",
+                "적 전체에 물속성 피해를 주고, 연속해서 사용하면 피해량이 상승합니다.",
+                "Inflige des dégâts d'eau à tous les ennemis. Les dommages augmentent à chaque utilisation.",
+                "Fügt allen Gegnern Wasserschaden zu. Jede Anwendung verursacht mehr Schaden.",
+                "Daño de agua a todos los enemigos y aumenta la potencia."
+            ]
         }
     },
     "91000": {
@@ -5246,7 +5472,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Fixed damage (5x) to all enemies, after 2 turns of delay"],
+        "effects": ["Physical* damage (5x) to all enemies, after 2 turns of delay"],
         "effects_raw": [[2, 1, 13, [2,  0,  0,  2,  1900104,  500]]],
         "icon": "ability_91.png",
         "strings": {
@@ -5273,6 +5499,55 @@
                 "Inflige des dégâts à tous les ennemis après trois tours.",
                 "Schaden allen Gegnern nach drei Runden.",
                 "Daño a todos los enemigos tras 3 turnos."
+            ]
+        }
+    },
+    "91002": {
+        "type": "MAGIC",
+        "active": true,
+        "usable_in_exploration": false,
+        "name": "Restorative Breath",
+        "compendium_id": 9102,
+        "rarity": 7,
+        "magic_type": "White",
+        "mp_cost": 0,
+        "is_sealable": false,
+        "is_reflectable": false,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Restore (5x SPR) HP per turn to one ally",
+            "Restore 10 MP over  to one ally"
+        ],
+        "effects_raw": [[1, 2, 8, [0, 1, 500, "-1"]], [1, 2, 30, [10, 1, 0, "-1"]]],
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "Restorative Breath",
+                "恢復吐息",
+                "회복의 숨결",
+                "Souffle curatif",
+                "Heilatem",
+                "Hálito curativo"
+            ],
+            "desc_short": [
+                "Automatically regenerate HP and MP during battle",
+                "持續恢復自身HP\/MP",
+                "전투 중 항상 HP와 MP 회복",
+                "Régénère automatiquement les PV\/PM en combat",
+                "Stellt während des Kampfes automatisch LP und MP wieder her.",
+                "Recupera la VIT y los PM durante el combate"
+            ],
+            "desc_long": [
+                "Automatically regenerate HP and MP during battle",
+                "持續恢復自身HP\/MP。",
+                "전투 중 항상 HP와 MP를 회복합니다.",
+                "Régénère automatiquement les PV\/PM en combat",
+                "Stellt während des Kampfes automatisch LP und MP wieder her.",
+                "Recupera la VIT y los PM durante el combate"
             ]
         }
     },
@@ -10393,7 +10668,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Fixed damage (1.2x) to all enemies, after one turn of delay"],
+        "effects": ["Physical* damage (1.2x) to all enemies, after one turn of delay"],
         "effects_raw": [[2, 1, 13, [1,  0,  0,  2,  5000210,  120]]],
         "unit_restriction": null,
         "icon": "ability_40.png",
@@ -10621,7 +10896,7 @@
                 "提高全體隊員魔力和精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Más MAG y ESP para todos los aliados"
             ],
             "desc_long": [
@@ -10790,7 +11065,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy.",
@@ -11222,7 +11497,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy.",
@@ -13475,7 +13750,7 @@
                 "적 1명에게 얼음속성 피해",
                 "Dégâts de glace sur un ennemi",
                 "Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy.",
@@ -20060,7 +20335,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Fixed damage (1.4x) to all enemies, after one turn of delay"],
+        "effects": ["Physical* damage (1.4x) to all enemies, after one turn of delay"],
         "effects_raw": [[2, 1, 13, [1,  0,  0,  2,  5000210,  140]]],
         "unit_restriction": null,
         "icon": "ability_40.png",
@@ -21167,7 +21442,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Fixed damage (3x) to all enemies, after one turn of delay"],
+        "effects": ["Physical* damage (3x) to all enemies, after one turn of delay"],
         "effects_raw": [[2, 1, 13, [1,  0,  0,  2,  5000210,  300]]],
         "unit_restriction": null,
         "icon": "ability_40.png",
@@ -32709,7 +32984,7 @@
         "element_inflict": null,
         "effects": [
             "Insta-kill Reaper monster",
-            "Randomly use:\n50%:  (500400)\n50%:  (500410)"
+            "Randomly use:\n50%: 翻訳不要 (500400)\n50%: 翻訳不要 (500410)"
         ],
         "effects_raw": [[1, 2, 4, [0]], [1, 2, 29, [[500400,  50], [500410,  50], 0, 0, 0]]],
         "unit_restriction": null,
@@ -52274,7 +52549,7 @@
                 "적 1명에게 얼음속성 중간 피해",
                 "Dégâts de glace modérés sur un ennemi",
                 "Mittlerer Eisschaden, ein Ziel",
-                "Daño de frío a un enemigo"
+                "Daño de hielo a un enemigo"
             ],
             "desc_long": [
                 "A mystical item with the blustery winds of the northern reaches sealed within. Potent enough to send chills through one's entire body at the slightest touch, it is a popular accessory in deserts and volcanic areas. When confronted by a formidable enemy of the fiery persuasion, this item can spell the difference between death and a safe escape.",
@@ -52694,7 +52969,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ],
             "desc_long": [
                 "A whitish fang that appears to be the remnant of an ice beast. The power of ice stored within can be unleashed to consume a group of foes in a blustery blizzard. Cold to the touch, it is often transported within cloth made from the same materials as a lunar curtain, to prevent the slightest misstep from setting off a violent snowstorm.",
@@ -53532,7 +53807,7 @@
                 "Aguja de oro"
             ],
             "desc_short": [
-                "Cure one ally of petrifaction",
+                "Cure one ally of petrification",
                 "治療1名隊員的石化狀態",
                 "아군 1명의 석화 회복",
                 "Guérit un allié de Pétrification",
@@ -53540,7 +53815,7 @@
                 "Cura la petrificación a un aliado"
             ],
             "desc_long": [
-                "A curious needle of gold with the power to restore life to those turned to stone. Purified by white mages, the holy essence enters the body through the skin, dissolving the curse of petrifaction from within. While many speak of the glorious feeling of joints and muscles loosening, it has proven ineffective against common shoulder tightness and back pain.",
+                "A curious needle of gold with the power to restore life to those turned to stone. Purified by white mages, the holy essence enters the body through the skin, dissolving the curse of petrification from within. While many speak of the glorious feeling of joints and muscles loosening, it has proven ineffective against common shoulder tightness and back pain.",
                 "能夠治療石化狀態的特殊金針。白魔道士淨化過的此針擁有神聖之力，據說將這種力量注入體內便可解開石化的詛咒。據使用過的人說，那是一種僵硬的身體突然得到釋放的感覺。要注意的是，它對腰酸背痛沒有任何作用。",
                 "석화 상태를 회복하는 특수 금침. 백마도사가 정화하여 깃들인 성스러운 힘을 체내에 주입해서 석화의 저주를 풀어주는 원리인 듯하다. 이 침으로 석화 상태에서 회복한 경험자에 따르면, 딱딱하게 뭉친 근육이 부드럽게 풀리는 느낌이라고 한다. 그렇다고 어깨가 결리는 증상에 사용하지는 말자.",
                 "Une aiguille en or étrange qui a le pouvoir de rendre la vie à un personnage pétrifié. Purifiée par des mages blancs, l'essence sacrée pénètre dans le corps à travers la peau pour annuler la malédiction. Beaucoup rapportent une formidable sensation de détente de leurs articulations et de leurs muscles mais cette aiguille s'est révélée être inefficace contre les courbatures dans les épaules et les douleurs de dos.",
@@ -54341,7 +54616,7 @@
         }
     },
     "300550": {
-        "name": "帝国式手榴弾",
+        "name": "Imperial Hand Grenade",
         "compendium_id": 10054,
         "type": "ABILITY",
         "active": true,
@@ -54358,8 +54633,11 @@
         "icon": "item_3024.png",
         "strings": {
             "name": {
-                "1": "翻訳不要",
-                "2": "翻訳不要"
+                "0": "Imperial Hand Grenade",
+                "1": "帝國式手榴彈",
+                "3": "Grenade impériale",
+                "4": "Imperiale Handgranate",
+                "5": "Granada imperial"
             },
             "desc_short": [
                 "Damage one enemy",
@@ -54373,7 +54651,7 @@
                 "A hand grenade often used by the Zoldaad military. It is known for its ability to cause a set amount of damage to any enemy. However, since it is a throwing weapon it can only be wielded by those with the power to do so. The Zoldaad army has been building their military and increasing their weaponry in preparation for war. This hand grenade, too, is part of that ongoing effort.",
                 "佐爾達多帝國軍所用的手榴彈。其魅力在於無論多麼強大的敵人都會受到一定程度的傷害。只不過因為是爆炸物，所以要由會「投擲」的人使用才行。佐爾達多軍為戰爭做了很多準備，不僅培育了大量士兵，還進行了各種兵器的開發，這個手榴彈就是軍部開發的成果之一。",
                 "졸다드 제국군이 사용하는 수류탄. 어떤 적이라 하더라도 일정량의 피해를 줄 수 있다는 점이 매력적이다. 그러나 폭발물이기 때문에 '던지기'를 습득하지 않은 자는 사용할 수 없다. 졸다드 군은 전쟁을 준비하며, 병사의 육성과 다양한 병기 개발에 착수하고 있다. 이 수류탄 역시 군부에 의해 개발된 물건이기도 하다.",
-                "Dégâts sur un ennemi",
+                "Une grenade souvent utilisée dans l'armée de Zoldaad. Elle est connue pour infliger une grande quantité de dégâts fixes à n'importe quel ennemi. Toutefois, s'agissant d'une arme de jet, elle ne peut être utilisée que par ceux qui en sont capables. L'armée de Zoldaad renforce constamment ses troupes et améliore ses armes afin d'être prête à faire la guerre. Cette grenade fait partie de cette course à l'armement.",
                 "Eine Handgranate des Militärs von Zoldaad. Sie fügt jeder Art von Gegner die gleiche Menge an Schaden zu. Da es sich um eine Wurfwaffe handelt, können sie nur Werfer benutzen. Die Armee von Zoldaad hat ihr Militär für den Krieg aufgerüstet. Diese Handgranate ist ein Teil jener Rüstungsbestrebungen."
             ]
         }
@@ -55111,7 +55389,7 @@
         "strings": {
             "name": [
                 "Laser Cannon",
-                "鐳射炮",
+                "雷射炮",
                 "광선 포격",
                 "Canon à laser",
                 "Laserkanone",
@@ -55717,7 +55995,7 @@
                 "사용자의 MP 회복",
                 "Restaure les PM du lanceur",
                 "Füllt MP auf, Benutzer",
-                "Daño de viento a un enemigo"
+                "Recupera los PM del usuario"
             ],
             "desc_long": [
                 "Restores MP for the caster.",
@@ -55759,7 +56037,7 @@
                 "사용자의 MP 회복",
                 "Restaure les PM du lanceur",
                 "Füllt MP auf, Benutzer",
-                "Daño de viento a un enemigo"
+                "Recupera los PM del usuario"
             ],
             "desc_long": [
                 "Restores MP for the caster.",
@@ -55801,7 +56079,7 @@
                 "사용자의 MP 회복",
                 "Restaure les PM du lanceur",
                 "Füllt MP auf, Benutzer",
-                "Daño de viento a un enemigo"
+                "Recupera los PM del usuario"
             ],
             "desc_long": [
                 "Restores MP for the caster.",
@@ -58101,7 +58379,7 @@
                 "적 전체에 얼음속성 피해",
                 "Dégâts de glace sur tous les ennemis",
                 "Eisschaden, alle Ziele",
-                "Daño de frío a todos los enemigos"
+                "Daño de hielo a todos los enemigos"
             ],
             "desc_long": [
                 "Deals ice damage to all enemies.",
@@ -58848,7 +59126,7 @@
         "strings": {
             "name": [
                 "Laser Cannon+",
-                "鐳射炮改",
+                "雷射炮改",
                 "개량형 광선 포격",
                 "Canon à laser +",
                 "Laserkanone +",
@@ -61411,9 +61689,9 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to one enemy",
-            "Reduce DEF by 60% for 5 turns to one enemy"
+            "Reduce DEF by 65% for 5 turns to one enemy"
         ],
-        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [0, "-60", 0, 0, 5, 1]]],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [0, "-65", 0, 0, 5, 1]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
@@ -61454,8 +61732,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["35% chance to counter a magic attack"],
-        "effects_raw": [[0, 3, 41, [35,  0,  0]]],
+        "effects": ["38% chance to counter a magic attack"],
+        "effects_raw": [[0, 3, 41, [38,  0,  0]]],
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
@@ -61496,8 +61774,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["40% chance to counter a magic attack"],
-        "effects_raw": [[0, 3, 41, [40,  0,  0]]],
+        "effects": ["45% chance to counter a magic attack"],
+        "effects_raw": [[0, 3, 41, [45,  0,  0]]],
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
@@ -62447,9 +62725,9 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (1.8x ATK) to one enemy",
-            "Reduce SPR by 60% for 5 turns to one enemy"
+            "Reduce SPR by 65% for 5 turns to one enemy"
         ],
-        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [0, 0, 0, "-60", 5, 1]]],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [0, 0, 0, "-65", 5, 1]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
@@ -62490,8 +62768,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["35% chance to counter a physical attack"],
-        "effects_raw": [[1, 3, 12, [35,  0,  0]]],
+        "effects": ["38% chance to counter a physical attack"],
+        "effects_raw": [[1, 3, 12, [38,  0,  0]]],
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
@@ -62532,8 +62810,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["40% chance to counter a physical attack"],
-        "effects_raw": [[1, 3, 12, [40,  0,  0]]],
+        "effects": ["45% chance to counter a physical attack"],
+        "effects_raw": [[1, 3, 12, [45,  0,  0]]],
         "unit_restriction": null,
         "icon": "ability_68.png",
         "strings": {
@@ -62592,7 +62870,7 @@
                 "提高全體隊員魔力精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Aumenta MAG y ESP para todos los aliados"
             ],
             "desc_long": [
@@ -62634,7 +62912,7 @@
                 "提高全體隊員魔力精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Aumenta MAG y ESP para todos los aliados"
             ],
             "desc_long": [
@@ -63200,7 +63478,7 @@
                 "提高全體隊員魔力精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Más MAG y ESP para todos los aliados"
             ],
             "desc_long": [
@@ -63289,15 +63567,15 @@
                 "Consume HP to boost ATK for all allies",
                 "消耗發動者的HP提高全體隊員攻擊的數值",
                 "사용자의 HP를 소모하여 적 전체에 피해",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis",
-                "Benutzer verbraucht LP für Schaden, alle Ziele",
-                "Daña a enemigos usando VIT propia"
+                "Consume les PV pour augmenter l'ATT de tous les alliés",
+                "Benutzer verbraucht LP für erhöhten ANG, alle Gegner",
+                "Aumenta el ATQ de todos los aliados usando VIT propia"
             ],
             "desc_long": [
                 "Consumes caster's HP to boost ATK for all allies.",
                 "消耗發動者的HP，提高全體隊員攻擊的數值。",
                 "사용자의 HP를 소모하여 아군 전체의 공격력을 상승시킵니다.",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis",
+                "Consume les PV du lanceur pour augmenter l'ATT de tous les alliés.",
                 "LP nutzen, um ANG für alle Verb. zu erhöhen."
             ]
         }
@@ -63316,9 +63594,9 @@
         "element_inflict": null,
         "effects": [
             "Fixed damage (500) to self",
-            "Increase ATK by 50% for 5 turns to all allies"
+            "Increase ATK by 60% for 4 turns to all allies"
         ],
-        "effects_raw": [[1, 3, 41, [500]], [2, 2, 3, [50,  0,  0,  0,  5,  1]]],
+        "effects_raw": [[1, 3, 41, [500]], [2, 2, 3, [60,  0,  0,  0,  4,  1]]],
         "unit_restriction": null,
         "icon": "ability_63.png",
         "strings": {
@@ -63334,15 +63612,15 @@
                 "Consume HP to boost ATK for all allies",
                 "消耗發動者的HP提高全體隊員攻擊的數值",
                 "사용자의 HP를 소모하여 적 전체에 피해",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis",
-                "Benutzer verbraucht LP für Schaden, alle Ziele",
-                "Daña a enemigos usando VIT propia"
+                "Consume les PV pour augmenter l'ATT de tous les alliés",
+                "Benutzer verbraucht LP für erhöhten ANG, alle Gegner",
+                "Aumenta el ATQ de todos los aliados usando VIT propia"
             ],
             "desc_long": [
                 "Consumes caster's HP to boost ATK for all allies.",
                 "消耗發動者的HP，提高全體隊員攻擊的數值。",
                 "사용자의 HP를 소모하여 아군 전체의 공격력을 상승시킵니다.",
-                "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis",
+                "Consume les PV du lanceur pour augmenter l'ATT de tous les alliés.",
                 "LP nutzen, um ANG für alle Verb. zu erhöhen."
             ]
         }
@@ -63535,14 +63813,14 @@
         "type": "ABILITY",
         "active": true,
         "rarity": 7,
-        "mp_cost": 25,
+        "mp_cost": 30,
         "attack_count": 5,
         "attack_frames": [22, 27, 32, 37, 42],
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["Physical damage (2.8x ATK) to all enemies (ignore cover)"],
-        "effects_raw": [[2, 1, 21, [0, 0, 140, "-50"]]],
+        "effects": ["Physical damage (3.2x ATK) to all enemies (ignore cover)"],
+        "effects_raw": [[2, 1, 21, [0, 0, 160, "-50"]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
@@ -63820,7 +64098,7 @@
                 "提高全體隊員魔力精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Aumenta MAG y ESP de todos los aliados"
             ],
             "desc_long": [
@@ -63862,7 +64140,7 @@
                 "提高全體隊員魔力精神的數值",
                 "아군 전체의 마력과 정신력 상승",
                 "Augmente la MAGIE et la PSY de tous les alliés",
-                "MAg und PSY hoch, alle Verb.",
+                "MAG und PSY hoch, alle Verb.",
                 "Aumenta MAG y ESP de todos los aliados"
             ],
             "desc_long": [
@@ -64041,7 +64319,7 @@
                 "점프 계열 어빌리티 피해량 상승+불, 물, 번개속성 저항력 30% 상승",
                 "Aug. les dégâts des attaques sautées et la rés. feu\/glace\/foudre de 30%",
                 "Erhöht Schaden von Sprungangriffen und Feuer-, Eis-, und Blitzresistenz um 30%.",
-                "Aumenta el ataque de las habilidades de salto y la res. al fuego, frío y rayo un 30%"
+                "Aumenta el ataque de las habilidades de salto y la res. al fuego, hielo y rayo un 30%"
             ],
             "desc_long": [
                 "Boosts damage dealt by jump abilities and fire, ice, and lightning resistance by 30%.",
@@ -64174,7 +64452,7 @@
                 "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 30% 상승",
                 "Augmente la rés. feu\/glace\/foudre\/eau\/vent\/terre\/lumière\/ténèbres de 30%",
                 "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel um 30%, alle Verb.",
-                "Aumenta la res. al fuego, frío, rayo, agua, viento, tierra, luz y oscuridad un 30%"
+                "Aumenta la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 30%"
             ],
             "desc_long": [
                 "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance by 30%.",
@@ -64216,7 +64494,7 @@
                 "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 50% 상승",
                 "Augmente la rés. feu\/glace\/foudre\/eau\/vent\/terre\/lumière\/ténèbres de 50%",
                 "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel um 50%, alle Verb.",
-                "Aumenta la res. al fuego, frío, rayo, agua, viento, tierra, luz y oscuridad un 50%"
+                "Aumenta la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 50%"
             ],
             "desc_long": [
                 "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance by 50%.",
@@ -65472,7 +65750,7 @@
                 "적 1명에게 피해+불, 얼음, 번개속성 저항력 감소",
                 "Dégâts et réduit la résistance au feu, à la glace et à la foudre d'un ennemi",
                 "Schaden und Feuer-, Eis-, Blitzresistenz runter, ein Ziel",
-                "Daña y reduce la res. al fuego, frío y rayo de un enemigo"
+                "Daña y reduce la res. al fuego, hielo y rayo de un enemigo"
             ],
             "desc_long": [
                 "Deals damage and reduces fire, ice, and lightning resistance for one enemy.",
@@ -65517,7 +65795,7 @@
                 "적 1명에게 피해+불, 얼음, 번개속성 저항력 감소",
                 "Dégâts et réduit la résistance au feu, à la glace et à la foudre d'un ennemi",
                 "Schaden und Feuer-, Eis-, Blitzresistenz runter, ein Ziel",
-                "Daña y reduce la res. al fuego, frío y rayo de un enemigo"
+                "Daña y reduce la res. al fuego, hielo y rayo de un enemigo"
             ],
             "desc_long": [
                 "Deals damage and reduces fire, ice, and lightning resistance for one enemy.",
@@ -65743,7 +66021,7 @@
                 "적 1명에게 일부 방어 무시 피해+방어력과 얼음속성 저항력 감소",
                 "Dégâts en partie fixes et réduit la DEF et la rés. à la glace d'un ennemi",
                 "Fügt einem Gegner teilweise direkten Schaden zu und reduziert ABW und Eisres. für einen Gegner.",
-                "Daño absoluto parcial y reduce la DEF y res. al frío de un enemigo"
+                "Daño absoluto parcial y reduce la DEF y res. al hielo de un enemigo"
             ],
             "desc_long": [
                 "Deals damage partially unaffected by DEF to one enemy, and reduces their DEF and ice resistance.",
@@ -65789,7 +66067,7 @@
                 "적 1명에게 얼음속성 일부방어 무시 피해+방어력, 얼음속성 저항력 감소",
                 "Dégâts de glace en partie fixes et réduit la DEF et la rés. à la glace d'un ennemi",
                 "Fügt einem Gegner teilweise direkten Schaden zu und reduziert ABW und Eisres. für einen Gegner.",
-                "Daño absoluto parcial de frío y reduce la DEF y res. al frío de un enemigo"
+                "Daño absoluto parcial de hielo y reduce la DEF y res. al hielo de un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage partially unaffected by DEF to one enemy and reduces their DEF and ice resistance.",
@@ -66061,6 +66339,274 @@
                 "아군 전체의 공격력과 공격력 감소 저항력이 상승합니다.",
                 "Augmente l'ATT et la résistance à la réduction de l'ATT pour tous les alliés",
                 "Erhöht ANG und ANG-Verringerungsresis. für alle Verb."
+            ]
+        }
+    },
+    "701630": {
+        "name": "Boco Pendant",
+        "compendium_id": 445,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
+            "Gain Brave (Auto) at the start of a battle",
+            "Gain Faith (Auto) at the start of a battle"
+        ],
+        "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  10,  10,  0]], [1, 3, 35, [30211]], [1, 3, 35, [30221]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Boco Pendant",
+                "波可護身符",
+                "보코의 부적",
+                "Pendentif de Boko",
+                "Bokos Amulett",
+                "Pendiente de Boko"
+            ],
+            "desc_short": [
+                "Boost HP, MP, ATK, DEF, MAG, and SPR by 10% and boost ATK and MAG each turn",
+                "提高10%HPMP、攻擊防禦魔力精神的數值+每回合提高攻擊魔力的數值",
+                "HP, MP, 공격력, 방어력, 마력, 정신력 10% 상승+매 턴마다 공격력과 마력 상승",
+                "Augmente PV\/PM\/ATT\/DEF\/MAGIE\/PSY de 10% et augmente ATT\/MAGIE à chaque tour",
+                "LP, MP, ANG, ABW, MAG und PSY hoch um 10%, erhöht jede Runde ANG und MAG.",
+                "Aumenta VIT, PM, ATQ, DEF, MAG y ESP un 10% y ATQ y MAG aumentan cada turno"
+            ],
+            "desc_long": [
+                "Boosts HP, MP, ATK, DEF, MAG, and SPR by 10% and boosts ATK and MAG each turn.",
+                "提高10%HPMP、攻擊防禦魔力精神的數值，同時每回合提高攻擊魔力的數值。",
+                "HP, MP, 공격력, 방어력, 마력, 정신력이 10% 상승하고, 매 턴마다 공격력과 마력이 상승합니다.",
+                "Augmente PV\/PM\/ATT\/DEF\/MAGIE\/PSY de 10% et augmente ATT\/MAGIE à chaque tour",
+                "LP, MP, ANG, ABW, MAG und PSY hoch um 10%, erhöht jede Runde ANG und MAG."
+            ]
+        }
+    },
+    "701640": {
+        "name": "Boco Pendant",
+        "compendium_id": 445,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
+            "Gain Brave (Auto) at the start of a battle",
+            "Gain Faith (Auto) at the start of a battle",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  10,  10,  0]], [1, 3, 35, [30211]], [1, 3, 35, [30221]], [1, 3, 32, [5]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Boco Pendant",
+                "波可護身符",
+                "보코의 부적",
+                "Pendentif de Boko",
+                "Bokos Amulett",
+                "Pendiente de Boko"
+            ],
+            "desc_short": [
+                "Boost HP, MP, ATK, DEF, MAG, and SPR by 10%, and boost ATK and MAG and restore MP each turn",
+                "提高10%HPMP、攻擊防禦魔力精神的數值+每回合提高攻擊魔力的數值+每回合自動恢復MP",
+                "HP, MP, 공격력, 방어력, 마력, 정신력 10% 상승+매 턴마다 공격력과 마력 상승+매 턴마다 MP 회복",
+                "Augmente PV\/PM\/ATT\/DEF\/MAGIE\/PSY de 10%, augmente ATT\/MAGIE et restaure les PM à chaque tour",
+                "LP, MP, ANG, ABW, MAG und PSY hoch um 10%, erhöht jede Runde ANG und MAG, stellt bei jedem Zug MP wieder her.",
+                "Aumenta VIT, PM, ATQ, DEF, MAG y ESP un 10%, aumenta ATQ y MAG y recupera PM cada turno"
+            ],
+            "desc_long": [
+                "Boosts HP, MP, ATK, DEF, MAG, and SPR by 10%, and boosts ATK and MAG and restores MP each turn.",
+                "提高10%HPMP、攻擊防禦魔力精神的數值，同時每回合提高攻擊魔力的數值，並每回合自動恢復MP。",
+                "HP, MP, 공격력, 방어력, 마력, 정신력이 10% 상승하고, 매 턴마다 공격력과 마력이 상승하고 매 턴마다 MP를 회복합니다.",
+                "Augmente PV\/PM\/ATT\/DEF\/MAGIE\/PSY de 10%, augmente ATT\/MAGIE et restaure les PM à chaque tour",
+                "LP, MP, ANG, ABW, MAG und PSY hoch um 10%, erhöht jede Runde ANG und MAG, stellt bei jedem Zug MP wieder her."
+            ]
+        }
+    },
+    "701650": {
+        "name": "Life Giver",
+        "compendium_id": 443,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 30,
+        "attack_count": 1,
+        "attack_frames": [90],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Sacrifice self to restore 100% HP and 100% MP to one ally, except self",
+            "Increase resistance to Wind by 70% for 3 turns to one ally, except self"
+        ],
+        "effects_raw": [[1, 5, 11, [100,  100]], [1, 5, 33, [0,  0,  0,  0,  70,  0,  0,  0,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_78.png",
+        "strings": {
+            "name": [
+                "Life Giver",
+                "託付生命",
+                "목숨 맡기기",
+                "Passage de témoin",
+                "Lebensspender",
+                "Pasar el testigo"
+            ],
+            "desc_short": [
+                "When KO'd, fully restore HP and MP and boost wind resistance for one ally",
+                "自身進入無法戰鬥狀態完全恢復1名隊員的HP、MP+提高風屬性耐性的數值",
+                "사용자가 전투불능 상태가 되고 아군 1명의 HP와 MP 모두 회복+바람속성 저항력 상승",
+                "Restaure entièrement PV\/PM lors d'un KO et augmente la rés. au vent d'un allié",
+                "Stellt wenn kampfunfähig LP und MP komplett wieder her, erhöht Windresistenz bei einem Verbündeten.",
+                "Al estar K.O., recupera VIT y PM y aumenta res. al viento de un aliado"
+            ],
+            "desc_long": [
+                "When KO'd, fully restores HP and MP and boosts wind resistance for one ally.",
+                "自身進入無法戰鬥狀態完全恢復1名隊員的HP、MP，同時提高風屬性耐性的數值。",
+                "사용자가 전투불능 상태에 빠지는 대신 아군 1명의 HP와 MP가 모두 회복하고 바람속성 저항력이 상승합니다.",
+                "Restaure entièrement PV\/PM lors d'un KO et augmente la rés. au vent d'un allié",
+                "Stellt wenn kampfunfähig LP und MP komplett wieder her, erhöht Windresistenz bei einem Verbündeten."
+            ]
+        }
+    },
+    "701660": {
+        "name": "Life Giver",
+        "compendium_id": 443,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 30,
+        "attack_count": 1,
+        "attack_frames": [90],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Sacrifice self to restore 100% HP and 100% MP to one ally, except self",
+            "Increase resistance to Wind by 70% for 3 turns to one ally, except self",
+            "Auto-revive (80% HP) for 3 turns to one ally, except self"
+        ],
+        "effects_raw": [[1, 5, 11, [100,  100]], [1, 5, 33, [0,  0,  0,  0,  70,  0,  0,  0,  1,  3]], [1, 5, 27, [80,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_78.png",
+        "strings": {
+            "name": [
+                "Life Giver",
+                "託付生命",
+                "목숨 맡기기",
+                "Passage de témoin",
+                "Lebensspender",
+                "Pasar el testigo"
+            ],
+            "desc_short": [
+                "When KO'd, fully restore HP and MP, boost wind resistance, and cast one time auto-revive on one ally",
+                "自身進入無法戰鬥狀態完全恢復1名隊員的HP、MP+提高風屬性耐性的數值+賦予進入無法戰鬥狀態時自動復活1次的效果",
+                "사용자가 전투불능 상태가 되고 아군 1명의 HP와 MP 모두 회복+바람속성 저항력 상승+전투불능 상태를 1회 자동회복하는 효과 부여",
+                "Restaure entièrement PV\/PM lors d'un KO, augmente la rés. au vent et lance Auto-réveil sur un allié",
+                "Stellt wenn kampfunfähig LP und MP komplett wieder her, erhöht Windresistenz, einmal Wiederbeleben für einen Verbündeten.",
+                "Al estar K.O., recupera VIT y PM, aumenta res. al viento y lanza AutoLázaro a un aliado"
+            ],
+            "desc_long": [
+                "When KO'd, fully restores HP and MP, boosts wind resistance, and casts one time auto-revive on one ally.",
+                "自身進入無法戰鬥狀態完全恢復1名隊員的HP、MP，同時提高風屬性耐性的數值，並賦予進入無法戰鬥狀態時自動復活1次的效果。",
+                "사용자가 전투불능 상태에 빠지는 대신 아군 1명의 HP와 MP가 모두 회복하고 바람속성 저항력이 상승하며, 전투불능 상태를 1회 자동회복하는 효과를 부여합니다.",
+                "Restaure entièrement PV\/PM lors d'un KO, augmente la rés. au vent et lance Auto-réveil sur un allié",
+                "Stellt wenn kampfunfähig LP und MP komplett wieder her, erhöht Windresistenz, einmal Wiederbeleben für einen Verbündeten."
+            ]
+        }
+    },
+    "701670": {
+        "name": "Wind Shear",
+        "compendium_id": 441,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 45,
+        "attack_count": 1,
+        "attack_frames": [70],
+        "effect_type": "Default",
+        "attack_type": "Hybrid",
+        "element_inflict": ["Wind"],
+        "effects": ["Hybrid wind damage (7x ATK & MAG) to one enemy"],
+        "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  700,  700]]],
+        "unit_restriction": null,
+        "icon": "ability_25.png",
+        "strings": {
+            "name": [
+                "Wind Shear",
+                "旋風斬",
+                "선풍참",
+                "Tranche-vent",
+                "Windschneide",
+                "Tajo de viento"
+            ],
+            "desc_short": [
+                "Wind damage to one enemy",
+                "對1名敵人發動風屬性攻擊",
+                "적 1명에게 바람속성 피해",
+                "Dégâts de vent sur un ennemi",
+                "Windschaden, ein Ziel",
+                "Daño de viento a un enemigo"
+            ],
+            "desc_long": [
+                "Deals wind damage to one enemy.",
+                "對1名敵人發動風屬性攻擊。",
+                "적 1명에게 바람속성 피해를 줍니다.",
+                "Dégâts de vent sur un ennemi",
+                "Fügt einem Gegner Windschaden zu."
+            ]
+        }
+    },
+    "701680": {
+        "name": "Wind Shear",
+        "compendium_id": 441,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 45,
+        "attack_count": 1,
+        "attack_frames": [70],
+        "effect_type": "Default",
+        "attack_type": "Hybrid",
+        "element_inflict": ["Wind"],
+        "effects": ["Hybrid wind damage (7x ATK & MAG) to all enemies"],
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  700,  700]]],
+        "unit_restriction": null,
+        "icon": "ability_25.png",
+        "strings": {
+            "name": [
+                "Wind Shear",
+                "旋風斬",
+                "선풍참",
+                "Tranche-vent",
+                "Windschneide",
+                "Tajo de viento"
+            ],
+            "desc_short": [
+                "Wind damage to all enemies",
+                "對全體敵人發動風屬性攻擊",
+                "적 전체에 바람속성 피해",
+                "Dégâts de vent sur tous les ennemis",
+                "Windschaden, alle Gegner",
+                "Daño de viento a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals wind damage to all enemies.",
+                "對全體敵人發動風屬性攻擊。",
+                "적 전체에 바람속성 피해를 줍니다.",
+                "Dégâts de vent sur tous les ennemis",
+                "Fügt allen Gegnern Windschaden zu."
             ]
         }
     },
@@ -68036,7 +68582,7 @@
         "element_inflict": null,
         "effects": [
             "Reduce physical damage taken by 75% for one turn",
-            "Unknown. Increase DEF by 300% for one turn?"
+            "Unknown. Increase ATK by 300% for one turn?"
         ],
         "effects_raw": [[0, 3, 18, [75,  1,  1]], [0, 3, 19, [300,  1,  1]]],
         "unit_restriction": null,
@@ -68143,7 +68689,7 @@
                 "적 1명에게 얼음속성 피해+얼음속성 저항력 감소",
                 "Dégâts de glace et réduit la rés. à la glace d'un ennemi",
                 "Eischaden und reduzierte Eisresistenz, ein Gegner",
-                "Daño de hielo y reduce la resistencia al frío de un enemigo"
+                "Daño de hielo y reduce la resistencia al hielo de un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy, and reduces their ice resistance.",
@@ -68348,7 +68894,7 @@
         "effects": [
             "Increase chance of being targeted by 80% for 3 turns",
             "Reduce physical damage taken by 50% for 3 turns",
-            "Unknown. Increase SPR by 100% for one turn?"
+            "Unknown. Increase MAG by 100% for one turn?"
         ],
         "effects_raw": [[0, 3, 61, [80,  3]], [0, 3, 18, [50,  3,  1]], [0, 3, 19, [100,  3,  1]]],
         "unit_restriction": null,
@@ -69630,7 +70176,7 @@
                 "적 1명에게 얼음속성 피해+얼음속성 저항력 감소",
                 "Dégâts de glace et réduit la rés. à la glace d'un ennemi",
                 "Eischaden und reduzierte Eisresistenz, ein Gegner",
-                "Daño de hielo y reduce la resistencia al frío de un enemigo"
+                "Daño de hielo y reduce la resistencia al hielo de un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy, and reduces their ice resistance.",
@@ -73151,7 +73697,7 @@
                 "얼음속성 저항력 20% 상승+MP 30% 상승",
                 "Augmente la rés. à la glace et les PM",
                 "Erhöht Eisresistenz und MP.",
-                "Aumenta la resistencia al frío y los PM"
+                "Aumenta la resistencia al hielo y los PM"
             ],
             "desc_long": [
                 "Boosts MP by 30%, and ice resistance by 20%.",
@@ -73328,7 +73874,7 @@
                 "적 전체의 공격력 감소+아군 전체의 얼음속성 저항력 상승",
                 "Réduit l'ATT de tous les ennemis et augmente la rés. à la glace de tous les alliés",
                 "ANG runter für alle Gegner, Eisres. hoch für alle Verb.",
-                "Reduce ATQ de todos los enemigos y aumenta la res. al frío de todos los aliados"
+                "Reduce ATQ de todos los enemigos y aumenta la res. al hielo de todos los aliados"
             ],
             "desc_long": [
                 "Reduces ATK for all enemies and boosts ice resistance for all allies.",
@@ -73373,7 +73919,7 @@
                 "적 1명에게 얼음속성 피해+사용자의 물리공격에 얼음속성 부여",
                 "Dégâts de glace sur un ennemi et ajoute l'élément glace aux attaques physiques du lanceur",
                 "Fügt einem Gegner Eisschaden zu und Eiselement für eigenen physischen Angriff.",
-                "Daño por frío a un enemigo y añade elemento hielo a ataques físicos propios"
+                "Daño de hielo a un enemigo y añade elemento hielo a ataques físicos propios"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy, and adds ice element to own physical attack.",
@@ -73385,7 +73931,7 @@
         }
     },
     "910155": {
-        "name": "Duelist pose",
+        "name": "Duelist Pose",
         "compendium_id": 9251,
         "type": "ABILITY",
         "active": false,
@@ -73402,7 +73948,7 @@
         "icon": "ability_76.png",
         "strings": {
             "name": [
-                "Duelist pose",
+                "Duelist Pose",
                 "決鬥者架勢",
                 "결투자의 자세",
                 "Garde de Duelliste",
@@ -73628,7 +74174,7 @@
                 "적 전체에 얼음속성 피해+마비 부여",
                 "Dégâts de glace et paralyse tous les ennemis",
                 "Eisschaden und „Lähmung“, alle Ziele",
-                "Daño por frío y paraliza a todos los enemigos"
+                "Daño de hielo y paraliza a todos los enemigos"
             ],
             "desc_long": [
                 "Deals ice damage to all enemies, and paralyzes them.",
@@ -73673,7 +74219,7 @@
                 "적 1명에게 일부 방어 무시 얼음속성 피해+얼음속성 저항력 감소",
                 "Dégâts de glace et réduit la rés. à la glace d'un ennemi",
                 "Eisschaden und reduzierte Eisresistenz, ein Gegner",
-                "Daño por frío y reduce la resistencia al frío de un enemigo"
+                "Daño de hielo y reduce la resistencia al hielo de un enemigo"
             ],
             "desc_long": [
                 "Deals ice damage to one enemy, and reduces their ice resistance.",
@@ -74097,7 +74643,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Mirror positive status effects from one enemy on the party.",
+            "Mirror positive status effects from one enemy on the party",
             "Remove all effects from one enemy"
         ],
         "effects_raw": [[1, 1, 1005, [2, 2, 100, "54;55;59;61;201;202;203"]], [1, 1, 59, ["none"]]],
@@ -74820,6 +75366,1516 @@
                 "적의 공격 대상이 될 확률이 감소합니다. [솔레이유 전용]",
                 "Diminue les chances d'être ciblé. (Uniq. Soleil)",
                 "Wird seltener angegriffen. (Nur Soleil)"
+            ]
+        }
+    },
+    "910189": {
+        "name": "EVO MAG +40%",
+        "compendium_id": 172,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase Esper summon damage by 40%"],
+        "effects_raw": [[1, 3, 21, [40]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "EVO MAG +40%",
+                "召喚魔法+40%",
+                "소환마법+40%",
+                "INV +40%",
+                "BSW MAG + 40 %",
+                "MAG INV +40%"
+            ],
+            "desc_short": [
+                "Boost parameters of espers evoked by 40%",
+                "發動召喚魔法時提高40%幻獸狀態",
+                "소환마법 사용 시 환수 능력치 40% 상승",
+                "Augmente les stats des chimères invoquées de 40 %",
+                "Erhöht Werte gerufener Esper um 40 %",
+                "Potencia a espers invocados un 40%"
+            ],
+            "desc_long": [
+                "Boosts parameters of espers evoked by 40%.",
+                "發動召喚魔法時，提高40%幻獸狀態數值。",
+                "소환마법 사용 시 환수의 능력치가 40% 상승합니다.",
+                "Erhöht die Werte gerufener Esper um 40 %.",
+                "Erhöht die Werte beschworener Esper um 40 %."
+            ]
+        }
+    },
+    "910190": {
+        "name": "EVO MAG +50%",
+        "compendium_id": 172,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase Esper summon damage by 50%"],
+        "effects_raw": [[1, 3, 21, [50]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "EVO MAG +50%",
+                "召喚魔法+50%",
+                "소환마법+50%",
+                "INV +50%",
+                "BSW MAG + 50 %",
+                "MAG INV +50%"
+            ],
+            "desc_short": [
+                "Boost parameters of espers evoked by 50%",
+                "發動召喚魔法時提高50%幻獸狀態",
+                "소환마법 사용 시 환수 능력치 50% 상승",
+                "Augmente les stats des chimères invoquées de 50 %",
+                "Erhöht Werte gerufener Esper um 50 %",
+                "Potencia a espers invocados un 50%"
+            ],
+            "desc_long": [
+                "Boosts parameters of espers evoked by 50%.",
+                "發動召喚魔法時，提高50%幻獸狀態數值。",
+                "소환마법 사용 시 환수의 능력치가 50% 상승합니다.",
+                "Erhöht die Werte gerufener Esper um 50 %.",
+                "Erhöht die Werte beschworener Esper um 50 %."
+            ]
+        }
+    },
+    "910191": {
+        "name": "Keep it up!",
+        "compendium_id": 9127,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_type": "Revive",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Auto-revive (50% HP) for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 27, [50,  4]]],
+        "unit_restriction": null,
+        "icon": "ability_1.png",
+        "strings": {
+            "name": [
+                "Keep it up!",
+                "就是這樣！",
+                "잘하고 있어!",
+                "Continue comme ça !",
+                "Weiter so!",
+                "¡No te rindas!"
+            ],
+            "desc_short": [
+                "Cast auto-revive on one ally for four turns and restore 50% HP on revive",
+                "使1名隊員進入無法戰鬥狀態時自動復活1次並恢復50%的HP（效果持續4回合）",
+                "아군 1명의 전투불능 상태를 1회 자동 회복하고, HP 50% 회복(4턴간 효과 지속)",
+                "Auto-Réveil une fois sur une unité K.O. et restaure 50% de ses PV (dure 4 tours)",
+                "Ein Verb. belebt sich einmal in vier Runden wieder, mit 50 % der LP.",
+                "Otorga AutoLázaro (4 turnos, revive con el 50% de VIT)"
+            ],
+            "desc_long": [
+                "Automatically revive a KO'd ally one time, and restore 50% of their HP (effect lasts four turns).",
+                "使1名隊員進入無法戰鬥狀態時自動復活1次並恢復50%的HP（效果持續4回合）。",
+                "아군 1명의 전투불능 상태를 1회 자동 회복하고, HP를 50% 회복합니다.(4턴간 효과 지속)",
+                "Lance automatiquement Réveil une fois sur une unité K.O. et restaure 50% de ses PV (dure 4 tours).",
+                "Ein Verb. belebt sich einmal in vier Runden wieder, mit 50 % der LP."
+            ]
+        }
+    },
+    "910192": {
+        "name": "Keep it up!",
+        "compendium_id": 9127,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_type": "Revive",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Auto-revive (80% HP) for 5 turns to one ally"],
+        "effects_raw": [[1, 2, 27, [80,  5]]],
+        "unit_restriction": null,
+        "icon": "ability_1.png",
+        "strings": {
+            "name": [
+                "Keep it up!",
+                "就是這樣！",
+                "잘하고 있어!",
+                "Continue comme ça !",
+                "Weiter so!",
+                "¡No te rindas!"
+            ],
+            "desc_short": [
+                "Cast auto-revive on one ally for five turns and restore 80% HP on revive",
+                "使1名隊員進入無法戰鬥狀態時自動復活1次並恢復80%的HP（效果持續5回合）",
+                "아군 1명의 전투불능 상태를 1회 자동 회복하고, HP 80% 회복(5턴간 효과 지속)",
+                "Auto-Réveil une fois sur une unité K.O. et restaure 80% de ses PV (dure 5 tours)",
+                "Ein Verb. belebt sich einmal in fünf Runden wieder, mit 80 % der LP.",
+                "Otorga AutoLázaro (5 turnos, revive con el 80% de VIT)"
+            ],
+            "desc_long": [
+                "Automatically revive a KO'd ally one time, and restore 80% of their HP (effect lasts five turns).",
+                "使1名隊員進入無法戰鬥狀態時自動復活1次並恢復80%的HP（效果持續5回合）。",
+                "아군 1명의 전투불능 상태를 1회 자동 회복하고, HP를 80% 회복합니다.(5턴간 효과 지속)",
+                "Lance automatiquement Réveil une fois sur une unité K.O. et restaure 80% de ses PV (dure 5 tours).",
+                "Ein Verb. belebt sich einmal in fünf Runden wieder, mit 80 % der LP."
+            ]
+        }
+    },
+    "910193": {
+        "name": "MAG +40%",
+        "compendium_id": 9,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 3,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 40%"],
+        "effects_raw": [[1, 3, 1, [0,  0,  40,  0,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "MAG +40%",
+                "魔力+40%",
+                "마력+40%",
+                "MAGIE +40%",
+                "MAG + 40 %",
+                "MAG +40%"
+            ],
+            "desc_short": [
+                "Boost MAG by 40%",
+                "提高40%魔力",
+                "마력 40% 상승",
+                "Augmente la MAGIE de 40 %",
+                "Erhöht MAG um 40 %",
+                "Aumenta la MAG un 40%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 40%.",
+                "提高40%魔力數值。",
+                "마력이 40% 상승합니다.",
+                "Augmente la MAGIE de 40 %.",
+                "Erhöht MAG um 40 %."
+            ]
+        }
+    },
+    "910194": {
+        "name": "MAG +60%",
+        "compendium_id": 9,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 3,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 60%"],
+        "effects_raw": [[1, 3, 1, [0,  0,  60,  0,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "MAG +60%",
+                "魔力+60%",
+                "마력+60%",
+                "MAGIE +60%",
+                "MAG + 60 %",
+                "MAG +60%"
+            ],
+            "desc_short": [
+                "Boost MAG by 60%",
+                "提高60%魔力",
+                "마력 60% 상승",
+                "Augmente la MAGIE de 60 %",
+                "Erhöht MAG um 60 %",
+                "Aumenta la MAG un 60%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 60%.",
+                "提高60%魔力數值。",
+                "마력이 60% 상승합니다.",
+                "Augmente la MAGIE de 60 %.",
+                "Erhöht MAG um 60 %."
+            ]
+        }
+    },
+    "910201": {
+        "name": "Ignitos Bond",
+        "compendium_id": 9291,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 4,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 20%",
+            "Increase resistance to Fire, Ice and Lightning by 20%"
+        ],
+        "effects_raw": [[1, 3, 1, [0,  20,  0,  0,  0,  0,  0]], [1, 3, 3, [20,  20,  20,  0,  0,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Ignitos Bond",
+                "伊格尼托斯的信賴",
+                "이그니토의 신뢰",
+                "Lien Ignitos",
+                "Funkenbindung",
+                "Vínculo de Ignitos"
+            ],
+            "desc_short": [
+                "Boost DEF and fire, ice, and lightning resistance",
+                "提高防禦+火冰雷屬性耐性",
+                "방어력 상승+불, 얼음, 번개속성 저항력 상승",
+                "Augmente la DEF et la rés. feu\/glace\/foudre",
+                "Erhöht ABW und Res. gegen Feuer, Eis und Blitz.",
+                "Aumenta la DEF y la res. a fuego, hielo y rayo"
+            ],
+            "desc_long": [
+                "Boosts DEF and fire, ice, and lightning resistance.",
+                "提高防禦+火冰雷屬性耐性。",
+                "방어력이 상승하고, 불, 얼음, 번개속성 저항력이 상승합니다.",
+                "Augmente la DEF et la résistance au feu, à la glace et à la foudre.",
+                "Erhöht ABW und Res. gegen Feuer, Eis und Blitz."
+            ]
+        }
+    },
+    "910202": {
+        "name": "Raging Thrust",
+        "compendium_id": 9292,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 32,
+        "attack_count": 3,
+        "attack_frames": [42, 50, 58],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (2x ATK) to one enemy",
+            "Increase ATK by 80% for 3 turns to self"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [1, 3, 3, [80,  0,  0,  0,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Raging Thrust",
+                "猛刺",
+                "분노의 찌르기",
+                "Coup de rage",
+                "Zornesstoß",
+                "Estoque colérico"
+            ],
+            "desc_short": [
+                "Boost ATK and deal physical damage to one enemy",
+                "提高攻擊的數值+攻擊1名敵人",
+                "공격력 상승+적 1명에게 물리 피해",
+                "Augmente l'ATT et inflige des dégâts physiques à un ennemi",
+                "Erhöht ANG und fügt einem Gegner Schaden zu.",
+                "Aumenta el ATQ e inflige daño a un enemigo"
+            ],
+            "desc_long": [
+                "Boosts ATK and deals physical damage to one enemy.",
+                "提高攻擊的數值並攻擊1名敵人。",
+                "공격력이 상승하고, 적 1명에게 물리 피해를 줍니다.",
+                "Augmente l'ATT et inflige des dégâts physiques à un ennemi.",
+                "Erhöht ANG und fügt einem Gegner Schaden zu."
+            ]
+        }
+    },
+    "910203": {
+        "name": "Ice Breath",
+        "compendium_id": 9293,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 28,
+        "attack_count": 3,
+        "attack_frames": [80, 90, 100],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": ["Ice"],
+        "effects": [
+            "Physical ice damage (2x ATK) to all enemies",
+            "Reduce resistance to Ice by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [2, 1, 33, [0, "-50", 0, 0, 0, 0, 0, 0, 1, 3]]],
+        "unit_restriction": null,
+        "icon": "ability_22.png",
+        "strings": {
+            "name": [
+                "Ice Breath",
+                "寒冰吐息",
+                "얼음의 숨결",
+                "Souffle glacial",
+                "Eisatem",
+                "Hálito helado"
+            ],
+            "desc_short": [
+                "Deal physical ice damage and reduce ice resistance to all enemies",
+                "對全體敵人發動冰屬性物理攻擊+降低冰屬性耐性",
+                "적 전체에 얼음속성 물리 피해+얼음속성 저항력 감소",
+                "Inflige des dégâts physiques de glace et réduit la rés. à la glace de tous les ennemis",
+                "Fügt allen Gegnern physischen Eisschaden zu und reduziert Eisresist.",
+                "Inflige daño de hielo y reduce la res. al hielo a los enemigos"
+            ],
+            "desc_long": [
+                "Deal physical ice damage and reduce ice resistance to all enemies",
+                "對全體敵人發動冰屬性物理攻擊並降低冰屬性耐性。",
+                "적 전체에 얼음속성 물리 피해를 주고, 얼음속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts physiques de glace et réduit la résistance à la glace de tous les ennemis.",
+                "Fügt allen Gegnern physischen Eisschaden zu und reduziert Eisresist."
+            ]
+        }
+    },
+    "910204": {
+        "name": "Lightning Breath",
+        "compendium_id": 9294,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 28,
+        "attack_count": 3,
+        "attack_frames": [10, 20, 30],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            "Physical lightning damage (2x ATK) to all enemies",
+            "Reduce resistance to Lightning by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [2, 1, 33, [0, 0, "-50", 0, 0, 0, 0, 0, 1, 3]]],
+        "unit_restriction": null,
+        "icon": "ability_20.png",
+        "strings": {
+            "name": [
+                "Lightning Breath",
+                "雷霆吐息",
+                "번개의 숨결",
+                "Souffle électrique",
+                "Blitzatem",
+                "Hálito eléctrico"
+            ],
+            "desc_short": [
+                "Deal physical lightning damage and reduce lightning resistance to all enemies",
+                "對全體敵人發動雷屬性物理攻擊+降低雷屬性耐性",
+                "적 전체에 번개속성 물리 피해+번개속성 저항력 감소",
+                "Inflige des dégâts physiques de foudre et réduit la rés. à la foudre de tous les ennemis",
+                "Fügt allen Gegnern physischen Blitzschaden zu und reduziert Blitzresist.",
+                "Inflige daño de rayo y reduce la res. al rayo a los enemigos"
+            ],
+            "desc_long": [
+                "Deal physical lightning damage and reduce lightning resistance to all enemies",
+                "對全體敵人發動雷屬性物理攻擊並降低雷屬性耐性。",
+                "적 전체에 번개속성 물리 피해를 주고, 번개속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts physiques de foudre et réduit la résistance à la foudre de tous les ennemis.",
+                "Fügt allen Gegnern physischen Blitzschaden zu und reduziert Blitzresist."
+            ]
+        }
+    },
+    "910205": {
+        "name": "Fire Breath",
+        "compendium_id": 9295,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 28,
+        "attack_count": 3,
+        "attack_frames": [80, 90, 100],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": ["Fire"],
+        "effects": [
+            "Physical fire damage (2x ATK) to all enemies",
+            "Reduce resistance to Fire by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [2, 1, 33, ["-50", 0, 0, 0, 0, 0, 0, 0, 1, 3]]],
+        "unit_restriction": null,
+        "icon": "ability_21.png",
+        "strings": {
+            "name": [
+                "Fire Breath",
+                "爆炎吐息",
+                "불꽃의 숨결",
+                "Souffle brûlant",
+                "Feueratem",
+                "Hálito ígneo"
+            ],
+            "desc_short": [
+                "Deal physical fire damage and reduce fire resistance to all enemies",
+                "對全體敵人發動火屬性物理攻擊+降低火屬性耐性",
+                "적 전체에 불속성 물리 피해+불속성 저항력 감소",
+                "Inflige des dégâts physiques de feu et réduit la rés. au feu de tous les ennemis",
+                "Fügt allen Gegnern physischen Feuerschaden zu und reduziert Feuerresist.",
+                "Inflige daño de fuego y reduce la res. al fuego a los enemigos"
+            ],
+            "desc_long": [
+                "Deal physical fire damage and reduce fire resistance to all enemies",
+                "對全體敵人發動火屬性物理攻擊並降低火屬性耐性。",
+                "적 전체에 불속성 물리 피해를 주고, 불속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts physiques de feu et réduit la résistance au feu de tous les ennemis.",
+                "Fügt allen Gegnern physischen Feuerschaden zu und reduziert Feuerresist."
+            ]
+        }
+    },
+    "910206": {
+        "name": "Recovery Jump",
+        "compendium_id": 9296,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 50,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Restore 150 MP to self",
+            "Restore 2000 HP to self",
+            "Physical damage (1x ATK) with jump delay (1 turn)"
+        ],
+        "effects_raw": [[1, 3, 17, [150]], [1, 3, 16, [2000]], [1, 1, 52, [0,  0,  1,  1,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "Recovery Jump",
+                "恢復跳躍",
+                "리커버리 점프",
+                "Saut curatif",
+                "Wiederherstellungssprung",
+                "Salto curativo"
+            ],
+            "desc_short": [
+                "Jump and restore HP and MP",
+                "脫離至空，下一回合進行落下攻擊+恢復發動者的HPMP",
+                "공중으로 이탈 후 다음 턴에 낙하 공격+사용자의 HP와 MP 회복",
+                "Saute et restaure les PV et les PM",
+                "Springen und stellt LP und MP wieder her",
+                "Salta para atacar y recuperar VIT y PM el siguiente turno"
+            ],
+            "desc_long": [
+                "Jumps and restores HP and MP.",
+                "脫離至空，下一回合進行落下攻擊並恢復發動者的HPMP。",
+                "점프해서 공중으로 이탈 후 다음 턴에 낙하하여 적 1명에게 피해를 주고, 사용자의 HP와 MP를 회복합니다.",
+                "Saute et restaure les PV et les PM.",
+                "Springen und stellt LP und MP wieder her."
+            ]
+        }
+    },
+    "910207": {
+        "name": "Pike Master",
+        "compendium_id": 9297,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 50% when equipped with a Spear"],
+        "effects_raw": [[1, 3, 6, [10,  50,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_95.png",
+        "strings": {
+            "name": [
+                "Pike Master",
+                "長槍大師",
+                "창술의 대가",
+                "Maître des pointes",
+                "Spießmeister",
+                "Maestro lancero"
+            ],
+            "desc_short": [
+                "Boost ATK when equipped with a spear",
+                "提高裝備長槍時攻擊的數值",
+                "창 장착 시 공격력 상승",
+                "Augmente l'ATT lorsqu'une lance est équipée",
+                "Erhöht ANG, wenn mit Speer ausgerüstet",
+                "Aumenta el ATQ al llevar lanzas"
+            ],
+            "desc_long": [
+                "Boosts ATK when equipped with a spear.",
+                "提高裝備長槍時攻擊的數值。",
+                "창을 장착하면 공격력이 상승합니다.",
+                "Augmente l'ATT lorsqu'une lance est équipée.",
+                "Erhöht ANG, wenn ein Speer ausgerüstet ist."
+            ]
+        }
+    },
+    "910208": {
+        "name": "Ignitos Support",
+        "compendium_id": 9298,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase damage inflicted for jump attacks by 200%"],
+        "effects_raw": [[1, 3, 17, [200]]],
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "Ignitos Support",
+                "伊格尼托斯的救援",
+                "이그니토의 지원",
+                "Soutien Ignitos",
+                "Funkenunterstützung",
+                "Apoyo de Ignitos"
+            ],
+            "desc_short": [
+                "Boost damage for jump attacks",
+                "提高跳躍的傷害",
+                "점프 피해량 상승",
+                "Augmente les dégâts des attaques sautées",
+                "Mehr Schaden bei Sprungattacken",
+                "Aumenta el daño de ataques con salto"
+            ],
+            "desc_long": [
+                "Boosts damage for jump attacks.",
+                "提高跳躍的傷害。",
+                "점프 피해량이 상승합니다.",
+                "Augmente les dégâts des attaques sautées.",
+                "Mehr Schaden bei Sprungattacken"
+            ]
+        }
+    },
+    "910209": {
+        "name": "Restorative Breath",
+        "compendium_id": 9299,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Restorative Breath at the start of a battle"],
+        "effects_raw": [[2, 1, 35, [91002]]],
+        "unit_restriction": null,
+        "icon": "ability_39.png",
+        "strings": {
+            "name": [
+                "Restorative Breath",
+                "恢復吐息",
+                "회복의 숨결",
+                "Souffle curatif",
+                "Heilatem",
+                "Hálito curativo"
+            ],
+            "desc_short": [
+                "Automatically regenerate HP and MP during battle",
+                "戰鬥中自動恢復HP．MP",
+                "전투 중 항상 HP와 MP 회복",
+                "Régénère automatiquement les PV\/PM en combat",
+                "Stellt während des Kampfes automatisch LP und MP wieder her.",
+                "Recupera la VIT y los PM durante el combate"
+            ],
+            "desc_long": [
+                "Automatically regenerates HP and MP during battle.",
+                "戰鬥中自動恢復HP．MP。",
+                "전투 중 항상 HP와 MP를 회복합니다.",
+                "Régénère automatiquement les PV et les PM en combat.",
+                "Stellt während des Kampfes automatisch LP und MP wieder her."
+            ]
+        }
+    },
+    "910210": {
+        "name": "Dragoon Meister",
+        "compendium_id": 9300,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Confusion by 100%",
+            "Increase physical damage against Dragons by 100%"
+        ],
+        "effects_raw": [[1, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [1, 3, 11, [7,  100,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_79.png",
+        "strings": {
+            "name": [
+                "Dragoon Meister",
+                "馴龍大師",
+                "용기사 마스터",
+                "Champion dragonnier",
+                "Dragonermeister",
+                "Domador de dragones"
+            ],
+            "desc_short": [
+                "Boost damage against dragons and nullify confuse",
+                "提高對龍系的傷害+免疫混亂",
+                "드래곤형 마물에 대한 피해량 상승+혼란 무효화",
+                "Augmente les dégâts contre les dragons et annule confusion",
+                "Erhöht Schaden gegen Drachen und annulliert Konfus.",
+                "Aumenta el daño contra dragones y anula la confusión"
+            ],
+            "desc_long": [
+                "Boosts damage against dragons and nullifies confuse.",
+                "提高對龍系的傷害並免疫混亂。",
+                "공격 실행 시 드래곤형 마물에게 주는 피해량이 상승하며 혼란을 무효화합니다.",
+                "Augmente les dégâts contre les dragons et annule confusion.",
+                "Erhöht Schaden gegen Drachen und annulliert Konfus."
+            ]
+        }
+    },
+    "910211": {
+        "name": "Mystic Thrust",
+        "compendium_id": 9301,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 45,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "If used after Ice Breath,Lightning Breath,Fire Breath: \"Physical damage (4x ATK) to all enemies\", otherwise: \"Physical damage (4x ATK) to one enemy\""
+        ],
+        "effects_raw": [[1, 1, 99, [[2,  2,  2], [910203,  910204,  910205], 2, 910214, 2, 910213]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Mystic Thrust",
+                "神秘衝擊",
+                "마법 찌르기",
+                "Coup mystique",
+                "Mystischer Stoß",
+                "Estoque místico"
+            ],
+            "desc_short": [
+                "Deal physical damage to one enemy, or all enemies if ice breath, lightning breath or fire breath has been used",
+                "對1名敵人發動物理攻擊，在寒冰吐息、雷霆吐息、爆炎吐息之後使用時攻擊全體敵人",
+                "적 1명에게 물리 피해 또는 얼음의 숨결, 번개의 숨결, 불꽃의 숨결 사용 시 적 전체에 피해",
+                "Inflige des dégâts physiques sur un ennemi ou tous les ennemis si Souffle glacial, Souffle électrique, Souffle brûlant ont été utilisés",
+                "Fügt einem Gegner physischen Schaden zu oder allen Gegnern, wenn Eis-, Blitz-, oder Feueratem eingesetzt wurde.",
+                "Inflige daño físico a un enemigo o a todos si se usa tras Hálito helado, Hálito eléctrico o Hálito ígneo"
+            ],
+            "desc_long": [
+                "Deals physical damage to one enemy.",
+                "對1名敵人發動物理攻擊，在寒冰吐息、雷霆吐息、爆炎吐息之後使用時攻擊全體敵人。",
+                "적 1명에게 물리 피해를 줍니다.",
+                "Inflige des dégâts physiques sur un ennemi ou tous les ennemis si Souffle glacial, Souffle électrique ou Souffle brûlant ont été utilisés.",
+                "Fügt einem Gegner physischen Schaden zu."
+            ]
+        }
+    },
+    "910212": {
+        "name": "Crimson Death",
+        "compendium_id": 9302,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 52,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "If used after Jump,Recovery Jump,Raging Thrust: \"Physical damage (4.5x) to one enemy, after one turn of delay and Physical damage (3x ATK) with jump delay (1 turn)\", otherwise: \"Physical damage (3x ATK) with jump delay (1 turn)\""
+        ],
+        "effects_raw": [[1, 1, 99, [[2,  2,  2], [200260,  910206,  910202], 2, 910216, 2, 910215]]],
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "Crimson Death",
+                "深紅死襲",
+                "진홍빛 죽음",
+                "Mort carmin",
+                "Purpurner Tod",
+                "Muerte escarlata"
+            ],
+            "desc_short": [
+                "Leap into the air, then attack next turn, and if jump, recovery jump or raging thrust are used, leap into the air, then attack with Ignitos next turn",
+                "脫離至空，下一回合進行落下攻擊，如果使用過跳躍、恢復跳躍、猛刺，下一回合與伊格尼托斯進行落下攻擊",
+                "공중으로 이탈 후 다음 턴에 낙하 공격, 또는 점프, 리커버리 점프, 분노의 찌르기 사용 시 공중으로 이탈 후 다음 턴에 '이그니토'의 공격",
+                "Saute haut dans les airs et attaque au tour suivant, et si  Saut, Saut curatif ou Coup de rage ont été utilisés, saute dans les airs et attaque avec Lien Ignitos au tour suivant",
+                "Springt in die Luft, Angriff nächste Runde. Angriff mit Funken, wenn Wiederherstellungssprung, Zornesstoß eingesetzt wird.",
+                "Salta y ataca el siguiente turno, o si se usa tras Salto, Salto curativo o Estoque colérico, Ignitos ataca también"
+            ],
+            "desc_long": [
+                "Leaps into the air, then attacks next turn.",
+                "脫離至空，下一回合進行落下攻擊，如果使用過跳躍、恢復跳躍、猛刺，下一回合與伊格尼托斯進行落下攻擊。",
+                "점프해서 공중으로 이탈한 후 다음 턴에 낙하하여 적 1명에게 피해를 줍니다.",
+                "Saute haut dans les airs et attaque au tour suivant.",
+                "Springt in die Luft, Angriff nächste Runde"
+            ]
+        }
+    },
+    "910213": {
+        "name": "Mystic Thrust",
+        "compendium_id": 9303,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 45,
+        "attack_count": 7,
+        "attack_frames": [42, 52, 62, 72, 82, 92, 102],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["Physical damage (4x ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Mystic Thrust",
+                "神秘衝擊",
+                "신비의 창",
+                "Coup mystique",
+                "Mystischer Stoß",
+                "Estoque místico"
+            ],
+            "desc_short": [
+                "Deal physical damage to one enemy, or all enemies if ice breath, lightning breath or fire breath has been used",
+                "對1名敵人發動物理攻擊，在寒冰吐息、雷霆吐息、爆炎吐息之後使用時攻擊全體敵人",
+                "적 1명에게 물리 피해 또는 얼음의 숨결, 번개의 숨결, 불꽃의 숨결 사용 시 적 전체에 피해",
+                "Inflige des dégâts physiques sur un ennemi ou tous les ennemis si Souffle glacial, Souffle électrique, Souffle brûlant ont été utilisés",
+                "Fügt einem Gegner physischen Schaden zu oder allen Gegnern, wenn Eis-, Blitz-, oder Feueratem eingesetzt wurde.",
+                "Inflige daño físico a un enemigo o a todos si se usa tras Hálito helado, Hálito eléctrico o Hálito ígneo"
+            ],
+            "desc_long": [
+                "Deals physical damage to one enemy, or all enemies if ice breath, lightning breath or fire breath has been used.",
+                "對1名敵人發動物理攻擊，在寒冰吐息、雷霆吐息、爆炎吐息之後使用時攻擊全體敵人。",
+                "적 1명에게 물리 피해를 주거나 '얼음의 숨결', '번개의 숨결', '불꽃의 숨결' 사용 시 적 전체에 피해를 줍니다.",
+                "Inflige des dégâts physiques sur un ennemi ou tous les ennemis si Souffle glacial, Souffle électrique ou Souffle brûlant ont été utilisés.",
+                "Fügt einem Gegner physischen Schaden zu oder allen Gegnern, wenn Eis-, Blitz-, oder Feueratem eingesetzt wurde."
+            ]
+        }
+    },
+    "910214": {
+        "name": "Mystic Thrust",
+        "compendium_id": 9304,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 45,
+        "attack_count": 7,
+        "attack_frames": [42, 52, 62, 72, 82, 92, 102],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["Physical damage (4x ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Mystic Thrust",
+                "神秘衝擊",
+                "신비의 창",
+                "Coup mystique",
+                "Mystischer Stoß",
+                "Estoque místico"
+            ],
+            "desc_short": [
+                "Deal physical damage to all enemies",
+                "對全體敵人發動物理攻擊",
+                "적 전체에 물리 피해",
+                "Inflige des dégâts physiques sur tous les ennemis",
+                "Fügt allen Gegnern physischen Schaden zu.",
+                "Inflige daño físico a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals physical damage to all enemies.",
+                "對全體敵人發動物理攻擊。",
+                "적 전체에 물리 피해를 줍니다.",
+                "Inflige des dégâts physiques sur tous les ennemis.",
+                "Fügt allen Gegnern physischen Schaden zu."
+            ]
+        }
+    },
+    "910215": {
+        "name": "Crimson Death",
+        "compendium_id": 9305,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 52,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["Physical damage (3x ATK) with jump delay (1 turn)"],
+        "effects_raw": [[1, 1, 52, [0,  0,  1,  1,  300]]],
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "Crimson Death",
+                "深紅死襲",
+                "진홍빛 죽음",
+                "Mort carmin",
+                "Purpurner Tod",
+                "Muerte escarlata"
+            ],
+            "desc_short": [
+                "Leap into the air, then attack next turn, and if jump, recovery jump or raging thrust are used, leap into the air, then attack with Ignitos next turn",
+                "脫離至空，下一回合進行落下攻擊，如果使用過跳躍、恢復跳躍、猛刺，下一回合與伊格尼托斯進行落下攻擊",
+                "공중으로 이탈 후 다음 턴에 낙하 공격, 또는 점프, 리커버리 점프, 분노의 찌르기 사용 시 공중으로 이탈 후 다음 턴에 '이그니토'의 공격",
+                "Saute haut dans les airs et attaque au tour suivant, et si  Saut, Saut curatif ou Coup de rage ont été utilisés, saute dans les airs et attaque avec Lien Ignitos au tour suivant",
+                "Springt in die Luft, Angriff nächste Runde. Angriff mit Funken, wenn Wiederherstellungssprung, Zornesstoß eingesetzt wird.",
+                "Salta y ataca el siguiente turno, o si se usa tras Salto, Salto curativo o Estoque colérico, Ignitos ataca también"
+            ],
+            "desc_long": [
+                "Leaps into the air, then attacks next turn, and if jump, recovery jump or raging thrust are used, leap into the air, then attack with Ignitos next turn.",
+                "脫離至空，下一回合進行落下攻擊，如果使用過跳躍、恢復跳躍、猛刺，下一回合與伊格尼托斯進行落下攻擊。",
+                "점프해서 공중으로 이탈한 후 다음 턴에 낙하하여 공격하거나 또는 점프, 리커버리 점프, 분노의 찌르기 사용 시 공중으로 이탈 후 다음 턴에 '이그니토'의 공격으로 피해를 줍니다.",
+                "Saute haut dans les airs et attaque au tour suivant, et si Saut, Saut curatif ou Coup de rage ont été utilisés, saute dans les airs et attaque avec Lien Ignitos au tour suivant.",
+                "Springt in die Luft, Angriff nächste Runde. Angriff mit Funken, wenn Wiederherstellungssprung, Zornesstoß eingesetzt wird."
+            ]
+        }
+    },
+    "910216": {
+        "name": "Crimson Death",
+        "compendium_id": 9306,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 52,
+        "attack_count": 7,
+        "attack_frames": [5, 12, 17, 14, 31, 38, 45],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (4.5x) to one enemy, after one turn of delay",
+            "Physical damage (3x ATK) with jump delay (1 turn)"
+        ],
+        "effects_raw": [[1, 1, 13, [1, 0, 0, 1, [1900156,  1900157], 450]], [1, 1, 52, [0,  0,  1,  1,  300]]],
+        "unit_restriction": null,
+        "icon": "ability_80.png",
+        "strings": {
+            "name": [
+                "Crimson Death",
+                "深紅死襲",
+                "진홍빛 죽음",
+                "Mort carmin",
+                "Purpurner Tod",
+                "Muerte escarlata"
+            ],
+            "desc_short": [
+                "Leap into the air, then attack with Ignitos next turn",
+                "脫離至空，下一回合與伊格尼托斯進行落下攻擊",
+                "공중으로 이탈 후 다음 턴에 '이그니토'의 공격",
+                "Saute dans les airs et attaque avec Lien Ignitos au tour suivant",
+                "Springt in die Luft, Angriff nächste Runde mit Funken.",
+                "Salta y ataca con Ignitos el siguiente turno"
+            ],
+            "desc_long": [
+                "Leaps into the air, then attacks with Ignitos next turn.",
+                "脫離至空，下一回合與伊格尼托斯進行落下攻擊。",
+                "점프해서 공중으로 이탈 후 다음 턴에 '이그니토'의 공격으로 피해를 줍니다.",
+                "Saute dans les airs et attaque avec Lien Ignitos au tour suivant.",
+                "Springt in die Luft, Angriff nächste Runde mit Funken."
+            ]
+        }
+    },
+    "910217": {
+        "name": "Genius",
+        "compendium_id": 9307,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 4,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MP by 20% and MAG by 10%"],
+        "effects_raw": [[1, 3, 1, [0,  0,  10,  0,  0,  20,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Genius",
+                "天才",
+                "천재성",
+                "Génie",
+                "Genie",
+                "Genio"
+            ],
+            "desc_short": [
+                "Boost MAG by 10% and MP by 20%",
+                "提高10%魔力、20%MP",
+                "마력 10%, MP 20%  상승",
+                "Augmente la MAGIE de 10% et les PM de 20%",
+                "Erhöht MAG um 10% und MP um 20%.",
+                "Aumenta la MAG un 10% y los PM un 20%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 10% and MP by 20%.",
+                "提高10%魔力、20%MP。",
+                "마력 10%, MP 20%가 상승합니다.",
+                "Augmente la MAGIE de 10% et les PM de 20%.",
+                "Erhöht MAG um 10% und MP um 20%."
+            ]
+        }
+    },
+    "910218": {
+        "name": "Blood Scar",
+        "compendium_id": 9308,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [60],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Fixed damage (999) to self",
+            "Restore 99 MP to self"
+        ],
+        "effects_raw": [[1, 3, 41, [999]], [0, 3, 17, [99]]],
+        "unit_restriction": null,
+        "icon": "ability_92.png",
+        "strings": {
+            "name": [
+                "Blood Scar",
+                "血色傷疤",
+                "핏빛 상처",
+                "Cicatrice sanguinolente",
+                "Blutnarbe",
+                "Cicatriz sangrante"
+            ],
+            "desc_short": [
+                "Consume own HP to restore own MP",
+                "消耗自身HP+恢復自身MP",
+                "사용자의 HP를 소비하여 사용자의 MP 회복",
+                "Consume les PV du lanceur et restaure ses PM",
+                "Überträgt eigene LP auf eigene MP.",
+                "Consume VIT propia para recuperar PM propios"
+            ],
+            "desc_long": [
+                "Consumes own HP to restore own MP.",
+                "消耗自身HP，同時恢復自身MP。",
+                "사용자의 HP를 소모하여 사용자의 MP를 회복합니다.",
+                "Consume les PV du lanceur et restaure ses PM.",
+                "Überträgt eigene LP auf eigene MP."
+            ]
+        }
+    },
+    "910219": {
+        "name": "Dragon's Bane",
+        "compendium_id": 9309,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Dragons by 25% and magic damage by 50%"],
+        "effects_raw": [[0, 3, 11, [7,  25,  50]]],
+        "unit_restriction": null,
+        "icon": "ability_79.png",
+        "strings": {
+            "name": [
+                "Dragon's Bane",
+                "龍之剋星",
+                "드래곤의 적수",
+                "Peste dragonnique",
+                "Drachenfluch",
+                "Azote del dragón"
+            ],
+            "desc_short": [
+                "Boost physical and magic damage against dragon monsters",
+                "使用物理、魔法攻擊時，提高對龍系的傷害",
+                "물리, 마법공격 시 드래곤형 마물에게 주는 피해량 상승",
+                "Augmente les dégâts physiques et magiques contre les dragons",
+                "Erhöht physischen und magischen Schaden gegen Drachen.",
+                "Aumenta el daño físico y mágico contra dragones"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against dragon monsters.",
+                "使用物理、魔法攻擊時，提高對龍系的傷害。",
+                "물리, 마법 공격 실행 시 드래곤형 마물에게 주는 피해량이 상승합니다.",
+                "Augmente les dégâts physiques et magiques contre les dragons.",
+                "Erhöht physischen und magischen Schaden gegen Drachen."
+            ]
+        }
+    },
+    "910220": {
+        "name": "Blood Rage",
+        "compendium_id": 9310,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 4,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase UNKNOWN by 100% for 2 turns when HP drops below 33%"],
+        "effects_raw": [[1, 3, 4, [47,  100,  9000,  33,  0,  2]]],
+        "unit_restriction": null,
+        "icon": "global_ability_10002.png",
+        "strings": {
+            "name": [
+                "Blood Rage",
+                "血色狂熱",
+                "피의 분노",
+                "Rage sanglante",
+                "Blutzorn",
+                "Cólera sangrienta"
+            ],
+            "desc_short": [
+                "Boost LB gauge fill rate when HP drops below a certain level",
+                "HP低於一定量時提高極限技槽的積累速度",
+                "HP가 일정량 이하일 때 LB 게이지 증가량 상승",
+                "Augmente le taux de remplissage de la jauge de limite lorsque les PV descendent en dessous d'un certain seuil",
+                "Steigert die Laderate des Limitmeters, wenn die LP auf eine bestimmte Stufe fallen.",
+                "La barra de EL se llena más rápido cuando la VIT baja hasta cierto punto"
+            ],
+            "desc_long": [
+                "Boosts the limit burst gauge fill rate when HP drops below a certain level.",
+                "HP低於一定量時提高極限技槽的積累速度。",
+                "HP가 일정량 이하일 때 LB 게이지 증가량이 상승합니다.",
+                "Augmente le taux de remplissage de la jauge de limite lorsque les PV descendent en dessous d'un certain seuil.",
+                "Steigert die Laderate des Limitmeters, wenn die LP auf eine bestimmte Stufe fallen."
+            ]
+        }
+    },
+    "910221": {
+        "name": "Blood Curse",
+        "compendium_id": 9311,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [50],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Magic damage (2.5x MAG) to one enemy",
+            "Reduce MAG by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250]], [1, 1, 3, [0, 0, "-50", 0, 3, 1]]],
+        "unit_restriction": null,
+        "icon": "ability_14.png",
+        "strings": {
+            "name": [
+                "Blood Curse",
+                "血色詛咒",
+                "피의 저주",
+                "Maléfice sanglant",
+                "Blutfluch",
+                "Maldición sangrienta"
+            ],
+            "desc_short": [
+                "Magic damage and reduce MAG for one enemy",
+                "對1名敵人發動魔法攻擊+降低魔力的數值",
+                "적 1명에 마법 피해+마력 감소",
+                "Dégâts magiques et réduit la MAGIE d'un ennemi",
+                "Schaden und MAG runter, ein Ziel.",
+                "Inflige daño mágico y reduce la MAG a un enemigo"
+            ],
+            "desc_long": [
+                "Deals magic damage to one enemy, and reduces their MAG.",
+                "對1名敵人發動魔法攻擊並降低魔力的數值。",
+                "적 1명에게 마법 피해를 주고,마력을 감소시킵니다.",
+                "Inflige des dégâts magiques et réduit la MAGIE d'un ennemi.",
+                "Fügt einem Gegner Magieschaden zu und reduziert seine MAG."
+            ]
+        }
+    },
+    "910222": {
+        "name": "Restless",
+        "compendium_id": 9312,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Paralyze by 100% and Silence by 50%"],
+        "effects_raw": [[1, 3, 2, [0,  0,  0,  50,  100,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_97.png",
+        "strings": {
+            "name": [
+                "Restless",
+                "情緒高漲",
+                "불안감",
+                "Tourments",
+                "Rastlos",
+                "Incansable"
+            ],
+            "desc_short": [
+                "Boost resistance to silence and nullify paralysis",
+                "提高沉默耐性+免疫麻痺",
+                "침묵 저항력 상승+마비 무효화",
+                "Augmente la résistance à Silence et annule paralysie",
+                "Erhöht Resist. Stille und annulliert Lähmung.",
+                "Aumenta la resistencia al silencio y anula la parálisis"
+            ],
+            "desc_long": [
+                "Boosts resistance to silence and nullifies paralysis.",
+                "提高沉默耐性並免疫麻痺。",
+                "침묵 저항력이 상승하고, 마비를 무효화합니다.",
+                "Augmente la résistance à Silence et annule paralysie.",
+                "Erhöht Resist. Stille und annulliert Lähmung."
+            ]
+        }
+    },
+    "910223": {
+        "name": "Blood Rend",
+        "compendium_id": 9313,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "If used after Flare: \"Magic water damage (5x MAG) to one enemy\", otherwise: \"Magic water damage (2.5x MAG) to one enemy\""
+        ],
+        "effects_raw": [[0, 3, 99, [1,  20350,  2,  910227,  2,  910228]]],
+        "unit_restriction": null,
+        "icon": "ability_23.png",
+        "strings": {
+            "name": [
+                "Blood Rend",
+                "血色撕裂",
+                "피의 열파",
+                "Déchirure sanglante",
+                "Blutriss",
+                "Hemorragia sangrienta"
+            ],
+            "desc_short": [
+                "Water damage to one enemy. If flare was used previously, boosted water damage to one enemy",
+                "對1名敵人發動水屬性攻擊，在核爆之後使用時，提高對1名敵人的水屬性傷害",
+                "적 1명에 물속성 피해+플레어 사용 시 물속성 피해량 증가",
+                "Dégâts d'eau sur un ennemi. Si Brasier a été utilisé, augmente les dégâts d'eau sur un ennemi",
+                "Fügt einem Gegner Wasserschaden zu. Wenn zuvor Flamme augerüstet war, wird der Wasserschaden erhöht.",
+                "Inflige daño de agua a un enemigo"
+            ],
+            "desc_long": [
+                "Deals water damage to one enemy. If flare was used previously, deal boosted water damage to one enemy.",
+                "對1名敵人發動水屬性攻擊，在核爆之後使用時，提高對1名敵人的水屬性傷害。",
+                "적 1명에게 물속성 피해를 주고, 플레어 사용 시 물속성 피해량이 증가합니다.",
+                "Inflige des dégâts d'eau sur un ennemi. Si Brasier a été utilisé, augmente les dégâts d'eau sur un ennemi",
+                "Fügt einem Gegner Wasserschaden zu. Wenn zuvor Flamme ausgerüstet war, wird der Wasserschaden erhöht."
+            ]
+        }
+    },
+    "910224": {
+        "name": "Mystic Arcana",
+        "compendium_id": 9314,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20% when equipped with a Rod",
+            "Increase MAG by 30% when equipped with a Robe"
+        ],
+        "effects_raw": [[1, 3, 6, [6,  0,  0,  20,  0]], [1, 3, 6, [53,  0,  0,  30,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Mystic Arcana",
+                "神秘奧幻",
+                "신비한 비밀",
+                "Arcane mystique",
+                "Mystisches Arkana",
+                "Arcana mística"
+            ],
+            "desc_short": [
+                "Boost MAG when equipped with a rod or robe",
+                "提高裝備魔棒、法袍時魔力的數值",
+                "홀장과 로브 장착 시 마력 상승",
+                "Augmente la MAGIE lorsqu'un sceptre ou une robe est équipé.",
+                "MAG hoch, wenn mit Rute oder Robe ausgerüstet",
+                "Aumenta la MAG al llevar varas o túnicas"
+            ],
+            "desc_long": [
+                "Boosts MAG when equipped with a rod or robe.",
+                "提高裝備魔棒、法袍時魔力的數值。",
+                "홀장과 로브를 장착하면 마력이 상승합니다.",
+                "Augmente la MAGIE lorsqu'un sceptre ou une robe est équipé.",
+                "Erhöht MAG, wenn eine Rute und\/oder Robe ausgerüstet ist."
+            ]
+        }
+    },
+    "910225": {
+        "name": "Blood Pulsar",
+        "compendium_id": 9315,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 50,
+        "attack_count": 1,
+        "attack_frames": [130],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Magic damage 100 (+2.5x MAG) with consecutive damage increase (max. 4 times, +1x MAG each) to one enemy"],
+        "effects_raw": [[1, 1, 72, [0,  0,  250,  100,  100,  4]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Blood Pulsar",
+                "血色脈衝",
+                "피의 펄서",
+                "Pulsar de sang",
+                "Blutpulsar",
+                "Pulso sangriento"
+            ],
+            "desc_short": [
+                "Magic damage to one enemy and increase power with consecutive use",
+                "對1名敵人發動魔法攻擊+連續使用時威力提升",
+                "적 1명에 마법 피해+연속 사용 시 위력 상승",
+                "Dégâts magiques sur un ennemi et augmente en puissance après une utilisation consécutive",
+                "Fügt einem Gegner Magieschaden zu, der bei jedem Angriff zunimmt.",
+                "Daño mágico a un enemigo que aumenta potencia con el uso consecutivo"
+            ],
+            "desc_long": [
+                "Deals magic damage to one enemy. Damage dealt increases with each use.",
+                "對1名敵人發動魔法攻擊+連續使用時威力提升。",
+                "적 1명에게 마법 피해를 주고, 연속해서 사용하면 위력이 더욱 상승합니다.",
+                "Inflige dégâts magiques sur un ennemi et augmente en puissance après une utilisation consécutive.",
+                "Fügt einem Gegner Magieschaden zu. Jede Anwendung verursacht mehr Schaden."
+            ]
+        }
+    },
+    "910226": {
+        "name": "Blood Frenzy",
+        "compendium_id": 9316,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blood Scar, Blood Curse, Blood Pulsar, Blood Rend and Blood Rend twice in one turn"],
+        "effects_raw": [[0, 3, 1006, [2, [910218,  910221,  910225,  910227,  910228]]]],
+        "unit_restriction": null,
+        "icon": "global_ability_10002.png",
+        "strings": {
+            "name": [
+                "Blood Frenzy",
+                "血色狂亂",
+                "피의 광기",
+                "Frénésie sanglante",
+                "Blutrausch",
+                "Frenesí sangriento"
+            ],
+            "desc_short": [
+                "Use blood skills twice in one turn",
+                "1回合內可以使用兩次「血色」系能力",
+                "'피' 계열 어빌리티를 1턴에 2회 사용 가능",
+                "Permet d'utiliser deux aptitudes de sang en un tour",
+                "Kann zweimal pro Runde Blutfertigkeiten einsetzen",
+                "Permite utilizar dos habilidades de sangre en un turno"
+            ],
+            "desc_long": [
+                "Enables unit to use blood skills (blood scar, blood curse, blood rend, blood pulsar) twice in one turn.",
+                "1回合內可以使用兩次「血色」系能力。",
+                "'피' 계열어빌리티를 1턴에 2회 사용할 수 있게 됩니다.",
+                "Permet d'utiliser deux aptitudes de sang en un tour",
+                "Einheit kann zweimal in einer Runde Blutfertigkeiten einsetzen (Blutnarbe, Blutfluch, Blutriss, Blutpulsar)."
+            ]
+        }
+    },
+    "910227": {
+        "name": "Blood Rend",
+        "compendium_id": 9317,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [90],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": ["Magic water damage (5x MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]],
+        "unit_restriction": null,
+        "icon": "ability_23.png",
+        "strings": {
+            "name": [
+                "Blood Rend",
+                "血色撕裂",
+                "피의 열파",
+                "Déchirure sanglante",
+                "Blutriss",
+                "Hemorragia sangrienta"
+            ],
+            "desc_short": [
+                "Boosted water damage to one enemy",
+                "對1名敵人發動水屬性攻擊",
+                "적 1명에 물속성 피해",
+                "Augmente les dégâts d'eau sur un ennemi",
+                "Fügt einem Gegner erhöhten Wasserschaden zu.",
+                "Daño mejorado de agua a un enemigo si se usa después de Fulgor"
+            ],
+            "desc_long": [
+                "Deals boosted water damage to one enemy.",
+                "對1名敵人發動水屬性攻擊。",
+                "적 1명에게 물속성 피해를 줍니다.",
+                "Augmente les dégâts d'eau sur un ennemi.",
+                "Fügt einem Gegner erhöhten Wasserschaden zu."
+            ]
+        }
+    },
+    "910228": {
+        "name": "Blood Rend",
+        "compendium_id": 9318,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [90],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": ["Magic water damage (2.5x MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250]]],
+        "unit_restriction": null,
+        "icon": "ability_23.png",
+        "strings": {
+            "name": [
+                "Blood Rend",
+                "血色撕裂",
+                "피의 열파",
+                "Déchirure sanglante",
+                "Blutriss",
+                "Hemorragia sangrienta"
+            ],
+            "desc_short": [
+                "Water damage to one enemy. If flare was used previously, boosted water damage to one enemy",
+                "對1名敵人發動水屬性攻擊，在核爆之後使用時，提高對1名敵人的水屬性傷害",
+                "적 1명에 물속성 피해+플레어 사용 시 물속성 피해량 증가",
+                "Dégâts d'eau sur un ennemi. Si Brasier a été utilisé, augmente les dégâts d'eau sur un ennemi",
+                "Fügt einem Gegner Wasserschaden zu. Wenn zuvor Flamme ausgerüstet war, wird der Wasserschaden erhöht.",
+                "Inflige daño de agua a un enemigo"
+            ],
+            "desc_long": [
+                "Deals water damage to one enemy. If flare was used previously, deal boosted water damage to one enemy.",
+                "對1名敵人發動水屬性攻擊，在核爆之後使用時，提高對1名敵人的水屬性傷害。",
+                "적 1명에게 물속성 피해를 주고, 플레어 사용 시 물속성 피해량이 증가합니다.",
+                "Inflige des dégâts d'eau sur un ennemi. Si Brasier a été utilisé, augmente les dégâts d'eau sur un ennemi.",
+                "Fügt einem Gegner Wasserschaden zu. Wenn zuvor Flamme ausgerüstet war, wird der Wasserschaden erhöht."
+            ]
+        }
+    },
+    "910229": {
+        "name": "Dracoslayer",
+        "compendium_id": 9319,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase magic damage against Dragons by 75%"],
+        "effects_raw": [[0, 3, 11, [7,  0,  75]]],
+        "unit_restriction": null,
+        "icon": "ability_79.png",
+        "strings": {
+            "name": [
+                "Dracoslayer",
+                "龍劍士",
+                "드래곤 슬레이어",
+                "Tueur de dragons",
+                "Drachenschlächter",
+                "Matadragones"
+            ],
+            "desc_short": [
+                "Boost magic damage against dragon monsters",
+                "使用魔法攻擊時，提高對龍系的傷害",
+                "마법공격 시 드래곤형 마물에게 주는 피해량 상승",
+                "Augmente les dégâts magiques contre les dragons",
+                "Erhöht Magieschaden gegen Drachenmonster.",
+                "Aumenta el daño mágico contra dragones"
+            ],
+            "desc_long": [
+                "Boosts magic damage against dragon monsters.",
+                "使用魔法攻擊時，提高對龍系的傷害。",
+                "마법 공격 실행 시 드래곤형 마물에게 주는 피해량이 상승합니다.",
+                "Augmente les dégâts magiques contre les dragons.",
+                "Erhöht Magieschaden gegen Drachenmonster."
             ]
         }
     }
