@@ -564,8 +564,8 @@
         "is_twohanded": false,
         "dmg_variance": null,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [910198],
+        "effects": ["Grants 'Manalchemy' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -767,7 +767,7 @@
                 "A short sword imbued with the power of earth that was brought from the distant world of Vana'diel. Its name comes from a race called \"galka\" that lives in Vana'diel.",
                 "來自異界瓦納·迪爾的短劍。其中寓有土屬性的力量。它的名稱起源於瓦納·迪爾的伽卢卡族。",
                 "이계 '바나딜'에서 유입된 단검. 땅속성의 힘이 깃들어 있다. 그 이름은 바나딜에 존재하던 '가르칸'이라 불린 종족과의 관계에서 유래했다고 한다.",
-                "Une épée courte venant de l'Au-delà.",
+                "Une épée courte imprégnée du pouvoir de la terre originaire du monde lointain de Vana'diel. Son nom vient de celui d'une race appelée \"galka\" qui vit à Vana'diel.",
                 "Ein Kurzschwert mit der Macht der Erde aus der fernen Welt Vana'diel. Der Name stammt von der Rasse namens \"Galka\", die dort lebt.",
                 "Una espada corta imbuida con el poder de la tierra del mundo lejano de Vana'diel. Su nombre proviene de una raza conocida como \"Galkan\" que habita dicho mundo."
             ]
@@ -6056,8 +6056,11 @@
         "is_twohanded": false,
         "dmg_variance": null,
         "requirements": null,
-        "skills": [203240],
-        "effects": ["Grants 'MP + 15%' passive."],
+        "skills": [203240, 910200],
+        "effects": [
+            "Grants 'MP + 15%' passive.",
+            "Grants 'Bewitching Fragrance' passive."
+        ],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -6259,7 +6262,7 @@
                 "A spear brought from the distant world of Vana'diel. This weapon is said to be highly effective against a race of beastmen called \"orcs\" whom the humans in Vana'diel faced.",
                 "來自異界瓦納·迪爾的長槍。在異界中，它是人類用來對付獸人的利器。在拉比斯，則能夠對全部人系魔物產生巨大殺傷力。",
                 "이계 '바나딜'에서 유입된 창. 이 창이 본래 존재하던 이계에서는, 인간과 대적하는 수인의 일종 '오크'에게 특히 효과적인 무기였다고 한다. 이 세계에서는, 인간형 마물 전반에 그 효과를 발휘한다는 사실이 판명되었다.",
-                "Une lance venant de l'Au-delà.",
+                "Une lance originaire du lointain monde de Vana'diel. On raconte que cette arme est très efficace contre une race d'hommes-bêtes appelée \"orcs\" contre qui les humains de Vana'diel ont eu à se battre.",
                 "Ein Speer aus der fernen Welt Vana'diel. Diese Waffe gilt als hoch effizient gegen die Bestienmenschen genannt \"Orks\", mit denen die Menschen in Vana'diel konfrontiert sind.",
                 "Una lanza del lejano mundo de Vana'diel. Esta arma se supone que es muy efectiva contra los hombres bestia, más conocidos como \"orcos\", y, por ello, la usaban los humanos de Vana'diel."
             ]
@@ -7848,7 +7851,7 @@
                 "A special wand brought from the distant world of Vana'diel where it is classified as a \"club\" type weapon. The Federation of Windurst only gave these wands to those who proved themselves worthy on the battlefield.",
                 "來自異界瓦納·迪爾的錫杖。在原來的世界中，它屬於「單手棍」範疇。這種武器由溫達斯聯邦配給，只有取得優越戰績的人才能獲得。",
                 "이계 '바나딜'에서 유입된 석장. 이 무기가 본래 존재하던 이계에서는 '한손 곤봉'으로 분류되던 무기라고 한다. 윈더스 연방의 관급품으로, 뛰어난 전적을 올린 자만이 손에 넣을 수 있었다고 한다.",
-                "Une baguette spéciale venant de l'Au-delà.",
+                "Une baguette spéciale originaire du monde lointain de Vanadiel où elle est classé dans la catégorie des \"masses\". La fédération de Windurst ne donne ces baguettes à ceux qui s'en sont montrés dignes sur le champ de bataille.",
                 "Ein spezieller Stab aus der fernen Welt Vana'diel, wo er als \"Knüppel\" gilt. Die Föderation von Windurst übergab diese Waffe nur denen, die sich auf dem Schlachtfeld als würdig erwiesen.",
                 "Una varita especial del mundo lejano de Vana'diel, donde también la consideran un arma similar al garrote. La Federación de Windurst solo le entregaba estas varitas a aquellos que demostraban su valía en combate."
             ]
@@ -9065,7 +9068,7 @@
         }
     },
     "312001400": {
-        "name": "Elven Bow",
+        "name": "Elf'sBow",
         "compendium_id": 464,
         "rarity": 8,
         "type_id": 7,
@@ -9094,7 +9097,7 @@
         "icon": "item_10714.png",
         "strings": {
             "name": [
-                "Elven Bow",
+                "Elf'sBow",
                 "精靈之弓",
                 "엘프의 활",
                 "Arc elfique",
@@ -9686,8 +9689,8 @@
         "is_twohanded": false,
         "dmg_variance": null,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [910199],
+        "effects": ["Grants 'Composure' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -9999,7 +10002,7 @@
                 "A highly efficient gun brought from the distant world of Vana'diel, which was made to target enemy weaknesses. It is said that it was only given to those who excelled in battle against the savages of a distant land.",
                 "來自異界瓦納·迪爾的火槍。這是一種性能極高的射擊武器，能夠準確擊打敵人的弱點。相傳在瓦納·迪爾，只有在打擊蠻族的戰爭中取得優越戰績的人才能獲得這種火槍。",
                 "이계 '바나딜'에서 유입된 총. 적의 약점을 노리는 데 적합한 고성능의 사격용 무기이다. 바나딜에서는, 어느 지역에서 벌어진 야만족과의 전투에서 뛰어난 전적을 올린 자만이 손에 넣을 수 있었다고 한다.",
-                "Un pistolet venant de l'Au-delà.",
+                "Un pistolet très efficace originaire du lointain monde de Vana'diel, fait pour atteindre le point faible des ennemis. On raconte qu'il était donné à ceux qui s'étaient bien battus contre les sauvages d'un monde lointain.",
                 "Eine hoch effiziente Schusswaffe aus der fernen Welt Vana'diel, die der Erfassung der gegnerischen Schwächen dient. Es heißt, nur wer über die Wilden eines fernen Landes triumphierte, bekommt sie verliehen.",
                 "Una pistola del lejano mundo de Vana'diel, especialmente diseñada para explotar las debilidades del enemigo. Se dice que esta arma solo se le entregaba a aquellos que demostraban su valía luchando contra los salvajes de un mundo lejano."
             ]
@@ -11835,7 +11838,7 @@
                 "A shield brought from the distant world of Vana'diel. This particular shield is known in Vana'diel to be a creation that comes only when the alchemic process taken to craft a shield was a great success. Only white mages are allowed to use this shield.",
                 "來自異界瓦納·迪爾的盾牌。在原來的世界中，只有非常成功的煉金術才能夠創造這種裝備，而且僅有白魔道士才被允許裝備它。",
                 "이계 '바나딜'에서 유입된 방패. 이 방패가 본래 존재하던 이계에서는, 연금술의 전성기에 만들어지던 장비로 알려져 있으며 백마도사만이 가질 수 있었다고 한다.",
-                "Un bouclier venant de l'Au-delà.",
+                "Un bouclier originaire du monde lointain de Vana'diel. Il est connu pour être finalisé que lorsque le processus alchimique nécessaire à sa création est parfaitement exécuté. Seuls les mages blancs peuvent utiliser ce bouclier.",
                 "Ein Schild aus der fernen Welt Vana'diel. Dieser bestimmte Schild soll in Vana'diel nur herstellbar sein, wenn der damit verbundene alchemische Prozess erfolgreich war. Nur ein Weißmagier darf diesen Schild führen.",
                 "Un escudo del mundo lejano de Vana'diel. En ese mundo, se sabe que este escudo en particular solo se consigue cuando el proceso alquímico para su creación ha resultado un éxito. Solo los magos blancos pueden llevar este escudo."
             ]
@@ -12537,7 +12540,7 @@
                 "帝國之盾",
                 "제국의 방패",
                 "Bouclier impérial",
-                "Imperiales Schild",
+                "Imperialer Schild",
                 "Escudo imperial"
             ],
             "desc_short": [
@@ -13969,7 +13972,7 @@
                 "A hat brought from the distant world of Vana'diel. This particular hat is known in Vana'diel to be a creation that comes only when the alchemic process taken to craft a hat was a great success.",
                 "來自異界瓦納·迪爾的帽子。在原來的世界中，只有非常成功的煉金術才能夠創造這種裝備。",
                 "이계 '바나딜'에서 유입된 모자. 이 모자가 본래 존재하던 이계에서는, 연금술이 특히 잘 풀릴 때에만 만들어지는 장비로 알려져 있다.",
-                "Un chapeau venant de l'Au-delà.",
+                "Un chapeau originaire du monde lointain de Vana'diel. Il est connu pour être finalisé que lorsque le processus alchimique nécessaire à sa création est parfaitement exécuté.",
                 "Ein Hut aus der fernen Welt Vana'diel. Um diesen Hut in Vana'diel zu erschaffen, muss der damit verbundene alchemische Prozess erfolgreich sein.",
                 "Un sombrero del mundo lejano de Vana'diel. En ese mundo, se sabe que este sombrero en especial solo se consigue cuando el proceso alquímico para su creación ha resultado un éxito."
             ]
@@ -14027,7 +14030,7 @@
                 "A hair ornament worn by a very spirited girl from the distant world of Vana'diel that raises one's power. The hairpin increases the wearer's HP, MP, and ATK.",
                 "來自異界瓦納·迪爾的髮飾，曾屬於一位豪爽的少女。能夠提高裝備者的HP和MP以及攻擊力。",
                 "이계 '바나딜'에서 유입된, 호쾌한 소녀의 머리 장식. 장착하면 HP와 MP, 그리고 공격력이 상승한다.",
-                "Une parure de cheveux venant d'un autre monde qui augmente la puissance de son porteur.",
+                "Une parure de cheveux portée par une jeune fille pleine d'entrain du monde lointain de Vana'diel qui peut augmenter la puissance. L'épingle à cheveux augmente les PV et PM de son porteur, ainsi que son ATT.",
                 "Der Haarschmuck eines mutigen Mädchens aus der fernen Welt Vana'diel, der die Kraft erhöht. Die Haarnadel erhöht die MP und LP sowie die Angriffskraft des Trägers.",
                 "Un ornamento para el pelo que perteneció a una chica llena de vida del lejano mundo de Vana'diel. Esta horquilla aumenta la VIT, los PM y el ATQ de su portador."
             ]
@@ -16972,7 +16975,7 @@
                 "A set of armor brought from the distant world of Vana'diel. It is said that this set of armor could only be obtained after being acknowledged by a young girl who claims to be a fashion leader in Vana'diel.",
                 "來自異界瓦納·迪爾的鎧甲。在原來的世界中，只有得到自稱時尚領袖的少女承認的人才能得到這種防具。",
                 "이계 '바나딜'에서 유입된 갑옷. 이 갑옷이 본래 존재하던 이계에서는, 패션리더라 자칭하던 소녀의 인정 없이는 손에 넣을 수 없는 방어구라고 한다.",
-                "Un ensemble d'armures venant de l'Au-delà.",
+                "Un ensemble d'armures originaire du monde lointain de Vana'diel. On raconte que cet ensemble d'armure ne pouvait être obtenu qu'après avoir reçu l'approbation de l'auto-proclamée Reine de la mode de Vana'diel.",
                 "Ein Rüstungsset aus der fernen Welt Vana'diel. Es heißt, dieses Set erhalte nur der, der von einem jungen Mädchen anerkannt wird, das sich als Modeexpertin Vana'diels bezeichnet.",
                 "Un equipo de armadura del mundo lejano de Vana'diel. Se dice que esta armadura puede conseguirse tras obtener la aprobación de una joven que se define como la reina de la moda de Vana'diel."
             ]
@@ -23688,7 +23691,7 @@
                 "An accessory brought from the distant world of Vana'diel that was created to protect the neck and throat. The accessory holds a unique enchantment that gradually heals the wearer's MP.",
                 "來自異界瓦納·迪爾的首飾，用以保護喉嚨和頸項。它寓有神秘的力量，能夠漸漸恢復裝備者的MP。",
                 "이계 '바나딜'에서 유입된, 목을 보호하기 위한 장신구. 장착하면 서서히 MP가 회복되는 신비한 힘이 깃들어 있다.",
-                "Un accessoire venant de l'Au-delà.",
+                "Un accessoire originaire du monde lointain de Vana'diel, il a été conçu pour protéger le cou et la gorge. Il est imprégné d'une magie qui régénère progressivement les PM de son porteur.",
                 "Ein Accessoire aus der fernen Welt Vana'diel, das Nacken und Hals schützt. Es birgt einen einzigartigen Zauber, der nach und nach die MP des Trägers auffüllt.",
                 "Un accesorio originario del mundo lejano de Vana'diel. Tiene por objeto proteger tanto el cuello como la garganta; además, posee un encantamiento especial que recupera poco a poco los PM de quien lo lleva puesto."
             ]
@@ -23747,7 +23750,7 @@
                 "A talisman from the distant world of Vana'diel that has been imbued with magic power. Equipping this talisman will impart its wearer with resistance against magic, fire, light, and dark attacks.",
                 "來自異界瓦納·迪爾的門符，其中寓有神秘力量。有助於提高魔力和對火、光、暗屬性的耐性。",
                 "이계 '바나딜'에서 유입된, 신비한 힘이 깃든 부적. 장착하면 마력과 불, 빛, 어둠의 세 가지 저항력이 상승한다.",
-                "Un talisman imprégné de pourvoir magique.",
+                "Un talisman originaire du monde lointain de Vana'diel qui a été imprégné de pourvoir magique. Ce talisman permet à son porteur d'être plus résistant contre les attaques de feu, de lumière et de ténèbres.",
                 "Ein Talisman aus der fernen Welt Vana'diel, der mit magischer Kraft getränkt ist. Dieser Talisman versieht den Träger mit Resistenz gegen Magie-, Feuer-, Licht- und Dunkelangriffe.",
                 "Un talismán del lejano mundo de Vana'diel que contiene poder mágico. Si se equipa este talismán, aumentará la resistencia a la magia, fuego, luz y oscuridad de su portador."
             ]
@@ -23802,7 +23805,7 @@
                 "A ring made in celebration of an anniversary. It was crafted in thanks for being able to greet the day marking the anniversary. The ring is imbued with a minor, but special power.",
                 "為慶祝紀念日而製作的特殊戒指。它體現了對特別時日的感激之情。這枚戒指不僅僅是紀念品，它還有著少許特殊的力量。",
                 "기념일을 기념하기 위해 제작된 특별한 반지. 특별한 날을 맞이하게 된 감사의 마음이 담긴 걸작으로, 단순한 기념품을 넘어서 소소하지만 특수한 힘이 깃들어 있다.",
-                "Un anneau fabriqué pour célébrer un anniversaire.",
+                "Un anneau fabriqué pour célébrer un anniversaire. Il a été créé afin de remercier toutes les personnes qui ont permis que cet anniversaire existe. Il est imprégné d'un pouvoir certes mineur, mais très spécial.",
                 "Ein Ring, der für ein Jubiläum geschmiedet wurde. Er wurde aus Dank gefertigt, diesen Tag des Jubiläums erleben zu dürfen. Der Ring ist getränkt mit einer minderen, aber besonderen Kraft.",
                 "Un anillo para conmemorar un aniversario; por tanto, se elaboró para marcar esa fecha. El anillo tiene un poder especial, aunque no muy potente."
             ]
@@ -27222,6 +27225,57 @@
                 "Eine Waffe der Samurai von Ivalice. Dieses kunstvoll gearbeitete Katana hat ein einzigartiges Muster in die Klinge graviert und eine äußerst scharfe Schneide. Es ist auf dem Schlachtfeld von unschätzbarem Wert, aber schwer zu bekommen. Nur diejenigen, die ihre Belastbarkeit im Kampf unter Beweis gestellt haben, wurden je mit dieser Waffe gesehen.",
                 "Una arma llevada por los samuráis the Ivalice. Esta katana tan exquisita tiene un diseño único grabado en su hoja, la cual corta espléndidamente. Aunque puede ser de gran ayuda en un aprieto, es bastante difícil de adquirir, y solo aquellos quienes han mostrado gran persistencia en el campo de batalla han podido obtenerla."
             ]
+        }
+    },
+    "1100000075": {
+        "name": "Assassin‘s Vest",
+        "compendium_id": 90082,
+        "rarity": 7,
+        "type_id": 51,
+        "type": "Light Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "requirements": null,
+        "skills": [101230],
+        "effects": ["Grants 'Evade' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 40,
+            "MAG": 0,
+            "SPR": 20,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Poison": 100,
+                "Paralyze": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 28000,
+        "price_sell": 2800,
+        "icon": "global_equip_10015.png",
+        "strings": {
+            "name": [
+                "Assassin‘s Vest",
+                "暗殺者背心",
+                "암살자의 조끼",
+                "Tunique d'assassin",
+                "Assassinenweste",
+                "Túnica de asesino"
+            ],
+            "desc_short": [
+                "A rare and lightweight vest that once belonged to a master assassin.",
+                "此珍貴輕巧的背心曾屬於一名大師級暗殺者",
+                "암살자의 스승이 가지고 있었던 소지품이라 전해지는 진귀하고 가벼운 조끼.",
+                "Cette veste rare et légère a autrefois appartenu à un maître-assassin.",
+                "Diese seltene wie leichte Weste gehörte einst einem Meisterassassinen.",
+                "Este insólito y ligero vestido perteneció antaño a un maestro asesino."
+            ],
+            "desc_long": null
         }
     },
     "1100000076": {
