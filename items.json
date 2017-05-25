@@ -883,7 +883,7 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Restore 200 (+1.2x SPR) HP over 3 turns to one ally"],
+        "effects": ["Restore 200 (+1.2x, SPR) HP split over 3 turns to one ally"],
         "effects_raw": [[1, 2, 71, [300390,  1]]],
         "icon": "item_2004.png",
         "strings": {
@@ -1923,10 +1923,7 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": [
-            "Fixed damage (1500) to all enemies",
-            "Reduce DEF by 30% for 5 turns to all enemies"
-        ],
+        "effects": ["Fixed damage (1500) to all enemies\nReduce DEF by 30% for 5 turns to all enemies"],
         "effects_raw": [[1, 1, 71, [300170,  1]]],
         "icon": "item_3023.png",
         "strings": {
