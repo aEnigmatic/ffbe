@@ -5642,7 +5642,7 @@
         "element_inflict": null,
         "effects": [
             "Restore 500 HP per turn to one ally",
-            "Restore 10 MP per turn to one ally"
+            "Restore (0.1x, MP) MP per turn to one ally"
         ],
         "effects_raw": [[1, 2, 8, [0,  1,  500,  -1]], [1, 2, 30, [10,  1,  0,  -1]]],
         "icon": "ability_4.png",
@@ -25950,7 +25950,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Restore 30 (+0.1x, MP) MP split over 3 turns to all allies",
+            "Restore 10 (+0.3x, MP) MP split over 3 turns to all allies",
             "Fixed damage (500) to self"
         ],
         "effects_raw": [[2, 2, 30, [30,  1,  10,  3]], [0, 3, 41, [500]]],
@@ -35020,7 +35020,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 30 (+0.1x, MP) MP split over 3 turns to all allies"],
+        "effects": ["Restore 10 (+0.3x, MP) MP split over 3 turns to all allies"],
         "effects_raw": [[2, 2, 30, [30,  1,  10,  3]]],
         "unit_restriction": null,
         "icon": "ability_92.png",
@@ -38667,7 +38667,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Restore 30 (+0.1x, MP) MP split over 3 turns to all allies",
+            "Restore 10 (+0.3x, MP) MP split over 3 turns to all allies",
             "Increase resistance to Water by 100% for 3 turns to all allies"
         ],
         "effects_raw": [[2, 2, 30, [30,  1,  10,  3]], [2, 2, 33, [0,  0,  0,  100,  0,  0,  0,  0,  1,  3]]],
@@ -41313,7 +41313,7 @@
         "element_inflict": null,
         "effects": [
             "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
-            "Increase resistance to all status effects by %s by 100% for all allies"
+            "Increase resistance to all status effects by 100% for all allies"
         ],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  1]]],
         "unit_restriction": null,
@@ -43486,7 +43486,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 30 (+0.1x, MP) MP split over 3 turns to all allies"],
+        "effects": ["Restore 10 (+0.3x, MP) MP split over 3 turns to all allies"],
         "effects_raw": [[2, 2, 30, [30,  1,  10,  3]]],
         "unit_restriction": null,
         "icon": "ability_92.png",
@@ -46770,7 +46770,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase resistance to all status effects by %s by 100% for all allies"],
+        "effects": ["Increase resistance to all status effects by 100% for all allies"],
         "effects_raw": [[2, 2, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]]],
         "unit_restriction": null,
         "icon": "ability_19.png",
@@ -51428,7 +51428,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "If used after Will to Live: \"Restore 130 MP to all allies\", otherwise: \"Restore 30 (+0.1x, MP) MP split over 3 turns to all allies\""
+            "If used after Will to Live: \"Restore 130 MP to all allies\", otherwise: \"Restore 10 (+0.3x, MP) MP split over 3 turns to all allies\""
         ],
         "effects_raw": [[0, 3, 99, [2,  501260,  2,  501300,  2,  501310]]],
         "unit_restriction": null,
@@ -52881,7 +52881,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Restore 20 (+0.1x, MP) MP split over 3 turns to all allies",
+            "Restore 10 (+0.2x, MP) MP split over 3 turns to all allies",
             "Restore 1000 (+10x, SPR) HP split over 3 turns to all allies"
         ],
         "effects_raw": [[2, 2, 30, [20,  1,  10,  3]], [2, 2, 8, [1000,  1,  1000,  3]]],
@@ -61815,7 +61815,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 30 (+0.1x, MP) MP split over 3 turns to all allies"],
+        "effects": ["Restore 10 (+0.3x, MP) MP split over 3 turns to all allies"],
         "effects_raw": [[2, 2, 30, [30,  1,  10,  3]]],
         "unit_restriction": null,
         "icon": "ability_92.png",
@@ -62518,7 +62518,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 30 (+0.1x, MP) MP split over 3 turns to one ally"],
+        "effects": ["Restore 10 (+0.3x, MP) MP split over 3 turns to one ally"],
         "effects_raw": [[1, 2, 30, [30,  1,  10,  3]]],
         "unit_restriction": null,
         "icon": "ability_92.png",
@@ -64994,7 +64994,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG and SPR by 65% for 5 turns to all allies",
-            "Restore 50 (+0.2x, MP) MP split over 5 turns to all allies"
+            "Restore 20 (+0.5x, MP) MP split over 5 turns to all allies"
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  65,  65,  5,  1]], [2, 2, 30, [50,  1,  20,  5]]],
         "unit_restriction": null,
@@ -66786,7 +66786,7 @@
         "effects": [
             "Increase ATK and MAG by 50% for 3 turns to all allies",
             "Reduce DEF and SPR by 20% for 3 turns to all allies",
-            "Restore 30 (+0.1x, MP) MP split over 3 turns to all allies"
+            "Restore 10 (+0.3x, MP) MP split over 3 turns to all allies"
         ],
         "effects_raw": [[2, 2, 3, [50,  0,  50,  0,  3,  1]], [2, 2, 24, [0,  -20,  0,  -20,  3,  1]], [2, 2, 30, [30,  1,  10,  3]]],
         "unit_restriction": null,
@@ -70189,7 +70189,7 @@
         "element_inflict": null,
         "effects": [
             "Reduce physical damage taken by 75% for one turn",
-            "Reduce magic damage taken ATK by 300% for one turn?"
+            "Reduce magic damage taken by 70%[?] for one turn"
         ],
         "effects_raw": [[0, 3, 18, [75,  1,  1]], [0, 3, 19, [300,  1,  1]]],
         "unit_restriction": null,
@@ -70508,7 +70508,7 @@
         "effects": [
             "Increase chance of being targeted by 80% for 3 turns",
             "Reduce physical damage taken by 50% for 3 turns",
-            "Reduce magic damage taken MAG by 100% for one turn?"
+            "Reduce magic damage taken by 90%[?] for 3 turns"
         ],
         "effects_raw": [[0, 3, 61, [80,  3]], [0, 3, 18, [50,  3,  1]], [0, 3, 19, [100,  3,  1]]],
         "unit_restriction": null,
@@ -71001,7 +71001,7 @@
         "element_inflict": null,
         "effects": [
             "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for self",
-            "Increase resistance to all status effects by %s by 100% for self"
+            "Increase resistance to all status effects by 100% for self"
         ],
         "effects_raw": [[1, 3, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [1, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  2]]],
         "unit_restriction": null,
@@ -72653,7 +72653,7 @@
         "effects": [
             "Skip 2 turns",
             "Restore 1500 HP split over 3 turns to self",
-            "Restore (0.65x, MP) MP split over 3 turns to self",
+            "Restore 65 MP split over 3 turns to self",
             "Increase ATK and DEF by 40% for 3 turns to self"
         ],
         "effects_raw": [[1, 3, 56, [0,  1,  0,  2]], [1, 3, 8, [0,  1,  1500,  3]], [1, 3, 30, [0,  1,  65,  3]], [1, 3, 3, [40,  40,  0,  0,  3,  1]]],
