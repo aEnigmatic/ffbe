@@ -384,7 +384,7 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Revive target from KO (20% HP) \/ Insta-kill Reaper monster"],
+        "effects": ["Revive target from KO (20% HP) / Insta-kill Reaper monster"],
         "effects_raw": [[1, 6, 71, [300270,  1]]],
         "icon": "item_1006.png",
         "strings": {
@@ -424,7 +424,7 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Revive target from KO (20% HP) \/ Insta-kill Reaper monster"],
+        "effects": ["Revive target from KO (20% HP) / Insta-kill Reaper monster"],
         "effects_raw": [[1, 6, 71, [300540,  1]]],
         "icon": "item_1019.png",
         "strings": {
@@ -3042,6 +3042,46 @@
                 "L'outil essentiel pour avoir toujours une coupe de cheveux parfaite. Ce produit, longtemps oublié et inventé par un chimiste inconnu qui voulait créer un spray qui puisse faire tenir en place les cheveux de sa fille, a refait surface aujourd'hui dans le royaume dans un emballage plus moderne.",
                 "Ein für die perfekte Frisur entscheidendes Produkt. Ursprünglich war es die Erfindung eines namenlosen Chemikers, der mit dieser Mixtur das Haar seiner Tochter glätten wollte. Als modernes Produkt hält es nun wieder Einzug.",
                 "Un producto indispensable para mantener un peinado perfecto. Un invento olvidado durante mucho tiempo hecho por un químico que buscaba hacer un potingue para alisar el pelo de su hija y que ha reaparecido en estas tierras dentro de un recipiente más moderno."
+            ]
+        }
+    },
+    "106303000": {
+        "name": "Titan Coin",
+        "compendium_id": 422,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9140.png",
+        "strings": {
+            "names": [
+                "Titan Coin",
+                "土神泰坦共鬥硬幣",
+                "바위신 타이탄 레이드 코인",
+                "Jeton de Titan",
+                "Titan-Münze",
+                "Moneda de Titán"
+            ],
+            "desc_short": [
+                "A brown, stone-colored coin",
+                "讓人想到岩石的茶色硬幣",
+                "단단한 바위덩어리를 연상시키는 갈색의 코인.",
+                "Une pièce de monnaie marron, dont les tons se rapprochent de la pierre",
+                "Eine braune, steinähnliche Münze",
+                "Una moneda marrón."
+            ],
+            "desc_long": [
+                "A brown, stone-colored coin. Only those unflinching against great power, and able to see out battles in a fair and even manner are able to obtain it.",
+                "讓人想到岩石的茶色硬幣。只有不畏懼強大力量，有勇氣堂堂正正地挑戰並獲勝的人才能獲得。",
+                "단단한 바위덩어리를 연상시키는 갈색의 코인. 거대한 힘에 꺾이지 않고 정정당당하게 맞서 싸울 용기를 지닌 자만이 손에 넣을 수 있다고 한다.",
+                "Une pièce de monnaie marron, dont les tons se rapprochent de la pierre. Seuls ceux ayant eu suffisamment de courage pour se battre vaillamment et loyalement contre un immense pouvoir peuvent l'obtenir.",
+                "Eine braune, steinähnliche Münze. Nur diejenigen, die größter göttlicher Macht widerstehen und Kämpfe in ehrenvoller Manier bestehen können, bekommen sie je in die Hände.",
+                "Una moneda marrón. Esta moneda solo pueden obtenerla las personas que no se estremecen ante lo sobrecogedor, los que luchan de forma justa y sin ventajas."
             ]
         }
     },
@@ -10685,6 +10725,246 @@
             ]
         }
     },
+    "216000700": {
+        "name": "Sealed Box",
+        "compendium_id": 423,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8328.png",
+        "strings": {
+            "names": [
+                "Sealed Box",
+                "封魔之匣",
+                "봉마의 상자",
+                "Boîte scellée",
+                "Versiegelte Kiste",
+                "Caja sellada"
+            ],
+            "desc_short": [
+                "A box with a great magic power sealed within it",
+                "封印著強大魔力的匣子",
+                "강력한 마력이 봉인된 상자.",
+                "Une boîte à l'intérieur de laquelle est scellé un grand pouvoir magique",
+                "Eine Kiste, in der ein mächtiger Zauber eingeschlossen ist",
+                "Una caja que alberga un gran poder mágico en su interor."
+            ],
+            "desc_long": [
+                "A box with a great magic power sealed within it. Who sealed away this magical power, where it came from, nothing is known about this box's origins. On top of that, since it has been branded with such a high powered seal, it cannot even be opened. However, since the magic held within is so powerful, the magic power emanating from the box itself can be used, and is particularly useful in making equipment.",
+                "封印著強大魔力的匣子。至於何人封印的此魔力還有魔力的出處都充滿著謎團。它更因為被施加了強大的封印，因此無法打開。然而，因被封印的魔力也很強大，可以利用由匣子本體所釋放出的魔力，為製作武具增添力量。",
+                "강력한 마력이 봉인된 상자. 이 마력을 봉인한 자가 누구인지, 마력의 출처가 어디인지 그 모두가 수수께끼에 싸여 있다. 게다가, 매우 고도의 봉인이 걸려 있기 때문에 이 상자를 열 수는 없다. 하지만 그 마력이 지나치게 강력하기 때문에, 상자 자체에서 방출되는 마력을 운용해 무기를 제작할 수는 있다.",
+                "Une boîte à l'intérieur de laquelle est scellé un grand pouvoir magique. Personne ne sait qui l’a scellée, ni d'où elle provient, mais le sort utilisé est si puissant qu'elle est littéralement impossible à ouvrir. De plus, l’énergie contenue dans cette boîte est si puissante que l'on peut se servir de ce qui s’en dégage pour fabriquer des pièces d'équipement.",
+                "Eine Kiste, in der ein mächtiger Zauber eingeschlossen ist. Nichts ist über diese Kiste bekannt, weder wer den Zauber dort versiegelt hat, noch woher sie kommt. Schlimmer noch: Weil das Siegel so kunstvoll angelegt ist, ist niemand in der Lage, die Kiste zu öffnen. Immerhin ist der Zauber so stark, dass seine magische Kraft aus der Kiste herausragt und genutzt werden kann - und zwar zur Herstellung magischer Ausrüstung.",
+                "Una caja que alberga un gran poder mágico en su interior. Nada se sabe sobre sus orígenes: quién guardó el poder mágico que hay dentro, de dónde proviene... Además, esta caja no se puede abrir debido al sello tan potente que tiene. Aun así, de la caja emana un poder mágico tan fuerte que, incluso cerrada, se puede usar; de hecho, es bastante útil a la hora de fabricar equipo."
+            ]
+        }
+    },
+    "216000800": {
+        "name": "Crimson Wing",
+        "compendium_id": 424,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8329.png",
+        "strings": {
+            "names": [
+                "Crimson Wing",
+                "紅玉蟲之翼",
+                "홍옥충의 날개",
+                "Aile pourpre",
+                "Roter Flügel",
+                "Ala escarlata"
+            ],
+            "desc_short": [
+                "A deep crimson wing that sparkles like a ruby",
+                "像紅寶石般閃耀的深紅翅膀",
+                "루비의 광채와 비슷한 진홍의 날개.",
+                "Une aile d'un pourpre profond qui scintille comme un rubis",
+                "Ein tiefroter Flügel, der wie ein Rubin funkelt",
+                "Un ala de color carmesí que brilla como un rubí."
+            ],
+            "desc_long": [
+                "A deep crimson wing that sparkles like a ruby. It is known not only for being beautiful like a ruby, but also for its diamond level hardness. Though they take years to make, the bug known as a crimson beetle, born covered in a ruby colored shell, produces this beautiful wing once it matures. Since little is known about this bug's nature, it has become a source for debate as a subject of research.",
+                "像紅寶石般閃耀的深紅翅膀。紅寶石不單只具有美麗外觀，也因硬度僅次於金剛石而廣為人知。紅寶石本來應該經長年累月所生成，但一種名為紅玉蟲的昆蟲，生來便被紅寶石外殼覆蓋，成蟲後便長成了美麗的紅翅膀。其生態謎團重重，因此成為了不少學者的研究對象。",
+                "루비의 광채와 비슷한 진홍의 날개. 루비는 그 아름다움뿐 아니라, 금강석의 뒤를 잇는 높은 경도를 지녔다고 알려져 있다. 본래 오랜 세월에 걸쳐 만들어지는 것이지만, 홍옥충이라 불리는 혼충은 태어날 때부터 루비 껍질에 둘러싸여 있으며 성충이 되면 아름다운 날개로 날아오른다. 그 생태에 대해 알려진 바가 없기 때문에, 연구 대상으로서 활발한 논의가 이루어지고 있다고 한다.",
+                "Une aile d'un pourpre profond qui scintille comme un rubis. On raconte qu'elle est non seulement aussi belle qu'un rubis mais également que sa solidité n'a rien à envier au plus dur des diamants. Elle provient d'un scarabée pourpre qui est né couvert d'une carapace couleur rubis, mais dont croissance prend malheureusement plusieurs années. Bien peu de choses sont connues au sujet de cet insecte, c'est la raison pour laquelle son statut de sujet de recherche provoque des débats dans la communauté scientifique.",
+                "Ein tiefroter Flügel, der wie ein Rubin funkelt. Der Flügel ist nicht nur wunderschön, sondern auch hart wie ein Diamant. Der Rotkäfer, eingehüllt in einen rubinfarbenen Panzer, bringt diese Flügel nach Jahren des Wachstums hervor. Wenig ist über den Käfer selbst bekannt, weshalb er in letzter Zeit in den Mittelpunkt der Forschung gerückt ist.",
+                "Un ala de color carmesí que brilla como un rubí. Pero esta ala no solo posee la belleza de los rubíes, sino que también es dura como el diamante. Asimismo, su origen se halla en el escarabajo carmesí que, tras años de proceso, genera esta ala al alcanzar la madurez. Sin embargo, como se sabe poco sobre la naturaleza de este insecto, este tema se ha convertido en una fuente de debate para los investigadores."
+            ]
+        }
+    },
+    "216000900": {
+        "name": "Azure Corundum",
+        "compendium_id": 425,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8330.png",
+        "strings": {
+            "names": [
+                "Azure Corundum",
+                "碧空鋼玉",
+                "창공의 강옥",
+                "Corindon azuré",
+                "Blauer Korund",
+                "Corindón azul"
+            ],
+            "desc_short": [
+                "A nearly see-through blue corundum",
+                "清澈透明的天空藍鋼玉",
+                "투명하게 비치는 듯한 하늘빛 강옥.",
+                "Un corindon d'un bleu presque translucide",
+                "Ein beinahe durchsichtiger, blauer Edelstein",
+                "Un corindón de un azul casi transparente."
+            ],
+            "desc_long": [
+                "A nearly see-through blue corundum. Corundums are beautiful transparent stones that through slight variations in how they are created can produce a red ruby, or even a blue sapphire. Above all, the sky blue corundum known as the azure corundum is valued not only for its ornamental uses, but as a special material used in making equipment.",
+                "清澈透明的天空藍鋼玉。鋼玉是無色透明的金鋼鑛石，因生成條件有著微妙的顏色差異，紅色成為紅寶石，藍色則為藍寶石，而藍得透明的則被稱為「碧空鋼玉」。這種天空藍顏色的鋼玉，不僅是裝飾品還是珍貴的特殊道具材料。",
+                "투명하게 비치는 듯한 하늘빛 강옥. 강옥이란 커런덤이라 불리는 무색투명의 아름다운 광석이지만 생성 조건의 미묘한 차이에 따라 빛깔이 바뀌어, 붉은빛을 띠는 것은 루비, 푸른빛을 띠는 것은 사파이어라 불린다. 그중에서도 특히 투명하게 비쳐 보이는 듯한 하늘빛의 강옥을 '창공의 강옥'이라 하며, 장신구뿐 아니라 특수한 도구의 재료로서도 요긴하게 쓰이고 있다.",
+                "Un corindon d'un bleu presque translucide. Les corindons sont de magnifiques pierres transparentes dont les la couleur peut varier en fonction de leur composition. Ils peuvent être ainsi aussi bien rouges comme un rubis ou même bleu comme un saphir. Le corindon azuré est apprécié non seulement comme décoration, mais aussi comme matériau dans la fabrication de pièces d'équipement.",
+                "Ein beinahe durchsichtiger, blauer Edelstein. Diese lichtdurchlässigen Steine können blau oder rot erscheinen, je nachdem, wie sie gefertigt werden. Der blaue Korund ist nicht nur als Schmuckstück geschätzt, sondern auch als besonderes Material bei der Fertigung von Ausrüstung.",
+                "Un corindón de un azul casi transparente. Los corindones son piedras de una gran belleza y color transparente. Si se realizan pequeñas variaciones durante su proceso de creación, también pueden obtenerse rubíes rojos o, incluso, zafiros azules. Asimismo, el corindón aguamarina, también conocido como corindón azul, no solo es popular como ornamento, sino que también es un material muy útil a la hora de fabricar equipo."
+            ]
+        }
+    },
+    "216001000": {
+        "name": "Miasma Chunk",
+        "compendium_id": 426,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8331.png",
+        "strings": {
+            "names": [
+                "Miasma Chunk",
+                "瘴氣凝固體",
+                "독기 덩어리",
+                "Morceau de miasme",
+                "Klumpen Miasma",
+                "Pedazo de miasma"
+            ],
+            "desc_short": [
+                "A substance made from coagulated miasma",
+                "瘴氣凝固後變成的物質",
+                "독기가 응고된 물질.",
+                "Une substance faite de miasme coagulé",
+                "Ein Klumpen aus verdichtetem Miasma",
+                "Una sustancia elaborada a partir de miasma coagulado."
+            ],
+            "desc_long": [
+                "A substance made from coagulated miasma. Though miasma can be deadly in mist form if breathed in over a long period of time, once reduced down to a solid form it becomes stable. Also, by using the right knowledge and techniques to alter its poison, this miasma can be used as a material in making medicines. However, as even one wrong step can lead to death, such techniques are only known to a tiny portion of people.",
+                "瘴氣凝固後變成的物質。長時間吸入霧狀的瘴氣可能會導致喪失性命，所以將它凝縮為固體使其安定。如果能好好運用，瘴氣也能成為可利用的素材。但是只要稍有錯誤很可能會導致喪失性命，僅有極少部分的人知道製作方法。",
+                "독기가 응고된 물질. 안개 형태의 독기는 오랜 시간 들이마시게 되면 목숨을 잃을 수도 있는 위험한 기체이지만, 응축시켜 고체화하면 형태를 안정시킬 수 있다. 독도 잘 사용하면 약이 되는 것처럼, 바른 지식과 절차를 밟으면 독기도 재료로 이용할 수 있다. 그러나 조금이라도 잘못 사용하게 되면 목숨을 앗아갈 수 있기 때문에, 그 제조법은 지극히 일부의 사람들에게만 전해지고 있다.",
+                "Une substance faite de miasme coagulé. Mortel sous sa forme gazeuse lorsqu'il est respiré pendant trop longtemps, le miasme est bien plus stable une fois réduit à l'état solide. En utilisant les bonnes techniques et grâce à certaines connaissances permettant de neutraliser le poison, il peut même servir à fabriquer des médicaments. Toutefois, une erreur dans le processus pouvant être fatale, seule un tout petit groupe de personnes est capable d'utiliser ces techniques.",
+                "Ein Klumpen aus verdichtetem Miasma. Gasförmiges Miasma kann tödlich sein, wenn es über längere Zeit inhaliert wird - doch als Feststoff ist es stabil. Mit dem richtigen Wissen und den richtigen Kniffen kann sein Gift als Wirkstoff in verschiedenen Medizinen verwendet werden. Dieses Wissen ist aber wenigen vorbehalten, denn ein Fehlgriff kann tödliche Folgen haben.",
+                "Una sustancia elaborada a partir de miasma coagulado. A pesar de que su forma gaseosa puede ser mortal si se respira durante un período largo de tiempo, el miasma se vuelve más estable si se reduce a estado sólido. Asimismo, si se aplican las técnicas y los conocimientos necesarios para alterar este veneno, el miasma puede usarse como componente para fabricar medicamentos. Sin embargo, este proceso es muy peligroso y el mínimo fallo puede provocar la muerte; por tanto, estas técnicas solo las conoce un grupo muy reducido de personas."
+            ]
+        }
+    },
+    "216001100": {
+        "name": "Aetherochemical Fiber",
+        "compendium_id": 427,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8334.png",
+        "strings": {
+            "names": [
+                "Aetherochemical Fiber",
+                "魔科學纖維",
+                "마과학 섬유",
+                "Rouleau de fibre éthérochimique",
+                "Ätherochemisches Gewebe",
+                "Fibra etereoquímica"
+            ],
+            "desc_short": [
+                "A fiber made using aetherochemical technology",
+                "以魔科學技術製作而成的纖維",
+                "마과학 기술로 만들어진 섬유.",
+                "Une fibre fabriquée en utilisant la technologie éthérochimique",
+                "Ein Gewebe, das mithilfe ätherochemischer Techniken hergestellt wurde",
+                "Una fibra hecha con tecnología etereoquímica."
+            ],
+            "desc_long": [
+                "A fiber made using aetherochemical technology. The fibers made through aetherochemical techniques, which are a combination of magic and science used in creating highly powerful weapons, are known for their supreme quality. Not only are they tough, but things to their processability, they are used in creating various items. Above all they are especially suited to being used in airship models which require delicate craftsmanship, which has led this material to be highly valuable amongst avid enthusiasts.",
+                "以魔科學技術製作而成的纖維。魔科學依魔法與科學融合製造出強力兵器，用該技術製作出的纖維品質極高，不僅堅固還具有可加工性，用途廣泛。最適合運用在需要精密技術的飛空艇模型的製作上，在部份愛好者間價格不菲。",
+                "마과학 기술로 만들어진 섬유. 마법과 과학을 융합하여 강력한 병기를 만들어내는 마과학과, 그 기술을 운용해 만든 섬유는 뛰어난 품질로 유명하다. 견고할 뿐 아니라 가공성도 상당하기 때문에, 다양한 제품에 이용되어 왔다. 특히 정밀한 세공을 필요로 하는 비공정 모형의 제작에 최적이기 때문에, 일부 애호가들 사이에서는 고가에 거래되고 있는 듯하다.",
+                "Une fibre fabriquée en utilisant la technologie éthérochimique, combinaison de magie et de science, connue pour sa qualité supérieure. Elle est très résistante et utilisable dans beaucoup de domaines permettant de créer différents objets. Elle est parfaite pour créer des maquettes d'aéronefs qui nécessitent un travail précis et délicat. Ce qui en fait un matériau très prisé des amateurs de ce loisir.",
+                "Ein Gewebe, das mithilfe ätherochemischer Techniken hergestellt wurde und bei der Herstellung mächtiger magischer Waffen Verwendung findet. Das besondere Verfahren, eine Kombination aus chemischen und magischen Prozessen, garantiert beste Qualität. Das Gewebe ist nicht nur widerstandsfähig, sondern auch flexibel und lässt sich bei der Herstellung verschiedener Gegenstände einsetzen. Verwendung findet es auch als geeigneter Werkstoff für Luftschiffe - ein Umstand, der den Stoff für Enthusiasten besonders wertvoll macht.",
+                "Una fibra hecha con tecnología etereoquímica. Este tipo de fibras, creadas a partir de una combinación de magia y ciencia, se usan para fabricar armas muy potentes. En resumen, son de calidad superior: son resistentes y, además, gracias a lo fáciles que son de procesar, se pueden usar para fabricar una gran variedad de objetos. Aun así, se emplean mayormente en la fabricación de barcos voladores, pues requieren de mucha mañana y eso ha hecho que los entusiastas valoren mucho este material."
+            ]
+        }
+    },
+    "216001200": {
+        "name": "Corrupt Weed",
+        "compendium_id": 428,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8333.png",
+        "strings": {
+            "names": [
+                "Corrupt Weed",
+                "腐壞的雜草",
+                "퇴폐의 밤풀",
+                "Herbe corrompue",
+                "Verdorbenes Kraut",
+                "Hierba ponzoñosa"
+            ],
+            "desc_short": [
+                "An oddly colored type of grass",
+                "顏色古怪的草",
+                "기분 나쁜 빛깔을 띤 풀.",
+                "Un type d'herbe de couleur étrange",
+                "Eine Art Gras, das seltsam gefärbt ist",
+                "Hierba de color raro."
+            ],
+            "desc_long": [
+                "An oddly colored type of grass. It has been said in texts that the illusive flowers of the heavens bloom when fed by the love and good will of the people, but when fed with ill will and hatred, they produce an ominous black bud. This flower whose danger grows along with the power of its wielder appears to be usable as a material in making weapons so strong they simply overwhelm those they are pointed at.",
+                "顏色古怪的草。據文獻記載，於天上盛開的幻花會因人類的善意與愛開出美麗的花，反之，也會因為惡意及憎恨等負面情感，開出漆黑不祥顏色的花。它有時甚至會對持有者的生命造成威脅，但卻能夠成為製作壓倒性強力武具的素材。",
+                "기분 나쁜 빛깔을 띤 풀. 문헌에 따르면, 천상에 피어나는 환상의 꽃은 사람의 선의와 사랑을 받으면 아름다운 꽃을 피워내지만 반대로 악의와 증오 등 부정적인 감정을 강하게 받게 되면 어둡고 불길한 빛깔을 띤 꽃을 피워낸다고 한다. 다루는 이의 기량에 따라 신체에 위협을 가할 수도 있는 이 꽃은, 아이러니하게도 강력한 무기의 재료로서 효과를 발휘하는 듯하다.",
+                "Un type d'herbe de couleur étrange. On peut lire dans les textes que les très rares fleurs célestes fleurissent lorsqu’elles reçoivent de l'amour et des sentiments positifs des gens et se flétrissent lorsqu’elles reçoivent la haine et des sentiments négatifs jusqu'à se changer en un bourgeon d'un noir profond. Cette fleur dont le danger croît en fonction de son porteur peut aussi être utilisée comme matériau dans la création d'armes si puissantes qu'elles submergent tous ceux qu'elles visent.",
+                "Eine Art Gras, das seltsam gefärbt ist. Man erzählt sich, dass die seltene Himmelsblume erblüht, wenn sie mit Liebe und Zuneigung genährt wird, aber schwarze Knospen treibt, wenn sie nur Hass und Missgunst erfährt. Die Gefahr, die von diesem Gewächs ausgeht, steigt mit der Macht ihres Besitzers. Sie kann als Material für Waffen benutzt werden, die so stark sind, dass Gegner alleine beim Anblick überwältigt werden.",
+                "Hierba de color raro. En algunos libros se puede leer que estas ilusorias flores celestiales florecen cuando se las nutre de amor y buena voluntad; pero, si se las alimenta de rencor y odio, producen un capullo negro de mal agüero. Asimismo, mientras más poderoso sea su dueño, más peligrosa es esta flor. Debido a esto, se usa para crear armas tan potentes que infunden pavor a los adversarios."
+            ]
+        }
+    },
     "270000100": {
         "name": "White Alcryst",
         "compendium_id": 282,
@@ -15642,6 +15922,46 @@
                 "Une pièce de monnaie qui dégage une aura terrible. On raconte que seuls ceux qui ne flanchent pas face à l'adversité et qui ont le courage de se battre et d'aller de l'avant même dans les pires situations peuvent l'obtenir.",
                 "Eine Münze mit einer unheilvollen Aura. Es heißt, nur die in der Not Unbeugsamen und tapfer Kämpfenden können ihn erlangen.",
                 "Una moneda que emana un aura siniestra. Se dice que solo aquellos que perseveran y tienen la valentía de enfrentarse a las situaciones más peliagudas son capaces de hacerse con ellas."
+            ]
+        }
+    },
+    "1209000826": {
+        "name": "Shard of Kelsus",
+        "compendium_id": 9050,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 999,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 1,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10112.png",
+        "strings": {
+            "names": [
+                "Shard of Kelsus",
+                "凱爾蘇斯的碎片",
+                "켈서스의 조각",
+                "Éclat de Kelsus",
+                "Splitter von Kelsus",
+                "Fragmento de Kelsus"
+            ],
+            "desc_short": [
+                "A piece of shard once belonged to Kelsus's crystal.",
+                "寄宿著凱爾蘇斯的水晶碎片",
+                "켈서스가 잠들어 있는 크리스탈의 조각.",
+                "Un éclat du cristal qui appartenait autrefois à Kelsus.",
+                "Ein Splitter, der einst zum Kristall von Kelsus gehörte.",
+                "Un fragmento que perteneció al cristal de Kelsus."
+            ],
+            "desc_long": [
+                "A piece of shard that once belonged to Kelsus's crystal. According to legend, people who collect enough of these shards can summon and awaken Kelsus.",
+                "寄宿著凱爾蘇斯的水晶碎片。根據傳說，只要將此碎片收集到一定數量，就能夠召喚凱爾蘇斯，並讓其覺醒。",
+                "켈서스가 잠들어 있는 크리스탈의 조각. 전설에 따르면, 이 조각을 필요한 수량만큼 모은 자는 켈서스를 소환하여 각성시킬 수 있다고 한다.",
+                "Un éclat du cristal qui appartenait autrefois à Kelsus. Selon la légende, seuls ceux qui collectent suffisamment de ces éclats ont le pouvoir d'invoquer et d'éveiller Kelsus.",
+                "Ein Splitter, der einst zum Kristall von Kelsus gehörte. Der Legende nach kann der, der genug von diesen Scherben sammelt, Kelsus beschwören und erwecken.",
+                "Un fragmento que perteneció al cristal de Kelsus. Según cuenta la leyenda, aquellos que reunan una cantidad suficiente de estos fragmentos podrán invocar y despertar a Kelsus."
             ]
         }
     }

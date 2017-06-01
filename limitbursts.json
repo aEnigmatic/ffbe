@@ -5978,7 +5978,7 @@
         }
     },
     "100006503": {
-        "name": "Thousand Crys",
+        "name": "Thousand Cries",
         "cost": 0,
         "attack_count": 14,
         "attack_frames": [63, 71, 79, 87, 95, 103, 111, 119, 127, 135, 143, 151, 159, 167],
@@ -5996,7 +5996,7 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  255]]]},
         "strings": {
             "name": [
-                "Thousand Crys",
+                "Thousand Cries",
                 "千響",
                 "천 개의 울음소리",
                 "Mille pleurs",
@@ -6014,7 +6014,7 @@
         }
     },
     "100006504": {
-        "name": "Thousand Crys",
+        "name": "Thousand Cries",
         "cost": 0,
         "attack_count": 16,
         "attack_frames": [63, 71, 79, 87, 95, 103, 111, 119, 127, 135, 143, 151, 155, 159, 162, 167],
@@ -6032,7 +6032,7 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]},
         "strings": {
             "name": [
-                "Thousand Crys",
+                "Thousand Cries",
                 "千響",
                 "천 개의 울음소리",
                 "Mille pleurs",
@@ -6050,7 +6050,7 @@
         }
     },
     "100006505": {
-        "name": "Thousand Crys",
+        "name": "Thousand Cries",
         "cost": 0,
         "attack_count": 20,
         "attack_frames": [63, 71, 79, 87, 95, 103, 111, 119, 123, 127, 130, 135, 138, 143, 147, 151, 155, 159, 162, 167],
@@ -6068,7 +6068,7 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  345]]]},
         "strings": {
             "name": [
-                "Thousand Crys",
+                "Thousand Cries",
                 "千響",
                 "천 개의 울음소리",
                 "Mille pleurs",
@@ -7255,6 +7255,90 @@
                 "적 전체에 일부 방어 무시 피해+아군 전체의 공격력과 방어력 상승",
                 "Inflige des dégâts en partie fixes sur tous les ennemis et augmente l'ATT et la MAGIE de tous les alliés",
                 "Fügt allen Gegnern teilweise direkten Schaden zu und erhöht ANG und MAG für alle Verb."
+            ]
+        }
+    },
+    "100009405": {
+        "name": "Overload",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Increase ATK, DEF and SPR by 100% for 3 turns to self",
+                "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
+            ],
+            "effects_raw": [[0, 3, 3, [100,  100,  0,  100,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Increase ATK, DEF and SPR by 138% for 3 turns to self",
+                "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
+            ],
+            "effects_raw": [[0, 3, 3, [138,  138,  0,  138,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
+        "strings": {
+            "name": [
+                "Overload",
+                "超負荷",
+                "과부하",
+                "Surcharge",
+                "Überladen",
+                "Sobrecarga"
+            ],
+            "desc": [
+                "Boost own ATK, DEF, and SPR, and enable crushing vice for three turns",
+                "提高自身攻擊防禦精神+3回合內可以使用「粉碎萬惡」",
+                "사용자의 공격력, 방어력, 정신력 상승+3턴 동안 '바이스 크러쉬' 사용 가능",
+                "Augmente ATT/DEF/PSY et permet d'utiliser Vice écrasant pendant trois tours",
+                "Erhöht eigenen ANG, ABW und PSY und ermöglicht Schraubstock für drei Runden.",
+                "Aumenta ATQ, DEF y ESP y aprende presa aplastadora durante tres turnos"
+            ]
+        }
+    },
+    "100009406": {
+        "name": "Overload",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Increase ATK, DEF and SPR by 130% for 3 turns to self",
+                "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
+            ],
+            "effects_raw": [[0, 3, 3, [130,  130,  0,  130,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Increase ATK, DEF and SPR by 154% for 3 turns to self",
+                "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
+            ],
+            "effects_raw": [[0, 3, 3, [154,  154,  0,  154,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
+        "strings": {
+            "name": [
+                "Overload",
+                "超負荷",
+                "과부하",
+                "Surcharge",
+                "Überladen",
+                "Sobrecarga"
+            ],
+            "desc": [
+                "Boost own ATK, DEF, and SPR, and enable crushing vice for three turns",
+                "提高自身攻擊防禦精神+3回合內可以使用「粉碎萬惡」",
+                "사용자의 공격력, 방어력, 정신력 상승+3턴 동안 '바이스 크러쉬' 사용 가능",
+                "Augmente ATT/DEF/PSY et permet d'utiliser Vice écrasant pendant trois tours",
+                "Erhöht eigenen ANG, ABW und PSY und ermöglicht Schraubstock für drei Runden.",
+                "Aumenta ATQ, DEF y ESP y aprende presa aplastadora durante tres turnos"
             ]
         }
     },
@@ -13452,7 +13536,7 @@
                 "아군 전체의 방어력과 정신력 상승+전투불능 상태를 1회 자동 회복",
                 "Augmente la DEF et la PSY de tous les alliés et ressuscite automatiquement un allié une fois",
                 "Erhöht ABW und PSY aller Verbündeten, belebt einen Verb. automatisch wieder.",
-                "Aumenta DEF\/ESP de aliados y revive automáticamente a un aliado"
+                "Aumenta DEF/ESP de aliados y revive automáticamente a un aliado"
             ]
         }
     },
@@ -13494,7 +13578,7 @@
                 "아군 전체의 방어력과 정신력 상승+전투불능 상태를 2회 자동 회복",
                 "Augmente la DEF et la PSY de tous les alliés et ressuscite automatiquement un allié une fois",
                 "Erhöht ABW und PSY aller Verbündeten, belebt einen Verb. automatisch wieder.",
-                "Aumenta DEF\/ESP de aliados y revive automáticamente a un aliado"
+                "Aumenta DEF/ESP de aliados y revive automáticamente a un aliado"
             ]
         }
     },
@@ -13536,7 +13620,7 @@
                 "아군 전체의 방어력과 정신력 상승+전투불능 상태를 3회 자동 회복",
                 "Augmente la DEF et la PSY de tous les alliés et ressuscite automatiquement un allié une fois",
                 "Erhöht ABW und PSY aller Verbündeten, belebt einen Verb. automatisch wieder.",
-                "Aumenta DEF\/ESP de aliados y revive automáticamente a un aliado"
+                "Aumenta DEF/ESP de aliados y revive automáticamente a un aliado"
             ]
         }
     },
@@ -15619,7 +15703,7 @@
                 "적 전체에 피해+아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Dégâts sur tous les ennemis et augmente l'ATT, la DEF, la MAGIE et la PSY de les alliés",
                 "Schaden für alle Ziele und ANG, ABW, MAG und PSY hoch, alle Verb.",
-                "Daño a enemigos y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
+                "Daño a enemigos y aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -15661,7 +15745,7 @@
                 "적 전체에 피해+아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Dégâts sur tous les ennemis et augmente l'ATT, la DEF, la MAGIE et la PSY de les alliés",
                 "Schaden für alle Ziele und ANG, ABW, MAG und PSY hoch, alle Verb.",
-                "Daño a enemigos y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
+                "Daño a enemigos y aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -15703,7 +15787,223 @@
                 "적 전체에 피해+아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Dégâts sur tous les ennemis et augmente l'ATT, la DEF, la MAGIE et la PSY de les alliés",
                 "Schaden für alle Ziele und ANG, ABW, MAG und PSY hoch, alle Verb.",
-                "Daño a enemigos y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
+                "Daño a enemigos y aumenta ATQ/DEF/MAG/ESP a aliados"
+            ]
+        }
+    },
+    "214000404": {
+        "name": "Forbidden Chakra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [360],
+        "effect_frames": [323],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (4.67x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  350,  -25]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (5.6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  420,  -25]]]},
+        "strings": {
+            "name": [
+                "Forbidden Chakra",
+                "鬥氣陰陽鬥氣斬",
+                "투기음양투기참",
+                "Chakra interdit",
+                "Verbotenes Chakra",
+                "Chakra prohibido"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦攻擊",
+                "적 1명에게 방어 무시 피해",
+                "Inflige des dégâts en partie fixes sur un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "214000405": {
+        "name": "Forbidden Chakra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [360],
+        "effect_frames": [0],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (5.33x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  400,  -25]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (6.6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  495,  -25]]]},
+        "strings": {
+            "name": [
+                "Forbidden Chakra",
+                "鬥氣陰陽鬥氣斬",
+                "투기음양투기참",
+                "Chakra interdit",
+                "Verbotenes Chakra",
+                "Chakra prohibido"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦攻擊",
+                "적 1명에게 방어 무시 피해",
+                "Inflige des dégâts en partie fixes sur un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "214000406": {
+        "name": "Forbidden Chakra",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [360],
+        "effect_frames": [0],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  450,  -25]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Physical damage (7.6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  570,  -25]]]},
+        "strings": {
+            "name": [
+                "Forbidden Chakra",
+                "鬥氣陰陽鬥氣斬",
+                "투기음양투기참",
+                "Chakra interdit",
+                "Verbotenes Chakra",
+                "Chakra prohibido"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦攻擊",
+                "적 1명에게 방어 무시 피해",
+                "Inflige des dégâts en partie fixes sur un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "214000504": {
+        "name": "Enochian Thunder",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [180],
+        "effect_frames": [0],
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Magic lightning damage (4x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Magic lightning damage (5.4x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]]]},
+        "strings": {
+            "name": [
+                "Enochian Thunder",
+                "天語強雷電",
+                "천사의 언어·선더쟈",
+                "Éclair  énochien",
+                "Enochianischer Donner",
+                "Trueno de Enoc"
+            ],
+            "desc": [
+                "Lightning damage to all enemies",
+                "對全體敵人發動雷屬性攻擊",
+                "적 전체에 번개속성 피해",
+                "Dégâts de foudre sur tous les ennemis",
+                "Blitzschaden, alle Ziele",
+                "Daño de rayo a todos los enemigos"
+            ]
+        }
+    },
+    "214000505": {
+        "name": "Enochian Thunder",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [180],
+        "effect_frames": [0],
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Magic lightning damage (4.5x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Magic lightning damage (6.4x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  640,  0]]]},
+        "strings": {
+            "name": [
+                "Enochian Thunder",
+                "天語強雷電",
+                "천사의 언어·선더쟈",
+                "Éclair  énochien",
+                "Enochianischer Donner",
+                "Trueno de Enoc"
+            ],
+            "desc": [
+                "Lightning damage to all enemies",
+                "對全體敵人發動雷屬性攻擊",
+                "적 전체에 번개속성 피해",
+                "Dégâts de foudre sur tous les ennemis",
+                "Blitzschaden, alle Ziele",
+                "Daño de rayo a todos los enemigos"
+            ]
+        }
+    },
+    "214000506": {
+        "name": "Enochian Thunder",
+        "cost": 0,
+        "attack_count": 1,
+        "attack_frames": [180],
+        "effect_frames": [0],
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Magic lightning damage (5x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Magic lightning damage (7.4x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  740,  0]]]},
+        "strings": {
+            "name": [
+                "Enochian Thunder",
+                "天語強雷電",
+                "천사의 언어·선더쟈",
+                "Éclair  énochien",
+                "Enochianischer Donner",
+                "Trueno de Enoc"
+            ],
+            "desc": [
+                "Lightning damage to all enemies",
+                "對全體敵人發動雷屬性攻擊",
+                "적 전체에 번개속성 피해",
+                "Dégâts de foudre sur tous les ennemis",
+                "Blitzschaden, alle Ziele",
+                "Daño de rayo a todos los enemigos"
             ]
         }
     },
@@ -15745,7 +16045,7 @@
                 "적 1명에게 피해+아군 전체의 공격력, 마력, 정신력, 방어력 상승",
                 "Attaque un ennemi et augmente l'ATT, la MAGIE, la PSY et la DEF de tous les alliés",
                 "Schaden für 1 Geg. u. erhöht ANG, MAG, PSY u. ABW, alle Verb.",
-                "Daño a un enemigo y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
+                "Daño a un enemigo y aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -15787,7 +16087,7 @@
                 "적 1명에게 피해+아군 전체의 공격력, 마력, 정신력, 방어력 상승",
                 "Attaque un ennemi et augmente l'ATT, la MAGIE, la PSY et la DEF de tous les alliés",
                 "Schaden für 1 Geg. u. erhöht ANG, MAG, PSY u. ABW, alle Verb.",
-                "Daño a un enemigo y aumenta ATQ\/DEF\/MAG\/ESP a aliados"
+                "Daño a un enemigo y aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -16208,7 +16508,7 @@
                 "Night Sword",
                 "暗影劍",
                 "어둠의 검",
-                "Lame obscure",
+                "Lame nuit",
                 "Schattenklinge",
                 "Espada sombría"
             ],
@@ -16244,7 +16544,7 @@
                 "Night Sword",
                 "暗影劍",
                 "어둠의 검",
-                "Lame obscure",
+                "Lame nuit",
                 "Schattenklinge",
                 "Espada sombría"
             ],
@@ -18618,7 +18918,7 @@
                 "아군 전체의 마력과 방어력 상승+MP 회복",
                 "Augmente la MAGIE, la DEF et restaure les PM de tous les alliés",
                 "MAg und ABW hoch und stellt alle MP wieder her, alle Verb.",
-                "Aumenta la MAG\/DEF y recupera los PM de todos los aliados"
+                "Aumenta la MAG/DEF y recupera los PM de todos los aliados"
             ]
         }
     },
@@ -20384,7 +20684,7 @@
                 "적 전체에 피해+방어력과 정신력 감소",
                 "Dégâts et réduit la DEF et la PSY de tous les ennemis",
                 "Schaden und ABW und PSY runter, alle Ziele",
-                "Daña y reduce DEF\/ESP a todos los enemigos"
+                "Daña y reduce DEF/ESP a todos los enemigos"
             ]
         }
     },
@@ -20426,7 +20726,7 @@
                 "적 전체에 피해+방어력과 정신력 감소",
                 "Dégâts et réduit la DEF et la PSY de tous les ennemis",
                 "Schaden und ABW und PSY runter, alle Ziele",
-                "Daña y reduce DEF\/ESP a todos los enemigos"
+                "Daña y reduce DEF/ESP a todos los enemigos"
             ]
         }
     },
@@ -21434,7 +21734,7 @@
             "effects": [
                 "Magic damage (5x, MAG) to one enemy",
                 "Increase MAG by 80% for 3 turns to self",
-                "Grants access to following skills for 2 turns:\nBlood Frenzy (910226)"
+                "Gain access to following skills for 2 turns (1 use):\nBlood Frenzy (910226)"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [0, 3, 3, [0,  0,  80,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
         "max_level": {
@@ -21442,7 +21742,7 @@
             "effects": [
                 "Magic damage (7.4x, MAG) to one enemy",
                 "Increase MAG by 104% for 3 turns to self",
-                "Grants access to following skills for 2 turns:\nBlood Frenzy (910226)"
+                "Gain access to following skills for 2 turns (1 use):\nBlood Frenzy (910226)"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  740]], [0, 3, 3, [0,  0,  104,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
         "strings": {
