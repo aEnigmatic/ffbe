@@ -6844,13 +6844,14 @@
                 "Auto-Vallum",
                 "AutoEscudo"
             ],
-            "desc_short": {
-                "0": "Auto-shell during battle",
-                "1": "戰鬥中自動附帶魔防護效果",
-                "2": "전투 중 항상 셸 발동",
-                "3": "Barrière auto en combat",
-                "5": "AutoEscudo en combate"
-            },
+            "desc_short": [
+                "Auto-shell during battle",
+                "戰鬥中自動附帶魔防護效果",
+                "전투 중 항상 셸 발동",
+                "Barrière auto en combat",
+                "Auto-Vallum im Kampf",
+                "AutoEscudo en combate"
+            ],
             "desc_long": [
                 "Automatically casts shell during battle.",
                 "戰鬥中自動附帶魔防護效果。",
@@ -27285,7 +27286,7 @@
                 "對全體敵人發動暗屬性攻擊+威力上升",
                 "적 전체에 어둠속성 피해+위력 상승",
                 "Dégâts de ténèbres sur tous les ennemis et augmentation de la puissance",
-                "Dunkelschaden u. Stärkung, alle Ziele",
+                "Dunkelschaden u. erhöhter Schaden, alle Ziele",
                 "Daño oscuro a los enemigos y aumenta el poder"
             ],
             "desc_long": [
@@ -30075,7 +30076,7 @@
                 "對1名敵人發動火屬性攻擊+威力上升",
                 "적 1명에게 불속성 피해+위력 상승",
                 "Dégâts de feu sur un ennemi et bonus de force",
-                "Feuerschaden u. Stärkung, ein Ziel",
+                "Feuerschaden u. erhöhter Schaden, ein Ziel",
                 "Daño de fuego a un enemigo y aumenta el poder"
             ],
             "desc_long": [
@@ -42138,7 +42139,7 @@
                 "攻擊1名敵人+使用先鋒劍後威力增加",
                 "적 1명에게 피해+재빠른 검격 사용 후 위력 상승",
                 "Dégâts sur un ennemi et bonus de force après avoir utilisé Lame rapide",
-                "Fügt einem Ziel Schaden und Stärkung nach Schnelle Klinge",
+                "Fügt einem Ziel Schaden und erhöhter Schaden nach Schnelle Klinge",
                 "Daño a un enemigo y aumenta el poder al usar Cuchilla veloz"
             ],
             "desc_long": [
@@ -43609,7 +43610,7 @@
                 "對全體敵人發動水屬性攻擊+威力上升",
                 "적 전체에 물속성 피해+위력 상승",
                 "Dégâts d'eau sur tous les ennemis et bonus de force",
-                "Wasserschaden u. Stärkung, alle Ziele",
+                "Wasserschaden u. erhöhter Schaden, alle Ziele",
                 "Daño de agua a todos los enemigos y aumenta el poder"
             ],
             "desc_long": [
@@ -45537,19 +45538,19 @@
                 "Gacela"
             ],
             "desc_short": [
-                "Add chance of evading physical attacks and boost wind resistance by 50%",
-                "提高50%風屬性耐性+一定機率閃避物理攻擊",
-                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %.",
-                "Posibilita evadir ataques físicos y aumenta la res. al viento un 50%"
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern.",
+                "Posibilita evadir ataques físicos y aumenta la resistencia al viento un 50%, esquiva un ataque físico al comienzo del combate y posibilita reducir la resistencia al viento de un enemigo un 75%"
             ],
             "desc_long": [
-                "Boosts wind resistance by 50%, adds a chance of dodging physical attack, evade a physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
-                "提高50%風屬性耐性的數值，同時一定機率閃避物理攻擊。",
-                "바람속성 저항력이 50% 상승하고, 일정 확률로 물리공격을 회피합니다.",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Erhöht Windres. um 50 %, Chance auf Ausweichen vor einem physischen Angriff."
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性。",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소.",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi.",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern."
             ]
         }
     },
@@ -46369,7 +46370,14 @@
                 "Ruinöser Hieb",
                 "Tajo de la ruina"
             ],
-            "desc_short": null,
+            "desc_short": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Dégâts en partie fixes sur un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu",
+                "Daño absoluto parcial a un enemigo"
+            ],
             "desc_long": [
                 "Deals damage partially unaffected by DEF to one enemy.",
                 "對1名敵人發動無視防禦的攻擊。",
@@ -62015,13 +62023,14 @@
                 "Stromausfall",
                 "Antipotenciador"
             ],
-            "desc_short": {
-                "0": "Reduce ATK, DEF, MAG, and SPR for all enemies",
-                "1": "降低全體敵人攻擊防禦魔力精神的數值",
-                "2": "적 전체의 공격력, 방어력, 마력, 정신력 감소",
-                "4": "ANG, ABW, MAG und PSY runter, alle Ziele",
-                "5": "Reduce ATQ/DEF/MAG/ESP de todos los enemigos"
-            },
+            "desc_short": [
+                "Reduce ATK, DEF, MAG, and SPR for all enemies",
+                "降低全體敵人攻擊防禦魔力精神的數值",
+                "적 전체의 공격력, 방어력, 마력, 정신력 감소",
+                "Réduit ATT/DEF/MAGIE/PSY de tous les ennemis",
+                "ANG, ABW, MAG und PSY runter, alle Ziele",
+                "Reduce ATQ/DEF/MAG/ESP de todos los enemigos"
+            ],
             "desc_long": [
                 "Reduces ATK, DEF, MAG, and SPR for all enemies.",
                 "降低全體敵人攻擊防禦魔力精神的數值。",
@@ -62062,7 +62071,7 @@
                 "提高全體隊員攻擊、魔力的數值",
                 "아군 전체의 공격력과 마력 상승",
                 "Augmente l'ATT et la MAGIE de tous les alliés",
-                "ANG hoch, alle Verb.",
+                "ANG und MAG hoch, alle Verb.",
                 "Aumenta el ATQ y la MAG de todos los aliados"
             ],
             "desc_long": [
@@ -79172,7 +79181,7 @@
                 "發動魔法攻擊並提升威力。",
                 "적 1명에게 마법 피해를 주고 위력이 상승합니다.",
                 "Inflige des dégâts magiques et bonus de force.",
-                "Verursacht Magieschaden und Stärkung"
+                "Verursacht Magieschaden und erhöhten Schaden"
             ]
         }
     },
@@ -80692,7 +80701,7 @@
     },
     "910255": {
         "name": "Speedster",
-        "compendium_id": 10267,
+        "compendium_id": 9339,
         "type": "ABILITY",
         "active": false,
         "rarity": 6,
@@ -80717,25 +80726,25 @@
                 "Gacela"
             ],
             "desc_short": [
-                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance to reduce wind resistance by 75% for one enemy",
-                "提高50%風屬性耐性+一定機率閃避物理攻擊",
-                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %.",
-                "Posibilita evadir ataques físicos y aumenta la res. al viento un 50%"
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern.",
+                "Posibilita evadir ataques físicos y aumenta la resistencia al viento un 50%, esquiva un ataque físico al comienzo del combate y posibilita reducir la resistencia al viento de un enemigo un 75%"
             ],
             "desc_long": [
-                "Boosts wind resistance by 50%, adds a chance of dodging physical attack, evade a physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
-                "提高50%風屬性耐性的數值，同時一定機率閃避物理攻擊。",
-                "바람속성 저항력이 50% 상승하고, 일정 확률로 물리공격을 회피합니다.",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Erhöht Windres. um 50 %, Chance auf Ausweichen vor einem physischen Angriff."
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性。",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소.",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi.",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern."
             ]
         }
     },
     "910256": {
         "name": "Speedster",
-        "compendium_id": 10268,
+        "compendium_id": 9340,
         "type": "ABILITY",
         "active": false,
         "rarity": 6,
@@ -80760,19 +80769,19 @@
                 "Gacela"
             ],
             "desc_short": [
-                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance to reduce wind resistance by 75% for one enemy",
-                "提高50%風屬性耐性+一定機率閃避物理攻擊",
-                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %.",
-                "Posibilita evadir ataques físicos y aumenta la res. al viento un 50%"
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern.",
+                "Posibilita evadir ataques físicos y aumenta la resistencia al viento un 50%, esquiva un ataque físico al comienzo del combate y posibilita reducir la resistencia al viento de un enemigo un 75%"
             ],
             "desc_long": [
-                "Boosts wind resistance by 50%, adds a chance of dodging physical attack, evade a physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
-                "提高50%風屬性耐性的數值，同時一定機率閃避物理攻擊。",
-                "바람속성 저항력이 50% 상승하고, 일정 확률로 물리공격을 회피합니다.",
-                "Chance d'esquiver les attaques physiques et d'augmenter la rés. au vent de 50%",
-                "Erhöht Windres. um 50 %, Chance auf Ausweichen vor einem physischen Angriff."
+                "Add chance of evading physical attacks, boost wind resistance by 50%, evade one physical attack at the start of battle and chance of reducing wind resistance by 75% for one enemy.",
+                "提高50%風屬性耐性+一定機率閃避物理攻擊+戰鬥開始時閃避1次物理攻擊+一定機率降低1名敵人75%風屬性耐性。",
+                "바람속성 저항력 50% 상승+일정 확률로 물리공격 회피+전투 시작 시 물리공격 1회 회피+일정 확률로 적 1명의 바람속성 저항력 75% 감소.",
+                "Augmente les chances d'esquiver les attaques physiques, augmente la résistance au vent de 50%, permet d'éviter une attaque physique au début du combat et augmente les chances de réduire de 75% la résistance au vent d'un ennemi.",
+                "Chance auf Ausweichen vor physischen Angriffen, erhöht Windres. um 50 %, weicht bei Kampfbeginn einem phys. Angriff aus, Chance, Windresistenz für einen Gegner um 75% zu verringern."
             ]
         }
     }
