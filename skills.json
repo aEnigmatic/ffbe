@@ -6788,7 +6788,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Protect (Auto) at the start of a battle"],
+        "effects": ["Gain Protect (Auto) (30091) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [30091]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -6831,7 +6831,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Shell (Auto) at the start of a battle"],
+        "effects": ["Gain Shell (Auto) (30141) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [30141]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -6874,7 +6874,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Regen (Auto) at the start of a battle"],
+        "effects": ["Gain Regen (Auto) (10121) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [10121]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -6927,7 +6927,7 @@
                 "自動精神振奮",
                 "자동 리프레쉬",
                 "Auto-Recharge",
-                "Auto-Aufladen",
+                "Auto-Heilaura",
                 "AutoRefrescar"
             ],
             "desc_short": [
@@ -6935,7 +6935,7 @@
                 "戰鬥中自動附帶精神振奮效果",
                 "전투 중 항상 리프레쉬 발동",
                 "Auto-Recharge pendant le combat",
-                "Auto-Regena im Kampf",
+                "Auto-Heilaura im Kampf",
                 "AutoRefrescar durante el combate"
             ],
             "desc_long": [
@@ -6943,7 +6943,7 @@
                 "戰鬥中自動附帶精神振奮效果。",
                 "전투 중 항상 리프레쉬가 발동합니다.",
                 "Lance automatiquement Recharge pendant le combat.",
-                "Setzt im Kampf automatisch Regen. ein."
+                "Setzt im Kampf automatisch Heilaura. ein."
             ]
         }
     },
@@ -9826,8 +9826,8 @@
                 "Objetos individuales curan a todos"
             ],
             "desc_long": [
-                "Enables single-target healing items to be used for all allies.",
-                "使恢復單體的道具全體化。",
+                "Enables single-target potions to be used for all allies.",
+                "可以對全體隊員使用治療劑。",
                 "포션을 전체에 사용할 수 있게 됩니다.",
                 "Les objets de soin individuels soignent désormais tous les alliés.",
                 "Ein-Ziel-Heilgegenstände wirken sich auf alle Verbündeten aus."
@@ -9904,19 +9904,19 @@
                 "Recuperación"
             ],
             "desc_short": [
-                "Cure poison, blind, sleep, silence, paralysis, confusion, disease, and stone for all allies",
-                "治療全體隊員的中毒失明睡眠沉默麻痺混亂生病石化狀態",
+                "Cure poison, blind, sleep, silence, paralysis, and confusion for all allies",
+                "治療全體隊員的中毒失明睡眠沉默麻痺混亂狀態",
                 "아군 전체의 독, 암흑, 수면, 침묵, 마비, 혼란 회복",
-                "Soigne poison, cécité, sommeil, silence, paralysie, et confusion, maladie et pétrification pour tous les alliés",
-                "Heilung gegen Gift/ Ble./ Schl./ Sti./ Lä./ Ko./ Vi./ St., alle Verb.",
-                "Elimina cura ven, ceg, sue, sil, par, conf, enf y pie a los aliados de los aliados"
+                "Soigne poison, cécité, sommeil, silence, paralysie, et confusion pour tous les alliés",
+                "Heilung gegen Gift/ Ble./ Schl./ Sti./ Lä./ Ko., alle Verb.",
+                "Elimina cura ven, ceg, sue, sil, par y conf a todos los aliados"
             ],
             "desc_long": [
-                "Cures poison, blind, sleep, silence, paralysis, confusion, disease, and stone for all allies.",
-                "治療全體隊員的中毒失明睡眠沉默麻痺混亂生病石化狀態。",
+                "Cures poison, blind, sleep, silence, paralysis, and confusion for all allies.",
+                "治療全體隊員的中毒失明睡眠沉默麻痺混亂狀態。",
                 "아군 전체의 독, 암흑, 수면, 침묵, 마비, 혼란을 회복합니다.",
-                "Soigne poison, cécité, sommeil, silence, paralysie, et confusion, maladie et pétrification pour tous les alliés.",
-                "Heilung gegen Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus, und Stein, alle Verb.."
+                "Soigne poison, cécité, sommeil, silence, paralysie et confusion pour tous les alliés.",
+                "Heilung gegen Gift, Blenden, Schlaf, Stille, Lähmung, und Konfus, alle Verb.."
             ]
         }
     },
@@ -10759,7 +10759,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["4 physical attacks (0.8x each, 3.2x total) to one random enemy"],
+        "effects": ["4 physical attacks (0.8x each, 3.2x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  80]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -11450,7 +11450,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Fire"],
-        "effects": ["Hybrid fire damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid fire damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_21.png",
@@ -11493,7 +11493,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
-        "effects": ["Hybrid ice damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid ice damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_22.png",
@@ -11536,7 +11536,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
-        "effects": ["Hybrid lightning damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid lightning damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_20.png",
@@ -11580,7 +11580,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.2x ATK & MAG) to one enemy",
+            "Hybrid damage (1.2x, ATK & MAG) to one enemy",
             "Inflict Sleep (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]], [1, 1, 6, [0,  0,  30,  0,  0,  0,  0,  0,  1]]],
@@ -11626,7 +11626,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.2x ATK & MAG) to one enemy",
+            "Hybrid damage (1.2x, ATK & MAG) to one enemy",
             "Inflict Silence (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]], [1, 1, 6, [0,  0,  0,  30,  0,  0,  0,  0,  1]]],
@@ -11671,7 +11671,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Water"],
-        "effects": ["Hybrid water damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid water damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_23.png",
@@ -11714,7 +11714,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid wind damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -11757,7 +11757,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Earth"],
-        "effects": ["Hybrid earth damage (1.2x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid earth damage (1.2x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]]],
         "unit_restriction": null,
         "icon": "ability_28.png",
@@ -11801,7 +11801,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (1.2x ATK & MAG) to one enemy",
+            "Hybrid dark damage (1.2x, ATK & MAG) to one enemy",
             "Inflict Blind (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]], [1, 1, 6, [0,  30,  0,  0,  0,  0,  0,  0,  1]]],
@@ -11847,7 +11847,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (1.2x ATK & MAG) to one enemy",
+            "Hybrid dark damage (1.2x, ATK & MAG) to one enemy",
             "Inflict Poison (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  120,  120]], [1, 1, 6, [30,  0,  0,  0,  0,  0,  0,  0,  1]]],
@@ -11892,7 +11892,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Fire"],
-        "effects": ["Hybrid fire damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid fire damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_21.png",
@@ -11935,7 +11935,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
-        "effects": ["Hybrid ice damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid ice damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_22.png",
@@ -11978,7 +11978,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
-        "effects": ["Hybrid lightning damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid lightning damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_20.png",
@@ -12021,7 +12021,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Water"],
-        "effects": ["Hybrid water damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid water damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_23.png",
@@ -12064,7 +12064,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid wind damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -12107,7 +12107,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Earth"],
-        "effects": ["Hybrid earth damage (1.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid earth damage (1.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]]],
         "unit_restriction": null,
         "icon": "ability_28.png",
@@ -12151,7 +12151,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.4x ATK & MAG) to one enemy",
+            "Hybrid damage (1.4x, ATK & MAG) to one enemy",
             "Hybrid damage (0.8x) as HP drain (30%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]], [1, 1, 25, [30,  80,  100]]],
@@ -12197,7 +12197,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (1.4x ATK & MAG) to one enemy",
+            "Hybrid dark damage (1.4x, ATK & MAG) to one enemy",
             "Inflict Poison (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]], [1, 1, 6, [30,  0,  0,  0,  0,  0,  0,  0,  1]]],
@@ -12243,7 +12243,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.4x ATK & MAG) to one enemy",
+            "Hybrid damage (1.4x, ATK & MAG) to one enemy",
             "Hybrid damage (0.3x) as MP drain (30%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]], [1, 1, 10, [30,  30,  100]]],
@@ -12288,7 +12288,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
-        "effects": ["Hybrid lightning damage (1.8x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid lightning damage (1.8x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]]],
         "unit_restriction": null,
         "icon": "ability_20.png",
@@ -12331,7 +12331,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Water"],
-        "effects": ["Hybrid water damage (1.8x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid water damage (1.8x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]]],
         "unit_restriction": null,
         "icon": "ability_23.png",
@@ -12374,7 +12374,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (1.8x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid wind damage (1.8x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -12417,7 +12417,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Earth"],
-        "effects": ["Hybrid earth damage (1.8x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid earth damage (1.8x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]]],
         "unit_restriction": null,
         "icon": "ability_28.png",
@@ -12461,7 +12461,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (1.8x ATK & MAG) to one enemy",
+            "Hybrid dark damage (1.8x, ATK & MAG) to one enemy",
             "Inflict Poison (40%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]], [1, 1, 6, [40,  0,  0,  0,  0,  0,  0,  0,  1]]],
@@ -12506,7 +12506,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Light"],
-        "effects": ["Hybrid light damage (2.3x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid light damage (2.3x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  230,  230]]],
         "unit_restriction": null,
         "icon": "ability_5.png",
@@ -12549,7 +12549,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
-        "effects": ["Hybrid dark damage (1.3x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid dark damage (1.3x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  130,  130]]],
         "unit_restriction": null,
         "icon": "ability_26.png",
@@ -12721,7 +12721,7 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (1x MAG, x1.8 to Reaper monsters) to all enemies. (?)"],
+        "effects": ["Magic dark damage (1x, +x1.8 to Reaper monsters, MAG) to all enemies. (?)"],
         "effects_raw": [[2, 1, 23, [12,  0,  0,  180]]],
         "unit_restriction": null,
         "icon": "ability_100.png",
@@ -12764,7 +12764,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 130 (+3x, SPR) split over 3 turns to all allies while singing"],
+        "effects": ["Restore 300 (+1.3x, SPR) HP split over 3 turns to all allies while singing"],
         "effects_raw": [[2, 2, 56, [130,  1,  300,  3]]],
         "unit_restriction": null,
         "icon": "ability_100.png",
@@ -12807,7 +12807,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 160 (+6x, SPR) split over 3 turns to all allies while singing"],
+        "effects": ["Restore 600 (+1.6x, SPR) HP split over 3 turns to all allies while singing"],
         "effects_raw": [[2, 2, 56, [160,  1,  600,  3]]],
         "unit_restriction": null,
         "icon": "ability_100.png",
@@ -12979,7 +12979,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Restore 50 (+0.1x, SPR) MP split over 3 turns to all allies while singing"],
+        "effects": ["Restore 10 (+0.5x, SPR) MP split over 3 turns to all allies while singing"],
         "effects_raw": [[2, 2, 57, [50,  1,  10,  3]]],
         "unit_restriction": null,
         "icon": "ability_100.png",
@@ -15540,7 +15540,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
-        "effects": ["Hybrid lightning damage (1.9x ATK & MAG) to all enemies"],
+        "effects": ["Hybrid lightning damage (1.9x, ATK & MAG) to all enemies"],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  190,  190]]],
         "unit_restriction": null,
         "icon": "ability_20.png",
@@ -15817,7 +15817,7 @@
             "desc_short": [
                 "Boost ATK when equipped with a katana",
                 "提高裝備刀時攻擊的數值",
-                "칼 장착 시 공격력 상승",
+                "도 장착 시 공격력 상승",
                 "Augmente l'ATT si un katana est équipé",
                 "Erhöht ANG, wenn mit Katana ausgerüstet",
                 "Aumenta el ATQ al llevar una katana"
@@ -15845,9 +15845,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Gain Brave (Auto) at the start of a battle",
-            "Gain Faith (Auto) at the start of a battle",
-            "Gain Regen (Auto) at the start of a battle"
+            "Gain Brave (Auto) (30211) at the start of a battle",
+            "Gain Faith (Auto) (30221) at the start of a battle",
+            "Gain Regen (Auto) (10121) at the start of a battle"
         ],
         "effects_raw": [[1, 3, 35, [30211]], [1, 3, 35, [30221]], [1, 3, 35, [10121]]],
         "unit_restriction": null,
@@ -16192,7 +16192,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the limit burst gauge fill rate by 200 for 3 turns to self"],
+        "effects": ["Increase the limit burst gauge fill rate by 200% for 3 turns to self"],
         "effects_raw": [[0, 3, 63, [200,  3]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -16496,7 +16496,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["3 physical attacks (0.8x each, 2.4x total) to one random enemy"],
+        "effects": ["3 physical attacks (0.8x each, 2.4x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  3,  3,  80]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -17144,7 +17144,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Regen (Auto) at the start of a battle"],
+        "effects": ["Gain Regen (Auto) (10121) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [10121]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -18370,7 +18370,7 @@
         "attack_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "3 physical attacks (1x each, 3x total) to one enemy",
+            "3 physical attacks (1x each, 3.0x total, ATK) to one enemy",
             "Inflict Confusion (30%) on one enemy"
         ],
         "effects_raw": [[1, 1, 42, [0,  0,  3,  3,  100]], [1, 1, 6, [0,  0,  0,  0,  0,  30,  0,  0,  1]]],
@@ -18685,7 +18685,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["1-6 physical attacks (1x each, 3.5x total) to one random enemy"],
+        "effects": ["1-6 physical attacks (1x each, 3.5x avg, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  1,  6,  100]]],
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -19425,7 +19425,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Brave (Auto) at the start of a battle"],
+        "effects": ["Gain Brave (Auto) (30211) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [30211]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -19686,7 +19686,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["5 physical attacks (0.6x each, 3x total) to one random enemy"],
+        "effects": ["5 physical attacks (0.6x each, 3.0x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  5,  5,  60]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -19858,7 +19858,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["3 physical attacks (1x each, 3x total) to one enemy"],
+        "effects": ["3 physical attacks (1x each, 3.0x total, ATK) to one enemy"],
         "effects_raw": [[1, 1, 42, [0,  0,  3,  3,  100]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -21694,7 +21694,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["4 physical attacks (0.8x each, 3.2x total) to one random enemy"],
+        "effects": ["4 physical attacks (0.8x each, 3.2x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  80]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -21842,7 +21842,7 @@
             "desc_short": [
                 "Boost ATK when equipped with a katana",
                 "提高裝備刀時攻擊的數值",
-                "칼 장착 시 공격력 상승",
+                "도 장착 시 공격력 상승",
                 "Augmente l'ATT si un katana est équipé",
                 "Erhöht ANG, wenn mit Katana ausgerüstet",
                 "Aumenta el ATQ al llevar una katana"
@@ -23392,7 +23392,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the limit burst gauge fill rate by 200 for 5 turns to self"],
+        "effects": ["Increase the limit burst gauge fill rate by 200% for 5 turns to self"],
         "effects_raw": [[1, 3, 63, [200,  5]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -23659,7 +23659,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
-        "effects": ["Hybrid ice damage (1.55x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid ice damage (1.55x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  155,  155]]],
         "unit_restriction": null,
         "icon": "ability_22.png",
@@ -23920,7 +23920,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Earth"],
-        "effects": ["Hybrid earth damage (1.55x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid earth damage (1.55x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  155,  155]]],
         "unit_restriction": null,
         "icon": "ability_28.png",
@@ -24092,7 +24092,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
-        "effects": ["Hybrid lightning damage (1.55x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid lightning damage (1.55x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  155,  155]]],
         "unit_restriction": null,
         "icon": "ability_20.png",
@@ -24264,7 +24264,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Fire"],
-        "effects": ["Hybrid fire damage (1.55x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid fire damage (1.55x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  155,  155]]],
         "unit_restriction": null,
         "icon": "ability_21.png",
@@ -24660,7 +24660,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Light"],
-        "effects": ["Hybrid light damage (1.8x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid light damage (1.8x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  180,  180]]],
         "unit_restriction": null,
         "icon": "ability_5.png",
@@ -24747,7 +24747,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.5x ATK & MAG) to one enemy",
+            "Hybrid damage (1.5x, ATK & MAG) to one enemy",
             "Hybrid damage (0.6x) as HP drain (40%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  150,  150]], [1, 1, 25, [40,  60,  100]]],
@@ -25265,7 +25265,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (5.4x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid wind damage (5.4x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  540,  540]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -25308,7 +25308,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": ["Wind"],
-        "effects": ["5 physical wind attacks (0.8x each, 4x total) to one random enemy"],
+        "effects": ["5 physical wind attacks (0.8x each, 4.0x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  5,  5,  80]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -25678,7 +25678,7 @@
             "desc_short": [
                 "Boost ATK when equipped with a sword, large sword or katana",
                 "提高裝備劍、大劍、刀時攻擊的數值",
-                "검, 대검, 칼 장착 시 공격력 상승",
+                "검, 대검, 도 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée, une épée longue ou un katana est équipé",
                 "Erhöht ANG, wenn mit Schwert, Langschwert oder Katana ausgerüstet",
                 "Más ATQ con espadas, espadas largas y katanas"
@@ -26098,7 +26098,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["5 physical attacks (1.1x each, 5.5x total) to one random enemy"],
+        "effects": ["5 physical attacks (1.1x each, 5.5x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  5,  5,  110]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -26663,7 +26663,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["4 physical attacks (0.8x each, 3.2x total) to one random enemy"],
+        "effects": ["4 physical attacks (0.8x each, 3.2x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  80]]],
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -27441,7 +27441,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Gain Regen (Auto) at the start of a battle",
+            "Gain Regen (Auto) (10121) at the start of a battle",
             "Recover MP (5%) per turn"
         ],
         "effects_raw": [[1, 3, 35, [10121]], [1, 3, 32, [5]]],
@@ -28067,7 +28067,7 @@
             "desc_short": [
                 "Boost ATK, DEF, MAG and SPR when equipped with a katana",
                 "提高裝備刀時攻擊、防禦、魔力、精神的數值",
-                "칼 장착 시 공격력, 방어력, 마력, 정신력 상승",
+                "도 장착 시 공격력, 방어력, 마력, 정신력 상승",
                 "Augmente l'ATT, la DEF et la PSY lorsqu'un katana est équipé",
                 "Erhöht ANG, ABW, MAG u. PSY, wenn mit Katana ausgerüstet",
                 "Aumenta ATQ/DEF/MAG/ESP al llevar katanas"
@@ -31535,7 +31535,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["2 physical attacks (1.6x each, 3.2x total) to all enemies"],
+        "effects": ["2 physical attacks (1.6x each, 3.2x total, ATK) to all enemies"],
         "effects_raw": [[2, 1, 42, [0,  0,  2,  2,  160]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -32478,7 +32478,7 @@
             "desc_short": [
                 "Boost ATK, DEF, MAG, and SPR when equipped with a katana",
                 "提高裝備刀時攻擊防禦魔力精神的數值",
-                "칼 장착 시 공격력, 방어력, 마력, 정신력 상승",
+                "도 장착 시 공격력, 방어력, 마력, 정신력 상승",
                 "Augmente l'ATT, ma DEF, la MAGIE et la PSY lorsqu'un katana est équipé",
                 "Erhöht ANG, ABW, MAG und PSY, wenn ein Katana ausgerüstet ist.",
                 "Aumenta ATQ/DEF/MAG/ESP al llevar katanas"
@@ -32508,7 +32508,7 @@
             "Ice",
             "Wind"
         ],
-        "effects": ["2 physical ice and wind attacks (1.2x each, 2.4x total) to all enemies"],
+        "effects": ["2 physical ice and wind attacks (1.2x each, 2.4x total, ATK) to all enemies"],
         "effects_raw": [[2, 1, 42, [0,  0,  2,  2,  120]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -32640,7 +32640,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["40% chance to ignore fatal damage when HP is above 50% (max 3 times)"],
+        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 3 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]]],
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -32987,7 +32987,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Gain Regen (Champion) at the start of a battle",
+            "Gain Regen (Champion) (10122) at the start of a battle",
             "Recover MP (10%) per turn",
             "Increase LB gauge by 2 per turn"
         ],
@@ -33720,7 +33720,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["4 physical attacks (0.7x each, 2.8x total) to one random enemy"],
+        "effects": ["4 physical attacks (0.7x each, 2.8x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  70]]],
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -33833,7 +33833,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Regen (Auto) at the start of a battle"],
+        "effects": ["Gain Regen (Auto) (10121) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [10121]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -34788,7 +34788,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["40% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["30% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  30,  0,  1]]],
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -35122,7 +35122,7 @@
         "element_inflict": null,
         "effects": [
             "Physical damage (2.4x, ATK) to one enemy (ignore cover)",
-            "Increase the limit burst gauge fill rate by 200 for 5 turns to self"
+            "Increase the limit burst gauge fill rate by 200% for 5 turns to self"
         ],
         "effects_raw": [[1, 1, 21, [0,  0,  180,  -25]], [0, 3, 63, [200,  5]]],
         "unit_restriction": null,
@@ -39932,7 +39932,7 @@
         "attack_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "3 physical attacks (0.6x each, 1.8x total) to one enemy",
+            "3 physical attacks (0.6x each, 1.8x total, ATK) to one enemy",
             "Inflict one random status effect (Poison, Sleep, Paralyze, Confusion and Disease 30% and Blind, Silence and Petrify 0%)"
         ],
         "effects_raw": [[1, 1, 42, [0,  0,  3,  3,  60]], [1, 1, 34, [30,  0,  30,  0,  30,  30,  30,  0,  1,  1]]],
@@ -40235,7 +40235,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the limit burst gauge fill rate by 200 for 5 turns to self"],
+        "effects": ["Increase the limit burst gauge fill rate by 200% for 5 turns to self"],
         "effects_raw": [[1, 3, 63, [200,  5]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -40539,8 +40539,8 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": ["Fire"],
-        "effects": ["Physical fire damage (3.6x, ATK) to all enemies (ignore cover)"],
-        "effects_raw": [[2, 1, 21, [0,  0,  180,  -50]]],
+        "effects": ["Physical fire damage (5x, ATK) to all enemies (ignore cover)"],
+        "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]],
         "unit_restriction": null,
         "icon": "ability_21.png",
         "strings": {
@@ -40712,10 +40712,10 @@
         "attack_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "Physical damage (1.6x, ATK) to all enemies",
+            "Physical damage (2.5x, ATK) to all enemies",
             "Increase ATK by 60% for 3 turns to all allies"
         ],
-        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  160]], [2, 2, 3, [60,  0,  0,  0,  3,  1]]],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 2, 3, [60,  0,  0,  0,  3,  1]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
         "strings": {
@@ -40757,7 +40757,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["10% chance to ignore fatal damage when HP is above 80% (max 1 times)"],
+        "effects": ["80% chance to ignore fatal damage when HP is above 10% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [10,  80,  0,  1]]],
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -40861,7 +40861,7 @@
                 "戰鬥中自動附帶精神振奮效果",
                 "전투 중 항상 리프레쉬 발동",
                 "Auto-Recharge pendant le combat",
-                "Auto-Regena im Kampf",
+                "Auto-Heilaura im Kampf",
                 "AutoRefrescar durante el combate"
             ],
             "desc_long": [
@@ -40869,7 +40869,7 @@
                 "戰鬥中自動附帶精神振奮效果。",
                 "전투 중 항상 리프레쉬가 발동합니다.",
                 "Lance automatiquement Recharge pendant le combat.",
-                "Setzt im Kampf automatisch Regen. ein."
+                "Setzt im Kampf automatisch Heilaura ein."
             ]
         }
     },
@@ -40950,7 +40950,7 @@
                 "戰鬥中自動附帶精神振奮效果",
                 "전투 중 항상 리프레쉬 발동",
                 "Auto-Recharge pendant le combat",
-                "Auto-Regena im Kampf",
+                "Auto-Heilaura im Kampf",
                 "AutoRefrescar durante el combate"
             ],
             "desc_long": [
@@ -40958,7 +40958,7 @@
                 "戰鬥中自動附帶精神振奮效果。",
                 "전투 중 항상 리프레쉬가 발동합니다.",
                 "Auto-Recharge pendant le combat",
-                "Setzt im Kampf automatisch Regen. ein."
+                "Setzt im Kampf automatisch Heilaura ein."
             ]
         }
     },
@@ -41525,7 +41525,7 @@
                 "아군 전체의 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 회복+저항력 상승",
                 "Soigne et augmente la résistance au poison, à cécité, sommeil, silence, paralysie, confusion, maladie et pétrification de tous les alliés",
                 "Heilung + erhöhte Resi. gegen Gi., Bl., Schl., St., Lä., Ko., Vi., Stei., alle Verb.",
-                "Recupera VIT y aumenta la res. a ven, ceg, sue, sil, par, conf, enf, pie de aliados"
+                "Recupera y aumenta la res. a ven, ceg, sue, sil, par, conf, enf, pie de aliados"
             ],
             "desc_long": [
                 "Cures and boosts resistance to poison, blind, sleep, silence, paralysis, confusion, disease, and stone for all allies.",
@@ -41549,7 +41549,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Regen (Champion) at the start of a battle"],
+        "effects": ["Gain Regen (Champion) (10122) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [10122]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -42119,9 +42119,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Fast Blade: \"Physical damage (3x, ATK) to one enemy\", otherwise: \"Physical damage (1.5x, ATK) to one enemy\""
-        ],
+        "effects": ["Use Savage Blade (500540), or Savage Blade (500530), if used after Fast Blade (207780)"],
         "effects_raw": [[1, 1, 99, [2,  207780,  2,  500530,  2,  500540]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -42165,7 +42163,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.4x ATK & MAG) to one enemy",
+            "Hybrid damage (1.4x, ATK & MAG) to one enemy",
             "Hybrid damage (0.8x) as HP drain (30%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]], [1, 1, 25, [30,  80,  100]]],
@@ -44025,9 +44023,7 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": [
-            "If used after Magical Activation: \"Magic damage (7.2x, MAG) to all enemies (ignore reflect)\", otherwise: \"Magic damage (3.6x, MAG) to all enemies (ignore reflect)\""
-        ],
+        "effects": ["Use Chaos Wave (500580), or Chaos Wave (500590), if used after Magical Activation (208240)"],
         "effects_raw": [[2, 1, 99, [2,  208240,  2,  500590,  2,  500580]]],
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -44334,7 +44330,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["1-7 physical attacks (1.2x each, 4.8x total) to one random enemy"],
+        "effects": ["1-7 physical attacks (1.2x each, 4.8x avg, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  1,  7,  120]]],
         "unit_restriction": null,
         "icon": "ability_10.png",
@@ -45522,7 +45518,7 @@
         "effects": [
             "Increase resistance to Wind by 50%",
             "30% chance of evading physical attacks",
-            "Use Speedster at the start of a battle",
+            "Use Speedster (910255} at the start of a battle",
             "20% chance to counter physical attacks with Speedster (910256) on self"
         ],
         "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  50,  0,  0,  0]], [0, 3, 22, [30]], [0, 3, 56, [910255]], [0, 3, 49, [20,  3,  910256]]],
@@ -46748,7 +46744,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (1.4x ATK & MAG) to one enemy",
+            "Hybrid damage (1.4x, ATK & MAG) to one enemy",
             "Hybrid damage (0.3x) as MP drain (30%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  140,  140]], [1, 1, 10, [30,  30,  100]]],
@@ -47626,7 +47622,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the limit burst gauge fill rate by 200 for 5 turns to all allies"],
+        "effects": ["Increase the limit burst gauge fill rate by 200% for 5 turns to all allies"],
         "effects_raw": [[2, 2, 63, [200,  5]]],
         "unit_restriction": null,
         "icon": "ability_4.png",
@@ -47887,7 +47883,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["Physical damage (1x ATK, x2.1 to Avian monsters) to one enemy. (?)"],
+        "effects": ["Physical damage (1x, +x2.1 to Avian monsters, ATK,) to one enemy. (?)"],
         "effects_raw": [[1, 1, 22, [2,  0,  0,  210]]],
         "unit_restriction": null,
         "icon": "ability_79.png",
@@ -49962,8 +49958,8 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Restore 1000 (+13.5x, SPR) split over 3 turns to all allies while singing",
-            "Restore 60 (+0.3x, SPR) MP split over 3 turns to all allies while singing"
+            "Restore 1350 (+10x, SPR) HP split over 3 turns to all allies while singing",
+            "Restore 30 (+0.6x, SPR) MP split over 3 turns to all allies while singing"
         ],
         "effects_raw": [[2, 2, 56, [1000,  1,  1350,  3]], [2, 2, 57, [60,  1,  30,  3]]],
         "unit_restriction": null,
@@ -51101,8 +51097,8 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Restore 600 (+9.5x, SPR) split over 3 turns to all allies while singing",
-            "Restore 10 (+0.05x, SPR) MP split over 3 turns to all allies while singing"
+            "Restore 950 (+6x, SPR) HP split over 3 turns to all allies while singing",
+            "Restore 5 (+0.1x, SPR) MP split over 3 turns to all allies while singing"
         ],
         "effects_raw": [[2, 2, 56, [600,  1,  950,  3]], [2, 2, 57, [10,  1,  5,  3]]],
         "unit_restriction": null,
@@ -51320,7 +51316,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP by 20%",
-            "Gain Regen (Champion) at the start of a battle"
+            "Gain Regen (Champion) (10122) at the start of a battle"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 35, [10122]]],
         "unit_restriction": null,
@@ -51493,9 +51489,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "If used after Raging Fists: \"Reduce ATK and DEF by 45% for 3 turns to all enemies\", otherwise: \"Reduce ATK and DEF by 45% for 3 turns to one enemy\""
-        ],
+        "effects": ["Use Crushing Fist (501250), or Crushing Fist (501240), if used after Raging Fists (209960)"],
         "effects_raw": [[0, 3, 99, [2,  209960,  2,  501240,  2,  501250]]],
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -51538,9 +51532,7 @@
         "effect_type": "Revive",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "If used after Berserk Attack: \"Auto-revive (80% HP) for 3 turns to all allies\", otherwise: \"Auto-revive (80% HP) for 3 turns to self\""
-        ],
+        "effects": ["Use Will to Live (501270), or Will to Live (501260), if used after Berserk Attack (501320)"],
         "effects_raw": [[0, 3, 99, [2,  501320,  2,  501260,  2,  501270]]],
         "unit_restriction": null,
         "icon": "ability_1.png",
@@ -51583,9 +51575,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Crushing Fist: \"Physical damage (5x, ATK) to all enemies (ignore cover)\", otherwise: \"Physical damage (2.5x, ATK) to all enemies\""
-        ],
+        "effects": ["Use Asuran Fists (501290), or Asuran Fists (501280), if used after Crushing Fist (501240)"],
         "effects_raw": [[0, 3, 99, [2,  501240,  2,  501280,  2,  501290]]],
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -51628,9 +51618,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "If used after Will to Live: \"Restore 130 MP to all allies\", otherwise: \"Restore 10 (+0.3x, MP) MP split over 3 turns to all allies\""
-        ],
+        "effects": ["Use Swelling Vitality (501310), or Swelling Vitality (501300), if used after Will to Live (501260)"],
         "effects_raw": [[0, 3, 99, [2,  501260,  2,  501300,  2,  501310]]],
         "unit_restriction": null,
         "icon": "ability_92.png",
@@ -51673,9 +51661,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Raging Fists: \"Physical damage (2.4x, ATK) to one enemy (ignore cover)\nIncrease ATK by 100% for 3 turns to self\", otherwise: \"Physical damage (2.4x, ATK) to one enemy (ignore cover)\""
-        ],
+        "effects": ["Use Berserk Attack (501330), or Berserk Attack (501320), if used after Raging Fists (209960)"],
         "effects_raw": [[0, 3, 99, [2,  209960,  2,  501320,  2,  501330]]],
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -51718,9 +51704,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Berserk Attack: \"Physical damage (3.33x, ATK) to all enemies (ignore cover)\nGain access to following skills (1 use):\nPrishe Special (501360)\", otherwise: \"Physical damage (3.33x, ATK) to all enemies (ignore cover)\""
-        ],
+        "effects": ["Use Tornado Kick (501350), or Tornado Kick (501340), if used after Berserk Attack (501320)"],
         "effects_raw": [[0, 3, 99, [2,  501320,  2,  501340,  2,  501350]]],
         "unit_restriction": null,
         "icon": "ability_51.png",
@@ -53128,7 +53112,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Fire"],
         "effects": [
-            "Hybrid fire damage (4x ATK & MAG) to all enemies",
+            "Hybrid fire damage (4x, ATK & MAG) to all enemies",
             "Inflict 2 random status effects (30%)"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  30,  1,  2]]],
@@ -53174,7 +53158,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
         "effects": [
-            "Hybrid ice damage (4x ATK & MAG) to all enemies",
+            "Hybrid ice damage (4x, ATK & MAG) to all enemies",
             "Inflict Stop (30%) for 3 turns on all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 88, [30,  3]]],
@@ -53220,7 +53204,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Lightning"],
         "effects": [
-            "Hybrid lightning damage (4x ATK & MAG) to all enemies",
+            "Hybrid lightning damage (4x, ATK & MAG) to all enemies",
             "Reduce MAG and SPR by 30% for 3 turns to all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 24, [0,  0,  -30,  -30,  3,  1]]],
@@ -53539,7 +53523,7 @@
             "desc_short": [
                 "Boost ATK and MAG when equipped with katana",
                 "提高裝備刀時攻擊和魔力的數值",
-                "칼 장착 시 공격력과 마력 상승",
+                "도 장착 시 공격력과 마력 상승",
                 "Augmente l'ATT et la MAGIE lorsqu'un katana est équipée",
                 "Erhöht ANG u. MAG, wenn mit Katana ausgerüstet",
                 "Aumenta el ATQ y la MAG al llevar katanas"
@@ -53879,7 +53863,7 @@
         "effects": [
             "Increase DEF and SPR by 80% for 3 turns to self",
             "Restore 3000 (+9x, SPR) HP split over 3 turns to self",
-            "Increase the limit burst gauge fill rate by 200 for 3 turns to self"
+            "Increase the limit burst gauge fill rate by 200% for 3 turns to self"
         ],
         "effects_raw": [[0, 3, 3, [0,  80,  0,  80,  3,  1]], [0, 3, 8, [900,  1,  3000,  3]], [0, 3, 63, [200,  3]]],
         "unit_restriction": null,
@@ -54528,7 +54512,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Use Kata at the start of a battle"],
+        "effects": ["Use Kata (503210} at the start of a battle"],
         "effects_raw": [[0, 3, 56, [503210]]],
         "unit_restriction": null,
         "icon": "ability_60.png",
@@ -56297,7 +56281,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the limit burst gauge fill rate by 100 for 3 turns to one ally"],
+        "effects": ["Increase the limit burst gauge fill rate by 100% for 3 turns to one ally"],
         "effects_raw": [[1, 2, 63, [100,  3]]],
         "unit_restriction": null,
         "icon": "item_2001.png",
@@ -62317,7 +62301,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["Physical damage (1x, ATK) to one enemy (ignore cover)"],
+        "effects": ["Physical damage (10x, ATK) to one enemy (ignore cover)"],
         "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]]],
         "unit_restriction": null,
         "icon": "ability_40.png",
@@ -63198,7 +63182,7 @@
         "attack_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "Physical damage (1x, ATK) to one enemy (ignore cover)",
+            "Physical damage (10x, ATK) to one enemy (ignore cover)",
             "Reduce damage received by 50% to self for 2 turns"
         ],
         "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]], [0, 3, 101, [50,  2,  1]]],
@@ -63227,6 +63211,448 @@
                 "적 1명에게 일부 방어 무시 피해를 주고, 2턴 동안 사용자가 받는 피해량이 감소합니다.",
                 "Inflige des dégâts en partie fixes à un ennemi et réduit les dégâts reçus par le lanceur pendant deux tours",
                 "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht und reduziert für eine Runde den Schaden, den der Benutzer erleidet."
+            ]
+        }
+    },
+    "501420": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 10110,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 7,
+        "attack_frames": [64, 71, 78, 85, 92, 99, 106],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Magic damage (3.73x, MAG) to all enemies (ignore reflect)",
+            "Reduce resistance to Fire, Lightning and Light by 75% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  280,  25]], [2, 1, 33, [-75,  0,  -75,  0,  0,  0,  -75,  0,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage and reduce fire, lightning, and light resistance for all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊+降低火雷光屬性耐性的數值",
+                "적 전체에 일부 마법방어 무시 피해+불, 번개, 빛속성 저항력 감소",
+                "Inflige des dégâts magiques et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegner teilweise direkten Magieschaden zu und Res. gegen Feuer, Blitz und Licht, alle Gegner.",
+                "Daño absoluto parcial mágico y reduce la res. al fuego, rayo y luz de todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals magic damage partially unaffected by DEF to all enemies and reduces their fire, lightning, and light resistance.",
+                "對全體敵人發動無視部分魔法防禦的攻擊，並降低其火雷光屬性耐性的數值。",
+                "적 전체에 이룹 마법방어 무시 피해를 주고, 불, 번개, 빛속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts magiques et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht und reduziert seine Feuer-, Blitz- und Lichtresistenz."
+            ]
+        }
+    },
+    "501430": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 10111,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 7,
+        "attack_frames": [64, 71, 78, 85, 92, 99, 106],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Magic damage (5.6x, MAG) to all enemies (ignore reflect)",
+            "Reduce resistance to Fire, Lightning and Light by 75% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  420,  25]], [2, 1, 33, [-75,  0,  -75,  0,  0,  0,  -75,  0,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage and reduce fire, lightning, and light resistance for all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊+降低火雷光屬性耐性的數值",
+                "적 전체에 일부 마법방어 무시 피해+불, 번개, 빛속성 저항력 감소",
+                "Inflige des dégâts magiques et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegner teilweise direkten Magieschaden zu und Res. gegen Feuer, Blitz und Licht, alle Gegner.",
+                "Daño absoluto parcial mágico y reduce la res. al fuego, rayo y luz de todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals magic damage partially unaffected by DEF to all enemies and reduces their fire, lightning, and light resistance.",
+                "對全體敵人發動無視部分魔法防禦的攻擊，並降低其火雷光屬性耐性的數值。",
+                "적 전체에 이룹 마법방어 무시 피해를 주고, 불, 번개, 빛속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts magiques et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht und reduziert seine Feuer-, Blitz- und Lichtresistenz."
+            ]
+        }
+    },
+    "501440": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 10112,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 7,
+        "attack_frames": [64, 71, 78, 85, 92, 99, 106],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Magic damage (7.47x, MAG) to all enemies (ignore reflect)",
+            "Reduce resistance to Fire, Lightning and Light by 75% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  560,  25]], [2, 1, 33, [-75,  0,  -75,  0,  0,  0,  -75,  0,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage and reduce fire, lightning, and light resistance for all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊+降低火雷光屬性耐性的數值",
+                "적 전체에 일부 마법방어 무시 피해+불, 번개, 빛속성 저항력 감소",
+                "Inflige des dégâts magiques en partie fixes et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegner teilweise direkten Magieschaden zu und Res. gegen Feuer, Blitz und Licht, alle Gegner.",
+                "Daño absoluto parcial mágico y reduce la res. al fuego, rayo y luz de todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals magic damage partially unaffected by DEF to all enemies and reduces their fire, lightning, and light resistance.",
+                "對全體敵人發動無視部分魔法防禦的攻擊，並降低其火雷光屬性耐性的數值。",
+                "적 전체에 이룹 마법방어 무시 피해를 주고, 불, 번개, 빛속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts magiques en partie fixes et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht und reduziert seine Feuer-, Blitz- und Lichtresistenz."
+            ]
+        }
+    },
+    "501450": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 10113,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 0,
+        "attack_count": 7,
+        "attack_frames": [64, 71, 78, 85, 92, 99, 106],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Magic damage (30x, MAG) to all enemies (ignore reflect)",
+            "Reduce resistance to Fire, Lightning and Light by 75% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  2250,  25]], [2, 1, 33, [-75,  0,  -75,  0,  0,  0,  -75,  0,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage and reduce fire, lightning, and light resistance for all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊+降低火雷光屬性耐性的數值",
+                "적 전체에 일부 마법방어 무시 피해+불, 번개, 빛속성 저항력 감소",
+                "Inflige des dégâts magiques en partie fixes et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegner teilweise direkten Magieschaden zu und Res. gegen Feuer, Blitz und Licht, alle Gegner.",
+                "Daño absoluto parcial mágico y reduce la res. al fuego, rayo y luz de todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals magic damage partially unaffected by DEF to all enemies and reduces their fire, lightning, and light resistance.",
+                "對全體敵人發動無視部分魔法防禦的攻擊，並降低其火雷光屬性耐性的數值。",
+                "적 전체에 이룹 마법방어 무시 피해를 주고, 불, 번개, 빛속성 저항력을 감소시킵니다.",
+                "Inflige des dégâts magiques en partie fixes et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht und reduziert seine Feuer-, Blitz- und Lichtresistenz."
+            ]
+        }
+    },
+    "501460": {
+        "name": "MP Charge",
+        "compendium_id": 10085,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 30 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [30]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Charge",
+                "儲蓄MP",
+                "MP 충전",
+                "Charge PM",
+                "MP-Ladung",
+                "Carga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
+            ]
+        }
+    },
+    "501470": {
+        "name": "MP Super Charge",
+        "compendium_id": 10086,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 75 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [75]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Super Charge",
+                "超儲蓄MP",
+                "MP 슈퍼 충전",
+                "Super charge PM",
+                "MP-Super-Ladung",
+                "Supercarga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
+            ]
+        }
+    },
+    "501480": {
+        "name": "MP Mega Charge",
+        "compendium_id": 10087,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 120 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [120]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Mega Charge",
+                "百萬儲蓄MP",
+                "MP 메가 충전",
+                "Méga charge PM",
+                "MP-Mega-Ladung",
+                "Megacarga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
+            ]
+        }
+    },
+    "501490": {
+        "name": "MP Charge",
+        "compendium_id": 10085,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 45 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [45]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Charge",
+                "儲蓄MP",
+                "MP 충전",
+                "Charge PM",
+                "MP-Ladung",
+                "Carga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
+            ]
+        }
+    },
+    "501500": {
+        "name": "MP Super Charge",
+        "compendium_id": 10086,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 100 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [100]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Super Charge",
+                "超儲蓄MP",
+                "MP 슈퍼 충전",
+                "Super charge PM",
+                "MP-Super-Ladung",
+                "Supercarga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
+            ]
+        }
+    },
+    "501510": {
+        "name": "MP Mega Charge",
+        "compendium_id": 10087,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 1,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 140 MP to all allies"],
+        "effects_raw": [[2, 2, 17, [140]]],
+        "unit_restriction": null,
+        "icon": "ability_4.png",
+        "strings": {
+            "name": [
+                "MP Mega Charge",
+                "百萬儲蓄MP",
+                "MP 메가 충전",
+                "Méga charge PM",
+                "MP-Mega-Ladung",
+                "Megacarga PM"
+            ],
+            "desc_short": [
+                "Restore MP for all allies",
+                "恢復全體隊員的MP",
+                "아군 전체의 MP 회복",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten.",
+                "Recupera los PM de todos los aliados"
+            ],
+            "desc_long": [
+                "Restores MP for all allies.",
+                "恢復全體隊員的MP。",
+                "아군 전체의 MP를 회복합니다.",
+                "Restaure les PM de tous les alliés",
+                "Heilt MP bei allen Verbündeten."
             ]
         }
     },
@@ -64013,7 +64439,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["40% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["30% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  30,  0,  1]]],
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -64983,7 +65409,7 @@
         "effects": [
             "Increase DEF and SPR by 20%",
             "Increase resistance to Light by 50%",
-            "Gain Regen (Champion) at the start of a battle"
+            "Gain Regen (Champion) (10122) at the start of a battle"
         ],
         "effects_raw": [[1, 3, 1, [0,  20,  0,  20,  0,  0,  0]], [1, 3, 3, [0,  0,  0,  0,  0,  0,  50,  0]], [1, 3, 35, [10122]]],
         "unit_restriction": null,
@@ -65546,7 +65972,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["3 physical attacks (1.2x each, 3.6x total) to one random enemy"],
+        "effects": ["3 physical attacks (1.2x each, 3.6x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  3,  3,  120]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -65589,7 +66015,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["4 physical attacks (1.2x each, 4.8x total) to one random enemy"],
+        "effects": ["4 physical attacks (1.2x each, 4.8x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  120]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -66571,8 +66997,8 @@
         "element_inflict": null,
         "effects": [
             "Increase all stats by 100% for 3 turns to all allies while singing",
-            "Restore 800 (+11.5x, SPR) split over 3 turns to all allies while singing",
-            "Restore 50 (+0.2x, SPR) MP split over 3 turns to all allies while singing"
+            "Restore 1150 (+8x, SPR) HP split over 3 turns to all allies while singing",
+            "Restore 20 (+0.5x, SPR) MP split over 3 turns to all allies while singing"
         ],
         "effects_raw": [[2, 2, 58, [100,  100,  100,  100,  3,  1]], [2, 2, 56, [800,  1,  1150,  3]], [2, 2, 57, [50,  1,  20,  3]]],
         "unit_restriction": null,
@@ -67385,7 +67811,7 @@
         "effects": [
             "Increase ATK by 40%",
             "Increase resistance to Dark by 75%",
-            "Gain Regen at the start of a battle"
+            "Gain Regen (10123) at the start of a battle"
         ],
         "effects_raw": [[1, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [1, 3, 3, [0,  0,  0,  0,  0,  0,  0,  75]], [1, 3, 35, [10123]]],
         "unit_restriction": null,
@@ -69293,6 +69719,181 @@
             ]
         }
     },
+    "701170": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 351,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 45,
+        "attack_count": 7,
+        "attack_frames": [64, 71, 78, 85, 92, 99, 106],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Magic damage (3.73x, MAG) to all enemies (ignore reflect)"],
+        "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage to all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊",
+                "적 전체에 일부 마법방어 무시 피해",
+                "Inflige des dégâts magiques en partie fixe à tous les ennemis",
+                "Teilweise direkter Magieschaden, alle Ziele",
+                "Daño absoluto parcial mágico a todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals damage partially unmitigated by SPR to all enemies.",
+                "對全體敵人發動無視部分魔法防禦的攻擊。",
+                "적 전체에 일부 마법 방어력을 무시하는 피해를 줍니다.",
+                "Inflige des dégâts magiques en partie fixe à tous les ennemis",
+                "Fügt allen Gegnern Schaden zu, der PSY umgeht."
+            ]
+        }
+    },
+    "701180": {
+        "name": "Tri-beam Laser",
+        "compendium_id": 351,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 7,
+        "mp_cost": 45,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Randomly use:\n30%: Tri-beam Laser (501420)\n30%: Tri-beam Laser (501430)\n30%: Tri-beam Laser (501440)\n10%: Tri-beam Laser (501450)"],
+        "effects_raw": [[2, 1, 29, [[501420,  30], [501430,  30], [501440,  30], [501450,  10], 0]]],
+        "unit_restriction": null,
+        "icon": "ability_10.png",
+        "strings": {
+            "name": [
+                "Tri-beam Laser",
+                "三重雷射",
+                "트라이 레이저",
+                "Laser triple",
+                "Triple-Jackpot",
+                "Láser triple"
+            ],
+            "desc_short": [
+                "Deal partial unmitigated magic damage with a chance of boosted damage and reduce fire, lightning, and light resistance for all enemies",
+                "對全體敵人發動無視部分魔法防禦的攻擊+一定機率提高造成的傷害量+降低火雷光屬性耐性的數值",
+                "적 전체에 일부 마법 방어 무시 피해+일정 확률로 피해량 상승+불, 번개, 빛속성 저항력 감소",
+                "Dégâts magiques en partie fixes ayant une chance d'être augmentés et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegner teilweise direkten Magieschaden zu, Chance auf erhöhten Schaden und Res. gegen Feuer, Blitz und Licht, alle Gegner.",
+                "Daño absoluto parcial mágico con posibilidad de daño adicional y reduce la res. al fuego, rayo y luz de todos los enemigos"
+            ],
+            "desc_long": [
+                "Deals damage partially unaffected by DEF to all enemies with a chance of boosted damage and reduce their fire, lightning, and light resistance.",
+                "對全體敵人發動無視部分魔法防禦的攻擊，一定機率提高造成的傷害量，並降低其火雷光屬性耐性的數值。",
+                "적 전체에 일부 마법 방어력을 무시하는 피해를 주고, 일정 확률로 피해량이 상승하며, 더불어 불, 번개, 빛속성 저항력을 감소시킵니다.",
+                "Dégâts magiques en partie fixes ayant une chance d'être augmentés et réduit la rés. feu/foudre/lumière de tous les ennemis",
+                "Fügt allen Gegnern Schaden zu, der teilweise die Abwehr umgeht, Chance auf erhöhten Schaden, reduziert ihre Feuer-, Blitz- und Lichtresistenz."
+            ]
+        }
+    },
+    "701190": {
+        "name": "Omni-Veil",
+        "compendium_id": 383,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 30% for 3 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_9.png",
+        "strings": {
+            "name": [
+                "Omni-Veil",
+                "全能面紗",
+                "전능의 베일",
+                "Voile suprême",
+                "Omni-Schleier",
+                "Velo supremo"
+            ],
+            "desc_short": [
+                "Boost fire, ice, lightning, water, wind, earth, light, and dark resistance for all allies",
+                "提高全體隊員火冰雷水風土光暗屬性耐性的數值",
+                "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승",
+                "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres pour tous les alliés",
+                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel, alle Verb.",
+                "Aumenta la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad de todos los aliados"
+            ],
+            "desc_long": [
+                "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance for all allies.",
+                "提高全體隊員火冰雷水風土光暗屬性耐性的數值。",
+                "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 상승합니다.",
+                "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres pour tous les alliés",
+                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel, alle Verb."
+            ]
+        }
+    },
+    "701200": {
+        "name": "Omni-Veil",
+        "compendium_id": 383,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 40,
+        "attack_count": 1,
+        "attack_frames": [120],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to all elements by 30% for 3 turns to all allies",
+            "Increase resistance to all status effects by 50% for all allies"
+        ],
+        "effects_raw": [[2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 7, [50,  50,  50,  50,  50,  50,  50,  50,  1,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_9.png",
+        "strings": {
+            "name": [
+                "Omni-Veil",
+                "全能面紗",
+                "전능의 베일",
+                "Voile suprême",
+                "Omni-Schleier",
+                "Velo supremo"
+            ],
+            "desc_short": [
+                "Boost fire, ice, lightning, water, wind, earth, light, and dark resistance, and poison, blind, sleep, silence, paralysis, confusion, disease, and stone resistance for all allies",
+                "提高全體隊員火冰雷水風土光暗屬性耐性的數值同時提高中毒失明睡眠沉默麻痺混亂生病石化耐性的數值",
+                "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력과 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 저항력 상승",
+                "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres/poi./céc./som./sil./para./conf./mala./pétri. pour tous les alliés",
+                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel, Gift, Blind, Schlaf, Stille,Lähmung, Konfus, Virus und Stein, alle Verb.",
+                "Aumenta la res. de todos los aliados al fuego, hielo, rayo, agua, viento, tierra, luz, oscuridad, ven, ceg, sue, sil, par, con, enf y pie"
+            ],
+            "desc_long": [
+                "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance, and poison, blind, sleep, silence, paralysis, confusion, disease, and stone resistance for all allies.",
+                "提高全體隊員火冰雷水風土光暗屬性耐性的數值，同時提高中毒失明睡眠沉默麻痺混亂生病石化耐性的數值。",
+                "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력과 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 저항력이 상승합니다.",
+                "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres/poi./céc./som./sil./para./conf./mala./pétri. pour tous les alliés",
+                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel, Gift, Blind, Schlaf, Stille,Lähmung, Konfus, Virus und Stein, alle Verb."
+            ]
+        }
+    },
     "701230": {
         "name": "Sea King's Chop",
         "compendium_id": 459,
@@ -69385,6 +69986,277 @@
             ]
         }
     },
+    "701250": {
+        "name": "Break Style",
+        "compendium_id": 523,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 11,
+        "attack_count": 1,
+        "attack_frames": [50],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (1.8x, ATK) to one enemy",
+            "Reduce ATK by 45% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [-45,  0,  0,  0,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Break Style",
+                "破解風格",
+                "브레이크 스타일",
+                "Style briseur",
+                "Brecherstil",
+                "Estilo rompedor"
+            ],
+            "desc_short": [
+                "Damage and reduce ATK for one enemy",
+                "攻擊1名敵人+降低攻擊的數值",
+                "적 1명에게 피해+공격력 감소",
+                "Dégâts et réduit l'ATT d'un ennemi",
+                "Schaden und ANG runter, ein Ziel",
+                "Daña y reduce ATQ de un enemigo"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy, and reduces their ATK.",
+                "攻擊1名敵人，並降低其攻擊的數值。",
+                "적 1명에게 피해를 주고 공격력을 감소시킵니다.",
+                "Dégâts et réduit l'ATT d'un ennemi",
+                "Fügt einem Gegner Schaden zu und reduziert seinen ANG."
+            ]
+        }
+    },
+    "701260": {
+        "name": "Break Style",
+        "compendium_id": 523,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 11,
+        "attack_count": 1,
+        "attack_frames": [50],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (1.8x, ATK) to one enemy",
+            "Reduce ATK and MAG by 45% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 24, [-45,  0,  -45,  0,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Break Style",
+                "破解風格",
+                "브레이크 스타일",
+                "Style briseur",
+                "Brecherstil",
+                "Estilo rompedor"
+            ],
+            "desc_short": [
+                "Damage and reduce ATK and MAG for one enemy",
+                "攻擊1名敵人+降低攻擊魔力的數值",
+                "적 1명에게 피해+공격력과 마력 감소",
+                "Dégâts et réduit l'ATT et la MAGIE d'un ennemi",
+                "Schaden und ANG und MAG runter, ein Ziel",
+                "Daña y reduce ATQ y MAG de un enemigo"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy and reduces their ATK and MAG.",
+                "攻擊1名敵人，並降低其攻擊魔力的數值。",
+                "적 1명에게 피해를 주고, 공격력과 마력을 감소시킵니다.",
+                "Dégâts et réduit l'ATT et la MAGIE d'un ennemi",
+                "Fügt einem Gegner Schaden zu und reduziert ANG und MAG."
+            ]
+        }
+    },
+    "701310": {
+        "name": "Devotion",
+        "compendium_id": 350,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 200%",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 31, [200]], [0, 3, 33, [200]]],
+        "unit_restriction": null,
+        "icon": "ability_78.png",
+        "strings": {
+            "name": [
+                "Devotion",
+                "真心",
+                "진심",
+                "Dévotion",
+                "Aufrichtigkeit",
+                "Devoción"
+            ],
+            "desc_short": [
+                "Increase fill capacity of burst stones and LB gauge fills each turn",
+                "每回合自動增加極限技槽+提高極限技石對極限技槽的增加量",
+                "버스트 스톤에 의한 상승량 상승+매 턴마다 LB 게이지 증가",
+                "Augmente le taux de remplissage des pierres de limite et la jauge de limite se remplit à chaque tour",
+                "Verstärkt den Effekt von Limit-Steinen und Limitmeter steigt im Kampf jede Runde.",
+                "Las piedras de estallido recuperarán más EL y la barra de EL se llena en cada turno"
+            ],
+            "desc_long": [
+                "Increases fill capacity of burst stones and limit burst gauge fills each turn.",
+                "每回合自動增加極限技槽，同時提高極限技石對極限技槽的增加量。",
+                "버스트 스톤에 의한 상승량이 상승하고, 매 턴마다 LB 게이지가 증가합니다.",
+                "Augmente le taux de remplissage des pierres de limite et la jauge de limite se remplit à chaque tour",
+                "Verstärkt den Effekt von Limit-Steinen und Limitmeter steigt im Kampf jede Runde."
+            ]
+        }
+    },
+    "701320": {
+        "name": "Devotion",
+        "compendium_id": 350,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 200%",
+            "Increase LB gauge by 2 per turn",
+            "Increase MAG by 40%"
+        ],
+        "effects_raw": [[0, 3, 31, [200]], [0, 3, 33, [200]], [0, 3, 1, [0,  0,  40,  0,  0,  0,  0]]],
+        "unit_restriction": null,
+        "icon": "ability_78.png",
+        "strings": {
+            "name": [
+                "Devotion",
+                "真心",
+                "진심",
+                "Dévotion",
+                "Aufrichtigkeit",
+                "Devoción"
+            ],
+            "desc_short": [
+                "Increase fill capacity of burst stones, LB gauge fills each turn, and boost MAG by 40%",
+                "每回合自動增加極限技槽+提高極限技石對極限技槽的增加量+提高40%魔力的數值",
+                "버스트 스톤에 의한 상승량 상승+매 턴마다 LB 게이지 증가+마력 40% 상승",
+                "Augmente le taux de remplissage des pierres de limite, la jauge de limite se remplit à chaque tour, et augmente la MAGIE de 40%",
+                "Verstärkt den Effekt von Limit-Steinen und Limitmeter steigt im Kampf jede Runde, MAG erhöht um 40%.",
+                "Las piedras de estallido recuperarán más EL, la barra de EL se llena en cada turno y MAG aumenta un 40%"
+            ],
+            "desc_long": [
+                "Increases fill capacity of burst stones, limit burst gauge fills each turn, and boosts MAG by 40%.",
+                "每回合自動增加極限技槽，同時提高極限技石對極限技槽的增加量，並提高40%魔力的數值。",
+                "버스트 스톤에 의한 상승량이 상승하고, 매 턴마다 LB 게이지가 증가하며, 마력이 40% 상승합니다.",
+                "Augmente le taux de remplissage des pierres de limite, la jauge de limite se remplit à chaque tour, et augmente la MAGIE de 40%",
+                "Verstärkt den Effekt von Limit-Steinen und Limitmeter steigt im Kampf jede Runde, MAG erhöht um 40%."
+            ]
+        }
+    },
+    "701330": {
+        "name": "Man-Eater+",
+        "compendium_id": 380,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical and magic damage against Humans by 100%"],
+        "effects_raw": [[1, 1, 11, [5,  100,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_79.png",
+        "strings": {
+            "name": [
+                "Man-Eater+",
+                "食人改",
+                "개량형 인간 킬러",
+                "Tueur +",
+                "Menschenfresser+",
+                "Comehombres+"
+            ],
+            "desc_short": [
+                "Boost physical and magic damage against human monsters",
+                "物理、魔法攻擊時提高對人形系魔物的傷害",
+                "물리, 마법공격 시 인간형 마물에게 주는 피해량 상승",
+                "Augmente les dégâts physiques et magiques contre les humains",
+                "Erhöht Schaden gegen Menschen",
+                "Aumenta el daño físico y mágico contra humanos"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against human monsters.",
+                "物理、魔法攻擊時，提高對人形系魔物的傷害。",
+                "물리, 마법공격 시 인간형 마물에게 주는 피해량이 상승합니다.",
+                "Augmente les dégâts physiques et magiques contre les humains",
+                "Erhöht physischen und magischen Schaden gegen Menschen."
+            ]
+        }
+    },
+    "701340": {
+        "name": "Man-Eater+",
+        "compendium_id": 380,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical and magic damage against Humans by 125%"],
+        "effects_raw": [[1, 1, 11, [5,  125,  125]]],
+        "unit_restriction": null,
+        "icon": "ability_79.png",
+        "strings": {
+            "name": [
+                "Man-Eater+",
+                "食人改",
+                "개량형 인간 킬러",
+                "Tueur +",
+                "Menschenfresser+",
+                "Comehombres+"
+            ],
+            "desc_short": [
+                "Boost physical and magic damage against human monsters",
+                "物理、魔法攻擊時提高對人形系魔物的傷害",
+                "물리, 마법공격 시 인간형 마물에게 주는 피해량 상승",
+                "Augmente les dégâts physiques et magiques contre les humains",
+                "Erhöht Schaden gegen Menschen",
+                "Aumenta el daño físico y mágico contra humanos"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against human monsters.",
+                "物理、魔法攻擊時，提高對人形系魔物的傷害。",
+                "물리, 마법공격 시 인간형 마물에게 주는 피해량이 상승합니다.",
+                "Augmente les dégâts physiques et magiques contre les humains",
+                "Erhöht physischen und magischen Schaden gegen Menschen."
+            ]
+        }
+    },
     "701370": {
         "name": "Axe Mastery",
         "compendium_id": 458,
@@ -69468,6 +70340,271 @@
                 "도끼를 장착하면 공격력이 상승합니다.",
                 "Augmente l'ATT lorsqu'une hache est équipée",
                 "Erhöht ANG, wenn eine Axt ausgerüstet ist."
+            ]
+        }
+    },
+    "701390": {
+        "name": "Assault Style",
+        "compendium_id": 521,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 10,
+        "attack_count": 1,
+        "attack_frames": [40],
+        "effect_frames": [50],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (1.8x, ATK) to one enemy",
+            "Increase ATK by 50% for 3 turns to self"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [0, 3, 3, [50,  0,  0,  0,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Assault Style",
+                "突擊風格",
+                "공격 스타일",
+                "Style Assaut",
+                "Angriffstil",
+                "Estilo asaltador"
+            ],
+            "desc_short": [
+                "Damage one enemy and boost own ATK",
+                "攻擊1名敵人+提高自身攻擊的數值",
+                "적 1명에게 피해+사용자의 공격력 상승",
+                "Dégâts sur un ennemi et augmente l'ATT du lanceur",
+                "Fügt einem Gegnern Schaden zu und erhöht eigenen ANG.",
+                "Daña a un enemigo y aumenta ATQ de quien lo usa"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy and boosts own ATK.",
+                "攻擊1名敵人，並提高自身攻擊的數值。",
+                "적 1명에게 피해를 주고, 사용자의 공격력이 상승합니다.",
+                "Dégâts sur un ennemi et augmente l'ATT du lanceur",
+                "Fügt einem Gegner Schaden zu und erhöht eigenen ANG."
+            ]
+        }
+    },
+    "701400": {
+        "name": "Assault Style",
+        "compendium_id": 521,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 10,
+        "attack_count": 1,
+        "attack_frames": [40],
+        "effect_frames": [50],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (2x, ATK) to one enemy",
+            "Increase ATK by 80% for 3 turns to self"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [0, 3, 3, [80,  0,  0,  0,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Assault Style",
+                "突擊風格",
+                "공격 스타일",
+                "Style Assaut",
+                "Angriffstil",
+                "Estilo asaltador"
+            ],
+            "desc_short": [
+                "Damage one enemy and boost own ATK",
+                "攻擊1名敵人+提高自身攻擊的數值",
+                "적 1명에게 피해+사용자의 공격력 상승",
+                "Dégâts sur un ennemi et augmente l'ATT du lanceur",
+                "Fügt einem Gegnern Schaden zu und erhöht eigenen ANG.",
+                "Daña a un enemigo y aumenta ATQ de quien lo usa"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy and boosts own ATK.",
+                "攻擊1名敵人，並提高自身攻擊的數值。",
+                "적 1명에게 피해를 주고, 사용자의 공격력이 상승합니다.",
+                "Dégâts sur un ennemi et augmente l'ATT du lanceur",
+                "Fügt einem Gegner Schaden zu und erhöht eigenen ANG."
+            ]
+        }
+    },
+    "701450": {
+        "name": "Spirit Hand",
+        "compendium_id": 355,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Randomly use:\n70%: MP Charge (501460)\n20%: MP Super Charge (501470)\n10%: MP Mega Charge (501480)"],
+        "effects_raw": [[2, 2, 29, [[501460,  70], [501470,  20], [501480,  10], 0, 0]]],
+        "unit_restriction": null,
+        "icon": "ability_83.png",
+        "strings": {
+            "name": [
+                "Spirit Hand",
+                "靈魂牌組",
+                "정령 편성",
+                "Tirage spirituel",
+                "Mentaldeck",
+                "Mano esotérica"
+            ],
+            "desc_short": [
+                "Restore random amount of MP for all allies",
+                "隨機恢復全體隊員的MP",
+                "아군 전체의 MP 무작위 회복",
+                "Restaure une quantité aléatoire de PM pour tous les alliés",
+                "Stellt zuf. MP aller Verbündeten wieder her.",
+                "Recupera cantidad al azar de PM a todos los aliados"
+            ],
+            "desc_long": [
+                "Restores random amount of MP for all allies.",
+                "隨機恢復全體隊員的MP。",
+                "아군 전체의 MP를 무작위로 회복합니다.",
+                "Restaure une quantité aléatoire de PM pour tous les alliés",
+                "Stellt zuf. MP aller Verbündeten wieder her."
+            ]
+        }
+    },
+    "701460": {
+        "name": "Spirit Hand",
+        "compendium_id": 355,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 10,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Randomly use:\n70%: MP Charge (501490)\n20%: MP Super Charge (501500)\n10%: MP Mega Charge (501510)"],
+        "effects_raw": [[2, 2, 29, [[501460,  70], [501470,  20], [501480,  10], 0, 0]]],
+        "effects_raw": [[2, 2, 29, [[501490,  70], [501500,  20], [501510,  10], 0, 0]]],
+        "unit_restriction": null,
+        "icon": "ability_83.png",
+        "strings": {
+            "name": [
+                "Spirit Hand",
+                "靈魂牌組",
+                "정령 편성",
+                "Tirage spirituel",
+                "Mentaldeck",
+                "Mano esotérica"
+            ],
+            "desc_short": [
+                "Restore random amount of MP for all allies",
+                "隨機恢復全體隊員的MP",
+                "아군 전체의 MP 무작위 회복",
+                "Restaure une quantité aléatoire de PM pour tous les alliés",
+                "Stellt zuf. MP aller Verbündeten wieder her.",
+                "Recupera cantidad al azar de PM a todos los aliados"
+            ],
+            "desc_long": [
+                "Restores random amount of MP for all allies.",
+                "隨機恢復全體隊員的MP。",
+                "아군 전체의 MP를 무작위로 회복합니다.",
+                "Restaure une quantité aléatoire de PM pour tous les alliés",
+                "Stellt zuf. MP aller Verbündeten wieder her."
+            ]
+        }
+    },
+    "701470": {
+        "name": "Barrage",
+        "compendium_id": 91,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 16,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["5 physical attacks (0.8x each, 4.0x total, ATK) to one random enemy"],
+        "effects_raw": [[3, 1, 42, [0,  0,  5,  5,  80]]],
+        "unit_restriction": null,
+        "icon": "ability_53.png",
+        "strings": {
+            "name": [
+                "Barrage",
+                "亂擊",
+                "난사",
+                "Pluie de coups",
+                "Sperrfeuer",
+                "Ráfaga"
+            ],
+            "desc_short": [
+                "Damage random enemies five times",
+                "隨機對敵人發動5次攻擊",
+                "무작위로 5회 적에게 피해",
+                "Attaque aléatoirement les ennemis à cinq reprises",
+                "Fügt zuf. Gegnern fünf Mal Schaden zu.",
+                "Daña a enemigos al azar cinco veces"
+            ],
+            "desc_long": [
+                "Deals damage to random enemies five times.",
+                "以全體敵人為對象隨機選擇目標，連續進行5次攻擊。",
+                "적 전체에서 무작위로 대상을 5회 골라, 피해를 줍니다.",
+                "Attaque aléatoirement les ennemis à cinq reprises",
+                "Fügt zuf. Gegnern fünfmal Schaden zu."
+            ]
+        }
+    },
+    "701480": {
+        "name": "Barrage",
+        "compendium_id": 91,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 16,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["5 physical attacks (1x each, 5.0x total, ATK) to one random enemy"],
+        "effects_raw": [[3, 1, 42, [0,  0,  5,  5,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_53.png",
+        "strings": {
+            "name": [
+                "Barrage",
+                "亂擊",
+                "난사",
+                "Pluie de coups",
+                "Sperrfeuer",
+                "Ráfaga"
+            ],
+            "desc_short": [
+                "Damage random enemies five times",
+                "隨機對敵人發動5次攻擊",
+                "무작위로 5회 적에게 피해",
+                "Attaque aléatoirement les ennemis à cinq reprises",
+                "Fügt zuf. Gegnern fünf Mal Schaden zu.",
+                "Daña a enemigos al azar cinco veces"
+            ],
+            "desc_long": [
+                "Deals damage to random enemies five times.",
+                "以全體敵人為對象隨機選擇目標，連續進行5次攻擊。",
+                "적 전체에서 무작위로 대상을 5회 골라, 피해를 줍니다.",
+                "Attaque aléatoirement les ennemis à cinq reprises",
+                "Fügt zuf. Gegnern fünfmal Schaden zu."
             ]
         }
     },
@@ -69563,6 +70700,184 @@
             ]
         }
     },
+    "701530": {
+        "name": "Heart Blaze",
+        "compendium_id": 234,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": ["Fire"],
+        "effects": [
+            "Physical fire damage (1.9x, ATK) to all enemies",
+            "Restore 1000 (+3x, SPR) HP to self"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  190]], [0, 3, 2, [0,  0,  1000,  300,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_21.png",
+        "strings": {
+            "name": [
+                "Heart Blaze",
+                "心之火焰",
+                "하트 블레이즈",
+                "Cœur ardent",
+                "Herzglut",
+                "Ardor del corazón"
+            ],
+            "desc_short": [
+                "Fire damage to all enemies and restore own HP",
+                "對全體敵人發動火屬性攻擊+恢復自身HP",
+                "적 전체에 불속성 피해+사용자의 HP 회복",
+                "Dégâts de feu sur tous les ennemis et restaure les PV du lanceur",
+                "Fügt allen Gegnern Schaden zu und erhöht die eigenen LP.",
+                "Daño de fuego a todos los enemigos y recupera la VIT propia"
+            ],
+            "desc_long": [
+                "Deals fire damage to all enemies and restores own HP.",
+                "對全體敵人發動火屬性攻擊，同時恢復自身HP。",
+                "적 전체에 불속성 피해를 주고, 사용자의 HP를 회복합니다.",
+                "Dégâts de feu sur tous les ennemis et restaure les PV du lanceur",
+                "Fügt allen Gegnern Feuerschaden zu und erhöht die eigenen LP."
+            ]
+        }
+    },
+    "701540": {
+        "name": "Heart Blaze",
+        "compendium_id": 234,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 6,
+        "mp_cost": 20,
+        "attack_count": 1,
+        "attack_frames": [110],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": ["Fire"],
+        "effects": [
+            "2 physical fire attacks (1.9x each, 3.8x total, ATK) to all enemies",
+            "Restore 1000 (+3x, SPR) HP to self"
+        ],
+        "effects_raw": [[2, 1, 42, [0,  0,  2,  2,  190]], [0, 3, 2, [0,  0,  1000,  300,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_21.png",
+        "strings": {
+            "name": [
+                "Heart Blaze",
+                "心之火焰",
+                "하트 블레이즈",
+                "Cœur ardent",
+                "Herzglut",
+                "Ardor del corazón"
+            ],
+            "desc_short": [
+                "2x fire damage to all enemies and restore own HP",
+                "對全體敵人發動2次火屬性攻擊+恢復自身HP",
+                "적 전체에 2회 불속성 피해+사용자의 HP 회복",
+                "Dégâts de feu x2 sur tous les ennemis et restaure les PV du lanceur",
+                "Fügt allen Gegnern 2x Feuerschaden zu und erhöht die eigenen LP.",
+                "Daño de fuego doble a todos los enemigos y recupera VIT propia"
+            ],
+            "desc_long": [
+                "Deals 2x fire damage to all enemies and restores own HP.",
+                "對全體敵人發動2次火屬性攻擊，同時恢復自身HP。",
+                "적 전체에 2회 불속성 피해를 주고, 사용자의 HP를 회복합니다.",
+                "Dégâts de feu x2 sur tous les ennemis et restaure les PV du lanceur",
+                "Fügt allen Gegnern 2x Feuerschaden zu und erhöht die eigenen LP."
+            ]
+        }
+    },
+    "701550": {
+        "name": "Champion's Surge",
+        "compendium_id": 235,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 4,
+        "mp_cost": 48,
+        "attack_count": 1,
+        "attack_frames": [130],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 60% for 3 turns to all allies"],
+        "effects_raw": [[2, 2, 3, [0,  60,  0,  60,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Champion's Surge",
+                "王者波動",
+                "왕자의 파동",
+                "Houle du champion",
+                "Adrenalinschub",
+                "Oleaje del campeón"
+            ],
+            "desc_short": [
+                "Boost DEF and SPR for all allies",
+                "提高全體隊員防禦精神的數值",
+                "아군 전체의 방어력과 정신력 상승",
+                "Augmente la DEF et la PSY de tous les alliés",
+                "PSY und ABW hoch, alle Ziele",
+                "Aumenta DEF y ESP de todos los aliados"
+            ],
+            "desc_long": [
+                "Boosts DEF and SPR for all allies.",
+                "提高全體隊員防禦精神的數值。",
+                "아군 전체의 방어력과 정신력이 상승합니다.",
+                "Augmente la DEF et la PSY de tous les alliés",
+                "Erhöht ABW und PSY aller Verbündeten."
+            ]
+        }
+    },
+    "701560": {
+        "name": "Champion's Surge",
+        "compendium_id": 235,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 4,
+        "mp_cost": 48,
+        "attack_count": 1,
+        "attack_frames": [130],
+        "effect_frames": [40],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 60% for 5 turns to all allies"],
+        "effects_raw": [[2, 2, 3, [0,  60,  0,  60,  5,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Champion's Surge",
+                "王者波動",
+                "왕자의 파동",
+                "Houle du champion",
+                "Adrenalinschub",
+                "Oleaje del campeón"
+            ],
+            "desc_short": [
+                "Boost DEF and SPR for all allies",
+                "提高全體隊員防禦精神的數值",
+                "아군 전체의 방어력과 정신력 상승",
+                "Augmente la DEF et la PSY de tous les alliés",
+                "PSY und ABW hoch, alle Ziele",
+                "Aumenta DEF y ESP de todos los aliados"
+            ],
+            "desc_long": [
+                "Boosts DEF and SPR for all allies.",
+                "提高全體隊員防禦精神的數值。",
+                "아군 전체의 방어력과 정신력이 상승합니다.",
+                "Augmente la DEF et la PSY de tous les alliés",
+                "Erhöht ABW und PSY aller Verbündeten."
+            ]
+        }
+    },
     "701630": {
         "name": "Boco Pendant",
         "compendium_id": 445,
@@ -69578,8 +70893,8 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
-            "Gain Brave (Auto) at the start of a battle",
-            "Gain Faith (Auto) at the start of a battle"
+            "Gain Brave (Auto) (30211) at the start of a battle",
+            "Gain Faith (Auto) (30221) at the start of a battle"
         ],
         "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  10,  10,  0]], [1, 3, 35, [30211]], [1, 3, 35, [30221]]],
         "unit_restriction": null,
@@ -69625,8 +70940,8 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
-            "Gain Brave (Auto) at the start of a battle",
-            "Gain Faith (Auto) at the start of a battle",
+            "Gain Brave (Auto) (30211) at the start of a battle",
+            "Gain Faith (Auto) (30221) at the start of a battle",
             "Recover MP (5%) per turn"
         ],
         "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  10,  10,  0]], [1, 3, 35, [30211]], [1, 3, 35, [30221]], [1, 3, 32, [5]]],
@@ -69764,7 +71079,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (7x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid wind damage (7x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  700,  700]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -69807,7 +71122,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": ["Wind"],
-        "effects": ["Hybrid wind damage (7x ATK & MAG) to all enemies"],
+        "effects": ["Hybrid wind damage (7x, ATK & MAG) to all enemies"],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  700,  700]]],
         "unit_restriction": null,
         "icon": "ability_25.png",
@@ -70737,7 +72052,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (2x ATK & MAG) to one enemy",
+            "Hybrid damage (2x, ATK & MAG) to one enemy",
             "Hybrid damage (1x) as HP drain (30%) to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [1, 1, 25, [30,  100,  100]]],
@@ -70782,7 +72097,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": ["Dark"],
-        "effects": ["Magic* dark damage (1x MAG, x2 to Reaper monsters) to all enemies. (?)"],
+        "effects": ["Magic* dark damage (1x, +x2 to Reaper monsters, MAG) to all enemies. (?)"],
         "effects_raw": [[2, 1, 23, [12,  0,  0,  200]]],
         "unit_restriction": null,
         "icon": "ability_100.png",
@@ -70961,7 +72276,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": ["Light"],
-        "effects": ["Physical light damage (1x ATK, x2.5 to Reaper monsters) to all enemies. (?)"],
+        "effects": ["Physical light damage (1x, +x2.5 to Reaper monsters, ATK,) to all enemies. (?)"],
         "effects_raw": [[2, 1, 22, [12,  0,  0,  250]]],
         "unit_restriction": null,
         "icon": "ability_40.png",
@@ -71493,16 +72808,16 @@
         "rarity": 8,
         "mp_cost": 42,
         "attack_count": 1,
-        "attack_frames": [5],
+        "attack_frames": [0],
         "effect_frames": [0],
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
         "effects": [
-            "3 physical attacks (1.4x each, 4.2x total) to one random enemy",
-            "Increase the limit burst gauge fill rate by 100 for 3 turns to self"
+            "3 physical attacks (1.4x each, 4.2x total, ATK) to one random enemy",
+            "Increase the limit burst gauge fill rate by 100% for 3 turns to self"
         ],
-        "effects_raw": [[3, 1, 42, [0,  0,  3,  3,  140]], [1, 3, 63, [100,  3]]],
+        "effects_raw": [[3, 1, 42, [0,  0,  3,  3,  140]], [0, 3, 63, [100,  3]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
         "strings": {
@@ -71856,7 +73171,7 @@
         "element_inflict": null,
         "effects": [
             "Reduce physical damage taken by 75% for one turn",
-            "Reduce magic damage taken by 70%[?] for one turn"
+            "Reduce magic damage taken by 75% for one turn"
         ],
         "effects_raw": [[0, 3, 18, [75,  1,  1]], [0, 3, 19, [300,  1,  1]]],
         "unit_restriction": null,
@@ -72175,7 +73490,7 @@
         "effects": [
             "Increase chance of being targeted by 80% for 3 turns",
             "Reduce physical damage taken by 50% for 3 turns",
-            "Reduce magic damage taken by 90%[?] for 3 turns"
+            "Reduce magic damage taken by 50% for 3 turns"
         ],
         "effects_raw": [[0, 3, 61, [80,  3]], [0, 3, 18, [50,  3,  1]], [0, 3, 19, [100,  3,  1]]],
         "unit_restriction": null,
@@ -72887,7 +74202,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["2-5 physical attacks (0.8x each, 2.8x total) to one random enemy"],
+        "effects": ["2-5 physical attacks (0.8x each, 2.8x avg, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  2,  5,  80]]],
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -73152,7 +74467,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the limit burst gauge fill rate by 150 for 3 turns to all allies",
+            "Increase the limit burst gauge fill rate by 150% for 3 turns to all allies",
             "Increase chance of being targeted by 30% for 3 turns"
         ],
         "effects_raw": [[2, 2, 63, [150,  3]], [0, 3, 61, [30,  3]]],
@@ -73374,7 +74689,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and DEF by 20%",
-            "Gain Regen (Auto) at the start of a battle"
+            "Gain Regen (Auto) (10121) at the start of a battle"
         ],
         "effects_raw": [[1, 3, 1, [20,  20,  0,  0,  0,  0,  0]], [1, 3, 35, [10121]]],
         "unit_restriction": [254000603, 254000604, 254000605],
@@ -75036,7 +76351,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Regen at the start of a battle"],
+        "effects": ["Gain Regen (91000) at the start of a battle"],
         "effects_raw": [[1, 3, 35, [91000]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -75214,7 +76529,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": ["Light"],
-        "effects": ["4 physical light attacks (1x each, 4x total) to one random enemy"],
+        "effects": ["4 physical light attacks (1x each, 4.0x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  100]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -75528,7 +76843,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (3x ATK & MAG) to one enemy",
+            "Hybrid dark damage (3x, ATK & MAG) to one enemy",
             "Reduce ATK and MAG by 40% for 3 turns to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  300,  300]], [1, 1, 3, [-40,  0,  -40,  0,  3,  1]]],
@@ -75574,7 +76889,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (3x ATK & MAG) to one enemy",
+            "Hybrid dark damage (3x, ATK & MAG) to one enemy",
             "Reduce DEF and SPR by 40% for 3 turns to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  300,  300]], [1, 1, 3, [0,  -40,  0,  -40,  3,  1]]],
@@ -75662,7 +76977,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": ["Dark"],
-        "effects": ["4 physical dark attacks (0.8x each, 3.2x total) to one random enemy"],
+        "effects": ["4 physical dark attacks (0.8x each, 3.2x total, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  80]]],
         "unit_restriction": null,
         "icon": "ability_53.png",
@@ -75706,7 +77021,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Dark"],
         "effects": [
-            "Hybrid dark damage (2.2x ATK & MAG) to all enemies",
+            "Hybrid dark damage (2.2x, ATK & MAG) to all enemies",
             "Inflict Confusion (30%) on all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  220,  220]], [2, 1, 6, [0,  0,  0,  0,  0,  30,  0,  0,  1]]],
@@ -76286,7 +77601,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Mortar Beacon at the start of a battle"],
+        "effects": ["Gain Mortar Beacon (91001) at the start of a battle"],
         "effects_raw": [[2, 1, 35, [91001]]],
         "unit_restriction": null,
         "icon": "ability_91.png",
@@ -76894,7 +78209,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["2-5 physical attacks (1x each, 3.5x total) to one random enemy"],
+        "effects": ["2-5 physical attacks (1x each, 3.5x avg, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  2,  5,  100]]],
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -76937,7 +78252,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["2-4 physical attacks (1.5x each, 4.5x total) to one random enemy"],
+        "effects": ["2-4 physical attacks (1.5x each, 4.5x avg, ATK) to one random enemy"],
         "effects_raw": [[3, 1, 42, [0,  0,  2,  4,  150]]],
         "unit_restriction": null,
         "icon": "ability_61.png",
@@ -77159,7 +78474,7 @@
         "attack_type": "Hybrid",
         "element_inflict": null,
         "effects": [
-            "Hybrid damage (2x ATK & MAG) to one enemy",
+            "Hybrid damage (2x, ATK & MAG) to one enemy",
             "Remove all effects from one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [1, 1, 59, ["none"]]],
@@ -77294,7 +78609,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
         "effects": [
-            "Hybrid ice damage (2.5x ATK & MAG) to one enemy",
+            "Hybrid ice damage (2.5x, ATK & MAG) to one enemy",
             "Add Ice element to physical attacks for 5 turn(s)"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]], [0, 3, 95, [0,  100,  0,  0,  0,  0,  0,  0,  5,  1]]],
@@ -77468,7 +78783,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["20% chance to ignore fatal damage when HP is above 100% (max 1 times)"],
+        "effects": ["100% chance to ignore fatal damage when HP is above 20% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [20,  100,  0,  1]]],
         "unit_restriction": null,
         "icon": "ability_41.png",
@@ -77511,7 +78826,7 @@
         "effect_type": "Default",
         "attack_type": "Hybrid",
         "element_inflict": null,
-        "effects": ["Hybrid damage (6x ATK & MAG) to one enemy"],
+        "effects": ["Hybrid damage (6x, ATK & MAG) to one enemy"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  600,  600]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -77555,7 +78870,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
         "effects": [
-            "Hybrid ice damage (4x ATK & MAG) to all enemies",
+            "Hybrid ice damage (4x, ATK & MAG) to all enemies",
             "Inflict Paralyze (30%) on all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  400,  400]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]]],
@@ -77601,7 +78916,7 @@
         "attack_type": "Hybrid",
         "element_inflict": ["Ice"],
         "effects": [
-            "Hybrid ice damage (8x ATK & MAG) to one enemy",
+            "Hybrid ice damage (8x, ATK & MAG) to one enemy",
             "Reduce resistance to Ice by 50% for 3 turns to one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  800,  800]], [1, 1, 33, [0,  -50,  0,  0,  0,  0,  0,  0,  1,  3]]],
@@ -79200,7 +80515,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 15%",
-            "Gain Regen (Auto) at the start of a battle"
+            "Gain Regen (Auto) (10121) at the start of a battle"
         ],
         "effects_raw": [[1, 3, 1, [0,  0,  15,  0,  0,  0,  0]], [1, 3, 35, [10121]]],
         "unit_restriction": [254000905, 254000906],
@@ -79696,7 +81011,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Restorative Breath at the start of a battle"],
+        "effects": ["Gain Restorative Breath (91002) at the start of a battle"],
         "effects_raw": [[2, 1, 35, [91002]]],
         "unit_restriction": null,
         "icon": "ability_39.png",
@@ -79785,9 +81100,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Ice Breath / Lightning Breath / Fire Breath: \"Physical damage (4x, ATK) to all enemies\", otherwise: \"Physical damage (4x, ATK) to one enemy\""
-        ],
+        "effects": ["Use Mystic Thrust (910213), or Mystic Thrust (910214), if used after Ice Breath (910203), Lightning Breath (910204) or Fire Breath (910205)"],
         "effects_raw": [[1, 1, 99, [[2,  2,  2], [910203,  910204,  910205], 2, 910214, 2, 910213]]],
         "unit_restriction": null,
         "icon": "ability_54.png",
@@ -79830,9 +81143,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Jump / Recovery Jump / Raging Thrust: \"Physical damage (4.5x) to one enemy, after one turn of delay\nPhysical damage (3x, ATK) with jump delay (1 turn)\", otherwise: \"Physical damage (3x, ATK) with jump delay (1 turn)\""
-        ],
+        "effects": ["Use Crimson Death (910215), or Crimson Death (910216), if used after Jump (200260), Recovery Jump (910206) or Raging Thrust (910202)"],
         "effects_raw": [[1, 1, 99, [[2,  2,  2], [200260,  910206,  910202], 2, 910216, 2, 910215]]],
         "unit_restriction": null,
         "icon": "ability_80.png",
@@ -80314,9 +81625,7 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": [
-            "If used after Flare: \"Magic water damage (5x, MAG) to one enemy\", otherwise: \"Magic water damage (2.5x, MAG) to one enemy\""
-        ],
+        "effects": ["Use Blood Rend (910228), or Blood Rend (910227), if used after Flare (20350)"],
         "effects_raw": [[0, 3, 99, [1,  20350,  2,  910227,  2,  910228]]],
         "unit_restriction": null,
         "icon": "ability_23.png",
@@ -80448,7 +81757,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Blood Scar, Blood Curse, Blood Pulsar, Blood Rend and Blood Rend twice in one turn"],
+        "effects": ["Enable unit to use Blood Scar (910218), Blood Curse (910221), Blood Pulsar (910225), Blood Rend (910227) and Blood Rend (910228) twice in one turn"],
         "effects_raw": [[0, 3, 1006, [2, [910218,  910221,  910225,  910227,  910228]]]],
         "unit_restriction": null,
         "icon": "global_ability_10002.png",
@@ -80622,7 +81931,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and MAG by 50% for 3 turns to all allies",
-            "Increase the limit burst gauge fill rate by 50 for 3 turns to all allies"
+            "Increase the limit burst gauge fill rate by 50% for 3 turns to all allies"
         ],
         "effects_raw": [[2, 2, 3, [50,  0,  50,  0,  3,  1]], [2, 2, 63, [50,  3]]],
         "unit_restriction": null,
@@ -80696,6 +82005,329 @@
                 "모든 상태이상 저항력이 상승하고, 매 턴마다 LB 게이지가 증가합니다.",
                 "Augmente la résistance contre toutes les altérations d'état et augmente la vitesse de remplissage de la jauge de limite à chaque tour.",
                 "Res. hoch gegen alle Zustände und Limitmeter steigt im Kampf jede Runde."
+            ]
+        }
+    },
+    "910237": {
+        "name": "Dark Reaper",
+        "compendium_id": 9118,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 75% when equipped with a Spear",
+            "Increase resistance to Dark by 75%"
+        ],
+        "effects_raw": [[0, 3, 6, [10,  75,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  75]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Dark Reaper",
+                "闇之收割",
+                "어둠의 베어넘기기",
+                "Faucheuse obscure",
+                "Dunkel-Sensemann",
+                "Segadora oscura"
+            ],
+            "desc_short": [
+                "Boost ATK when equipped with a spear, and gain darkness resistance",
+                "提高裝備長槍時攻擊的數值＋暗屬性耐性上升",
+                "창 장착 시 공격력 상승+어둠속성 저항력 상승",
+                "Augmente l'ATT lorsqu'une lance est équipée et résistance aux ténèbres",
+                "Erhöht ANG, wenn mit Speer ausgerüstet und gibt Resistenz gegen Dunkelheit",
+                "Aumenta el ATQ y la res. a la oscuridad al llevar lanzas"
+            ],
+            "desc_long": [
+                "Boosts ATK when equipped with a spear, and gains darkness resistance.",
+                "提高裝備長槍時攻擊的數值和暗屬性耐性。",
+                "창 장착 시 공격력과 어둠속성 저항력이 상승합니다.",
+                "Augmente l'ATT lorsqu'une lance est équipée et résistance aux ténèbresistencia",
+                "Erhöht ANG, wenn mit Speer ausgerüstet und gibt Resistenz gegen Dunkelheit."
+            ]
+        }
+    },
+    "910238": {
+        "name": "Dark Reaper",
+        "compendium_id": 9118,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 6,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 100% when equipped with a Spear",
+            "Increase resistance to Dark by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [10,  100,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  100]]],
+        "unit_restriction": null,
+        "icon": "ability_77.png",
+        "strings": {
+            "name": [
+                "Dark Reaper",
+                "闇之收割",
+                "어둠의 베어넘기기",
+                "Faucheuse obscure",
+                "Dunkel-Sensemann",
+                "Segadora oscura"
+            ],
+            "desc_short": [
+                "Boost ATK when equipped with a spear, and gain darkness resistance",
+                "提高裝備長槍時攻擊的數值＋暗屬性耐性上升",
+                "창 장착 시 공격력 상승+어둠속성 저항력 상승",
+                "Augmente l'ATT lorsqu'une lance est équipée et résistance aux ténèbres",
+                "Erhöht ANG, wenn mit Speer ausgerüstet und gibt Resistenz gegen Dunkelheit",
+                "Aumenta el ATQ y la res. a la oscuridad al llevar lanzas"
+            ],
+            "desc_long": [
+                "Boosts ATK when equipped with a spear, and gains darkness resistance.",
+                "提高裝備長槍時攻擊的數值和暗屬性耐性。",
+                "창 장착 시 공격력과 어둠속성 저항력이 상승합니다.",
+                "Augmente l'ATT lorsqu'une lance est équipée et résistance aux ténèbresistencia",
+                "Erhöht ANG, wenn mit Speer ausgerüstet und gibt Resistenz gegen Dunkelheit."
+            ]
+        }
+    },
+    "910239": {
+        "name": "Ravaging Blow",
+        "compendium_id": 9122,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 36,
+        "attack_count": 1,
+        "attack_frames": [50],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (2.5x, ATK) to one enemy",
+            "Reduce DEF and SPR by 55% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [1, 1, 24, [0,  -55,  0,  -55,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Ravaging Blow",
+                "混沌之打擊",
+                "혼돈의 타격",
+                "Souffle ravageur",
+                "Verwüstender Schlag",
+                "Golpe devastador"
+            ],
+            "desc_short": [
+                "Damage and reduce DEF and SPR for one enemy",
+                "攻擊一名敵人＋降低防禦、精神的數值",
+                "적 1명에게 피해+방어력과 정신력 감소",
+                "Dégâts et réduit la DEF et la PSY d'un ennemi",
+                "Schaden und ABW und PSY runter, ein Ziel",
+                "Daña y reduce la DEF y el ESP de un enemigo"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy, and reduces their DEF and SPR.",
+                "攻擊一名敵人並降低防禦、精神的數值。",
+                "적 1명에게 피해를 주고, 방어력과 정신력을 감소시킵니다.",
+                "Inflige des dégâts à un ennemi et réduit sa DEF et sa PSY.",
+                "Fügt einem Gegner Schaden zu und reduziert ABW und PSY."
+            ]
+        }
+    },
+    "910240": {
+        "name": "Ravaging Blow",
+        "compendium_id": 9122,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 5,
+        "mp_cost": 36,
+        "attack_count": 1,
+        "attack_frames": [50],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "Physical damage (3x, ATK) to one enemy",
+            "Reduce DEF and SPR by 60% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 24, [0,  -60,  0,  -60,  3,  1]]],
+        "unit_restriction": null,
+        "icon": "ability_54.png",
+        "strings": {
+            "name": [
+                "Ravaging Blow",
+                "混沌之打擊",
+                "혼돈의 타격",
+                "Souffle ravageur",
+                "Verwüstender Schlag",
+                "Golpe devastador"
+            ],
+            "desc_short": [
+                "Damage and reduce DEF and SPR for one enemy",
+                "攻擊一名敵人＋降低防禦、精神的數值",
+                "적 1명에게 피해+방어력과 정신력 감소",
+                "Dégâts et réduit la DEF et la PSY d'un ennemi",
+                "Schaden und ABW und PSY runter, ein Ziel",
+                "Daña y reduce la DEF y el ESP de un enemigo"
+            ],
+            "desc_long": [
+                "Deals damage to one enemy, and reduces their DEF and SPR.",
+                "攻擊一名敵人並降低防禦、精神的數值。",
+                "적 1명에게 피해를 주고, 방어력과 정신력을 감소시킵니다.",
+                "Inflige des dégâts à un ennemi et réduit sa DEF et sa PSY.",
+                "Fügt einem Gegner Schaden zu und reduziert ABW und PSY."
+            ]
+        }
+    },
+    "910241": {
+        "name": "Madness Rush",
+        "compendium_id": 9124,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 42,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "3 physical attacks (2x each, 6.0x total, ATK) to one random enemy",
+            "Increase the limit burst gauge fill rate by 150% for 3 turns to self"
+        ],
+        "effects_raw": [[3, 1, 42, [0,  0,  3,  3,  200]], [0, 3, 63, [150,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_53.png",
+        "strings": {
+            "name": [
+                "Madness Rush",
+                "狂氣之連擊",
+                "광기의 연격",
+                "Combo féroce",
+                "Wahnsinnsrausch",
+                "Embestida feroz"
+            ],
+            "desc_short": [
+                "Attack three enemies chosen at random, and LB gauge fills more quickly",
+                "隨機對全體敵人攻擊3次+提高極限技槽恢復量",
+                "적 전체에 무작위로 3회 피해+LB 게이지 회복량 상승",
+                "Attaque trois ennemis choisis au hasard et la jauge de limite se remplit plus rapidement",
+                "Greift drei zufällige Gegner an, Limitmeter steigt rascher",
+                "Ataca a tres enemigos al azar y la barra de EL se llena más rápido"
+            ],
+            "desc_long": [
+                "Randomly selects targets from all enemies and deals damage three times. Increases fill rate of limit gauge.",
+                "以全體敵人為對象隨機選擇目標，連續進行3次攻擊並提高極限技槽恢復量。",
+                "적 전체에 무작위로 3회 피해를 주고, LB 게이지 회복량이 상승합니다.",
+                "Choisit au hasard des cibles parmi tous les ennemis et inflige des dégâts à trois reprises. Augmente la vitesse de remplissage de la jauge de limite.",
+                "Verursacht dreimal Schaden bei zufällig ausgewählten Gegnern. Limitmeter steigt rascher."
+            ]
+        }
+    },
+    "910242": {
+        "name": "Madness Rush",
+        "compendium_id": 9124,
+        "type": "ABILITY",
+        "active": true,
+        "rarity": 8,
+        "mp_cost": 42,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            "4 physical attacks (2x each, 8.0x total, ATK) to one random enemy",
+            "Reduce resistance to Dark by 50% for 3 turns to all enemies",
+            "Increase the limit burst gauge fill rate by 150% for 3 turns to self"
+        ],
+        "effects_raw": [[3, 1, 42, [0,  0,  4,  4,  200]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -50,  1,  3]], [0, 3, 63, [150,  3]]],
+        "unit_restriction": null,
+        "icon": "ability_53.png",
+        "strings": {
+            "name": [
+                "Madness Rush",
+                "狂氣之連擊",
+                "광기의 연격",
+                "Combo féroce",
+                "Wahnsinnsrausch",
+                "Embestida feroz"
+            ],
+            "desc_short": [
+                "Attack four enemies chosen at random and reduce dark resistance for all enemies, and LB gauge fills more quickly",
+                "隨機對全體敵人攻擊4次+降低暗屬性耐性+提高極限技槽恢復量",
+                "적 전체에 무작위로 4회 피해+적 전체의 어둠속성 저항력 감소+LB 게이지 회복량 상승",
+                "Attaque quatre ennemis choisis au hasard, réduit la rés. aux ténèbres de tous les ennemis et la jauge de limite se remplit plus rapidement",
+                "Greift vier zufällige Gegner an, verringert Dunkelresist. für alle Gegner, Limitmeter steigt rascher",
+                "Ataca a cuatro enemigos al azar y la barra de EL se llena más rápido"
+            ],
+            "desc_long": [
+                "Randomly selects targets from all enemies and deals damage four times. Reduces dark resistance for all enemies. Increases fill rate of limit burst gauge.",
+                "以全體敵人為對象隨機選擇目標，連續進行4次攻擊並降低暗屬性耐性的數值，提高極限技槽恢復量。",
+                "적 전체에 무작위로 4회 피해를 주며, 적 전체의 어둠속성 저항력을 감소시킵니다. LB 게이지 회복량이 상승합니다.",
+                "Choisit au hasard des cibles parmi tous les ennemis et inflige des dégâts quatre reprises. Réduit la rés. aux ténèbres de tous les ennemis. Augmente la vitesse de remplissage de la jauge de limite.",
+                "Greift vier zufällige Gegner an, verringert Dunkelresist. für alle Gegner, Limitmeter steigt rascher"
+            ]
+        }
+    },
+    "910254": {
+        "name": "Miracle Blessing",
+        "compendium_id": 9338,
+        "type": "ABILITY",
+        "active": false,
+        "rarity": 5,
+        "mp_cost": 0,
+        "attack_count": 1,
+        "attack_frames": [0],
+        "effect_frames": [0],
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "10% chance of evading physical attacks",
+            "10% chance of evading magic attacks"
+        ],
+        "effects_raw": [[0, 3, 22, [10]], [0, 3, 54, [-1,  10]]],
+        "unit_restriction": null,
+        "icon": "ability_97.png",
+        "strings": {
+            "name": [
+                "Miracle Blessing",
+                "奇蹟加護",
+                "기적의 축복",
+                "Bénédiction miraculeuse",
+                "Wundersegen",
+                "Bendición milagrosa"
+            ],
+            "desc_short": [
+                "Chance of evading physical and magic attacks",
+                "一定機率閃避物理、魔法攻擊",
+                "일정 확률로 물리, 마법공격 회피",
+                "Chance d'éviter les attaques physiques et magiques",
+                "Chance, physischen und magischen Angriffen auszuweichen",
+                "Posibilita evadir ataques físicos y mágicos"
+            ],
+            "desc_long": [
+                "Adds chance of dodging a physical or magic attack.",
+                "一定機率閃避物理、魔法攻擊。",
+                "일정 확률로 물리, 마법공격을 회피합니다.",
+                "Chance d'éviter les attaques physiques et magiques",
+                "Die Einheit weicht zu einer gewissen Chance physischen oder magischen Angriffen aus."
             ]
         }
     },

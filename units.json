@@ -17989,7 +17989,7 @@
         "game_id": 10010,
         "game": "FFX",
         "job_id": 95,
-        "job": "Guard",
+        "job": "Guardian",
         "sex_id": 1,
         "sex": "Male",
         "tribe_id": 5,
@@ -18106,7 +18106,7 @@
         "game_id": 10010,
         "game": "FFX",
         "job_id": 95,
-        "job": "Guard",
+        "job": "Guardian",
         "sex_id": 1,
         "sex": "Male",
         "tribe_id": 5,
@@ -18265,7 +18265,7 @@
         "game_id": 10010,
         "game": "FFX",
         "job_id": 95,
-        "job": "Guard",
+        "job": "Guardian",
         "sex_id": 2,
         "sex": "Female",
         "tribe_id": 5,
@@ -24715,7 +24715,7 @@
     },
     "302000104": {
         "rarity_min": 4,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Tilith",
         "names": [
             "Tilith",
@@ -24802,13 +24802,54 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060100": 20,
+                        "290060000": 10,
+                        "290060400": 10,
+                        "290060300": 5,
+                        "290050500": 5
+                    }
+                },
                 "strings": {
                     "description": "A prominent goddess in lore from another world where humans and gods share a history. Tilith pledged her service to Lucius, the god of the Gate, and fought many wicked and formidable gods alongside a certain summoner. She maintains an upbeat attitude, and places unshakeable faith in both her master Lucius and the one she calls \"my Summoner.\" Although her innocence may make her seem childish, her divine powers are of the highest caliber. Tilith's selflessness and deep affection for her friends drive her to do whatever is necessary to rescue them from peril.",
                     "summon": "Huh? What is this place?<br>Well, ummm... I'm Tilith, a goddess<br>as pretty as she is powerful.<br>And I'm INVINCIBLE!",
                     "evolution": "I'll show you just what this<br>powerful and pretty goddess can do!<br>Watch and enjoy the show!",
                     "affinity": "Thanks for relying on me!<br>I'm so happy, I'm gonna work even harder from now on!",
                     "fusion": "I'm a goddess, you know.<br>So I'm actually pretty strong!<br>Let me show you what I can do!"
+                },
+                "effect_frames": [76]
+            },
+            "302000106": {
+                "compendium_id": 480,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [921, 2792, 390],
+                    "MP": [60, 182, 65],
+                    "ATK": [34, 104, 26],
+                    "DEF": [35, 106, 26],
+                    "MAG": [45, 135, 26],
+                    "SPR": [51, 154, 34]
+                },
+                "limitburst_id": 302000106,
+                "attack_count": 1,
+                "attack_frames": [78],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [5, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A prominent goddess in lore from another world where humans and gods share a history. Tilith pledged her service to Lucius, the god of the Gate, and places unshakeable trust in the one she calls \"my Summoner.\" Always cheerful and kind, she uses her great divine powers to rescue her precious friends whenever they find themselves in a bind. It is said that she can even release her hidden potential at times of great peril, gently enveloping her companions in a miraculous aura. Although her fights with Seria never really ceased, they eventually grew to understand each other as friends.",
+                    "summon": "The pretty and super strong goddess Tilith is here! You'll have my full support from now on!",
+                    "evolution": "I'll be able to protect everyone with this power! So don't worry about a thing, and leave it all to me!",
+                    "affinity": "Thanks for relying on me!<br>I'm so happy, I'm gonna work even harder from now on!",
+                    "fusion": "But I was so strong already! Are you sure it's okay for me to get even stronger?"
                 },
                 "effect_frames": [76]
             }
@@ -25175,7 +25216,7 @@
     },
     "302000505": {
         "rarity_min": 5,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Maxwell",
         "names": [
             "Maxwell",
@@ -25221,13 +25262,54 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060200": 20,
+                        "290060400": 10,
+                        "290060100": 10,
+                        "290060300": 5,
+                        "290050500": 5
+                    }
+                },
                 "strings": {
                     "description": "One of the Fallen Gods from another world where humans and gods share a history. According to legend, the Fallen Gods were divine beings who terrorized the world of Grand Gaia with their incredible power. As a Fallen God, Maxwell sought to take over the whole of Grand Gaia from her palace in St. Lamia. Having been tasked with the burden of resurrection, her ultimate goal was to destroy her world in order to rebuild it anew as its creator and mistress.",
                     "summon": "Where am I?<br>And what is this being standing before me?",
                     "evolution": null,
                     "affinity": "Child who doesn't fear sin,<br>I shall guide you forth.",
                     "fusion": "Do humans defy the gods in this world as well, despite their own ignorance?"
+                },
+                "effect_frames": [74]
+            },
+            "302000506": {
+                "compendium_id": 484,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1206, 3655, 390],
+                    "MP": [54, 164, 65],
+                    "ATK": [51, 154, 34],
+                    "DEF": [43, 130, 26],
+                    "MAG": [37, 113, 26],
+                    "SPR": [38, 114, 26]
+                },
+                "limitburst_id": 302000506,
+                "attack_count": 4,
+                "attack_frames": [76, 80, 84, 87],
+                "max_lb_drop": 3,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 50, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "One of the Fallen Gods from another world where humans and gods share a history. According to legend, the Fallen Gods were divine beings who terrorized the world of Grand Gaia with their incredible power. Tasked with the burden of resurrection, Maxwell ruled over St. Lamia in hopes of ultimately destroying the sealed land of Grand Gaia in order to rebuild it anew as its creator and mistress. As a Fallen God she had always been a high ranking goddess, but never as powerful as the Holy Emperor Karna Masta, leader of the gods. Once she came to embrace the wickedness in her heart, she rebelled against him and began acting upon her own volition.",
+                    "summon": "My name is Maxwell.<br>Bearer of the burden of resurrection.",
+                    "evolution": "You mean to subdue a god? Foolish mortal, what could you ever do with such a soul in your possession?",
+                    "affinity": "Child who doesn't fear sin,<br>I shall guide you forth.",
+                    "fusion": "You dare give more power to an already mighty god? Humans are insolent creatures indeed."
                 },
                 "effect_frames": [74]
             }
