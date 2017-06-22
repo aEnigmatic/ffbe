@@ -8,13 +8,18 @@
         "units": 1,
         "required": null,
         "next_id": 2,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900020301",
             "Metal Gigantuar"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 15
+        },
         "unit_bonus_max": 100,
         "bonus_items": null,
         "bonus_stats": {
@@ -53,13 +58,18 @@
         "units": 2,
         "required": null,
         "next_id": 3,
-        "rewards": [
+        "reward": [
             "RECIPE",
             "1000000034",
             "Adventurer"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 15
+        },
         "unit_bonus_max": 50,
         "bonus_items": null,
         "bonus_stats": {
@@ -98,13 +108,18 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "901",
             "Advance Token"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": null,
         "bonus_stats": {
@@ -143,18 +158,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000100",
             "Magicite Shard"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Dagger",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000100",
-            "Fire Cryst"
+            {
+                "id": 201000100,
+                "name": "Fire Cryst",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -192,18 +215,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000100",
             "Magicite Shard"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Cloth",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "290010100",
-            "Pearl of Wisdom"
+            {
+                "id": 290010100,
+                "name": "Pearl of Wisdom",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -241,18 +272,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000200",
             "Magicite"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Sword",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "101000100",
-            "Potion"
+            {
+                "id": 101000100,
+                "name": "Potion",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -290,18 +329,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000200",
             "Magicite"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Rod",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "102006100",
-            "Gold Needle"
+            {
+                "id": 102006100,
+                "name": "Gold Needle",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -339,18 +386,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000200",
             "Magicite"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Light Shield",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "103008100",
-            "Protect Drink"
+            {
+                "id": 103008100,
+                "name": "Protect Drink",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -388,18 +443,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "107000200",
             "Magicite"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Heavy Shield",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -437,18 +500,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "202001600",
-            "Otherworldly Bone"
+            {
+                "id": 202001600,
+                "name": "Otherworldly Bone",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -486,18 +557,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000500",
-            "Earth Cryst"
+            {
+                "id": 201000500,
+                "name": "Earth Cryst",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -535,18 +614,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 1,
         "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000400",
-            "Water Cryst"
+            {
+                "id": 201000400,
+                "name": "Water Cryst",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -584,18 +671,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050300",
             "Sacred Crystal"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -633,18 +728,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050300",
             "Sacred Crystal"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000400",
-            "Water Cryst"
+            {
+                "id": 201000400,
+                "name": "Water Cryst",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -682,18 +785,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050300",
             "Sacred Crystal"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 2,
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "202000700",
-            "Demon Tail"
+            {
+                "id": 202000700,
+                "name": "Demon Tail",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -731,18 +842,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Hat",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000400",
-            "Water Cryst"
+            {
+                "id": 201000400,
+                "name": "Water Cryst",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -780,18 +899,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Light Armor",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "101000200",
-            "Hi-Potion"
+            {
+                "id": 101000200,
+                "name": "Hi-Potion",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -829,18 +956,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Heavy Armor",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "101000200",
-            "Hi-Potion"
+            {
+                "id": 101000200,
+                "name": "Hi-Potion",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -878,18 +1013,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 2,
         "exp_levels": [18000, 13500, 9000, 4500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Helm",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "102006100",
-            "Gold Needle"
+            {
+                "id": 102006100,
+                "name": "Gold Needle",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -927,18 +1070,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [72000, 54000, 36000, 18000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000800",
-            "Dark Cryst"
+            {
+                "id": 201000800,
+                "name": "Dark Cryst",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -976,18 +1127,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [72000, 54000, 36000, 18000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "201000800",
-            "Dark Cryst"
+            {
+                "id": 201000800,
+                "name": "Dark Cryst",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1025,18 +1184,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [72000, 54000, 36000, 18000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FF TYPE-0",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1074,18 +1241,26 @@
         "units": 3,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [72000, 54000, 36000, 18000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFT",
+            "bonus": 15
+        },
         "unit_bonus_max": 30,
         "bonus_items": [
-            "ITEM",
-            "106000100",
-            "Tent"
+            {
+                "id": 106000100,
+                "name": "Tent",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1123,18 +1298,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000829",
             "Random Milcryst"
         ],
         "relics": 2,
         "exp_levels": [16000, 12000, 8000, 4000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Dagger",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "101000100",
-            "Potion"
+            {
+                "id": 101000100,
+                "name": "Potion",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1172,18 +1355,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000829",
             "Random Milcryst"
         ],
         "relics": 2,
         "exp_levels": [16000, 12000, 8000, 4000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Cloth",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "101000100",
-            "Potion"
+            {
+                "id": 101000100,
+                "name": "Potion",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1221,18 +1412,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Sword",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "202001600",
-            "Otherworldly Bone"
+            {
+                "id": 202001600,
+                "name": "Otherworldly Bone",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1270,18 +1469,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Staff",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "201000100",
-            "Fire Cryst"
+            {
+                "id": 201000100,
+                "name": "Fire Cryst",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1319,18 +1526,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000809",
             "Random Magicite"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Rod",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290030600",
-            "Fury Seed"
+            {
+                "id": 290030600,
+                "name": "Fury Seed",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1368,18 +1583,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000809",
             "Random Magicite"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Axe",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "204000100",
-            "Lumber"
+            {
+                "id": 204000100,
+                "name": "Lumber",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1417,18 +1640,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000809",
             "Random Magicite"
         ],
         "relics": 4,
         "exp_levels": [80000, 60000, 40000, 20000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Fist",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290010000",
-            "Beast Meat"
+            {
+                "id": 290010000,
+                "name": "Beast Meat",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1466,18 +1697,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000809",
             "Random Magicite"
         ],
         "relics": 4,
         "exp_levels": [80000, 60000, 40000, 20000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Light Shield",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "103008100",
-            "Protect Drink"
+            {
+                "id": 103008100,
+                "name": "Protect Drink",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1515,18 +1754,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050300",
             "Sacred Crystal"
         ],
         "relics": 2,
         "exp_levels": [16000, 12000, 8000, 4000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Heavy Shield",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "101000100",
-            "Potion"
+            {
+                "id": 101000100,
+                "name": "Potion",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1564,18 +1811,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050300",
             "Sacred Crystal"
         ],
         "relics": 2,
         "exp_levels": [16000, 12000, 8000, 4000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Helm",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290010100",
-            "Pearl of Wisdom"
+            {
+                "id": 290010100,
+                "name": "Pearl of Wisdom",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1613,18 +1868,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050400",
             "Holy Crystal"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "101000200",
-            "Hi-Potion"
+            {
+                "id": 101000200,
+                "name": "Hi-Potion",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1662,18 +1925,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050400",
             "Holy Crystal"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290020900",
-            "Book of Ruin"
+            {
+                "id": 290020900,
+                "name": "Book of Ruin",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1711,18 +1982,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050400",
             "Holy Crystal"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290020200",
-            "Crimson Tear"
+            {
+                "id": 290020200,
+                "name": "Crimson Tear",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1760,18 +2039,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "290010000",
-            "Beast Meat"
+            {
+                "id": 290010000,
+                "name": "Beast Meat",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1809,18 +2096,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "101001100",
-            "Ether"
+            {
+                "id": 101001100,
+                "name": "Ether",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1858,18 +2153,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 3,
         "exp_levels": [48000, 36000, 24000, 12000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 3,
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "201000400",
-            "Water Cryst"
+            {
+                "id": 201000400,
+                "name": "Water Cryst",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -1907,18 +2210,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [80000, 60000, 40000, 20000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "106000100",
-            "Tent"
+            {
+                "id": 106000100,
+                "name": "Tent",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -1956,18 +2267,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 4,
         "exp_levels": [80000, 60000, 40000, 20000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "106000100",
-            "Tent"
+            {
+                "id": 106000100,
+                "name": "Tent",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2005,18 +2324,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 5,
         "exp_levels": [192000, 144000, 96000, 48000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFXII",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "103000100",
-            "Light Curtain"
+            {
+                "id": 103000100,
+                "name": "Light Curtain",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2054,18 +2381,26 @@
         "units": 4,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "KEYITEM",
             "100",
             "NRG Restore 10"
         ],
         "relics": 5,
         "exp_levels": [192000, 144000, 96000, 48000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFXIII",
+            "bonus": 10
+        },
         "unit_bonus_max": 20,
         "bonus_items": [
-            "ITEM",
-            "103001100",
-            "Lunar Curtain"
+            {
+                "id": 103001100,
+                "name": "Lunar Curtain",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2103,18 +2438,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "104009100",
-            "Holy Torch"
+            {
+                "id": 104009100,
+                "name": "Holy Torch",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2152,18 +2495,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "290020100",
-            "Seed of Life"
+            {
+                "id": 290020100,
+                "name": "Seed of Life",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2201,18 +2552,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -2250,18 +2609,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000830",
             "Random Heavicryst"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "102002100",
-            "Smelling Salts"
+            {
+                "id": 102002100,
+                "name": "Smelling Salts",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2299,18 +2666,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000830",
             "Random Heavicryst"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "290020800",
-            "Golden Egg"
+            {
+                "id": 290020800,
+                "name": "Golden Egg",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2348,18 +2723,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000830",
             "Random Heavicryst"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "104003100",
-            "Fish Scale"
+            {
+                "id": 104003100,
+                "name": "Fish Scale",
+                "amount": 6,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2397,18 +2780,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000828",
             "Random Megacite"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Staff",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "106000100",
-            "Tent"
+            {
+                "id": 106000100,
+                "name": "Tent",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2446,18 +2837,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000828",
             "Random Megacite"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Axe",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -2495,18 +2894,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000828",
             "Random Megacite"
         ],
         "relics": 5,
         "exp_levels": [150000, 112500, 75000, 37500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Harp",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "104009100",
-            "Holy Torch"
+            {
+                "id": 104009100,
+                "name": "Holy Torch",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2544,18 +2951,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Whip",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "290010200",
-            "Allure Powder"
+            {
+                "id": 290010200,
+                "name": "Allure Powder",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2593,18 +3008,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 3,
         "exp_levels": [30000, 22500, 15000, 7500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Throwing",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "105002100",
-            "Shuriken"
+            {
+                "id": 105002100,
+                "name": "Shuriken",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2642,18 +3065,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050400",
             "Holy Crystal"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Mace",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2691,18 +3122,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "290050400",
             "Holy Crystal"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Fist",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2740,18 +3179,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "101003100",
-            "Phoenix Down"
+            {
+                "id": 101003100,
+                "name": "Phoenix Down",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2789,18 +3236,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "101001100",
-            "Ether"
+            {
+                "id": 101001100,
+                "name": "Ether",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -2838,18 +3293,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 4,
         "exp_levels": [90000, 67500, 45000, 22500],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 5,
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2887,18 +3350,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000102",
             "Mini Burst Pot"
         ],
         "relics": 5,
         "exp_levels": [150000, 112500, 75000, 37500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFIV",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "1209000805",
-            "Scroll of Vigor"
+            {
+                "id": 1209000805,
+                "name": "Scroll of Vigor",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2936,18 +3407,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000102",
             "Mini Burst Pot"
         ],
         "relics": 5,
         "exp_levels": [150000, 112500, 75000, 37500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFIX",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "102003100",
-            "Echo Herbs"
+            {
+                "id": 102003100,
+                "name": "Echo Herbs",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -2985,18 +3464,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900000101",
             "Mini Tough Pot"
         ],
         "relics": 6,
         "exp_levels": [360000, 270000, 180000, 90000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFVI",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "103100100",
-            "Hero Drink"
+            {
+                "id": 103100100,
+                "name": "Hero Drink",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3034,18 +3521,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900000101",
             "Mini Tough Pot"
         ],
         "relics": 6,
         "exp_levels": [360000, 270000, 180000, 90000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFV",
+            "bonus": 6
+        },
         "unit_bonus_max": 14,
         "bonus_items": [
-            "ITEM",
-            "101000300",
-            "X-Potion"
+            {
+                "id": 101000300,
+                "name": "X-Potion",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3083,18 +3578,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "101000300",
-            "X-Potion"
+            {
+                "id": 101000300,
+                "name": "X-Potion",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3132,18 +3635,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "103009100",
-            "Shell Drink"
+            {
+                "id": 103009100,
+                "name": "Shell Drink",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3181,18 +3692,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000810",
             "Random Megacryst"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "102007100",
-            "Remedy"
+            {
+                "id": 102007100,
+                "name": "Remedy",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3230,18 +3749,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000828",
             "Random Megacite"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Harp",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "102008100",
-            "Hyper"
+            {
+                "id": 102008100,
+                "name": "Hyper",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3279,18 +3806,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000828",
             "Random Megacite"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Whip",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "101000300",
-            "X-Potion"
+            {
+                "id": 101000300,
+                "name": "X-Potion",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3328,18 +3863,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Throwing",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "103006100",
-            "Body Boost"
+            {
+                "id": 103006100,
+                "name": "Body Boost",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -3377,18 +3920,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000811",
             "Random Awakening Material"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Mace",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "103010100",
-            "Bacchus's Wine"
+            {
+                "id": 103010100,
+                "name": "Bacchus's Wine",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3426,18 +3977,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -3475,18 +4034,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "104009100",
-            "Holy Torch"
+            {
+                "id": 104009100,
+                "name": "Holy Torch",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3524,18 +4091,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000827",
             "Random Consumable"
         ],
         "relics": 5,
         "exp_levels": [120000, 90000, 60000, 30000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "103008100",
-            "Protect Drink"
+            {
+                "id": 103008100,
+                "name": "Protect Drink",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3573,18 +4148,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000831",
             "Random Giancryst"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFXV",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "202000600",
-            "Chromatic Ooze"
+            {
+                "id": 202000600,
+                "name": "Chromatic Ooze",
+                "amount": 40,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3622,18 +4205,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000831",
             "Random Giancryst"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFIII",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "102005100",
-            "Vaccine"
+            {
+                "id": 102005100,
+                "name": "Vaccine",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3671,18 +4262,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000831",
             "Random Giancryst"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFII",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "102004100",
-            "Unicorn Horn"
+            {
+                "id": 102004100,
+                "name": "Unicorn Horn",
+                "amount": 8,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3720,18 +4319,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "ITEM",
             "1209000831",
             "Random Giancryst"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFI",
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "104009100",
-            "Holy Torch"
+            {
+                "id": 104009100,
+                "name": "Holy Torch",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -3769,18 +4376,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000102",
             "Mini Burst Pot"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "290030600",
-            "Fury Seed"
+            {
+                "id": 290030600,
+                "name": "Fury Seed",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3818,18 +4433,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000102",
             "Mini Burst Pot"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "104009100",
-            "Holy Torch"
+            {
+                "id": 104009100,
+                "name": "Holy Torch",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3867,18 +4490,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000102",
             "Mini Burst Pot"
         ],
         "relics": 6,
         "exp_levels": [200000, 150000, 100000, 50000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "290030900",
-            "Lucky Seedling"
+            {
+                "id": 290030900,
+                "name": "Lucky Seedling",
+                "amount": 4,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -3916,18 +4547,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900000201",
             "Tough Pot"
         ],
         "relics": 7,
         "exp_levels": [480000, 360000, 240000, 120000],
+        "unit_bonus": {
+            "type": "Black magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "101002100",
-            "Elixir"
+            {
+                "id": 101002100,
+                "name": "Elixir",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -3965,18 +4604,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900000201",
             "Tough Pot"
         ],
         "relics": 7,
         "exp_levels": [480000, 360000, 240000, 120000],
+        "unit_bonus": {
+            "type": "White magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "290040400",
-            "Talmonite of Life"
+            {
+                "id": 290040400,
+                "name": "Talmonite of Life",
+                "amount": 5,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4014,18 +4661,26 @@
         "units": 5,
         "required": null,
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "900000201",
             "Tough Pot"
         ],
         "relics": 7,
         "exp_levels": [480000, 360000, 240000, 120000],
+        "unit_bonus": {
+            "type": "Green magic",
+            "value": 7,
+            "bonus": 4
+        },
         "unit_bonus_max": 12,
         "bonus_items": [
-            "ITEM",
-            "103001100",
-            "Lunar Curtain"
+            {
+                "id": 103001100,
+                "name": "Lunar Curtain",
+                "amount": 2,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -4063,18 +4718,26 @@
         "units": 5,
         "required": "Rain",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Great Sword",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -4112,18 +4775,26 @@
         "units": 5,
         "required": "Lasswell",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Katana",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "1209000805",
-            "Scroll of Vigor"
+            {
+                "id": 1209000805,
+                "name": "Scroll of Vigor",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4161,18 +4832,26 @@
         "units": 5,
         "required": "Fina",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Bow",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290030000",
-            "Earth's Core"
+            {
+                "id": 290030000,
+                "name": "Earth's Core",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4210,18 +4889,26 @@
         "units": 5,
         "required": "Lid",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Hammer",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290020600",
-            "Quality Parts"
+            {
+                "id": 290020600,
+                "name": "Quality Parts",
+                "amount": 20,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4259,18 +4946,26 @@
         "units": 5,
         "required": "Nichol",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Robe",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "202000800",
-            "Broken Blade"
+            {
+                "id": 202000800,
+                "name": "Broken Blade",
+                "amount": 120,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -4308,18 +5003,26 @@
         "units": 5,
         "required": "Jake",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Gun",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "103100100",
-            "Hero Drink"
+            {
+                "id": 103100100,
+                "name": "Hero Drink",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4357,18 +5060,26 @@
         "units": 5,
         "required": "Sakura",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "905000103",
             "Burst Pot"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Spear",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "102002100",
-            "Smelling Salts"
+            {
+                "id": 102002100,
+                "name": "Smelling Salts",
+                "amount": 60,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4406,18 +5117,26 @@
         "units": 5,
         "required": "Rain",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Great Sword",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 2,
@@ -4455,18 +5174,26 @@
         "units": 5,
         "required": "Lasswell",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Katana",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "103100100",
-            "Hero Drink"
+            {
+                "id": 103100100,
+                "name": "Hero Drink",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4504,18 +5231,26 @@
         "units": 5,
         "required": "Fina",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Bow",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290030800",
-            "Brilliant Ray"
+            {
+                "id": 290030800,
+                "name": "Brilliant Ray",
+                "amount": 10,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4553,18 +5288,26 @@
         "units": 5,
         "required": "Lid",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Hammer",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "290020600",
-            "Quality Parts"
+            {
+                "id": 290020600,
+                "name": "Quality Parts",
+                "amount": 20,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4602,18 +5345,26 @@
         "units": 5,
         "required": "Nichol",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Robe",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "1209000804",
-            "Scroll of Acumen"
+            {
+                "id": 1209000804,
+                "name": "Scroll of Acumen",
+                "amount": 3,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 0,
@@ -4651,18 +5402,26 @@
         "units": 5,
         "required": "Jake",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Gun",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "102005100",
-            "Vaccine"
+            {
+                "id": 102005100,
+                "name": "Vaccine",
+                "amount": 6,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
@@ -4700,18 +5459,26 @@
         "units": 5,
         "required": "Sakura",
         "next_id": null,
-        "rewards": [
+        "reward": [
             "UNIT",
             "904000101",
             "Trust Moogle"
         ],
         "relics": 8,
         "exp_levels": [600000, 450000, 300000, 150000],
+        "unit_bonus": {
+            "type": "equipable",
+            "value": "Spear",
+            "bonus": 3
+        },
         "unit_bonus_max": 10,
         "bonus_items": [
-            "ITEM",
-            "103100100",
-            "Hero Drink"
+            {
+                "id": 103100100,
+                "name": "Hero Drink",
+                "amount": 1,
+                "bonus": 20
+            }
         ],
         "bonus_stats": {
             "HP": 1,
