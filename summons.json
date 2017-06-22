@@ -13,10 +13,10 @@
         "skill": {
             "10101": {
                 "effects": [
-                    "Magic* water damage (30x EVO MAG) to all enemies",
+                    "Magic* water damage (60x EVO MAG) to all enemies",
                     "Inflict Sleep (50%) on all enemies"
                 ],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  3000]], [2, 1, 6, [0,  0,  50,  0,  0,  0,  0,  0,  1]]],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  6000]], [2, 1, 6, [0,  0,  50,  0,  0,  0,  0,  0,  1]]],
                 "strings": {
                     "name": [
                         "Lunatic Voice",
@@ -38,10 +38,10 @@
             },
             "10102": {
                 "effects": [
-                    "Magic* water damage (60x EVO MAG) to all enemies",
+                    "Magic* water damage (120x EVO MAG) to all enemies",
                     "Inflict Sleep (60%) on all enemies"
                 ],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  6000]], [2, 1, 6, [0,  0,  60,  0,  0,  0,  0,  0,  1]]],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  12000]], [2, 1, 6, [0,  0,  60,  0,  0,  0,  0,  0,  1]]],
                 "strings": {
                     "name": [
                         "Lunatic Voice",
@@ -63,10 +63,10 @@
             },
             "10103": {
                 "effects": [
-                    "Magic* water damage (90x EVO MAG) to all enemies",
+                    "Magic* water damage (180x EVO MAG) to all enemies",
                     "Inflict Sleep (70%) on all enemies"
                 ],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  9000]], [2, 1, 6, [0,  0,  70,  0,  0,  0,  0,  0,  1]]],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  18000]], [2, 1, 6, [0,  0,  70,  0,  0,  0,  0,  0,  1]]],
                 "strings": {
                     "name": [
                         "Lunatic Voice",
@@ -145,28 +145,6 @@
         "icon": "beast_thum21.png",
         "skill": {
             "10201": {
-                "effects": ["Physical* fire damage (32x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  3200]]],
-                "strings": {
-                    "name": [
-                        "Hellfire",
-                        "地獄火焰",
-                        "지옥의 화염",
-                        "Flammes de l'enfer",
-                        "Inferno",
-                        "Fuego infernal"
-                    ],
-                    "desc": [
-                        "Fire damage to all enemies",
-                        "對全體敵人發動火屬性攻擊",
-                        "적 전체에 불속성 피해",
-                        "Dégâts de feu sur tous les ennemis",
-                        "Feuerschaden, alle Ziele",
-                        "Inflige daño de fuego a todos los enemigos"
-                    ]
-                }
-            },
-            "10202": {
                 "effects": ["Physical* fire damage (70x EVO ATK) to all enemies"],
                 "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  7000]]],
                 "strings": {
@@ -188,9 +166,31 @@
                     ]
                 }
             },
+            "10202": {
+                "effects": ["Physical* fire damage (140x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  14000]]],
+                "strings": {
+                    "name": [
+                        "Hellfire",
+                        "地獄火焰",
+                        "지옥의 화염",
+                        "Flammes de l'enfer",
+                        "Inferno",
+                        "Fuego infernal"
+                    ],
+                    "desc": [
+                        "Fire damage to all enemies",
+                        "對全體敵人發動火屬性攻擊",
+                        "적 전체에 불속성 피해",
+                        "Dégâts de feu sur tous les ennemis",
+                        "Feuerschaden, alle Ziele",
+                        "Inflige daño de fuego a todos los enemigos"
+                    ]
+                }
+            },
             "10203": {
-                "effects": ["Physical* fire damage (105x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  10500]]],
+                "effects": ["Physical* fire damage (210x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  21000]]],
                 "strings": {
                     "name": [
                         "Hellfire",
@@ -269,28 +269,6 @@
         "icon": "beast_thum31.png",
         "skill": {
             "10301": {
-                "effects": ["Magic* ice damage (32x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  3200]]],
-                "strings": {
-                    "name": [
-                        "Diamond Dust",
-                        "鑽石星塵",
-                        "다이아몬드 더스트",
-                        "Poussière de diamant",
-                        "Diamantstaub",
-                        "Polvo de diamantes"
-                    ],
-                    "desc": [
-                        "Ice damage to all enemies",
-                        "對全體敵人發動冰屬性攻擊",
-                        "적 전체에 얼음속성 피해",
-                        "Dégâts de glace sur tous les ennemis",
-                        "Eisschaden, alle Ziele",
-                        "Inflige daño de frío a todos los enemigos"
-                    ]
-                }
-            },
-            "10302": {
                 "effects": ["Magic* ice damage (70x EVO MAG) to all enemies"],
                 "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  7000]]],
                 "strings": {
@@ -312,9 +290,31 @@
                     ]
                 }
             },
+            "10302": {
+                "effects": ["Magic* ice damage (140x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  14000]]],
+                "strings": {
+                    "name": [
+                        "Diamond Dust",
+                        "鑽石星塵",
+                        "다이아몬드 더스트",
+                        "Poussière de diamant",
+                        "Diamantstaub",
+                        "Polvo de diamantes"
+                    ],
+                    "desc": [
+                        "Ice damage to all enemies",
+                        "對全體敵人發動冰屬性攻擊",
+                        "적 전체에 얼음속성 피해",
+                        "Dégâts de glace sur tous les ennemis",
+                        "Eisschaden, alle Ziele",
+                        "Inflige daño de frío a todos los enemigos"
+                    ]
+                }
+            },
             "10303": {
-                "effects": ["Magic* ice damage (105x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  10500]]],
+                "effects": ["Magic* ice damage (210x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  21000]]],
                 "strings": {
                     "name": [
                         "Diamond Dust",
@@ -517,8 +517,8 @@
         "icon": "beast_thum51.png",
         "skill": {
             "10501": {
-                "effects": ["Magic* dark damage (42x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  4200]]],
+                "effects": ["Magic* dark damage (80x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  8000]]],
                 "strings": {
                     "name": [
                         "Dark Messenger",
@@ -539,8 +539,8 @@
                 }
             },
             "10502": {
-                "effects": ["Magic* dark damage (85x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  8500]]],
+                "effects": ["Magic* dark damage (170x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  17000]]],
                 "strings": {
                     "name": [
                         "Dark Messenger",
@@ -561,8 +561,8 @@
                 }
             },
             "10503": {
-                "effects": ["Magic* dark damage (130x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  13000]]],
+                "effects": ["Magic* dark damage (260x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  26000]]],
                 "strings": {
                     "name": [
                         "Dark Messenger",
@@ -765,28 +765,6 @@
         "icon": "beast_thum41.png",
         "skill": {
             "10701": {
-                "effects": ["Magic* lightning damage (35x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  3500]]],
-                "strings": {
-                    "name": [
-                        "Judgment Bolt",
-                        "制裁之雷",
-                        "심판의 벼락",
-                        "Foudre du jugement",
-                        "Ionenschlag",
-                        "Rayos de justicia"
-                    ],
-                    "desc": [
-                        "Lightning damage to all enemies",
-                        "對全體敵人發動雷屬性攻擊",
-                        "적 전체에 번개속성 피해",
-                        "Dégâts de foudre sur tous les ennemis",
-                        "Blitzschaden, alle Ziele",
-                        "Inflige daño de rayo a todos los enemigos"
-                    ]
-                }
-            },
-            "10702": {
                 "effects": ["Magic* lightning damage (70x EVO MAG) to all enemies"],
                 "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  7000]]],
                 "strings": {
@@ -808,9 +786,31 @@
                     ]
                 }
             },
+            "10702": {
+                "effects": ["Magic* lightning damage (140x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  14000]]],
+                "strings": {
+                    "name": [
+                        "Judgment Bolt",
+                        "制裁之雷",
+                        "심판의 벼락",
+                        "Foudre du jugement",
+                        "Ionenschlag",
+                        "Rayos de justicia"
+                    ],
+                    "desc": [
+                        "Lightning damage to all enemies",
+                        "對全體敵人發動雷屬性攻擊",
+                        "적 전체에 번개속성 피해",
+                        "Dégâts de foudre sur tous les ennemis",
+                        "Blitzschaden, alle Ziele",
+                        "Inflige daño de rayo a todos los enemigos"
+                    ]
+                }
+            },
             "10703": {
-                "effects": ["Magic* lightning damage (105x EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  10500]]],
+                "effects": ["Magic* lightning damage (210x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  21000]]],
                 "strings": {
                     "name": [
                         "Judgment Bolt",
@@ -889,8 +889,8 @@
         "icon": "beast_thum81.png",
         "skill": {
             "10801": {
-                "effects": ["Physical* earth damage (42x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  4200]]],
+                "effects": ["Physical* earth damage (80x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  8000]]],
                 "strings": {
                     "name": [
                         "Gaia's Wrath",
@@ -911,8 +911,8 @@
                 }
             },
             "10802": {
-                "effects": ["Physical* earth damage (85x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  8500]]],
+                "effects": ["Physical* earth damage (170x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  17000]]],
                 "strings": {
                     "name": [
                         "Gaia's Wrath",
@@ -933,8 +933,8 @@
                 }
             },
             "10803": {
-                "effects": ["Physical* earth damage (130x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  13000]]],
+                "effects": ["Physical* earth damage (260x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  26000]]],
                 "strings": {
                     "name": [
                         "Gaia's Wrath",
@@ -1000,6 +1000,109 @@
             }
         ]
     },
+    "9": {
+        "names": [
+            "Tetra Sylpheed",
+            "四方風精靈",
+            "테트라 실피드",
+            "Tétra-Sylphides",
+            "Tetra Sylpheed",
+            "Tetra Sílfide"
+        ],
+        "image": "beast91.png",
+        "icon": "beast_thum91.png",
+        "skill": {
+            "10901": {
+                "effects": ["Magic* wind damage (90x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  9000]]],
+                "strings": {
+                    "name": [
+                        "Heavenswind",
+                        "四天之風",
+                        "사천의 바람",
+                        "Vent céleste",
+                        "Himmelswind",
+                        "Viento celestial"
+                    ],
+                    "desc": null
+                }
+            },
+            "10902": {
+                "effects": ["Magic* wind damage (180x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  18000]]],
+                "strings": {
+                    "name": [
+                        "Heavenswind",
+                        "四天之風",
+                        "사천의 바람",
+                        "Vent céleste",
+                        "Himmelswind",
+                        "Viento celestial"
+                    ],
+                    "desc": null
+                }
+            },
+            "10903": {
+                "effects": ["Magic* wind damage (270x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  27000]]],
+                "strings": {
+                    "name": [
+                        "Heavenswind",
+                        "四天之風",
+                        "사천의 바람",
+                        "Vent céleste",
+                        "Himmelswind",
+                        "Viento celestial"
+                    ],
+                    "desc": null
+                }
+            }
+        },
+        "color": {
+            "Green": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [1800, 2600],
+                    "MP": [2600, 3800],
+                    "ATK": [1800, 2000],
+                    "DEF": [1200, 1600],
+                    "MAG": [2800, 4200],
+                    "SPR": [2000, 2600]
+                },
+                "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 30
+            },
+            {
+                "stats": {
+                    "HP": [3000, 4000],
+                    "MP": [4200, 5400],
+                    "ATK": [2200, 2600],
+                    "DEF": [1700, 2000],
+                    "MAG": [4600, 6000],
+                    "SPR": [2700, 3500]
+                },
+                "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 40
+            },
+            {
+                "stats": {
+                    "HP": [4400, 5000],
+                    "MP": [5600, 6800],
+                    "ATK": [2800, 3400],
+                    "DEF": [2200, 2600],
+                    "MAG": [6300, 7900],
+                    "SPR": [3600, 4200]
+                },
+                "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 50
+            }
+        ]
+    },
     "10": {
         "names": [
             "Odin",
@@ -1013,8 +1116,8 @@
         "icon": "beast_thum101.png",
         "skill": {
             "11001": {
-                "effects": ["Physical* damage (60x EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  6000]]],
+                "effects": ["Physical* damage (100x EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  10000]]],
                 "strings": {
                     "name": [
                         "Gungnir",
@@ -1036,10 +1139,10 @@
             },
             "11002": {
                 "effects": [
-                    "Physical* damage (100x EVO ATK) to all enemies",
+                    "Physical* damage (200x EVO ATK) to all enemies",
                     "Instant KO (50%) to all enemies"
                 ],
-                "effects_raw": [[2, 1, 94, [10000,  50,  1]]],
+                "effects_raw": [[2, 1, 94, [20000,  50,  1]]],
                 "strings": {
                     "name": [
                         "Zantetsuken",
@@ -1061,10 +1164,10 @@
             },
             "11003": {
                 "effects": [
-                    "Physical* damage (150x EVO ATK) to all enemies",
+                    "Physical* damage (300x EVO ATK) to all enemies",
                     "Instant KO (60%) to all enemies"
                 ],
-                "effects_raw": [[2, 1, 94, [15000,  60,  1]]],
+                "effects_raw": [[2, 1, 94, [30000,  60,  1]]],
                 "strings": {
                     "name": [
                         "Shin Zantetsuken",
@@ -1249,5 +1352,75 @@
                 "growth_pattern": 50
             }
         ]
+    },
+    "15": {
+        "skill": {
+            "11501": {
+                "effects": ["Magic* damage (300x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  30000]]],
+                "strings": {
+                    "name": [
+                        "Megaflare",
+                        "百萬核爆",
+                        "메가플레어",
+                        "MégaBrasier",
+                        "Megaflamme",
+                        "Megafulgor"
+                    ],
+                    "desc": [
+                        "Damage all enemies",
+                        "攻擊全體敵人",
+                        "적 전체에 피해",
+                        "Dégâts sur tous les ennemis",
+                        "Schaden, alle Gegner",
+                        "Inflige daño a todos los enemigos"
+                    ]
+                }
+            },
+            "11502": {
+                "effects": ["Magic* damage (400x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  40000]]],
+                "strings": {
+                    "name": [
+                        "Megaflare",
+                        "百萬核爆",
+                        "메가플레어",
+                        "MégaBrasier",
+                        "Megaflamme",
+                        "Megafulgor"
+                    ],
+                    "desc": [
+                        "Damage all enemies",
+                        "攻擊全體敵人",
+                        "적 전체에 피해",
+                        "Dégâts sur tous les ennemis",
+                        "Schaden, alle Gegner",
+                        "Inflige daño a todos los enemigos"
+                    ]
+                }
+            },
+            "11503": {
+                "effects": ["Magic* damage (500x EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  50000]]],
+                "strings": {
+                    "name": [
+                        "Megaflare",
+                        "百萬核爆",
+                        "메가플레어",
+                        "MégaBrasier",
+                        "Megaflamme",
+                        "Megafulgor"
+                    ],
+                    "desc": [
+                        "Damage all enemies",
+                        "攻擊全體敵人",
+                        "적 전체에 피해",
+                        "Dégâts sur tous les ennemis",
+                        "Schaden, alle Gegner",
+                        "Inflige daño a todos los enemigos"
+                    ]
+                }
+            }
+        }
     }
 }
