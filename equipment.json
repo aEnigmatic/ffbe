@@ -11173,7 +11173,7 @@
         }
     },
     "312001400": {
-        "name": "Elf'sBow",
+        "name": "Elf's Bow",
         "compendium_id": 493,
         "compendium_shown": true,
         "rarity": 8,
@@ -11203,10 +11203,10 @@
         "icon": "item_10714.png",
         "strings": {
             "name": [
-                "Elf'sBow",
+                "Elf's Bow",
                 "精靈之弓",
                 "엘프의 활",
-                "Arc elfique",
+                "Arc elfe",
                 "Elfenbogen",
                 "Arco élfico"
             ],
@@ -16713,7 +16713,7 @@
                 "Una máscara resistente al elemento oscuridad."
             ],
             "desc_long": [
-                "Masks have been used since the dawn of time to not only conceal one's face, but to become another person entirely. It would seem this black mask was made with black mages in mind, as it raises the wearer's DEF and SPR, while also providing resistance against the dark element. Rumor has it that an identical mask in white exists in another part of this world.",
+                "Masks have been used since the dawn of time to not only conceal one's face, but to become another person entirely. It would seem this black mask was made with black mages in mind, as it raises the wearer's DEF and MAG while also providing resistance against the dark element. Rumor has it that an identical mask in white exists in another part of this world.",
                 "自古以來，除了用來遮擋面部，假面也被用作使自己變成他者的一種暗示手段。這副黑色的面具就是為了假扮黑魔道士而製作的。它能夠提高裝備者的防禦和魔力，以及暗屬性耐性。據說這世上存在與之形狀相似的白色假面。",
                 "고대로부터 가면은, 얼굴을 감추기 위한 목적 이외에도, 또 다른 존재로 변모하는 암시의 의미로도 사용되어 왔다. 이 검은 가면은 흑마도사를 의식하여 만들어진 것으로, 장비하면 방어력과 마력, 그리고 어둠속성 저항력이 상승하게 된다. 세계의 어딘가에는, 비슷한 형태의 검은 가면이 존재한다고 한다.",
                 "Les masques sont utilisés depuis l'aube des temps pour cacher le visage, mais aussi pour devenir quelqu'un d'autre. Il semble que ce masque noir ait été fabriqué par quelqu'un ayant l'image des mages noirs en tête puisqu'il augmente la DEF et la PSY de son porteur, tout en lui offrant une résistance aux ténèbres. Des rumeurs disent qu'il existerait une version blanche de ce masque quelque part dans le monde.",
@@ -28248,7 +28248,7 @@
         "strings": {
             "name": [
                 "Ashe's Ring",
-                "艾雪的戒指",
+                "雅雪的戒指",
                 "아셰의 반지",
                 "Anneau d'Ashe",
                 "Ashes Ring",
@@ -34198,6 +34198,241 @@
                 "Une veste colorée, pleine de style qui ne laisse personne indifférent. Sortant de l'ordinaire, cette veste donne envie à tout le monde de parler à son porteur. On raconte d'ailleurs que c'est la raison pour laquelle le porteur de cette veste est capable de se déplacer rapidement.",
                 "Ein modisch leichtes, luftdurchlässiges Hemd. Weil es so schick ist, erweckt es die Aufmerksamkeit der anderen. Es heißt, wer es trägt, dessen Beweglichkeit erhöht sich.",
                 "Una chaqueta ligera y refrescante con gran impacto visual. Cómo es tan única, esta chaqueta hace que muchos deseen hablar con su dueño. Según rumores, es precisamente por esta razón que esta pieza de ropa hace posible que su dueño se mueva muy rápido."
+            ]
+        }
+    },
+    "1100000083": {
+        "name": "Zwill Crossblade",
+        "compendium_id": 90087,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 1,
+        "type": "Dagger",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "requirements": null,
+        "skills": [203190],
+        "effects": ["Grants 'Speed Plus' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 73,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Wind"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 1000,
+        "icon": "global_equip_10023.png",
+        "strings": {
+            "name": [
+                "Zwill Crossblade",
+                "索林之刃",
+                "졸링 셰이프",
+                "Dague Zorin",
+                "Zwill-Kreuzschwert",
+                "Daga Zorlin"
+            ],
+            "desc_short": [
+                "A blade that is light to hold, but don't be fooled as it can cut as fast as the wind blows.",
+                "劃傷敵人快如疾風，讓人無法輕視的輕巧銳劍。",
+                "바람과도 같은 빠르기로 적을 베어내는, 예리하고 가벼운 검.",
+                "Une lame légère, mais ne vous faites pas avoir, car elle est capable de trancher aussi vite que le vent.",
+                "Ein leichtgewichtiges Schert, das aber scharf schneiden kann.",
+                "Una espada bastante ligera, pero no te dejes engañar, pues su filo corta la carne como si fuera mantequilla."
+            ],
+            "desc_long": [
+                "A blade that is light to hold, but don't be fooled as it can cut as fast as the wind blows. A license is required to wield this weapon as those without one could easily injure themselves or their teammates.",
+                "劃傷敵人快如疾風，讓人無法輕視的輕巧銳劍。不成熟的戰士使用的話，會傷害到自己與夥伴，因此需要有許可才能夠裝備此劍。",
+                "바람과도 같은 빠르기로 적을 베어내는, 예리하고 가벼운 검. 미숙한 전사가 이 검을 쥐게 되면, 자신뿐 아니라 동료마저 상처입히게 되므로 이 검을 장비하려면 면허가 필요할 것이다.",
+                "Une lame légère, mais ne vous faites pas avoir, car elle est capable de trancher aussi vite que le vent. Quiconque souhaitant manier cette arme devra d'abord obtenir un permis afin d'apprendre à ne pas se blesser ou blesser les autres avec.",
+                "Ein leichtgewichtiges Schert, das aber scharf schneiden kann. Um sie zu tragen, braucht man eine Lizenz, da sich der Träger damit leicht selbst und seine Gefährten verletzen kann.",
+                "Una espada bastante ligera, pero no te dejes engañar, pues su filo corta la carne como si fuera mantequilla. Se requiere una licencia para portar esta arma porque, al usarla, es fácil herirse a sí mismo o a algún compañero."
+            ]
+        }
+    },
+    "1100000084": {
+        "name": "Holy Rod",
+        "compendium_id": 90088,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "requirements": null,
+        "skills": [203240],
+        "effects": ["Grants 'MP + 15%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 0,
+            "MAG": 53,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Light"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 1000,
+        "icon": "global_equip_10024.png",
+        "strings": {
+            "name": [
+                "Holy Rod",
+                "神聖棒",
+                "신성한 홀장",
+                "Sceptre sacré",
+                "Heiliger Stab",
+                "Vara sagrada"
+            ],
+            "desc_short": [
+                "A high-class rod with imbued with holiness.",
+                "蘊含神聖力量的高等魔棒。",
+                "성스러운 힘이 스며든 고급 홀장.",
+                "Un sceptre de grande qualité imprégné d'un pouvoir sacré.",
+                "Ein hochwertiger heiliger Stab.",
+                "Una vara de alta calidad que contiene un poder sagrado."
+            ],
+            "desc_long": [
+                "A high-class rod with imbued with holiness. This rod is used mainly by high level mages as it requires a special license and the ability to use holy powers to wield.",
+                "蘊含神聖力量的高等魔棒。要裝備此魔棒，需要有操控神聖力量的技術與許可，因此大多是高等魔道士在使用。",
+                "성스러운 힘이 스며든 고급 홀장. 이것을 장비하는 데엔 성스러운 힘을 다룰 기술과 면허가 필요하기 때문에, 고위급 마도사들이 사용하는 경우가 많다.",
+                "Un sceptre de grande qualité imprégné d'un pouvoir sacré. Il est principalement utilisé par les mages de haut niveau car il est nécessaire de posséder une licence spéciale pour pouvoir utiliser le pouvoir sacré qu'il contient.",
+                "Ein hochwertiger heiliger Stab. Er wird meist von hochstufigen Magier verwendet, da man dafür eine besondere Erlaubnis benötigt und die Fähigkeit zu heiligen Kräften.",
+                "Una vara de alta calidad que contiene un poder sagrado. Mayormente, los magos de rango alto suelen usar esta vara, puesto que requiere de una licencia y habilidad especiales para usar los poderes sagrados que alberga."
+            ]
+        }
+    },
+    "1100000086": {
+        "name": "Judge Helm",
+        "compendium_id": 90090,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 35,
+            "MAG": 0,
+            "SPR": 20,
+            "element_resist": {
+                "Fire": 15,
+                "Ice": 15,
+                "Lightning": 15,
+                "Water": 15,
+                "Wind": 15,
+                "Earth": 15,
+                "Light": 15
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "global_equip_10025.png",
+        "strings": {
+            "name": [
+                "Judge Helm",
+                "審判者頭盔",
+                "심판의 투구",
+                "Casque de juge",
+                "Richthelm",
+                "Casco de juez"
+            ],
+            "desc_short": [
+                "An imposing helm with a pair of downwards-pointing horns.",
+                "一頂威風的頭盔，附有一對朝下的犄角。",
+                "아래로 굽은 한 쌍의 뿔이 달린 인상적인 투구.",
+                "Un casque imposant possédant deux cornes pointant vers le bas.",
+                "Ein beeindruckender Helm mit abwärts gerichteten Hörnern.",
+                "Un imponente casco con un par de cuernos que apuntan hacia abajo."
+            ],
+            "desc_long": [
+                "An imposing helm with a pair of downward-pointing horns. Not only does it give its wearer an awe-inspiring aura, it also provides excellent defense against both physical and elemental magic attacks.",
+                "一頂威風的頭盔，附有一對朝下的犄角。它不僅能為配戴者帶來令人畏懼的氣場，同時也能提高防禦、物理及屬性魔法攻擊的力量。",
+                "아래로 굽은 한 쌍의 뿔이 달린 인상적인 투구. 착용한 사람은 범접할 수 없는 아우라를 내뿜게 되며, 강력한 물리공격 뿐 아니라 속성 마법공격까지도 견딜 수 있다.",
+                "Un casque imposant possédant deux cornes pointant vers le bas. Non seulement ce casque donne un aspect terrifiant à son porteur, mais lui permet également de réduire grandement les dégâts infligés par les attaques physiques et les attaques magiques.",
+                "Ein beeindruckender Helm mit abwärts gerichteten Hörnern. Er verleiht dem Träger nicht nur eine Ehrfurcht gebietende Aura, sondern bietet auch exzellenten Schutz vor physischen und magischen Angriffen.",
+                "Un imponente casco con un par de cuernos que apuntan hacia abajo. Aparte de proferirle a quien lo porta un aura intimidante, también proporciona una defensa excelente contra ataques físicos y mágicos."
+            ]
+        }
+    },
+    "1100000087": {
+        "name": "Artisan Beret",
+        "compendium_id": 90091,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "requirements": null,
+        "skills": [100170, 400040],
+        "effects": [
+            "Grants 'SPR +20%' passive.",
+            "Grants 'MP +5%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 14,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "global_equip_10033.png",
+        "strings": {
+            "name": [
+                "Artisan Beret",
+                "工匠貝雷帽",
+                "예술가의 베레모",
+                "Béret d'artisan",
+                "Kunsthandwerkerbarrett",
+                "Boina de artesano"
+            ],
+            "desc_short": [
+                "A stylish French cap.",
+                "一頂時尚的貝雷帽。",
+                "멋스러운 프랑스풍의 모자.",
+                "Un couvre-chef français d'une élégance folle.",
+                "Eine stilvolle Kopfbedeckung.",
+                "Una gorra francesa con mucho estilo."
+            ],
+            "desc_long": [
+                "A stylish French cap belonging to an artist. Speckles of paint can be seen on it.",
+                "一頂屬於藝術家的時尚貝雷帽。帽子上還帶有繪圖時留下的顏料。",
+                "어떤 예술가의 소지품이었던 멋스러운 프랑스풍의 모자. 곳곳에 물감이 묻어 있다.",
+                "Un couvre-chef français d'une élégance folle appartenant à une artiste. On peut y voir des tâches de peinture.",
+                "Eine stilvolle Kopfbedeckung, die einem Künstler gehört, und auf der Farbtupfer zu sehen sind.",
+                "Una gorra francesa con mucho estilo que pertenece a un artista. Tiene manchitas de pintura."
             ]
         }
     }
