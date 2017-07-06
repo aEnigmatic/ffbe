@@ -2835,10 +2835,10 @@
         "usable_in_combat": false,
         "usable_in_exploration": false,
         "flags": [false, false, false, false, false, false],
-        "carry_limit": 99,
+        "carry_limit": 0,
         "stack_size": 99999,
         "price_buy": 500,
-        "price_sell": 50,
+        "price_sell": 10,
         "effects": null,
         "effects_raw": "",
         "icon": "item_9123.png",
@@ -9871,7 +9871,7 @@
                 "Piedra encontrada en un templo antiguo"
             ],
             "desc_long": [
-                "A stone said to be found in an ancient shrine. It gives off a soft glow, and is used in making certain equipment. Buried deep underground, they require great determination in being discovered. Stones like this are often found in totally unimaginable places. It is best sometimes just to sometimes stop, and carefully check around oneself to see what can't be found.",
+                "A stone said to be found in an ancient shrine. It gives off a soft glow, and is used in making certain equipment. Buried deep underground, they require great determination in being discovered. Stones like this are often found in totally unimaginable places. It is best sometimes just to stop, and carefully check around oneself to see what can't be found.",
                 "在古代神殿遺址發現的石頭。散發著柔和的光芒，可以用來製作某種裝備。因為埋在地底深處，所以不認真找的話很難找到。像該石頭一樣，本以為什麼都沒有的地方，說不定也許沉睡著寶物。所以偶爾停下腳步，在自身周圍找找看或許會有意外的收穫。",
                 "고대신전 유적지에서 발견된다는 돌. 부드러운 빛을 발하고 있으며, 어느 장비의 재료로 사용된다. 땅속 깊은 곳에 묻혀있어 주의 깊게 찾아보지 않으면 발견할 수 없다고 한다. 이 돌처럼, 아무것도 없다고 여겨지는 장소라도 실은 예상치 못한 보물이 잠들어있는 경우도 있다. 때로는 잠시 걸음을 멈추고 느긋하게 자신의 발밑을 바라보는 것도 좋을지 모른다.",
                 "Une pierre que l'on dit provenir d'un temple antique. Elle émet une douce lueur, et on l'utilise dans la confection de certains équipements. Profondément enfouie sous la terre, elle nécessite une certaine dose de détermination pour être découverte. Les pierres comme celles-ci se cachent souvent dans les endroits les plus inattendus. Parfois, s'arrêter et patiemment observer les environs peut se révéler très utile.",
@@ -17019,7 +17019,7 @@
         "compendium_shown": true,
         "usable_in_combat": true,
         "usable_in_exploration": false,
-        "flags": [true, true, false, true, false, false],
+        "flags": [true, false, false, false, false, false],
         "carry_limit": 3,
         "stack_size": 99,
         "price_buy": 6000,
@@ -17061,7 +17061,7 @@
         "compendium_shown": true,
         "usable_in_combat": true,
         "usable_in_exploration": false,
-        "flags": [true, true, false, true, false, false],
+        "flags": [true, false, false, false, false, false],
         "carry_limit": 3,
         "stack_size": 99,
         "price_buy": 4000,
@@ -17103,7 +17103,7 @@
         "compendium_shown": true,
         "usable_in_combat": true,
         "usable_in_exploration": true,
-        "flags": [true, true, false, true, false, false],
+        "flags": [true, true, false, false, false, false],
         "carry_limit": 5,
         "stack_size": 99,
         "price_buy": 8000,
@@ -17145,7 +17145,7 @@
         "compendium_shown": true,
         "usable_in_combat": true,
         "usable_in_exploration": true,
-        "flags": [true, true, false, true, false, false],
+        "flags": [true, false, false, false, false, false],
         "carry_limit": 5,
         "stack_size": 99,
         "price_buy": 4000,
@@ -19025,6 +19025,48 @@
                 "Un gigacrist surprise. Quelle aptitude peut-il bien éveiller ?",
                 "Ein zufälliger Giankrist. Welche Fertigkeit lässt sich damit erwecken?",
                 "Un gigacrist sorpresa. ¿Qué habilidad despertará?"
+            ]
+        }
+    },
+    "1209000832": {
+        "name": "Metal Gigantuar Coin",
+        "type": "Consumable",
+        "compendium_id": 9068,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 999,
+        "stack_size": 9999,
+        "price_buy": 10000,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10134.png",
+        "strings": {
+            "names": [
+                "Metal Gigantuar Coin",
+                "金屬巨型仙人掌硬幣",
+                "메탈 사보텐더 코인",
+                "Jeton de Méga pampinator",
+                "Metallkaktoriusmünze",
+                "Moneda de cactilión de metal"
+            ],
+            "desc_short": [
+                "A coin to unlock the 1st Anniversary Metal Gigantuar Dungeon",
+                "解鎖一週年金屬巨型仙人掌迷宮所使用的硬幣",
+                "1주년 기념 메탈 사보텐더 던전을 개방할 수 있는 코인",
+                "Une pièce de monnaie servant à débloquer le donjon du Méga pampinator du 1er anniversaire",
+                "Eine Münze, um den Metallkaktorius-Dungeon zum ersten Jubiläum freizuschalten.",
+                "Una moneda para desbloquear la mazmorra del cactilión de metal primer aniversario."
+            ],
+            "desc_long": [
+                "A coin to unlock the 1st Anniversary Metal Gigantuar Dungeon. Don't lose it my friend!",
+                "解鎖一週年金屬巨型仙人掌迷宮時，使用的硬幣。別弄丟了朋友！",
+                "1주년 기념 메탈 사보텐더 던전을 개방할 수 있는 코인. 잃어버리지 않도록 소중히 간직하세요!",
+                "Une pièce de monnaie servant à débloquer le donjon du Méga pampinator du 1er anniversaire. Vous feriez mieux de ne pas le perdre mon ami !",
+                "Eine Münze, um den Metallkaktorius-Dungeon zum ersten Jubiläum freizuschalten. Verliere sie nicht, mein Freund!",
+                "Una moneda que sirve para desbloquear la mazmorra del cactilión de metal primer aniversario. ¡No la pierdas, amigo mío!"
             ]
         }
     },

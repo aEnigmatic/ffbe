@@ -9073,7 +9073,8 @@
                 "提高全體隊員攻擊防禦魔力精神的數值",
                 "아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Augmente ATT/DEF/MAGIE/PSY de tous les alliés",
-                "ANG, ABW, MAG und PSY hoch, alle Verb."
+                "ANG, ABW, MAG und PSY hoch, alle Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -9108,7 +9109,8 @@
                 "提高全體隊員攻擊防禦魔力精神的數值",
                 "아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Augmente ATT/DEF/MAGIE/PSY de tous les alliés",
-                "ANG, ABW, MAG und PSY hoch, alle Verb."
+                "ANG, ABW, MAG und PSY hoch, alle Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -9143,7 +9145,8 @@
                 "提高全體隊員攻擊防禦魔力精神的數值",
                 "아군 전체의 공격력, 방어력, 마력, 정신력 상승",
                 "Augmente ATT/DEF/MAGIE/PSY de tous les alliés",
-                "ANG, ABW, MAG und PSY hoch, alle Verb."
+                "ANG, ABW, MAG und PSY hoch, alle Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP a aliados"
             ]
         }
     },
@@ -25900,6 +25903,162 @@
                 "Dégâts sur tous les ennemis",
                 "Schaden, alle Ziele",
                 "Daña a todos los enemigos"
+            ]
+        }
+    },
+    "401000604": {
+        "name": "Mecha Friends",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_frames": [[190,  225,  235,  300]],
+        "effect_frames": [[35,  185,  295,  1]],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (2.2x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  220]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (2.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  290]]]},
+        "strings": {
+            "name": [
+                "Mecha Friends",
+                "機械鳥＆機械莫古利",
+                "메카보&메카모그리",
+                "Amis mécaniques",
+                "Mecha-Freunde",
+                "Mecacolegas"
+            ],
+            "desc": [
+                "Damage all enemies",
+                "攻擊全體敵人",
+                "적 전체에 피해",
+                "Dégâts sur tous les ennemis",
+                "Schaden, alle Ziele",
+                "Daña a todos los enemigos"
+            ]
+        }
+    },
+    "401000605": {
+        "name": "Mechanical Parade",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_frames": [[190,  215,  225,  300,  370]],
+        "effect_frames": [[35,  70,  360,  1]],
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (2.4x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  240]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (3.35x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  335]]]},
+        "strings": {
+            "name": [
+                "Mechanical Parade",
+                "機械遊行",
+                "기계들의 행진☆",
+                "Parade mécanique",
+                "Mechanischer Ausfall",
+                "Mecadesfile"
+            ],
+            "desc": [
+                "Damage all enemies",
+                "攻擊全體敵人",
+                "적 전체에 피해",
+                "Dégâts sur tous les ennemis",
+                "Schaden, alle Ziele",
+                "Daña a todos los enemigos"
+            ]
+        }
+    },
+    "401001105": {
+        "name": "Alexander Crest",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_frames": [[175], [120]],
+        "effect_frames": [[40,  100,  1], [40,  40,  40]],
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical* damage (5x, ATK) to all enemies (ignore cover)",
+                "Reduce damage received by 20% to all allies for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 2, 101, [20,  2,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical* damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Reduce damage received by 20% to all allies for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 2, 101, [20,  2,  1]]]},
+        "strings": {
+            "name": [
+                "Alexander Crest",
+                "亞歷山大紋章",
+                "알렉산더의 문장",
+                "Emblème d'Alexandre",
+                "Alexanderwappen",
+                "Emblema alexandrino"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to all enemies and reduce damage taken by all allies for two turns",
+                "對全體敵人發動無視部分防禦的攻擊+2回合內減少對全體隊員的傷害",
+                "적 전체에 일부 방어 무시 피해+2턴 동안 아군 전체가 받는 피해량 감소",
+                "Inflige des dégâts en partie fixes à tous les ennemis et réduit les dégâts reçus par tous les alliés pendant deux tours",
+                "Fügt einem Gegner teilweise direkten Lichtschaden zu und reduziert für zwei Runden den Schaden, den die Verbündeten erleiden.",
+                "Inflige daño absoluto parcial a todos los enemigos y reduce el daño que reciben todos los aliados durante 2 turnos."
+            ]
+        }
+    },
+    "401001106": {
+        "name": "Alexander Crest",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_frames": [[180], [120]],
+        "effect_frames": [[40,  100,  1], [40,  40,  40]],
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Physical* damage (6x, ATK) to all enemies (ignore cover)",
+                "Reduce damage received by 30% to all allies for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 2, 101, [30,  2,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Physical* damage (8.4x, ATK) to all enemies (ignore cover)",
+                "Reduce damage received by 30% to all allies for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  420,  -50]], [2, 2, 101, [30,  2,  1]]]},
+        "strings": {
+            "name": [
+                "Alexander Crest",
+                "亞歷山大紋章",
+                "알렉산더의 문장",
+                "Emblème d'Alexandre",
+                "Alexanderwappen",
+                "Emblema alexandrino"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to all enemies and reduce damage taken by all allies for two turns",
+                "對全體敵人發動無視部分防禦的攻擊+2回合內減少對全體隊員的傷害",
+                "적 전체에 일부 방어 무시 피해+2턴 동안 아군 전체가 받는 피해량 감소",
+                "Inflige des dégâts en partie fixes à tous les ennemis et réduit les dégâts reçus par tous les alliés pendant deux tours",
+                "Fügt einem Gegner teilweise direkten Lichtschaden zu und reduziert für zwei Runden den Schaden, den die Verbündeten erleiden.",
+                "Inflige daño absoluto parcial a todos los enemigos y reduce el daño que reciben todos los aliados durante 2 turnos."
             ]
         }
     },
