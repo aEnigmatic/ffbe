@@ -10621,7 +10621,7 @@
         "compendium_shown": true,
         "skills": [211340],
         "effects": ["Grants 'Martial Arts Mastery' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_95.png",
@@ -10635,12 +10635,12 @@
                 "Maestría de puño"
             ],
             "desc_short": [
-                "Boost ATK when equipped with fists",
-                "提高裝備格鬥武器時攻擊的數值",
-                "격투무기 장착 시 공격력 상승",
-                "Augmente l'ATT lorsque des poings sont équipés",
-                "Erhöht ANG, wenn mit Faust ausgerüstet.",
-                "Aumenta el ATQ al usar los puños."
+                "Boost ATK when equipped with fists (Not stackable)",
+                "提高裝備格鬥武器時攻擊的數值[無法重複裝備]",
+                "격투무기 장착 시 공격력 상승 [중복 장착 불가]",
+                "Augmente l'ATT lorsque des poings sont équipés (pas cumulable)",
+                "Erhöht ANG, wenn mit Faust ausgerüstet. (Nicht stapelbar)",
+                "Aumenta el ATQ al usar los puños. (no acumulable)"
             ],
             "desc_long": [
                 "Boosts ATK when equipped with fists.",
@@ -12319,6 +12319,80 @@
                 "Augmente l'ATT, la DEF, la MAGIE et la PSY de 40%. Pas cumulable.",
                 "Erhöht ANG, ABW, MAG u. PSY um 40%. Nicht stapelbar.",
                 "Aumenta ATQ, DEF, MAG y ESP un 40%.  No acumulable."
+            ]
+        }
+    },
+    "1500000021": {
+        "name": "Regenerator",
+        "compendium_id": 90021,
+        "compendium_shown": true,
+        "skills": [910313],
+        "effects": ["Grants 'Regenerator' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_10.png",
+        "strings": {
+            "names": [
+                "Regenerator",
+                "再生者",
+                "개혁자",
+                "Régénérateur",
+                "Regenerator",
+                "Regenerador"
+            ],
+            "desc_short": [
+                "Chance to regenerate HP for three turns when receiving a physical damage",
+                "受到物理攻擊時一定機率在3回合內持續恢復HP",
+                "물리공격을 받으면 일정 확률로 3턴 동안 HP 회복",
+                "Chance de régénérer les PV pendant 3 tours après avoir reçu des dégâts physiques",
+                "Chance, LP für 3 Runden wiederherzustellen bei physischem Angriff.",
+                "Posibilidad de recuperar VIT durante 3 turnos al recibir daño por ataque físico"
+            ],
+            "desc_long": [
+                "Adds chance to regenerate HP for three turns when receiving a physical attack.",
+                "受到物理攻擊時，一定機率在3回合內持續恢復HP。",
+                "물리공격을 받으면 일정 확률로 3턴 동안 HP를 회복합니다.",
+                "Chance de régénérer les PV pendant 3 tours après avoir reçu des dégâts physiques",
+                "Chance, LP für 3 Runden wiederherzustellen bei physischem Angriff.",
+                "Posibilidad de recuperar la VIT durante 3 turnos al recibir daño por ataque físico."
+            ]
+        }
+    },
+    "1500000022": {
+        "name": "Reactive Defense",
+        "compendium_id": 90022,
+        "compendium_shown": true,
+        "skills": [910314],
+        "effects": ["Grants 'Reactive Defense' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_10.png",
+        "strings": {
+            "names": [
+                "Reactive Defense",
+                "活性防護",
+                "능동 방어",
+                "Défense réactive",
+                "Reaktive Verteidigung",
+                "Defensa reactiva"
+            ],
+            "desc_short": [
+                "Chance to reduce damage taken for two turns when receiving a physical attack",
+                "受到物理攻擊時一定機率在2回合內減少受到的傷害",
+                "물리공격을 받으면 일정 확률로 사용자가 받는 피해량 2턴 동안 감소",
+                "Chance de réduire les dégâts reçus pendant 2 tours après avoir reçu des dégâts physiques",
+                "Chance für 2 Runden Schaden zu reduzieren bei physischem Angriff",
+                "Posibilidad de reducir el daño recibido durante 2 turnos al recibir ataque físico"
+            ],
+            "desc_long": [
+                "Adds chance to reduce damage taken for two turns when receiving a physical attack.",
+                "受到物理攻擊時，一定機率在2回合內減少受到的傷害。",
+                "물리공격을 받으면 일정 확률로 사용자가 받는 피해량이 2턴 동안 감소합니다.",
+                "Chance de réduire les dégâts reçus pendant 2 tours après avoir reçu des dégâts physiques",
+                "Chance für 2 Runden Schaden zu reduzieren bei physischem Angriff",
+                "Posibilidad de reducir el daño recibido durante 2 turnos al recibir ataque físico."
             ]
         }
     }

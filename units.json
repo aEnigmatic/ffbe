@@ -26839,6 +26839,7 @@
             {"rarity": 5, "level": 11, "type": "ABILITY", "id": 202240},
             {"rarity": 5, "level": 21, "type": "ABILITY", "id": 100140},
             {"rarity": 5, "level": 21, "type": "ABILITY", "id": 100170},
+            {"rarity": 5, "level": 23, "type": "ABILITY", "id": 910318},
             {"rarity": 5, "level": 41, "type": "ABILITY", "id": 100110},
             {"rarity": 5, "level": 41, "type": "ABILITY", "id": 100050},
             {"rarity": 5, "level": 51, "type": "ABILITY", "id": 202160},
@@ -26851,6 +26852,7 @@
             {"rarity": 6, "level": 71, "type": "ABILITY", "id": 210540},
             {"rarity": 6, "level": 71, "type": "ABILITY", "id": 210530},
             {"rarity": 6, "level": 81, "type": "ABILITY", "id": 100080},
+            {"rarity": 6, "level": 85, "type": "ABILITY", "id": 910319},
             {"rarity": 6, "level": 91, "type": "ABILITY", "id": 210520},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 210510}
         ]
@@ -27093,7 +27095,7 @@
     },
     "253000304": {
         "rarity_min": 4,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Agrias",
         "names": [
             "Agrias",
@@ -27181,13 +27183,54 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060000": 20,
+                        "290060300": 10,
+                        "290060200": 10,
+                        "290060400": 5,
+                        "290050500": 5
+                    }
+                },
                 "strings": {
                     "description": "A woman who appears in the tales of holy stones known as auracite in the distant world of Ivalice. As a holy knight, each devastating swing of her sword was charged with a sense of justice and honor. Her position as a knight of the Lionsguard, which protected the royal family, led her to become Princess Ovelia's personal bodyguard. Sympathizing with the sequestered life the princess led, Agrias threw herself into the heat of battle to protect her from all harm. She would later find a kindred spirit in Ramza, with whom she braved death numerous times throughout her mission to guard the princess.",
                     "summon": "Are you in need of aid?<br>I trust you will use this blade in the name of justice!",
                     "evolution": "This new power...<br>Is it an awakening?",
                     "affinity": "Regardless of any predicament, trust in your comrades. My comrades put their faith in me, so shall I do the same with you!",
                     "fusion": "A knight cannot turn her back on duty and leave her work undone! Allow me to accompany you!"
+                }
+            },
+            "253000306": {
+                "compendium_id": 587,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1147, 3476, 450],
+                    "MP": [54, 164, 75],
+                    "ATK": [46, 140, 30],
+                    "DEF": [41, 124, 30],
+                    "MAG": [39, 117, 30],
+                    "SPR": [39, 117, 30]
+                },
+                "limitburst_id": 253000306,
+                "attack_count": 2,
+                "attack_frames": [15, 41],
+                "effect_frames": [13, 39],
+                "max_lb_drop": 6,
+                "ability_slots": 4,
+                "magic_affinity": [6, 0, 7, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A woman who appears in the tales of holy stones known as auracite in the distant world of Ivalice. A loyal and dedicated warrior of the Lionsguard, Agrias uses her powerful skills as a holy knight to protect Princess Ovelia. In accordance to her duties, she joins forces with Ramza to move the princess to a safe location in the wake of war. Eventually she learns of the conspiracy enveloping Ivalice, and of the dark beings known as the Lucavi behind it all. Once the battle against the Lucavi begins, Agrias fights them alongside Ramza.",
+                    "summon": "I am Agrias Oaks,<br>a knight of the Lionsguard.<br>I have your back!",
+                    "evolution": "This power, you guided to me.<br>In thanks, I offer up my body to you.",
+                    "affinity": "Regardless of any predicament, trust in your comrades. My comrades put their faith in me, so shall I do the same with you!",
+                    "fusion": "One should not spend their life<br>suffering with uncertainty.<br>I will show you your path with my blade!"
                 }
             }
         },
@@ -27368,7 +27411,7 @@
     },
     "253000504": {
         "rarity_min": 4,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Gaffgarion",
         "names": [
             "Gaffgarion",
@@ -27456,13 +27499,54 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060400": 20,
+                        "290060200": 10,
+                        "290060300": 10,
+                        "290060000": 5,
+                        "290050500": 5
+                    }
+                },
                 "strings": {
                     "description": "A mercenary who appears in the tales of holy stones known as auracite in the distant world of Ivalice. Gaffgarion was a man who would use any means necessary to ensure victory, if money was at stake. Although he had been hired to protect Princess Ovelia, his true mission was revealed to be the elimination of the young girl. However, his plans to assassinate the princess failed thanks to Delita, and he was thus promptly forced to part from Ramza's company.",
                     "summon": "I shall accomplish any mission I undertake, regardless of what it entails. But of course...for the right price.",
                     "evolution": "This is useful indeed!<br>Now earning my fee will be child's play!",
                     "affinity": "I never act when there is no coin in it for myself, but consider this charity! I shall accompany you a tad longer.",
                     "fusion": "The most powerful force in this world is money. Justice and ideals are just pretty words in the wind!"
+                }
+            },
+            "253000506": {
+                "compendium_id": 588,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [1150, 3485, 390],
+                    "MP": [48, 144, 65],
+                    "ATK": [48, 146, 34],
+                    "DEF": [44, 133, 26],
+                    "MAG": [37, 113, 26],
+                    "SPR": [38, 114, 26]
+                },
+                "limitburst_id": 253000506,
+                "attack_count": 2,
+                "attack_frames": [21, 58],
+                "effect_frames": [19, 56],
+                "max_lb_drop": 6,
+                "ability_slots": 4,
+                "magic_affinity": [0, 7, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A mercenary who appears in the tales of holy stones known as auracite in the distant world of Ivalice. Gaffgarion is a man who will use any means necessary to ensure victory whenever money is at stake. Originally hired by Dycedarg Beoulve to discard Princess Ovelia, he attempts to persuade Ramza into completing the task in the name of the Beoulve family regardless of Ramza's numerous objections. Whether Gaffgarion's words originated from a genuine concern for his country, or just to carry out his mission, remains unknown.",
+                    "summon": "You've got quite the eye to pick me, kid.<br>Sure, I'll do whatever you say.<br>As long as I'm getting paid for it!",
+                    "evolution": "It is wise to invest in me.<br>As long as the pay is good,<br>I will remain your loyal pet.",
+                    "affinity": "I never act when there is no coin in it for myself, but consider this charity! I shall accompany you a tad longer.",
+                    "fusion": "Better not slack when it comes to being prepared.<br>You can't use enough discretion<br>if you want to survive on the battlefield."
                 }
             }
         },
@@ -27908,10 +27992,12 @@
             {"rarity": 6, "level": 30, "type": "ABILITY", "id": 202190},
             {"rarity": 6, "level": 40, "type": "ABILITY", "id": 100020},
             {"rarity": 6, "level": 60, "type": "ABILITY", "id": 202160},
-            {"rarity": 6, "level": 65, "type": "ABILITY", "id": 204710},
             {"rarity": 6, "level": 65, "type": "ABILITY", "id": 210630},
-            {"rarity": 6, "level": 70, "type": "ABILITY", "id": 210570},
+            {"rarity": 6, "level": 65, "type": "ABILITY", "id": 204710},
             {"rarity": 6, "level": 70, "type": "MAGIC", "id": 10170},
+            {"rarity": 6, "level": 70, "type": "ABILITY", "id": 210570},
+            {"rarity": 6, "level": 71, "type": "ABILITY", "id": 910316},
+            {"rarity": 6, "level": 85, "type": "ABILITY", "id": 910317},
             {"rarity": 6, "level": 95, "type": "ABILITY", "id": 210580},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 210560}
         ]
@@ -28228,6 +28314,7 @@
             {"rarity": 6, "level": 52, "type": "ABILITY", "id": 210370},
             {"rarity": 6, "level": 92, "type": "MAGIC", "id": 30320},
             {"rarity": 6, "level": 92, "type": "MAGIC", "id": 30330},
+            {"rarity": 6, "level": 98, "type": "ABILITY", "id": 910315},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 210420},
             {"rarity": 6, "level": 100, "type": "MAGIC", "id": 30370}
         ]
