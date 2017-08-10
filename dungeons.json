@@ -40397,6 +40397,160 @@
             }
         }
     },
+    "75701": {
+        "name": "Destroy the Machine Lifeform",
+        "region_id": "21",
+        "subregion_id": "757",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 7570101,
+        "missions": {
+            "7570101": {
+                "name": "Destroy the Machine Lifeform - INT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "STA",
+                "cost": 1,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 20,
+                "exp": 50,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["ITEM", 106303200, 100]
+                    },
+                    {
+                        "condition_str": "No items",
+                        "condition_raw": "1",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear within 5 turns",
+                        "condition_raw": "75:1:5",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Use magic",
+                        "condition_raw": "5",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "7570102": {
+                "name": "Destroy the Machine Lifeform - ADV",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "STA",
+                "cost": 1,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 50,
+                "exp": 155,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["ITEM", 106303200, 200]
+                    },
+                    {
+                        "condition_str": "Use black magic",
+                        "condition_raw": "13:2",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear within 5 turns",
+                        "condition_raw": "75:1:5",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "No limit bursts",
+                        "condition_raw": "17",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "7570103": {
+                "name": "Destroy the Machine Lifeform - PRO",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "STA",
+                "cost": 1,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 85,
+                "exp": 300,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["ITEM", 106303200, 300]
+                    },
+                    {
+                        "condition_str": "Use magic 3 or more times",
+                        "condition_raw": "41:2",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear within 5 turns",
+                        "condition_raw": "75:1:5",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Use no more than 5 items",
+                        "condition_raw": "40:5",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "7570104": {
+                "name": "Destroy the Machine Lifeform - ELT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "STA",
+                "cost": 1,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 117,
+                "exp": 365,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 40]
+                    },
+                    {
+                        "condition_str": "Evoke an esper",
+                        "condition_raw": "28",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Use 2 or more limit bursts",
+                        "condition_raw": "49:1",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Use no more than 3 items",
+                        "condition_raw": "40:3",
+                        "reward": ["LAPIS", 1, 20]
+                    }
+                ]
+            }
+        }
+    },
     "89901": {
         "name": "Chamber of the Reborn",
         "region_id": "21",
@@ -45484,6 +45638,61 @@
                 "reward": null,
                 "gil": 117,
                 "exp": 365,
+                "challenges": []
+            }
+        }
+    },
+    "90016": {
+        "name": "The Rumble of Malboro",
+        "region_id": "21",
+        "subregion_id": "899",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 9000011,
+        "missions": {
+            "9001601": {
+                "name": "The Rumble of Malboro - ADV",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 10,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["LAPIS", 0, 100],
+                "gil": 100,
+                "exp": 200,
+                "challenges": []
+            },
+            "9001602": {
+                "name": "The Rumble of Malboro - PRO",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 150,
+                "exp": 500,
+                "challenges": []
+            },
+            "9001603": {
+                "name": "The Rumble of Malboro - ELT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 50,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["EQUIP", 1100000085, 1],
+                "gil": 200,
+                "exp": 1500,
                 "challenges": []
             }
         }
