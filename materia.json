@@ -6284,7 +6284,7 @@
                 "中毒失明睡眠沉默麻痺混亂生病石化無效",
                 "독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 무효화합니다.",
                 "Annule poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification",
-                "Annuliert Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Stein.",
+                "Annuliert Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Versteinern.",
                 "Anula veneno, ceguera, sueño, silencio, parálisis, confusión, enfermedad y piedra"
             ]
         }
@@ -10164,7 +10164,7 @@
             "desc_long": [
                 "Boosts MP by 10%, and DEF and SPR by 5%.",
                 "提高10%MP、5%防禦精神的數值。",
-                "MP가 10%, 방어력과 마력이 5% 상승합니다.",
+                "MP가 10%, 방어력과 정신력이 5% 상승합니다.",
                 "Augmente les PM de 10%, et DEF/PSY de 5%",
                 "Erhöht MP um 10%, ABW und PSY um 5%.",
                 "Aumenta los PM un 10% y la DEF y el ESP un 5%."
@@ -10372,7 +10372,7 @@
                 "混亂無效",
                 "혼란 무효",
                 "Immunité (confusion)",
-                "Konfusionsresistenz",
+                "Konfusresistenz",
                 "Resistencia a la confusión"
             ],
             "desc_short": [
@@ -10528,7 +10528,7 @@
                 "石化無效",
                 "석화 무효화",
                 "Annule pétrification",
-                "Annulliert Stein.",
+                "Annulliert Versteinern.",
                 "Anula piedra."
             ],
             "desc_long": [
@@ -10536,7 +10536,7 @@
                 "石化無效。",
                 "석화를 무효화합니다.",
                 "Annule pétrification",
-                "Annuliert Stein.",
+                "Annuliert Versteinern.",
                 "Anula piedra."
             ]
         }
@@ -11157,7 +11157,7 @@
                 "沉默混亂無效+提高20%精神",
                 "침묵과 혼란 무효+정신력 20% 상승",
                 "Annule silence, confusion et augmente la PSY de 20%",
-                "Annulliert Stille und Konfusion, erhöht PSY um 20%.",
+                "Annulliert Stille und Konfus, erhöht PSY um 20%.",
                 "Anula silencio y confusión y aumenta el ESP un 20%."
             ],
             "desc_long": [
@@ -11165,7 +11165,7 @@
                 "沉默混亂無效並提高20%精神的數值。",
                 "침묵과 혼란을 무효화하고, 정신력이 20% 상승합니다.",
                 "Annule silence, confusion et augmente la PSY de 20%",
-                "Annulliert Stille und Konfusion, erhöht PSY um 20%.",
+                "Annulliert Stille und Konfus, erhöht PSY um 20%.",
                 "Anula silencio y confusión y aumenta el ESP un 20%."
             ]
         }
@@ -11190,7 +11190,7 @@
                 "Custodio del porvenir"
             ],
             "desc_short": [
-                "Boost ATK, DEF, and SPR by 20%, and restore HP and MP every turn",
+                "Boost ATK, DEF, MAG and SPR by 20%, and restore HP and MP every turn",
                 "提高20%攻擊防禦魔力精神+每回合自動恢復HPMP",
                 "공격력, 방어력, 마력, 정신력 20% 상승+매 턴마다 HP와 MP 회복",
                 "Augmente ATT/DEF/PSY de 20% et restaure PV/PM à chaque tour",
@@ -11643,6 +11643,80 @@
                 "Augmente les PV de 10% et la MAGIE de 20%.",
                 "LP hoch um 10 % und MAG um 20 %",
                 "Aumenta la VIT un 10% y la MAG un 20%."
+            ]
+        }
+    },
+    "504218860": {
+        "name": "Mechanical Heart",
+        "compendium_id": 679,
+        "compendium_shown": true,
+        "skills": [218860],
+        "effects": ["Grants 'Mechanical Heart' passive."],
+        "unique": true,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Mechanical Heart",
+                "機械裝置之心",
+                "기계장치의 마음",
+                "Cœur mécanique",
+                "Mechanisches Herz",
+                "Corazón mecánico"
+            ],
+            "desc_short": [
+                "Boost HP and SPR by 15% and chance of restoring own HP when receiving a physical or magic attack (Not stackable)",
+                "提高15%HP、精神+受到魔法攻擊時一定機率恢復自身HP  [無法重複裝備]",
+                "HP, 정신력 15% 상승+물리, 마법공격을 받으면 일정 확률로 사용자의 HP 회복 [중복 장착 불가]",
+                "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques (non cumulable)",
+                "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff. (Nicht stapelbar)",
+                "Aumenta VIT y ESP un 15%, probabilidad de recuperar VIT propia al recibir un ataque físico o mágico (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP and SPR by 15% and adds chance of restoring own HP when receiving a physical or magic attack.",
+                "提高15%HP、精神，受到魔法攻擊時一定機率恢復自身HP。",
+                "HP와 정신력이 15% 상승하고 물리, 마법공격을 받으면 일정 확률로 사용자의 HP를 회복합니다.",
+                "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques",
+                "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff.",
+                "Aumenta la VIT y el ESP un 15%, probabilidad de recuperar la VIT propia al recibir un ataque físico o mágico."
+            ]
+        }
+    },
+    "504218870": {
+        "name": "Vengeful Wrath",
+        "compendium_id": 680,
+        "compendium_shown": true,
+        "skills": [218870],
+        "effects": ["Grants 'Vengeful Wrath' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Vengeful Wrath",
+                "憎惡",
+                "증오",
+                "Colère vengeresse",
+                "Rachsüchtiger Zorn",
+                "Ira de venganza"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and ATK when HP falls below a certain point",
+                "提高20%HP+HP低於一定量時提高攻擊的數值",
+                "HP 20% 상승+HP가 일정량 이하일 때 공격력 상승",
+                "Augmente les PV de 20% et l'ATT lorsque les PV descendent en dessous d'un certain seuil",
+                "Erhöht LP um 20% und ANG, wenn die LP unter einen bestimmten Wert fallen.",
+                "Aumenta VIT un 20% y ATQ cuando la VIT baja a cierto punto"
+            ],
+            "desc_long": [
+                "Boosts HP by 20% and ATK when HP falls below a certain point.",
+                "提高20%HP，並且HP低於一定量時提高攻擊的數值。",
+                "HP가 20% 상승하고, HP가 일정량 이하일 때 공격력이 상승합니다.",
+                "Augmente les PV de 20% et l'ATT lorsque les PV descendent en dessous d'un certain seuil",
+                "Erhöht LP um 20% und ANG, wenn die LP unter einen bestimmten Wert fallen.",
+                "Aumenta la VIT un 20% y el ATQ cuando la VIT baja a cierto punto."
             ]
         }
     },
@@ -12319,6 +12393,59 @@
                 "Augmente l'ATT, la DEF, la MAGIE et la PSY de 40%. Pas cumulable.",
                 "Erhöht ANG, ABW, MAG u. PSY um 40%. Nicht stapelbar.",
                 "Aumenta ATQ, DEF, MAG y ESP un 40%.  No acumulable."
+            ]
+        }
+    },
+    "1500000019": {
+        "name": "Marlboro Whisper",
+        "compendium_id": 90023,
+        "compendium_shown": true,
+        "skills": [910338],
+        "effects": ["Grants 'Malboro Whiper' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": null,
+            "desc_short": null,
+            "desc_long": null
+        }
+    },
+    "1500000020": {
+        "name": "Resentment",
+        "compendium_id": 90020,
+        "compendium_shown": true,
+        "skills": [910311],
+        "effects": ["Grants 'Resentment' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Resentment",
+                "憤慨",
+                "분개",
+                "Ressentiment",
+                "Missgunst",
+                "Resentimiento"
+            ],
+            "desc_short": [
+                "Boost HP by 30% and DEF when HP falls below a certain point",
+                "提高30%HP+HP低於一定量時提高防禦的數值",
+                "HP가 일정량 이하일 때 HP 30% 상승+방어력 상승",
+                "Augmente les PV de 30% et la DEF lorsque les PV descendent en dessous d'un certain seuil",
+                "Erhöht LP um 30% und ABW, wenn LP unter einen bestimmten Punkt fallen.",
+                "Aumenta VIT un 30% y DEF cuando la VIT baja a cierto punto"
+            ],
+            "desc_long": [
+                "Boost HP by 30% and DEF when HP falls below a certain point.",
+                "提高30%HP，並且HP低於一定量時提高防禦的數值。",
+                "HP가 일정량 이하일 때 HP가 30% 상승하고, 방어력이 상승합니다.",
+                "Augmente les PV de 30% et la DEF lorsque les PV descendent en dessous d'un certain seuil",
+                "Erhöht LP um 30% und ABW, wenn LP unter einen bestimmten Punkt fallen.",
+                "Aumenta los VIT un 30% y la DEF cuando la VIT baja a cierto punto."
             ]
         }
     },
