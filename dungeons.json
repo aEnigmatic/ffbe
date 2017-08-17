@@ -45648,7 +45648,117 @@
         "subregion_id": "899",
         "type": "Vortex",
         "position": [0, 0],
-        "icon_id": 9000015
+        "icon_id": 9000015,
+        "missions": {
+            "9001601": {
+                "name": "The Rumble of Malboro - ADV",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 10,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["LAPIS", 0, 100],
+                "gil": 100,
+                "exp": 200,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 30]
+                    },
+                    {
+                        "condition_str": "Defeat great malboro with a limit burst",
+                        "condition_raw": "18:900010555:900010272:1",
+                        "reward": ["ITEM", 290050400, 5]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["ITEM", 290050300, 5]
+                    },
+                    {
+                        "condition_str": "Party of 5 or less (Companion included)",
+                        "condition_raw": "35:5",
+                        "reward": ["ITEM", 202002600, 3]
+                    }
+                ]
+            },
+            "9001602": {
+                "name": "The Rumble of Malboro - PRO",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 150,
+                "exp": 500,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 50]
+                    },
+                    {
+                        "condition_str": "Deal wind damage to an enemy",
+                        "condition_raw": "26:5",
+                        "reward": ["ITEM", 201001400, 10]
+                    },
+                    {
+                        "condition_str": "No items",
+                        "condition_raw": "1",
+                        "reward": ["ITEM", 270000900, 1]
+                    },
+                    {
+                        "condition_str": "Party of 5 or less (Companion included)",
+                        "condition_raw": "35:5",
+                        "reward": ["UNIT", 900020401, 2]
+                    }
+                ]
+            },
+            "9001603": {
+                "name": "The Rumble of Malboro - ELT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 50,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["EQUIP", 1100000085, 1],
+                "gil": 200,
+                "exp": 1500,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 100]
+                    },
+                    {
+                        "condition_str": "Evoke Ifrit",
+                        "condition_raw": "30:2",
+                        "reward": ["EQUIP", 1100000094, 1]
+                    },
+                    {
+                        "condition_str": "Defeat great malboro with a limit burst",
+                        "condition_raw": "18:900010553:900010266:1",
+                        "reward": ["MATERIA", 1500000019, 1]
+                    },
+                    {
+                        "condition_str": "No items",
+                        "condition_raw": "1",
+                        "reward": ["UNIT", 904000105, 1]
+                    }
+                ]
+            }
+        }
     },
     "90017": {
         "name": "A Musical Showdown",
@@ -45656,7 +45766,189 @@
         "subregion_id": "915",
         "type": "Vortex",
         "position": [0, 0],
-        "icon_id": 9000016
+        "icon_id": 9000016,
+        "missions": {
+            "9001701": {
+                "name": "A Musical Showdown - BGN",
+                "type": "EXPLORATION",
+                "wave_count": 0,
+                "cost_type": "NRG",
+                "cost": 5,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 20,
+                "exp": 100,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 401002304, 1]
+                    },
+                    {
+                        "condition_str": "Party of 3 or more (Companion included)",
+                        "condition_raw": "34:2",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "No magic",
+                        "condition_raw": "6",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "9001702": {
+                "name": "A Musical Showdown - INT",
+                "type": "EXPLORATION",
+                "wave_count": 0,
+                "cost_type": "NRG",
+                "cost": 10,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 32,
+                "exp": 210,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["EQUIP", 1100000098, 1]
+                    },
+                    {
+                        "condition_str": "Chic Ariana in party",
+                        "condition_raw": "36:401002304",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "No abilities (including passive)",
+                        "condition_raw": "20",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "9001703": {
+                "name": "A Musical Showdown - ADV",
+                "type": "EXPLORATION",
+                "wave_count": 0,
+                "cost_type": "NRG",
+                "cost": 15,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 50,
+                "exp": 350,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["EQUIP", 1100000099, 1]
+                    },
+                    {
+                        "condition_str": "Chic Ariana in party",
+                        "condition_raw": "36:401002304",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "No limit bursts",
+                        "condition_raw": "17",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "9001704": {
+                "name": "A Musical Showdown - PRO",
+                "type": "EXPLORATION",
+                "wave_count": 0,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 150,
+                "exp": 500,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["EQUIP", 1100000100, 1]
+                    },
+                    {
+                        "condition_str": "Chic Ariana in party",
+                        "condition_raw": "36:401002304",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Evoke an esper",
+                        "condition_raw": "28",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            },
+            "9001705": {
+                "name": "A Musical Showdown - ELT",
+                "type": "EXPLORATION",
+                "wave_count": 0,
+                "cost_type": "NRG",
+                "cost": 25,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": null,
+                "gil": 250,
+                "exp": 750,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000105, 1]
+                    },
+                    {
+                        "condition_str": "Chic Ariana in party",
+                        "condition_raw": "36:401002304",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Party of 5 or less (Companion included)",
+                        "condition_raw": "35:5",
+                        "reward": ["LAPIS", 1, 10]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            }
+        }
     },
     "6100000": {
         "name": "Lands of Plenty",
