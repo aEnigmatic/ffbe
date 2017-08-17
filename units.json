@@ -4359,7 +4359,7 @@
                     "description": "A knight who wields a blade of dark power. Though Duane, as a vision, can now control his prodigious powers, the envy and malice of his comrades that he endured in life have left scars on his psyche. Once pure of heart and mind, his grief deepened to such an extent that he eventually took his own life. His spirit now wanders the world as a vision, seeking to make amends.",
                     "summon": "I heard you call from the darkness.<br>If you do not fear my arcane powers, then I shall fight with you.",
                     "evolution": "Pain is unavoidable, when handling<br>the powers of darkness...<br>But there's no need to worry.<br>I have this under control.",
-                    "affinity": "We've defeated many a foe together.<br>Would you consider treating me<br>as one of your comrades?",
+                    "affinity": null,
                     "fusion": "O darkness, where no light may fall...<br>Give unto me your power!"
                 }
             }
@@ -33077,7 +33077,7 @@
     },
     "304000303": {
         "rarity_min": 3,
-        "rarity_max": 5,
+        "rarity_max": 6,
         "name": "Popoi",
         "names": [
             "Popoi",
@@ -33206,13 +33206,54 @@
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "physical_resist": 0,
                 "magical_resist": 0,
-                "awakening": null,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060000": 20,
+                        "290060300": 10,
+                        "290060400": 10,
+                        "290060100": 5,
+                        "290050500": 5
+                    }
+                },
                 "strings": {
                     "description": "A young sprite searching for his home in a world protected by the great power of mana.  Though he lost memories when he was carried away by the flood, he was able to recover them while travelling around with Randi and Primm. However, having finally returned to the place from which he came, Popoi found that it had been ravaged by some wicked being. Now aware of the fact that someone was out to destroy the balance of mana, Popoi and the others set their sights on the Mana Tree.",
                     "summon": "I will return to my home town.<br>I would appreciate it if you'd let me go along with you until then!",
                     "evolution": "You know, once the mana disappears,<br>so do us fairies...",
                     "affinity": "Hehe, I'm so happy to have been blessed with such wonderful partners!",
                     "fusion": "I'm going to protect the Mana so that all the villagers can make it back safely!"
+                }
+            },
+            "304000306": {
+                "compendium_id": 826,
+                "rarity": 6,
+                "growth_pattern": 6,
+                "stats": {
+                    "HP": [943, 2858, 390],
+                    "MP": [61, 184, 65],
+                    "ATK": [37, 113, 26],
+                    "DEF": [36, 109, 26],
+                    "MAG": [46, 140, 34],
+                    "SPR": [39, 119, 26]
+                },
+                "limitburst_id": 304000306,
+                "attack_count": 4,
+                "attack_frames": [31, 49, 108, 126],
+                "effect_frames": [29, 47, 106, 124],
+                "max_lb_drop": 3,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A young sprite searching for his home in a world protected by the great power of mana. Popoi decided to make a stand against the Vandole Empire when it attacked his village seeking to take over the world by resurrecting the Mana Fortress. Together with Randi, his friends, and the power of the Mana Sword, Popoi was finally able to thwart the Vandole Empire's ambitions. However, during their last decisive battle, he would have to make the hardest choice of his life.",
+                    "summon": "Let's travel together from now on.<br>With a skip, here we go,<br>yo ho ho!",
+                    "evolution": "Something that only I can do...<br>Don't go running off, now!",
+                    "affinity": "Hehe, I'm so happy to have been blessed with such wonderful partners!",
+                    "fusion": "My name Popoi was given<br>to me by the hero of legend!<br>I'm his greatest follower!"
                 }
             }
         },
@@ -33234,7 +33275,12 @@
             {"rarity": 5, "level": 39, "type": "ABILITY", "id": 203670},
             {"rarity": 5, "level": 42, "type": "ABILITY", "id": 203760},
             {"rarity": 5, "level": 65, "type": "ABILITY", "id": 203700},
-            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 203790}
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 203790},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 100050},
+            {"rarity": 6, "level": 28, "type": "ABILITY", "id": 100020},
+            {"rarity": 6, "level": 50, "type": "ABILITY", "id": 220300},
+            {"rarity": 6, "level": 71, "type": "ABILITY", "id": 100120},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 220640}
         ]
     },
     "306000105": {
@@ -36797,6 +36843,156 @@
             {"rarity": 6, "level": 50, "type": "ABILITY", "id": 910223},
             {"rarity": 6, "level": 77, "type": "ABILITY", "id": 910224},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 910225}
+        ]
+    },
+    "401002304": {
+        "rarity_min": 4,
+        "rarity_max": 6,
+        "name": "Chic Ariana",
+        "names": [
+            "Chic Ariana",
+            "時尚亞莉安娜",
+            "시크 아리아나",
+            "Ariana chic",
+            "Schicke Ariana",
+            "Ariana chic"
+        ],
+        "game_id": 90001,
+        "game": "Ariana Grande",
+        "job_id": 9006,
+        "job": "Singer",
+        "sex_id": 2,
+        "sex": "Female",
+        "tribe_id": 5,
+        "is_summonable": false,
+        "TMR": [
+            "MATERIA",
+            1500000025
+        ],
+        "equip": [5, 6, 9, 11, 40, 50, 53, 60],
+        "entries": {
+            "401002304": {
+                "compendium_id": 8068,
+                "rarity": 4,
+                "growth_pattern": 2,
+                "stats": {
+                    "HP": [636, 1926, 210],
+                    "MP": [34, 102, 35],
+                    "ATK": [20, 62, 14],
+                    "DEF": [25, 75, 14],
+                    "MAG": [27, 83, 18],
+                    "SPR": [25, 76, 14]
+                },
+                "limitburst_id": 401002304,
+                "attack_count": 1,
+                "attack_frames": [70],
+                "effect_frames": [30],
+                "max_lb_drop": 4,
+                "ability_slots": 3,
+                "magic_affinity": [0, 7, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 2500,
+                    "materials": {
+                        "1209000835": 5
+                    }
+                },
+                "strings": {
+                    "description": "A beautiful singer from a distant world, whose goal is to bring love and grow peace in the realm. Born as a talented young singer, she started performing from a young age. She became committed to her passion for music and eventually became a popular singer.",
+                    "summon": "All I want is the love of my fans!",
+                    "evolution": null,
+                    "affinity": "Music drives my whole life.<br>Let's make some good music together!",
+                    "fusion": "Don't you worry about a thing, we're gonna be alright."
+                }
+            },
+            "401002305": {
+                "compendium_id": 8069,
+                "rarity": 5,
+                "growth_pattern": 2,
+                "stats": {
+                    "HP": [826, 2503, 240],
+                    "MP": [44, 133, 40],
+                    "ATK": [27, 81, 16],
+                    "DEF": [32, 98, 16],
+                    "MAG": [36, 108, 24],
+                    "SPR": [33, 99, 16]
+                },
+                "limitburst_id": 401002305,
+                "attack_count": 1,
+                "attack_frames": [70],
+                "effect_frames": [30],
+                "max_lb_drop": 5,
+                "ability_slots": 4,
+                "magic_affinity": [0, 8, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "1209000835": 10
+                    }
+                },
+                "strings": {
+                    "description": "A beautiful singer from a distant world, whose goal is to bring love and grow peace in the realm. A natural born singer who started performing ever since she was a child. The combination of her incredible vocal range and her passion for music made her a force to be reckoned with!",
+                    "summon": "Tell me what you came here for?",
+                    "evolution": "Been waiting and waiting for you to make a move.",
+                    "affinity": "Music drives my whole life.<br>Let's make some good music together!",
+                    "fusion": "Let's plant love and grow peace!"
+                }
+            },
+            "401002306": {
+                "compendium_id": 8070,
+                "rarity": 6,
+                "growth_pattern": 2,
+                "stats": {
+                    "HP": [1074, 3254, 390],
+                    "MP": [58, 175, 65],
+                    "ATK": [35, 105, 26],
+                    "DEF": [42, 127, 26],
+                    "MAG": [47, 141, 34],
+                    "SPR": [43, 129, 26]
+                },
+                "limitburst_id": 401002306,
+                "attack_count": 1,
+                "attack_frames": [70],
+                "effect_frames": [30],
+                "max_lb_drop": 6,
+                "ability_slots": 4,
+                "magic_affinity": [0, 8, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null,
+                "strings": {
+                    "description": "A beautiful singer from a distant world, whose goal is to bring love and grow peace in the realm. Raised with a flair for music, she started performing from a young age. Incited by her desire to create and share wonderful music with the world, she worked hard to become a successful singer.",
+                    "summon": "Love is one of the most beautiful things in life.",
+                    "evolution": "That's it! Put your heart into it!",
+                    "affinity": "Music drives my whole life.<br>Let's make some good music together!",
+                    "fusion": "Focus! Then take me all the way..."
+                }
+            }
+        },
+        "skills": [
+            {"rarity": 4, "level": 3, "type": "MAGIC", "id": 20130},
+            {"rarity": 4, "level": 10, "type": "ABILITY", "id": 100010},
+            {"rarity": 4, "level": 17, "type": "MAGIC", "id": 20090},
+            {"rarity": 4, "level": 25, "type": "ABILITY", "id": 100170},
+            {"rarity": 4, "level": 30, "type": "ABILITY", "id": 910373},
+            {"rarity": 4, "level": 40, "type": "MAGIC", "id": 20160},
+            {"rarity": 5, "level": 11, "type": "MAGIC", "id": 20250},
+            {"rarity": 5, "level": 45, "type": "ABILITY", "id": 910375},
+            {"rarity": 5, "level": 50, "type": "MAGIC", "id": 20210},
+            {"rarity": 5, "level": 51, "type": "ABILITY", "id": 910376},
+            {"rarity": 5, "level": 62, "type": "ABILITY", "id": 910377},
+            {"rarity": 6, "level": 42, "type": "ABILITY", "id": 910374},
+            {"rarity": 6, "level": 57, "type": "MAGIC", "id": 70130},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 910383}
         ]
     },
     "900000101": {
