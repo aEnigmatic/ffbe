@@ -3012,7 +3012,7 @@
                 "自動精神振奮",
                 "자동 리프레쉬",
                 "Auto-Recharge",
-                "Auto-Aufladen",
+                "Auto-Erfrischung",
                 "AutoRefrescar"
             ],
             "desc_short": [
@@ -3020,7 +3020,7 @@
                 "每回合自動恢復MP",
                 "매 턴마다 MP 회복",
                 "Restaure les PM à chaque tour",
-                "Auto-Regena im Kampf",
+                "Auto-Erfrischung im Kampf",
                 "Recupera PM cada turno"
             ],
             "desc_long": [
@@ -6284,7 +6284,7 @@
                 "中毒失明睡眠沉默麻痺混亂生病石化無效",
                 "독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 무효화합니다.",
                 "Annule poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification",
-                "Annuliert Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Versteinern.",
+                "Annuliert Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Stein.",
                 "Anula veneno, ceguera, sueño, silencio, parálisis, confusión, enfermedad y piedra"
             ]
         }
@@ -10528,7 +10528,7 @@
                 "石化無效",
                 "석화 무효화",
                 "Annule pétrification",
-                "Annulliert Versteinern.",
+                "Annulliert Stein.",
                 "Anula piedra."
             ],
             "desc_long": [
@@ -10536,7 +10536,7 @@
                 "石化無效。",
                 "석화를 무효화합니다.",
                 "Annule pétrification",
-                "Annuliert Versteinern.",
+                "Annuliert Stein.",
                 "Anula piedra."
             ]
         }
@@ -11667,7 +11667,7 @@
             ],
             "desc_short": [
                 "Boost HP and SPR by 15% and chance of restoring own HP when receiving a physical or magic attack (Not stackable)",
-                "提高15%HP、精神+受到魔法攻擊時一定機率恢復自身HP  [無法重複裝備]",
+                "提高15%HP、精神的數值+受到物理、魔法攻擊時一定機率恢復自身HP  [無法重複裝備]",
                 "HP, 정신력 15% 상승+물리, 마법공격을 받으면 일정 확률로 사용자의 HP 회복 [중복 장착 불가]",
                 "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques (non cumulable)",
                 "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff. (Nicht stapelbar)",
@@ -11675,7 +11675,7 @@
             ],
             "desc_long": [
                 "Boosts HP and SPR by 15% and adds chance of restoring own HP when receiving a physical or magic attack.",
-                "提高15%HP、精神，受到魔法攻擊時一定機率恢復自身HP。",
+                "提高15%HP、精神，受到物理、魔法攻擊時一定機率恢復自身HP。",
                 "HP와 정신력이 15% 상승하고 물리, 마법공격을 받으면 일정 확률로 사용자의 HP를 회복합니다.",
                 "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques",
                 "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff.",
@@ -12397,19 +12397,40 @@
         }
     },
     "1500000019": {
-        "name": "Marlboro Whisper",
-        "compendium_id": 90023,
+        "name": "Malboro's Whisper",
+        "compendium_id": 90019,
         "compendium_shown": true,
         "skills": [910338],
-        "effects": ["Grants 'Malboro Whiper' passive."],
+        "effects": ["Grants 'Malboro's Whisper' passive."],
         "unique": false,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_77.png",
         "strings": {
-            "names": null,
-            "desc_short": null,
-            "desc_long": null
+            "names": [
+                "Malboro's Whisper",
+                "毛爾波爾細語",
+                "몰볼의 속삭임",
+                "Murmure de Morbol",
+                "Morbols Flüstern",
+                "Susurro de molbol"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and MAG by 30%",
+                "提高20%HP、30%魔力的數值",
+                "HP 20%, 마력 30% 상승",
+                "Augmente les PV de 20% et la MAGIE de 30%",
+                "Erhöht LP um 20% und MAG um 30%",
+                "Aumenta VIT un 20% y MAG un 30%"
+            ],
+            "desc_long": [
+                "Boosts HP by 20% and MAG by 30%.",
+                "提高20%HP、30%魔力的數值。",
+                "HP가 20%, 마력이 30% 상승합니다.",
+                "Augmente les PV de 20% et la MAGIE de 30%",
+                "Erhöht LP um 20% und MAG um 30%",
+                "Aumenta la VIT un 20% y la MAG un 30%."
+            ]
         }
     },
     "1500000020": {
@@ -12473,7 +12494,7 @@
                 "受到物理攻擊時一定機率在3回合內持續恢復HP",
                 "물리공격을 받으면 일정 확률로 3턴 동안 HP 회복",
                 "Chance de régénérer les PV pendant 3 tours après avoir reçu des dégâts physiques",
-                "Chance, LP für 3 Runden wiederherzustellen bei physischem Angriff.",
+                "Chance, LP für 3 Runden wiederherzustellen, wenn physischer Schaden erhalten.",
                 "Posibilidad de recuperar VIT durante 3 turnos al recibir daño por ataque físico"
             ],
             "desc_long": [
@@ -12520,6 +12541,43 @@
                 "Chance de réduire les dégâts reçus pendant 2 tours après avoir reçu des dégâts physiques",
                 "Chance für 2 Runden Schaden zu reduzieren bei physischem Angriff",
                 "Posibilidad de reducir el daño recibido durante 2 turnos al recibir ataque físico."
+            ]
+        }
+    },
+    "1500000025": {
+        "name": "Rhythmic Flair",
+        "compendium_id": 90025,
+        "compendium_shown": true,
+        "skills": [910387],
+        "effects": ["Grants 'Rhythmic Flair' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "global_materia_1500000006.png",
+        "strings": {
+            "names": [
+                "Rhythmic Flair",
+                "節奏感",
+                "리드미컬 플레어",
+                "Style rythmique",
+                "Rhythmisches Flair",
+                "Aptitud rítmica"
+            ],
+            "desc_short": [
+                "Boost MAG by 25% and MP by 15%",
+                "提高25%魔力、15%MP的數值",
+                "마력 25%, MP 15% 상승",
+                "Augmente la MAGIE de 25% et les PM de 15%",
+                "Erhöht MAG um 25% und MP um 15%.",
+                "Aumenta MAG un 25% y PM un 15%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 25% and MP by 15%.",
+                "提高25%魔力、15%MP的數值。",
+                "마력이 25%, MP가 15% 상승합니다.",
+                "Augmente la MAGIE de 25% et les PM de 15%.",
+                "Erhöht MAG um 25% und MP um 15%.",
+                "Aumenta la MAG un 25% y los PM un 15%."
             ]
         }
     }
