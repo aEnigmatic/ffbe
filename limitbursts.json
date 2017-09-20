@@ -3209,14 +3209,14 @@
             "cost": 10,
             "effects": [
                 "Restore 400 (+1.2x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  400,  120,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "max_level": {
             "cost": 10,
             "effects": [
                 "Restore 400 (+1.65x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  400,  165,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "strings": {
@@ -3252,14 +3252,14 @@
             "cost": 12,
             "effects": [
                 "Restore 600 (+1.4x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  600,  140,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Restore 600 (+2.1x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  600,  210,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "strings": {
@@ -3295,14 +3295,14 @@
             "cost": 14,
             "effects": [
                 "Restore 800 (+1.6x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  800,  160,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Restore 800 (+2.55x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for all allies"
+                "Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  800,  255,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]]},
         "strings": {
@@ -9141,7 +9141,7 @@
         "min_level": {
             "cost": 56,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Revive all allies from KO (10% HP) / Insta-kill Reaper monster",
                 "Restore 10% HP to all allies",
                 "Remove ATK, DEF, MAG, SPR, Stop and Charm? debuff from all allies"
@@ -9150,7 +9150,7 @@
         "max_level": {
             "cost": 56,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Revive all allies from KO (48% HP) / Insta-kill Reaper monster",
                 "Restore 48% HP to all allies",
                 "Remove ATK, DEF, MAG, SPR, Stop and Charm? debuff from all allies"
@@ -9188,7 +9188,7 @@
         "min_level": {
             "cost": 56,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Revive all allies from KO (50% HP) / Insta-kill Reaper monster",
                 "Restore 50% HP to all allies",
                 "Remove ATK, DEF, MAG, SPR, Stop and Charm? debuff from all allies"
@@ -9197,7 +9197,7 @@
         "max_level": {
             "cost": 56,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Revive all allies from KO (100% HP) / Insta-kill Reaper monster",
                 "Restore 100% HP to all allies",
                 "Remove ATK, DEF, MAG, SPR, Stop and Charm? debuff from all allies"
@@ -11655,14 +11655,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 20% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  20,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 34% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  34,  0,  0,  3,  1]]]},
@@ -11698,14 +11698,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 30% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  30,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 49% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  49,  0,  0,  3,  1]]]},
@@ -11741,14 +11741,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 40% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  40,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase DEF by 64% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  64,  0,  0,  3,  1]]]},
@@ -18248,11 +18248,11 @@
         "levels": 5,
         "min_level": {
             "cost": 8,
-            "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for one ally"],
+            "effects": ["Cure all status effects for one ally"],
             "effects_raw": [[1, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "max_level": {
             "cost": 6,
-            "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for one ally"],
+            "effects": ["Cure all status effects for one ally"],
             "effects_raw": [[1, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "strings": {
             "name": [
@@ -18285,11 +18285,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"],
+            "effects": ["Cure all status effects for all allies"],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "max_level": {
             "cost": 7,
-            "effects": ["Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"],
+            "effects": ["Cure all status effects for all allies"],
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "strings": {
             "name": [
@@ -22953,7 +22953,7 @@
             "effects": [
                 "Restore 1600 (+3.4x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  1600,  340,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "max_level": {
@@ -22961,7 +22961,7 @@
             "effects": [
                 "Restore 1600 (+4.1x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  1600,  410,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "strings": {
@@ -22998,7 +22998,7 @@
             "effects": [
                 "Restore 1800 (+3.6x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  1800,  360,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "max_level": {
@@ -23006,7 +23006,7 @@
             "effects": [
                 "Restore 1800 (+4.55x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  1800,  455,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "strings": {
@@ -23043,7 +23043,7 @@
             "effects": [
                 "Restore 2000 (+3.8x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  2000,  380,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "max_level": {
@@ -23051,7 +23051,7 @@
             "effects": [
                 "Restore 2000 (+5x, Heal) HP to one ally",
                 "Increase the limit burst gauge fill rate by 100% for 3 turns to one ally",
-                "Cure Silence, Poison and Paralyze for one ally"
+                "Cure Poison, Silence and Paralyze for one ally"
             ],
             "effects_raw": [[1, 2, 2, [0,  0,  2000,  500,  100]], [1, 2, 63, [100,  3]], [1, 2, 5, [1,  4,  5,  0,  0,  0,  0,  0]]]},
         "strings": {
@@ -23561,14 +23561,14 @@
             "cost": 12,
             "effects": [
                 "Restore 800 (+1.6x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
+                "Cure all status effects for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  800,  160,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Restore 800 (+2.3x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
+                "Cure all status effects for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  800,  230,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "strings": {
@@ -23604,14 +23604,14 @@
             "cost": 14,
             "effects": [
                 "Restore 1000 (+1.8x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
+                "Cure all status effects for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1000,  180,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Restore 1000 (+2.75x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies"
+                "Cure all status effects for all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1000,  275,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
         "strings": {
@@ -23647,7 +23647,7 @@
             "cost": 16,
             "effects": [
                 "Restore 1200 (+2x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase SPR by 30% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1200,  200,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  0,  0,  30,  3,  1]]]},
@@ -23655,7 +23655,7 @@
             "cost": 16,
             "effects": [
                 "Restore 1200 (+3.2x, Heal) HP to all allies",
-                "Cure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for all allies",
+                "Cure all status effects for all allies",
                 "Increase SPR by 30% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1200,  320,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 3, [0,  0,  0,  30,  3,  1]]]},
