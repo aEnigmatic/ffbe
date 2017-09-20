@@ -767,7 +767,7 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Cure Sleep, Silence, Poison, Paralyze, Confusion and Blind for one ally"],
+        "effects": ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for one ally"],
         "effects_raw": [[1, 2, 71, [300350,  1]]],
         "icon": "item_1014.png",
         "strings": {
@@ -2027,7 +2027,10 @@
         "stack_size": 99,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Fixed damage (1500) to all enemies\nReduce DEF by 30% for 5 turns to all enemies"],
+        "effects": [
+            "Fixed damage (1500) to all enemies",
+            "Reduce DEF by 30% for 5 turns to all enemies"
+        ],
         "effects_raw": [[1, 1, 71, [300170,  1]]],
         "icon": "item_3023.png",
         "strings": {
@@ -17402,7 +17405,10 @@
         "stack_size": 99,
         "price_buy": 8000,
         "price_sell": 600,
-        "effects": ["Remove all effects from one ally\nCure Sleep, Silence, Poison, Petrify, Paralyze, Disease, Confusion and Blind for one ally"],
+        "effects": [
+            "Remove all effects from one ally",
+            "Cure all status effects for one ally"
+        ],
         "effects_raw": [[1, 2, 71, [910249,  1]]],
         "icon": "global_item_10123.png",
         "strings": {
