@@ -63,10 +63,10 @@
             },
             "10103": {
                 "effects": [
-                    "Magic* water damage (180x, EVO MAG) to all enemies",
+                    "Magic* water damage (210x, EVO MAG) to all enemies",
                     "Inflict Sleep (70%) on all enemies"
                 ],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  18000]], [2, 1, 6, [0,  0,  70,  0,  0,  0,  0,  0,  1]]],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  21000]], [2, 1, 6, [0,  0,  70,  0,  0,  0,  0,  0,  1]]],
                 "strings": {
                     "name": [
                         "Lunatic Voice",
@@ -189,8 +189,8 @@
                 }
             },
             "10203": {
-                "effects": ["Physical* fire damage (210x, EVO ATK) to all enemies"],
-                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  21000]]],
+                "effects": ["Physical* fire damage (235x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  23500]]],
                 "strings": {
                     "name": [
                         "Hellfire",
@@ -1374,7 +1374,114 @@
             }
         ]
     },
+    "12": {
+        "names": null,
+        "image": "beast171.png",
+        "icon": "beast_thum171.png",
+        "skill": {
+            "11201": {
+                "effects": ["Magic* water damage (280x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  28000]]],
+                "strings": {
+                    "name": null,
+                    "desc": [
+                        "Light lightning damage to all enemies",
+                        "對全體敵人發動雷屬性小攻擊",
+                        "적 전체에 번개속성 적은 피해",
+                        "Légers dégâts de foudre sur tous les ennemis",
+                        "Leichter Blitzschaden, alle Ziele",
+                        "Daño leve de rayo a todos los enemigos"
+                    ]
+                }
+            },
+            "11202": {
+                "effects": ["Magic* water damage (380x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  38000]]],
+                "strings": {
+                    "name": null,
+                    "desc": [
+                        "Moderate lightning damage to all enemies",
+                        "對全體敵人發動雷屬性中攻擊",
+                        "적 전체에 번개속성 중간 피해",
+                        "Dégâts de foudre modérés sur tous les ennemis.",
+                        "Moderater Blitzschaden, alle Ziele",
+                        "Daño medio de rayo a todos los enemigos"
+                    ]
+                }
+            },
+            "11203": {
+                "effects": ["Magic* water damage (480x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  48000]]],
+                "strings": {
+                    "name": null,
+                    "desc": [
+                        "Moderate lightning damage to all enemies",
+                        "對全體敵人發動雷屬性中攻擊",
+                        "적 전체에 번개속성 중간 피해",
+                        "Dégâts de foudre modérés sur tous les ennemis.",
+                        "Moderater Blitzschaden, alle Ziele",
+                        "Daño medio de rayo a todos los enemigos"
+                    ]
+                }
+            }
+        },
+        "color": {
+            "Blue": 1.5,
+            "Green": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [3700, 4800],
+                    "MP": [2900, 3800],
+                    "ATK": [2700, 3500],
+                    "DEF": [1600, 2000],
+                    "MAG": [3000, 3900],
+                    "SPR": [1600, 2000]
+                },
+                "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 33
+            },
+            {
+                "stats": {
+                    "HP": [5000, 7200],
+                    "MP": [4000, 5700],
+                    "ATK": [3700, 5200],
+                    "DEF": [2200, 3000],
+                    "MAG": [4100, 5900],
+                    "SPR": [2200, 3000]
+                },
+                "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 43
+            },
+            {
+                "stats": {
+                    "HP": [7400, 9600],
+                    "MP": [5900, 7600],
+                    "ATK": [5400, 7000],
+                    "DEF": [3200, 4000],
+                    "MAG": [6100, 7800],
+                    "SPR": [3200, 4000]
+                },
+                "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 53
+            }
+        ]
+    },
     "15": {
+        "names": [
+            "Bahamut",
+            "巴哈姆特",
+            "바하무트",
+            "Bahamut",
+            "Bahamut",
+            "Bahamut"
+        ],
+        "image": "beast151.png",
+        "icon": "beast_thum151.png",
         "skill": {
             "11501": {
                 "effects": ["Magic* damage (300x, EVO MAG) to all enemies"],
@@ -1442,6 +1549,179 @@
                     ]
                 }
             }
-        }
+        },
+        "color": null,
+        "entries": [
+            {
+                "stats": {
+                    "HP": [4800, 6400],
+                    "MP": [4700, 6300],
+                    "ATK": [4500, 6000],
+                    "DEF": [4500, 6000],
+                    "MAG": [4500, 6000],
+                    "SPR": [4500, 6000]
+                },
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 31
+            },
+            {
+                "stats": {
+                    "HP": [6600, 9600],
+                    "MP": [6500, 9450],
+                    "ATK": [6200, 8400],
+                    "DEF": [6200, 8400],
+                    "MAG": [6200, 8400],
+                    "SPR": [6200, 8400]
+                },
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 41
+            },
+            {
+                "stats": {
+                    "HP": [9800, 12800],
+                    "MP": [9650, 12600],
+                    "ATK": [8600, 12000],
+                    "DEF": [8600, 12000],
+                    "MAG": [8600, 12000],
+                    "SPR": [8600, 12000]
+                },
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 51
+            }
+        ]
+    },
+    "16": {
+        "names": [
+            "Fenrir",
+            "芬里爾",
+            "펜리르",
+            "Fenrir",
+            "Fenris",
+            "Fenril"
+        ],
+        "image": "beast161.png",
+        "icon": "beast_thum161.png",
+        "skill": {
+            "11601": {
+                "effects": ["Increase ATK, DEF, MAG and SPR by 50% for 3 turns to all allies"],
+                "effects_raw": [[2, 2, 3, [50,  50,  50,  50,  3,  1]]],
+                "strings": {
+                    "name": [
+                        "Howling Moon",
+                        "月夜狼嚎",
+                        "하울링 문",
+                        "Lune hurlante",
+                        "Mondheulen",
+                        "Luna aullante"
+                    ],
+                    "desc": [
+                        "Boost ATK, DEF, MAG, and SPR for all allies",
+                        "提高全體隊員攻擊防禦魔力精神的數值",
+                        "아군 전체의 공격력, 방어력, 마력, 정신력 상승",
+                        "Augmente l'ATT, la DEF, la MAGIE et ka PSY de tous les alliés",
+                        "ANG, ABW, MAG und PSY hoch, alle Verb.",
+                        "Aumenta ATQ, DEF, MAG y ESP de todos los aliados"
+                    ]
+                }
+            },
+            "11602": {
+                "effects": [
+                    "Increase ATK, DEF, MAG and SPR by 80% for 3 turns to all allies",
+                    "Dodge 1 physical attacks for 3 turns to all allies"
+                ],
+                "effects_raw": [[2, 2, 3, [80,  80,  80,  80,  3,  1]], [2, 2, 54, [1,  3]]],
+                "strings": {
+                    "name": [
+                        "Howling Moon",
+                        "月夜狼嚎",
+                        "하울링 문",
+                        "Lune hurlante",
+                        "Mondheulen",
+                        "Luna aullante"
+                    ],
+                    "desc": [
+                        "Boost ATK, DEF, MAG, and SPR for all allies and enable units to evade one physical attack",
+                        "提高全體隊員攻擊防禦魔力精神的數值+閃避1次物理攻擊",
+                        "아군 전체의 공격력, 방어력, 마력, 정신력 상승+물리공격 1회 회피",
+                        "Augmente l'ATT, la DEF, la MAGIE et ka PSY de tous les alliés et permet aux unités d'esquiver une attaque physique",
+                        "ANG, ABW, MAG und PSY für alle Verb und ermöglicht Ausweichen vor einem phy. Angriff.",
+                        "Aumenta ATQ, DEF, MAG y ESP de todos los aliados y permite que las unidades esquiven un ataque físico"
+                    ]
+                }
+            },
+            "11603": {
+                "effects": [
+                    "Increase ATK, DEF, MAG and SPR by 80% for 3 turns to all allies",
+                    "Dodge 2 physical attacks for 4 turns to all allies"
+                ],
+                "effects_raw": [[2, 2, 3, [80,  80,  80,  80,  3,  1]], [2, 2, 54, [2,  4]]],
+                "strings": {
+                    "name": [
+                        "Howling Moon",
+                        "月夜狼嚎",
+                        "하울링 문",
+                        "Lune hurlante",
+                        "Mondheulen",
+                        "Luna aullante"
+                    ],
+                    "desc": [
+                        "Boost ATK, DEF, MAG, and SPR for all allies and enable units to evade two physical attacks",
+                        "提高全體隊員攻擊防禦魔力精神的數值+閃避2次物理攻擊",
+                        "아군 전체의 공격력, 방어력, 마력, 정신력 상승+물리공격 2회 회피",
+                        "Augmente l'ATT, la DEF, la MAGIE et ka PSY de tous les alliés et permet aux unités d'esquiver deux attaques physiques",
+                        "ANG, ABW, MAG und PSY für alle Verb und ermöglicht Ausweichen vor zwei phy. Angriffen.",
+                        "Aumenta ATQ, DEF, MAG y ESP de todos los aliados y permite que las unidades esquiven dos ataques físicos"
+                    ]
+                }
+            }
+        },
+        "color": {
+            "Black": 1.5,
+            "Violet": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [2500, 3600],
+                    "MP": [1600, 2300],
+                    "ATK": [2900, 4200],
+                    "DEF": [1400, 1900],
+                    "MAG": [2900, 4200],
+                    "SPR": [1400, 1900]
+                },
+                "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 32
+            },
+            {
+                "stats": {
+                    "HP": [3800, 4800],
+                    "MP": [2500, 3000],
+                    "ATK": [4400, 5500],
+                    "DEF": [2100, 2500],
+                    "MAG": [4400, 5500],
+                    "SPR": [2100, 2500]
+                },
+                "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 42
+            },
+            {
+                "stats": {
+                    "HP": [5000, 7200],
+                    "MP": [3200, 4600],
+                    "ATK": [5700, 8400],
+                    "DEF": [2700, 3800],
+                    "MAG": [5700, 8400],
+                    "SPR": [2700, 3800]
+                },
+                "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "growth_pattern": 52
+            }
+        ]
     }
 }
