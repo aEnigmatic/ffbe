@@ -23988,7 +23988,7 @@
         }
     },
     "215000205": {
-        "name": "Rising Impulse",
+        "name": "Impulse",
         "cost": 0,
         "attack_count": [1],
         "attack_frames": [[200]],
@@ -24013,7 +24013,7 @@
             "effects_raw": [[2, 1, 21, [0,  0,  445,  -50]], [0, 3, 61, [100,  3]]]},
         "strings": {
             "name": [
-                "Rising Impulse",
+                "Impulse",
                 "增幅衝擊",
                 "라이징 임펄스",
                 "Éradication",
@@ -24031,7 +24031,7 @@
         }
     },
     "215000206": {
-        "name": "Rising Impulse",
+        "name": "Impulse",
         "cost": 0,
         "attack_count": [1],
         "attack_frames": [[200]],
@@ -24056,7 +24056,7 @@
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]], [0, 3, 61, [100,  3]]]},
         "strings": {
             "name": [
-                "Rising Impulse",
+                "Impulse",
                 "增幅衝擊",
                 "라이징 임펄스",
                 "Éradication",
@@ -24681,7 +24681,7 @@
                 "提高全體隊員火冰雷水風土光暗屬性耐性的數值+3回合內減少傷害",
                 "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승+3턴 동안 피해량 감소",
                 "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres et réduit les dégâts subis par tous les alliés pendant trois tours",
-                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, und Licht und weniger Schaden für 3 Runden, alle Verb.",
+                "Erhöht alle Elementarres. und weniger Schaden für 3 Runden, alle Verb.",
                 "Aumenta las resistencias elementales y reduce el daño de aliados (3 turnos)"
             ]
         }
@@ -24724,7 +24724,7 @@
                 "提高全體隊員火冰雷水風土光暗屬性耐性的數值+3回合內減少傷害",
                 "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승+3턴 동안 피해량 감소",
                 "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres et réduit les dégâts subis par tous les alliés pendant trois tours",
-                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, und Licht und weniger Schaden für 3 Runden, alle Verb.",
+                "Erhöht alle Elementarres. und weniger Schaden für 3 Runden, alle Verb.",
                 "Aumenta las resistencias elementales y reduce el daño de aliados (3 turnos)"
             ]
         }
@@ -24767,7 +24767,7 @@
                 "提高全體隊員火冰雷水風土光暗屬性耐性的數值+3回合內減少傷害",
                 "아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승+3턴 동안 피해량 감소",
                 "Augmente la rés. feu/glace/foudre/eau/vent/terre/lumière/ténèbres et réduit les dégâts subis par tous les alliés pendant trois tours",
-                "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, und Licht und weniger Schaden für 3 Runden, alle Verb.",
+                "Erhöht alle Elementarres. und weniger Schaden für 3 Runden, alle Verb.",
                 "Aumenta las resistencias elementales y reduce el daño de aliados (3 turnos)"
             ]
         }
@@ -32368,6 +32368,80 @@
                 "Dégâts et réduit la rés. à feu/eau/vent/foudre/terre de tous les ennemis",
                 "Fügt Schaden zu und reduziert Feuer-, Wasser-, Wind-, Blitz- und Erdresistenz für alle Gegner.",
                 "Daña y reduce la resistencia al fuego, agua, viento, rayo y tierra de todos los enemigos"
+            ]
+        }
+    },
+    "401000804": {
+        "name": "Innocent Glow",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_frames": [[103]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Magic light damage (2.2x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  220]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Magic light damage (2.9x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  290]]]},
+        "strings": {
+            "name": [
+                "Innocent Glow",
+                "純白聖潔",
+                "순수한 빛무리",
+                "Lueur d'innocence",
+                "Unschuldsglanz",
+                "Brillo inocente"
+            ],
+            "desc": [
+                "Light damage to all enemies",
+                "對全體敵人發動光屬性攻擊",
+                "적 전체에 빛속성 피해",
+                "Dégâts de lumière sur tous les ennemis",
+                "Lichtschaden, alle Ziele",
+                "Daño de luz a todos los enemigos"
+            ]
+        }
+    },
+    "401000805": {
+        "name": "Heaven's Judgment",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_frames": [[103]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Magic light damage (2.4x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  240]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Magic light damage (3.35x, MAG) to all enemies"],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  335]]]},
+        "strings": {
+            "name": [
+                "Heaven's Judgment",
+                "天堂審判",
+                "하늘의 심판",
+                "Jugement divin",
+                "Jüngstes Gericht",
+                "Juicio divino"
+            ],
+            "desc": [
+                "Light damage to all enemies",
+                "對全體敵人發動光屬性攻擊",
+                "적 전체에 빛속성 피해",
+                "Dégâts de lumière sur tous les ennemis",
+                "Lichtschaden, alle Ziele",
+                "Daño de luz a todos los enemigos"
             ]
         }
     },
