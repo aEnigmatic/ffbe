@@ -24602,7 +24602,7 @@
         }
     },
     "405003900": {
-        "name": "Heatproof Garb",
+        "name": "Thermal Suit",
         "compendium_id": 664,
         "compendium_shown": true,
         "rarity": 5,
@@ -24635,7 +24635,7 @@
         "icon": "item_20134.png",
         "strings": {
             "name": [
-                "Heatproof Garb",
+                "Thermal Suit",
                 "耐熱防護服",
                 "내열 방호복",
                 "Combinaison ignifugée",
@@ -42136,6 +42136,70 @@
                 "Une massue aux pouvoirs de serpent. Selon la légende, elle fut fabriquée par un artisan magique qui aurait attrapé un grand serpent pour y enfermer son âme. L'arme est garantie d'inspirer la peur à toute créature aquatique.",
                 "Ein Streitkolben mit der Kraft einer Schlange. Es heißt, dass ein magisch versierter Handwerker einmal eine große Schlange fing und einen Streitkolben mit ihrer Seele veredelte. Jener, der diese Waffe führt, wird von Wasserwesen gefürchtet werden.",
                 "Una maza con el poder de las serpientes. Se dice que un maestro artesano atrapó a una poderosa serpiente y forjó una maza con su alma. Los monstruos acuáticos sienten absoluto pavor hacia cualquiera que porta esta arma."
+            ]
+        }
+    },
+    "1100000107": {
+        "name": "Sparkly Pom Pom",
+        "compendium_id": 90105,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [203240, 100170],
+        "effects": [
+            "Grants 'MP + 15%' passive.",
+            "Grants 'SPR +20%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Sleep": 100,
+                "Silence": 100,
+                "Confusion": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 5000,
+        "price_sell": 500,
+        "icon": "global_equip_10050.png",
+        "strings": {
+            "name": [
+                "Sparkly Pom Pom",
+                "閃耀彩球",
+                "반짝이는 폼폼",
+                "Pompon étincelant",
+                "Funkelndes Pompon",
+                "Pompón centelleante"
+            ],
+            "desc_short": [
+                "A pom pom made of metallic strips of paper.",
+                "由紙條狀金蔥製成的彩球",
+                "금속처럼 빛나는 질감의 종이로 만든 응원용 폼폼.",
+                "Un pompon fait de bandes métalliques de papier.",
+                "Ein Pompon, der aus metallischen Papierstreifen gemacht wurde.",
+                "Un pompón hecho con tiras de papel plateadas."
+            ],
+            "desc_long": [
+                "A pom pom made of metallic strips of paper that sparkle under the sun. It is commonly used by cheerleaders to inspire and encourage their friends when going against tough adversaries.",
+                "在太陽下會閃閃發光，由紙條狀金蔥製成的彩球。 常見於啦啦隊在對抗勁敵時互相激勵鼓舞自身士氣時所使用。",
+                "금속처럼 빛나는 질감의 종이로 만든 응원용 폼폼. 햇빛 아래에서 반짝반짝 빛이 난다. 어려운 상황에 닥쳤을 때 치어리더가 동료를 응원하기 위해 사용하는 소품이다.",
+                "Un pompon fait de bandes métalliques de papier qui brillent au soleil. Ils sont communément utilisés par les cheeleaders pour encourager leurs alliés lorsqu'ils sont au combat.",
+                "Ein Pompon, der aus metallischen Papierstreifen gemacht wurde, die in der Sonne wild funkeln. Oft wird dieser Pompon von Cheerleadern benutzt, um ihre Freunde in einem Kampf gegen einen harten Gegner anzufeuern.",
+                "Un pompón hecho con tiras de papel plateadas que brillan con la luz del sol. Este pompón suelen usarlo las animadoras para inspirar y animar a sus amigos cuando luchan contra enemigos poderosos."
             ]
         }
     }
