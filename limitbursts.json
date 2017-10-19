@@ -982,7 +982,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (50%) on one enemy",
-                "Increase ATK by 10% for 3 turns to self",
+                "Increase ATK by 10% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  200,  -50]], [1, 1, 6, [50,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [10,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -991,7 +991,7 @@
             "effects": [
                 "Physical damage (5.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (64%) on one enemy",
-                "Increase ATK by 24% for 3 turns to self",
+                "Increase ATK by 24% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]], [1, 1, 6, [64,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [24,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -1022,7 +1022,7 @@
             "effects": [
                 "Physical damage (5x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (60%) on one enemy",
-                "Increase ATK by 20% for 3 turns to self",
+                "Increase ATK by 20% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]], [1, 1, 6, [60,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [20,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -1031,7 +1031,7 @@
             "effects": [
                 "Physical damage (6.9x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (79%) on one enemy",
-                "Increase ATK by 39% for 3 turns to self",
+                "Increase ATK by 39% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  345,  -50]], [1, 1, 6, [79,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [39,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -1062,7 +1062,7 @@
             "effects": [
                 "Physical damage (6x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (70%) on one enemy",
-                "Increase ATK by 30% for 3 turns to self",
+                "Increase ATK by 30% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 6, [70,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [30,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -1071,7 +1071,7 @@
             "effects": [
                 "Physical damage (8.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (94%) on one enemy",
-                "Increase ATK by 54% for 3 turns to self",
+                "Increase ATK by 54% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nSatisfactory Slash (501930)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  420,  -50]], [1, 1, 6, [94,  0,  0,  0,  0,  0,  0,  0,  1]], [0, 3, 3, [54,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  501930,  99999,  4,  1]]]},
@@ -3340,7 +3340,7 @@
                 "Restore 1000 (+1.8x, Heal) HP to all allies",
                 "Cure all status effects for all allies",
                 "Revive all allies from KO (30% HP) / Insta-kill Reaper monster",
-                "Restore 20 MP to self"
+                "Restore 20 MP to caster"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1000,  180,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 4, [30]], [0, 3, 17, [20]]]},
         "max_level": {
@@ -3349,7 +3349,7 @@
                 "Restore 1000 (+3x, Heal) HP to all allies",
                 "Cure all status effects for all allies",
                 "Revive all allies from KO (54% HP) / Insta-kill Reaper monster",
-                "Restore 44 MP to self"
+                "Restore 44 MP to caster"
             ],
             "effects_raw": [[2, 2, 2, [0,  0,  1000,  300,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 4, [54]], [0, 3, 17, [44]]]},
         "strings": {
@@ -6557,14 +6557,14 @@
             "cost": 10,
             "effects": [
                 "Physical damage (2.3x, ATK) to one enemy",
-                "Inflict berserk (+100% ATK) on self for"
+                "Inflict berserk (+100% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  230]], [0, 3, 68, [-1,  100]]]},
         "max_level": {
             "cost": 10,
             "effects": [
                 "Physical damage (2.75x, ATK) to one enemy",
-                "Inflict berserk (+100% ATK) on self for"
+                "Inflict berserk (+100% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  275]], [0, 3, 68, [-1,  100]]]},
         "strings": {
@@ -6600,14 +6600,14 @@
             "cost": 12,
             "effects": [
                 "Physical damage (2.5x, ATK) to one enemy",
-                "Inflict berserk (+200% ATK) on self for"
+                "Inflict berserk (+200% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [0, 3, 68, [-1,  200]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Physical damage (3.2x, ATK) to one enemy",
-                "Inflict berserk (+200% ATK) on self for"
+                "Inflict berserk (+200% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [0, 3, 68, [-1,  200]]]},
         "strings": {
@@ -6643,14 +6643,14 @@
             "cost": 14,
             "effects": [
                 "Physical damage (2.7x, ATK) to one enemy",
-                "Inflict berserk (+300% ATK) on self for"
+                "Inflict berserk (+300% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [0, 3, 68, [-1,  300]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Physical damage (3.65x, ATK) to one enemy",
-                "Inflict berserk (+300% ATK) on self for"
+                "Inflict berserk (+300% ATK) on caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  365]], [0, 3, 68, [-1,  300]]]},
         "strings": {
@@ -6686,14 +6686,14 @@
             "cost": 14,
             "effects": [
                 "Reduce damage received by 20% to all allies for one turn",
-                "Increase DEF by 40% for 3 turns to self"
+                "Increase DEF by 40% for 3 turns to caster"
             ],
             "effects_raw": [[2, 2, 101, [20,  1,  1]], [0, 3, 3, [0,  40,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Reduce damage received by 39% to all allies for one turn",
-                "Increase DEF by 59% for 3 turns to self"
+                "Increase DEF by 59% for 3 turns to caster"
             ],
             "effects_raw": [[2, 2, 101, [39,  1,  1]], [0, 3, 3, [0,  59,  0,  0,  3,  1]]]},
         "strings": {
@@ -6729,14 +6729,14 @@
             "cost": 16,
             "effects": [
                 "Reduce damage received by 30% to all allies for one turn",
-                "Increase DEF by 50% for 3 turns to self"
+                "Increase DEF by 50% for 3 turns to caster"
             ],
             "effects_raw": [[2, 2, 101, [30,  1,  1]], [0, 3, 3, [0,  50,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Reduce damage received by 54% to all allies for one turn",
-                "Increase DEF by 74% for 3 turns to self"
+                "Increase DEF by 74% for 3 turns to caster"
             ],
             "effects_raw": [[2, 2, 101, [54,  1,  1]], [0, 3, 3, [0,  74,  0,  0,  3,  1]]]},
         "strings": {
@@ -9592,7 +9592,7 @@
             "effects": [
                 "Physical lightning damage (3x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 10% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 33, [0,  0,  -10,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -9600,7 +9600,7 @@
             "effects": [
                 "Physical lightning damage (3.45x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 19% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  345]], [1, 1, 33, [0,  0,  -19,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -9637,7 +9637,7 @@
             "effects": [
                 "Physical lightning damage (3.5x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 20% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 33, [0,  0,  -20,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -9645,7 +9645,7 @@
             "effects": [
                 "Physical lightning damage (4.2x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 34% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  420]], [1, 1, 33, [0,  0,  -34,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -9682,7 +9682,7 @@
             "effects": [
                 "Physical lightning damage (4x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 30% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [1, 1, 33, [0,  0,  -30,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -9690,7 +9690,7 @@
             "effects": [
                 "Physical lightning damage (4.95x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 49% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to self"
+                "Add Lightning element to physical attacks for 3 turn(s) to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  495]], [1, 1, 33, [0,  0,  -49,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -10208,14 +10208,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Increase ATK, DEF and SPR by 100% for 3 turns to self",
+                "Increase ATK, DEF and SPR by 100% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
             ],
             "effects_raw": [[0, 3, 3, [100,  100,  0,  100,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Increase ATK, DEF and SPR by 138% for 3 turns to self",
+                "Increase ATK, DEF and SPR by 138% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
             ],
             "effects_raw": [[0, 3, 3, [138,  138,  0,  138,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
@@ -10251,14 +10251,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Increase ATK, DEF and SPR by 130% for 3 turns to self",
+                "Increase ATK, DEF and SPR by 130% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
             ],
             "effects_raw": [[0, 3, 3, [130,  130,  0,  130,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Increase ATK, DEF and SPR by 154% for 3 turns to self",
+                "Increase ATK, DEF and SPR by 154% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\nCrushing Vice (502970)"
             ],
             "effects_raw": [[0, 3, 3, [154,  154,  0,  154,  3,  1]], [0, 3, 100, [2,  502970,  9999,  4,  0]]]},
@@ -12557,16 +12557,16 @@
             "cost": 12,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 60% for 3 turns to self",
-                "Inflict berserk (+200% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 60% for 3 turns to caster",
+                "Inflict berserk (+200% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  60,  0,  60,  3,  1]], [0, 3, 68, [3,  200]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 74% for 3 turns to self",
-                "Inflict berserk (+270% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 74% for 3 turns to caster",
+                "Inflict berserk (+270% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  74,  0,  74,  3,  1]], [0, 3, 68, [3,  270]]]},
         "strings": {
@@ -12602,16 +12602,16 @@
             "cost": 14,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 70% for 3 turns to self",
-                "Inflict berserk (+250% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 70% for 3 turns to caster",
+                "Inflict berserk (+250% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  70,  0,  70,  3,  1]], [0, 3, 68, [3,  250]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 89% for 3 turns to self",
-                "Inflict berserk (+345% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 89% for 3 turns to caster",
+                "Inflict berserk (+345% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  89,  0,  89,  3,  1]], [0, 3, 68, [3,  345]]]},
         "strings": {
@@ -12647,16 +12647,16 @@
             "cost": 16,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 80% for 3 turns to self",
-                "Inflict berserk (+300% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 80% for 3 turns to caster",
+                "Inflict berserk (+300% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  80,  0,  80,  3,  1]], [0, 3, 68, [3,  300]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Increase chance of being targeted by 100% for 3 turns",
-                "Increase DEF and SPR by 104% for 3 turns to self",
-                "Inflict berserk (+420% ATK) on self for 3 turns"
+                "Increase DEF and SPR by 104% for 3 turns to caster",
+                "Inflict berserk (+420% ATK) on casterfor 3 turns"
             ],
             "effects_raw": [[0, 3, 61, [100,  3]], [0, 3, 3, [0,  104,  0,  104,  3,  1]], [0, 3, 68, [3,  420]]]},
         "strings": {
@@ -13320,18 +13320,18 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 100% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 100% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [100,  100,  0,  100,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 114% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 114% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [114,  114,  0,  114,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
@@ -13367,18 +13367,18 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 115% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 115% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [115,  115,  0,  115,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 134% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 134% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [134,  134,  0,  134,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
@@ -13414,18 +13414,18 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 126% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 126% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [126,  126,  0,  126,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Restore 100% HP to self",
-                "Restore 50 MP to self",
-                "Increase ATK, DEF and SPR by 150% for 3 turns to self",
+                "Restore 100% HP to caster",
+                "Restore 50 MP to caster",
+                "Increase ATK, DEF and SPR by 150% for 3 turns to caster",
                 "Gain 2 uses of Battle - Full Slash (219630), Battle - Multislash (219640), Battle - Bladebreak (219650), Battle - Armor Pierce (219660), Battle - Shield Buster (219670), Battle - Fire Torrent (219680), Battle - Vigor Slash (219690), Battle - Vigor Slash Combo (219700) for one turn"
             ],
             "effects_raw": [[0, 3, 26, [100,  100,  100]], [0, 3, 17, [50]], [0, 3, 3, [150,  150,  0,  150,  3,  1]], [0, 3, 98, [2, 504280, -1, [219630,  219640,  219650,  219660,  219670,  219680,  219690,  219700], 2, 1, 0]]]},
@@ -17793,11 +17793,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Increase ATK, DEF, MAG and SPR by 40% for 4 turns to self"],
+            "effects": ["Increase ATK, DEF, MAG and SPR by 40% for 4 turns to caster"],
             "effects_raw": [[0, 3, 3, [40,  40,  40,  40,  4,  1]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Increase ATK, DEF, MAG and SPR by 59% for 4 turns to self"],
+            "effects": ["Increase ATK, DEF, MAG and SPR by 59% for 4 turns to caster"],
             "effects_raw": [[0, 3, 3, [59,  59,  59,  59,  4,  1]]]},
         "strings": {
             "name": [
@@ -17830,11 +17830,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Increase ATK, DEF, MAG and SPR by 50% for 5 turns to self"],
+            "effects": ["Increase ATK, DEF, MAG and SPR by 50% for 5 turns to caster"],
             "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  5,  1]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Increase ATK, DEF, MAG and SPR by 74% for 5 turns to self"],
+            "effects": ["Increase ATK, DEF, MAG and SPR by 74% for 5 turns to caster"],
             "effects_raw": [[0, 3, 3, [74,  74,  74,  74,  5,  1]]]},
         "strings": {
             "name": [
@@ -21331,14 +21331,14 @@
             "cost": 12,
             "effects": [
                 "Magic damage (4x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Magic damage (5.4x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "strings": {
@@ -21374,14 +21374,14 @@
             "cost": 16,
             "effects": [
                 "Magic damage (4.5x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Magic damage (6.4x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  640,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "strings": {
@@ -21417,14 +21417,14 @@
             "cost": 20,
             "effects": [
                 "Magic damage (5x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Magic damage (7.4x, MAG) to all enemies",
-                "Increase magic damage against Reapers by 100% to self for 3 turns"
+                "Increase magic damage against Reapers by 100% to caster for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  740,  0]], [0, 3, 93, [[12,  100], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]},
         "strings": {
@@ -24528,14 +24528,14 @@
             "cost": 12,
             "effects": [
                 "Physical damage (4x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [1, 3, 26, [100,  100,  100]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Physical damage (5.4x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540]], [1, 3, 26, [100,  100,  100]]]},
         "strings": {
@@ -24571,14 +24571,14 @@
             "cost": 16,
             "effects": [
                 "Physical damage (5x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 3, 26, [100,  100,  100]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (6.9x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690]], [1, 3, 26, [100,  100,  100]]]},
         "strings": {
@@ -24614,14 +24614,14 @@
             "cost": 20,
             "effects": [
                 "Physical damage (6x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600]], [1, 3, 26, [100,  100,  100]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Physical damage (8.4x, ATK) to all enemies",
-                "Restore 100% HP to self"
+                "Restore 100% HP to caster"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840]], [1, 3, 26, [100,  100,  100]]]},
         "strings": {
@@ -25375,14 +25375,14 @@
         "min_level": {
             "cost": 10,
             "effects": [
-                "Fixed* damage (100) to self",
+                "Fixed* damage (100) to caster",
                 "Restore 800 (+1.2x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [100]], [2, 5, 2, [0,  0,  800,  120,  100]]]},
         "max_level": {
             "cost": 10,
             "effects": [
-                "Fixed* damage (100) to self",
+                "Fixed* damage (100) to caster",
                 "Restore 800 (+1.65x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [100]], [2, 5, 2, [0,  0,  800,  165,  100]]]},
@@ -25418,14 +25418,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Fixed* damage (200) to self",
+                "Fixed* damage (200) to caster",
                 "Restore 1000 (+1.4x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [200]], [2, 5, 2, [0,  0,  1000,  140,  100]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Fixed* damage (200) to self",
+                "Fixed* damage (200) to caster",
                 "Restore 1000 (+2.1x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [200]], [2, 5, 2, [0,  0,  1000,  210,  100]]]},
@@ -25461,14 +25461,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Fixed* damage (300) to self",
+                "Fixed* damage (300) to caster",
                 "Restore 1200 (+1.6x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [300]], [2, 5, 2, [0,  0,  1200,  160,  100]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Fixed* damage (300) to self",
+                "Fixed* damage (300) to caster",
                 "Restore 1200 (+2.55x, Heal) HP to the rest of the party"
             ],
             "effects_raw": [[0, 3, 41, [300]], [2, 5, 2, [0,  0,  1200,  255,  100]]]},
@@ -29034,7 +29034,7 @@
             "effects": [
                 "Physical damage (2.5x, ATK) to one enemy",
                 "Inflict Stop (50%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for one turn to self"
+                "Dodge 2 physical attacks for one turn to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [1, 1, 88, [50,  3]], [0, 3, 54, [2,  1]]]},
         "max_level": {
@@ -29042,7 +29042,7 @@
             "effects": [
                 "Physical damage (3.2x, ATK) to one enemy",
                 "Inflict Stop (64%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for one turn to self"
+                "Dodge 2 physical attacks for one turn to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [1, 1, 88, [64,  3]], [0, 3, 54, [2,  1]]]},
         "strings": {
@@ -29079,7 +29079,7 @@
             "effects": [
                 "Physical damage (2.7x, ATK) to one enemy",
                 "Inflict Stop (60%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for one turn to self"
+                "Dodge 2 physical attacks for one turn to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [1, 1, 88, [60,  3]], [0, 3, 54, [2,  1]]]},
         "max_level": {
@@ -29087,7 +29087,7 @@
             "effects": [
                 "Physical damage (3.65x, ATK) to one enemy",
                 "Inflict Stop (79%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for one turn to self"
+                "Dodge 2 physical attacks for one turn to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  365]], [1, 1, 88, [79,  3]], [0, 3, 54, [2,  1]]]},
         "strings": {
@@ -29124,7 +29124,7 @@
             "effects": [
                 "Physical damage (3.1x, ATK) to one enemy",
                 "Inflict Stop (70%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for 2 turns to self"
+                "Dodge 2 physical attacks for 2 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  310]], [1, 1, 88, [70,  3]], [0, 3, 54, [2,  2]]]},
         "max_level": {
@@ -29132,7 +29132,7 @@
             "effects": [
                 "Physical damage (4.3x, ATK) to one enemy",
                 "Inflict Stop (94%) for 3 turns on one enemy",
-                "Dodge 2 physical attacks for 2 turns to self"
+                "Dodge 2 physical attacks for 2 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  430]], [1, 1, 88, [94,  3]], [0, 3, 54, [2,  2]]]},
         "strings": {
@@ -30286,15 +30286,15 @@
         "min_level": {
             "cost": 10,
             "effects": [
-                "Restore 40% HP to self",
-                "Increase DEF by 20% for 3 turns to self"
+                "Restore 40% HP to caster",
+                "Increase DEF by 20% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [40,  40,  100]], [0, 3, 3, [0,  20,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 10,
             "effects": [
-                "Restore 49% HP to self",
-                "Increase DEF by 29% for 3 turns to self"
+                "Restore 49% HP to caster",
+                "Increase DEF by 29% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [49,  49,  100]], [0, 3, 3, [0,  29,  0,  0,  3,  0]]]},
         "strings": {
@@ -30329,15 +30329,15 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Restore 50% HP to self",
-                "Increase DEF by 30% for 3 turns to self"
+                "Restore 50% HP to caster",
+                "Increase DEF by 30% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [50,  50,  100]], [0, 3, 3, [0,  30,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Restore 64% HP to self",
-                "Increase DEF by 44% for 3 turns to self"
+                "Restore 64% HP to caster",
+                "Increase DEF by 44% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [64,  64,  100]], [0, 3, 3, [0,  44,  0,  0,  3,  0]]]},
         "strings": {
@@ -30372,15 +30372,15 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Restore 60% HP to self",
-                "Increase DEF by 40% for 3 turns to self"
+                "Restore 60% HP to caster",
+                "Increase DEF by 40% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [60,  60,  100]], [0, 3, 3, [0,  40,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Restore 79% HP to self",
-                "Increase DEF by 59% for 3 turns to self"
+                "Restore 79% HP to caster",
+                "Increase DEF by 59% for 3 turns to caster"
             ],
             "effects_raw": [[0, 3, 26, [79,  79,  100]], [0, 3, 3, [0,  59,  0,  0,  3,  0]]]},
         "strings": {
@@ -30544,14 +30544,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Increase resistance to all status effects by 100% for self for 3 turns",
+                "Increase resistance to all status effects by 100% for caster for 3 turns",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[0, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]], [0, 3, 61, [100,  3]]]},
         "max_level": {
             "cost": 9,
             "effects": [
-                "Increase resistance to all status effects by 100% for self for 3 turns",
+                "Increase resistance to all status effects by 100% for caster for 3 turns",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[0, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]], [0, 3, 61, [100,  3]]]},
@@ -30587,14 +30587,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Increase resistance to all status effects by 100% for self for 3 turns",
+                "Increase resistance to all status effects by 100% for caster for 3 turns",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[0, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]], [0, 3, 61, [100,  3]]]},
         "max_level": {
             "cost": 8,
             "effects": [
-                "Increase resistance to all status effects by 100% for self for 3 turns",
+                "Increase resistance to all status effects by 100% for caster for 3 turns",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[0, 3, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]], [0, 3, 61, [100,  3]]]},
@@ -31173,14 +31173,14 @@
             "cost": 14,
             "effects": [
                 "Physical damage (6.5x, ATK) to one enemy",
-                "Increase ATK by 60% for 3 turns to self"
+                "Increase ATK by 60% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  650]], [0, 3, 3, [60,  0,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Physical damage (7.2x, ATK) to one enemy",
-                "Increase ATK by 74% for 3 turns to self"
+                "Increase ATK by 74% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720]], [0, 3, 3, [74,  0,  0,  0,  3,  0]]]},
         "strings": {
@@ -31216,14 +31216,14 @@
             "cost": 16,
             "effects": [
                 "Physical damage (6.7x, ATK) to one enemy",
-                "Increase ATK by 70% for 3 turns to self"
+                "Increase ATK by 70% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  670]], [0, 3, 3, [70,  0,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (7.65x, ATK) to one enemy",
-                "Increase ATK by 89% for 3 turns to self"
+                "Increase ATK by 89% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  765]], [0, 3, 3, [89,  0,  0,  0,  3,  0]]]},
         "strings": {
@@ -31259,14 +31259,14 @@
             "cost": 20,
             "effects": [
                 "Physical damage (6.9x, ATK) to one enemy",
-                "Increase ATK by 80% for 3 turns to self"
+                "Increase ATK by 80% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  690]], [0, 3, 3, [80,  0,  0,  0,  3,  0]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Physical damage (8.1x, ATK) to one enemy",
-                "Increase ATK by 104% for 3 turns to self"
+                "Increase ATK by 104% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810]], [0, 3, 3, [104,  0,  0,  0,  3,  0]]]},
         "strings": {
@@ -32582,18 +32582,18 @@
             "cost": 16,
             "effects": [
                 "Physical damage (2x, ATK) to all enemies",
-                "Increase ATK by 150% for 4 turns to self",
-                "Lose 50% HP at the end of turn for 4 turns to self",
-                "Add a red glow to self for 4 turns"
+                "Increase ATK by 150% for 4 turns to caster",
+                "Lose 50% HP at the end of turn for 4 turns to caster",
+                "Add a red glow to caster for 4 turns"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200,  0]], [0, 3, 3, [150,  0,  0,  0,  4,  1]], [0, 3, 1010, [0,  50,  4,  2,  0]], [0, 3, 1009, [2, 4, 0, [255,  0,  0], 150]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (2.95x, ATK) to all enemies",
-                "Increase ATK by 200% for 4 turns to self",
-                "Lose 40% HP at the end of turn for 4 turns to self",
-                "Add a red glow to self for 4 turns"
+                "Increase ATK by 200% for 4 turns to caster",
+                "Lose 40% HP at the end of turn for 4 turns to caster",
+                "Add a red glow to caster for 4 turns"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  295,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1]], [0, 3, 1010, [0,  40,  4,  2,  0]], [0, 3, 1009, [2, 4, 0, [255,  0,  0], 150]]]},
         "strings": {
@@ -32629,18 +32629,18 @@
             "cost": 18,
             "effects": [
                 "Physical damage (3.3x, ATK) to all enemies",
-                "Increase ATK by 200% for 4 turns to self",
-                "Lose 30% HP at the end of turn for 4 turns to self",
-                "Add a red glow to self for 4 turns"
+                "Increase ATK by 200% for 4 turns to caster",
+                "Lose 30% HP at the end of turn for 4 turns to caster",
+                "Add a red glow to caster for 4 turns"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  330,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1]], [0, 3, 1010, [0,  30,  4,  2,  0]], [0, 3, 1009, [2, 4, 0, [255,  0,  0], 150]]]},
         "max_level": {
             "cost": 18,
             "effects": [
                 "Physical damage (4.5x, ATK) to all enemies",
-                "Increase ATK by 250% for 4 turns to self",
-                "Lose 20% HP at the end of turn for 4 turns to self",
-                "Add a red glow to self for 4 turns"
+                "Increase ATK by 250% for 4 turns to caster",
+                "Lose 20% HP at the end of turn for 4 turns to caster",
+                "Add a red glow to caster for 4 turns"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  450,  0]], [0, 3, 3, [250,  0,  0,  0,  4,  1]], [0, 3, 1010, [0,  20,  4,  2,  0]], [0, 3, 1009, [2, 4, 0, [255,  0,  0], 150]]]},
         "strings": {
@@ -32891,14 +32891,14 @@
             "cost": 14,
             "effects": [
                 "Magic damage (4x, MAG) to one enemy",
-                "Increase MAG by 40% for 3 turns to self"
+                "Increase MAG by 40% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  400]], [0, 3, 3, [0,  0,  40,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Magic damage (4.7x, MAG) to one enemy",
-                "Increase MAG by 54% for 3 turns to self"
+                "Increase MAG by 54% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  470]], [0, 3, 3, [0,  0,  54,  0,  3,  1]]]},
         "strings": {
@@ -32934,14 +32934,14 @@
             "cost": 16,
             "effects": [
                 "Magic damage (4.5x, MAG) to one enemy",
-                "Increase MAG by 60% for 3 turns to self"
+                "Increase MAG by 60% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  450]], [0, 3, 3, [0,  0,  60,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Magic damage (5.45x, MAG) to one enemy",
-                "Increase MAG by 79% for 3 turns to self"
+                "Increase MAG by 79% for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  545]], [0, 3, 3, [0,  0,  79,  0,  3,  1]]]},
         "strings": {
@@ -32977,7 +32977,7 @@
             "cost": 24,
             "effects": [
                 "Magic damage (5x, MAG) to one enemy",
-                "Increase MAG by 80% for 3 turns to self",
+                "Increase MAG by 80% for 3 turns to caster",
                 "Gain access to following skills for 2 turns:\nBlood Frenzy (910226)"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [0, 3, 3, [0,  0,  80,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
@@ -32985,7 +32985,7 @@
             "cost": 24,
             "effects": [
                 "Magic damage (7.4x, MAG) to one enemy",
-                "Increase MAG by 104% for 3 turns to self",
+                "Increase MAG by 104% for 3 turns to caster",
                 "Gain access to following skills for 2 turns:\nBlood Frenzy (910226)"
             ],
             "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  740]], [0, 3, 3, [0,  0,  104,  0,  3,  1]], [0, 3, 100, [2,  910226,  99999,  3,  1]]]},
@@ -33022,14 +33022,14 @@
             "cost": 16,
             "effects": [
                 "Magic damage (3.2x, MAG) to all enemies",
-                "Increase MAG by 100% (max 100%) for the next turn to self"
+                "Increase MAG by 100% (max 100%) for the next turn to caster"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Magic damage (5.1x, MAG) to all enemies",
-                "Increase MAG by 195% (max 195%) for the next turn to self"
+                "Increase MAG by 195% (max 195%) for the next turn to caster"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  510]], [0, 3, 90, [195,  195,  0]]]},
         "strings": {
@@ -33065,14 +33065,14 @@
             "cost": 18,
             "effects": [
                 "Magic damage (4.2x, MAG) to all enemies",
-                "Increase MAG by 150% (max 150%) for the next turn to self"
+                "Increase MAG by 150% (max 150%) for the next turn to caster"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  420]], [0, 3, 90, [150,  150,  0]]]},
         "max_level": {
             "cost": 18,
             "effects": [
                 "Magic damage (6.6x, MAG) to all enemies",
-                "Increase MAG by 270% (max 270%) for the next turn to self"
+                "Increase MAG by 270% (max 270%) for the next turn to caster"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  660]], [0, 3, 90, [270,  270,  0]]]},
         "strings": {
