@@ -24018,7 +24018,7 @@
                 "라이징 임펄스",
                 "Éradication",
                 "Steigender Impuls",
-                "Impulso creciente"
+                "Erradicación"
             ],
             "desc": [
                 "Deal partial unmitigated damage to all enemies and temporarily increase chance of being targeted",
@@ -24061,7 +24061,7 @@
                 "라이징 임펄스",
                 "Éradication",
                 "Steigender Impuls",
-                "Impulso creciente"
+                "Erradicación"
             ],
             "desc": [
                 "Deal partial unmitigated damage to all enemies and temporarily increase chance of being targeted",
@@ -24104,7 +24104,7 @@
                 "사자후",
                 "Rugissement du lion",
                 "Löwengebrüll",
-                "Rugido leonino"
+                "Corazón de león"
             ],
             "desc": [
                 "Deal partial unmitigated damage and reduce ATK, DEF, MAG, and SPR for one enemy",
@@ -24147,7 +24147,7 @@
                 "사자후",
                 "Rugissement du lion",
                 "Löwengebrüll",
-                "Rugido leonino"
+                "Corazón de león"
             ],
             "desc": [
                 "Deal partial unmitigated damage and reduce ATK, DEF, MAG, and SPR for one enemy",
@@ -24190,7 +24190,7 @@
                 "사자후",
                 "Rugissement du lion",
                 "Löwengebrüll",
-                "Rugido leonino"
+                "Corazón de león"
             ],
             "desc": [
                 "Deal partial unmitigated damage and reduce ATK, DEF, MAG, and SPR for one enemy",
@@ -24223,7 +24223,7 @@
         "strings": {
             "name": [
                 "Eclipse",
-                "侵蝕連擊",
+                "侵蝕",
                 "이클립스",
                 "Disparition",
                 "Eklipse",
@@ -24260,7 +24260,7 @@
         "strings": {
             "name": [
                 "Eclipse",
-                "侵蝕連擊",
+                "侵蝕",
                 "이클립스",
                 "Disparition",
                 "Eklipse",
@@ -24297,7 +24297,7 @@
         "strings": {
             "name": [
                 "Eclipse",
-                "侵蝕連擊",
+                "侵蝕",
                 "이클립스",
                 "Disparition",
                 "Eklipse",
@@ -32211,6 +32211,43 @@
             ]
         }
     },
+    "401000506": {
+        "name": "Mechanical Parade",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_frames": [[190,  215,  225,  300,  370]],
+        "effect_frames": [[35,  185,  360,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (2.7x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  270]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (3.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  390]]]},
+        "strings": {
+            "name": [
+                "Mechanical Parade",
+                "機械遊行",
+                "기계들의 행진☆",
+                "Parade mécanique",
+                "Mechanischer Ausfall",
+                "Mecadesfile"
+            ],
+            "desc": [
+                "Damage all enemies",
+                "攻擊全體敵人",
+                "적 전체에 피해",
+                "Dégâts sur tous les ennemis",
+                "Fügt allen Gegnern Schaden zu.",
+                "Daña a todos los enemigos"
+            ]
+        }
+    },
     "401000604": {
         "name": "Mecha Friends",
         "cost": 0,
@@ -32968,6 +33005,356 @@
                 "Inflige des dégâts magiques sur un ennemi, augmente la MAGIE et permet au lanceur d'utiliser une aptitude spéciale pendant deux tours",
                 "Magieschaden für einen Gegner und MAG hoch für Benutzer, ermöglicht Benutzer zwei Spezialfertigkeiten in einer Runde.",
                 "Daño mágico a uno, aumenta la MAG propia y desbloquea habilidades 2 turnos"
+            ]
+        }
+    },
+    "401002005": {
+        "name": "Phantom Fury",
+        "cost": 0,
+        "attack_count": [9, 1],
+        "attack_frames": [[62,  66,  70,  74,  78,  82,  86,  90,  110], [130]],
+        "effect_frames": [[60,  1,  1], [40]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (3.2x, MAG) to all enemies",
+                "Increase MAG by 100% (max 100%) for the next turn to self"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320]], [0, 3, 90, [100,  100,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (5.1x, MAG) to all enemies",
+                "Increase MAG by 195% (max 195%) for the next turn to self"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  510]], [0, 3, 90, [195,  195,  0]]]},
+        "strings": {
+            "name": [
+                "Phantom Fury",
+                "狂怒幻影",
+                "유령의 진노",
+                "Furie fantomatique",
+                "Phantomwut",
+                "Furia fantasma"
+            ],
+            "desc": [
+                "Magic damage to all enemies and boost MAG for next attack",
+                "對全體敵人發動魔法攻擊+下一回合提高魔力的數值",
+                "적 전체에 마법피해+다음 턴에 사용자의 마력 상승",
+                "Dégâts magiques sur tous les ennemis et augmente la MAGIE pour l'attaque suivante",
+                "Fügt allen Gegnern mag. Schaden zu und erhöht MAG beim nächsten Angriff.",
+                "Daño mágico a todos los enemigos y aumenta la MAG del próximo ataque"
+            ]
+        }
+    },
+    "401002006": {
+        "name": "Phantom Fury",
+        "cost": 0,
+        "attack_count": [9, 1],
+        "attack_frames": [[62,  66,  70,  74,  78,  82,  86,  90,  120], [130]],
+        "effect_frames": [[60,  1,  1,  1], [40]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Magic damage (4.2x, MAG) to all enemies",
+                "Increase MAG by 150% (max 150%) for the next turn to self"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  420]], [0, 3, 90, [150,  150,  0]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Magic damage (6.6x, MAG) to all enemies",
+                "Increase MAG by 270% (max 270%) for the next turn to self"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  660]], [0, 3, 90, [270,  270,  0]]]},
+        "strings": {
+            "name": [
+                "Phantom Fury",
+                "狂怒幻影",
+                "유령의 진노",
+                "Furie fantomatique",
+                "Phantomwut",
+                "Furia fantasma"
+            ],
+            "desc": [
+                "Magic damage to all enemies and boost MAG for next attack",
+                "對全體敵人發動魔法攻擊+下一回合提高魔力的數值",
+                "적 전체에 마법피해+다음 턴에 사용자의 마력 상승",
+                "Dégâts magiques sur tous les ennemis et augmente la MAGIE pour l'attaque suivante",
+                "Fügt allen Gegnern mag. Schaden zu und erhöht MAG beim nächsten Angriff.",
+                "Daño mágico a todos los enemigos y aumenta la MAG del próximo ataque"
+            ]
+        }
+    },
+    "401002104": {
+        "name": "Phantasmal Respite",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_frames": [[220]],
+        "effect_frames": [[150]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 250 (+8x, Heal) HP split over 3 turns to all allies",
+                "Restore 6 (+0.2x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [800,  1,  250,  3]], [2, 2, 30, [20,  1,  6,  3]], [2, 2, 54, [2,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 600 (+11.5x, Heal) HP split over 3 turns to all allies",
+                "Restore 12 (+0.34x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [1150,  1,  600,  3]], [2, 2, 30, [34,  1,  12,  3]], [2, 2, 54, [2,  3]]]},
+        "strings": {
+            "name": [
+                "Phantasmal Respite",
+                "幻影延緩",
+                "환영의 가호",
+                "Répit fantasmatique",
+                "Phantomwut",
+                "Alivio fantasmal"
+            ],
+            "desc": [
+                "Regenerate HP and MP for all allies and enable them to dodge two physical attacks for three turns",
+                "持續恢復全體隊員HP、MP+3回合內可防住2次物理攻擊",
+                "아군 전체의 HP와 MP 서서히 회복+3턴 동안 물리공격 2회 회피 능력 부여",
+                "Régénère les PV et les PM de tous les alliés et leur permet d'éviter deux attaques physiques pendant trois tours",
+                "Regeneriert LP und MP aller Verb., ermöglicht ihnen drei Runden lange, zwei phys. Angriffen zu entkommen.",
+                "Regenera VIT y PM de todos los aliados y les permite esquivar dos ataques físicos durante tres turnos"
+            ]
+        }
+    },
+    "401002105": {
+        "name": "Phantasmal Respite",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_frames": [[220]],
+        "effect_frames": [[10,  60,  150]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 330 (+8x, Heal) HP split over 3 turns to all allies",
+                "Restore 9 (+0.2x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [800,  1,  330,  3]], [2, 2, 30, [20,  1,  9,  3]], [2, 2, 54, [2,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 900 (+12.75x, Heal) HP split over 3 turns to all allies",
+                "Restore 18 (+0.39x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [1275,  1,  900,  3]], [2, 2, 30, [39,  1,  18,  3]], [2, 2, 54, [2,  3]]]},
+        "strings": {
+            "name": [
+                "Phantasmal Respite",
+                "幻影延緩",
+                "환영의 가호",
+                "Répit fantasmatique",
+                "Phantasmagorische Pause",
+                "Alivio fantasmal"
+            ],
+            "desc": [
+                "Regenerate HP and MP for all allies and enable them to dodge two physical attacks for three turns",
+                "持續恢復全體隊員HP、MP+3回合內可防住2次物理攻擊",
+                "아군 전체의 HP와 MP 서서히 회복+3턴 동안 물리공격 2회 회피 능력 부여",
+                "Régénère les PV et les PM de tous les alliés et leur permet d'éviter deux attaques physiques pendant trois tours",
+                "Regeneriert LP und MP aller Verb., ermöglicht ihnen drei Runden lange, zwei phys. Angriffen zu entkommen.",
+                "Regenera VIT y PM de todos los aliados y les permite esquivar dos ataques físicos durante tres turnos"
+            ]
+        }
+    },
+    "401002106": {
+        "name": "Phantasmal Respite",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_frames": [[220]],
+        "effect_frames": [[1,  100]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 480 (+8x, Heal) HP split over 3 turns to all allies",
+                "Restore 12 (+0.2x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [800,  1,  480,  3]], [2, 2, 30, [20,  1,  12,  3]], [2, 2, 54, [2,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 1200 (+14x, Heal) HP split over 3 turns to all allies",
+                "Restore 24 (+0.44x, Heal) MP split over 3 turns to all allies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 8, [1400,  1,  1200,  3]], [2, 2, 30, [44,  1,  24,  3]], [2, 2, 54, [2,  3]]]},
+        "strings": {
+            "name": [
+                "Phantasmal Respite",
+                "幻影延緩",
+                "환영의 가호",
+                "Répit fantasmatique",
+                "Phantasmagorische Pause",
+                "Alivio fantasmal"
+            ],
+            "desc": [
+                "Regenerate HP and MP for all allies and enable them to dodge two physical attacks for three turns",
+                "持續恢復全體隊員HP、MP+3回合內可防住2次物理攻擊",
+                "아군 전체의 HP와 MP 서서히 회복+3턴 동안 물리공격 2회 회피 능력 부여",
+                "Régénère les PV et les PM de tous les alliés et leur permet d'éviter deux attaques physiques pendant trois tours",
+                "Regeneriert LP und MP aller Verb., ermöglicht ihnen drei Runden lange, zwei phys. Angriffen zu entkommen.",
+                "Regenera VIT y PM de todos los aliados y les permite esquivar dos ataques físicos durante tres turnos"
+            ]
+        }
+    },
+    "401002204": {
+        "name": "Unleash the Kraken",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_frames": [[39,  60,  87,  119,  123,  127]],
+        "effect_frames": [[0,  117]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical water damage (2.5x, ATK) to all enemies",
+                "Reduce resistance to Water by 30% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical water damage (3.2x, ATK) to all enemies",
+                "Reduce resistance to Water by 44% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [2, 1, 33, [0,  0,  0,  -44,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Unleash the Kraken",
+                "釋放克拉肯！",
+                "크라켄을 풀어라!",
+                "Relâchez le Kraken",
+                "Befreit den Kraken",
+                "Soltad al Kraken"
+            ],
+            "desc": [
+                "Water damage and reduce water resistance for all enemies",
+                "對全體敵人發動水屬性攻擊+降低水屬性耐性的數值",
+                "적 전체에 물속성 피해+물속성 저항력 감소",
+                "Dégâts d'eau et réduit la résistance à l'eau pour tous les ennemis",
+                "Fügt allen Gegnern Wasserschaden zu und reduziert ihre Wasserresistenz.",
+                "Daño de agua y reduce la res. al agua a todos los enemigos"
+            ]
+        }
+    },
+    "401002205": {
+        "name": "Unleash the Kraken",
+        "cost": 0,
+        "attack_count": [8],
+        "attack_frames": [[35,  45,  55,  65,  100,  110,  120,  130]],
+        "effect_frames": [[30,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical water damage (2.9x, ATK) to all enemies",
+                "Reduce resistance to Water by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  290]], [2, 1, 33, [0,  0,  0,  -40,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical water damage (3.85x, ATK) to all enemies",
+                "Reduce resistance to Water by 59% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  385]], [2, 1, 33, [0,  0,  0,  -59,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Unleash the Kraken",
+                "釋放克拉肯！",
+                "크라켄을 풀어라!",
+                "Relâchez le Kraken",
+                "Befreit den Kraken",
+                "Soltad al Kraken"
+            ],
+            "desc": [
+                "Water damage and reduce water resistance for all enemies",
+                "對全體敵人發動水屬性攻擊+降低水屬性耐性的數值",
+                "적 전체에 물속성 피해+물속성 저항력 감소",
+                "Dégâts d'eau et réduit la résistance à l'eau pour tous les ennemis",
+                "Fügt allen Gegnern Wasserschaden zu und reduziert ihre Wasserresistenz.",
+                "Daño de agua y reduce la res. al agua a todos los enemigos"
+            ]
+        }
+    },
+    "401002206": {
+        "name": "Unleash the Kraken",
+        "cost": 0,
+        "attack_count": [8],
+        "attack_frames": [[35,  45,  55,  65,  100,  110,  120,  130]],
+        "effect_frames": [[30,  1,  30]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical water damage (3.3x, ATK) to all enemies",
+                "Reduce resistance to Water by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  330]], [2, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical water damage (5.7x, ATK) to all enemies",
+                "Reduce resistance to Water by 74% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  570]], [2, 1, 33, [0,  0,  0,  -74,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Unleash the Kraken",
+                "釋放克拉肯！",
+                "크라켄을 풀어라!",
+                "Relâchez le Kraken",
+                "Befreit den Kraken",
+                "Soltad al Kraken"
+            ],
+            "desc": [
+                "Water damage and reduce water resistance for all enemies",
+                "對全體敵人發動水屬性攻擊+降低水屬性耐性的數值",
+                "적 전체에 물속성 피해+물속성 저항력 감소",
+                "Dégâts d'eau et réduit la résistance à l'eau pour tous les ennemis",
+                "Fügt allen Gegnern Wasserschaden zu und reduziert ihre Wasserresistenz.",
+                "Daño de agua y reduce la res. al agua a todos los enemigos"
             ]
         }
     },

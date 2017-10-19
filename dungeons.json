@@ -45282,7 +45282,7 @@
                     {
                         "condition_str": "Use a limit burst",
                         "condition_raw": "16",
-                        "reward": ["ITEM", 106301800, 10000]
+                        "reward": ["ITEM", 1209000833, 10000]
                     },
                     {
                         "condition_str": "No items or green magic",
@@ -48427,7 +48427,7 @@
         }
     },
     "74901": {
-        "name": "The Morphing Princess",
+        "name": "The Web-Weaving Princesses",
         "region_id": "21",
         "subregion_id": "749",
         "type": "Vortex",
@@ -48435,7 +48435,7 @@
         "icon_id": 7490102,
         "missions": {
             "7490101": {
-                "name": "The Morphing Princess (HARD)",
+                "name": "The Web-Weaving Princesses (HARD)",
                 "type": "EXPLORATION",
                 "wave_count": 0,
                 "cost_type": "NRG",
@@ -62828,7 +62828,7 @@
         "icon_id": 9000004,
         "missions": {
             "9000401": {
-                "name": "Pumpking Dread Knight Arrives PRO",
+                "name": "The Pumpking Reaper Arrives PRO",
                 "type": "BATTLE",
                 "wave_count": 1,
                 "cost_type": "NRG",
@@ -64915,13 +64915,13 @@
                         "reward": ["ITEM", 1209000836, 200]
                     },
                     {
-                        "condition_str": "Complete the quest in 2 mins",
+                        "condition_str": "Complete the quest within 2 mins",
                         "condition_raw": "1000:120",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "Find Mermaid in 1 min",
-                        "condition_raw": "1001:60:900010592:900010319",
+                        "condition_str": "Find the mermaid within 1 min",
+                        "condition_raw": "1001:60:900010619:900010334",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
@@ -64951,17 +64951,17 @@
                         "reward": ["KEYITEM", 50, 1]
                     },
                     {
-                        "condition_str": "Defeat Mermaid in 2 mins",
+                        "condition_str": "Defeat the mermaid within 2 mins",
                         "condition_raw": "1002:120:900010610:900010329",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "Collect 5 or more harvest points in 2 mins",
+                        "condition_str": "Collect from 5 or more harvest points within 2 mins",
                         "condition_raw": "1003:120:5",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "No Item",
+                        "condition_str": "No Items",
                         "condition_raw": "1",
                         "reward": ["LAPIS", 1, 10]
                     }
@@ -64987,12 +64987,12 @@
                         "reward": ["ITEM", 1209000836, 600]
                     },
                     {
-                        "condition_str": "Defeat Mermaid with a limit burst",
+                        "condition_str": "Defeat the mermaid with a limit burst",
                         "condition_raw": "18:900010601:900010324:1",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "Complete the quest in 2 mins",
+                        "condition_str": "Complete the quest within 2 mins",
                         "condition_raw": "1000:120",
                         "reward": ["LAPIS", 1, 10]
                     },
@@ -65023,19 +65023,373 @@
                         "reward": ["UNIT", 904000104, 1]
                     },
                     {
-                        "condition_str": "Collect 5 or more harvest points in 2 mins",
+                        "condition_str": "Collect from 5 or more harvest points within 2 mins",
                         "condition_raw": "1003:120:5",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "Defeat Mermaid in 2 mins",
+                        "condition_str": "Defeat the mermaid within 2 mins",
                         "condition_raw": "1002:120:900010592:900010319",
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "Clear without an ally being KO",
+                        "condition_str": "Clear without an ally being KO'd",
                         "condition_raw": "33",
                         "reward": ["LAPIS", 1, 10]
+                    }
+                ]
+            }
+        }
+    },
+    "91900": {
+        "name": "Halloween Castle Dungeon",
+        "region_id": "21",
+        "subregion_id": "919",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 9000024,
+        "missions": {
+            "9190001": {
+                "name": "Castle Dungeon BGN",
+                "type": "BATTLE",
+                "wave_count": 3,
+                "cost_type": "NRG",
+                "cost": 10,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 32,
+                "exp": 105,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Use white magic",
+                        "condition_raw": "13:1",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["LAPIS", 1, 20]
+                    }
+                ]
+            },
+            "9190002": {
+                "name": "Castle Dungeon ADV",
+                "type": "BATTLE",
+                "wave_count": 4,
+                "cost_type": "NRG",
+                "cost": 20,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 70,
+                "exp": 250,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Use black magic",
+                        "condition_raw": "13:2",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["LAPIS", 1, 20]
+                    }
+                ]
+            },
+            "9190003": {
+                "name": "Castle Dungeon ELT",
+                "type": "BATTLE",
+                "wave_count": 5,
+                "cost_type": "NRG",
+                "cost": 30,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["KEYITEM", 50, 1],
+                "gil": 117,
+                "exp": 435,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Use green magic",
+                        "condition_raw": "13:3",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["LAPIS", 1, 20]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["LAPIS", 1, 20]
+                    }
+                ]
+            }
+        }
+    },
+    "92000": {
+        "name": "Halloween Castle Castle Keep",
+        "region_id": "21",
+        "subregion_id": "920",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 9000025,
+        "missions": {
+            "9200001": {
+                "name": "Castle Keep - BGN",
+                "type": "BATTLE",
+                "wave_count": 3,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["ITEM", 270000500, 1],
+                "gil": 32,
+                "exp": 105,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000101, 1]
+                    },
+                    {
+                        "condition_str": "Use an item",
+                        "condition_raw": "0",
+                        "reward": ["MATERIA", 1500000001, 2]
+                    },
+                    {
+                        "condition_str": "Deal Earth Damage 3 times or more",
+                        "condition_raw": "59:6:2",
+                        "reward": ["MATERIA", 1500000002, 2]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["UNIT", 905000102, 2]
+                    }
+                ]
+            },
+            "9200002": {
+                "name": "Castle Keep - ADV",
+                "type": "BATTLE",
+                "wave_count": 4,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["ITEM", 270001500, 1],
+                "gil": 70,
+                "exp": 250,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000101, 1]
+                    },
+                    {
+                        "condition_str": "Use a limit burst",
+                        "condition_raw": "16",
+                        "reward": ["MATERIA", 1500000001, 2]
+                    },
+                    {
+                        "condition_str": "Deal fire damage 3 times or more",
+                        "condition_raw": "59:1:2",
+                        "reward": ["MATERIA", 1500000002, 2]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["UNIT", 905000102, 2]
+                    }
+                ]
+            },
+            "9200003": {
+                "name": "Castle Keep - ELT",
+                "type": "BATTLE",
+                "wave_count": 4,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": true,
+                    "escape_allowed": true
+                },
+                "reward": ["ITEM", 270003000, 1],
+                "gil": 117,
+                "exp": 435,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000101, 1]
+                    },
+                    {
+                        "condition_str": "Evoke an Esper",
+                        "condition_raw": "28",
+                        "reward": ["MATERIA", 1500000001, 2]
+                    },
+                    {
+                        "condition_str": "Deal wind damage 3 times or more",
+                        "condition_raw": "59:5:2",
+                        "reward": ["MATERIA", 1500000002, 2]
+                    },
+                    {
+                        "condition_str": "No continues",
+                        "condition_raw": "38",
+                        "reward": ["UNIT", 905000102, 2]
+                    }
+                ]
+            }
+        }
+    },
+    "92100": {
+        "name": "Halloween Castle Inner Chamber",
+        "region_id": "21",
+        "subregion_id": "921",
+        "type": "Vortex",
+        "position": [0, 0],
+        "icon_id": 9000026,
+        "missions": {
+            "9210001": {
+                "name": "Castle Inner Chamber INT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["EQUIP", 1100000102, 1],
+                "gil": 60,
+                "exp": 200,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000101, 1]
+                    },
+                    {
+                        "condition_str": "Use a light attacks",
+                        "condition_raw": "26:7",
+                        "reward": ["EQUIP", 1100000018, 1]
+                    },
+                    {
+                        "condition_str": "Fina in party",
+                        "condition_raw": "36:100000302",
+                        "reward": ["EQUIP", 1100000016, 1]
+                    },
+                    {
+                        "condition_str": "Clear without an ally being KO'd",
+                        "condition_raw": "33",
+                        "reward": ["MATERIA", 504101600, 1]
+                    }
+                ]
+            },
+            "9210002": {
+                "name": "Castle Inner Chamber ELT",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["EQUIP", 1100000103, 1],
+                "gil": 85,
+                "exp": 300,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["LAPIS", 1, 100]
+                    },
+                    {
+                        "condition_str": "Lasswell in party",
+                        "condition_raw": "36:100000202",
+                        "reward": ["KEYITEM", 50, 2]
+                    },
+                    {
+                        "condition_str": "Finish the boss with a limit burst",
+                        "condition_raw": "18:900010586:900010339:1",
+                        "reward": ["EQUIP", 1100000017, 1]
+                    },
+                    {
+                        "condition_str": "Defeat the boss within 10 turns",
+                        "condition_raw": "77:900010586:10",
+                        "reward": ["EQUIP", 1100000104, 1]
+                    }
+                ]
+            },
+            "9210003": {
+                "name": "Castle Inner Chamber NIGHTMARE",
+                "type": "BATTLE",
+                "wave_count": 1,
+                "cost_type": "NRG",
+                "cost": 0,
+                "flags": {
+                    "continue_allowed": false,
+                    "escape_allowed": true
+                },
+                "reward": ["EQUIP", 1100000101, 1],
+                "gil": 125,
+                "exp": 500,
+                "challenges": [
+                    {
+                        "condition_str": "Complete the quest",
+                        "condition_raw": "68",
+                        "reward": ["UNIT", 904000104, 1]
+                    },
+                    {
+                        "condition_str": "No white magic",
+                        "condition_raw": "14:1",
+                        "reward": ["KEYITEM", 50, 3]
+                    },
+                    {
+                        "condition_str": "Party of 5 or less (Companion included)",
+                        "condition_raw": "35:5",
+                        "reward": ["EQUIP", 1100000105, 1]
+                    },
+                    {
+                        "condition_str": "Evoke Titan & Lakshmi",
+                        "condition_raw": "30:8,30:11",
+                        "reward": ["MATERIA", 504100120, 1]
                     }
                 ]
             }
