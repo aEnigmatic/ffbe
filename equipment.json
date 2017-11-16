@@ -1074,7 +1074,11 @@
         "price_sell": 5000,
         "icon": "item_10121.png",
         "strings": {
-            "name": ["Deathstroke"],
+            "name": {
+                "0": "Deathstroke",
+                "1": "奪命匕首",
+                "5": "Golpe mortal"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -2870,8 +2874,8 @@
         "requirements": null,
         "skills": [220240, 220250],
         "effects": [
-            "Grants 'ジェマの覚醒' passive.",
-            "Grants 'エクスカリバー' ability."
+            "Grants 'Gemma's Awakening' passive.",
+            "Grants 'Excalibur' ability."
         ],
         "stats": {
             "HP": 0,
@@ -2889,7 +2893,11 @@
         "price_sell": 20,
         "icon": "item_10238.png",
         "strings": {
-            "name": ["Rusted Sword"],
+            "name": {
+                "0": "Rusted Sword",
+                "1": "生鏽的劍",
+                "5": "Espada oxidada"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -2930,7 +2938,11 @@
         "price_sell": 2000,
         "icon": "item_10239.png",
         "strings": {
-            "name": ["Ryumiel"],
+            "name": {
+                "0": "Ryumiel",
+                "1": "盧米埃劍",
+                "5": "Ryumiel"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -5459,7 +5471,11 @@
         "price_sell": 7000,
         "icon": "item_10424.png",
         "strings": {
-            "name": ["Murasame+"],
+            "name": {
+                "0": "Murasame+",
+                "1": "村雨·改",
+                "5": "Murasame+"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -5478,7 +5494,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [220690],
-        "effects": ["Grants '凍氷の理' passive."],
+        "effects": ["Grants 'Frozen Law' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -5495,7 +5511,11 @@
         "price_sell": 14000,
         "icon": "item_10425.png",
         "strings": {
-            "name": ["Himonto"],
+            "name": {
+                "0": "Himonto",
+                "1": "冰紋刀",
+                "5": "Himonto"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -6618,7 +6638,11 @@
         "price_sell": 9000,
         "icon": "item_10821.png",
         "strings": {
-            "name": ["King of Beasts"],
+            "name": {
+                "0": "King of Beasts",
+                "1": "獸王斧",
+                "5": "Rey de las bestias"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -9357,7 +9381,7 @@
         "requirements": null,
         "skills": [220670, 101050],
         "effects": [
-            "Grants '竜の髭' passive.",
+            "Grants 'Dragon's Mane' passive.",
             "Grants 'Dragon Killer' passive."
         ],
         "stats": {
@@ -9376,7 +9400,11 @@
         "price_sell": 16000,
         "icon": "item_11029.png",
         "strings": {
-            "name": ["Dragon's Hair"],
+            "name": {
+                "0": "Dragon's Hair",
+                "1": "龍髭",
+                "5": "Pelo de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -9412,7 +9440,11 @@
         "price_sell": 3200,
         "icon": "item_11030.png",
         "strings": {
-            "name": ["Dragon's Hair - Replica"],
+            "name": {
+                "0": "Dragon's Hair - Replica",
+                "1": "龍髭·複製品",
+                "5": "Réplica de Pelo de dragón"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -9431,7 +9463,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221540],
-        "effects": ["Grants 'クリティカル率+10%' passive."],
+        "effects": ["Grants 'Critical +10%' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -9448,7 +9480,11 @@
         "price_sell": 3200,
         "icon": "item_11032.png",
         "strings": {
-            "name": ["Precision Lance"],
+            "name": {
+                "0": "Precision Lance",
+                "1": "精准槍",
+                "5": "La Parca"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -9484,7 +9520,11 @@
         "price_sell": 16000,
         "icon": "item_11031.png",
         "strings": {
-            "name": ["Stoss Spear"],
+            "name": {
+                "0": "Stoss Spear",
+                "1": "突刺長槍",
+                "5": "Lanza dracónida"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -10196,7 +10236,11 @@
         "price_sell": 2000,
         "icon": "item_11623.png",
         "strings": {
-            "name": ["Holy Gloves"],
+            "name": {
+                "0": "Holy Gloves",
+                "1": "神聖手套",
+                "5": "Guantes sacros"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -11902,7 +11946,11 @@
         "price_sell": 700,
         "icon": "item_10625.png",
         "strings": {
-            "name": ["Bone Rod"],
+            "name": {
+                "0": "Bone Rod",
+                "1": "骨棒",
+                "5": "Vara ósea"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -14047,7 +14095,11 @@
         "price_sell": 6500,
         "icon": "item_10718.png",
         "strings": {
-            "name": ["Killer Bow+"],
+            "name": {
+                "0": "Killer Bow+",
+                "1": "殺手弓·改",
+                "5": "Arco asesino+"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -15112,7 +15164,11 @@
         "price_sell": 6000,
         "icon": "item_11422.png",
         "strings": {
-            "name": ["Valiant II"],
+            "name": {
+                "0": "Valiant II",
+                "1": "勇士Ⅱ",
+                "5": "Heroica"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -15148,7 +15204,11 @@
         "price_sell": 360,
         "icon": "item_11423.png",
         "strings": {
-            "name": ["Valiant"],
+            "name": {
+                "0": "Valiant",
+                "1": "勇士",
+                "5": "Valiant"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -21248,7 +21308,11 @@
         "price_sell": 500,
         "icon": "item_30141.png",
         "strings": {
-            "name": ["Charlotte's Cap"],
+            "name": {
+                "0": "Charlotte's Cap",
+                "1": "夏洛特帽子",
+                "5": "Gorra de Charlotte"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -21293,7 +21357,11 @@
         "price_sell": 5000,
         "icon": "item_50288.png",
         "strings": {
-            "name": ["Hairpin of Purity"],
+            "name": {
+                "0": "Hairpin of Purity",
+                "1": "純潔之心發飾",
+                "5": "Coletero de la pureza"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -22500,7 +22568,11 @@
         "price_sell": 12000,
         "icon": "item_30225.png",
         "strings": {
-            "name": ["Lise's Crown"],
+            "name": {
+                "0": "Lise's Crown",
+                "1": "麗絲的頭盔",
+                "5": "Corona de Lise"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -22536,7 +22608,11 @@
         "price_sell": 6000,
         "icon": "item_30226.png",
         "strings": {
-            "name": ["Aranea's Helm"],
+            "name": {
+                "0": "Aranea's Helm",
+                "1": "艾拉尼亞頭盔",
+                "5": "Yelmo de Aranea"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -24761,7 +24837,11 @@
         "price_sell": 2000,
         "icon": "item_20138.png",
         "strings": {
-            "name": ["Hawk's Clothes"],
+            "name": {
+                "0": "Hawk's Clothes",
+                "1": "鷹眼衣服",
+                "5": "Ropa de Hawk"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -24799,7 +24879,11 @@
         "price_sell": 1000,
         "icon": "item_20139.png",
         "strings": {
-            "name": ["Butler's Uniform"],
+            "name": {
+                "0": "Butler's Uniform",
+                "1": "管家服",
+                "5": "Uniforme de mayordomo"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -24835,7 +24919,11 @@
         "price_sell": 1000,
         "icon": "item_20140.png",
         "strings": {
-            "name": ["Assist Suit"],
+            "name": {
+                "0": "Assist Suit",
+                "1": "輔助服",
+                "5": "Exotraje"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -26356,7 +26444,11 @@
         "price_sell": 1200,
         "icon": "item_20227.png",
         "strings": {
-            "name": ["Chobham Armor"],
+            "name": {
+                "0": "Chobham Armor",
+                "1": "查布漢複合裝甲",
+                "5": "Blindaje Chobham"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -27435,7 +27527,11 @@
         "price_sell": 7500,
         "icon": "item_20321.png",
         "strings": {
-            "name": ["Force Armor+"],
+            "name": {
+                "0": "Force Armor+",
+                "1": "原力鎧·改",
+                "5": "Coraza de vigor+"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -27474,7 +27570,11 @@
         "price_sell": 7500,
         "icon": "item_20322.png",
         "strings": {
-            "name": ["Shadow Mail"],
+            "name": {
+                "0": "Shadow Mail",
+                "1": "影甲",
+                "5": "Malla sombría"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -36961,7 +37061,11 @@
         "price_sell": 5000,
         "icon": "item_50277.png",
         "strings": {
-            "name": ["Wind-up Garuda"],
+            "name": {
+                "0": "Wind-up Garuda",
+                "1": "迦樓羅之形",
+                "5": "Mini Garuda"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -36997,7 +37101,11 @@
         "price_sell": 5000,
         "icon": "item_50278.png",
         "strings": {
-            "name": ["Wind-up Y'shtola"],
+            "name": {
+                "0": "Wind-up Y'shtola",
+                "1": "迷你雅·修特拉",
+                "5": "Mini Y'shtola"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37036,7 +37144,11 @@
         "price_sell": 5000,
         "icon": "item_50280.png",
         "strings": {
-            "name": ["Wind-up Thancred"],
+            "name": {
+                "0": "Wind-up Thancred",
+                "1": "迷你桑克瑞德",
+                "5": "Mini Thancred"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37072,7 +37184,11 @@
         "price_sell": 5000,
         "icon": "item_50279.png",
         "strings": {
-            "name": ["Wind-up Minfilia"],
+            "name": {
+                "0": "Wind-up Minfilia",
+                "1": "迷你敏菲利亞",
+                "5": "Mini Minfilia"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37108,7 +37224,11 @@
         "price_sell": 5000,
         "icon": "item_50281.png",
         "strings": {
-            "name": ["Wind-up Yda"],
+            "name": {
+                "0": "Wind-up Yda",
+                "1": "迷你伊達",
+                "5": "Mini Yda"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37144,7 +37264,11 @@
         "price_sell": 5000,
         "icon": "item_50282.png",
         "strings": {
-            "name": ["Wind-up Papalymo"],
+            "name": {
+                "0": "Wind-up Papalymo",
+                "1": "迷你帕帕力莫",
+                "5": "Mini Papalymo"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37180,7 +37304,11 @@
         "price_sell": 5000,
         "icon": "item_50283.png",
         "strings": {
-            "name": ["Wind-up Alphinaud"],
+            "name": {
+                "0": "Wind-up Alphinaud",
+                "1": "迷你阿爾菲諾",
+                "5": "Mini Alphinaud"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37216,7 +37344,11 @@
         "price_sell": 5000,
         "icon": "item_50170.png",
         "strings": {
-            "name": ["Fury Ring"],
+            "name": {
+                "0": "Fury Ring",
+                "1": "憤怒戒指",
+                "5": "Anillo de furia"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37270,7 +37402,11 @@
         "price_sell": 1000,
         "icon": "item_50285.png",
         "strings": {
-            "name": ["Alexandrite Ring"],
+            "name": {
+                "0": "Alexandrite Ring",
+                "1": "變石戒指",
+                "5": "Anillo de Alexandrita"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37306,7 +37442,11 @@
         "price_sell": 1000,
         "icon": "item_50286.png",
         "strings": {
-            "name": ["Feral Horn"],
+            "name": {
+                "0": "Feral Horn",
+                "1": "暴獸尖角",
+                "5": "Cuerno feroz"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37342,7 +37482,11 @@
         "price_sell": 2000,
         "icon": "item_50287.png",
         "strings": {
-            "name": ["Draupnir"],
+            "name": {
+                "0": "Draupnir",
+                "1": "德羅普尼爾",
+                "5": "Draupnir"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37378,7 +37522,11 @@
         "price_sell": 5000,
         "icon": "item_50289.png",
         "strings": {
-            "name": ["Sash of Restraint"],
+            "name": {
+                "0": "Sash of Restraint",
+                "1": "忍者魔力腰帶",
+                "5": "Cinturón de entereza"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -37414,7 +37562,11 @@
         "price_sell": 2000,
         "icon": "item_50290.png",
         "strings": {
-            "name": ["A1-Class Powershield"],
+            "name": {
+                "0": "A1-Class Powershield",
+                "1": "士官用特A級盾牌",
+                "5": "Escudo de primera clase"
+            },
             "desc_short": null,
             "desc_long": null
         }
@@ -43086,6 +43238,424 @@
                 "L'insigne du capitaine des chevaliers de Grandshelt. Cet insigne n'est donné qu'aux chevaliers ayant fait preuve d'une incroyable bravoure, endurance et vigilance au combat. Beaucoup de chevaliers essayent de se montrer digne de recevoir cet insigne, mais seuls les plus valeureux ayant obtenu le rang de capitaine ont l'honneur de l’arborer (permet à Loren d'utiliser des aptitudes spéciales).",
                 "Die Insignie eines Kommandanten der Ritter von Grandshelt. Die Insignie dient als Beweis außerordentlichen Mutes, Tüchtigkeit und Edelmut. Viele Ritter strebten danach, sich dieser Insignie als würdig zu erweisen, doch nur die edelsten aller Ritter werden mit dem Rang eines Kommantants geadelt. (Ermöglicht Spezialfertigkeiten, wenn von Loren getragen)",
                 "La insignia de un capitán de los caballeros de Grandshelt. Esta prueba su valía extraordinaria, su entereza y su percepción. Muchos caballeros que aspiran a ser dignos de esta, pero solo a los más prodigiosos caballeros se les concede el rango de capitán y el honor de recibirla. (Activa habilidades especiales si se lo equipa Loren)."
+            ]
+        }
+    },
+    "1100000113": {
+        "name": "Hibiscus Hairpin",
+        "compendium_id": 90116,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100110, 203240],
+        "effects": [
+            "Grants 'MAG +20%' passive.",
+            "Grants 'MP + 15%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 10,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 500,
+        "icon": "global_equip_10053.png",
+        "strings": {
+            "name": [
+                "Hibiscus Hairpin",
+                "扶桑花髮飾",
+                "무궁화 꽃핀",
+                "Épingle en hibiscus",
+                "Hibiskushaarnadel",
+                "Coletero de hibisco"
+            ],
+            "desc_short": [
+                "A hairpin adorned with beautiful flowers.",
+                "裝飾著美麗花朵的髮飾",
+                "아름다운 꽃으로 장식한 머리핀.",
+                "Une épingle ornée de magnifiques fleurs.",
+                "Eine mit hübschen Blüten verzierte Haarnadel.",
+                "Un coletero adornado con unas flores muy bonitas."
+            ],
+            "desc_long": [
+                "A hairpin adorned with beautiful flowers. Its intricate design suggests that it was made hundreds of years ago by a master artisan. The art has long been forgotten and obtaining a similar piece would be close to impossible.",
+                "裝飾著美麗花朵的髮飾。有著錯綜複雜的設計，是在幾百年前由職人製作而成。這項技術歷經長久時間在現今已失傳，要得到類似的物品已近乎不可能。",
+                "아름다운 꽃으로 장식한 머리핀. 그 정교한 디자인으로 말미암아, 수백 년 전 어느 장인의 손끝에서 만들어졌음을 알 수 있다. 예술은 시간의 흐름 속에 잊혀져갔고, 이 머리핀에 버금가는 작품은 더 이상 등장하지 않았다.",
+                "Une épingle ornée de magnifiques fleurs. Ses formes entrelacées suggèrent qu'elle a été fabriquée par un maître-artisan il y a plusieurs centaines d'années. Cet art a, en effet, depuis été oublié et obtenir une pièce similaire est quasiment impossible de nos jours.",
+                "Eine mit hübschen Blüten verzierte Haarnadel. Die feinen Ziselierungen in seiner Gestaltung deuten darauf hin, dass dieses Objekt vor hunderten von Jahren durch die Hand eines Meisterhandwerkers entstanden sein mus. Seine Kunst ist vor langer Zeit in Vergessenheit geraten und an ein ähnliches Meisterstück zu gelangen daher beinahe unmöglich.",
+                "Un coletero adornado con unas flores muy bonitas. Su diseño intrincado hace pensar que algún maestro artesano lo elaboró siglos atrás. Este tipo de arte ha quedado relegado al olvido y se podría decir que obtener un objeto similar es casi imposible."
+            ]
+        }
+    },
+    "1100000114": {
+        "name": "Kitty Headband",
+        "compendium_id": 90117,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 5,
+            "MAG": 20,
+            "SPR": 20,
+            "element_resist": {
+                "Water": 15,
+                "Light": 15
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 90000,
+        "price_sell": 500,
+        "icon": "global_equip_10054.png",
+        "strings": {
+            "name": [
+                "Kitty Headband",
+                "貓耳髮帶",
+                "고양이 헤어밴드",
+                "Serre-tête chaton",
+                "Kätzchen-Stirnband",
+                "Banda de minina"
+            ],
+            "desc_short": [
+                "A headband that resembles a pair of kitty ears.",
+                "有著一對貓耳朵的髮帶",
+                "고양이 귀가 달린 헤어밴드",
+                "Un serre-tête qui ressemble à une paire d'oreilles de chaton.",
+                "Ein Stirnband, das von einem Paar Katzenohren geziert wird.",
+                "Una cinta para el pelo con forma de orejas de gatita."
+            ],
+            "desc_long": [
+                "A headband that resembles a pair of kitty ears. It was said to be crafted specifically for a princess who was so obsessed with felines that she pleaded her father, the king, to build an entire fortress just for them to live in.",
+                "有著一對貓耳朵的髮帶。據說這是一位深愛貓科動物的公主懇求他的父王所製作的，國王甚至蓋了一座堡壘讓他們在裡面生活。",
+                "고양이 귀가 달린 헤어밴드. 고양이를 무척이나 좋아하던 어느 공주를 위해 특별히 제작되었다고 전해지는 물건으로, 그 공주는 왕인 아버지에게 고양이들만을 위한 큰 요새까지 지어달라고 간청했다.",
+                "Un serre-tête qui ressemble à une paire d'oreilles de chaton. On raconte qu'il aurait été fabriqué spécialement pour une princesse tellement obsédée par les petits félins qu'elle supplia son père, le roi, de leur construire une forteresse où ils pourraient vivre en paix.",
+                "Ein Stirnband, das von einem Paar Katzenohren geziert wird. Von diesem Stirnband heißt es, dass es extra für eine Prinzessin angefertigt wurde, die regelrecht besessen von Katzen war. Diese Zuneigung ging soweit, dass sie ihren Vater darum bat, eine Festung alleine für ihre Katzen zu errichten.",
+                "Una cinta para el pelo con forma de orejas de gatita. Se cuenta que se elaboró específicamente para una princesa que estaba tan obsesionada con los felinos que le rogó a su padre, el rey, que construyese una fortaleza entera para que vivieran estos."
+            ]
+        }
+    },
+    "1100000115": {
+        "name": "Cloak of Resentment",
+        "compendium_id": 90118,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 5,
+            "DEF": 25,
+            "MAG": 0,
+            "SPR": 25,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Silence": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 90000,
+        "price_sell": 500,
+        "icon": "global_equip_10055.png",
+        "strings": {
+            "name": [
+                "Cloak of Resentment",
+                "怨念披風",
+                "분노의 망토",
+                "Cape du ressentiment",
+                "Mantel der Verachtung",
+                "Capa del resentimiento"
+            ],
+            "desc_short": [
+                "A cloak filled with endless resentment.",
+                "充滿無盡怨念的披風",
+                "한없는 분노로 가득 찬 망토",
+                "Une cape remplit d'une rancœur éternelle.",
+                "Ein Mantel, der mit endloser Verachtung gefüllt ist.",
+                "Una capa imbuida con un rencor infinito."
+            ],
+            "desc_long": [
+                "A cloak filled with endless resentment. This cloak was rumored to be donned by a great musician who was wrongfully murdered and remnants of her unjustified emotions are trapped within it. Only the purest souls can overcome the darkness in this cloak and safely wear it without being influenced by it.",
+                "充滿無盡怨念的披風。是一位被誤殺的偉大音樂家所持有的物品，她憤恨不平的情緒殘留在披風上，只有最純潔的靈魂才能戰勝其黑暗，並安全的穿戴這件披風。",
+                "한없는 분노로 가득 찬 망토. 이 망토에는 부당하게 죽임을 당한 어느 훌륭한 음악가의 원한이 담겨있다는 소문이 돌고 있다. 오직 순수한 영혼만이 어둠을 극복하고 안전하게 이 망토를 걸칠 수 있다고 한다.",
+                "Une cape remplit d'une rancœur éternelle. On raconte qu'elle aurait été portée par un grand musicien qui aurait été tué par erreur et dont toute la rancœur s'est retrouvée piégée à l'intérieur. Seuls les êtres possédant les âmes les plus pures peuvent supporter les ténèbres de cette cape et la porter sans subir son influence.",
+                "Ein Mantel, der mit endloser Verachtung gefüllt ist. Man sagt dem Mantel nach, dass er einst von einer großen Musikerin angelegt wurde, die völlig zu Unrecht ermordet wurde - ihre Frustgefühle und Hass haben ihren Körper überdauert und sind nun in dem Mantel gefangen. Nur die reinsten aller Seelen sind in der Lage, die Dunkelheit in diesem Mantel zu überwinden und ihn zu tragen, ohne von ihm beeinflusst zu werden.",
+                "Una capa imbuida con un rencor infinito. Se rumorea que una gran música solía llevar esta capa, hasta que la mataron sin motivo alguno, por lo que, en esta capa, quedan retazos atrapados de estas emociones injustificadas. En este sentido, solo las almas más puras pueden vencer a la oscuridad que alberga esta capa y ponérsela de forma segura sin verse influenciados por su negatividad."
+            ]
+        }
+    },
+    "1100000116": {
+        "name": "Sparkling Heels",
+        "compendium_id": 90119,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 10,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 10,
+                "Wind": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 90000,
+        "price_sell": 500,
+        "icon": "global_equip_10056.png",
+        "strings": {
+            "name": [
+                "Sparkling Heels",
+                "閃亮跟鞋",
+                "반짝이는 구두",
+                "Talons éclatants",
+                "Glitzernde Highheels",
+                "Tacones brillantes"
+            ],
+            "desc_short": [
+                "A pair of heels that sparkle.",
+                "閃閃發光的高跟鞋",
+                "반짝거리는 구두 한 켤레",
+                "Une paire de talons qui scintillent.",
+                "Ein Paar glitzernder Highheels.",
+                "Un par de tacones que brillan."
+            ],
+            "desc_long": [
+                "A pair of heels that sparkle. These were made by a craftsman as a gift for his wife’s birthday to keep her feet protected from blazing heat and strong winds while staying beautiful at all times. Splendid and dazzling, this pair of heels has received much attention from the most fashionable of ladies.",
+                "閃閃發光的高跟鞋。是某位工匠為了讓妻子的雙腳保持美麗，不受炎熱與強風的侵襲而製作。璀璨閃耀的外觀，獲得了許多時尚女性的關注。",
+                "반짝거리는 구두 한 켤레. 한 구두 제조공이 타는듯한 더위와 강한 바람으로부터 부인의 발을 보호하기 위해 만들어 선물한 것으로, 화려하고 눈부신 이 구두를 신고 나간 부인은 패셔너블한 여성들의 관심이 대상이 되었다.",
+                "Une paire de talons qui scintillent. Ils auraient été fabriqués par un cordonnier pour l'anniversaire de sa femme afin de protéger ses pieds de l'extrême chaleur et des fortes rafales de vent, tout en lui permettant de rester belle en toutes circonstances. D'une beauté éclatante, cette paire de talons est extrêmement populaire auprès des filles les plus branchées.",
+                "Ein Paar glitzernder Highheels. Sie wurden von einem Meisterhandwerker als Geburtstagsgeschenk für seine geliebte Frau angefertigt, um ihre Füße vor feuriger Hitze und brüllenden Witzen zu schützen und ihr gleichzeitig das Gefühl zu geben, es gäbe keine schönere Frau auf Erden.. So herrlich und grell wie sie sind, haben sie bereits viel Aufmerksamkeit von den modischsten aller Damen erhalten.",
+                "Un par de tacones que brillan. Estos tacones se los hizo un artesano a su mujer como regalo de cumpleaños para que sus pies estuvieran protegidos del calor y los fuertes vientos y, al mismo tiempo, también estuviese guapa. Debido a su esplendor y su finura, este par de tacones son muy preciados entre las mujeres más chic."
+            ]
+        }
+    },
+    "1100000117": {
+        "name": "Evil Pipe",
+        "compendium_id": 90120,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 11,
+        "type": "Harp",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.3, 1.7],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 0,
+            "MAG": 38,
+            "SPR": 30,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": {
+                "Paralyze": 20
+            }
+        },
+        "price_buy": 90000,
+        "price_sell": 500,
+        "icon": "global_equip_10057.png",
+        "strings": {
+            "name": [
+                "Evil Pipe",
+                "惡魔笛",
+                "악마의 파이프",
+                "Flûte maudite",
+                "Bösartige Pfeife",
+                "Flauta maliciosa"
+            ],
+            "desc_short": [
+                "A cursed pipe that can produce hypnotic pitches.",
+                "詛咒的笛子，可以吹出催眠的旋律。",
+                "최면의 소리를 내는 저주받은 파이프",
+                "Une flûte maudite qui produit un son hypnotisant.",
+                "Eine verfluchte Pfeife, die hypnotische Tonlagen erzeugen kann.",
+                "Una flauta maldita que produce sonidos hipnóticos."
+            ],
+            "desc_long": [
+                "A cursed pipe that can produce hypnotic pitches. Prolonged usage of the pipe will cause its user anger and much unrest, in turn leading the user to slowly become mentally unsound.",
+                "詛咒的笛子，可以吹出催眠的旋律。經常使用會讓使用者陷入易怒與不安的情緒，最後陷入精神衰弱狀態。",
+                "최면의 소리를 내는 저주받은 파이프. 이 파이프를 너무 오래 사용하면 사용자의 분노와 불만을 유발하여 서서히 정신을 갉아먹는다고 한다.",
+                "Une flûte maudite qui produit un son hypnotisant. L'usage prolongé de cette flûte peut faire ressortir les émotions les plus viles de son utilisateur et le rendre complètement instable psychologiquement.",
+                "Eine verfluchte Pfeife, die hypnotische Tonlagen erzeugen kann. Wiederholtes Spielen der Pfeife wird ihrem Benutzer großen Ärger und Verdruss bringen, die ihn nach und nach seine geistige Gesundheit kosten.",
+                "Una flauta maldita que produce sonidos hipnóticos. Cualquiera que use esta flauta durante mucho tiempo acabará enfadado y angustiado, y, poco a poco, se irán perturbando sus facultades mentales."
+            ]
+        }
+    },
+    "1100000118": {
+        "name": "Pink Striped Float",
+        "compendium_id": 90121,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 30,
+        "type": "Light Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [208980, 910549],
+        "effects": [
+            "Grants 'SPR +15%' passive.",
+            "Grants 'Focus Attention' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 25,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 90000,
+        "price_sell": 500,
+        "icon": "global_equip_10058.png",
+        "strings": {
+            "name": [
+                "Pink Striped Float",
+                "粉紅紋泳圈",
+                "분홍 줄무늬 튜브",
+                "Bouée à rayures roses",
+                "Pink gestreifter Rettungsring",
+                "Flotador con rayas rosas"
+            ],
+            "desc_short": [
+                "An inflatable swimming float that has been imbued with magical powers.",
+                "充滿魔法力量的游泳圈",
+                "마법의 힘이 깃든 공기 주입식 수영 튜브",
+                "Une bouée gonflable permettant de nager remplie de pouvoirs magiques.",
+                "Ein aufblasbarer Rettungsring, der mit magischen Kräften versehen wurde.",
+                "Un flotador inflable que tiene poderes mágicos."
+            ],
+            "desc_long": [
+                "An inflatable swimming float that has been imbued with magical powers. Despite looking like an ordinary swimming float, it is able to absorb heavy impacts to protect its user. However, due to its bright appearance, it seems to attract a lot of attention from monsters nearby.",
+                "充滿魔法力量的游泳圈。雖然看起來只是普通的游泳圈，卻能夠吸收衝擊保護穿著的人。但是因為外觀太過顯眼，導致會吸引附近怪物的目光。",
+                "마법의 힘이 깃든 공기 주입식 수영 튜브. 평범한 수영 튜브처럼 보이지만, 사용자를 보호하기 위해 상당한 충격을 흡수할 수 있다. 그러나, 밝은색 때문에 근처 마물들의 주의를 끄는 것 같다.",
+                "Une bouée gonflable permettant de nager remplie de pouvoirs magiques. Même si son aspect est très proche de celui d'une bouée ordinaire, elle est capable d'absorber une telle quantité de choc, qu'elle constitue une armure idéale pour quiconque souhaiterait la porter. Malheureusement, son aspect très voyant à tendance à attirer les monstres.",
+                "Ein aufblasbarer Rettungsring, der mit magischen Kräften versehen wurde. Obwohl er aussieht wie ein ganz gewöhnlicher Rettungsring, kann er heftige Aufschläge absorbieren, um seinen Benutzer zu beschützen. Aufgrund seiner grellen Gestalt scheint er allerdings umgekehrt auch allerlei Monster und Gewürm aus der Umgebung anzuziehen.",
+                "Un flotador inflable que tiene poderes mágicos. Aunque pueda parecer un flotador normal y corriente, es capaz de absorber fuertes impactos para proteger a quien lo use. Aun así, debido a su aspecto llamativo, parece captar la atención de cualquier monstruo que se encuentre cerca."
+            ]
+        }
+    },
+    "1100000119": {
+        "name": "Luxurious Feather Boa",
+        "compendium_id": 90122,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100180, 910550],
+        "effects": [
+            "Grants 'SPR +30%' passive.",
+            "Grants 'Sweet Sorrow' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 90000,
+        "price_sell": 5000,
+        "icon": "global_equip_10059.png",
+        "strings": {
+            "name": [
+                "Luxurious Feather Boa",
+                "華麗羽毛圍巾",
+                "럭셔리한 깃털 목도리",
+                "Boa à plumes luxueuses",
+                "Luxuriöse Federboa",
+                "Boa de plumas lujosa"
+            ],
+            "desc_short": [
+                "An elegant piece of fashion accessory for one to keep their style in check.",
+                "為了維持個人風格的時尚流行飾品",
+                "스타일 관리를 위한 우아한 패션 액세서리",
+                "Un élégant accessoire de mode, qui permet d'être toujours au top de l'élégance.",
+                "Ein elegantes Fashionaccessoire, um jemandem das gewisse \"Etwas\" zu geben.",
+                "Un accesorio elegante que sirve para ir a la moda."
+            ],
+            "desc_long": [
+                "An elegant fashion accessory for one to keep their style in check. Commonly worned around the neck, it was used by many nobles in the past as a symbol of luxury.",
+                "為了維持個人風格的時尚流行飾品。通常用來圍在脖子上，過去因為象徵著奢華而被許多貴族使用。",
+                "스타일 관리를 위한 우아한 패션 액세서리. 주로 목에 두르며, 부의 상징으로 옛 귀족들이 사용했다고 한다.",
+                "Un élégant accessoire de mode, qui permet d'être toujours au top de l'élégance. Habituellement porté autour du cou, il était beaucoup utilisé autrefois par les nobles comme symbole de luxe.",
+                "Ein elegantes Fashionaccessoire, um jemandem das gewisse \"Etwas\" zu geben. Üblich ganz legere um den Hals getragen, wurde dieses Accessoire von vielen Edelleuten der Vergangenheit als Symbol von Reichtum und Luxus verwendet.",
+                "Un accesorio elegante que sirve para ir a la moda. Se suele poner alrededor del cuello. Además, la nobleza solía ponerse este complemento en el pasado para denotar lujo."
             ]
         }
     }
