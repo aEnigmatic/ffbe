@@ -48297,14 +48297,14 @@
                 "type": "BATTLE",
                 "wave_count": 2,
                 "cost_type": "NRG",
-                "cost": 3,
+                "cost": 5,
                 "flags": {
                     "continue_allowed": true,
                     "escape_allowed": true
                 },
                 "reward": ["KEYITEM", 50, 1],
                 "gil": 20,
-                "exp": 50,
+                "exp": 100,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
@@ -48333,14 +48333,14 @@
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
-                "cost": 5,
+                "cost": 10,
                 "flags": {
                     "continue_allowed": true,
                     "escape_allowed": true
                 },
                 "reward": ["ITEM", 106302900, 200],
                 "gil": 32,
-                "exp": 105,
+                "exp": 210,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
@@ -48369,14 +48369,14 @@
                 "type": "BATTLE",
                 "wave_count": 3,
                 "cost_type": "NRG",
-                "cost": 8,
+                "cost": 15,
                 "flags": {
                     "continue_allowed": true,
                     "escape_allowed": true
                 },
                 "reward": ["ITEM", 106302900, 300],
                 "gil": 50,
-                "exp": 155,
+                "exp": 310,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
@@ -48405,14 +48405,14 @@
                 "type": "BATTLE",
                 "wave_count": 4,
                 "cost_type": "NRG",
-                "cost": 10,
+                "cost": 20,
                 "flags": {
                     "continue_allowed": true,
                     "escape_allowed": true
                 },
                 "reward": ["ITEM", 106302900, 500],
                 "gil": 70,
-                "exp": 250,
+                "exp": 500,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
@@ -48441,14 +48441,14 @@
                 "type": "BATTLE",
                 "wave_count": 5,
                 "cost_type": "NRG",
-                "cost": 13,
+                "cost": 25,
                 "flags": {
                     "continue_allowed": true,
                     "escape_allowed": true
                 },
                 "reward": ["LAPIS", 0, 500],
                 "gil": 85,
-                "exp": 300,
+                "exp": 600,
                 "challenges": [
                     {
                         "condition_str": "Complete the quest",
@@ -51375,7 +51375,7 @@
                         "reward": ["ITEM", 290050400, 10]
                     },
                     {
-                        "condition_str": "「マリグノ」を魔法でフィニッシュ",
+                        "condition_str": "Defeat Mariguno with magic",
                         "condition_raw": "15:755020503:104016000:1",
                         "reward": ["ITEM", 106200100, 2]
                     },
@@ -53258,12 +53258,12 @@
                         "reward": ["KEYITEM", 50, 1]
                     },
                     {
-                        "condition_str": "「セイクリッドバースト」を使用してクリア",
+                        "condition_str": "Use sacred burst",
                         "condition_raw": "21:221060",
                         "reward": ["UNIT", 900005101, 3]
                     },
                     {
-                        "condition_str": "「アークパニッシャー」を使用してクリア",
+                        "condition_str": "Use arch punisher",
                         "condition_raw": "21:221070",
                         "reward": ["ITEM", 201001500, 1]
                     }
@@ -56233,7 +56233,7 @@
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "「ジェノア」戦を5ターン以内でクリア",
+                        "condition_str": "Defeat Genoa within 5 turns",
                         "condition_raw": "77:763010303:5",
                         "reward": ["LAPIS", 1, 10]
                     },
@@ -56269,7 +56269,7 @@
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "「ツェンカー」を魔法でフィニッシュ",
+                        "condition_str": "Defeat Zenker with magic",
                         "condition_raw": "15:763010404:302031000:1",
                         "reward": ["LAPIS", 1, 10]
                     },
@@ -56305,7 +56305,7 @@
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "「美獣」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat the elegant beast with a limit burst",
                         "condition_raw": "18:763010505:205721000:1",
                         "reward": ["LAPIS", 1, 10]
                     },
@@ -56355,7 +56355,7 @@
         }
     },
     "76401": {
-        "name": "Castle Granth - Exploration",
+        "name": "Glaive Castle - Exploration",
         "region_id": "21",
         "subregion_id": "764",
         "type": "Vortex",
@@ -56363,7 +56363,7 @@
         "icon_id": 7450101,
         "missions": {
             "7640101": {
-                "name": "Castle Granth - Exploration (HARD)",
+                "name": "Glaive Castle - Exploration (HARD)",
                 "type": "EXPLORATION",
                 "wave_count": 0,
                 "cost_type": "NRG",
@@ -56399,7 +56399,7 @@
                 ]
             },
             "7640102": {
-                "name": "Castle Granth - Exploration (EASY)",
+                "name": "Glaive Castle - Exploration (EASY)",
                 "type": "EXPLORATION",
                 "wave_count": 0,
                 "cost_type": "NRG",
@@ -56423,7 +56423,7 @@
                         "reward": ["LAPIS", 1, 10]
                     },
                     {
-                        "condition_str": "「シャドウナイト」戦を10ターン以内でクリア",
+                        "condition_str": "Defeat the shadow knight within 10 turns",
                         "condition_raw": "77:764010201:10",
                         "reward": ["LAPIS", 1, 10]
                     },
@@ -56623,7 +56623,7 @@
                         "reward": ["ITEM", 290050300, 10]
                     },
                     {
-                        "condition_str": "「グンガンホース」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat the gungan horse with a limit burst",
                         "condition_raw": "18:765010503:201076000:1",
                         "reward": ["ITEM", 106200100, 1]
                     },
@@ -56853,7 +56853,7 @@
                         "reward": ["ITEM", 290050400, 10]
                     },
                     {
-                        "condition_str": "「アコナイト」を魔法でフィニッシュ",
+                        "condition_str": "Defeat the aconite with magic",
                         "condition_raw": "15:765020503:111086000:1",
                         "reward": ["ITEM", 106200100, 2]
                     },
@@ -57068,7 +57068,7 @@
                         "reward": ["ITEM", 290050500, 10]
                     },
                     {
-                        "condition_str": "「チェインセクト」戦を5ターン以内でクリア",
+                        "condition_str": "Defeat the chainsect within 5 turns",
                         "condition_raw": "77:765030503:5",
                         "reward": ["ITEM", 290060300, 10]
                     },
@@ -57283,7 +57283,7 @@
                         "reward": ["ITEM", 290060000, 10]
                     },
                     {
-                        "condition_str": "「バイドカッター」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat the binding mantis with a limit burst",
                         "condition_raw": "18:765040504:209007000:1",
                         "reward": ["ITEM", 290060400, 10]
                     },
@@ -57498,7 +57498,7 @@
                         "reward": ["ITEM", 290060100, 10]
                     },
                     {
-                        "condition_str": "「トロピクス」を魔法でフィニッシュ",
+                        "condition_str": "Defeat the tropic with magic",
                         "condition_raw": "15:765050504:210023000:1",
                         "reward": ["ITEM", 290050500, 10]
                     },
@@ -57713,7 +57713,7 @@
                         "reward": ["ITEM", 290060000, 10]
                     },
                     {
-                        "condition_str": "「ウェイスト」戦を5ターン以内でクリア",
+                        "condition_str": "Defeat biowaste within 5 turns",
                         "condition_raw": "77:765060504:5",
                         "reward": ["ITEM", 290060200, 10]
                     },
@@ -57928,7 +57928,7 @@
                         "reward": ["ITEM", 290060300, 10]
                     },
                     {
-                        "condition_str": "「アバドン」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat Abaddon with a limit burst",
                         "condition_raw": "18:765070504:212014000:1",
                         "reward": ["ITEM", 290060100, 10]
                     },
@@ -58158,7 +58158,7 @@
                         "reward": ["ITEM", 290060200, 10]
                     },
                     {
-                        "condition_str": "「キングクラーケン」を魔法でフィニッシュ",
+                        "condition_str": "Defeat the king kraken with magic",
                         "condition_raw": "15:765080505:303017000:1",
                         "reward": ["ITEM", 290060400, 10]
                     },
@@ -58358,7 +58358,7 @@
                         "reward": ["MATERIA", 504208990, 1]
                     },
                     {
-                        "condition_str": "「アバドン」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat Abaddon with a limit burst",
                         "condition_raw": "18:765090505:212014001:1",
                         "reward": ["KEYITEM", 50, 1]
                     },
@@ -58543,7 +58543,7 @@
                         "reward": ["UNIT", 904000105, 1]
                     },
                     {
-                        "condition_str": "「キングクラーケン」を幻獣でフィニッシュ",
+                        "condition_str": "Defeat the king kraken with an esper",
                         "condition_raw": "32:765100505:303017001:1",
                         "reward": ["KEYITEM", 50, 2]
                     },
@@ -58858,7 +58858,7 @@
                         "reward": ["EQUIP", 312001900, 1]
                     },
                     {
-                        "condition_str": "「ブラキオレイドス」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat the brachiosaur with a limit burst",
                         "condition_raw": "18:897010301:307001002:1",
                         "reward": ["UNIT", 904000105, 1]
                     },
@@ -58986,7 +58986,7 @@
                         "reward": ["ITEM", 101003100, 1]
                     },
                     {
-                        "condition_str": "Defeat elnath within 30 turns",
+                        "condition_str": "Defeat Elnath within 30 turns",
                         "condition_raw": "77:898010301:30",
                         "reward": ["ITEM", 101002100, 1]
                     }
@@ -59012,7 +59012,7 @@
                         "reward": ["EQUIP", 307001800, 1]
                     },
                     {
-                        "condition_str": "Defeat elnath within 30 turns",
+                        "condition_str": "Defeat Elnath within 30 turns",
                         "condition_raw": "77:898010401:30",
                         "reward": ["KEYITEM", 50, 2]
                     },
@@ -59058,7 +59058,7 @@
                         "reward": ["ITEM", 101003100, 1]
                     },
                     {
-                        "condition_str": "「アルヘナ」戦を30ターン以内でクリア",
+                        "condition_str": "Defeat Alhena within 30 turns",
                         "condition_raw": "77:898010501:30",
                         "reward": ["ITEM", 101002100, 1]
                     }
@@ -59089,12 +59089,12 @@
                         "reward": ["KEYITEM", 50, 2]
                     },
                     {
-                        "condition_str": "「アルヘナ」を幻獣でフィニッシュ",
+                        "condition_str": "Defeat Alhena with an esper",
                         "condition_raw": "32:898010601:405091001:1",
                         "reward": ["UNIT", 904000105, 1]
                     },
                     {
-                        "condition_str": "「アルヘナ」戦を30ターン以内でクリア",
+                        "condition_str": "Defeat Alhena within 30 turns",
                         "condition_raw": "77:898010601:30",
                         "reward": ["MATERIA", 504220660, 1]
                     }
@@ -67642,7 +67642,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "Defeat the aldore jailer with a limit burst",
+                        "condition_str": "Defeat the Aldore jailer with a limit burst",
                         "condition_raw": "18:1121100304:105123001:1",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -69298,7 +69298,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「シャンタク」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat Shantak with a limit burst",
                         "condition_raw": "18:1131010403:302006000:1",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -69446,7 +69446,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「シビラ族獣人」戦を3ターン以内でクリア",
+                        "condition_str": "Defeat the Shibyra beastman within 3 turns",
                         "condition_raw": "77:1131020403:3",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -69594,7 +69594,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「ブルータス」を魔法でフィニッシュ",
+                        "condition_str": "Defeat Brutus with magic",
                         "condition_raw": "15:1131030403:210006000:1",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -69742,7 +69742,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「ルドランベビー」戦を3ターン以内でクリア",
+                        "condition_str": "Defeat the fledgling rukh within 3 turns",
                         "condition_raw": "77:1131040403:3",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -69890,7 +69890,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「ドロセラ」戦を3ターン以内でクリア",
+                        "condition_str": "Defeat Drosera within 3 turns",
                         "condition_raw": "77:1131050403:3",
                         "reward": ["LAPIS", 1, 20]
                     },
@@ -70110,7 +70110,7 @@
                         "reward": ["LAPIS", 1, 20]
                     },
                     {
-                        "condition_str": "「モルボルマーキス」をＬＢでフィニッシュ",
+                        "condition_str": "Defeat the Marquis Malboro with a limit burst",
                         "condition_raw": "18:1131060503:211006000:1",
                         "reward": ["LAPIS", 1, 20]
                     },
