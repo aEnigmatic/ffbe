@@ -602,11 +602,15 @@
         "price_sell": 1500,
         "icon": "ability_92.png",
         "strings": {
-            "names": ["Refresh"],
-            "desc_short": [
-                "Gradually restore MP for one ally",
-                "持續恢復1名隊員的MP"
+            "names": [
+                "Refresh",
+                "精神振奮"
             ],
+            "desc_short": {
+                "0": "Gradually restore MP for one ally",
+                "1": "持續恢復1名隊員的MP",
+                "5": "Recupera los PM de un aliado poco a poco"
+            },
             "desc_long": {
                 "1": "持續恢復1名隊員的MP。"
             }
@@ -2399,11 +2403,15 @@
         "price_sell": 500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["HP +20%"],
-            "desc_short": [
-                "Boost HP by 20%",
-                "提高20%HP的數值"
+            "names": [
+                "HP +20%",
+                "HP+20%"
             ],
+            "desc_short": {
+                "0": "Boost HP by 20%",
+                "1": "提高20%HP的數值",
+                "5": "Aumenta la VIT un 20%"
+            },
             "desc_long": {
                 "1": "提高20%HP的數值。"
             }
@@ -9162,7 +9170,7 @@
             "names": [
                 "Large Sword Mastery",
                 "大劍奧義",
-                "대검의 극의",
+                "대검의 비법",
                 "Maîtrise des épées longues",
                 "Langschwert-Meister",
                 "Maestría de espada G"
@@ -12271,20 +12279,20 @@
                 "Maestro del bastón"
             ],
             "desc_short": [
-                "Boost SPR when equipped with a staff",
-                "提高裝備手杖時精神的數值",
-                "지팡이 장착 시 정신력 상승",
-                "Aug. la PSY lorsqu'un bâton est équipé",
-                "Erhöht PSY, wenn mit Stab ausgerüstet.",
-                "Aumenta ESP al llevar bastón"
+                "Boost SPR when equipped with a staff (Not stackable)",
+                "提高裝備手杖時精神的數值 [無法重複裝備]",
+                "지팡이 장착 시 정신력 상승  [중복 장착 불가]",
+                "Aug. la PSY lorsqu'un bâton est équipé (pas cumulable)",
+                "Erhöht PSY, wenn mit Stab ausgerüstet (Nicht stapelbar)",
+                "Aumenta ESP al llevar bastón (no acumulable)"
             ],
             "desc_long": [
-                "Boosts SPR when equipped with a staff.",
-                "提高裝備手杖時精神的數值。",
-                "지팡이를 장착하면 정신력이 상승합니다.",
-                "Aug. la PSY lorsqu'un bâton est équipé",
-                "Erhöht PSY, wenn mit Stab ausgerüstet.",
-                "Aumenta el ESP al llevar bastón."
+                "Boosts SPR when equipped with a staff. Not stackable.",
+                "提高裝備手杖時精神的數值。無法重複裝備。",
+                "지팡이를 장착하면 정신력이 상승합니다. [중복 장착 불가]",
+                "Aug. la PSY lorsqu'un bâton est équipé. Pas cumulable.",
+                "Erhöht PSY, wenn mit Stab ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ESP al llevar bastón. No acumulable."
             ]
         }
     },
@@ -12442,7 +12450,7 @@
         "compendium_shown": true,
         "skills": [216520],
         "effects": ["Grants 'Dragoon's Pride' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
@@ -12456,20 +12464,20 @@
                 "Orgullo dragontino"
             ],
             "desc_short": [
-                "Boost ATK when equipped with a spear or helm",
-                "提高裝備長槍頭盔時攻擊的數值",
-                "창과 투구 장착 시 공격력 상승",
-                "Augmente l'ATT lorsqu'un casque ou une lance est équipé",
-                "Erhöht ANG, wenn mit Speer oder Helm ausgerüstet",
-                "Aumenta el ATQ al llevar una lanza o casco"
+                "Boost ATK when equipped with a spear or helm (Not stackable)",
+                "提高裝備長槍頭盔時攻擊的數值 [無法重複裝備]",
+                "창과 투구 장착 시 공격력 상승  [중복 장착 불가]",
+                "Augmente l'ATT lorsqu'un casque ou une lance est équipé (pas cumulable)",
+                "Erhöht ANG, wenn mit Speer oder Helm ausgerüstet (Nicht stapelbar)",
+                "Aumenta el ATQ al llevar una lanza o casco (no acumulable)"
             ],
             "desc_long": [
-                "Boosts ATK when equipped with a spear or helm.",
-                "提高裝備長槍頭盔時攻擊的數值。",
-                "창과 투구를 장착하면 공격력이 상승합니다.",
-                "Augmente l'ATT lorsqu'un casque ou une lance est équipé",
-                "Erhöht ANG, wenn mit Speer oder Helm ausgerüstet",
-                "Aumenta el ATQ al llevar una lanza o casco."
+                "Boosts ATK when equipped with a spear or helm. Not stackable.",
+                "提高裝備長槍頭盔時攻擊的數值。無法重複裝備。",
+                "창과 투구를 장착하면 공격력이 상승합니다. [중복 장착 불가]",
+                "Augmente l'ATT lorsqu'un casque ou une lance est équipé. Pas cumulable.",
+                "Erhöht ANG, wenn mit Speer oder Helm ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ al llevar una lanza o casco. No acumulable."
             ]
         }
     },
@@ -12497,7 +12505,7 @@
                 "提高15%防禦精神、15%火冰雷水風土光暗屬性耐性",
                 "방어력과 정신력 15%, 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 15% 상승",
                 "Augmente la DEF et la PSY de 15%, et la rés. À feu/glace/foudre/eau/vent/terre/lumière/ténèbres de 15%",
-                "Erhöht ABW und PSY um 15% und Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel um 15%.",
+                "Erhöht ABW und PSY um 15% und Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Erd, Licht und Dunkel um 15%.",
                 "Aumenta DEF y ESP un 15% y la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 15%"
             ],
             "desc_long": [
@@ -12505,7 +12513,7 @@
                 "提高15%防禦精神、15%火冰雷水風土光暗屬性耐性。",
                 "방어력과 정신력이 15%, 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 15% 상승합니다.",
                 "Augmente la DEF et la PSY de 15%, et la rés. À feu/glace/foudre/eau/vent/terre/lumière/ténèbres de 15%",
-                "Erhöht ABW und PSY um 15% und Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Licht und Dunkel um 15%.",
+                "Erhöht ABW und PSY um 15% und Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Erd, Licht und Dunkel um 15%.",
                 "Aumenta la DEF y el ESP un 15% y la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 15%."
             ]
         }
@@ -13002,11 +13010,15 @@
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["True Shard of Genius"],
-            "desc_short": [
-                "Boost SPR when equipped with a staff, and DEF when equipped with a robe",
-                "提高裝備手杖時精神的數值+提高裝備法袍時防禦的數值"
+            "names": [
+                "True Shard of Genius",
+                "真・睿智的結晶"
             ],
+            "desc_short": {
+                "0": "Boost SPR when equipped with a staff, and DEF when equipped with a robe",
+                "1": "提高裝備手杖時精神的數值+提高裝備法袍時防禦的數值",
+                "5": "Aumenta el ESP al llevar bastón y la DEF al llevar túnica"
+            },
             "desc_long": {
                 "1": "提高裝備手杖時精神的數值，並提高裝備法袍時防禦的數值。"
             }
@@ -13023,11 +13035,15 @@
         "price_sell": 800,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["True Follower's Oath"],
-            "desc_short": [
-                "Boost HP and ATK by 15%",
-                "提高15%HP、攻擊的數值"
+            "names": [
+                "True Follower's Oath",
+                "真・追隨者的誓言"
             ],
+            "desc_short": {
+                "0": "Boost HP and ATK by 15%",
+                "1": "提高15%HP、攻擊的數值",
+                "5": "Aumenta el ATQ un 15%"
+            },
             "desc_long": {
                 "1": "提高15%HP、攻擊的數值。"
             }
@@ -13044,11 +13060,15 @@
         "price_sell": 5000,
         "icon": "ability_9.png",
         "strings": {
-            "names": ["True Hydaelyn Guard"],
-            "desc_short": [
-                "Boost fire, ice, lightning, water, wind, earth, light, and dark resistance by 15%",
-                "提高15%全屬性耐性的數值"
+            "names": [
+                "True Hydaelyn Guard",
+                "真・海德林的加護"
             ],
+            "desc_short": {
+                "0": "Boost fire, ice, lightning, water, wind, earth, light, and dark resistance by 15%",
+                "1": "提高15%全屬性耐性的數值",
+                "5": "Aumenta la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 15%"
+            },
             "desc_long": {
                 "1": "提高15%全屬性耐性的數值。"
             }
@@ -13065,11 +13085,15 @@
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["True Spirit of Freedom"],
-            "desc_short": [
-                "Chance of dodging physical attacks and boost ATK by 20%",
-                "一定機率閃避物理攻擊+提高20%攻擊的數值"
+            "names": [
+                "True Spirit of Freedom",
+                "真・不羈的氣焰"
             ],
+            "desc_short": {
+                "0": "Chance of dodging physical attacks and boost ATK by 20%",
+                "1": "一定機率閃避物理攻擊+提高20%攻擊的數值",
+                "5": "Puede esquivar ataques físicos y aumenta el ATQ un 20%"
+            },
             "desc_long": {
                 "1": "一定機率閃避物理攻擊，並提高20%攻擊的數值。"
             }
@@ -13086,11 +13110,15 @@
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["True Sage's Prajna"],
-            "desc_short": [
-                "Boost HP by 15% and MAG by 25%",
-                "提高15%HP、25%魔力的數值"
+            "names": [
+                "True Sage's Prajna",
+                "真・賢人的智慧"
             ],
+            "desc_short": {
+                "0": "Boost HP by 15% and MAG by 25%",
+                "1": "提高15%HP、25%魔力的數值",
+                "5": "Aumenta la VIT un 15% y la MAG un 25%"
+            },
             "desc_long": {
                 "1": "提高15%HP、25%魔力的數值。"
             }
@@ -13514,11 +13542,15 @@
         "price_sell": 5000,
         "icon": "ability_53.png",
         "strings": {
-            "names": ["Yohtoh Lore"],
-            "desc_short": [
-                "Boost ATK and MAG when equipped with katana",
-                "提高裝備刀時攻擊和魔力的數值"
+            "names": [
+                "Yohtoh Lore",
+                "妖刀的知識"
             ],
+            "desc_short": {
+                "0": "Boost ATK and MAG when equipped with katana",
+                "1": "提高裝備刀時攻擊和魔力的數值",
+                "5": "Aumenta el ATQ y la MAG al llevar katana"
+            },
             "desc_long": {
                 "1": "提高裝備刀時攻擊和魔力的數值。"
             }
@@ -13535,11 +13567,15 @@
         "price_sell": 5000,
         "icon": "ability_95.png",
         "strings": {
-            "names": ["Heavy Chimera"],
-            "desc_short": [
-                "Boost HP and SPR when equipped with H armor",
-                "提高裝備重鎧甲時HP精神的數值"
+            "names": [
+                "Heavy Chimera",
+                "重型奇美拉"
             ],
+            "desc_short": {
+                "0": "Boost HP and SPR when equipped with H armor",
+                "1": "提高裝備重鎧甲時HP精神的數值",
+                "5": "Aumenta VIT y ESP al llevar armadura pesada"
+            },
             "desc_long": {
                 "1": "提高裝備重鎧甲時HP精神的數值。"
             }
@@ -13556,11 +13592,15 @@
         "price_sell": 5000,
         "icon": "ability_19.png",
         "strings": {
-            "names": ["Anti-Disaster"],
-            "desc_short": [
-                "Nullify poison, blind, sleep, silence, paralysis, and confusion",
-                "中毒失明睡眠沉默麻痺混亂無效"
+            "names": [
+                "Anti-Disaster",
+                "反災禍"
             ],
+            "desc_short": {
+                "0": "Nullify poison, blind, sleep, silence, paralysis, and confusion",
+                "1": "中毒失明睡眠沉默麻痺混亂無效",
+                "5": "Anula ven, ceg, sue, sil, par y con"
+            },
             "desc_long": {
                 "1": "中毒失明睡眠沉默麻痺混亂無效。"
             }
@@ -13577,11 +13617,15 @@
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Battler"],
-            "desc_short": [
-                "Boost HP by 20% and ATK by 30%",
-                "提高20%HP、30%攻擊的數值"
+            "names": [
+                "Battler",
+                "戰鬥酒鬼"
             ],
+            "desc_short": {
+                "0": "Boost HP by 20% and ATK by 30%",
+                "1": "提高20%HP、30%攻擊的數值",
+                "5": "Aumenta la VIT un 20% y el ATQ un 30%"
+            },
             "desc_long": {
                 "1": "提高20%HP、30%攻擊的數值。"
             }
@@ -13598,11 +13642,15 @@
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Knight of Gemma"],
-            "desc_short": [
-                "Boost HP/MP by 10%, and ATK, DEF, MAG, and SPR, by 15%",
-                "提高10%HPMP、15%攻擊防禦魔力精神的數值"
+            "names": [
+                "Knight of Gemma",
+                "傑馬騎士"
             ],
+            "desc_short": {
+                "0": "Boost HP/MP by 10%, and ATK, DEF, MAG, and SPR, by 15%",
+                "1": "提高10%HPMP、15%攻擊防禦魔力精神的數值",
+                "5": "Aumenta VIT/PM un 10% y ATQ/DEF/MAG/ESP un 15%"
+            },
             "desc_long": {
                 "1": "提高10%HPMP、15%攻擊防禦魔力精神的數值。"
             }
@@ -13619,11 +13667,15 @@
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": ["Beast's Heart"],
-            "desc_short": [
-                "Boost ATK when equipped with fists or clothes",
-                "提高裝備格鬥武器或衣服時攻擊的數值"
+            "names": [
+                "Beast's Heart",
+                "獸人的心"
             ],
+            "desc_short": {
+                "0": "Boost ATK when equipped with fists or clothes",
+                "1": "提高裝備格鬥武器或衣服時攻擊的數值",
+                "5": "Aumenta el ATQ al llevar puños o ropa"
+            },
             "desc_long": {
                 "1": "提高裝備格鬥武器或衣服時攻擊的數值。"
             }
@@ -13640,11 +13692,15 @@
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Half-elf's Heart"],
-            "desc_short": [
-                "Boost HP, DEF, and SPR by 20%, and light resistance by 10%",
-                "提高20%HP、防禦精神的數值、10%光屬性耐性的數值"
+            "names": [
+                "Half-elf's Heart",
+                "混血精靈的心"
             ],
+            "desc_short": {
+                "0": "Boost HP, DEF, and SPR by 20%, and light resistance by 10%",
+                "1": "提高20%HP、防禦精神的數值、10%光屬性耐性的數值",
+                "5": "Aumenta VIT, DEF y ESP un 20%, aumenta la res. a la luz un 10%"
+            },
             "desc_long": {
                 "1": "提高20%HP、防禦精神的數值、10%光屬性耐性的數值。"
             }
@@ -13661,11 +13717,15 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Brawn"],
-            "desc_short": [
-                "Boost HP/MP by 5% and ATK by 10%",
-                "提高5%HPMP、10%攻擊的數值"
+            "names": [
+                "Brawn",
+                "頑強"
             ],
+            "desc_short": {
+                "0": "Boost HP/MP by 5% and ATK by 10%",
+                "1": "提高5%HPMP、10%攻擊的數值",
+                "5": "Aumenta VIT/PM un 5% y el ATQ un 10%"
+            },
             "desc_long": {
                 "1": "提高5%HPMP、10%攻擊的數值。"
             }
@@ -13682,11 +13742,15 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Intrique"],
-            "desc_short": [
-                "Boost HP/MP by 5% and MAG by 10%",
-                "提高5%HPMP、10%魔力的數值"
+            "names": [
+                "Intrique",
+                "戰術"
             ],
+            "desc_short": {
+                "0": "Boost HP/MP by 5% and MAG by 10%",
+                "1": "提高5%HPMP、10%魔力的數值",
+                "5": "Aumenta VIT/PM un 5% y la MAG un 10%"
+            },
             "desc_long": {
                 "1": "提高5%HPMP、10%魔力的數值。"
             }
@@ -13703,11 +13767,15 @@
         "price_sell": 500,
         "icon": "ability_12.png",
         "strings": {
-            "names": ["Wind Resistance +20%"],
-            "desc_short": [
-                "Boost wind resistance by 20%",
-                "提高20%風屬性耐性的數值"
+            "names": [
+                "Wind Resistance +20%",
+                "風屬性耐性+20%"
             ],
+            "desc_short": {
+                "0": "Boost wind resistance by 20%",
+                "1": "提高20%風屬性耐性的數值",
+                "5": "Aumenta la res. al viento un 20%"
+            },
             "desc_long": {
                 "1": "提高20%風屬性耐性的數值。"
             }
@@ -13724,11 +13792,15 @@
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Great Mage's Aura"],
-            "desc_short": [
-                "Boost HP/MP, and SPR by 15% and restore MP every turn",
-                "提高15%HPMP、精神的數值+每回合自動恢復MP"
+            "names": [
+                "Great Mage's Aura",
+                "大魔道士的詠唱法"
             ],
+            "desc_short": {
+                "0": "Boost HP/MP, and SPR by 15% and restore MP every turn",
+                "1": "提高15%HPMP、精神的數值+每回合自動恢復MP",
+                "5": "Aumenta VIT/PM y ESP un 15%, y recupera PM cada turno"
+            },
             "desc_long": {
                 "1": "提高15%HPMP、精神的數值，並且每回合自動恢復MP。"
             }
@@ -13745,11 +13817,15 @@
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": ["Nature Loving Swordsman"],
-            "desc_short": [
-                "Boost ATK when equipped with a sword and MAG when equipped with a robe",
-                "提高裝備劍時攻擊的數值+提高裝備法袍時魔力的數值"
+            "names": [
+                "Nature Loving Swordsman",
+                "熱愛自然的魔法劍士"
             ],
+            "desc_short": {
+                "0": "Boost ATK when equipped with a sword and MAG when equipped with a robe",
+                "1": "提高裝備劍時攻擊的數值+提高裝備法袍時魔力的數值",
+                "5": "Aumenta el ATQ al llevar espada y la MAG al llevar túnica"
+            },
             "desc_long": {
                 "1": "提高裝備劍時攻擊的數值，並提高裝備法袍時魔力的數值。"
             }
@@ -13766,11 +13842,15 @@
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Mood Maker"],
-            "desc_short": [
-                "Boost HP by 30% and boost own burst stone fill rate at the beginning of battle or after being revived",
-                "提高30%HP+戰鬥開始時和從無法戰鬥狀態中復活時，提高極限技石對自身極限技槽的增加量"
+            "names": [
+                "Mood Maker",
+                "開心果"
             ],
+            "desc_short": {
+                "0": "Boost HP by 30% and boost own burst stone fill rate at the beginning of battle or after being revived",
+                "1": "提高30%HP+戰鬥開始時和從無法戰鬥狀態中復活時，提高極限技石對自身極限技槽的增加量",
+                "5": "Aumenta la VIT un 30% y las piedras de estallido recuperan más EL al principio del combate o tras ser revivido"
+            },
             "desc_long": {
                 "1": "提高30%HP，戰鬥開始時和從無法戰鬥狀態中復活時，提高極限技石對自身極限技槽的增加量。"
             }
