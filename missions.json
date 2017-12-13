@@ -44731,14 +44731,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -44768,14 +44768,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106302700, 200],
         "gil": 32,
-        "exp": 105,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -44805,14 +44805,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106302700, 300],
         "gil": 50,
-        "exp": 155,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -44842,14 +44842,14 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106302700, 500],
         "gil": 70,
-        "exp": 250,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -44879,14 +44879,14 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
         "gil": 85,
-        "exp": 300,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -63786,6 +63786,262 @@
                 "reward": ["LAPIS", 1, 10]
             }
         ]
+    },
+    "9002301": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": []
+    },
+    "9002302": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 32,
+        "exp": 155,
+        "challenges": []
+    },
+    "9002303": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 70,
+        "exp": 300,
+        "challenges": []
+    },
+    "9002304": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": []
+    },
+    "9002305": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": []
+    },
+    "9002306": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 32,
+        "exp": 155,
+        "challenges": []
+    },
+    "9002307": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 70,
+        "exp": 300,
+        "challenges": []
+    },
+    "9002308": {
+        "dungeon_id": 90023,
+        "name": null,
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": []
+    },
+    "9002401": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002402": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002403": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002404": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002405": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002406": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002407": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002408": {
+        "dungeon_id": 90024,
+        "name": null,
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": false
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
     },
     "9190001": {
         "dungeon_id": 91900,
