@@ -4512,6 +4512,44 @@
             ]
         }
     },
+    "100003906": {
+        "name": "Prelude to Victory",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[187]],
+        "effect_frames": [[120,  35,  0,  180]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Increase ATK, DEF, MAG and SPR by 40% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 3, [40,  40,  40,  40,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Increase ATK, DEF, MAG and SPR by 64% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 3, [64,  64,  64,  64,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Prelude to Victory",
+                "通往勝利的序曲",
+                "승리를 향한 서곡",
+                "Prélude triomphal",
+                "Preludium des Sieges",
+                "Preludio de victoria"
+            ],
+            "desc": [
+                "Boost ATK, MAG, DEF and SPR for all allies",
+                "提高全體隊員攻擊魔力防禦精神的數值",
+                "아군 전체의 공격력, 방어력, 마력, 정신력 상승",
+                "Augmente l'ATT/MAGIE/DEF/PSY de tous les alliés.",
+                "Erhöht ANG, MAG, ABW und PSY aller Verb.",
+                "Aumenta ATQ, MAG, DEF y ESP de todos los aliados"
+            ]
+        }
+    },
     "100004003": {
         "name": "Rain of Fists",
         "cost": 0,
@@ -13260,7 +13298,7 @@
             ],
             "desc": [
                 "Damage and reduce light and dark resistance for all enemies, and automatically revived KO'd allies one time",
-                null,
+                "攻擊全體敵人+降低光暗屬性耐性的數值+賦予全體隊員從無法戰鬥狀態中自動復活1次",
                 null,
                 null,
                 null,
@@ -13306,7 +13344,7 @@
             ],
             "desc": [
                 "Damage and reduce light and dark resistance for all enemies, and automatically revived KO'd allies one time",
-                null,
+                "攻擊全體敵人+降低光暗屬性耐性的數值+賦予全體隊員從無法戰鬥狀態中自動復活1次",
                 null,
                 null,
                 null,
@@ -13426,7 +13464,7 @@
             ],
             "desc": [
                 "Damage one enemy and enable superior spellblade for two turns",
-                null,
+                "攻擊1名敵人+2回合內可以使用「翔·魔操劍」",
                 null,
                 null,
                 null,
@@ -13470,7 +13508,7 @@
             ],
             "desc": [
                 "Damage one enemy and enable superior spellblade for two turns",
-                null,
+                "攻擊1名敵人+2回合內可以使用「翔·魔操劍」",
                 null,
                 null,
                 null,
@@ -13514,7 +13552,7 @@
             ],
             "desc": [
                 "Damage one enemy and reduce damage taken for two turns for all allies",
-                null,
+                "攻擊1名敵人+2回合內減少對全體隊員的傷害",
                 null,
                 null,
                 null,
@@ -13558,7 +13596,7 @@
             ],
             "desc": [
                 "Damage one enemy and reduce damage taken for two turns for all allies",
-                null,
+                "攻擊1名敵人+2回合內減少對全體隊員的傷害",
                 null,
                 null,
                 null,
@@ -13602,7 +13640,7 @@
             ],
             "desc": [
                 "Damage one enemy and reduce damage taken for two turns for all allies",
-                null,
+                "攻擊1名敵人+2回合內減少對全體隊員的傷害",
                 null,
                 null,
                 null,
@@ -13916,7 +13954,7 @@
             ],
             "desc": [
                 "Ice damage to all enemies",
-                null,
+                "對全體敵人發動冰屬性攻擊",
                 null,
                 null,
                 null,
@@ -13954,7 +13992,7 @@
             ],
             "desc": [
                 "Ice damage to all enemies",
-                null,
+                "對全體敵人發動冰屬性攻擊",
                 null,
                 null,
                 null,
@@ -13992,7 +14030,7 @@
             ],
             "desc": [
                 "Ice damage to all enemies",
-                null,
+                "對全體敵人發動冰屬性攻擊",
                 null,
                 null,
                 null,
@@ -25110,7 +25148,7 @@
             ],
             "desc": [
                 "Damage one enemy",
-                null,
+                "攻擊1名敵人",
                 null,
                 null,
                 null,
@@ -25148,7 +25186,7 @@
             ],
             "desc": [
                 "Deal partial unmitigated damage to one enemy",
-                null,
+                "對1名敵人發動無視部分防禦的攻擊",
                 null,
                 null,
                 null,
@@ -25186,7 +25224,7 @@
             ],
             "desc": [
                 "Deal partial unmitigated damage to one enemy",
-                null,
+                "對1名敵人發動無視部分防禦的攻擊",
                 null,
                 null,
                 null,
@@ -25230,7 +25268,7 @@
             ],
             "desc": [
                 "Damage and inflict random status ailment on all enemies",
-                null,
+                "攻擊全體敵人+隨機施加中毒失明睡眠沉默麻痺混亂生病石化效果",
                 null,
                 null,
                 null,
@@ -25274,7 +25312,7 @@
             ],
             "desc": [
                 "Damage and inflict random status ailment on all enemies",
-                null,
+                "攻擊全體敵人+隨機施加中毒失明睡眠沉默麻痺混亂生病石化效果",
                 null,
                 null,
                 null,
@@ -32461,7 +32499,7 @@
             ],
             "desc": [
                 "Damage all enemies",
-                null,
+                "攻擊全體敵人",
                 null,
                 null,
                 null,
@@ -32499,7 +32537,7 @@
             ],
             "desc": [
                 "Damage all enemies",
-                null,
+                "攻擊全體敵人",
                 null,
                 null,
                 null,
@@ -32543,7 +32581,7 @@
             ],
             "desc": [
                 "Damage and reduce all elemental resistance for all enemies",
-                null,
+                "攻擊全體敵人+降低火冰雷水風土光暗屬性耐性的數值",
                 null,
                 null,
                 null,
@@ -32587,7 +32625,7 @@
             ],
             "desc": [
                 "Damage and reduce all elemental resistance for all enemies",
-                null,
+                "攻擊全體敵人+降低火冰雷水風土光暗屬性耐性的數值",
                 null,
                 null,
                 null,
@@ -32631,7 +32669,7 @@
             ],
             "desc": [
                 "Deal partial unmitigated damage and add chance of confusing one enemy.",
-                null,
+                "對1名敵人發動無視部分防禦的數值+一定機率施加混亂效果",
                 null,
                 null,
                 null,
@@ -32675,7 +32713,7 @@
             ],
             "desc": [
                 "Deal partial unmitigated damage and add chance of confusing one enemy.",
-                null,
+                "對1名敵人發動無視部分防禦的數值+一定機率施加混亂效果",
                 null,
                 null,
                 null,
@@ -32713,7 +32751,7 @@
             ],
             "desc": [
                 "Damage all enemies",
-                null,
+                "攻擊全體敵人",
                 null,
                 null,
                 null,
@@ -32751,7 +32789,7 @@
             ],
             "desc": [
                 "Damage all enemies",
-                null,
+                "攻擊全體敵人",
                 null,
                 null,
                 null,
@@ -32795,7 +32833,7 @@
             ],
             "desc": [
                 "Damage and reduce ATK, DEF, MAG, and SPR for one enemy",
-                null,
+                "攻擊全體敵人+降低攻擊防禦魔力精神的數值",
                 null,
                 null,
                 null,
@@ -32839,7 +32877,7 @@
             ],
             "desc": [
                 "Damage and reduce ATK, DEF, MAG, and SPR for one enemy",
-                null,
+                "攻擊全體敵人+降低攻擊防禦魔力精神的數值",
                 null,
                 null,
                 null,
@@ -32883,7 +32921,7 @@
             ],
             "desc": [
                 "Damage and reduce ATK, DEF, MAG, and SPR for one enemy",
-                null,
+                "攻擊全體敵人+降低攻擊防禦魔力精神的數值",
                 null,
                 null,
                 null,
@@ -35580,6 +35618,316 @@
                 "Réduit les dégâts reçus par tous les alliés et réduit la résistance au feu et au vent de tous les ennemis",
                 "Reduziert erhaltenen Schadenen für alle Verb. und reduziert Feuer- sowie Windresistenz aller Gegner.",
                 "Reduce el daño que reciben todos los aliados y reduce la res. al fuego y al viento de todos los enemigos"
+            ]
+        }
+    },
+    "401002605": {
+        "name": "Snowbear Rampage",
+        "cost": 0,
+        "attack_count": [11],
+        "attack_damage": [[9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  10]],
+        "attack_frames": [[80,  83,  86,  89,  92,  95,  98,  101,  104,  107,  110]],
+        "effect_frames": [[1,  85,  75,  90]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Ice"],
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Magic ice damage (4.95x, MAG) to all enemies",
+                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  495]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Magic ice damage (5.9x, MAG) to all enemies",
+                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  590]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
+        "strings": {
+            "name": [
+                "Snowbear Rampage",
+                "失控雪熊",
+                "광란의 눈곰",
+                "Fureur de l'ours blanc",
+                "Schneebär-Raserei",
+                "Furia polar"
+            ],
+            "desc": [
+                "Ice damage to all enemies, add ice element to physical attacks to all allies for two turns",
+                "對全體敵人發動冰屬性攻擊+2回合內將全體隊員的物理攻擊賦予水屬性",
+                "적 전체에 얼음속성 피해+2턴 동안 아군 전체의 물리공격에 얼음속성 부여",
+                "Dégâts de glace sur tous les ennemis et ajoute l'élément glace aux attaques physiques de tous les alliés pendant deux tours",
+                "Fügt allen Gegnern Eisschaden zu, und gibt den phy. Angriffen aller Verb. Eiselement.",
+                "Daño de hielo a todos los enemigos, añade elemento hielo a todos los ataques físicos de los aliados durante 2 turnos"
+            ]
+        }
+    },
+    "401002606": {
+        "name": "Snowbear Rampage",
+        "cost": 0,
+        "attack_count": [11],
+        "attack_damage": [[9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  10]],
+        "attack_frames": [[80,  83,  86,  89,  92,  95,  98,  101,  104,  107,  110]],
+        "effect_frames": [[1,  85,  75,  1,  90]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Ice"],
+        "levels": 25,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Magic ice damage (5.9x, MAG) to all enemies",
+                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  590]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Magic ice damage (7.1x, MAG) to all enemies",
+                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  710]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
+        "strings": {
+            "name": [
+                "Snowbear Rampage",
+                "失控雪熊",
+                "광란의 눈곰",
+                "Fureur de l'ours blanc",
+                "Schneebär-Raserei",
+                "Furia polar"
+            ],
+            "desc": [
+                "Ice damage to all enemies, add ice element to physical attacks to all allies for two turns",
+                "對全體敵人發動冰屬性攻擊+2回合內將全體隊員的物理攻擊賦予水屬性",
+                "적 전체에 얼음속성 피해+2턴 동안 아군 전체의 물리공격에 얼음속성 부여",
+                "Dégâts de glace sur tous les ennemis et ajoute l'élément glace aux attaques physiques de tous les alliés pendant deux tours",
+                "Fügt allen Gegnern Eisschaden zu, und gibt den phy. Angriffen aller Verb. Eiselement.",
+                "Daño de hielo a todos los enemigos, añade elemento hielo a todos los ataques físicos de los aliados durante 2 turnos"
+            ]
+        }
+    },
+    "401002705": {
+        "name": "Mambo Hodge-podge",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[400]],
+        "effect_frames": [[200,  1]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Inflict 3 random status effects (35%) to all enemies",
+                "Inflict Stop (30%) for 2 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 34, [35,  35,  35,  35,  35,  35,  35,  35,  1,  3]], [2, 1, 88, [30,  2]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Inflict 3 random status effects (54%) to all enemies",
+                "Inflict Stop (49%) for 2 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 34, [54,  54,  54,  54,  54,  54,  54,  54,  1,  3]], [2, 1, 88, [49,  2]]]},
+        "strings": {
+            "name": [
+                "Mambo Hodge-podge",
+                "雜燴舞蹈",
+                "뒤죽박죽 맘보",
+                "Mambo étrange",
+                "Mambo-Sammelsurium",
+                "Mambo extraño"
+            ],
+            "desc": [
+                "Stop and inflict random status ailment on all enemies",
+                "對全體敵人施加停止效果+隨機施加狀態異常效果",
+                "적 전체에 스톱 부여+무작위 상태이상 부여",
+                "Stoppe et inflige une altération d'état aléatoire à tous les ennemis",
+                "Stoppt alle Gegner und fügt ihnen eine zufällige Zustandsveränderung zu.",
+                "Para e inflige estados alterados aleatorios a todos los enemigos"
+            ]
+        }
+    },
+    "401002706": {
+        "name": "Mambo Hodge-podge",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[400]],
+        "effect_frames": [[200,  1]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Inflict 4 random status effects (45%) to all enemies",
+                "Inflict Stop (40%) for 3 turns on all enemies",
+                "Gain access to following skills for 2 turns:\n\tWicked Eye (910625)"
+            ],
+            "effects_raw": [[2, 1, 34, [45,  45,  45,  45,  45,  45,  45,  45,  1,  4]], [2, 1, 88, [40,  3]], [0, 3, 100, [2,  910625,  99999,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Inflict 4 random status effects (69%) to all enemies",
+                "Inflict Stop (64%) for 3 turns on all enemies",
+                "Gain access to following skills for 2 turns:\n\tWicked Eye (910625)"
+            ],
+            "effects_raw": [[2, 1, 34, [69,  69,  69,  69,  69,  69,  69,  69,  1,  4]], [2, 1, 88, [64,  3]], [0, 3, 100, [2,  910625,  99999,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Mambo Hodge-podge",
+                "雜燴舞蹈",
+                "뒤죽박죽 맘보",
+                "Mambo étrange",
+                "Mambo-Sammelsurium",
+                "Mambo extraño"
+            ],
+            "desc": [
+                "Stop and inflict random status ailment on all enemies and enable wicked eye for two turns",
+                "對全體敵人施加停止效果+隨機施加狀態異常效果+2回合內發動「惡魔之瞳」",
+                "적 전체에 스톱 부여+무작위 상태이상 부여+2턴 동안 '악마의 눈' 발동",
+                "Stoppe, inflige une altération d'état aléatoire à tous les ennemis et permet d'utiliser \"Mauvais œil\"",
+                "Stoppt alle Gegner, fügt ihnen eine zufällige Zustandsveränderung zu und ermöglicht zwei Runden lange Böser Blick.",
+                "Para e inflige estados alterados aleatorios a todos los enemigos"
+            ]
+        }
+    },
+    "401002804": {
+        "name": "Hope of Light",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[80,  97,  115]],
+        "effect_frames": [[73,  87,  100,  78,  94,  110,  80,  97,  115]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (2.5x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 2, 63, [100,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3.2x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [2, 2, 63, [100,  3]]]},
+        "strings": {
+            "name": [
+                "Hope of Light",
+                "希望之光",
+                "빛에 대한 희망",
+                "Lumière de l'espoir",
+                "Hoffnungsschimmer",
+                "Estrella fugaz"
+            ],
+            "desc": [
+                "Damage all enemies and boost LB gauge fill rate for all allies",
+                "攻擊全體敵人+提高極限技槽的積累速度",
+                "적 전체에 피해+아군 전체의 LB 게이지 효율 상승",
+                "Dégâts sur tous les ennemis et augmente le taux de remplissage de la jauge de limite de tous les alliés",
+                "Fügt allen Gegnern Schaden zu und erhöht Limitmeter aller Verb.",
+                "Daña a todos los enemigos y la barra de EL de todos los aliados se rellena más rápido"
+            ]
+        }
+    },
+    "401002805": {
+        "name": "Hope of Light",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[75,  90,  105,  120]],
+        "effect_frames": [[60,  85,  105,  65,  90,  110,  10,  65,  90,  110]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (2.9x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  290]], [2, 2, 63, [100,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3.85x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  385]], [2, 2, 63, [100,  3]]]},
+        "strings": {
+            "name": [
+                "Hope of Light",
+                "希望之光",
+                "빛에 대한 희망",
+                "Lumière de l'espoir",
+                "Hoffnungsschimmer",
+                "Estrella fugaz"
+            ],
+            "desc": [
+                "Damage all enemies and boost LB gauge fill rate for all allies",
+                "攻擊全體敵人+提高極限技槽的積累速度",
+                "적 전체에 피해+아군 전체의 LB 게이지 효율 상승",
+                "Dégâts sur tous les ennemis et augmente le taux de remplissage de la jauge de limite de tous les alliés",
+                "Fügt allen Gegnern Schaden zu und erhöht Limitmeter aller Verb.",
+                "Daña a todos los enemigos y la barra de EL de todos los aliados se rellena más rápido"
+            ]
+        }
+    },
+    "401002806": {
+        "name": "Hope of Light",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[12,  12,  12,  12,  12,  40]],
+        "attack_frames": [[80,  87,  94,  101,  108,  115]],
+        "effect_frames": [[70,  89,  107,  67,  89,  112,  20,  75,  87,  110,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (3.3x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  330]], [2, 2, 63, [100,  3]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (5.7x, ATK) to all enemies",
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  570]], [2, 2, 63, [100,  3]]]},
+        "strings": {
+            "name": [
+                "Hope of Light",
+                "希望之光",
+                "빛에 대한 희망",
+                "Lumière de l'espoir",
+                "Hoffnungsschimmer",
+                "Estrella fugaz"
+            ],
+            "desc": [
+                "Damage all enemies and boost LB gauge fill rate for all allies",
+                "攻擊全體敵人+提高極限技槽的積累速度",
+                "적 전체에 피해+아군 전체의 LB 게이지 효율 상승",
+                "Dégâts sur tous les ennemis et augmente le taux de remplissage de la jauge de limite de tous les alliés",
+                "Fügt allen Gegnern Schaden zu und erhöht Limitmeter aller Verb.",
+                "Daña a todos los enemigos y la barra de EL de todos los aliados se rellena más rápido"
             ]
         }
     }

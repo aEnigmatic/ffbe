@@ -55117,7 +55117,7 @@
     },
     "7650102": {
         "dungeon_id": 76501,
-        "name": "As a Natra",
+        "name": "As a Natura",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
@@ -57183,7 +57183,7 @@
     },
     "7660101": {
         "dungeon_id": 76601,
-        "name": "Rebel Against the Empire - INT",
+        "name": "Imperial Infiltration - INT",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57220,7 +57220,7 @@
     },
     "7660102": {
         "dungeon_id": 76601,
-        "name": "Rebel Against the Empire - ADV",
+        "name": "Imperial Infiltration - ADV",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57257,7 +57257,7 @@
     },
     "7660103": {
         "dungeon_id": 76601,
-        "name": "Rebel Against the Empire - PRO",
+        "name": "Imperial Infiltration - PRO",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57294,7 +57294,7 @@
     },
     "7660104": {
         "dungeon_id": 76601,
-        "name": "Rebel Against the Empire - ELT",
+        "name": "Imperial Infiltration - ELT",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -63789,135 +63789,303 @@
     },
     "9002301": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Ice Cave - INT",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
         "cost": 10,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 20,
+        "gil": 120,
         "exp": 50,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Deal fire damage",
+                "parsed": ["Deal fire damage"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002302": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Ice Cave -  ADV",
         "type": "BATTLE",
-        "wave_count": 3,
+        "wave_count": 2,
         "cost_type": "NRG",
         "cost": 15,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 32,
+        "gil": 550,
         "exp": 155,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002303": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Ice Cave -  PRO",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
         "cost": 20,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 70,
+        "gil": 1085,
         "exp": 300,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No abilities (including passive)",
+                "parsed": ["No abilities"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002304": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Ice Cave -  ELT",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
         "cost": 25,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 117,
+        "gil": 3117,
         "exp": 365,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002305": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Snow Village - INT",
         "type": "BATTLE",
-        "wave_count": 1,
+        "wave_count": 2,
         "cost_type": "NRG",
         "cost": 10,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 20,
+        "gil": 120,
         "exp": 50,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Deal ice damage",
+                "parsed": ["Deal ice damage"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002306": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Snow Village - ADV",
         "type": "BATTLE",
-        "wave_count": 1,
+        "wave_count": 2,
         "cost_type": "NRG",
         "cost": 15,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 32,
+        "gil": 550,
         "exp": 155,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No abilities (including passive)",
+                "parsed": ["No abilities"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use white magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002307": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Snow Village - PRO",
         "type": "BATTLE",
-        "wave_count": 1,
+        "wave_count": 2,
         "cost_type": "NRG",
         "cost": 20,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 70,
+        "gil": 1085,
         "exp": 300,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002308": {
         "dungeon_id": 90023,
-        "name": null,
+        "name": "Eternal Winter - Snow Village - ELT",
         "type": "BATTLE",
-        "wave_count": 1,
+        "wave_count": 2,
         "cost_type": "NRG",
         "cost": 25,
         "flags": {
-            "continue_allowed": false,
+            "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": null,
-        "gil": 117,
+        "gil": 3117,
         "exp": 365,
-        "challenges": []
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9002401": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 1",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -63926,14 +64094,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["LAPIS", 0, 100],
+        "gil": 1000,
         "exp": 0,
         "challenges": []
     },
     "9002402": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 2",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -63943,13 +64111,13 @@
             "escape_allowed": false
         },
         "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "gil": 5000,
         "exp": 0,
         "challenges": []
     },
     "9002403": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 3",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -63958,14 +64126,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["EQUIP", 1100000123, 1],
+        "gil": 10000,
         "exp": 0,
         "challenges": []
     },
     "9002404": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 4",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -63974,14 +64142,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["LAPIS", 0, 500],
+        "gil": 15000,
         "exp": 0,
         "challenges": []
     },
     "9002405": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 5",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -63990,14 +64158,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["RECIPE", 1000000044, 1],
+        "gil": 20000,
         "exp": 0,
         "challenges": []
     },
     "9002406": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 6",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -64006,14 +64174,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["EQUIP", 1100000124, 1],
+        "gil": 25000,
         "exp": 0,
         "challenges": []
     },
     "9002407": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter - Story 7",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -64022,14 +64190,14 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
-        "gil": 0,
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 30000,
         "exp": 0,
         "challenges": []
     },
     "9002408": {
         "dungeon_id": 90024,
-        "name": null,
+        "name": "Eternal Winter",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -64038,10 +64206,47 @@
             "continue_allowed": true,
             "escape_allowed": false
         },
-        "reward": ["KEYITEM", 50, 1],
+        "reward": null,
         "gil": 0,
         "exp": 0,
         "challenges": []
+    },
+    "9002501": {
+        "dungeon_id": 90025,
+        "name": "The Giant Gingerbread Man",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 1230,
+        "exp": 1000,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 100]
+            },
+            {
+                "string": "Clear within 10 turns",
+                "parsed": ["Clear within 10 turns"],
+                "reward": ["ITEM", 1209000850, 50]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["KEYITEM", 50, 1]
+            }
+        ]
     },
     "9190001": {
         "dungeon_id": 91900,
