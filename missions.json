@@ -50319,7 +50319,7 @@
                 "reward": ["ITEM", 290050500, 10]
             },
             {
-                "string": "Defeat a shell bear with magic",
+                "string": "Defeat a jail bear with magic",
                 "parsed": ["Defeat jail bear with magic"],
                 "reward": ["ITEM", 290060300, 10]
             },
@@ -51736,7 +51736,7 @@
         "exp": 703,
         "challenges": [
             {
-                "string": "Use dark magic 3 times or more",
+                "string": "Deal dark damage 3 times or more",
                 "parsed": ["Deal dark damage 3 times or more"],
                 "reward": ["LAPIS", 1, 50]
             },
@@ -57340,6 +57340,228 @@
             }
         ]
     },
+    "7680101": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - BGN",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101000300, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use white magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7680102": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - INT",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106303600, 200],
+        "gil": 35,
+        "exp": 210,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use green magic",
+                "parsed": ["Use green magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7680103": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - ADV",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106303600, 300],
+        "gil": 60,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Defeat the wyvern within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7680104": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106303600, 500],
+        "gil": 80,
+        "exp": 500,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101002100, 1]
+            },
+            {
+                "string": "Use 3 or more limit bursts",
+                "parsed": ["Use 3 or more limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Defeat the bull chocobo with magic",
+                "parsed": ["Defeat bull chocobo with magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7680105": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - ELT",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 500],
+        "gil": 113,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Defeat the salamand entite with a limit burst",
+                "parsed": ["Defeat salamand entite with a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["MATERIA", 504100110, 1]
+            }
+        ]
+    },
+    "7680106": {
+        "dungeon_id": 76801,
+        "name": "Ogir-Yensa Sandsea - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106303600, 5000],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use no more than 3 items",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "Chamber of Arms - The Energetic Strategist",
@@ -57445,7 +57667,7 @@
                 "reward": ["ITEM", 101003100, 1]
             },
             {
-                "string": "Defeat Elnath within 30 turns",
+                "string": "Defeat elnath within 30 turns",
                 "parsed": ["Clear in 30 turns or less"],
                 "reward": ["ITEM", 101002100, 1]
             }
@@ -57472,7 +57694,7 @@
                 "reward": ["EQUIP", 307001800, 1]
             },
             {
-                "string": "Defeat Elnath within 30 turns",
+                "string": "Defeat elnath within 30 turns",
                 "parsed": ["Clear in 30 turns or less"],
                 "reward": ["KEYITEM", 50, 2]
             },
@@ -57638,7 +57860,7 @@
     },
     "8990103": {
         "dungeon_id": 89901,
-        "name": "The Brachiosaur Returns",
+        "name": "Rebirth of the Brachiosaur",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -57675,7 +57897,7 @@
     },
     "8990104": {
         "dungeon_id": 89901,
-        "name": "Return of the Erinyes",
+        "name": "Rebirth of the Erinyes",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -57773,8 +57995,8 @@
                 "reward": ["LAPIS", 1, 10]
             },
             {
-                "string": "Defeat the greater demon with an esper",
-                "parsed": ["Defeat greater demon with an esper"],
+                "string": "Defeat the greater demon lv. 99 with an esper",
+                "parsed": ["Defeat greater demon lv. 99 with an esper"],
                 "reward": ["LAPIS", 1, 10]
             },
             {
@@ -60479,7 +60701,7 @@
     },
     "8992801": {
         "dungeon_id": 89728,
-        "name": "New Rebirth of the White Dragon",
+        "name": "True Rebirth of the White Dragon",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -60516,7 +60738,7 @@
     },
     "8992901": {
         "dungeon_id": 89729,
-        "name": "New Rebirth of the Demon Chimera",
+        "name": "True Rebirth of the Demon Chimera",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -60553,7 +60775,7 @@
     },
     "8993001": {
         "dungeon_id": 89730,
-        "name": "New Rebirth of the Brachiosaur",
+        "name": "True Rebirth of the Brachiosaur",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",

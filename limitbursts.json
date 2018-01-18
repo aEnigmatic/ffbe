@@ -23406,6 +23406,94 @@
             ]
         }
     },
+    "212000905": {
+        "name": "Flame Purge",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[108]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical fire damage (7.8x, ATK) to one enemy",
+                "Dodge 3 physical attacks for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  780]], [0, 3, 54, [3,  3]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical fire damage (9.7x, ATK) to one enemy",
+                "Dodge 3 physical attacks for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  970]], [0, 3, 54, [3,  3]]]},
+        "strings": {
+            "name": [
+                "Flame Purge",
+                "百鬼·烈日之破邪",
+                "백귀·열일의 파사",
+                "Lames ardentes",
+                "Flammenreinigung",
+                "Sables de fuego"
+            ],
+            "desc": [
+                "Fire damage one enemy and caster can dodge some physical attacks three times",
+                "對1名敵人發動火屬性攻擊+發動者可防住3次攻擊",
+                "적 1명에게 불속성 피해+사용자에게 일부 물리공격 3회 회피 효과 부여",
+                "Dégâts de feu sur un ennemi et le lanceur peut éviter des attaques physiques trois fois",
+                "Fügt einem Gegner Feuerschaden + Benutzer kann einigen phys. Angriffen drei Mal ausweichen.",
+                "Daño de fuego a un enemigo y el usuario puede esquivar ataques físicos 3 veces"
+            ]
+        }
+    },
+    "212000906": {
+        "name": "Flame Purge",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[30,  70]],
+        "attack_frames": [[108,  133]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Physical fire damage (8.6x, ATK) to one enemy",
+                "Dodge 3 physical attacks for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  860]], [0, 3, 54, [3,  3]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Physical fire damage (11x, ATK) to one enemy",
+                "Dodge 3 physical attacks for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1100]], [0, 3, 54, [3,  3]]]},
+        "strings": {
+            "name": [
+                "Flame Purge",
+                "百鬼·烈日之破邪",
+                "백귀·열일의 파사",
+                "Lames ardentes",
+                "Feuertaufe",
+                "Sables de fuego"
+            ],
+            "desc": [
+                "Fire damage one enemy and caster can dodge some physical attacks three times",
+                "對1名敵人發動火屬性攻擊+發動者可防住3次攻擊",
+                "적 1명에게 불속성 피해+사용자에게 일부 물리공격 3회 회피 효과 부여",
+                "Dégâts de feu sur un ennemi et le lanceur peut éviter des attaques physiques trois fois",
+                "Fügt einem Gegner Feuerschaden + Benutzer kann einigen phys. Angriffen drei Mal ausweichen.",
+                "Daño de fuego a un enemigo y el usuario puede esquivar ataques físicos 3 veces"
+            ]
+        }
+    },
     "212001004": {
         "name": "Pride of Nabradia",
         "cost": 0,
@@ -23517,6 +23605,496 @@
                 "Augmente la DEF et la PSY de tous les alliés",
                 "PSY und ABW hoch, alle Ziele",
                 "Aumenta la DEF y el ESP de todos los aliados"
+            ]
+        }
+    },
+    "212001105": {
+        "name": "Guilt",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[20,  80]],
+        "attack_frames": [[60,  170]],
+        "effect_frames": [[0,  0,  148,  148]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "100% chance to deal physical damage (6.6x, ATK) (ignore cover), otherwise cast Death (30%) on all enemies",
+                "Gain access to following skills (1 use):\n\tObservance (505330)"
+            ],
+            "effects_raw": [[2, 1, 112, [330,  30,  100,  -50]], [0, 3, 100, [2,  505330,  1,  9999,  1,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "100% chance to deal physical damage (8.5x, ATK) (ignore cover), otherwise cast Death (30%) on all enemies",
+                "Gain access to following skills (1 use):\n\tObservance (505330)"
+            ],
+            "effects_raw": [[2, 1, 112, [425,  30,  100,  -50]], [0, 3, 100, [2,  505330,  1,  9999,  1,  0]]]},
+        "strings": {
+            "name": [
+                "Guilt",
+                "處刑",
+                "이그젝션",
+                "Sanction",
+                "Exekution",
+                "Culpa"
+            ],
+            "desc": [
+                "Chancing of instantly KO'ing or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
+                "對全體敵人施加致死一擊效果or發動無視防禦的攻擊+1回合內可以使用「觀察者」",
+                "적 전체에 일부 방어 무시 피해 또는 일정 확률로 즉사 부여+'계율' 1회 사용 가능",
+                "Chance de mettre KO un ennemi ou d'infliger des dégâts en partie fixes sur tous les ennemis et permet d'utiliser Observance une fois",
+                "Chance, alle Gegner sofort auszuschalten oder ihnen teilweise direkten Schaden zuzufügen + ermöglicht einmalige Anwendung von Beobachtung.",
+                "Puede dejar K.O. al instante o infligir daño absoluto parcial a todos los enemigos, puede usar Observancia una vez"
+            ]
+        }
+    },
+    "212001106": {
+        "name": "Guilt",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[20,  80]],
+        "attack_frames": [[60,  170]],
+        "effect_frames": [[0,  0,  148,  148,  158]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "100% chance to deal physical damage (7.6x, ATK) (ignore cover), otherwise cast Death (30%) on all enemies",
+                "Gain access to following skills (1 use):\n\tObservance (505330)"
+            ],
+            "effects_raw": [[2, 1, 112, [380,  30,  100,  -50]], [0, 3, 100, [2,  505330,  1,  9999,  1,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "100% chance to deal physical damage (10x, ATK) (ignore cover), otherwise cast Death (30%) on all enemies",
+                "Gain access to following skills (1 use):\n\tObservance (505330)"
+            ],
+            "effects_raw": [[2, 1, 112, [500,  30,  100,  -50]], [0, 3, 100, [2,  505330,  1,  9999,  1,  0]]]},
+        "strings": {
+            "name": [
+                "Guilt",
+                "處刑",
+                "이그젝션",
+                "Sanction",
+                "Flammenreinigung",
+                "Culpa"
+            ],
+            "desc": [
+                "Chancing of instantly KO'ing or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
+                "對全體敵人施加致死一擊效果or發動無視防禦的攻擊+1回合內可以使用「觀察者」",
+                "적 전체에 일부 방어 무시 피해 또는 일정 확률로 즉사 부여+'계율' 1회 사용 가능",
+                "Chance de mettre KO un ennemi ou d'infliger des dégâts en partie fixes sur tous les ennemis et permet d'utiliser Observance une fois",
+                "Chance, alle Gegner sofort auszuschalten oder ihnen teilweise direkten Schaden zuzufügen + ermöglicht einmalige Anwendung von Beobachtung.",
+                "Puede dejar K.O. al instante o infligir daño absoluto parcial a todos los enemigos, puede usar Observancia una vez"
+            ]
+        }
+    },
+    "212001204": {
+        "name": "Mach Wave",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[94,  98,  102,  108,  114]],
+        "effect_frames": [[0,  131,  140]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (3x, ATK) to all enemies",
+                "Reduce ATK and MAG by 18% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [2, 1, 24, [-18,  0,  -18,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (4.4x, ATK) to all enemies",
+                "Reduce ATK and MAG by 32% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  440]], [2, 1, 24, [-32,  0,  -32,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "strings": {
+            "name": [
+                "Mach Wave",
+                "馬赫衝波",
+                "마하 웨이브",
+                "Onde supersonique",
+                "Machwelle",
+                "Onda mach"
+            ],
+            "desc": [
+                "Damage and reduce ATK and MAG for all enemies and enable perfect defense for one turn",
+                "攻擊全體敵人+降低攻擊魔力的數值+1回合內可以使用「絕對防禦」",
+                "적 전체에 피해+공격력과 마력 감소+1턴 동안 '절대방어' 사용 가능",
+                "Dégâts et réduit l'ATT et la MAGIE de tous les ennemis et permet d'utiliser Invincibilité pendant un tour",
+                "Fügt allen Gegnern Schaden zu, reduziert ihre ANG und MAG + ermöglicht eine Runde lang Perfekter Widerstand.",
+                "Daña y reduce ATQ y MAG a todos los enemigos y aprende Protección total durante 1 turno"
+            ]
+        }
+    },
+    "212001205": {
+        "name": "Mach Wave",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[94,  98,  102,  108,  114]],
+        "effect_frames": [[0,  131,  0,  140]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3.5x, ATK) to all enemies",
+                "Reduce ATK and MAG by 23% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [2, 1, 24, [-23,  0,  -23,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5.4x, ATK) to all enemies",
+                "Reduce ATK and MAG by 42% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540]], [2, 1, 24, [-42,  0,  -42,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "strings": {
+            "name": [
+                "Mach Wave",
+                "馬赫衝波",
+                "마하 웨이브",
+                "Onde supersonique",
+                "Machwelle",
+                "Onda mach"
+            ],
+            "desc": [
+                "Damage and reduce ATK and MAG for all enemies and enable perfect defense for one turn",
+                "攻擊全體敵人+降低攻擊魔力的數值+1回合內可以使用「絕對防禦」",
+                "적 전체에 피해+공격력과 마력 감소+1턴 동안 '절대방어' 사용 가능",
+                "Dégâts et réduit l'ATT et la MAGIE de tous les ennemis et permet d'utiliser Invincibilité pendant un tour",
+                "Fügt allen Gegnern Schaden zu, reduziert ihre ANG und MAG + ermöglicht eine Runde lang Perfekter Widerstand.",
+                "Daña y reduce ATQ y MAG a todos los enemigos y aprende Protección total durante 1 turno"
+            ]
+        }
+    },
+    "212001206": {
+        "name": "Mach Wave",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[94,  98,  102,  108,  114]],
+        "effect_frames": [[0,  131,  0,  140]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Reduce ATK and MAG by 28% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [2, 1, 24, [-28,  0,  -28,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.4x, ATK) to all enemies",
+                "Reduce ATK and MAG by 52% for 3 turns to all enemies",
+                "Gain access to following skills for one turn:\n\tPerfect Defense (505380)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  640]], [2, 1, 24, [-52,  0,  -52,  0,  3,  1]], [0, 3, 100, [2,  505380,  9999,  2,  1,  0]]]},
+        "strings": {
+            "name": [
+                "Mach Wave",
+                "馬赫衝波",
+                "마하 웨이브",
+                "Onde supersonique",
+                "Machwelle",
+                "Onda mach"
+            ],
+            "desc": [
+                "Damage and reduce ATK and MAG for all enemies and enable perfect defense for one turn",
+                "攻擊全體敵人+降低攻擊魔力的數值+1回合內可以使用「絕對防禦」",
+                "적 전체에 피해+공격력과 마력 감소+1턴 동안 '절대방어' 사용 가능",
+                "Dégâts et réduit l'ATT et la MAGIE de tous les ennemis et permet d'utiliser Invincibilité pendant un tour",
+                "Fügt allen Gegnern Schaden zu, reduziert ihre ANG und MAG + ermöglicht eine Runde lang Perfekter Widerstand.",
+                "Daña y reduce ATQ y MAG a todos los enemigos y aprende Protección total durante 1 turno"
+            ]
+        }
+    },
+    "212001303": {
+        "name": "Prince's Encouragement",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[240]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 30% HP to all allies",
+                "Restore 40 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [30,  30,  100]], [2, 2, 30, [10,  1,  40,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 39% HP to all allies",
+                "Restore 40 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [39,  39,  100]], [2, 2, 30, [10,  1,  40,  3]]]},
+        "strings": {
+            "name": [
+                "Prince's Encouragement",
+                "皇子的激勵",
+                "황자의 격려",
+                "Soutien princier",
+                "Ermutigung des Prinzen",
+                "Coraje principesco"
+            ],
+            "desc": [
+                "Restore HP and gradually restore MP for all allies",
+                "恢復全體隊員的HP+持續恢復MP",
+                "아군 전체의 HP 회복+MP 서서히 회복",
+                "Restaure les PV et augmente petit à petit les PM de tous les alliés",
+                "Regeneriert LP + regeneriert allmählich MP aller Verb.",
+                "Recupera la VIT y recobra poco a poco los PM de todos los aliados"
+            ]
+        }
+    },
+    "212001304": {
+        "name": "Prince's Encouragement",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[240]],
+        "effect_frames": [[0,  0,  240]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 35% HP to all allies",
+                "Restore 50 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [35,  35,  100]], [2, 2, 30, [10,  1,  50,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 49% HP to all allies",
+                "Restore 50 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [49,  49,  100]], [2, 2, 30, [10,  1,  50,  3]]]},
+        "strings": {
+            "name": [
+                "Prince's Encouragement",
+                "皇子的激勵",
+                "황자의 격려",
+                "Soutien princier",
+                "Ermutigung des Prinzen",
+                "Coraje principesco"
+            ],
+            "desc": [
+                "Restore HP and gradually restore MP for all allies",
+                "恢復全體隊員的HP+持續恢復MP",
+                "아군 전체의 HP 회복+MP 서서히 회복",
+                "Restaure les PV et augmente petit à petit les PM de tous les alliés",
+                "Regeneriert LP + regeneriert allmählich MP aller Verb.",
+                "Recupera la VIT y recobra poco a poco los PM de todos los aliados"
+            ]
+        }
+    },
+    "212001305": {
+        "name": "Prince's Encouragement",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[240]],
+        "effect_frames": [[0,  0,  240,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 40% HP to all allies",
+                "Restore 60 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [40,  40,  100]], [2, 2, 30, [10,  1,  60,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 59% HP to all allies",
+                "Restore 60 (+0.1x, Heal) MP split over 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [59,  59,  100]], [2, 2, 30, [10,  1,  60,  3]]]},
+        "strings": {
+            "name": [
+                "Prince's Encouragement",
+                "皇子的激勵",
+                "황자의 격려",
+                "Soutien princier",
+                "Ermutigung des Prinzen",
+                "Coraje principesco"
+            ],
+            "desc": [
+                "Restore HP and gradually restore MP for all allies",
+                "恢復全體隊員的HP+持續恢復MP",
+                "아군 전체의 HP 회복+MP 서서히 회복",
+                "Restaure les PV et augmente petit à petit les PM de tous les alliés",
+                "Regeneriert LP + regeneriert allmählich MP aller Verb.",
+                "Recupera la VIT y recobra poco a poco los PM de todos los aliados"
+            ]
+        }
+    },
+    "212001404": {
+        "name": "Swept Hilt",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0,  149]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Increase MAG and SPR by 80% for 3 turns to all allies",
+                "Reduce damage received by 10% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  80,  80,  3,  1]], [2, 2, 101, [10,  3,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Increase MAG and SPR by 94% for 3 turns to all allies",
+                "Reduce damage received by 10% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  94,  94,  3,  1]], [2, 2, 101, [10,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Swept Hilt",
+                "護拳劍柄",
+                "스웹트 힐트",
+                "Tourne-garde",
+                "Spangengriff",
+                "Empuñadura ornamentada"
+            ],
+            "desc": [
+                "Boost MAG and SPR, and reduce damage taken for three turns for all allies",
+                "提高全體隊員魔力精神的數值+3回合內減少傷害",
+                "아군 전체의 마력과 정신력 상승+3턴 동안 피해량 감소",
+                "Augmente la MAGIE et la PSY et réduit les dégâts reçus pendant trois tours pour tous les alliés",
+                "Erhöht MAG und PSY + reduziert drei Runden lange erhaltenen Schaden für alle Verb.",
+                "Aumenta la MAG y el ESP y reduce el daño que reciben todos los aliados durante 3 turnos"
+            ]
+        }
+    },
+    "212001405": {
+        "name": "Swept Hilt",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0,  149,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Increase MAG and SPR by 90% for 3 turns to all allies",
+                "Reduce damage received by 15% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  90,  90,  3,  1]], [2, 2, 101, [15,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Increase MAG and SPR by 109% for 3 turns to all allies",
+                "Reduce damage received by 15% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  109,  109,  3,  1]], [2, 2, 101, [15,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Swept Hilt",
+                "護拳劍柄",
+                "스웹트 힐트",
+                "Tourne-garde",
+                "Spangengriff",
+                "Empuñadura ornamentada"
+            ],
+            "desc": [
+                "Boost MAG and SPR, and reduce damage taken for three turns for all allies",
+                "提高全體隊員魔力精神的數值+3回合內減少傷害",
+                "아군 전체의 마력과 정신력 상승+3턴 동안 피해량 감소",
+                "Augmente la MAGIE et la PSY et réduit les dégâts reçus pendant trois tours pour tous les alliés",
+                "Erhöht MAG und PSY + reduziert drei Runden lange erhaltenen Schaden für alle Verb.",
+                "Aumenta la MAG y el ESP y reduce el daño que reciben todos los aliados durante 3 turnos"
+            ]
+        }
+    },
+    "212001406": {
+        "name": "Swept Hilt",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0,  149,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Increase MAG and SPR by 100% for 3 turns to all allies",
+                "Reduce damage received by 20% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  100,  100,  3,  1]], [2, 2, 101, [20,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Increase MAG and SPR by 124% for 3 turns to all allies",
+                "Reduce damage received by 20% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [0,  0,  124,  124,  3,  1]], [2, 2, 101, [20,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Swept Hilt",
+                "護拳劍柄",
+                "스웹트 힐트",
+                "Tourne-garde",
+                "Spangengriff",
+                "Empuñadura ornamentada"
+            ],
+            "desc": [
+                "Boost MAG and SPR, and reduce damage taken for three turns for all allies",
+                "提高全體隊員魔力精神的數值+3回合內減少傷害",
+                "아군 전체의 마력과 정신력 상승+3턴 동안 피해량 감소",
+                "Augmente la MAGIE et la PSY et réduit les dégâts reçus pendant trois tours pour tous les alliés",
+                "Erhöht MAG und PSY + reduziert drei Runden lange erhaltenen Schaden für alle Verb.",
+                "Aumenta la MAG y el ESP y reduce el daño que reciben todos los aliados durante 3 turnos"
             ]
         }
     },
@@ -25264,7 +25842,7 @@
                 "트리거 해피",
                 "Gâchette facile",
                 "Nervöser Finger",
-                "Forajido"
+                "Metrallazo"
             ],
             "desc": [
                 "Damage and inflict random status ailment on all enemies",
@@ -25308,7 +25886,7 @@
                 "트리거 해피",
                 "Gâchette facile",
                 "Nervöser Finger",
-                "Forajido"
+                "Metrallazo"
             ],
             "desc": [
                 "Damage and inflict random status ailment on all enemies",
