@@ -57806,7 +57806,7 @@
     },
     "7610101": {
         "dungeon_id": 76101,
-        "name": "Garuda, Lady of the Vortex - INT",
+        "name": "March on Garuda - INT",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57843,7 +57843,7 @@
     },
     "7610102": {
         "dungeon_id": 76101,
-        "name": "Garuda, Lady of the Vortex - ADV",
+        "name": "March on Garuda - ADV",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57880,7 +57880,7 @@
     },
     "7610103": {
         "dungeon_id": 76101,
-        "name": "Garuda, Lady of the Vortex - PRO",
+        "name": "March on Garuda - PRO",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -57917,7 +57917,7 @@
     },
     "7610104": {
         "dungeon_id": 76101,
-        "name": "Garuda, Lady of the Vortex - ELT",
+        "name": "March on Garuda - ELT",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "STA",
@@ -79525,6 +79525,963 @@
                 "string": "Use no more than 5 items",
                 "parsed": ["Use no more than 5 items"],
                 "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9002701": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 290060000, 5]
+            },
+            {
+                "string": "No white magic",
+                "parsed": ["No white magic"],
+                "reward": ["ITEM", 290060100, 5]
+            },
+            {
+                "string": "Deal light damage",
+                "parsed": ["Deal light damage"],
+                "reward": ["ITEM", 201000900, 10]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use black magic"],
+                "reward": ["ITEM", 201001000, 10]
+            }
+        ]
+    },
+    "9002702": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["KEYITEM", 50, 1]
+            },
+            {
+                "string": "Defeat a rokh with a limit burst",
+                "parsed": ["Defeat rokh with a limit burst"],
+                "reward": ["ITEM", 290060200, 5]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["ITEM", 201001100, 10]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["ITEM", 201001200, 10]
+            }
+        ]
+    },
+    "9002703": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 300]
+            },
+            {
+                "string": "Complete the quest within 3 mins",
+                "parsed": ["Finish mission in 3 mins"],
+                "reward": ["ITEM", 290060300, 5]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["UNIT", 900000301, 1]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 900001301, 1]
+            }
+        ]
+    },
+    "9002704": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 270000100, 10]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "Defeat Kanshou and Bakuya within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270000600, 10]
+            },
+            {
+                "string": "No green magic",
+                "parsed": ["No green magic"],
+                "reward": ["ITEM", 270001100, 10]
+            }
+        ]
+    },
+    "9002705": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["ITEM", 290060400, 5]
+            },
+            {
+                "string": "Use magic",
+                "parsed": ["Use magic"],
+                "reward": ["ITEM", 270000200, 8]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Find  in 2 mins"],
+                "reward": ["ITEM", 270000700, 8]
+            }
+        ]
+    },
+    "9002706": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Defeat Kanshou with an esper",
+                "parsed": ["Defeat kanshou with an esper"],
+                "reward": ["ITEM", 290050500, 5]
+            },
+            {
+                "string": "Defeat Kanshou and Bakuya within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270000300, 5]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Find  in 2 mins"],
+                "reward": ["ITEM", 270000800, 5]
+            }
+        ]
+    },
+    "9002707": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 201001400, 10]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["ITEM", 270002600, 10]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["ITEM", 201001300, 10]
+            },
+            {
+                "string": "Deal dark damage",
+                "parsed": ["Deal dark damage"],
+                "reward": ["UNIT", 904000101, 1]
+            }
+        ]
+    },
+    "9002708": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Deal fire damage",
+                "parsed": ["Deal fire damage"],
+                "reward": ["ITEM", 270002700, 8]
+            },
+            {
+                "string": "No black magic",
+                "parsed": ["No black magic"],
+                "reward": ["ITEM", 201001500, 10]
+            },
+            {
+                "string": "No espers",
+                "parsed": ["No espers"],
+                "reward": ["ITEM", 201001600, 10]
+            }
+        ]
+    },
+    "9002709": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["ITEM", 270002800, 5]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 270001300, 5]
+            },
+            {
+                "string": "Complete the quest within 3 mins",
+                "parsed": ["Finish mission in 3 mins"],
+                "reward": ["ITEM", 270001200, 8]
+            }
+        ]
+    },
+    "9002710": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["ITEM", 270003100, 10]
+            },
+            {
+                "string": "Deal light damage 3 times or more",
+                "parsed": ["Deal light damage 3 times or more"],
+                "reward": ["ITEM", 270003600, 10]
+            },
+            {
+                "string": "Use 2 or more limit bursts",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["ITEM", 270004100, 10]
+            }
+        ]
+    },
+    "9002711": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["ITEM", 270003200, 8]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 270003700, 8]
+            },
+            {
+                "string": "Use 2 or more limit bursts",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["ITEM", 270004200, 8]
+            }
+        ]
+    },
+    "9002712": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["ITEM", 270003300, 5]
+            },
+            {
+                "string": "Defeat Kanshou and Bakuya within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270003800, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["ITEM", 270004300, 5]
+            }
+        ]
+    },
+    "9002713": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["KEYITEM", 50, 1]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["ITEM", 270004600, 10]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "Defeat Bakuya with an esper",
+                "parsed": ["Defeat bakuya with an esper"],
+                "reward": ["UNIT", 900000201, 1]
+            }
+        ]
+    },
+    "9002714": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Deal fire and wind damage",
+                "parsed": ["Deal fire damage", "Deal wind damage"],
+                "reward": ["ITEM", 270004700, 8]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 270000400, 2]
+            },
+            {
+                "string": "Defeat Bakuya with a magic",
+                "parsed": ["Defeat bakuya with magic"],
+                "reward": ["ITEM", 270000900, 2]
+            }
+        ]
+    },
+    "9002715": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Find  in 2 mins"],
+                "reward": ["ITEM", 270004800, 5]
+            },
+            {
+                "string": "Complete the quest within 3 mins",
+                "parsed": ["Finish mission in 3 mins"],
+                "reward": ["ITEM", 270000500, 1]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["ITEM", 270001000, 1]
+            }
+        ]
+    },
+    "9002716": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "Use green magic",
+                "parsed": ["Use green magic"],
+                "reward": ["UNIT", 900001201, 1]
+            },
+            {
+                "string": "Use an item",
+                "parsed": ["Use an item"],
+                "reward": ["UNIT", 900002201, 1]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["UNIT", 900003201, 1]
+            }
+        ]
+    },
+    "9002717": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Use 2 or more limit bursts",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["UNIT", 900002301, 1]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Find  in 2 mins"],
+                "reward": ["ITEM", 270001400, 2]
+            },
+            {
+                "string": "Defeat Kanshou with an esper",
+                "parsed": ["Defeat kanshou with an esper"],
+                "reward": ["ITEM", 270002900, 2]
+            }
+        ]
+    },
+    "9002718": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["UNIT", 900003301, 1]
+            },
+            {
+                "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["ITEM", 270001500, 1]
+            },
+            {
+                "string": "Defeat Kanshou with an ability",
+                "parsed": ["Defeat kanshou with an ability"],
+                "reward": ["ITEM", 270003000, 1]
+            }
+        ]
+    },
+    "9002719": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Deal dark damage",
+                "parsed": ["Deal dark damage"],
+                "reward": ["UNIT", 900004201, 1]
+            },
+            {
+                "string": "Deal light damage",
+                "parsed": ["Deal light damage"],
+                "reward": ["UNIT", 900005201, 1]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["UNIT", 905000103, 1]
+            }
+        ]
+    },
+    "9002720": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 900004301, 1]
+            },
+            {
+                "string": "Defeat Kanshou and Bakuya within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270003400, 2]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["ITEM", 270003900, 2]
+            }
+        ]
+    },
+    "9002721": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Collect from 5 or more harvest points within 2 mins",
+                "parsed": ["Collect from 5 or more harvest points in 2 mins"],
+                "reward": ["UNIT", 900005301, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 270003500, 1]
+            },
+            {
+                "string": "Defeat Kanshou and Bakuya within 5 turns",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270004000, 1]
+            }
+        ]
+    },
+    "9002722": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - BGN",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 10],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["KEYITEM", 50, 1]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["UNIT", 900020401, 5]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Find  in 2 mins"],
+                "reward": ["UNIT", 900010401, 5]
+            }
+        ]
+    },
+    "9002723": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ADV",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 15],
+        "gil": 50,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 15]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["UNIT", 905000104, 1]
+            },
+            {
+                "string": "Defeat Kanshou with a limit burst",
+                "parsed": ["Defeat kanshou with a limit burst"],
+                "reward": ["ITEM", 270004400, 2]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 270004900, 2]
+            }
+        ]
+    },
+    "9002724": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - ELT",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 20],
+        "gil": 85,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["KEYITEM", 70, 1]
+            },
+            {
+                "string": "Find Kanshou and Bakuya within 2 mins",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["ITEM", 270004500, 1]
+            },
+            {
+                "string": "Defeat Bakuya with an esper",
+                "parsed": ["Defeat bakuya with an esper"],
+                "reward": ["ITEM", 270005000, 1]
+            }
+        ]
+    },
+    "9002725": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - Story 1",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002726": {
+        "dungeon_id": 90027,
+        "name": "Festival of Love - Story 2",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 0,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 0,
+        "exp": 0,
+        "challenges": []
+    },
+    "9002801": {
+        "dungeon_id": 90028,
+        "name": "Kanshou and Bakuya",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 300,
+        "exp": 1000,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 0, 100]
+            },
+            {
+                "string": "Defeat Kanshou with Bakuya's vengeance",
+                "parsed": ["Unknown type 63"],
+                "reward": ["EQUIP", 1100000140, 1]
+            },
+            {
+                "string": "Defeat Bakuya with Kanshou's wrath",
+                "parsed": ["Unknown type 63"],
+                "reward": ["EQUIP", 1100000141, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["UNIT", 904000104, 1]
             }
         ]
     },
