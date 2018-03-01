@@ -52518,14 +52518,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -52555,14 +52555,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303100, 200],
         "gil": 32,
-        "exp": 105,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -52592,14 +52592,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303100, 300],
         "gil": 50,
-        "exp": 208,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -52629,14 +52629,14 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303100, 500],
         "gil": 70,
-        "exp": 310,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -52666,14 +52666,14 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
-        "gil": 85,
-        "exp": 468,
+        "gil": 115,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -52694,6 +52694,43 @@
                 "string": "Party of 4 or less (Companion included)",
                 "parsed": ["Party of 4 or less (Companion included)"],
                 "reward": ["MATERIA", 504100080, 1]
+            }
+        ]
+    },
+    "7530106": {
+        "dungeon_id": 75301,
+        "name": "Alexandria Castle - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106303100, 5000],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use no more than 3 items",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["LAPIS", 1, 20]
             }
         ]
     },
