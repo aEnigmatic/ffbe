@@ -55504,8 +55504,8 @@
                 "reward": ["LAPIS", 1, 10]
             },
             {
-                "string": "Defeat ashura with magic",
-                "parsed": ["Defeat Ashura with magic"],
+                "string": "Defeat Bashura with magic",
+                "parsed": ["Defeat Bashura with magic"],
                 "reward": ["LAPIS", 1, 10]
             },
             {
@@ -55652,7 +55652,7 @@
                 "reward": ["LAPIS", 1, 10]
             },
             {
-                "string": "Defeat Seymour final form within 10 turns",
+                "string": "Defeat Seymour Flux form within 10 turns",
                 "parsed": ["Clear in 10 turns or less"],
                 "reward": ["LAPIS", 1, 10]
             },
@@ -80518,6 +80518,191 @@
             {
                 "string": "No items",
                 "parsed": ["No items"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
+    "9002901": {
+        "dungeon_id": 90029,
+        "name": "Tomb of the Silversmith INT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 401003605, 1]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9002902": {
+        "dungeon_id": 90029,
+        "name": "Tomb of the Silversmith ADV",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000865, 200]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use White magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9002903": {
+        "dungeon_id": 90029,
+        "name": "Tomb of the Silversmith PRO",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000865, 300]
+            },
+            {
+                "string": "Use green magic",
+                "parsed": ["Use Green magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9002904": {
+        "dungeon_id": 90029,
+        "name": "Tomb of the Silversmith ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use no more than 5 items",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9003001": {
+        "dungeon_id": 90030,
+        "name": "God of Chaos",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 400,
+        "exp": 1500,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 1100000143, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 1209000865, 10000]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Defeat Apep with magic",
+                "parsed": ["Defeat King Apep with magic"],
                 "reward": ["UNIT", 904000104, 1]
             }
         ]
