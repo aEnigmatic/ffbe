@@ -4945,7 +4945,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [200210],
-        "effects": ["Grants 'Store' ability."],
+        "effects": ["Grants 'Focus' ability."],
         "unique": false,
         "price_buy": 1000,
         "price_sell": 100,
@@ -6389,7 +6389,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [201280],
-        "effects": ["Grants 'Blizzard Beam' ability."],
+        "effects": ["Grants 'Ice Beam' ability."],
         "unique": false,
         "price_buy": 3000,
         "price_sell": 300,
@@ -8829,11 +8829,11 @@
         "strings": {
             "names": [
                 "Champion Spirit",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "霸者的鬥氣",
+                "패자의 투기",
+                "Esprit de champion",
+                "So sehen Sieger aus!",
+                "Espíritu de campeón"
             ],
             "desc_short": [
                 "Restore HP and MP, and fill LB gauge every turn during battle",
@@ -8867,11 +8867,11 @@
         "strings": {
             "names": [
                 "Wave of Panic",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "暗之波動",
+                "어둠의 파동",
+                "Vague de panique",
+                "Welle der Panik",
+                "Onda de pánico"
             ],
             "desc_short": [
                 "Reduce ATK, DEF, MAG, and SPR for all enemies",
@@ -8882,12 +8882,12 @@
                 "Reduce ATQ/DEF/MAG/ESP de todos los enemigos"
             ],
             "desc_long": [
-                null,
+                "Reduces ATK, DEF, MAG, and SPR for all enemies. Dragonlord only.",
                 "降低全體敵人攻擊防禦魔力精神的數值。【龍王專用】",
-                null,
-                null,
-                null,
-                "Reduce ATQ/DEF/MAG/ESP de todos los enemigos"
+                "적 전체의 공격력, 방어력, 마력, 정신력이 감소합니다. [용왕 전용]",
+                "Réduit l'ATT, la DEF, la MAGIE et la PSY de tous les ennemis.  (Lordragon uniquement)",
+                "Verringert ANG, ABW, MAG und PSY alle Gegner. Nur Drachenfürst",
+                "Reduce ATQ/DEF/MAG/ESP de todos los enemigos (solo Draconarius)"
             ]
         }
     },
@@ -8905,11 +8905,11 @@
         "strings": {
             "names": [
                 "Metal Slash",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                "Golpe metálico"
+                "金屬斬",
+                "메탈 베기",
+                "Lame de métal",
+                "Metallhieb",
+                "Estocada metálica"
             ],
             "desc_short": [
                 "Damage one enemy",
@@ -8943,11 +8943,11 @@
         "strings": {
             "names": [
                 "Mighty Defense",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "常時大防禦",
+                "항상 대방어",
+                "Super défense",
+                "Mächtiger Abwehrchampion",
+                "Fortaleza"
             ],
             "desc_short": [
                 "Boost DEF by 40%",
@@ -8981,11 +8981,11 @@
         "strings": {
             "names": [
                 "Scorch",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "灼熱",
+                "작열",
+                "Brûlure",
+                "Hitzewelle",
+                "Quemadura"
             ],
             "desc_short": [
                 "Fire damage to all enemies",
@@ -9019,11 +9019,11 @@
         "strings": {
             "names": [
                 "Hustle Dance",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "振奮之舞",
+                "허슬 댄스",
+                "Danse des soins",
+                "Muntermacher",
+                "Danza fogosa"
             ],
             "desc_short": [
                 "Restore HP for all allies",
@@ -9057,11 +9057,11 @@
         "strings": {
             "names": [
                 "Instinctual Guard",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "防衛本能",
+                "방어 본능",
+                "Garde instinctive",
+                "Schutzinstinkt",
+                "Guardia instintiva"
             ],
             "desc_short": [
                 "Boost ATK by 40% and DEF and SPR when HP falls below a certain point",
@@ -9095,27 +9095,27 @@
         "strings": {
             "names": [
                 "Elemental Damage Down",
-                "翻訳不要",
-                "翻訳不要",
-                null,
-                null,
-                null
+                "屬性傷害減少",
+                "속성 대미지 감소",
+                "Dégâts élémentaire ↓",
+                "Verringerter Elementarschaden",
+                "Daño elemental↓"
             ],
             "desc_short": [
                 "Boost all elemental resistances by 30%",
                 "提高30%火冰雷水風土光暗屬性耐性的數值",
-                "모든 속성 저항력 30% 상승",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 30% 상승",
                 "Augmente toutes les résistances élémentaires de 30%",
                 "Alle Resistenzen hoch um 30 %",
                 "Aumenta todas las resistencias elementales un 30%"
             ],
             "desc_long": [
-                null,
+                "Boosts all elemental resistances by 30%. Orochi only.",
                 "提高30%火冰雷水風土光暗屬性耐性的數值。【八俁遠呂智專用】",
-                null,
-                null,
-                null,
-                "Aumenta todas las resistencias elementales un 30%"
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 30% 상승합니다. [야마타노오로치 전용]",
+                "Augmente toutes les résistances élémentaires de 30%. (Orochi uniquement)",
+                "Erhöht alle Elementarresistenzen um 30%. Nur Orochi.",
+                "Aumenta todas las resistencias elementales un 30% (solo Orochi)"
             ]
         }
     },
@@ -12834,12 +12834,12 @@
                 "Daño absoluto parcial mágico y reduce la res. al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad a un enemigo"
             ],
             "desc_long": [
-                "Deals magic damage partially unaffected by DEF and reduces fire, ice, lightning, water, wind, earth, light, and dark resistances for one enemy.",
+                "Deals magic damage partially unaffected by SPR and reduces fire, ice, lightning, water, wind, earth, light, and dark resistances for one enemy.",
                 "對1名敵人發動無視部分魔法防禦的攻擊，並降低火冰雷水風土光暗屬性耐性。",
                 "적 1명에게 일부 마법방어 무시하는 피해를 주고, 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 감소합니다.",
-                "Inflige des dégâts magiques en partie fixes et réduit la rés. à feu/glace/foudre/eau/vent/terre/lumière/ténèbres pour un ennemi",
+                "Inflige des dégâts magiques en partie non affectés par la PSY et réduit la rés. à feu/glace/foudre/eau/vent/terre/lumière/ténèbres pour un ennemi.",
                 "Fügt einem Gegner teilweise direkten mag. Schaden zu und reduziert seine Feuer-, Eis-, Wind-, Blitz-, Wasser-, Erd-, Licht- und Dunkelresistenz.",
-                "Daño absoluto parcial mágico y reduce la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad a un enemigo."
+                "Daño absoluto parcial mágico que ignora parte del ESP y reduce la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad a un enemigo."
             ]
         }
     },
@@ -13290,12 +13290,12 @@
                 "Daño absoluto parcial de hielo y puede causar paro a todos los enemigos"
             ],
             "desc_long": [
-                "Deals ice damage partially unaffected by DEF and chance of stopping all enemies.",
+                "Deals ice damage partially unaffected by SPR and chance of stopping all enemies.",
                 "對全體敵人發動無視部分魔法防禦的冰屬性攻擊，並有一定機率施加停止效果。",
                 "적 전체에 얼음속성 일부 마법방어 무시 피해를 주고, 일정 확률로 스톱을 부여합니다.",
-                "Inflige des dégâts de glace en partie fixes et chance de stopper tous les ennemis",
+                "Inflige des dégâts de glace en partie non affectés par la PSY et chance de stopper tous les ennemis.",
                 "Fügt allen Gegnern Eisschaden zu, der teilweise die Abwehr umgeht, und Chance, alle Gegner zu stoppen.",
-                "Daño absoluto parcial de hielo y puede causar paro a todos los enemigos."
+                "Daño absoluto parcial de hielo que ignora parte del ESP y puede causar paro a todos los enemigos."
             ]
         }
     },
@@ -16226,7 +16226,7 @@
         }
     },
     "504226380": {
-        "name": "Hero's Vow - Darkness",
+        "name": "Hero's Vow - Dark",
         "compendium_id": 762,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -16238,7 +16238,7 @@
         "icon": "ability_78.png",
         "strings": {
             "names": [
-                "Hero's Vow - Darkness",
+                "Hero's Vow - Dark",
                 "英雄誓言·暗",
                 "영웅의 맹세·어둠",
                 "Vœu du héros - Ténèbres",
