@@ -1618,7 +1618,7 @@
             "desc_short": [
                 "Deal partial unmitigated magic damage to all enemies",
                 "對全體敵人發動無視魔法防禦的攻擊",
-                "적 전체에 마법방어 무시 피해",
+                "적 전체에 일부 마법방어 무시 피해",
                 "Dégâts magiques en partie fixes sur tous les ennemis",
                 "Teilweise direkter Magieschaden, alle Ziele",
                 "Inflige daño mágico inmune a la defensa mágica a todos los enemigos."
@@ -1694,7 +1694,7 @@
             "desc_short": [
                 "Chance of putting one enemy to sleep",
                 "一定機率對1名敵人施加睡眠效果",
-                "일정 확률로 적 1명에게 수면 부여",
+                "적 1명에게 일정 확률로 수면 부여",
                 "Chance d'endormir un ennemi",
                 "Chance auf Schlaf, ein Ziel",
                 "Puede dormir a un enemigo."
@@ -1732,7 +1732,7 @@
             "desc_short": [
                 "Chance of blinding one enemy",
                 "一定機率對1名敵人施加失明效果",
-                "일정 확률로 적 1명에게 암흑 부여",
+                "적 1명에게 일정 확률로 암흑 부여",
                 "Chance d'aveugler un ennemi",
                 "Chance auf Blind, ein Ziel",
                 "Puede cegar a un enemigo."
@@ -2036,7 +2036,7 @@
             "desc_short": [
                 "Chance of silencing one enemy",
                 "一定機率對1名敵人施加沉默效果",
-                "일정 확률로 적 1명에게 침묵 부여",
+                "적 1명에게 일정 확률로 침묵 부여",
                 "Chance de réduire un ennemi au silence",
                 "Chance auf Stille, ein Ziel",
                 "Puede silenciar a un enemigo."
@@ -2416,7 +2416,7 @@
             "desc_short": [
                 "Reduce all elemental resistance for one enemy",
                 "降低1名敵人火冰雷水風土光暗屬性耐性的數值",
-                "적 1명의 모든 속성 저항력 감소",
+                "적 1명의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 감소",
                 "Réduit toutes les résistances élémentaires d' un ennemi",
                 "Alle Res. runter, ein Ziel",
                 "Reduce la resistencia elemental de uno"
@@ -2424,7 +2424,7 @@
             "desc_long": [
                 "Reduces all elemental resistance for one enemy.",
                 "降低1名敵人火冰雷水風土光暗屬性耐性的數值。",
-                "적 1명의 모든 속성 저항력이 감소합니다.",
+                "적 1명의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 감소합니다.",
                 "Réduit toutes les résistances élémentaires d' un ennemi",
                 "Reduziert alle Resistenzen bei einem Gegner.",
                 "Reduce la resistencia elemental de uno"
@@ -3290,7 +3290,7 @@
             "desc_short": [
                 "LB gauge fills each turn during battle",
                 "每回合自動增加極限技槽",
-                "전투 중 매 턴마다 LB 게이지 증가",
+                "매 턴마다 LB 게이지 증가",
                 "La jauge de limite se remplit à chaque tour",
                 "Limitmeter steigt langsam",
                 "La barra de Estallido Límite se llena en cada turno."
@@ -4164,7 +4164,7 @@
             "desc_short": [
                 "Boost physical damage to beast monsters (Not stackable)",
                 "物理攻擊時提高對獸人系魔物的傷害[無法重複裝備]",
-                "물리공격 시 수인형 마물에 대한 피해량 상승 [중복 장착 불가]",
+                "물리공격 시 야수형 마물에 대한 피해량 상승 [중복 장착 불가]",
                 "Dégâts physiques accrus contre les monstres de type bête (pas cumulable)",
                 "Erhöht physischen Schaden gegen Bestien (Nicht stapelbar)",
                 "Aumenta el daño físico infligido contra bestias  (no acumulable)"
@@ -4316,7 +4316,7 @@
             "desc_short": [
                 "Auto-heal with potions",
                 "受到攻擊時自動使用治療劑",
-                "포션으로 자동 회복",
+                "피해를 받으면 보유하고 있는 포션으로 자동회복",
                 "Soin auto avec potions",
                 "Auto-Heilung mit Tränken",
                 "Autocuración con pociones an recibir daño."
@@ -4506,7 +4506,7 @@
             "desc_short": [
                 "Boost ATK when armed with a one-handed weapon with the other hand empty (Not stackable)",
                 "裝備單手武器且另一隻手空著的狀態下攻擊力提升[無法重複裝備]",
-                "활, 하프를 제외한 무기를 한손에만 장착 시 공격력 상승 [중복 장착 불가]",
+                "한손용 무기를 한손에만 장착 시 공격력 상승 [중복 장착 불가]",
                 "Bonus de force quand arme à une main équipée et l'autre est vide (pas cumulable)",
                 "Mehr Schaden, wenn einhändig ausgerüstet (Nicht stapelbar)",
                 "Aumenta el ATQ al tener un arma en una mano y nada en la otra  (no acumulable)"
@@ -4514,7 +4514,7 @@
             "desc_long": [
                 "Boosts ATK when armed with a one-handed weapon with the other hand empty. Not stackable.",
                 "雖然只能裝備1個武器，可相對地提高了裝備劍、刀、斧和鎚時的攻擊數值。無法重複裝備。",
-                "활, 하프를 제외한 무기를 한손에만 장착 시 공격력이 상승합니다.[중복 장착 불가]",
+                "한손용 무기를 한손에만 장착 시 공격력이 상승합니다.[중복 장착 불가]",
                 "Augmente l'ATT lorsque une arme à une main est équipée et que l'autre est vide. Pas cumulable.",
                 "ANG von ausgerüsteten Schwertern, Katanas, Äxten und Hämmern steigt. Nicht stapelbar.",
                 "Aumenta el ATQ al tener un arma en una mano y nada en la otra.  No acumulable."
@@ -4544,7 +4544,7 @@
             "desc_short": [
                 "Can equip two of any one-handed weapon",
                 "可以裝備2個單手武器",
-                "활, 하프를 제외한 무기 동시에 2개 장착 가능[중복 장착 불가]",
+                "한손용 무기 동시에 2개 장착 가능[중복 장착 불가]",
                 "Permet d'équiper 2 armes à une main",
                 "Kann zwei einhändige Waffen führen",
                 "Puede llevar dos armas de una mano"
@@ -4552,7 +4552,7 @@
             "desc_long": [
                 "Enables unit to equip any two one-handed weapons.",
                 "可以裝備2個除弓箭和豎琴外的武器。",
-                "활과 하프를 제외한 무기를 동시에 2개 장착할 수 있게 됩니다.[중복 장착 불가]",
+                "한손용 무기를 동시에 2개 장착할 수 있게 됩니다.[중복 장착 불가]",
                 "Permet d'équiper deux armes à une main.",
                 "Die Einheit kann zwei Waffen zugleich benutzen, außer Bögen und Harfen.",
                 "Puede llevar dos armas de una mano"
@@ -4582,7 +4582,7 @@
             "desc_short": [
                 "Restore own HP while walking on exploration maps",
                 "移動時恢復自身HP",
-                "걸으면 자신의 HP 회복",
+                "탐색 퀘스트에서 걸으면 자신의 HP 회복",
                 "Regagne des PV en marchant",
                 "Heilt eigene LP, während man sich auf der Erkundungskarte befindet.",
                 "Recupera tu VIT al caminar"
@@ -4590,7 +4590,7 @@
             "desc_long": [
                 "Restores own HP when traversing exploration maps.",
                 "移動時恢復自身HP。",
-                "던전에서 걸을 때마다 자신의 HP를 회복합니다.",
+                "탐색 퀘스트에서 걸을 때마다 자신의 HP를 회복합니다.",
                 "Regagne des PV en marchant",
                 "Heilt LP, während die Karte erkundet wird.",
                 "Recupera tu VIT al caminar."
@@ -4848,7 +4848,7 @@
             "desc_short": [
                 "Boost DEF for caster",
                 "提高自身防禦的數值",
-                "사용자의 방어력 상승",
+                "자신의 방어력 상승",
                 "Augmente la DÉF de l'utilisateur",
                 "ABW hoch, Benutzer",
                 "Aumenta la DEF de quien lo usa."
@@ -4856,7 +4856,7 @@
             "desc_long": [
                 "Boosts DEF for caster.",
                 "提高自身防禦的數值。",
-                "사용자의 방어력이 상승합니다.",
+                "자신의 방어력이 상승합니다.",
                 "Augmente la DÉF de l'utilisateur.",
                 "Steigert die ABW des Benutzers.",
                 "Aumenta la DEF de quien lo usa."
@@ -6634,7 +6634,7 @@
             "desc_short": [
                 "Boost all elemental resistances by 20%",
                 "提高20%火冰雷水風土光暗屬性耐性",
-                "모든 속성 저항력 20% 상승",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 20% 상승",
                 "Augmente toutes les résistances élémentaires de 20%",
                 "Alle Elementar-Res. um 20 % hoch.",
                 "Aumenta las resistencias elementales un 20%"
@@ -6642,7 +6642,7 @@
             "desc_long": [
                 "Boosts all elemental resistances by 20%.",
                 "提高20%火冰雷水風土光暗屬性耐性的數值。",
-                "모든 속성 저항력이 상승합니다.",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 상승합니다.",
                 "Augmente toutes les résistances élémentaires de 20%.",
                 "Alle Res. hoch.",
                 "Aumenta las resistencias elementales un 20%"
@@ -6862,7 +6862,7 @@
             "desc_short": [
                 "Cure poison, blind, and silence for caster (Agrias and Gaffgarion only)",
                 "治療發動者中毒、失明和沉默的狀態 [阿格莉亞絲·加夫加利安專用]",
-                "사용자의 독, 암흑, 침묵 회복 [아그리아스·가프갈리온 전용]",
+                "자신의 독, 암흑, 침묵 회복 [아그리아스·가프가리온 전용]",
                 "Soigne le lanceur de poison, cécité et silence (Uniquement pour Agrias et Gaffgarion)",
                 "Heilt beim Benutzer Gift, Blenden und Stille (Nur Agrias und Gaffgarion)",
                 "Elimina veneno, ceguera y silencio del usuario (exclusiva de Agrias y Gaffgarion)"
@@ -6870,7 +6870,7 @@
             "desc_long": [
                 "Cures poison, blind, and silence for caster. Agrias and Gaffgarion only.",
                 "治療自身中毒、失明和沉默的狀態。【阿格莉亞絲·加夫加利安專用】",
-                "사용자의 독, 암흑, 침묵 상태를 회복합니다. [아그리아스·가프갈리온 전용]",
+                "자신의 독, 암흑, 침묵 상태를 회복합니다. [아그리아스·가프갈리온 전용]",
                 "Soigne le lanceur de poison, cécité et silence.  (Uniquement pour Agrias et Gaffgarion)",
                 "Heilt beim Benutzer Gift, Blenden und „Stille. (Nur Agrias und Gaffgarion)",
                 "Elimina veneno, ceguera y silencio del usuario (exclusiva de Agrias y Gaffgarion)"
@@ -6976,7 +6976,7 @@
             "desc_short": [
                 "Boost own DEF and SPR (Snow only)",
                 "提高發動者防禦和精神的數值[冰雪專用]",
-                "사용자의 방어력과 정신력 상승 [스노우 전용]",
+                "자신의 방어력과 정신력 상승 [스노우 전용]",
                 "Augmente la DÉF et la PSY du lanceur (Uniquement pour Snow)",
                 "PSY und ABW hoch für Benutzer (Nur Snow)",
                 "Aumenta la DEF y el ESP del usuario un 10% (exclusiva de Snow)"
@@ -6984,7 +6984,7 @@
             "desc_long": [
                 "Boosts DEF and SPR for caster. Snow only.",
                 "提高自身防禦和精神的數值。【冰雪專用】",
-                "사용자의 방어력과 정신력이 상승합니다. [스노우 전용]",
+                "자신의 방어력과 정신력이 상승합니다. [스노우 전용]",
                 "Augmente la DEF et la PSY du lanceur. (Uniquement pour Snow)",
                 "ABW und PSY hoch für Benutzer. (Nur Snow)",
                 "Aumenta la DEF y el ESP del usuario un 10% (exclusiva de Snow)"
@@ -7280,7 +7280,7 @@
             "desc_short": [
                 "LB gauge fills each turn during battle",
                 "每回合自動增加極限技槽",
-                "전투 중 매 턴마다 LB 게이지 증가",
+                "매 턴마다 LB 게이지 증가",
                 "La jauge de limite se remplit à chaque tour",
                 "Limitmeter steigt langsam",
                 "La barra EL se llena en cada turno"
@@ -7795,7 +7795,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [203840],
-        "effects": ["Grants 'Fairy Wisdom' passive."],
+        "effects": ["Grants 'Fairy's Wisdom' passive."],
         "unique": false,
         "price_buy": 30000,
         "price_sell": 3000,
@@ -8040,7 +8040,7 @@
             "desc_short": [
                 "Consume caster's HP to damage all enemies (Queen only)",
                 "消耗自身的HP對全體敵人發動攻擊[葵因專用]",
-                "사용자의 HP를 소모하여 적 전체에 피해 [퀸 전용]",
+                "자신의 HP를 소모하여 적 전체에 피해 [퀸 전용]",
                 "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis (Pour Queen uniquement)",
                 "Benutzer verbraucht LP für Schaden, alle Ziele (nur Queen)",
                 "Daña a enemigos usando VIT propia (exclusiva de Queen)"
@@ -8048,7 +8048,7 @@
             "desc_long": [
                 "Consumes caster's HP to deal damage to all enemies. Queen only.",
                 "消耗發動者的HP來對全體敵人發動攻擊。【葵因專用】",
-                "사용자의 HP를 소모하여 적 전체에 피해를 줍니다. [퀸 전용]",
+                "자신의 HP를 소모하여 적 전체에 피해를 줍니다. [퀸 전용]",
                 "Consume les PV du lanceur pour infliger des dégâts à tous les ennemis. (Pour Queen uniquement)",
                 "Benutzer verbraucht LP, um allen Gegnern Schaden zuzufügen (nur Queen).",
                 "Daña a enemigos usando VIT propia (exclusiva de Queen)"
@@ -8268,7 +8268,7 @@
             "desc_short": [
                 "Add chance of evading physical attacks, boost MP by 20%, and MAG and SPR by 10%",
                 "一定機率閃避物理攻擊+提高20%MP、10%魔力精神",
-                "물리공격 회피율 상승+MP 20%, 마력과 정신력 10% 상승",
+                "일정 획률로 물리공격 회피+MP 20%, 마력과 정신력 10% 상승",
                 "Chance d'esquiver les attaques physiques et booste les PM de 20% ainsi que la MAGIE et la PSY de 10%",
                 "Chance auf Ausweichen vor physischen Angriffen, erhöht MP um 20%, MAG und PSY um 10%",
                 "Posibilita esquivar ataques físicos y aumenta los PM un 20% y la MAG/ESP un 10%"
@@ -8276,7 +8276,7 @@
             "desc_long": [
                 "Adds chance of dodging a physical attack, boosts MP by 20%, and MAG and SPR by 10%.",
                 "一定機率閃避物理攻擊並提高20%MP、10%魔力精神的數值。",
-                "물리공격을 회피율이 상승하고, MP를 20%, 마력과 정신력이 10% 상승합니다.",
+                "일정 확률로 물리공격 회피율이 상승하고, MP를 20%, 마력과 정신력이 10% 상승합니다.",
                 "Chance d'esquiver les attaques physiques et booste les PM de 20% ainsi que la MAGIE et la PSY de 10%",
                 "Chance auf Ausweichen vor physischen Angriffen, erhöht MP um 20 % und Magie und PSY um 10 %.",
                 "Posibilita esquivar ataques físicos y aumenta los PM un 20% y la MAG/ESP un 10%"
@@ -8382,7 +8382,7 @@
             "desc_short": [
                 "Boost physical damage against plant, avian, beast, aquatic, and dragon monsters",
                 "物理攻擊時提高對植物、鳥、獸、水生、龍系的傷害",
-                "물리 공격 시 식물, 조류, 짐승, 수중, 드래곤형 마물에 대한 피해량 상승",
+                "물리공격 시 식물, 조류, 짐승, 수중, 드래곤형 마물에 대한 피해량 상승",
                 "Augmente les dégâts physiques contre les monstres de type plante, oiseau, bête, aquatique et dragon",
                 "Mehr ph. Sch. gegen Men., Pflan., Vö., Be., Wa.- und Drachenm.",
                 "Aumenta el daño físico infligido contra plantas, aves, bestias, acuáticos y dragones"
@@ -8420,7 +8420,7 @@
             "desc_short": [
                 "Add chance of evading physical attacks and counter",
                 "一定機率閃避物理攻擊並反擊",
-                "일정 확률로 물리공격 회피+맞받아치기",
+                "일정 확률로 물리공격 회피+반격",
                 "Chance d'esquiver les attaques physiques et de contre-attaquer",
                 "Chance, auf Ausweichen und Kontern bei einem ph. Angr.",
                 "Posibilita esquivar ataques físicos y contratacar"
@@ -8800,7 +8800,7 @@
             "desc_short": [
                 "Deal partial unmitigated damage and cast dispel on all enemies",
                 "對全體敵人發動無視部分防禦的攻擊+解除狀態效果",
-                "적 전체에 일부 방어 무시 피해+모든 상태 변화 해제",
+                "적 전체에 일부 방어 무시 피해+모든 능력치 효과 해제",
                 "Dégâts en partie fixes et retire tous les bonus des ennemis",
                 "Fügt teilweise direkten Schaden zu und entfernt Statuseffekte, alle Gegner.",
                 "Daño absoluto parcial y elimina los estados beneficiosos de los enemigos."
@@ -8808,7 +8808,7 @@
             "desc_long": [
                 "Deals damage partially unaffected by DEF to all enemies and casts dispel on them.",
                 "對全體敵人發動無視部分防禦的攻擊並解除狀態效果。",
-                "적 전체에 일부 방어 무시 피해를 주고, 모든 상태 변화를 해제합니다.",
+                "적 전체에 일부 방어 무시 피해를 주고, 모든 능력치 효과를 해제합니다.",
                 "Dégâts qui ignorent en partie la DEF et retire tous les bonus pour tous les ennemis.",
                 "Fügt allen Gegnern Schaden zu, der teilweise die Abwehr umgeht und entfernt alle Statuseffekte.",
                 "Daño absoluto parcial y elimina los estados beneficiosos de los enemigos."
@@ -8838,7 +8838,7 @@
             "desc_short": [
                 "Restore HP and MP, and fill LB gauge every turn during battle",
                 "戰鬥中每回合自動恢復HPMP+增加極限技槽",
-                "전투 중 매 턴마다 HP와 MP 회복+LB 게이지 증가",
+                "매 턴마다 HP와 MP 회복+LB 게이지 증가",
                 "Restaure les PV et les PM et remplit la jauge de limite à chaque tour",
                 "Stellt alle LP und MP, Limitmeter steigt langsam.",
                 "Recupera VIT y PM y rellena la barra de LB cada turno"
@@ -9142,7 +9142,7 @@
             "desc_short": [
                 "Boost HP and ATK by 20% and restore MP every turn during battle",
                 "提高20%HP、攻擊+每回合自動恢復MP",
-                "HP와 공격력 20% 상승+전투 중 매 턴마다 MP 회복",
+                "HP와 공격력 20% 상승+매 턴마다 MP 회복",
                 "Augmente les PV et l'ATT de 20% et restaure les PM à chaque tour",
                 "Erhöht LP und ANG um 20 % und stellt jede Runde MP wieder her.",
                 "Aumenta la VIT y el ATQ un 20% y recupera PM cada turno"
@@ -9332,7 +9332,7 @@
             "desc_short": [
                 "Regenerate MP each turn during battle",
                 "每回合自動恢復MP",
-                "전투 중 매 턴마다 MP 회복",
+                "매 턴마다 MP 회복",
                 "Restaure les PM à chaque tour",
                 "Stellt im Kampf jede Runde MP wieder her",
                 "Recupera PM cada turno"
@@ -9370,7 +9370,7 @@
             "desc_short": [
                 "Damage one enemy and boost normal attack power for caster next turn (King only)",
                 "攻擊1名敵人+提高下一回合自身普通攻擊的威力[金恩專用]",
-                "적 1명에게 피해+다음 턴에 사용자의 일반 공격 위력 상승 [킹 전용]",
+                "적 1명에게 피해+다음 턴에 자신의 일반 공격 위력 상승 [킹 전용]",
                 "Dégâts sur un ennemi  et augmente les attaques normales du lanceur au tour suivant (Uniquement pour King)",
                 "Schaden und normaler Angriff für Benutzer eine Runde verstärkt (Nur King)",
                 "Más daño con ataque normal el siguiente turno (exclusiva de King)"
@@ -9378,7 +9378,7 @@
             "desc_long": [
                 "Damages one enemy, and increases force of normal attack for caster for next turn. King only.",
                 "攻擊1名敵人並提高下一回合自身普通攻擊的威力。【金恩專用】",
-                "적 1명에게 피해를 주고, 다음 턴에 사용자의 일반 공격 위력이 상승합니다. [킹 전용]",
+                "적 1명에게 피해를 주고, 다음 턴에 자신의 일반 공격 위력이 상승합니다. [킹 전용]",
                 "Dégâts sur un ennemi  et augmente les attaques normales du lanceur au tour suivant. (Uniquement pour King)",
                 "Fügt einem Gegner Schaden zu und erhöht den normalen Angriff des Benutzers in der nächsten Runde. (Nur King)",
                 "Más daño con ataque normal el siguiente turno (exclusiva de King)"
@@ -9826,7 +9826,7 @@
             "desc_short": [
                 "Boost SPR for caster (Y'shtola only)",
                 "提高自身精神的數值[雅・修特拉專用]",
-                "사용자의 정신력 상승 [야슈톨라 전용]",
+                "자신의 정신력 상승 [야슈톨라 전용]",
                 "Augmente la PSY du lanceur (Uniquement pour Y'shtola)",
                 "PSY hoch, Benutzer (Nur Y'shtola)",
                 "Aumenta el ESP del usuario (exclusiva de Y'shtola)"
@@ -9834,7 +9834,7 @@
             "desc_long": [
                 "Boosts SPR for caster. Y'shtola only.",
                 "提高自身精神的數值。【雅・修特拉專用】",
-                "사용자의 정신력이 상승합니다. [야슈톨라 전용]",
+                "자신의 정신력이 상승합니다. [야슈톨라 전용]",
                 "Augmente la PSY du lanceur (Uniquement pour Y'shtola)",
                 "PSY hoch für Benutzer. (Nur Y'shtola)",
                 "Aumenta el ESP del usuario (exclusiva de Y'shtola)"
@@ -9978,7 +9978,7 @@
             "desc_short": [
                 "Boost all elemental resistance",
                 "提高10%火冰雷水風土光暗屬性耐性",
-                "모든 속성 저항력 10% 상승",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 10% 상승",
                 "Augmente toutes les résistances élémentaires de 10%",
                 "Alle Resistenzen hoch um 10 %",
                 "Aumenta todas las resistencias elementales un 10%"
@@ -9986,7 +9986,7 @@
             "desc_long": [
                 "Boosts all elemental resistance by 10%.",
                 "提高10%火冰雷水風土光暗屬性耐性的數值。",
-                "모든 속성 저항력이 10% 상승합니다.",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 10% 상승합니다.",
                 "Augmente toutes les résistances élémentaires de 10%",
                 "Alle Resistenzen hoch um 10 %.",
                 "Aumenta todas las resistencias elementales un 10%"
@@ -10092,7 +10092,7 @@
             "desc_short": [
                 "Deal partial unmitigated water/wind damage and randomly inflict poison, blind, sleep, silence, paralysis, confusion, disease, and stone on all enemies",
                 "對全體敵人發動水風屬性無視部分魔法防禦的攻擊+隨機施加毒失明睡眠沉默麻痺混亂生病石化的效果",
-                "적 전체에 물, 바람속성 일부 마법 방어 무시 피해+무작위 상태이상 부여",
+                "적 전체에 물, 바람속성 일부 마법 방어 무시 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여",
                 "Inflige des dégâts en partie fixes et une altération d'état au hasard à tous les ennemis",
                 "Fügt teilweise Wasserschaden zu und zuf. Zustand, alle Ziele",
                 "Daño absoluto parcial de agua y estado alterado al azar a enemigos"
@@ -10100,7 +10100,7 @@
             "desc_long": [
                 "Deal partial unmitigated water/wind damage and randomly inflict poison, blind, sleep, silence, paralysis, confusion, disease, and stone on all enemies",
                 "對全體敵人發動水風屬性無視部分魔法防禦的攻擊並隨機施加毒失明睡眠沉默麻痺混亂生病石化效果。",
-                "적 전체에 물, 바람속성의 일부 마법 방어 무시 피해를 주고, 무작위 상태이상을 부여합니다.",
+                "적 전체에 물, 바람속성의 일부 마법 방어 무시 피해를 주고, 무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화를 부여합니다.",
                 "Inflige des dégâts en partie fixes et une altération d'état au hasard à tous les ennemis",
                 "Heilt beim Benutzer Gift, BLENDEN und VIRUS.",
                 "Daño absoluto parcial de agua y estado alterado al azar a enemigos"
@@ -10510,7 +10510,7 @@
             "desc_short": [
                 "Nullify one magic cast by an enemy for one turn.",
                 "1回合內使一部分魔法無效",
-                "1턴 동안 일부 마법 무효",
+                "사용 턴 중 1회에 한해 적과 아군이 사용한 일부 마법 무효화",
                 "Annule en partie la magie pendant un tour",
                 "Annuliert teilweise Magie für eine Runde",
                 "Anula parcialmente el daño mágico durante un turno"
@@ -10518,7 +10518,7 @@
             "desc_long": [
                 "Nullifies one magic cast by an enemy for one turn.",
                 "1回合內使一部分魔法無效。",
-                "1턴 동안 일부 마법을 무효화합니다.",
+                "사용 턴 중 1회에 한해 적과 아군이 사용한 일부 마법을 무효화합니다.",
                 "Annule en partie la magie pendant un tour",
                 "Annuliert teilweise Magie für eine Runde.",
                 "Anula parcialmente el daño mágico durante un turno"
@@ -11232,7 +11232,7 @@
             "desc_short": [
                 "Boost LB gauge fill rate (Not stackable)",
                 "提高極限技石對極限技槽的增加量[無法重複裝備]",
-                "버스트 스톤에 의한 상승량 상승 [중복 장착 불가]",
+                "LB 게이지 효율 상승 [중복 장착 불가]",
                 "Augmente le taux de remplissage des pierres de limite (pas cumulable)",
                 "Verstärkt den Effekt von Limit-Steinen. (Nicht stapelbar)",
                 "Las piedras de estallido recuperarán más EL. (no acumulable)"
@@ -11240,7 +11240,7 @@
             "desc_long": [
                 "Boosts the limit burst gauge fill rate. Not stackable.",
                 "提高極限技石對極限技槽的增加量。無法重複裝備。",
-                "버스트 스톤에 의한 상승량이 상승합니다. [중복 장착 불가]",
+                "LB 게이지 효율이 상승합니다. [중복 장착 불가]",
                 "Augmente le taux de remplissage des pierres de limite. Pas cumulable.",
                 "Verstärkt den Effekt von Limitsteinen. Nicht stapelbar.",
                 "Las piedras de estallido recuperarán más EL. No acumulable."
@@ -12676,7 +12676,7 @@
             "desc_short": [
                 "Boost MAG by 30% and boost activation of counter abilities",
                 "提高30%魔力+提高反擊系能力的發動機率",
-                "마력 30% 상승+맞받아치기 계열 어빌리티 발동 확률 상승",
+                "마력 30% 상승+카운터 계열 어빌리티 발동 확률 상승",
                 "Augmente la MAGIE de 30% et le taux de contre-attaque des aptitudes",
                 "Erhöht MAG um 30% und erhöht Aktivierung von Konterfertigkeiten.",
                 "Aumenta la MAG un 30% y aumenta la probabilidad de uso de contrahabilidades."
@@ -12684,7 +12684,7 @@
             "desc_long": [
                 "Boosts MAG by 30% and boosts activation of counter abilities.",
                 "提高30%魔力的數值，同時提高反擊系能力的發動機率。",
-                "마력이 30% 상승하고, 맞받아치기 계열 어빌리티의 발동 확률이 상승합니다.",
+                "마력이 30% 상승하고, 카운터 계열 어빌리티의 발동 확률이 상승합니다.",
                 "Augmente la MAGIE de 30% et le taux de contre-attaque des aptitudes",
                 "Erhöht MAG um 30% und erhöht Aktivierung von Konterfertigkeiten.",
                 "Aumenta la MAG un 30% y aumenta la probabilidad de uso de contrahabilidades."
@@ -13474,7 +13474,7 @@
             "desc_short": [
                 "Boost HP and ATK by 30%, and the LB gauge fill rate",
                 "提高30%HP、攻擊+提高極限技槽增加量",
-                "HP, 공격력 30% 상승+버스트 스톤에 의한 상승량 상승",
+                "HP, 공격력 30% 상승+LB 게이지 효율 상승",
                 "Augmente les PV et l'ATT de 30% et la jauge de limite se remplit plus rapidement",
                 "Erhöht LP und ANG um 30% und Limitmeter steigt.",
                 "Aumenta VIT y ATQ un 30%, la barra EL se llena más rápido"
@@ -13482,7 +13482,7 @@
             "desc_long": [
                 "Boosts HP and ATK by 30% and boosts the fill rate of burst stones.",
                 "提高30%HP、攻擊，並提高極限技槽增加量。",
-                "HP와 공격력이 30% 상승하고, 버스트 스톤에 의한 상승량이 상승합니다.",
+                "HP와 공격력이 30% 상승하고, LB 게이지 효율이 상승합니다.",
                 "Augmente les PV et l'ATT de 30% et la jauge de limite se remplit plus rapidement",
                 "Erhöht LP und ANG um 30% und verstärkt den Effekt von Limitsteinen.",
                 "Aumenta la VIT y el ATQ un 30%, la barra EL se llena más rápido."
@@ -13550,7 +13550,7 @@
             "desc_short": [
                 "Boost HP and SPR by 15% and chance of restoring own HP when receiving a physical or magic attack (Not stackable)",
                 "提高15%HP、精神的數值+受到物理、魔法攻擊時一定機率恢復自身HP  [無法重複裝備]",
-                "HP, 정신력 15% 상승+물리, 마법공격을 받으면 일정 확률로 사용자의 HP 회복 [중복 장착 불가]",
+                "HP, 정신력 15% 상승+물리, 마법공격을 받으면 일정 확률로 자신의 HP 회복 [중복 장착 불가]",
                 "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques (non cumulable)",
                 "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff. (Nicht stapelbar)",
                 "Aumenta VIT y ESP un 15%, probabilidad de recuperar VIT propia al recibir un ataque físico o mágico (no acumulable)"
@@ -13558,7 +13558,7 @@
             "desc_long": [
                 "Boosts HP and SPR by 15% and adds chance of restoring own HP when receiving a physical or magic attack. Not stackable.",
                 "提高15%HP、精神，受到物理、魔法攻擊時一定機率恢復自身HP。無法重複裝備。",
-                "HP와 정신력이 15% 상승하고 물리, 마법공격을 받으면 일정 확률로 사용자의 HP를 회복합니다. [중복 장착 불가]",
+                "HP와 정신력이 15% 상승하고 물리, 마법공격을 받으면 일정 확률로 자신의 HP를 회복합니다. [중복 장착 불가]",
                 "Augmente les PV et la PSY de 15% et chance de restaurer les PV du lanceur après avoir reçu des dégâts physiques ou magiques. Pas cumulable.",
                 "Erhöht LP und PSY um 15%, Chance auf eigene LP-Wiederherstellung nach physischem oder magischen Angriff. Nicht stapelbar.",
                 "Aumenta la VIT y el ESP un 15%, probabilidad de recuperar la VIT propia al recibir un ataque físico o mágico. No acumulable."
@@ -13999,9 +13999,9 @@
                 "L Shield Arts",
                 "輕盾秘義",
                 "가벼운 방패의 비의",
-                "Bouclier léger secret",
+                "Art du bouclier L.",
                 "Leichter Schild-Mystik",
-                "Escudo L secreto"
+                "Secreto de escudo L"
             ],
             "desc_short": [
                 "Boost DEF and SPR when equipped with a light shield",
@@ -14044,7 +14044,7 @@
             "desc_short": [
                 "Boost ATK and MAG by 15% and enable unit to equip two of any one-handed weapon",
                 "提高15%攻擊魔力+可以裝備兩把單手武器",
-                "공격력과 마력 15% 상승+활과 하프를 제외한 무기 동시에 2개 장착 가능",
+                "공격력과 마력 15% 상승+한손용 무기 동시에 2개 장착 가능",
                 "Augmente l'ATT et la MAGIE de 15% et permet à un allié de s'équiper de deux armes à une main",
                 "ANG, MAG + 15% Einheit kann zwei einhändige Waffen führen.",
                 "Aumenta ATQ y MAG un 15%, unidad aprende a equiparse con dos armas de una mano"
@@ -14052,7 +14052,7 @@
             "desc_long": [
                 "Boosts ATK and MAG by 15% and enables unit to equip two of any one-handed weapon.",
                 "提高15%攻擊魔力，並可以裝備兩把單手武器。",
-                "공격력과 마력이 15% 상승하고, 활과 하프를 제외한 무기를 동시에 2개 장착할 수 있게 됩니다.",
+                "공격력과 마력이 15% 상승하고, 한손용 무기를 동시에 2개 장착할 수 있게 됩니다.",
                 "Augmente l'ATT et la MAGIE de 15% et permet à un allié de s'équiper de deux armes à une main",
                 "ANG, MAG + 15% Einheit kann zwei einhändige Waffen führen.",
                 "Aumenta el ATQ y la MAG un 15%, unidad aprende a equiparse con dos armas de una mano."
@@ -14690,7 +14690,7 @@
             "desc_short": [
                 "Boost HP by 30% and boost own burst stone fill rate at the beginning of battle or after being revived",
                 "提高30%HP+戰鬥開始時和從無法戰鬥狀態中復活時，提高極限技石對自身極限技槽的增加量",
-                "HP 30% 상승+전투 시작 시 및 전투불능 상태에서 회복했을 때 사용자의 버스트 스톤에 의한 상승량 상승",
+                "HP 30% 상승+전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 LB 게이지 효율 상승",
                 "Augmente les PV de 30% et le taux de remplissage des pierres de limite pour le lanceur au début du combat ou après avoir été ressuscité",
                 "Erhöht LP um 30% und verstärkt eigenen Effekt von Limitsteinen zu Beginn eines Kampfes oder nach Wiederbelebung.",
                 "Aumenta la VIT un 30% y las piedras de estallido recuperan más EL al principio del combate o tras ser revivido"
@@ -14698,7 +14698,7 @@
             "desc_long": [
                 "Boosts HP by 30%, and increase own fill rate of burst stones at the beginning of battle or after being revived.",
                 "提高30%HP，戰鬥開始時和從無法戰鬥狀態中復活時，提高極限技石對自身極限技槽的增加量。",
-                "HP가 30% 상승하고, 전투 시작 시 및 전투불능 상태에서 회복했을 때 사용자의 버스트 스톤에 의한 상승량이 상승합니다.",
+                "HP가 30% 상승하고, 전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 LB 게이지 효율이 상승합니다.",
                 "Augmente les PV de 30% et le taux de remplissage des pierres de limite pour le lanceur au début du combat ou après avoir été ressuscité",
                 "Erhöht LP um 30% und verstärkt eigenen Effekt von Limitsteinen zu Beginn eines Kampfes oder nach Wiederbelebung.",
                 "Aumenta la VIT un 30% y las piedras de estallido recuperan más EL al principio del combate o tras ser revivido."
@@ -15412,7 +15412,7 @@
             "desc_short": [
                 "Restore HP and MP, reduce DEF and SPR, and put self to sleep",
                 "恢復自身的HPMP+降低防禦精神的數值+睡眠",
-                "사용자의 HP와 MP 회복+방어력과 정신력 감소+수면 부여",
+                "자신의 HP와 MP 회복+방어력과 정신력 감소+수면 부여",
                 "Augmente les PV et les PM, réduit la DEF et la PSY et inflige Sommeil au lanceur",
                 "Erhöht eigene LP/MP, reduziert dafür ABW/PSY und verursacht Schlaf beim Benutzer selbst.",
                 "Recupera VIT y PM, reduce DEF y ESP y duerme al usuario"
@@ -15420,7 +15420,7 @@
             "desc_long": [
                 "Restores own HP and MP, reduces own DEF and SPR, and puts self to sleep.",
                 "恢復自身的HPMP，並降低防禦精神的數值，同時施加睡眠效果。",
-                "사용자의 HP와 MP를 회복하고, 방어력과 정신력이 감소하며, 수면을 부여합니다.",
+                "자신의 HP와 MP를 회복하고, 방어력과 정신력이 감소하며, 수면을 부여합니다.",
                 "Augmente les PV et les PM, réduit la DEF et la PSY et inflige Sommeil au lanceur",
                 "Erhöht eigene LP/MP, reduziert dafür ABW/PSY und verursacht Schlaf beim Benutzer selbst.",
                 "Recupera la VIT y los PM, reduce la DEF y el ESP y duerme al usuario."
@@ -15716,7 +15716,7 @@
             "desc_short": [
                 "Boost MAG when equipped with a rod or robe and enable dual wielding of single-handed weapons",
                 "提高裝備魔棒、法袍時魔力的數值+可以裝備2個單手武器",
-                "홀장, 로브 장착 시 마력 상승+활, 하프를 제외한 무기 동시에 2개 장착 가능",
+                "홀장, 로브 장착 시 마력 상승+한손용 무기 동시에 2개 장착 가능",
                 "Augmente la MAGIE lorsqu'un sceptre ou une tunique sont équipés permet d'utiliser Deux mains avec des armes à une main",
                 "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und ermöglicht Ausrüsten von zwei Einhandwaffen.",
                 "Aumenta la MAG al llevar vara o túnica y puede llevar dos armas de una mano"
@@ -15724,7 +15724,7 @@
             "desc_long": [
                 "Boosts MAG when equipped with a rod or robe, and enables dual-wielding of single-handed weapons.",
                 "提高裝備魔棒、法袍時魔力的數值，並可以裝備2個單手武器。",
-                "홀장, 로브 장착 시 마력이 상승하고, 활, 하프를 제외한 무기를 동시에 2개 장착할 수 있게 됩니다.",
+                "홀장, 로브 장착 시 마력이 상승하고, 한손용 무기를 동시에 2개 장착할 수 있게 됩니다.",
                 "Augmente la MAGIE lorsqu'un sceptre ou une tunique sont équipés permet d'utiliser Deux mains avec des armes à une main",
                 "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und ermöglicht Ausrüsten von zwei Einhandwaffen.",
                 "Aumenta la MAG al llevar vara o túnica y puede llevar dos armas de una mano."
@@ -15906,7 +15906,7 @@
             "desc_short": [
                 "Boost own ATK and add fire element to own physical attack",
                 "提高自身攻擊的數值+將自身的物理攻擊賦予火屬性",
-                "사용자의 공격력 상승+물리공격에 불속성 부여",
+                "자신의 공격력 상승+물리공격에 불속성 부여",
                 "Augmente l'ATT du lanceur et ajoute l'élément feu aux attaques physiques du lanceur",
                 "Erhöht eigenen ANG und fügt eigenem phys. Angriff Feuerelement hinzu.",
                 "Aumenta el ATQ y añade elemento fuego a los ataques físicos del usuario"
@@ -15914,7 +15914,7 @@
             "desc_long": [
                 "Boosts own ATK and adds fire element to own physical attack.",
                 "提高自身攻擊的數值，並將自身的物理攻擊賦予火屬性。",
-                "사용자의 공격력이 상승하고, 물리공격에 불속성을 부여합니다.",
+                "자신의 공격력이 상승하고, 물리공격에 불속성을 부여합니다.",
                 "Augmente l'ATT du lanceur et ajoute l'élément feu aux attaques physiques du lanceur",
                 "Erhöht eigenen ANG und fügt eigenem phys. Angriff Feuerelement hinzu.",
                 "Aumenta el ATQ y añade elemento fuego a los ataques físicos del usuario."
@@ -16248,7 +16248,7 @@
             "desc_short": [
                 "Increase burst stone fill rate and boost ATK when equipped with a short sword, sword, large sword, or katana",
                 "提高極限技石對極限技槽的增加量+提高裝備短劍劍大劍刀時攻擊的數值",
-                "버스트 스톤에 의한 상승량 상승+단검, 검, 대검, 도 장착 시 공격력 상승",
+                "LB 게이지 효율 상승+단검, 검, 대검, 도 장착 시 공격력 상승",
                 "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé",
                 "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet.",
                 "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana"
@@ -16256,7 +16256,7 @@
             "desc_long": [
                 "Increases fill rate of burst stones, and boosts ATK when equipped with a short sword, sword, large sword, or katana.",
                 "提高極限技石對極限技槽的增加量，並提高裝備短劍劍大劍刀時攻擊的數值。",
-                "버스트 스톤에 의한 상승량이 상승하고, 단검, 검, 대검, 도 장착 시 공격력이 상승합니다.",
+                "LB 게이지 효율이 상승하고, 단검, 검, 대검, 도 장착 시 공격력이 상승합니다.",
                 "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé",
                 "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet.",
                 "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana."
@@ -16400,7 +16400,7 @@
             "desc_short": [
                 "Boost limit burst fill rate and boost ATK by 20% (Elza only)",
                 "提高極限技槽恢復量＋提高20%攻擊[艾爾莎專用]",
-                "LB 게이지 회복량과 공격력 20% 상승 [엘자 전용]",
+                "LB 게이지 회복량 상승+ 공격력 20% 상승 [엘자 전용]",
                 "La jauge de limite se remplit plus vite et booste l'ATT de 20% (Elza uniquement)",
                 "Limitmeter steigt rascher und erhöht ANG um 20 % (Nur Elza)",
                 "La barra de EL se llena en cada turno y ATQ +20% (exclusiva de Elza)"
@@ -17094,7 +17094,7 @@
             "desc_short": [
                 "Chance of reducing damage taken for two turns when receiving a physical attack",
                 "受到物理攻擊時一定機率在2回合內減少受到的傷害",
-                "물리공격을 받으면 일정 확률로 사용자가 받는 피해량 2턴 동안 감소",
+                "물리공격을 받으면 일정 확률로 자신이 받는 피해량 2턴 동안 감소",
                 "Chance de réduire les dégâts reçus pendant 2 tours après avoir reçu des dégâts physiques",
                 "Chance für 2 Runden Schaden zu reduzieren bei physischem Angriff",
                 "Posibilidad de reducir el daño recibido durante 2 turnos al recibir ataque físico"
@@ -17594,7 +17594,7 @@
             "desc_short": [
                 "Boost HP by 10% and sleep, paralysis, confusion, and stone resistance by 50% for self",
                 "提高自身10%HP、50%睡眠麻痺混亂石化耐性的數值",
-                "HP 10% 상승+사용자의 수면, 마비, 혼란, 석화 저항력 50% 상승",
+                "HP 10% 상승+자신의 수면, 마비, 혼란, 석화 저항력 50% 상승",
                 "Augmente les PV de 10% et la rés. à som., para., conf., et pétri. du lanceur de 50%",
                 "Erhöht LP um 10% und eigene Resistenz gegen Schlaf, Lähmung, Konfus und Stein um 50%.",
                 "Aumenta la VIT un 10% y un 50% la res. al sue, par, con y pie del usuario"
@@ -17602,7 +17602,7 @@
             "desc_long": [
                 "Boost HP by 10% and sleep, paralysis, confusion and stone resistance by 50% for self.",
                 "提高自身10%HP、50%睡眠麻痺混亂石化耐性的數值。",
-                "사용자의 HP가 10% 상승하고, 수면, 마비, 혼란, 석화 저항력이 50% 상승합니다.",
+                "자신의 HP가 10% 상승하고, 수면, 마비, 혼란, 석화 저항력이 50% 상승합니다.",
                 "Augmente les PV de 10% et la résistance à sommeil, paralysie, confusion, et pétrification du lanceur de 50%.",
                 "Erhöht LP um 10% und eigene Resistenz gegen Schlaf, Lähmung, Konfus und Stein um 50%.",
                 "Aumenta la VIT un 10% y un 50% la resistencia al sueño, parálisis, confusión y piedra del usuario."
@@ -17711,7 +17711,7 @@
             "desc_short": [
                 "Boost SPR by 10% and MAG when armed with a one-handed weapon with the other hand empty (Not stackable)",
                 "提高10%精神的數值+裝備單手武器且另一隻手空著的狀態下魔力提升[無法重複裝備]",
-                "활, 하프를 제외한 무기를 한손에만 장착 시 마력 상승+정신력 10% 상승 (중복 장착 불가)",
+                "한손용 무기를 한손에만 장착 시 마력 상승+정신력 10% 상승 (중복 장착 불가)",
                 "Augmente la PSY de 10% et la MAGIE lorsqu'une arme à une main est équipée et que l'autre est vide (non cumulable)",
                 "Erhöht PSY um 10% und MAG, wenn mit einhändiger Waffe ausgerüstet und andere Hand leer (nicht stapelbar).",
                 "Aumenta el ESP un 10% y la MAG al llevar un arma en una mano y nada en la otra (no acumulable)"
@@ -17719,7 +17719,7 @@
             "desc_long": [
                 "Boosts SPR by 10% and MAG when armed with a one-handed weapon with the other hand empty. Not stackable.",
                 "提高10%精神的數值，並在裝備單手武器且另一隻手空著的狀態下魔力提升[無法重複裝備]。",
-                "활, 하프를 제외한 무기를 한손에만 장착 시 마력이 상승하며, 정신력이 10% 상승합니다. (중복 장착 불가)",
+                "한손용 무기를 한손에만 장착 시 마력이 상승하며, 정신력이 10% 상승합니다. (중복 장착 불가)",
                 "Augmente la PSY de 10% et la MAGIE lorsqu'une arme à une main est équipée et que l'autre est vide. Non cumulable.",
                 "Erhöht PSY um 10% und MAG, wenn mit einhändiger Waffe ausgerüstet und andere Hand leer (nicht stapelbar).",
                 "Aumenta el ESP un 10% y la MAG al llevar un arma en una mano y nada en la otra (no acumulable)."
@@ -17787,7 +17787,7 @@
             "desc_short": [
                 "Boost HP, fill LB gauge each turn, increase chance of countering, and boost ATK when a single weapon is equipped in both hands (Not stackable)",
                 "提高HP+每回合增加極限技槽+提高反擊機率+雙手只裝備1把武器時提高攻擊的數值[無法重複裝備]",
-                "HP 상승+매 턴마다 LB 게이지 증가+맞받아치기 확률 증가+양손의 장비가 무기 1개일 경우 공격력 상승 (중복 장착 불가)",
+                "HP 상승+매 턴마다 LB 게이지 증가+카운터 확률 증가+양손의 장비가 무기 1개일 경우 공격력 상승 (중복 장착 불가)",
                 "Augmente les PV, remplit la jauge de limite à chaque tour, augmente les chances de contre-attaquer et améliore l'ATT quand une seule arme est équipée dans les deux mains (non cumulable)",
                 "Erhöht LP, füllt jede Runde Limitmeter, erhöht Chance auf Konter und erhöht ANG, wenn mit einhändiger Waffe ausgerüstet und andere Hand leer (nicht stapelbar).",
                 "Aumenta la VIT, rellena la barra de EL cada turno, puede aumentar la posibilidad de contraatacar y aumenta el ATQ al llevar una sola arma en las dos manos (no acumulable)"
@@ -17795,7 +17795,7 @@
             "desc_long": [
                 "Boost HP, fills LB gauge each turn, increases chance of countering, and boosts ATK when a single weapon is equipped in both hands. Not stackable.",
                 "提高HP，每回合增加極限技槽，並提高反擊機率+雙手只裝備1把武器時提高攻擊的數值[無法重複裝備]。",
-                "HP가 상승하고, 매 턴마다 LB 게이지가 증가하고 맞받아치기 확률이 오르며, 양손의 장비가 무기 1개일 경우 공격력이 상승합니다. (중복 장착 불가)",
+                "HP가 상승하고, 매 턴마다 LB 게이지가 증가하고 카운터 확률이 오르며, 양손의 장비가 무기 1개일 경우 공격력이 상승합니다. (중복 장착 불가)",
                 "Augmente les PV, remplit la jauge de limite à chaque tour, augmente les chances de contre-attaquer et améliore l'ATT quand une seule arme est équipée dans les deux mains. Non cumulable.",
                 "Erhöht LP, füllt jede Runde Limitmeter, erhöht Chance auf Konter und erhöht ANG, wenn mit einhändiger Waffe ausgerüstet und andere Hand leer (nicht stapelbar),",
                 "Aumenta la VIT, rellena la barra de EL cada turno, puede aumentar la posibilidad de contraatacar y aumenta el ATQ al llevar una sola arma en las dos manos (no acumulable) ."
