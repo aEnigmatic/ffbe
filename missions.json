@@ -656,6 +656,19 @@
         ]
     },
     "1110406": {
+        "dungeon_id": 11104,
+        "name": "New Trial of the Bewitcher",
+        "type": "EXPLORATION",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -1500,6 +1513,19 @@
         ]
     },
     "1115007": {
+        "dungeon_id": 11151,
+        "name": "New Trial of the Fire Beast",
+        "type": "EXPLORATION",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -26846,19 +26872,6 @@
         ]
     },
     "2111104": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - White & Black",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -26883,19 +26896,6 @@
         ]
     },
     "2111105": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Green & Orange",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -26920,19 +26920,6 @@
         ]
     },
     "2111106": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Yellow & Blue",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -26957,19 +26944,6 @@
         ]
     },
     "2111107": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Red & Purple",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -55399,14 +55373,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -55436,14 +55410,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303300, 200],
         "gil": 35,
-        "exp": 105,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -55473,14 +55447,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303300, 300],
         "gil": 60,
-        "exp": 208,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -55510,14 +55484,14 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106303300, 500],
         "gil": 80,
-        "exp": 310,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -55547,14 +55521,14 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
         "gil": 113,
-        "exp": 468,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -80748,6 +80722,191 @@
         "gil": 100,
         "exp": 100,
         "challenges": []
+    },
+    "9003111": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Blue & Red",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 90,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9003112": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Violet & Yellow",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 90,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9003113": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Orange & White",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 90,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9003114": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Green & Black",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 90,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9003115": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Blue & Red PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 35,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 100,
+        "exp": 135,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
     },
     "9190001": {
         "dungeon_id": 91900,
