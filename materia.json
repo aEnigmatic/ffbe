@@ -8832,7 +8832,7 @@
                 "霸者的鬥氣",
                 "패자의 투기",
                 "Esprit de champion",
-                "So sehen Sieger aus!",
+                "Tyrannenseele",
                 "Espíritu de campeón"
             ],
             "desc_short": [
@@ -8945,7 +8945,7 @@
                 "Mighty Defense",
                 "常時大防禦",
                 "항상 대방어",
-                "Défense ultime active",
+                "Defense ultime active",
                 "Mächtiger Abwehrchampion",
                 "Fortaleza"
             ],
@@ -9059,7 +9059,7 @@
                 "Instinctual Guard",
                 "防衛本能",
                 "방어 본능",
-                "Garde instinctive",
+                "Instinct de défense",
                 "Schutzinstinkt",
                 "Guardia instintiva"
             ],
@@ -15434,7 +15434,7 @@
         "unit_restriction": null,
         "skills": [222860],
         "effects": ["Grants 'Chosen One' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
@@ -15456,12 +15456,12 @@
                 "Aumenta la res. al fuego un 20%, aumenta el ATQ al llevar una espada y aumenta la VIT y el ATQ al llevar una armadura pesada"
             ],
             "desc_long": [
-                "Boosts fire resistance by 20%, ATK when equipped with a sword, and HP and ATK when equipped with light armor.",
-                "提高20%火屬性耐性的數值，並提高裝備劍時攻擊的數值，同時提高裝備輕鎧甲時HP攻擊的數值。",
-                "불속성 저항력이 20% 상승하고, 검 장착 시 공격력이 상승하며, 경갑 장착 시 HP와 공격력이 상승합니다.",
-                "Augmente la rés. au feu de 20%, l'ATT lorsqu'une épée est équipée ainsi que les PV et l'ATT lorsqu'une armure légère est équipée",
-                "Erhöht Feuerresistenz um 20%. Erhöht ANG, wenn mit Schwert, und LP/ANG, wenn mit leichter Rüstung ausgerüstet.",
-                "Aumenta la resistencia al fuego un 20%, aumenta el ATQ al llevar una espada y aumenta la VIT y el ATQ al llevar una armadura pesada."
+                "Boosts fire resistance by 20%, ATK when equipped with a sword, and HP and ATK when equipped with light armor. Not stackable.",
+                "提高20%火屬性耐性的數值，並提高裝備劍時攻擊的數值，同時提高裝備輕鎧甲時HP攻擊的數值[無法重複裝備]。",
+                "불속성 저항력이 20% 상승하고, 검 장착 시 공격력이 상승하며, 경갑 장착 시 HP와 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente la rés. au feu de 20%, l'ATT lorsqu'une épée est équipée ainsi que les PV et l'ATT lorsqu'une armure légère est équipée. Non cumulable.",
+                "Erhöht Feuerresistenz um 20%. Erhöht ANG, wenn mit Schwert, und LP/ANG, wenn mit leichter Rüstung ausgerüstet (nicht stapelbar).",
+                "Aumenta la resistencia al fuego un 20%, aumenta el ATQ al llevar una espada y aumenta la VIT y el ATQ al llevar una armadura pesada (no acumulable)."
             ]
         }
     },
@@ -17919,6 +17919,44 @@
                 "Augmente les PV, les PM, l'ATT, la DEF de 10% et toutes les résistances élémentaires de 7%.",
                 "Erhöht LP, MP, ANG und ABW um 10%, erhöht alle Elementarresistenzen um 7%.",
                 "Aumenta la VIT, los PM, el ATQ y la DEF un 10%, y la resistencia a todos los elementos un 7%."
+            ]
+        }
+    },
+    "1500000048": {
+        "name": "Naga's Protection",
+        "compendium_id": 90048,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [910983],
+        "effects": ["Grants 'Naga's Protection' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Naga's Protection",
+                "納迦守護者",
+                "나가의 수호",
+                "Protection naga",
+                "Nagaschutz",
+                "Protección de Naga"
+            ],
+            "desc_short": [
+                "Boost MP and SPR by 20%, and water resistance by 30%",
+                "提高20%MP精神的數值+提高30%水屬性耐性的數值",
+                "MP와 정신력 20% 상승+물속성 저항력 30% 상승",
+                "Augmente les PM et la PSY de 20% et la rés. à l'eau de 30%",
+                "Erhöht MP und PSY um 20% und Wasserresistenz um 30%.",
+                "Aumenta los PM y el ESP un 20% y la res. al agua un 30%"
+            ],
+            "desc_long": [
+                "Boosts MP and SPR by 20%, and water resistance by 30%.",
+                "提高20%MP精神的數值，並提高30%水屬性耐性的數值。",
+                "MP와 정신력이 20% 상승하고, 물속성 저항력이 30% 상승합니다.",
+                "Augmente les PM et la PSY de 20% et la résistance à l'eau de 30%.",
+                "Erhöht MP und PSY um 20% und Wasserresistenz um 30%.",
+                "Aumenta los PM y el ESP un 20% y la res. al agua un 30%"
             ]
         }
     }
