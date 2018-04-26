@@ -36019,14 +36019,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -36056,19 +36056,19 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
-        "reward": ["ITEM", 106300700, 100],
-        "gil": 32,
-        "exp": 105,
+        "reward": ["ITEM", 106300700, 200],
+        "gil": 35,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
-                "reward": ["ITEM", 101000500, 1]
+                "reward": ["LAPIS", 1, 10]
             },
             {
                 "string": "Deal wind damage",
@@ -36093,19 +36093,19 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106300700, 300],
-        "gil": 50,
-        "exp": 155,
+        "gil": 60,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
-                "reward": ["ITEM", 101001300, 1]
+                "reward": ["ITEM", 101001400, 1]
             },
             {
                 "string": "Deal fire damage",
@@ -36130,23 +36130,23 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106300700, 500],
-        "gil": 70,
-        "exp": 250,
+        "gil": 80,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
-                "reward": ["ITEM", 101001400, 1]
+                "reward": ["ITEM", 101003200, 1]
             },
             {
                 "string": "Deal light damage",
-                "parsed": ["Defeat Orochi with a limit burst"],
+                "parsed": ["Deal Light damage"],
                 "reward": ["LAPIS", 1, 10]
             },
             {
@@ -36167,23 +36167,23 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
-        "gil": 85,
-        "exp": 300,
+        "gil": 113,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
-                "reward": ["ITEM", 101000600, 1]
+                "reward": ["LAPIS", 1, 20]
             },
             {
                 "string": "Deal ice damage",
-                "parsed": ["Use Black magic"],
+                "parsed": ["Deal Ice damage"],
                 "reward": ["LAPIS", 1, 10]
             },
             {
@@ -36193,8 +36193,45 @@
             },
             {
                 "string": "Party of 4 or less (Companion included)",
+                "parsed": ["Party of 4 or less (Companion included)"],
+                "reward": ["MATERIA", 504100020, 1]
+            }
+        ]
+    },
+    "7140106": {
+        "dungeon_id": 71401,
+        "name": "Monster Carnival  - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106300700, 5000],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Deal earth damage",
+                "parsed": ["Deal Earth damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
-                "reward": ["LAPIS", 1, 10]
+                "reward": ["LAPIS", 1, 20]
             }
         ]
     },
@@ -36204,34 +36241,71 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 15,
+        "cost": 3,
         "flags": {
             "continue_allowed": false,
             "escape_allowed": true
         },
-        "reward": ["UNIT", 904000104, 1],
+        "reward": ["ITEM", 106300700, 200],
         "gil": 117,
         "exp": 365,
         "challenges": [
             {
                 "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
-                "reward": ["LAPIS", 1, 30]
+                "reward": ["LAPIS", 1, 20]
             },
             {
                 "string": "No items",
-                "parsed": ["Slime in party (Companion included)"],
-                "reward": ["ITEM", 101003200, 5]
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
             },
             {
                 "string": "No black magic",
-                "parsed": ["No Green magic"],
-                "reward": ["UNIT", 904000104, 1]
+                "parsed": ["No Black magic"],
+                "reward": ["LAPIS", 1, 10]
             },
             {
                 "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
-                "reward": ["MATERIA", 504101700, 1]
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7150102": {
+        "dungeon_id": 71501,
+        "name": "Dragonlord's Challenge - ELT",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 146,
+        "exp": 456,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "Slime in party (Companion included)",
+                "parsed": ["Slime in party (Companion included)"],
+                "reward": ["ITEM", 106300700, 10000]
+            },
+            {
+                "string": "No green magic",
+                "parsed": ["No Green magic"],
+                "reward": ["MATERIA", 504213160, 1]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["MATERIA", 504100120, 1]
             }
         ]
     },
@@ -66376,7 +66450,7 @@
     },
     "7800107": {
         "dungeon_id": 78001,
-        "name": "Attack of the Wolf",
+        "name": "The Silver Wolf Strikes",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -66658,7 +66732,7 @@
     },
     "7800300": {
         "dungeon_id": 78003,
-        "name": "Dancers of Dragon Village",
+        "name": "Dancer of Dragon Village",
         "type": "BATTLE",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -67739,7 +67813,7 @@
     },
     "7800708": {
         "dungeon_id": 78007,
-        "name": "Not How We Do It",
+        "name": "You won't...right?",
         "type": "BATTLE",
         "wave_count": 0,
         "cost_type": "NRG",

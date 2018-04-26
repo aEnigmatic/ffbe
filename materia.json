@@ -8840,7 +8840,7 @@
                 "戰鬥中每回合自動恢復HPMP+增加極限技槽",
                 "매 턴마다 HP와 MP 회복+LB 게이지 증가",
                 "Restaure les PV et les PM et remplit la jauge de limite à chaque tour",
-                "Stellt alle LP und MP, Limitmeter steigt langsam.",
+                "Regeneriert LP und MP, Limitmeter steigt langsam.",
                 "Recupera VIT y PM y rellena la barra de LB cada turno"
             ],
             "desc_long": [
@@ -9058,7 +9058,7 @@
             "names": [
                 "Instinctual Guard",
                 "防衛本能",
-                "방어 본능",
+                "방위 본능",
                 "Instinct de défense",
                 "Schutzinstinkt",
                 "Guardia instintiva"
@@ -14212,24 +14212,24 @@
         }
     },
     "504219930": {
-        "name": "Yohtoh Lore",
+        "name": "Katana Enchantment",
         "compendium_id": 700,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [219930],
-        "effects": ["Grants 'Yohtoh Lore' passive."],
+        "effects": ["Grants 'Katana Enchantment' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_53.png",
         "strings": {
             "names": [
-                "Yohtoh Lore",
+                "Katana Enchantment",
                 "妖刀的知識",
                 "요도 지식",
-                "Savoir de Yohtoh",
-                "Yohtohkunde",
-                "Conocimiento Yohtoh"
+                "Enchantement de Katana",
+                "Katanaverzauberung",
+                "Encantamiento de katana"
             ],
             "desc_short": [
                 "Boost ATK and MAG when equipped with katana",
@@ -14592,19 +14592,19 @@
         }
     },
     "504220660": {
-        "name": "Great Mage's Aura",
+        "name": "Great Mage's Chant",
         "compendium_id": 711,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [220660],
-        "effects": ["Grants 'Great Mage's Aura' passive."],
+        "effects": ["Grants 'Great Mage's Chant' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Great Mage's Aura",
+                "Great Mage's Chant",
                 "大魔道士的詠唱法",
                 "대마도사의 영창법",
                 "Aura de grand mage",
@@ -17919,6 +17919,82 @@
                 "Augmente les PV, les PM, l'ATT, la DEF de 10% et toutes les résistances élémentaires de 7%.",
                 "Erhöht LP, MP, ANG und ABW um 10%, erhöht alle Elementarresistenzen um 7%.",
                 "Aumenta la VIT, los PM, el ATQ y la DEF un 10%, y la resistencia a todos los elementos un 7%."
+            ]
+        }
+    },
+    "1500000046": {
+        "name": "Magical Offensive",
+        "compendium_id": 90046,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [910981],
+        "effects": ["Grants 'Magical Offensive' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Magical Offensive",
+                "魔幻攻擊",
+                "마법 공세",
+                "Offensive magique",
+                "Magische Offensive",
+                "Ofensiva mágica"
+            ],
+            "desc_short": [
+                "Boost MAG by 20% and MP by 15%",
+                "提高20%魔力的數值+提高15%MP",
+                "마력 20% 상승+MP 15% 상승",
+                "Augmente la MAGIE de 20% et les PM de 15%",
+                "Erhöht MAG um 20% und MP um 15%.",
+                "Aumenta la MAG un 20% y los PM un 15%"
+            ],
+            "desc_long": [
+                "Boost MAG by 20% and MP by 15%.",
+                "提高20%魔力的數值，並提高15%MP。",
+                "마력이 20% 상승하고, MP가 15% 상승합니다.",
+                "Augmente la MAGIE de 20% et les PM de 15%.",
+                "Erhöht MAG um 20% und MP um 15%.",
+                "Aumenta la MAG un 20% y los PM un 15%"
+            ]
+        }
+    },
+    "1500000047": {
+        "name": "Demon Banisher",
+        "compendium_id": 90047,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [910982],
+        "effects": ["Grants 'Demon Banisher' passive."],
+        "unique": true,
+        "price_buy": 8000,
+        "price_sell": 800,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Demon Banisher",
+                "惡魔驅趕者",
+                "악마 퇴치자",
+                "Bannisseur de démons",
+                "Dämonenbann",
+                "Destierrademonios"
+            ],
+            "desc_short": [
+                "Boost magic damage dealt against demons (Not stackable)",
+                "<br>魔法攻擊時提高對惡魔系魔物的傷害 [無法重複裝備]",
+                "마법공격 시 악마형 마물에게 주는 피해량 상승 (중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux démons (non cumulable)",
+                "Erhöht mag. Schaden gegen Dämonen. (Nicht stapelbar).",
+                "Aumenta el daño mágico contra demonios (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost magic damage dealt against demons. Not stackable.",
+                "魔法攻擊時提高對惡魔系魔物的傷害[無法重複裝備]。",
+                "마법공격 시 악마형 마물에게 주는 피해량이 상승합니다.(중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux démons. Non cumulable.",
+                "Erhöht mag. Schaden gegen Dämonen. (nicht stapelbar).",
+                "Aumenta el daño mágico contra demonios (no acumulable)"
             ]
         }
     },
