@@ -15738,7 +15738,7 @@
         "unit_restriction": null,
         "skills": [224840],
         "effects": ["Grants 'Barrier Mage's Oath' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_77.png",
@@ -15752,20 +15752,20 @@
                 "Juramento del invocabarreras"
             ],
             "desc_short": [
-                "Boost SPR by 25% and boost SPR when equipped with a staff",
-                "提高25%精神的數值+提高裝備手杖時精神的數值",
-                "정신력 25% 상승+지팡이 장착 시 정신력 상승",
-                "Augmente la PSY de 25% et la PSY lorsqu'un bâton est équipé",
-                "Erhöht PSY um 25% und erhöht PSY, wenn mit Stab ausgerüstet.",
-                "Aumenta ESP un 25% y aumenta ESP al llevar un bastón"
+                "Boost SPR by 25% and boost SPR when equipped with a staff(Not stackable)",
+                "提高25%精神的數值+提高裝備手杖時精神的數值[無法重複裝備]",
+                "정신력 25% 상승+지팡이 장착 시 정신력 상승(중복 장착 불가)",
+                "Augmente la PSY de 25% et la PSY lorsqu'un bâton est équipé (non cumulable)",
+                "Erhöht PSY um 25% und erhöht PSY, wenn mit Stab ausgerüstet (Nicht stapelbar).",
+                "Aumenta ESP un 25% y aumenta ESP al llevar un bastón (no acumulable)"
             ],
             "desc_long": [
-                "Boosts SPR by 25% and boosts SPR when equipped with a staff.",
-                "提高25%精神的數值，並提高裝備手杖時精神的數值。",
-                "정신력이 25% 상승하고, 지팡이 장착 시 정신력이 상승합니다.",
-                "Augmente la PSY de 25% et la PSY lorsqu'un bâton est équipé",
-                "Erhöht PSY um 25% und erhöht PSY, wenn mit Stab ausgerüstet.",
-                "Aumenta el ESP un 25% y también aumenta el ESP al llevar un bastón."
+                "Boosts SPR by 25% and boosts SPR when equipped with a staff. Not stackable.",
+                "提高25%精神的數值，並提高裝備手杖時精神的數值[無法重複裝備]。",
+                "정신력이 25% 상승하고, 지팡이 장착 시 정신력이 상승합니다. (중복 장착 불가)",
+                "Augmente la PSY de 25% et la PSY lorsqu'un bâton est équipé Non cumulable.",
+                "Erhöht PSY um 25% und erhöht PSY, wenn mit Stab ausgerüstet. (Nicht stapelbar).",
+                "Aumenta el ESP un 25% y también aumenta el ESP al llevar un bastón.  (no acumulable)."
             ]
         }
     },
@@ -15808,24 +15808,24 @@
         }
     },
     "504224870": {
-        "name": "Defeat of Destruction",
+        "name": "Nebulous Avoidance",
         "compendium_id": 745,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [224870],
-        "effects": ["Grants 'Nebulous Avoidance' passive."],
+        "effects": ["Grants 'Defeat of Destruction' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_98.png",
         "strings": {
             "names": [
-                "Defeat of Destruction",
+                "Nebulous Avoidance",
                 "破暗的期望",
                 "파암 희구",
-                "Désir de destruction",
-                "Schattenzerschmetterer",
-                "Deseo de destrucción"
+                "Évasion nébuleuse",
+                "Schattenausfall",
+                "Evasión nebulosa"
             ],
             "desc_short": [
                 "Boost HP, MP, and dark resistance by 5%",
@@ -17877,7 +17877,7 @@
                 "정신력이 20% 상승하고, MP가 15% 상승합니다.",
                 "Augmente la PSY de 20% et les PM de 15%.",
                 "Erhöht PSY um 20% und MP um 15%.",
-                "Aumenta el ESP un 20% y los PM un 15%"
+                "Aumenta el ESP un 20% y los PM un 15%."
             ]
         }
     },
@@ -17956,7 +17956,7 @@
                 "마력이 20% 상승하고, MP가 15% 상승합니다.",
                 "Augmente la MAGIE de 20% et les PM de 15%.",
                 "Erhöht MAG um 20% und MP um 15%.",
-                "Aumenta la MAG un 20% y los PM un 15%"
+                "Aumenta la MAG un 20% y los PM un 15%."
             ]
         }
     },
@@ -17994,7 +17994,7 @@
                 "마법공격 시 악마형 마물에게 주는 피해량이 상승합니다.(중복 장착 불가)",
                 "Augmente les dégâts magiques infligés aux démons. Non cumulable.",
                 "Erhöht mag. Schaden gegen Dämonen. (nicht stapelbar).",
-                "Aumenta el daño mágico contra demonios (no acumulable)"
+                "Aumenta el daño mágico contra demonios (no acumulable)."
             ]
         }
     },
@@ -18032,7 +18032,83 @@
                 "MP와 정신력이 20% 상승하고, 물속성 저항력이 30% 상승합니다.",
                 "Augmente les PM et la PSY de 20% et la résistance à l'eau de 30%.",
                 "Erhöht MP und PSY um 20% und Wasserresistenz um 30%.",
-                "Aumenta los PM y el ESP un 20% y la res. al agua un 30%"
+                "Aumenta los PM y el ESP un 20% y la resistencia al agua un 30%."
+            ]
+        }
+    },
+    "1500000049": {
+        "name": "Intense Determination",
+        "compendium_id": 90049,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911018],
+        "effects": ["Grants 'Intense Determination' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Intense Determination",
+                "強烈的決心",
+                "강렬한 투지",
+                "Détermination intense",
+                "Heftige Entschlossenheit",
+                "Determinación absoluta"
+            ],
+            "desc_short": [
+                "Boost ATK by 20% and MP by 15%",
+                "提高20%攻擊的數值+提高15%MP",
+                "공격력 20% 상승+MP 15% 상승",
+                "Augmente l'ATT de 20% et les PM de 15%",
+                "Erhöht ANG um 20% und MP um 15%.",
+                "Aumenta el ATQ un 20% y los PM un 15%"
+            ],
+            "desc_long": [
+                "Boosts ATK by 20% and MP by 15%.",
+                "提高20%攻擊的數值，並提高15%MP。",
+                "공격력이 20% 상승하고, MP가 15% 상승합니다.",
+                "Augmente l'ATT de 20% et les PM de 15%.",
+                "Erhöht ANG um 20% und MP um 15%.",
+                "Aumenta el ATQ un 20% y los PM un 15%."
+            ]
+        }
+    },
+    "1500000050": {
+        "name": "Motherly Love",
+        "compendium_id": 90050,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911019],
+        "effects": ["Grants 'Motherly Love' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Motherly Love",
+                "母愛",
+                "모성애",
+                "Amour maternel",
+                "Mutterliebe",
+                "Amor maternal"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and DEF by 10%",
+                "提高20%HP+提高10%防禦的數值",
+                "HP 20% 상승+방어력 10% 상승",
+                "Augmente les PV de 20% et la DEF de 10%",
+                "Erhöht LP um 20% und ABW um 10%.",
+                "Aumenta la VIT un 20% y la DEF un 10%"
+            ],
+            "desc_long": [
+                "Boosts HP by 20% and DEF by 10%.",
+                "提高20%HP，並提高10%防禦的數值。",
+                "HP가 20% 상승하고, 방어력이 10% 상승합니다.",
+                "Augmente les PV de 20% et la DEF de 10%.",
+                "Erhöht LP um 20% und ABW um 10%.",
+                "Aumenta la VIT un 20% y la DEF un 10%."
             ]
         }
     }
