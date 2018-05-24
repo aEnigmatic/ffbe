@@ -5704,7 +5704,7 @@
     "98": {
         "name": "Red and Blue Supercite",
         "type": 1,
-        "cost": 15000,
+        "cost": 7500,
         "rank": "B",
         "difficulty": 1165,
         "duration": 43200,
@@ -5715,7 +5715,7 @@
             "type": "ITEM",
             "id": "1209000872",
             "name": "Blue and Red Supercites",
-            "amount": "3"
+            "amount": "2"
         },
         "relics": 5,
         "exp_levels": [150000, 112500, 75000, 37500],
@@ -5757,6 +5757,65 @@
                 "Tout en haut de dangereuse montagnes,<br>et au milieu de mers tumultueuses ces gigalithes tu trouveras.<br>Elles en valent la peine, tu verras.",
                 "Hinauf den feurigen Bergesrücken,<br>und über stürmiges Meer.<br>Um Supermaginit zu pflücken,<br>ist wahrlich nichts zu schwer!<br>",
                 "Subiendo feroces montañas<br>y cruzando mares turbulentos.<br>Para encontrar las supercitas.<br>Pero merece la pena el riesgo,<br>ya verás por qué."
+            ]
+        }
+    },
+    "99": {
+        "name": "Violet and Yellow Supercite",
+        "type": 1,
+        "cost": 7500,
+        "rank": "B",
+        "difficulty": 1165,
+        "duration": 43200,
+        "units": 5,
+        "required": null,
+        "next_id": null,
+        "reward": {
+            "type": "ITEM",
+            "id": "1209000873",
+            "name": "Violet and Yellow Supercites",
+            "amount": "2"
+        },
+        "relics": 5,
+        "exp_levels": [150000, 112500, 75000, 37500],
+        "unit_bonus": {
+            "type": "game",
+            "value": "FFBE",
+            "bonus": 6
+        },
+        "unit_bonus_max": 16,
+        "item_bonus": [
+            {
+                "id": 106000100,
+                "name": "Tent",
+                "amount": 2,
+                "bonus": 20
+            }
+        ],
+        "stat_bonus": {
+            "HP": 1,
+            "MP": 20,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 25,
+            "SPR": 25
+        },
+        "strings": {
+            "name": [
+                "Supercites of Violet and Yellow",
+                "紫黃超魔石",
+                "보라&노랑 초월마석",
+                "Gigalithes violettes et jaunes",
+                "Violette und Gelbe Supermaginiten",
+                "Supercitas violetas y amarillas"
+            ],
+            "desc": [
+                "Through frozen caverns,<br>and thundering isles.<br>You'll find supercite,<br>in large piles.",
+                "通過凍結的冰之洞窟<br>和雷鳴群島。<br>你將會發現<br>大量超魔石。",
+                "얼어붙은 동굴<br>그리고 천둥이 울리는 섬 지역을 지나보자.<br>큰 더미 속에서<br>초월마석을 찾을 수 있을 것이다.",
+                "Dans les cavernes gelées<br>et les îles frappées par la foudre<br>ces gigalithes en grande quantité<br>tu trouveras.",
+                "Durch Höhlen aus Eis,<br> und donnernde Inseln.<br> -Zeig' genug Fleiß und Supermaginit sei dein Preis.",
+                "A través de gélidas cavernas<br>e islas tormentosas,<br>encontrarás las supercitas<br>en cantidades infinitas."
             ]
         }
     }

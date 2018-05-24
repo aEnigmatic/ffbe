@@ -4138,6 +4138,19 @@
         ]
     },
     "1125206": {
+        "dungeon_id": 11252,
+        "name": "New Trial of the Ice Demon",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -5214,6 +5227,19 @@
         ]
     },
     "1135507": {
+        "dungeon_id": 11355,
+        "name": "New Trial of the Sage",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -72129,6 +72155,191 @@
             }
         ]
     },
+    "7970101": {
+        "dungeon_id": 79701,
+        "name": "FFBE Raid - Dracotaur Lancer - INT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106304700, 100]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use magic",
+                "parsed": ["Use magic"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7970102": {
+        "dungeon_id": 79701,
+        "name": "FFBE Raid - Dracotaur Lancer - ADV",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106304700, 200]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use White magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7970103": {
+        "dungeon_id": 79701,
+        "name": "FFBE Raid - Dracotaur Lancer - PRO",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106304700, 300]
+            },
+            {
+                "string": "Deal light damage 2 times or more",
+                "parsed": ["Deal Light damage 2 times or more"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use no more than 5 items",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "7970104": {
+        "dungeon_id": 79701,
+        "name": "FFBE Raid - Dracotaur Lancer - ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use 2 or more limit bursts",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use no more than 3 items",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "7980101": {
+        "dungeon_id": 79801,
+        "name": "Rats from the Gutters",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 1100000164, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 106304700, 10000]
+            },
+            {
+                "string": "Evoke Ifrit",
+                "parsed": ["Evoke Ifrit"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Defeat the terrarat with magic",
+                "parsed": ["Defeat Terrarat with magic"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "Chamber of Arms - The Energetic Strategist",
@@ -75600,6 +75811,19 @@
         ]
     },
     "8992901": {
+        "dungeon_id": 89729,
+        "name": "Scorn of the Demon Chimera",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 160,
+        "exp": 1360,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -75624,6 +75848,19 @@
         ]
     },
     "8993001": {
+        "dungeon_id": 89730,
+        "name": "Scorn of the Brachiosaur",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 160,
+        "exp": 1360,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -81008,6 +81245,43 @@
     "9003115": {
         "dungeon_id": 21111,
         "name": "Chamber of Crystals - Blue & Red PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 35,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 100,
+        "exp": 135,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9003116": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Violet & Yellow PRO",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -89903,19 +90177,6 @@
         ]
     },
     "11421507": {
-        "dungeon_id": 114215,
-        "name": "Energy Extraction Station Center - Break In",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 12,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 137,
-        "exp": 636,
         "challenges": [
             {
                 "string": "Complete the quest",

@@ -6637,7 +6637,7 @@
                 "Desesperación"
             ],
             "desc": [
-                "Dark damage and chance of blinding, silencing or inflicting with disease one enemy",
+                "Dark damage and chance of blinding, silencing or inflicting disease on one enemy",
                 "對1名敵人發動暗屬性攻擊+一定機率施加失明沉默生病效果",
                 "적 1명에게 어둠속성 피해+일정 확률로 암흑, 침묵, 질병 부여",
                 "Dégâts de ténèbres et chance d'infliger cécité, silence ou maladie à un ennemi",
@@ -16863,6 +16863,100 @@
                 "Dégâts de foudre sur un ennemi",
                 "Fügt einem Gegner Schaden zu.",
                 "Daño de rayo a un enemigo"
+            ]
+        }
+    },
+    "100016605": {
+        "name": "Tsukumo's Descent",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[50,  50]],
+        "attack_frames": [[180,  260]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Light",
+            "Dark"
+        ],
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Magic light and dark damage (7.2x, MAG) to all enemies",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  720,  0]], [2, 1, 88, [30,  3]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Magic light and dark damage (11x, MAG) to all enemies",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1100,  0]], [2, 1, 88, [30,  3]]]},
+        "strings": {
+            "name": [
+                "Tsukumo's Descent",
+                "付喪降臨",
+                "츠쿠모 강림",
+                "Attaque de Tsukumo",
+                "Tsukomos Herabkunft",
+                "Descenso de Tsukumo"
+            ],
+            "desc": [
+                "Light and dark damage and chance of stopping all enemies",
+                "對全體敵人發動光暗屬性攻擊+一定機率施加停止效果",
+                "적 전체에 빛과 어둠속성 피해+일정 확률로 스톱 부여",
+                "Dégâts de lumière et de ténèbres et chance de stopper tous les ennemis",
+                "Fügt allen Gegnern Licht- und Dunkelschaden zu + Chance auf Stopp.",
+                "Daño de luz/oscuridad y posibilidad de parar a todos los enemigos"
+            ]
+        }
+    },
+    "100016606": {
+        "name": "Tsukumo's Descent",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[180,  246,  256,  266,  276]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Light",
+            "Dark"
+        ],
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Magic light and dark damage (9x, MAG) to all enemies",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  900,  0]], [2, 1, 88, [30,  3]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Magic light and dark damage (13.8x, MAG) to all enemies",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1380,  0]], [2, 1, 88, [30,  3]]]},
+        "strings": {
+            "name": [
+                "Tsukumo's Descent",
+                "付喪降臨",
+                "츠쿠모 강림",
+                "Attaque de Tsukumo",
+                "Tsukomos Herabkunft",
+                "Descenso de Tsukumo"
+            ],
+            "desc": [
+                "Light and dark damage and chance of stopping all enemies",
+                "對全體敵人發動光暗屬性攻擊+一定機率施加停止效果",
+                "적 전체에 빛과 어둠속성 피해+일정 확률로 스톱 부여",
+                "Dégâts de lumière et de ténèbres et chance de stopper tous les ennemis",
+                "Fügt allen Gegnern Licht- und Dunkelschaden zu + Chance auf Stopp.",
+                "Daño de luz/oscuridad y posibilidad de parar a todos los enemigos"
             ]
         }
     },
