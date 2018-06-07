@@ -12643,7 +12643,7 @@
                 "Baile dragón"
             ],
             "desc": [
-                "Cast regen and boost DEF and SPR for all allies",
+                "Gradually restore HP and boost DEF and SPR for all allies",
                 "逐漸恢復全體隊員的HP+提高防禦精神的數值",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
                 "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
@@ -12687,7 +12687,7 @@
                 "Baile dragón"
             ],
             "desc": [
-                "Cast regen and boost DEF and SPR for all allies",
+                "Gradually restore HP and boost DEF and SPR for all allies",
                 "逐漸恢復全體隊員的HP+提高防禦精神的數值",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
                 "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
@@ -12731,7 +12731,7 @@
                 "Baile dragón"
             ],
             "desc": [
-                "Cast regen and boost DEF and SPR for all allies",
+                "Gradually restore HP and boost DEF and SPR for all allies",
                 "逐漸恢復全體隊員的HP+提高防禦精神的數值",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
                 "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
@@ -20039,7 +20039,7 @@
         }
     },
     "204000603": {
-        "name": "Hunter's Lullaby",
+        "name": "Paladin's Song",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -20067,25 +20067,25 @@
             "effects_raw": [[2, 2, 58, [49,  49,  49,  49,  3,  1]], [2, 2, 56, [200,  1,  4500,  3]], [2, 2, 57, [10,  1,  60,  3]]]},
         "strings": {
             "name": [
-                "Hunter's Lullaby",
-                "退魔搖籃曲",
-                "퇴마의 자장가",
-                "Berceuse bénéfique",
-                "Schlaflied des Jägers",
-                "Nana de cazador"
+                "Paladin's Song",
+                "聖騎士之歌",
+                "팔라딘의 노래",
+                "Chanson de paladin",
+                "Paladinlied",
+                "Canción del paladín"
             ],
             "desc": [
-                "Boost DEF and SPR for all allies",
-                "提高全體隊員精神和防禦的數值3回合",
-                "아군 전체의 정신력과 방어력 상승",
-                "Augmente la PSY et la DÉF de tous les alliés",
-                "PSY und ABW hoch, alle Verb.",
-                "Aumenta ESP y DEF de aliados 3 turnos"
+                "Boost ATK, DEF, MAG, and SPR, and gradually restore HP and MP for all allies",
+                "提高全體隊員攻擊防禦魔力精神的數值+持續恢復HPMP",
+                "아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히 회복",
+                "Augmente l'ATT, la DEF, la MAGIE la PSY et restaure petit à petit les PV et les PM de tous les alliés",
+                "Erhöht ANG, ABW, MAG und PSY + regeneriert allmählich LP/MP für alle Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP y recupera poco a poco la VIT y los PM de todos los aliados"
             ]
         }
     },
     "204000604": {
-        "name": "Divine Oratorio",
+        "name": "Paladin's Song",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -20113,20 +20113,20 @@
             "effects_raw": [[2, 2, 58, [59,  59,  59,  59,  3,  1]], [2, 2, 56, [200,  1,  4500,  3]], [2, 2, 57, [10,  1,  60,  3]]]},
         "strings": {
             "name": [
-                "Divine Oratorio",
-                "神護聖曲",
-                "가호의 성담곡",
-                "Oratorio divin",
-                "Göttliches Oratorium",
-                "Oratorio divino"
+                "Paladin's Song",
+                "聖騎士之歌",
+                "팔라딘의 노래",
+                "Chanson de paladin",
+                "Paladinlied",
+                "Canción del paladín"
             ],
             "desc": [
-                "Boost DEF and SPR for all allies",
-                "提高全體隊員精神和防禦的數值3回合",
-                "아군 전체의 정신력과 방어력 상승",
-                "Augmente la PSY et la DÉF de tous les alliés",
-                "PSY und ABW hoch, alle Verb.",
-                "Aumenta ESP y DEF de aliados 3 turnos"
+                "Boost ATK, DEF, MAG, and SPR, and gradually restore HP and MP for all allies",
+                "提高全體隊員攻擊防禦魔力精神的數值+持續恢復HPMP",
+                "아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히 회복",
+                "Augmente l'ATT, la DEF, la MAGIE la PSY et restaure petit à petit les PV et les PM de tous les alliés",
+                "Erhöht ANG, ABW, MAG und PSY + regeneriert allmählich LP/MP für alle Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP y recupera poco a poco la VIT y los PM de todos los aliados"
             ]
         }
     },
@@ -41477,17 +41477,17 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 20 turns",
+                "Reduce damage taken by 20% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 30% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  20,  3,  1]], [2, 2, 33, [0,  30,  0,  30,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [20,  3,  1]], [2, 2, 33, [0,  30,  0,  30,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 20 turns",
+                "Reduce damage taken by 20% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 44% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  20,  3,  1]], [2, 2, 33, [0,  44,  0,  44,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [20,  3,  1]], [2, 2, 33, [0,  44,  0,  44,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
                 "Ancient Incantation",
@@ -41521,17 +41521,17 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 20 turns",
+                "Reduce damage taken by 20% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 40% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  20,  3,  1]], [2, 2, 33, [0,  40,  0,  40,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [20,  3,  1]], [2, 2, 33, [0,  40,  0,  40,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 20 turns",
+                "Reduce damage taken by 20% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 59% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  20,  3,  1]], [2, 2, 33, [0,  59,  0,  59,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [20,  3,  1]], [2, 2, 33, [0,  59,  0,  59,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
                 "Ancient Incantation",
@@ -41565,17 +41565,17 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 30 turns",
+                "Reduce damage taken by 30% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 50% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  30,  3,  1]], [2, 2, 33, [0,  50,  0,  50,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [30,  3,  1]], [2, 2, 33, [0,  50,  0,  50,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Reduce damage taken by 0% to all allies for 30 turns",
+                "Reduce damage taken by 30% to all allies for 3 turns",
                 "Increase resistance to Ice and Water by 74% for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 2, 101, [0,  30,  3,  1]], [2, 2, 33, [0,  74,  0,  74,  0,  0,  0,  0,  1,  3]]]},
+            "effects_raw": [[2, 2, 101, [30,  3,  1]], [2, 2, 33, [0,  74,  0,  74,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
                 "Ancient Incantation",
@@ -41609,17 +41609,17 @@
         "min_level": {
             "cost": 10,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (2.3x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  230]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  230]], [2, 2, 54, [2,  3]]]},
         "max_level": {
             "cost": 10,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (2.75x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  275]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  275]], [2, 2, 54, [2,  3]]]},
         "strings": {
             "name": [
                 "Righteous Thief",
@@ -41653,17 +41653,17 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (2.5x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  250]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 2, 54, [2,  3]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (3.2x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  320]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [2, 2, 54, [2,  3]]]},
         "strings": {
             "name": [
                 "Righteous Thief",
@@ -41697,17 +41697,17 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (2.7x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  270]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [2, 2, 54, [2,  3]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical wind damage 1 to all enemies",
-                "Dodge 1 physical attacks for 2 turns to all allies"
+                "Physical wind damage (3.65x, ATK) to all enemies",
+                "Dodge 2 physical attacks for 3 turns to all allies"
             ],
-            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  0,  365]], [2, 2, 54, [0,  2,  3]]]},
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  365]], [2, 2, 54, [2,  3]]]},
         "strings": {
             "name": [
                 "Righteous Thief",
