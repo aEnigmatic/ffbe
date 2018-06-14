@@ -12644,11 +12644,11 @@
             ],
             "desc": [
                 "Gradually restore HP and boost DEF and SPR for all allies",
-                "逐漸恢復全體隊員的HP+提高防禦精神的數值",
+                "持續恢復全體隊員的HP+提高防禦精神",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
-                "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
-                "Regena und erhöht ABW und PSY aller Verbündeten.",
-                "Lanza Revitalia y aumenta DEF y ESP de todos los aliados"
+                "Restaure progressivement les PV et augmente la DEF et la PSY de tous les alliés",
+                "Regeneriert allmählich LP aller Verb. und erhöht ihre ABW und PSY.",
+                "Recupera poco a poco la VIT y aumenta la DEF y el ESP de todos los aliados"
             ]
         }
     },
@@ -12688,11 +12688,11 @@
             ],
             "desc": [
                 "Gradually restore HP and boost DEF and SPR for all allies",
-                "逐漸恢復全體隊員的HP+提高防禦精神的數值",
+                "持續恢復全體隊員的HP+提高防禦精神",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
-                "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
-                "Regena und erhöht ABW und PSY aller Verbündeten.",
-                "Lanza Revitalia y aumenta DEF y ESP de todos los aliados"
+                "Restaure progressivement les PV et augmente la DEF et la PSY de tous les alliés",
+                "Regeneriert allmählich LP aller Verb. und erhöht ihre ABW und PSY.",
+                "Recupera poco a poco la VIT y aumenta la DEF y el ESP de todos los aliados"
             ]
         }
     },
@@ -12732,11 +12732,11 @@
             ],
             "desc": [
                 "Gradually restore HP and boost DEF and SPR for all allies",
-                "逐漸恢復全體隊員的HP+提高防禦精神的數值",
+                "持續恢復全體隊員的HP+提高防禦精神",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
-                "Lance Récup er augmente la DEF et la PSY pour tous les alliés",
-                "Regena und erhöht ABW und PSY aller Verbündeten.",
-                "Lanza Revitalia y aumenta DEF y ESP de todos los aliados"
+                "Restaure progressivement les PV et augmente la DEF et la PSY de tous les alliés",
+                "Regeneriert allmählich LP aller Verb. und erhöht ihre ABW und PSY.",
+                "Recupera poco a poco la VIT y aumenta la DEF y el ESP de todos los aliados"
             ]
         }
     },
@@ -12770,16 +12770,16 @@
                 "Dragon's Dance",
                 "龍神之舞",
                 "용신의 춤",
-                "Danse du dragon",
+                "Danse de dragon",
                 "Drachentanz",
                 "Baile dragón"
             ],
             "desc": [
                 "Gradually restore HP and boost DEF and SPR for all allies",
-                "持續恢復全體隊員的HP+提高防禦精神的數值",
+                "持續恢復全體隊員的HP+提高防禦精神",
                 "아군 전체의 HP 서서히 회복+방어력과 정신력 상승",
                 "Restaure progressivement les PV et augmente la DEF et la PSY de tous les alliés",
-                "Regeneriert allmählich LP + erhöht ABW und PSY für alle Verb.",
+                "Regeneriert allmählich LP aller Verb. und erhöht ihre ABW und PSY.",
                 "Recupera poco a poco la VIT y aumenta la DEF y el ESP de todos los aliados"
             ]
         }
@@ -20673,7 +20673,7 @@
             "name": [
                 "Esper Mist Dragon Breath",
                 "幻獸霧龍的吐息",
-                "환수 미스트 드래곤의 순결",
+                "환수 미스트 드래곤의 숨결",
                 "Éon dragon des brumes : souffle",
                 "Esper Nebeldrache: Atem",
                 "Esper dragón de Mist: aliento"
@@ -42469,6 +42469,54 @@
                 "Fügt allen Gegnern Feuerschaden zu und verringert ihre Feuerresistenz, fügt eigenem phys. Angriff Feuerelement hinzu und ermöglicht eine Runde lang Flinker Schuss.",
                 "Daño de fuego, reduce la resistencia al fuego de todos los enemigos, añade elemento fuego a los ataques físicos del usuario y aprende Tiro rápido durante 1 turno"
             ]
+        }
+    },
+    "401004005": {
+        "name": "Death From Above",
+        "cost": 0,
+        "attack_count": [11],
+        "attack_damage": [[9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  10]],
+        "attack_frames": [[93,  113,  121,  129,  137,  145,  153,  161,  169,  177,  185]],
+        "effect_frames": [[140,  140,  170,  110,  90,  0,  30,  32,  10]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (7x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  350,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (8.9x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  445,  -50]]]},
+        "strings": {
+            "name": null,
+            "desc": null
+        }
+    },
+    "401004006": {
+        "name": "Death From Above",
+        "cost": 0,
+        "attack_count": [11],
+        "attack_damage": [[9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  10]],
+        "attack_frames": [[93,  113,  121,  129,  137,  145,  153,  161,  169,  177,  185]],
+        "effect_frames": [[140,  140,  170,  110,  90,  0,  30,  30,  32]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Physical damage (9x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  450,  -50]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Physical damage (11.4x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  570,  -50]]]},
+        "strings": {
+            "name": null,
+            "desc": null
         }
     }
 }
