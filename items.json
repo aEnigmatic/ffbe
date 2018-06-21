@@ -12597,7 +12597,7 @@
                 "Armor oil made using a secret technique",
                 "用秘方製作的武具用油",
                 "비밀의 제작법으로 만들어진 무기용 기름",
-                "Huile pour armes et amures fabriquée à l'aide d'une technique secrète",
+                "Huile pour armes et armures fabriquée à l'aide d'une technique secrète",
                 "Durch geheimer Technik gewonnenes Rüstungsöl",
                 "Aceite de armadura hecho con una receta secreta"
             ],
@@ -16748,7 +16748,7 @@
                 "碳素纖維",
                 "카본 섬유",
                 "Fibre en carbone",
-                "Karbonfaser",
+                "Kohlefaser",
                 "Fibra de carbono"
             ],
             "desc_short": [
@@ -24794,6 +24794,216 @@
             ]
         }
     },
+    "1209000876": {
+        "name": "Bavarium Dust",
+        "type": "Item",
+        "compendium_id": 9111,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 999,
+        "price_buy": 1000,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10174.png",
+        "strings": {
+            "names": [
+                "Bavarium Dust",
+                "巴伐利姆粉末",
+                "바바리움 가루",
+                "Poudre de bavarium",
+                "Bavariumstaub",
+                "Polvo de bavarium"
+            ],
+            "desc_short": [
+                "Pulverized bavarium ore.",
+                "磨成粉末的巴伐利姆礦石",
+                "바바리움 광석을 정제해서 나온 가루.",
+                "Du minerai de bavarium réduit en poudre.",
+                "Pulverisiertes Bavariumerz.",
+                "Mena de bavarium pulverizada."
+            ],
+            "desc_long": [
+                "This pulverized bavarium can be collected as a by-product when refining bavarium ore. Although it looks like mere dust, it can still be used to craft various weapons thanks to the mineral's explosive nature.",
+                "精煉巴伐利姆礦石時產生的副產物。乍看之下不過是單純的粉末，卻仍能用來製作各式各樣的武器，這全要歸功於這種礦物強大的爆發性。",
+                "바바리움 광석을 정제할 때 부산물로 얻을 수 있는 가루. 단순한 가루처럼 보이지만 폭발성이 있어 다양한 무기 제작에 쓰일 수 있다.",
+                "Cette poudre est dérivée du processus de raffinage du minerai de bavarium. Bien qu'elle ne consiste qu'en un amas de poussière, elle peut servir à la fabrication d'armes diverses et variées, notamment grâce à la nature explosive du minerai.",
+                "Dieses pulverisierte Bavarium kann als Nebenprodukt bei der Verarbeitung von Bavariumerz gesammelt werden. Es sieht zwar wie gewöhnlicher Staub aus, kann dank der explosiven Eigenschaften des Minerals aber dennoch für die Herstellung verschiedener Waffen verwendet werden.",
+                "Este bavarium pulverizado es un subproducto que se obtiene al refinar la mena de bavarium. Aunque parece polvo, se puede utilizar para fabricar distintas armas gracias a la naturaleza explosiva del mineral."
+            ]
+        }
+    },
+    "1209000877": {
+        "name": "Bavarium Ore",
+        "type": "Item",
+        "compendium_id": 9112,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 999,
+        "price_buy": 1000,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10175.png",
+        "strings": {
+            "names": [
+                "Bavarium Ore",
+                "巴伐利姆礦石",
+                "바바리움 광석",
+                "Minerai de bavarium",
+                "Bavariumerz",
+                "Mena de bavarium"
+            ],
+            "desc_short": [
+                "Unprocessed bavarium ore.",
+                "未加工的巴伐利姆礦石",
+                "가공되지 않은 바바리움 광석.",
+                "Du minerai de bavarium à l'état brut.",
+                "Unverarbeitetes Bavariumerz.",
+                "Mena de bavarium sin elaborar."
+            ],
+            "desc_long": [
+                "This bavarium ore is unprocessed and mixed with impurities. It is not very heavy, but instead similar to coal in weight.",
+                "未加工且混雜著雜質的巴伐利姆礦石。重量大概與煤炭差不多，不是很重。",
+                "가공되지 않아 불순물이 섞여 있는 바바리움 광석. 석탄과 비슷한 무게로, 무겁지는 않은 편이다.",
+                "Ce minerai de bavarium demeure à l'état brut et comporte encore de nombreuses impuretés. Plutôt léger, il possède une masse similaire au charbon.",
+                "Dieses Bavariumerz ist unverarbeitet und mit Unreinheiten durchsetzt. Es ist nicht sonderlich schwer und hat ein ähnliches Gewicht wie Kohle.",
+                "Esta mena de bavarium está sin elaborar y tiene impurezas. Es ligera: pesa más o menos lo mismo que el carbón."
+            ]
+        }
+    },
+    "1209000878": {
+        "name": "Bavarium Shard",
+        "type": "Item",
+        "compendium_id": 9113,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 999,
+        "price_buy": 1000,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10176.png",
+        "strings": {
+            "names": [
+                "Bavarium Shard",
+                "巴伐利姆碎片",
+                "바바리움 조각",
+                "Tesson de bavarium",
+                "Bavariumsplitter",
+                "Esquirla de bavarium"
+            ],
+            "desc_short": [
+                "A small fragment of a refined bavarium ore.",
+                "精煉巴伐利姆礦石的碎片",
+                "정제된 바바리움 광석의 작은 조각.",
+                "Un petit fragment de minerai de bavarium raffiné.",
+                "Ein kleines Stück aufbereitetes Bavariumerz.",
+                "Pequeño fragmento de mena de bavarium refinada."
+            ],
+            "desc_long": [
+                "A small fragment of refined bavarium ore that can be used to craft various weapons.",
+                "精煉巴伐利姆礦石的小碎片，能用來製作各式各樣的武器。",
+                "정제된 바바리움 광석의 작은 조각. 다양한 무기를 제작하는 데 사용된다.",
+                "Un petit fragment de minerai de bavarium raffiné qui peut être utilisé pour fabriquer diverses armes.",
+                "Ein kleiner Splitter aufbereitetes Bavariumerz, der für die Herstellung verschiedener Waffen verwendet werden kann.",
+                "Este pequeño fragmento de mena de bavarium refinada puede utilizarse para fabricar distintas armas."
+            ]
+        }
+    },
+    "1209000879": {
+        "name": "Refined Bavarium",
+        "type": "Item",
+        "compendium_id": 9114,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 999,
+        "price_buy": 1000,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10177.png",
+        "strings": {
+            "names": [
+                "Refined Bavarium",
+                "精製巴伐利姆礦石",
+                "정제 바바리움",
+                "Bavarium raffiné",
+                "Raffiniertes Bavarium",
+                "Bavarium refinado"
+            ],
+            "desc_short": [
+                "High grade bavarium ore.",
+                "高品質的巴伐利姆礦石",
+                "고급 바바리움 광석.",
+                "Un minerai de bavarium de haute qualité.",
+                "Hochwertiges Bavariumerz.",
+                "Mena de bavarium de alta calidad."
+            ],
+            "desc_long": [
+                "High grade bavarium ore is extremely expensive, and can be used as a source of energy. They are usually used for crafting items.",
+                "高品質的巴伐利姆礦石非常貴重，可用作能量來源，也能用來製作各種道具。",
+                "아이템 제작에 사용되는 고급 바바리움 광석. 가격이 무척 비싸며 에너지 자원으로 활용할 수도 있다.",
+                "Le minerai de bavarium de haute qualité est une denrée particulièrement onéreuse, et sert souvent de source d'énergie. Il est le plus souvent employé à la fabrication d'objets divers.",
+                "Hochwertiges Bavariumerz ist außerordentlich teuer und kann als Energiequelle genutzt werden. Es wird für gewöhnlich zur Herstellung von Gegenständen verwendet.",
+                "Esta mena de bavarium de alta calidad es sumamente cara y se puede usar como fuente de energía. Se suele utilizar para fabricar productos."
+            ]
+        }
+    },
+    "1209000880": {
+        "name": "Bavarium Coin",
+        "type": "Consumable",
+        "compendium_id": 9115,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 99999,
+        "price_buy": 1000,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10178.png",
+        "strings": {
+            "names": [
+                "Bavarium Coin",
+                "巴伐利姆硬幣",
+                "바바리움 코인",
+                "Pièce de bavarium",
+                "Bavarium-Münze",
+                "Moneda de bavarium"
+            ],
+            "desc_short": [
+                "A coin made from bavarium.",
+                "用巴伐利姆製作的硬幣",
+                "바바리움으로 만들어진 코인.",
+                "Une pièce faite de bavarium.",
+                "Eine aus Bavarium hergestellte Münze.",
+                "Moneda hecha de bavarium."
+            ],
+            "desc_long": [
+                "A coin made from bavarium that can only be obtained by facing the URGA Mstitel.",
+                "用巴伐利姆製作的硬幣，只有在與烏爾加復仇者的戰鬥中獲勝才能得到。",
+                "URGA Mstitel과의 전투에서 승리한 자만이 손에 넣을 수 있는 바바리움으로 만들어진 코인.",
+                "Une pièce fabriquée à partir de bavarium. Seuls ceux qui affrontent l'URGA Mstitel peuvent s'en procurer.",
+                "Eine aus Bavarium hergestellte Münze, die nur erlangt werden kann, wenn man sich dem URGA Mstitel entgegenstellt.",
+                "Esta moneda hecha de bavarium solo se puede conseguir enfrentándose al helicóptero URGA Mstitel."
+            ]
+        }
+    },
     "1209000881": {
         "name": "Petal Token",
         "type": "Consumable",
@@ -25191,7 +25401,7 @@
             "names": [
                 "2nd Anniversary Ticket",
                 "2週年特別召喚券",
-                "2주년 스페셜 소환티켓",
+                "2주년 기념 티켓",
                 "Ticket du 2e anniversaire",
                 "2-Jahres-Jubiläumskarte",
                 "Tícket 2.º aniversario"

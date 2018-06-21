@@ -8268,7 +8268,7 @@
             "desc_short": [
                 "Add chance of evading physical attacks, boost MP by 20%, and MAG and SPR by 10%",
                 "一定機率閃避物理攻擊+提高20%MP、10%魔力精神",
-                "일정 획률로 물리공격 회피+MP 20%, 마력과 정신력 10% 상승",
+                "일정 확률로 물리공격 회피+MP 20%, 마력과 정신력 10% 상승",
                 "Chance d'esquiver les attaques physiques et booste les PM de 20% ainsi que la MAGIE et la PSY de 10%",
                 "Chance auf Ausweichen vor physischen Angriffen, erhöht MP um 20%, MAG und PSY um 10%",
                 "Posibilita esquivar ataques físicos y aumenta los PM un 20% y la MAG/ESP un 10%"
@@ -14721,7 +14721,7 @@
                 "H Armor Arts",
                 "重鎧的秘義",
                 "중갑의 비의",
-                "Secret d'amure L",
+                "Secret d'armure L",
                 "Schwere Rüstungs-Künste",
                 "Secretos de armadura P"
             ],
@@ -15185,7 +15185,7 @@
                 "Boost MAG by 40%, SPR by 20%, and parameters of espers evoked by 10%",
                 "提高40%魔力、20%精神的數值+發動召喚魔法時提高10%幻獸狀態",
                 "마력 40%, 정신력 20% 상승+소환마법 사용 시 환수 능력치 10% 상승",
-                "Augmente la MAGIE de 40%, la PSY de 20 % et les attributs des chimères invoquées de 10%",
+                "MAGIE +40%, PSY +20% et caractéristiques des chimères +10%",
                 "Erhöht MAG um 40%, PSY um 20% sowie Werte gerufener Esper um 10%.",
                 "Aumenta la MAG un 40%, el ESP un 20% y los parámetros de los espers invocados un 10%"
             ],
@@ -17922,6 +17922,44 @@
             ]
         }
     },
+    "1500000045": {
+        "name": "Gun Upgrade",
+        "compendium_id": 90045,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [910970],
+        "effects": ["Grants 'Gun Upgrade' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Gun Upgrade",
+                "槍械升級",
+                "건 업그레이드",
+                "Amélioration d'arme",
+                "Knarrenupgrade",
+                "Mejora de arma"
+            ],
+            "desc_short": [
+                "Boost ATK and SPR when equipped with a gun",
+                "提高裝備槍時的攻擊精神",
+                "총 장착 시 공격력과 정신력 상승",
+                "Augmente l'ATT et la PSY lorsqu'un pistolet est équipé",
+                "Erhöht ANG und PSY, wenn mit Schussw. ausgerüstet.",
+                "Aumenta el ATQ y el ESP al llevar un arma"
+            ],
+            "desc_long": [
+                "Boosts ATK and SPR when equipped with a gun",
+                "提高裝備槍時的攻擊精神。",
+                "총 장착 시 공격력과 정신력이 상승합니다.",
+                "Augmente l'ATT et la PSY lorsqu'un pistolet est équipé",
+                "Erhöht ANG und PSY, wenn mit Schussw. ausgerüstet.",
+                "Aumenta el ATQ y el ESP al llevar un arma"
+            ]
+        }
+    },
     "1500000046": {
         "name": "Magical Offensive",
         "compendium_id": 90046,
@@ -18112,13 +18150,133 @@
             ]
         }
     },
+    "1500000051": {
+        "name": "Distraction",
+        "compendium_id": 90051,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911020, 100020],
+        "effects": [
+            "Grants 'Firestarter' ability.",
+            "Grants 'HP +20%' passive."
+        ],
+        "unique": false,
+        "price_buy": 1000,
+        "price_sell": 1000,
+        "icon": "ability_10.png",
+        "strings": {
+            "names": [
+                "Distraction",
+                "娛樂",
+                "집중 방해",
+                "Distraction",
+                "Ablenkung",
+                "Distracción"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and enable firestarter",
+                "提高20%HP+可以使用「導火線」",
+                "HP 20% 상승+'발화기' 어빌리티 사용 가능",
+                "Augmente les PV de 20% et permet d'utiliser Pyromane",
+                "Erhöht LP um 20% und ermöglicht Pyromane.",
+                "Aumenta la VIT un 20% y aprende Piromanía"
+            ],
+            "desc_long": [
+                "Boosts HP by 20% and enable firestarter",
+                "提高20%HP，並可以使用「導火線」。",
+                "HP가 20% 상승하며, '발화기' 어빌리티를 사용할 수 있게 됩니다.",
+                "Augmente les PV de 20% et permet d'utiliser Pyromane",
+                "Erhöht LP um 20% und ermöglicht Pyromane.",
+                "Aumenta la VIT un 20% y aprende Piromanía"
+            ]
+        }
+    },
+    "1500000052": {
+        "name": "Frigo and Etcetera",
+        "compendium_id": 90052,
+        "compendium_shown": true,
+        "unit_restriction": [401004005, 401004006, 401004007, 401004104, 401004105, 401004106, 401004203, 401004204, 401004205, 401004303, 401004304, 401004305],
+        "skills": [911034, 911035],
+        "effects": [
+            "Grants 'Frigo and Etcetera' passive.",
+            "Grants 'Rebellion' passive."
+        ],
+        "unique": true,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_91.png",
+        "strings": {
+            "names": [
+                "Frigo and Etcetera",
+                "弗瑞格一夥",
+                "프리고와 친구들",
+                "Frego et Compagnie",
+                "Frigo und Etcetera",
+                "Frigo y etcétera"
+            ],
+            "desc_short": [
+                "Boost ATK and physical damage against machina monsters, and enable rebellion for Just Cause 3 units (Not Stackable)",
+                "提高攻擊+物理攻擊時提高對機械系魔物的傷害+Just Cause 3兵員可以使用「叛亂」[無法重複裝備]",
+                "공격력 상승+물리공격 시 기계형 마물에 대한 피해량 상승+Just Cause 3 유닛 한정 '반란' 사용 가능  (중복 장착 불가)",
+                "Augmente l'ATT et les dégâts physiques infligés aux monstres de type machine, et permet d'utiliser Rébellion pour les unités de Just Cause 3 (pas cumulable)",
+                "Erhöht ANG und physischen Schaden gegen Maschinenmonster und ermöglicht Rebellion für Just Cause 3 Einheiten  (Nicht stapelbar).",
+                "Aumenta el ATQ y el daño físico contra máquinas, y las unidades de Just Cause 3 aprenden Rebelión  (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost ATK and physical damage against machina monsters, and enable rebellion for Just Cause 3 units. Not stackable.",
+                "提高攻擊，物理攻擊時提高對機械系魔物的傷害，Just Cause 3兵員可以使用「叛亂」[無法重複裝備]。",
+                "공격력이 상승하며, 물리공격 시 기계형 마물에 대한 피해량 상승하고, Just Cause 3 유닛에 한해 '반란' 어빌리티를 사용할 수 있게 됩니다. (중복 장착 불가)",
+                "Augmente l'ATT et les dégâts physiques infligés aux monstres de type machine, et permet d'utiliser Rébellion pour les unités de Just Cause 3. Non cumulable.",
+                "Erhöht ANG und physischen Schaden gegen Maschinenmonster und ermöglicht Rebellion für Just Cause 3 Einheiten. (nicht stapelbar).",
+                "Aumenta el ATQ y el daño físico contra máquinas, y las unidades de Just Cause 3 aprenden Rebelión (no acumulable)."
+            ]
+        }
+    },
+    "1500000055": {
+        "name": "Scorpion Stinger",
+        "compendium_id": 90055,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911159],
+        "effects": ["Grants 'Scorpion Stinger' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Scorpion Stinger",
+                "蠍子的毒刺",
+                "전갈 독침",
+                "Aiguille de scorpion",
+                "Skorpionstachel",
+                "Aguijón de escorpión"
+            ],
+            "desc_short": [
+                "Boost ATK by 20% and MP by 10%",
+                "提高20%攻擊+提高10%MP",
+                "공격력 20% 상승+MP 10% 상승",
+                "Augmente l'ATT de 20% et les PM de 10%",
+                "Erhöht ANG um 20% und MP um 10%.",
+                "Aumenta el ATQ un 20% y los PM un 10%"
+            ],
+            "desc_long": [
+                "Boosts ATK by 20% and MP by 10%",
+                "提高20%攻擊，並提高10%MP。",
+                "공격력이 20% 상승하고, MP가 10% 상승합니다.",
+                "Augmente l'ATT de 20% et les PM de 10%.",
+                "Erhöht ANG um 20% und MP um 10%.",
+                "Aumenta el ATQ un 20% y los PM un 10%"
+            ]
+        }
+    },
     "1500000056": {
         "name": "Keeper's Gate",
         "compendium_id": 90056,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911160],
-        "effects": ["Grants 'Keepers Gate' passive."],
+        "effects": ["Grants 'Keeper's Gate' passive."],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18156,7 +18314,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911161],
-        "effects": ["Grants 'Defenders Barrier' passive."],
+        "effects": ["Grants 'Defender's Barrier' passive."],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18194,7 +18352,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911162],
-        "effects": ["Grants 'Midfielders Potential' passive."],
+        "effects": ["Grants 'Midfielder's Potential' passive."],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18232,7 +18390,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911163],
-        "effects": ["Grants 'Strikers Roundhouse' passive."],
+        "effects": ["Grants 'Striker's Roundhouse' passive."],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,

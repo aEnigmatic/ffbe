@@ -42491,8 +42491,22 @@
             "effects": ["Physical damage (8.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  445,  -50]]]},
         "strings": {
-            "name": null,
-            "desc": null
+            "name": [
+                "Death From Above",
+                "天降死亡",
+                "상공으로부터의 죽음",
+                "Mort céleste",
+                "Tod von oben",
+                "Muerte desde las alturas"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to all enemies",
+                "對全體敵人發動無視部分防禦的攻擊",
+                "적 전체에 일부 방어 무시 피해",
+                "Dégâts en partie fixes à tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu.",
+                "Daño parcial absoluto a todos los enemigos"
+            ]
         }
     },
     "401004006": {
@@ -42515,8 +42529,400 @@
             "effects": ["Physical damage (11.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  570,  -50]]]},
         "strings": {
-            "name": null,
-            "desc": null
+            "name": [
+                "Death From Above",
+                "天降死亡",
+                "상공으로부터의 죽음",
+                "Mort céleste",
+                "Tod von oben",
+                "Muerte desde las alturas"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to all enemies",
+                "對全體敵人發動無視部分防禦的攻擊",
+                "적 전체에 일부 방어 무시 피해",
+                "Dégâts en partie fixes à tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu.",
+                "Daño parcial absoluto a todos los enemigos"
+            ]
+        }
+    },
+    "401004104": {
+        "name": "Rebel drop - M488",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[160]],
+        "effect_frames": [[1,  80,  20,  79]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (4.7x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  470]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "strings": {
+            "name": [
+                "Rebel drop - M488",
+                "反抗軍空投：M488",
+                "물자 투하·M488",
+                "Livraison rebelle - M488",
+                "Rebellennachschub - M488",
+                "Lanzamiento rebelde - M488"
+            ],
+            "desc": [
+                "Damage all enemies and enable beacon for 3 turns",
+                "攻擊全體敵人+3回合內可使用「信標」",
+                "적 전체에 피해+3턴 동안 '비콘' 어빌리티 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Signal pendant 3 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht 3 Runden lang Leuchtsignal.",
+                "Daña a todos los enemigos y aprende Faro durante 3 turnos"
+            ]
+        }
+    },
+    "401004105": {
+        "name": "Rebel drop - M488",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[160]],
+        "effect_frames": [[1,  1,  90,  20,  77]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5.5x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.45x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  645]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "strings": {
+            "name": [
+                "Rebel drop - M488",
+                "反抗軍空投：M488",
+                "물자 투하·M488",
+                "Livraison rebelle - M488",
+                "Rebellennachschub - M489",
+                "Lanzamiento rebelde - M488"
+            ],
+            "desc": [
+                "Damage all enemies and enable beacon for 3 turns",
+                "攻擊全體敵人+3回合內可使用「信標」",
+                "적 전체에 피해+3턴 동안 '비콘' 어빌리티 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Signal pendant 3 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht 3 Runden lang Leuchtsignal.",
+                "Daña a todos los enemigos y aprende Faro durante 3 turnos"
+            ]
+        }
+    },
+    "401004106": {
+        "name": "Rebel drop - M488",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[160]],
+        "effect_frames": [[76,  79,  10,  77,  79,  171,  100]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (7x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  700]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.2x, ATK) to all enemies",
+                "Gain 2 uses of the following skills for 3 turns:\n\tRebel drop - CS110 Archangel (911042)\n\tRebel drop - Dionysus PLDS-H (911046)\n\tRebel drop - Mugello Vistosa (911039)\n\tRebel drop - Stria Facocero (911045)\n\tRebel drop - Urga Stupka-210 (911037)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  820]], [0, 3, 98, [2, 911053, -1, [911037,  911039,  911042,  911045,  911046], 4, 1, 1]]]},
+        "strings": {
+            "name": [
+                "Rebel drop - M488",
+                "反抗軍空投：M488",
+                "물자 투하·M488",
+                "Livraison rebelle - M488",
+                "Rebellennachschub - M490",
+                "Lanzamiento rebelde - M488"
+            ],
+            "desc": [
+                "Damage all enemies and enable beacon for 3 turns",
+                "攻擊全體敵人+3回合內可使用「信標」",
+                "적 전체에 피해+3턴 동안 '비콘' 어빌리티 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Signal pendant 3 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht 3 Runden lang Leuchtsignal.",
+                "Daña a todos los enemigos y aprende Faro durante 3 turnos"
+            ]
+        }
+    },
+    "401004203": {
+        "name": "Where's my tank?",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[167]],
+        "effect_frames": [[150,  150,  0,  146,  152]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical fire damage (2.93x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  220,  -25]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical fire damage (3.53x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  265,  -25]]]},
+        "strings": {
+            "name": [
+                "Where's my tank?",
+                "我的坦克在哪？",
+                "내 탱크는 어디에?",
+                "L'est où mon tank ?",
+                "Wo ist mein Panzer?",
+                "¿Dónde está mi tanque?"
+            ],
+            "desc": [
+                "Deal partial unmitigated fire damage to all enemies",
+                "對全體敵人發動無視部分防禦的火屬性攻擊",
+                "적 전체에 불속성 일부 방어 무시 피해",
+                "Dégâts de feu en partie fixes à tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Feuerschaden zu.",
+                "Daño parcial absoluto de fuego a todos los enemigos"
+            ]
+        }
+    },
+    "401004204": {
+        "name": "Where's my tank?",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[167]],
+        "effect_frames": [[150,  150,  0,  146,  150,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical fire damage (3.47x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  260,  -25]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical fire damage (4.4x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  330,  -25]]]},
+        "strings": {
+            "name": [
+                "Where's my tank?",
+                "我的坦克在哪？",
+                "내 탱크는 어디에?",
+                "L'est où mon tank ?",
+                "Wo ist mein Panzer?",
+                "¿Dónde está mi tanque?"
+            ],
+            "desc": [
+                "Deal partial unmitigated fire damage to all enemies",
+                "對全體敵人發動無視部分防禦的火屬性攻擊",
+                "적 전체에 불속성 일부 방어 무시 피해",
+                "Dégâts de feu en partie fixes à tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Feuerschaden zu.",
+                "Daño parcial absoluto de fuego a todos los enemigos"
+            ]
+        }
+    },
+    "401004205": {
+        "name": "Where's my tank?",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[167]],
+        "effect_frames": [[149,  149,  0,  142,  149,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical fire damage (4x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  300,  -25]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical fire damage (5.27x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  395,  -25]]]},
+        "strings": {
+            "name": [
+                "Where's my tank?",
+                "我的坦克在哪？",
+                "내 탱크는 어디에?",
+                "L'est où mon tank ?",
+                "Wo ist mein Panzer?",
+                "¿Dónde está mi tanque?"
+            ],
+            "desc": [
+                "Deal partial unmitigated fire damage to all enemies",
+                "對全體敵人發動無視部分防禦的火屬性攻擊",
+                "적 전체에 불속성 일부 방어 무시 피해",
+                "Dégâts de feu en partie fixes à tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Feuerschaden zu.",
+                "Daño parcial absoluto de fuego a todos los enemigos"
+            ]
+        }
+    },
+    "401004303": {
+        "name": "Heavy Fire",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[13,  13,  17,  17,  20,  20]],
+        "attack_frames": [[30,  33,  60,  63,  153,  160]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (2.3x, ATK) to one enemy",
+                "Increase resistance to all elements by 10% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  230,  0]], [2, 2, 33, [10,  10,  10,  10,  10,  10,  10,  10,  1,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (2.75x, ATK) to one enemy",
+                "Increase resistance to all elements by 10% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  275,  0]], [2, 2, 33, [10,  10,  10,  10,  10,  10,  10,  10,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Heavy Fire",
+                "重裝火力",
+                "집중 포화",
+                "Déluge de balles",
+                "Schwerer Beschuss",
+                "Fuego pesado"
+            ],
+            "desc": [
+                "Damage one enemy and boost all elemental resistances for all allies for 3 turns",
+                "攻擊1名敵人+3回合內提高全體隊員的全屬性耐性",
+                "적 1명에게 피해+3턴 동안 아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승",
+                "Dégâts à un ennemi et augmente toutes les résistances élémentaires de tous les alliés pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und erhöht 3 Runden lang alle Elementarres. aller Verb.",
+                "Daña a un enemigo y aumenta la resistencia de los aliados a todos los elementos durante 3 turnos"
+            ]
+        }
+    },
+    "401004304": {
+        "name": "Heavy Fire",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[13,  13,  17,  17,  20,  20]],
+        "attack_frames": [[30,  33,  60,  63,  153,  160]],
+        "effect_frames": [[0,  0,  65,  155,  160]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (2.5x, ATK) to one enemy",
+                "Increase resistance to all elements by 15% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250,  0]], [2, 2, 33, [15,  15,  15,  15,  15,  15,  15,  15,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3.2x, ATK) to one enemy",
+                "Increase resistance to all elements by 15% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  320,  0]], [2, 2, 33, [15,  15,  15,  15,  15,  15,  15,  15,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Heavy Fire",
+                "重裝火力",
+                "집중 포화",
+                "Déluge de balles",
+                "Schwerer Beschuss",
+                "Fuego pesado"
+            ],
+            "desc": [
+                "Damage one enemy and boost all elemental resistances for all allies for 3 turns",
+                "攻擊1名敵人+3回合內提高全體隊員的全屬性耐性",
+                "적 1명에게 피해+3턴 동안 아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승",
+                "Dégâts à un ennemi et augmente toutes les résistances élémentaires de tous les alliés pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und erhöht 3 Runden lang alle Elementarres. aller Verb.",
+                "Daña a un enemigo y aumenta la resistencia de los aliados a todos los elementos durante 3 turnos"
+            ]
+        }
+    },
+    "401004305": {
+        "name": "Heavy Fire",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[13,  13,  17,  17,  20,  20]],
+        "attack_frames": [[30,  33,  60,  63,  153,  160]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (2.7x, ATK) to one enemy",
+                "Increase resistance to all elements by 20% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3.65x, ATK) to one enemy",
+                "Increase resistance to all elements by 20% for 3 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  365,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Heavy Fire",
+                "重裝火力",
+                "집중 포화",
+                "Déluge de balles",
+                "Schwerer Beschuss",
+                "Fuego pesado"
+            ],
+            "desc": [
+                "Damage one enemy and boost all elemental resistances for all allies for 3 turns",
+                "攻擊1名敵人+3回合內提高全體隊員的全屬性耐性",
+                "적 1명에게 피해+3턴 동안 아군 전체의 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승",
+                "Dégâts à un ennemi et augmente toutes les résistances élémentaires de tous les alliés pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und erhöht 3 Runden lang alle Elementarres. aller Verb.",
+                "Daña a un enemigo y aumenta la resistencia de los aliados a todos los elementos durante 3 turnos"
+            ]
         }
     }
 }
