@@ -7925,7 +7925,7 @@
             ],
             "desc_short": [
                 "Boost EXP obtained from battle",
-                "提高獲得的經驗值",
+                "提高任務獲得的經驗值",
                 "획득 경험치 상승",
                 "Augmente l'EXP obtenue en combat",
                 "Erhöht EXP aus Kämpfen",
@@ -13990,7 +13990,7 @@
         "unit_restriction": null,
         "skills": [219260],
         "effects": ["Grants 'L Shield Arts' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_95.png",
@@ -14004,20 +14004,20 @@
                 "Secreto de escudo L"
             ],
             "desc_short": [
-                "Boost DEF and SPR when equipped with a light shield",
-                "提高裝備輕盾時防禦精神的數值",
-                "가벼운 방패 장착 시 방어력과 정신력 상승",
-                "Augmente la DEF et la PSY lorsqu'un bouclier léger est équipé",
-                "Erhöht ABW und PSY, wenn mit leichtem Schild ausgerüstet.",
-                "Aumenta DEF y ESP al llevar escudo ligero"
+                "Boost DEF and SPR when equipped with a light shield (Not stackable)",
+                "提高裝備輕盾時防禦精神的數值  [無法重複裝備]",
+                "가벼운 방패 장착 시 방어력과 정신력 상승 [중복 장착 불가]",
+                "Augmente la DEF et la PSY lorsqu'un bouclier léger est équipé (non cumulable)",
+                "Erhöht ABW und PSY, wenn mit leichtem Schild ausgerüstet (Nicht stapelbar).",
+                "Aumenta DEF y ESP al llevar escudo ligero (no acumulable)"
             ],
             "desc_long": [
-                "Boosts DEF and SPR when equipped with a light shield.",
-                "提高裝備輕盾時防禦精神的數值。",
-                "가벼운 방패 장착 시 방어력과 정신력이 상승합니다.",
-                "Augmente la DEF et la PSY lorsqu'un bouclier léger est équipé",
-                "Erhöht ABW und PSY, wenn mit leichtem Schild ausgerüstet.",
-                "Aumenta la DEF y el ESP al llevar escudo ligero."
+                "Boosts DEF and SPR when equipped with a light shield. Not stackable.",
+                "提高裝備輕盾時防禦精神的數值。無法重複裝備。",
+                "가벼운 방패 장착 시 방어력과 정신력이 상승합니다. [중복 장착 불가]",
+                "Augmente la DEF et la PSY lorsqu'un bouclier léger est équipé. Pas cumulable.",
+                "Erhöht ABW und PSY, wenn mit leichtem Schild ausgerüstet. Nicht stapelbar.",
+                "Aumenta la DEF y el ESP al llevar escudo ligero. No acumulable."
             ]
         }
     },
@@ -14712,7 +14712,7 @@
         "unit_restriction": null,
         "skills": [221560],
         "effects": ["Grants 'H Armor Arts' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_95.png",
@@ -14722,24 +14722,24 @@
                 "重鎧的秘義",
                 "중갑의 비의",
                 "Secret d'armure L",
-                "Schwere Rüstungs-Künste",
+                "Schwere Rüstungskünste",
                 "Secretos de armadura P"
             ],
             "desc_short": [
-                "Boost HP and DEF when equipped with heavy armor",
-                "提高裝備重鎧甲時HP防禦的數值",
-                "중갑 장착 시 HP와 방어력 상승",
-                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée",
-                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgerüstet.",
-                "Aumenta la VIT y la DEF al llevar armadura pesada"
+                "Boost HP and DEF when equipped with heavy armor (Not stackable)",
+                "提高裝備重鎧甲時HP防禦的數值  [無法重複裝備]",
+                "중갑 장착 시 HP와 방어력 상승 [중복 장착 불가]",
+                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée (non cumulable)",
+                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgerüstet (Nicht stapelbar).",
+                "Aumenta la VIT y la DEF al llevar armadura pesada (no acumulable)"
             ],
             "desc_long": [
-                "Boosts HP and DEF when equipped with heavy armor.",
-                "提高裝備重鎧甲時HP防禦的數值。",
-                "중갑 장착 시 HP와 방어력이 상승합니다.",
-                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée",
-                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgerüstet.",
-                "Aumenta la VIT y la DEF al llevar armadura pesada."
+                "Boosts HP and DEF when equipped with heavy armor. Not stackable.",
+                "提高裝備重鎧甲時HP防禦的數值。（無法重複裝備）",
+                "중갑 장착 시 HP와 방어력이 상승합니다. [중복 장착 불가]",
+                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée. Non cumulable.",
+                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgerüstet (Nicht stapelbar).",
+                "Aumenta la VIT y la DEF al llevar armadura pesada (no acumulable)."
             ]
         }
     },
@@ -18419,6 +18419,44 @@
                 "Augmente l'ATT de 20%.",
                 "Erhöht ANG um 20%.",
                 "Aumenta el ATQ un 20%"
+            ]
+        }
+    },
+    "1500000060": {
+        "name": "Divine Blessing",
+        "compendium_id": 90060,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911168],
+        "effects": ["Grants 'Divine Blessing' passive."],
+        "unique": false,
+        "price_buy": 100,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Divine Blessing",
+                "神聖祝福",
+                "신의 은총",
+                "Bénédiction divine",
+                "Göttlicher Segen",
+                "Bendición divina"
+            ],
+            "desc_short": [
+                "Boost HP by 15%, restore HP each turn, and boost EXP obtained from battle",
+                "提高15%HP+每回合恢復HP+提高任務獲得的經驗值",
+                "HP 15% 상승+매 턴마다 HP 회복+전투 중 획득 경험치 상승",
+                "Augmente les PV de 15%, restaure les PV à chaque tour et augmente l'EXP obtenue en combat",
+                "Erhöht LP um 15%, regeneriert LP jede Runde und erhöht im Kampf erhaltene EXP.",
+                "Aumenta la VIT un 15%, recupera VIT cada turno y potencia la EXP que se consigue durante el combate"
+            ],
+            "desc_long": [
+                "Boost HP by 15%, restore HP each turn, and boost EXP obtained from battle.",
+                "提高15%HP，每回合恢復HP，並提高任務獲得的經驗值。",
+                "HP가 15% 상승하며, 매 턴마다 HP를 회복하고, 전투 중 획득 경험치가 상승합니다.",
+                "Augmente les PV de 15%, restaure les PV à chaque tour et augmente l'EXP obtenue en combat.",
+                "Erhöht LP um 15%, regeneriert LP jede Runde und erhöht im Kampf erhaltene EXP.",
+                "Aumenta la VIT un 15%, recupera VIT cada turno y potencia la EXP que se consigue durante el combate."
             ]
         }
     }

@@ -3929,6 +3929,19 @@
         ]
     },
     "1125107": {
+        "dungeon_id": 11251,
+        "name": "New Trial of the Guardian",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -12046,6 +12059,19 @@
         ]
     },
     "1325107": {
+        "dungeon_id": 13251,
+        "name": "New Trial of the Ruby",
+        "type": "EXPLORATION",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 100,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -27381,7 +27407,7 @@
     },
     "2210103": {
         "dungeon_id": 22101,
-        "name": "夢幻の迷宮・上級",
+        "name": "The Enchanted Maze - ADV",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
@@ -81329,6 +81355,43 @@
             }
         ]
     },
+    "9003117": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Orange & White PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 35,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 100,
+        "exp": 135,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
     "9003201": {
         "dungeon_id": 90032,
         "name": "Vault of Hidden Treasures",
@@ -90375,6 +90438,19 @@
         ]
     },
     "11421507": {
+        "dungeon_id": 114215,
+        "name": "Energy Extraction Station Center - Break In",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 137,
+        "exp": 636,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -90770,7 +90846,7 @@
     },
     "11421604": {
         "dungeon_id": 114216,
-        "name": "Nirvana Woods - Life Stealing Soul",
+        "name": "Nirvana Woods - Life-stealing Soul",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
