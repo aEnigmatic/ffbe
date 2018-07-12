@@ -3343,6 +3343,30 @@
             ]
         }
     },
+    "504100770": {
+        "name": "Equip Robe",
+        "compendium_id": 793,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [100770],
+        "effects": ["Grants 'ローブ装備' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_96.png",
+        "strings": {
+            "names": [
+                "Equip Robe",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "504100780": {
         "name": "Equip L Sword",
         "compendium_id": 222,
@@ -15427,6 +15451,30 @@
             ]
         }
     },
+    "504222190": {
+        "name": "Plant Killer+",
+        "compendium_id": 787,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [222190],
+        "effects": ["Grants 'Plant Killer+' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Plant Killer+",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "504222860": {
         "name": "Chosen One",
         "compendium_id": 723,
@@ -16013,7 +16061,7 @@
                 "Seed of Hope",
                 "幸運兒",
                 "포츈 베이비",
-                "Bébé chanceux",
+                "Graine d'espoir",
                 "Glücksbaby",
                 "Criatura afortunada"
             ],
@@ -16166,8 +16214,8 @@
                 "騎士的心願",
                 "기사의 소망",
                 "Espoir de chevalier",
-                "Wunsch des Magiers",
-                "Esperanza de mago"
+                "Wunsch des Ritters",
+                "Esperanza de caballero"
             ],
             "desc_short": [
                 "Boost ATK and DEF by 10%",
@@ -16204,8 +16252,8 @@
                 "魔道士的心願",
                 "마도사의 소망",
                 "Espoir de mage",
-                "Wunsch des Ritters",
-                "Esperanza de caballero"
+                "Wunsch des Magiers",
+                "Esperanza de mago"
             ],
             "desc_short": [
                 "Boost MAG and SPR by 10%",
@@ -16231,8 +16279,8 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226380],
-        "effects": ["Grants 'Hero's Vow - Darkness' passive."],
-        "unique": false,
+        "effects": ["Grants 'Hero's Vow - Dark' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_78.png",
@@ -16246,21 +16294,1561 @@
                 "Voto del héroe - Oscuridad"
             ],
             "desc_short": [
-                "Increase burst stone fill rate and boost ATK when equipped with a short sword, sword, large sword, or katana",
-                "提高極限技石對極限技槽的增加量+提高裝備短劍劍大劍刀時攻擊的數值",
-                "LB 게이지 효율 상승+단검, 검, 대검, 도 장착 시 공격력 상승",
-                "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé",
-                "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet.",
-                "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana"
+                "Increase burst stone fill rate and boost ATK when equipped with a short sword, sword, large sword, or katana (Not stackable)",
+                "提高極限技石對極限技槽的增加量+提高裝備短劍劍大劍刀時攻擊的數值[無法重複裝備]",
+                "LB 게이지 효율 상승+단검, 검, 대검, 도 장착 시 공격력 상승 (중복 장착 불가)",
+                "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé (non cumulable)",
+                "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet (Nicht stapelbar).",
+                "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana (no acumulable)"
             ],
             "desc_long": [
-                "Increases fill rate of burst stones, and boosts ATK when equipped with a short sword, sword, large sword, or katana.",
-                "提高極限技石對極限技槽的增加量，並提高裝備短劍劍大劍刀時攻擊的數值。",
-                "LB 게이지 효율이 상승하고, 단검, 검, 대검, 도 장착 시 공격력이 상승합니다.",
-                "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé",
-                "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet.",
-                "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana."
+                "Increases fill rate of burst stones, and boosts ATK when equipped with a short sword, sword, large sword, or katana. Not stackable.",
+                "提高極限技石對極限技槽的增加量，並提高裝備短劍劍大劍刀時攻擊的數值[無法重複裝備]。",
+                "LB 게이지 효율이 상승하고, 단검, 검, 대검, 도 장착 시 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente le taux de remplissage des pierres de limite et augmente l'ATT lorsqu'une épée normale, courte, longue ou un katana est équipé. Non cumulable.",
+                "Verstärkt den Effekt von Limitsteinen und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet. (nicht stapelbar).",
+                "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada larga o katana (no acumulable)."
             ]
+        }
+    },
+    "504226406": {
+        "name": "Vagrant Knight",
+        "compendium_id": 763,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226406],
+        "effects": ["Grants 'Vagrant Knight' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Vagrant Knight",
+                "彷徨騎士",
+                "방황의 기사",
+                "Chevalier vagabond",
+                "Wandernder Ritter",
+                "Rain caballero mendicante"
+            ],
+            "desc_short": [
+                "Boost HP, MP by 15% and DEF, SPR by 20%",
+                "提高15%HPMP+提高20%防禦精神",
+                "HP와 MP 15% 상승+방어력과 정신력 20% 상승",
+                "Augmente les PV/PM de 15% et la DEF/PSY de 20%",
+                "Erhöht LP/MP um 15% und ABW/PSY um 20%.",
+                "Aumenta la VIT y los PM un 15%, y la DEF y el ESP un 20%"
+            ],
+            "desc_long": [
+                "Boosts HP, MP by 15% and DEF, SPR by 20%.",
+                "提高15%HPMP，並提高20%防禦精神。",
+                "HP와 MP가 15% 상승하고, 방어력과 정신력이 20% 상승합니다.",
+                "Augmente les PV et les PM de 15% ainsi que la DEF et la PSY de 20%",
+                "Erhöht LP/MP um 15% und ABW/PSY um 20%.",
+                "Aumenta la VIT y los PM un 15%, y la DEF y el ESP un 20%."
+            ]
+        }
+    },
+    "504226422": {
+        "name": "Protector of Lapis",
+        "compendium_id": 764,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226422],
+        "effects": ["Grants 'Protector of Lapis' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Protector of Lapis",
+                "拉比斯的守護者",
+                "라피스를 지키는 자",
+                "Protecteur de Lapis",
+                "Verteidiger von Lapis",
+                "Protector de Lapis"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and SPR by 40%, and fill the LB gauge every turn",
+                "提高20%HP、40%精神+每回合自動增加極限技槽",
+                "HP 20%, 정신력 40% 상승+매 턴마다 LB 게이지 증가",
+                "Augmente les PV de 20%, la PSY de 40% et remplit la jauge de limite à chaque tour",
+                "Erhöht LP um 20% und PSY um 40%, Limitmeter steigt in jeder Runde",
+                "Aumenta VIT un 20% y MAG un 40%, la barra de ESP se llena cada turno"
+            ],
+            "desc_long": [
+                "Boosts HP by 20% and SPR by 40%, and fills the LB gauge every turn.",
+                "提高20%HP、40%精神，並且每回合自動增加極限技槽。",
+                "HP가 20%, 정신력이 40% 상승하고, 매 턴마다 LB 게이지가 증가합니다.",
+                "Augmente les PV de 20%, la PSY de 40% et remplit la jauge de limite à chaque tour",
+                "Erhöht LP um 20% und PSY um 40%, Limitmeter steigt in jeder Runde",
+                "Aumenta los VIT un 20% y la ESP un 40%, la barra de EL se llena cada turno."
+            ]
+        }
+    },
+    "504226639": {
+        "name": "Lion Heart",
+        "compendium_id": 794,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226639],
+        "effects": ["Grants '獅子の心' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_91.png",
+        "strings": {
+            "names": [
+                "Lion Heart",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226653": {
+        "name": "Winged Heart",
+        "compendium_id": 795,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226653],
+        "effects": ["Grants 'ウィングハート' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_19.png",
+        "strings": {
+            "names": [
+                "Winged Heart",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226880": {
+        "name": "The Subservient",
+        "compendium_id": 765,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226880],
+        "effects": ["Grants 'The Subservient' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "The Subservient",
+                "被利用者",
+                "이용당한 자",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226881": {
+        "name": "Dark Swordplay",
+        "compendium_id": 766,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226881],
+        "effects": ["Grants '暗黒の剣技' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [
+                "Dark Swordplay",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226882": {
+        "name": "Origin of Arrival",
+        "compendium_id": 767,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226882],
+        "effects": ["Grants 'アライバルオリジン' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_9.png",
+        "strings": {
+            "names": [
+                "Origin of Arrival",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226883": {
+        "name": "Fayth's Dream",
+        "compendium_id": 768,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226883],
+        "effects": ["Grants 'Praying Child's Dream' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Fayth's Dream",
+                "祈禱者的夢",
+                "기도자의 꿈",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226892": {
+        "name": "Corrupt Emperor",
+        "compendium_id": 769,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226892],
+        "effects": ["Grants '背徳の皇帝' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Corrupt Emperor",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226893": {
+        "name": "Onion Knight's Mission",
+        "compendium_id": 770,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226893],
+        "effects": ["Grants 'たまねぎの使命' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Onion Knight's Mission",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226894": {
+        "name": "Panzer Omega",
+        "compendium_id": 771,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226894],
+        "effects": ["Grants 'パンツァーオメガ' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Panzer Omega",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226895": {
+        "name": "Wave Cannon",
+        "compendium_id": 772,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226895],
+        "effects": ["Grants 'はどうほう' ability."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [
+                "Wave Cannon",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226896": {
+        "name": "Lightning Resistance +20%",
+        "compendium_id": 773,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226896],
+        "effects": ["Grants '雷属性耐性+20%' passive."],
+        "unique": false,
+        "price_buy": 5000,
+        "price_sell": 500,
+        "icon": "ability_13.png",
+        "strings": {
+            "names": [
+                "Lightning Resistance +20%",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226898": {
+        "name": "Physical Force",
+        "compendium_id": 774,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226898],
+        "effects": ["Grants 'フィジカルフォース' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Physical Force",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226899": {
+        "name": "Magical Force",
+        "compendium_id": 775,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226899],
+        "effects": ["Grants 'マジカルフォース' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Magical Force",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226900": {
+        "name": "Swift Hunter",
+        "compendium_id": 776,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226900],
+        "effects": ["Grants '神速の狩人' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [
+                "Swift Hunter",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226901": {
+        "name": "Whip Mastery",
+        "compendium_id": 777,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226901],
+        "effects": ["Grants '鞭の極意' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Whip Mastery",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226902": {
+        "name": "Brave Lancer",
+        "compendium_id": 778,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226902],
+        "effects": ["Grants 'ブレイブランサー' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Brave Lancer",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226903": {
+        "name": "Twin Repellent",
+        "compendium_id": 779,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226903],
+        "effects": ["Grants '剣魔双麗' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Twin Repellent",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504226980": {
+        "name": "Lord of the Underworld",
+        "compendium_id": 780,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [226980],
+        "effects": ["Grants '地獄の帝王' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Lord of the Underworld",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227020": {
+        "name": "King of the Beasts",
+        "compendium_id": 781,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227020],
+        "effects": ["Grants '獣族の王' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "King of the Beasts",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227076": {
+        "name": "Demon Trick",
+        "compendium_id": 782,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227076],
+        "effects": ["Grants '小悪魔のたくらみ' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_98.png",
+        "strings": {
+            "names": [
+                "Demon Trick",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227209": {
+        "name": "Witch's Laugh",
+        "compendium_id": 796,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227209],
+        "effects": ["Grants '魔女の高笑い' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_91.png",
+        "strings": {
+            "names": [
+                "Witch's Laugh",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227237": {
+        "name": "Shadow Devourer",
+        "compendium_id": 783,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227237],
+        "effects": ["Grants 'デバウアーオブシャドーズ' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Shadow Devourer",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227260": {
+        "name": "Brave Explorer",
+        "compendium_id": 785,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227260],
+        "effects": ["Grants '冒険者の勇気' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Brave Explorer",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227261": {
+        "name": "Faithful Explorer",
+        "compendium_id": 786,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227261],
+        "effects": ["Grants '冒険者の信念' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Faithful Explorer",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227270": {
+        "name": "Force Mysterion",
+        "compendium_id": 788,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227270],
+        "effects": ["Grants 'フォスミステリオン' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Force Mysterion",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227271": {
+        "name": "Dark Aspirations",
+        "compendium_id": 789,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227271],
+        "effects": ["Grants '黒き野望' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Dark Aspirations",
+                "黑色野心",
+                "검은 야망",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227272": {
+        "name": "Trials of the Hexatheon",
+        "compendium_id": 790,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227272],
+        "effects": ["Grants '六神の啓示' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Trials of the Hexatheon",
+                "六神之啟示",
+                "여섯 신의 계시",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227273": {
+        "name": "Loyal General",
+        "compendium_id": 791,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227273],
+        "effects": ["Grants '忠義の女将軍' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [
+                "Loyal General",
+                "忠義女將軍",
+                "충의의 여장군",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227274": {
+        "name": "Soul of the Summoner",
+        "compendium_id": 792,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227274],
+        "effects": ["Grants '召喚の真髄' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Soul of the Summoner",
+                "召喚之真髓",
+                "소환의 진수",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227318": {
+        "name": "Drake's Affection",
+        "compendium_id": 797,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227318],
+        "effects": ["Grants '慈愛の竜賢' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Drake's Affection",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227328": {
+        "name": "White Heart",
+        "compendium_id": 798,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227328],
+        "effects": ["Grants 'ホワイトハート' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_91.png",
+        "strings": {
+            "names": [
+                "White Heart",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227389": {
+        "name": "Fighter of the Dark",
+        "compendium_id": 799,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227389],
+        "effects": ["Grants '闇を払う力' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Fighter of the Dark",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227410": {
+        "name": "Metamol",
+        "compendium_id": 800,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227410],
+        "effects": ["Grants 'メタモルモルボル' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_68.png",
+        "strings": {
+            "names": [
+                "Metamol",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227411": {
+        "name": "Bad Breath",
+        "compendium_id": 801,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227411],
+        "effects": ["Grants 'くさい息' ability."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_14.png",
+        "strings": {
+            "names": [
+                "Bad Breath",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227413": {
+        "name": "Fiery Avoidance",
+        "compendium_id": 802,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227413],
+        "effects": ["Grants '耐火の希求' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_11.png",
+        "strings": {
+            "names": [
+                "Fiery Avoidance",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227414": {
+        "name": "Watery Avoidance",
+        "compendium_id": 803,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227414],
+        "effects": ["Grants '止水の希求' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_18.png",
+        "strings": {
+            "names": [
+                "Watery Avoidance",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227428": {
+        "name": "Holy Knight",
+        "compendium_id": 804,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227428],
+        "effects": ["Grants '聖剣の騎士' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Holy Knight",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227448": {
+        "name": "Kaliva's Guidance",
+        "compendium_id": 805,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227448],
+        "effects": ["Grants 'カリバの導き' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Kaliva's Guidance",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227459": {
+        "name": "Technical Attacker",
+        "compendium_id": 806,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227459],
+        "effects": ["Grants 'テクニカルアタッカー' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_75.png",
+        "strings": {
+            "names": [
+                "Technical Attacker",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227506": {
+        "name": "Zodiac Barret",
+        "compendium_id": 807,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227506],
+        "effects": ["Grants 'ゾディアックバレット' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Zodiac Barret",
+                "黃道彈",
+                "조디악 불릿",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227527": {
+        "name": "Truth Seeker",
+        "compendium_id": 808,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227527],
+        "effects": ["Grants '真実を探る者' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Truth Seeker",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227555": {
+        "name": "Shield of the Chosen King",
+        "compendium_id": 809,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227555],
+        "effects": ["Grants '選ばれし王の盾' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Shield of the Chosen King",
+                "被選中的王之盾",
+                "선택받은 왕의 방패",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227586": {
+        "name": "Booster Cactuar",
+        "compendium_id": 810,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227586],
+        "effects": ["Grants 'ブースト・サボテン' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Booster Cactuar",
+                "增壓‧仙人掌",
+                "사보텐 부스트",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227605": {
+        "name": "White Lotus",
+        "compendium_id": 811,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227605],
+        "effects": ["Grants '白妙の聖蓮' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_91.png",
+        "strings": {
+            "names": [
+                "White Lotus",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227625": {
+        "name": "Sky Lancer",
+        "compendium_id": 812,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227625],
+        "effects": ["Grants 'スカイランサー' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [
+                "Sky Lancer",
+                "空中長槍",
+                "스카이랜서",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227640": {
+        "name": "EXP +25%",
+        "compendium_id": 813,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227640],
+        "effects": ["Grants '獲得経験値+25%' passive."],
+        "unique": false,
+        "price_buy": 8000,
+        "price_sell": 800,
+        "icon": "ability_81.png",
+        "strings": {
+            "names": [
+                "EXP +25%",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227641": {
+        "name": "EXP +50%",
+        "compendium_id": 814,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227641],
+        "effects": ["Grants '獲得経験値+50%' passive."],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_81.png",
+        "strings": {
+            "names": [
+                "EXP +50%",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227666": {
+        "name": "Hero's Vow - Light",
+        "compendium_id": 816,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227666],
+        "effects": ["Grants '英雄の誓い・光' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_78.png",
+        "strings": {
+            "names": [
+                "Hero's Vow - Light",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227682": {
+        "name": "Machine Power",
+        "compendium_id": 817,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227682],
+        "effects": ["Grants 'マシンパワー' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Machine Power",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227701": {
+        "name": "Brave Soul",
+        "compendium_id": 815,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227701],
+        "effects": ["Grants '勇者の魂' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Brave Soul",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227712": {
+        "name": "Platinum Recall",
+        "compendium_id": 818,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227712],
+        "effects": ["Grants 'プラチナへの想い' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Platinum Recall",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227713": {
+        "name": "Gem of Creation",
+        "compendium_id": 819,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227713],
+        "effects": ["Grants '生成の珠' passive."],
+        "unique": false,
+        "price_buy": 8000,
+        "price_sell": 800,
+        "icon": "ability_81.png",
+        "strings": {
+            "names": [
+                "Gem of Creation",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227714": {
+        "name": "Gem of Vision",
+        "compendium_id": 820,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227714],
+        "effects": ["Grants '幻視の珠' ability."],
+        "unique": false,
+        "price_buy": 8000,
+        "price_sell": 800,
+        "icon": "ability_2.png",
+        "strings": {
+            "names": [
+                "Gem of Vision",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227847": {
+        "name": "Grown Heart",
+        "compendium_id": 821,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227847],
+        "effects": ["Grants 'ちょっと背伸びした心' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Grown Heart",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227865": {
+        "name": "Regretful Memories",
+        "compendium_id": 822,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227865],
+        "effects": ["Grants '悔恨の記憶' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Regretful Memories",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227902": {
+        "name": "Dragonslayer Force",
+        "compendium_id": 823,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227902],
+        "effects": ["Grants '竜終の武力' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Dragonslayer Force",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227903": {
+        "name": "Dragonslayer Magic",
+        "compendium_id": 824,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227903],
+        "effects": ["Grants '竜終の魔力' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Dragonslayer Magic",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227926": {
+        "name": "Blood of the Dragon",
+        "compendium_id": 827,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227926],
+        "effects": ["Grants '竜種の血' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_9.png",
+        "strings": {
+            "names": [
+                "Blood of the Dragon",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227930": {
+        "name": "Absolute Devotion",
+        "compendium_id": 825,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227930],
+        "effects": ["Grants '絶対の忠義' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Absolute Devotion",
+                "絕對忠義",
+                "절대적인 충의",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504227931": {
+        "name": "Twisted Hero",
+        "compendium_id": 826,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227931],
+        "effects": ["Grants 'Twisted Hero' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Twisted Hero",
+                "扭曲的英雄",
+                "일그러진 영웅",
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504400110": {
+        "name": "Encounter Reduction",
+        "compendium_id": 784,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [400110],
+        "effects": ["Grants 'Reduce Encounter' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_71.png",
+        "strings": {
+            "names": [
+                "Encounter Reduction",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "1500000000": {
@@ -17872,7 +19460,7 @@
                 "Aumenta el ESP un 20% y los PM un 15%"
             ],
             "desc_long": [
-                "Boost SPR by 20% and MP by 15%.",
+                "Boosts SPR by 20% and MP by 15%.",
                 "提高20%精神的數值，並提高15%MP。",
                 "정신력이 20% 상승하고, MP가 15% 상승합니다.",
                 "Augmente la PSY de 20% et les PM de 15%.",
@@ -17989,7 +19577,7 @@
                 "Aumenta la MAG un 20% y los PM un 15%"
             ],
             "desc_long": [
-                "Boost MAG by 20% and MP by 15%.",
+                "Boosts MAG by 20% and MP by 15%.",
                 "提高20%魔力的數值，並提高15%MP。",
                 "마력이 20% 상승하고, MP가 15% 상승합니다.",
                 "Augmente la MAGIE de 20% et les PM de 15%.",
@@ -18027,7 +19615,7 @@
                 "Aumenta el daño mágico contra demonios (no acumulable)"
             ],
             "desc_long": [
-                "Boost magic damage dealt against demons. Not stackable.",
+                "Boosts magic damage dealt against demons. Not stackable.",
                 "魔法攻擊時提高對惡魔系魔物的傷害[無法重複裝備]。",
                 "마법공격 시 악마형 마물에게 주는 피해량이 상승합니다.(중복 장착 불가)",
                 "Augmente les dégâts magiques infligés aux démons. Non cumulable.",
@@ -18238,7 +19826,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911159],
-        "effects": ["Grants 'Scorpion Stinger' passive."],
+        "effects": ["Unknown skill (911159)"],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18276,7 +19864,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911160],
-        "effects": ["Grants 'Keeper's Gate' passive."],
+        "effects": ["Unknown skill (911160)"],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18314,7 +19902,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911161],
-        "effects": ["Grants 'Defender's Barrier' passive."],
+        "effects": ["Unknown skill (911161)"],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18352,7 +19940,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911162],
-        "effects": ["Grants 'Midfielder's Potential' passive."],
+        "effects": ["Unknown skill (911162)"],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18390,7 +19978,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [911163],
-        "effects": ["Grants 'Striker's Roundhouse' passive."],
+        "effects": ["Unknown skill (911163)"],
         "unique": false,
         "price_buy": 10000,
         "price_sell": 1000,
@@ -18457,6 +20045,44 @@
                 "Augmente les PV de 15%, restaure les PV à chaque tour et augmente l'EXP obtenue en combat.",
                 "Erhöht LP um 15%, regeneriert LP jede Runde und erhöht im Kampf erhaltene EXP.",
                 "Aumenta la VIT un 15%, recupera VIT cada turno y potencia la EXP que se consigue durante el combate."
+            ]
+        }
+    },
+    "1500000063": {
+        "name": "Scholarly Wisdom",
+        "compendium_id": 90063,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911179],
+        "effects": ["Grants 'Scholarly Wisdom' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Scholarly Wisdom",
+                "學術智慧",
+                "학자의 지혜",
+                "Sagesse d'érudit",
+                "Gelehrsame Weisheit",
+                "Sabiduría del erudito"
+            ],
+            "desc_short": [
+                "Boost MAG by 40% and DEF, SPR by 10%",
+                "提高40%魔力+提高10%防禦精神",
+                "마력 40% 상승+방어력과 정신력 10% 상승",
+                "Augmente la MAGIE de 40%, ainsi que la DEF et la PSY de 10%",
+                "Erhöht MAG um 40% und ABW/PSY um 10%.",
+                "Aumenta la MAG un 40%, y la DEF y el ESP un 10%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 40% and DEF, SPR by 10%.",
+                "提高40%魔力，並提高10%防禦精神。",
+                "마력이 40% 상승하고, 방어력과 정신력이 10% 상승합니다.",
+                "Augmente la MAGIE de 40%, ainsi que la DEF et la PSY de 10%.",
+                "Erhöht MAG um 40% und ABW/PSY um 10%.",
+                "Aumenta la MAG un 40%, y la DEF y el ESP un 10%."
             ]
         }
     }
