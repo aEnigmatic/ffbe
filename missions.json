@@ -17065,6 +17065,19 @@
         ]
     },
     "1515007": {
+        "dungeon_id": 15151,
+        "name": "New Trial of the Giant",
+        "type": "EXPLORATION",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 300,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -21270,6 +21283,19 @@
         ]
     },
     "1625107": {
+        "dungeon_id": 16251,
+        "name": "New Trial of the Goddess",
+        "type": "EXPLORATION",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 300,
+        "exp": 1000,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -27044,19 +27070,6 @@
         ]
     },
     "2111104": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - White & Black",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -27081,19 +27094,6 @@
         ]
     },
     "2111105": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Green & Orange",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -27118,19 +27118,6 @@
         ]
     },
     "2111106": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Yellow & Blue",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -27155,19 +27142,6 @@
         ]
     },
     "2111107": {
-        "dungeon_id": 21111,
-        "name": "Chamber of Crystals - Red & Violet",
-        "type": "BATTLE",
-        "wave_count": 4,
-        "cost_type": "NRG",
-        "cost": 20,
-        "flags": {
-            "continue_allowed": true,
-            "escape_allowed": true
-        },
-        "reward": null,
-        "gil": 50,
-        "exp": 90,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -93139,6 +93113,43 @@
     "9003117": {
         "dungeon_id": 21111,
         "name": "Chamber of Crystals - Orange & White PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 35,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 100,
+        "exp": 135,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9003118": {
+        "dungeon_id": 21111,
+        "name": "Chamber of Crystals - Green & Black PRO",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
