@@ -16703,7 +16703,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226896],
-        "effects": ["Grants '雷属性耐性+20%' passive."],
+        "effects": ["Grants 'Lightning Resistance +20%' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -16711,14 +16711,28 @@
         "strings": {
             "names": [
                 "Lightning Resistance +20%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "雷屬性耐性+20%",
+                "번개속성 저항력+20%",
+                "Rés. à la foudre +20%",
+                "Donnerresistenz +20%",
+                "Resistencia al rayo +20%"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost lightning resistance by 20%",
+                "提高20%雷屬性耐性",
+                "번개속성 저항력 20% 상승",
+                "Augmente la résistance à la foudre de 20%",
+                "Erhöht Blitzresistenz um 20%.",
+                "Aumenta la resistencia a la luz un 20%."
+            ],
+            "desc_long": [
+                "Boosts lightning resistance by 20%.",
+                "提高20%雷屬性耐性的數值。",
+                "번개속성 저항력이 20% 상승합니다.",
+                "Augmente la résistance à la foudre de 20%",
+                "Erhöht Blitzresistenz um 20%.",
+                "Aumenta la resistencia a la luz un 20%."
+            ]
         }
     },
     "504226898": {
@@ -16751,7 +16765,7 @@
             ],
             "desc_long": [
                 "Boost HP and ATK by 10%.",
-                "提高10%HP、攻擊。",
+                "提高10%HP、攻擊",
                 "HP와 공격력이 10% 상승합니다.",
                 "Augmente les PV et l'ATT de 10%.",
                 "Erhöht LP und ANG um 10 %.",
@@ -16789,7 +16803,7 @@
             ],
             "desc_long": [
                 "Boost MP and MAG by 10%.",
-                "提高10%MP、魔力。",
+                "提高10%MP、魔力",
                 "MP와 마력이 10% 상승합니다.",
                 "Augmente les PM et la MAGIE de 10%.",
                 "Erhöht MP und MAG um 10 %.",
@@ -16803,22 +16817,36 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226900],
-        "effects": ["Grants '神速の狩人' passive."],
-        "unique": false,
+        "effects": ["Grants 'Swift Hunter' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_76.png",
         "strings": {
             "names": [
                 "Swift Hunter",
-                null,
-                null,
-                null,
-                null,
-                null
+                "神速獵人",
+                "신속의 사냥꾼",
+                "Chasseur vif",
+                "Pfeilschneller Jäger",
+                "Cazador raudo"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK by 25%, and boost equipment ATK when a single weapon is equipped in both hands (Not stackable)",
+                "提高25%攻擊+雙手只裝備1把武器時武具攻擊力提升 [無法重複裝備]",
+                "공격력 25% 상승+양손의 장비가 무기 1개일 경우 장비의 공격력 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 25% et augmente l'ATT de l'équipement lorsqu'une arme est équipée dans les deux mains (non cumulable)",
+                "Erhöht ANG um 25% und Ausrüstung-ANG, wenn nur eine einzelne Waffe in beiden Händen ausgerüstet ist (Nicht stapelbar).",
+                "Aumenta el ATQ un 25% y aumenta el ATQ del equipo al llevar una sola arma en las dos manos (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost ATK by 25% and boost equipment ATK when a single weapon is equipped in both hands. Not stackable.",
+                "提高25%攻擊，並且雙手只裝備1把武器時武具攻擊力提升 [無法重複裝備]。",
+                "공격력이 25% 상승하고, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 25% et augmente l'ATT de l'équipement lorsqu'une arme est équipée dans les deux mains. Non cumulable.",
+                "Erhöht ANG um 25% und Ausrüstung-ANG, wenn nur eine einzelne Waffe in beiden Händen ausgerüstet ist (nicht stapelbar),",
+                "Aumenta el ATQ un 25% y aumenta el ATQ del equipo al llevar una sola arma en las dos manos. (no acumulable)"
+            ]
         }
     },
     "504226901": {
@@ -16827,22 +16855,36 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226901],
-        "effects": ["Grants '鞭の極意' passive."],
-        "unique": false,
+        "effects": ["Grants 'Whip Mastery' passive."],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_95.png",
         "strings": {
             "names": [
                 "Whip Mastery",
-                null,
-                null,
-                null,
-                null,
-                null
+                "鞭術奧義",
+                "채찍의 비법",
+                "Maîtrise des fouets",
+                "Peitschenmeister",
+                "Dominio del látigo"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK when equipped with a whip (Not stackable)",
+                "提高裝備鞭時的攻擊 [無法重複裝備]",
+                "채찍 장착 시 공격력 상승 (중복 장착 불가)",
+                "Augmente l'ATT lorsqu'un fouet est équipé (non cumulable)",
+                "Erhöht ANG, wenn mit Peitsche ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ al llevar látigo (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost ATK when equipped with a whip. Not stackable.",
+                "提高裝備鞭時的攻擊 [無法重複裝備]。",
+                "채찍 장착 시 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT lorsqu'un fouet est équipé. Non cumulable.",
+                "Erhöht ANG, wenn mit Peitsche ausgerüstet (nicht stapelbar),",
+                "Aumenta el ATQ al llevar látigo. (no acumulable)"
+            ]
         }
     },
     "504226902": {
@@ -16859,14 +16901,28 @@
         "strings": {
             "names": [
                 "Brave Lancer",
-                null,
-                null,
-                null,
-                null,
-                null
+                "勇氣長槍",
+                "용감한 창술사",
+                "Lancier téméraire",
+                "Mutiger Lancier",
+                "Lancero valiente"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK when equipped with a spear",
+                "提高裝備長槍時的攻擊",
+                "창 장착 시 공격력 상승",
+                "Augmente l'ATT lorsqu'une lance est équipée",
+                "Erhöht ANG, wenn mit Speer ausgerüstet.",
+                "Aumenta el ATQ al llevar lanza."
+            ],
+            "desc_long": [
+                "Boost ATK when equipped with a spear.",
+                "提高裝備長槍時的攻擊。",
+                "창 장착 시 공격력이 상승합니다.",
+                "Augmente l'ATT lorsqu'une lance est équipée",
+                "Erhöht ANG, wenn mit Peitsche ausgerüstet.",
+                "Aumenta el ATQ al llevar lanza."
+            ]
         }
     },
     "504226903": {
@@ -20219,6 +20275,44 @@
                 "Augmente la MAGIE de 40%, ainsi que la DEF et la PSY de 10%.",
                 "Erhöht MAG um 40% und ABW/PSY um 10%.",
                 "Aumenta la MAG un 40%, y la DEF y el ESP un 10%."
+            ]
+        }
+    },
+    "1500000067": {
+        "name": "Rider's Instinct",
+        "compendium_id": 90067,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911249],
+        "effects": ["Grants 'Rider's Instinct' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Rider's Instinct",
+                "騎士本能",
+                "라이더의 본능",
+                "Instinct de cavalier",
+                "Reiterinstinkt",
+                "Instinto de jinete"
+            ],
+            "desc_short": [
+                "Boost ATK and HP by 20%, and fill LB gauge every turn during battle",
+                "提高20%攻擊HP+戰鬥中每回合自動增加極限技槽",
+                "공격력과 HP 20% 상승+전투 중 매 턴마다 LB 게이지 증가",
+                "Augmente l'ATT et les PV de 20% et augmente la jauge de limite à chaque tour",
+                "Erhöht ANG und LP um 20% und füllt jede Runde eines Kampfes Limitmeter.",
+                "Aumenta el ATQ y la VIT un 20%, y rellena la barra de EL cada turno durante el combate"
+            ],
+            "desc_long": [
+                "Boost ATK and HP by 20%, and fill LB gauge every turn during battle",
+                "提高20%攻擊HP，戰鬥中每回合自動增加極限技槽。",
+                "공격력과 HP가 20% 상승하고, 전투 중 매 턴마다 LB 게이지가 증가합니다.",
+                "Augmente l'ATT et les PV de 20% et augmente la jauge de limite à chaque tour",
+                "Erhöht ANG und LP um 20% und füllt jede Runde eines Kampfes Limitmeter.",
+                "Aumenta el ATQ y la VIT un 20%, y rellena la barra de EL cada turno durante el combate."
             ]
         }
     }
