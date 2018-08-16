@@ -3349,7 +3349,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [100770],
-        "effects": ["Grants 'ローブ装備' passive."],
+        "effects": ["Grants 'Equip Robe' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
@@ -3357,14 +3357,28 @@
         "strings": {
             "names": [
                 "Equip Robe",
-                null,
-                null,
-                null,
-                null,
-                null
+                "裝備法袍",
+                "로브 장착",
+                "Tunique",
+                "Robe ausrüsten",
+                "Equipar túnica"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Can equip robes",
+                "可以裝備法袍",
+                "로브 장착 가능",
+                "Permet d'équiper des tuniques",
+                "Lässt Roben ausrüsten.",
+                "Permite equiparse con túnicas."
+            ],
+            "desc_long": [
+                "Enables unit to equip robes.",
+                "可以裝備法袍。",
+                "로브를 장착할 수 있게 됩니다.",
+                "Permet aux unités de s'équiper de tuniques.",
+                "Lässt die Einheit Roben ausrüsten.",
+                "Permite equiparse con túnicas."
+            ]
         }
     },
     "504100780": {
@@ -15465,14 +15479,28 @@
         "strings": {
             "names": [
                 "Plant Killer+",
+                "燃木改",
+                "개량형 식물 킬러",
+                "Tue-plante +",
                 null,
-                null,
-                null,
-                null,
-                null
+                "Mataplantas+"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost physical and magic damage dealt to plant monsters",
+                "物理、魔法攻擊時提高對植物系魔物的傷害",
+                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량 상승",
+                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante",
+                null,
+                "Aumenta el daño físico y mágico contra plantas"
+            ],
+            "desc_long": [
+                "Boost physical and magic damage dealt to plant monsters.",
+                "物理、魔法攻擊時提高對植物系魔物的傷害。",
+                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante.",
+                null,
+                "Aumenta el daño físico y mágico contra plantas."
+            ]
         }
     },
     "504222860": {
@@ -16615,7 +16643,7 @@
         "strings": {
             "names": [
                 "Corrupt Emperor",
-                null,
+                "背德的皇帝",
                 null,
                 null,
                 null,
@@ -16639,7 +16667,7 @@
         "strings": {
             "names": [
                 "Onion Knight's Mission",
-                null,
+                "洋蔥的使命",
                 null,
                 null,
                 null,
@@ -16655,7 +16683,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226894],
-        "effects": ["Grants 'パンツァーオメガ' passive."],
+        "effects": ["Grants 'Panzer Omega' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -16663,14 +16691,28 @@
         "strings": {
             "names": [
                 "Panzer Omega",
+                "裝甲歐米茄",
+                "기갑 오메가",
+                "Oméga Panzer",
                 null,
-                null,
-                null,
-                null,
-                null
+                "Panzer Omega"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Reduce lightning resistance by 75% and boost DEF and SPR by 40%",
+                "降低75%雷屬性耐性+提高40%防禦精神",
+                "번개속성 저항력 75% 감소+방어력과 정신력 40% 상승",
+                "Réduit la résistance à la foudre de 75% et augmente la DEF et la PSY de 40%",
+                null,
+                "Reduce la res. al rayo un 75% y aumenta la DEF y el ESP un 40%"
+            ],
+            "desc_long": [
+                "Reduce lightning resistance by 75% and boost DEF and SPR by 40%.",
+                "降低75%雷屬性耐性，並提高40%防禦精神。",
+                "번개속성 저항력이 75% 감소하고, 방어력과 정신력이 40% 상승합니다.",
+                "Réduit la résistance à la foudre de 75% et augmente la DEF et la PSY de 40%.",
+                null,
+                "Reduce la resistencia al rayo un 75% y aumenta la DEF y el ESP un 40%."
+            ]
         }
     },
     "504226895": {
@@ -16679,7 +16721,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226895],
-        "effects": ["Grants 'はどうほう' ability."],
+        "effects": ["Grants 'Wave Cannon' ability."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -16687,14 +16729,28 @@
         "strings": {
             "names": [
                 "Wave Cannon",
+                "波動炮",
+                "파동포",
+                "Rayon-particules",
                 null,
-                null,
-                null,
-                null,
-                null
+                "Cañón de ondas"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "(One use every 2 turns) Deal partial unmitigated damage to all enemies and reduce DEF and SPR",
+                "【每2回合可使用1次】對全體敵人發動無視部分防禦的攻擊+降低防禦精神",
+                "[2턴에 1회 사용 가능] 적 전체에 일부 방어 무시 피해+방어력과 정신력 감소",
+                "(Une fois tous les 2 tours) Inflige des dégâts en partie fixes à tous les ennemis et réduit la DEF et la PSY",
+                null,
+                "(Un uso cada 2 turnos) Inflige daño parcial absoluto a todos los enemigos y reduce la DEF y el ESP"
+            ],
+            "desc_long": [
+                "(One use every 2 turns) Deal partial unmitigated damage to all enemies and reduce DEF and SPR.",
+                "【每2回合可使用1次】對全體敵人發動無視部分防禦的攻擊，並降低防禦精神。",
+                "[2턴에 1회 사용 가능] 적 전체에 일부 방어 무시 피해를 주고, 방어력과 정신력을 감소시킵니다.",
+                "(Une fois tous les 2 tours) Inflige des dégâts en partie fixes à tous les ennemis et réduit la DEF et la PSY.",
+                null,
+                "(Un uso cada 2 turnos) Inflige daño parcial absoluto a todos los enemigos y reduce la DEF y el ESP."
+            ]
         }
     },
     "504226896": {
@@ -16727,7 +16783,7 @@
             ],
             "desc_long": [
                 "Boosts lightning resistance by 20%.",
-                "提高20%雷屬性耐性的數值。",
+                "提高20%雷屬性耐性。",
                 "번개속성 저항력이 20% 상승합니다.",
                 "Augmente la résistance à la foudre de 20%",
                 "Erhöht Blitzresistenz um 20%.",
@@ -16920,7 +16976,7 @@
                 "提高裝備長槍時的攻擊。",
                 "창 장착 시 공격력이 상승합니다.",
                 "Augmente l'ATT lorsqu'une lance est équipée",
-                "Erhöht ANG, wenn mit Peitsche ausgerüstet.",
+                "Erhöht ANG, wenn mit Speer ausgerüstet.",
                 "Aumenta el ATQ al llevar lanza."
             ]
         }
@@ -16939,7 +16995,7 @@
         "strings": {
             "names": [
                 "Twin Repellent",
-                null,
+                "劍魔雙麗",
                 null,
                 null,
                 null,
@@ -16963,7 +17019,7 @@
         "strings": {
             "names": [
                 "Lord of the Underworld",
-                null,
+                "地獄帝王",
                 null,
                 null,
                 null,
@@ -16987,7 +17043,7 @@
         "strings": {
             "names": [
                 "King of the Beasts",
-                null,
+                "獸族之王",
                 null,
                 null,
                 null,
@@ -17011,7 +17067,7 @@
         "strings": {
             "names": [
                 "Demon Trick",
-                null,
+                "小惡魔的企圖",
                 null,
                 null,
                 null,
@@ -17035,11 +17091,11 @@
         "strings": {
             "names": [
                 "Witch's Laugh",
+                "魔女的狂笑",
                 null,
                 null,
                 null,
-                null,
-                null
+                "Risa embrujada"
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
@@ -17059,59 +17115,59 @@
         "strings": {
             "names": [
                 "Shadow Devourer",
+                "暗影吞噬",
                 null,
                 null,
                 null,
-                null,
-                null
+                "Devorador de sombras"
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
         }
     },
     "504227260": {
-        "name": "Brave Explorer",
+        "name": "Brave Adventurer",
         "compendium_id": 785,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227260],
-        "effects": ["Grants '冒険者の勇気' passive."],
+        "effects": ["Grants 'Brave Adventurer' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Brave Explorer",
+                "Brave Adventurer",
+                "冒險者的勇氣",
                 null,
                 null,
                 null,
-                null,
-                null
+                "Explorador valiente"
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
         }
     },
     "504227261": {
-        "name": "Faithful Explorer",
+        "name": "Faithful Adventurer",
         "compendium_id": 786,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227261],
-        "effects": ["Grants '冒険者の信念' passive."],
+        "effects": ["Grants 'Faithful Adventurer' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Faithful Explorer",
+                "Faithful Adventurer",
+                "冒險者的信念",
                 null,
                 null,
                 null,
-                null,
-                null
+                "Explorador leal"
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
@@ -17131,7 +17187,7 @@
         "strings": {
             "names": [
                 "Force Mysterion",
-                null,
+                "秘跡",
                 null,
                 null,
                 null,
@@ -17251,7 +17307,7 @@
         "strings": {
             "names": [
                 "Drake's Affection",
-                null,
+                "慈愛賢龍",
                 null,
                 null,
                 null,
@@ -17275,7 +17331,7 @@
         "strings": {
             "names": [
                 "White Heart",
-                null,
+                "純白之心",
                 null,
                 null,
                 null,
@@ -17299,7 +17355,7 @@
         "strings": {
             "names": [
                 "Fighter of the Dark",
-                null,
+                "驅散黑暗之力",
                 null,
                 null,
                 null,
@@ -17323,7 +17379,7 @@
         "strings": {
             "names": [
                 "Metamol",
-                null,
+                "轉生毛爾波爾",
                 null,
                 null,
                 null,
@@ -17347,7 +17403,7 @@
         "strings": {
             "names": [
                 "Bad Breath",
-                null,
+                "臭氣",
                 null,
                 null,
                 null,
@@ -17371,7 +17427,7 @@
         "strings": {
             "names": [
                 "Fiery Avoidance",
-                null,
+                "耐火祈求",
                 null,
                 null,
                 null,
@@ -17395,7 +17451,7 @@
         "strings": {
             "names": [
                 "Watery Avoidance",
-                null,
+                "止水祈求",
                 null,
                 null,
                 null,
@@ -17419,7 +17475,7 @@
         "strings": {
             "names": [
                 "Holy Knight",
-                null,
+                "聖劍騎士",
                 null,
                 null,
                 null,
@@ -17443,7 +17499,7 @@
         "strings": {
             "names": [
                 "Kaliva's Guidance",
-                null,
+                "卡里瓦的引導",
                 null,
                 null,
                 null,
@@ -17467,7 +17523,7 @@
         "strings": {
             "names": [
                 "Technical Attacker",
-                null,
+                "學術攻擊者",
                 null,
                 null,
                 null,
@@ -17515,7 +17571,7 @@
         "strings": {
             "names": [
                 "Truth Seeker",
-                null,
+                "探尋真相之人",
                 null,
                 null,
                 null,
@@ -17587,7 +17643,7 @@
         "strings": {
             "names": [
                 "White Lotus",
-                null,
+                "白妙聖蓮",
                 null,
                 null,
                 null,
@@ -17635,7 +17691,7 @@
         "strings": {
             "names": [
                 "EXP +25%",
-                null,
+                "獲得經驗值+25%",
                 null,
                 null,
                 null,
@@ -17659,7 +17715,7 @@
         "strings": {
             "names": [
                 "EXP +50%",
-                null,
+                "獲得經驗值+50%",
                 null,
                 null,
                 null,
@@ -17683,7 +17739,7 @@
         "strings": {
             "names": [
                 "Hero's Vow - Light",
-                null,
+                "英雄誓言·光",
                 null,
                 null,
                 null,
@@ -17707,7 +17763,7 @@
         "strings": {
             "names": [
                 "Machine Power",
-                null,
+                "機器之力",
                 null,
                 null,
                 null,
@@ -17731,7 +17787,7 @@
         "strings": {
             "names": [
                 "Brave Soul",
-                null,
+                "勇者之魂",
                 null,
                 null,
                 null,
@@ -17755,7 +17811,7 @@
         "strings": {
             "names": [
                 "Platinum Recall",
-                null,
+                "白金幻想",
                 null,
                 null,
                 null,
@@ -17779,7 +17835,7 @@
         "strings": {
             "names": [
                 "Gem of Creation",
-                null,
+                "生成珠",
                 null,
                 null,
                 null,
@@ -17803,7 +17859,7 @@
         "strings": {
             "names": [
                 "Gem of Vision",
-                null,
+                "幻視珠",
                 null,
                 null,
                 null,
@@ -17827,7 +17883,7 @@
         "strings": {
             "names": [
                 "Grown Heart",
-                null,
+                "虛榮之心",
                 null,
                 null,
                 null,
@@ -17851,7 +17907,7 @@
         "strings": {
             "names": [
                 "Regretful Memories",
-                null,
+                "悔恨的記憶",
                 null,
                 null,
                 null,
@@ -17875,7 +17931,7 @@
         "strings": {
             "names": [
                 "Dragonslayer Force",
-                null,
+                "龍終的武力",
                 null,
                 null,
                 null,
@@ -17899,7 +17955,7 @@
         "strings": {
             "names": [
                 "Dragonslayer Magic",
-                null,
+                "龍終的魔力",
                 null,
                 null,
                 null,
@@ -17923,7 +17979,7 @@
         "strings": {
             "names": [
                 "Blood of the Dragon",
-                null,
+                "龍族之血",
                 null,
                 null,
                 null,
@@ -17995,7 +18051,7 @@
         "strings": {
             "names": [
                 "Encounter Reduction",
-                null,
+                "遇敵率下降",
                 null,
                 null,
                 null,
@@ -20298,22 +20354,8 @@
                 "Reiterinstinkt",
                 "Instinto de jinete"
             ],
-            "desc_short": [
-                "Boost ATK and HP by 20%, and fill LB gauge every turn during battle",
-                "提高20%攻擊HP+戰鬥中每回合自動增加極限技槽",
-                "공격력과 HP 20% 상승+전투 중 매 턴마다 LB 게이지 증가",
-                "Augmente l'ATT et les PV de 20% et augmente la jauge de limite à chaque tour",
-                "Erhöht ANG und LP um 20% und füllt jede Runde eines Kampfes Limitmeter.",
-                "Aumenta el ATQ y la VIT un 20%, y rellena la barra de EL cada turno durante el combate"
-            ],
-            "desc_long": [
-                "Boost ATK and HP by 20%, and fill LB gauge every turn during battle",
-                "提高20%攻擊HP，戰鬥中每回合自動增加極限技槽。",
-                "공격력과 HP가 20% 상승하고, 전투 중 매 턴마다 LB 게이지가 증가합니다.",
-                "Augmente l'ATT et les PV de 20% et augmente la jauge de limite à chaque tour",
-                "Erhöht ANG und LP um 20% und füllt jede Runde eines Kampfes Limitmeter.",
-                "Aumenta el ATQ y la VIT un 20%, y rellena la barra de EL cada turno durante el combate."
-            ]
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     }
 }
