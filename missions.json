@@ -76788,8 +76788,8 @@
                 "reward": ["KEYITEM", 50, 2]
             },
             {
-                "string": "Defeat Lord of the Underworld Estark with a limit burst",
-                "parsed": ["Defeat Lord of the Underworld, Estark with a limit burst"],
+                "string": "Defeat Estark, Lord of the Underworld with a limit burst",
+                "parsed": ["Defeat Estark, Lord of the Underworld with a limit burst"],
                 "reward": ["EQUIP", 302005600, 1]
             }
         ]
@@ -77047,7 +77047,7 @@
                 "reward": ["MATERIA", 504216040, 1]
             },
             {
-                "string": "Defeat Kirin with a limit brust",
+                "string": "Defeat Kirin with a limit burst",
                 "parsed": ["Defeat Kirin with a limit burst"],
                 "reward": ["UNIT", 904000104, 1]
             }
@@ -78663,7 +78663,7 @@
     },
     "7960804": {
         "dungeon_id": 79608,
-        "name": "The Hidden Pathway",
+        "name": "Uncharted Path",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -93877,6 +93877,154 @@
             }
         ]
     },
+    "9360101": {
+        "dungeon_id": 93601,
+        "name": "Deus Ex: Mankind Divided  - INT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000901, 100]
+            },
+            {
+                "string": "Clear within 3 turns",
+                "parsed": ["Clear within 3 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9360102": {
+        "dungeon_id": 93601,
+        "name": "Deus Ex: Mankind Divided - ADV",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000901, 200]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9360103": {
+        "dungeon_id": 93601,
+        "name": "Deus Ex: Mankind Divided - PRO",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000901, 300]
+            },
+            {
+                "string": "Deal fire damage",
+                "parsed": ["Deal Fire damage"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9360104": {
+        "dungeon_id": 93601,
+        "name": "Deus Ex: Mankind Divided - ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Deal lightning damage",
+                "parsed": ["Deal Lightning damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
     "11110101": {
         "dungeon_id": 111101,
         "name": "Aldore Tower - Lower Levels",
@@ -99761,7 +99909,7 @@
             },
             {
                 "string": "Evoke Alexander",
-                "parsed": ["Evoke Esper #13"],
+                "parsed": ["Evoke Alexander"],
                 "reward": ["UNIT", 904000104, 1]
             },
             {
@@ -107138,7 +107286,7 @@
             },
             {
                 "string": "Evoke Alexander",
-                "parsed": ["Evoke Esper #13"],
+                "parsed": ["Evoke Alexander"],
                 "reward": ["LAPIS", 1, 20]
             },
             {

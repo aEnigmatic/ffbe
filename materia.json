@@ -3896,7 +3896,7 @@
                 "Mataplantas"
             ],
             "desc_short": [
-                "Boost physical damage against plant monsters (Not stackable)",
+                "Boost physical damage against plants (Not stackable)",
                 "物理攻擊時提高對植物系魔物的傷害[無法重複裝備]",
                 "물리공격 시 식물형 마물에 대한 피해량 상승 [중복 장착 불가]",
                 "Augmente les dégâts physiques infligés aux plantes (pas cumulable)",
@@ -3904,7 +3904,7 @@
                 "Aumenta el daño infligido contra monstruos vegetales (no acumulable)"
             ],
             "desc_long": [
-                "Boost physical damage inflicted on plant monsters. Not stackable.",
+                "Boost physical damage inflicted on plants. Not stackable.",
                 "物理攻擊時提高對植物系的傷害。無法重複裝備。",
                 "일반 공격 실행 시 식물형 마물에게 주는 피해량이 상승합니다. 중복 장착 불가.",
                 "Augmente les dégâts physiques infligés aux plantes. Pas cumulable.",
@@ -3972,7 +3972,7 @@
                 "Matabichos"
             ],
             "desc_short": [
-                "Boost physical damage against bug monsters (Not stackable)",
+                "Boost physical damage against insects (Not stackable)",
                 "物理攻擊時提高對蟲系的傷害[無法重複裝備]",
                 "물리공격 시 곤충형 마물에 대한 피해량 상승 [중복 장착 불가]",
                 "Dégâts physiques accrus contre les insectes (pas cumulable)",
@@ -3980,7 +3980,7 @@
                 "Aumenta el daño infligido a monstruos insecto  (no acumulable)"
             ],
             "desc_long": [
-                "Boost physical damage inflicted on bug monsters. Not stackable.",
+                "Boost physical damage inflicted on insects. Not stackable.",
                 "物理攻擊時提高對蟲系的傷害。無法重複裝備。",
                 "공격 사용 시 곤충형 마물에게 주는 피해량이 상승합니다. 중복 장착 불가.",
                 "Accroît les dégâts physiques infligés aux insectes. Pas cumulable.",
@@ -6986,7 +6986,7 @@
                 "對全體敵人發動雷屬性攻擊並降低雷屬性耐性。【雷光專用】",
                 "적 전체에 번개속성 피해를 주고 번개속성 저항력을 감소시킵니다. [라이트닝 전용]",
                 "Dégâts de foudre et réduit la résistance à la foudre de tous les ennemis. (Uniquement pour Lightning)",
-                "Fügt einem Gegner Blitzschaden zu und reduziert seine Blitzresistenz. (Nur Blitz)",
+                "Fügt allen Gegnern Blitzschaden zu und verringert ihre Blitzresistenz. (Nur Lightning)",
                 "Daño de rayo y reduce la res. al rayo a enemigos (exclusiva de Lightning)"
             ]
         }
@@ -8418,7 +8418,7 @@
                 "Caza furtiva"
             ],
             "desc_short": [
-                "Boost physical damage against plant, avian, beast, aquatic, and dragon monsters",
+                "Boost physical damage against plants, beasts, dragons, and avian and aquatic monsters",
                 "物理攻擊時提高對植物、鳥、獸、水生、龍系的傷害",
                 "물리공격 시 식물, 조류, 짐승, 수중, 드래곤형 마물에 대한 피해량 상승",
                 "Augmente les dégâts physiques contre les monstres de type plante, oiseau, bête, aquatique et dragon",
@@ -8426,7 +8426,7 @@
                 "Aumenta el daño físico infligido contra plantas, aves, bestias, acuáticos y dragones"
             ],
             "desc_long": [
-                "Boosts physical damage inflicted to plantoid, avian, beast, aquatic, and dragon monsters.",
+                "Boosts physical damage inflicted to plants, beasts, dragons, and avian and aquatic monsters.",
                 "物理攻擊時提高對植物、鳥、獸、水生、龍系的傷害。",
                 "물리공격 시 식물, 조류, 짐승, 수중, 드래곤형 마물에게 주는 피해량이 상승합니다.",
                 "Augmente les dégâts physiques contre les monstres de type plante, oiseau, bête, aquatique et dragon",
@@ -8871,7 +8871,7 @@
                 "패자의 투기",
                 "Esprit de champion",
                 "Tyrannenseele",
-                "Espíritu de campeón"
+                "Espíritu dominador"
             ],
             "desc_short": [
                 "Restore HP and MP, and fill LB gauge every turn during battle",
@@ -14916,7 +14916,7 @@
                 "Luchador de espíritus"
             ],
             "desc_short": [
-                "Boost ATK by 10% and physical damage against spirit monsters",
+                "Boost ATK by 10% and physical damage against fairies",
                 "提高10%攻擊的數值+物理攻擊時提高對精靈系魔物的傷害",
                 "공격력 10% 상승+물리공격 시 정령형 마물에게 주는 피해량 상승",
                 "Augmente l'ATT de 10% et les dégâts physiques contre les esprits",
@@ -14954,7 +14954,7 @@
                 "Hechizador de espíritus"
             ],
             "desc_short": [
-                "Boost MAG by 10% and magic damage against spirit monsters",
+                "Boost MAG by 10% and magic damage against fairies",
                 "提高10%魔力的數值+魔法攻擊時提高對精靈系魔物的傷害",
                 "마력 10% 상승+마법공격 시 정령형 마물에게 주는 피해량 상승",
                 "Augmente la MAGIE de 10% et les dégâts magiques contre les esprits",
@@ -15472,7 +15472,7 @@
         "unit_restriction": null,
         "skills": [222190],
         "effects": ["Grants 'Plant Killer+' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
@@ -15486,20 +15486,20 @@
                 "Mataplantas+"
             ],
             "desc_short": [
-                "Boost physical and magic damage dealt to plant monsters",
-                "物理、魔法攻擊時提高對植物系魔物的傷害",
-                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량 상승",
-                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante",
-                "Erhöht physischen und magischen Schaden gegenüber Pflanzenmonstern",
-                "Aumenta el daño físico y mágico contra plantas"
+                "Boost physical and magic damage dealt to plants (Not stackable)",
+                "物理、魔法攻擊時提高對植物系魔物的傷害 [無法重複裝備]",
+                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante (non cumulable)",
+                "Erhöht physischen und magischen Schaden gegenüber Pflanzenmonstern (Nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra plantas (no acumulable)"
             ],
             "desc_long": [
-                "Boost physical and magic damage dealt to plant monsters.",
-                "物理、魔法攻擊時提高對植物系魔物的傷害。",
-                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량이 상승합니다.",
-                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante.",
-                "Erhöht physischen und magischen Schaden gegenüber Pflanzenmonstern",
-                "Aumenta el daño físico y mágico contra plantas."
+                "Boost physical and magic damage dealt to plants. Not stackable.",
+                "物理、魔法攻擊時提高對植物系魔物的傷害 [無法重複裝備]。",
+                "물리, 마법공격 시 식물형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts magiques et physiques infligés aux monstres de type plante. Non cumulable.",
+                "Erhöht physischen und magischen Schaden gegenüber Pflanzenmonstern. (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra plantas. (no acumulable)"
             ]
         }
     },
@@ -15790,20 +15790,20 @@
                 "Quintaesencia"
             ],
             "desc_short": [
-                "Boost MAG when equipped with a rod or robe and enable dual wielding of single-handed weapons",
+                "Boost MAG when equipped with a rod or robe and can equip two of any one-handed weapon",
                 "提高裝備魔棒、法袍時魔力的數值+可以裝備2個單手武器",
                 "홀장, 로브 장착 시 마력 상승+한손용 무기 동시에 2개 장착 가능",
-                "Augmente la MAGIE lorsqu'un sceptre ou une robe sont équipés et permet d'utiliser Deux mains avec des armes à une main",
-                "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und ermöglicht Ausrüsten von zwei Einhandwaffen.",
-                "Aumenta la MAG al llevar vara o túnica y puede llevar dos armas de una mano"
+                "Augmente la MAGIE lorsqu'un sceptre ou une robe sont équipés et peut équiper 2 armes à une main",
+                "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und kann zwei beliebige Einhandwaffen führen.",
+                "Aumenta la MAG al llevar vara o túnica y permite equipar dos armas de una mano"
             ],
             "desc_long": [
-                "Boosts MAG when equipped with a rod or robe, and enables dual-wielding of single-handed weapons.",
+                "Boost MAG when equipped with a rod or robe and can equip two of any one-handed weapon.",
                 "提高裝備魔棒、法袍時魔力的數值，並可以裝備2個單手武器。",
                 "홀장, 로브 장착 시 마력이 상승하고, 한손용 무기를 동시에 2개 장착할 수 있게 됩니다.",
-                "Augmente la MAGIE lorsqu'un sceptre ou une tunique sont équipés permet d'utiliser Deux mains avec des armes à une main",
-                "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und ermöglicht Ausrüsten von zwei Einhandwaffen.",
-                "Aumenta la MAG al llevar vara o túnica y puede llevar dos armas de una mano."
+                "Augmente la MAGIE lorsqu'un sceptre ou une robe sont équipés et peut équiper 2 armes à une main",
+                "Erhöht MAG, wenn mit Rute oder Robe ausgerüstet und kann zwei beliebige Einhandwaffen führen.",
+                "Aumenta la MAG al llevar vara o túnica y permite equipar dos armas de una mano"
             ]
         }
     },
@@ -16170,19 +16170,19 @@
                 "Necrópolis"
             ],
             "desc_short": [
-                "Boost physical and magic damage dealt to beast, avian, human, insect and plantoid monsters",
+                "Boost physical and magic damage dealt to beasts, insects, avian monsters, humans, and plants",
                 "物理、魔法攻擊時提高對野獸、鳥、人形、蟲、植物系魔物的傷害",
                 "물리, 마법공격 시 야수, 조류, 인간, 곤충, 식물형 마물에게 주는 피해량 상승",
                 "Augmente les dégâts physiques et magiques infligés aux bêtes, aux oiseaux, aux insectes, aux humains, et aux monstres de type plante.",
-                "Erhöht phys. und mag. Schaden gegen Bestien, Vögel, Menschen, Käfer und Pflanzen.",
+                "Erhöht phys. und mag. Schaden gegen Bestien, Vögel, Menschen, Insekten und Pflanzen.",
                 "Aumenta el daño físico y mágico contra bestias, aves, humanos, insectos y plantas"
             ],
             "desc_long": [
-                "Boosts physical and magic damage again beast, avian, human, insect, and plantoid monsters.",
+                "Boosts physical and magic damage against beasts, humans, insects, plants, and avian monsters.",
                 "物理、魔法攻擊時提高對野獸、鳥、人形、蟲、植物系魔物的傷害。",
                 "물리, 마법공격 시 야수, 조류, 인간, 곤충, 식물형 마물에게 주는 피해량이 상승합니다.",
                 "Augmente les dégâts physiques et magiques infligés aux bêtes, aux oiseaux, aux insectes, aux humains, et aux monstres de type plante.",
-                "Erhöht phys. und mag. Schaden gegen Bestien, Vögel, Menschen, Käfer und Pflanzen.",
+                "Erhöht phys. und mag. Schaden gegen Bestien, Vögel, Menschen, Insekten und Pflanzen.",
                 "Aumenta el daño físico y mágico contra bestias, aves, humanos, insectos y plantas."
             ]
         }
@@ -16702,7 +16702,7 @@
                 "降低75%雷屬性耐性+提高40%防禦精神",
                 "번개속성 저항력 75% 감소+방어력과 정신력 40% 상승",
                 "Réduit la résistance à la foudre de 75% et augmente la DEF et la PSY de 40%",
-                "Verringert Blitzresistenz um 75% und erhöht ABW und PSY um 40%",
+                "Verringert Blitzresistenz um 75% und erhöht ABW und PSY um 40%.",
                 "Reduce la res. al rayo un 75% y aumenta la DEF y el ESP un 40%"
             ],
             "desc_long": [
@@ -16710,7 +16710,7 @@
                 "降低75%雷屬性耐性，並提高40%防禦精神。",
                 "번개속성 저항력이 75% 감소하고, 방어력과 정신력이 40% 상승합니다.",
                 "Réduit la résistance à la foudre de 75% et augmente la DEF et la PSY de 40%.",
-                "Verringert Blitzresistenz um 75% und erhöht ABW und PSY um 40%",
+                "Verringert Blitzresistenz um 75% und erhöht ABW und PSY um 40%.",
                 "Reduce la resistencia al rayo un 75% y aumenta la DEF y el ESP un 40%."
             ]
         }
@@ -16740,7 +16740,7 @@
                 "【每2回合可使用1次】對全體敵人發動無視部分防禦的攻擊+降低防禦精神",
                 "[2턴에 1회 사용 가능] 적 전체에 일부 방어 무시 피해+방어력과 정신력 감소",
                 "(Une fois tous les 2 tours) Inflige des dégâts en partie fixes à tous les ennemis et réduit la DEF et la PSY",
-                "(Alle 2 Runden 1 Mal benutzbar) Fügt allen Gegner teilweise direkten Schaden zu und verringert ABW und PSY",
+                "(Einmal in 2 Runden) Fügt allen Gegner teilweise direkten Schaden zu und verringert ihre ABW und PSY.",
                 "(Un uso cada 2 turnos) Inflige daño parcial absoluto a todos los enemigos y reduce la DEF y el ESP"
             ],
             "desc_long": [
@@ -16748,7 +16748,7 @@
                 "【每2回合可使用1次】對全體敵人發動無視部分防禦的攻擊，並降低防禦精神。",
                 "[2턴에 1회 사용 가능] 적 전체에 일부 방어 무시 피해를 주고, 방어력과 정신력을 감소시킵니다.",
                 "(Une fois tous les 2 tours) Inflige des dégâts en partie fixes à tous les ennemis et réduit la DEF et la PSY.",
-                "(Alle 2 Runden 1 Mal benutzbar) Fügt allen Gegner teilweise direkten Schaden zu und verringert ABW und PSY",
+                "(Einmal in 2 Runden) Fügt allen Gegner teilweise direkten Schaden zu und verringert ihre ABW und PSY.",
                 "(Un uso cada 2 turnos) Inflige daño parcial absoluto a todos los enemigos y reduce la DEF y el ESP."
             ]
         }
@@ -17002,103 +17002,166 @@
                 null
             ],
             "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_long": [
+                "Boost physical and magic damage against insects, and boost ATK by 30% when equipped with a sword and MAG by 30% when equipped with a rod",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504226980": {
-        "name": "Lord of the Underworld",
+        "name": "The Lord of the Underworld",
         "compendium_id": 780,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [226980],
-        "effects": ["Grants '地獄の帝王' passive."],
+        "effects": ["Grants 'The Lord of the Underworld' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Lord of the Underworld",
+                "The Lord of the Underworld",
                 "地獄帝王",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Fill LB gauge every turn and boost ATK when equipped with a sword",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Fill LB gauge every turn and boost ATK when equipped with a sword.",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227020": {
-        "name": "King of the Beasts",
+        "name": "The King of Beasts",
         "compendium_id": 781,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227020],
-        "effects": ["Grants '獣族の王' passive."],
+        "effects": ["Grants 'The King of Beasts' passive."],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
             "names": [
-                "King of the Beasts",
+                "The King of Beasts",
                 "獸族之王",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost physical and magic damage against beast and avian monsters",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Boost physical and magic damage against beast and avian monsters.",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227076": {
-        "name": "Demon Trick",
+        "name": "Devilish Designs",
         "compendium_id": 782,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227076],
-        "effects": ["Grants '小悪魔のたくらみ' passive."],
+        "effects": ["Grants 'Devilish Designs' passive."],
         "unique": false,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_98.png",
         "strings": {
             "names": [
-                "Demon Trick",
+                "Devilish Designs",
                 "小惡魔的企圖",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost MP by 10% and dark resistance by 15%",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Boost MP by 10% and dark resistance by 15%.",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227209": {
-        "name": "Witch's Laugh",
+        "name": "Witch's Cackle",
         "compendium_id": 796,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227209],
-        "effects": ["Grants '魔女の高笑い' passive."],
+        "effects": ["Grants 'Witch's Cackle' passive."],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_91.png",
         "strings": {
             "names": [
-                "Witch's Laugh",
+                "Witch's Cackle",
                 "魔女的狂笑",
-                null,
-                null,
-                null,
+                "마녀의 파안대소",
+                "Rire de sorcière",
+                "Hexengelächter",
                 "Risa embrujada"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost MAG when equipped with a staff and restore MP every turn (Not stackable)",
+                "提高裝備魔棒時的魔力+每回合恢復MP [無法重複裝備]",
+                "홀장 장착 시 마력 상승+매 턴마다 MP 회복 (중복 장착 불가)",
+                "Augmente la MAGIE lorsqu'un sceptre est équipé et restaure des PM à chaque tour (non cumulable)",
+                "Erhöht MAG wenn mit Stab ausgerüstet und stellt bei jedem Zug MP wieder her (Nicht stapelbar).",
+                "Aumenta la MAG al llevar vara y recupera PM cada turno (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost MAG when equipped with staff and restore MP every turn. Not stackable.",
+                "提高裝備魔棒時的魔力，並提高每回合恢復MP [無法重複裝備]。",
+                "홀장 장착 시 마력이 상승하고, 매 턴마다 MP를 회복합니다. (중복 장착 불가)",
+                "Augmente la MAGIE lorsqu'un sceptre est équipé et restaure des PM à chaque tour. Non cumulable.",
+                "Erhöht MAG wenn mit Stab ausgerüstet und stellt bei jedem Zug MP wieder her (nicht stapelbar).",
+                "Aumenta la MAG al llevar vara y recupera PM cada turno. (no acumulable)"
+            ]
         }
     },
     "504227237": {
@@ -17107,7 +17170,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227237],
-        "effects": ["Grants 'デバウアーオブシャドーズ' passive."],
+        "effects": ["Grants 'Devourer of Shadows' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -17116,13 +17179,27 @@
             "names": [
                 "Devourer of Shadows",
                 "暗影吞噬",
-                null,
-                null,
-                null,
+                "그림자 포식",
+                "Dévoreur d'ombres",
+                "Schattenfresser",
                 "Devorador de sombras"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK when equipped with a sword or helm (Not stackable)",
+                "提高裝備劍頭盔時的攻擊 [無法重複裝備]",
+                "검 또는 투구 장착 시 공격력 상승 (중복 장착 불가)",
+                "Augmente l'ATT quand une épée ou un casque est équipé (non cumulable)",
+                "Erhöht ANG wenn mit Schwert oder Helm ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ al llevar espada o casco (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost ATK when equipped with a sword or helm. Not stackable.",
+                "提高裝備劍頭盔時的攻擊 [無法重複裝備]。",
+                "검 또는 투구 장착 시 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT quand une épée ou un casque est équipé. Non cumulable.",
+                "Erhöht ANG wenn mit Schwert oder Helm ausgerüstet (nicht stapelbar).",
+                "Aumenta el ATQ al llevar espada o casco. (no acumulable)"
+            ]
         }
     },
     "504227260": {
@@ -17140,13 +17217,27 @@
             "names": [
                 "Brave Adventurer",
                 "冒險者的勇氣",
-                null,
-                null,
-                null,
-                "Explorador valiente"
+                "모험가의 용기",
+                "Aventurier brave",
+                "Mutiger Abenteurer",
+                "Aventurero valiente"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK and MAG by 10%",
+                "提高10%攻擊魔力",
+                "공격력과 마력 10% 상승",
+                "Augmente l'ATT et la MAGIE de 10 %",
+                "Erhöht ANG und MAG um 10%.",
+                "Aumenta el ATQ y la MAG un 10%"
+            ],
+            "desc_long": [
+                "Boost ATK and MAG by 10%.",
+                "提高10%攻擊魔力。",
+                "공격력과 마력이 10% 상승합니다.",
+                "Augmente l'ATT et la MAG de 10 %.",
+                "Erhöht ANG und MAG um 10%.",
+                "Aumenta el ATQ y la MAG un 10%."
+            ]
         }
     },
     "504227261": {
@@ -17164,13 +17255,27 @@
             "names": [
                 "Faithful Adventurer",
                 "冒險者的信念",
-                null,
-                null,
-                null,
-                "Explorador leal"
+                "모험가의 신념",
+                "Aventurier fidèle",
+                "Tiefgläubiger Abenteurer",
+                "Aventurero leal"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost DEF and SPR by 10%",
+                "提高10%防禦精神",
+                "방어력과 정신력 10% 상승",
+                "Augmente la DEF et la PSY de 10 %",
+                "Erhöht ABW und PSY um 10%.",
+                "Aumenta la DEF y el ESP un 10%"
+            ],
+            "desc_long": [
+                "Boost DEF and SPR by 10%.",
+                "提高10%防禦精神。",
+                "방어력과 정신력이 10% 상승합니다.",
+                "Augmente la DEF et la PSY de 10 %.",
+                "Erhöht ABW und PSY um 10%.",
+                "Aumenta la DEF y el ESP un 10%."
+            ]
         }
     },
     "504227270": {
@@ -20044,6 +20149,82 @@
             ]
         }
     },
+    "1500000053": {
+        "name": "Cerebral Augmentation",
+        "compendium_id": 90053,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911115],
+        "effects": ["Grants 'Cerebral Augmentation' passive."],
+        "unique": false,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Cerebral Augmentation",
+                "大腦強化",
+                "두뇌 증강",
+                "Augmentation cérébrale",
+                "Zerebralaugmentation",
+                "Aumento cerebral"
+            ],
+            "desc_short": [
+                "Boost HP and MP by 15%, and lightning resistance by 20%",
+                "提高15%HPMP+提高20%雷屬性耐性",
+                "HP와 MP 15% 상승+번개속성 저항력 20% 상승",
+                "Augmente les PV et les PM de 15%, et la résistance à la foudre de 20%",
+                "Erhöht LP und MP um 15% und Blitzresistenz um 20%.",
+                "Aumenta la VIT y los PM un 15%, y la resistencia al rayo un 20%"
+            ],
+            "desc_long": [
+                "Boost HP and MP by 15%, and lightning resistance by 20%.",
+                "提高15%HPMP，並提高20%雷屬性耐性。",
+                "HP와 MP가 15% 상승하고, 번개속성 저항력이 20% 상승합니다.",
+                "Augmente les PV et les PM de 15%, et la résistance à la foudre de 20%",
+                "Erhöht LP/MP um 15% und Blitzresistenz um 20%.",
+                "Aumenta la VIT y los PM un 15%, y la resistencia al rayo un 20%"
+            ]
+        }
+    },
+    "1500000054": {
+        "name": "Time Machine's Secrets",
+        "compendium_id": 90054,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911116],
+        "effects": ["Grants 'Time Machine's Secrets' passive."],
+        "unique": false,
+        "price_buy": 1000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Time Machine's Secrets",
+                "時光機的秘密",
+                "타임머신의 비밀",
+                "Secrets de la machine à voyager dans le temps",
+                "Geheimnisse der Zeitmaschine",
+                "Secretos de la máquina del tiempo"
+            ],
+            "desc_short": [
+                "Boost ATK and HP by 20%, and boost physical damage evasion by 5%",
+                "提高20%攻擊HP+提高5%閃避物理攻擊的機率",
+                "공격력과 HP 20% 상승+물리 공격 회피 5% 상승",
+                "Augmente l'ATT et les PV de 20% et augmente l'esquive des dégâts physiques de 5%",
+                "Erhöht ANG/LP um 20% und Ausweichen bei phys. Angriffen um 5%.",
+                "Aumenta el ATQ y la VIT un 20%, y la evasión contra daño físico un 5%"
+            ],
+            "desc_long": [
+                "Boost ATK and HP by 20%, and boost physical damage evasion by 5%.",
+                "提高20%攻擊HP，並提高5%閃避物理攻擊的機率。",
+                "공격력과 HP가 20% 상승하고, 물리 공격 회피가 5% 상승합니다.",
+                "Augmente l'ATT et les PV de 20% et augmente l'esquive des dégâts physiques de 5%",
+                "Erhöht ANG und LP um 20% und Ausweichen bei phys. Angriffen um 5%.",
+                "Aumenta el ATQ y la VIT un 20%, y la evasión contra daño físico un 5%"
+            ]
+        }
+    },
     "1500000055": {
         "name": "Scorpion Stinger",
         "compendium_id": 90055,
@@ -20345,6 +20526,120 @@
                 "Augmente la MAGIE de 40%, ainsi que la DEF et la PSY de 10%.",
                 "Erhöht MAG um 40% und ABW/PSY um 10%.",
                 "Aumenta la MAG un 40%, y la DEF y el ESP un 10%."
+            ]
+        }
+    },
+    "1500000064": {
+        "name": "TF29 Agent",
+        "compendium_id": 90064,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911213],
+        "effects": ["Grants 'TF29 Agent' passive."],
+        "unique": true,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "TF29 Agent",
+                "TF29特務",
+                "TF29 에이전트",
+                "Agent de la TF29",
+                "Agent der TF29",
+                "Agente TF29"
+            ],
+            "desc_short": [
+                "Boost equipment ATK when armed with two one-handed weapons, and boost ATK when equipped with a gun, sword, fist, or throwing weapon (Not Stackable)",
+                "裝備2把單手武器時武具攻擊力提升+提高裝備火槍劍格鬥武器投擲武器時的攻擊[無法重複裝備]",
+                "한손용 무기 2개 장착 시 장비의 공격력 상승+총, 검, 격투무기 또는 투척무기 장착 시 공격력 상승  (중복 장착 불가)",
+                "Augmente l'ATT de l'équipement lorsque deux armes à une main sont équipées, augmente l'ATT lorsqu'une arme à feu, une épée, des poings ou des armes de jets sont équipés (pas cumulable)",
+                "Erhöht Ausrüstung-ANG, wenn mit zwei einhändigen Waffen ausgerüstet und erhöht ANG, wenn mit Schusswaffe, Schwert, Faust, oder Wurfwaffen ausgestattet  (Nicht stapelbar).",
+                "Aumenta el ATQ del equipo al llevar dos armas de una mano, y aumenta el ATQ al llevar pistola, espada, puños o arma arrojadiza  (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost equipment ATK when armed with two one-handed weapons, and boost ATK when equipped with a gun, sword, fist, or throwing weapon. Not stackable.",
+                "裝備2把單手武器時武具攻擊力提升，並提高裝備火槍劍格鬥武器投擲武器時的攻擊[無法重複裝備]。",
+                "한손용 무기 2개 장착 시 장비의 공격력이 상승하고, 총, 검, 격투무기 또는 투척무기 장착 시 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de l'équipement lorsque deux armes à une main sont équipées, augmente l'ATT lorsqu'une arme à feu, une épée, des poings ou des armes de jets sont équipés. Non cumulable.",
+                "Erhöht Ausrüstung-ANG, wenn mit zwei einhändigen Waffen ausgerüstet und erhöht ANG, wenn mit Schusswaffe, Schwert, Faust, oder Wurfwaffen ausgestattet. (nicht stapelbar).",
+                "Aumenta el ATQ del equipo al llevar dos armas de una mano, y aumenta el ATQ al llevar pistola, espada, puños o arma arrojadiza (no acumulable)."
+            ]
+        }
+    },
+    "1500000065": {
+        "name": "Energy Converter",
+        "compendium_id": 90065,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911236],
+        "effects": ["Grants 'Energy Converter' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Energy Converter",
+                "能量轉換器",
+                "에너지 컨버터",
+                "Convertisseur énergétique",
+                "Energie-Umwandler",
+                "Conversor energético"
+            ],
+            "desc_short": [
+                "Boost HP by 20% and DEF by 30%, and restore HP and MP each turn",
+                "提高20%HP、30%防禦+每回合恢復HPMP",
+                "HP 20%, 방어력 30% 상승+매 턴마다 HP와 MP 회복",
+                "Augmente les PV de 20%, la DEF de 30% et restaure les PV et les PM à chaque tour",
+                "Erhöht LP um 20%, ABW um 30% und regeneriert in jeder Runde eigene LP/MP.",
+                "Aumenta la VIT un 20%, la DEF un 30% y recupera VIT y PM cada turno"
+            ],
+            "desc_long": [
+                "Boost HP by 20% and DEF by 30%, and restore HP and MP each turn.",
+                "提高20%HP、30%防禦，並每回合恢復HPMP。",
+                "HP가 20%, 방어력이 30% 상승하고, 매 턴마다 HP와 MP가 회복합니다.",
+                "Augmente les PV de 20%, la DEF de 30% et restaure les PV et les PM à chaque tour",
+                "Erhöht LP um 20%, ABW um 30% und regeneriert in jeder Runde LP und MP.",
+                "Aumenta la VIT un 20%, la DEF un 30% y recupera VIT y PM cada turno"
+            ]
+        }
+    },
+    "1500000066": {
+        "name": "Marchenko's Secrets",
+        "compendium_id": 90066,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911237],
+        "effects": ["Grants 'Marchenko's Secrets' passive."],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Marchenko's Secrets",
+                "馬爾琴科的秘密",
+                "마르첸코의 비밀",
+                "Secrets de Marchenko",
+                "Marchenkos Geheimnisse",
+                "Los secretos de Marchenko"
+            ],
+            "desc_short": [
+                "Boost DEF when equipped with heavy armor, and nullify sleep, paralyze, confuse and stone (Not Stackable)",
+                "提高裝備重鎧甲時的防禦+睡眠麻痺混亂石化無效[無法重複裝備]",
+                "중갑 장착 시 방어력 상승+수면, 마비, 혼란, 석화 무효화  (중복 장착 불가)",
+                "Augmente la DEF lorsqu'une armure lourde est équipée et annule sommeil, paralysie, confusion et pétrification (pas cumulable)",
+                "Erhöht ABW, wenn mit schwerer Rüstung ausgestattet und annulliert Schlaf, Lähmung, Konfus und Stein  (Nicht stapelbar).",
+                "Aumenta la DEF al llevar armadura pesada, y anula sueño, parálisis, confusión y piedra  (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost DEF when equipped with heavy armor, and nullify sleep, paralyze, confuse and stone. Not stackable.",
+                "提高裝備重鎧甲時的防禦，並睡眠麻痺混亂石化無效[無法重複裝備]。",
+                "중갑 장착 시 방어력이 상승하고, 수면, 마비, 혼란, 석화를 무효화합니다. (중복 장착 불가)",
+                "Augmente la DEF lorsqu'une armure lourde est équipée et annule sommeil, paralysie, confusion et pétrification. Non cumulable.",
+                "Erhöht ABW, wenn mit schwerer Rüstung ausgestattet und annulliert Schlaf, Lähmung, Konfus und Stein. (nicht stapelbar).",
+                "Aumenta la DEF al llevar armadura pesada, y anula sueño, parálisis, confusión y piedra (no acumulable)."
             ]
         }
     },
