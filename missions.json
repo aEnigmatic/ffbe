@@ -26703,7 +26703,7 @@
     },
     "2110501": {
         "dungeon_id": 21105,
-        "name": "Chamber of Gems - Room of the Faeries",
+        "name": "Chamber of Gems - White, Black, and Green",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -26740,7 +26740,7 @@
     },
     "2110502": {
         "dungeon_id": 21105,
-        "name": "Chamber of Gems - Room of the Masters",
+        "name": "Chamber of Gems - Power, Guard, and Tech",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -26777,7 +26777,7 @@
     },
     "2110503": {
         "dungeon_id": 21105,
-        "name": "Chamber of Gems - Room of the Wise",
+        "name": "Chamber of Gems - Healing and Support",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -84121,12 +84121,12 @@
                 "reward": ["KEYITEM", 50, 2]
             },
             {
-                "string": "Defeat brachium with an esper",
+                "string": "Defeat Brachium with an esper",
                 "parsed": ["Defeat Brachium with an esper"],
                 "reward": ["UNIT", 904000105, 1]
             },
             {
-                "string": "Defeat brachium within 30 turns",
+                "string": "Defeat Brachium within 30 turns",
                 "parsed": ["Clear in 30 turns or less"],
                 "reward": ["MATERIA", 504226031, 1]
             }
@@ -87493,7 +87493,7 @@
     },
     "8993301": {
         "dungeon_id": 89734,
-        "name": "2ヘッドドラゴン 真降臨",
+        "name": "Scorn of the 2-Headed Dragon",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -87512,7 +87512,7 @@
                 "reward": ["EQUIP", 404003300, 1]
             },
             {
-                "string": "Attack a weakness 6 times or more",
+                "string": "Attack with foe's elemental weakness 6 times or more",
                 "parsed": [
                     "Exploit elemental[?] weakness 5 times or more"
                 ],
@@ -88420,7 +88420,7 @@
     },
     "8995501": {
         "dungeon_id": 89946,
-        "name": "超猛毒性異形植物・上級",
+        "name": "Venomous Vines of Death - ADV",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
@@ -88457,7 +88457,7 @@
     },
     "8995502": {
         "dungeon_id": 89946,
-        "name": "超猛毒性異形植物・超級",
+        "name": "Venomous Vines of Death - PRO",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
@@ -88494,7 +88494,7 @@
     },
     "8995503": {
         "dungeon_id": 89946,
-        "name": "超猛毒性異形植物・覚醒級",
+        "name": "Venomous Vines of Death - ELT",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
@@ -88523,7 +88523,7 @@
                 "reward": ["MATERIA", 504227410, 1]
             },
             {
-                "string": "Defeat the Great Malboro with a limit burst",
+                "string": "Defeat the great malboro with a limit burst",
                 "parsed": ["Defeat Great Malboro with a limit burst"],
                 "reward": ["MATERIA", 504227411, 1]
             }
@@ -94022,6 +94022,43 @@
                 "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
                 "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9370101": {
+        "dungeon_id": 93701,
+        "name": "Stopping Marchenko",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["ITEM", 1209000901, 10000]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Defeat Viktor Marchenko with a limit burst",
+                "parsed": ["Defeat Viktor Marchenko with a limit burst"],
+                "reward": ["EQUIP", 1100000180, 1]
             }
         ]
     },
@@ -105736,7 +105773,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "The the Boastful Swordsman with a limit burst",
+                "string": "Defeat the boastful swordsman with a limit burst",
                 "parsed": ["Defeat Boastful Swordsman with a limit burst"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -107729,7 +107766,7 @@
                 "reward": ["ITEM", 106000100, 1]
             },
             {
-                "string": "Deal fire and earth magic 2 times or more each",
+                "string": "Deal fire and earth damage 2 times or more each",
                 "parsed": ["Deal Fire damage 2 times or more", "Deal Earth damage 2 times or more"],
                 "reward": ["LAPIS", 1, 20]
             },
