@@ -10129,7 +10129,7 @@
         }
     },
     "100008607": {
-        "name": "エンジェリックフェザー",
+        "name": "Angelic Feather",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -10159,12 +10159,12 @@
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 4, [100]], [2, 2, 26, [100,  100,  100]], [2, 2, 111, [1,  1,  1,  1,  1,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Angelic Feather",
                 "天使輕羽",
-                null,
-                null,
-                null,
-                null
+                "천사의 깃털",
+                "Plume angélique",
+                "Engelsfeder",
+                "Plumas angelicales"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -18595,11 +18595,18 @@
                 "Extreme Nova",
                 "終極新星",
                 "극한의 광휘",
-                null,
+                "Nova extrême",
                 null,
                 "Nova extrema"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                null,
+                null,
+                "적 전체에 피해",
+                null,
+                null,
+                null
+            ]
         }
     },
     "100016206": {
@@ -18626,11 +18633,18 @@
                 "Extreme Nova",
                 "終極新星",
                 "극한의 광휘",
-                null,
+                "Nova extrême",
                 null,
                 "Nova extrema"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                null,
+                null,
+                "적 전체에 피해",
+                null,
+                null,
+                null
+            ]
         }
     },
     "100016207": {
@@ -18657,11 +18671,18 @@
                 "Extreme Nova",
                 "終極新星",
                 "극한의 광휘",
-                null,
+                "Nova extrême",
                 null,
                 "Nova extrema"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                null,
+                null,
+                "적 전체에 피해",
+                null,
+                null,
+                null
+            ]
         }
     },
     "100016304": {
@@ -24824,7 +24845,7 @@
         }
     },
     "206000127": {
-        "name": "トランス・ライオットソード",
+        "name": "Riot Blade - Trance",
         "cost": 0,
         "attack_count": [9],
         "attack_damage": [[10,  10,  10,  10,  10,  10,  10,  10,  20]],
@@ -24844,12 +24865,12 @@
             "effects_raw": [[2, 1, 70, [0,  0,  640,  50]]]},
         "strings": {
             "name": [
-                null,
+                "Riot Blade - Trance",
                 "入神·暴亂劍",
-                null,
-                null,
-                null,
-                null
+                "트랜스·폭도의 검격",
+                "Lame rebelle - Transe",
+                "Tumultschwert - Trance",
+                "Hoja letal - trance"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -33948,7 +33969,7 @@
         }
     },
     "215001107": {
-        "name": "リーサルコンバット",
+        "name": "Lethal Combat",
         "cost": 0,
         "attack_count": [4],
         "attack_damage": [[25,  25,  25,  25]],
@@ -33968,12 +33989,12 @@
             "effects_raw": [[2, 1, 21, [0,  0,  800,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Lethal Combat",
                 "致命格鬥",
-                null,
-                null,
-                null,
-                null
+                "목숨을 건 전투",
+                "Combat mortel",
+                "Tödlicher Kampf",
+                "Trifulca letal"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -34614,7 +34635,7 @@
         }
     },
     "253000117": {
-        "name": "アルテマ剣",
+        "name": "Ultima Blade",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -34640,14 +34661,21 @@
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [2, 1, 59, ["none"]]]},
         "strings": {
             "name": [
-                null,
+                "Ultima Blade",
                 "究極劍刃",
-                null,
-                null,
-                null,
-                null
+                "알테마 검",
+                "Lame Ultima",
+                "Ultima-Klinge",
+                "Hoja Artema"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and remove all status effects for all enemies",
+                "對全體敵人發動無視部分防禦的攻擊+解除狀態效果",
+                "적 전체에 일부 방어 무시 피해＋능력치 효과 해제",
+                "Inflige des dégâts fixes et retire toutes les améliorations de tous les ennemis",
+                "Fügt einem Gegner teilweise direkten Schaden zu und entfernt alle Statuseffekte von allen Gegnern.",
+                "Daño absoluto parcial y elimina todas las mejoras de todos los enemigos"
+            ]
         }
     },
     "253000205": {
@@ -34871,7 +34899,7 @@
         }
     },
     "253000217": {
-        "name": "黒き野心の剣",
+        "name": "Blade of Dark Desire",
         "cost": 0,
         "attack_count": [4],
         "attack_damage": [[20,  20,  20,  40]],
@@ -34897,12 +34925,12 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1400,  0]], [1, 1, 24, [-74,  0,  -74,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Blade of Dark Desire",
                 "野心黑劍",
-                null,
-                null,
-                null,
-                null
+                "어두운 야심의 검",
+                "Lame des désirs obscurs",
+                "Klinge der dunklen Begierde",
+                "Hoja del deseo impío"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -35986,7 +36014,7 @@
         }
     },
     "254000107": {
-        "name": "キャノンレーザー",
+        "name": "Jackpot Shot",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -36006,12 +36034,12 @@
             "effects_raw": [[1, 1, 70, [0,  0,  800,  50]]]},
         "strings": {
             "name": [
-                null,
+                "Jackpot Shot",
                 "雷射加農",
-                null,
-                null,
-                null,
-                null
+                "포격 광선",
+                "Canon laser",
+                "Jackpot-Shot",
+                "As láser"
             ],
             "desc": [
                 "Partial unmitigated magic damage to one enemy",
@@ -39861,7 +39889,7 @@
                 "Tentación oscura"
             ],
             "desc": [
-                "Damage and inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on random on all enemies",
+                "Damage and randomly inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on all enemies",
                 "攻擊全體敵人+隨機施加毒失明睡眠沉默麻痺混亂生病石化狀態",
                 "적 전체에 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여",
                 "Dégâts et inflige poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification au hasard sur tous les ennemis",
@@ -39905,7 +39933,7 @@
                 "Tentación oscura"
             ],
             "desc": [
-                "Damage and inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on random on all enemies",
+                "Damage and randomly inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on all enemies",
                 "攻擊全體敵人+隨機施加毒失明睡眠沉默麻痺混亂生病石化狀態",
                 "적 전체에 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여",
                 "Dégâts et inflige poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification au hasard sur tous les ennemis",
@@ -39949,7 +39977,7 @@
                 "Tentación oscura"
             ],
             "desc": [
-                "Damage and inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on random on all enemies",
+                "Damage and randomly inflict poison, blind, sleep, silence, paralysis, confusion, disease, or stone on all enemies",
                 "攻擊全體敵人+隨機施加毒失明睡眠沉默麻痺混亂生病石化狀態",
                 "적 전체에 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여",
                 "Dégâts et inflige poison, cécité, sommeil, silence, paralysie, confusion, maladie et pétrification au hasard sur tous les ennemis",
@@ -40694,8 +40722,8 @@
                 "Critical damage to one enemy",
                 "對1名敵人發動暴擊攻擊",
                 "적 1명에게 크리티컬 피해",
-                "Dégâts critiques à un ennemi",
-                "Fügt einem Gegner kritischen Schaden zu.",
+                "Coup critique sur un ennemi",
+                "Kritischer Treffer, ein Ziel",
                 "Daño crítico a un enemigo"
             ]
         }
@@ -40732,8 +40760,8 @@
                 "Critical damage to one enemy",
                 "對1名敵人發動暴擊攻擊",
                 "적 1명에게 크리티컬 피해",
-                "Dégâts critiques à un ennemi",
-                "Fügt einem Gegner kritischen Schaden zu.",
+                "Coup critique sur un ennemi",
+                "Kritischer Treffer, ein Ziel",
                 "Daño crítico a un enemigo"
             ]
         }
@@ -40770,8 +40798,8 @@
                 "Critical damage to one enemy",
                 "對1名敵人發動暴擊攻擊",
                 "적 1명에게 크리티컬 피해",
-                "Dégâts critiques à un ennemi",
-                "Fügt einem Gegner kritischen Schaden zu.",
+                "Coup critique sur un ennemi",
+                "Kritischer Treffer, ein Ziel",
                 "Daño crítico a un enemigo"
             ]
         }
@@ -40808,8 +40836,8 @@
                 "Ice damage to all enemies",
                 "對全體敵人發動冰屬性攻擊",
                 "적 전체에 얼음속성 피해",
-                "Dégâts de glace à tous les ennemis",
-                "Fügt allen Gegnern Eisschaden zu.",
+                "Dégâts de glace sur tous les ennemis",
+                "Eisschaden, alle Ziele",
                 "Daño de hielo a todos los enemigos"
             ]
         }
@@ -40846,8 +40874,8 @@
                 "Ice damage to all enemies",
                 "對全體敵人發動冰屬性攻擊",
                 "적 전체에 얼음속성 피해",
-                "Dégâts de glace à tous les ennemis",
-                "Fügt allen Gegnern Eisschaden zu.",
+                "Dégâts de glace sur tous les ennemis",
+                "Eisschaden, alle Ziele",
                 "Daño de hielo a todos los enemigos"
             ]
         }
@@ -40878,14 +40906,14 @@
                 "극한동결",
                 "Tempête de neige",
                 "Fieser Frost",
-                null
+                "Ráfaga glacial"
             ],
             "desc": [
                 "Ice damage to all enemies",
                 "對全體敵人發動冰屬性攻擊",
                 "적 전체에 얼음속성 피해",
-                "Dégâts de glace à tous les ennemis",
-                "Fügt allen Gegnern Eisschaden zu.",
+                "Dégâts de glace sur tous les ennemis",
+                "Eisschaden, alle Ziele",
                 "Daño de hielo a todos los enemigos"
             ]
         }
@@ -40928,9 +40956,9 @@
                 "Damage and remove some status effects from all enemies",
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
-                "Dégâts et dissipe certains effets de statut des ennemis",
-                "Fügt allen Gegnern Schaden zu und entfernt einige Statuseffekte.",
-                "Daña y anula todos los estados alterados de todos los enemigos"
+                "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
+                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
     },
@@ -40972,9 +41000,9 @@
                 "Damage and remove some status effects from all enemies",
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
-                "Dégâts et dissipe certains effets de statut des ennemis",
-                "Fügt allen Gegnern Schaden zu und entfernt einige Statuseffekte.",
-                "Daña y anula todos los estados alterados de todos los enemigos"
+                "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
+                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
     },
@@ -41016,9 +41044,9 @@
                 "Damage and remove some status effects from all enemies",
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
-                "Dégâts et dissipe certains effets de statut des ennemis",
-                "Fügt allen Gegnern Schaden zu und entfernt einige Statuseffekte.",
-                "Daña y anula todos los estados alterados de todos los enemigos"
+                "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
+                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
     },
@@ -41047,15 +41075,15 @@
                 "神聖之刃",
                 "홀리 엣지",
                 "Lame bénie",
-                "Heilige Schneide",
+                "Seliger Hieb",
                 "Estocada encantada"
             ],
             "desc": [
                 "Lightning damage to one enemy",
                 "對1名敵人發動雷屬性攻擊",
                 "적 1명에게 번개속성 피해",
-                "Dégâts de foudre à tous les ennemis",
-                "Fügt einem Gegner Blitzschaden zu.",
+                "Dégâts de foudre à un ennemi",
+                "Blitzschaden für einen Gegner.",
                 "Daño de rayo a un enemigo"
             ]
         }
@@ -41085,15 +41113,15 @@
                 "神聖之刃",
                 "홀리 엣지",
                 "Lame bénie",
-                "Heilige Schneide",
+                "Seliger Hieb",
                 "Estocada encantada"
             ],
             "desc": [
                 "Lightning damage to one enemy",
                 "對1名敵人發動雷屬性攻擊",
                 "적 1명에게 번개속성 피해",
-                "Dégâts de foudre à tous les ennemis",
-                "Fügt einem Gegner Blitzschaden zu.",
+                "Dégâts de foudre à un ennemi",
+                "Blitzschaden für einen Gegner.",
                 "Daño de rayo a un enemigo"
             ]
         }
@@ -41123,15 +41151,15 @@
                 "神聖之刃",
                 "홀리 엣지",
                 "Lame bénie",
-                "Heilige Schneide",
+                "Seliger Hieb",
                 "Estocada encantada"
             ],
             "desc": [
                 "Lightning damage to one enemy",
                 "對1名敵人發動雷屬性攻擊",
                 "적 1명에게 번개속성 피해",
-                "Dégâts de foudre à tous les ennemis",
-                "Fügt einem Gegner Blitzschaden zu.",
+                "Dégâts de foudre à un ennemi",
+                "Blitzschaden für einen Gegner.",
                 "Daño de rayo a un enemigo"
             ]
         }
@@ -41167,9 +41195,9 @@
             "desc": [
                 "Boost caster's magic damage once next turn",
                 "下一回合提高1次自身魔法攻擊的威力",
-                "다음 턴에 자신의 마법 공격 피해량 1회 상승",
+                "다음 턴에 자신의 마법 피해량 1회 상승",
                 "Augmente les dégâts magiques du lanceur au prochain tour",
-                "Erhöht eigenen mag. Schaden in der folgenden Runde.",
+                "Erhöht einmal mag. Schaden des Anwenders in der folg. Runde",
                 "Aumenta el daño mágico del usuario una vez al turno siguiente"
             ]
         }
@@ -41205,9 +41233,9 @@
             "desc": [
                 "Boost caster's magic damage once next turn",
                 "下一回合提高1次自身魔法攻擊的威力",
-                "다음 턴에 자신의 마법 공격 피해량 1회 상승",
+                "다음 턴에 자신의 마법 피해량 1회 상승",
                 "Augmente les dégâts magiques du lanceur au prochain tour",
-                "Erhöht eigenen mag. Schaden in der folgenden Runde.",
+                "Erhöht einmal mag. Schaden des Anwenders in der folg. Runde",
                 "Aumenta el daño mágico del usuario una vez al turno siguiente"
             ]
         }
@@ -41243,9 +41271,9 @@
             "desc": [
                 "Boost caster's magic damage once next turn",
                 "下一回合提高1次自身魔法攻擊的威力",
-                "다음 턴에 자신의 마법 공격 피해량 1회 상승",
+                "다음 턴에 자신의 마법 피해량 1회 상승",
                 "Augmente les dégâts magiques du lanceur au prochain tour",
-                "Erhöht eigenen mag. Schaden in der folgenden Runde.",
+                "Erhöht einmal mag. Schaden des Anwenders in der folg. Runde",
                 "Aumenta el daño mágico del usuario una vez al turno siguiente"
             ]
         }
@@ -50055,7 +50083,7 @@
         }
     },
     "900000017": {
-        "name": "キャノンレーザー",
+        "name": "Jackpot Shot",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -50081,14 +50109,21 @@
             "effects_raw": [[1, 1, 70, [0,  0,  900,  50]], [1, 1, 24, [0,  0,  0,  -74,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Jackpot Shot",
                 "雷射加農",
+                "포격 광선",
+                "Canon laser",
+                "Jackpot-Shot",
+                "As láser"
+            ],
+            "desc": [
+                "Partial unmitigated magic damage and reduce DEF to one enemy",
+                null,
                 null,
                 null,
                 null,
                 null
-            ],
-            "desc": [null, null, null, null, null, null]
+            ]
         }
     },
     "900000027": {
@@ -50308,7 +50343,7 @@
         }
     },
     "900000077": {
-        "name": "黒き野心の剣",
+        "name": "Blade of Dark Desire",
         "cost": 0,
         "attack_count": [4],
         "attack_damage": [[20,  20,  20,  40]],
@@ -50336,12 +50371,12 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 24, [-74,  -74,  -74,  0,  3,  1]], [1, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Blade of Dark Desire",
                 "野心黑劍",
-                null,
-                null,
-                null,
-                null
+                "어두운 야심의 검",
+                "Lame des désirs obscurs",
+                "Klinge der dunklen Begierde",
+                "Hoja del deseo impío"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -50674,7 +50709,7 @@
         }
     },
     "900000167": {
-        "name": "エンジェリックフェザー",
+        "name": "Angelic Feather",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -50704,12 +50739,12 @@
             "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 4, [100]], [2, 2, 64, [100,  100]], [2, 2, 111, [1,  1,  1,  1,  1,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Angelic Feather",
                 "天使輕羽",
-                null,
-                null,
-                null,
-                null
+                "천사의 깃털",
+                "Plume angélique",
+                "Engelsfeder",
+                "Plumas angelicales"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -50793,7 +50828,7 @@
         }
     },
     "900000197": {
-        "name": "リーサルコンバット",
+        "name": "Lethal Combat",
         "cost": 0,
         "attack_count": [4],
         "attack_damage": [[25,  25,  25,  25]],
@@ -50821,12 +50856,12 @@
             "effects_raw": [[2, 1, 21, [0,  0,  800,  -50]], [2, 1, 59, [0,  0]], [2, 1, 33, [-60,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Lethal Combat",
                 "致命格鬥",
-                null,
-                null,
-                null,
-                null
+                "목숨을 건 전투",
+                "Combat mortel",
+                "Tödlicher Kampf",
+                "Trifulca letal"
             ],
             "desc": [null, null, null, null, null, null]
         }
