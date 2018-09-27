@@ -17029,7 +17029,7 @@
                 "reward": ["LAPIS", 1, 10]
             },
             {
-                "string": "Deal wind damage 3 times to Titan to an enemy",
+                "string": "Deal wind damage 3 times to Titan",
                 "parsed": ["Deal Wind damage 3 times or more"],
                 "reward": ["LAPIS", 1, 10]
             },
@@ -26678,24 +26678,37 @@
         ]
     },
     "2110405": {
+        "dungeon_id": 21104,
+        "name": "Chamber of Experience - ELT",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 80,
+        "exp": 160,
         "challenges": [
             {
-                "string": "クエストをクリア",
+                "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
                 "reward": ["LAPIS", 1, 40]
             },
             {
-                "string": "ＬＢを使用せずクリア",
+                "string": "No limit bursts",
                 "parsed": ["No limit bursts"],
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "誰も戦闘不能になることなくクリア",
+                "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "コンティニューせずにクリア",
+                "string": "No continues",
                 "parsed": ["No continues"],
                 "reward": ["LAPIS", 1, 20]
             }
@@ -26961,24 +26974,37 @@
         ]
     },
     "2111005": {
+        "dungeon_id": 21110,
+        "name": "Chamber of Riches - ELT",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85000,
+        "exp": 100,
         "challenges": [
             {
-                "string": "クエストをクリア",
+                "string": "Complete the quest",
                 "parsed": ["Complete the quest"],
                 "reward": ["LAPIS", 1, 40]
             },
             {
-                "string": "ＬＢを使用せずクリア",
+                "string": "No limit bursts",
                 "parsed": ["No limit bursts"],
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "誰も戦闘不能になることなくクリア",
+                "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "コンティニューせずにクリア",
+                "string": "No continues",
                 "parsed": ["No continues"],
                 "reward": ["LAPIS", 1, 20]
             }
@@ -95457,9 +95483,157 @@
                 "reward": ["UNIT", 900020401, 5]
             },
             {
-                "string": "Clear without an ally being KO'd",
+                "string": "Defeat the antlion with an esper",
                 "parsed": ["Defeat Antlion with an esper"],
                 "reward": ["KEYITEM", 70, 1]
+            }
+        ]
+    },
+    "9400101": {
+        "dungeon_id": 94001,
+        "name": "FFBE Raid - Darkness Awakens - INT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000905, 100]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9400102": {
+        "dungeon_id": 94001,
+        "name": "FFBE Raid - Darkness Awakens - ADV",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000905, 200]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9400103": {
+        "dungeon_id": 94001,
+        "name": "FFBE Raid - Darkness Awakens - PRO",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 1209000905, 300]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use White magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9400104": {
+        "dungeon_id": 94001,
+        "name": "FFBE Raid - Darkness Awakens - ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
             }
         ]
     },
@@ -98868,6 +99042,19 @@
         ]
     },
     "11215107": {
+        "dungeon_id": 112151,
+        "name": "New Wolfsfang Trial",
+        "type": "EXPLORATION",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 30,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 300,
+        "exp": 1420,
         "challenges": [
             {
                 "string": "Complete the quest",

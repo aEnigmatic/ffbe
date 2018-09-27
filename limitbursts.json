@@ -6875,7 +6875,7 @@
         }
     },
     "100005907": {
-        "name": "フェイタルインパクト",
+        "name": "Fatal Impact",
         "cost": 0,
         "attack_count": [4],
         "attack_damage": [[20,  20,  20,  40]],
@@ -6895,14 +6895,21 @@
             "effects_raw": [[1, 1, 21, [0,  0,  1025,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Fatal Impact",
                 "毀滅衝擊",
-                null,
-                null,
-                null,
-                null
+                "페이탈 임팩트",
+                "Impact fatal",
+                "Fataler Aufprall",
+                "Impacto fatal"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Dégâts en partie fixes sur un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
         }
     },
     "100006003": {
@@ -9236,7 +9243,7 @@
         }
     },
     "100007707": {
-        "name": "断罪の刻印",
+        "name": "Seal of Conviction",
         "cost": 0,
         "attack_count": [20],
         "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  24]],
@@ -9262,14 +9269,21 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800]], [2, 1, 24, [0,  -69,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Seal of Conviction",
                 "斷罪刻印",
-                null,
-                null,
-                null,
-                null
+                "단죄의 각인",
+                "Sceau de conviction",
+                "Siegel der Überzeugung",
+                "Sello penitente"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Dark damage and reduce DEF for all enemies",
+                "對全體敵人發動暗屬性攻擊+降低防禦",
+                "적 전체에 어둠속성 피해+방어력 감소",
+                "Dégâts des ténèbres et réduit la DEF de tous les ennemis",
+                "Dunkelschaden u. ABW runter, alle Gegner.",
+                "Daño oscuro y reduce DEF de todos los enemigos"
+            ]
         }
     },
     "100007804": {
@@ -9613,7 +9627,7 @@
         }
     },
     "100008007": {
-        "name": "猛る獄炎",
+        "name": "Burning Hellfire",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -9633,14 +9647,21 @@
             "effects_raw": [[2, 1, 21, [0,  0,  740,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Burning Hellfire",
                 "狂猛獄炎",
-                null,
-                null,
-                null,
-                null
+                "맹렬한 지옥불",
+                "Feu de l'enfer",
+                "Brennendes Höllenfeuer",
+                "Fuego del averno"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated fire damage to all enemies",
+                "對全體敵人發動火屬性無視部分防禦的攻擊",
+                "적 전체에 불속성 일부 방어 무시 피해",
+                "Inflige des dégâts de feu en partie fixes sur tous les ennemis",
+                "Teilweise direkter Feuerschaden, alle Ziele",
+                "Daño absoluto parcial de fuego a todos los enemigos"
+            ]
         }
     },
     "100008104": {
@@ -9864,7 +9885,7 @@
         }
     },
     "100008207": {
-        "name": "裁きの暁光",
+        "name": "Dawn of Judgment",
         "cost": 0,
         "attack_count": [19],
         "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  7,  7,  7,  7,  7,  7,  10]],
@@ -9890,14 +9911,21 @@
             "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2520,  2520]], [2, 1, 24, [0,  -74,  0,  -74,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Dawn of Judgment",
                 "裁決曉光",
-                null,
-                null,
-                null,
-                null
+                "심판의 새벽빛",
+                "Aube du jugement",
+                "Urteilsdämmerung",
+                "Amanecer de justicia"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Light damage and reduce DEF and SPR for all enemies",
+                "對全體敵人發動光屬性攻擊+降低防禦精神",
+                "적 전체에 빛속성 피해+방어력과 정신력 감소",
+                "Dégâts de lumière et réduit la DEF et la PSY de tous les ennemis",
+                "Lichtschaden, ABW und PSY runter, alle Gegner.",
+                "Daño de luz y reduce DEF y ESP de todos los enemigos"
+            ]
         }
     },
     "100008504": {
@@ -29894,7 +29922,7 @@
         }
     },
     "211000407": {
-        "name": "崑崙八象脚",
+        "name": "Nullifying Dropkick",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -29920,14 +29948,21 @@
             "effects_raw": [[1, 1, 21, [0,  0,  820,  -50]], [1, 1, 24, [0,  -74,  0,  -74,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Nullifying Dropkick",
                 "昆侖八象腳",
-                null,
-                null,
-                null,
-                null
+                "곤륜팔상각",
+                "Savate immunisante",
+                "Verheerender Prellstoß",
+                "Patada aérea anuladora"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and reduce DEF and SPR for one enemy",
+                "對1名敵人發動無視部分防禦的攻擊+降低防禦精神",
+                "적 1명에게 일부 방어 무시 피해+방어력과 정신력 감소",
+                "Inflige des dégâts en partie fixes et réduit la DEF et la PSY pour un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu und reduziert ABW und PSY für einen Gegner.",
+                "Daño absoluto parcial y reduce DEF y ESP de un enemigo"
+            ]
         }
     },
     "211000805": {
@@ -36974,7 +37009,7 @@
         }
     },
     "254000907": {
-        "name": "マジックサテライト",
+        "name": "Seraphim Strike",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -36994,14 +37029,21 @@
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]]]},
         "strings": {
             "name": [
-                null,
+                "Seraphim Strike",
                 "魔法衛星",
-                null,
-                null,
-                null,
-                null
+                "매직 새틀라이트",
+                "Punition céleste",
+                "Seraphim-Schlag",
+                "Haz brujo"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated magic damage to all enemies",
+                "對全體敵人發動無視部份魔法防禦的攻擊",
+                "적 전체에 일부 마법방어 무시 피해",
+                "Dégâts magiques en partie fixes sur tous les ennemis",
+                "Teilweise direkter Magieschaden, alle Ziele",
+                "Daño mágico absoluto parcial a los enemigos"
+            ]
         }
     },
     "254001003": {
@@ -49736,6 +49778,286 @@
             ]
         }
     },
+    "401004405": {
+        "name": "Premonition",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[25,  25,  25,  25]],
+        "attack_frames": [[40,  80,  120,  170]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (8.2x, MAG) to all enemies",
+                "Reduce resistance to all elements by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  820]], [2, 1, 33, [-40,  -40,  -40,  -40,  -40,  -40,  -40,  -40,  1,  3]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (12x, MAG) to all enemies",
+                "Reduce resistance to all elements by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1200]], [2, 1, 33, [-40,  -40,  -40,  -40,  -40,  -40,  -40,  -40,  1,  3]]]},
+        "strings": {
+            "name": [
+                "Premonition",
+                "徵兆",
+                "불길한 예감",
+                "Prémonition",
+                "Vorahnung",
+                "Premonición"
+            ],
+            "desc": [
+                "Damage and reduce all elemental resistances for all enemies",
+                "攻擊全體敵人+降低全屬性耐性",
+                "적 전체에 피해+불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 감소",
+                "Dégâts et réduit toutes les résistances élémentaires de tous les ennemis",
+                "Fügt allen Gegnern Schaden zu und verringert alle ihrer Elementarresistenzen.",
+                "Daña y reduce la resistencia a todos los elementos de todos los enemigos"
+            ]
+        }
+    },
+    "401004406": {
+        "name": "Premonition",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[25,  25,  25,  25]],
+        "attack_frames": [[40,  80,  120,  170]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 35,
+            "effects": [
+                "Magic damage (13.2x, MAG) to all enemies",
+                "Reduce resistance to all elements by 45% for 3 turns to all enemies",
+                "Gain access to following skills for 2 turns:\n\tPredict - Downpour (911373)\n\tPredict - Flash-freeze (911375)\n\tPredict - Heat Wave (911376)\n\tPredict - Sandstorm (911374)"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1320]], [2, 1, 33, [-45,  -45,  -45,  -45,  -45,  -45,  -45,  -45,  1,  3]], [1, 3, 100, [[2,  2,  2,  2], [911373,  911374,  911375,  911376], 9999, 3, 1, 0]]]},
+        "max_level": {
+            "cost": 35,
+            "effects": [
+                "Magic damage (18x, MAG) to all enemies",
+                "Reduce resistance to all elements by 45% for 3 turns to all enemies",
+                "Gain access to following skills for 2 turns:\n\tPredict - Downpour (911373)\n\tPredict - Flash-freeze (911375)\n\tPredict - Heat Wave (911376)\n\tPredict - Sandstorm (911374)"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1800]], [2, 1, 33, [-45,  -45,  -45,  -45,  -45,  -45,  -45,  -45,  1,  3]], [1, 3, 100, [[2,  2,  2,  2], [911373,  911374,  911375,  911376], 9999, 3, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Premonition",
+                "徵兆",
+                "불길한 예감",
+                "Prémonition",
+                "Vorahnung",
+                "Premonición"
+            ],
+            "desc": [
+                "Damage and reduce all elemental resistances for all enemies for 3 turns, and enable predict - downpour, predict - sandstorm, predict - flash-freeze, and predict - heat wave for 2 turns",
+                "攻擊全體敵人+3回合內降低全屬性耐性+2回合內可使用「預言-暴雨」「預言-沙暴」「預言-急凍」「預言-熱浪」",
+                "적 전체에 피해+3턴 동안 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 감소+2턴 동안 '예측·폭우', '예측·모래 폭풍', '예측·급속 냉동', '예측·열파' 사용 가능'",
+                "Dégâts, réduit toutes les résistances élémentaires de tous les ennemis pendant 3 tours et permet d'utiliser Présage - Averse, Présage - Sirocco, Présage - Blizzard et Présage - Canicule pendant 2 tours",
+                "Fügt allen Gegnern Schaden zu, verringert alle ihrer Elementarresistenzen für 3 Runden und ermöglicht Weissagung - Regenguss, Weissagung - Sandsturm, Weissagung - Schockfrost und Weissagung - Hitzewelle für 2 Runden.",
+                "Daña y reduce la resistencia a todos los elementos de todos los enemigos durante 3 turnos, y aprende Predicción - Aguacero, Predicción - Tormenta de arena, Predicción - Destello helado y Predicción - Ola de calor durante 2 turnos"
+            ]
+        }
+    },
+    "401004407": {
+        "name": "Premonition",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[25,  25,  25,  25]],
+        "attack_frames": [[40,  80,  120,  170]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 40,
+            "effects": [
+                "Magic damage (18.2x, MAG) to all enemies",
+                "Reduce resistance to all elements by 60% for 3 turns to all enemies",
+                "Gain access to following skills for 3 turns:\n\tPredict - Downpour (911373)\n\tPredict - Flash-freeze (911375)\n\tPredict - Heat Wave (911376)\n\tPredict - Sandstorm (911374)"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1820]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]], [1, 3, 100, [[2,  2,  2,  2], [911373,  911374,  911375,  911376], 9999, 4, 1, 0]]]},
+        "max_level": {
+            "cost": 40,
+            "effects": [
+                "Magic damage (24x, MAG) to all enemies",
+                "Reduce resistance to all elements by 60% for 3 turns to all enemies",
+                "Gain access to following skills for 3 turns:\n\tPredict - Downpour (911373)\n\tPredict - Flash-freeze (911375)\n\tPredict - Heat Wave (911376)\n\tPredict - Sandstorm (911374)"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]], [1, 3, 100, [[2,  2,  2,  2], [911373,  911374,  911375,  911376], 9999, 4, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Premonition",
+                "徵兆",
+                "불길한 예감",
+                "Prémonition",
+                "Vorahnung",
+                "Premonición"
+            ],
+            "desc": [
+                "Damage and reduce all elemental resistances for all enemies, and enable predict - downpour, predict - sandstorm, predict - flash-freeze, and predict - heat wave for 3 turns",
+                "攻擊全體敵人+降低全屬性耐性+3回合內可使用「預言-暴雨」「預言-沙暴」「預言-急凍」「預言-熱浪」",
+                "적 전체에 피해+불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 감소+3턴 동안 '예측·폭우', '예측·모래 폭풍', '예측·급속 냉동', '예측·열파' 사용 가능'",
+                "Dégâts, réduit toutes les résistances élémentaires de tous les ennemis et permet d'utiliser Présage - Averse, Présage - Sirocco, Présage - Blizzard et Présage - Canicule pendant 3 tours",
+                "Fügt allen Gegnern Schaden zu, verringert alle ihrer Elementarresistenzen und ermöglicht Weissagung - Regenguss, Weissagung - Sandsturm, Weissagung - Schockfrost und Weissagung - Hitzewelle für 3 Runden.",
+                "Daña y reduce la resistencia a todos los elementos de todos los enemigos, y aprende Predicción - Aguacero, Predicción - Tormenta de arena, Predicción - Destello helado y Predicción - Ola de calor durante 3 turnos"
+            ]
+        }
+    },
+    "401004605": {
+        "name": "Murderous Intent",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[155,  200,  220]],
+        "effect_frames": [[0,  10,  23,  30,  90,  110,  110,  145,  180]],
+        "move_type": 4,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 100% for 3 turns to all allies",
+                "Hybrid damage (9.2x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [100,  0,  100,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  920,  920]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 100% for 3 turns to all allies",
+                "Hybrid damage (13x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [100,  0,  100,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1300,  1300]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "strings": {
+            "name": [
+                "Murderous Intent",
+                "殺意",
+                "살의",
+                "Desseins meurtriers",
+                "Mordlust",
+                "Intento asesino"
+            ],
+            "desc": [
+                "Damage all enemies, boost ATK and MAG for all allies for 3 turns, and enable raucous storm for 1 turn",
+                "攻擊全體敵人+3回合內提高全體隊員的攻擊魔力+1回合內可使用「嘶吼風暴」",
+                "적 전체에 피해+3턴 동안 아군 전체의 공격력과 마력 상승+1턴 동안 '거센 폭풍' 사용 가능",
+                "Dégâts à tous les ennemis, augmente l'ATT et la MAGIE de tous les alliés pendant 3 tours et permet d'utiliser Orage retentissant pendant 1 tour",
+                "Fügt allen Gegnern Schaden zu, erhöht ANG und MAG aller Verbündeten für 3 Runden und ermöglicht Dröhnender Sturm für 1 Runde.",
+                "Daño a todos los enemigos, aumenta el ATQ y la MAG de todos los aliados durante 3 turnos, y aprende Tormenta torrencial durante un turno"
+            ]
+        }
+    },
+    "401004606": {
+        "name": "Murderous Intent",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[155,  200,  220]],
+        "effect_frames": [[0,  10,  23,  30,  90,  115,  110,  110,  117,  150,  155,  180,  185]],
+        "move_type": 4,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 120% for 3 turns to all allies",
+                "Hybrid damage (13.2x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [120,  0,  120,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1320,  1320]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 120% for 3 turns to all allies",
+                "Hybrid damage (18x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [120,  0,  120,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1800,  1800]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "strings": {
+            "name": [
+                "Murderous Intent",
+                "殺意",
+                "살의",
+                "Desseins meurtriers",
+                "Mordlust",
+                "Intento asesino"
+            ],
+            "desc": [
+                "Damage all enemies, boost ATK and MAG for all allies for 3 turns, and enable raucous storm for 1 turn",
+                "攻擊全體敵人+3回合內提高全體隊員的攻擊魔力+1回合內可使用「嘶吼風暴」",
+                "적 전체에 피해+3턴 동안 아군 전체의 공격력과 마력 상승+1턴 동안 '거센 폭풍' 사용 가능",
+                "Dégâts à tous les ennemis, augmente l'ATT et la MAGIE de tous les alliés pendant 3 tours et permet d'utiliser Orage retentissant pendant 1 tour",
+                "Fügt allen Gegnern Schaden zu, erhöht ANG und MAG aller Verbündeten für 3 Runden und ermöglicht Dröhnender Sturm für 1 Runde.",
+                "Daño a todos los enemigos, aumenta el ATQ y la MAG de todos los aliados durante 3 turnos, y aprende Tormenta torrencial durante un turno"
+            ]
+        }
+    },
+    "401004607": {
+        "name": "Murderous Intent",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[155,  200,  220]],
+        "effect_frames": [[0,  10,  23,  30,  40,  40,  95,  110,  110,  110,  115,  117,  150,  180]],
+        "move_type": 4,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 140% for 3 turns to all allies",
+                "Hybrid damage (21.4x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [140,  0,  140,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2140,  2140]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "No effect",
+                "Increase ATK and MAG by 140% for 3 turns to all allies",
+                "Hybrid damage (27.2x, ATK & MAG) to all enemies",
+                "Gain access to following skills for one turn:\n\tRaucous Storm (911384)"
+            ],
+            "effects_raw": [[2, 1, 3, [0,  0,  0,  0,  0,  0]], [2, 2, 3, [140,  0,  140,  0,  3,  1]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2720,  2720]], [1, 3, 100, [2,  911384,  999,  2,  0,  0]]]},
+        "strings": {
+            "name": [
+                "Murderous Intent",
+                "殺意",
+                "살의",
+                "Desseins meurtriers",
+                "Mordlust",
+                "Intento asesino"
+            ],
+            "desc": [
+                "Damage all enemies, boost ATK and MAG for all allies for 3 turns, and enable raucous storm for 1 turn",
+                "攻擊全體敵人+3回合內提高全體隊員的攻擊魔力+1回合內可使用「嘶吼風暴」",
+                "적 전체에 피해+3턴 동안 아군 전체의 공격력과 마력 상승+1턴 동안 '거센 폭풍' 사용 가능",
+                "Dégâts à tous les ennemis, augmente l'ATT et la MAGIE de tous les alliés pendant 3 tours et permet d'utiliser Orage retentissant pendant 1 tour",
+                "Fügt allen Gegnern Schaden zu, erhöht ANG und MAG aller Verbündeten für 3 Runden und ermöglicht Dröhnender Sturm für 1 Runde.",
+                "Daño a todos los enemigos, aumenta el ATQ y la MAG de todos los aliados durante 3 turnos, y aprende Tormenta torrencial durante un turno"
+            ]
+        }
+    },
     "401004905": {
         "name": "Icarus Dash - Charged Dash",
         "cost": 0,
@@ -50971,7 +51293,7 @@
         }
     },
     "900000057": {
-        "name": "断罪の刻印",
+        "name": "Seal of Conviction",
         "cost": 0,
         "attack_count": [20],
         "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  24]],
@@ -50997,18 +51319,18 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000]], [2, 1, 24, [-74,  -74,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Seal of Conviction",
                 "斷罪刻印",
-                null,
-                null,
-                null,
-                null
+                "단죄의 각인",
+                "Sceau de conviction",
+                "Siegel der Überzeugung",
+                "Sello penitente"
             ],
             "desc": [null, null, null, null, null, null]
         }
     },
     "900000067": {
-        "name": "崑崙八象脚",
+        "name": "Nullifying Dropkick",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -51036,12 +51358,12 @@
             "effects_raw": [[1, 1, 21, [0,  0,  820,  -50]], [1, 1, 24, [0,  -74,  0,  -74,  3,  1]], [1, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Nullifying Dropkick",
                 "昆侖八象腳",
-                null,
-                null,
-                null,
-                null
+                "곤륜팔상각",
+                "Savate immunisante",
+                "Verheerender Prellstoß",
+                "Patada aérea anuladora"
             ],
             "desc": [null, null, null, null, null, null]
         }
