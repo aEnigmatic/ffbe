@@ -202,11 +202,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical fire damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (9.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical fire damage (4.9x * 2 = 9.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -233,11 +233,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical fire damage (8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical fire damage (4x * 2 = 8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical fire damage (12.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical fire damage (6.4x * 2 = 12.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  640,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -706,11 +706,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic dark damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic dark damage (6.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": {
             "name": [
@@ -744,11 +744,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic dark damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic dark damage (7.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": {
             "name": [
@@ -782,11 +782,11 @@
         "levels": 30,
         "min_level": {
             "cost": 18,
-            "effects": ["Magic dark damage (7.6x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  380,  50]]]},
         "max_level": {
             "cost": 18,
-            "effects": ["Magic dark damage (10.5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic dark damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  525,  50]]]},
         "strings": {
             "name": [
@@ -1046,7 +1046,7 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2x * 2 = 4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (50%) on one enemy",
                 "Increase ATK by 10% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1055,7 +1055,7 @@
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (5.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (64%) on one enemy",
                 "Increase ATK by 24% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1087,7 +1087,7 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (60%) on one enemy",
                 "Increase ATK by 20% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1096,7 +1096,7 @@
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6.9x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (79%) on one enemy",
                 "Increase ATK by 39% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1128,7 +1128,7 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (70%) on one enemy",
                 "Increase ATK by 30% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1137,7 +1137,7 @@
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (8.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.2x * 2 = 8.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Poison (94%) on one enemy",
                 "Increase ATK by 54% for 3 turns to caster",
                 "Gain access to following skills for 3 turns:\n\tSatisfactory Slash (501930)"
@@ -1283,14 +1283,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (2.67x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2x * 1.33 = 2.67x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (30%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -25]], [2, 1, 6, [0,  0,  0,  0,  30,  30,  0,  0,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (3.87x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.9x * 1.33 = 3.87x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (39%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  290,  -25]], [2, 1, 6, [0,  0,  0,  0,  39,  39,  0,  0,  1]]]},
@@ -1320,14 +1320,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 1.33 = 4x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (40%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -25]], [2, 1, 6, [0,  0,  0,  0,  40,  40,  0,  0,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5.87x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.4x * 1.33 = 5.87x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (54%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  440,  -25]], [2, 1, 6, [0,  0,  0,  0,  54,  54,  0,  0,  1]]]},
@@ -1357,14 +1357,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.33x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4x * 1.33 = 5.33x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (50%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -25]], [2, 1, 6, [0,  0,  0,  0,  50,  50,  0,  0,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.87x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.9x * 1.33 = 7.87x, ATK) to all enemies (ignore cover)",
                 "Inflict Paralyze and Confusion (69%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  590,  -25]], [2, 1, 6, [0,  0,  0,  0,  69,  69,  0,  0,  1]]]},
@@ -1732,11 +1732,11 @@
         "levels": 10,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (5.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.9x * 2 = 5.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  290,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -1763,11 +1763,11 @@
         "levels": 15,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (8.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.4x * 2 = 8.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  440,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -1794,11 +1794,11 @@
         "levels": 20,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical damage (11.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.9x * 2 = 11.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  590,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -5537,11 +5537,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Physical damage (4.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.3x * 2 = 4.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  230,  -50]]]},
         "max_level": {
             "cost": 10,
-            "effects": ["Physical damage (5.5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.75x * 2 = 5.5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  275,  -50]]]},
         "strings": {
             "name": [
@@ -5575,11 +5575,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.2x * 2 = 6.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -50]]]},
         "strings": {
             "name": [
@@ -5613,11 +5613,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (7.3x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.65x * 2 = 7.3x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  365,  -50]]]},
         "strings": {
             "name": [
@@ -6407,11 +6407,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (4.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "strings": {
             "name": [
@@ -6445,11 +6445,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (6.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]]]},
         "strings": {
             "name": [
@@ -6483,11 +6483,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
         "strings": {
             "name": [
@@ -6811,11 +6811,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (7.3x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.65x * 2 = 7.3x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  365,  -50]]]},
         "strings": {
             "name": [
@@ -6849,11 +6849,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.9x * 2 = 5.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  290,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.1x * 2 = 8.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  410,  -50]]]},
         "strings": {
             "name": [
@@ -6887,11 +6887,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical damage (14.7x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (7.35x * 2 = 14.7x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  735,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (20.5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (10.25x * 2 = 20.5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1025,  -50]]]},
         "strings": {
             "name": [
@@ -7233,11 +7233,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic damage (5x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic damage (6.4x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  320,  50]]]},
         "strings": {
             "name": [
@@ -7271,11 +7271,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (5.4x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (7.3x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  365,  50]]]},
         "strings": {
             "name": [
@@ -7309,11 +7309,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (5.8x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  290,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (8.2x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  410,  50]]]},
         "strings": {
             "name": [
@@ -8524,11 +8524,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic water damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic water damage (6.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": {
             "name": [
@@ -8562,11 +8562,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic water damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic water damage (7.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": {
             "name": [
@@ -8600,11 +8600,11 @@
         "levels": 30,
         "min_level": {
             "cost": 18,
-            "effects": ["Magic water damage (7.6x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  380,  50]]]},
         "max_level": {
             "cost": 18,
-            "effects": ["Magic water damage (10.5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic water damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  525,  50]]]},
         "strings": {
             "name": [
@@ -9563,11 +9563,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (6.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]]]},
         "strings": {
             "name": [
@@ -9601,11 +9601,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (7.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
         "strings": {
             "name": [
@@ -9639,11 +9639,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical fire damage (11.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (5.95x * 2 = 11.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  595,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical fire damage (14.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (7.4x * 2 = 14.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  740,  -50]]]},
         "strings": {
             "name": [
@@ -9678,14 +9678,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (4.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 10% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]], [2, 2, 101, [10,  1,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 24% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 2, 101, [24,  1,  1]]]},
@@ -9722,14 +9722,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 20% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 2, 101, [20,  1,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 39% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 2, 101, [39,  1,  1]]]},
@@ -9766,14 +9766,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 30% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]], [2, 2, 101, [30,  1,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.8x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 54% to all allies for one turn"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]], [2, 2, 101, [54,  1,  1]]]},
@@ -9942,14 +9942,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (4.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 20% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]], [2, 2, 3, [20,  0,  20,  0,  3,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 34% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 2, 3, [34,  0,  34,  0,  3,  1]]]},
@@ -9986,14 +9986,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 30% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 2, 3, [30,  0,  30,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 49% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 2, 3, [49,  0,  49,  0,  3,  1]]]},
@@ -10030,14 +10030,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 40% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]], [2, 2, 3, [40,  0,  40,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.8x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)",
                 "Increase ATK and MAG by 64% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]], [2, 2, 3, [64,  0,  64,  0,  3,  1]]]},
@@ -10448,7 +10448,7 @@
             "effects": [
                 "Physical lightning damage (3x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 10% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 33, [0,  0,  -10,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -10456,7 +10456,7 @@
             "effects": [
                 "Physical lightning damage (3.45x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 19% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  345]], [1, 1, 33, [0,  0,  -19,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -10494,7 +10494,7 @@
             "effects": [
                 "Physical lightning damage (3.5x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 20% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 33, [0,  0,  -20,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -10502,7 +10502,7 @@
             "effects": [
                 "Physical lightning damage (4.2x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 34% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  420]], [1, 1, 33, [0,  0,  -34,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -10540,7 +10540,7 @@
             "effects": [
                 "Physical lightning damage (4x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 30% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [1, 1, 33, [0,  0,  -30,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "max_level": {
@@ -10548,7 +10548,7 @@
             "effects": [
                 "Physical lightning damage (4.95x, ATK) to one enemy",
                 "Reduce resistance to Lightning by 49% for 3 turns to one enemy",
-                "Add Lightning element to physical attacks for 3 turn(s) to caster"
+                "Add Lightning element (100%) to physical attacks for 3 turns to caster"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  495]], [1, 1, 33, [0,  0,  -49,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [0,  0,  100,  0,  0,  0,  0,  0,  3,  1]]]},
         "strings": {
@@ -10584,14 +10584,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical wind damage (4.6x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 40% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]], [2, 1, 33, [0,  0,  0,  0,  -40,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical wind damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 47% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 1, 33, [0,  0,  0,  0,  -47,  0,  0,  0,  1,  3]]]},
@@ -10628,14 +10628,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical wind damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical wind damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 59% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 1, 33, [0,  0,  0,  0,  -59,  0,  0,  0,  1,  3]]]},
@@ -10672,14 +10672,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical wind damage (5.4x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 60% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]], [2, 1, 33, [0,  0,  0,  0,  -60,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical wind damage (7.8x, ATK) to all enemies (ignore cover)",
+                "Physical wind damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Wind by 72% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]], [2, 1, 33, [0,  0,  0,  0,  -72,  0,  0,  0,  1,  3]]]},
@@ -10716,7 +10716,7 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 40% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -10724,7 +10724,7 @@
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.95x * 2 = 5.9x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 59% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -10762,7 +10762,7 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 50% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -10770,7 +10770,7 @@
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.2x * 2 = 8.4x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 74% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -10808,7 +10808,7 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (12.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.05x * 2 = 12.1x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 50% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -10816,7 +10816,7 @@
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (15x, ATK) to all enemies (ignore cover)",
+                "Physical damage (7.5x * 2 = 15x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning and Wind by 79% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
             ],
@@ -11492,11 +11492,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (4.67x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 1.33 = 4.67x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -25]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6.53x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.9x * 1.33 = 6.53x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  490,  -25]]]},
         "strings": {
             "name": [
@@ -11530,11 +11530,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.33x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4x * 1.33 = 5.33x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -25]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.87x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (5.9x * 1.33 = 7.87x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  590,  -25]]]},
         "strings": {
             "name": [
@@ -11568,11 +11568,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.5x * 1.33 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  450,  -25]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (9.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (6.9x * 1.33 = 9.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  690,  -25]]]},
         "strings": {
             "name": [
@@ -11606,11 +11606,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical ice damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical ice damage (7.3x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (3.65x * 2 = 7.3x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  365,  -50]]]},
         "strings": {
             "name": [
@@ -11644,11 +11644,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical ice damage (5.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (2.9x * 2 = 5.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  290,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical ice damage (8.2x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (4.1x * 2 = 8.2x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  410,  -50]]]},
         "strings": {
             "name": [
@@ -11682,11 +11682,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical ice damage (11.1x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (5.55x * 2 = 11.1x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  555,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical ice damage (14x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (7x * 2 = 14x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]]]},
         "strings": {
             "name": [
@@ -11714,14 +11714,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (4.13x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.1x * 1.33 = 4.13x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  310,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (5.33x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4x * 1.33 = 5.33x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
@@ -11758,14 +11758,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (4.6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.45x * 1.33 = 4.6x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  345,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (6.47x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.85x * 1.33 = 6.47x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  485,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
@@ -11802,14 +11802,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.33x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4x * 1.33 = 5.33x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.87x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.9x * 1.33 = 7.87x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  590,  -25]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
@@ -12859,11 +12859,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical ice damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical ice damage (7.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (3.95x * 2 = 7.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -50]]]},
         "strings": {
             "name": [
@@ -12897,11 +12897,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical ice damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical ice damage (10.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (5.2x * 2 = 10.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]]]},
         "strings": {
             "name": [
@@ -12935,11 +12935,11 @@
         "levels": 30,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical ice damage (15.1x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (7.55x * 2 = 15.1x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  755,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical ice damage (18x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical ice damage (9x * 2 = 18x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  900,  -50]]]},
         "strings": {
             "name": [
@@ -14084,7 +14084,7 @@
         "min_level": {
             "cost": 42,
             "effects": [
-                "Physical damage (12.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (6.2x * 2 = 12.4x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for one turn:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 50% for 3 turns to one enemy"
             ],
@@ -14092,7 +14092,7 @@
         "max_level": {
             "cost": 42,
             "effects": [
-                "Physical damage (14.3x, ATK) to one enemy (ignore cover)",
+                "Physical damage (7.15x * 2 = 14.3x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for 4 turns:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 50% for 3 turns to one enemy"
             ],
@@ -14130,7 +14130,7 @@
         "min_level": {
             "cost": 45,
             "effects": [
-                "Physical damage (13.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (6.7x * 2 = 13.4x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for 2 turns:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 50% for 3 turns to one enemy"
             ],
@@ -14138,7 +14138,7 @@
         "max_level": {
             "cost": 45,
             "effects": [
-                "Physical damage (15.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (7.9x * 2 = 15.8x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for 5 turns:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 50% for 3 turns to one enemy"
             ],
@@ -14176,7 +14176,7 @@
         "min_level": {
             "cost": 48,
             "effects": [
-                "Physical damage (18x, ATK) to one enemy (ignore cover)",
+                "Physical damage (9x * 2 = 18x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for 2 turns:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 70% for 3 turns to one enemy"
             ],
@@ -14184,7 +14184,7 @@
         "max_level": {
             "cost": 48,
             "effects": [
-                "Physical damage (24x, ATK) to one enemy (ignore cover)",
+                "Physical damage (12x * 2 = 24x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for 5 turns:\n\tBlade Flash - Final (503610)\n\tCrimson Era (503630)\n\tFatal Bloom (503620)",
                 "Reduce resistance to Fire and Ice by 100% for 3 turns to one enemy"
             ],
@@ -14471,14 +14471,14 @@
         "min_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (10.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.2x * 2 = 10.4x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (12.3x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.15x * 2 = 12.3x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  615,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
@@ -14515,14 +14515,14 @@
         "min_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (12x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (14.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (7.2x * 2 = 14.4x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  720,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
@@ -14559,14 +14559,14 @@
         "min_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (21.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (10.55x * 2 = 21.1x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  1055,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (24x, ATK) to all enemies (ignore cover)",
+                "Physical damage (12x * 2 = 24x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and DEF by 99% for 2 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  1200,  -50]], [0, 3, 24, [-99,  -99,  0,  0,  2,  1]]]},
@@ -14728,14 +14728,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical fire damage (4x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical fire damage (4.9x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (2.45x * 2 = 4.9x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  245,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
@@ -14772,14 +14772,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical fire damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical fire damage (6.4x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (3.2x * 2 = 6.4x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  320,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
@@ -14816,14 +14816,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (7.9x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (3.95x * 2 = 7.9x, ATK) to all enemies (ignore cover)",
                 "Reduce DEF by 45% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -50]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
@@ -15877,7 +15877,7 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 20% to all allies for one turn"
             ],
@@ -15885,7 +15885,7 @@
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.95x * 2 = 7.9x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 20% to all allies for one turn"
             ],
@@ -15923,7 +15923,7 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (7x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 30% to all allies for one turn"
             ],
@@ -15931,7 +15931,7 @@
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (9.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.7x * 2 = 9.4x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 30% to all allies for one turn"
             ],
@@ -15969,7 +15969,7 @@
         "min_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (9.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.55x * 2 = 9.1x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 40% to all allies for one turn"
             ],
@@ -15977,7 +15977,7 @@
         "max_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (12x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
                 "Inflict 3 random status effects (40%) to all enemies",
                 "Reduce damage taken by 40% to all allies for one turn"
             ],
@@ -16511,14 +16511,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (5x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (6.9x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -16555,14 +16555,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (6x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (8.4x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (4.2x * 2 = 8.4x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  420,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -16599,14 +16599,14 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (12.7x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  635,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (15.6x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  780,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -16768,14 +16768,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical fire damage (6x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 40% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 33, [-40,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical fire damage (6.7x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (3.35x * 2 = 6.7x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 54% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  335,  -50]], [1, 1, 33, [-54,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -16812,14 +16812,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (7x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 50% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]], [1, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (7.9x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (3.95x * 2 = 7.9x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 69% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  395,  -50]], [1, 1, 33, [-69,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -16856,14 +16856,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical fire damage (8x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (4x * 2 = 8x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 60% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]], [1, 1, 33, [-60,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical fire damage (9.2x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (4.6x * 2 = 9.2x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Fire by 84% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  460,  -50]], [1, 1, 33, [-84,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -19224,7 +19224,7 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)",
                 "Inflict 2 random status effects (30%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -19232,7 +19232,7 @@
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (7.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.9x * 2 = 7.8x, ATK) to one enemy (ignore cover)",
                 "Inflict 2 random status effects (44%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -19263,7 +19263,7 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
                 "Inflict 3 random status effects (40%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -19271,7 +19271,7 @@
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (9.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.9x * 2 = 9.8x, ATK) to one enemy (ignore cover)",
                 "Inflict 3 random status effects (59%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -19302,7 +19302,7 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (7x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)",
                 "Inflict 4 random status effects (50%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -19310,7 +19310,7 @@
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (11.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.9x * 2 = 11.8x, ATK) to one enemy (ignore cover)",
                 "Inflict 4 random status effects (74%) to one enemy",
                 "Restore 30% HP to caster"
             ],
@@ -21569,14 +21569,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical lightning damage (5x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (80%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]], [1, 1, 6, [0,  0,  0,  0,  80,  0,  0,  0,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical lightning damage (7.11x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (3.2x * 2.22 = 7.11x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (80%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -55]], [1, 1, 6, [0,  0,  0,  0,  80,  0,  0,  0,  1]]]},
@@ -21613,14 +21613,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical lightning damage (5.4x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (90%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]], [1, 1, 6, [0,  0,  0,  0,  90,  0,  0,  0,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical lightning damage (8.11x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (3.65x * 2.22 = 8.11x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (90%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  365,  -55]], [1, 1, 6, [0,  0,  0,  0,  90,  0,  0,  0,  1]]]},
@@ -21657,14 +21657,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical lightning damage (5.8x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.9x * 2 = 5.8x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (100%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  290,  -50]], [1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]]},
         "max_level": {
             "cost": 24,
             "effects": [
-                "Physical lightning damage (10.25x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (4.1x * 2.5 = 10.25x, ATK) to one enemy (ignore cover)",
                 "Inflict Paralyze (100%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  410,  -60]], [1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]]},
@@ -23525,11 +23525,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (7x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.9x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.45x * 2 = 8.9x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  445,  -50]]]},
         "strings": {
             "name": [
@@ -23563,11 +23563,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (9x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.5x * 2 = 9x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  450,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (11.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (5.7x * 2 = 11.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  570,  -50]]]},
         "strings": {
             "name": [
@@ -23601,11 +23601,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical damage (14.1x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (7.05x * 2 = 14.1x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  705,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (17x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (8.5x * 2 = 17x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  850,  -50]]]},
         "strings": {
             "name": [
@@ -24858,11 +24858,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (6.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": {
             "name": [
@@ -24896,11 +24896,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (7.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": {
             "name": [
@@ -24934,11 +24934,11 @@
         "levels": 30,
         "min_level": {
             "cost": 22,
-            "effects": ["Magic damage (9.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  495,  50]]]},
         "max_level": {
             "cost": 22,
-            "effects": ["Magic damage (12.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (6.4x * 2 = 12.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  640,  50]]]},
         "strings": {
             "name": [
@@ -25522,11 +25522,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (4.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "strings": {
             "name": [
@@ -25560,11 +25560,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (6.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]]]},
         "strings": {
             "name": [
@@ -25598,11 +25598,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
         "strings": {
             "name": [
@@ -26192,11 +26192,11 @@
         "levels": 20,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical damage (12.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (6.1x * 2 = 12.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  610,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (16x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (8x * 2 = 16x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  800,  -50]]]},
         "strings": {
             "name": [
@@ -26230,11 +26230,11 @@
         "levels": 25,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical damage (16.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (8.1x * 2 = 16.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  810,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical damage (21x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (10.5x * 2 = 21x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1050,  -50]]]},
         "strings": {
             "name": [
@@ -26268,11 +26268,11 @@
         "levels": 30,
         "min_level": {
             "cost": 36,
-            "effects": ["Physical damage (19.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (9.6x * 2 = 19.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  960,  -50]]]},
         "max_level": {
             "cost": 36,
-            "effects": ["Physical damage (25x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (12.5x * 2 = 25x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1250,  -50]]]},
         "strings": {
             "name": [
@@ -26299,11 +26299,11 @@
         "levels": 15,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "strings": {
             "name": [
@@ -26330,11 +26330,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
         "strings": {
             "name": [
@@ -26361,11 +26361,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (10.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.2x * 2 = 10.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]]]},
         "strings": {
             "name": [
@@ -26690,14 +26690,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (8.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.3x * 2 = 8.6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 65% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  430,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -65,  -65,  1,  3]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (10.5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.25x * 2 = 10.5x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 84% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  525,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -84,  -84,  1,  3]]]},
@@ -26734,14 +26734,14 @@
         "min_level": {
             "cost": 36,
             "effects": [
-                "Physical damage (9.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.8x * 2 = 9.6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 76% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  480,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -76,  -76,  1,  3]]]},
         "max_level": {
             "cost": 36,
             "effects": [
-                "Physical damage (12x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 100% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -100,  -100,  1,  3]]]},
@@ -26778,14 +26778,14 @@
         "min_level": {
             "cost": 42,
             "effects": [
-                "Physical damage (17.2x, ATK) to all enemies (ignore cover)",
+                "Physical damage (8.6x * 2 = 17.2x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 76% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  860,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -76,  -76,  1,  3]]]},
         "max_level": {
             "cost": 37,
             "effects": [
-                "Physical damage (23x, ATK) to all enemies (ignore cover)",
+                "Physical damage (11.5x * 2 = 23x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Light and Dark by 100% for 5 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  1150,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -100,  -100,  1,  5]]]},
@@ -26814,11 +26814,11 @@
         "levels": 20,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical damage (12.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (6.1x * 2 = 12.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  610,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical damage (16x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (8x * 2 = 16x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  800,  -50]]]},
         "strings": {
             "name": [
@@ -26852,11 +26852,11 @@
         "levels": 25,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical damage (16.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (8.1x * 2 = 16.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  810,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical damage (21x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (10.5x * 2 = 21x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1050,  -50]]]},
         "strings": {
             "name": [
@@ -26890,11 +26890,11 @@
         "levels": 30,
         "min_level": {
             "cost": 29,
-            "effects": ["Physical damage (18x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (9x * 2 = 18x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  900,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (21x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (10.5x * 2 = 21x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1050,  -50]]]},
         "strings": {
             "name": [
@@ -27574,11 +27574,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.2x * 2 = 6.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -50]]]},
         "strings": {
             "name": [
@@ -27612,11 +27612,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.9x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.95x * 2 = 7.9x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  395,  -50]]]},
         "strings": {
             "name": [
@@ -27650,11 +27650,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (7x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (9.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.7x * 2 = 9.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  470,  -50]]]},
         "strings": {
             "name": [
@@ -28372,14 +28372,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 35% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]], [1, 1, 24, [-35,  0,  -35,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.9x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.45x * 2 = 8.9x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 54% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  445,  -50]], [1, 1, 24, [-54,  0,  -54,  0,  3,  1]]]},
@@ -28416,14 +28416,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4x * 2 = 8x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 40% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]], [1, 1, 24, [-40,  0,  -40,  0,  3,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (10.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.2x * 2 = 10.4x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 64% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  520,  -50]], [1, 1, 24, [-64,  0,  -64,  0,  3,  1]]]},
@@ -28460,14 +28460,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (10.6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.3x * 2 = 10.6x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 45% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  530,  -50]], [1, 1, 24, [-45,  0,  -45,  0,  3,  1]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (13.5x, ATK) to one enemy (ignore cover)",
+                "Physical damage (6.75x * 2 = 13.5x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK and MAG by 74% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  675,  -50]], [1, 1, 24, [-74,  0,  -74,  0,  3,  1]]]},
@@ -29043,11 +29043,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (7x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  350,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (8.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (4.45x * 2 = 8.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  445,  50]]]},
         "strings": {
             "name": [
@@ -29081,11 +29081,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Magic damage (9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (4.5x * 2 = 9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  450,  50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Magic damage (11.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (5.7x * 2 = 11.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  570,  50]]]},
         "strings": {
             "name": [
@@ -29119,11 +29119,11 @@
         "levels": 30,
         "min_level": {
             "cost": 27,
-            "effects": ["Magic damage (12x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]]]},
         "max_level": {
             "cost": 27,
-            "effects": ["Magic damage (15x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  750,  50]]]},
         "strings": {
             "name": [
@@ -29539,14 +29539,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical earth damage (4.6x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (30%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  30,  0,  0,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical earth damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (44%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  44,  0,  0,  1]]]},
@@ -29583,14 +29583,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical earth damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (40%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  40,  0,  0,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical earth damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (59%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  59,  0,  0,  1]]]},
@@ -29627,14 +29627,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical earth damage (5.4x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (50%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  50,  0,  0,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical earth damage (7.8x, ATK) to all enemies (ignore cover)",
+                "Physical earth damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)",
                 "Inflict Confusion (74%) on all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]], [2, 1, 6, [0,  0,  0,  0,  0,  74,  0,  0,  1]]]},
@@ -29847,14 +29847,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 30% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]], [1, 1, 24, [0,  -30,  0,  -30,  3,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (7.3x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.65x * 2 = 7.3x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 49% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  365,  -50]], [1, 1, 24, [0,  -49,  0,  -49,  3,  1]]]},
@@ -29891,14 +29891,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.9x * 2 = 5.8x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 40% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  290,  -50]], [1, 1, 24, [0,  -40,  0,  -40,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.2x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.1x * 2 = 8.2x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 64% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  410,  -50]], [1, 1, 24, [0,  -64,  0,  -64,  3,  1]]]},
@@ -29935,14 +29935,14 @@
         "min_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (10.6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.3x * 2 = 10.6x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 45% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  530,  -50]], [1, 1, 24, [0,  -45,  0,  -45,  3,  1]]]},
         "max_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (16.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (8.2x * 2 = 16.4x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 74% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  820,  -50]], [1, 1, 24, [0,  -74,  0,  -74,  3,  1]]]},
@@ -29979,7 +29979,7 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (8.2x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 30% for 3 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -29987,7 +29987,7 @@
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (12x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (6x * 2 = 12x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 50% for 3 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -30025,7 +30025,7 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (13.2x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (6.6x * 2 = 13.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 35% for 3 turns to one enemy",
                 "Gain access to following skills for 2 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -30033,7 +30033,7 @@
         "max_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (18x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (9x * 2 = 18x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 60% for 3 turns to one enemy",
                 "Gain access to following skills for 2 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -30071,7 +30071,7 @@
         "min_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (18.2x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (9.1x * 2 = 18.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 40% for 3 turns to one enemy",
                 "Gain access to following skills for 3 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -30079,7 +30079,7 @@
         "max_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (24x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic damage (12x * 2 = 24x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 70% for 3 turns to one enemy",
                 "Gain access to following skills for 3 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -30526,11 +30526,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic lightning damage (4.6x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  230,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic lightning damage (6x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]]]},
         "strings": {
             "name": [
@@ -30564,11 +30564,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic lightning damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic lightning damage (6.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": {
             "name": [
@@ -30602,11 +30602,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic lightning damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic lightning damage (7.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic lightning damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": {
             "name": [
@@ -30754,11 +30754,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (6.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]]]},
         "strings": {
             "name": [
@@ -30792,11 +30792,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
         "strings": {
             "name": [
@@ -30830,11 +30830,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical damage (11.1x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.55x * 2 = 11.1x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  555,  -50]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical damage (14x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (7x * 2 = 14x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]]]},
         "strings": {
             "name": [
@@ -31911,11 +31911,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.2x * 2 = 6.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -50]]]},
         "strings": {
             "name": [
@@ -31949,11 +31949,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (7.3x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.65x * 2 = 7.3x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  365,  -50]]]},
         "strings": {
             "name": [
@@ -31987,11 +31987,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.9x * 2 = 5.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  290,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.1x * 2 = 8.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  410,  -50]]]},
         "strings": {
             "name": [
@@ -32215,11 +32215,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic damage (6.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  320,  50]]]},
         "strings": {
             "name": [
@@ -32253,11 +32253,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (7.3x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  365,  50]]]},
         "strings": {
             "name": [
@@ -32763,11 +32763,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (4.67x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 1.33 = 4.67x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -25]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (5.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.2x * 1.33 = 5.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  420,  -25]]]},
         "strings": {
             "name": [
@@ -32801,11 +32801,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.33x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4x * 1.33 = 5.33x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -25]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (6.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.95x * 1.33 = 6.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  495,  -25]]]},
         "strings": {
             "name": [
@@ -32839,11 +32839,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.5x * 1.33 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  450,  -25]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (7.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (5.7x * 1.33 = 7.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  570,  -25]]]},
         "strings": {
             "name": [
@@ -33129,14 +33129,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  350,  -50]], [0, 3, 61, [100,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.45x * 2 = 8.9x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  445,  -50]], [0, 3, 61, [100,  3]]]},
@@ -33173,14 +33173,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (8x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]], [0, 3, 61, [100,  3]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (10.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.2x * 2 = 10.4x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]], [0, 3, 61, [100,  3]]]},
@@ -33217,14 +33217,14 @@
         "min_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.5x * 2 = 9x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  450,  -50]], [0, 3, 61, [100,  3]]]},
         "max_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (11.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.95x * 2 = 11.9x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  595,  -50]], [0, 3, 61, [100,  3]]]},
@@ -33254,14 +33254,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (5x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 10% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]], [1, 1, 24, [-10,  -10,  -10,  -10,  3,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (6.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.2x * 2 = 6.4x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 24% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -50]], [1, 1, 24, [-24,  -24,  -24,  -24,  3,  1]]]},
@@ -33298,14 +33298,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 15% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 24, [-15,  -15,  -15,  -15,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.9x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.95x * 2 = 7.9x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 34% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  395,  -50]], [1, 1, 24, [-34,  -34,  -34,  -34,  3,  1]]]},
@@ -33342,14 +33342,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (7x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 20% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]], [1, 1, 24, [-20,  -20,  -20,  -20,  3,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (9.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.7x * 2 = 9.4x, ATK) to one enemy (ignore cover)",
                 "Reduce ATK, DEF, MAG and SPR by 44% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  470,  -50]], [1, 1, 24, [-44,  -44,  -44,  -44,  3,  1]]]},
@@ -33538,14 +33538,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (4.1x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (2.05x * 2 = 4.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 70% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  205,  50]], [1, 1, 33, [-70,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (6x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (3x * 2 = 6x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 89% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  300,  50]], [1, 1, 33, [-89,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -33582,14 +33582,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (4.6x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (2.3x * 2 = 4.6x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 75% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  230,  50]], [1, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (7x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (3.5x * 2 = 7x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 100% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  350,  50]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -33626,14 +33626,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (5.1x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 75% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  255,  50]], [1, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (8x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 100% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  400,  50]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -33669,11 +33669,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.3x * 2 = 8.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  430,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (10.5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (5.25x * 2 = 10.5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  525,  -50]]]},
         "strings": {
             "name": [
@@ -33707,11 +33707,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (9.6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.8x * 2 = 9.6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  480,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (12x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (6x * 2 = 12x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  600,  -50]]]},
         "strings": {
             "name": [
@@ -33745,11 +33745,11 @@
         "levels": 30,
         "min_level": {
             "cost": 30,
-            "effects": ["Physical damage (18.2x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (9.1x * 2 = 18.2x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  910,  -50]]]},
         "max_level": {
             "cost": 30,
-            "effects": ["Physical damage (24x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (12x * 2 = 24x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  1200,  -50]]]},
         "strings": {
             "name": [
@@ -34045,11 +34045,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.95x * 2 = 7.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -50]]]},
         "strings": {
             "name": [
@@ -34083,11 +34083,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (10.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.2x * 2 = 10.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  520,  -50]]]},
         "strings": {
             "name": [
@@ -34121,11 +34121,11 @@
         "levels": 30,
         "min_level": {
             "cost": 28,
-            "effects": ["Physical damage (13.1x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (6.55x * 2 = 13.1x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  655,  -50]]]},
         "max_level": {
             "cost": 28,
-            "effects": ["Physical damage (16x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (8x * 2 = 16x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  800,  -50]]]},
         "strings": {
             "name": [
@@ -34424,14 +34424,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (2.67x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2x * 1.33 = 2.67x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical damage (3.27x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.45x * 1.33 = 3.27x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.95x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  245,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  195,  30,  1,  1]]]},
@@ -34468,14 +34468,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (3.33x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.5x * 1.33 = 3.33x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (4.27x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.2x * 1.33 = 4.27x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (2.2x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  320,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  220,  30,  1,  1]]]},
@@ -34512,14 +34512,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 1.33 = 4x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.27x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.95x * 1.33 = 5.27x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (2.45x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  245,  30,  1,  1]]]},
@@ -34556,14 +34556,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (9.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.8x * 2 = 9.6x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  480,  -50]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (12x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
                 "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
@@ -34714,14 +34714,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 1, 59, ["none"]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 1, 59, ["none"]]]},
@@ -34758,14 +34758,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]], [2, 1, 59, ["none"]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7.8x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]], [2, 1, 59, ["none"]]]},
@@ -34802,14 +34802,14 @@
         "min_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (9.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.55x * 2 = 9.1x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  455,  -50]], [2, 1, 59, ["none"]]]},
         "max_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (12x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [2, 1, 59, ["none"]]]},
@@ -35733,11 +35733,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (4.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.3x * 2 = 4.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
         "strings": {
             "name": [
@@ -35771,11 +35771,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (6.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]]]},
         "strings": {
             "name": [
@@ -35809,11 +35809,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (5.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (2.7x * 2 = 5.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  270,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (7.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.9x * 2 = 7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
         "strings": {
             "name": [
@@ -36111,11 +36111,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic* damage (5.4x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic* damage (7.3x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  365,  50]]]},
         "strings": {
             "name": [
@@ -36149,11 +36149,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic* damage (5.8x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  290,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic* damage (8.2x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  410,  50]]]},
         "strings": {
             "name": [
@@ -36187,11 +36187,11 @@
         "levels": 30,
         "min_level": {
             "cost": 22,
-            "effects": ["Magic* damage (13.1x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (6.55x * 2 = 13.1x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  655,  50]]]},
         "max_level": {
             "cost": 22,
-            "effects": ["Magic* damage (16x, MAG) to one enemy (ignore cover and reflect)"],
+            "effects": ["Magic* damage (8x * 2 = 16x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  800,  50]]]},
         "strings": {
             "name": [
@@ -36453,11 +36453,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Physical fire damage (2.47x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.1x * 1.18 = 2.47x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  210,  -15]]]},
         "max_level": {
             "cost": 10,
-            "effects": ["Physical fire damage (3x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.55x * 1.18 = 3x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  255,  -15]]]},
         "strings": {
             "name": [
@@ -36491,11 +36491,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical fire damage (2.88x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.3x * 1.25 = 2.88x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  230,  -20]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical fire damage (3.75x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3x * 1.25 = 3.75x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -20]]]},
         "strings": {
             "name": [
@@ -36529,11 +36529,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (3.33x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.5x * 1.33 = 3.33x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -25]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (4.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3.45x * 1.33 = 4.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -25]]]},
         "strings": {
             "name": [
@@ -36945,11 +36945,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (5x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (6.9x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": {
             "name": [
@@ -36983,11 +36983,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (5.4x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (7.8x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": {
             "name": [
@@ -37021,11 +37021,11 @@
         "levels": 30,
         "min_level": {
             "cost": 20,
-            "effects": ["Magic damage (9.1x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  455,  50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Magic damage (12x, MAG) to all enemies (ignore cover and reflect)"],
+            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]]]},
         "strings": {
             "name": [
@@ -38506,14 +38506,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (4.17x, ATK) to one enemy (ignore cover)",
+                "Physical damage (2.5x * 1.67 = 4.17x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 30% for 2 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -40]], [1, 1, 24, [0,  -30,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (5.75x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.45x * 1.67 = 5.75x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 30% for 2 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  345,  -40]], [1, 1, 24, [0,  -30,  0,  0,  2,  1]]]},
@@ -38550,14 +38550,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6.2x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.1x * 2 = 6.2x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 40% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  310,  -50]], [1, 1, 24, [0,  -40,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.3x * 2 = 8.6x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF by 40% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  430,  -50]], [1, 1, 24, [0,  -40,  0,  0,  3,  1]]]},
@@ -38954,21 +38954,21 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (1.1x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.1x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.1x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.1x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.1x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (0.55x * 2 = 1.1x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.55x * 2 = 1.1x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.55x * 2 = 1.1x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.55x * 2 = 1.1x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.55x * 2 = 1.1x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  55,  -50]], [3, 1, 21, [0,  0,  55,  -50]], [3, 1, 21, [0,  0,  55,  -50]], [3, 1, 21, [0,  0,  55,  -50]], [3, 1, 21, [0,  0,  55,  -50]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical damage (1.48x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.48x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.48x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.48x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.48x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (0.74x * 2 = 1.48x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.74x * 2 = 1.48x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.74x * 2 = 1.48x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.74x * 2 = 1.48x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.74x * 2 = 1.48x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  74,  -50]], [3, 1, 21, [0,  0,  74,  -50]], [3, 1, 21, [0,  0,  74,  -50]], [3, 1, 21, [0,  0,  74,  -50]], [3, 1, 21, [0,  0,  74,  -50]]]},
         "strings": {
@@ -39004,21 +39004,21 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (1.3x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.3x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.3x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.3x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.3x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (0.65x * 2 = 1.3x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.65x * 2 = 1.3x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.65x * 2 = 1.3x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.65x * 2 = 1.3x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.65x * 2 = 1.3x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  65,  -50]], [3, 1, 21, [0,  0,  65,  -50]], [3, 1, 21, [0,  0,  65,  -50]], [3, 1, 21, [0,  0,  65,  -50]], [3, 1, 21, [0,  0,  65,  -50]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (1.78x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.78x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.78x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.78x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (1.78x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (0.89x * 2 = 1.78x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.89x * 2 = 1.78x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.89x * 2 = 1.78x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.89x * 2 = 1.78x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (0.89x * 2 = 1.78x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  89,  -50]], [3, 1, 21, [0,  0,  89,  -50]], [3, 1, 21, [0,  0,  89,  -50]], [3, 1, 21, [0,  0,  89,  -50]], [3, 1, 21, [0,  0,  89,  -50]]]},
         "strings": {
@@ -39054,21 +39054,21 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (3.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (3.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (3.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (3.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (3.04x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (1.52x * 2 = 3.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (1.52x * 2 = 3.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (1.52x * 2 = 3.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (1.52x * 2 = 3.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (1.52x * 2 = 3.04x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  152,  -50]], [3, 1, 21, [0,  0,  152,  -50]], [3, 1, 21, [0,  0,  152,  -50]], [3, 1, 21, [0,  0,  152,  -50]], [3, 1, 21, [0,  0,  152,  -50]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (4.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.2x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (2.1x * 2 = 4.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.1x * 2 = 4.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.1x * 2 = 4.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.1x * 2 = 4.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.1x * 2 = 4.2x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  210,  -50]], [3, 1, 21, [0,  0,  210,  -50]], [3, 1, 21, [0,  0,  210,  -50]], [3, 1, 21, [0,  0,  210,  -50]], [3, 1, 21, [0,  0,  210,  -50]]]},
         "strings": {
@@ -41903,11 +41903,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (9.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.9x * 2 = 9.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -41934,11 +41934,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4x * 2 = 8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (12.8x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (6.4x * 2 = 12.8x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  640,  -50]]]},
         "strings": {
             "name": [null, null, null, null, null, null],
@@ -42132,11 +42132,11 @@
         "levels": 10,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (5.9x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (2.95x * 2 = 5.9x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  295,  -50]]]},
         "strings": {
             "name": [
@@ -42170,11 +42170,11 @@
         "levels": 15,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (7.4x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.7x * 2 = 7.4x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  370,  -50]]]},
         "strings": {
             "name": [
@@ -42208,11 +42208,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (7x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.9x, ATK) to one enemy (ignore cover)"],
+            "effects": ["Physical damage (4.45x * 2 = 8.9x, ATK) to one enemy (ignore cover)"],
             "effects_raw": [[1, 1, 21, [0,  0,  445,  -50]]]},
         "strings": {
             "name": [
@@ -42246,11 +42246,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6.5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.25x * 2 = 6.5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  325,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.2x * 2 = 8.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  420,  -50]]]},
         "strings": {
             "name": [
@@ -42284,11 +42284,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (8.5x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.25x * 2 = 8.5x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  425,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (10.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.45x * 2 = 10.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  545,  -50]]]},
         "strings": {
             "name": [
@@ -42889,14 +42889,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (7x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)",
                 "Inflict Confusion (40%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]], [1, 1, 6, [0,  0,  0,  0,  0,  40,  0,  0,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (8.9x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.45x * 2 = 8.9x, ATK) to one enemy (ignore cover)",
                 "Inflict Confusion (40%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  445,  -50]], [1, 1, 6, [0,  0,  0,  0,  0,  40,  0,  0,  1]]]},
@@ -42933,14 +42933,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4x * 2 = 8x, ATK) to one enemy (ignore cover)",
                 "Inflict Confusion (45%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]], [1, 1, 6, [0,  0,  0,  0,  0,  45,  0,  0,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical damage (10.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.2x * 2 = 10.4x, ATK) to one enemy (ignore cover)",
                 "Inflict Confusion (45%) on one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  520,  -50]], [1, 1, 6, [0,  0,  0,  0,  0,  45,  0,  0,  1]]]},
@@ -44015,14 +44015,14 @@
         "min_level": {
             "cost": 12,
             "effects": [
-                "Physical lightning damage (4.5x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.25x * 2 = 4.5x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 15% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  225,  -50]], [2, 2, 101, [15,  1,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
-                "Physical lightning damage (5.4x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.7x * 2 = 5.4x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 15% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  270,  -50]], [2, 2, 101, [15,  1,  1]]]},
@@ -44059,14 +44059,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Physical lightning damage (5x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 20% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]], [2, 2, 101, [20,  1,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Physical lightning damage (6.4x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (3.2x * 2 = 6.4x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 20% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  320,  -50]], [2, 2, 101, [20,  1,  1]]]},
@@ -44103,14 +44103,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical lightning damage (5.5x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (2.75x * 2 = 5.5x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 25% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  275,  -50]], [2, 2, 101, [25,  1,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical lightning damage (7.4x, ATK) to one enemy (ignore cover)",
+                "Physical lightning damage (3.7x * 2 = 7.4x, ATK) to one enemy (ignore cover)",
                 "Reduce damage taken by 25% to all allies for one turn"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  370,  -50]], [2, 2, 101, [25,  1,  1]]]},
@@ -44243,14 +44243,14 @@
         "min_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (7.2x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.6x * 2 = 7.2x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to all elements by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  360,  -50]], [2, 1, 33, [-50,  -50,  -50,  -50,  -50,  -50,  -50,  -50,  1,  3]]]},
         "max_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (9.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.55x * 2 = 9.1x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to all elements by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  455,  -50]], [2, 1, 33, [-50,  -50,  -50,  -50,  -50,  -50,  -50,  -50,  1,  3]]]},
@@ -44287,14 +44287,14 @@
         "min_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (9.2x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.6x * 2 = 9.2x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to all elements by 60% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  460,  -50]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]]]},
         "max_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (11.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.8x * 2 = 11.6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to all elements by 60% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  580,  -50]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]]]},
@@ -44462,11 +44462,11 @@
         "levels": 15,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (6.8x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.4x * 2 = 6.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  340,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.2x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.1x * 2 = 8.2x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  410,  -50]]]},
         "strings": {
             "name": [
@@ -44500,11 +44500,11 @@
         "levels": 20,
         "min_level": {
             "cost": 21,
-            "effects": ["Physical damage (7.7x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.85x * 2 = 7.7x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  385,  -50]]]},
         "max_level": {
             "cost": 21,
-            "effects": ["Physical damage (9.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.8x * 2 = 9.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  480,  -50]]]},
         "strings": {
             "name": [
@@ -44538,11 +44538,11 @@
         "levels": 25,
         "min_level": {
             "cost": 26,
-            "effects": ["Physical damage (8.6x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.3x * 2 = 8.6x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  430,  -50]]]},
         "max_level": {
             "cost": 26,
-            "effects": ["Physical damage (11x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.5x * 2 = 11x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  550,  -50]]]},
         "strings": {
             "name": [
@@ -46022,14 +46022,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 20% to all allies for 2 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]], [2, 2, 101, [20,  2,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical damage (6.9x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 20% to all allies for 2 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  345,  -50]], [2, 2, 101, [20,  2,  1]]]},
@@ -46066,14 +46066,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Physical damage (6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 30% to all allies for 2 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 2, 101, [30,  2,  1]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Physical damage (8.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.2x * 2 = 8.4x, ATK) to all enemies (ignore cover)",
                 "Reduce damage taken by 30% to all allies for 2 turns"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  420,  -50]], [2, 2, 101, [30,  2,  1]]]},
@@ -46341,14 +46341,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic lightning and wind damage (5x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic lightning and wind damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Lightning and Wind by 40% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [2, 1, 33, [0,  0,  -40,  0,  -40,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic lightning and wind damage (6.9x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic lightning and wind damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Lightning and Wind by 59% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]], [2, 1, 33, [0,  0,  -59,  0,  -59,  0,  0,  0,  1,  3]]]},
@@ -46388,14 +46388,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic lightning and wind damage (6x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic lightning and wind damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Lightning and Wind by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [2, 1, 33, [0,  0,  -50,  0,  -50,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic lightning and wind damage (8.4x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic lightning and wind damage (4.2x * 2 = 8.4x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Lightning and Wind by 74% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  420,  50]], [2, 1, 33, [0,  0,  -74,  0,  -74,  0,  0,  0,  1,  3]]]},
@@ -47797,14 +47797,14 @@
             "cost": 18,
             "effects": [
                 "Magic ice damage (4.95x, MAG) to all enemies",
-                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+                "Add Ice element (100%) to physical attacks for 2 turns to all allies"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  495]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 18,
             "effects": [
                 "Magic ice damage (5.9x, MAG) to all enemies",
-                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+                "Add Ice element (100%) to physical attacks for 2 turns to all allies"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  590]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
         "strings": {
@@ -47841,14 +47841,14 @@
             "cost": 22,
             "effects": [
                 "Magic ice damage (5.9x, MAG) to all enemies",
-                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+                "Add Ice element (100%) to physical attacks for 2 turns to all allies"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  590]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
         "max_level": {
             "cost": 22,
             "effects": [
                 "Magic ice damage (7.1x, MAG) to all enemies",
-                "Add Ice element to physical attacks for 2 turn(s) to all allies"
+                "Add Ice element (100%) to physical attacks for 2 turns to all allies"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  710]], [2, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]},
         "strings": {
@@ -48106,16 +48106,16 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical light damage (4x, ATK) to all enemies (ignore cover)",
-                "Add Light element to physical attacks for 1 turn(s) to all allies",
+                "Physical light damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)",
+                "Add Light element (100%) to physical attacks for one turn to all allies",
                 "Increase ATK and DEF by 100% for 3 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]], [2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  1,  1]], [1, 3, 3, [100,  100,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical light damage (5.9x, ATK) to all enemies (ignore cover)",
-                "Add Light element to physical attacks for 1 turn(s) to all allies",
+                "Physical light damage (2.95x * 2 = 5.9x, ATK) to all enemies (ignore cover)",
+                "Add Light element (100%) to physical attacks for one turn to all allies",
                 "Increase ATK and DEF by 100% for 3 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  295,  -50]], [2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  1,  1]], [1, 3, 3, [100,  100,  0,  0,  3,  1]]]},
@@ -48152,16 +48152,16 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical light damage (6x, ATK) to all enemies (ignore cover)",
-                "Add Light element to physical attacks for 1 turn(s) to all allies",
+                "Physical light damage (3x * 2 = 6x, ATK) to all enemies (ignore cover)",
+                "Add Light element (100%) to physical attacks for one turn to all allies",
                 "Increase ATK and DEF by 100% for 3 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]], [2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  1,  1]], [1, 3, 3, [100,  100,  0,  0,  3,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical light damage (8.4x, ATK) to all enemies (ignore cover)",
-                "Add Light element to physical attacks for 1 turn(s) to all allies",
+                "Physical light damage (4.2x * 2 = 8.4x, ATK) to all enemies (ignore cover)",
+                "Add Light element (100%) to physical attacks for one turn to all allies",
                 "Increase ATK and DEF by 100% for 3 turns to caster"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  420,  -50]], [2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  1,  1]], [1, 3, 3, [100,  100,  0,  0,  3,  1]]]},
@@ -48858,14 +48858,14 @@
         "min_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (10.2x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.1x * 2 = 10.2x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for one turn:\n\tKilling Blow (910782)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  510,  -50]], [1, 3, 100, [2,  910782,  999,  2,  0,  0]]]},
         "max_level": {
             "cost": 40,
             "effects": [
-                "Physical damage (14x, ATK) to one enemy (ignore cover)",
+                "Physical damage (7x * 2 = 14x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for one turn:\n\tKilling Blow (910782)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  700,  -50]], [1, 3, 100, [2,  910782,  999,  2,  0,  0]]]},
@@ -48902,14 +48902,14 @@
         "min_level": {
             "cost": 50,
             "effects": [
-                "Physical damage (12.2x, ATK) to one enemy (ignore cover)",
+                "Physical damage (6.1x * 2 = 12.2x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for one turn:\n\tKilling Blow (910782)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  610,  -50]], [1, 3, 100, [2,  910782,  999,  2,  0,  0]]]},
         "max_level": {
             "cost": 50,
             "effects": [
-                "Physical damage (17x, ATK) to one enemy (ignore cover)",
+                "Physical damage (8.5x * 2 = 17x, ATK) to one enemy (ignore cover)",
                 "Gain access to following skills for one turn:\n\tKilling Blow (910782)"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  850,  -50]], [1, 3, 100, [2,  910782,  999,  2,  0,  0]]]},
@@ -49242,18 +49242,18 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (8x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (4x * 2 = 8x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Fire by 30% for 3 turns to all enemies",
-                "Add Fire element to physical attacks for 3 turn(s) to caster",
+                "Add Fire element (100%) to physical attacks for 3 turns to caster",
                 "Gain access to following skills for one turn:\n\tSwift Shot (910865)"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]], [2, 1, 33, [-30,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [100,  0,  0,  0,  0,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  910865,  99999,  2,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Physical fire damage (9.9x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (4.95x * 2 = 9.9x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Fire by 49% for 3 turns to all enemies",
-                "Add Fire element to physical attacks for 3 turn(s) to caster",
+                "Add Fire element (100%) to physical attacks for 3 turns to caster",
                 "Gain access to following skills for one turn:\n\tSwift Shot (910865)"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  495,  -50]], [2, 1, 33, [-49,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [100,  0,  0,  0,  0,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  910865,  99999,  2,  1]]]},
@@ -49290,18 +49290,18 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Physical fire damage (10.6x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (5.3x * 2 = 10.6x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Fire by 50% for 3 turns to all enemies",
-                "Add Fire element to physical attacks for 3 turn(s) to caster",
+                "Add Fire element (100%) to physical attacks for 3 turns to caster",
                 "Gain access to following skills for one turn:\n\tSwift Shot (910865)"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  530,  -50]], [2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [100,  0,  0,  0,  0,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  910865,  99999,  2,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Physical fire damage (13x, ATK) to all enemies (ignore cover)",
+                "Physical fire damage (6.5x * 2 = 13x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Fire by 74% for 3 turns to all enemies",
-                "Add Fire element to physical attacks for 3 turn(s) to caster",
+                "Add Fire element (100%) to physical attacks for 3 turns to caster",
                 "Gain access to following skills for one turn:\n\tSwift Shot (910865)"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  650,  -50]], [2, 1, 33, [-74,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 95, [100,  0,  0,  0,  0,  0,  0,  0,  3,  1]], [0, 3, 100, [2,  910865,  99999,  2,  1]]]},
@@ -49337,11 +49337,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (7x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (3.5x * 2 = 7x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  350,  -50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (8.9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.45x * 2 = 8.9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  445,  -50]]]},
         "strings": {
             "name": [
@@ -49375,11 +49375,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Physical damage (9x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (4.5x * 2 = 9x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  450,  -50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Physical damage (11.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical damage (5.7x * 2 = 11.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  570,  -50]]]},
         "strings": {
             "name": [
@@ -49545,11 +49545,11 @@
         "levels": 10,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical fire damage (2.93x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.2x * 1.33 = 2.93x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  220,  -25]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical fire damage (3.53x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.65x * 1.33 = 3.53x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  265,  -25]]]},
         "strings": {
             "name": [
@@ -49583,11 +49583,11 @@
         "levels": 15,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (3.47x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (2.6x * 1.33 = 3.47x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  260,  -25]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical fire damage (4.4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3.3x * 1.33 = 4.4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  330,  -25]]]},
         "strings": {
             "name": [
@@ -49621,11 +49621,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (4x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3x * 1.33 = 4x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -25]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical fire damage (5.27x, ATK) to all enemies (ignore cover)"],
+            "effects": ["Physical fire damage (3.95x * 1.33 = 5.27x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -25]]]},
         "strings": {
             "name": [
@@ -50072,14 +50072,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 80% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 33, [0,  0,  -80,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (9.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (4.9x * 2 = 9.8x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 80% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]], [1, 1, 33, [0,  0,  -80,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -50116,14 +50116,14 @@
         "min_level": {
             "cost": 32,
             "effects": [
-                "Physical damage (10x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5x * 2 = 10x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 90% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]], [1, 1, 33, [0,  0,  -90,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 32,
             "effects": [
-                "Physical damage (14.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (7.4x * 2 = 14.8x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 90% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  740,  -50]], [1, 1, 33, [0,  0,  -90,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -50160,14 +50160,14 @@
         "min_level": {
             "cost": 34,
             "effects": [
-                "Physical damage (15x, ATK) to one enemy (ignore cover)",
+                "Physical damage (7.5x * 2 = 15x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 100% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  750,  -50]], [1, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 34,
             "effects": [
-                "Physical damage (20.8x, ATK) to one enemy (ignore cover)",
+                "Physical damage (10.4x * 2 = 20.8x, ATK) to one enemy (ignore cover)",
                 "Reduce resistance to Lightning by 100% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  1040,  -50]], [1, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -51122,14 +51122,14 @@
         "min_level": {
             "cost": 22,
             "effects": [
-                "Magic* damage (15.1x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic* damage (7.55x * 2 = 15.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce SPR by 45% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  755,  50]], [1, 1, 24, [0,  0,  0,  -45,  3,  1]]]},
         "max_level": {
             "cost": 22,
             "effects": [
-                "Magic* damage (18x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic* damage (9x * 2 = 18x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce SPR by 74% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  900,  50]], [1, 1, 24, [0,  0,  0,  -74,  3,  1]]]},
@@ -51214,14 +51214,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic water damage (9.1x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic water damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore cover and reflect)",
                 "Magic water damage (0.3x) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  455,  50]], [2, 1, 10, [30,  30,  100]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic water damage (12x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Magic water damage (0.3x) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 10, [30,  30,  100]]]},
@@ -51343,7 +51343,7 @@
         "min_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (10.6x, ATK) to one enemy (ignore cover)",
+                "Physical damage (5.3x * 2 = 10.6x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 45% for 3 turns to one enemy",
                 "Reduce resistance to all elements by 60% for 3 turns to one enemy"
             ],
@@ -51351,7 +51351,7 @@
         "max_level": {
             "cost": 22,
             "effects": [
-                "Physical damage (16.4x, ATK) to one enemy (ignore cover)",
+                "Physical damage (8.2x * 2 = 16.4x, ATK) to one enemy (ignore cover)",
                 "Reduce DEF and SPR by 74% for 3 turns to one enemy",
                 "Reduce resistance to all elements by 60% for 3 turns to one enemy"
             ],
@@ -51428,7 +51428,7 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (14.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (7.05x * 2 = 14.1x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning, Wind and Light by 50% for 3 turns to all enemies",
                 "Reduce ATK, DEF, MAG and SPR by 74% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
@@ -51437,7 +51437,7 @@
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (17x, ATK) to all enemies (ignore cover)",
+                "Physical damage (8.5x * 2 = 17x, ATK) to all enemies (ignore cover)",
                 "Reduce resistance to Lightning, Wind and Light by 79% for 3 turns to all enemies",
                 "Reduce ATK, DEF, MAG and SPR by 74% for 3 turns to all enemies",
                 "Gain access to following skills for 3 turns:\n\tGreased Lightning (501980)\n\tQuickbolt Blade (501970)\n\tSwiftwind Blade (501960)"
@@ -51469,7 +51469,7 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (10.6x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.3x * 2 = 10.6x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and MAG by 45% for 3 turns to all enemies",
                 "Reduce damage taken by 30% to all allies for 3 turns"
             ],
@@ -51477,7 +51477,7 @@
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (13.5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.75x * 2 = 13.5x, ATK) to all enemies (ignore cover)",
                 "Reduce ATK and MAG by 74% for 3 turns to all enemies",
                 "Reduce damage taken by 30% to all allies for 3 turns"
             ],
@@ -51508,7 +51508,7 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (5.1x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
             ],
@@ -51516,7 +51516,7 @@
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (8x, MAG) to one enemy (ignore cover and reflect)",
+                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 100% for 5 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
             ],
@@ -51595,7 +51595,7 @@
         "min_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (9.5x, ATK) to all enemies (ignore cover)",
+                "Physical damage (4.75x * 2 = 9.5x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns",
                 "Reduce damage taken by 50% to caster for one turn",
                 "Reduce DEF by 31% for 3 turns to all enemies"
@@ -51604,7 +51604,7 @@
         "max_level": {
             "cost": 24,
             "effects": [
-                "Physical damage (12.4x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.2x * 2 = 12.4x, ATK) to all enemies (ignore cover)",
                 "Increase chance of being targeted by 100% for 3 turns",
                 "Reduce damage taken by 50% to caster for one turn",
                 "Reduce DEF by 60% for 3 turns to all enemies"
@@ -51888,7 +51888,7 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Physical damage (13.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.55x * 2 = 13.1x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies",
                 "Reduce resistance to Fire by 60% for 3 turns to all enemies"
             ],
@@ -51896,7 +51896,7 @@
         "max_level": {
             "cost": 28,
             "effects": [
-                "Physical damage (16x, ATK) to all enemies (ignore cover)",
+                "Physical damage (8x * 2 = 16x, ATK) to all enemies (ignore cover)",
                 "Remove all buffs and debuffs from all enemies",
                 "Reduce resistance to Fire by 60% for 3 turns to all enemies"
             ],
@@ -51975,7 +51975,7 @@
         "min_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (10.1x, ATK) to all enemies (ignore cover)",
+                "Physical damage (5.05x * 2 = 10.1x, ATK) to all enemies (ignore cover)",
                 "Inflict 4 random status effects (50%) to all enemies",
                 "Reduce damage taken by 40% to all allies for 2 turns",
                 "Restore 10% MP to all allies",
@@ -51985,7 +51985,7 @@
         "max_level": {
             "cost": 26,
             "effects": [
-                "Physical damage (13x, ATK) to all enemies (ignore cover)",
+                "Physical damage (6.5x * 2 = 13x, ATK) to all enemies (ignore cover)",
                 "Inflict 4 random status effects (50%) to all enemies",
                 "Reduce damage taken by 40% to all allies for 2 turns",
                 "Restore 10% MP to all allies",
@@ -52018,7 +52018,7 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (12.7x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase ATK, DEF, MAG and SPR by 106% for 3 turns to all allies",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
@@ -52026,7 +52026,7 @@
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (15.6x, MAG) to all enemies (ignore cover and reflect)",
+                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase ATK, DEF, MAG and SPR by 135% for 3 turns to all allies",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
@@ -52210,21 +52210,21 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (4.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.04x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (4.04x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (2.02x * 2 = 4.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.02x * 2 = 4.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.02x * 2 = 4.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.02x * 2 = 4.04x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.02x * 2 = 4.04x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  202,  -50]], [3, 1, 21, [0,  0,  202,  -50]], [3, 1, 21, [0,  0,  202,  -50]], [3, 1, 21, [0,  0,  202,  -50]], [3, 1, 21, [0,  0,  202,  -50]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Physical damage (5.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (5.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (5.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (5.2x, ATK) to one random enemy (ignore cover)",
-                "Physical damage (5.2x, ATK) to one random enemy (ignore cover)"
+                "Physical damage (2.6x * 2 = 5.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.6x * 2 = 5.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.6x * 2 = 5.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.6x * 2 = 5.2x, ATK) to one random enemy (ignore cover)",
+                "Physical damage (2.6x * 2 = 5.2x, ATK) to one random enemy (ignore cover)"
             ],
             "effects_raw": [[3, 1, 21, [0,  0,  260,  -50]], [3, 1, 21, [0,  0,  260,  -50]], [3, 1, 21, [0,  0,  260,  -50]], [3, 1, 21, [0,  0,  260,  -50]], [3, 1, 21, [0,  0,  260,  -50]]]},
         "strings": {
