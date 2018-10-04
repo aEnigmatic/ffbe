@@ -40428,7 +40428,7 @@
         }
     },
     "171060": {
-        "name": "Further enraged",
+        "name": "Further Enraged",
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
@@ -40436,7 +40436,7 @@
         "effects_raw": [[0, 3, 3, [40,  40,  40,  40,  2,  1]]],
         "strings": {
             "name": [
-                "Further enraged",
+                "Further Enraged",
                 "非常生氣",
                 "꽤 화가 났다",
                 "Encore plus enragé",
@@ -40446,7 +40446,7 @@
         }
     },
     "171070": {
-        "name": "Furiously enraged",
+        "name": "Furiously Enraged",
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
@@ -40454,7 +40454,7 @@
         "effects_raw": [[0, 3, 3, [60,  60,  60,  60,  2,  1]]],
         "strings": {
             "name": [
-                "Furiously enraged",
+                "Furiously Enraged",
                 "超級生氣",
                 "엄청 화가 났다",
                 "Furieusement enragé",
@@ -78401,9 +78401,9 @@
                 "Gaia Punch",
                 "大地毆擊",
                 "대지 폭격",
-                "Frappe de soie",
-                "Seidenschlag",
-                null
+                "Poing de Gaia",
+                "Gaia-Schlag",
+                "Puño de Gaia"
             ]
         }
     },
@@ -79358,6 +79358,1878 @@
                 "Vent de tempête",
                 "Ein heftiger Wind weht!",
                 "¡Sopla un viento muy fuerte!"
+            ]
+        }
+    },
+    "193310": {
+        "name": "Hold",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Paralyze and Petrify (100%) on one enemy",
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  100,  1]]],
+        "strings": {
+            "name": [
+                "Hold",
+                "停頓",
+                "홀드",
+                "Halte",
+                "Halten",
+                "Alto"
+            ]
+        }
+    },
+    "193320": {
+        "name": "Glare",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Poison and Confusion (100%) on one enemy",
+        "effects_raw": [[1, 1, 6, [100,  0,  0,  0,  0,  100,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Glare",
+                "瞳",
+                "눈동자",
+                "Regard insistant",
+                "Starren",
+                "Resplandor"
+            ]
+        }
+    },
+    "193330": {
+        "name": "Blaze",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (7x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]]],
+        "strings": {
+            "name": [
+                "Blaze",
+                "烈焰",
+                "화염",
+                "Embrasement",
+                "Stürmisch",
+                "Llamarada"
+            ]
+        }
+    },
+    "193340": {
+        "name": "Tsunami",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic water damage (7x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]]],
+        "strings": {
+            "name": [
+                "Tsunami",
+                "海嘯",
+                "쓰나미",
+                "Tsunami",
+                "Tsunami",
+                "Tsunami"
+            ]
+        }
+    },
+    "193350": {
+        "name": "Thunder Clap",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic lightning damage (7x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]]],
+        "strings": {
+            "name": [
+                "Thunder Clap",
+                "雷鳴",
+                "천둥번개",
+                "Éclairs",
+                "Donnerschlag",
+                "Trueno atronador"
+            ]
+        }
+    },
+    "193360": {
+        "name": "Inferno",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (11x, MAG) to all enemies\nReduce resistance to Fire by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1100]], [2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Inferno",
+                "巨大烈焰",
+                "세찬 화염",
+                "Inferno",
+                "Inferno",
+                "Inferno"
+            ]
+        }
+    },
+    "193370": {
+        "name": "Great Tsunami",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic water damage (11x, MAG) to all enemies\nReduce resistance to Water by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1100]], [2, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Great Tsunami",
+                "巨大海嘯",
+                "세찬 쓰나미",
+                "Déluge",
+                "Großer Tsunami",
+                "Gran tsunami"
+            ]
+        }
+    },
+    "193380": {
+        "name": "Great Lightning",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic lightning damage (11x, MAG) to all enemies\nReduce resistance to Lightning by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1100]], [2, 1, 33, [0,  0,  -50,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Great Lightning",
+                "巨大雷鳴",
+                "세찬 천둥번개",
+                "Tempête",
+                "Großer Blitz",
+                "Gran relámpago"
+            ]
+        }
+    },
+    "193390": {
+        "name": "Frightening Touch",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": "Magic damage (10x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 50% for 3 turns to all enemies\nMagic damage (0.1x) as MP drain (10%) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000]], [2, 1, 33, [-50,  0,  -50,  -50,  0,  0,  0,  0,  1,  3]], [2, 1, 10, [10,  10,  100]]],
+        "strings": {
+            "name": [
+                "Frightening Touch",
+                "恐怖觸擊",
+                "호러 터치",
+                "Toucher effroyable",
+                "Unheimliche Berührung",
+                "Toque horripilante"
+            ]
+        }
+    },
+    "193400": {
+        "name": "Palm Crush",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (5x, ATK) to one enemy\nReduce DEF and SPR by 50% for 3 turns to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 1, 24, [0,  -50,  0,  -50,  3,  1]]],
+        "strings": {
+            "name": [
+                "Palm Crush",
+                "捏碎",
+                "으스러뜨리기",
+                "Paume broyante",
+                "Zerschmetterer",
+                "Aplastamiento con palma"
+            ]
+        }
+    },
+    "193410": {
+        "name": "Eerie Scream",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (5x, MAG) to one enemy\nReduce ATK and MAG by 25% for 3 turns to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [1, 1, 24, [-25,  0,  -25,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Eerie Scream",
+                "恐怖的叫聲",
+                "기분나쁜 외침",
+                "Cri glaçant",
+                "Unheimlicher Schrei",
+                "Grito inquietante"
+            ]
+        }
+    },
+    "193420": {
+        "name": "Reflect Attack",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (5x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]]],
+        "strings": {
+            "name": [
+                "Reflect Attack",
+                "攻擊反射",
+                "공격 반사",
+                "Miroir anti-attaques",
+                "Angriff reflektieren",
+                "Reflejar ataque"
+            ]
+        }
+    },
+    "193430": {
+        "name": "Reflect Magic",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (5x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]],
+        "strings": {
+            "name": [
+                "Reflect Magic",
+                "魔法反射",
+                "마법 반사",
+                "Miroir anti-magies",
+                "Magie reflektieren",
+                "Reflejar magia"
+            ]
+        }
+    },
+    "193440": {
+        "name": "Pressure",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": "99% HP damage to all enemies\nReduce ATK, DEF, MAG and SPR by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 9, [99,  99,  100]], [2, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]],
+        "strings": {
+            "name": [
+                "Pressure",
+                "重壓",
+                "짓누르기",
+                "Pression",
+                "Druck",
+                "Presión"
+            ]
+        }
+    },
+    "193450": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #2 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 2, "MST_MONSTERSKILL_PARAM_MSG_193450", 100, 0]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193460": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #3 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 3, "MST_MONSTERSKILL_PARAM_MSG_193460", 100, 0]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193470": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #4 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 4, "MST_MONSTERSKILL_PARAM_MSG_193470", 100, 0]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193480": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #5 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 5, "MST_MONSTERSKILL_PARAM_MSG_193480", 100, 0]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193490": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #6 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 6, "MST_MONSTERSKILL_PARAM_MSG_193490", 100, 0]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193500": {
+        "name": "Mitosis",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #7 (100%)\nInstant KO (100%) to caster",
+        "effects_raw": [[0, 3, 87, [1, 7, "MST_MONSTERSKILL_PARAM_MSG_193500", 100, 0]], [0, 3, 35, [100]]],
+        "strings": {
+            "name": [
+                "Mitosis",
+                "分裂",
+                "분열",
+                "Mitose",
+                "Zellkernteilung",
+                "Mitosis"
+            ]
+        }
+    },
+    "193510": {
+        "name": "It curled up.",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase DEF and SPR by 200% for 2 turns to one ally",
+        "effects_raw": [[1, 2, 3, [0,  200,  0,  200,  2,  1]]],
+        "strings": {
+            "name": [
+                "It curled up.",
+                "將身體縮成一團了",
+                "몸을 둥글게 말았다",
+                "Calcabrina se roule en boule.",
+                "Es hat sich eingerollt.",
+                "Se ha hecho un ovillo."
+            ]
+        }
+    },
+    "193520": {
+        "name": "Cursed Dance",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Silence, Paralyze and Petrify (100%) on one enemy",
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  100,  100,  0,  0,  100,  1]]],
+        "strings": {
+            "name": [
+                "Cursed Dance",
+                "詛咒之舞",
+                "저주의 댄스",
+                "Danse maudite",
+                "Verfluchter Tanz",
+                "Danza maldita"
+            ]
+        }
+    },
+    "193530": {
+        "name": "Kya ho ho!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK, DEF, MAG and SPR by 200% for one turn to one ally",
+        "effects_raw": [[1, 2, 3, [200,  200,  200,  200,  1,  1]]],
+        "strings": {
+            "name": [
+                "Kya ho ho!",
+                "呀呼呼！",
+                "꺄호호~!",
+                "Kya ha ha !",
+                "Kya ho ho!",
+                "¡Kya, ho, ho!"
+            ]
+        }
+    },
+    "193531": {
+        "name": "Kya ho ho!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK, DEF, MAG and SPR by 30% for one turn to one ally",
+        "effects_raw": [[1, 2, 3, [30,  30,  30,  30,  1,  1]]],
+        "strings": {
+            "name": [
+                "Kya ho ho!",
+                "呀呼呼！",
+                "꺄호호~!",
+                "Kya ha ha !",
+                "Kya ho ho!",
+                "¡Kya, ho, ho!"
+            ]
+        }
+    },
+    "193540": {
+        "name": "Bite",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (9x, ATK) to one enemy\nReduce DEF by 25% for 2 turns to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  900]], [1, 1, 24, [0,  -25,  0,  0,  2,  1]]],
+        "strings": {
+            "name": [
+                "Bite",
+                "撲咬",
+                "물고 늘어지기",
+                "Morsure",
+                "Biss",
+                "Mordisco"
+            ]
+        }
+    },
+    "193550": {
+        "name": "Spinning",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (9x, MAG) to one enemy\nReduce SPR by 25% for 2 turns to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  900]], [1, 1, 24, [0,  0,  0,  -25,  2,  1]]],
+        "strings": {
+            "name": [
+                "Spinning",
+                "轉圈圈",
+                "빙글빙글 돌기",
+                "Tourne et tourne",
+                "Drehen",
+                "Girando"
+            ]
+        }
+    },
+    "193560": {
+        "name": "Combination",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #8 (100%)\nInstant KO (100%) to caster",
+        "effects_raw": [[0, 3, 87, [1, 8, "MST_MONSTERSKILL_PARAM_MSG_193560", 100, 0]], [0, 3, 35, [100]]],
+        "strings": {
+            "name": [
+                "Combination",
+                "合體",
+                "합체",
+                "Fusion",
+                "Kombination",
+                "Combinación"
+            ]
+        }
+    },
+    "193570": {
+        "name": "Blaze",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (1x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  100]]],
+        "strings": {
+            "name": [
+                "Blaze",
+                "烈焰",
+                "화염",
+                "Embrasement",
+                "Stürmisch",
+                "Llamarada"
+            ]
+        }
+    },
+    "193580": {
+        "name": "Tsunami",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic water damage (1x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  100]]],
+        "strings": {
+            "name": [
+                "Tsunami",
+                "海嘯",
+                "쓰나미",
+                "Tsunami",
+                "Tsunami",
+                "Tsunami"
+            ]
+        }
+    },
+    "193590": {
+        "name": "Thunder Clap",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic lightning damage (1x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  100]]],
+        "strings": {
+            "name": [
+                "Thunder Clap",
+                "雷鳴",
+                "천둥번개",
+                "Éclairs",
+                "Donnerschlag",
+                "Trueno atronador"
+            ]
+        }
+    },
+    "193600": {
+        "name": "Inferno",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (1.5x, MAG) to all enemies\nReduce resistance to Fire by 25% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]], [2, 1, 33, [-25,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Inferno",
+                "巨大烈焰",
+                "세찬 화염",
+                "Inferno",
+                "Inferno",
+                "Inferno"
+            ]
+        }
+    },
+    "193610": {
+        "name": "Great Tsunami",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic water damage (1.5x, MAG) to all enemies\nReduce resistance to Water by 25% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]], [2, 1, 33, [0,  0,  0,  -25,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Great Tsunami",
+                "巨大海嘯",
+                "세찬 쓰나미",
+                "Déluge",
+                "Großer Tsunami",
+                "Gran tsunami"
+            ]
+        }
+    },
+    "193620": {
+        "name": "Great Lightning",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic lightning damage (1.5x, MAG) to all enemies\nReduce resistance to Lightning by 25% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]], [2, 1, 33, [0,  0,  -25,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Great Lightning",
+                "巨大雷鳴",
+                "세찬 천둥번개",
+                "Tempête",
+                "Großer Blitz",
+                "Gran relámpago"
+            ]
+        }
+    },
+    "193630": {
+        "name": "Frightening Touch",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": "Magic damage (1.3x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 25% for 3 turns to all enemies\nMagic damage (0.01x) as MP drain (1%) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]], [2, 1, 33, [-25,  0,  -25,  -25,  0,  0,  0,  0,  1,  3]], [2, 1, 10, [1,  1,  100]]],
+        "strings": {
+            "name": [
+                "Frightening Touch",
+                "恐怖觸擊",
+                "호러 터치",
+                "Toucher effroyable",
+                "Unheimliche Berührung",
+                "Toque horripilante"
+            ]
+        }
+    },
+    "193640": {
+        "name": "Palm Crush",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1.5x, ATK) to one enemy\nReduce DEF and SPR by 25% for 3 turns to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 24, [0,  -25,  0,  -25,  3,  1]]],
+        "strings": {
+            "name": [
+                "Palm Crush",
+                "捏碎",
+                "으스러뜨리기",
+                "Paume broyante",
+                "Zerschmetterer",
+                "Aplastamiento con palma"
+            ]
+        }
+    },
+    "193650": {
+        "name": "Eerie Scream",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1.5x, MAG) to one enemy\nReduce ATK and MAG by 25% for 3 turns to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  150]], [1, 1, 24, [-25,  0,  -25,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Eerie Scream",
+                "恐怖的叫聲",
+                "기분나쁜 외침",
+                "Cri glaçant",
+                "Unheimlicher Schrei",
+                "Grito inquietante"
+            ]
+        }
+    },
+    "193660": {
+        "name": "Reflect Attack",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  100]]],
+        "strings": {
+            "name": [
+                "Reflect Attack",
+                "攻擊反射",
+                "공격 반사",
+                "Miroir anti-attaques",
+                "Angriff reflektieren",
+                "Reflejar ataque"
+            ]
+        }
+    },
+    "193670": {
+        "name": "Reflect Magic",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100]]],
+        "strings": {
+            "name": [
+                "Reflect Magic",
+                "魔法反射",
+                "마법 반사",
+                "Miroir anti-magies",
+                "Magie reflektieren",
+                "Reflejar magia"
+            ]
+        }
+    },
+    "193680": {
+        "name": "Pressure",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": "50% HP damage to all enemies\nReduce ATK, DEF, MAG and SPR by 25% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 9, [50,  50,  100]], [2, 1, 24, [-25,  -25,  -25,  -25,  3,  1]]],
+        "strings": {
+            "name": [
+                "Pressure",
+                "重壓",
+                "짓누르기",
+                "Pression",
+                "Druck",
+                "Presión"
+            ]
+        }
+    },
+    "193690": {
+        "name": "Bite",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1x, ATK) to one enemy\nReduce DEF by 25% for 2 turns to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  100]], [1, 1, 24, [0,  -25,  0,  0,  2,  1]]],
+        "strings": {
+            "name": [
+                "Bite",
+                "撲咬",
+                "물고 늘어지기",
+                "Morsure",
+                "Biss",
+                "Mordisco"
+            ]
+        }
+    },
+    "193700": {
+        "name": "Spinning",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1x, MAG) to one enemy\nReduce SPR by 25% for 2 turns to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100]], [1, 1, 24, [0,  0,  0,  -25,  2,  1]]],
+        "strings": {
+            "name": [
+                "Spinning",
+                "轉圈圈",
+                "빙글빙글 돌기",
+                "Tourne et tourne",
+                "Drehen",
+                "Girando"
+            ]
+        }
+    },
+    "193701": {
+        "name": "Reflect Attack",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (20x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2000]]],
+        "strings": {
+            "name": [
+                "Reflect Attack",
+                "攻擊反射",
+                "공격 반사",
+                "Miroir anti-attaques",
+                "Angriff reflektieren",
+                "Reflejar ataque"
+            ]
+        }
+    },
+    "193702": {
+        "name": "Reflect Magic",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (20x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2000]]],
+        "strings": {
+            "name": [
+                "Reflect Magic",
+                "魔法反射",
+                "마법 반사",
+                "Miroir anti-magies",
+                "Magie reflektieren",
+                "Reflejar magia"
+            ]
+        }
+    },
+    "195470": {
+        "name": "1 Million Volts",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Physical* lightning damage (3x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]],
+        "strings": {
+            "name": [
+                "1 Million Volts",
+                "一百萬伏特",
+                "100만 볼트",
+                "1 million de volts",
+                "1 Millionen Volt",
+                "1 millón de voltios"
+            ]
+        }
+    },
+    "195480": {
+        "name": "Paranoia Sickle",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (5x, ATK) to one enemy\nInflict Paralyze and Petrify (100%) on one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  100,  2]]],
+        "strings": {
+            "name": [
+                "Paranoia Sickle",
+                "偏執鐮刀",
+                "파라노이아 시클",
+                "Faux de la paranoïa",
+                "Paranoia-Sichel",
+                "Guadaña de la paranoia"
+            ]
+        }
+    },
+    "195490": {
+        "name": "True Ochu Dance",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3x, ATK) to all enemies\nInflict Blind, Silence and Confusion (100%) on all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [2, 1, 6, [0,  100,  0,  100,  0,  100,  0,  0,  3]]],
+        "strings": {
+            "name": [
+                "True Ochu Dance",
+                "真·食腐獸之舞",
+                "진·오츄의 춤",
+                "Danse de l'otyugh ultime",
+                "Wahrer Küsschentanz",
+                "Danza de ochú auténtica"
+            ]
+        }
+    },
+    "195500": {
+        "name": "Soil Slap",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical earth damage (2.4x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  240]]],
+        "strings": {
+            "name": [
+                "Soil Slap",
+                "泥土拍擊",
+                "소일 슬랩",
+                "Frappe au sol",
+                "Erdschlag",
+                "Bofetada de tierra"
+            ]
+        }
+    },
+    "195510": {
+        "name": "Osmose Bind",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Drain MP",
+        "effects": "Fixed damage (0.05x) as MP drain (5%) to one enemy",
+        "effects_raw": [[1, 1, 10, [5,  5,  100]]],
+        "strings": {
+            "name": [
+                "Osmose Bind",
+                "吸收束縛",
+                "아스필 바인",
+                "Aspiration forcée",
+                "Osmose Verbindung",
+                "Vínculo de osmosis"
+            ]
+        }
+    },
+    "195520": {
+        "name": "Guardian Ivy",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase DEF and SPR by 40% for 3 turns to all allies\nReduce damage taken by 30% to all allies for 3 turns",
+        "effects_raw": [[2, 2, 3, [0,  40,  0,  40,  3,  1]], [2, 2, 101, [30,  3,  1]]],
+        "strings": {
+            "name": [
+                "Guardian Ivy",
+                "堅護藤蔓",
+                "견호의 덩굴",
+                "Vigne protectrice",
+                "Wächterefeu",
+                "Hiedra guardiana"
+            ]
+        }
+    },
+    "195530": {
+        "name": "Snatching Ivy",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce ATK, DEF, MAG and SPR by 40% for 3 turns to all enemies\nReduce resistance to Earth by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 24, [-40,  -40,  -40,  -40,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Snatching Ivy",
+                "奪氣藤蔓",
+                "탈기의 덩굴",
+                "Vigne dérobeuse",
+                "Räuberefeu",
+                "Hiedra ladrona"
+            ]
+        }
+    },
+    "195540": {
+        "name": "Fertile Sprout",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Restore 10% HP to all allies",
+        "effects_raw": [[2, 2, 26, [10,  10,  100]]],
+        "strings": {
+            "name": [
+                "Fertile Sprout",
+                "肥沃芽",
+                "비옥의 싹",
+                "Pousse fertile",
+                "Fruchtbarer Samen",
+                "Brote fértil"
+            ]
+        }
+    },
+    "195550": {
+        "name": "Possession: Red Marshmallow",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK and MAG by 50% for 99999 turns to caster",
+        "effects_raw": [[0, 3, 3, [50,  0,  50,  0,  99999,  1,  1]]],
+        "strings": {
+            "name": [
+                "Possession: Red Marshmallow",
+                "憑依：紅色棉花糖",
+                "빙의: 붉은 마시멜로",
+                "Possesion du marshmallow rouge",
+                "Besitz: Roter Marshmallow",
+                "Posesión: Malvavisco rojo"
+            ]
+        }
+    },
+    "195560": {
+        "name": "Possession: Green Slime",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase DEF and SPR by 50% for 99999 turns to caster",
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  99999,  1,  1]]],
+        "strings": {
+            "name": [
+                "Possession: Green Slime",
+                "憑依：綠色史萊姆",
+                "빙의: 초록 슬라임",
+                "Possession du flambos vert",
+                "Besitz: Grünschleim",
+                "Posesión: Baba verde"
+            ]
+        }
+    },
+    "195570": {
+        "name": "Possession: Yellow Jelly",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase resistance to all elements by 75% for 99999 turns to caster",
+        "effects_raw": [[0, 3, 33, [75,  75,  75,  75,  75,  75,  75,  75,  1,  99999]]],
+        "strings": {
+            "name": [
+                "Possession: Yellow Jelly",
+                "憑依：黃色膠質怪",
+                "빙의: 노란 젤리",
+                "Possession du flan jaune",
+                "Besitz: Eitergelee",
+                "Posesión: Gelatina amarilla"
+            ]
+        }
+    },
+    "195580": {
+        "name": "Sinuous Eel",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (4.8x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  480]]],
+        "strings": {
+            "name": [
+                "Sinuous Eel",
+                "高級顫抖",
+                "선회하는 장어",
+                "Anguille perfide",
+                "Geschmeidiger Aal",
+                "Anguila sinuosa"
+            ]
+        }
+    },
+    "195590": {
+        "name": "Iai Strike",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Instant KO",
+        "effects": "[Death]\nInstant KO (50%) to all enemies",
+        "effects_raw": [[2, 1, 35, [50]]],
+        "strings": {
+            "name": [
+                "Iai Strike",
+                "居合斬",
+                "발도술",
+                "Iainuki",
+                "Iai Strike",
+                "Alta esgrima"
+            ]
+        }
+    },
+    "195600": {
+        "name": "Revitalize",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Restore 5% HP to all allies",
+        "effects_raw": [[2, 2, 26, [5,  5,  100]]],
+        "strings": {
+            "name": [
+                "Revitalize",
+                "活性化",
+                "활성화",
+                "Revitalisation",
+                "Revitalisierung",
+                "Revitalizar"
+            ]
+        }
+    },
+    "195610": {
+        "name": "Wrapping Hold",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": "50% HP damage to one enemy\nInflict Stop (50%) for 3 turns on one enemy",
+        "effects_raw": [[1, 1, 9, [50,  50,  100,  0]], [1, 1, 88, [50,  3]]],
+        "strings": {
+            "name": [
+                "Wrapping Hold",
+                "纏縛",
+                "랩 홀드",
+                "Étau inextricable",
+                "Versteck",
+                "Agarre envolvente"
+            ]
+        }
+    },
+    "195620": {
+        "name": "Inescapable Death",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Instant KO",
+        "effects": "[Death]\nInstant KO (100%) to one enemy",
+        "effects_raw": [[1, 1, 35, [100]]],
+        "strings": {
+            "name": [
+                "Inescapable Death",
+                "死劫難逃",
+                "도망칠 수 없는 죽음",
+                "Mort inévitable",
+                "Unausweichlicher Tod",
+                "Muerte inevitable"
+            ]
+        }
+    },
+    "195630": {
+        "name": "Dispelling Roar",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Remove all buffs and debuffs from one enemy\nInflict Paralyze and Petrify (100%) on one enemy",
+        "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  100,  2]]],
+        "strings": {
+            "name": [
+                "Dispelling Roar",
+                "驅魔學",
+                "디스펠 로어",
+                "Rugissement dissipation",
+                "Vertreibendes Brüllen",
+                "Rugido disipador"
+            ]
+        }
+    },
+    "195640": {
+        "name": "It has burrowed.",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase DEF and SPR by 50% for 3 turns to caster",
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  3,  1]]],
+        "strings": {
+            "name": [
+                "It has burrowed.",
+                "挖洞並鑽了進去",
+                "구멍을 파냈다",
+                "Le fourmilion s'est enfoui sous terre.",
+                "Er versteckt sich.",
+                "Ha excavado."
+            ]
+        }
+    },
+    "195650": {
+        "name": "Fully covered in flames.",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK and MAG by 50% for 3 turns to caster\nReduce physical damage taken by 95% to caster for one turn (can not be removed)\nReduce magic damage taken by 95% to caster for one turn (can not be removed)\nReduce resistance to Ice, Lightning, Water, Earth and Light by 750% for one turn to caster",
+        "effects_raw": [[0, 3, 3, [50,  0,  50,  0,  3,  1]], [0, 3, 115, [95,  0,  1,  1]], [0, 3, 116, [95,  0,  1,  1]], [0, 3, 33, [0,  -750,  -750,  -750,  0,  -750,  -750,  0,  1,  1]]],
+        "strings": {
+            "name": [
+                "Fully covered in flames.",
+                "全身被火焰包圍了",
+                "전신이 불꽃에 뒤덮였다",
+                "La vouivre est enveloppée de flammes.",
+                "Komplett in Flammen gehüllt.",
+                "Totalmente cubierto de llamas."
+            ]
+        }
+    },
+    "195660": {
+        "name": "Hellflame Dive",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Physical* fire damage (15x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1500]]],
+        "strings": {
+            "name": [
+                "Hellflame Dive",
+                "獄炎俯衝",
+                "헬프레임 다이브",
+                "Plongée des flammes de l'enfer",
+                "Tauchen in Höllenflammen",
+                "Embestida de fuego infernal"
+            ]
+        }
+    },
+    "195670": {
+        "name": "Freeze",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic ice damage (5.5x, MAG) to all enemies\nReduce resistance to Ice by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  550]], [2, 1, 33, [0,  -50,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Freeze",
+                "凍結",
+                "프리즈",
+                "Givre",
+                "Einfrieren",
+                "Congelación"
+            ]
+        }
+    },
+    "195680": {
+        "name": "Osmose",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": "Magic damage (0.75x) as MP drain (75%) to one enemy",
+        "effects_raw": [[1, 1, 10, [75,  75,  100]]],
+        "strings": {
+            "name": [
+                "Osmose",
+                "攝魔",
+                "아스필",
+                "Aspire",
+                "Osmose",
+                "Aspir"
+            ]
+        }
+    },
+    "195690": {
+        "name": "Frost Blast",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "50% HP damage to one enemy",
+        "effects_raw": [[1, 1, 9, [50,  50,  100]]],
+        "strings": {
+            "name": [
+                "Frost Blast",
+                "冰焰",
+                "블레이즈",
+                "Souffle de givre",
+                "Frostexplosion",
+                "Descarga helada"
+            ]
+        }
+    },
+    "195700": {
+        "name": "Romp",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]],
+        "strings": {
+            "name": [
+                "Romp",
+                "打鬧",
+                "장난질",
+                "Ébrouement",
+                "Toben",
+                "Retozo"
+            ]
+        }
+    },
+    "195710": {
+        "name": "Aqua Breath",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic water damage (4x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]]],
+        "strings": {
+            "name": [
+                "Aqua Breath",
+                "流水吐息",
+                "물의 숨결",
+                "Souffle d'eau",
+                "Wasseratem",
+                "Aliento de agua"
+            ]
+        }
+    },
+    "195720": {
+        "name": "Fire Break",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (3x, MAG) to all enemies\nReduce resistance to Fire by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Fire Break",
+                "烈焰碎擊",
+                "파이어브레이크",
+                "Explosion de flammes",
+                "Feuerbruch",
+                "Ruptura de fuego"
+            ]
+        }
+    },
+    "195730": {
+        "name": "Onrush",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2.5x, ATK) to one enemy\nInflict Confusion (100%) on one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [1, 1, 6, [0,  0,  0,  0,  0,  100,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Onrush",
+                "突進",
+                "돌진",
+                "Charge",
+                "Ansturm",
+                "Avalancha"
+            ]
+        }
+    },
+    "195740": {
+        "name": "Sweep",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]],
+        "strings": {
+            "name": [
+                "Sweep",
+                "橫掃",
+                "쓸어버리기",
+                "Balayage",
+                "Wegfegen",
+                "Corte horizontal"
+            ]
+        }
+    },
+    "195750": {
+        "name": "Bile",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Fixed* damage (6666) to one enemy\nInflict Poison (100%) on one enemy",
+        "effects_raw": [[1, 1, 41, [6666]], [1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Bile",
+                "消化液",
+                "소화액",
+                "Sucs digestifs",
+                "Galle",
+                "Bilis"
+            ]
+        }
+    },
+    "195760": {
+        "name": "Fury",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK and MAG by 50% for 999 turns to caster",
+        "effects_raw": [[0, 3, 3, [50,  0,  50,  0,  999,  1]]],
+        "strings": {
+            "name": [
+                "Fury",
+                "全力以赴",
+                "진심",
+                "Fureur",
+                "Raserei",
+                "Tentación"
+            ]
+        }
+    },
+    "195770": {
+        "name": "Protectga",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Increase DEF by 40% for 3 turns to all allies",
+        "effects_raw": [[2, 2, 3, [0,  40,  0,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Protectga",
+                "超物防護",
+                "프로테가",
+                "Bouclier X",
+                "Protesga",
+                "Coraza++"
+            ]
+        }
+    },
+    "195780": {
+        "name": "Shellga",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Increase SPR by 40% for 3 turns to all allies",
+        "effects_raw": [[2, 2, 3, [0,  0,  0,  40,  3,  1]]],
+        "strings": {
+            "name": [
+                "Shellga",
+                "超魔防護",
+                "셸가",
+                "Barrière X",
+                "Vallumga",
+                "Escudo+"
+            ]
+        }
+    },
+    "195790": {
+        "name": "Call of Death",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Instant KO",
+        "effects": "[Death]\nInstant KO (100%) to all enemies",
+        "effects_raw": [[2, 1, 35, [100]]],
+        "strings": {
+            "name": [
+                "Call of Death",
+                "死亡呼喚",
+                "죽음의 외침소리",
+                "Appel de la mort",
+                "Ruf des Todes",
+                "Llamada de la muerte"
+            ]
+        }
+    },
+    "196030": {
+        "name": "Sweep",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (4x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]]],
+        "strings": {
+            "name": [
+                "Sweep",
+                "橫掃",
+                "쓸어버리기",
+                "Balayage",
+                "Wegfegen",
+                "Corte horizontal"
+            ]
+        }
+    },
+    "196040": {
+        "name": "Poison Mist",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Poison, Paralyze and Disease (100%) on all enemies",
+        "effects_raw": [[2, 1, 6, [100,  0,  0,  0,  100,  0,  100,  0,  3]]],
+        "strings": {
+            "name": [
+                "Poison Mist",
+                "毒霧",
+                "독안개",
+                "Brume empoisonnée",
+                "Giftnebel",
+                "Niebla venenosa"
+            ]
+        }
+    },
+    "196050": {
+        "name": "Silver Lance",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3x, ATK) to one enemy\nReduce DEF by 50% for 3 turns to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Silver Lance",
+                "白銀槍",
+                "실버 랜스",
+                "Lance d'argent",
+                "Silberlanze",
+                "Lanza plateada"
+            ]
+        }
+    },
+    "196060": {
+        "name": "Rapid Shot - Wind",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Hybrid* wind damage (2.5x, ATK & MAG) to all enemies",
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]]],
+        "strings": {
+            "name": [
+                "Rapid Shot - Wind",
+                "快速射擊·風",
+                "라피드 샷·바람",
+                "Tir rapide : vent",
+                "Flinker Schuss – Wind",
+                "Disparo rápido - Viento"
+            ]
+        }
+    },
+    "196070": {
+        "name": "Rapid Shot - Light",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Hybrid* light damage (2.5x, ATK & MAG) to all enemies",
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]]],
+        "strings": {
+            "name": [
+                "Rapid Shot - Light",
+                "快速射擊·光",
+                "라피드 샷·빛",
+                "Tir rapide : lumière",
+                "Flinker Schuss – Licht",
+                "Disparo rápido - Luz"
+            ]
+        }
+    },
+    "196080": {
+        "name": "Rapid Shot - Water",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Hybrid* water damage (2.5x, ATK & MAG) to all enemies",
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]]],
+        "strings": {
+            "name": [
+                "Rapid Shot - Water",
+                "快速射擊·水",
+                "라피드 샷·물",
+                "Tir rapide : eau",
+                "Flinker Schuss – Wasser",
+                "Disparo rápido - Agua"
+            ]
+        }
+    },
+    "196090": {
+        "name": "Rapid Shot - Ice",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Hybrid* ice damage (2.5x, ATK & MAG) to all enemies",
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]]],
+        "strings": {
+            "name": [
+                "Rapid Shot - Ice",
+                "快速射擊·冰",
+                "라피드 샷·얼음",
+                "Tir rapide : glace",
+                "Flinker Schuss – Eis",
+                "Disparo rápido - Hielo"
+            ]
+        }
+    },
+    "196100": {
+        "name": "Rapid Shot - Dark",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Hybrid* dark damage (2.5x, ATK & MAG) to all enemies",
+        "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  250,  250]]],
+        "strings": {
+            "name": [
+                "Rapid Shot - Dark",
+                "快速射擊·暗",
+                "라피드 샷·어둠",
+                "Tir rapide : ténèbres",
+                "Flinker Schuss – Dunkelheit",
+                "Disparo rápido - Oscuridad"
+            ]
+        }
+    },
+    "196110": {
+        "name": "Twin Gatling Gun",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2.5x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]]],
+        "strings": {
+            "name": [
+                "Twin Gatling Gun",
+                "聯裝機關炮",
+                "연장 개틀링 건",
+                "Double mitrailleuse",
+                "Twin Gatling Gun",
+                "Dúo de ametralladoras"
+            ]
+        }
+    },
+    "196120": {
+        "name": "Recovery System On",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from caster",
+        "effects_raw": [[0, 3, 111, [1,  1,  1,  1,  1,  1]]],
+        "strings": {
+            "name": [
+                "Recovery System On",
+                "恢復系統啟動",
+                "리커버리 시스템 작동",
+                "Récupération des données",
+                "Wiederherstellungssystem an",
+                "Sistema de recuperación activado"
+            ]
+        }
+    },
+    "196130": {
+        "name": "Pile Banger",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (4.5x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  450]]],
+        "strings": {
+            "name": [
+                "Pile Banger",
+                "堆積者",
+                "파일 벙커",
+                "Bunker",
+                "Haufenwurf",
+                "Golpeapilas"
+            ]
+        }
+    },
+    "196140": {
+        "name": "Super Blast",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (3x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300]]],
+        "strings": {
+            "name": [
+                "Super Blast",
+                "超級衝擊",
+                "슈퍼 블래스트",
+                "Super laser",
+                "Super-Explosion",
+                "Súper estallido"
+            ]
+        }
+    },
+    "196150": {
+        "name": "Crush All",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2.3x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  230]]],
+        "strings": {
+            "name": [
+                "Crush All",
+                "壓潰一切",
+                "전부 짓뭉개기",
+                "Tout détruire",
+                "Alle zerschmettern",
+                "Aplastatodo"
+            ]
+        }
+    },
+    "196160": {
+        "name": "Change: Impact Mode",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Set Fire, Lightning and Earth resistance to -150% for 2 turns to caster (can not be removed)",
+        "effects_raw": [[0, 3, 117, [-150,  0,  -150,  0,  0,  -150,  0,  0,  1,  2]]],
+        "strings": {
+            "name": [
+                "Change: Impact Mode",
+                "模式轉換：衝擊模式",
+                "체인지: 임팩트 모드",
+                "Basculement en mode Impact",
+                "Änderung: Einschlagmodus",
+                "Cambio: Modo impacto"
+            ]
+        }
+    },
+    "196170": {
+        "name": "Change: Shooting Mode",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "No effect",
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Change: Shooting Mode",
+                "模式轉換：射擊模式",
+                "체인지: 슈팅 모드",
+                "Basculement en mode Tir",
+                "Änderung: Schussmodus",
+                "Cambio: Modo disparo"
+            ]
+        }
+    },
+    "196180": {
+        "name": "Chain Laser",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic ice, water, wind, light and dark damage (0.5x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  50]]],
+        "strings": {
+            "name": [
+                "Chain Laser",
+                "連鎖射線",
+                "체인 레이저",
+                "Barrage de lasers",
+                "Kettenlaser",
+                "Láser en cadena"
+            ]
+        }
+    },
+    "196190": {
+        "name": "Melting Eye - Light/Dark",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce resistance to Light and Dark by 30% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -30,  -30,  1,  3]]],
+        "strings": {
+            "name": [
+                "Melting Eye - Light/Dark",
+                "溶解之眼·光暗",
+                "멜트 아이·광/암",
+                "Meltdown : lumière/ténèbres",
+                "Schmelzendes Auge – Licht/Dunkelheit",
+                "Ojo derretido - Luz/Oscuridad"
+            ]
+        }
+    },
+    "196200": {
+        "name": "Melting Eye - Ice/Water",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce resistance to Ice and Water by 30% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 33, [0,  -30,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Melting Eye - Ice/Water",
+                "溶解之眼·冰水",
+                "멜트 아이·빙/수",
+                "Meltdown : eau/glace",
+                "Schmelzendes Auge – Eis/Wasser",
+                "Ojo derretido - Hielo/Agua"
+            ]
+        }
+    },
+    "196210": {
+        "name": "System Attack - ATK/MAG",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce ATK and MAG by 65% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 24, [-65,  0,  -65,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "System Attack - ATK/MAG",
+                "降低系統·攻擊魔力",
+                "다운 시스템·공/마",
+                "Attaque du système : ATT/MAG",
+                "Systemangriff – ANG/MAG",
+                "Ataque de sistema - ATQ/MAG"
+            ]
+        }
+    },
+    "196220": {
+        "name": "System Attack - DEF/SPR",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce DEF and SPR by 50% for 3 turns to all enemies",
+        "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]]],
+        "strings": {
+            "name": [
+                "System Attack - DEF/SPR",
+                "降低系統·防禦精神",
+                "다운 시스템·방/정",
+                "Attaque du système : DEF/PSY",
+                "Systemangriff – VER/PSY",
+                "Ataque de sistema - DEF/ESP"
+            ]
+        }
+    },
+    "196230": {
+        "name": "Attack Assist",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase ATK and MAG by 80% for 3 turns to all allies",
+        "effects_raw": [[2, 2, 3, [80,  0,  80,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Attack Assist",
+                "攻擊輔助",
+                "어택 어시스트",
+                "Assistant d'attaque",
+                "Angriffsassistent",
+                "Ayuda al ataque"
+            ]
+        }
+    },
+    "196240": {
+        "name": "Elemental Shield",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase resistance to Fire, Lightning and Earth by 100% for 3 turns to all allies",
+        "effects_raw": [[2, 2, 33, [100,  0,  100,  0,  0,  100,  0,  0,  1,  3]]],
+        "strings": {
+            "name": [
+                "Elemental Shield",
+                "元素護盾",
+                "엘리멘탈 실드",
+                "Bouclier anti-éléments",
+                "Elementarschild",
+                "Escudo elemental"
+            ]
+        }
+    },
+    "196250": {
+        "name": "Stop",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Stop (80%) for 3 turns on one enemy",
+        "effects_raw": [[1, 1, 88, [80,  3]]],
+        "strings": {
+            "name": [
+                "Stop",
+                "停止",
+                "스톱",
+                "Stop",
+                "Halt",
+                "Paro"
+            ]
+        }
+    },
+    "196260": {
+        "name": "Material Field",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce physical damage taken by 30% to all allies for 3 turns (can not be removed)",
+        "effects_raw": [[2, 2, 115, [30,  1,  3,  1]]],
+        "strings": {
+            "name": [
+                "Material Field",
+                "物質領域",
+                "마테리얼 필드",
+                "Bouclier anti-attaques",
+                "Materialfeld",
+                "Campo material"
+            ]
+        }
+    },
+    "196270": {
+        "name": "Magic Field",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce magic damage taken by 30% to all allies for 3 turns (can not be removed)",
+        "effects_raw": [[2, 2, 116, [30,  1,  3,  1]]],
+        "strings": {
+            "name": [
+                "Magic Field",
+                "魔法領域",
+                "마법의 필드",
+                "Bouclier anti-magies",
+                "Magiefeld",
+                "Campo mágico"
+            ]
+        }
+    },
+    "196280": {
+        "name": "Enthrall Eye",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Charm (80%) on one enemy for 3 turns",
+        "effects_raw": [[1, 1, 60, [3, 80, "MST_MONSTERSKILL_PARAM_MSG_196280"]]],
+        "strings": {
+            "name": [
+                "Enthrall Eye",
+                "迷惑眼",
+                "매혹의 눈동자",
+                "Inscription oculaire",
+                "Begeistertes Auge",
+                "Ojo de embelesar"
+            ]
+        }
+    },
+    "196290": {
+        "name": "System Reinforce - Support",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #3 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 3, "MST_MONSTERSKILL_PARAM_MSG_196290", 100, 0]]],
+        "strings": {
+            "name": [
+                "System Reinforce - Support",
+                "增援系統：輔助",
+                "증원 시스템: 지원",
+                "Système de renforts : soutien",
+                "Systemverstärkung – Unterstützung",
+                "Refuerzo de sistema - Soporte"
+            ]
+        }
+    },
+    "196300": {
+        "name": "System Reinforce - Chain",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Summon ally #2 (100%)",
+        "effects_raw": [[0, 3, 87, [1, 2, "MST_MONSTERSKILL_PARAM_MSG_196300", 100, 0]]],
+        "strings": {
+            "name": [
+                "System Reinforce - Chain",
+                "增援系統：連鎖",
+                "증원 시스템: 체인",
+                "Système de renforts : combos",
+                "Systemverstärkung – Kette",
+                "Refuerzo de sistema - Cadena"
             ]
         }
     },

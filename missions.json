@@ -56593,7 +56593,7 @@
             },
             {
                 "string": "Use sorcery dampener",
-                "parsed": ["Use Sorcercy Dampener"],
+                "parsed": ["Use Sorcery Dampener"],
                 "reward": ["UNIT", 900005101, 3]
             },
             {
@@ -80096,14 +80096,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -80133,14 +80133,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106304800, 200],
         "gil": 35,
-        "exp": 105,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -80170,14 +80170,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106304800, 300],
         "gil": 60,
-        "exp": 208,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -80207,14 +80207,14 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106304800, 500],
         "gil": 80,
-        "exp": 310,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -80244,14 +80244,14 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
         "gil": 113,
-        "exp": 468,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -84192,7 +84192,7 @@
     },
     "8980115": {
         "dungeon_id": 89801,
-        "name": "十二武具・狡猾の女蟲",
+        "name": "Chamber of Arms - The Insects of Deceit",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -84229,7 +84229,7 @@
     },
     "8980116": {
         "dungeon_id": 89801,
-        "name": "十二武具・不純と狡猾の女蟲",
+        "name": "Chamber of Arms - The Insects of Guile and Deceit",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -84266,7 +84266,7 @@
     },
     "8980117": {
         "dungeon_id": 89801,
-        "name": "十二武具・慈愛の竜賢",
+        "name": "Chamber of Arms - The Dragon of Affection",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -84303,7 +84303,7 @@
     },
     "8980118": {
         "dungeon_id": 89801,
-        "name": "十二武具・隠匿された慈愛の竜賢",
+        "name": "Chamber of Arms - The Dragon of Concealed Affection",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -84340,7 +84340,7 @@
     },
     "8980119": {
         "dungeon_id": 89801,
-        "name": "十二武具・救国の勇者",
+        "name": "Chamber of Arms - The Patriotic Hero",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -84377,7 +84377,7 @@
     },
     "8980120": {
         "dungeon_id": 89801,
-        "name": "十二武具・死して彷徨う救国の勇者",
+        "name": "Chamber of Arms - The Ambulant Patriotic Hero",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -87588,6 +87588,43 @@
             }
         ]
     },
+    "8993401": {
+        "dungeon_id": 89735,
+        "name": "Scorn of the Marching Beasts",
+        "type": "BATTLE",
+        "wave_count": 9,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 900,
+        "exp": 2500,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 407003900, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["UNIT", 904000105, 1]
+            },
+            {
+                "string": "Deal fire, lightning, and earth damage 2 times or more each to an enemy",
+                "parsed": ["Deal Fire damage 2 times or more", "Deal Lightning damage 2 times or more", "Deal Earth damage 2 times or more"],
+                "reward": ["KEYITEM", 50, 1]
+            },
+            {
+                "string": "Defeat Europa with magic",
+                "parsed": ["Defeat Europa with magic"],
+                "reward": ["MATERIA", 504224890, 1]
+            }
+        ]
+    },
     "8993801": {
         "dungeon_id": 89938,
         "name": "The Octopus and the Teacher - ADV",
@@ -88584,6 +88621,117 @@
                 "string": "Defeat the great malboro with a limit burst",
                 "parsed": ["Defeat Great Malboro with a limit burst"],
                 "reward": ["MATERIA", 504227411, 1]
+            }
+        ]
+    },
+    "8995601": {
+        "dungeon_id": 89947,
+        "name": "The Mad Doll - ADV",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 101003100, 1],
+        "gil": 105,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 30]
+            },
+            {
+                "string": "Use no more than 5 items",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["ITEM", 201001300, 5]
+            },
+            {
+                "string": "Get a chain of 4 or more in 1 turn",
+                "parsed": ["Get a chain of 4 or more in one turn"],
+                "reward": ["ITEM", 202002600, 3]
+            },
+            {
+                "string": "Deal earth and light damage to an enemy",
+                "parsed": ["Deal Earth damage", "Deal Light damage"],
+                "reward": ["ITEM", 290050300, 5]
+            }
+        ]
+    },
+    "8995602": {
+        "dungeon_id": 89947,
+        "name": "The Mad Doll - PRO",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 101002100, 1],
+        "gil": 155,
+        "exp": 750,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "Use no more than 3 items",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["ITEM", 201001200, 10]
+            },
+            {
+                "string": "Get a chain of 5 or more in 1 turn",
+                "parsed": ["Get a chain of 5 or more in one turn"],
+                "reward": ["ITEM", 106200100, 3]
+            },
+            {
+                "string": "Deal fire and water damage to an enemy",
+                "parsed": ["Deal Fire damage", "Deal Water damage"],
+                "reward": ["UNIT", 905000102, 3]
+            }
+        ]
+    },
+    "8995603": {
+        "dungeon_id": 89947,
+        "name": "The Mad Doll - ELT",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 50,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["EQUIP", 409023600, 1],
+        "gil": 240,
+        "exp": 2000,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 100]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["UNIT", 904000105, 1]
+            },
+            {
+                "string": "Get a chain of 6 or more in 1 turn",
+                "parsed": ["Get a chain of 6 or more in one turn"],
+                "reward": ["MATERIA", 504228391, 1]
+            },
+            {
+                "string": "Deal fire, water, earth, and light damage to an enemy",
+                "parsed": ["Deal Fire damage", "Deal Water damage", "Deal Earth damage", "Deal Light damage"],
+                "reward": ["MATERIA", 504228390, 1]
             }
         ]
     },
@@ -95634,6 +95782,43 @@
                 "string": "Clear without an ally being KO'd",
                 "parsed": ["Clear without an ally being KO'd"],
                 "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "9410101": {
+        "dungeon_id": 94101,
+        "name": "Hasiko's Revenge - ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["ITEM", 1209000905, 10000]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["EQUIP", 1100000193, 1]
             }
         ]
     },

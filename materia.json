@@ -1279,7 +1279,7 @@
                 "적 1명에게 피해+연속 사용 시 피해량 상승",
                 "Dégâts sur un ennemi et bonus de force avec un usage consécutif",
                 "Verursacht steigenden Schaden, ein Ziel",
-                "Inflige daño a un enemigo y aumenta el poder con el uso."
+                "Inflige daño mágico a un enemigo y aumenta el daño con cada uso."
             ],
             "desc_long": [
                 "Deals damage to one enemy. Damage dealt increases with each use.",
@@ -9106,7 +9106,7 @@
                 "提高40%攻擊+HP低於一定量時提高防禦精神的數值",
                 "공격력 40% 상승+HP가 일정량 이하일 때 방어력과 정신력 상승",
                 "Augmente l'ATT de 40% et la DEF et la PSY quand les PV descendent en dessous d'un certain seuil",
-                "ABW, ANG und PSY um 40 % hoch bei geringen LP",
+                "Erhöht ANG um 40 % und ABW, PSY hoch bei geringen LP",
                 "Aumenta el ATQ un 40% y DEF/ESP al bajar su VIT hasta cierto punto"
             ],
             "desc_long": [
@@ -9114,7 +9114,7 @@
                 "提高40%攻擊數值，HP低於一定量時提高防禦精神的數值。",
                 "공격력이 40% 상승하고, HP가 일정량 이하일 때 방어력과 정신력이 상승합니다.",
                 "Augmente l'ATT de 40% et la DEF et la PSY quand les PV descendent en dessous d'un certain seuil",
-                "ABW, ANG und PSY um 40 % hoch bei geringen LP.",
+                "Erhöht ANG um 40 % und ABW, PSY hoch bei geringen LP",
                 "Aumenta el ATQ un 40% y DEF/ESP al bajar su VIT hasta cierto punto"
             ]
         }
@@ -15921,6 +15921,44 @@
             ]
         }
     },
+    "504224890": {
+        "name": "Bug Killer+",
+        "compendium_id": 857,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [224890],
+        "effects": ["Grants 'Bug Killer+' passive."],
+        "unique": true,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Bug Killer+",
+                "殺蟲改",
+                "개량형 벌레 킬러",
+                "Tue-insectes +",
+                "Pestizid+",
+                "Matabichos+"
+            ],
+            "desc_short": [
+                "Boost physical and magic damage against insects (Not stackable)",
+                "物理、魔法攻擊時提高對蟲系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 곤충형 마물에게 부여하는 피해량 상승 [중복 장착 불가]",
+                "Augmente les dégâts physiques et magiques contre les insectes (pas cumulable)",
+                "Erhöht physischen und magischen Schaden gegen Insekten (Nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra insectos (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost physical and magic damage against insects. Not stackable.",
+                "物理、魔法攻擊時提高對蟲系魔物的傷害。無法重複裝備。",
+                "물리, 마법 공격 시 곤충형 마물에게 부여하는 피해량이 상승합니다. 중복 장착 불가.",
+                "Augmente les dégâts physiques et magiques contre les insectes. Pas cumulable.",
+                "Erhöht physischen und magischen Schaden gegen Insekten (Nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra insectos (no acumulable)"
+            ]
+        }
+    },
     "504224900": {
         "name": "Bomb Spirit",
         "compendium_id": 746,
@@ -15946,7 +15984,7 @@
                 "降低50%冰屬性耐性+每回合增加極限技槽+提高30%火屬性耐性",
                 "얼음속성 저항력 50% 감소+매 턴마다 LB 게이지 증가+불속성 저항력 30% 상승",
                 "Réduit la rés. à la glace de 50% et augmente la jauge de limite à chaque tour, et la rés. au feu de 30%",
-                "Erhöht Eisresistenz um 50%, Limitmeter steigt jede Runde und erhöht Feuerresistenz um 30%.",
+                "Verringert Eisresistenz um 50%, Limitmeter steigt jede Runde und erhöht Feuerresistenz um 30%.",
                 "Reduce la res. al hielo un 50%, la barra de EL se llena más rápido y aumenta la res. al fuego un 30%"
             ],
             "desc_long": [
@@ -17043,9 +17081,16 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Boost physical and magic damage against insects, boost ATK when equipped with a sword and MAG when equipped with a rod",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
             "desc_long": [
-                "Boost physical and magic damage against insects, and boost ATK by 30% when equipped with a sword and MAG by 30% when equipped with a rod.",
+                "Boosts physical and magic damage against insects, and boosts ATK by 30% when equipped with a sword and MAG by 30% when equipped with a rod.",
                 "物理、魔法攻擊時提高對蟲系魔物的傷害，提高裝備劍時的攻擊，並提高裝備魔棒時的魔力。",
                 "물리, 마법 공격 시 곤충형 마물에게 부여하는 피해량이 상승하고, 검 장착 시 공격력이 30%, 홀장 장착 시 마력이 30% 상승합니다.",
                 "Augmente les dégâts physiques et magiques contre les monstres de type insecte. Augmente l'ATT de 30% quand une épée est équipée, et augmente la MAGIE de 30% quand un sceptre est équipé",
@@ -17079,7 +17124,7 @@
                 "提高裝備劍時的攻擊+每回合增加極限技槽 [無法重複裝備]",
                 "매 턴마다 LB 게이지 증가+검 장착 시 공격력 상승 (중복 장착 불가)",
                 "Remplit la jauge de limite à chaque tour et augmente l'ATT quand une épée est équipée (non cumulable)",
-                "Füllt jede Runde Limitleiste und erhöht ANG um 50%, wenn mit einem Schwert ausgerüstet (Nicht stapelbar).",
+                "Füllt jede Runde Limitleiste und erhöht ANG, wenn mit einem Schwert ausgerüstet (Nicht stapelbar).",
                 "Rellena la barra de EL cada turno y aumenta el ATQ al llevar espada (no acumulable)"
             ],
             "desc_long": [
@@ -17151,7 +17196,7 @@
                 "Ingenio de diablillo"
             ],
             "desc_short": [
-                "Boost MP by 10% and dark resistance by 15%.",
+                "Boost MP by 10% and dark resistance by 15%",
                 "提高10%MP+提高15%暗屬性耐性",
                 "MP 10% 상승+어둠속성 저항력 15% 상승",
                 "Augmente les PM de 10% et la résistance aux ténèbres de 15%",
@@ -17427,7 +17472,7 @@
                 null
             ],
             "desc_short": [
-                "Boost ATK by 50% when equipped with a large sword, and boost equipment ATK when only weapons are equipped in one or both hands",
+                "Boost ATK by 50% when equipped with a large sword, and boost equipment ATK when only weapons are equipped in one or both hands (Not stackable)",
                 null,
                 null,
                 null,
@@ -17435,7 +17480,7 @@
                 null
             ],
             "desc_long": [
-                "Boosts ATK by 50% when equipped with a large sword, and boosts equipment ATK when only weapons are equipped in one or both hands.",
+                "Boosts ATK by 50% when equipped with a large sword, and boosts equipment ATK when only weapons are equipped in one or both hands. Not Stackable.",
                 null,
                 null,
                 null,
@@ -17531,26 +17576,26 @@
             "names": [
                 "Keeping Back the Dark",
                 "驅散黑暗之力",
-                null,
-                null,
-                null,
-                null
+                "어둠을 물리치는 힘",
+                "Rempart contre les ténèbres",
+                "Dunkelheit in Schach halten",
+                "Fortaleza contra la oscuridad"
             ],
             "desc_short": [
                 "Boost ATK by 40% and dark resistance by 50%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高40%攻擊、50%暗屬性耐性",
+                "공격력 40%, 어둠속성 저항력 50% 상승",
+                "Augmente l'ATT de 40% et la résistance aux ténèbres de 50%",
+                "Erhöht ANG um 40% und Dunkelresistenz zum 50%.",
+                "Aumenta el ATQ un 40% y la resistencia a la oscuridad un 50%"
             ],
             "desc_long": [
                 "Boost ATK by 40% and dark resistance by 50%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高40%攻擊、50%暗屬性耐性。",
+                "공격력이 40%, 어둠속성 저항력이 50% 상승합니다.",
+                "Augmente l'ATT de 40% et la résistance aux ténèbres de 50%",
+                "Erhöht ANG um 40% und Dunkelresistenz zum 50%.",
+                "Aumenta el ATQ un 40% y la resistencia a la oscuridad un 50%"
             ]
         }
     },
@@ -17645,13 +17690,27 @@
             "names": [
                 "Fireproof Aspiration",
                 "耐火祈求",
-                null,
-                null,
-                null,
-                null
+                "내화의 희구",
+                "Quasi-ignifugé",
+                "Feuerfeste Wünsche",
+                "Casi ignífugo"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost HP, MP, and fire resistance by 5%",
+                "提高5%HPMP、火屬性耐性",
+                "HP, MP, 불속성 저항력 5% 상승",
+                "Augmente les PV, les PM et la résistance au feu de 5%",
+                "Erhöht LP, MP und Feuerresistenz um 5%.",
+                "Aumenta la VIT, los PM y la resistencia al fuego un 5%"
+            ],
+            "desc_long": [
+                "Boost HP, MP, and fire resistance by 5%",
+                "提高5%HPMP、火屬性耐性。",
+                "HP, MP, 불속성 저항력이 5% 상승합니다.",
+                "Augmente les PV, les PM et la résistance au feu de 5%",
+                "Erhöht LP, MP und Feuerresistenz um 5%.",
+                "Aumenta la VIT, los PM y la resistencia al fuego un 5%"
+            ]
         }
     },
     "504227414": {
@@ -17669,13 +17728,27 @@
             "names": [
                 "Waterproof Aspiration",
                 "止水祈求",
-                null,
-                null,
-                null,
-                null
+                "지수의 희구",
+                "Quasi-étanche",
+                "Wasserdichte Wünsche",
+                "Casi impermeable"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost HP, MP, and water resistance by 5%",
+                "提高5%HPMP、水屬性耐性",
+                "HP, MP, 물속성 저항력 5% 상승",
+                "Augmente les PV, les PM et la résistance à l'eau de 5%",
+                "Erhöht LP, MP und Wasserresistenz um 5%.",
+                "Aumenta la VIT, los PM y la resistencia al agua un 5%"
+            ],
+            "desc_long": [
+                "Boost HP, MP, and water resistance by 5%",
+                "提高5%HPMP、水屬性耐性。",
+                "HP, MP, 물속성 저항력이 5% 상승합니다.",
+                "Augmente les PV, les PM et la résistance à l'eau de 5%",
+                "Erhöht LP, MP und Wasserresistenz um 5%.",
+                "Aumenta la VIT, los PM y la resistencia al agua un 5%"
+            ]
         }
     },
     "504227428": {
@@ -17976,7 +18049,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227666],
-        "effects": ["Grants '英雄の誓い・光' passive."],
+        "effects": ["Grants 'Hero's Vow - Light' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -17990,8 +18063,22 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Reduce dark resistance by 30%, and boost SPR by 60% and LB gauge fill rate (Not stackable)",
+                "降低30%暗屬性耐性+提高60%精神+提高極限技石對極限技槽的增加量[無法重複裝備]",
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Reduces dark resistance by 30%, and boosts SPR by 60% and LB gauge fill rate. Not stackable.",
+                "降低30%暗屬性耐性，提高60%精神，並提高極限技石對急限技槽的增加量[無法重複裝備]。",
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227682": {
@@ -18000,7 +18087,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227682],
-        "effects": ["Grants 'マシンパワー' passive."],
+        "effects": ["Grants 'Machine Power' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
@@ -18014,8 +18101,22 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK by 40% and nullify paralysis and stone",
+                "提高40%攻擊+麻痺石化無效",
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Boosts ATK by 40% and nullifies paralysis and stone.",
+                "提高40%攻擊，麻痺石化無效。",
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227701": {
@@ -18294,6 +18395,82 @@
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504228390": {
+        "name": "Dancing Doll",
+        "compendium_id": 846,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [228390],
+        "effects": ["Grants 'Dancing Doll' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [
+                "Dancing Doll",
+                "舞蹈人偶",
+                "춤추는 인형",
+                "Poupée dansante",
+                "Tanzende Puppe",
+                "Muñeca bailarina"
+            ],
+            "desc_short": [
+                "Boost MAG by 30% and magic damage against humans",
+                "提高30%魔力+魔法攻擊時提高對人系魔物的傷害",
+                "마력 30% 상승+마법 공격 시 인간형 마물에게 부여하는 피해량 상승",
+                "Augmente la MAGIE de 30% et les dégâts magiques contre les humains",
+                "Erhöht MAG um 30% und magischen Schaden gegen Menschen.",
+                "Aumenta la MAG un 30% y el daño mágico contra humanos"
+            ],
+            "desc_long": [
+                "Boosts MAG by 30% and magic damage against humans.",
+                "提高30%魔力，魔法攻擊時提高對人系魔物的傷害。",
+                "마력이 30% 상승하고, 마법 공격 시 인간형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente la MAGIE de 30% et les dégâts magiques contre les humains",
+                "Erhöht MAG um 30% und magischen Schaden gegen Menschen.",
+                "Aumenta la MAG un 30% y el daño mágico contra humanos"
+            ]
+        }
+    },
+    "504228391": {
+        "name": "Doll's Eye",
+        "compendium_id": 847,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [228391],
+        "effects": ["Grants 'Doll's Eye' ability."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_14.png",
+        "strings": {
+            "names": [
+                "Doll's Eye",
+                "人偶之瞳",
+                "인형의 눈",
+                "Œil de poupée",
+                "Puppenauge",
+                "Ojo de muñeca"
+            ],
+            "desc_short": [
+                "Reduce ice resistance and chance of blinding, paralyzing, confusing, or petrifying all enemies",
+                "一定機率對全體敵人施加失明麻痺混亂石化效果+降低冰屬性耐性",
+                "적 전체에 일정 확률로 암흑, 마비, 혼란, 석화 부여+얼음속성 저항력 감소",
+                "Réduit la résistance à la glace et chance d'infliger cécité, paralysie, confusion ou pétrification à tous les ennemis",
+                "Verringert Eisresistenz und Chance, allen Gegnern Blind, Lähmung, Konfus oder Stein zu erteilen.",
+                "Reduce la resistencia al hielo y puede infligir ceguera, parálisis, confusión o piedra a todos los enemigos"
+            ],
+            "desc_long": [
+                "Reduces ice resistance and chance of blinding, paralyzing, confusing, or petrifying all enemies.",
+                "一定機率對全體敵人施加失明麻痺混亂石化效果，並降低冰屬性耐性。",
+                "적 전체에 일정 확률로 암흑, 마비, 혼란, 석화를 부여하고, 얼음속성 저항력을 감소시킵니다.",
+                "Réduit la résistance à la glace et chance d'infliger cécité, paralysie, confusion ou pétrification à tous les ennemis",
+                "Verringert Eisresistenz und Chance, allen Gegnern Blind, Lähmung, Konfus oder Stein zu erteilen.",
+                "Reduce la resistencia al hielo y puede infligir ceguera, parálisis, confusión o piedra a todos los enemigos"
+            ]
         }
     },
     "504400110": {
