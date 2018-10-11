@@ -5037,7 +5037,7 @@
             ],
             "desc_short": [
                 "Deal partial unmitigated damage to one enemy",
-                "對1名敵人發動無視防禦的攻擊",
+                "對1名敵人發動無視部分防禦的攻擊",
                 "적 1명에게 방어 무시 피해",
                 "Dégâts en partie fixes sur un ennemi",
                 "Teilweise direkter Schaden, ein Ziel",
@@ -10645,7 +10645,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [209940],
-        "effects": ["Grants 'Poison Resistance' passive."],
+        "effects": ["Grants 'Null Poison' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -11025,7 +11025,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [211100],
-        "effects": ["Grants 'Confusion Resistance' passive."],
+        "effects": ["Grants 'Null Confusion' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -11557,7 +11557,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [212340],
-        "effects": ["Grants 'Sleep Resistance' passive."],
+        "effects": ["Grants 'Null Sleep' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -11861,7 +11861,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [213200],
-        "effects": ["Grants 'Silence Resistance' passive."],
+        "effects": ["Grants 'Null Silence' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -12545,7 +12545,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [215170],
-        "effects": ["Grants 'Petrification Resistance' passive."],
+        "effects": ["Grants 'Null Stone' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -12735,7 +12735,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [215440],
-        "effects": ["Grants 'Blind Resistance' passive."],
+        "effects": ["Grants 'Null Blind' passive."],
         "unique": false,
         "price_buy": 5000,
         "price_sell": 500,
@@ -15945,7 +15945,7 @@
                 "Boost physical and magic damage against insects (Not stackable)",
                 "物理、魔法攻擊時提高對蟲系魔物的傷害[無法重複裝備]",
                 "물리, 마법 공격 시 곤충형 마물에게 부여하는 피해량 상승 [중복 장착 불가]",
-                "Augmente les dégâts physiques et magiques contre les insectes (pas cumulable)",
+                "Dégâts phys. et mag. accrus contre les insectes (pas cumulable)",
                 "Erhöht physischen und magischen Schaden gegen Insekten (Nicht stapelbar).",
                 "Aumenta el daño físico y mágico contra insectos (no acumulable)"
             ],
@@ -17457,8 +17457,8 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227273],
-        "effects": ["Grants '忠義の女将軍' passive."],
-        "unique": false,
+        "effects": ["Grants 'Loyal General' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_76.png",
@@ -17467,50 +17467,64 @@
                 "Loyal General",
                 "忠義女將軍",
                 "충의의 여장군",
-                null,
-                null,
-                null
+                "Fidèle générale",
+                "Loyale Generalin",
+                "Lealtad de general"
             ],
             "desc_short": [
                 "Boost ATK by 50% when equipped with a large sword, and boost equipment ATK when only weapons are equipped in one or both hands (Not stackable)",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高裝備大劍時的攻擊+雙手只裝備武器時武具攻擊力提升 [無法重複裝備]",
+                "대검 장착 시 공격력 50% 상승+한손 또는 양손의 장비가 무기뿐일 경우 장비의 공격력 상승(중복 장착 불가)",
+                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipée dans une main ou dans les deux (non cumulable)",
+                "Erhöht ANG um 50% wenn mit Großschwert ausgerüstet und erhöht Ausrüstung-ANG, wenn nur Waffen in einer oder beiden Händen ausgerüstet sind (Nicht stapelbar).",
+                "Aumenta el ATQ un 50% al llevar espada larga, y aumenta el ATQ del equipo al llevar armas en una o las dos manos (no acumulable)"
             ],
             "desc_long": [
                 "Boosts ATK by 50% when equipped with a large sword, and boosts equipment ATK when only weapons are equipped in one or both hands. Not Stackable.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高裝備大劍時的攻擊，雙手只裝備一把或兩把武器時武具攻擊力提升 [無法重複裝備]。",
+                "대검 장착 시 공격력이 50% 상승하고, 한손 또는 양손의 장비가 무기뿐일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipée dans une main ou dans les deux. Non cumulable.",
+                "Erhöht ANG um 50% wenn mit Großschwert ausgerüstet und erhöht Ausrüstung-ANG, wenn nur Waffen in einer oder beiden Händen ausgerüstet sind (Nicht stapelbar).",
+                "Aumenta el ATQ un 50% al llevar espada larga, y aumenta el ATQ del equipo al llevar armas en una o las dos manos (no acumulable)"
             ]
         }
     },
     "504227274": {
-        "name": "Soul of the Summoner",
+        "name": "Essence of Summoning",
         "compendium_id": 792,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227274],
-        "effects": ["Grants '召喚の真髄' passive."],
+        "effects": ["Grants 'Essence of Summoning' passive."],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Soul of the Summoner",
+                "Essence of Summoning",
                 "召喚之真髓",
                 "소환의 진수",
-                null,
-                null,
-                null
+                "Essence d'invocation",
+                "Beschwörerseele",
+                "Esencia de invocadora"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost HP, MP, and SPR by 15%, parameters of espers evoked by 30%",
+                "提高15%HPMP精神+發動召喚魔法時提高30%幻獸狀態",
+                "HP, MP, 정신력 15% 상승+소환마법 사용 시 환수의 능력치 30% 상승",
+                "Augmente les PV, PM et la PSY de 15% ainsi que les caractéristiques des chimères appelées de 30%",
+                "Erhöht LP, MP und PSY um 15% und erhöht Werte gerufener Esper um 30%.",
+                "Aumenta VIT, PM y ESP un 15%, y aumenta un 30% los parámetros de los espers invocados"
+            ],
+            "desc_long": [
+                "Boost HP, MP, and SPR by 15%, parameters of espers evoked by 30%.",
+                "提高15%HPMP精神，發動召喚魔法時提高30%幻獸狀態。",
+                "HP, MP, 정신력이 15% 상승하고, 소환마법 사용 시 환수의 능력치가 30% 상승합니다.",
+                "Augmente les PV, PM et la PSY de 15% ainsi que les caractéristiques des chimères appelées de 30%",
+                "Erhöht LP, MP und PSY um 15% und erhöht Werte gerufener Esper um 30%.",
+                "Aumenta VIT, PM y ESP un 15%, y aumenta un 30% los parámetros de los espers invocados"
+            ]
         }
     },
     "504227318": {
@@ -18050,7 +18064,7 @@
         "unit_restriction": null,
         "skills": [227666],
         "effects": ["Grants 'Hero's Vow - Light' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_78.png",
@@ -18058,26 +18072,26 @@
             "names": [
                 "Hero's Vow - Light",
                 "英雄誓言·光",
-                null,
-                null,
-                null,
-                null
+                "영웅의 맹세·빛",
+                "Vœu du héros - Lumière",
+                "Heldenschwur - Licht",
+                "Juramento heroico - Luz"
             ],
             "desc_short": [
                 "Reduce dark resistance by 30%, and boost SPR by 60% and LB gauge fill rate (Not stackable)",
                 "降低30%暗屬性耐性+提高60%精神+提高極限技石對極限技槽的增加量[無法重複裝備]",
-                null,
-                null,
-                null,
-                null
+                "어둠속성 저항력 30% 감소+정신력 60% 상승+LB 게이지 효율 상승(중복 장착 불가)",
+                "Réduit la résistance aux ténèbres de 30%, augmente la PSY de 60% et augmente le taux de remplissage de la jauge de limite. Non cumulable.",
+                "Verringert Dunkelresistenz um 30%, erhöht PSY um 60% und Limitmeter steigt schneller (Nicht stapelbar).",
+                "Reduce la resistencia a la oscuridad un 30%, aumenta el ESP un 60% y la barra de EL se llena más rápido (no acumulable)"
             ],
             "desc_long": [
                 "Reduces dark resistance by 30%, and boosts SPR by 60% and LB gauge fill rate. Not stackable.",
-                "降低30%暗屬性耐性，提高60%精神，並提高極限技石對急限技槽的增加量[無法重複裝備]。",
-                null,
-                null,
-                null,
-                null
+                "降低30%暗屬性耐性，提高60%精神，並提高極限技石對極限技槽的增加量[無法重複裝備]。",
+                "어둠속성 저항력이 30% 감소하고, 정신력 60% 상승하며, LB 게이지 효율이 상승합니다.(중복 장착 불가)",
+                "Réduit la résistance aux ténèbres de 30%, augmente la PSY de 60% et augmente le taux de remplissage de la jauge de limite. Non cumulable.",
+                "Verringert Dunkelresistenz um 30%, erhöht PSY um 60% und Limitmeter steigt schneller (Nicht stapelbar).",
+                "Reduce la resistencia a la oscuridad un 30%, aumenta el ESP un 60% y la barra de EL se llena más rápido (no acumulable)"
             ]
         }
     },
@@ -18096,26 +18110,26 @@
             "names": [
                 "Machine Power",
                 "機器之力",
-                null,
-                null,
-                null,
-                null
+                "머신 파워",
+                "Puissance mécanique",
+                "Maschinenkraft",
+                "Poder de máquina"
             ],
             "desc_short": [
                 "Boost ATK by 40% and nullify paralysis and stone",
                 "提高40%攻擊+麻痺石化無效",
-                null,
-                null,
-                null,
-                null
+                "공격력 40% 상승+마비와 석화 무효화",
+                "Augmente l'ATT de 40% et annule paralysie et pétrification",
+                "Erhöht ANG um 40% und annulliert Lähmung sowie Stein.",
+                "Aumenta el ATQ un 40% y anula parálisis y piedra"
             ],
             "desc_long": [
                 "Boosts ATK by 40% and nullifies paralysis and stone.",
                 "提高40%攻擊，麻痺石化無效。",
-                null,
-                null,
-                null,
-                null
+                "공격력이 40% 상승하고, 마비와 석화를 무효화합니다.",
+                "Augmente l'ATT de 40% et annule paralysie et pétrification",
+                "Erhöht ANG um 40% und annulliert Lähmung sowie Stein.",
+                "Aumenta el ATQ un 40% y anula parálisis y piedra"
             ]
         }
     },
@@ -21085,6 +21099,44 @@
                 "Augmente les dégâts des attaques à saut, augmente l'ATT de 50% et la DEF, les PV et PM de 20% quand une lance est équipée. Non cumulable.",
                 "Erhöht Schaden für Sprungangriffe und erhöht ANG um 50% und ABW, LP und MP um 20%, wenn mit Speer ausgerüstet. (nicht stapelbar).",
                 "Aumenta el daño de los ataques de salto, el ATQ un 50% y la DEF, VIT y PM un 20% al llevar lanza (no acumulable)."
+            ]
+        }
+    },
+    "1500000069": {
+        "name": "Judge's Oath",
+        "compendium_id": 90069,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [911407],
+        "effects": ["Grants 'Judge's Oath' passive."],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_9.png",
+        "strings": {
+            "names": [
+                "Judge's Oath",
+                "審判者的誓約",
+                "저지의 계약",
+                "Serment de juge",
+                "Eid des Richters",
+                "Juramento de juez"
+            ],
+            "desc_short": [
+                "Boost HP, DEF, and SPR by 30%, and fire, ice, lightning, water, wind, earth, light, and dark resistance by 20% (Not Stackable)",
+                "提高30%HP防禦精神+提高20%火冰雷水風土光暗耐性 [無法重複裝備]",
+                "HP, 방어력, 정신력 30% 상승+불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 20% 상승(중복 장착 불가)",
+                "Augmente les PV, la DEF et la PSY de 30% ainsi que la résistance à feu, glace foudre, eau, vent, terre lumière et ténèbres de 20% (non cumulable)",
+                "Erhöht LP, ABW und PSY um 30% und Feuer-, Eis-, Blitz-, Wasser-, Wind-, Erd-, Licht- und Dunkelresistenz um 20% (Nicht stapelbar).",
+                "Aumenta VIT, DEF y ESP un 30%, y la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 20% (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP, DEF, and SPR by 30%, and fire, ice, lightning, water, wind, earth, light, and dark resistance by 20%. Not Stackable.",
+                "提高30%HP防禦精神，並提高20%火冰雷水風土光暗耐性 [無法重複裝備]。",
+                "HP, 방어력, 정신력이 30% 상승하고 불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력이 20% 상승합니다.(중복 장착 불가)",
+                "Augmente les PV, la DEF et la PSY de 30% ainsi que la résistance à feu, glace foudre, eau, vent, terre lumière et ténèbres de 20%. Non cumulable.",
+                "Erhöht LP, ABW und PSY um 30% und Feuer-, Eis-, Blitz-, Wasser-, Wind-, Erd-, Licht- und Dunkelresistenz um 20%. Nicht stapelbar.",
+                "Aumenta VIT, DEF y ESP un 30%, y la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad un 20% (no acumulable)"
             ]
         }
     }
