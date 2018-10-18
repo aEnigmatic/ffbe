@@ -3378,6 +3378,10 @@
             "2111101": "Chamber of Crystals - BGN",
             "2111102": "Chamber of Crystals - INT",
             "2111103": "Chamber of Crystals - ADV",
+            "2111104": "Chamber of Crystals - White & Black",
+            "2111105": "Chamber of Crystals - Green & Orange",
+            "2111106": "Chamber of Crystals - Yellow & Blue",
+            "2111107": "Chamber of Crystals - Red & Violet",
             "9003111": "Chamber of Crystals - Blue & Red",
             "9003112": "Chamber of Crystals - Violet & Yellow",
             "9003113": "Chamber of Crystals - Orange & White",
@@ -3587,7 +3591,17 @@
             "3010161": "Vault of Hidden Treasures 1/5",
             "3010162": "Vault of Hidden Treasures 1/6",
             "3010163": "Vault of Hidden Treasures 1/7",
-            "3010164": "Vault of Hidden Treasures 1/8"
+            "3010164": "Vault of Hidden Treasures 1/8",
+            "3010175": "Vault of Hidden Treasures 4/11",
+            "3010176": "Vault of Hidden Treasures 4/12",
+            "3010177": "Vault of Hidden Treasures 4/13",
+            "3010178": "Vault of Hidden Treasures 4/14",
+            "3010179": "Vault of Hidden Treasures 4/15",
+            "3010180": "Vault of Hidden Treasures 4/16",
+            "3010181": "Vault of Hidden Treasures 4/17",
+            "3010182": "Vault of Hidden Treasures 4/18",
+            "3010183": "Vault of Hidden Treasures 4/19",
+            "3010184": "Vault of Hidden Treasures 4/20"
         }
     },
     "30201": {
@@ -4009,7 +4023,8 @@
             "6000607": "pb_Magic Research Center - Laboratory",
             "6000608": "Eroded Castle - Obtain Odin",
             "6000609": "Eroded Castle - Evolve Odin",
-            "6000610": "Electric Tower ATM Battle"
+            "6000610": "Electric Tower ATM Battle",
+            "6000611": "Eroded Castle - Odin's Awakening"
         }
     },
     "60007": {
@@ -4154,7 +4169,8 @@
         "icon": "spd_bn_dummy.png",
         "missions": {
             "6001301": "Obtain Fenrir",
-            "6001302": "Evolve Fenrir"
+            "6001302": "Evolve Fenrir",
+            "6001303": "Fenrir - Awakening"
         }
     },
     "60014": {
@@ -4198,7 +4214,8 @@
             "6001505": "Ruins of the Water God_Field Dialog 2-1",
             "6001506": "Ruins of the Water God_Field Dialog 3",
             "6001507": "Ruins of the Water God_Obtain Leviathan",
-            "6001508": "Ruins of the Water God_Evolve Leviathan"
+            "6001508": "Ruins of the Water God_Evolve Leviathan",
+            "6001509": "Ruins of the Water God_Leviathan's Awakening"
         }
     },
     "60016": {
@@ -4247,7 +4264,8 @@
             "6001704": "Barrier Station 1",
             "6001705": "Kappa Village Phoenix Beginning",
             "6001706": "Obtain Phoenix",
-            "6001707": "Evolve Phoenix"
+            "6001707": "Evolve Phoenix",
+            "6001708": "Phoenix's Awakening"
         }
     },
     "60018": {
@@ -4289,10 +4307,37 @@
             "6001904": "Capital of Despair Hellstya 1"
         }
     },
+    "60020": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png"
+    },
     "60021": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
         "missions": {
+            "6002101": "Karvell Resort Town",
             "6002102": "Obtain Alexander",
             "6002103": "Evolve Alexander"
+        }
+    },
+    "60022": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "6002201": "Londell Road 1",
+            "6002202": "Londell Road 2"
         }
     },
     "70101": {
@@ -7180,7 +7225,10 @@
             "7560106": "Maritime Strategist Nichol",
             "7560107": "Raegen",
             "7560108": "Hyoh",
-            "7560109": "Citra"
+            "7560109": "Citra",
+            "7560110": "Sieghard",
+            "7560111": "Folka",
+            "7560112": "Ignacio"
         }
     },
     "75701": {
@@ -10162,19 +10210,6 @@
         }
     },
     "79610": {
-        "names": [
-            "Cave of Crystals (Black)",
-            "晶石的洞窟【黑】",
-            "수정의 동굴 [흑]",
-            "Caverne de cristaux noirs",
-            "Höhle der Kristalle (Schwarz)",
-            "Cueva de los crists negros"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 2460],
-        "icon": "map_icon_78009.png",
         "missions": {
             "7961000": "Cave of Crystals (Black)",
             "7961001": "Cave of Crystals (Black) 1",
@@ -10183,19 +10218,6 @@
         }
     },
     "79611": {
-        "names": [
-            "Cave of Crystals (White)",
-            "晶石的洞窟【白】",
-            "수정의 동굴 [백]",
-            "Caverne de cristaux blancs",
-            "Höhle der Kristalle (Weiß)",
-            "Cueva de los crists blancos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [320, 2640],
-        "icon": "map_icon_78010.png",
         "missions": {
             "7961100": "Cave of Crystals (White)",
             "7961101": "Cave of Crystals (White) 1",
@@ -10204,19 +10226,6 @@
         }
     },
     "79612": {
-        "names": [
-            "Cave of Crystals (Green)",
-            "晶石的洞窟【綠】",
-            "수정의 동굴 [녹]",
-            "Caverne de cristaux verts",
-            "Höhle der Kristalle (Grün)",
-            "Cueva de los crists verdes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 2460],
-        "icon": "map_icon_78011.png",
         "missions": {
             "7961200": "Cave of Crystals (Green)",
             "7961201": "Cave of Crystals (Green) 1",
@@ -10225,19 +10234,6 @@
         }
     },
     "79613": {
-        "names": [
-            "Cave of Crystals (Power)",
-            "晶石的洞窟【攻擊】",
-            "수정의 동굴 [공격]",
-            "Caverne de cristaux d'attaque",
-            "Höhle der Kristalle (Kraft)",
-            "Cueva de los crists potentes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 2840],
-        "icon": "map_icon_78012.png",
         "missions": {
             "7961300": "Cave of Crystals (Power)",
             "7961301": "Cave of Crystals (Power) 1",
@@ -10246,19 +10242,6 @@
         }
     },
     "79614": {
-        "names": [
-            "Cave of Crystals (Guard)",
-            "晶石的洞窟【防禦】",
-            "수정의 동굴 [수비]",
-            "Caverne de cristaux de défense",
-            "Höhle der Kristalle (Wächter)",
-            "Cueva de los crists guardianes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [320, 3020],
-        "icon": "map_icon_78013.png",
         "missions": {
             "7961400": "Cave of Crystals (Guard)",
             "7961401": "Cave of Crystals (Guard) 1",
@@ -10267,19 +10250,6 @@
         }
     },
     "79615": {
-        "names": [
-            "Cave of Crystals (Tech)",
-            "晶石的洞窟【技巧】",
-            "수정의 동굴 [기술]",
-            "Caverne de cristaux techniques",
-            "Höhle der Kristalle (Tech)",
-            "Cueva de los crists técnicos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 2840],
-        "icon": "map_icon_78014.png",
         "missions": {
             "7961500": "Cave of Crystals (Tech)",
             "7961501": "Cave of Crystals (Tech) 1",
@@ -10288,19 +10258,6 @@
         }
     },
     "79616": {
-        "names": [
-            "Cave of Crystals (Healing)",
-            "晶石的洞窟【治癒】",
-            "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
-            "Höhle der Kristalle (Heilung)",
-            "Cueva de los crists curativos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 3200],
-        "icon": "map_icon_78015.png",
         "missions": {
             "7961600": "Cave of Crystals (Healing)",
             "7961601": "Cave of Crystals (Healing) 1",
@@ -10309,19 +10266,6 @@
         }
     },
     "79617": {
-        "names": [
-            "Cave of Crystals (Support)",
-            "晶石的洞窟【支援】",
-            "수정의 동굴 [지원]",
-            "Caverne de cristaux de soutien",
-            "Höhle der Kristalle (Unterstützung)",
-            "Cueva de los crists apoyadores"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 3200],
-        "icon": "map_icon_78016.png",
         "missions": {
             "7961700": "Cave of Crystals (Support)",
             "7961701": "Cave of Crystals (Support) 1",
@@ -10635,6 +10579,19 @@
         }
     },
     "80110": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
         "missions": {
             "8011000": "Cave of Crystals (Black)",
             "8011001": "Cave of Crystals (Black) 1",
@@ -10643,6 +10600,19 @@
         }
     },
     "80111": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
         "missions": {
             "8011100": "Cave of Crystals (White)",
             "8011101": "Cave of Crystals (White) 1",
@@ -10651,6 +10621,19 @@
         }
     },
     "80112": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
         "missions": {
             "8011200": "Cave of Crystals (Green)",
             "8011201": "Cave of Crystals (Green) 1",
@@ -10659,6 +10642,19 @@
         }
     },
     "80113": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux de puissance",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
         "missions": {
             "8011300": "Cave of Crystals (Power)",
             "8011301": "Cave of Crystals (Power) 1",
@@ -10667,6 +10663,19 @@
         }
     },
     "80114": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux protecteurs",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
         "missions": {
             "8011400": "Cave of Crystals (Guard)",
             "8011401": "Cave of Crystals (Guard) 1",
@@ -10675,6 +10684,19 @@
         }
     },
     "80115": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux tech",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
         "missions": {
             "8011500": "Cave of Crystals (Tech)",
             "8011501": "Cave of Crystals (Tech) 1",
@@ -10683,6 +10705,19 @@
         }
     },
     "80116": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux de soin",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
         "missions": {
             "8011600": "Cave of Crystals (Healing)",
             "8011601": "Cave of Crystals (Healing) 1",
@@ -10691,6 +10726,19 @@
         }
     },
     "80117": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "801",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
         "missions": {
             "8011700": "Cave of Crystals (Support)",
             "8011701": "Cave of Crystals (Support) 1",
@@ -10777,6 +10825,1320 @@
         "missions": {
             "8050101": "Gaea's Cliff - Exploration (HARD)",
             "8050102": "Gaea's Cliff - Exploration (EASY)"
+        }
+    },
+    "80601": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 2048],
+        "icon": "map_icon_1120102.png",
+        "missions": {
+            "8060100": "The Lion's Tale",
+            "8060101": "The Lion's Tale",
+            "8060102": "To the Dark Wood",
+            "8060103": "Meandering Trail",
+            "8060104": "Bewitching Fog",
+            "8060105": "Nest of the Beasts",
+            "8060106": "The Stare",
+            "8060107": "The Beautiful Mage"
+        }
+    },
+    "80602": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [141, 1805],
+        "icon": "map_icon_1110102.png",
+        "missions": {
+            "8060200": "The Kind Frog",
+            "8060201": "The Lonely Fairy",
+            "8060202": "The Frog and the Fairy",
+            "8060203": "The Search for Tim",
+            "8060204": "A Difficult Hunt",
+            "8060205": "The Worrisome Frog",
+            "8060206": "Spring of the Fairies",
+            "8060207": "Turtle from the Depths",
+            "8060208": "The Fairy's Guidance"
+        }
+    },
+    "80603": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [482, 1562],
+        "icon": "map_icon_1110102.png",
+        "missions": {
+            "8060300": "Queen of the Fairies",
+            "8060301": "Queen of the Fairies",
+            "8060302": "Elephim, the Kind",
+            "8060303": "Fairy Intuition",
+            "8060304": "The Hunt for Mediena",
+            "8060305": "Deep in the Forest",
+            "8060306": "The Beautiful Stallion",
+            "8060307": "Problem Child"
+        }
+    },
+    "80604": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [165, 1343],
+        "icon": "map_icon_1310101.png",
+        "missions": {
+            "8060400": "Polar Opposites",
+            "8060401": "Unlock the Magic",
+            "8060402": "Mage of the Future?",
+            "8060403": "Mediena's Disciple",
+            "8060404": "Frog Habits",
+            "8060405": "An Outlandish Wish",
+            "8060406": "Blood Starved",
+            "8060407": "Polar Opposites"
+        }
+    },
+    "80605": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [473, 1101],
+        "icon": "map_icon_1210104.png",
+        "missions": {
+            "8060500": "Chef in the Wilds",
+            "8060501": "The Lost Elf",
+            "8060502": "All is Edible",
+            "8060503": "Of Another Tribe",
+            "8060504": "Desertion",
+            "8060505": "Incoming Chef",
+            "8060506": "Ensuing Fear",
+            "8060507": "Why Run?",
+            "8060508": "Lost Lion"
+        }
+    },
+    "80606": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [176, 858],
+        "icon": "map_icon_3530105_1.png",
+        "missions": {
+            "8060600": "Leopold's Rescue",
+            "8060601": "The Novice Mage's Resolution",
+            "8060602": "Bluff",
+            "8060603": "A List of Complaints",
+            "8060604": "Magna's Surprise",
+            "8060605": "Home of the Lost Elf",
+            "8060606": "The Hungry Greenery",
+            "8060607": "Mysterious Dish"
+        }
+    },
+    "80607": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [478, 601],
+        "icon": "map_icon_1310106.png",
+        "missions": {
+            "8060700": "The Bottomless Heart",
+            "8060701": "A Time of Need",
+            "8060702": "A Clue to the Lock",
+            "8060703": "Rejected Gratitude",
+            "8060704": "Testing the Taste",
+            "8060705": "Magna's Disposition",
+            "8060706": "Only the Best Ingredients",
+            "8060707": "The Bottomless Heart"
+        }
+    },
+    "80608": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 368],
+        "icon": "map_icon_1310106.png",
+        "missions": {
+            "8060800": "Tale of the Fairy",
+            "8060801": "Broken Promise",
+            "8060802": "Elphim's Punishment",
+            "8060803": "The Strong Lion",
+            "8060804": "Kind Coercion",
+            "8060805": "Less in Numbers",
+            "8060806": "Mage Against the Queen",
+            "8060807": "Tale of the Fairy"
+        }
+    },
+    "80609": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8060900": "Bonus Stage",
+            "8060901": "Bonus Stage 1",
+            "8060902": "Bonus Stage 2",
+            "8060903": "Bonus Stage 3"
+        }
+    },
+    "80610": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8061000": "Cave of Crystals (Black)",
+            "8061001": "Cave of Crystals (Black) 1",
+            "8061002": "Cave of Crystals (Black) 2",
+            "8061003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "80611": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8061100": "Cave of Crystals (White)",
+            "8061101": "Cave of Crystals (White) 1",
+            "8061102": "Cave of Crystals (White) 2",
+            "8061103": "Cave of Crystals (White) 3"
+        }
+    },
+    "80612": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8061200": "Cave of Crystals (Green)",
+            "8061201": "Cave of Crystals (Green) 1",
+            "8061202": "Cave of Crystals (Green) 2",
+            "8061203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "80613": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8061300": "Cave of Crystals (Power)",
+            "8061301": "Cave of Crystals (Power) 1",
+            "8061302": "Cave of Crystals (Power) 2",
+            "8061303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "80614": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8061400": "Cave of Crystals (Guard)",
+            "8061401": "Cave of Crystals (Guard) 1",
+            "8061402": "Cave of Crystals (Guard) 2",
+            "8061403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "80615": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8061500": "Cave of Crystals (Tech)",
+            "8061501": "Cave of Crystals (Tech) 1",
+            "8061502": "Cave of Crystals (Tech) 2",
+            "8061503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "80616": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8061600": "Cave of Crystals (Healing)",
+            "8061601": "Cave of Crystals (Healing) 1",
+            "8061602": "Cave of Crystals (Healing) 2",
+            "8061603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "80617": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8061700": "Cave of Crystals (Support)",
+            "8061701": "Cave of Crystals (Support) 1",
+            "8061702": "Cave of Crystals (Support) 2",
+            "8061703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "80701": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "807",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8070101": "Mana Beast - INT",
+            "8070102": "Mana Beast - ADV",
+            "8070103": "Mana Beast - PRO",
+            "8070104": "Mana Beast - ELT"
+        }
+    },
+    "80801": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "808",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8080101": "The Dreaded Wandering Lands"
+        }
+    },
+    "80901": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "809",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8090101": "30 Million Lapis Giveaway"
+        }
+    },
+    "81001": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "810",
+        "position": [0, 0],
+        "icon": "spd_20180228_bn_list_FF0.png",
+        "missions": {
+            "8100101": "Dominion Defensive Line - BGN",
+            "8100102": "Dominion Defensive Line - INT",
+            "8100103": "Dominion Defensive Line - ADV",
+            "8100104": "Dominion Defensive Line - PRO",
+            "8100105": "Dominion Defensive Line - ELT",
+            "8100106": "Dominion Defensive Line - LGD"
+        }
+    },
+    "81101": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "811",
+        "position": [0, 0],
+        "icon": "spd_20180228_bn_list_FF0_02.png",
+        "missions": {
+            "8110101": "Big Bridge - Exploration (HARD)",
+            "8110102": "Big Bridge - Exploration (EASY)"
+        }
+    },
+    "81201": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 2048],
+        "icon": "map_icon_1710106.png",
+        "missions": {
+            "8120100": "A Day in a Man's Life",
+            "8120101": "A Beautiful Clan",
+            "8120102": "In the Royal Family's Hire",
+            "8120103": "Elegant Technique",
+            "8120104": "Sisterly Praise",
+            "8120105": "Brotherly Blessing",
+            "8120106": "The Troubling Vermin",
+            "8120107": "Ingenius Viewpoint"
+        }
+    },
+    "81202": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [141, 1805],
+        "icon": "map_icon_3530102_1.png",
+        "missions": {
+            "8120200": "The Robbery",
+            "8120201": "The Incident",
+            "8120202": "Beautiful Responsibility",
+            "8120203": "Site of the Incident",
+            "8120204": "Brotherly Aphorism",
+            "8120205": "On the Scene",
+            "8120206": "Magnificent Resolution",
+            "8120207": "The Desperate Thief",
+            "8120208": "Sibling Triumph"
+        }
+    },
+    "81203": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [482, 1562],
+        "icon": "map_icon_3530105_1.png",
+        "missions": {
+            "8120300": "The Troubled Masses",
+            "8120301": "Dietlinde's Proclamation",
+            "8120302": "Classy Promenade",
+            "8120303": "Sisterly Resolution",
+            "8120304": "Sisterly Aphorism",
+            "8120305": "Invaders Incoming",
+            "8120306": "Beautiful Restraint",
+            "8120307": "The Unshakeable",
+            "8120308": "Beautiful Philosophy"
+        }
+    },
+    "81204": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [165, 1343],
+        "icon": "map_icon_1620104.png",
+        "missions": {
+            "8120400": "First Defeat",
+            "8120401": "A Novel Complaint",
+            "8120402": "How it Happened",
+            "8120403": "Enthusiasm for a Resolution",
+            "8120404": "Crowding Beasts",
+            "8120405": "A Cry for Help",
+            "8120406": "Beasts in the Castle",
+            "8120407": "First Defeat"
+        }
+    },
+    "81205": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [473, 1101],
+        "icon": "map_icon_1110108.png",
+        "missions": {
+            "8120500": "The Woman's Identity",
+            "8120501": "Secret Investigation",
+            "8120502": "Mulling Responsibilities",
+            "8120503": "Another Errand",
+            "8120504": "A Straightforward Question",
+            "8120505": "Return to the Grounds",
+            "8120506": "The Hard-working Maid",
+            "8120507": "The Furious Beast",
+            "8120508": "Investigation Report"
+        }
+    },
+    "81206": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [176, 858],
+        "icon": "map_icon_3510105_1.png",
+        "missions": {
+            "8120600": "Birth of a Rival",
+            "8120601": "Sieghard's Challenge",
+            "8120602": "The Indifferent Beast",
+            "8120603": "Redrawing Boundaries",
+            "8120604": "Beastly Treatment",
+            "8120605": "All-out Battle",
+            "8120606": "True Beast",
+            "8120607": "Birth of a Rival"
+        }
+    },
+    "81207": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [478, 601],
+        "icon": "map_icon_3410108.png",
+        "missions": {
+            "8120700": "The Clan's Trial",
+            "8120701": "Blessed Determination",
+            "8120702": "Midnight Garden",
+            "8120703": "Familial Discomfort",
+            "8120704": "The Road Home",
+            "8120705": "Test of Resolution",
+            "8120706": "Beautiful Siblings",
+            "8120707": "Sieghard's Departure"
+        }
+    },
+    "81208": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 368],
+        "icon": "map_icon_3530107_1.png",
+        "missions": {
+            "8120800": "Magnificent Fate",
+            "8120801": "Armor of the Veritas",
+            "8120802": "The Kind Water Maiden",
+            "8120803": "The Isolated Leader",
+            "8120804": "The Flaming Swordsman",
+            "8120805": "The Lightning-clad Girl",
+            "8120806": "The Noble General",
+            "8120807": "The Cool-headed Soldier",
+            "8120808": "The Darkness Fighter",
+            "8120809": "A Beautiful End"
+        }
+    },
+    "81209": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8120900": "Bonus Stage",
+            "8120901": "Bonus Stage 1",
+            "8120902": "Bonus Stage 2",
+            "8120903": "Bonus Stage 3"
+        }
+    },
+    "81210": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8121000": "Cave of Crystals (Black)",
+            "8121001": "Cave of Crystals (Black) 1",
+            "8121002": "Cave of Crystals (Black) 2",
+            "8121003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "81211": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8121100": "Cave of Crystals (White)",
+            "8121101": "Cave of Crystals (White) 1",
+            "8121102": "Cave of Crystals (White) 2",
+            "8121103": "Cave of Crystals (White) 3"
+        }
+    },
+    "81212": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8121200": "Cave of Crystals (Green)",
+            "8121201": "Cave of Crystals (Green) 1",
+            "8121202": "Cave of Crystals (Green) 2",
+            "8121203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "81213": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8121300": "Cave of Crystals (Power)",
+            "8121301": "Cave of Crystals (Power) 1",
+            "8121302": "Cave of Crystals (Power) 2",
+            "8121303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "81214": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8121400": "Cave of Crystals (Guard)",
+            "8121401": "Cave of Crystals (Guard) 1",
+            "8121402": "Cave of Crystals (Guard) 2",
+            "8121403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "81215": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8121500": "Cave of Crystals (Tech)",
+            "8121501": "Cave of Crystals (Tech) 1",
+            "8121502": "Cave of Crystals (Tech) 2",
+            "8121503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "81216": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8121600": "Cave of Crystals (Healing)",
+            "8121601": "Cave of Crystals (Healing) 1",
+            "8121602": "Cave of Crystals (Healing) 2",
+            "8121603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "81217": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8121700": "Cave of Crystals (Support)",
+            "8121701": "Cave of Crystals (Support) 1",
+            "8121702": "Cave of Crystals (Support) 2",
+            "8121703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "81301": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "813",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8130101": "March on Apep - INT",
+            "8130102": "March on Apep - ADV",
+            "8130103": "March on Apep - PRO",
+            "8130104": "March on Apep - ELT"
+        }
+    },
+    "81401": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "814",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8140101": "God of Chaos"
+        }
+    },
+    "81501": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "815",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_FF3.png",
+        "missions": {
+            "8150101": "Cave of Shadows - BGN",
+            "8150102": "Cave of Shadows - INT",
+            "8150103": "Cave of Shadows - ADV",
+            "8150104": "Cave of Shadows - PRO",
+            "8150105": "Cave of Shadows - ELT",
+            "8150106": "Cave of Shadows - LGD"
+        }
+    },
+    "81601": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "816",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_FF3_02.png",
+        "missions": {
+            "8160101": "Doga's Grotto - Exploration (HARD)",
+            "8160102": "Doga's Grotto - Exploration (EASY)"
+        }
+    },
+    "81701": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 2048],
+        "icon": "map_icon_1320301.png",
+        "missions": {
+            "8170100": "Priestess of the Land",
+            "8170101": "Ritual of Exorcism",
+            "8170102": "Guardians of the Priestess",
+            "8170103": "The Knight and the Black Chocobo",
+            "8170104": "Lucky Black Chocobo",
+            "8170105": "Zealous Follower",
+            "8170106": "A Log and a Hard Place",
+            "8170107": "A Goddess Appears"
+        }
+    },
+    "81702": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [141, 1805],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170200": "Encounter with the Goddess",
+            "8170201": "Goddess or Illusion?",
+            "8170202": "Not Illusion!",
+            "8170203": "Ichor's Confusion",
+            "8170204": "Chasing the Goddess",
+            "8170205": "Forest Chase",
+            "8170206": "Lost But Found",
+            "8170207": "Treacherous Waters",
+            "8170208": "Encounter with the Goddess"
+        }
+    },
+    "81703": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [482, 1562],
+        "icon": "map_icon_1710101.png",
+        "missions": {
+            "8170300": "Cataclysm",
+            "8170301": "Fathomless Flood",
+            "8170302": "Monster Extermination",
+            "8170303": "Unfamiliar Monsters",
+            "8170304": "Saved by the Priestess",
+            "8170305": "The Cost of Faith",
+            "8170306": "A Suspicious Shadow",
+            "8170307": "Out for Blood",
+            "8170308": "Opposing Views"
+        }
+    },
+    "81704": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [165, 1343],
+        "icon": "map_icon_1320108.png",
+        "missions": {
+            "8170400": "To the Rampaging Serpent",
+            "8170401": "To the Rampaging Serpent",
+            "8170402": "Concern",
+            "8170403": "Show of Power",
+            "8170404": "Woman of Mystery",
+            "8170405": "Over the Waterfall",
+            "8170406": "Hungry Giant",
+            "8170407": "Question"
+        }
+    },
+    "81705": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [473, 1101],
+        "icon": "map_icon_1310103.png",
+        "missions": {
+            "8170500": "Priestess of Water",
+            "8170501": "About Ichor",
+            "8170502": "Story of my Life",
+            "8170503": "Kihana and Yubel",
+            "8170504": "Hearts Growng Closer",
+            "8170505": "A Great Presence",
+            "8170506": "Conversation with the Serpent",
+            "8170507": "Raging Serpent",
+            "8170508": "Calmed Water God"
+        }
+    },
+    "81706": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [176, 858],
+        "icon": "map_icon_1320301.png",
+        "missions": {
+            "8170600": "Peace at Last",
+            "8170601": "Quiet Days",
+            "8170602": "Encouraging Yubel",
+            "8170603": "Through the Woods",
+            "8170604": "Doing the Right Thing",
+            "8170605": "Root-Ridden Road",
+            "8170606": "Beast of Greed",
+            "8170607": "Doubt"
+        }
+    },
+    "81707": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [478, 601],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170700": "The Goddess From Afar",
+            "8170701": "To Each Their Own",
+            "8170702": "Chasing Folka",
+            "8170703": "Following Footsteps",
+            "8170704": "Ichor's Wish",
+            "8170705": "Cold Rejection",
+            "8170706": "Folka the Water Priestess",
+            "8170707": "Star-Crossed Parting"
+        }
+    },
+    "81708": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 368],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170800": "Protector of the Aquapolis",
+            "8170801": "The Passage of Time",
+            "8170802": "To the Lake",
+            "8170803": "Inherited Flaws",
+            "8170804": "Luluna's True Strength",
+            "8170805": "Nearing Lake Dorr",
+            "8170806": "Shadow in the Depths",
+            "8170807": "Protector of the Aquapolis"
+        }
+    },
+    "81709": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8170900": "Bonus Stage",
+            "8170901": "Bonus Stage 1",
+            "8170902": "Bonus Stage 2",
+            "8170903": "Bonus Stage 3"
+        }
+    },
+    "81710": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8171000": "Cave of Crystals (Black)",
+            "8171001": "Cave of Crystals (Black) 1",
+            "8171002": "Cave of Crystals (Black) 2",
+            "8171003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "81711": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8171100": "Cave of Crystals (White)",
+            "8171101": "Cave of Crystals (White) 1",
+            "8171102": "Cave of Crystals (White) 2",
+            "8171103": "Cave of Crystals (White) 3"
+        }
+    },
+    "81712": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8171200": "Cave of Crystals (Green)",
+            "8171201": "Cave of Crystals (Green) 1",
+            "8171202": "Cave of Crystals (Green) 2",
+            "8171203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "81713": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8171300": "Cave of Crystals (Power)",
+            "8171301": "Cave of Crystals (Power) 1",
+            "8171302": "Cave of Crystals (Power) 2",
+            "8171303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "81714": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8171400": "Cave of Crystals (Guard)",
+            "8171401": "Cave of Crystals (Guard) 1",
+            "8171402": "Cave of Crystals (Guard) 2",
+            "8171403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "81715": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8171500": "Cave of Crystals (Tech)",
+            "8171501": "Cave of Crystals (Tech) 1",
+            "8171502": "Cave of Crystals (Tech) 2",
+            "8171503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "81716": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8171600": "Cave of Crystals (Healing)",
+            "8171601": "Cave of Crystals (Healing) 1",
+            "8171602": "Cave of Crystals (Healing) 2",
+            "8171603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "81717": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8171700": "Cave of Crystals (Support)",
+            "8171701": "Cave of Crystals (Support) 1",
+            "8171702": "Cave of Crystals (Support) 2",
+            "8171703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "81801": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "818",
+        "position": [0, 0],
+        "icon": "spd_bn_top_dummy.png",
+        "missions": {
+            "8180101": "Trust Moogle (ALL 1%) Map",
+            "8180102": "Megacryst Map (Exploration)",
+            "8180103": "Rank EXP Map",
+            "8180104": "Awakening Material Map (Exploration)",
+            "8180105": "Starquartz Map",
+            "8180106": "Gil Map"
+        }
+    },
+    "81901": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "819",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8190101": "Elements’ Formation - INT",
+            "8190102": "Elements’ Formation - ADV",
+            "8190103": "Elements’ Formation - PRO",
+            "8190104": "Elements’ Formation - ELT"
+        }
+    },
+    "82001": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "820",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8200101": "Desert Despair"
+        }
+    },
+    "82101": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "821",
+        "position": [0, 0],
+        "icon": "spd_20180427_bn_list_FF10.png",
+        "missions": {
+            "8210101": "Zanarkand Ruins - BGN",
+            "8210102": "Zanarkand Ruins - INT",
+            "8210103": "Zanarkand Ruins - ADV",
+            "8210104": "Zanarkand Ruins - PRO",
+            "8210105": "Zanarkand Ruins - ELT",
+            "8210106": "Zanarkand Ruins - LGD",
+            "8210107": "Once-a-Day Special Quest! 5/1",
+            "8210108": "Once-a-Day Special Quest! 5/2",
+            "8210109": "Once-a-Day Special Quest! 5/3",
+            "8210110": "Once-a-Day Special Quest! 5/4",
+            "8210111": "Once-a-Day Special Quest! 5/5",
+            "8210112": "Once-a-Day Special Quest! 5/6",
+            "8210113": "Once-a-Day Special Quest! 5/7",
+            "8210114": "Once-a-Day Special Quest! 5/8",
+            "8210115": "Once-a-Day Special Quest! 5/9",
+            "8210116": "Once-a-Day Special Quest! 5/10",
+            "8210117": "Once-a-Day Special Quest! 5/11",
+            "8210118": "Once-a-Day Special Quest! 5/12",
+            "8210119": "Once-a-Day Special Quest! 5/13",
+            "8210120": "Once-a-Day Special Quest! 5/14"
+        }
+    },
+    "82201": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "822",
+        "position": [0, 0],
+        "icon": "spd_20180427_bn_list_FF10_02.png",
+        "missions": {
+            "8220101": "Yevon Dome - Exploration (HARD)",
+            "8220102": "Yevon Dome - Exploration (EASY)"
+        }
+    },
+    "82301": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 2048],
+        "icon": "map_icon_3320106.png",
+        "missions": {
+            "8230100": "Ignacio the Blacksmith",
+            "8230101": "The Usual Request",
+            "8230102": "Mining for Ore",
+            "8230103": "Ignacio's Dilemma",
+            "8230104": "A Difficult Weapon",
+            "8230105": "Time to Start Working!",
+            "8230106": "Finished",
+            "8230107": "Brutal Beast",
+            "8230108": "The Pride of a Blacksmith"
+        }
+    },
+    "82302": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [141, 1805],
+        "icon": "map_icon_3520102_1.png",
+        "missions": {
+            "8230200": "City of Soldiers",
+            "8230201": "Land of Desolation",
+            "8230202": "Arrival at Visectrum",
+            "8230203": "Heart Flutters",
+            "8230204": "Remnants of War",
+            "8230205": "Endless Green",
+            "8230206": "Flight of the Killer Bird",
+            "8230207": "The Warrior, the Weapon, and the Perfect Robo"
+        }
+    },
+    "82303": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [482, 1562],
+        "icon": "map_icon_3520106_1.png",
+        "missions": {
+            "8230300": "Burning Passion",
+            "8230301": "Zealous Challenge",
+            "8230302": "For the Blade",
+            "8230303": "Into the Wilderness",
+            "8230304": "Countless Stones",
+            "8230305": "Searching for Ores",
+            "8230306": "Unyielding Heart",
+            "8230307": "Winged Guardian of the Ores",
+            "8230308": "A New Problem"
+        }
+    },
+    "82304": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [165, 1343],
+        "icon": "map_icon_3520201_1.png",
+        "missions": {
+            "8230400": "The Swordmaster",
+            "8230401": "A Scoundrel of a Woman",
+            "8230402": "Suzume and the Rogues",
+            "8230403": "Sharp Words",
+            "8230404": "Head Honcho",
+            "8230405": "Fate"
+        }
+    },
+    "82305": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [473, 1101],
+        "icon": "map_icon_3530107_1.png",
+        "missions": {
+            "8230500": "Forging the Greatest Sword",
+            "8230501": "Forging the Greatest Sword",
+            "8230502": "Hammer Time, Again",
+            "8230503": "Hammer Time, Again and Again",
+            "8230504": "Hammer Time, Again and Again and Again",
+            "8230505": "Hammer Time, One More Time",
+            "8230506": "Suzume",
+            "8230507": "Of Blacksmiths and Warriors"
+        }
+    },
+    "82306": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [176, 858],
+        "icon": "map_icon_3550106_1.png",
+        "missions": {
+            "8230600": "Get Ready for Battle!",
+            "8230601": "Fight!",
+            "8230602": "Trial - First Match",
+            "8230603": "Trial - Monster",
+            "8230604": "Trial - Poison",
+            "8230605": "Trial - Thing",
+            "8230606": "The Sharp Giant",
+            "8230607": "True Power"
+        }
+    },
+    "82307": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [478, 601],
+        "icon": "map_icon_3550106_1.png",
+        "missions": {
+            "8230700": "An Unavoidable Conflict",
+            "8230701": "Confrontation",
+            "8230702": "War Machine PNK-2",
+            "8230703": "Unexpected",
+            "8230704": "Error Occured",
+            "8230705": "Those Who Battle",
+            "8230706": "A Troop of Runaway Machines",
+            "8230707": "Purple Light"
+        }
+    },
+    "82308": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 368],
+        "icon": "map_icon_3220301.png",
+        "missions": {
+            "8230800": "The Greatest Joy",
+            "8230801": "Contest",
+            "8230802": "Suzume’s Teaching",
+            "8230803": "The First Owner",
+            "8230804": "The Man Worthy of Purple Lightning",
+            "8230805": "700 Years of Memories",
+            "8230806": "The Greatest Joy"
+        }
+    },
+    "82309": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8230900": "Bonus Stage",
+            "8230901": "Bonus Stage 1",
+            "8230902": "Bonus Stage 2",
+            "8230903": "Bonus Stage 3"
+        }
+    },
+    "82310": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8231000": "Cave of Crystals (Black)",
+            "8231001": "Cave of Crystals (Black) 1",
+            "8231002": "Cave of Crystals (Black) 2",
+            "8231003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "82311": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8231100": "Cave of Crystals (White)",
+            "8231101": "Cave of Crystals (White) 1",
+            "8231102": "Cave of Crystals (White) 2",
+            "8231103": "Cave of Crystals (White) 3"
+        }
+    },
+    "82312": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8231200": "Cave of Crystals (Green)",
+            "8231201": "Cave of Crystals (Green) 1",
+            "8231202": "Cave of Crystals (Green) 2",
+            "8231203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "82313": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8231300": "Cave of Crystals (Power)",
+            "8231301": "Cave of Crystals (Power) 1",
+            "8231302": "Cave of Crystals (Power) 2",
+            "8231303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "82314": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8231400": "Cave of Crystals (Guard)",
+            "8231401": "Cave of Crystals (Guard) 1",
+            "8231402": "Cave of Crystals (Guard) 2",
+            "8231403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "82315": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8231500": "Cave of Crystals (Tech)",
+            "8231501": "Cave of Crystals (Tech) 1",
+            "8231502": "Cave of Crystals (Tech) 2",
+            "8231503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "82316": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8231600": "Cave of Crystals (Healing)",
+            "8231601": "Cave of Crystals (Healing) 1",
+            "8231602": "Cave of Crystals (Healing) 2",
+            "8231603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "82317": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8231700": "Cave of Crystals (Support)",
+            "8231701": "Cave of Crystals (Support) 1",
+            "8231702": "Cave of Crystals (Support) 2",
+            "8231703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "82401": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "824",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8240101": "First and Last - INT",
+            "8240102": "First and Last - ADV",
+            "8240103": "First and Last - PRO",
+            "8240104": "First and Last - ELT"
+        }
+    },
+    "82501": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "825",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8250101": "The Crimson Gear"
         }
     },
     "89728": {
@@ -10906,8 +12268,21 @@
         }
     },
     "89735": {
+        "names": [
+            "Scorn of the Marching Beasts",
+            "狂魔行進 真降臨",
+            "광마의 행진 진강림",
+            "Mépris du défilé des Bêtes",
+            "Spott der marschierenden Bestien",
+            "El desprecio de las bestias"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "899",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_SBF_08.png",
         "missions": {
-            "8993401": "Scorn of the Marching Beasts"
+            "8993401": "Scorn of the Beasts"
         }
     },
     "89801": {
@@ -10944,7 +12319,22 @@
             "8980117": "Chamber of Arms - The Dragon of Affection",
             "8980118": "Chamber of Arms - The Dragon of Concealed Affection",
             "8980119": "Chamber of Arms - The Patriotic Hero",
-            "8980120": "Chamber of Arms - The Ambulant Patriotic Hero"
+            "8980120": "Chamber of Arms - The Ambulant Patriotic Hero",
+            "8980121": "Chamber of Arms - Champion of Equality",
+            "8980122": "Chamber of Arms - Champion of Freedom and Equality",
+            "8980123": "Chamber of Arms - Guardian of Despair",
+            "8980124": "Chamber of Arms - Shadowing Guardian of Despair"
+        }
+    },
+    "89802": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "898",
+        "position": [0, 0],
+        "icon": "spd_bn_list_00008.png",
+        "missions": {
+            "8980200": "The Warden"
         }
     },
     "89901": {
@@ -11389,6 +12779,13 @@
             "8995601": "The Mad Doll - ADV",
             "8995602": "The Mad Doll - PRO",
             "8995603": "The Mad Doll - ELT"
+        }
+    },
+    "89948": {
+        "missions": {
+            "8995701": "Beasts of the Dark II - ADV",
+            "8995702": "Beasts of the Dark II - PRO",
+            "8995703": "Beasts of the Dark II - ELT"
         }
     },
     "90000": {
@@ -11930,7 +13327,7 @@
         "region_id": "21",
         "subregion_id": "926",
         "position": [0, 0],
-        "icon": null,
+        "icon": "global_spd_bn_list_00027.png",
         "missions": {
             "9002601": "Conqueror of Izander - INT",
             "9002602": "Conqueror of Izander - ADV",
@@ -11951,7 +13348,7 @@
         "region_id": "21",
         "subregion_id": "927",
         "position": [0, 0],
-        "icon": null,
+        "icon": "global_spd_bn_list_00027.png",
         "missions": {
             "9002701": "Festival of Love - BGN",
             "9002702": "Festival of Love - ADV",
@@ -12344,6 +13741,29 @@
         "icon": "global_spd_bn_list_00040.png",
         "missions": {
             "9410101": "Hasiko's Revenge - ELT"
+        }
+    },
+    "94201": {
+        "names": [
+            "An Eerie Invitation",
+            "毛骨悚然的邀請函",
+            "섬뜩한 초대",
+            "Une étrange invitation",
+            "Eine unheimliche Einladung",
+            "Invitación aterradora"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "942",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00041.png",
+        "missions": {
+            "9420101": "An Eerie Invitation - BGN",
+            "9420102": "An Eerie Invitation - INT",
+            "9420103": "An Eerie Invitation - ADV",
+            "9420104": "An Eerie Invitation - PRO",
+            "9420105": "An Eerie Invitation - ELT",
+            "9420106": "An Eerie Invitation - LGD"
         }
     },
     "111101": {
@@ -14126,6 +15546,40 @@
             "11512208": "Londell Road - Exploration"
         }
     },
+    "115123": {
+        "missions": {
+            "11512301": "Bug Eater's Den - The Vexing Path",
+            "11512302": "Bug Eater's Den - The Winding Slope",
+            "11512303": "Bug Eater's Den - Torrential Magic",
+            "11512304": "Bug Eater's Den - Magic Barrier"
+        }
+    },
+    "115124": {
+        "missions": {
+            "11512401": "Sandstorm Maze - Arid Region",
+            "11512402": "Sandstorm Maze - Lurking Evil",
+            "11512403": "Sandstorm Maze - Magical Trails",
+            "11512404": "Sandstorm Maze - Pit of the Ant",
+            "11512405": "Sandstorm Maze - Exploration"
+        }
+    },
+    "115125": {
+        "missions": {
+            "11512501": "Brown Sands - Harsh Rays",
+            "11512502": "Brown Sands - Blazing Sands",
+            "11512503": "Brown Sands - Hazy View",
+            "11512504": "Brown Sands - Aldore Patrol"
+        }
+    },
+    "115126": {
+        "missions": {
+            "11512601": "Land of Fading Memories - Sobbing Voice",
+            "11512602": "Land of Fading Memories - Soul Awakened",
+            "11512603": "Land of Fading Memories - Infinite Souls",
+            "11512604": "Land of Fading Memories - Charming Mist",
+            "11512605": "Land of Fading Memories - Evil Spirit"
+        }
+    },
     "115151": {
         "names": [
             "Sacred Valley",
@@ -14147,6 +15601,93 @@
             "11515104": "Sacred Valley - Presence of an Esper",
             "11515105": "Sacred Valley - Judgment",
             "11515106": "Trial at the Sacred Castle"
+        }
+    },
+    "115152": {
+        "missions": {
+            "11515201": "Pit of Chains - Cursed Marshland",
+            "11515202": "Pit of Chains - Withered Grassland",
+            "11515203": "Pit of Chains - Floating Hex",
+            "11515204": "Pit of Chains - Ominous Presence",
+            "11515205": "Pit of Chains - Chains of Hate",
+            "11515206": "Trial of the Vengeful"
+        }
+    },
+    "115201": {
+        "missions": {
+            "11520101": "Colosseum Liner - Raid",
+            "11520102": "Colosseum Liner - Hands of the Master",
+            "11520103": "Colosseum Liner - The Assassin",
+            "11520104": "Colosseum Liner - The Plot to Kill",
+            "11520105": "Colosseum Train - Assault",
+            "11520106": "Colosseum Train - Sneak Attack",
+            "11520107": "Colosseum Train - Sudden Change",
+            "11520108": "Colosseum Train - Trap",
+            "11520109": "Colosseum Train - Assassins"
+        }
+    },
+    "115202": {
+        "missions": {
+            "11520201": "Colosseum First Floor - Battle Begins",
+            "11520202": "Colosseum First Floor - Beastly Uprising",
+            "11520203": "Colosseum First Floor - Lookout",
+            "11520204": "Colosseum First Floor - Raging Beast"
+        }
+    },
+    "115203": {
+        "missions": {
+            "11520301": "Colosseum Second Floor - Beastly Voice",
+            "11520302": "Colosseum Second Floor - Weight of War",
+            "11520303": "Colosseum Second Floor - Fighting Continues",
+            "11520304": "Colosseum Second Floor - The Challenger"
+        }
+    },
+    "115204": {
+        "missions": {
+            "11520401": "Colosseum VIP Section - Elite Soldiers",
+            "11520402": "Colosseum VIP Section - Guards",
+            "11520403": "Colosseum VIP Section - Royal Guards",
+            "11520404": "Colosseum VIP Section - Aldore Emperor"
+        }
+    },
+    "115205": {
+        "missions": {
+            "11520501": "Colosseum Third Floor - Thunderclap",
+            "11520502": "Colosseum Third Floor - Fierce Attack",
+            "11520503": "Colosseum Third Floor - United Struggle",
+            "11520504": "Colosseum Third Floor - Deception"
+        }
+    },
+    "115206": {
+        "missions": {
+            "11520601": "Visectrum Undeveloped Region - Retreat",
+            "11520602": "Visectrum Undeveloped Region - Regret",
+            "11520603": "Visectrum Undeveloped Region - Spark",
+            "11520604": "Visectrum Undeveloped Region - Advance"
+        }
+    },
+    "115207": {
+        "missions": {
+            "11520701": "Visectrum Underground Waterway - Drainage",
+            "11520702": "Visectrum Underground Waterway - Cesspool",
+            "11520703": "Visectrum Underground Waterway - Stagnant Air",
+            "11520704": "Visectrum Underground Waterway - Danger",
+            "11520705": "Visectrum Underground Waterway - Exploration"
+        }
+    },
+    "115208": {
+        "missions": {
+            "11520801": "Underground Train Control System - Cruel Heart",
+            "11520802": "Underground Train Control System - Human Heart",
+            "11520803": "Underground Train Control System - Mechanical Heart",
+            "11520804": "Underground Train Control System - Restored Heart",
+            "11520805": "Underground Train Control System - Happy Heart"
+        }
+    },
+    "115209": {
+        "missions": {
+            "11520901": "Main Colosseum - Final Round",
+            "11520902": "Main Colosseum - Inherited Power"
         }
     },
     "6100000": {

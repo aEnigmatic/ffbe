@@ -1742,6 +1742,32 @@
                         "Daño de luz a todos los enemigos"
                     ]
                 }
+            },
+            "11303": {
+                "effects": ["Magic* light damage (210x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  21000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[110]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Divine Judgment",
+                        "神聖審判",
+                        "성스러운 심판",
+                        "Jugement divin",
+                        "Jüngstes Gericht",
+                        "Veredicto final"
+                    ],
+                    "desc": [
+                        "Light damage to all enemies",
+                        "對全體敵人發動光屬性攻擊",
+                        "적 전체에 빛속성 피해",
+                        "Dégâts de lumière sur tous les ennemis",
+                        "Lichtschaden, alle Ziele",
+                        "Daño de luz a todos los enemigos"
+                    ]
+                }
             }
         },
         "color": {
@@ -1775,6 +1801,20 @@
                 "element_resist": [0, 0, 25, -25, 0, 0, 50, -50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "exp_pattern": 42,
+                "stat_pattern": 2
+            },
+            {
+                "stats": {
+                    "HP": [5200, 8500],
+                    "MP": [2200, 4400],
+                    "ATK": [2300, 5200],
+                    "DEF": [4800, 7600],
+                    "MAG": [4700, 6400],
+                    "SPR": [6000, 8500]
+                },
+                "element_resist": [0, 0, 25, -25, 0, 0, 50, -50],
+                "status_resist": [100, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 52,
                 "stat_pattern": 2
             }
         ]
@@ -2207,6 +2247,106 @@
                 "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 100],
                 "exp_pattern": 52,
+                "stat_pattern": 2
+            }
+        ]
+    },
+    "17": {
+        "names": [
+            "Anima",
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "image": "beast191.png",
+        "icon": "beast_thum191.png",
+        "skill": {
+            "11701": {
+                "effects": ["Magic* dark damage (42x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  4200]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[80]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Oblivion",
+                        "混沌·D",
+                        "카오틱·D",
+                        "Chaos",
+                        "Chaos-Dimension",
+                        "Caos liberado"
+                    ],
+                    "desc": [
+                        "Dark damage to all enemies",
+                        "對全體敵人發動暗屬性攻擊",
+                        "적 전체에 어둠속성 피해",
+                        "Dégâts de ténèbres sur tous les ennemis",
+                        "Dunkelschaden, alle Ziele",
+                        "Daño de oscuridad a todos los enemigos"
+                    ]
+                }
+            },
+            "11702": {
+                "effects": ["Magic* dark damage (120x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  12000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[60]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Oblivion",
+                        "混沌·D",
+                        "카오틱·D",
+                        "Chaos",
+                        "Chaos-Dimension",
+                        "Caos liberado"
+                    ],
+                    "desc": [
+                        "Dark damage to all enemies",
+                        "對全體敵人發動暗屬性攻擊",
+                        "적 전체에 어둠속성 피해",
+                        "Dégâts de ténèbres sur tous les ennemis",
+                        "Dunkelschaden, alle Ziele",
+                        "Daño de oscuridad a todos los enemigos"
+                    ]
+                }
+            }
+        },
+        "color": {
+            "Blue": 1.5,
+            "Black": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [1700, 2200],
+                    "MP": [1400, 1800],
+                    "ATK": [2400, 3100],
+                    "DEF": [1700, 2200],
+                    "MAG": [3000, 3900],
+                    "SPR": [2900, 3800]
+                },
+                "element_resist": [0, 0, -25, 25, 0, 0, -50, 50],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 32,
+                "stat_pattern": 2
+            },
+            {
+                "stats": {
+                    "HP": [2400, 3200],
+                    "MP": [2000, 2600],
+                    "ATK": [3300, 4600],
+                    "DEF": [2400, 3200],
+                    "MAG": [4100, 5800],
+                    "SPR": [4000, 5600]
+                },
+                "element_resist": [0, 0, -25, 25, 0, 0, -50, 50],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 42,
                 "stat_pattern": 2
             }
         ]

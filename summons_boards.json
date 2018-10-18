@@ -4640,145 +4640,145 @@
         },
         "130038": {
             "parent_node_id": 130040,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600610],
             "position": [-4, -3],
-            "cost": 80
+            "cost": 120
         },
         "130039": {
             "parent_node_id": 130056,
-            "reward": ["HP", 100],
+            "reward": ["LightRes", 10],
             "position": [1, -3],
-            "cost": 80
+            "cost": 90
         },
         "130040": {
             "parent_node_id": 130042,
-            "reward": ["HP", 100],
+            "reward": ["HP", 300],
             "position": [-4, -2],
             "cost": 80
         },
         "130041": {
             "parent_node_id": 130027,
-            "reward": ["HP", 100],
+            "reward": ["ATK", 130],
             "position": [2, -2],
             "cost": 80
         },
         "130042": {
             "parent_node_id": 130026,
-            "reward": ["HP", 100],
+            "reward": ["HP", 300],
             "position": [-4, -1],
             "cost": 80
         },
         "130043": {
             "parent_node_id": 130041,
-            "reward": ["HP", 100],
+            "reward": ["LightningRes", 5],
             "position": [3, -1],
-            "cost": 80
+            "cost": 90
         },
         "130044": {
             "parent_node_id": 130028,
-            "reward": ["HP", 100],
+            "reward": ["SPR", 110],
             "position": [-4, 0],
             "cost": 80
         },
         "130045": {
             "parent_node_id": 130043,
-            "reward": ["HP", 100],
+            "reward": ["LightningRes", 5],
             "position": [4, 0],
-            "cost": 80
+            "cost": 90
         },
         "130046": {
             "parent_node_id": 130044,
-            "reward": ["HP", 100],
+            "reward": ["SPR", 120],
             "position": [-3, 1],
             "cost": 80
         },
         "130047": {
             "parent_node_id": 130049,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600630],
             "position": [4, 1],
-            "cost": 80
+            "cost": 90
         },
         "130048": {
             "parent_node_id": 130046,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600340],
             "position": [-2, 2],
-            "cost": 80
+            "cost": 100
         },
         "130049": {
             "parent_node_id": 130033,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600630],
             "position": [4, 2],
-            "cost": 80
+            "cost": 90
         },
         "130050": {
             "parent_node_id": 130057,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600340],
             "position": [-1, 3],
-            "cost": 80
+            "cost": 100
         },
         "130051": {
             "parent_node_id": 130037,
-            "reward": ["HP", 100],
+            "reward": ["MP", 120],
             "position": [4, 3],
             "cost": 80
         },
         "130052": {
             "parent_node_id": 130020,
-            "reward": ["HP", 100],
+            "reward": ["MAGIC", 10170],
             "position": [-4, -4],
             "cost": 80
         },
         "130053": {
             "parent_node_id": 130054,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 600620],
             "position": [-3, -4],
-            "cost": 80
+            "cost": 100
         },
         "130054": {
             "parent_node_id": 130055,
-            "reward": ["HP", 100],
+            "reward": ["DEF", 250],
             "position": [-2, -4],
-            "cost": 80
+            "cost": 90
         },
         "130055": {
             "parent_node_id": 130022,
-            "reward": ["HP", 100],
+            "reward": ["DEF", 200],
             "position": [-1, -4],
             "cost": 80
         },
         "130056": {
             "parent_node_id": 130055,
-            "reward": ["HP", 100],
+            "reward": ["LightRes", 10],
             "position": [0, -4],
-            "cost": 80
+            "cost": 90
         },
         "130057": {
             "parent_node_id": 130058,
-            "reward": ["HP", 100],
+            "reward": ["SPR", 120],
             "position": [0, 4],
             "cost": 80
         },
         "130058": {
             "parent_node_id": 130035,
-            "reward": ["HP", 100],
+            "reward": ["SPR", 110],
             "position": [1, 4],
             "cost": 80
         },
         "130059": {
             "parent_node_id": 130060,
-            "reward": ["HP", 100],
+            "reward": ["ABILITY", 223950],
             "position": [2, 4],
-            "cost": 80
+            "cost": 120
         },
         "130060": {
             "parent_node_id": 130061,
-            "reward": ["HP", 100],
+            "reward": ["MAG", 140],
             "position": [3, 4],
             "cost": 80
         },
         "130061": {
             "parent_node_id": 130051,
-            "reward": ["HP", 100],
+            "reward": ["MAG", 140],
             "position": [4, 4],
             "cost": 80
         }
@@ -5823,6 +5823,374 @@
         "160061": {
             "parent_node_id": 160037,
             "reward": ["MAG", 100],
+            "position": [4, 4],
+            "cost": 80
+        }
+    },
+    "17": {
+        "170001": {
+            "parent_node_id": null,
+            "reward": null,
+            "position": [0, 0],
+            "cost": 0
+        },
+        "170002": {
+            "parent_node_id": 170004,
+            "reward": ["DEF", 40],
+            "position": [-1, -1],
+            "cost": 5
+        },
+        "170003": {
+            "parent_node_id": 170005,
+            "reward": ["MAG", 40],
+            "position": [0, -1],
+            "cost": 5
+        },
+        "170004": {
+            "parent_node_id": 170006,
+            "reward": ["ATK", 40],
+            "position": [-1, 0],
+            "cost": 5
+        },
+        "170005": {
+            "parent_node_id": 170007,
+            "reward": ["SPR", 40],
+            "position": [1, 0],
+            "cost": 5
+        },
+        "170006": {
+            "parent_node_id": 170001,
+            "reward": ["HP", 30],
+            "position": [0, 1],
+            "cost": 5
+        },
+        "170007": {
+            "parent_node_id": 170001,
+            "reward": ["MP", 30],
+            "position": [1, 1],
+            "cost": 5
+        },
+        "170008": {
+            "parent_node_id": 170002,
+            "reward": ["HP", 30],
+            "position": [-2, -2],
+            "cost": 10
+        },
+        "170009": {
+            "parent_node_id": 170010,
+            "reward": ["MAGIC", 20160],
+            "position": [-1, -2],
+            "cost": 10
+        },
+        "170010": {
+            "parent_node_id": 170003,
+            "reward": ["MP", 30],
+            "position": [0, -2],
+            "cost": 10
+        },
+        "170011": {
+            "parent_node_id": 170008,
+            "reward": ["DEF", 40],
+            "position": [-2, -1],
+            "cost": 10
+        },
+        "170012": {
+            "parent_node_id": 170010,
+            "reward": ["MAG", 40],
+            "position": [1, -1],
+            "cost": 10
+        },
+        "170013": {
+            "parent_node_id": 170011,
+            "reward": ["ATK", 40],
+            "position": [-2, 0],
+            "cost": 10
+        },
+        "170014": {
+            "parent_node_id": 170012,
+            "reward": ["SPR", 40],
+            "position": [2, 0],
+            "cost": 10
+        },
+        "170015": {
+            "parent_node_id": 170013,
+            "reward": ["MAGIC", 20040],
+            "position": [-1, 1],
+            "cost": 10
+        },
+        "170016": {
+            "parent_node_id": 170014,
+            "reward": ["MAGIC", 20450],
+            "position": [2, 1],
+            "cost": 10
+        },
+        "170017": {
+            "parent_node_id": 170015,
+            "reward": ["ATK", 40],
+            "position": [0, 2],
+            "cost": 10
+        },
+        "170018": {
+            "parent_node_id": 170017,
+            "reward": ["HP", 30],
+            "position": [1, 2],
+            "cost": 10
+        },
+        "170019": {
+            "parent_node_id": 170016,
+            "reward": ["MAG", 40],
+            "position": [2, 2],
+            "cost": 10
+        },
+        "170020": {
+            "parent_node_id": 170021,
+            "reward": ["ATK", 80],
+            "position": [-3, -3],
+            "cost": 30
+        },
+        "170021": {
+            "parent_node_id": 170008,
+            "reward": ["DEF", 80],
+            "position": [-2, -3],
+            "cost": 30
+        },
+        "170022": {
+            "parent_node_id": 170009,
+            "reward": ["SPR", 80],
+            "position": [-1, -3],
+            "cost": 30
+        },
+        "170023": {
+            "parent_node_id": 170022,
+            "reward": ["MAG", 80],
+            "position": [0, -3],
+            "cost": 30
+        },
+        "170024": {
+            "parent_node_id": 170020,
+            "reward": ["HP", 50],
+            "position": [-3, -2],
+            "cost": 30
+        },
+        "170025": {
+            "parent_node_id": 170023,
+            "reward": ["MP", 50],
+            "position": [1, -2],
+            "cost": 30
+        },
+        "170026": {
+            "parent_node_id": 170024,
+            "reward": ["ABILITY", 600650],
+            "position": [-3, -1],
+            "cost": 30
+        },
+        "170027": {
+            "parent_node_id": 170025,
+            "reward": ["MAGIC", 20190],
+            "position": [2, -1],
+            "cost": 30
+        },
+        "170028": {
+            "parent_node_id": 170030,
+            "reward": ["ABILITY", 100750],
+            "position": [-3, 0],
+            "cost": 30
+        },
+        "170029": {
+            "parent_node_id": 170031,
+            "reward": ["ABILITY", 600651],
+            "position": [3, 0],
+            "cost": 30
+        },
+        "170030": {
+            "parent_node_id": 170032,
+            "reward": ["HP", 50],
+            "position": [-2, 1],
+            "cost": 30
+        },
+        "170031": {
+            "parent_node_id": 170033,
+            "reward": ["MP", 50],
+            "position": [3, 1],
+            "cost": 30
+        },
+        "170032": {
+            "parent_node_id": 170034,
+            "reward": ["ATK", 80],
+            "position": [-1, 2],
+            "cost": 30
+        },
+        "170033": {
+            "parent_node_id": 170037,
+            "reward": ["MAG", 80],
+            "position": [3, 2],
+            "cost": 30
+        },
+        "170034": {
+            "parent_node_id": 170035,
+            "reward": ["MAGIC", 20110],
+            "position": [0, 3],
+            "cost": 30
+        },
+        "170035": {
+            "parent_node_id": 170018,
+            "reward": ["DEF", 80],
+            "position": [1, 3],
+            "cost": 30
+        },
+        "170036": {
+            "parent_node_id": 170019,
+            "reward": ["SPR", 80],
+            "position": [2, 3],
+            "cost": 30
+        },
+        "170037": {
+            "parent_node_id": 170036,
+            "reward": ["MAGIC", 20460],
+            "position": [3, 3],
+            "cost": 30
+        },
+        "170038": {
+            "parent_node_id": 170040,
+            "reward": ["HP", 10],
+            "position": [-4, -3],
+            "cost": 80
+        },
+        "170039": {
+            "parent_node_id": 170041,
+            "reward": ["HP", 10],
+            "position": [1, -3],
+            "cost": 80
+        },
+        "170040": {
+            "parent_node_id": 170026,
+            "reward": ["HP", 10],
+            "position": [-4, -2],
+            "cost": 80
+        },
+        "170041": {
+            "parent_node_id": 170027,
+            "reward": ["HP", 10],
+            "position": [2, -2],
+            "cost": 80
+        },
+        "170042": {
+            "parent_node_id": 170026,
+            "reward": ["HP", 10],
+            "position": [-4, -1],
+            "cost": 80
+        },
+        "170043": {
+            "parent_node_id": 170027,
+            "reward": ["HP", 10],
+            "position": [3, -1],
+            "cost": 80
+        },
+        "170044": {
+            "parent_node_id": 170028,
+            "reward": ["HP", 10],
+            "position": [-4, 0],
+            "cost": 80
+        },
+        "170045": {
+            "parent_node_id": 170029,
+            "reward": ["HP", 10],
+            "position": [4, 0],
+            "cost": 80
+        },
+        "170046": {
+            "parent_node_id": 170044,
+            "reward": ["HP", 10],
+            "position": [-3, 1],
+            "cost": 80
+        },
+        "170047": {
+            "parent_node_id": 170045,
+            "reward": ["HP", 10],
+            "position": [4, 1],
+            "cost": 80
+        },
+        "170048": {
+            "parent_node_id": 170046,
+            "reward": ["HP", 10],
+            "position": [-2, 2],
+            "cost": 80
+        },
+        "170049": {
+            "parent_node_id": 170047,
+            "reward": ["HP", 10],
+            "position": [4, 2],
+            "cost": 80
+        },
+        "170050": {
+            "parent_node_id": 170048,
+            "reward": ["HP", 10],
+            "position": [-1, 3],
+            "cost": 80
+        },
+        "170051": {
+            "parent_node_id": 170049,
+            "reward": ["HP", 10],
+            "position": [4, 3],
+            "cost": 80
+        },
+        "170052": {
+            "parent_node_id": 170038,
+            "reward": ["HP", 10],
+            "position": [-4, -4],
+            "cost": 80
+        },
+        "170053": {
+            "parent_node_id": 170054,
+            "reward": ["HP", 10],
+            "position": [-3, -4],
+            "cost": 80
+        },
+        "170054": {
+            "parent_node_id": 170055,
+            "reward": ["HP", 10],
+            "position": [-2, -4],
+            "cost": 80
+        },
+        "170055": {
+            "parent_node_id": 170023,
+            "reward": ["HP", 10],
+            "position": [-1, -4],
+            "cost": 80
+        },
+        "170056": {
+            "parent_node_id": 170039,
+            "reward": ["HP", 10],
+            "position": [0, -4],
+            "cost": 80
+        },
+        "170057": {
+            "parent_node_id": 170034,
+            "reward": ["HP", 10],
+            "position": [0, 4],
+            "cost": 80
+        },
+        "170058": {
+            "parent_node_id": 170057,
+            "reward": ["HP", 10],
+            "position": [1, 4],
+            "cost": 80
+        },
+        "170059": {
+            "parent_node_id": 170060,
+            "reward": ["HP", 10],
+            "position": [2, 4],
+            "cost": 80
+        },
+        "170060": {
+            "parent_node_id": 170037,
+            "reward": ["HP", 10],
+            "position": [3, 4],
+            "cost": 80
+        },
+        "170061": {
+            "parent_node_id": 170037,
+            "reward": ["HP", 10],
             "position": [4, 4],
             "cost": 80
         }
