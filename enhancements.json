@@ -24,7 +24,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a katana",
-                "提高裝備刀時攻擊的數值",
+                "裝備刀時提高攻擊",
                 "도 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'un katana est équipé",
                 "Erhöht ANG, wenn mit Katana ausgerüstet",
@@ -58,7 +58,7 @@
             ],
             "description": [
                 "Boosts ATK increase when equipped with a katana (great)",
-                "提高裝備刀時攻擊的數值(特大)",
+                "裝備刀時提高攻擊的增加量(特大)",
                 "도 장착 시 공격력 상승량 상승(특대)",
                 "Amplifie l'augmentation de l'ATT lorsqu'un katana est équipé (super)",
                 "Steigert ANG-Erhöhung, wenn mit Katana ausgerüstet (sehr hoch)",
@@ -812,7 +812,7 @@
             ],
             "description": [
                 "Boosts poison, blind, sleep, silence, paralysis, confusion, disease, and stone resistance",
-                "提高中毒失明睡眠沉默麻痺混亂生病石化耐性的數值",
+                "提高中毒失明睡眠沉默麻痺混亂生病石化耐性",
                 "독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 저항력 상승",
                 "Augmente la résistance à poison, cécité, sommeil, silence, paralysie, confusion, maladie, et pétrification",
                 "Erhöht Resistenz gegen Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Stein",
@@ -845,7 +845,7 @@
             ],
             "description": [
                 "Boosts poison, blind, sleep, silence, paralysis, confusion, disease, and stone resistance (high)",
-                "提高中毒失明睡眠沉默麻痺混亂生病石化耐性的數值(大)",
+                "提高中毒失明睡眠沉默麻痺混亂生病石化耐性(大)",
                 "독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 저항력 상승(대)",
                 "Augmente la résistance à poison, cécité, sommeil, silence, paralysie, confusion, maladie, et pétrification (beaucoup)",
                 "Erhöht Resist. gegen Gift, Blenden, Schlaf, Stille, Lähmung, Konfus, Virus und Stein (hoch)",
@@ -4286,7 +4286,7 @@
             ],
             "description": [
                 "Reduces dark resistance",
-                "降低暗屬性耐性的數值",
+                "降低暗屬性耐性",
                 "어둠속성 저항력 감소",
                 "Réduit la rés. aux ténèbres",
                 "Verringert Dunkelresistenz ",
@@ -4353,7 +4353,7 @@
             ],
             "description": [
                 "Boosts SPR",
-                "提高精神的數值",
+                "提高精神",
                 "정신력 상승",
                 "Augmente la PSY",
                 "Erhöht PSY",
@@ -4520,7 +4520,7 @@
             ],
             "description": [
                 "Boosts fire, ice, and lightning resistance",
-                "提高火冰雷屬性耐性的數值",
+                "提高火冰雷屬性耐性",
                 "불, 얼음, 번개속성 저항력 상승",
                 "Augmente la rés. au feu, à la glace et à la foudre",
                 "Erhöht Feuer-, Blitz, und Eisres.",
@@ -4679,7 +4679,7 @@
             ],
             "description": [
                 "Reduces dark resistance",
-                "降低暗屬性耐性的數值",
+                "降低暗屬性耐性",
                 "어둠속성 저항력 감소",
                 "Réduit la rés. aux ténèbres",
                 "Verringert Dunkelresistenz",
@@ -5709,7 +5709,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with short sword, large sword, or katana",
-                "提高裝備短劍大劍刀時攻擊的數值",
+                "裝備短劍大劍刀時提高攻擊",
                 "단검, 대검, 도 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée courte, longue ou un katana est équipé",
                 "Erhöht ANG, wenn ein Kurzschwert, Breitschwert oder Katana ausgerüstet ist.",
@@ -6840,7 +6840,7 @@
             ],
             "description": [
                 "Boosts SPR when active",
-                "發動時提高精神的數值",
+                "發動時提高精神",
                 "발동 시 정신력 상승",
                 "Augmente la PSY une fois activé",
                 "Erhöht PSY, wenn aktiv",
@@ -6873,7 +6873,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with short sword or spear",
-                "提高裝備短劍長槍時攻擊的數值",
+                "裝備短劍長槍時提高攻擊",
                 "단검, 창 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée courte ou une lance est équipée",
                 "Erhöht ANG, wenn mit Kurzschwert oder Speer ausgerüstet",
@@ -6979,6 +6979,74 @@
                 "Augmente le nombre de coups (moyen)",
                 "Erhöht die Trefferzahl (mittel)",
                 "Mayor número de golpes (bastante)"
+            ]
+        }
+    },
+    "204001001": {
+        "name": "Quake",
+        "skill_id_old": 20400,
+        "skill_id_new": 70432,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 10,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Quake",
+                "地槌",
+                "퀘이크",
+                "Séisme",
+                "Beben",
+                "Seísmo"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht Schaden (gering)",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "204001002": {
+        "name": "Quake",
+        "skill_id_old": 70432,
+        "skill_id_new": 70433,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 15,
+                "270000800": 12,
+                "270000900": 4,
+                "270001000": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Quake",
+                "地槌",
+                "퀘이크",
+                "Séisme",
+                "Beben",
+                "Seísmo"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht Schaden (gering)",
+                "Aumenta el daño (poco)"
             ]
         }
     },
@@ -7277,7 +7345,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR when active<br>Increases necessary HP (low)",
-                "提高發動時防禦精神的數值<br>增加發動條件的HP值(小)",
+                "發動時提高防禦精神<br>增加發動條件的HP值(小)",
                 "발동 시 방어력과 정신력 상승<br>발동 조건의 HP 수치 증가(소)",
                 "Augmente la DEF et la PSY une fois activé<br>Augmente les PV nécessaires (peu)",
                 "Erhöht ABW und PSY, wenn aktiv<br>Erhöht nötige LP (gering)",
@@ -7850,7 +7918,7 @@
             ],
             "description": [
                 "Boosts own MAG when active",
-                "發動時提高自身魔力的數值",
+                "發動時提高自身的魔力",
                 "발동 시 자신의 마력 상승",
                 "Augmente la MAGIE du lanceur une fois activé",
                 "Erhöht eigene MAG, wenn aktiv",
@@ -7917,7 +7985,7 @@
             ],
             "description": [
                 "Boosts own MAG when active",
-                "發動時提高自身魔力的數值",
+                "發動時提高自身魔力",
                 "발동 시 자신의 마력 상승",
                 "Augmente la MAGIE du lanceur une fois activé",
                 "Erhöht eigene MAG, wenn aktiv",
@@ -8615,7 +8683,7 @@
             ],
             "description": [
                 "Boosts fire resistance",
-                "提高火屬性耐性的數值",
+                "提高火屬性耐性",
                 "불속성 저항력 상승",
                 "Augmente la rés. au feu",
                 "Erhöht Feuerresistenz",
@@ -8847,7 +8915,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a sword or katana",
-                "提高裝備劍刀時攻擊的數值",
+                "裝備劍刀時提高攻擊",
                 "검과 도 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée ou un katana est équipé",
                 "Erhöht ANG, wenn mit Schwert oder Katana ausger.",
@@ -9484,7 +9552,7 @@
             ],
             "description": [
                 "Reduces fire resistance",
-                "降低火屬性耐性的數值",
+                "降低火屬性耐性",
                 "불속성 저항력 감소",
                 "Réduit la résistance au feu",
                 "Verringert Feuerresistenz",
@@ -9585,7 +9653,7 @@
             ],
             "description": [
                 "Boosts MAG increase (great)<br>Reduce SPR for all enemies",
-                "提高魔力增加量(特大)<br>降低全體敵人精神的數值",
+                "提高魔力增加量(特大)<br>降低全體敵人的精神",
                 "마력 상승량 상승(특대)<br>적 전체의 정신력 감소",
                 "Amplifie l'augmentation de la MAGIE (super)<br>Réduit la PSY de tous les alliés",
                 "Steigert MAG-Erhöhung (sehr hoch)<br>Verringert PSY für alle Gegner",
@@ -9717,7 +9785,7 @@
             ],
             "description": [
                 "Boosts MAG when equipped with a rod",
-                "提高裝備魔棒時魔力的數值",
+                "裝備魔棒時提高魔力",
                 "홀장 장착 시 마력 상승",
                 "Augmente la MAGIE lorsqu'un sceptre est équipé",
                 "Erhöht MAG, wenn mit Rute ausgerüstet",
@@ -10751,7 +10819,7 @@
             ],
             "description": [
                 "Reduces lightning resistance",
-                "降低雷屬性耐性的數值",
+                "降低雷屬性耐性",
                 "번개속성 저항력 감소",
                 "Réduit la résistance à la foudre",
                 "Verringert Blitzresistenz",
@@ -10883,7 +10951,7 @@
             ],
             "description": [
                 "Boosts ATK",
-                "提高攻擊的數值",
+                "提高攻擊",
                 "공격력 상승",
                 "Augmente l'ATT",
                 "Erhöht ANG",
@@ -11345,7 +11413,7 @@
             ],
             "description": [
                 "Boosts ATK",
-                "提高攻擊的數值",
+                "提高攻擊",
                 "공격력 상승",
                 "Augmente l'ATT",
                 "Erhöht ANG",
@@ -11447,7 +11515,7 @@
             ],
             "description": [
                 "Boosts ATK, DEF, MAG, and SPR<br>Increases LB gauge every turn",
-                "提高攻擊防禦魔力精神的數值<br>每回合增加極限技槽",
+                "提高攻擊防禦魔力精神<br>每回合增加極限技槽",
                 "공격력, 방어력, 마력, 정신력 상승<br>매 턴마다 LB 게이지 증가",
                 "Augmente ATT/DEF/MAGIE/PSY<br>Remplit la jauge de limite à chaque tour",
                 "Erhöht ANG, ABW, MAG und PSY <br>Limitmeter steigt in jeder Runde",
@@ -11610,7 +11678,7 @@
             ],
             "description": [
                 "Boosts ATK every turn",
-                "每回合提高攻擊的數值",
+                "每回合提高攻擊",
                 "매 턴마다 공격력 상승",
                 "Augmente l'ATT à chaque tour",
                 "Erhöht jede Runde ANG",
@@ -11710,7 +11778,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a spear",
-                "提高裝備長槍時攻擊的數值",
+                "裝備長槍時提高攻擊",
                 "창 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une lance est équipée",
                 "Erhöht ANG, wenn mit Speer ausger.",
@@ -11878,7 +11946,7 @@
             ],
             "description": [
                 "Boosts fire resistance (mid)",
-                "提高火屬性耐性的數值(中)",
+                "提高火屬性耐性(中)",
                 "불속성 저항력 상승(중)",
                 "Augmente la rés. au feu (moyen)",
                 "Erhöht Feuerresistenz (mittel)",
@@ -12608,7 +12676,7 @@
             ],
             "description": [
                 "Boosts dark resistance when active",
-                "發動時提高暗屬性耐性的數值",
+                "發動時提高暗屬性耐性",
                 "발동 시 어둠속성 저항력 상승",
                 "Augmente la rés. aux ténèbres une fois activé",
                 "Erhöht Dunkelresistenz, wenn aktiv",
@@ -12642,7 +12710,7 @@
             ],
             "description": [
                 "Boosts ATK when active",
-                "發動時提高攻擊的數值",
+                "發動時提高攻擊",
                 "발동 시 공격력 상승",
                 "Augmente l'ATT une fois activé",
                 "Erhöht ANG, wenn aktiv",
@@ -12676,7 +12744,7 @@
             ],
             "description": [
                 "Boosts SPR",
-                "提高精神的數值",
+                "提高精神",
                 "정신력 상승",
                 "Augmente la PSY",
                 "Erhöht PSY",
@@ -12710,7 +12778,7 @@
             ],
             "description": [
                 "Boosts DEF increase (great)<br>Boosts SPR when active",
-                "提高防禦增加量(特大)<br>提高發動時精神的數值",
+                "提高防禦增加量(特大)<br>提高發動時的精神",
                 "방어력 상승량 상승(특대)<br>발동 시 정신력 상승",
                 "Amplifie l'augmentation de la DEF (super)<br>Augmente la PSY une fois activé",
                 "Steigert ABW-Erhöhung (sehr hoch)<br>Erhöht PSY, wenn aktiv",
@@ -13510,7 +13578,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a sword",
-                "提高裝備劍時攻擊的數值",
+                "裝備劍時提高攻擊",
                 "검 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée est équipée",
                 "Steigert die ANG-Erhöhung, wenn mit einem Schwert ausger.",
@@ -13742,7 +13810,7 @@
             ],
             "description": [
                 "Boosts SPR when equipped with heavy armor or a heavy shield",
-                "提高裝備重盾重鎧甲時精神的數值",
+                "裝備重盾重鎧甲時提高精神",
                 "무거운 방패와 중갑 장착 시 정신력 상승",
                 "Augmente la PSY lorsqu'une armure lourde ou un bouclier lourd est équipé",
                 "PSY hoch, wenn mit schwerer Rüstung oder schwerem Schild ausgerüstet",
@@ -13776,7 +13844,7 @@
             ],
             "description": [
                 "Boosts HP<br>Boosts DEF and SPR increase when equipped with heavy armor or a heavy shield (mid)",
-                "提高HP<br>提高裝備重盾重鎧甲時防禦精神增加量(中)",
+                "提高HP<br>裝備重盾重鎧甲時提高防禦精神的增加量(中)",
                 "HP 상승<br>무거운 방패와 중갑 장착 시 방어력과 정신력 상승(중)",
                 "Augmente les PV<br>Amplifie l'augmentation de la PSY et de la DEF lorsqu'une armure lourde ou un bouclier lourd est équipé (moyen)",
                 "Erhöht LP<br>PSY und ABW hoch, wenn mit schwerer Rüstung oder schwerem Schild ausgerüstet (mittel)",
@@ -13843,7 +13911,7 @@
             ],
             "description": [
                 "Boosts ATK and DEF",
-                "提高攻擊防禦的數值",
+                "提高攻擊防禦",
                 "공격력과 방어력 상승",
                 "Augmente l'ATT et la DEF",
                 "Erhöht ANG und ABW",
@@ -14508,7 +14576,7 @@
             ],
             "description": [
                 "Boosts HP and ATK",
-                "提高HP攻擊的數值",
+                "提高HP攻擊",
                 "HP와 공격력 상승",
                 "Augmente les PV et l'ATT",
                 "Erhöht LP und ANG",
@@ -14741,7 +14809,7 @@
             ],
             "description": [
                 "Boosts resistance to paralysis and stone",
-                "提高麻痺石化耐性的數值",
+                "提高麻痺石化耐性",
                 "마비와 석화 저항력 상승",
                 "Améliore la résistance à paralysie et pétrification",
                 "Steigert Resistenz gegen Lähmung und Stein",
@@ -14774,7 +14842,7 @@
             ],
             "description": [
                 "Boosts resistance to stop",
-                "提高停止耐性的數值",
+                "提高停止耐性",
                 "스톱 저항력 상승",
                 "Améliore la résistance à stop",
                 "Steigert Resistenz gegen Stopp",
@@ -14909,7 +14977,7 @@
             ],
             "description": [
                 "Boosts HP restored (great)<br>Boosts own SPR when receiving a physical attack",
-                "提高HP恢復量(特大)<br>受到物理攻擊時提高自身精神的數值",
+                "提高HP恢復量(特大)<br>受到物理攻擊時提高自身精神",
                 "HP 회복량 상승(특대)<br>물리공격을 받으면 사용자의 정신력 상승",
                 "Augmente les PV restaurés (super)<br>Chance d'augmenter la PSY du lanceur une fois activé",
                 "Erhöht regenerierte LP (sehr hoch)<br>Erhöht eigene PSY, wenn mit phys. Attacke angegriffen",
@@ -15043,7 +15111,7 @@
             ],
             "description": [
                 "Boost MAG increase (great)<br>Boosts fire, ice and lightning resistance",
-                "提高魔力增加量(特大)<br>提高火冰雷屬性耐性的數值",
+                "提高魔力增加量(特大)<br>提高火冰雷屬性耐性",
                 "마력 상승량 상승(특대)<br>불, 얼음, 번개속성 저항력 상승",
                 "Amplifie l'augmentation de la MAGIE (super)<br>Augmente la résistance au feu et à la glace",
                 "Erhöht Steigerung von MAG (sehr hoch)<br>Erhöht Res. gegen Feuer und Eis",
@@ -15981,7 +16049,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a gun or fist",
-                "提高裝備火槍格鬥武器時攻擊的數值",
+                "裝備火槍格鬥武器時提高攻擊",
                 "총과 격투무기 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'un pistolet ou un poing est équipé",
                 "Erhöht ANG, wenn mit Schusswaffe oder Faust ausgerüstet.",
@@ -16285,7 +16353,7 @@
             ],
             "description": [
                 "Boosts SPR",
-                "提高精神的數值",
+                "提高精神",
                 "정신력 상승",
                 "Augmente la PSY",
                 "Erhöht PSY",
@@ -16487,7 +16555,7 @@
             ],
             "description": [
                 "Boost ATK when equipped with fists<br>Boost MP when equipped with a light shield",
-                "提高裝備格鬥武器時攻擊的數值<br>提高裝備輕盾時MP的數值",
+                "裝備格鬥武器時提高攻擊<br>裝備輕盾時提高MP",
                 "격투무기 장착 시 공격력 상승<br>가벼운 방패 장착 시 MP 상승",
                 "Augmente l'ATT lorsque des poings sont équipés<br>Augmente les PM lorsqu'un bouclier léger est équipé",
                 "Erhöht ANG, wenn mit Faust ausgerüstet<br>Erhöht MP, wenn mit leichtem Schild ausgerüstet",
@@ -16620,7 +16688,7 @@
             ],
             "description": [
                 "Boosts MP when equipped with a sword",
-                "提高裝備劍時的MP",
+                "裝備劍時提高MP",
                 "검 장착 시 MP 상승",
                 "Augmente les PM lorsqu'une épée est équipée",
                 "Erhöht MP, wenn mit einem Schwert ausgerüstet",
@@ -16887,7 +16955,7 @@
             ],
             "description": [
                 "Boosts SPR when equipped with heavy armor",
-                "提高裝備重鎧甲時的精神",
+                "裝備重鎧甲時提高精神",
                 "중갑 장착 시 정신력 상승",
                 "Augmente la PSY quand une armure lourde est équipée",
                 "Erhöht PSY, wenn mit schwerer Rüstung ausgerüstet",
@@ -16920,7 +16988,7 @@
             ],
             "description": [
                 "Boosts HP when equipped with heavy armor",
-                "提高裝備重鎧甲時的HP",
+                "裝備重鎧甲時提高HP",
                 "중갑 장착 시 HP 상승",
                 "Augmente les PV quand une armure lourde est équipée",
                 "Erhöht LP, wenn mit schwerer Rüstung ausgerüstet",
@@ -17156,7 +17224,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a large sword or katana",
-                "提高裝備大劍刀時的攻擊",
+                "裝備大劍刀時提高攻擊",
                 "대검 또는 도 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée longue ou un katana est équipé",
                 "Erhöht ANG, wenn mit Großschwert oder Katana ausgerüstet",
@@ -17190,7 +17258,7 @@
             ],
             "description": [
                 "Boosts ATK increase when equipped with a large sword or katana (high)",
-                "提高裝備大劍刀時的攻擊增加量(大)",
+                "裝備大劍刀時提高攻擊增加量(大)",
                 "대검 또는 도 장착 시 공격력 상승량 상승(대)",
                 "Amplifie l'augmentation de l'ATT lorsqu'une épée longue ou un katana est équipé (beaucoup)",
                 "Steigert ANG-Erhöhung, wenn mit Großschwert oder Katana ausgerüstet (hoch)",
@@ -17224,7 +17292,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR when equipped with an instrument",
-                "提高裝備樂器時防禦精神的數值",
+                "裝備樂器時提高防禦精神",
                 "악기 장착 시 방어력과 정신력 상승",
                 "Augmente la DEF et la PSY lorsqu'un instrument est équipé",
                 "Erhöht ABW u. PSY, wenn mit einem Instrument ausger. ",
@@ -17258,7 +17326,7 @@
             ],
             "description": [
                 "Boosts MAG and SPR increase when equipped with a bow (great)",
-                "提高裝備弓時魔力精神增加量(特大)",
+                "裝備弓時提高魔力精神的增加量(特大)",
                 "활 장착 시 마력과 정신력 상승량 상승(특대)",
                 "Augmente la DEF et la PSY lorsqu'un arc est équipé (super)",
                 "Erhöht ABW u. PSY, wenn mit einem Bogen ausger. (sehr hoch)",
@@ -17359,7 +17427,7 @@
             ],
             "description": [
                 "Boosts lightning resistance",
-                "提高雷屬性耐性的數值",
+                "提高雷屬性耐性",
                 "번개속성 저항력 상승",
                 "Augmente la résistance à la foudre",
                 "Erhöht Blitzresistenz",
@@ -17426,7 +17494,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a sword",
-                "提高裝備劍時攻擊的數值",
+                "裝備劍時提高攻擊",
                 "검 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée est équipée",
                 "Erhöht ANG, wenn mit Schwert ausgerüstet",
@@ -17627,7 +17695,7 @@
             ],
             "description": [
                 "Boosts drop rate of items from enemies<br>Boosts ATK when equipped with a gun",
-                "提高敵人的道具掉落率<br>提高裝備火槍時攻擊的數值",
+                "提高敵人的道具掉落率<br>裝備火槍時提高攻擊",
                 "적의 아이템 드랍률 상승<br>총 장착 시 공격력 상승",
                 "Augmente le taux d'objets laissés par les ennemis<br>Augmente l'ATT lorsqu'un pistolet est équipé",
                 "Mehr Gegenstände von Gegnern<br>Erhöht ANG, wenn mit Schusswaffe ausger.",
@@ -17763,7 +17831,7 @@
             ],
             "description": [
                 "Boosts ATK<br>Increases LB gauge",
-                "提高攻擊的數值<br>增加極限技槽",
+                "提高攻擊<br>增加極限技槽",
                 "공격력 상승<br>LB 게이지 증가",
                 "Augmente l'ATT<br>Augmente la jauge de limite",
                 "ANG erhöht<br>Limitmeter steigt",
@@ -17963,7 +18031,7 @@
             ],
             "description": [
                 "Boosts ATK",
-                "提高攻擊的數值",
+                "提高攻擊",
                 "공격력 상승",
                 "Augmente l'ATT",
                 "Erhöht ANG",
@@ -18196,7 +18264,7 @@
             ],
             "description": [
                 "Boosts ATK and SPR increases when equipped with fists (low)<br>Boosts ATK and SPR when equipped with a hat",
-                "提高裝備格鬥武器時的攻擊精神增加量(小)<br>提高裝備帽子時的攻擊精神",
+                "裝備格鬥武器時提高攻擊精神增加量(小)<br>裝備帽子時提高攻擊精神",
                 "격투무기 장착 시 공격력과 정신력 상승량 상승(소)<br>모자 장착 시 공격력과 정신력 상승",
                 "Augmente l'ATT et la PSY lorsque des poings sont équipés (peu)<br>Augmente l'ATT et la PSY lorsqu'un chapeau est équipé",
                 "Steigert ANG- und PSY-Erhöhungen, wenn mit Faust ausgerüstet (gering)<br>Erhöht ANG und PSY, wenn mit Hut ausgerüstet",
@@ -18229,7 +18297,7 @@
             ],
             "description": [
                 "Boosts HP<br>Boosts ATK when equipped with an axe",
-                "提高HP<br>提高裝備斧時的攻擊",
+                "提高HP<br>裝備斧時提高攻擊",
                 "HP 상승<br>도끼 장착 시 공격력 상승",
                 "Augmente les PV<br>Augmente l'ATT lorsqu'une hache est équipée",
                 "Erhöht LP<br>Erhöht ANG, wenn mit Axt ausgerüstet",
@@ -18498,7 +18566,7 @@
             ],
             "description": [
                 "Boosts ATK increase when equipped with heavy armor (mid)",
-                "提高裝備重鎧甲時的攻擊增加量(中)",
+                "裝備重鎧甲時提高攻擊的增加量(中)",
                 "중갑 장착 시 공격력 상승량 상승(중)",
                 "Amplifie l'augmentation de l'ATT lorsqu'une armure lourde est équipée (moyen)",
                 "Steigert ANG-Erhöhung, wenn mit schwerer Rüstung ausgerüstet (mittel)",
@@ -18532,7 +18600,7 @@
             ],
             "description": [
                 "Boosts ATK increase when equipped with a sword (high)",
-                "提高裝備劍時的攻擊增加量(大)",
+                "裝備劍時提高攻擊的增加量(大)",
                 "검 장착 시 공격력 상승량 상승(대)",
                 "Amplifie l'augmentation de l'ATT lorsqu'une épée est équipée (beaucoup)",
                 "Steigert ANG-Erhöhung, wenn mit Schwert ausgerüstet (hoch)",
@@ -18831,7 +18899,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with large sword",
-                "提高裝備大劍時攻擊的數值",
+                "裝備大劍時提高攻擊",
                 "대검 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée longue est équipée",
                 "Erhöht ANG, wenn mit Großschwert ausgerüstet",
@@ -19469,7 +19537,7 @@
             ],
             "description": [
                 "Boosts HP and ATK when equipped with heavy armor<br>Boosts equipment ATK when armed with a one-handed weapon with the other hand empty<br>",
-                "提高裝備重鎧甲時的HP攻擊<br>裝備單手武器且另一隻手空著的狀態下武具攻擊力提升",
+                "裝備重鎧甲時提高HP攻擊<br>裝備單手武器且另一隻手空著的狀態下武具攻擊力提升",
                 "중갑 장착 시 HP와 공격력 상승<br>한손용 무기를 한손에만 장착 시 공격력 상승",
                 "Augmente les PV et l'ATT lorsqu'une armure lourde est équipée<br>Augmente l'ATT de l'équipement lorsqu'une arme à une main est équipée et que l'autre est vide<br>",
                 "Erhöht LP und ANG, wenn mit schwerer Rüstung ausgestattet<br>Erhöht Ausrüstung-ANG, wenn mit einer einhändigen Waffe ausgerüstet und andere Hand leer.<br>",
@@ -19604,7 +19672,7 @@
             ],
             "description": [
                 "Boosts HP and DEF when equipped with heavy armor<br>Enables double axe at the beginning of battle",
-                "提高裝備重鎧甲時的HP防禦<br>戰鬥開始時可使用「雙重斧」",
+                "裝備重鎧甲時提高HP防禦<br>戰鬥開始時可使用「雙重斧」",
                 "중갑 장착 시 HP와 방어력 상승<br>전투 시작 시 '더블 액스' 사용 가능",
                 "Augmente les PV et la DEF lorsqu'une armure lourde est équipée<br>Permet d'utiliser Double hache dès le début du combat",
                 "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgestattet<br>Ermöglicht Doppelaxt zu Beginn eines Kampfes",
@@ -19805,7 +19873,7 @@
             ],
             "description": [
                 "Boosts HP and DEF when equipped with heavy armor<br>Restores HP every turn",
-                "提高裝備重鎧甲時的HP防禦<br>每回合恢復HP",
+                "裝備重鎧甲時提高HP防禦<br>每回合恢復HP",
                 "중갑 장착 시 HP와 방어력 상승<br>매 턴마다 HP 회복",
                 "Augmente les PV et la DEF lorsqu'une armure lourde est équipée<br>Restaure les PV à chaque tour",
                 "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgestattet<br>Regeneriert jede Runde LP",
@@ -20612,7 +20680,7 @@
             ],
             "description": [
                 "Boosts ATK, DEF, and SPR when equipped with a sword, helm, or light armor",
-                "提高裝備劍頭盔輕鎧甲時的攻擊防禦精神",
+                "裝備劍頭盔輕鎧甲時提高攻擊防禦精神",
                 "검, 투구, 경갑 장착 시 공격력, 방어력, 정신력 상승",
                 "Augmente l'ATT, la DEF et la PSY quand une épée, un casque ou une armure légère est équipé",
                 "Erhöht ANG, ABW und PSY, wenn mit Schwert, Helm oder leichter Rüstung ausgerüstet",
@@ -21045,7 +21113,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR",
-                "提高防禦精神的數值",
+                "提高防禦精神",
                 "방어력과 정신력 상승",
                 "Augmente la DEF et la PSY",
                 "Erhöht ABW und PSY",
@@ -21179,7 +21247,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR",
-                "提高防禦精神的數值",
+                "提高防禦精神",
                 "방어력과 정신력 상승",
                 "Augmente la DEF et la PSY",
                 "Erhöht ABW und PSY",
@@ -21213,7 +21281,7 @@
             ],
             "description": [
                 "Boosts MAG and ATK<br>Increases the fill rate of burst stones",
-                "提高魔力攻擊的數值<br>提高極限技石對極限技槽的增加量",
+                "提高魔力攻擊<br>提高極限技石對極限技槽的增加量",
                 "마력과 공격력 상승<br>LB 게이지 효율 증가",
                 "Augmente la MAGIE et l'ATT<br>Augmente le taux de remplissage des pierres de limite",
                 "Erhöht MAG und ANG<br>Verstärkt den Effekt von Limitsteinen",
@@ -21684,7 +21752,7 @@
             ],
             "description": [
                 "Boosts ATK and MAG when equipped with heavy armor<br>Enables saint buster at the beginning of battle for 1 turn",
-                "提高裝備重鎧甲時的攻擊魔力<br>戰鬥開始的1回合內可使用「神聖破壞」",
+                "裝備重鎧甲時提高攻擊魔力<br>戰鬥開始的1回合內可使用「神聖破壞」",
                 "중갑 장착 시 공격력과 마력 상승<br>전투 시작 시 1턴 동안 '세인트 버스터' 사용 가능",
                 "Augmente l'ATT et la MAGIE lorsqu'une armure lourde est équipée<br>Permet d'utiliser Casseur céleste dès le début du combat pendant 1 tour",
                 "Erhöht ANG und MAG, wenn mit schwerer Rüstung ausgestattet<br>Ermöglicht zu Beginn eines Kampfes eine Runde lang Heiligenjäger",
@@ -22080,7 +22148,7 @@
             ],
             "description": [
                 "Boosts physical damage against beast, aquatic, human, stone, and plant monsters<br>Boosts HP and ATK when equipped with heavy armor",
-                "物理攻擊時提高對野獸人形水生岩石植物系魔物的傷害<br>提高裝備重鎧甲時的HP攻擊",
+                "物理攻擊時提高對野獸人形水生岩石植物系魔物的傷害<br>裝備重鎧甲時提高HP攻擊",
                 "물리공격 시 야수, 수중, 인간, 암석, 식물형 마물에게 부여하는 피해량 상승<br>중갑 장착 시 HP와 공격력 상승",
                 "Augmente les dégâts physiques infligés aux bêtes, aux monstres aquatiques, aux humains, aux monstres de type \"Pierre\" et au monstres de type \"Plante\"<br>Augmente les PV et l'ATT lorsqu'une armure lourde est équipée",
                 "Erhöht phys. Schaden gegen Bestien, Wassermonster, Menschen, Stein- und Pflanzenmonster<br>Erhöht LP und ANG, wenn mit schwerer Rüstung ausgerüstet",
@@ -22282,7 +22350,7 @@
             ],
             "description": [
                 "Boosts MAG and SPR when equipped with heavy armor<br>Chance of activating water's revenge when receiving a physical attack",
-                "提高裝備重鎧甲時的魔力精神<br>受到物理攻擊時一定機率發動「水的報復」",
+                "裝備重鎧甲時提高魔力精神<br>受到物理攻擊時一定機率發動「水的報復」",
                 "중갑 장착 시 마력과 정신력 상승<br>물리공격을 받으면 일정 확률로 '물의 보복' 발동",
                 "Augmente la MAGIE et la PSY lorsqu'une armure lourde est équipée<br>Chance d'activer Vengeance de l'eau après avoir subi une attaque physique",
                 "Erhöht MAG und PSY, wenn mit schweer Rüstung ausgestattet<br>Chance, \"Vergeltung des Wassers\" zu aktivieren, wenn mit phys. Angriff attackiert.",
@@ -24022,6 +24090,140 @@
             ]
         }
     },
+    "214900001": {
+        "name": "Withdraw",
+        "skill_id_old": 214900,
+        "skill_id_new": 707188,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Withdraw",
+                "撤軍",
+                "철수",
+                "Retirer",
+                "Rückzug",
+                "Retirada"
+            ],
+            "description": [
+                "Decreases ATK reduction (high)",
+                "降低攻擊減少量(大)",
+                "공격력 감소량 감소(대)",
+                "Diminue la réduction de l'ATT (beaucoup)",
+                "Verringert ANG-Verringerung (hoch)",
+                "Disminuye la reducción de ATQ (mucho)"
+            ]
+        }
+    },
+    "214900002": {
+        "name": "Withdraw",
+        "skill_id_old": 707188,
+        "skill_id_new": 707189,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Withdraw",
+                "撤軍",
+                "철수",
+                "Retirer",
+                "Rückzug",
+                "Retirada"
+            ],
+            "description": [
+                "Decreases ATK reduction (high)",
+                "降低攻擊減少量(大)",
+                "공격력 감소량 감소(대)",
+                "Diminue la réduction de l'ATT (beaucoup)",
+                "Verringert ANG-Verringerung (hoch)",
+                "Disminuye la reducción de ATQ (mucho)"
+            ]
+        }
+    },
+    "214910001": {
+        "name": "Open Heart",
+        "skill_id_old": 214910,
+        "skill_id_new": 707190,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Open Heart",
+                "敞開心扉",
+                "열린 마음",
+                "Cœur ouvert",
+                "Offenes Herz",
+                "Corazón abierto"
+            ],
+            "description": [
+                "Decreases MAG reduction (high)",
+                "降低魔力減少量(大)",
+                "마력 감소량 감소(대)",
+                "Diminue la réduction de la MAGIE (beaucoup)",
+                "Verringert MAG-Verringerung (hoch)",
+                "Disminuye la reducción de MAG (mucho)"
+            ]
+        }
+    },
+    "214910002": {
+        "name": "Open Heart",
+        "skill_id_old": 707190,
+        "skill_id_new": 707191,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100010504],
+        "strings": {
+            "names": [
+                "Open Heart",
+                "敞開心扉",
+                "열린 마음",
+                "Cœur ouvert",
+                "Offenes Herz",
+                "Corazón abierto"
+            ],
+            "description": [
+                "Decreases MAG reduction (high)",
+                "降低魔力減少量(大)",
+                "마력 감소량 감소(대)",
+                "Diminue la réduction de la MAGIE (beaucoup)",
+                "Verringert MAG-Verringerung (hoch)",
+                "Disminuye la reducción de MAG (mucho)"
+            ]
+        }
+    },
     "215230001": {
         "name": "Fool's Ballad",
         "skill_id_old": 215230,
@@ -24219,6 +24421,204 @@
                 "Annule poison, confusion et maladie",
                 "Annulliert Gift, Konfus und Virus",
                 "Anula veneno, confusión y enfermedad"
+            ]
+        }
+    },
+    "215330001": {
+        "name": "Strong Memory",
+        "skill_id_old": 215330,
+        "skill_id_new": 707198,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 5,
+                "270000800": 1
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Strong Memory",
+                "見多識廣",
+                "박람강기",
+                "Souvenir prégnant",
+                "Starke Erinnerung",
+                "Recuerdos firmes"
+            ],
+            "description": [
+                "Reduces ATK",
+                "降低攻擊",
+                "공격력 감소",
+                "Réduit l'ATT",
+                "Verringert ANG",
+                "Reduce el ATQ"
+            ]
+        }
+    },
+    "215330002": {
+        "name": "Strong Memory",
+        "skill_id_old": 707198,
+        "skill_id_new": 707199,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 2,
+                "270000900": 1
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Strong Memory",
+                "見多識廣",
+                "박람강기",
+                "Souvenir prégnant",
+                "Starke Erinnerung",
+                "Recuerdos firmes"
+            ],
+            "description": [
+                "Reduces MAG",
+                "降低魔力",
+                "마력 감소",
+                "Réduit la MAGIE",
+                "Verringert MAG",
+                "Reduce la MAG"
+            ]
+        }
+    },
+    "215340001": {
+        "name": "Medical Knowledge",
+        "skill_id_old": 215340,
+        "skill_id_new": 707202,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 10,
+                "270003800": 8,
+                "270003900": 2,
+                "270004000": 1
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Medical Knowledge",
+                "醫學知識",
+                "의학 지식",
+                "Savoir médical",
+                "Medizinisches Wissen",
+                "Conocimiento médico"
+            ],
+            "description": [
+                "Boosts MP",
+                "提高MP",
+                "MP 상승",
+                "Augmente les PM",
+                "Erhöht MP",
+                "Aumenta los PM"
+            ]
+        }
+    },
+    "215340002": {
+        "name": "Medical Knowledge",
+        "skill_id_old": 707202,
+        "skill_id_new": 707203,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 23,
+                "270003700": 15,
+                "270003800": 12,
+                "270003900": 4,
+                "270004000": 1
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Medical Knowledge",
+                "醫學知識",
+                "의학 지식",
+                "Savoir médical",
+                "Medizinisches Wissen",
+                "Conocimiento médico"
+            ],
+            "description": [
+                "Boosts HP",
+                "提高HP",
+                "HP 상승",
+                "Augmente les PV",
+                "Erhöht LP",
+                "Aumenta la VIT"
+            ]
+        }
+    },
+    "215350001": {
+        "name": "Objection",
+        "skill_id_old": 215350,
+        "skill_id_new": 707200,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Objection",
+                "異議",
+                "오브젝션",
+                "Objection",
+                "Einspruch",
+                "Objección"
+            ],
+            "description": [
+                "Boosts chance of countering (low)",
+                "提高反擊機率(小)",
+                "반격 확률 상승(소)",
+                "Augmente les chances de contre (peu)",
+                "Erhöht Wahrscheinlichkeit, zu kontern (gering)",
+                "Aumenta la probabilidad de contratacar (poco)"
+            ]
+        }
+    },
+    "215350002": {
+        "name": "Objection",
+        "skill_id_old": 707200,
+        "skill_id_new": 707201,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1
+            }
+        },
+        "units": [100010604],
+        "strings": {
+            "names": [
+                "Objection",
+                "異議",
+                "오브젝션",
+                "Objection",
+                "Einspruch",
+                "Objección"
+            ],
+            "description": [
+                "Boosts chance of countering (low)",
+                "提高反擊機率(小)",
+                "반격 확률 상승(소)",
+                "Augmente les chances de contre (peu)",
+                "Erhöht Wahrscheinlichkeit, zu kontern (gering)",
+                "Aumenta la probabilidad de contratacar (poco)"
             ]
         }
     },
@@ -24714,7 +25114,7 @@
             ],
             "description": [
                 "Boosts HP<br>Boosts ATK when equipped with fists",
-                "提高HP<br>提高裝備格鬥武器時攻擊的數值",
+                "提高HP<br>裝備格鬥武器時提高攻擊",
                 "HP 상승<br>격투무기 장착 시 공격력 상승",
                 "Augmente les PV<br>Augmente l'ATT quand des poings sont équipés",
                 "Erhöht LP<br>Erhöht ANG wenn mit Faust ausgerüstet",
@@ -24747,7 +25147,7 @@
             ],
             "description": [
                 "Boosts ATK when a single-handed weapon is equipped in one hand with the other hand empty",
-                "裝備單手武器且另一隻手空著的狀態下提高攻擊的數值",
+                "裝備單手武器且另一隻手空著的狀態下提高攻擊",
                 "한손용 무기를 한손에만 장착 시 공격력 상승",
                 "Augmente l'ATT quand une arme à une main est équipée dans une main et que l'autre est libre",
                 "Erhöht ANG wenn mit einhändiger Waffe ausgerüstet und andere Hand leer",
@@ -24978,7 +25378,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a short sword or throwing weapon",
-                "提高裝備短劍投擲武器時攻擊的數值",
+                "裝備短劍投擲武器時提高攻擊",
                 "단검, 투척무기 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'une épée courte ou une arme de jet est équipée",
                 "Erhöht ANG, wenn mit Kurzschwert oder Wurfwaffe ausgerüstet",
@@ -25076,7 +25476,7 @@
             ],
             "description": [
                 "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance",
-                "提高火冰雷水風土光暗屬性耐性的數值",
+                "提高火冰雷水風土光暗屬性耐性",
                 "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승",
                 "Augmente la rés. à feu / glace / foudre / eau / vent / terre / lumière / ténèbres",
                 "Erhöht Res. gegen Feuer, Eis, Blitz, Wasser, Wind, Erde, Licht und Dunkel (mittel)",
@@ -25308,7 +25708,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR every turn",
-                "每回合提高防禦精神的數值",
+                "每回合提高防禦精神",
                 "매 턴마다 방어력과 정신력 상승",
                 "Augmente la DEF et la PSY à chaque tour",
                 "Erhöht jede Runde ABW und PSY",
@@ -25507,7 +25907,7 @@
             ],
             "description": [
                 "Boosts lightning resistance (mid)",
-                "提高雷屬性耐性的數值(中)",
+                "提高雷屬性耐性(中)",
                 "번개속성 저항력 상승(중)",
                 "Augmente la rés. à la foudre (moyen)",
                 "Erhöht Blitzresistenz (mittel)",
@@ -25539,7 +25939,7 @@
             ],
             "description": [
                 "Boosts lightning resistance (high)",
-                "提高雷屬性耐性的數值(大)",
+                "提高雷屬性耐性(大)",
                 "번개속성 저항력 상승(대)",
                 "Augmente la rés. à la foudre (beaucoup)",
                 "Erhöht Blitzresistenz (hoch)",
@@ -25831,7 +26231,7 @@
             ],
             "description": [
                 "Boosts ATK",
-                "提高攻擊的數值",
+                "提高攻擊",
                 "공격력 상승",
                 "Augmente l'ATT",
                 "Erhöht ANG",
@@ -26961,7 +27361,7 @@
             ],
             "description": [
                 "Boosts SPR when equipped with armor or a robe",
-                "提高裝備鎧甲或法袍時精神的數值",
+                "裝備鎧甲法袍時提高精神",
                 "갑옷 또는 로브 장착 시 정신력 상승",
                 "Augmente la PSY lorsqu'une armure ou une tunique sont équipées",
                 "Erhöht PSY, wenn mit Rüstung oder Robe ausgerüstet",
@@ -27096,7 +27496,7 @@
             ],
             "description": [
                 "Boosts MAG, DEF and SPR",
-                "提高魔力防禦精神的數值",
+                "提高魔力防禦精神",
                 "마력, 방어력, 정신력 상승",
                 "Augmente la MAGIE, la DEF et la PSY",
                 "Erhöht MAG, ABW und PSY",
@@ -29211,7 +29611,7 @@
             ],
             "description": [
                 "Boosts ATK, MAG, DEF and SPR when equipped with a sword",
-                "提高裝備劍時攻擊魔力防禦精神的數值",
+                "裝備劍時提高攻擊魔力防禦精神",
                 "검 장착 시 공격력, 마력, 방어력, 정신력 상승",
                 "Augmente l'ATT, la MAGIE, la DEF et la PSY lorsqu'une épée est équipée.",
                 "Erhöht ANG, MAG, ABW und PSY, wenn mit Schwert ausgerüstet",
@@ -29480,7 +29880,7 @@
             ],
             "description": [
                 "Boosts ATK, DEF, MAG, and SPR reduction resistance for all allies",
-                "提高全體隊員降低攻擊防禦魔力精神耐性的數值",
+                "提高全體隊員的降低攻擊防禦魔力精神耐性",
                 "아군 전체에 공격력, 방어력, 마력, 정신력 감소 저항력 상승",
                 "Améliore la résistance à la réduction de l'ATT, la DEF, la MAGIE et la PSY de tous les alliés",
                 "Erhöht Resistenz gegen Reduzierung von ANG, ABW, MAG und PSY bei allen Verbündeten",
@@ -29511,7 +29911,7 @@
             ],
             "description": [
                 "Boosts SPR",
-                "提高精神的數值",
+                "提高精神",
                 "정신력 상승",
                 "Augmente la PSY",
                 "Erhöht PSY",
@@ -30585,7 +30985,7 @@
             ],
             "description": [
                 "Boosts SPR when equipped with a robe",
-                "提高裝備法袍時的精神",
+                "裝備法袍時提高精神",
                 "로브 장착 시 정신력 상승",
                 "Augmente la PSY lorsqu'une tunique est équipée",
                 "Erhöht PSY, wenn mit Robe ausgerüstet",
@@ -30619,7 +31019,7 @@
             ],
             "description": [
                 "Boosts ATK and DEF when equipped with light armor or heavy armor",
-                "提高裝備輕鎧甲重鎧甲時的攻擊防禦",
+                "裝備輕鎧甲重鎧甲時提高攻擊防禦",
                 "경갑 또는 중갑 장착 시 공격력과 방어력 상승",
                 "Augmente l'ATT et la DEF lorsqu'une armure légère ou une armure lourde est équipée",
                 "Erhöht ANG und ABW, wenn mit  leichter oder schwerer Rüstung ausgerüstet",
@@ -30652,7 +31052,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR when equipped with a heavy shield",
-                "提高裝備重盾時的防禦精神",
+                "裝備重盾時提高防禦精神",
                 "무거운 방패 장착 시 방어력과 정신력 상승",
                 "Augmente la DEF et la PSY lorsqu'un bouclier lourd est équipé",
                 "Erhöht ABW und PSY, wenn mit schwerem Schild ausgerüstet",
@@ -30762,6 +31162,612 @@
             ]
         }
     },
+    "910419001": {
+        "name": "Archfiend of Water",
+        "skill_id_old": 910419,
+        "skill_id_new": 911553,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 8,
+                "270003300": 5,
+                "270003400": 1
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Archfiend of Water",
+                "水之凱納槽",
+                "물의 카이나초",
+                "Seigneur de l'eau",
+                "Elementarfürst des Wassers",
+                "Archidiablo de agua"
+            ],
+            "description": [
+                "Boosts water resistance",
+                "提高水屬性耐性",
+                "물속성 저항력 상승",
+                "Augmente la résistance à l'eau",
+                "Erhöht Wasserresistenz",
+                "Aumenta la resistencia al agua"
+            ]
+        }
+    },
+    "910419002": {
+        "name": "Archfiend of Water",
+        "skill_id_old": 911553,
+        "skill_id_new": 911554,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 12,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Archfiend of Water",
+                "水之凱納槽",
+                "물의 카이나초",
+                "Seigneur de l'eau",
+                "Elementarfürst des Wassers",
+                "Archidiablo de agua"
+            ],
+            "description": [
+                "Boosts HP and DEF",
+                "提高HP防禦",
+                "HP와 방어력 상승",
+                "Augmente les PV et la DEF",
+                "Erhöht LP und ABW",
+                "Aumenta la VIT y la DEF"
+            ]
+        }
+    },
+    "910421001": {
+        "name": "Water Barrier",
+        "skill_id_old": 910421,
+        "skill_id_new": 911551,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 8,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Water Barrier",
+                "流水屏障",
+                "물의 장벽",
+                "Hydro-barrière",
+                "Wasserbarriere",
+                "Barrera acuosa"
+            ],
+            "description": [
+                "Boosts water resistance for all allies",
+                "提高全體隊員的水屬性耐性",
+                "아군 전체의 물속성 저항력 상승",
+                "Augmente la résistance à l'eau de tous les alliés",
+                "Erhöht Wasserresistenz für alle Verbündeten",
+                "Aumenta la resistencia al agua de todos los aliados"
+            ]
+        }
+    },
+    "910421002": {
+        "name": "Water Barrier",
+        "skill_id_old": 911551,
+        "skill_id_new": 911552,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 12,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Water Barrier",
+                "流水屏障",
+                "물의 장벽",
+                "Hydro-barrière",
+                "Wasserbarriere",
+                "Barrera acuosa"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (high)",
+                "提高防禦精神增加量(大)",
+                "방어력과 정신력 상승량 상승(대)",
+                "Amplifie l'augmentation de la DEF et de la PSY (beaucoup)",
+                "Steigert ABW- und PSY-Erhöhungen (hoch)",
+                "Mayor aumento de DEF y ESP (mucho)"
+            ]
+        }
+    },
+    "910422001": {
+        "name": "Defensive Stance",
+        "skill_id_old": 910422,
+        "skill_id_new": 911555,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Defensive Stance",
+                "防禦姿態",
+                "방어 태세",
+                "Cache-carapace",
+                "Muschelrückzug",
+                "Retirada al caparazón"
+            ],
+            "description": [
+                "Boosts HP restoration amount (great)",
+                "提高HP恢復量(特大)",
+                "HP 회복량 상승(특대)",
+                "Augmente le taux de restauration des PV (super)",
+                "Erhöht den Wert regenerierter LP (sehr hoch)",
+                "Aumenta la recuperación de VIT (muchísimo)"
+            ]
+        }
+    },
+    "910422002": {
+        "name": "Defensive Stance",
+        "skill_id_old": 911555,
+        "skill_id_new": 911556,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 1
+            }
+        },
+        "units": [401001604],
+        "strings": {
+            "names": [
+                "Defensive Stance",
+                "防禦姿態",
+                "방어 태세",
+                "Cache-carapace",
+                "Muschelrückzug",
+                "Retirada al caparazón"
+            ],
+            "description": [
+                "Boosts charm and stop resistance",
+                "提高魅惑停止耐性",
+                "매혹과 스톱 저항력 상승",
+                "Augmente la résistance à charme et à stop",
+                "Erhöht Resistenz gegen Bezaubern und Stopp",
+                "Aumenta la resistencia a embrujo y paro"
+            ]
+        }
+    },
+    "910425001": {
+        "name": "Cyclone Shield",
+        "skill_id_old": 910425,
+        "skill_id_new": 911388,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Cyclone Shield",
+                "旋風之盾",
+                "사이클론 실드",
+                "Bouclier cyclonique",
+                "Zyklonenschild",
+                "Escudo ciclónico"
+            ],
+            "description": [
+                "Boosts MAG and SPR increases (mid)",
+                "提高魔力精神增加量(中)",
+                "마력과 정신력 상승량 상승(중)",
+                "Amplifie l'augmentation de la MAGIE et de la PSY (moyen)",
+                "Steigert MAG- und PSY-Erhöhungen (mittel)",
+                "Mayor aumento de MAG y ESP (bastante)"
+            ]
+        }
+    },
+    "910425002": {
+        "name": "Cyclone Shield",
+        "skill_id_old": 911388,
+        "skill_id_new": 911389,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Cyclone Shield",
+                "旋風之盾",
+                "사이클론 실드",
+                "Bouclier cyclonique",
+                "Zyklonenschild",
+                "Escudo ciclónico"
+            ],
+            "description": [
+                "Reduces damage taken for all allies",
+                "減少全體隊員受到的傷害",
+                "아군 전체가 받는 피해량 감소",
+                "Réduit les dégâts subis par tous les alliés",
+                "Verringert den von allen Verbündeten erlittenen Schaden",
+                "Reduce el daño que reciben todos los aliados"
+            ]
+        }
+    },
+    "910431001": {
+        "name": "Empress of the Winds",
+        "skill_id_old": 910431,
+        "skill_id_new": 911386,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Empress of the Winds",
+                "風之巴爾巴莉希亞",
+                "바람의 발바리시아",
+                "Impératrice des vents",
+                "Kaiserin des Windes",
+                "Emperatriz de los vientos"
+            ],
+            "description": [
+                "Boosts SPR",
+                "提高精神",
+                "정신력 상승",
+                "Augmente la PSY",
+                "Erhöht PSY",
+                "Aumenta el ESP"
+            ]
+        }
+    },
+    "910431002": {
+        "name": "Empress of the Winds",
+        "skill_id_old": 911386,
+        "skill_id_new": 911387,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Empress of the Winds",
+                "風之巴爾巴莉希亞",
+                "바람의 발바리시아",
+                "Impératrice des vents",
+                "Kaiserin des Windes",
+                "Emperatriz de los vientos"
+            ],
+            "description": [
+                "Boosts damage of LB",
+                "提高極限技的傷害",
+                "LB 피해량 상승",
+                "Augmente les dégâts de la limite",
+                "Erhöht Schaden von Limitrausch",
+                "Aumenta el daño del EL"
+            ]
+        }
+    },
+    "910434001": {
+        "name": "Sunder",
+        "skill_id_old": 910434,
+        "skill_id_new": 911390,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 15,
+                "270000800": 10,
+                "270000900": 4,
+                "270001000": 2
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Sunder",
+                "斬斷",
+                "천둥",
+                "Bourrasque électrique",
+                "Blitzwind",
+                "Arrasar"
+            ],
+            "description": [
+                "Removes the need to use flurry, aeroja, or tornado on previous turn for boosted damage",
+                "移除提高傷害時需在前一回合使用「瞬風」、「強勁風」、「龍捲風」的條件",
+                "이전 턴에 '질풍', '에어로쟈' 또는 '토네이도'를 사용하지 않아도 피해량 상승",
+                "Plus besoin d'utiliser Déluge, Vent max ou Tornade au tour précédent pour augmenter les dégâts",
+                "Für erhöhten Schaden muss in der vorherigen Runde nicht mehr Windstoß, Aeroka oder Tornado benutzt werden.",
+                "No es necesario usar Ráfaga, Aero+++ o Tornado el turno anterior para potenciar el daño"
+            ]
+        }
+    },
+    "910434002": {
+        "name": "Sunder",
+        "skill_id_old": 911390,
+        "skill_id_new": 911391,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 30,
+                "270000700": 23,
+                "270000800": 15,
+                "270000900": 8,
+                "270001000": 2
+            }
+        },
+        "units": [401001405],
+        "strings": {
+            "names": [
+                "Sunder",
+                "斬斷",
+                "천둥",
+                "Bourrasque électrique",
+                "Blitzwind",
+                "Arrasar"
+            ],
+            "description": [
+                "Boosts damage amount (great)",
+                "提高傷害量(特大)",
+                "피해량 상승(특대)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht Schaden (sehr hoch)",
+                "Aumenta el daño (muchísimo)"
+            ]
+        }
+    },
+    "910437001": {
+        "name": "Firelord",
+        "skill_id_old": 910437,
+        "skill_id_new": 911547,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "Firelord",
+                "炎王",
+                "화염류",
+                "Seigneur du feu",
+                "Feuerlord",
+                "Señor del fuego"
+            ],
+            "description": [
+                "Boosts MAG and MP when equipped with a rod",
+                "裝備魔棒時提高魔力MP",
+                "홀장 장착 시 마력과 MP 상승",
+                "Augmente la MAGIE et les PM lorsqu'un sceptre est équipé",
+                "Erhöht MAG und MP wenn mit einer Rute ausgerüstet",
+                "Aumenta la MAG y los PM al llevar a vara"
+            ]
+        }
+    },
+    "910437002": {
+        "name": "Firelord",
+        "skill_id_old": 911547,
+        "skill_id_new": 911548,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "Firelord",
+                "炎王",
+                "화염류",
+                "Seigneur du feu",
+                "Feuerlord",
+                "Señor del fuego"
+            ],
+            "description": [
+                "Boosts MAG and MP increases when equipped with a rod (mid)",
+                "裝備魔棒時提高魔力MP增加量(中)",
+                "홀장 장착 시 마력과 MP 상승(중)",
+                "Amplifie l'augmentation de la MAGIE et des PM lorsqu'un sceptre est équipé (moyen)",
+                "Steigert MAG- und MP-Erhöhungen wenn mit einer Rute ausgerüstet (mittel)",
+                "Mayor aumento de MAG y PM al llevar a vara (bastante)"
+            ]
+        }
+    },
+    "910440001": {
+        "name": "Autarch of Flame",
+        "skill_id_old": 910440,
+        "skill_id_new": 911549,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 10,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "Autarch of Flame",
+                "火之盧比坎特",
+                "불의 루비칸테",
+                "Autocrate des flammes",
+                "Rubicante, der Flammenherrscher",
+                "Autarca llameante"
+            ],
+            "description": [
+                "Boosts damage of fira and firaga (great)",
+                "提高「中火焰」「大火焰」的傷害(特大)",
+                "'파이라'와 '파이가' 피해량 상승(특대)",
+                "Augmente les dégâts de Feu + et Feu X (super)",
+                "Erhöht Schaden von Feura und Feuga (sehr hoch)",
+                "Aumenta el daño de Piro+ y Piro++ (muchísimo)"
+            ]
+        }
+    },
+    "910440002": {
+        "name": "Autarch of Flame",
+        "skill_id_old": 911549,
+        "skill_id_new": 911550,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 15,
+                "270000800": 12,
+                "270000900": 4,
+                "270001000": 2
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "Autarch of Flame",
+                "火之盧比坎特",
+                "불의 루비칸테",
+                "Autocrate des flammes",
+                "Rubicante, der Flammenherrscher",
+                "Autarca llameante"
+            ],
+            "description": [
+                "Boosts damage of flare and firaja (great)",
+                "提高「核爆」「強火焰」的傷害(特大)",
+                "'플레어'와 '파이자' 피해량 상승(특대)",
+                "Augmente les dégâts de Brasier et Feu max (super)",
+                "Erhöht Schaden von Flamme und Feuka (sehr hoch)",
+                "Aumenta el daño de Fulgor y Piro+++ (muchísimo)"
+            ]
+        }
+    },
+    "910442001": {
+        "name": "I'll Recover You!",
+        "skill_id_old": 910442,
+        "skill_id_new": 911545,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "I'll Recover You!",
+                "我來治療你們！",
+                "회복시켜주마!",
+                "Je vais te soigner !",
+                "Ich will eure Wunden heilen!",
+                "¡Te recuperaré!"
+            ],
+            "description": [
+                "Boosts SPR",
+                "提高精神",
+                "정신력 상승",
+                "Augmente la PSY",
+                "Erhöht PSY",
+                "Aumenta el ESP"
+            ]
+        }
+    },
+    "910442002": {
+        "name": "I'll Recover You!",
+        "skill_id_old": 911545,
+        "skill_id_new": 911546,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [401001504],
+        "strings": {
+            "names": [
+                "I'll Recover You!",
+                "我來治療你們！",
+                "회복시켜주마!",
+                "Je vais te soigner !",
+                "Ich will eure Wunden heilen!",
+                "¡Te recuperaré!"
+            ],
+            "description": [
+                "Boosts turns in effect (low)",
+                "提高效果回合數(小)",
+                "효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets (peu)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (poco)"
+            ]
+        }
+    },
     "910452001": {
         "name": "Sturdy Cat",
         "skill_id_old": 910452,
@@ -30828,6 +31834,209 @@
             ]
         }
     },
+    "910462001": {
+        "name": "I am the captain now!",
+        "skill_id_old": 910462,
+        "skill_id_new": 911541,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "I am the captain now!",
+                "我是船長！",
+                "이 몸이 선장이시다!",
+                "C'est moi le capitaine, maintenant !",
+                "Ich bin der Käpt'n!",
+                "¡Ahora soy el capitán!"
+            ],
+            "description": [
+                "Boosts DEF when equipped with a gun",
+                "裝備火槍時提高防禦",
+                "총 장착 시 방어력 상승",
+                "Augmente la DEF lorsqu'une arme à feu est équipée",
+                "Erhöht ABW wenn mit einer Schusswaffe ausgerüstet",
+                "Aumenta la DEF al llevar a pistola"
+            ]
+        }
+    },
+    "910462002": {
+        "name": "I am the captain now!",
+        "skill_id_old": 911541,
+        "skill_id_new": 911542,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "I am the captain now!",
+                "我是船長！",
+                "이 몸이 선장이시다!",
+                "C'est moi le capitaine, maintenant !",
+                "Ich bin der Käpt'n!",
+                "¡Ahora soy el capitán!"
+            ],
+            "description": [
+                "Boosts ATK increase when equipped with a gun (low)",
+                "裝備火槍時提高攻擊增加量(小)",
+                "총 장착 시 공격력 상승량 상승(소)",
+                "Amplifie l'augmentation de l'ATT lorsqu'une arme à feu est équipée (peu)",
+                "Steigert ANG-Erhöhung, wenn mit einer Schusswaffe ausgerüstet (gering)",
+                "Mayor aumento de ATQ al llevar pistola (poco)"
+            ]
+        }
+    },
+    "910463001": {
+        "name": "Walk the Plank",
+        "skill_id_old": 910463,
+        "skill_id_new": 911539,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "Walk the Plank",
+                "木板行走",
+                "널빤지 위를 걸어라!",
+                "Passer à la planche",
+                "Auf die Planke!",
+                "Paseo por la tabla"
+            ],
+            "description": [
+                "Boosts ATK and DEF for caster",
+                "提高自身的攻擊防禦",
+                "자신의 공격력과 방어력 상승",
+                "Augmente l'ATT et la DEF du lanceur",
+                "Erhöht ANG und ABW für Benutzer",
+                "Aumenta el ATQ y la DEF del usuario"
+            ]
+        }
+    },
+    "910463002": {
+        "name": "Walk the Plank",
+        "skill_id_old": 911539,
+        "skill_id_new": 911540,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "Walk the Plank",
+                "木板行走",
+                "널빤지 위를 걸어라!",
+                "Passer à la planche",
+                "Auf die Planke!",
+                "Paseo por la tabla"
+            ],
+            "description": [
+                "Boosts ATK and DEF increases (high)",
+                "提高攻擊防禦增加量(大)",
+                "공격력과 방어력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT et de la DEF (beaucoup)",
+                "Steigert ANG- und ABW-Erhöhungen (hoch)",
+                "Mayor aumento de ATQ y DEF (mucho)"
+            ]
+        }
+    },
+    "910469001": {
+        "name": "Feed the Fishes",
+        "skill_id_old": 910469,
+        "skill_id_new": 911543,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4,
+                "270003000": 1
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "Feed the Fishes",
+                "餵魚",
+                "물고기 밥",
+                "Nourrissez les poissons",
+                "Macht sie zu Fischfutter!",
+                "Echadlo a los peces"
+            ],
+            "description": [
+                "Boosts damage amount (high)",
+                "提高傷害量(大)",
+                "피해량 상승(대)",
+                "Augmente les dégâts infligés (beaucoup)",
+                "Erhöht Schaden (hoch)",
+                "Aumenta el daño (mucho)"
+            ]
+        }
+    },
+    "910469002": {
+        "name": "Feed the Fishes",
+        "skill_id_old": 911543,
+        "skill_id_new": 911544,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [401002204],
+        "strings": {
+            "names": [
+                "Feed the Fishes",
+                "餵魚",
+                "물고기 밥",
+                "Nourrissez les poissons",
+                "Macht sie zu Fischfutter!",
+                "Echadlo a los peces"
+            ],
+            "description": [
+                "Boosts damage amount (high)",
+                "提高傷害量(大)",
+                "피해량 상승(대)",
+                "Augmente les dégâts infligés (beaucoup)",
+                "Erhöht Schaden (hoch)",
+                "Aumenta el daño (mucho)"
+            ]
+        }
+    },
     "910470001": {
         "name": "Nature Protector",
         "skill_id_old": 910470,
@@ -30853,7 +32062,7 @@
             ],
             "description": [
                 "Boosts ATK when equipped with a hammer",
-                "提高裝備鎚子時攻擊的數值",
+                "裝備鎚子時提高攻擊",
                 "망치 장착 시 공격력 상승",
                 "Augmente l'ATT lorsqu'un marteau est équipé",
                 "Erhöht ANG, wenn mit Hammer ausgerüstet",
@@ -30892,6 +32101,410 @@
                 "Amplifie l'augmentation des dégâts (beaucoup)",
                 "Steigert die Schadenserhöhung (hoc)",
                 "Aumenta el daño (mucho)"
+            ]
+        }
+    },
+    "910520001": {
+        "name": "Grim - Soul Barrage",
+        "skill_id_old": 910520,
+        "skill_id_new": 911452,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 15,
+                "270000800": 10,
+                "270000900": 4,
+                "270001000": 2
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Grim - Soul Barrage",
+                "冷血 - 靈魂彈幕",
+                "사신·영혼 난사",
+                "Obscurité - Barrage spectral",
+                "Grimm - Seelensperre",
+                "Parca - Ráfaga de alma"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "910520002": {
+        "name": "Grim - Soul Barrage",
+        "skill_id_old": 911452,
+        "skill_id_new": 911453,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 30,
+                "270000700": 23,
+                "270000800": 15,
+                "270000900": 8,
+                "270001000": 2
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Grim - Soul Barrage",
+                "冷血 - 靈魂彈幕",
+                "사신·영혼 난사",
+                "Obscurité - Barrage spectral",
+                "Grimm - Seelensperre",
+                "Parca - Ráfaga de alma"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "910526001": {
+        "name": "Grim - Eldritch Flames",
+        "skill_id_old": 910526,
+        "skill_id_new": 911450,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 10,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Grim - Eldritch Flames",
+                "冷血 - 鬼火",
+                "사신·오싹한 불꽃",
+                "Obscurité - Flammes surnaturelles",
+                "Grimm - Unirdische Flammen",
+                "Parca - Llama de Eldritch"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "910526002": {
+        "name": "Grim - Eldritch Flames",
+        "skill_id_old": 911450,
+        "skill_id_new": 911451,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 15,
+                "270000800": 12,
+                "270000900": 4,
+                "270001000": 2
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Grim - Eldritch Flames",
+                "冷血 - 鬼火",
+                "사신·오싹한 불꽃",
+                "Obscurité - Flammes surnaturelles",
+                "Grimm - Unirdische Flammen",
+                "Parca - Llama de Eldritch"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "910527001": {
+        "name": "Vicious",
+        "skill_id_old": 910527,
+        "skill_id_new": 911454,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Vicious",
+                "邪魂",
+                "악의",
+                "Cruauté",
+                "Boshaft",
+                "Ruin"
+            ],
+            "description": [
+                "Boosts MAG increase when equipped with a fire weapon (low)",
+                "裝備火屬性武器時提高魔力增加量(小)",
+                "불속성 무기 장착 시 마력 상승량 상승(소)",
+                "Amplifie l'augmentation de la MAGIE lorsqu'une arme à feu est équipée (peu)",
+                "Steigert MAG-Erhöhung wenn mit einer Feuerwaffe ausgerüstet (gering)",
+                "Mayor aumento de MAG al llevar un arma de fuego (poco)"
+            ]
+        }
+    },
+    "910527002": {
+        "name": "Vicious",
+        "skill_id_old": 911454,
+        "skill_id_new": 911455,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [401002005],
+        "strings": {
+            "names": [
+                "Vicious",
+                "邪魂",
+                "악의",
+                "Cruauté",
+                "Boshaft",
+                "Ruin"
+            ],
+            "description": [
+                "Boosts MAG increase when equipped with a fire weapon (low)",
+                "裝備火屬性武器時提高魔力增加量(小)",
+                "불속성 무기 장착 시 마력 상승량 상승(소)",
+                "Amplifie l'augmentation de la MAGIE lorsqu'une arme à feu est équipée (peu)",
+                "Steigert MAG-Erhöhung wenn mit einer Feuerwaffe ausgerüstet (gering)",
+                "Mayor aumento de MAG al llevar un arma de fuego (poco)"
+            ]
+        }
+    },
+    "910531001": {
+        "name": "Illusionist guise",
+        "skill_id_old": 910531,
+        "skill_id_new": 911537,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusionist guise",
+                "幻術服",
+                "마술사 분장",
+                "Apparence d'illusionniste",
+                "Illusionistentracht",
+                "Ropas de ilusionista"
+            ],
+            "description": [
+                "Boosts MP when equipped with a hat",
+                "裝備帽子時提高MP",
+                "모자 장착 시 MP 상승",
+                "Augmente les PM lorsqu'un chapeau est équipé",
+                "Erhöht MP wenn mit einem Hut ausgerüstet",
+                "Aumenta los PM al llevar sombrero"
+            ]
+        }
+    },
+    "910531002": {
+        "name": "Illusionist guise",
+        "skill_id_old": 911537,
+        "skill_id_new": 911538,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusionist guise",
+                "幻術服",
+                "마술사 분장",
+                "Apparence d'illusionniste",
+                "Illusionistentracht",
+                "Ropas de ilusionista"
+            ],
+            "description": [
+                "Boosts HP when equipped with clothes",
+                "裝備衣服時提高HP",
+                "옷 장착 시 HP 상승",
+                "Augmente les PV lorsque des vêtements sont équipés<br>",
+                "Erhöht LP wenn mit Kleidung ausgerüstet",
+                "Aumenta la VIT al llevar ropa"
+            ]
+        }
+    },
+    "910534001": {
+        "name": "Illusion - Terrifying Visions",
+        "skill_id_old": 910534,
+        "skill_id_new": 911533,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusion - Terrifying Visions",
+                "幻術 - 駭人幻象",
+                "마술·무서운 환영",
+                "Illusion - Vision terrifiante",
+                "Illusion - Grauenhaftes Trugbild",
+                "Ilusión - Visiones terroríficas"
+            ],
+            "description": [
+                "Boosts turns in effect (low)",
+                "提高效果回合數(小)",
+                "효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets (peu)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (poco)"
+            ]
+        }
+    },
+    "910534002": {
+        "name": "Illusion - Terrifying Visions",
+        "skill_id_old": 911533,
+        "skill_id_new": 911534,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusion - Terrifying Visions",
+                "幻術 - 駭人幻象",
+                "마술·무서운 환영",
+                "Illusion - Vision terrifiante",
+                "Illusion - Grauenhaftes Trugbild",
+                "Ilusión - Visiones terroríficas"
+            ],
+            "description": [
+                "Boosts ATK and MAG reductions (low)",
+                "提高攻擊魔力減少量(小)",
+                "공격력과 마력 감소량 상승(소)",
+                "Amplifie la réduction de l'ATT et de la MAGIE (peu)",
+                "Erhöht ANG- und MAG-Verringerungen (gering)",
+                "Aumenta las reducciones de ATQ y MAG (poco)"
+            ]
+        }
+    },
+    "910536001": {
+        "name": "Illusion - Redirect",
+        "skill_id_old": 910536,
+        "skill_id_new": 911535,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusion - Redirect",
+                "幻術 - 轉向",
+                "마술·바꿔치기",
+                "Illusion - Renvoyer",
+                "Illusion - Umlenken",
+                "Ilusión - Desviar"
+            ],
+            "description": [
+                "Boosts DEF and SPR for one ally",
+                "提高1名隊員的防禦精神",
+                "아군 1명의 방어력과 정신력 상승",
+                "Augmente la DEF et la PSY pour un allié",
+                "Erhöht ABW und PSY für einen Verbündeten",
+                "Aumenta la DEF y el ESP de un aliado"
+            ]
+        }
+    },
+    "910536002": {
+        "name": "Illusion - Redirect",
+        "skill_id_old": 911535,
+        "skill_id_new": 911536,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 1
+            }
+        },
+        "units": [401002104],
+        "strings": {
+            "names": [
+                "Illusion - Redirect",
+                "幻術 - 轉向",
+                "마술·바꿔치기",
+                "Illusion - Renvoyer",
+                "Illusion - Umlenken",
+                "Ilusión - Desviar"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (mid)",
+                "提高防禦精神增加量(中)",
+                "방어력과 정신력 상승량 상승(중)",
+                "Amplifie l'augmentation de la DEF et de la PSY (moyen)",
+                "Steigert ABW- und PSY-Erhöhungen (mittel)",
+                "Mayor aumento de DEF y ESP (bastante)"
             ]
         }
     },
