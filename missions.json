@@ -87242,14 +87242,14 @@
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
-        "cost": 3,
+        "cost": 5,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["KEYITEM", 50, 1],
         "gil": 20,
-        "exp": 50,
+        "exp": 100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -87279,14 +87279,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 5,
+        "cost": 10,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106305200, 200],
         "gil": 35,
-        "exp": 105,
+        "exp": 210,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -87316,14 +87316,14 @@
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
-        "cost": 8,
+        "cost": 15,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106305200, 300],
         "gil": 60,
-        "exp": 208,
+        "exp": 310,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -87353,14 +87353,14 @@
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
-        "cost": 10,
+        "cost": 20,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["ITEM", 106305200, 500],
         "gil": 80,
-        "exp": 310,
+        "exp": 500,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -87390,14 +87390,14 @@
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
-        "cost": 13,
+        "cost": 25,
         "flags": {
             "continue_allowed": true,
             "escape_allowed": true
         },
         "reward": ["LAPIS", 0, 500],
         "gil": 113,
-        "exp": 468,
+        "exp": 600,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -108400,7 +108400,7 @@
                 "reward": ["UNIT", 904000101, 1]
             },
             {
-                "string": "Use a light attacks",
+                "string": "Use a light attack",
                 "parsed": ["Deal Light damage"],
                 "reward": ["EQUIP", 1100000018, 1]
             },
@@ -110006,6 +110006,281 @@
                 "reward": ["EQUIP", 1100000205, 1]
             }
         ]
+    },
+    "9440101": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 107002700, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["KEYITEM", 100, 10]
+            }
+        ]
+    },
+    "9440102": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 901, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["KEYITEM", 50, 1]
+            }
+        ]
+    },
+    "9440103": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 901, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["KEYITEM", 50, 1]
+            }
+        ]
+    },
+    "9440104": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 107003000, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 107002800, 5]
+            }
+        ]
+    },
+    "9440105": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 107003100, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 107003200, 5]
+            }
+        ]
+    },
+    "9440106": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 107003300, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["ITEM", 107002900, 5]
+            }
+        ]
+    },
+    "9440107": {
+        "dungeon_id": 94401,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 50]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 107003400, 5]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["UNIT", 904000101, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["KEYITEM", 100, 10]
+            }
+        ]
+    },
+    "9450101": {
+        "dungeon_id": 94501,
+        "name": "35 Million Downloads Raffle",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 300],
+        "gil": 100,
+        "exp": 100,
+        "challenges": []
     },
     "11110101": {
         "dungeon_id": 111101,

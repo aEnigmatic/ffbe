@@ -8115,7 +8115,7 @@
         }
     },
     "100006807": {
-        "name": "レゾナンススラッシュ",
+        "name": "Resonant Slash",
         "cost": 0,
         "attack_count": [13],
         "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  13,  13,  14,  15]],
@@ -8141,14 +8141,21 @@
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1400,  0]], [2, 1, 24, [0,  -64,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Resonant Slash",
                 "共振斬擊",
-                null,
-                null,
-                null,
-                null
+                "공명참",
+                "Coup résonnant",
+                "Resonanzschlag",
+                "Corte resonante"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage and reduce DEF for all enemies",
+                "攻擊全體敵人+降低防禦",
+                "적 전체에 피해+방어력 감소",
+                "Dégâts et réduit la DEF de tous les ennemis",
+                "Fügt allen Gegnern Schaden zu und reduziert ihre ABW.",
+                "Daña y reduce la DEF de los enemigos"
+            ]
         }
     },
     "100006904": {
@@ -8948,7 +8955,7 @@
         }
     },
     "100007507": {
-        "name": "ブライトネスアロー",
+        "name": "Bright Arrow",
         "cost": 0,
         "attack_count": [20],
         "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
@@ -8968,14 +8975,21 @@
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1800,  0]]]},
         "strings": {
             "name": [
-                null,
+                "Bright Arrow",
                 "光明箭",
-                null,
-                null,
-                null,
-                null
+                "광명의 화살",
+                "Flèche éclatante",
+                "Greller Pfeil",
+                "Flecha resplandeciente"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage all enemies",
+                "攻擊全體敵人",
+                "적 전체에 피해",
+                "Dégâts sur tous les ennemis",
+                "Schaden, alle Ziele",
+                "Daña a todos los enemigos"
+            ]
         }
     },
     "100007603": {
@@ -10795,7 +10809,7 @@
         }
     },
     "100009107": {
-        "name": "キングダムオーダー",
+        "name": "Kingdom's Order",
         "cost": 0,
         "attack_count": [15],
         "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  12,  12,  12,  12,  12,  13]],
@@ -10823,12 +10837,12 @@
             "effects_raw": [[2, 1, 21, [0,  0,  750,  -50]], [2, 1, 33, [0,  0,  -79,  0,  -79,  0,  0,  0,  1,  3]], [0, 3, 100, [[2,  2,  2], [501960,  501970,  501980], 99999, 4, 1]]]},
         "strings": {
             "name": [
-                null,
+                "Kingdom's Order",
                 "王國秩序",
-                null,
-                null,
-                null,
-                null
+                "왕국의 질서",
+                "Ordre royal",
+                "Königlicher Befehl",
+                "Orden del reino"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -11670,7 +11684,7 @@
         }
     },
     "100009807": {
-        "name": "スケーティングハート",
+        "name": "Skating Heart",
         "cost": 0,
         "attack_count": [20],
         "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
@@ -11690,14 +11704,21 @@
             "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Skating Heart",
                 "滑冰之心",
-                null,
-                null,
-                null,
-                null
+                "스케이팅 하트",
+                "Cœur glissant",
+                "Gleitendes Herz",
+                "Espíritu patinador"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated ice damage to all enemies",
+                "對全體敵人發動冰屬性無視部分防禦的攻擊",
+                "적 전체에 얼음속성 일부 방어 무시 피해",
+                "Inflige des dégâts de glace en partie fixes sur tous les ennemis",
+                "Teilweise direkter Eisschaden, alle Gegner.",
+                "Daño absoluto parcial de hielo a todos los enemigos"
+            ]
         }
     },
     "100009903": {
@@ -12392,12 +12413,12 @@
                 "Madrigal del dragón"
             ],
             "desc": [
-                "Boost ATK, DEF, MAG, and SPR and gradually restore HP and MP for all allies",
-                "提高全體隊員的攻擊防禦魔力精神+持續恢復HPMP",
-                "아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히회복",
-                "Augmente ATT/DEF/MAGIE/PSY et restaure progressivement les PV/PM de tous les alliés",
-                "ANG, ABW, MAG und PSY hoch und heilt LP und MP, aller Verb.",
-                "Aumenta ATQ/DEF/MAG/ESP y recupera la VIT y los PM de todos los aliados poco a poco"
+                "Boost ATK, DEF, MAG, and SPR and gradually restore HP and MP for all allies while singing",
+                "歌唱期間高全體隊員的攻擊防禦魔力精神+持續恢復HPMP",
+                "노래하는 동안 아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히회복",
+                "Augmente ATT/DEF/MAGIE/PSY et restaure progressivement les PV/PM de tous les alliés en chantant",
+                "Während das Lied andauert, ANG, ABW, MAG und PSY hoch und heilt LP und MP, aller Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP y recupera la VIT y los PM de todos los aliados poco a poco al cantar"
             ]
         }
     },
@@ -12438,17 +12459,17 @@
                 "Madrigal del dragón"
             ],
             "desc": [
-                "Boost ATK, DEF, MAG, and SPR and gradually restore HP and MP for all allies",
-                "提高全體隊員的攻擊防禦魔力精神+持續恢復HPMP",
-                "아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히회복",
-                "Augmente ATT/DEF/MAGIE/PSY et restaure progressivement les PV/PM de tous les alliés",
-                "ANG, ABW, MAG und PSY hoch und heilt LP und MP, aller Verb.",
-                "Aumenta ATQ/DEF/MAG/ESP y recupera la VIT y los PM de todos los aliados poco a poco"
+                "Boost ATK, DEF, MAG, and SPR and gradually restore HP and MP for all allies while singing",
+                "歌唱期間高全體隊員的攻擊防禦魔力精神+持續恢復HPMP",
+                "노래하는 동안 아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히회복",
+                "Augmente ATT/DEF/MAGIE/PSY et restaure progressivement les PV/PM de tous les alliés en chantant",
+                "Während das Lied andauert, ANG, ABW, MAG und PSY hoch und heilt LP und MP, aller Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP y recupera la VIT y los PM de todos los aliados poco a poco al cantar"
             ]
         }
     },
     "100010407": {
-        "name": "竜哭のマドリガル",
+        "name": "Dragon's Madrigal",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -12476,14 +12497,21 @@
             "effects_raw": [[2, 2, 58, [134,  134,  134,  134,  3,  1]], [2, 2, 56, [800,  1,  1150,  3]], [2, 2, 57, [50,  1,  20,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Dragon's Madrigal",
                 "龍哭牧歌",
-                null,
-                null,
-                null,
-                null
+                "드래곤의 마드리갈",
+                "Madrigal dragonique",
+                "Drachenmadrigal",
+                "Madrigal del dragón"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Boost ATK, DEF, MAG, and SPR and gradually restore HP and MP for all allies while singing",
+                "歌唱期間高全體隊員的攻擊防禦魔力精神+持續恢復HPMP",
+                "노래하는 동안 아군 전체의 공격력, 방어력, 마력, 정신력 상승+HP와 MP 서서히회복",
+                "Augmente ATT/DEF/MAGIE/PSY et restaure progressivement les PV/PM de tous les alliés en chantant",
+                "Während das Lied andauert, ANG, ABW, MAG und PSY hoch und heilt LP und MP, aller Verb.",
+                "Aumenta ATQ/DEF/MAG/ESP y recupera la VIT y los PM de todos los aliados poco a poco al cantar"
+            ]
         }
     },
     "100010504": {
@@ -14154,16 +14182,16 @@
             ],
             "desc": [
                 "Deal partial unmitigated damage and reduce fire and ice resistance for one enemy, and enable blade flash - final, fatal bloom, and crimson era for two to five turns",
-                "對1名敵人發動無視部分防禦的攻擊+降低火冰屬性耐性+1~4回合內可以使用「紫電一閃．終」「雪華終焉」「深紅終結」",
+                "對1名敵人發動無視部分防禦的攻擊+降低火冰屬性耐性+2~5回合內可以使用「紫電一閃．終」「雪華終焉」「深紅終結」",
                 "적 1명에게 방어 무시 피해+불과 얼음속성 저항력 감소+2~5턴 동안 '자전일섬·종', '설화종언', '진홍빛 종지부' 사용 가능",
                 "Inflige des dégâts en partie fixes, réduit la rés. au feu et à la glace d'un ennemi et permet d'utiliser Flash pourpre - Final, Floraison fatale et Ère carmin pendant deux à cinq tours",
                 "Fügt einem Gegner teilweise direkten Schaden zu und reduziert Feuer- und Eisres. für einen Gegner, ermöglicht Flimmerklinge - Final, fatale Blüte und und Purpurne Ära für zwei bis fünf Runden.",
-                "Daño absoluto parcial, reduce la resistencia al fuego e hielo de un enemigo y aprende Destello de hoja - Final, Floración fatal y Era carmesí durante 1-4 turnos"
+                "Daño absoluto parcial, reduce la resistencia al fuego e hielo de un enemigo y aprende Destello de hoja - Final, Floración fatal y Era carmesí durante 2-5 turnos"
             ]
         }
     },
     "100011707": {
-        "name": "跋山渉水",
+        "name": "Unstoppable Wave",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -14191,14 +14219,21 @@
             "effects_raw": [[1, 1, 21, [0,  0,  1200,  -50]], [0, 3, 100, [[2,  2,  2], [503610,  503620,  503630], 9999, 6, 1, 1]], [1, 1, 33, [-100,  -100,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Unstoppable Wave",
                 "跋山涉水",
-                null,
-                null,
-                null,
-                null
+                "발산섭수",
+                "Vague imparable",
+                "Unaufhaltbare Welle",
+                "Ola imparable"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and reduce fire and ice resistance for one enemy, and enable blade flash - final, fatal bloom, and crimson era for two to five turns",
+                "對1名敵人發動無視部分防禦的攻擊+降低火冰屬性耐性+2~5回合內可以使用「紫電一閃．終」「雪華終焉」「深紅終結」",
+                "적 1명에게 방어 무시 피해+불과 얼음속성 저항력 감소+2~5턴 동안 '자전일섬·종', '설화종언', '진홍빛 종지부' 사용 가능",
+                "Inflige des dégâts en partie fixes, réduit la rés. au feu et à la glace d'un ennemi et permet d'utiliser Flash pourpre - Final, Floraison fatale et Ère carmin pendant deux à cinq tours",
+                "Fügt einem Gegner teilweise direkten Schaden zu und reduziert Feuer- und Eisres. für einen Gegner, ermöglicht Flimmerklinge - Final, fatale Blüte und und Purpurne Ära für zwei bis fünf Runden.",
+                "Daño absoluto parcial, reduce la resistencia al fuego e hielo de un enemigo y aprende Destello de hoja - Final, Floración fatal y Era carmesí durante 2-5 turnos"
+            ]
         }
     },
     "100011805": {
@@ -15055,7 +15090,7 @@
         }
     },
     "100012407": {
-        "name": "エターナルレイ",
+        "name": "Eternal Ray",
         "cost": 0,
         "attack_count": [40],
         "attack_damage": [[2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3,  2,  3]],
@@ -15075,14 +15110,21 @@
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1800,  0]]]},
         "strings": {
             "name": [
-                null,
+                "Eternal Ray",
                 "永恆之光",
-                null,
-                null,
-                null,
-                null
+                "영원의 섬광",
+                "Rayon éternel",
+                "Ewiger Strahl",
+                "Rayo infinito"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage all enemies",
+                "攻擊全體敵人",
+                "적 전체에 피해",
+                "Dégâts sur tous les ennemis",
+                "Schaden, alle Ziele",
+                "Daña a todos los enemigos"
+            ]
         }
     },
     "100012505": {
@@ -19751,7 +19793,7 @@
         }
     },
     "100017105": {
-        "name": "女王のパストラール",
+        "name": "The Queen's Pastorale",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19777,18 +19819,25 @@
             "effects_raw": [[2, 1, 24, [-55,  -55,  -55,  -55,  3,  1]], [2, 2, 3, [115,  115,  115,  115,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "The Queen's Pastorale",
                 "女王田園曲",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ATK, DEF, MAG, and SPR for all enemies and boost ATK, DEF, MAG, and SPR for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017106": {
-        "name": "女王のパストラール",
+        "name": "The Queen's Pastorale",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19814,18 +19863,25 @@
             "effects_raw": [[2, 1, 24, [-65,  -65,  -65,  -65,  3,  1]], [2, 2, 3, [130,  130,  130,  130,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "The Queen's Pastorale",
                 "女王田園曲",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ATK, DEF, MAG, and SPR for all enemies and boost ATK, DEF, MAG, and SPR for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017107": {
-        "name": "女王のパストラール",
+        "name": "The Queen's Pastorale",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19851,18 +19907,25 @@
             "effects_raw": [[2, 1, 24, [-75,  -75,  -75,  -75,  3,  1]], [2, 2, 3, [145,  145,  145,  145,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "The Queen's Pastorale",
                 "女王田園曲",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ATK, DEF, MAG, and SPR for all enemies and boost ATK, DEF, MAG, and SPR for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017204": {
-        "name": "ガーダーハウル",
+        "name": "Guardian's Howl",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19888,18 +19951,25 @@
             "effects_raw": [[2, 2, 101, [27,  3,  1]], [2, 2, 3, [95,  0,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Guardian's Howl",
                 "棟樑嚎叫",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce damage taken for three turns and boost ATK for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017205": {
-        "name": "ガーダーハウル",
+        "name": "Guardian's Howl",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19925,18 +19995,25 @@
             "effects_raw": [[2, 2, 101, [34,  3,  1]], [2, 2, 3, [110,  0,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Guardian's Howl",
                 "棟樑嚎叫",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce damage taken for three turns and boost ATK for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017206": {
-        "name": "ガーダーハウル",
+        "name": "Guardian's Howl",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -19962,18 +20039,25 @@
             "effects_raw": [[2, 2, 101, [42,  3,  1]], [2, 2, 3, [125,  0,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Guardian's Howl",
                 "棟樑嚎叫",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce damage taken for three turns and boost ATK for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017304": {
-        "name": "フラッシュカラミティ",
+        "name": "Flash Calamity",
         "cost": 0,
         "attack_count": [3],
         "attack_damage": [[20,  20,  60]],
@@ -19999,18 +20083,25 @@
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]], [2, 1, 6, [0,  0,  0,  44,  44,  44,  0,  0,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Flash Calamity",
                 "閃光之禍",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Light damage and chance of inflicting silence, paralysis, or confusion on all enemies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017305": {
-        "name": "フラッシュカラミティ",
+        "name": "Flash Calamity",
         "cost": 0,
         "attack_count": [3],
         "attack_damage": [[20,  20,  60]],
@@ -20036,18 +20127,25 @@
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  690,  0]], [2, 1, 6, [0,  0,  0,  59,  59,  59,  0,  0,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Flash Calamity",
                 "閃光之禍",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Light damage and chance of inflicting silence, paralysis, or confusion on all enemies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017306": {
-        "name": "フラッシュカラミティ",
+        "name": "Flash Calamity",
         "cost": 0,
         "attack_count": [3],
         "attack_damage": [[20,  20,  60]],
@@ -20073,18 +20171,25 @@
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  840,  0]], [2, 1, 6, [0,  0,  0,  74,  74,  74,  0,  0,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Flash Calamity",
                 "閃光之禍",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Light damage and chance of inflicting silence, paralysis, or confusion on all enemies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017403": {
-        "name": "絶品エルフ飯・風雷仕立て",
+        "name": "Elven Special à la Storm",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -20104,18 +20209,25 @@
             "effects_raw": [[2, 2, 33, [0,  0,  49,  0,  49,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Elven Special à la Storm",
                 "風雷交織極品精靈飯",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Boost lightning and wind resistance for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017404": {
-        "name": "絶品エルフ飯・風雷仕立て",
+        "name": "Elven Special à la Storm",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -20135,18 +20247,25 @@
             "effects_raw": [[2, 2, 33, [0,  0,  59,  0,  59,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Elven Special à la Storm",
                 "風雷交織極品精靈飯",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Boost lightning and wind resistance for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017405": {
-        "name": "絶品エルフ飯・風雷仕立て",
+        "name": "Elven Special à la Storm",
         "cost": 0,
         "attack_count": [0],
         "attack_damage": [[]],
@@ -20166,14 +20285,21 @@
             "effects_raw": [[2, 2, 33, [0,  0,  69,  0,  69,  0,  0,  0,  1,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Elven Special à la Storm",
                 "風雷交織極品精靈飯",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Boost lightning and wind resistance for all allies",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "100017605": {
@@ -33586,7 +33712,7 @@
         }
     },
     "212000507": {
-        "name": "謀逆のアスペクト",
+        "name": "Element of Treachery",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -33606,14 +33732,21 @@
             "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Element of Treachery",
                 "謀逆之相位星",
-                null,
-                null,
-                null,
-                null
+                "역모의 아스팩트",
+                "Impact astral",
+                "Element der Tücke",
+                "Impacto astral"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage to all enemies",
+                "對全體敵人發動無視防禦的攻擊",
+                "적 전체에 일부 방어 무시 피해",
+                "Dégâts en partie fixes sur tous les ennemis",
+                "Teilweise direkter Schaden, alle Ziele",
+                "Daño absoluto parcial a todos los enemigos"
+            ]
         }
     },
     "212000603": {
@@ -35850,7 +35983,7 @@
         }
     },
     "215000107": {
-        "name": "ファントムソード",
+        "name": "Armiger",
         "cost": 0,
         "attack_count": [5, 1],
         "attack_damage": [[20,  20,  20,  20,  20], [100]],
@@ -35880,14 +36013,21 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1680,  0]], [2, 2, 3, [134,  134,  134,  134,  2,  0]], [1, 3, 101, [30,  2,  1]], [1, 3, 100, [2,  501620,  99999,  2,  0,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Armiger",
                 "幻影劍",
-                null,
-                null,
-                null,
-                null
+                "팬텀 소드",
+                "Arsenal fantôme",
+                "Armiger",
+                "Coro espectral"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage one enemy, reduce damage taken for self for two turns, boost ATK, DEF, MAG, and SPR for all allies, and enable point-blank warp-strike for one turn",
+                "攻擊1名敵人+2回合內減少對自身的傷害+提高全體隊員的攻擊防禦魔力精神+1回合內可以使用「零距離變移破解」",
+                "적 1명에게 피해+2턴 동안 사용자가 받는 피해량 감소+아군 전체의 공격력, 방어력, 마력, 정신력 상승+1턴 동안 '영거리 시프트 브레이크' 사용가능",
+                "Dégâts sur un ennemi, réduit les dégâts reçus par le lanceur pendant deux tours, augmente ATT/DEF/MAGIE/PSY pour tours les alliés et permet d'utiliser Assauts éclipse critiques pendant un tour",
+                "Füge einem Gegner Schaden zu, reduziere zwei Runden lang selbst erhaltenen Schaden, erhöhe ANG, ABW, MAG und PSY für alle Verb. und ermögliche eine Runde lang Direkt-Warp.",
+                "Daña a un enemigo, reduce el daño que recibe el usuario durante 2 turnos, aumenta ATQ/DEF/MAG/ESP de todos los aliados y aprende Quemarropa durante 1 turno"
+            ]
         }
     },
     "215000205": {
@@ -35979,7 +36119,7 @@
         }
     },
     "215000207": {
-        "name": "ライジングインパルス",
+        "name": "Impulse",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -36005,14 +36145,21 @@
             "effects_raw": [[2, 1, 21, [0,  0,  595,  -50]], [0, 3, 61, [100,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Impulse",
                 "增幅衝擊",
-                null,
-                null,
-                null,
-                null
+                "라이징 임펄스",
+                "Éradication",
+                "Steigender Impuls",
+                "Erradicación"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage to all enemies and temporarily increase chance of being targeted",
+                "對全體敵人發動無視部分防禦的攻擊+暫時性容易被敵人攻擊",
+                "적 전체에 방어 무시 피해+일시적으로 적의 공격 대상이 될 확률 상승",
+                "Inflige des dégâts en partie fixes à tous les ennemis, et augmente temporairement les chances d'être ciblé",
+                "Fügt allen Gegnern teilweise direkten Schaden zu, erhöht vorübergehend die Chance, angegriffen zu werden.",
+                "Daño absoluto parcial a todos los enemigos y aumenta temporalmente la posibilidad de ser atacado"
+            ]
         }
     },
     "215000304": {
@@ -39958,12 +40105,19 @@
             "name": [
                 "Full Charge Shot",
                 "極限蓄力射擊",
-                null,
-                null,
-                null,
-                null
+                "풀 차지 샷",
+                "Tir à pleine puissance",
+                "Volle Ladung",
+                "Disparo brutal"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage one enemy",
+                "攻擊1名敵人",
+                "적 1명에게 피해",
+                "Dégâts à un ennemi",
+                "Fügt einem Gegner Schaden zu.",
+                "Daña a un enemigo"
+            ]
         }
     },
     "254001104": {
@@ -39989,12 +40143,19 @@
             "name": [
                 "Full Charge Shot",
                 "極限蓄力射擊",
-                null,
-                null,
-                null,
-                null
+                "풀 차지 샷",
+                "Tir à pleine puissance",
+                "Volle Ladung",
+                "Disparo brutal"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage one enemy",
+                "攻擊1名敵人",
+                "적 1명에게 피해",
+                "Dégâts à un ennemi",
+                "Fügt einem Gegner Schaden zu.",
+                "Daña a un enemigo"
+            ]
         }
     },
     "254001105": {
@@ -40020,12 +40181,19 @@
             "name": [
                 "Full Charge Shot",
                 "極限蓄力射擊",
-                null,
-                null,
-                null,
-                null
+                "풀 차지 샷",
+                "Tir à pleine puissance",
+                "Volle Ladung",
+                "Disparo brutal"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage one enemy",
+                "攻擊1名敵人",
+                "적 1명에게 피해",
+                "Dégâts à un ennemi",
+                "Fügt einem Gegner Schaden zu.",
+                "Daña a un enemigo"
+            ]
         }
     },
     "254001204": {
@@ -40303,12 +40471,19 @@
             "name": [
                 "Cyclone Drive",
                 "迴旋猛擊",
-                null,
-                null,
-                null,
-                null
+                "스핀 드라이브",
+                "Vrilles",
+                "Zyklonantrieb",
+                "Estoque tornado"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and reduce ATK and MAG for one enemy",
+                "對1名敵人發動無視部分防禦的攻擊+降低攻擊魔力",
+                "적 1명에게 방어 무시 피해+공격력과 마력 감소",
+                "Inflige des dégâts en partie fixes et réduit l'ATT et la MAGIE d'un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu und verringert dessen ANG und MAG.",
+                "Daño absoluto parcial y reduce el ATQ y la MAG de un enemigo"
+            ]
         }
     },
     "254001806": {
@@ -40340,12 +40515,19 @@
             "name": [
                 "Cyclone Drive",
                 "迴旋猛擊",
-                null,
-                null,
-                null,
-                null
+                "스핀 드라이브",
+                "Vrilles",
+                "Zyklonantrieb",
+                "Estoque tornado"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and reduce ATK and MAG for one enemy",
+                "對1名敵人發動無視部分防禦的攻擊+降低攻擊魔力",
+                "적 1명에게 방어 무시 피해+공격력과 마력 감소",
+                "Inflige des dégâts en partie fixes et réduit l'ATT et la MAGIE d'un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu und verringert dessen ANG und MAG.",
+                "Daño absoluto parcial y reduce el ATQ y la MAG de un enemigo"
+            ]
         }
     },
     "254001807": {
@@ -40377,12 +40559,19 @@
             "name": [
                 "Cyclone Drive",
                 "迴旋猛擊",
-                null,
-                null,
-                null,
-                null
+                "스핀 드라이브",
+                "Vrilles",
+                "Zyklonantrieb",
+                "Estoque tornado"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage and reduce ATK and MAG for one enemy",
+                "對1名敵人發動無視部分防禦的攻擊+降低攻擊魔力",
+                "적 1명에게 방어 무시 피해+공격력과 마력 감소",
+                "Inflige des dégâts en partie fixes et réduit l'ATT et la MAGIE d'un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu und verringert dessen ANG und MAG.",
+                "Daño absoluto parcial y reduce el ATQ y la MAG de un enemigo"
+            ]
         }
     },
     "254001905": {
@@ -40416,12 +40605,19 @@
             "name": [
                 "Absolute Zero",
                 "絕對零度",
-                null,
-                null,
-                null,
-                null
+                "절대 영도",
+                "Zéro absolu",
+                "Absoluter Nullpunkt",
+                "Cero absoluto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ice resistance and deal ice damage to all enemies, and boost own ATK and MAG",
+                "降低全體敵人的冰屬性耐性+發動冰屬性攻擊+提高自身的攻擊魔力",
+                "적 전체의 얼음속성 저항력 감소+얼음속성 피해+자신의 공격력과 마력 상승",
+                "Réduit la résistance à la glace, inflige des dégâts de glace à tous les ennemis et augmente l'ATT et la MAGIE du lanceur",
+                "Fügt allen Gegnern Eisschaden zu und verringert ihre Eisresistenz und erhöht ANG und MAG des Benutzers.",
+                "Reduce la resistencia al hielo e inflige daño de hielo a todos los enemigos, y aumenta el ATQ y la MAG del usuario"
+            ]
         }
     },
     "254001906": {
@@ -40455,12 +40651,19 @@
             "name": [
                 "Absolute Zero",
                 "絕對零度",
-                null,
-                null,
-                null,
-                null
+                "절대 영도",
+                "Zéro absolu",
+                "Absoluter Nullpunkt",
+                "Cero absoluto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ice resistance and deal ice damage to all enemies, and boost own ATK and MAG",
+                "降低全體敵人的冰屬性耐性+發動冰屬性攻擊+提高自身的攻擊魔力",
+                "적 전체의 얼음속성 저항력 감소+얼음속성 피해+자신의 공격력과 마력 상승",
+                "Réduit la résistance à la glace, inflige des dégâts de glace à tous les ennemis et augmente l'ATT et la MAGIE du lanceur",
+                "Fügt allen Gegnern Eisschaden zu und verringert ihre Eisresistenz und erhöht ANG und MAG des Benutzers.",
+                "Reduce la resistencia al hielo e inflige daño de hielo a todos los enemigos, y aumenta el ATQ y la MAG del usuario"
+            ]
         }
     },
     "254001907": {
@@ -40494,12 +40697,19 @@
             "name": [
                 "Absolute Zero",
                 "絕對零度",
-                null,
-                null,
-                null,
-                null
+                "절대 영도",
+                "Zéro absolu",
+                "Absoluter Nullpunkt",
+                "Cero absoluto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ice resistance and deal ice damage to all enemies, and boost own ATK and MAG",
+                "降低全體敵人的冰屬性耐性+發動冰屬性攻擊+提高自身的攻擊魔力",
+                "적 전체의 얼음속성 저항력 감소+얼음속성 피해+자신의 공격력과 마력 상승",
+                "Réduit la résistance à la glace, inflige des dégâts de glace à tous les ennemis et augmente l'ATT et la MAGIE du lanceur",
+                "Fügt allen Gegnern Eisschaden zu und verringert ihre Eisresistenz und erhöht ANG und MAG des Benutzers.",
+                "Reduce la resistencia al hielo e inflige daño de hielo a todos los enemigos, y aumenta el ATQ y la MAG del usuario"
+            ]
         }
     },
     "254002004": {
@@ -40535,12 +40745,19 @@
             "name": [
                 "Concerto",
                 "協奏曲",
-                null,
-                null,
-                null,
-                null
+                "콘체르토",
+                "Marche exaltante",
+                "Concerto",
+                "Concierto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Temporarily add chance of counterattacking when an ally receives a physical attack for all allies, boost ATK and MAG for all allies while singing, and gradually restore HP and MP",
+                "對全體隊員發動暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊的效果+歌唱期間提高全體隊員的攻擊魔力+持續恢復HPMP",
+                "아군 전체에 일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격하는 효과 부여+노래하는 동안 아군 전체의 공격력과 마력 상승+HP와 MP 서서히 회복",
+                "Ajoute temporairement une chance de contre-attaquer après qu'un allié a subi une attaque physique pour tout les alliés, augmente l'ATT et la MAGIE de tous les alliés en chantant et restaure progressivement les PV et les PM",
+                "Fügt für alle Verbündeten kurzzeitig Chance auf einen Gegenangriff hinzu, wenn ein Verbündeter von einem physischen Angriff getroffen wird, erhöht ANG und MAG für alle Verbündeten solange Benutzer singt und stellt allmählich LP und MP wieder her.",
+                "Probabilidad temporal de contraatacar de todos los aliados cuando un aliado recibe un ataque físico, aumenta el ATQ y la MAG de todos los aliados al cantar, y recupera gradualmente la VIT y los PM"
+            ]
         }
     },
     "254002005": {
@@ -40576,12 +40793,19 @@
             "name": [
                 "Concerto",
                 "協奏曲",
-                null,
-                null,
-                null,
-                null
+                "콘체르토",
+                "Marche exaltante",
+                "Concerto",
+                "Concierto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Temporarily add chance of counterattacking when an ally receives a physical attack for all allies, boost ATK and MAG for all allies while singing, and gradually restore HP and MP",
+                "對全體隊員發動暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊的效果+歌唱期間提高全體隊員的攻擊魔力+持續恢復HPMP",
+                "아군 전체에 일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격하는 효과 부여+노래하는 동안 아군 전체의 공격력과 마력 상승+HP와 MP 서서히 회복",
+                "Ajoute temporairement une chance de contre-attaquer après qu'un allié a subi une attaque physique pour tout les alliés, augmente l'ATT et la MAGIE de tous les alliés en chantant et restaure progressivement les PV et les PM",
+                "Fügt für alle Verbündeten kurzzeitig Chance auf einen Gegenangriff hinzu, wenn ein Verbündeter von einem physischen Angriff getroffen wird, erhöht ANG und MAG für alle Verbündeten solange Benutzer singt und stellt allmählich LP und MP wieder her.",
+                "Probabilidad temporal de contraatacar de todos los aliados cuando un aliado recibe un ataque físico, aumenta el ATQ y la MAG de todos los aliados al cantar, y recupera gradualmente la VIT y los PM"
+            ]
         }
     },
     "254002006": {
@@ -40617,12 +40841,19 @@
             "name": [
                 "Concerto",
                 "協奏曲",
-                null,
-                null,
-                null,
-                null
+                "콘체르토",
+                "Marche exaltante",
+                "Concerto",
+                "Concierto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Temporarily add chance of counterattacking when an ally receives a physical attack for all allies, boost ATK and MAG for all allies while singing, and gradually restore HP and MP",
+                "對全體隊員發動暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊的效果+歌唱期間提高全體隊員的攻擊魔力+持續恢復HPMP",
+                "아군 전체에 일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격하는 효과 부여+노래하는 동안 아군 전체의 공격력과 마력 상승+HP와 MP 서서히 회복",
+                "Ajoute temporairement une chance de contre-attaquer après qu'un allié a subi une attaque physique pour tout les alliés, augmente l'ATT et la MAGIE de tous les alliés en chantant et restaure progressivement les PV et les PM",
+                "Fügt für alle Verbündeten kurzzeitig Chance auf einen Gegenangriff hinzu, wenn ein Verbündeter von einem physischen Angriff getroffen wird, erhöht ANG und MAG für alle Verbündeten solange Benutzer singt und stellt allmählich LP und MP wieder her.",
+                "Probabilidad temporal de contraatacar de todos los aliados cuando un aliado recibe un ataque físico, aumenta el ATQ y la MAG de todos los aliados al cantar, y recupera gradualmente la VIT y los PM"
+            ]
         }
     },
     "255000104": {
@@ -56460,7 +56691,7 @@
         }
     },
     "900000087": {
-        "name": "キングダムオーダー",
+        "name": "Kingdom's Order",
         "cost": 0,
         "attack_count": [15],
         "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  12,  12,  12,  12,  12,  13]],
@@ -56490,12 +56721,12 @@
             "effects_raw": [[2, 1, 21, [0,  0,  850,  -50]], [2, 1, 33, [0,  0,  -79,  0,  -79,  0,  -79,  0,  1,  3]], [2, 1, 24, [-74,  -74,  -74,  -74,  3,  1]], [0, 3, 100, [[2,  2,  2], [501960,  501970,  501980], 99999, 4, 1]]]},
         "strings": {
             "name": [
-                null,
+                "Kingdom's Order",
                 "王國秩序",
-                null,
-                null,
-                null,
-                null
+                "왕국의 질서",
+                "Ordre royal",
+                "Königlicher Befehl",
+                "Orden del reino"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -56593,7 +56824,7 @@
         }
     },
     "900000117": {
-        "name": "竜哭のマドリガル",
+        "name": "Dragon's Madrigal",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -56623,18 +56854,18 @@
             "effects_raw": [[2, 2, 58, [134,  134,  134,  134,  1,  1]], [2, 2, 56, [270,  1,  390,  1]], [2, 2, 57, [17,  1,  7,  1]], [0, 3, 100, [2,  507974,  1,  99999,  0,  2]]]},
         "strings": {
             "name": [
-                null,
+                "Dragon's Madrigal",
                 "龍哭牧歌",
-                null,
-                null,
-                null,
-                null
+                "드래곤의 마드리갈",
+                "Madrigal dragonique",
+                "Drachenmadrigal",
+                "Madrigal del dragón"
             ],
             "desc": [null, null, null, null, null, null]
         }
     },
     "900000127": {
-        "name": "ライジングインパルス",
+        "name": "Impulse",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -56664,12 +56895,12 @@
             "effects_raw": [[2, 1, 21, [0,  0,  620,  -50]], [0, 3, 61, [100,  3]], [0, 3, 101, [50,  1,  1]], [2, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Impulse",
                 "增幅衝擊",
-                null,
-                null,
-                null,
-                null
+                "라이징 임펄스",
+                "Éradication",
+                "Steigender Impuls",
+                "Erradicación"
             ],
             "desc": [null, null, null, null, null, null]
         }
@@ -57135,7 +57366,7 @@
         }
     },
     "900000247": {
-        "name": "女王のパストラール",
+        "name": "The Queen's Pastorale",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -57151,7 +57382,7 @@
                 "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies",
                 "Increase ATK, DEF, MAG and SPR by 115% for 3 turns to all allies",
                 "Restore 20% HP and MP to all allies",
-                "Gain access to following skills (1 use):\n\t虹翼のグリッサンド (228110)"
+                "Gain access to following skills (1 use):\n\tRainbow Wings Glissando (228110)"
             ],
             "effects_raw": [[2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]], [2, 2, 3, [115,  115,  115,  115,  3,  1]], [2, 2, 64, [20,  20]], [0, 3, 100, [2,  228110,  1,  9999,  1,  1]]]},
         "max_level": {
@@ -57160,19 +57391,26 @@
                 "Reduce ATK, DEF, MAG and SPR by 75% for 3 turns to all enemies",
                 "Increase ATK, DEF, MAG and SPR by 145% for 3 turns to all allies",
                 "Restore 20% HP and MP to all allies",
-                "Gain access to following skills (1 use):\n\t虹翼のグリッサンド (228110)"
+                "Gain access to following skills (1 use):\n\tRainbow Wings Glissando (228110)"
             ],
             "effects_raw": [[2, 1, 24, [-75,  -75,  -75,  -75,  3,  1]], [2, 2, 3, [145,  145,  145,  145,  3,  1]], [2, 2, 64, [20,  20]], [0, 3, 100, [2,  228110,  1,  9999,  1,  1]]]},
         "strings": {
             "name": [
-                null,
+                "The Queen's Pastorale",
                 "女王田園曲",
                 null,
                 null,
                 null,
                 null
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ATK, DEF, MAG, and SPR for all enemies, boost ATK, DEF, MAG, and SPR and restore HP and MP for all allies, and enable rainbow wings glissando to be used one time",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "900000257": {
@@ -57364,12 +57602,19 @@
             "name": [
                 "Absolute Zero",
                 "絕對零度",
-                null,
-                null,
-                null,
-                null
+                "절대 영도",
+                "Zéro absolu",
+                "Absoluter Nullpunkt",
+                "Cero absoluto"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Reduce ice resistance and deal ice damage to all enemies, boost own ATK and MAG, and enable triple zekken and zekken - twilight rain for one turn",
+                "降低全體敵人的冰屬性耐性+發動冰屬性攻擊+提高自身的攻擊魔力+1回合內可使用「三連絕劍」「絕劍·暮雨」",
+                "적 전체의 얼음속성 저항력 감소+얼음속성 피해+자신의 공격력과 마력 상승+1턴 동안 '삼연절검', '절검·저녁비' 사용 가능",
+                "Réduit la résistance à la glace, inflige des dégâts de glace à tous les ennemis, augmente l'ATT et la MAGIE du lanceur et permet d'utiliser Triple Zekken et Zekken - Pluie du crépuscule pendant un tour",
+                "Fügt allen Gegnern Eisschaden zu und verringert ihre Eisresistenz, erhöht ANG und MAG des Benutzers und ermöglicht Dreifach-Zekken und Zekken - Regen im Zwielicht für eine Runde.",
+                "Reduce la resistencia al hielo e inflige daño de hielo a todos los enemigos, aumenta el ATQ y la MAG del usuario y aprende Zekken triple y Zekken - Lluvia del crepúsculo durante un turno"
+            ]
         }
     },
     "900000307": {

@@ -17906,7 +17906,7 @@
                 null
             ],
             "desc_short": [
-                "Boost HP, DEF, and SPR by 30%, and boost equipment ATK when a single weapon is equipped in both hands",
+                "Boost HP, DEF, and SPR by 30%, and boost equipment ATK when a single weapon is equipped in both hands (Not Stackable)",
                 null,
                 null,
                 null,
@@ -17914,7 +17914,7 @@
                 null
             ],
             "desc_long": [
-                "Boosts HP, DEF, and SPR by 30%, and boosts equipment ATK when a single weapon is equipped in both hands.",
+                "Boosts HP, DEF, and SPR by 30%, and boosts equipment ATK when a single weapon is equipped in both hands. Not Stackable.",
                 null,
                 null,
                 null,
@@ -18483,7 +18483,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228151],
-        "effects": ["Grants '風含むたてがみ' passive."],
+        "effects": ["Grants 'Gust Mane' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -18497,32 +18497,8 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
-        }
-    },
-    "504228152": {
-        "name": "Dormant Power",
-        "compendium_id": 829,
-        "compendium_shown": true,
-        "unit_restriction": null,
-        "skills": [228152],
-        "effects": ["Grants '潜在せし魔力' passive."],
-        "unique": false,
-        "price_buy": 100000,
-        "price_sell": 10000,
-        "icon": "ability_76.png",
-        "strings": {
-            "names": [
-                "Dormant Power",
-                "潛在魔力",
-                null,
-                null,
-                null,
-                null
-            ],
             "desc_short": [
-                "Boost MP by 10%, and boost equipment MAG when a single weapon is equipped in both hands",
+                "Boost HP by 30%, DEF by 20%, and wind resistance by 30%",
                 null,
                 null,
                 null,
@@ -18530,7 +18506,45 @@
                 null
             ],
             "desc_long": [
-                "Boosts MP by 10%, and boosts equipment MAG when a single weapon is equipped in both hands.",
+                "Boosts HP by 30%, DEF by 20%, and wind resistance by 30%.",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "504228152": {
+        "name": "Magical Potential",
+        "compendium_id": 829,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [228152],
+        "effects": ["Grants 'Magical Potential' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [
+                "Magical Potential",
+                "潛在魔力",
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_short": [
+                "Boost MP by 10%, and boost equipment MAG when a single weapon is equipped in both hands (Not stackable)",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Boosts MP by 10%, and boosts equipment MAG when a single weapon is equipped in both hands. Not stackable.",
                 null,
                 null,
                 null,
@@ -18813,50 +18827,57 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Reduce dark resistance by 30%, and boost SPR by 60% and LB gauge fill rate (Not stackable)",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
             "desc_long": [null, null, null, null, null, null]
         }
     },
     "504228324": {
-        "name": "Opposing Force",
+        "name": "Opposition",
         "compendium_id": 841,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228324],
         "effects": ["Grants 'Opposition' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
             "names": [
-                "Opposing Force",
+                "Opposition",
                 "對抗之力",
-                null,
-                null,
-                null,
-                null
+                "맞서 싸우는 힘",
+                "Opposition",
+                "Widerstand",
+                "Oposición"
             ],
             "desc_short": [
                 "Boost own ATK, DEF, MAG and SPR at the beginning of battle or after being revived, boost ATK when equipped with a sword, and boost HP and ATK when equipped with clothes (Not stackable)",
-                null,
-                null,
-                null,
-                null,
-                null
+                "戰鬥開始時和從無法戰鬥狀態中復活時提高自身的攻擊防禦魔力精神+裝備劍時提高攻擊+裝備衣服時提高HP攻擊[無法重複裝備]",
+                "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 공격력, 방어력, 마력, 정신력 상승+검 장착 시 공격력 상승+옷 장착 시 HP와 공격력 상승(중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY du lanceur au début du combat ou après avoir ressuscité. Augmente l'ATT lorsqu'une épée est équipée et augmente les PV et l'ATT lorsque des vêtements sont équipés (Non cumulable)",
+                "Erhöht ANG, ABW, MAG und PSY des Benutzers zu Beginn eines Kampfes oder nach Wiederbelebung, erhöht ANG wenn mit einem Schwert ausgerüstet und erhöht LP und ANG wenn mit Kleidung ausgerüstet (Nicht stapelbar).",
+                "Aumenta ATQ, DEF, MAG y ESP del usuario al comienzo del combate o tras revivir, aumenta el ATQ al llevar espada y aumenta la VIT y el ATQ al llevar ropa (no acumulable)"
             ],
             "desc_long": [
                 "Boosts own ATK, DEF, MAG and SPR at the beginning of battle or after being revived, boosts ATK when equipped with a sword, and boosts HP and ATK when equipped with clothes. However, boosted parameters will gradually wear off after each turn during battle. Not stackable.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "戰鬥開始時和從無法戰鬥狀態中復活時提高自身的攻擊防禦魔力精神，裝備劍時提高攻擊，裝備衣服時提高HP攻擊。但是，在戰鬥中狀態數值會因經過回合而持續下降。[無法重複裝備]",
+                "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 공격력, 방어력, 마력, 정신력이 상승하고, <br>검 장착 시 공격력이 상승하며, 옷 장착 시 HP와 공격력이 상승합니다. 그러나 전투 중 턴이 경과함에 따라 능력치 상승 효과가 떨어집니다.(중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY du lanceur au début du combat ou après avoir ressuscité. Augmente l'ATT lorsqu'une épée est équipée et augmente les PV et l'ATT lorsque des vêtements sont équipés. Cependant, les caractéristiques augmentées diminueront à chaque tour en combat. Non cumulable.",
+                "Erhöht ANG, ABW, MAG und PSY des Benutzers zu Beginn eines Kampfes oder nach Wiederbelebung, erhöht ANG wenn mit einem Schwert ausgerüstet und erhöht LP und ANG wenn mit Kleidung ausgerüstet. Die gesteigerten Werte werden während des Kampfes jedoch jede Runde nach und nach sinken (Nicht stapelbar).",
+                "Aumenta ATQ, DEF, MAG y ESP del usuario al comienzo del combate o tras revivir, aumenta el ATQ al llevar espada y aumenta la VIT y el ATQ al llevar ropa. No obstante, los parámetros potenciados irán disminuyendo poco a poco cada turno durante el combate (no acumulable)"
             ]
         }
     },
     "504228356": {
-        "name": "Kind Force",
+        "name": "Kindness",
         "compendium_id": 842,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -18868,33 +18889,33 @@
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Kind Force",
+                "Kindness",
                 "溫柔之力",
-                null,
-                null,
-                null,
-                null
+                "부드러운 힘",
+                "Gentillesse",
+                "Sanftmut",
+                "Amabilidad"
             ],
             "desc_short": [
                 "Boost MAG by 40% and fire resistance by 50%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高40%魔力、50%火屬性耐性",
+                "마력 40%, 불속성 저항력 50% 상승",
+                "Augmente la MAGIE de 40% et la résistance au feu de 50%",
+                "Erhöht MAG um 40% und Feuerresistenz um 50%.",
+                "Aumenta la MAG un 40% y la resistencia al fuego un 50%"
             ],
             "desc_long": [
                 "Boosts MAG by 40% and fire resistance by 50%.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高40%魔力、50%火屬性耐性。",
+                "마력이 40%, 불속성 저항력이 50% 상승합니다.",
+                "Augmente la MAGIE de 40% et la résistance au feu de 50%",
+                "Erhöht MAG um 40% und Feuerresistenz um 50%.",
+                "Aumenta la MAG un 40% y la resistencia al fuego un 50%."
             ]
         }
     },
     "504228371": {
-        "name": "Heroic Force",
+        "name": "Heroism",
         "compendium_id": 843,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -18906,28 +18927,28 @@
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Heroic Force",
+                "Heroism",
                 "勇敢之力",
-                null,
-                null,
-                null,
-                null
+                "용감한 힘",
+                "Héroïsme",
+                "Heldentum",
+                "Heroísmo"
             ],
             "desc_short": [
                 "Boost ATK and MAG by 20%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高20%攻擊魔力",
+                "공격력과 마력 20% 상승",
+                "Augmente l'ATT et la MAGIE de 20%",
+                "Erhöht ANG und MAG um 20%.",
+                "Aumenta el ATQ y la MAG un 20%"
             ],
             "desc_long": [
                 "Boosts ATK and MAG by 20%.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高20%攻擊魔力。",
+                "공격력과 마력이 20% 상승합니다.",
+                "Augmente l'ATT et la MAGIE de 20%",
+                "Erhöht ANG und MAG um 20%.",
+                "Aumenta el ATQ y la MAG un 20%."
             ]
         }
     },
@@ -18946,26 +18967,26 @@
             "names": [
                 "Akademeia Support - Attack",
                 "魔導院支援·攻",
-                null,
-                null,
-                null,
-                null
+                "마도원의 지원·공격",
+                "Renfort de l'Akademeia - Attaque",
+                "Unterstützung von Akademeia - Angriff",
+                "Apoyo de la Academia - Ataque"
             ],
             "desc_short": [
                 "Boost HP by 10%, ATK and MAG by 5%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高10%HP、5%攻擊魔力",
+                "HP 10%, 공격력과 마력 5% 상승",
+                "Augmente les PV de 10%, l'ATT et la MAGIE de 5%",
+                "Erhöht LP um 10% und ANG und MAG um 5%.",
+                "Aumenta la VIT un 10% y el ATQ y la MAG un 5%"
             ],
             "desc_long": [
                 "Boosts HP by 10%, ATK and MAG by 5%.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高10%HP、5%攻擊魔力。",
+                "HP가 10%, 공격력과 마력이 5% 상승합니다.",
+                "Augmente les PV de 10%, l'ATT et la MAGIE de 5%",
+                "Erhöht LP um 10% und ANG und MAG um 5%.",
+                "Aumenta la VIT un 10% y el ATQ y la MAG un 5%."
             ]
         }
     },
@@ -18984,26 +19005,26 @@
             "names": [
                 "Akademeia Support - Defense",
                 "魔導院支援·守",
-                null,
-                null,
-                null,
-                null
+                "마도원의 지원·수비",
+                "Renfort de l'Akademeia - Défense",
+                "Unterstützung von Akademeia - Abwehr",
+                "Apoyo de la Academia - Defensa"
             ],
             "desc_short": [
                 "Boost HP by 10%, DEF and SPR by 5%",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高10%HP、5%防禦精神",
+                "HP 10%, 방어력과 정신력 5% 상승",
+                "Augmente les PV de 10%, la DEF et la PSY de 5%",
+                "Erhöht LP um 10% und ABW und PSY um 5%.",
+                "Aumenta la VIT un 10% y la DEF y el ESP un 5%"
             ],
             "desc_long": [
                 "Boosts HP by 10%, DEF and SPR by 5%.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高10%HP、5%防禦精神。",
+                "HP가 10%, 방어력과 정신력이 5% 상승합니다.",
+                "Augmente les PV de 10%, la DEF et la PSY de 5%",
+                "Erhöht LP um 10% und ABW und PSY um 5%.",
+                "Aumenta la VIT un 10% y la DEF y el ESP un 5%."
             ]
         }
     },
@@ -22528,7 +22549,7 @@
             ],
             "desc_short": [
                 "Boost ATK when equipped with a fist or clothes (Not stackable)",
-                "提高裝備格鬥武器衣服時的攻擊 [無法重複裝備]",
+                "裝備格鬥武器衣服時提高攻擊 [無法重複裝備]",
                 "격투무기 또는 옷 장착 시 공격력 상승(중복 장착 불가)",
                 "Augmente l'ATT lorsque des poings ou des vêtements sont équipés (non cumulable)",
                 "Erhöht ANG wenn mit Faust oder Kleidung ausgerüstet (Nicht stapelbar).",
@@ -22536,7 +22557,7 @@
             ],
             "desc_long": [
                 "Boosts ATK when equipped with a fist or clothes. Not stackable.",
-                "提高裝備格鬥武器衣服時的攻擊 [無法重複裝備]",
+                "裝備格鬥武器衣服時，提高攻擊。[無法重複裝備]",
                 "격투무기 또는 옷 장착 시 공격력이 상승합니다.(중복 장착 불가)",
                 "Augmente l'ATT lorsque des poings ou des vêtements sont équipés. Non cumulable.",
                 "Erhöht ANG wenn mit Faust oder Kleidung ausgerüstet. Nicht stapelbar.",
