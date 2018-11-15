@@ -83435,7 +83435,7 @@
                 "reward": ["ITEM", 270003300, 1]
             },
             {
-                "string": "Defeat a red roper with magic",
+                "string": "Defeat the red roper with magic",
                 "parsed": ["Defeat Red Roper with magic"],
                 "reward": ["ITEM", 270003500, 1]
             },
@@ -110282,6 +110282,326 @@
         "exp": 100,
         "challenges": []
     },
+    "9460101": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness - BGN",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000096, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 260, 1]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460102": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness - INT",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 50],
+        "gil": 35,
+        "exp": 210,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000095, 1]
+            },
+            {
+                "string": "Use a limit burst",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460103": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness - ADV",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 50],
+        "gil": 60,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000094, 1]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460104": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness - PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 80,
+        "exp": 500,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000093, 1]
+            },
+            {
+                "string": "Deal fire damage 2 times or more",
+                "parsed": ["Deal Fire damage 2 times or more"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460105": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness - ELT",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 113,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000092, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460106": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness (Black Ash) - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 1209000920, 100],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000091, 1]
+            },
+            {
+                "string": "Use 7 or more limit bursts",
+                "parsed": ["Use 7 or more limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460107": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness (Black Grimoire) - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 1209000922, 100],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000090, 1]
+            },
+            {
+                "string": "Activate an element chain 3 times or more in 1 turn",
+                "parsed": ["Activate an element chain 3 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9460108": {
+        "dungeon_id": 94601,
+        "name": "Revelations of Darkness (Pure Blood) - LGD",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 1209000921, 100],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["RECIPE", 1000000089, 1]
+            },
+            {
+                "string": "Deal wind and dark damage 4 times or more each to an enemy",
+                "parsed": ["Deal Wind damage 4 times or more", "Deal Dark damage 4 times or more"],
+                "reward": ["KEYITEM", 70, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 1209000918, 1]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9470101": {
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 100]
+            },
+            {
+                "string": "Use white magic",
+                "parsed": ["Use White magic"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Get a chain of 5 or more in 1 turn",
+                "parsed": ["Get a chain of 5 or more in one turn"],
+                "reward": ["EQUIP", 1100000212, 1]
+            }
+        ]
+    },
     "11110101": {
         "dungeon_id": 111101,
         "name": "Aldore Tower - Lower Levels",
@@ -113670,7 +113990,7 @@
                 "reward": ["LAPIS", 1, 40]
             },
             {
-                "string": "Defeat fenrir's party within 5 turns",
+                "string": "Defeat Fenrir's party within 5 turns",
                 "parsed": ["Clear in 5 turns or less"],
                 "reward": ["LAPIS", 1, 20]
             },
