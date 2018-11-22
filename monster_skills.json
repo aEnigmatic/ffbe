@@ -72707,7 +72707,7 @@
         "strings": {
             "name": [
                 "Flames are coming from the book!",
-                "大火從書中平噴湧而出！",
+                "大火從書中噴湧而出！",
                 "책에서 화염이 거세게 날뛴다!",
                 "Le livre crache une langue de feu !",
                 "Aus dem Buch schießen wilde Flammen!",
@@ -96900,6 +96900,204 @@
             ]
         }
     },
+    "209040": {
+        "name": "Right Arm: Swing Down",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (4.1x, ATK) to one enemy",
+            "Reduce ATK by 60% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  410,  0]], [1, 1, 24, [-60,  0,  0,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Right Arm: Swing Down",
+                "右上臂：下揮",
+                "우상완: 내려치기",
+                "Bras droit : frappe vers le bas",
+                "Rechter Arm: Abschwung",
+                "Brazo der.: balanceo bajo"
+            ]
+        }
+    },
+    "209050": {
+        "name": "Left Arm: Swing Down",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (4.1x, ATK) to one enemy",
+            "Reduce MAG by 60% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  410,  0]], [1, 1, 24, [0,  0,  -60,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Left Arm: Swing Down",
+                "左上臂：下揮",
+                "좌상완: 내려치기",
+                "Bras gauche : frappe vers le bas",
+                "Linker Arm: Abschwung",
+                "Brazo izq.: balanceo bajo"
+            ]
+        }
+    },
+    "209060": {
+        "name": "Both Arms: Smash Up",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (4x, ATK) to all enemies",
+            "Reduce DEF by 60% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [2, 1, 24, [0,  -60,  0,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Both Arms: Smash Up",
+                "雙臂：潰擊",
+                "양팔: 때려눕히기",
+                "Deux bras : détruire",
+                "Beide Arme: Zertrümmern",
+                "Ambos brazos: destrozar"
+            ]
+        }
+    },
+    "209070": {
+        "name": "Missile",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  480,  0]]],
+        "strings": {
+            "name": [
+                "Missile",
+                "導彈",
+                "미사일",
+                "Missile",
+                "Rakete",
+                "Misil"
+            ]
+        }
+    },
+    "209080": {
+        "name": "Energy Bomb",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]]],
+        "strings": {
+            "name": [
+                "Energy Bomb",
+                "能源炸彈",
+                "에너지탄",
+                "Bombe d'énergie",
+                "Energiebombe",
+                "Bomba de energía"
+            ]
+        }
+    },
+    "209090": {
+        "name": "Girder: Furious Attack",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (8x, ATK) to all enemies",
+            "Inflict Paralyze (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [2, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Girder: Furious Attack",
+                "橋架下：猛襲",
+                "다리 밑: 맹습",
+                "Poutre : attaque furieuse",
+                "Träger: Rasender Angriff",
+                "Viga: ataque furioso"
+            ]
+        }
+    },
+    "209100": {
+        "name": "All Out Fire",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (4.5x, ATK) to all enemies",
+            "Inflict Paralyze (70%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  450,  0]], [2, 1, 6, [0,  0,  0,  0,  70,  0,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "All Out Fire",
+                "齊射",
+                "일제히 발사",
+                "Feu à volonté",
+                "Totales Feuer",
+                "Fuego máximo"
+            ]
+        }
+    },
+    "209110": {
+        "name": "Lazer Beam",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]]],
+        "strings": {
+            "name": [
+                "Lazer Beam",
+                "雷射光束",
+                "레이저 빔",
+                "Rayon laser",
+                "Laserstrahl",
+                "Rayo láser"
+            ]
+        }
+    },
+    "209120": {
+        "name": "Upper Arm: Swing",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4.6x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  460,  0]]],
+        "strings": {
+            "name": [
+                "Upper Arm: Swing",
+                "上臂部：回掃",
+                "상완부: 휘두르기",
+                "Bras supérieur : frappe",
+                "Oberarm: Schwung",
+                "Brazo superior: balanceo"
+            ]
+        }
+    },
+    "209130": {
+        "name": "Full Swing",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (8.5x, ATK) to all enemies",
+            "Reduce ATK, DEF and MAG by 60% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  850,  0]], [2, 1, 24, [-60,  -60,  -60,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Full Swing",
+                "全力揮擊",
+                "풀스윙",
+                "Grand swing",
+                "Durchziehen",
+                "Mazada"
+            ]
+        }
+    },
     "900000": {
         "name": "Death Declaration",
         "flags": [false,  false,  true,  false],
@@ -100727,6 +100925,109 @@
                 "Drain mortel",
                 "Tödlicher Sog",
                 "Drenaje mortal"
+            ]
+        }
+    },
+    "900195": {
+        "name": "Deadly Intimidating Gaze",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic dark damage (3x, MAG) to all enemies",
+            "Inflict Petrify (30%) on all enemies",
+            "Reduce resistance to Dark by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  0,  30,  1]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -50,  1,  3]]],
+        "strings": {
+            "name": [
+                "Deadly Intimidating Gaze",
+                "致命的威嚇凝視",
+                "극도로 위협적인 시선",
+                "Regard mortellement intimidant",
+                "Tödlicher Einschüchternder Blick",
+                "Mirada intimidante mortal"
+            ]
+        }
+    },
+    "900196": {
+        "name": "Deadly Cursed Mind",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (5x, MAG) to one enemy",
+            "Inflict Blind, Silence and Confusion (10%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [1, 1, 6, [0,  10,  0,  10,  0,  10,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Deadly Cursed Mind",
+                "致命的心靈詛咒",
+                "극도로 저주받은 영혼",
+                "Esprit mortellement maudit",
+                "Tödlicher Verfluchter Geist",
+                "Mente maldita mortal"
+            ]
+        }
+    },
+    "900197": {
+        "name": "I will destroy you!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (120x, MAG) to all enemies",
+            "Reduce resistance to Light and Dark by 300% for 3 turns to caster"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  12000]], [1, 3, 33, [0,  0,  0,  0,  0,  0,  -300,  -300,  1,  3]]],
+        "strings": {
+            "name": [
+                "I will destroy you!",
+                "我要毀了你！",
+                "널 없애주마!",
+                "Je vous anéantirai !",
+                "Ich werde dich vernichten!",
+                "¡Acabaré contigo!"
+            ]
+        }
+    },
+    "900198": {
+        "name": "Cursed Recovery",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Hybrid",
+        "execute_type": "Default",
+        "effects": ["Restore 5% HP to all allies"],
+        "effects_raw": [[2, 2, 26, [5,  5,  100]]],
+        "strings": {
+            "name": [
+                "Cursed Recovery",
+                "受詛咒的治療",
+                "저주받은 회복",
+                "Restauration maudite",
+                "Verfluchtes Kurieren",
+                "Recuperación maldita"
+            ]
+        }
+    },
+    "900199": {
+        "name": "Malefic Sacrifice",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Sacrifice 100% HP to deal 10% HP damage to all enemies",
+            "Magic damage (200x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 39, [0,  100,  0,  10,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  20000]]],
+        "strings": {
+            "name": [
+                "Malefic Sacrifice",
+                "邪惡獻祭",
+                "악의가 있는 희생",
+                "Sacrifice maléfique",
+                "Boshaftes Opfer",
+                "Sacrificio maléfico"
             ]
         }
     }

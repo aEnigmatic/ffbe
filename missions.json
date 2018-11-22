@@ -57162,12 +57162,12 @@
             },
             {
                 "string": "「ウォータースクリーン」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Water Screen"],
                 "reward": ["UNIT", 900001101, 3]
             },
             {
                 "string": "「流動の水」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Water of Fluidity"],
                 "reward": ["ITEM", 106200100, 1]
             }
         ]
@@ -57199,12 +57199,12 @@
             },
             {
                 "string": "「クラッシュスタンプ」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Crush Stamp"],
                 "reward": ["UNIT", 905000102, 3]
             },
             {
                 "string": "「武器鍛錬・炎」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Forge Weaponry - Flame"],
                 "reward": ["ITEM", 106200100, 1]
             }
         ]
@@ -91814,7 +91814,7 @@
         "exp": 440,
         "challenges": [
             {
-                "string": "Deal water damage 3 times or more",
+                "string": "Deal water damage 3 times or more to an enemy",
                 "parsed": ["Deal Water damage 3 times or more"],
                 "reward": ["LAPIS", 1, 50]
             },
@@ -97298,6 +97298,191 @@
             {
                 "string": "「イド」戦を10ターン以内でクリア",
                 "parsed": ["Clear in 10 turns or less"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
+    "8430101": {
+        "dungeon_id": 84301,
+        "name": "Abandoned Factory - INT",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 100]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use magic",
+                "parsed": ["Use magic"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430102": {
+        "dungeon_id": 84301,
+        "name": "Abandoned Factory - ADV",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 200]
+            },
+            {
+                "string": "Use black magic",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430103": {
+        "dungeon_id": 84301,
+        "name": "Abandoned Factory - PRO",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 300]
+            },
+            {
+                "string": "Use magic 3 or more times",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear within 5 turns",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Use no more than 5 items",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430104": {
+        "dungeon_id": 84301,
+        "name": "Abandoned Factory - ELT",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use 2 or more limit bursts",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "Use no more than 3 items",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8440101": {
+        "dungeon_id": 84401,
+        "name": "The Formidable Engels",
+        "type": "BATTLE",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 217000600, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 106303200, 10000]
+            },
+            {
+                "string": "Defeat the Engels within 10 turns",
+                "parsed": ["Clear in 10 turns or less"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Party of 5 or less (Companion included)",
+                "parsed": ["Party of 5 or less (Companion included)"],
                 "reward": ["UNIT", 904000104, 1]
             }
         ]
@@ -103097,12 +103282,12 @@
                 "reward": ["LAPIS", 1, 10]
             },
             {
-                "string": "Use tent",
+                "string": "Use a tent",
                 "parsed": ["Use Tent"],
                 "reward": ["ITEM", 106000100, 5]
             },
             {
-                "string": "Use hi-potion",
+                "string": "Use a hi-potion",
                 "parsed": ["Use Hi-Potion"],
                 "reward": ["EQUIP", 302000700, 1]
             },
@@ -103990,7 +104175,7 @@
                 "reward": ["ITEM", 106301800, 1]
             },
             {
-                "string": "Use Mesmerize",
+                "string": "Use mesmerize",
                 "parsed": ["Use Mesmerize"],
                 "reward": ["ITEM", 106301800, 1]
             },
@@ -110579,6 +110764,19 @@
         ]
     },
     "9470101": {
+        "dungeon_id": 94701,
+        "name": "Trial of Vengeance",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 150,
+        "exp": 1100,
         "challenges": [
             {
                 "string": "Complete the quest",
@@ -126174,7 +126372,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「アルドール皇帝」を魔法でフィニッシュ",
+                "string": "Defeat the Aldore Emperor with magic",
                 "parsed": ["Defeat Aldore Emperor with magic"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126322,7 +126520,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「凄腕の剣士」戦を5ターン以内でクリア",
+                "string": "Defeat Powerful Swordsman's party within 5 turns",
                 "parsed": ["Clear in 5 turns or less"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126470,7 +126668,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「精鋭突撃兵」戦を3ターン以内でクリア",
+                "string": "Defeat Elite Assault Soldier's party within 3 turns",
                 "parsed": ["Clear in 3 turns or less"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126618,7 +126816,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「ノランデラ」をＬＢでフィニッシュ",
+                "string": "Defeat the Norandel with a limit burst",
                 "parsed": ["Defeat Norandel with a limit burst"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126840,7 +127038,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「ヒマリア」を魔法でフィニッシュ",
+                "string": "Defeat the Himalia with magic",
                 "parsed": ["Defeat Himalia with magic"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126877,7 +127075,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「アクスター」を魔法でフィニッシュ",
+                "string": "Defeat Akstar with magic",
                 "parsed": ["Defeat Akstar with magic"],
                 "reward": ["LAPIS", 1, 20]
             },
@@ -126914,7 +127112,7 @@
                 "reward": ["LAPIS", 1, 20]
             },
             {
-                "string": "「アクスター」をＬＢでフィニッシュ",
+                "string": "Defeat Akstar with a limit burst",
                 "parsed": ["Defeat Akstar with a limit burst"],
                 "reward": ["LAPIS", 1, 20]
             },
