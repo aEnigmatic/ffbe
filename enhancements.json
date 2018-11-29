@@ -150,7 +150,7 @@
                 "召喚魔法+30%",
                 "소환마법+30%",
                 "INV +30%",
-                "BSW MAG + 30 %",
+                "RUF MAG + 30 %",
                 "MAG INV +30%"
             ],
             "description": [
@@ -183,7 +183,7 @@
                 "召喚魔法+40%",
                 "소환마법+40%",
                 "INV +40%",
-                "BSW MAG + 40 %",
+                "RUF MAG + 40 %",
                 "MAG INV +40%"
             ],
             "description": [
@@ -193,6 +193,71 @@
                 "Amplifie l'augmentation des paramètres lorsqu'une chimère est appelée (moyen)",
                 "Steigert die erhöhten Werte gerufener Esper (mittel)",
                 "Aumenta las estadísticas de los espers evocados (bastante)"
+            ]
+        }
+    },
+    "100730003": {
+        "name": "Auto-Regen",
+        "skill_id_old": 100730,
+        "skill_id_new": 911670,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Auto-Regen",
+                "自動再生",
+                "자동 리제네",
+                "Auto-Récup",
+                "Auto-Regena",
+                "AutoRevitalia"
+            ],
+            "description": [
+                "Boosts HP restoration amount (great)",
+                "提高HP恢復量(特大)",
+                "HP 회복량 상승(특대)",
+                "Augmente le taux de restauration des PV (super)",
+                "Erhöht den Wert regenerierter LP (sehr hoch)",
+                "Aumenta la recuperación de VIT (muchísimo)"
+            ]
+        }
+    },
+    "100730004": {
+        "name": "Auto-Regen",
+        "skill_id_old": 911670,
+        "skill_id_new": 911671,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Auto-Regen",
+                "自動再生",
+                "자동 리제네",
+                "Auto-Récup",
+                "Auto-Regena",
+                "AutoRevitalia"
+            ],
+            "description": [
+                "Boosts HP restoration amount (great)",
+                "提高HP恢復量(特大)",
+                "HP 회복량 상승(특대)",
+                "Augmente le taux de restauration des PV (super)",
+                "Erhöht den Wert regenerierter LP (sehr hoch)",
+                "Aumenta la recuperación de VIT (muchísimo)"
             ]
         }
     },
@@ -5597,7 +5662,7 @@
                 "270004400": 1
             }
         },
-        "units": [203000404],
+        "units": [203000404, 215000403],
         "strings": {
             "names": [
                 "Embolden",
@@ -5631,7 +5696,7 @@
                 "270004500": 1
             }
         },
-        "units": [203000404],
+        "units": [203000404, 215000403],
         "strings": {
             "names": [
                 "Embolden",
@@ -14131,7 +14196,7 @@
                 "270004900": 1
             }
         },
-        "units": [215001204],
+        "units": [215001204, 215000205],
         "strings": {
             "names": [
                 "Large Sword Mastery",
@@ -14142,12 +14207,12 @@
                 "Maestría de espada G"
             ],
             "description": [
-                "Boosts ATK increase (great)",
+                "Boosts ATK increase (high)",
                 "提高攻擊增加量(大)",
-                "공격력 상승량 상승(특대)",
-                "Amplifie l'augmentation de l'ATT (super)",
-                "Steigert ANG-Erhöhung (sehr hoch)",
-                "Mayor aumento de ATQ (muchísimo)"
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento de ATQ (mucho)"
             ]
         }
     },
@@ -14165,7 +14230,7 @@
                 "270005000": 1
             }
         },
-        "units": [215001204],
+        "units": [215001204, 215000205],
         "strings": {
             "names": [
                 "Large Sword Mastery",
@@ -14176,12 +14241,12 @@
                 "Maestría de espada G"
             ],
             "description": [
-                "Boosts ATK increase (great)",
+                "Boosts ATK increase (high)",
                 "提高攻擊增加量(大)",
-                "공격력 상승량 상승(특대)",
-                "Amplifie l'augmentation de l'ATT (super)",
-                "Steigert ANG-Erhöhung (sehr hoch)",
-                "Mayor aumento de ATQ (muchísimo)"
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento de ATQ (mucho)"
             ]
         }
     },
@@ -21383,7 +21448,7 @@
             ],
             "description": [
                 "Boosts damage reduction when active (low)",
-                "提高發動時傷害減少量(小)",
+                "提高發動時傷害減少率(小)",
                 "발동 시 피해 감소량 상승(소)",
                 "Amplifie la réduction de dégâts une fois activé (peu)",
                 "Erhöht Schadensreduzierung, wenn aktiv (gering)",
@@ -21417,7 +21482,7 @@
             ],
             "description": [
                 "Boosts damage reduction when active (low)",
-                "提高發動時傷害減少量(小)",
+                "提高發動時傷害減少率(小)",
                 "발동 시 피해 감소량 상승(소)",
                 "Amplifie la réduction de dégâts une fois activé (peu)",
                 "Erhöht Schadensreduzierung, wenn aktiv (gering)",
@@ -24622,6 +24687,409 @@
             ]
         }
     },
+    "216100001": {
+        "name": "Royal Guard",
+        "skill_id_old": 216100,
+        "skill_id_new": 707242,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Royal Guard",
+                "王家之盾",
+                "로얄 가드",
+                "Bouclier du roi",
+                "Schild des Königs",
+                "Escudo del rey"
+            ],
+            "description": [
+                "Boosts turns in effect (low)",
+                "提高效果回合數(小)",
+                "효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets (peu)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (poco)"
+            ]
+        }
+    },
+    "216100002": {
+        "name": "Royal Guard",
+        "skill_id_old": 707242,
+        "skill_id_new": 707243,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Royal Guard",
+                "王家之盾",
+                "로얄 가드",
+                "Bouclier du roi",
+                "Schild des Königs",
+                "Escudo del rey"
+            ],
+            "description": [
+                "Boosts damage reduction when active (high)",
+                "提高發動時傷害減少率(大)",
+                "발동 시 피해 감소량 상승(대)",
+                "Amplifie la réduction des dégâts une fois activée (beaucoup)",
+                "Erhöht Schadensverringerung, wenn aktiv (hoch)",
+                "Mayor reducción de daño al activarse (mucho)"
+            ]
+        }
+    },
+    "216110001": {
+        "name": "Intercept",
+        "skill_id_old": 216110,
+        "skill_id_new": 707246,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Intercept",
+                "衝刺防禦",
+                "대시 가드",
+                "Intercepter",
+                "Abfangjäger",
+                "Guardia vigorosa"
+            ],
+            "description": [
+                "Boosts maximum damage reduction when active (mid)",
+                "提高發動時的最大傷害減少量(中)",
+                "발동 시 최대 피해 감소량 상승(중)",
+                "Augmente la réduction des dégâts maximum une fois activé (moyen)",
+                "Erhöht maximale Schadensverringerung, wenn aktiv (mittel)",
+                "Mayor porcentaje de reducción máxima de daño al activarse (bastante)"
+            ]
+        }
+    },
+    "216110002": {
+        "name": "Intercept",
+        "skill_id_old": 707246,
+        "skill_id_new": 707247,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "Intercept",
+                "衝刺防禦",
+                "대시 가드",
+                "Intercepter",
+                "Abfangjäger",
+                "Guardia vigorosa"
+            ],
+            "description": [
+                "Boosts maximum damage reduction when active (mid)",
+                "提高發動時的最大傷害減少量(中)",
+                "발동 시 최대 피해 감소량 상승(중)",
+                "Augmente la réduction des dégâts maximum une fois activé (moyen)",
+                "Erhöhte maximale Schadensverringerung, wenn aktiv (mittel)",
+                "Mayor porcentaje de reducción máxima de daño al activarse (bastante)"
+            ]
+        }
+    },
+    "216160001": {
+        "name": "King's Shield",
+        "skill_id_old": 216160,
+        "skill_id_new": 707244,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 8,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "King's Shield",
+                "王之盾",
+                "왕의 방패",
+                "Bouclier royal",
+                "Königsschild",
+                "Escudo real"
+            ],
+            "description": [
+                "Boosts HP, DEF, and SPR increases (low)",
+                "提高HP防禦精神增加量(小)",
+                "HP, 방어력, 정신력 상승량 상승(소)",
+                "Amplifie l'augmentation des PV, de la DEF et de la PSY (peu)",
+                "Steigert LP, ABW und PSY-Erhöhungen (gering)",
+                "Mayor aumento de VIT, DEF y ESP (poco)"
+            ]
+        }
+    },
+    "216160002": {
+        "name": "King's Shield",
+        "skill_id_old": 707244,
+        "skill_id_new": 707245,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 12,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [215000205],
+        "strings": {
+            "names": [
+                "King's Shield",
+                "王之盾",
+                "왕의 방패",
+                "Bouclier royal",
+                "Königsschild",
+                "Escudo real"
+            ],
+            "description": [
+                "Boosts HP, DEF, and SPR increases (low)",
+                "提高HP防禦精神增加量(小)",
+                "HP, 방어력, 정신력 상승량 상승(소)<",
+                "Amplifie l'augmentation des PV, de la DEF et de la PSY (peu)",
+                "Steigert LP, ABW und PSY-Erhöhungen (gering)",
+                "Mayor aumento de VIT, DEF y ESP (poco)"
+            ]
+        }
+    },
+    "216210001": {
+        "name": "Slaughtering Blade",
+        "skill_id_old": 216210,
+        "skill_id_new": 707250,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 10,
+                "270002800": 8,
+                "270002900": 2,
+                "270003000": 1
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Slaughtering Blade",
+                "斬瞬刀",
+                "참순도",
+                "Lame sanguinaire",
+                "Schlachtklinge",
+                "Hoja sanguinaria"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht Schaden (gering)",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "216210002": {
+        "name": "Slaughtering Blade",
+        "skill_id_old": 707250,
+        "skill_id_new": 707251,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 23,
+                "270002700": 15,
+                "270002800": 12,
+                "270002900": 4,
+                "270003000": 1
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Slaughtering Blade",
+                "斬瞬刀",
+                "참순도",
+                "Lame sanguinaire",
+                "Schlachtklinge",
+                "Hoja sanguinaria"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "216220001": {
+        "name": "Tri-Guard",
+        "skill_id_old": 216220,
+        "skill_id_new": 707252,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Tri-Guard",
+                "路希斯三強",
+                "루시스 3대 강호",
+                "Les 3 champions du Lucis",
+                "Die drei Stärksten von Lucis",
+                "Los 3 magníficos de Lucis"
+            ],
+            "description": [
+                "Boosts ATK",
+                "提高攻擊",
+                "공격력 상승",
+                "Augmente l'ATT",
+                "Erhöht ANG",
+                "Aumenta el ATQ"
+            ]
+        }
+    },
+    "216220002": {
+        "name": "Tri-Guard",
+        "skill_id_old": 707252,
+        "skill_id_new": 707253,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Tri-Guard",
+                "路希斯三強",
+                "루시스 3대 강호",
+                "Les 3 champions du Lucis",
+                "Die drei Stärksten von Lucis",
+                "Los 3 magníficos de Lucis"
+            ],
+            "description": [
+                "Boosts HP increase (low)<br>Boosts MP",
+                "提高HP增加量(小)<br>提高MP",
+                "HP 상승량 상승(소)<br>MP 상승",
+                "Amplifie l'augmentation des PV (peu)<br>Augmente les PM",
+                "Erhöht LP-Erhöhung (gering)<br>Erhöht MP",
+                "Mayor aumento de VIT (poco)<br>Aumenta los PM"
+            ]
+        }
+    },
+    "216260001": {
+        "name": "Sword Draw",
+        "skill_id_old": 216260,
+        "skill_id_new": 707248,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 20,
+                "270004700": 15,
+                "270004800": 10,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Sword Draw",
+                "拔刀術",
+                "거합도",
+                "Dégainer",
+                "Schwert ziehen",
+                "Desenvaine"
+            ],
+            "description": [
+                "Boosts ATK increase (low)",
+                "提高攻擊增加量(小)",
+                "공격력 상승량 상승(소)",
+                "Amplifie l'augmentation de l'ATT (peu)",
+                "Steigert die ANG-Erhöhung (gering)",
+                "Mayor aumento de ATQ (poco)"
+            ]
+        }
+    },
+    "216260002": {
+        "name": "Sword Draw",
+        "skill_id_old": 707248,
+        "skill_id_new": 707249,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 30,
+                "270004700": 23,
+                "270004800": 15,
+                "270004900": 4,
+                "270005000": 2
+            }
+        },
+        "units": [215000304],
+        "strings": {
+            "names": [
+                "Sword Draw",
+                "拔刀術",
+                "거합도",
+                "Dégainer",
+                "Schwert ziehen",
+                "Desenvaine"
+            ],
+            "description": [
+                "Boosts ATK increase (high)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento de ATQ (mucho)"
+            ]
+        }
+    },
     "216450001": {
         "name": "Hexa Thrust",
         "skill_id_old": 216450,
@@ -24709,7 +25177,7 @@
             "names": [
                 "Super Heavenfall Spear",
                 "飛天滅龍槍・極",
-                "비천명룡창·극",
+                "비천멸룡창·극",
                 "Lance tombeciel+",
                 "Superhimmelsfallspeer",
                 "Lanza derrumbacielos+"
@@ -24743,7 +25211,7 @@
             "names": [
                 "Super Heavenfall Spear",
                 "飛天滅龍槍・極",
-                "비천명룡창·극",
+                "비천멸룡창·극",
                 "Lance tombeciel+",
                 "Superhimmelsfallspeer",
                 "Lanza derrumbacielos+"
@@ -24826,6 +25294,208 @@
             ]
         }
     },
+    "216570001": {
+        "name": "Drake Formation",
+        "skill_id_old": 216570,
+        "skill_id_new": 707270,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 8,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Drake Formation",
+                "龍陣",
+                "용진",
+                "Formation dragonnique",
+                "Drachenformation",
+                "Formación dracónida"
+            ],
+            "description": [
+                "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance increases (low)",
+                "提高火冰雷水風土光暗屬性耐性增加量(小)",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승량 상승(소)",
+                "Amplifie l'augmentation de la résistance à feu, glace, foudre, eau, vent, terre, lumière, et ténèbres (peu)",
+                "Steigert Resistenzerhöhungen für Feuer, Eis, Blitz, Wasser, Wind, Erde, Licht und Dunkel (gering)",
+                "Mayor aumento de resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad (poco)"
+            ]
+        }
+    },
+    "216570002": {
+        "name": "Drake Formation",
+        "skill_id_old": 707270,
+        "skill_id_new": 707271,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 12,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Drake Formation",
+                "龍陣",
+                "용진",
+                "Formation dragonnique",
+                "Drachenformation",
+                "Formación dracónida"
+            ],
+            "description": [
+                "Boosts fire, ice, lightning, water, wind, earth, light, and dark resistance increases (mid)",
+                "提高火冰雷水風土光暗屬性耐性增加量(中)",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 상승량 상승(중)",
+                "Amplifie l'augmentation de la résistance à feu, glace, foudre, eau, vent, terre, lumière, et ténèbres (moyen)",
+                "Steigert Erhöhungen von Feuer-, Eis-, Blitz-, Wasser-, Wind-, Erd-, Licht- und Dunkelresistenz (mittel)",
+                "Mayor aumento de resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad (bastante)"
+            ]
+        }
+    },
+    "216580001": {
+        "name": "Drake Slay Ritual",
+        "skill_id_old": 216580,
+        "skill_id_new": 707268,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Drake Slay Ritual",
+                "屠龍儀式",
+                "용 살해의 비의",
+                "Rituel tuedragons",
+                "Drachenschlächter-Ritual",
+                "Ritual matadragones"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (low)",
+                "提高對龍系魔物的傷害增加量(小)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(소)",
+                "Amplifie l'augmentation des dégâts infligés aux dragons (peu)",
+                "Steigert Schadenserhöhung gegen Drachen (gering)",
+                "Aumenta el daño contra dragones (poco)"
+            ]
+        }
+    },
+    "216580002": {
+        "name": "Drake Slay Ritual",
+        "skill_id_old": 707268,
+        "skill_id_new": 707269,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Drake Slay Ritual",
+                "屠龍儀式",
+                "용 살해의 비의",
+                "Rituel tuedragons",
+                "Drachenschlächter-Ritual",
+                "Ritual matadragones"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (low)",
+                "提高對龍系魔物的傷害增加量(小)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(소)",
+                ">Amplifie l'augmentation des dégâts infligés aux dragons (peu)",
+                "Steigert Schadenserhöhung gegen Drachen (gering)",
+                "Aumenta el daño contra dragones (poco)"
+            ]
+        }
+    },
+    "216630001": {
+        "name": "Priestly Visage",
+        "skill_id_old": 216630,
+        "skill_id_new": 707266,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Priestly Visage",
+                "祭司的器量",
+                "사제의 기량",
+                "Figure cléricale",
+                "Priesterliches Gesicht",
+                "Dotes clericales"
+            ],
+            "description": [
+                "Boosts ATK and SPR increases (low)",
+                "提高攻擊精神增加量(小)",
+                "공격력과 정신력 상승량 상승(소)",
+                "Amplifie l'augmentation de l'ATT et de la PSY (peu)",
+                "Steigert ANG- und PSY-Erhöhungen (gering)",
+                "Mayor aumento de ATQ y ESP (poco)"
+            ]
+        }
+    },
+    "216630002": {
+        "name": "Priestly Visage",
+        "skill_id_old": 707266,
+        "skill_id_new": 707267,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [100010904],
+        "strings": {
+            "names": [
+                "Priestly Visage",
+                "祭司的器量",
+                "사제의 기량",
+                "Figure cléricale",
+                "Priesterliches Gesicht",
+                "Dotes clericales"
+            ],
+            "description": [
+                "Boosts ATK and SPR increases (mid)",
+                "提高攻擊精神增加量(中)",
+                "공격력과 정신력 상승량 상승(중)",
+                "Amplifie l'augmentation de l'ATT et de la PSY (moyen)",
+                "Steigert ANG- und PSY-Erhöhungen (mittel)",
+                "Mayor aumento de ATQ y ESP (bastante)"
+            ]
+        }
+    },
     "216680001": {
         "name": "Triteleia Wall",
         "skill_id_old": 216680,
@@ -24885,7 +25555,7 @@
             ],
             "description": [
                 "Boosts chance of taking magic damage (mid)",
-                "提高發動機率(大)<br>提高發動時傷害減少率(小)",
+                "提高發動機率(大)<br>提高發動時的最大傷害減少量(小)",
                 "발동 시 최대 피해량 감소율 상승(중)<br><color=0:255:0>마법 피해 부여 확률 상승(중)",
                 "Augmente les chances de subir des dégâts magiques (moyen)",
                 "Erhöht Chance, mag. Schaden zu erleiden (mittel)",
@@ -25022,6 +25692,71 @@
                 "Augmente les chances d'activation (moyen)",
                 "Erhöht Chance der Aktivierung (mittel)",
                 "Aumenta la probabilidad de activarse (bastante)"
+            ]
+        }
+    },
+    "216780001": {
+        "name": "Drakes Fog Dance",
+        "skill_id_old": 216780,
+        "skill_id_new": 707282,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Drakes Fog Dance",
+                "招雲龍舞",
+                "초운의 용무",
+                "Danse du dragon des brumes",
+                "Drachennebeltanz",
+                "Baile del dragón de niebla"
+            ],
+            "description": [
+                "Boosts HP restoration amount (high)",
+                "提高HP恢復量(大)",
+                "HP 회복량 상승(대)",
+                "Augmente le nombre de PV restaurés (beaucoup)",
+                "Erhöht Wert regenerierter LP (hoch)",
+                "Aumenta la recuperación de VIT (mucho)"
+            ]
+        }
+    },
+    "216780002": {
+        "name": "Drakes Fog Dance",
+        "skill_id_old": 707282,
+        "skill_id_new": 707283,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 1
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Drakes Fog Dance",
+                "招雲龍舞",
+                "초운의 용무",
+                "Danse du dragon des brumes",
+                "Drachennebeltanz",
+                "Baile del dragón de niebla"
+            ],
+            "description": [
+                "Boosts HP restoration amount (high)",
+                "提高HP恢復量(大)",
+                "HP 회복량 상승(대)",
+                "Augmente le nombre de PV restaurés (beaucoup)",
+                "Erhöht Wert regenerierter (hoch)",
+                "Aumenta la recuperación de VIT (mucho)"
             ]
         }
     },
@@ -25750,6 +26485,139 @@
             ]
         }
     },
+    "221500001": {
+        "name": "Get pumped everyone!",
+        "skill_id_old": 221500,
+        "skill_id_new": 707256,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3
+            }
+        },
+        "units": [215000403],
+        "strings": {
+            "names": [
+                "Get pumped everyone!",
+                "大家打起精神！",
+                "다들 기운 내!",
+                "Encore un petit effort !",
+                "Aufheitern",
+                "¡Venga chicos, ánimo!"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert MP-Verbrauch (mittel)",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "221500002": {
+        "name": "Get pumped everyone!",
+        "skill_id_old": 707256,
+        "skill_id_new": 707257,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 2
+            }
+        },
+        "units": [215000403],
+        "strings": {
+            "names": [
+                "Get pumped everyone!",
+                "大家打起精神！",
+                "다들 기운 내!",
+                "Encore un petit effort !",
+                "Aufheitern",
+                "¡Venga chicos, ánimo!"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert MP-Verbrauch (mittel)",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "221530001": {
+        "name": "Give it your all!",
+        "skill_id_old": 221530,
+        "skill_id_new": 707254,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [215000403],
+        "strings": {
+            "names": [
+                "Give it your all!",
+                "要認真上了！",
+                "진짜로 간다!",
+                "J'y vais à fond",
+                "Mit Volldampf voraus!",
+                "¡Vamos a por todas!"
+            ],
+            "description": [
+                "Boosts turns in effect for double ability - Iris (low)",
+                "提高「W能力・伊莉絲」的效果回合數(小)",
+                "'W어빌리티·아이리스'의 효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets pour Double aptitude - Iris (peu)",
+                "Erhöht Anzahl aktiver Runden für Doppelfähigkeit - Iris (gering)",
+                "Aumenta la duración de Habilidad doble - Iris (poco)"
+            ]
+        }
+    },
+    "221530002": {
+        "name": "Give it your all!",
+        "skill_id_old": 707254,
+        "skill_id_new": 707255,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 1
+            }
+        },
+        "units": [215000403],
+        "strings": {
+            "names": [
+                "Give it your all!",
+                "要認真上了！",
+                "진짜로 간다!",
+                "J'y vais à fond",
+                "Mit Volldampf voraus!",
+                "¡Vamos a por todas!"
+            ],
+            "description": [
+                "Boosts turns in effect for double ability - Iris (low)",
+                "提高「W能力・伊莉絲」的效果回合數(小)",
+                "'W어빌리티·아이리스'의 효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets pour Double aptitude - Iris (peu)",
+                "Erhöht Anzahl aktiver Runden für Doppelfähigkeit - Iris (gering)",
+                "Aumenta la duración de Habilidad doble - Iris (poco)"
+            ]
+        }
+    },
     "224140001": {
         "name": "Liberation",
         "skill_id_old": 224140,
@@ -25881,6 +26749,136 @@
                 "Amplifie l'augmentation de la MAGIE (beaucoup)",
                 "Steigert MP-Erhöhung (hoch)",
                 "Mayor aumento de MAG (mucho)"
+            ]
+        }
+    },
+    "225210001": {
+        "name": "Dragon Blade Dance",
+        "skill_id_old": 225210,
+        "skill_id_new": 707278,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Dragon Blade Dance",
+                "龍刃之舞",
+                "용인의 춤",
+                "Danse de la lame dragonique",
+                "Tanz der Drachenklinge",
+                "Baile de la hoja draconiana"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (low)",
+                "提高對龍系魔物的傷害增加量(小)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(소)",
+                "Amplifie l'augmentation des dégâts infligés aux dragons (peu)",
+                "Steigert Schadenserhöhung gegen Drachen (gering)",
+                "Aumenta el daño contra dragones (poco)"
+            ]
+        }
+    },
+    "225210002": {
+        "name": "Dragon Blade Dance",
+        "skill_id_old": 707278,
+        "skill_id_new": 707279,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 2
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Dragon Blade Dance",
+                "龍刃之舞",
+                "용인의 춤",
+                "Danse de la lame dragonique",
+                "Tanz der Drachenklinge",
+                "Baile de la hoja draconiana"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (mid)",
+                "提高對龍系魔物的傷害增加量(中)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(중)",
+                "Amplifie l'augmentation des dégâts infligés aux dragons (moyen)",
+                "Steigert Schadenserhöhung gegen Drachen (mittel)",
+                "Aumenta el daño contra dragones (bastante)"
+            ]
+        }
+    },
+    "225220001": {
+        "name": "Dragon Magic Dance",
+        "skill_id_old": 225220,
+        "skill_id_new": 707280,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 3
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Dragon Magic Dance",
+                "龍魔之舞",
+                "용마의 춤",
+                "Danse de la magie dragonique",
+                "Tanz der Drachenmagie",
+                "Baile de la magia draconiana"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (low)",
+                "提高對龍系魔物的傷害增加量(小)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(소)",
+                "Amplifie l'augmentation des dégâts infligés aux dragons (peu)",
+                "Steigert Schadenserhöhung gegen Drachen (gering)",
+                "Aumenta el daño contra dragones (poco)"
+            ]
+        }
+    },
+    "225220002": {
+        "name": "Dragon Magic Dance",
+        "skill_id_old": 707280,
+        "skill_id_new": 707281,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 5,
+                "270000900": 2
+            }
+        },
+        "units": [100011103],
+        "strings": {
+            "names": [
+                "Dragon Magic Dance",
+                "龍魔之舞",
+                "용마의 춤",
+                "Danse de la magie dragonique",
+                "Tanz der Drachenmagie",
+                "Baile de la magia draconiana"
+            ],
+            "description": [
+                "Boosts damage increase against dragons (mid)",
+                "提高對龍系魔物的傷害增加量(中)",
+                "드래곤형 마물에게 부여하는 피해 상승량 상승(중)",
+                "Amplifie l'augmentation des dégâts infligés aux dragons (moyen)",
+                "Steigert Schadenserhöhung gegen Drachen (mittel)",
+                "Aumenta el daño contra dragones (bastante)"
             ]
         }
     },
@@ -26361,7 +27359,7 @@
                 "점화",
                 "Départ de feu",
                 "Feuer",
-                "Prender"
+                "Ignición"
             ],
             "description": [
                 "Boosts ATK and MAG increases (high)",
@@ -26394,7 +27392,7 @@
                 "점화",
                 "Départ de feu",
                 "Feuer",
-                "Prender"
+                "Ignición"
             ],
             "description": [
                 "Boosts ATK and MAG increases (high)",
@@ -33067,7 +34065,7 @@
             ],
             "description": [
                 "Boosts maximum damage reduction when active (mid)",
-                "提高發動時造成的最大傷害減少量(中)",
+                "提高發動時的最大傷害減少量(中)",
                 "발동 시 최대 피해 감소량 상승(중)",
                 "Augmente la réduction des dégâts maximum une fois activé (moyen)",
                 "Erhöht maximale Schadensverringerung, wenn aktiv (mittel)",
@@ -33101,7 +34099,7 @@
             ],
             "description": [
                 "Boosts maximum damage reduction when active (mid)",
-                "提高發動時造成的最大傷害減少量(中)",
+                "提高發動時的最大傷害減少量(中)",
                 "발동 시 최대 피해 감소량 상승(중)",
                 "Augmente la réduction des dégâts maximum une fois activé (moyen)",
                 "Erhöht maximale Schadensverringerung, wenn aktiv (mittel)",
