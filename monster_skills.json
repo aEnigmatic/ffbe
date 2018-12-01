@@ -17297,7 +17297,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]],
         "strings": {
             "name": [
@@ -36729,7 +36729,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (50%) to one enemy (ignores death resist)"
+            "Instant KO (50%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [50,  1]]],
         "strings": {
@@ -45232,7 +45232,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (12x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  1200]]],
@@ -45253,7 +45253,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (5x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  500]]],
@@ -45274,7 +45274,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (2.5x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  250]]],
@@ -50685,7 +50685,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (50%) to one enemy (ignores death resist)"
+            "Instant KO (50%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [50,  1,  0]]],
         "strings": {
@@ -51543,7 +51543,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (100%) to one enemy (ignores death resist)"
+            "Instant KO (100%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [100,  1,  0]]],
         "strings": {
@@ -60266,7 +60266,7 @@
         "execute_type": "Default",
         "effects": [
             "99% HP damage to all enemies",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[2, 1, 9, [99,  99,  100]], [0, 3, 35, [100]]],
         "strings": {
@@ -64577,7 +64577,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to all enemies"],
+        "effects": ["Instant KO (100%) to all enemies (ignores death resist)"],
         "effects_raw": [[2, 1, 35, [100]]],
         "strings": {
             "name": [
@@ -64631,7 +64631,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]],
         "strings": {
             "name": [
@@ -64891,7 +64891,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to all enemies"],
+        "effects": ["Instant KO (100%) to all enemies (ignores death resist)"],
         "effects_raw": [[2, 1, 35, [100]]],
         "strings": {
             "name": [
@@ -71873,7 +71873,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]],
         "strings": {
@@ -74914,7 +74914,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]],
         "strings": {
@@ -75052,7 +75052,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]],
         "strings": {
@@ -75262,7 +75262,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (40%) to one enemy (ignores death resist)"
+            "Instant KO (40%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [40,  1,  0]]],
         "strings": {
@@ -75770,7 +75770,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Instant KO (100%) to all enemies",
+            "Instant KO (100%) to all enemies (ignores death resist)",
             "Reduce physical damage taken by 100% to caster for 999 turns (can not be removed)",
             "Reduce magic damage taken by 100% to caster for 999 turns (can not be removed)"
         ],
@@ -85216,7 +85216,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #7",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 7, "MST_MONSTERSKILL_PARAM_MSG_193500", 100, 0]], [0, 3, 35, [100]]],
         "strings": {
@@ -85351,7 +85351,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #8",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 8, "MST_MONSTERSKILL_PARAM_MSG_193560", 100, 0]], [0, 3, 35, [100]]],
         "strings": {
@@ -86736,7 +86736,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Instant KO (25%) to one enemy"],
+        "effects": ["Instant KO (25%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [25,  0,  0]]],
         "strings": {
             "name": [
@@ -95143,7 +95143,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (10%) to one enemy (ignores death resist)"
+            "Instant KO (10%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [10,  1,  0]]],
         "strings": {
