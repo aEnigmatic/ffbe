@@ -42749,17 +42749,17 @@
             "effects": [
                 "Hybrid ice damage (19x, ATK & MAG) to all enemies",
                 "Inflict Stop (65%) for 3 turns on all enemies",
-                "Gain 3 uses of the following skills for one turn:\n\tEn Garde! (911633)\n\tFlower Assault (911629)\n\tFrost Flash (910160)\n\tFrost Flower Blitz (910161)\n\tFrost Flower Blitz+1 (911006)\n\tFrost Flower Blitz+2 (911007)\n\tFrost Riposte (911630)\n\tIce Saber (910154)\n\tOsmose Blade (200690)\n\tSaber Flunge (910151)\n\tSecond Intention (910159)\n\tSecond Intention+1 (911002)\n\tSecond Intention+2 (911003, 911004, 911005)"
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tEn Garde! (911633)\n\tFlower Assault (911629)\n\tFrost Flash (910160)\n\tFrost Flower Blitz (910161)\n\tFrost Flower Blitz+1 (911006)\n\tFrost Flower Blitz+2 (911007)\n\tFrost Riposte (911630)\n\tIce Saber (910154)\n\tOsmose Blade (200690)\n\tSaber Flunge (910151)\n\tSecond Intention (910159)\n\tSecond Intention+1 (911002)\n\tSecond Intention+2 (911003, 911004, 911005)"
             ],
-            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1900,  1900]], [2, 1, 88, [65,  3]], [0, 3, 98, [3, 911638, -1, [200690,  910151,  910154,  910159,  911002,  911003,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633], 2, 1, 1]]]},
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1900,  1900]], [2, 1, 88, [65,  3]], [0, 3, 98, [3, 911638, -1, [200690,  910151,  910154,  910159,  911002,  911003,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633,  911665], 2, 1, 1]]]},
         "max_level": {
             "cost": 25,
             "effects": [
                 "Hybrid ice damage (24.8x, ATK & MAG) to all enemies",
                 "Inflict Stop (94%) for 3 turns on all enemies",
-                "Gain 3 uses of the following skills for one turn:\n\tEn Garde! (911633)\n\tFlower Assault (911629)\n\tFrost Flash (910160)\n\tFrost Flower Blitz (910161)\n\tFrost Flower Blitz+1 (911006)\n\tFrost Flower Blitz+2 (911007)\n\tFrost Riposte (911630)\n\tIce Saber (910154)\n\tOsmose Blade (200690)\n\tSaber Flunge (910151)\n\tSecond Intention (910159)\n\tSecond Intention+1 (911002)\n\tSecond Intention+2 (911003, 911004, 911005)"
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tEn Garde! (911633)\n\tFlower Assault (911629)\n\tFrost Flash (910160)\n\tFrost Flower Blitz (910161)\n\tFrost Flower Blitz+1 (911006)\n\tFrost Flower Blitz+2 (911007)\n\tFrost Riposte (911630)\n\tIce Saber (910154)\n\tOsmose Blade (200690)\n\tSaber Flunge (910151)\n\tSecond Intention (910159)\n\tSecond Intention+1 (911002)\n\tSecond Intention+2 (911003, 911004, 911005)"
             ],
-            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2480,  2480]], [2, 1, 88, [94,  3]], [0, 3, 98, [3, 911638, -1, [200690,  910151,  910154,  910159,  911002,  911003,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633], 2, 1, 1]]]},
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2480,  2480]], [2, 1, 88, [94,  3]], [0, 3, 98, [3, 911638, -1, [200690,  910151,  910154,  910159,  911002,  911003,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633,  911665], 2, 1, 1]]]},
         "strings": {
             "name": [
                 "Ice Prison",
@@ -56876,6 +56876,138 @@
                 "Augmente l'ATT du lanceur et dégâts à un ennemi",
                 "Erhöht ANG des Benutzers und fügt einem Gegner Schaden zu.",
                 "Aumenta el ATQ y daña a un enemigo"
+            ]
+        }
+    },
+    "401006405": {
+        "name": "Judge and Jury",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[2,  2,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[60,  70,  118,  121,  124,  127,  130,  133,  136,  139,  142,  145,  148,  151]],
+        "effect_frames": [[1,  40,  62,  1,  100,  110]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (9.2x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  920,  920]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (13x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1300,  1300]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Judge and Jury",
+                "法官與陪審員",
+                "판사와 배심원",
+                "Seule juge",
+                "Alleiniger Richter",
+                "Jueza y jurado"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple flash for 2 turns",
+                "攻擊全體敵人+2回合內可使用「三重閃光」",
+                "적 전체에 피해+2턴 동안 '삼중 섬광' 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Triple Flash pendant 2 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht Dreifachblitz für 2 Runden.",
+                "Daño a todos los enemigos y aprende Megadestello durante 2 turnos"
+            ]
+        }
+    },
+    "401006406": {
+        "name": "Judge and Jury",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[2,  2,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[60,  70,  118,  121,  124,  127,  130,  133,  136,  139,  142,  145,  148,  151]],
+        "effect_frames": [[1,  40,  62,  1,  100,  110]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (13.2x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1320,  1320]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (18x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1800,  1800]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Judge and Jury",
+                "法官與陪審員",
+                "판사와 배심원",
+                "Seule juge",
+                "Alleiniger Richter",
+                "Jueza y jurado"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple flash for 2 turns",
+                "攻擊全體敵人+2回合內可使用「三重閃光」",
+                "적 전체에 피해+2턴 동안 '삼중 섬광' 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Triple Flash pendant 2 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht Dreifachblitz für 2 Runden.",
+                "Daño a todos los enemigos y aprende Megadestello durante 2 turnos"
+            ]
+        }
+    },
+    "401006407": {
+        "name": "Judge and Jury",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[2,  2,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[60,  70,  118,  121,  124,  127,  130,  133,  136,  139,  142,  145,  148,  151]],
+        "effect_frames": [[1,  40,  62,  1,  100,  110,  20]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (21.4x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2140,  2140]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (27.2x, ATK & MAG) to all enemies",
+                "Gain 3 uses of the following skills for one turn:\n\tAurora Storm (911665)\n\tFlash - Brilliance (911645)\n\tFlash - Dazzle (911651)\n\tFlash - Endless Punishment (911654)\n\tFlash - Furious Radiance (911657)\n\tFlash - Luster (911642)"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2720,  2720]], [0, 3, 98, [3, 911664, -1, [911642,  911645,  911651,  911654,  911657,  911665], 2, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Judge and Jury",
+                "法官與陪審員",
+                "판사와 배심원",
+                "Seule juge",
+                "Alleiniger Richter",
+                "Jueza y jurado"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple flash for 2 turns",
+                "攻擊全體敵人+2回合內可使用「三重閃光」",
+                "적 전체에 피해+2턴 동안 '삼중 섬광' 사용 가능",
+                "Dégâts à tous les ennemis et permet d'utiliser Triple Flash pendant 2 tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht Dreifachblitz für 2 Runden.",
+                "Daño a todos los enemigos y aprende Megadestello durante 2 turnos"
             ]
         }
     },

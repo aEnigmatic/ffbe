@@ -10570,7 +10570,7 @@
         "unit_restriction": null,
         "skills": [209540],
         "effects": ["Grants 'Gun Mastery' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_95.png",
@@ -18047,11 +18047,18 @@
                 "Booster Cactuar",
                 "增壓‧仙人掌",
                 "사보텐 부스트",
-                null,
+                "Pampa Mirage",
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                null,
+                null,
+                null,
+                "Augmente la MAGIE de 60%, la PSY de 20% et la résistance à l'eau de 50%",
+                null,
+                null
+            ],
             "desc_long": [null, null, null, null, null, null]
         }
     },
@@ -18075,12 +18082,19 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Restore HP and MP, fill LB gauge, and boost ATK, DEF, MAG, and SPR every turn during battle",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
             "desc_long": [null, null, null, null, null, null]
         }
     },
     "504227625": {
-        "name": "Sky Lancer",
+        "name": "Skylancer",
         "compendium_id": 812,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -18092,7 +18106,7 @@
         "icon": "ability_76.png",
         "strings": {
             "names": [
-                "Sky Lancer",
+                "Skylancer",
                 "空中長槍",
                 "스카이랜서",
                 null,
@@ -18100,7 +18114,7 @@
                 null
             ],
             "desc_short": [
-                "Boost equipment ATK when a single weapon is equipped in both hands, and boost ATK when equipped with a spear",
+                "Boost equipment ATK when a single weapon is equipped in both hands, and boost ATK when equipped with a spear (Not Stackable)",
                 null,
                 null,
                 null,
@@ -18108,7 +18122,7 @@
                 null
             ],
             "desc_long": [
-                "Boosts equipment ATK when a single weapon is equipped in both hands, and boosts ATK when equipped with a spear.",
+                "Boosts equipment ATK when a single weapon is equipped in both hands, and boosts ATK when equipped with a spear. Not Stackable.",
                 null,
                 null,
                 null,
@@ -18138,7 +18152,14 @@
                 null
             ],
             "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_long": [
+                "Restores HP and MP, fills LB gauge, and boosts ATK, DEF, MAG, and SPR every turn during battle",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504227641": {
@@ -18528,7 +18549,7 @@
         }
     },
     "504227930": {
-        "name": "Absolute Devotion",
+        "name": "Unquestionable Loyalty",
         "compendium_id": 825,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -18540,12 +18561,12 @@
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Absolute Devotion",
+                "Unquestionable Loyalty",
                 "絕對忠義",
                 "절대적인 충의",
-                null,
-                null,
-                null
+                "Loyauté incontestable",
+                "Absolute Treue",
+                "Lealtad incuestionable"
             ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
@@ -19209,7 +19230,7 @@
         "unit_restriction": null,
         "skills": [228416],
         "effects": ["Grants 'Hero's Vow - Earth' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
