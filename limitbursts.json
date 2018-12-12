@@ -14343,7 +14343,7 @@
         }
     },
     "100011807": {
-        "name": "ジャッジメントクロス",
+        "name": "Judgment Cross",
         "cost": 0,
         "attack_count": [11, 1],
         "attack_damage": [[9,  9,  9,  9,  9,  9,  9,  9,  9,  9,  10], [100]],
@@ -14371,14 +14371,21 @@
             "effects_raw": [[2, 1, 103, [100,  99999,  1040]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -65,  -65,  1,  3]], [2, 2, 27, [100,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Judgment Cross",
                 "交錯審判",
-                null,
-                null,
-                null,
-                null
+                "정의의 십자가",
+                "Signe du jugement",
+                "Urteilskreuz",
+                "Cruz del juicio"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage and reduce light and dark resistance for all enemies, and automatically revive all allies one time",
+                "攻擊全體敵人+降低光暗屬性耐性+賦予全體隊員進入無法戰鬥狀態時自動復活1次的效果",
+                "적 전체에 피해+빛과 어둠속성 저항력 감소+아군 전체의 전투불능 상태를 1회 자동 회복하는 효과 부여",
+                "Inflige dégâts à tous les ennemis, réduit leur résistance à la lumière et aux ténèbres, et lance une fois Auto-réveil sur tous les alliés",
+                "Fügt allen Gegnern Schaden zu und verringert ihre Licht- und Dunkelresistenz + belebt alle Verb. automatisch einmal wieder.",
+                "Daña y reduce la resistencia a la luz y a la oscuridad de todos los enemigos y revive automáticamente a todos los aliados una vez"
+            ]
         }
     },
     "100011905": {
@@ -15361,7 +15368,7 @@
         }
     },
     "100012607": {
-        "name": "マスタリーブレード",
+        "name": "Blade Master",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -15387,14 +15394,21 @@
             "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3200,  3200]], [0, 3, 100, [2,  220760,  99999,  4,  1,  1]]]},
         "strings": {
             "name": [
-                null,
+                "Blade Master",
                 "魔劍大師",
-                null,
-                null,
-                null,
-                null
+                "블레이드 마스터",
+                "Maître des lames",
+                "Meisterklinge",
+                "Maestro de espadas"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage one enemy and enable superior mageblade for a certain amount of turns",
+                "攻擊1名敵人+一定回合內可使用「翔·魔操劍」",
+                "적 1명에게 피해+일정 턴 동안 '마술검·비상' 사용 가능",
+                "Dégâts sur un ennemi et permet d'utiliser Sabre magique + pendant un certain nombre de tours",
+                "Fügt einem Gegner Schaden zu und ermöglicht Überlegene Spruchklinge für eine bestimmte Anzahl an Runden.",
+                "Daña a un enemigo y aprende Sable mágico+ durante un número determinado de turnos"
+            ]
         }
     },
     "100012704": {
@@ -31464,7 +31478,7 @@
         }
     },
     "210000207": {
-        "name": "異界送り",
+        "name": "The Sending",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -31494,14 +31508,21 @@
             "effects_raw": [[2, 2, 2, [0,  0,  2500,  1925,  100]], [2, 2, 4, [89]], [2, 2, 8, [1490,  1,  3000,  3]], [2, 2, 3, [0,  134,  0,  134,  3,  1]]]},
         "strings": {
             "name": [
-                null,
+                "The Sending",
                 "異界引渡",
-                null,
-                null,
-                null,
-                null
+                "이계 전송",
+                "Accompagnement",
+                "Geleit ins Abyssum",
+                "Rito de envío"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Restore HP, revive, gradually restore HP, and boost DEF and SPR for all allies",
+                "恢復全體隊員的HP+復活無法戰鬥狀態+持續恢復HP+提高防禦精神",
+                "아군 전체의 HP 회복+전투불능 상태 회복+HP 서서히 회복+방어력과 정신력 상승",
+                "Restaure les PV, ressuscite, restaure progressivement les PV, et augmente la DEF et la PSY de tous les alliés",
+                "ABW und PSY hoch, alle Verb. und stellt allmählich LP wieder her, Wiederbeleben.",
+                "Recupera VIT y revive, aumenta VIT poco a poco y aumenta DEF y ESP de todos los aliados"
+            ]
         }
     },
     "210000303": {
@@ -31733,7 +31754,7 @@
         }
     },
     "210000407": {
-        "name": "T・アルテマ",
+        "name": "Ultima Fury",
         "cost": 0,
         "attack_count": [6],
         "attack_damage": [[16,  16,  17,  17,  17,  17]],
@@ -31753,14 +31774,21 @@
             "effects_raw": [[2, 1, 70, [0,  0,  750,  50]]]},
         "strings": {
             "name": [
-                null,
+                "Ultima Fury",
                 "T·最終究極",
-                null,
-                null,
-                null,
-                null
+                "T·알테마",
+                "Ultima T",
+                "Ultima-Wut",
+                "Artema triple"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated magic damage to all enemies",
+                "對全體敵人發動無視部份魔法防禦的攻擊",
+                "적 전체에 일부 마법 방어 무시 피해",
+                "Dégâts magiques en partie fixes sur tous les ennemis",
+                "Teilweise direkter Magieschaden, alle Ziele",
+                "Daño mágico absoluto parcial a los enemigos"
+            ]
         }
     },
     "210000605": {
@@ -34030,7 +34058,7 @@
                 "百鬼·烈日之破邪",
                 "백귀·열일의 파사",
                 "Lames ardentes",
-                "Feuertaufe",
+                "Schwertertanz",
                 "Sables de fuego"
             ],
             "desc": [
@@ -34074,7 +34102,7 @@
                 "百鬼·烈日之破邪",
                 "백귀·열일의 파사",
                 "Lames ardentes",
-                "Feuertaufe",
+                "Schwertertanz",
                 "Sables de fuego"
             ],
             "desc": [
@@ -34088,7 +34116,7 @@
         }
     },
     "212000907": {
-        "name": "百鬼・烈日の破邪",
+        "name": "Flame Purge",
         "cost": 0,
         "attack_count": [2],
         "attack_damage": [[30,  70]],
@@ -34114,14 +34142,21 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1900,  0]], [0, 3, 54, [3,  3]]]},
         "strings": {
             "name": [
-                null,
+                "Flame Purge",
                 "百鬼·烈日之破邪",
-                null,
-                null,
-                null,
-                null
+                "백귀·열일의 파사",
+                "Lames ardentes",
+                "Schwertertanz",
+                "Sables de fuego"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Fire damage one enemy and caster can dodge some physical attacks three times",
+                "對1名敵人發動火屬性攻擊+賦予自身可閃避3次部分物理攻擊的效果",
+                "적 1명에게 불속성 피해+자신에게 일부 물리 공격 3회 회피 효과 부여",
+                "Inflige des dégâts de feu à un ennemi et permet au lanceur d'esquiver certaines attaques physiques à trois reprises",
+                "Fügt einem Gegner Feuerschaden zu und der Anwender kann phys. Angriffen 3 Mal ausweichen.",
+                "Daño de fuego a un enemigo y el usuario puede esquivar algunos ataques físicos 3 veces"
+            ]
         }
     },
     "212001004": {
@@ -36753,7 +36788,7 @@
         }
     },
     "215000607": {
-        "name": "エア・スペリオリティ",
+        "name": "Highwind",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -36773,14 +36808,21 @@
             "effects_raw": [[1, 1, 21, [0,  0,  1200,  -50]]]},
         "strings": {
             "name": [
-                null,
+                "Highwind",
                 "制空強擊",
-                null,
-                null,
-                null,
-                null
+                "에어 슈페리오리티",
+                "Suprématie aérienne",
+                "Lufthoheit",
+                "As del aire"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Inflige des dégâts en partie fixes à un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
         }
     },
     "215000705": {
@@ -36903,15 +36945,15 @@
                 "트리거 해피",
                 "Gâchette facile",
                 "Nervöser Finger",
-                "Metrallazo"
+                "Caza perfecta"
             ],
             "desc": [
                 "Damage and inflict random status ailment on all enemies",
                 "攻擊全體敵人+隨機施加中毒失明睡眠沉默麻痺混亂生病石化效果",
                 "적 전체에 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여",
-                "Inflige une altération d'état au hasard à tous les ennemis",
+                "Dégâts et inflige une altération d'état au hasard à tous les ennemis",
                 "Fügt allen Gegnern Schaden zu und fügt ihnen eine zuf. Statusveränderung zu.",
-                "Daña e inflige estados alterados aleatorios a todos los enemigos"
+                "Daña e inflige un estado alterado aleatorio a todos los enemigos"
             ]
         }
     },
@@ -56879,6 +56921,138 @@
             ]
         }
     },
+    "401006305": {
+        "name": "Eye See You",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[270]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Magic* damage (7x + 7x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 20% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 700, 700, [50,  50]]], [2, 1, 3, [0,  0,  0,  -20,  3,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Magic* damage (8.9x + 8.9x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 39% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 890, 890, [50,  50]]], [2, 1, 3, [0,  0,  0,  -39,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "¡Te veo!"
+            ],
+            "desc": [
+                "Damage and reduce SPR for all enemies for three turns",
+                "攻擊全體敵人+3回合內降低全體敵人的精神",
+                "적 전체에 피해+3턴 동안 정신력 감소",
+                "Dégâts et réduit la PSY de tous les ennemis pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und verringtert 3 Runden lang ihre PSY.",
+                "Daña y reduce el ESP de todos los enemigos durante 3 turnos"
+            ]
+        }
+    },
+    "401006306": {
+        "name": "Eye See You",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[30,  70]],
+        "attack_frames": [[254,  285]],
+        "effect_frames": [[0,  0,  0,  0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Magic* damage (8.5x + 8.5x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 30% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 850, 850, [50,  50]]], [2, 1, 3, [0,  0,  0,  -30,  3,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Magic* damage (10.9x + 10.9x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 54% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 1090, 1090, [50,  50]]], [2, 1, 3, [0,  0,  0,  -54,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "¡Te veo!"
+            ],
+            "desc": [
+                "Damage and reduce SPR for all enemies for three turns",
+                "攻擊全體敵人+3回合內降低全體敵人的精神",
+                "적 전체에 피해+3턴 동안 정신력 감소",
+                "Dégâts et réduit la PSY de tous les ennemis pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und verringtert 3 Runden lang ihre PSY.",
+                "Daña y reduce el ESP de todos los enemigos durante 3 turnos"
+            ]
+        }
+    },
+    "401006307": {
+        "name": "Eye See You",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[250,  275,  315]],
+        "effect_frames": [[0,  0,  0,  0,  0,  0,  0,  0,  35]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Magic* damage (12.5x + 12.5x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 1250, 1250, [50,  50]]], [2, 1, 3, [0,  0,  0,  -40,  3,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Magic* damage (15.4x + 15.4x, (MAG + SPR) * EvoMAG) to all enemies",
+                "Reduce SPR by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 1540, 1540, [50,  50]]], [2, 1, 3, [0,  0,  0,  -69,  3,  1]]]},
+        "strings": {
+            "name": [
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "Eye See You",
+                "¡Te veo!"
+            ],
+            "desc": [
+                "Damage and reduce SPR for all enemies for three turns",
+                "攻擊全體敵人+3回合內降低全體敵人的精神",
+                "적 전체에 피해+3턴 동안 정신력 감소",
+                "Dégâts et réduit la PSY de tous les ennemis pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und verringtert 3 Runden lang ihre PSY.",
+                "Daña y reduce el ESP de todos los enemigos durante 3 turnos"
+            ]
+        }
+    },
     "401006405": {
         "name": "Judge and Jury",
         "cost": 0,
@@ -57568,7 +57742,7 @@
         }
     },
     "900000137": {
-        "name": "異界送り",
+        "name": "The Sending",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -57600,14 +57774,21 @@
             "effects_raw": [[2, 2, 2, [0,  0,  2500,  1925,  100]], [2, 2, 4, [89]], [2, 2, 8, [1490,  1,  3000,  3]], [2, 2, 3, [0,  134,  0,  134,  3,  1]], [2, 2, 30, [20,  1,  65,  3]]]},
         "strings": {
             "name": [
-                null,
+                "The Sending",
                 "異界引渡",
-                null,
-                null,
-                null,
-                null
+                "이계 전송",
+                "Accompagnement",
+                "Geleit ins Abyssum",
+                "Rito de envío"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Restore HP, revive, gradually restore HP and MP, and boost DEF and SPR for all allies",
+                "恢復全體隊員的HPMP+復活無法戰鬥狀態+持續恢復HP+提高防禦精神",
+                "아군 전체의 HP 회복+전투불능 상태 회복+HP, MP 서서히 회복+방어력과 정신력 상승",
+                "Restaure les PV, ressuscite, restaure progressivement les PV/PM, et augmente la DEF et la PSY de tous les alliés",
+                "ABW und PSY hoch, alle Verb. und stellt allmählich LP und MP wieder her, Wiederbeleben.",
+                "Recupera VIT y revive, aumenta VIT y PM poco a poco y aumenta DEF y ESP de todos los aliados"
+            ]
         }
     },
     "900000147": {
@@ -57644,9 +57825,16 @@
                 "트리거 해피",
                 "Gâchette facile",
                 "Nervöser Finger",
-                "Metrallazo"
+                "Caza perfecta"
             ],
-            "desc": [null, null, null, null, null, null]
+            "desc": [
+                "Damage and inflict random status ailment on all enemies, and enable crackshot for one turn",
+                "攻擊全體敵人+隨機施加中毒失明睡眠沉默麻痺混亂生病石化效果+1回合內可使用「粉碎強擊」",
+                "적 전체에 피해+무작위로 독, 암흑, 수면, 침묵, 마비, 혼란, 질병, 석화 부여+1턴 동안 '브레이크 블로우' 사용 가능",
+                "Dégâts, inflige une altération d'état au hasard à tous les ennemis et permet d'utiliser Tir vicieux pendant un tour",
+                "Fügt allen Gegnern Schaden zu und fügt ihnen eine zuf. Statusveränderung zu + ermöglicht eine Runde lang Triumphschuss.",
+                "Daña e inflige un estado alterado aleatorio a todos los enemigos y aprende Subyugación durante un turno"
+            ]
         }
     },
     "900000157": {

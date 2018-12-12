@@ -101030,5 +101030,83 @@
                 "Sacrificio maléfico"
             ]
         }
+    },
+    "900200": {
+        "name": "Crimson Smash",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.5x, ATK) to one enemy",
+            "Reduce ATK and MAG by 30% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]]],
+        "strings": {
+            "name": [
+                "Crimson Smash",
+                "赤紅粉碎",
+                "진홍의 강타",
+                "Frappe écarlate",
+                "Purpurschmettern",
+                "Golpetazo carmesí"
+            ]
+        }
+    },
+    "900201": {
+        "name": "Wing Slash",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3x, ATK) to all enemies",
+            "Inflict Confusion (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [2, 1, 6, [0,  0,  0,  0,  0,  100,  0,  0,  1]]],
+        "strings": {
+            "name": [
+                "Wing Slash",
+                "巨翼斬擊",
+                "날개 강타",
+                "Frappe d'aile",
+                "Flügelschlitzer",
+                "Tajo alado"
+            ]
+        }
+    },
+    "900202": {
+        "name": "Ignite",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (3x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300]]],
+        "strings": {
+            "name": [
+                "Ignite",
+                "爆炸",
+                "점화",
+                "Allumage",
+                "Zündung",
+                "Ignición"
+            ]
+        }
+    },
+    "900203": {
+        "name": "Fiery Breath",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (7x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]]],
+        "strings": {
+            "name": [
+                "Fiery Breath",
+                "炎炙吐息",
+                "맹렬한 숨결",
+                "Haleine ardente",
+                "Glutatem",
+                "Aliento feroz"
+            ]
+        }
     }
 }

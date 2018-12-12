@@ -104948,7 +104948,7 @@
     },
     "9001801": {
         "dungeon_id": 90018,
-        "name": "The Tower of Zot - BGN",
+        "name": "Tower of Zot - BGN",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -104985,7 +104985,7 @@
     },
     "9001802": {
         "dungeon_id": 90018,
-        "name": "The Tower of Zot - INT",
+        "name": "Tower of Zot - INT",
         "type": "BATTLE",
         "wave_count": 2,
         "cost_type": "NRG",
@@ -105022,7 +105022,7 @@
     },
     "9001803": {
         "dungeon_id": 90018,
-        "name": "The Tower of Zot - ADV",
+        "name": "Tower of Zot - ADV",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -105059,7 +105059,7 @@
     },
     "9001804": {
         "dungeon_id": 90018,
-        "name": "The Tower of Zot - PRO",
+        "name": "Tower of Zot - PRO",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -105096,7 +105096,7 @@
     },
     "9001805": {
         "dungeon_id": 90018,
-        "name": "The Tower of Zot - ELT",
+        "name": "Tower of Zot - ELT",
         "type": "BATTLE",
         "wave_count": 5,
         "cost_type": "NRG",
@@ -110948,6 +110948,746 @@
             }
         ]
     },
+    "9490101": {
+        "dungeon_id": 94901,
+        "name": "Red Hot Music - BGN",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 401006305, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No magic",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9490102": {
+        "dungeon_id": 94901,
+        "name": "Red Hot Music - INT",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 210,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 401006305, 1]
+            },
+            {
+                "string": "Popstar Katy in party (Companion included)",
+                "parsed": ["Popstar Katy in party (Companion included)"],
+                "reward": ["RECIPE", 1000000100, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9490103": {
+        "dungeon_id": 94901,
+        "name": "Red Hot Music - ADV",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 15,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 60,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 401006305, 1]
+            },
+            {
+                "string": "Popstar Katy in party (Companion included)",
+                "parsed": ["Popstar Katy in party (Companion included)"],
+                "reward": ["RECIPE", 1000000099, 1]
+            },
+            {
+                "string": "No espers",
+                "parsed": ["No espers"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9490104": {
+        "dungeon_id": 94901,
+        "name": "Red Hot Music - PRO",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 80,
+        "exp": 500,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 401006305, 1]
+            },
+            {
+                "string": "Popstar Katy in party (Companion included)",
+                "parsed": ["Popstar Katy in party (Companion included)"],
+                "reward": ["RECIPE", 1000000098, 1]
+            },
+            {
+                "string": "Use green magic",
+                "parsed": ["Use Green magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9490105": {
+        "dungeon_id": 94901,
+        "name": "Red Hot Music - ELT",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 25,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 113,
+        "exp": 600,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["MATERIA", 1500000081, 1]
+            },
+            {
+                "string": "Popstar Katy in party (Companion included)",
+                "parsed": ["Popstar Katy in party (Companion included)"],
+                "reward": ["RECIPE", 1000000097, 1]
+            },
+            {
+                "string": "Evoke an esper",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500101": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500102": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500103": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500104": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500105": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 2]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500106": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500107": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500108": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500109": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500110": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500111": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500112": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 2]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500113": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500114": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9500115": {
+        "dungeon_id": 95001,
+        "name": "Vault of Hidden Treasures",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 200000,
+        "exp": 100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 900020401, 1]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "Clear without an ally being KO'd",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "No continues",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
     "11110101": {
         "dungeon_id": 111101,
         "name": "Aldore Tower - Lower Levels",
@@ -112578,7 +113318,7 @@
     },
     "11210901": {
         "dungeon_id": 112109,
-        "name": "Outside Labor Grounds - Giant Mine",
+        "name": "Outside Labor Camp - Giant Mine",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112615,7 +113355,7 @@
     },
     "11210902": {
         "dungeon_id": 112109,
-        "name": "Outside Labor Grounds - Bored Hole",
+        "name": "Outside Labor Camp - Bored Hole",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112652,7 +113392,7 @@
     },
     "11210903": {
         "dungeon_id": 112109,
-        "name": "Outside Labor Grounds - Entrance to Hell",
+        "name": "Outside Labor Camp - Entrance to Hell",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112689,7 +113429,7 @@
     },
     "11210904": {
         "dungeon_id": 112109,
-        "name": "Outside Labor Grounds - Merciless Guards",
+        "name": "Outside Labor Camp - Merciless Guards",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112726,7 +113466,7 @@
     },
     "11211001": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - Pit of Despair",
+        "name": "Inside Labor Camp - Pit of Despair",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112763,7 +113503,7 @@
     },
     "11211002": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - Lost Resources",
+        "name": "Inside Labor Camp - Lost Resources",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112800,7 +113540,7 @@
     },
     "11211003": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - No Escape",
+        "name": "Inside Labor Camp - No Escape",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112837,7 +113577,7 @@
     },
     "11211004": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - The Oppressed",
+        "name": "Inside Labor Camp - The Oppressed",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -112874,7 +113614,7 @@
     },
     "11211005": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - Galas of the Omicron Star",
+        "name": "Inside Labor Camp - Galas of the Omicron Star",
         "type": "BATTLE",
         "wave_count": 1,
         "cost_type": "NRG",
@@ -112911,7 +113651,7 @@
     },
     "11211006": {
         "dungeon_id": 112110,
-        "name": "Inside Labor Grounds - Exploration",
+        "name": "Inside Labor Camp - Exploration",
         "type": "EXPLORATION",
         "wave_count": 0,
         "cost_type": "NRG",
