@@ -27936,7 +27936,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to all enemies:\n\tKing's Play (501560)"],
+        "effects": ["Grant King's Play (501560) to all enemies"],
         "effects_raw": [[2, 1, 100, [2,  501560,  999,  -1,  1]]],
         "strings": {
             "name": [
@@ -28350,7 +28350,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to all enemies:\n\tKing's Play (501560)\n\tRoyal Bad Mouth (501580)"],
+        "effects": ["Grant King's Play (501560) and Royal Bad Mouth (501580) to all enemies"],
         "effects_raw": [[2, 1, 100, [[2,  2], [501560,  501580], 999, -1, 1]]],
         "strings": {
             "name": [
@@ -61190,7 +61190,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to one enemy:\n\tMagic Use (226070)"],
+        "effects": ["Grant Magic Use (226070) to one enemy (1 use)"],
         "effects_raw": [[1, 1, 100, [2,  226070,  1,  -1,  1,  1]]],
         "strings": {
             "name": [
@@ -61226,7 +61226,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to one enemy:\n\tCounter Method (226100)"],
+        "effects": ["Grant Counter Method (226100) to one enemy (1 use)"],
         "effects_raw": [[1, 1, 100, [2,  226100,  1,  -1,  1,  2]]],
         "strings": {
             "name": [
@@ -61244,7 +61244,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to one enemy:\n\tArcane Magics (226110)"],
+        "effects": ["Grant Arcane Magics (226110) to one enemy (1 use)"],
         "effects_raw": [[1, 1, 100, [2,  226110,  1,  -1,  1,  3]]],
         "strings": {
             "name": [
@@ -61262,7 +61262,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to one enemy:\n\tPower Use (226080)"],
+        "effects": ["Grant Power Use (226080) to one enemy (1 use)"],
         "effects_raw": [[1, 1, 100, [2,  226080,  1,  -1,  1,  4]]],
         "strings": {
             "name": [
@@ -61280,7 +61280,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to one enemy:\n\tPower Capitalization (226090)"],
+        "effects": ["Grant Power Capitalization (226090) to one enemy (1 use)"],
         "effects_raw": [[1, 1, 100, [2,  226090,  1,  -1,  1,  5]]],
         "strings": {
             "name": [
@@ -80327,7 +80327,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills to all enemies:\n\tTome of Alchemy (508170)"],
+        "effects": ["Grant Tome of Alchemy (508170) to all enemies"],
         "effects_raw": [[2, 1, 100, [2,  508170,  999,  -1,  1,  299]]],
         "strings": {
             "name": [
@@ -99766,7 +99766,7 @@
         "attack_type": "Hybrid",
         "execute_type": "Default",
         "effects": [
-            "Grant access to following skills for one turn to one enemy:\n\tKanshou's Wrath (910805)",
+            "Grant Kanshou's Wrath (910805) to one enemy for one turn",
             "Reduce DEF by 90% for 2 turns to one enemy",
             "Remove DEF debuff from caster"
         ],
@@ -99788,7 +99788,7 @@
         "attack_type": "Hybrid",
         "execute_type": "Default",
         "effects": [
-            "Grant access to following skills for one turn to one enemy:\n\tBakuya's Vengence (910806)",
+            "Grant Bakuya's Vengence (910806) to one enemy for one turn",
             "Reduce SPR by 90% for 2 turns to one enemy",
             "Remove SPR debuff from caster"
         ],
@@ -100590,7 +100590,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Hybrid",
         "execute_type": "Default",
-        "effects": ["Grant access to following skills for one turn (2 uses) to one enemy:\n\tDamocles' Sword (911251)"],
+        "effects": ["Grant Damocles' Sword (911251) to one enemy for one turn (2 uses)"],
         "effects_raw": [[1, 1, 100, [2,  911251,  2,  1,  1]]],
         "strings": {
             "name": [
@@ -101106,6 +101106,273 @@
                 "Haleine ardente",
                 "Glutatem",
                 "Aliento feroz"
+            ]
+        }
+    },
+    "900204": {
+        "name": "SURPRISE!!!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (10x, MAG) to one enemy",
+            "Sacrifice 100% HP to deal 0% HP damage to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  1000]], [1, 1, 39, [0,  100,  0,  0,  2,  2]]],
+        "strings": {
+            "name": [
+                "SURPRISE!!!",
+                "驚喜！！！",
+                "서프라이즈!!",
+                "SURPRISE !!!",
+                "ÜBERRASCHUNG!!!",
+                "¡¡SORPRESA!!"
+            ]
+        }
+    },
+    "900205": {
+        "name": "Tighten Ribbon",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Hybrid",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 100% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  100,  0,  100,  3,  1,  0]]],
+        "strings": {
+            "name": [
+                "Tighten Ribbon",
+                "拉緊絲帶",
+                "리본 휘감기",
+                "Ruban noué",
+                "Schleife schnüren",
+                "Cinta apretada"
+            ]
+        }
+    },
+    "900206": {
+        "name": "Branching Out",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Physical* damage (8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800]]],
+        "strings": {
+            "name": [
+                "Branching Out",
+                "開枝散葉",
+                "새로운 시작",
+                "Vieille branche",
+                "Auszweigen",
+                "Ramificación"
+            ]
+        }
+    },
+    "900207": {
+        "name": "TIMBERRR!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Physical* damage (5x, ATK) to all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 30% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [2, 1, 24, [-30,  -30,  -30,  -30,  3,  1]]],
+        "strings": {
+            "name": [
+                "TIMBERRR!",
+                "樹倒啦！",
+                "쓰러진다아아~!",
+                "Coup du bûcheron",
+                "HOLLLLZ!",
+                "¡Tronco va!"
+            ]
+        }
+    },
+    "900208": {
+        "name": "Here's a gift!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 100% for 3 turns to caster",
+            "Restore 20% HP to caster"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  100,  0,  100,  3,  1,  1]], [0, 3, 64, [20,  0]]],
+        "strings": {
+            "name": [
+                "Here's a gift!",
+                "有禮物！",
+                "여기 선물!",
+                "Cadeau !",
+                "Hier ist ein Geschenk!",
+                "¡Un regalo para ti!"
+            ]
+        }
+    },
+    "900209": {
+        "name": "Wood Sweep",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Physical* damage (5x, ATK) to all enemies",
+            "Reduce DEF and SPR by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [2, 1, 24, [0,  -50,  0,  -50,  3,  1]]],
+        "strings": {
+            "name": [
+                "Wood Sweep",
+                "木之襲捲",
+                "나무 쓸기",
+                "Coup de balai",
+                "Holzfällen",
+                "Barrido de árboles"
+            ]
+        }
+    },
+    "900210": {
+        "name": "Jolly Tree",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 20% to caster for 99 turns (can not be removed)",
+            "Reduce magic damage taken by 20% to caster for 99 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [20,  0,  99,  1]], [0, 3, 116, [20,  0,  99,  1]]],
+        "strings": {
+            "name": [
+                "Jolly Tree",
+                "歡樂樹",
+                "행복한 나무",
+                "Mon beau sapin",
+                "Fröhlicher Baum",
+                "El abeto"
+            ]
+        }
+    },
+    "900211": {
+        "name": "Fire Extinguisher",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Remove all buffs and debuffs from all enemies",
+            "60% HP damage to all enemies"
+        ],
+        "effects_raw": [[2, 1, 59, [0,  0]], [2, 1, 9, [60,  60,  100,  1]]],
+        "strings": {
+            "name": [
+                "Fire Extinguisher",
+                "滅火器",
+                "소화기",
+                "Extincteur",
+                "Feuerlöscher",
+                "Extintor"
+            ]
+        }
+    },
+    "900212": {
+        "name": "Don't hurt my tree!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (8x, MAG) to one enemy",
+            "Inflict Silence and Paralyze (70%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  800]], [1, 1, 6, [0,  0,  0,  70,  70,  0,  0,  0]]],
+        "strings": {
+            "name": [
+                "Don't hurt my tree!",
+                "別傷害我的樹！",
+                "나무를 아프게 하지 마!",
+                "Pas touche à mon arbre !",
+                "Tu meinem Baum nicht weh!",
+                "¡Cuidado con mi árbol!"
+            ]
+        }
+    },
+    "900213": {
+        "name": "Freeze!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (3x, MAG) to one enemy",
+            "Inflict Stop (100%) for 3 turns on one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300]], [1, 1, 88, [100,  3]]],
+        "strings": {
+            "name": [
+                "Freeze!",
+                "別動！",
+                "얼어붙어라!",
+                "Soyez sages !",
+                "Gefriere!",
+                "¡No te muevas!"
+            ]
+        }
+    },
+    "900214": {
+        "name": "ENOUGH!",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 95% to caster for 99 turns (can not be removed)",
+            "Reduce magic damage taken by 95% to caster for 99 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [95,  0,  99,  1]], [0, 3, 116, [95,  0,  99,  1]]],
+        "strings": {
+            "name": [
+                "ENOUGH!",
+                "夠了！",
+                "이제 그만!",
+                "ASSEZ !",
+                "GENUG!",
+                "¡Ya basta!"
+            ]
+        }
+    },
+    "900215": {
+        "name": "Unstoppable Hammer",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Physical* damage (10x, ATK) to all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 60% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000]], [2, 1, 24, [-60,  -60,  -60,  -60,  3,  1]]],
+        "strings": {
+            "name": [
+                "Unstoppable Hammer",
+                "銳不可檔之鎚",
+                "거침없는 망치",
+                "Marteau impitoyable",
+                "Unaufhaltbarer Hammer",
+                "Martillo imparable"
+            ]
+        }
+    },
+    "900216": {
+        "name": "Oh no...",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 0% to caster for 99 turns (can not be removed)",
+            "Reduce magic damage taken by 0% to caster for 99 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [0,  0,  99,  1]], [0, 3, 116, [0,  0,  99,  1]]],
+        "strings": {
+            "name": [
+                "Oh no...",
+                "喔不……",
+                "이럴 수가……",
+                "Oh-oh...",
+                "Oh nein...",
+                "Oh, oh…"
             ]
         }
     }
