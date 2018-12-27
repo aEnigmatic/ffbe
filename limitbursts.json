@@ -34315,7 +34315,7 @@
                 "Culpa"
             ],
             "desc": [
-                "Chancing of instantly KO'ing or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
+                "Chance of instantly KO'ing all enemies or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
                 "對全體敵人施加致死一擊效果or發動無視防禦的攻擊+1回合內可以使用「觀察者」",
                 "적 전체에 일부 방어 무시 피해 또는 일정 확률로 즉사 부여+'계율' 1회 사용 가능",
                 "Chance de mettre KO un ennemi ou d'infliger des dégâts en partie fixes sur tous les ennemis et permet d'utiliser Observance une fois",
@@ -34359,7 +34359,7 @@
                 "Culpa"
             ],
             "desc": [
-                "Chancing of instantly KO'ing or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
+                "Chance of instantly KO'ing all enemies or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
                 "對全體敵人施加致死一擊效果or發動無視防禦的攻擊+1回合內可以使用「觀察者」",
                 "적 전체에 일부 방어 무시 피해 또는 일정 확률로 즉사 부여+'계율' 1회 사용 가능",
                 "Chance de mettre KO un ennemi ou d'infliger des dégâts en partie fixes sur tous les ennemis et permet d'utiliser Observance une fois",
@@ -34403,7 +34403,7 @@
                 null
             ],
             "desc": [
-                "Chancing of instantly KO'ing or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
+                "Chance of instantly KO'ing all enemies or deal partial unmitigated damage to all enemies, and enable observance to be used one time",
                 "對全體敵人施加致死一擊效果or發動無視防禦的攻擊+1回合內可以使用「觀察者」",
                 "적 전체에 일부 방어 무시 피해 또는 일정 확률로 즉사 부여+'계율' 1회 사용 가능",
                 "Chance de mettre KO un ennemi ou d'infliger des dégâts en partie fixes sur tous les ennemis et permet d'utiliser Observance une fois",
@@ -50089,6 +50089,258 @@
             "desc": [null, null, null, null, null, null]
         }
     },
+    "335000105": {
+        "name": "Ragnarok",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[30,  46,  59,  73,  89,  153]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (8.1x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 55% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [1, 1, 24, [-55,  -55,  -55,  -55,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (10x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 55% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [1, 1, 24, [-55,  -55,  -55,  -55,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Ragnarok",
+                "諸神黃昏",
+                "라그나로크",
+                "Ragnarok",
+                "Ragnarök",
+                "Ragnarok"
+            ],
+            "desc": [
+                "Damage and reduce ATK, DEF, MAG, and SPR for one enemy, and enable triple command for three turns",
+                "攻擊1名敵人+降低攻擊防禦魔力精神+3回合內可使用「T指令」",
+                "적 1명에게 피해+공격력, 방어력, 마력, 정신력 감소+3턴 동안 'T 커맨드' 사용 가능",
+                "Inflige des dégâts à un ennemi, réduit son ATT, sa DEF, sa MAGIE et sa PSY, et permet d'utiliser Triple commande pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und verringert dessen ANG, ABW, MAG und PSY und ermöglicht Dreifachkommando für drei Runden.",
+                "Daña y reduce ATQ, DEF, MAG y ESP de un enemigo, y aprende Comando triple durante 3 turnos"
+            ]
+        }
+    },
+    "335000106": {
+        "name": "Ragnarok",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[30,  46,  59,  73,  89,  153]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Physical damage (10.6x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 60% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1060,  0]], [1, 1, 24, [-60,  -60,  -60,  -60,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Physical damage (13x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 60% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1300,  0]], [1, 1, 24, [-60,  -60,  -60,  -60,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Ragnarok",
+                "諸神黃昏",
+                "라그나로크",
+                "Ragnarok",
+                "Ragnarök",
+                "Ragnarok"
+            ],
+            "desc": [
+                "Damage and reduce ATK, DEF, MAG, and SPR for one enemy, and enable triple command for three turns",
+                "攻擊1名敵人+降低攻擊防禦魔力精神+3回合內可使用「T指令」",
+                "적 1명에게 피해+공격력, 방어력, 마력, 정신력 감소+3턴 동안 'T 커맨드' 사용 가능",
+                "Inflige des dégâts à un ennemi, réduit son ATT, sa DEF, sa MAGIE et sa PSY, et permet d'utiliser Triple commande pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und verringert dessen ANG, ABW, MAG und PSY und ermöglicht Dreifachkommando für drei Runden.",
+                "Daña y reduce ATQ, DEF, MAG y ESP de un enemigo, y aprende Comando triple durante 3 turnos"
+            ]
+        }
+    },
+    "335000107": {
+        "name": "Ragnarok",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[30,  46,  59,  73,  89,  153]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (13.1x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 65% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1310,  0]], [1, 1, 24, [-65,  -65,  -65,  -65,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (16x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 65% for 4 turns to one enemy",
+                "Gain 3 uses of Ars Arcanum (230857), Blitz (230845), Combo Plus (230856), Hurricane Blast (230844), Ripple Drive (230850), Slapshot (230842), Sonic Blade (230851), Strike Raid (230858), Stun Impact (230843) and Vortex (230849) for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 24, [-65,  -65,  -65,  -65,  4,  1]], [0, 3, 98, [3, 509732, -1, [230842,  230843,  230844,  230845,  230849,  230850,  230851,  230856,  230857,  230858], 4, 1, 1, 0]]]},
+        "strings": {
+            "name": [
+                "Ragnarok",
+                "諸神黃昏",
+                "라그나로크",
+                "Ragnarok",
+                "Ragnarök",
+                "Ragnarok"
+            ],
+            "desc": [
+                "Damage and reduce ATK, DEF, MAG, and SPR for one enemy, and enable triple command for three turns",
+                "攻擊1名敵人+降低攻擊防禦魔力精神+3回合內可使用「T指令」",
+                "적 1명에게 피해+공격력, 방어력, 마력, 정신력 감소+3턴 동안 'T 커맨드' 사용 가능",
+                "Inflige des dégâts à un ennemi, réduit son ATT, sa DEF, sa MAGIE et sa PSY, et permet d'utiliser Triple commande pendant 3 tours",
+                "Fügt einem Gegner Schaden zu und verringert dessen ANG, ABW, MAG und PSY und ermöglicht Dreifachkommando für drei Runden.",
+                "Daña y reduce ATQ, DEF, MAG y ESP de un enemigo, y aprende Comando triple durante 3 turnos"
+            ]
+        }
+    },
+    "335000205": {
+        "name": "Omnislash",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  70]],
+        "attack_frames": [[216,  250,  276,  288,  298,  307,  360]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": ["Physical damage (10.6x * 2 = 21.2x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1060,  -50]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": ["Physical damage (12.5x * 2 = 25x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1250,  -50]]]},
+        "strings": {
+            "name": [
+                "Omnislash",
+                "超究武神霸斬",
+                "초구무신패참",
+                "Omnifrappe",
+                "Omnischlag",
+                "Omnilátigo"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Inflige des dégâts en partie fixes à un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "335000206": {
+        "name": "Omnislash",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  70]],
+        "attack_frames": [[216,  250,  276,  288,  298,  307,  360]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": ["Physical damage (11.6x * 2 = 23.2x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1160,  -50]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": ["Physical damage (14x * 2 = 28x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1400,  -50]]]},
+        "strings": {
+            "name": [
+                "Omnislash",
+                "超究武神霸斬",
+                "초구무신패참",
+                "Omnifrappe",
+                "Omnischlag",
+                "Omnilátigo"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Inflige des dégâts en partie fixes à un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
+    "335000207": {
+        "name": "Omnislash",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  70]],
+        "attack_frames": [[216,  250,  276,  288,  298,  307,  360]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": ["Physical damage (13.1x * 2 = 26.2x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1310,  -50]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": ["Physical damage (16x * 2 = 32x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1600,  -50]]]},
+        "strings": {
+            "name": [
+                "Omnislash",
+                "超究武神霸斬",
+                "초구무신패참",
+                "Omnifrappe",
+                "Omnischlag",
+                "Omnilátigo"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage to one enemy",
+                "對1名敵人發動無視部分防禦的攻擊",
+                "적 1명에게 일부 방어 무시 피해",
+                "Inflige des dégâts en partie fixes à un ennemi",
+                "Fügt einem Gegner teilweise direkten Schaden zu.",
+                "Daño absoluto parcial a un enemigo"
+            ]
+        }
+    },
     "401000104": {
         "name": "Touch It",
         "cost": 0,
@@ -57105,7 +57357,7 @@
                 "攻擊全體敵人+降低火土屬性耐性、攻擊魔力",
                 "적 전체에 피해+공격력, 마력, 불과 땅속성 저항력 감소",
                 "Dégâts et réduit l'ATT, la MAGIE, la résistance au feu et la résistance à la terre de tous les ennemis",
-                "Fügt allen Gegnern Schaden zu + verringert ihre Feuer- und Erdresistenz und ihre ANG und MAG.",
+                "Fügt allen Gegnern Schaden zu + verringert ihre Feuer- und Erdresistenz sowie ihre ANG und MAG.",
                 "Daña y reduce la resistencia al fuego y a la tierra, y el ATQ y la MAG de todos los enemigos"
             ]
         }
