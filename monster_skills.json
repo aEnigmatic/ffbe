@@ -69923,7 +69923,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Cast Death (15%) or deal physical damage (2x, ATK) to all enemies"],
+        "effects": ["Cast Death (15%) or deal physical damage (2x * 1 = 2x, ATK) to all enemies"],
         "effects_raw": [[2, 1, 112, [200,  15,  100,  0]]],
         "strings": {
             "name": [
@@ -75374,7 +75374,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Cast Death (20%) or 80% chance to deal physical damage (4x, ATK) to one enemy"],
+        "effects": ["Cast Death (20%) or 80% chance to deal physical damage (4x * 1 = 4x, ATK) to one enemy"],
         "effects_raw": [[1, 1, 112, [400,  20,  80,  0]]],
         "strings": {
             "name": [
@@ -79451,7 +79451,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Cast Death (100%) or 42% chance to deal physical* damage (8x, ATK) to one enemy"
+            "Cast Death (100%) or 42% chance to deal physical* damage (8x * 1 = 8x, ATK) to one enemy"
         ],
         "effects_raw": [[1, 1, 112, [800,  100,  42,  0]]],
         "strings": {
@@ -85894,7 +85894,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Cast Death (60%) or 60% chance to deal magic damage (2.3x, MAG) to one enemy"],
+        "effects": ["Cast Death (60%) or 60% chance to deal magic damage (2.3x * 1 = 2.3x, MAG) to one enemy"],
         "effects_raw": [[1, 1, 113, [230,  60,  60,  0]]],
         "strings": {
             "name": [
@@ -101242,7 +101242,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Cast Death (10%) or deal physical damage (1.4x, ATK) to one enemy"],
+        "effects": ["Cast Death (10%) or deal physical damage (1.4x * 1 = 1.4x, ATK) to one enemy"],
         "effects_raw": [[1, 1, 112, [140,  10,  100,  0]]],
         "strings": {
             "name": [null, null, null, null, null, null]
