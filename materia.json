@@ -3323,7 +3323,7 @@
                 "단검 장착",
                 "Épée courte",
                 "Kurzschw. benutzen",
-                "Equipar espada C"
+                "Equipar espada corta"
             ],
             "desc_short": [
                 "Can equip short swords",
@@ -18769,7 +18769,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228161],
-        "effects": ["Grants 'Genji War Arts' passive."],
+        "effects": ["Grants 'Genji Tactics' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
@@ -18783,8 +18783,22 @@
                 null,
                 null
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK and MAG by 20%, and boost LB gauge fill rate",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 20%, and LB gauge fill rate by 25%.",
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     },
     "504228200": {
@@ -19541,34 +19555,34 @@
         "unit_restriction": null,
         "skills": [228637],
         "effects": ["Grants 'Hero's Vow - Water' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_78.png",
         "strings": {
             "names": [
                 "Hero's Vow - Water",
-                null,
-                null,
-                null,
-                null,
-                null
+                "英雄誓言·水",
+                "영웅의 맹세·물",
+                "Vœu du héros - Eau",
+                "Heldenschwur - Wasser",
+                "Juramento heroico - Agua"
             ],
             "desc_short": [
-                "Boost MP and SPR by 30%, boost LB gauge fill rate, and restore MP every turn",
-                null,
-                null,
-                null,
-                null,
-                null
+                "Boost MP and SPR by 30%, boost LB gauge fill rate, and restore MP every turn (Not stackable)",
+                "提高30%MP精神+提高極限技石對極限技槽的增加量+每回合恢復MP [無法重複裝備]",
+                "MP와 정신력 30% 상승+LB 게이지 효율 상승+전투 중 매 턴마다 MP 회복 (중복 장착 불가)",
+                "Augmente les PM et la PSY 30%, augmente le taux de remplissage de la jauge de limite, et restaure les PM à chaque tour (Non cumulable)",
+                "Erhöht MP und PSY um 30%, Limitmeter füllt sich schneller und regeneriert jede Runde MP (Nicht stapelbar).",
+                "Aumenta los PM y el ESP un 30%, la barra de EL se llena más rápido y recupera PM cada turno (no acumulable)"
             ],
             "desc_long": [
                 "Boosts MP and SPR by 30%, boosts LB gauge fill rate, and restores MP every turn. Not stackable.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高30%MP精神，並提高極限技石對極限技槽的增加量，每回合恢復MP。[無法重複裝備]",
+                "MP와 정신력이 30% 상승하고, LB 게이지 효율이 상승하며, 전투 중 매 턴마다 MP를 회복합니다.",
+                "Augmente les PM et la PSY 30%, augmente le taux de remplissage de la jauge de limite, et restaure les PM à chaque tour. Non cumulable",
+                "Erhöht MP und PSY um 30%, Limitmeter füllt sich schneller und regeneriert jede Runde MP.",
+                "Aumenta los PM y el ESP un 30%, la barra de EL se llena más rápido y recupera PM cada turno (no acumulable)"
             ]
         }
     },
@@ -19578,35 +19592,35 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228658],
-        "effects": ["Grants 'Sable Winds of Harvest' passive."],
-        "unique": false,
+        "effects": ["Grants 'Reaper of the Dust Storm' passive."],
+        "unique": true,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_79.png",
         "strings": {
             "names": [
                 "Reaper of the Dust Storm",
-                null,
-                null,
-                null,
-                null,
-                null
+                "刀割黑風",
+                "수확의 흑풍",
+                "Faucheur des tempêtes de sable",
+                "Niedermähender Staubsturm",
+                "Segador de la tormenta de arena"
             ],
             "desc_short": [
-                "Boost ATK by 40% and boost physical damage against plants",
-                null,
-                null,
-                null,
-                null,
-                null
+                "Boost ATK by 40% and boost physical damage against plants (Not stackable)",
+                "提高40%攻擊+物理攻擊時提高對植物系魔物的傷害 [無法重複裝備]",
+                "공격력 40% 상승+물리 공격 시 식물형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 40% et les dégâts physiques infligés aux plantes (Non cumulable)",
+                "Erhöht ANG um 40% und erhöht physischen Schaden gegen Pflanzen (Nicht stapelbar).",
+                "Aumenta el ATQ un 40% y el daño físico contra plantas (no acumulable)"
             ],
             "desc_long": [
                 "Boosts ATK by 40% and boosts physical damage against plants by 50%. Not stackable.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "提高40%攻擊，物理攻擊時提高對植物系魔物的傷害。[無法重複裝備]",
+                "공격력이 40% 상승하고, 물리 공격 시 식물형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente l'ATT de 40% et les dégâts physiques infligés aux plantes de 50%. Non cumulable",
+                "Erhöht ANG um 40% und erhöht physischen Schaden gegen Pflanzen um 50%.",
+                "Aumenta el ATQ un 40% y el daño físico contra plantas un 50% (no acumulable)"
             ]
         }
     },
@@ -22129,7 +22143,7 @@
                 "공격력과 정신력 15% 상승+적의 공격 대상이 될 확률 감소+석화 무효화(라라 크로프트, 파라오 아벨, 여신 솔레이유, 탐험가 아이린 전용)",
                 "Augmente l'ATT et la PSY de 15%, et diminue les chances d'être ciblé. Annule pétrification (Lara Croft, Pharaon Abel, Soleil divine, Aileen exploratrice uniquement)",
                 "Erhöht ANG sowie PSY um 15% und verringert Chance, zum Ziel zu werden. Annulliert Stein (Nur Lara Croft, Pharao Abel, Göttliche Soleil, Forscher Aileen)",
-                "Aumenta ATQ y ESP un 15% y reduce la posibilidad de ser atacado. Anula piedra (solo Lara Croft, Faraón Abel, Soleil divina, Aileen exploradora)"
+                "Aumenta ATQ y ESP un 15% y reduce la posibilidad de ser atacado. Anula piedra (exclusiva de Lara Croft, Faraón Abel, Soleil divina, Aileen exploradora)"
             ],
             "desc_long": [
                 "Boosts ATK and SPR by 15%, and decreases chance of being targeted. Nullifies stone (Lara Croft, Pharaoh Abel, Divine Soleil, Explorer Aileen only).",
@@ -22137,7 +22151,7 @@
                 "공격력과 정신력이 15% 상승하고, 적의 공격 대상이 될 확률이 감소하며, 석화를 무효화합니다.(라라 크로프트, 파라오 아벨, 여신 솔레이유, 탐험가 아이린 한정)",
                 "Augmente l'ATT et la PSY de 15%, et diminue les chances d'être ciblé. Annule pétrification (Lara Croft, Pharaon Abel, Soleil divine, Aileen exploratrice uniquement).",
                 "Erhöht ANG sowie PSY um 15% und verringert Chance, zum Ziel zu werden. Annulliert Stein (Nur Lara Croft, Pharao Abel, Göttliche Soleil, Forscher Aileen).",
-                "Aumenta el ATQ y el ESP un 15% y reduce la posibilidad de ser atacado. Anula piedra (solo Lara Croft, Faraón Abel, Soleil divina y Aileen exploradora)."
+                "Aumenta el ATQ y el ESP un 15% y reduce la posibilidad de ser atacado. Anula piedra (exclusiva de Lara Croft, Faraón Abel, Soleil divina y Aileen exploradora)."
             ]
         }
     },
