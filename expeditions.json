@@ -5936,5 +5936,64 @@
                 "Agárrate ante los fuertes vientos<br>y atraviesa el yermo endiablado.<br>Recoge todas las supercitas que veas,<br>mientras puedas."
             ]
         }
+    },
+    "102": {
+        "name": "TM Expedition",
+        "type": 3,
+        "cost": null,
+        "rank": "D",
+        "difficulty": 1,
+        "duration": 14400,
+        "units": 5,
+        "required": null,
+        "next_id": null,
+        "reward": {
+            "type": "ITEM",
+            "id": "1209000926",
+            "name": "Exploring the Moogle Cave",
+            "amount": "0"
+        },
+        "relics": 0,
+        "exp_levels": [6000, 4500, 3000, 1500],
+        "unit_bonus": {
+            "type": "game",
+            "value": null,
+            "bonus": 0
+        },
+        "unit_bonus_max": 20,
+        "item_bonus": [
+            {
+                "id": 0,
+                "name": "NULL",
+                "amount": 0,
+                "bonus": 0
+            }
+        ],
+        "stat_bonus": {
+            "HP": 1,
+            "MP": 1,
+            "ATK": 1,
+            "DEF": 1,
+            "MAG": 1,
+            "SPR": 1
+        },
+        "strings": {
+            "name": [
+                "Exploring the Moogle Cave",
+                "探索莫古利洞窟",
+                "모그리 동굴 탐험",
+                "Expédition dans la Mogogrotte",
+                "Erkundung der Mogryhöhle",
+                "Explorando la cueva del moguri"
+            ],
+            "desc": [
+                "Venture into the moogle cave and who knows, maybe you could make friends with the moogles and gain some trust experiences!",
+                "探索莫古利洞窟，或許你能夠和莫古利成為朋友並獲得ㄧ些信賴值！",
+                "모그리 동굴을 탐험해보자! 아마 모그리와 친구가 되어 트러스트치를 얻을 수 있을지도!",
+                "Préparez-vous à vivre une grande aventure dans la Mogogrotte ! Qui sait ? Peut-être parviendrez-vous à vous lier d'amitié avec les mogs y ayant élu domicile et gagner leur confiance !",
+                "Begib dich in die Mogryhöhle und wer weiß, vielleicht kannst du Freundschaft mit den Mogrys schließen und Treueerfahrung dazugewinnen!",
+                "Adéntrate en la cueva del moguri y, quién sabe, ¡a lo mejor te haces amigo de los moguris y puedes ganar algo interesante!"
+            ]
+        }
     }
 }

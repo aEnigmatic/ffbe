@@ -6793,7 +6793,7 @@
                 "反射對全體隊員使用的魔法",
                 "아군 전체가 받는 마법 반사",
                 "Renvoie la magie lancée sur tous les alliés",
-                "Reflektiert alle auf Verb. gewirkt Magie.",
+                "Reflektiert alle auf Verb. gewirkte Magie.",
                 "Refleja la magia dirigida a todos los aliados"
             ]
         }
@@ -13620,7 +13620,7 @@
             ],
             "desc": [
                 "Deal lightning damage and chance of paralyzing and stopping all enemies, and enable purgatory fire slash and thunder strike stance for two turns",
-                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷擊衝陣」",
+                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷衝擊陣」",
                 "적 전체에 번개속성 피해+일정 확률로 마비와 스톱 부여+2턴 동안 '연옥찰소참', '굉뇌격충진' 사용 가능",
                 "Dégâts de foudre et chance de paralyser et stopper tous les ennemis et permet d'utiliser Flammes du purgatoire et Posture électrocoup pendant deux tours",
                 "Blitzschaden und Chance, alle Gegner zu lähmen oder zu stoppen, ermöglicht zwei Runden Flammenschlag des Purgatoriums und Gewitterschlag-Kata.",
@@ -13668,7 +13668,7 @@
             ],
             "desc": [
                 "Deal lightning damage and chance of paralyzing and stopping all enemies, and enable purgatory fire slash and thunder strike stance for two turns",
-                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷擊衝陣」",
+                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷衝擊陣」",
                 "적 전체에 번개속성 피해+일정 확률로 마비와 스톱 부여+2턴 동안 '연옥찰소참', '굉뇌격충진' 사용 가능",
                 "Dégâts de foudre et chance de paralyser et stopper tous les ennemis et permet d'utiliser Flammes du purgatoire et Posture électrocoup pendant deux tours",
                 "Blitzschaden und Chance, alle Gegner zu lähmen zu stoppen, ermöglicht zwei Runden Flammenschlag des Purgatoriums und Gewitterschlag-Kata.",
@@ -13716,7 +13716,7 @@
             ],
             "desc": [
                 "Lightning damage and chance of paralyzing and stopping all enemies, and enable purgatory fire slash and thunder strike stance for two turns",
-                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷擊衝陣」",
+                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+2回合內可以使用「煉獄剎燒斬」、「轟雷衝擊陣」",
                 "적 전체에 번개속성 피해+일정 확률로 마비와 스톱 부여+2턴 동안 '연옥찰소참', '굉뇌격충진' 사용 가능",
                 "Inflige des dégâts de foudre à tous les ennemis avec une chance de leur infliger paralysie et stop, et permet d'utiliser Flammes du purgatoire et Posture électrocoup pendant deux tours",
                 "Fügt allen Gegnern Blitzschaden zu und Chance, sie zu lähmen und zu stoppen und ermöglicht Flammenschlag des Purgatoriums und Gewitterschlag-Kata für zwei Runden.",
@@ -22087,6 +22087,1104 @@
             "desc": [null, null, null, null, null, null]
         }
     },
+    "100019105": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  0,  200,  200,  1,  1], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (20.1x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 170% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2010,  2010]], [0, 3, 3, [170,  0,  170,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (22x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 170% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2200,  2200]], [0, 3, 3, [170,  0,  170,  0,  3,  1,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019106": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  200,  1,  1], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (23.6x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2360,  2360]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (26x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2600,  2600]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019107": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  200,  1,  1,  0,  200], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (27.1x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 230% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2710,  2710]], [0, 3, 3, [230,  0,  230,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (30x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 230% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [230,  0,  230,  0,  3,  1,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019205": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (18.1x, ATK) to all enemies",
+                "Inflict 4 random status effects (60%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1810,  0,  0,  0]], [2, 1, 34, [60,  60,  60,  60,  60,  60,  60,  60,  1,  4]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (20x, ATK) to all enemies",
+                "Inflict 4 random status effects (60%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2000,  0,  0,  0]], [2, 1, 34, [60,  60,  60,  60,  60,  60,  60,  60,  1,  4]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019206": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (20.6x, ATK) to all enemies",
+                "Inflict 5 random status effects (70%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2060,  0,  0,  0]], [2, 1, 34, [70,  70,  70,  70,  70,  70,  70,  70,  1,  5]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (23x, ATK) to all enemies",
+                "Inflict 5 random status effects (70%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2300,  0,  0,  0]], [2, 1, 34, [70,  70,  70,  70,  70,  70,  70,  70,  1,  5]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019207": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (23.1x, ATK) to all enemies",
+                "Inflict 6 random status effects (80%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2310,  0,  0,  0]], [2, 1, 34, [80,  80,  80,  80,  80,  80,  80,  80,  1,  6]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (26x, ATK) to all enemies",
+                "Inflict 6 random status effects (80%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2600,  0,  0,  0]], [2, 1, 34, [80,  80,  80,  80,  80,  80,  80,  80,  1,  6]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019304": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (6.3x, ATK) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  630,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (7x, ATK) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  700,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019305": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[0,  1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (7.05x, ATK) to all enemies",
+                "Reduce SPR by 60% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  705,  0]], [2, 1, 24, [0,  0,  0,  -60,  3,  1]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (8x, ATK) to all enemies",
+                "Reduce SPR by 60% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [2, 1, 24, [0,  0,  0,  -60,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019306": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[0,  1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (7.8x, ATK) to all enemies",
+                "Reduce SPR by 70% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  780,  0]], [2, 1, 24, [0,  0,  0,  -70,  3,  1]]]},
+        "max_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (9x, ATK) to all enemies",
+                "Reduce SPR by 70% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  900,  0]], [2, 1, 24, [0,  0,  0,  -70,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019403": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 13,
+            "effects": ["Physical damage (5.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]]]},
+        "max_level": {
+            "cost": 13,
+            "effects": ["Physical damage (6.4x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  640,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019404": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  236]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": ["Physical damage (5.8x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": ["Physical damage (7.2x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019405": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  236,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": ["Physical damage (6.1x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  610,  0]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": ["Physical damage (8x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019505": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": ["Physical wind damage (6.1x * 2 = 12.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  610,  -50]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": ["Physical wind damage (8x * 2 = 16x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  800,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019506": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": ["Physical wind damage (7.6x * 2 = 15.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  760,  -50]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": ["Physical wind damage (10x * 2 = 20x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1000,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019507": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 30,
+        "min_level": {
+            "cost": 35,
+            "effects": ["Physical wind damage (11.1x * 2 = 22.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1110,  -50]]]},
+        "max_level": {
+            "cost": 35,
+            "effects": ["Physical wind damage (14x * 2 = 28x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1400,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019604": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce DEF and SPR by 40% for 3 turns to all enemies",
+                "Increase DEF and SPR by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -40,  0,  -40,  3,  1]], [2, 2, 3, [0,  70,  0,  70,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce DEF and SPR by 54% for 3 turns to all enemies",
+                "Increase DEF and SPR by 84% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -54,  0,  -54,  3,  1]], [2, 2, 3, [0,  84,  0,  84,  3,  1,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019605": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF and SPR by 45% for 3 turns to all enemies",
+                "Increase DEF and SPR by 75% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -45,  0,  -45,  3,  1]], [2, 2, 3, [0,  75,  0,  75,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF and SPR by 64% for 3 turns to all enemies",
+                "Increase DEF and SPR by 94% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -64,  0,  -64,  3,  1]], [2, 2, 3, [0,  94,  0,  94,  3,  1,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019606": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0,  0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF and SPR by 50% for 3 turns to all enemies",
+                "Increase DEF and SPR by 80% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]], [2, 2, 3, [0,  80,  0,  80,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF and SPR by 74% for 3 turns to all enemies",
+                "Increase DEF and SPR by 104% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -74,  0,  -74,  3,  1]], [2, 2, 3, [0,  104,  0,  104,  3,  1,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019704": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5x, ATK) to one enemy",
+                "Reduce DEF by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (6.4x, ATK) to one enemy",
+                "Reduce DEF by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  640,  0]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019705": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0,  0,  144]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5.5x, ATK) to one enemy",
+                "Reduce DEF by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]], [1, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.4x, ATK) to one enemy",
+                "Reduce DEF by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  740,  0]], [1, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019706": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0,  0,  144]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to one enemy",
+                "Reduce DEF by 65% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [1, 1, 24, [0,  -65,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to one enemy",
+                "Reduce DEF by 65% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [1, 1, 24, [0,  -65,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019803": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (1.5x * 2 = 3x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  150,  -50]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (2.4x * 2 = 4.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  240,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019804": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (2x * 2 = 4x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (3.4x * 2 = 6.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  340,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019805": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (4.4x * 2 = 8.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  440,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019905": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (26x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 40% for 3 turns to all enemies",
+                "Restore 240 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2600,  2600]], [2, 1, 33, [-40,  0,  -40,  -40,  -40,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  240,  3]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (29.8x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 59% for 3 turns to all enemies",
+                "Restore 240 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2980,  2980]], [2, 1, 33, [-59,  0,  -59,  -59,  -59,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  240,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019906": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (28x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 50% for 3 turns to all enemies",
+                "Restore 360 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2800,  2800]], [2, 1, 33, [-50,  0,  -50,  -50,  -50,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  360,  3]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (32.8x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 74% for 3 turns to all enemies",
+                "Restore 360 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3280,  3280]], [2, 1, 33, [-74,  0,  -74,  -74,  -74,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  360,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100019907": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Hybrid damage (30x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 60% for 3 turns to all enemies",
+                "Restore 480 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [2, 1, 33, [-60,  0,  -60,  -60,  -60,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  480,  3]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Hybrid damage (36x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 80% for 3 turns to all enemies",
+                "Restore 480 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3600,  3600]], [2, 1, 33, [-80,  0,  -80,  -80,  -80,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  480,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020005": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 23,
+            "effects": [
+                "Physical damage (7x * 2 = 14x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 覇 (229565) / 鋭 (229563)] by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 100, 2, 1, 1117, 0]]]},
+        "max_level": {
+            "cost": 23,
+            "effects": [
+                "Physical damage (8.9x * 2 = 17.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 覇 (229565) / 鋭 (229563)] by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  890,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 100, 2, 1, 1117, 0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020006": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (8.5x * 2 = 17x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 覇 (229565) / 鋭 (229563)] by 200% for 2 turns",
+                "Increase damage of 極・明鏡 (229561) by 300% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  850,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 200, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  300,  2,  1,  1118,  0]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (10.9x * 2 = 21.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 覇 (229565) / 鋭 (229563)] by 200% for 2 turns",
+                "Increase damage of 極・明鏡 (229561) by 300% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1090,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 200, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  300,  2,  1,  1118,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020007": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (12x * 2 = 24x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 虚 (229571) / 覇 (229565) / 鋭 (229563)] by 300% for 2 turns",
+                "Increase damage of 極・明鏡 (229561) by 500% for 2 turns",
+                "Increase damage of 真・明鏡 (509112) by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1200,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565,  229571], 0, 0, 300, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  500,  2,  1,  1118,  0]], [0, 3, 136, [509112,  0,  0,  100,  2,  1,  1119,  0]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (14.9x * 2 = 29.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of 三十連斬 (229562), 完全なる無の境地 (229569), 明鏡・乱 (229564), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 極・明鏡 (229561), 氷砕　─凍─ (229566), 炎熱　─灰─ (229567), 無残　─石火─ (229568) and 真・明鏡 (229570) for 2 turns",
+                "Increase damage of 明鏡・ skills  [乱 (229564) / 虚 (229571) / 覇 (229565) / 鋭 (229563)] by 300% for 2 turns",
+                "Increase damage of 極・明鏡 (229561) by 500% for 2 turns",
+                "Increase damage of 真・明鏡 (509112) by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1490,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565,  229571], 0, 0, 300, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  500,  2,  1,  1118,  0]], [0, 3, 136, [509112,  0,  0,  100,  2,  1,  1119,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020104": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Reduce DEF by 35% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [2, 1, 24, [0,  -35,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5.4x, ATK) to all enemies",
+                "Reduce DEF by 49% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540,  0]], [2, 1, 24, [0,  -49,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020105": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[0,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5x, ATK) to all enemies",
+                "Reduce DEF by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [2, 1, 24, [0,  -40,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.9x, ATK) to all enemies",
+                "Reduce DEF by 59% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]], [2, 1, 24, [0,  -59,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020106": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[0,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce DEF by 45% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to all enemies",
+                "Reduce DEF by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [2, 1, 24, [0,  -69,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020204": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[235]],
+        "effect_frames": [[0,  233]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (2.5x * 2 = 5x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (3.9x * 2 = 7.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  390,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020205": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[233]],
+        "effect_frames": [[0,  233,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (4.9x * 2 = 9.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020206": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[233]],
+        "effect_frames": [[0,  233,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Physical damage (3.5x * 2 = 7x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Physical damage (5.9x * 2 = 11.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  590,  -50]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020303": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Inflict 2 random status effects (30%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  30,  1,  2]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Inflict 2 random status effects (39%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [39,  39,  39,  39,  39,  39,  39,  39,  1,  2]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020304": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0,  112]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Inflict 3 random status effects (40%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [40,  40,  40,  40,  40,  40,  40,  40,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Inflict 3 random status effects (54%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [54,  54,  54,  54,  54,  54,  54,  54,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "100020305": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0,  0,  112]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Inflict 4 random status effects (50%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [50,  50,  50,  50,  50,  50,  50,  50,  1,  4]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Inflict 4 random status effects (69%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [69,  69,  69,  69,  69,  69,  69,  69,  1,  4]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
     "201000104": {
         "name": "Shining Blade",
         "cost": 0,
@@ -22770,7 +23868,7 @@
                 "大地咆哮",
                 "대지의 포효",
                 "Grondement de Gaïa",
-                "Gaias Brüllen",
+                "Gaias Gebrüll",
                 "Aullido de Gaia"
             ],
             "desc": [
@@ -22808,7 +23906,7 @@
                 "大地咆哮",
                 "대지의 포효",
                 "Grondement de Gaïa",
-                "Gaias Brüllen",
+                "Gaias Gebrüll",
                 "Aullido de Gaia"
             ],
             "desc": [
@@ -26483,6 +27581,489 @@
             ]
         }
     },
+    "204001705": {
+        "name": "深淵の闇",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[200]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Dark"],
+        "levels": 20,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 70% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  500,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -70,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic dark damage (9.75x * 2 = 19.5x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 89% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  975,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -89,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001706": {
+        "name": "深淵の闇",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[200]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Dark"],
+        "levels": 25,
+        "min_level": {
+            "cost": 34,
+            "effects": [
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 75% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  500,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -75,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": [
+                "Magic dark damage (11x * 2 = 22x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 100% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1100,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -100,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001707": {
+        "name": "深淵の闇",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[200]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Dark"],
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 75% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  500,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -75,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Magic dark damage (13.5x * 2 = 27x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Dark by 100% for 3 turns to all enemies",
+                "Fill esper gauge by 5"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1350,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -100,  1,  3]], [0, 3, 32, [5,  5]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001805": {
+        "name": "かえんりゅう",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[168,  178,  188,  198,  208,  218,  228]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 20,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic fire damage (10x, MAG) to all enemies",
+                "Reduce resistance to Fire by 70% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-70,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic fire damage (19.5x, MAG) to all enemies",
+                "Reduce resistance to Fire by 89% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1950,  0]], [2, 1, 33, [-89,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001806": {
+        "name": "かえんりゅう",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[168,  178,  188,  198,  208,  218,  228]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 25,
+        "min_level": {
+            "cost": 34,
+            "effects": [
+                "Magic fire damage (10x, MAG) to all enemies",
+                "Reduce resistance to Fire by 75% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": [
+                "Magic fire damage (22x, MAG) to all enemies",
+                "Reduce resistance to Fire by 100% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2200,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001807": {
+        "name": "かえんりゅう",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[168,  178,  188,  198,  208,  218,  228]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Magic fire damage (10x, MAG) to all enemies",
+                "Reduce resistance to Fire by 75% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Magic fire damage (27x, MAG) to all enemies",
+                "Reduce resistance to Fire by 100% for 3 turns to all enemies",
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2700,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001904": {
+        "name": "ミールストーム",
+        "cost": 0,
+        "attack_count": [15],
+        "attack_damage": [[6,  6,  6,  6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7]],
+        "attack_frames": [[96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  151,  156,  161,  166]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Wind",
+            "Light"
+        ],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic wind and light damage (6x, MAG) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  -50,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic wind and light damage (7.4x, MAG) to all enemies",
+                "Reduce SPR by 64% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 64% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  740,  0]], [2, 1, 24, [0,  0,  0,  -64,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -64,  0,  -64,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001905": {
+        "name": "ミールストーム",
+        "cost": 0,
+        "attack_count": [15],
+        "attack_damage": [[6,  6,  6,  6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7]],
+        "attack_frames": [[96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  151,  156,  161,  166]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Wind",
+            "Light"
+        ],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic wind and light damage (6x, MAG) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  -50,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic wind and light damage (7.9x, MAG) to all enemies",
+                "Reduce SPR by 69% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  790,  0]], [2, 1, 24, [0,  0,  0,  -69,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -69,  0,  -69,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204001906": {
+        "name": "ミールストーム",
+        "cost": 0,
+        "attack_count": [15],
+        "attack_damage": [[6,  6,  6,  6,  6,  7,  7,  7,  7,  7,  7,  7,  7,  7,  7]],
+        "attack_frames": [[96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  151,  156,  161,  166]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Wind",
+            "Light"
+        ],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic wind and light damage (6x, MAG) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  -50,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic wind and light damage (8.4x, MAG) to all enemies",
+                "Reduce SPR by 74% for 3 turns to all enemies",
+                "Reduce resistance to Wind and Light by 74% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  840,  0]], [2, 1, 24, [0,  0,  0,  -74,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -74,  0,  -74,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002003": {
+        "name": "のろいのうた",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[138,  153,  168,  183,  198]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (4x, ATK) to one enemy",
+                "Reduce ATK and DEF by 40% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (5.8x, ATK) to one enemy",
+                "Reduce ATK and DEF by 49% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]], [1, 1, 24, [-49,  -49,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002004": {
+        "name": "のろいのうた",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[138,  153,  168,  183,  198]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4x, ATK) to one enemy",
+                "Reduce ATK and DEF by 40% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (6.8x, ATK) to one enemy",
+                "Reduce ATK and DEF by 54% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  680,  0]], [1, 1, 24, [-54,  -54,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002005": {
+        "name": "のろいのうた",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[138,  153,  168,  183,  198]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (4x, ATK) to one enemy",
+                "Reduce ATK and DEF by 40% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.8x, ATK) to one enemy",
+                "Reduce ATK and DEF by 59% for 3 turns to one enemy",
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  780,  0]], [1, 1, 24, [-59,  -59,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002104": {
+        "name": "おおつなみ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  12]],
+        "attack_frames": [[247,  259,  271,  283,  295,  307,  319,  331,  343,  355,  367,  379]],
+        "effect_frames": [[0,  0,  66]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical water damage (6x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  600]], [0, 3, 61, [100,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical water damage (7.4x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  740]], [0, 3, 61, [100,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002105": {
+        "name": "おおつなみ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  12]],
+        "attack_frames": [[247,  259,  271,  283,  295,  307,  319,  331,  343,  355,  367,  379]],
+        "effect_frames": [[0,  0,  0,  66]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical water damage (6x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  600]], [0, 3, 61, [100,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical water damage (7.9x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  790]], [0, 3, 61, [100,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "204002106": {
+        "name": "おおつなみ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  12]],
+        "attack_frames": [[247,  259,  271,  283,  295,  307,  319,  331,  343,  355,  367,  379]],
+        "effect_frames": [[0,  0,  0,  66]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical water damage (6x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  600]], [0, 3, 61, [100,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical water damage (8.4x, DEF) to all enemies",
+                "Increase chance of being targeted by 100% for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  840]], [0, 3, 61, [100,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
     "205000103": {
         "name": "Pursuing Winds",
         "cost": 0,
@@ -29030,7 +30611,7 @@
                 "大激震",
                 "압도 충격타",
                 "Choc terrestre",
-                "Erdschock",
+                "Gewaltiges Beben",
                 "Impacto terrestre"
             ],
             "desc": [
@@ -32128,7 +33709,7 @@
         }
     },
     "210000605": {
-        "name": "陣風",
+        "name": "Tornado",
         "cost": 0,
         "attack_count": [22],
         "attack_damage": [[2,  2,  2,  2,  2,  2,  2,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6]],
@@ -32153,12 +33734,26 @@
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  495,  -50]], [2, 1, 33, [-59,  0,  0,  0,  -59,  0,  0,  0,  1,  3]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Tornado",
+                "陣風",
+                "진풍",
+                "Tornade",
+                "Zephyr",
+                "Huracán"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage and reduce fire and wind resistance for all enemies",
+                "對全體敵人發動無視部分防禦的攻擊+降低火風屬性耐性",
+                "적 전체에 일부 방어 무시 피해+불과 바람속성 저항력 감소",
+                "Inflige des dégâts en partie fixes, et réduit la résistance au feu et au vent de tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu und verringert ihre Feuer- und Windresistenz.",
+                "Inflige daño absoluto parcial y reduce la resistencia al fuego de todos los enemigos"
+            ]
         }
     },
     "210000606": {
-        "name": "陣風",
+        "name": "Tornado",
         "cost": 0,
         "attack_count": [22],
         "attack_damage": [[2,  2,  2,  2,  2,  2,  2,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6]],
@@ -32183,12 +33778,26 @@
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  620,  -50]], [2, 1, 33, [-74,  0,  0,  0,  -74,  0,  0,  0,  1,  3]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Tornado",
+                "陣風",
+                "진풍",
+                "Tornade",
+                "Zephyr",
+                "Huracán"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage and reduce fire and wind resistance for all enemies",
+                "對全體敵人發動無視部分防禦的攻擊+降低火風屬性耐性",
+                "적 전체에 일부 방어 무시 피해+불과 바람속성 저항력 감소",
+                "Inflige des dégâts en partie fixes, et réduit la résistance au feu et au vent de tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu und verringert ihre Feuer- und Windresistenz.",
+                "Inflige daño absoluto parcial y reduce la resistencia al fuego de todos los enemigos"
+            ]
         }
     },
     "210000607": {
-        "name": "陣風",
+        "name": "Tornado",
         "cost": 0,
         "attack_count": [22],
         "attack_damage": [[2,  2,  2,  2,  2,  2,  2,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6]],
@@ -32213,8 +33822,22 @@
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  900,  -50]], [2, 1, 33, [-79,  0,  0,  0,  -79,  0,  0,  0,  1,  3]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Tornado",
+                "陣風",
+                "진풍",
+                "Tornade",
+                "Zephyr",
+                "Huracán"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage and reduce fire and wind resistance for all enemies",
+                "對全體敵人發動無視部分防禦的攻擊+降低火風屬性耐性",
+                "적 전체에 일부 방어 무시 피해+불과 바람속성 저항력 감소",
+                "Inflige des dégâts en partie fixes, et réduit la résistance au feu et au vent de tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu und verringert ihre Feuer- und Windresistenz.",
+                "Inflige daño absoluto parcial y reduce la resistencia al fuego de todos los enemigos"
+            ]
         }
     },
     "210000704": {
@@ -32482,7 +34105,7 @@
         }
     },
     "210001005": {
-        "name": "真・ジェクトシュート",
+        "name": "Ultimate Jecht Shot",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32507,12 +34130,26 @@
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Ultimate Jecht Shot",
+                "真·傑克特射門",
+                "진 젝트 소드",
+                "Ultime Jecht Shoot",
+                "Original Jekkt-Spezial",
+                "Auténtico chut de Jecht"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple quickstrike for three turns",
+                "攻擊全體敵人+3回合內可使用「速攻×3」",
+                "적 전체에 피해+3턴 동안 '속공x3' 사용 가능",
+                "Inflige des dégâts à tous les ennemis et permet d'utiliser Triple choc pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht drei Runden lang Tripel-Schnellattacke.",
+                "Daña a todos los enemigos y aprende Golpe rápido triple durante 3 turnos"
+            ]
         }
     },
     "210001006": {
-        "name": "真・ジェクトシュート",
+        "name": "Ultimate Jecht Shot",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32537,12 +34174,26 @@
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Ultimate Jecht Shot",
+                "真·傑克特射門",
+                "진 젝트 소드",
+                "Ultime Jecht Shoot",
+                "Original Jekkt-Spezial",
+                "Auténtico chut de Jecht"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple quickstrike for three turns",
+                "攻擊全體敵人+3回合內可使用「速攻×3」",
+                "적 전체에 피해+3턴 동안 '속공x3' 사용 가능",
+                "Inflige des dégâts à tous les ennemis et permet d'utiliser Triple choc pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht drei Runden lang Tripel-Schnellattacke.",
+                "Daña a todos los enemigos y aprende Golpe rápido triple durante 3 turnos"
+            ]
         }
     },
     "210001007": {
-        "name": "真・ジェクトシュート",
+        "name": "Ultimate Jecht Shot",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32567,12 +34218,26 @@
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Ultimate Jecht Shot",
+                "真·傑克特射門",
+                "진 젝트 소드",
+                "Ultime Jecht Shoot",
+                "Original Jekkt-Spezial",
+                "Auténtico chut de Jecht"
+            ],
+            "desc": [
+                "Damage all enemies and enable triple quickstrike for three turns",
+                "攻擊全體敵人+3回合內可使用「速攻×3」",
+                "적 전체에 피해+3턴 동안 '속공x3' 사용 가능",
+                "Inflige des dégâts à tous les ennemis et permet d'utiliser Triple choc pendant trois tours",
+                "Fügt allen Gegnern Schaden zu und ermöglicht drei Runden lang Tripel-Schnellattacke.",
+                "Daña a todos los enemigos y aprende Golpe rápido triple durante 3 turnos"
+            ]
         }
     },
     "210001503": {
-        "name": "マキシマムスピード",
+        "name": "Maximum Speed",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -32599,12 +34264,26 @@
             ],
             "effects_raw": [[2, 2, 3, [69,  0,  0,  0,  3,  1,  0]], [2, 2, 63, [200,  3]], [2, 2, 123, [100,  1,  100,  3,  1,  1]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Maximum Speed",
+                "終極速度",
+                "최대 속력",
+                "Vitesse maximale",
+                "Vollgas",
+                "Máxima velocidad"
+            ],
+            "desc": [
+                "Boost ATK and LB gauge fill rate for all allies, and temporarily add chance of counterattacking when an ally receives a physical attack",
+                "提高全體隊員的攻擊+提高極限技石對極限技槽的增加量+暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊",
+                "아군 전체의 공격력 상승+LB 게이지 효율 상승+일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격 효과 부여",
+                "Augmente l'ATT et le taux de remplissage de la jauge de limite pour tous les alliés, et leur confère temporairement une chance de contre-attaquer lorsqu'un allié subit une attaque physique",
+                "Erhöht ANG, Limitmeter füllt sich schneller für alle Verbündeten und kurzzeitige Chance zu kontern, wenn ein Verbündeter von einem physischen Angriff getroffen wird.",
+                "Aumenta el ATQ, la barra de EL de todos los aliados se rellena más rápido y añade temporalmente la probabilidad de contraatacar cuando el aliado recibe un ataque físico"
+            ]
         }
     },
     "210001504": {
-        "name": "マキシマムスピード",
+        "name": "Maximum Speed",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -32631,12 +34310,26 @@
             ],
             "effects_raw": [[2, 2, 3, [84,  0,  0,  0,  3,  1,  0]], [2, 2, 63, [200,  3]], [2, 2, 123, [100,  1,  100,  3,  1,  1]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Maximum Speed",
+                "終極速度",
+                "최대 속력",
+                "Vitesse maximale",
+                "Vollgas",
+                "Máxima velocidad"
+            ],
+            "desc": [
+                "Boost ATK and LB gauge fill rate for all allies, and temporarily add chance of counterattacking when an ally receives a physical attack",
+                "提高全體隊員的攻擊+提高極限技石對極限技槽的增加量+暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊",
+                "아군 전체의 공격력 상승+LB 게이지 효율 상승+일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격 효과 부여",
+                "Augmente l'ATT et le taux de remplissage de la jauge de limite pour tous les alliés, et leur confère temporairement une chance de contre-attaquer lorsqu'un allié subit une attaque physique",
+                "Erhöht ANG, Limitmeter füllt sich schneller für alle Verbündeten und kurzzeitige Chance zu kontern, wenn ein Verbündeter von einem physischen Angriff getroffen wird.",
+                "Aumenta el ATQ, la barra de EL de todos los aliados se rellena más rápido y añade temporalmente la probabilidad de contraatacar cuando el aliado recibe un ataque físico"
+            ]
         }
     },
     "210001505": {
-        "name": "マキシマムスピード",
+        "name": "Maximum Speed",
         "cost": 0,
         "attack_count": [1, 1],
         "attack_damage": [[100], [100]],
@@ -32663,12 +34356,26 @@
             ],
             "effects_raw": [[2, 2, 3, [100,  0,  0,  0,  3,  1,  0]], [2, 2, 63, [200,  3]], [2, 2, 123, [100,  1,  100,  3,  1,  1]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Maximum Speed",
+                "終極速度",
+                "최대 속력",
+                "Vitesse maximale",
+                "Vollgas",
+                "Máxima velocidad"
+            ],
+            "desc": [
+                "Boost ATK and LB gauge fill rate for all allies, and temporarily add chance of counterattacking when an ally receives a physical attack",
+                "提高全體隊員的攻擊+提高極限技石對極限技槽的增加量+暫時性除自身以外的隊員受到物理攻擊時一定機率進行反擊",
+                "아군 전체의 공격력 상승+LB 게이지 효율 상승+일시적으로 자신을 제외한 아군이 물리 공격을 받으면 일정 확률로 반격 효과 부여",
+                "Augmente l'ATT et le taux de remplissage de la jauge de limite pour tous les alliés, et leur confère temporairement une chance de contre-attaquer lorsqu'un allié subit une attaque physique",
+                "Erhöht ANG, Limitmeter füllt sich schneller für alle Verbündeten und kurzzeitige Chance zu kontern, wenn ein Verbündeter von einem physischen Angriff getroffen wird.",
+                "Aumenta el ATQ, la barra de EL de todos los aliados se rellena más rápido y añade temporalmente la probabilidad de contraatacar cuando el aliado recibe un ataque físico"
+            ]
         }
     },
     "210001904": {
-        "name": "召喚連舞",
+        "name": "Dance of Summoning",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32693,12 +34400,26 @@
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]], [0, 3, 32, [5,  5]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Dance of Summoning",
+                "召喚連舞",
+                "소환연무",
+                "Danse d'invocation",
+                "Beschwörungstanz",
+                "Danza de la invocación"
+            ],
+            "desc": [
+                "Damage all enemies and fill evocation gauge",
+                "攻擊全體敵人+增加召喚槽",
+                "적 전체에 피해+소환 게이지 증가",
+                "Inflige des dégâts à tous les ennemis et remplit la jauge d'appel",
+                "Fügt allen Gegnern Schaden zu und füllt Rufleiste.",
+                "Daña a todos los enemigos y rellena la barra de invocación"
+            ]
         }
     },
     "210001905": {
-        "name": "召喚連舞",
+        "name": "Dance of Summoning",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32723,12 +34444,26 @@
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  640,  0]], [0, 3, 32, [5,  5]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Dance of Summoning",
+                "召喚連舞",
+                "소환연무",
+                "Danse d'invocation",
+                "Beschwörungstanz",
+                "Danza de la invocación"
+            ],
+            "desc": [
+                "Damage all enemies and fill evocation gauge",
+                "攻擊全體敵人+增加召喚槽",
+                "적 전체에 피해+소환 게이지 증가",
+                "Inflige des dégâts à tous les ennemis et remplit la jauge d'appel",
+                "Fügt allen Gegnern Schaden zu und füllt Rufleiste.",
+                "Daña a todos los enemigos y rellena la barra de invocación"
+            ]
         }
     },
     "210001906": {
-        "name": "召喚連舞",
+        "name": "Dance of Summoning",
         "cost": 0,
         "attack_count": [1],
         "attack_damage": [[100]],
@@ -32753,8 +34488,22 @@
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  740,  0]], [0, 3, 32, [5,  5]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Dance of Summoning",
+                "召喚連舞",
+                "소환연무",
+                "Danse d'invocation",
+                "Beschwörungstanz",
+                "Danza de la invocación"
+            ],
+            "desc": [
+                "Damage all enemies and fill evocation gauge",
+                "攻擊全體敵人+增加召喚槽",
+                "적 전체에 피해+소환 게이지 증가",
+                "Inflige des dégâts à tous les ennemis et remplit la jauge d'appel",
+                "Fügt allen Gegnern Schaden zu und füllt Rufleiste.",
+                "Daña a todos los enemigos y rellena la barra de invocación"
+            ]
         }
     },
     "211000103": {
@@ -39011,6 +40760,96 @@
             ]
         }
     },
+    "253000704": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (3.3x * 2 = 6.6x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  330,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 64% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-64,  -64,  -64,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253000705": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  495,  50]], [2, 1, 33, [-69,  -69,  -69,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253000706": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (4.8x * 2 = 9.6x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  480,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 74% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 33, [-74,  -74,  -74,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
     "253000805": {
         "name": "Swordplay: Raiden",
         "cost": 0,
@@ -39237,6 +41076,96 @@
                 "Teilweise direkter Schaden, alle Ziele",
                 "Daño absoluto parcial a todos los enemigos"
             ]
+        }
+    },
+    "253001005": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Hybrid damage (22x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 40% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2200,  2200]], [1, 1, 24, [-40,  -40,  -40,  -40,  3,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Hybrid damage (23.9x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2390,  2390]], [1, 1, 24, [-60,  -60,  -60,  -60,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001006": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (25.6x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2560,  2560]], [1, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (28x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 70% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2800,  2800]], [1, 1, 24, [-70,  -70,  -70,  -70,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001007": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (28.6x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2860,  2860]], [1, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (32x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 74% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3200,  3200]], [1, 1, 24, [-74,  -74,  -74,  -74,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
         }
     },
     "253001103": {
@@ -39501,6 +41430,186 @@
                 "Schaden und Chance, alle Gegner zu stoppen.",
                 "Daño y probabilidad de infligir paro a todos los enemigos"
             ]
+        }
+    },
+    "253001305": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for one turn"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Magic damage (8x * 2 = 16x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for one turn"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  800,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001306": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  750,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (10x * 2 = 20x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1000,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001307": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (10.5x * 2 = 21x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1050,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (13.5x * 2 = 27x, MAG) to all enemies (ignore reflect)",
+                "Gain 4 uses of アルマゲスト (229124), グランドクロス (229129), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125) for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1350,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001403": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Magic damage (4x, SPR) to one enemy",
+                "Reduce damage taken by 20% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  400]], [0, 3, 101, [20,  2,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Magic damage (4.9x, SPR) to one enemy",
+                "Reduce damage taken by 20% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  490]], [0, 3, 101, [20,  2,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001404": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0,  126]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (5x, SPR) to one enemy",
+                "Reduce damage taken by 30% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  500]], [0, 3, 101, [30,  2,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (6.4x, SPR) to one enemy",
+                "Reduce damage taken by 30% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  640]], [0, 3, 101, [30,  2,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "253001405": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0,  126,  10]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (6x, SPR) to one enemy",
+                "Reduce damage taken by 40% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  600]], [0, 3, 101, [40,  2,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (7.9x, SPR) to one enemy",
+                "Reduce damage taken by 40% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  790]], [0, 3, 101, [40,  2,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
         }
     },
     "254000105": {
@@ -41589,6 +43698,222 @@
                 "Schaden und ABW runter, ein Ziel",
                 "Daña y reduce la DEF de un enemigo"
             ]
+        }
+    },
+    "256000101": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 3,
+        "min_level": {
+            "cost": 17,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 68% for 3 turns to all allies",
+                "Increase resistance to all elements by 20% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [68,  68,  68,  68,  3,  1,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 70% for 3 turns to all allies",
+                "Increase resistance to all elements by 20% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [70,  70,  70,  70,  3,  1,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "256000102": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 5,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 76% for 3 turns to all allies",
+                "Increase resistance to all elements by 22% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [76,  76,  76,  76,  3,  1,  0]], [2, 2, 33, [22,  22,  22,  22,  22,  22,  22,  22,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 80% for 3 turns to all allies",
+                "Increase resistance to all elements by 22% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [80,  80,  80,  80,  3,  1,  0]], [2, 2, 33, [22,  22,  22,  22,  22,  22,  22,  22,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "256000103": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 19,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 81% for 3 turns to all allies",
+                "Increase resistance to all elements by 24% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [81,  81,  81,  81,  3,  1,  0]], [2, 2, 33, [24,  24,  24,  24,  24,  24,  24,  24,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 19,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 90% for 3 turns to all allies",
+                "Increase resistance to all elements by 24% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [90,  90,  90,  90,  3,  1,  0]], [2, 2, 33, [24,  24,  24,  24,  24,  24,  24,  24,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "256000104": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 86% for 3 turns to all allies",
+                "Increase resistance to all elements by 26% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [86,  86,  86,  86,  3,  1,  0]], [2, 2, 33, [26,  26,  26,  26,  26,  26,  26,  26,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 100% for 3 turns to all allies",
+                "Increase resistance to all elements by 26% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [100,  100,  100,  100,  3,  1,  0]], [2, 2, 33, [26,  26,  26,  26,  26,  26,  26,  26,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "256000105": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 21,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 91% for 3 turns to all allies",
+                "Increase resistance to all elements by 28% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [91,  91,  91,  91,  3,  1,  0]], [2, 2, 33, [28,  28,  28,  28,  28,  28,  28,  28,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 21,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 110% for 3 turns to all allies",
+                "Increase resistance to all elements by 28% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [110,  110,  110,  110,  3,  1,  0]], [2, 2, 33, [28,  28,  28,  28,  28,  28,  28,  28,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "256000106": {
+        "name": "リコドキパーティ！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 96% for 3 turns to all allies",
+                "Increase resistance to all elements by 30% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [96,  96,  96,  96,  3,  1,  0]], [2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 120% for 3 turns to all allies",
+                "Increase resistance to all elements by 30% for 3 turns to all allies",
+                "Increase resistance to all status effects by 30% for all allies for 3 turns",
+                "Restore 30 MP to all allies",
+                "Grant a 100 HP shield to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 2, 3, [120,  120,  120,  120,  3,  1,  0]], [2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
         }
     },
     "301000103": {
@@ -45401,7 +47726,7 @@
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
                 "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
-                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Fügt allen Gegnern Schaden zu und entfernt einige ihrer Statuseffekte.",
                 "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
@@ -45445,7 +47770,7 @@
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
                 "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
-                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Fügt allen Gegnern Schaden zu und entfernt einige ihrer Statuseffekte.",
                 "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
@@ -45489,7 +47814,7 @@
                 "攻擊全體敵人+解除部分狀態效果",
                 "적 전체에 피해+일부 능력치 효과 해제",
                 "Inflige des dégâts et retire certaines altérations d'état à tous les ennemis",
-                "Fügt allen Gegner Schaden zu und entfernt einige seiner Statuseffekte.",
+                "Fügt allen Gegnern Schaden zu und entfernt einige ihrer Statuseffekte.",
                 "Daña y elimina algunos estados alterados de los enemigos"
             ]
         }
@@ -50507,6 +52832,360 @@
                 null,
                 null
             ],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000105": {
+        "name": "緋の乱舞",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[300]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 31,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 131% for 5 turns to all allies",
+                "Restore 4000 (+10x, Heal) HP split over 5 turns to all allies",
+                "Restore 150 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 4 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [131,  131,  131,  131,  5,  1,  0]], [2, 2, 8, [1000,  1,  4000,  5]], [2, 2, 30, [20,  1,  150,  5]], [2, 2, 125, [400,  400]]]},
+        "max_level": {
+            "cost": 31,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 150% for 5 turns to all allies",
+                "Restore 4000 (+10x, Heal) HP split over 5 turns to all allies",
+                "Restore 150 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 4 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [150,  150,  150,  150,  5,  1,  0]], [2, 2, 8, [1000,  1,  4000,  5]], [2, 2, 30, [20,  1,  150,  5]], [2, 2, 125, [400,  400]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000106": {
+        "name": "緋の乱舞",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[300]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 146% for 5 turns to all allies",
+                "Restore 4500 (+15x, Heal) HP split over 5 turns to all allies",
+                "Restore 170 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 5 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [146,  146,  146,  146,  5,  1,  0]], [2, 2, 8, [1500,  1,  4500,  5]], [2, 2, 30, [20,  1,  170,  5]], [2, 2, 125, [500,  500]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 170% for 5 turns to all allies",
+                "Restore 4500 (+15x, Heal) HP split over 5 turns to all allies",
+                "Restore 170 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 5 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [170,  170,  170,  170,  5,  1,  0]], [2, 2, 8, [1500,  1,  4500,  5]], [2, 2, 30, [20,  1,  170,  5]], [2, 2, 125, [500,  500]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000107": {
+        "name": "緋の乱舞",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[300]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 33,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 171% for 5 turns to all allies",
+                "Restore 5000 (+20x, Heal) HP split over 5 turns to all allies",
+                "Restore 200 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 6 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [171,  171,  171,  171,  5,  1,  0]], [2, 2, 8, [2000,  1,  5000,  5]], [2, 2, 30, [20,  1,  200,  5]], [2, 2, 125, [600,  600]]]},
+        "max_level": {
+            "cost": 33,
+            "effects": [
+                "Increase ATK, DEF, MAG and SPR by 200% for 5 turns to all allies",
+                "Restore 5000 (+20x, Heal) HP split over 5 turns to all allies",
+                "Restore 200 (+0.2x, Heal) MP split over 5 turns to all allies",
+                "Increase LB gauge by 6 to all allies"
+            ],
+            "effects_raw": [[2, 2, 3, [200,  200,  200,  200,  5,  1,  0]], [2, 2, 8, [2000,  1,  5000,  5]], [2, 2, 30, [20,  1,  200,  5]], [2, 2, 125, [600,  600]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000205": {
+        "name": "不落の堅陣",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[185], [185]],
+        "effect_frames": [[0,  0], [150,  185,  150]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 11% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [11,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 30% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [30,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000206": {
+        "name": "不落の堅陣",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[185], [185]],
+        "effect_frames": [[0,  0], [150,  185,  150]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 11% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [11,  3,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 35% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [35,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000207": {
+        "name": "不落の堅陣",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[185], [185]],
+        "effect_frames": [[0,  0,  0,  0], [150,  185,  150]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 11% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [11,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "75% chance to intercept physical damage to allies for 3 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 40% to all allies for 3 turns"
+            ],
+            "effects_raw": [[0, 3, 96, [1,  0,  50,  70,  75,  100,  3,  1,  1]], [2, 2, 101, [40,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000304": {
+        "name": "リープローバー",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[88], [82]],
+        "effect_frames": [[0], [0,  80]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (6.6x, ATK) to one enemy",
+                "Reduce ATK and DEF by 26% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  660,  0]], [1, 1, 24, [-26,  -26,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (8x, ATK) to one enemy",
+                "Reduce ATK and DEF by 40% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000305": {
+        "name": "リープローバー",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[88], [82]],
+        "effect_frames": [[0], [0,  80,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (7.1x, ATK) to one enemy",
+                "Reduce ATK and DEF by 26% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  710,  0]], [1, 1, 24, [-26,  -26,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (9x, ATK) to one enemy",
+                "Reduce ATK and DEF by 45% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  900,  0]], [1, 1, 24, [-45,  -45,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000306": {
+        "name": "リープローバー",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[88], [82]],
+        "effect_frames": [[0], [0,  80,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (7.6x, ATK) to one enemy",
+                "Reduce ATK and DEF by 26% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  760,  0]], [1, 1, 24, [-26,  -26,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (10x, ATK) to one enemy",
+                "Reduce ATK and DEF by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [1, 1, 24, [-50,  -50,  0,  0,  3,  1]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000403": {
+        "name": "傭兵よび",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[136]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 13,
+            "effects": ["Physical damage (4.6x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  460,  0]]]},
+        "max_level": {
+            "cost": 13,
+            "effects": ["Physical damage (5.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000404": {
+        "name": "傭兵よび",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[136]],
+        "effect_frames": [[0,  0,  134]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": ["Physical damage (5.1x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  510,  0]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": ["Physical damage (6.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  650,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
+            "desc": [null, null, null, null, null, null]
+        }
+    },
+    "334000405": {
+        "name": "傭兵よび",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[136]],
+        "effect_frames": [[0,  0,  2,  4,  134,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": ["Physical damage (5.6x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  560,  0]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": ["Physical damage (7.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  750,  0]]]},
+        "strings": {
+            "name": [null, null, null, null, null, null],
             "desc": [null, null, null, null, null, null]
         }
     },
@@ -56698,7 +59377,7 @@
                 "對全體敵人發動雷屬性攻擊+3回合內降低攻擊防禦+3回合內提高自身的攻擊",
                 "적 전체에 번개속성 피해+3턴 동안 공격력과 방어력 감소+자신의 공격력 상승",
                 "Inflige des dégâts de foudre et réduit l'ATT et la DEF de tous les ennemis pendant 3 tours et augmente l'ATT du lanceur pendant 3 tours",
-                "Fügt allen Gegnern Blitzschaden zu, verringert 3 Runden lange ihre ANG und ABW und erhöht für 3 Runden eigenen ANG.",
+                "Fügt allen Gegnern Blitzschaden zu, verringert ihre ANG und ABW für 3 Runden und erhöht ANG des Benutzers für 3 Runden.",
                 "Inflige daño de rayo y reduce el ATQ y la DEF de todos los enemigos durante 3 turnos, aumenta el ATQ del usuario durante 3 turnos"
             ]
         }
@@ -59333,7 +62012,7 @@
             ],
             "desc": [
                 "Deal lightning damage and chance of paralyzing and stopping all enemies, and enable true purgatory fire slash, true thunder strike stance, and shadow dragon roar for three turns",
-                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+3回合內可使用「真‧煉獄剎燒斬」「真‧轟雷擊衝陣」「暗龍咆絕破」",
+                "對全體敵人發動雷屬性攻擊+一定機率施加麻痺停止效果+3回合內可使用「真‧煉獄剎燒斬」「真‧轟雷衝擊陣」「暗龍咆絕破」",
                 "적 전체에 번개속성 피해+일정 확률로 마비와 스톱 부여+3턴 동안 '진·연옥찰소참', '진·굉뇌격출진', '흑룡포절파' 사용 가능",
                 "Inflige des dégâts de foudre à tous les ennemis avec une chance de leur infliger paralysie et stop, et permet d'utiliser Flammes du purgatoire ultimes, Posture électrocoup ultime et Rugissement du dragon des ombres pendant trois tours",
                 "Fügt allen Gegnern Blitzschaden zu und Chance, sie zu lähmen und zu stoppen und ermöglicht Wahrer Flammenschlag des Purgatoriums, Wahre Gewitterschlag-Kata und Gebrüll des Schattendrachen für drei Runden.",
@@ -59753,7 +62432,7 @@
                 "Reduce resistance to Fire, Water, Wind and Earth by 50% for 5 turns to one enemy",
                 "Increase damage of Hacked to Pieces (508620), Onion Meteo (508622) and Onion Shredder (228551) by 300% for 5 turns"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "max_level": {
             "cost": 24,
             "effects": [
@@ -59761,7 +62440,7 @@
                 "Reduce resistance to Fire, Water, Wind and Earth by 80% for 5 turns to one enemy",
                 "Increase damage of Hacked to Pieces (508620), Onion Meteo (508622) and Onion Shredder (228551) by 300% for 5 turns"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "strings": {
             "name": [
                 null,
@@ -59775,7 +62454,7 @@
         }
     },
     "900000317": {
-        "name": "陣風",
+        "name": "Tornado",
         "cost": 0,
         "attack_count": [22],
         "attack_damage": [[2,  2,  2,  2,  2,  2,  2,  5,  5,  5,  5,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6]],
@@ -59802,8 +62481,22 @@
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  900,  -50]], [2, 1, 33, [-79,  0,  0,  0,  -79,  0,  0,  0,  1,  3]], [2, 1, 24, [-74,  -74,  -74,  -74,  3,  1]]]},
         "strings": {
-            "name": [null, null, null, null, null, null],
-            "desc": [null, null, null, null, null, null]
+            "name": [
+                "Tornado",
+                "陣風",
+                "진풍",
+                "Tornade",
+                "Zephyr",
+                "Huracán"
+            ],
+            "desc": [
+                "Deal partial unmitigated damage and reduce ATK, DEF, MAG, SPR, fire and wind resistance for all enemies",
+                "對全體敵人發動無視部分防禦的攻擊+降低攻擊防禦魔力精神、火風屬性耐性",
+                "적 전체에 일부 방어 무시 피해+공격력, 방어력, 마력, 정신력, 불과 바람속성 저항력 감소",
+                "Inflige des dégâts en partie fixes, et réduit l'ATT, la DEF, la MAGIE, la PSY, la résistance au feu et la résistance au vent de tous les ennemis",
+                "Fügt allen Gegnern teilweise direkten Schaden zu und verringert ihre ANG, ABW, MAG und PSY sowie Feuer- und Windresistenz.",
+                "Inflige daño absoluto parcial y reduce el ATQ, la DEF, la MAG, el ESP y la resistencia al fuego y el viento de todos los enemigos"
+            ]
         }
     },
     "900000320": {

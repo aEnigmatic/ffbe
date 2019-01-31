@@ -3095,7 +3095,7 @@
         "stack_size": 99,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Unknown skill '300740'"],
+        "effects": ["Reduce SPR by 60% for 3 turns to all enemies"],
         "effects_raw": [[2, 1, 71, [300740,  1]]],
         "icon": "item_2018.png",
         "strings": {
@@ -3137,7 +3137,7 @@
         "stack_size": 99,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Unknown skill '300750'"],
+        "effects": ["Reduce ATK and MAG by 60% for 3 turns to all enemies"],
         "effects_raw": [[2, 1, 71, [300750,  1]]],
         "icon": "item_2019.png",
         "strings": {
@@ -3882,7 +3882,7 @@
         }
     },
     "106211170": {
-        "name": "[Limited Edition] Guaranteed 5★ SP Summon Ticket",
+        "name": "Guaranteed 5★ Special Summon Ticket",
         "type": "Consumable",
         "compendium_id": 688,
         "compendium_shown": false,
@@ -3898,22 +3898,29 @@
         "icon": "item_9203.png",
         "strings": {
             "names": [
-                "[Limited Edition] Guaranteed 5★ SP Summon Ticket",
-                "[期間限定]★5確定SP召喚券",
-                "[기간 한정] ★5 보장 스페셜 소환티켓",
-                "[Édition limitée] Ticket d'invocation garanti ★5 SP",
-                "[Limitierte Edition] Garantierte 5★ SP Beschwörungskarte",
-                "[Edición limitada] Tícket de invocación de 5★ ESP garantizado"
+                "Guaranteed 5★ Special Summon Ticket",
+                "★5確保特別召喚券",
+                "★5 보장 스페셜 소환티켓",
+                "Ticket d'invocation spécial 5★garantie",
+                "Garantierte 5★ Spezialbeschwörungskarte",
+                "Tícket de invocación especial de 5★ garantizada"
             ],
             "desc_short": [
-                "Limited Summon Ticket for Event [Zanarkand Ruins]",
-                "活動『札納爾坎德遺跡』的限定召喚卷",
+                "A limited time summon ticket from a special event.",
+                "透過特別活動可獲得的期間限定召喚券",
                 "이벤트 '자나르칸드 유적' 한정 소환티켓",
                 "Ticket d'invocation limité pour l'événement [Ruines de Zanarkand]",
                 "Limitierte Beschwörungskarte für das [Ruinen von Zanarkand] Ereignis",
                 "Tícket de invocación limitado para evento [Ruinas de Zanarkand]"
             ],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_long": [
+                "A limited time summon ticket from a special event. This ticket can be used to summon a guaranteed 5★ unit.",
+                "透過特別活動可獲得的期間限定召喚券。利用這張召喚券可確保召喚1名★5兵員。",
+                "스페셜 이벤트를 통해 받을 수 있는 기간 한정 소환티켓. ★5 유닛 보장 소환 시 사용할 수 있다.",
+                "Un ticket d'invocation à durée limitée utilisable lors d'un certain événement. Il sert à invoquer une unité 5★ à coup sûr.",
+                "Eine zeitbegrenzte Beschwörungskarte von einem Spezialereignis. Diese Karte kann benutzt werden um eine Garantierte 5★ Einheit zu beschwören.",
+                "Tícket de invocación limitado para un evento especial. Este tícket se puede usar para invocar una unidad garantizada de 5★."
+            ]
         }
     },
     "106211180": {
@@ -6374,7 +6381,7 @@
         }
     },
     "106305600": {
-        "name": "Empty Sphere",
+        "name": "Blank Sphere",
         "type": "Consumable",
         "compendium_id": 685,
         "compendium_shown": true,
@@ -6390,28 +6397,28 @@
         "icon": "item_9198.png",
         "strings": {
             "names": [
-                "Empty Sphere",
+                "Blank Sphere",
                 "枯竭晶球",
                 "텅 빈 스피어",
                 "Sphère vide",
                 "Leere Kugel",
-                "Esfera vacía"
+                "Esfera en blanco"
             ],
             "desc_short": [
                 "A sphere with nothing recorded on it.",
                 "沒有記錄任何東西的球體",
-                "아무것도 기록되어 있지 않은 스피어",
-                "Une sphère sans aucun enregistrement.",
-                "Eine Kugel ohne Inhalt.",
-                "Una esfera que no lleva nada grabado."
+                "아무것도 기록되지 않은 스피어",
+                "Une sphère entièrement vierge.",
+                "Eine Kugel ohne Aufzeichnungen.",
+                "Una esfera virgen."
             ],
             "desc_long": [
                 "A sphere from the faraway world of Spira. In Spira, \"spheres\" can be made from water infused with a high concentration of pyreflies. While it is possible to record audio and video using spheres, this sphere has nothing recorded on it.",
                 "來自異界史匹拉的球體。在史匹拉，以含有高濃度幻光蟲的水作成的物品被稱為球體。雖然可以記錄聲音或影像、但這個球體卻沒有記錄任何東西。",
-                "이계 스피라에서 유입된 스피어. 스피라에서는 고농도의 환광충을 머금은 물로 만든 것을 스피어라고 부른다. 음성이나 영상을 기록할 수 있는데, 이 스피어에는 아무것도 기록되어 있지 않은 듯하다.",
-                null,
-                null,
-                "Una esfera traída desde otro mundo conocido como Spira. Allí, las esferas se hacen combinando agua con una alta concentración de pirólulas.Aunque esta está vacía, las esferas se pueden usar para grabar sonidos e imágenes en movimiento."
+                "이계 '스피라'에서 건너온 스피어이다. '스피라'에서는 고농도의 환광충이 함유된 물로 만들어진 물건을 '스피어'라고 부른다. 음성이나 영상을 기록할 수 있지만, 이 스피어에는 아무런 기록이 없는 모양이다.",
+                "Une sphère venue de Spira. Ce genre de sphère est créée à partir d'eau hautement concentrée en furolucioles. On y enregistre en général des images filmées et du son, mais celle-ci est entièrement vierge.",
+                "Eine Kugel aus der fernen Welt Spira. Dort werden sie aus Wasser mit einer hohen Konzentration an Illumi-Käfern hergestellt. Mit ihnen lassen sich Bilder und Töne aufnehmen, aber auf dieser Kugel befinden sich keine Aufzeichnungen.",
+                "Una esfera del mundo lejano de Spira. En Spira, estas esferas pueden crearse fusionando agua con una alta concentración de lucilos. A pesar de que puede grabarse audio y vídeo en este tipo de esferas, esta está completamente vacía."
             ]
         }
     },
@@ -10994,7 +11001,7 @@
         }
     },
     "110000100": {
-        "name": "Trust Moogles Map",
+        "name": "\"Trust Moogles Map\"",
         "type": "Consumable",
         "compendium_id": 665,
         "compendium_shown": true,
@@ -11010,12 +11017,12 @@
         "icon": "item_9200.png",
         "strings": {
             "names": [
-                "Trust Moogles Map",
-                "信賴度莫古利地圖",
-                "트러스트 모그리의 지도",
-                "Carte des Mogs de confiance",
-                "Treuemogry-Karte",
-                "Mapa de moguris fieles"
+                "\"Trust Moogles Map\"",
+                "\"信賴度莫古利地圖\"",
+                "\"트러스트 모그리의 지도\"",
+                "\"Carte des Mogs de confiance\"",
+                "\"Treuemogry-Karte\"",
+                "\"Mapa de moguris fieles \""
             ],
             "desc_short": [
                 "A map of the Farplane sought by King Mog.",
@@ -11095,7 +11102,7 @@
         "strings": {
             "names": [
                 "Rank EXP Map",
-                "級別經驗值地圖",
+                "RANK經驗值地圖",
                 "랭크 경험치의 지도",
                 "Carte de rang d'EXP",
                 "Rang-EP-Karte",
@@ -11183,7 +11190,7 @@
                 "별빛 운석의 지도",
                 "Carte des quartz étoilés",
                 "Sternenquarz-Karte",
-                "Mapa de estrellas de cuarzo"
+                "Mapa de cuarzo de estrella"
             ],
             "desc_short": [
                 "A map of the Farplane sought by King Mog.",
@@ -13928,7 +13935,7 @@
                 "「就感覺會有好事發生！　我們前去調查秘境巴格羅斯海的周邊。據說那附近有很多魔物出沒。即便如此，我們也只能努力幹好自己應該做的事……而結果就是，我們發現了夢幻般神秘的礦石！　所以，這次的工作堪稱完美！」～地下書庫的文獻中所記載～",
                 "'좋은 예감이 들었다! 우리는 비경 바글로스해 주변 조사에 나섰다. 그 부근은 마물이 나타나기로 유명했다. 그래도 어쨌든 열심히 일을 진행했고… 그 결과, 환상이라고 불리는 광석을 멋지게 손에 넣었다! 그러니 이번 일은 대성공이라고 할 수 있겠다!' ~지하 서고에 있던 문헌 속 기록~",
                 "\"J'ai bien fait de me fier à mon instinct ! On est partis pour le littoral inexploré de Bugross, célèbre pour sa faune inhospitalière. Malgré ça, on s'est donnés à fond, et on a fini par trouver le minerai tant recherché ! C'est ce que j'appelle une grande réussite !\" (Extrait de la salle des archives)",
-                "„Mein Gefühl hat sich bestätigt! Wir zogen los, um die unerkundete Küste von Burgross zu untersuchen, die berühmt für Monstersichtungen ist. Doch unsere Bemühungen wurden belohnt und wir fanden das Erz, das wir suchten! Alles in allem ein großer Erfolg!“ – Auszug aus dem Schließfach",
+                "\"Mein Gefühl hat sich bestätigt! Wir zogen los, um die unerkundete Küste von Burgross zu untersuchen, die berühmt für Monstersichtungen ist. Doch unsere Bemühungen wurden belohnt und wir fanden das Erz, das wir suchten! Alles in allem ein großer Erfolg!\" - Auszug aus dem Schließfach",
                 "\"¡Qué predicción más buena! Salimos a investigar la costa inexplorada de Burgross, famosa por los avistamientos de monstruos. Pero ¡eso no nos frenó y conseguimos hacernos con el mineral que buscábamos! ¡Un éxito absoluto!\" ... Salvo por las cámaras."
             ]
         }
@@ -19002,7 +19009,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -19044,7 +19051,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -19086,7 +19093,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -19128,7 +19135,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -19170,7 +19177,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -19212,7 +19219,7 @@
                 "「艾斯塔克挑戰」共鬥素材",
                 "'에스타크 챌린지' 레이드 재료",
                 "Un matériau de raid issu du raid \"Le défi d'Estark\".",
-                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\"",
+                "Ein Raubzugsmaterial aus dem Raubzug \"Estarks Herausforderung\".",
                 "Material de banda que se obtiene en el evento de banda El desafío de Estark."
             ],
             "desc_long": [
@@ -28844,7 +28851,7 @@
         }
     },
     "300000960": {
-        "name": "ジェクトの輝源",
+        "name": "Jecht's Prism",
         "type": "Awakening",
         "compendium_id": 686,
         "compendium_shown": true,
@@ -28860,12 +28867,12 @@
         "icon": "item_8370.png",
         "strings": {
             "names": [
-                null,
+                "Jecht's Prism",
                 "傑克特的輝源",
                 "젝트의 휘석",
                 null,
-                null,
-                null
+                "Prisma für Jekkt",
+                "Prisma de Jecht"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -28886,7 +28893,7 @@
         }
     },
     "300000970": {
-        "name": "アーロンの輝源",
+        "name": "Auron's Prism",
         "type": "Awakening",
         "compendium_id": 687,
         "compendium_shown": true,
@@ -28902,12 +28909,12 @@
         "icon": "item_8370.png",
         "strings": {
             "names": [
-                null,
+                "Auron's Prism",
                 "奧隆的輝源",
                 "아론의 휘석",
                 null,
-                null,
-                null
+                "Prisma für Auron",
+                "Prisma de Auron"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -37138,6 +37145,48 @@
                 "FINAL FANTASY BRAVE EXVIUS est fier de célébrer la Fan Festa de 2018 dans le monde entier ! Collectez-en 10 et échangez-les contre une unité de votre choix dans la liste des unités célébrant cet événement !",
                 "FINAL FANTASY BRAVE EXVIUS ist stolz, das Fan Festa 2018 weltweit zu feiern! Sammle 10 Exemplare dieses Gegenstands und tausche sie gegen eine Einheit aus einer liste der für die Feier dieses glücklichen Ereignis verfügbaren Einheiten.",
                 "¡FINAL FANTASY BRAVE EXVIUS está orgulloso de celebrar la Fan Festa 2018 a escala internacional! Reúne 10 de estos tíckets e intercámbialos por una unidad de la lista de unidades disponibles para celebrar este evento tan prometedor."
+            ]
+        }
+    },
+    "1209000926": {
+        "name": "Exploring the Moogle Cave",
+        "type": "Item",
+        "compendium_id": 9180,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 99,
+        "stack_size": 9999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "Expedition_tme_icon.png",
+        "strings": {
+            "names": [
+                "Exploring the Moogle Cave",
+                "探索莫古利洞窟",
+                "모그리 동굴 탐험",
+                "Expédition dans la Mogogrotte",
+                "Erkundung der Mogryhöhle",
+                "Explorando la cueva del moguri"
+            ],
+            "desc_short": [
+                "Explore the moogle cave!",
+                "探索莫古利洞窟！",
+                "모그리 동굴을 탐험하세요!",
+                "Explorez la grotte des mogs !",
+                "Erkunde die Mogryhöhle!",
+                "¡Explora la cueva del moguri!"
+            ],
+            "desc_long": [
+                "Explore the moogle cave!",
+                "探索莫古利洞窟！",
+                "모그리 동굴을 탐험하세요!",
+                "Explorez la grotte des mogs !",
+                "Erkunde die Mogryhöhle!",
+                "¡Explora la cueva del moguri!"
             ]
         }
     },
