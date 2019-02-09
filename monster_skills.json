@@ -89168,7 +89168,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Increase ATK and MAG by 50% for 99999 turns to caster"],
+        "effects": ["Increase ATK and MAG by 50% for 99999 turns to caster (can not be removed)"],
         "effects_raw": [[0, 3, 3, [50,  0,  50,  0,  99999,  1,  1]]],
         "strings": {
             "name": [
@@ -89186,7 +89186,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Increase DEF and SPR by 50% for 99999 turns to caster"],
+        "effects": ["Increase DEF and SPR by 50% for 99999 turns to caster (can not be removed)"],
         "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  99999,  1,  1]]],
         "strings": {
             "name": [
@@ -94130,7 +94130,7 @@
         "effects": [
             "Reduce physical damage taken by 100% to all allies for one turn (can not be removed)",
             "Reduce magic damage taken by 100% to all allies for one turn (can not be removed)",
-            "Increase DEF and SPR by 999% for one turn to all allies"
+            "Increase DEF and SPR by 999% for one turn to all allies (can not be removed)"
         ],
         "effects_raw": [[2, 2, 115, [100,  0,  1,  1]], [2, 2, 116, [100,  0,  1,  1]], [2, 2, 3, [0,  999,  0,  999,  1,  1,  1]]],
         "strings": {
@@ -100029,7 +100029,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Increase ATK and MAG by 20% for 3 turns to caster",
+            "Increase ATK and MAG by 20% for 3 turns to caster (can not be removed)",
             "Reduce DEF and SPR by 20% for 3 turns to caster"
         ],
         "effects_raw": [[0, 3, 3, [20,  0,  20,  0,  3,  1,  1]], [0, 3, 24, [0,  -20,  0,  -20,  3,  1,  1]]],
@@ -108221,7 +108221,7 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": [
-            "Increase DEF and SPR by 100% for 3 turns to caster",
+            "Increase DEF and SPR by 100% for 3 turns to caster (can not be removed)",
             "Restore 20% HP to caster"
         ],
         "effects_raw": [[0, 3, 3, [0,  100,  0,  100,  3,  1,  1]], [0, 3, 64, [20,  0]]],
