@@ -57252,7 +57252,7 @@
             },
             {
                 "string": "Use forge weapon - flame",
-                "parsed": ["Use Forge Weaponry - Flame"],
+                "parsed": ["Use Forge Weapon - Flame"],
                 "reward": ["ITEM", 106200100, 1]
             }
         ]
@@ -94764,14 +94764,14 @@
                 "reward": ["UNIT", 900020401, 2]
             },
             {
-                "string": "Defeat Rush Amethyst's party within 5 turns",
+                "string": "Defeat the rush amethyst's party within 5 turns",
                 "parsed": ["Clear in 5 turns or less"],
                 "reward": ["ITEM", 106200100, 1]
             },
             {
                 "string": "Clear all stages in the area",
                 "parsed": ["Complete the quest"],
-                "reward": ["LAPIS", 1, 100]
+                "reward": ["KEYITEM", 260, 1]
             }
         ]
     },
@@ -94977,7 +94977,7 @@
                 "reward": ["ITEM", 290050300, 10]
             },
             {
-                "string": "Defeat a/the Brown Moa with a limit burst",
+                "string": "Defeat a brown moa with a limit burst",
                 "parsed": ["Defeat Brown Moa with a limit burst"],
                 "reward": ["ITEM", 106200100, 2]
             },
@@ -95206,14 +95206,14 @@
                 "reward": ["ITEM", 290050500, 10]
             },
             {
-                "string": "Defeat Legin with magic",
-                "parsed": ["Defeat Legin with magic"],
+                "string": "Defeat a reginn with magic",
+                "parsed": ["Defeat Reginn with magic"],
                 "reward": ["ITEM", 290060300, 20]
             },
             {
                 "string": "Clear all stages in the area",
                 "parsed": ["Complete the quest"],
-                "reward": ["LAPIS", 1, 100]
+                "reward": ["LAPIS", 1, 200]
             }
         ]
     },
@@ -95355,7 +95355,7 @@
                 "reward": ["ITEM", 290060000, 10]
             },
             {
-                "string": "Defeat an/the ex-mercenary with a limit burst",
+                "string": "Defeat the ex-mercenary with a limit burst",
                 "parsed": ["Defeat Ex-Mercenary with a limit burst"],
                 "reward": ["ITEM", 290060400, 20]
             },
@@ -95629,7 +95629,7 @@
     },
     "8230602": {
         "dungeon_id": 82306,
-        "name": "Trial - First Match",
+        "name": "Trial Match: First Bout",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -95661,7 +95661,7 @@
     },
     "8230603": {
         "dungeon_id": 82306,
-        "name": "Trial - Monster",
+        "name": "Trial Match: VS Magic",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -95693,7 +95693,7 @@
     },
     "8230604": {
         "dungeon_id": 82306,
-        "name": "Trial - Poison",
+        "name": "Trial Match: VS Poison",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -95725,7 +95725,7 @@
     },
     "8230605": {
         "dungeon_id": 82306,
-        "name": "Trial - Thing",
+        "name": "Trial Match: VS Shield",
         "type": "BATTLE",
         "wave_count": 3,
         "cost_type": "NRG",
@@ -95757,7 +95757,7 @@
     },
     "8230606": {
         "dungeon_id": 82306,
-        "name": "The Sharp Giant",
+        "name": "The Clever Giant",
         "type": "BATTLE",
         "wave_count": 4,
         "cost_type": "NRG",
@@ -95890,7 +95890,7 @@
     },
     "8230704": {
         "dungeon_id": 82307,
-        "name": "Error Occured",
+        "name": "An Error Occured",
         "type": "BATTLE",
         "wave_count": 7,
         "cost_type": "NRG",
@@ -96223,7 +96223,7 @@
                 "reward": ["ITEM", 107002700, 5]
             },
             {
-                "string": "Deal lightning, wind, or earth damage 2 times or more",
+                "string": "Deal lightning, wind, and earth damage 2 times or more each",
                 "parsed": ["Deal Lightning damage 2 times or more", "Deal Wind damage 2 times or more", "Deal Earth damage 2 times or more"],
                 "reward": ["UNIT", 900004201, 1]
             },
@@ -96261,7 +96261,7 @@
             },
             {
                 "string": "Defeat Experiment #44 with a limit burst",
-                "parsed": ["Defeat 312017002 with a limit burst"],
+                "parsed": ["Defeat Experiment #44 with a limit burst"],
                 "reward": ["UNIT", 904000105, 1]
             }
         ]
@@ -120605,12 +120605,12 @@
             },
             {
                 "string": "Defeat Bakuya with a limit burst",
-                "parsed": ["Defeat Kanshou with a limit burst"],
+                "parsed": ["Defeat Bakuya with a limit burst"],
                 "reward": ["RECIPE", 1000000103, 1]
             },
             {
                 "string": "Defeat Kanshou with a limit burst",
-                "parsed": ["Defeat Bakuya with a limit burst"],
+                "parsed": ["Defeat Kanshou with a limit burst"],
                 "reward": ["RECIPE", 1000000104, 1]
             },
             {
@@ -120809,6 +120809,43 @@
                 "string": "No continues",
                 "parsed": ["No continues"],
                 "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "9560101": {
+        "dungeon_id": 95601,
+        "name": "Lord of the Beasts - ELT",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 10150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "Complete the quest",
+                "parsed": ["Complete the quest"],
+                "reward": ["UNIT", 904000104, 1]
+            },
+            {
+                "string": "No limit bursts",
+                "parsed": ["No limit bursts"],
+                "reward": ["ITEM", 1209000931, 10000]
+            },
+            {
+                "string": "No items",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "Evoke an esper 2 times or more",
+                "parsed": ["Evoke 2 or more espers"],
+                "reward": ["EQUIP", 1100000241, 1]
             }
         ]
     },

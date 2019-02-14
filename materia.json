@@ -15877,7 +15877,7 @@
                 "Boosts SPR by 25% and boosts SPR when equipped with a staff. Not stackable.",
                 "提高25%精神，並在裝備手杖時，提高精神。[無法重複裝備]",
                 "정신력이 25% 상승하고, 지팡이 장착 시 정신력이 상승합니다. (중복 장착 불가)",
-                "Augm. PSY de 25% et PSY avec bâton équipé (Non cumulable)<br>",
+                "Augm. PSY de 25% et PSY avec bâton équipé (Non cumulable)",
                 "Erhöht PSY um 25% und erhöht PSY, wenn mit Stab ausgerüstet. (Nicht stapelbar).",
                 "Aumenta el ESP un 25% y también aumenta el ESP al llevar un bastón.  (no acumulable)."
             ]
@@ -18293,7 +18293,7 @@
                 "Boost ATK by 30% and physical damage against humans",
                 "提高30%攻擊+物理攻擊時提高對人形系魔物的傷害",
                 "공격력 30% 상승+물리 공격 시 인간형 마물에게 부여하는 피해량 상승",
-                "Augmente l'ATT de 30% et les dégâts physiques contre les montres de type humain",
+                "Augmente l'ATT de 30% et les dégâts physiques contre les humains",
                 "Erhöht ANG um 30 % und physischen gegen Menschen.",
                 "Aumenta ATQ un 30% y el daño físico contra humanos"
             ],
@@ -18301,7 +18301,7 @@
                 "Boost ATK by 30% and physical damage against humans.",
                 "提高30%攻擊+物理攻擊時提高對人形系魔物的傷害。",
                 "공격력이 30% 상승하고, 물리 공격 시 인간형 마물에게 부여하는 피해량이 상승합니다.",
-                "Augmente l'ATT de 30% et les dégâts physiques contre les montres de type humain.",
+                "Augmente l'ATT de 30% et les dégâts physiques contre les humains.",
                 "Erhöht ANG um 30 % und physischen gegen Menschen.",
                 "Aumenta ATQ un 30% y el daño físico contra humanos."
             ]
@@ -19093,7 +19093,7 @@
             "desc_long": [
                 "Boosts own ATK, DEF, MAG and SPR at the beginning of battle or after being revived, boosts ATK when equipped with a sword, and boosts HP and ATK when equipped with clothes. However, boosted parameters will gradually wear off after each turn during battle. Not stackable.",
                 "戰鬥開始時和從無法戰鬥狀態中復活時提高自身的攻擊防禦魔力精神，裝備劍時提高攻擊，裝備衣服時提高HP攻擊。但是，在戰鬥中狀態數值會因經過回合而持續下降。[無法重複裝備]",
-                "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 공격력, 방어력, 마력, 정신력이 상승하고, <br>검 장착 시 공격력이 상승하며, 옷 장착 시 HP와 공격력이 상승합니다. 그러나 전투 중 턴이 경과함에 따라 능력치 상승 효과가 떨어집니다. (중복 장착 불가)",
+                "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 공격력, 방어력, 마력, 정신력이 상승하고, 검 장착 시 공격력이 상승하며, 옷 장착 시 HP와 공격력이 상승합니다. 그러나 전투 중 턴이 경과함에 따라 능력치 상승 효과가 떨어집니다. (중복 장착 불가)",
                 "Augmente l'ATT, la DEF, la MAGIE et la PSY du lanceur au début du combat ou après avoir ressuscité. Augmente l'ATT lorsqu'une épée est équipée et augmente les PV et l'ATT lorsque des vêtements sont équipés. Cependant, les caractéristiques augmentées diminueront à chaque tour en combat. Non cumulable.",
                 "Erhöht ANG, ABW, MAG und PSY des Benutzers zu Beginn eines Kampfes oder nach Wiederbelebung, erhöht ANG wenn mit einem Schwert ausgerüstet und erhöht LP und ANG wenn mit Kleidung ausgerüstet. Die gesteigerten Werte werden während des Kampfes jedoch jede Runde nach und nach sinken (Nicht stapelbar).",
                 "Aumenta ATQ, DEF, MAG y ESP del usuario al comienzo del combate o tras revivir, aumenta el ATQ al llevar espada y aumenta la VIT y el ATQ al llevar ropa. No obstante, los parámetros potenciados irán disminuyendo poco a poco cada turno durante el combate (no acumulable)."
@@ -19381,13 +19381,27 @@
             "names": [
                 "Shadow Warrior",
                 "暗影武士",
+                "그림자 전사",
                 null,
                 null,
-                null,
-                null
+                "Guerrero de la sombra"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost HP by 30%, and one-time chance of escaping death when HP is above a certain point",
+                "提高30%HP+HP高於一定量時一定機率避免陷入無法戰鬥狀態1次",
+                "HP 30% 상승+HP가 일정량 이상일 때 일정 확률로 1회에 한해 전투불능 상태 견딤",
+                null,
+                null,
+                "Aumenta la VIT un 30% y evita quedar K.O. una vez cuando la VIT se encuentra por encima de cierto nivel"
+            ],
+            "desc_long": [
+                "Boosts HP by 30%, and one-time chance of escaping death when HP is above a certain point.",
+                "提高30%HP，HP高於一定量時一定機率避免陷入無法戰鬥狀態1次。",
+                "HP가 30% 상승하고, HP가 일정량 이상일 때 일정 확률로 1회에 한해 전투불능 상태를 견딥니다.",
+                null,
+                null,
+                "Aumenta la VIT un 30% y evita quedar K.O. una vez cuando la VIT se encuentra por encima de cierto nivel."
+            ]
         }
     },
     "504228470": {
@@ -19982,37 +19996,79 @@
         }
     },
     "504228983": {
-        "name": "英雄の誓い・火",
+        "name": "Hero's Vow - Fire",
         "compendium_id": 874,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228983],
         "effects": ["Grants 'Hero's Vow - Fire' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Hero's Vow - Fire",
+                "英雄誓言·火",
+                "영웅의 맹세·불",
+                "Vœu du héros - Feu",
+                "Heldenschwur - Feuer",
+                "Juramento heroico - Fuego"
+            ],
+            "desc_short": [
+                "Boost LB gauge fill rate, boost equipment ATK when a single weapon is equipped in both hands, and boost ATK by 30% when equipped with an axe",
+                "提高極限技石對極限技槽的增加量+雙手只裝備1把武器時提高武具攻擊+裝備斧時提高30%攻擊",
+                "LB 게이지 효율 상승+양손의 장비가 무기 1개일 경우 장비의 공격력 상승+도끼 장착 시 공격력 30% 상승",
+                "Augmente le taux de remplissage de la jauge de limite, augmente l'ATT de l'équipement lorsqu'une arme est tenue avec les deux mains, et augmente l'ATT de 30% lorsqu'une hache est équipée",
+                "Limitmeter füllt sich schneller, erhöht Ausrüstung-ANG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist und erhöht ANG um 30%, wenn mit einer Axt ausgerüstet.",
+                "La barra de EL se rellena más rápido, aumenta el ATQ del equipo al llevar una sola arma en las dos manos y aumenta el ATQ un 30% al llevar hacha"
+            ],
+            "desc_long": [
+                "Boosts LB gauge fill rate, boosts equipment ATK when a single weapon is equipped in both hands, and boosts ATK by 30% when equipped with an axe.",
+                "提高極限技石對極限技槽的增加量，雙手只裝備1把武器時武具攻擊提升，裝備斧時提高30%攻擊。",
+                "LB 게이지 효율이 상승하고, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승하며, 도끼 장착 시 공격력이 30% 상승합니다.",
+                "Augmente le taux de remplissage de la jauge de limite, augmente l'ATT de l'équipement lorsqu'une arme est tenue avec les deux mains, et augmente l'ATT de 30% lorsqu'une hache est équipée.",
+                "Limitmeter füllt sich schneller, erhöht Ausrüstung-ANG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist und erhöht ANG um 30%, wenn mit einer Axt ausgerüstet.",
+                "La barra de EL se rellena más rápido, aumenta el ATQ del equipo al llevar una sola arma en las dos manos y aumenta el ATQ un 30% al llevar hacha"
+            ]
         }
     },
     "504229027": {
-        "name": "ブラッシュアップ",
+        "name": "Brush-Up",
         "compendium_id": 875,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229028],
-        "effects": ["Grants 'Brush Up' passive."],
+        "effects": ["Grants 'Brush-Up' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Brush-Up",
+                "品質保障",
+                "연마하기",
+                "Optimisation",
+                "Auffrischen",
+                "Revisión"
+            ],
+            "desc_short": [
+                "Boost ATK by 20% and boost LB damage",
+                "提高20%攻擊+提高極限技的傷害",
+                "공격력 20% 상승+LB 피해량 상승",
+                "Augmente l'ATT de 20% et augmente les dégâts de la limite",
+                "Erhöht ANG um 20% und erhöht Schaden durch Limitrausch.",
+                "Aumenta el ATQ un 20% y aumenta el daño del EL"
+            ],
+            "desc_long": [
+                "Boosts ATK by 20% and boosts LB damage.",
+                "提高20%攻擊，提高極限技的傷害。",
+                "공격력이 20% 상승하고, LB 피해량이 상승합니다.",
+                "Augmente l'ATT de 20% et augmente les dégâts de la limite.",
+                "Erhöht ANG um 20% und erhöht Schaden durch Limitrausch.",
+                "Aumenta el ATQ un 20% y aumenta el daño del EL"
+            ]
         }
     },
     "504229030": {
@@ -20965,7 +21021,7 @@
             ],
             "desc_short": [
                 "Boost ATK and DEF by 20% and restore HP during battle (Jack only)",
-                "提高20%攻擊防禦，戰鬥中自動附帶再生效果[傑克專用]<br>",
+                "提高20%攻擊防禦，戰鬥中自動附帶再生效果[傑克專用]",
                 "공격력과 방어력 20% 상승+전투 중 항상 리제네 발동 (잭 전용)",
                 "Augmente l'ATT et la DEF de 20% et auto-recup durant le combat (Uniquement pour Jack)",
                 "Erhöht ANG und ABW um 20 % und regeneriert im Kampf. (Nur Jack)",
@@ -21044,7 +21100,7 @@
             ],
             "desc_short": [
                 "Enable Last Stand. Boost ATK and reduce DEF (Eight only)",
-                "可以使用「誓死抵抗」+提高攻擊+降低防禦 [艾特專用]<br>",
+                "可以使用「誓死抵抗」+提高攻擊+降低防禦 [艾特專用]",
                 "공격력 상승+방어력 감소+'버티기' 사용 가능 (에이트 전용)",
                 "Permet d'utiliser Dernier recours. Augmente l'ATT, réduit la DEF (Uniq. pour Eight)",
                 "Ermöglicht Alles geben. Erhöht ANG und verringert ABW (Nur Eight).",
@@ -21052,7 +21108,7 @@
             ],
             "desc_long": [
                 "Enables Last Stand. Boosts ATK and reduces DEF (Eight only).",
-                "可以使用「誓死抵抗」。提高攻擊，並降低防禦。【艾特專用】<br>",
+                "可以使用「誓死抵抗」。提高攻擊，並降低防禦。【艾特專用】",
                 "자신의 공격력이 상승하고 방어력이 감소하며, '버티기'를 발동합니다. (에이트 전용)",
                 "Permet d'utiliser Dernier recours. Augmente l'ATT et réduit la DEF (Uniquement pour Eight)",
                 "Ermöglicht Alles geben. Erhöht ANG und verringert ABW (Nur Eight).",
@@ -22510,7 +22566,7 @@
             ],
             "desc_short": [
                 "Boost magic damage dealt against demons (Not stackable)",
-                "<br>魔法攻擊時提高對惡魔系魔物的傷害 [無法重複裝備]",
+                "魔法攻擊時提高對惡魔系魔物的傷害 [無法重複裝備]",
                 "마법 공격 시 악마형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
                 "Augmente les dégâts magiques infligés aux démons (non cumulable)",
                 "Erhöht mag. Schaden gegen Dämonen. (Nicht stapelbar).",
@@ -23734,7 +23790,7 @@
                 "Boost HP by 20% and MAG and SPR by 30%",
                 "提高20%HP、30%魔力精神",
                 "HP 20%, 마력과 정신력 30% 상승",
-                "Augmente les PV de 20 % et la MAGIE et la PSY de 30 %",
+                "Augmente les PV de 20%, ainsi que la MAGIE et la PSY de 30%",
                 "Erhöht LP um 20% und MAG und PSY um 30%.",
                 "Aumenta la VIT un 20% y la MAG y el ESP un 30%"
             ],
@@ -23772,7 +23828,7 @@
                 "Boost ATK when equipped with clothes, ATK when equipped with a katana, and physical damage against humans and demons (Not stackable)",
                 "裝備衣服時提高攻擊+裝備刀時提高攻擊+物理攻擊時提高對人系惡魔系魔物的傷害(無法重複裝備)",
                 "옷 장착 시 공격력 상승+도 장착 시 공격력 상승+물리 공격 시 인간과 악마형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
-                "Augmente l'ATT lorsque des vêtements sont équipés, l'ATT quand un katana est équipé et les dégâts physiques contre les humains et les démons (Non cumulable)",
+                "Augmente l'ATT lorsque des vêtements sont équipés, l'ATT lorsqu'un katana est équipé, et les dégâts physiques contre les humains et les démons (Non cumulable)",
                 "Erhöht ANG wenn mit Kleidung ausrüstet, ANG wenn mit einem Katana ausgerüstet und erhöht physischen Schaden gegen Menschen und Dämonen (Nicht stapelbar).",
                 "Aumenta el ATQ al llevar ropa o al llevar katana y aumenta el daño físico contra humanos y demonios (no acumulable)"
             ],
@@ -24304,7 +24360,7 @@
                 "Aura santa"
             ],
             "desc_short": [
-                "Boost HP and MP by 10%, ATK and SPR by 30%, <br>and restore HP and fill LB gauge every turn",
+                "Boost HP and MP by 10%, ATK and SPR by 30%, and restore HP and fill LB gauge every turn",
                 "提高10%HPMP、30%攻擊精神+每回合恢復HP、增加極限技槽",
                 "HP와 MP 10% 상승+공격력과 정신력 30% 상승+매 턴마다 HP 회복+LB 게이지 증가",
                 "Augmente les PV et les PM de 10%, augmente l'ATT et la PSY de 30%, régénère les PV, et remplit la jauge de limite à chaque tour",
@@ -24312,7 +24368,7 @@
                 "Aumenta la VIT y los PM un 10%, el ATQ y el ESP un 30%, recupera la VIT y rellena la barra de EL cada turno"
             ],
             "desc_long": [
-                "Boosts HP and MP by 10%, ATK and SPR by 30%, <br>and restores HP and fills LB gauge every turn.",
+                "Boosts HP and MP by 10%, ATK and SPR by 30%, and restores HP and fills LB gauge every turn.",
                 "提高10%HPMP、30%攻擊精神+每回合恢復HP、增加極限技槽",
                 "HP와 MP 10% 상승+공격력과 정신력 30% 상승+매 턴마다 HP 회복+LB 게이지 증가",
                 "Augmente les PV et les PM de 10%, augmente l'ATT et la PSY de 30%, régénère les PV, et remplit la jauge de limite à chaque tour.",
