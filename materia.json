@@ -19458,8 +19458,8 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228565],
-        "effects": ["Grants 'Daugter of the Blacksmith' passive."],
-        "unique": false,
+        "effects": ["Grants 'Blacksmith's Daughter' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
@@ -19467,13 +19467,27 @@
             "names": [
                 "Blacksmith's Daughter",
                 "鍛冶店的女孩",
-                null,
-                "Fille du forgeron",
-                null,
+                "대장간집 딸",
+                "Fille de forgeron",
+                "Schmiedstochter",
                 "Hija del herrero"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK by 50% when equipped with a sword and boost LB gauge fill rate (Not stackable)",
+                "裝備劍時提高50%攻擊+極高極限技石對極限技槽的增加量(無法重複裝備)",
+                "검 장착 시 공격력 50% 상승+LB 게이지 효율 상승",
+                "Augmente l'ATT de 50% lorsqu'une épée est équipée et augmente le taux de remplissage de la jauge de limite (non cumulable)",
+                "Erhöht ANG um 50%, wenn mit einem Schwert ausgerüstet und Limitmeter füllt sich schneller (Nicht stapelbar).",
+                "Aumenta el ATQ un 50% al llevar espada y la barra de EL se rellena más rápido (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 50% when equipped with a sword and boosts LB gauge fill rate. Not stackable.",
+                "裝備劍時提高50%攻擊，並提高極限技石對極限技槽的增加量。",
+                "검 장착 시 공격력이 50% 상승하고, LB 게이지 효율이 상승합니다.",
+                "Augmente l'ATT de 50% quand une épée est équipée et augmente le taux de remplissage de la jauge de limite. Non cumulable.",
+                "Erhöht ANG um 50%, wenn mit einem Schwert ausgerüstet und Limitmeter füllt sich schneller. Nicht stapelbar.",
+                "Aumenta el ATQ un 50% al llevar espada y la barra de EL se rellena más rápido (no acumulable)"
+            ]
         }
     },
     "504228586": {
@@ -19482,8 +19496,8 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228586],
-        "effects": ["Grants 'Dark Blader's Ken' passive."],
-        "unique": false,
+        "effects": ["Grants 'Dark Knight's Knowledge' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_76.png",
@@ -19491,26 +19505,26 @@
             "names": [
                 "Warmage's Monograph",
                 "魔劍士的心得",
-                null,
-                "Monographie du sorcier",
-                null,
-                "Saber del Caballero Oscuro"
+                "마검사의 마음가짐",
+                "Savoir du chevalier noir",
+                "Expertise des Dunkelritters",
+                "Saber de Caballero Oscuro"
             ],
             "desc_short": [
-                "Boost equipment ATK when a single weapon is equipped in both hands, and boost physical damage against demon monsters",
-                null,
-                null,
-                null,
-                null,
-                null
+                "Boost ATK by 30%, boost equipment ATK when a single weapon is equipped in both hands, and boost physical damage against demons (Not stackable)",
+                "提高30%攻擊+雙手只裝備1把武器時武具攻擊提升+物理攻擊時提高對惡魔系魔物的傷害(無法重複裝備)",
+                "공격력 30% 상승+양손의 장비가 무기 1개일 경우 장비의 공격력 상승+물리 공격 시 악마형 마물에게 부여하는 피해량 상승",
+                "Augmente l'ATT de 30%, augmente l'ATT de l'équipement quand une arme est tenue avec les deux mains et augmente les dégâts physiques infligés aux démons (non cumulable)",
+                "Erhöht ANG um 30%, erhöht Ausrüstung-ANG, wenn eine einzige Waffe in beiden Händen ausgerüstet ist und erhöht physischen Schaden gegen Dämonen (Nicht stapelbar).",
+                "Aumenta el ATQ un 30%, aumenta el ATQ del equipo al llevar una sola arma en las dos manos y aumenta el daño físico contra demonios (no acumulable)"
             ],
             "desc_long": [
-                "Boosts equipment ATK when a single weapon is equipped in both hands, and boosts physical damage against demon monsters.",
-                null,
-                null,
-                null,
-                null,
-                null
+                "Boosts ATK by 30%, boosts equipment ATK when a single weapon is equipped in both hands, and boosts physical damage against demons. Not stackable.",
+                "提高30%攻擊+雙手只裝備1把武器時武具攻擊提升，物理攻擊時提高對惡魔系魔物的傷害。(無法重複裝備)",
+                "공격력이 30% 상승하고, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승하며, 물리 공격 시 악마형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente l'ATT de 30%, augmente l'ATT de l'équipement quand une arme est tenue avec les deux mains et augmente les dégâts physiques infligés aux démons Non cumulable.",
+                "Erhöht ANG um 30%, erhöht Ausrüstung-ANG, wenn eine einzige Waffe in beiden Händen ausgerüstet ist und erhöht physischen Schaden gegen Dämonen. Nicht stapelbar.",
+                "Aumenta el ATQ un 30%, aumenta el ATQ del equipo al llevar una sola arma en las dos manos y aumenta el daño físico contra demonios (no acumulable)"
             ]
         }
     },
@@ -19520,7 +19534,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228610],
-        "effects": ["Grants 'Inherited MAG' passive."],
+        "effects": ["Grants 'Inherited Magic' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
@@ -19529,13 +19543,27 @@
             "names": [
                 "Inherited Magic",
                 "傳承魔力",
-                null,
-                null,
-                null,
-                null
+                "이어받은 마력",
+                "Magie héritée",
+                "Überlieferte Magie",
+                "Legado mágico"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost MP by 5% and MAG by 10%",
+                "提高5%MP、10%魔力",
+                "MP 5%, 마력 10% 상승",
+                "Augmente les PM de 5% et la MAGIE de 10%",
+                "Erhöht MP um 5% und MAG um 10%.",
+                "Aumenta los PM un 5% y la MAG un 10%"
+            ],
+            "desc_long": [
+                "Boosts MP by 5% and MAG by 10%.",
+                "提高5%MP、10%魔力。",
+                "MP가 5%, 마력이 10% 상승합니다.",
+                "Augmente les PM de 5% et la MAGIE de 10%",
+                "Erhöht MP um 5% und MAG um 10%.",
+                "Aumenta los PM un 5% y la MAG un 10%"
+            ]
         }
     },
     "504228611": {
@@ -19544,7 +19572,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228611],
-        "effects": ["Grants 'Inherited SPR' passive."],
+        "effects": ["Grants 'Inherited Spirit' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
@@ -19553,13 +19581,27 @@
             "names": [
                 "Inherited Spirit",
                 "傳承精神",
-                null,
-                null,
-                null,
-                null
+                "이어받은 정신력",
+                "Esprit hérité",
+                "Überlieferter Geist",
+                "Legado espiritual"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost MP by 5% and SPR by 10%",
+                "提高5%MP、10%精神",
+                "MP 5%, 정신력 10% 상승",
+                "Augmente les PM de 5% et la PSY de 10%",
+                "Erhöht MP um 5% und PSY um 10%.",
+                "Aumenta los PM un 5% y el ESP un 10%"
+            ],
+            "desc_long": [
+                "Boosts MP by 5% and SPR by 10%.",
+                "提高5%MP、10%精神。",
+                "MP가 5%, 정신력이 10% 상승합니다.",
+                "Augmente les PM de 5% et la PSY de 10%.",
+                "Erhöht MP um 5% und PSY um 10%.",
+                "Aumenta los PM un 5% y el ESP un 10%"
+            ]
         }
     },
     "504228637": {
