@@ -3063,7 +3063,7 @@
                 "정복자의 가벨·마법",
                 "Maillet du conquérant - Magie",
                 "Richterhammer des Eroberers - Magie",
-                "Martillo del conquistador"
+                "Martillo del conquistador - Magia"
             ],
             "desc_short": [
                 "A small gavel that lowers a target's ability.",
@@ -3168,7 +3168,7 @@
         }
     },
     "105007300": {
-        "name": "水彩の魔法書",
+        "name": "Aquarelle Spellbook",
         "type": "Consumable",
         "compendium_id": 783,
         "compendium_shown": true,
@@ -3182,6 +3182,90 @@
         "effects": ["Increase resistance to Water by 50% for 3 turns to all allies"],
         "effects_raw": [[2, 2, 71, [300760,  1]]],
         "icon": "item_2020.png",
+        "strings": {
+            "names": [
+                "Aquarelle Spellbook",
+                "水彩魔法書",
+                "수채 마법서",
+                "Recueil magique d'aquarelles",
+                "Aquarell-Spruchband",
+                "Libro mágico de acuarelas"
+            ],
+            "desc_short": [
+                "A spellbook that provides protection against water",
+                "可獲得水之加護的書籍",
+                "물의 가호를 부여하는 책",
+                "Un livre de sorts qui protège son possesseur contre l'eau.",
+                "Ein Spruchband, der Schutz gegen Wasser verleiht.",
+                "Un libro de hechizos que confiere protección contra el agua."
+            ],
+            "desc_long": [
+                "A spellbook that provides protection against water. When used, it raises the water resistance of all allies. An item with unusual effects, it is difficult to manufacture, and very few are available on the market. Furthermore, due to its delicate construction, the effect wears off after just one use.",
+                "可獲得水之加護的書籍。使用後會提高全體隊員的水屬性耐性。雖然是擁有珍稀效果的道具，但是因為製作困難，所以很難在市面上看見。加上此道具的做工非常精細，據說只要使用1次後，效果就會消失。",
+                "물의 가호를 부여하는 책. 사용하게 되면 아군 전체의 물속성 저항력이 상승한다. 희귀한 효과를 지닌 아이템이지만, 제작이 어렵고 시장에서 유통되는 수량도 얼마 되지 않는다. 그뿐만 아니라 무척이나 섬세하게 제작되어 있어, 한번 사용하게 되면 효과가 사라져 버린다고 한다.",
+                "Un livre de sorts qui, lorsqu'il est utilisé, augmente la résistance à l'eau de tous les alliés. Objet aux effets sortant de l'ordinaire, il est très difficile à fabriquer et bien peu d'exemplaire circulent actuellement sur le marché. De plus, on raconte que l'effet qu'il procure n'est utilisable qu'une seule fois en partie à cause de l'incroyable complexité de sa confection.",
+                "Ein Spruchband, der Schutz gegen Wasser verleiht. Wird er benutzt, erhöht er die Wasserresistenz aller Verbündeten. Als ein Gegenstand, der über höchst ungewöhnliche Effekte verfügt und dessen Herstellung sich als schwierig erweist, sind nur wenige Exemplare im Umlauf. Aufgrund seiner empfindlichen Konstruktion verschwindet der Effekt außerdem nach nur eine Nutzung.",
+                "Un libro de hechizos que confiere protección contra el agua. Al usarse, aumenta la resistencia al agua de todos los aliados. Debido a sus propiedades poco comunes, es muy difícil de fabricar y casi no se encuentran a la venta. Además, al tener una consistencia tan delicada, los efectos desaparecen tras un solo uso."
+            ]
+        }
+    },
+    "105007400": {
+        "name": "ヤングガンガン No.22",
+        "type": "Consumable",
+        "compendium_id": 810,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 3300,
+        "price_sell": 330,
+        "effects": ["Unknown skill '300770'"],
+        "effects_raw": [[2, 2, 71, [300770,  1]]],
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "105007500": {
+        "name": "氷陣の魔法書",
+        "type": "Consumable",
+        "compendium_id": 811,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": ["Unknown skill '300780'"],
+        "effects_raw": [[2, 2, 71, [300780,  1]]],
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "105007600": {
+        "name": "土陣の魔法書",
+        "type": "Consumable",
+        "compendium_id": 833,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": ["Unknown skill '300790'"],
+        "effects_raw": [[2, 2, 71, [300790,  1]]],
+        "icon": null,
         "strings": {
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
@@ -3818,6 +3902,27 @@
             ]
         }
     },
+    "106211120": {
+        "name": "黄宝玉",
+        "type": "Consumable",
+        "compendium_id": 511,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "106211150": {
         "name": "Unit Exchange Ticket Bonus",
         "type": "Consumable",
@@ -3962,27 +4067,27 @@
         "strings": {
             "names": [
                 "Xenogears Limited Exchange Ticket [F/E/B/C/M]",
-                "Xenogears限定交換券[F.E.B.S.M]",
-                "제노기어스 한정 교환권 [F.E.B.S.M]",
-                "Ticket limité d'échange Xenogears [F.E.B.S.M]",
-                "Xenogears Limitierte Austauschkarte [F.E.B.S.M]",
-                "Tícket de intercambio limitado de Xenogears [F.E.B.S.M]"
+                "Xenogears限定交換券[F.E.B.C.M]",
+                "Xenogears 한정 교환권 [F/E/B/C/M]",
+                "Ticket d'échange limité Xenogears [F/E/B/C/M]",
+                "Xenogears Limitierte Austauschkarte [F/E/B/C/M]",
+                "Tícket de intercambio limitado de Xenogears (F/E/B/C/M)"
             ],
             "desc_short": [
                 "An exchange ticket that can be used to obtain specific units.",
                 "用於交換特定兵員的票券",
                 "특정 유닛과 교환할 수 있는 교환권",
                 "Un ticket d'échange qui peut être utilisé pour obtenir des unités spécifiques.",
-                "Eine Austauschkarte welche zum Erhalt von besonderen Einheiten genutzt werden kann",
+                "Eine Austauschkarte, die zum Erlangen bestimmter Einheiten verwendet werden kann.",
                 "Un tícket de intercambio que se puede usar para conseguir unidades específicas."
             ],
             "desc_long": [
                 "After collecting 5 of them, these exchange tickets can be used to obtain one of the limited time units featured on the banners accessible via Summons > Free Summons Tab > [Xenogears Limited Time Exchange: Fei], [Xenogears Limited Time Exchange: Elly], [Xenogears Limited Time Exchange: Bart], [Xenogears Limited Time Exchange: Citan], or [Xenogears Limited Time Exchange: Maria].",
-                "收集5張之後便能從...召喚＞免費召喚頁面＞「Xenogears限定召喚飛」「Xenogears限定召喚艾蕾」「Xenogears限定召喚巴特」中交換限定兵員的交換券。",
-                "5장 모으면 소환> 일반 소환> 'Xenogears 한정 교환: 페이', 'Xenogears 한정 교환: 에리', 'Xenogears 한정 교환: 발트'를 통해 한정 유닛과 교환할 수 있는 교환권.",
-                "Vous pouvez échanger 5 de ces tickets contre l'une des trois unités à durée limitée accessibles via Invocation > Invocation gratuite > [Échange limité Xenogears : Fei], [Échange limité Xenogears : Elly] ou [Échange limité Xenogears : Bart].",
-                "Wenn du 5 dieser Austauschkarten gesammelt hast, kannst du sie benutzen, um eine der zeitlich beschränkten Einheiten von den Bannerbeschwörungen zu erhalten. Du kannst über Beschwören > Normale Beschwörung > [Xenogears Limitierter Austausch: Fei], [Xenogears Limitierter Austausch: Elly] oder [Xenogears Limitierter Austausch: Bart] auf diese zugreifen.",
-                "Al conseguir 5 de ellos, estos tickets de intercambio se pueden utilizar para obtener unidades de edición limitada yendo a Invocaciones > Invocación gratuita > [Intercambio limitado de Xenogears: Fei] [Intercambio limitado de Xenogears: Elly] [Intercambio limitado de Xenogears: Bart]"
+                "收集5張之後便能從...召喚＞免費召喚頁面＞「Xenogears限定召喚飛」「Xenogears限定召喚艾蕾」「Xenogears限定召喚巴特」「Xenogears限定召喚紫檀」「Xenogears限定召喚瑪利亞」中交換限定兵員的交換券。",
+                "5장 모으면 소환> 일반 소환> 'Xenogears 한정 교환: 페이', 'Xenogears 한정 교환: 엘리', 'Xenogears 한정 교환: 발트', 'Xenogears 한정 교환: 시탄', 'Xenogears 한정 교환: 마리아'를 통해 한정 유닛과 교환할 수 있는 교환권.",
+                "Vous pouvez échanger 5 de ces tickets contre une des trois unités à durée limitée accessibles via Invocation > Invocation gratuite > [Échange limité Xenogears : Fei], [Échange limité Xenogears : Elly], [Échange limité Xenogears : Bart], [Échange limité Xenogears : Citan] ou [Échange limité Xenogears : Maria]",
+                "Wenn du 5 dieser Austauschkarten gesammelt hast, kannst du sie benutzen, um eine der zeitlich beschränkten Einheiten von den Bannerbeschwörungen zu erhalten. Du kannst über Beschwören > Normale Beschwörung > [Xenogears Limitierter Austausch: Fei], [Xenogears Limitierter Austausch: Elly], [Xenogears Limitierter Austausch: Bart], [Xenogears Limitierter Austausch: Citan] oder [Xenogears Limitierter Austausch: Maria] auf diese zugreifen.",
+                "Al conseguir 5 de ellos, estos tickets de intercambio se pueden utilizar para obtener unidades de edición limitada yendo a Invocaciones > Invocación gratuita > [Intercambio limitado de Xenogears: Fei] [Intercambio limitado de Xenogears: Elly] [Intercambio limitado de Xenogears: Bart] [Intercambio limitado de Xenogears: Citán] [Intercambio limitado de Xenogears: María]"
             ]
         }
     },
@@ -4091,6 +4196,27 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "106211240": {
+        "name": "レッドスタークォーツ",
+        "type": "Consumable",
+        "compendium_id": 767,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "106211250": {
         "name": "NieR：Automata限定交換券[A2.2B]",
         "type": "Consumable",
@@ -4169,6 +4295,132 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211290": {
+        "name": "ギフト召喚チケット2018/11",
+        "type": "Consumable",
+        "compendium_id": 790,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9219.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211300": {
+        "name": "FFBE限定交換券[H.D]",
+        "type": "Consumable",
+        "compendium_id": 801,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9202.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211310": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 809,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211320": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 829,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211330": {
+        "name": "ギフト召喚チケット2018/12",
+        "type": "Consumable",
+        "compendium_id": 834,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9219.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211340": {
+        "name": "スーパートラストモーグリ交換チケット",
+        "type": "Consumable",
+        "compendium_id": 835,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
         "strings": {
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
@@ -4499,7 +4751,7 @@
                 "죽은 자로부터 얻을 수 있는 불가사의한 힘",
                 "Un orbe mystérieux obtenu auprès des morts",
                 "Ein mysteriöser Orb mit der Macht der Toten",
-                "Un orbe misterioso de poder con el poder de los muertos"
+                "Un misterioso orbe de poder que dejan los caídos"
             ],
             "desc_long": [
                 "An orb of power from another world known as Orience, where four nations, each in possession of a different crystal, are involved in a never-ending war. It is said various forms of this phantoma were used to strengthen magic. They varied not only in color, but also in effect, and it is thought their essence has some relation to the power of life.",
@@ -6596,18 +6848,18 @@
             "desc_short": [
                 "A coin that serves as proof of one's victory over a bioweapon from another world.",
                 "能夠證明與異界的生體兵器戰鬥過的硬幣",
-                "이계의 생체 병기와 싸운 증거로서 손에 넣을 수 있는 코인",
-                "Une pièce qui atteste d'une bataille livrée contre une arme organique de l'Au-délà.",
-                "Eine Münze, die als Beweis für den Kampf gegen eine  organische Waffe aus einer fernen Welt.",
-                "Una moneda que sirve como prueba de la batalla contra un arma orgánica del Etéreo."
+                "이계의 생체 병기와 싸운 증표",
+                "Une pièce qui atteste d'une bataille livrée contre une arme organique issue d'un autre monde.",
+                "Eine Münze, die als Beweis für den Kampf gegen eine organische Waffe aus einer fernen Welt dient.",
+                "Una moneda que sirve como prueba de la victoria contra una bioarma de otro mundo."
             ],
             "desc_long": [
                 "A coin that serves as proof of one's victory over a sentient bioweapon from another world. Only those undaunted in the face of immense power and resilient enough to fight to the finish can obtain it.",
                 "能夠證明與來自異界、擁有自我意志的生體兵器戰鬥過的硬幣。傳說唯有不畏懼強大的力量，堂堂正正地戰到最後的勇者才能得到。",
-                "머나먼 이계에 존재하는, 의지를 지닌 생체 병기와 싸운 증거로서 손에 넣을 수 있는 코인. 거대한 힘에 꺾이지 않고 정정당당하게 맞서 싸울 용기를 지닌 자만이 손에 넣을 수 있다고 한다.",
-                null,
-                null,
-                "Una moneda que sirve como prueba de la batalla contra un arma orgánica del Etéreo de otro mundo. Solo quienes son inquebrantables ante un gran poder y capaces de sobrevivir a las batallas de manera controlada pueden conseguirla."
+                "머나먼 이계에 존재하는, 의지를 가진 생체 병기와 싸운 증표이다. 막대한 힘에 굴하지 않고 정정당당하게 맞서 싸울 용기를 가진 자만이 손에 넣을 수 있다고 한다.",
+                "Une pièce qui prouve que la personne qui la possède a terrassé une arme organique venant d'un monde lointain. Seuls ceux déterminés à affronter un grand pouvoir et capables de se battre pour la justice peuvent l'obtenir.",
+                "Eine Münze, die als Beweis für den Kampf mit einer intelligenten Biowaffe aus einer fernen Welt dient. Nur diejenigen, die im Angesicht von gewaltiger Macht standhaft bleiben und die stark gesund sind, um den Kampf siegreich zu bestehen, können sie erlangen.",
+                "Una moneda que sirve como prueba de la victoria contra una bioarma de otro mundo. Solo los que no se amedrentan ante un gran poder y capaces de sobrevivir hasta el final pueden conseguirla."
             ]
         }
     },
@@ -6794,6 +7046,111 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_9221.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106306600": {
+        "name": "3周年記念レイドコイン",
+        "type": "Consumable",
+        "compendium_id": 791,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106306700": {
+        "name": "キングゴールデンボムレイドコイン",
+        "type": "Consumable",
+        "compendium_id": 802,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106306800": {
+        "name": "クレジットチップ",
+        "type": "Consumable",
+        "compendium_id": 808,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106306900": {
+        "name": "アトモスレイドコイン",
+        "type": "Consumable",
+        "compendium_id": 821,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106307000": {
+        "name": "飛竜草",
+        "type": "Consumable",
+        "compendium_id": 828,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
         "strings": {
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
@@ -11250,6 +11607,132 @@
                 "Das fächerförmige Fragment einer gelben Schiefertafel. Seine Form deutet darauf hin, dass die ursprünglich runde Tafel in mehrere Fragmente geteilt worden sein muss. Ansonsten ist wenig über ihren Ursprung oder ihren Verwendungszweck bekannt, es scheint sich aber um eine Rarität zu handeln, die Teil eines bestimmten Mechanismus' sein könnte.",
                 "Un fragmento de losa amarilla con forma de abanico. Su forma parece indicar que existen varias para formar una losa de piedra circular. No se sabe de dónde vienen ni para qué se usan, pero se cree que son valiosas por su uso en algún tipo de artilugio."
             ]
+        }
+    },
+    "109303000": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 496,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "109303010": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 497,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "109303020": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 498,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "109303030": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 499,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "109303040": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 500,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "109303050": {
+        "name": "石板の欠片・緑",
+        "type": "Consumable",
+        "compendium_id": 501,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "110000100": {
@@ -20554,25 +21037,25 @@
                 "Midori's Ring",
                 "綠色戒指",
                 "미도리의 반지",
-                "Anneau vert",
-                "Grüner Ring",
-                "Anillo verde"
+                "Anneau de Midori",
+                "Midoris Ring",
+                "Anillo de Midori"
             ],
             "desc_short": [
                 "A green ring from another world.",
                 "來自異界的神秘物質綠色戒指",
-                "이계에서 유입된 초록색 반지",
-                "Un anneau vert rapporté de l'Au-delà.",
-                "Kleidung, die aus einer fernen Welt stammt.",
-                "Un anillo verde traído del Etéreo."
+                "이계에서 건너온 초록색 반지",
+                "Un anneau vert issu d'un autre monde.",
+                "Ein grüner Ring aus einer fernen Welt.",
+                "Un anillo verde procedente de un mundo lejano."
             ],
             "desc_long": [
                 "A beautiful, green ring from another world. Said to have belonged to a girl who lived outside of Lahan Village. She hid this precious ring in the flower bed at her house.",
                 "在異界發現、漂亮的綠色戒指。據說是住在拉罕村外、名為綠的少女所擁有。她似乎將這枚重要的戒指藏在家裡的花壇中。",
-                "이계에서 유입된 아름다운 초록색 반지. 라한 마을 변두리에서 살던 미도리라는 소녀의 물건인 듯하다. 그녀는 이 소중한 반지를 집안 화단에 숨겨두었다고 한다.",
-                null,
-                null,
-                "Un precioso anillo verde traído desde otro mundo. Se dice que perteneció a una chica llamada Midori que vivía en las afueras de la villa de Lahan. Escondió este anillo en el parterre de su casa."
+                "이계에서 건너온 아름다운 초록색 반지이다. '라한 마을' 외곽에 살던 미도리라는 소녀의 물건인 듯하다. 그녀는 이 반지를 마당 화단에 숨겨 두었던 모양이다.",
+                "Un bel anneau vert rapporté d'un autre monde. La légende dit qu'il appartenait à une fille du nom de Midori, qui vivait en dehors du village de Lahan. Elle aurait caché cet anneau précieux dans le parterre de fleurs de sa maison.",
+                "Ein schöner grüner Ring aus einer anderen Welt. Er soll einem Mädchen gehört haben, das außerhalb des Dorfes Lahan gewohnt hat. Sie hat diesen wertvollen Ring im Blumenbeet ihres Hauses versteckt.",
+                "Un precioso anillo verde procedente de un mundo lejano. Se dice que perteneció a una chica llamada Midori que vivía a las afueras de la aldea de Lahan. Escondió este anillo en el jardín de su casa."
             ]
         }
     },
@@ -20604,17 +21087,17 @@
                 "A First and Last raid material.",
                 "「始於其人，終於其人」共鬥素材",
                 "'모든 것의 시작이자 끝이 되는 자' 레이드 재료",
-                "Un matériau de raid issu de l'événement \"Le premier et le dernier\".",
-                "Erster und Letzter Raubzugmaterial",
-                "Material de banda de El primero y el último"
+                "Un matériau de raid issu de l'événement \"Le Premier et le Dernier\".",
+                "Raubzugmaterial für \"Der Anfang und das Ende\"",
+                "Material de banda de El principio del fin"
             ],
             "desc_long": [
                 "A fine lump of steel smelted in a rustic furnace. This pure specimen is essential for forging superior blades. Due to the decrease of traditional furnaces, it has greatly increased in both rarity and value.",
                 "以名為吹踏鞴的工法製作的優質鋼塊。雜質極為稀少的玉鋼是鍛造一把好刀不可或缺的素材。但是隨著吹踏鞴的日漸式微，現在已經成為極為稀少的逸品了。",
-                "골풀무 제철로 만든, 질 좋은 강철 덩어리. 불순물이 매우 적은 옥강은 훌륭한 도를 만드는 데 빠져서는 안 될 재료이다. 그러나 골풀무 제철소가 감소함에 따라 지금은 귀중한 재료가 되었다고 한다.",
-                null,
-                null,
-                "Un trozo fino de acero hecho en la acería de Tatara. El acero con muy pocas impurezas es imprescindible a la hora de forjar filos de calidad superior. Debido a la reducción de acerías de Tatara, se ha convertido en un material muy apreciado."
+                "전통 기법으로 만들어진 고품질 강철 덩어리이다. 불순물이 매우 적어서 뛰어난 도검을 만드는 데 필수적인 재료다. 그러나 전통 제철소가 줄어들면서 희소가치가 높아졌다고 한다.",
+                "Un bloc d'acier de bonne qualité fondu dans une fournaise antique. Ce matériau, qui se distingue par son manque d'impuretés, est essentiel à la fabrication de lames de qualité supérieure. Les forges traditionnelles se faisant désormais de plus en plus rares, il compte également parmi les matières les plus précieuses au monde.",
+                "Ein guter Stahlklumpen, der in einem altmodischen Schmelzofen gegossen wurde. Dieses reine Exemplar ist eine absolute Notwendigkeit für die Anfertigkeit hochwertiger Klingen. Weil es immer weniger traditionelle Schmelzöfen gibt, ist er sehr viel seltener als auch wesentlich teurer geworden.",
+                "Un trozo fino de acero fundido en una fragua rural. El acero puro es imprescindible a la hora de forjar hojas de calidad superior. Debido a la reducción de fraguas tradicionales, se ha convertido en un material muy apreciado."
             ]
         }
     },
@@ -20639,24 +21122,24 @@
                 "黑色革布",
                 "검은 가죽",
                 "Cuir noir",
-                "Edel Leder",
+                "Schwarzes Leder",
                 "Cuero negro"
             ],
             "desc_short": [
                 "A First and Last raid material.",
                 "「始於其人，終於其人」共鬥素材",
                 "'모든 것의 시작이자 끝이 되는 자' 레이드 재료",
-                "Un matériau de raid issu de l'événement \"Le premier et le dernier\".",
-                "Erster und Letzter Raubzugmaterial",
-                "Material de banda de El primero y el último"
+                "Un matériau de raid issu de l'événement \"Le Premier et le Dernier\".",
+                "Raubzugmaterial für \"Der Anfang und das Ende\"",
+                "Material de banda de El principio del fin"
             ],
             "desc_long": [
                 "A piece of black leather, soft to the touch and traded at a high price. While many near-identical imitations exist, the tactile difference between authentic and synthetic is obvious.",
                 "黑色的皮革。摸起來觸感極佳，常以高價交易。雖然在市場上常有與其相似的合成皮革四處流通，但只要一觸摸就能感覺出其中的差別。",
-                "검은색의 가죽. 촉감이 무척이나 좋아 고가에 거래되고 있다. 시장에서는 진짜 가죽과 비슷하게 만든 합성 피혁도 널리 유통되고 있지만, 만져 보면 그 차이가 확연하다고 한다.",
-                null,
-                null,
-                "Un trozo de cuero negro. Es suave al tacto y tiene un precio elevado. Aunque hay muchas imitaciones parecidas hechas de cuero sintético, la diferencia es obvia."
+                "검은색 가죽 원단이다. 촉감이 매우 좋아 고가에 거래된다. 진짜 가죽과 유사한 합성 가죽이 많이 유통되고 있지만, 만져 보면 그 차이가 확연히 느껴진다고 한다.",
+                "Un morceau de cuir noir. Il est doux au toucher et s'échange à bon prix sur le marché. De nombreuses imitations quasi identiques se vendent communément, mais sont toutefois loin de reproduire la texture incomparable du véritable cuir.",
+                "Ein Stück schwarzes Leder, das sich weich anfühlt und zu hohen Preisen gehandelt wird. Es gibt zwar viele sehr ähnliche Imitationen, aber der Unterschied zwischen Fälschungen und dem Original ist deutlich fühlbar.",
+                "Un trozo de cuero negro. Es suave al tacto y tiene un precio elevado. Aunque hay muchas imitaciones hechas de cuero sintético, la diferencia es obvia."
             ]
         }
     },
@@ -20679,26 +21162,26 @@
             "names": [
                 "Smoky Gemstone",
                 "泛黑光的寶珠",
-                "검게 빛나는 보옥",
+                "검게 빛나는 보주",
                 "Joyau noir brillant",
-                "Schwarzes Funkel Juwel",
+                "Schwarzglänzendes Juwel",
                 "Gema negra brillante"
             ],
             "desc_short": [
                 "A First and Last raid material.",
                 "「始於其人，終於其人」共鬥素材",
                 "'모든 것의 시작이자 끝이 되는 자' 레이드 재료",
-                "Un matériau de raid issu de l'événement \"Le premier et le dernier\".",
-                "Erster und Letzter Raubzugmaterial",
-                "Material de banda de El primero y el último"
+                "Un matériau de raid issu de l'événement \"Le Premier et le Dernier\".",
+                "Raubzugmaterial für \"Der Anfang und das Ende\"",
+                "Material de banda de El principio del fin"
             ],
             "desc_long": [
                 "A shiny jet-black gem. While it has always been a popular crafting material, this stone is now more sought-after than ever due to its rumored ability to absorb its bearer's bad luck.",
                 "光滑又漆黑的寶珠。原本是很受歡迎的製作素材，但隨著『能夠吸收主人的不幸』的傳聞四處留傳，有越來越多的人將其當成單純的護身符來配戴了。",
-                "반지르르한 칠흑의 보옥. 본래 제작 재료로서 인기가 많았지만, 소유자의 불행을 빨아들인다는 소문이 퍼져 언젠가부터 부적으로서 착용하는 사람도 늘었다고 한다.",
-                null,
-                null,
-                "Una gema de color negro azabache brillante. Aunque siempre ha sido un material de fabricación popular, el número de personas que la llevan ha aumentado debido a los rumores de que posee una habilidad mediante la que absorbe la mala suerte de su portador."
+                "매끄러운 칠흑색 보주이다. 원래는 제작 재료로 인기가 많았지만, 소유자의 불행을 흡수한다는 소문이 돌면서 부적처럼 지니는 사람이 늘었다고 한다.",
+                "Une gemme noir de jais étincelante. Bien qu'elle ait toujours joui d'une certaine popularité auprès des artisans, cette pierre précieuse est aujourd'hui particulièrement convoitée en raison de rumeurs affirmant qu'elle serait capable d'absorber la malchance de son propriétaire.",
+                "Ein glänzendes tiefschwarzes Juwel. Dieser Stein ist zwar schon immer ein beliebtes Herstellungsmaterial gewesen, aber dank eines Gerüchtes über seine angebliche Fähigkeit, das Pech seines Trägers zu absorbieren, ist er nun noch beliebter geworden.",
+                "Una gema de color negro azabache brillante. Aunque siempre ha sido un material de fabricación con mucha demanda, el número de personas que buscan esta gema ha aumentado debido a los rumores de que posee una habilidad que absorbe la mala suerte de su portador."
             ]
         }
     },
@@ -20722,25 +21205,25 @@
                 "Azure Fragment",
                 "蒼藍碎片",
                 "푸른 조각",
-                "Fragment azure",
-                "Azuresplitter",
-                "Fragmento azul"
+                "Fragment azur",
+                "Azursplitter",
+                "Fragmento azur"
             ],
             "desc_short": [
                 "A First and Last raid material.",
                 "「始於其人，終於其人」共鬥素材",
                 "'모든 것의 시작이자 끝이 되는 자' 레이드 재료",
-                "Un matériau de raid issu de l'événement \"Le premier et le dernier\".",
-                "Erster und Letzter Raubzugmaterial",
-                "Material de banda de El primero y el último"
+                "Un matériau de raid issu de l'événement \"Le Premier et le Dernier\".",
+                "Raubzugmaterial für \"Der Anfang und das Ende\"",
+                "Material de banda de El principio del fin"
             ],
             "desc_long": [
                 "A mysterious deep blue mineral. The higher the clarity of the gem, the more powerful its magical quality. Popular as a crafting material, it is often used in the production of accessories.",
-                "光滑又漆黑的寶珠。原本是很受歡迎的製作素材，但隨著『能夠吸收主人的不幸』的傳聞四處留傳，有越來越多的人將其當成單純的護身符來配戴了。",
-                "깊은 푸른색을 띤 신비한 광물. 투명도가 높을수록 강한 마력이 깃들어 있다고 한다. 가공하여 장신구로 만드는 등 인기가 높다.",
-                null,
-                null,
-                "Un mineral azul marino misterioso. Cuanto más clara sea la gema, más poderosa será su calidad mágica. A menudo se utiliza para fabricar accesorios y otros objetos, además de ser muy popular."
+                "帶有神秘感的深藍色礦物。據傳其透明度越高則藏有的魔力越強。會被用來加工製成飾品等頗具有人氣。",
+                "깊은 푸른빛을 띤 신비로운 광물이다. 투명도가 높을수록 강한 마력이 깃들어 있다고 한다. 가공해서 장신구로 이용하는 등 인기가 많다.",
+                "Un mystérieux minerai d'un bleu profond. Plus la clarté de cette gemme est importante, plus son pouvoir magique est puissant. Elle est très populaire et souvent utilisée dans la forge d'accessoires et d'autres objets.",
+                "Ein mysteriöses tiefblaues Mineral. Umso klarer das Juwel, umso mächtiger ist die darin enthaltene Magie. Es ist ein beliebtes Herstellungsmaterial und wird häufig für die Anfertigung von Accessoires verwendet.",
+                "Un mineral de un misterioso color azul oscuro. Cuanto más transparente sea la gema, mayor será su calidad mágica. A menudo se utiliza para fabricar accesorios y otros objetos, por lo que es muy popular."
             ]
         }
     },
@@ -21683,6 +22166,426 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_8447.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "234000100": {
+        "name": "魔法銀のインゴット",
+        "type": "Item",
+        "compendium_id": 785,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "234000200": {
+        "name": "銀色の柄",
+        "type": "Item",
+        "compendium_id": 786,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "234000300": {
+        "name": "海狼の牙",
+        "type": "Item",
+        "compendium_id": 787,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "234000400": {
+        "name": "銀灰色の丸材",
+        "type": "Item",
+        "compendium_id": 788,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "234000500": {
+        "name": "銀の宝玉",
+        "type": "Item",
+        "compendium_id": 789,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235000100": {
+        "name": "雪白の花",
+        "type": "Item",
+        "compendium_id": 803,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235000200": {
+        "name": "祝祭の花びら",
+        "type": "Item",
+        "compendium_id": 804,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235000300": {
+        "name": "麗紫の布",
+        "type": "Item",
+        "compendium_id": 805,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235000400": {
+        "name": "誘香水",
+        "type": "Item",
+        "compendium_id": 806,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235000500": {
+        "name": "紫の絹糸",
+        "type": "Item",
+        "compendium_id": 807,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235001100": {
+        "name": "生命岩の原石",
+        "type": "Item",
+        "compendium_id": 813,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235001200": {
+        "name": "黄金魔の尾",
+        "type": "Item",
+        "compendium_id": 814,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235001300": {
+        "name": "光飲黒晶",
+        "type": "Item",
+        "compendium_id": 815,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235001400": {
+        "name": "隕石の欠片",
+        "type": "Item",
+        "compendium_id": 816,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235001500": {
+        "name": "コスモパウダー",
+        "type": "Item",
+        "compendium_id": 817,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235002100": {
+        "name": "毒々しい牙",
+        "type": "Item",
+        "compendium_id": 822,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235002200": {
+        "name": "黒の糸",
+        "type": "Item",
+        "compendium_id": 823,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235002300": {
+        "name": "黒の木材",
+        "type": "Item",
+        "compendium_id": 824,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235002400": {
+        "name": "融合石",
+        "type": "Item",
+        "compendium_id": 825,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235002500": {
+        "name": "金属の輪",
+        "type": "Item",
+        "compendium_id": 826,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": null,
         "strings": {
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
@@ -29773,9 +30676,9 @@
                 "Citan's Prism",
                 "紫檀的輝源",
                 "시탄의 휘석",
-                null,
-                null,
-                null
+                "Prisme pour Citan",
+                "Prisma für Citan",
+                "Prisma de Citán"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -29815,9 +30718,9 @@
                 "Maria's Prism",
                 "瑪利亞的輝源",
                 "마리아의 휘석",
-                null,
-                null,
-                null
+                "Prisme pour Maria",
+                "Prisma für Maria",
+                "Prisma de María"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -30443,6 +31346,363 @@
         "name": "レジーナの輝源",
         "type": "Awakening",
         "compendium_id": 780,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001240": {
+        "name": "聖盾の騎士シャルロットの輝源",
+        "type": "Awakening",
+        "compendium_id": 784,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001250": {
+        "name": "晴れ着アヤカの輝源",
+        "type": "Awakening",
+        "compendium_id": 792,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001260": {
+        "name": "ドレスアップアイリーンの輝源",
+        "type": "Awakening",
+        "compendium_id": 793,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001270": {
+        "name": "皇帝アデルの輝源",
+        "type": "Awakening",
+        "compendium_id": 794,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001280": {
+        "name": "ユリアンの輝源",
+        "type": "Awakening",
+        "compendium_id": 795,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001290": {
+        "name": "カタリナの輝源",
+        "type": "Awakening",
+        "compendium_id": 796,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001300": {
+        "name": "閃光のライトニングの輝源",
+        "type": "Awakening",
+        "compendium_id": 797,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001310": {
+        "name": "未来へのホープの輝源",
+        "type": "Awakening",
+        "compendium_id": 798,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001320": {
+        "name": "ユウナ（WOFF）の輝源",
+        "type": "Awakening",
+        "compendium_id": 799,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001330": {
+        "name": "スコール（WOFF）の輝源",
+        "type": "Awakening",
+        "compendium_id": 800,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001340": {
+        "name": "ソルの輝源",
+        "type": "Awakening",
+        "compendium_id": 812,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001350": {
+        "name": "光の戦士クルルの輝源",
+        "type": "Awakening",
+        "compendium_id": 818,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001360": {
+        "name": "暗黒魔道士エクスデスの輝源",
+        "type": "Awakening",
+        "compendium_id": 819,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001370": {
+        "name": "暁の四戦士ガラフの輝源",
+        "type": "Awakening",
+        "compendium_id": 820,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001380": {
+        "name": "光の戦士バッツの輝源",
+        "type": "Awakening",
+        "compendium_id": 830,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001390": {
+        "name": "光の戦士レナの輝源",
+        "type": "Awakening",
+        "compendium_id": 831,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001400": {
+        "name": "フィーナ&チョコボの輝源",
+        "type": "Awakening",
+        "compendium_id": 832,
         "compendium_shown": true,
         "usable_in_combat": false,
         "usable_in_exploration": false,
@@ -39891,7 +41151,7 @@
                 "5★ Guaranteed (30% Featured) Ticket [Spring 2019]",
                 "★5確保(30%精選)召喚券 [2019 春季]",
                 "픽업 유닛 30% ★5 보장 소환 티켓[2019 봄]",
-                "Ticket d'invocation d'unité 5★ garantie (30% d'unités du moment) [Printemps 2019]",
+                "Ticket d'invocation d'unité 5★ garantie [Printemps 2019] (30% d'unités du moment)",
                 "Garantierte 5★ (30% Besondere) Karte [Frühling 2019]",
                 "Tícket de invocación de 5★ garantizada (30% unidad destacada) [primavera 2019]"
             ],
