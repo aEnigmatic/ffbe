@@ -4593,7 +4593,7 @@
                 "雙刀流",
                 "이도류",
                 "Deux armes",
-                "Zweihänder",
+                "Beidhänder",
                 "Dos manos"
             ],
             "desc_short": [
@@ -14131,7 +14131,7 @@
                 "雙刀流改",
                 "개량형 이도류",
                 "Deux armes +",
-                "Zweihänder+",
+                "Beidhänder+",
                 "Dos manos+"
             ],
             "desc_short": [
@@ -21015,20 +21015,41 @@
         }
     },
     "504229430": {
-        "name": "憎しみに囚われた心",
+        "name": "Heart Bound by Hatred",
         "compendium_id": 893,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229430],
-        "effects": ["Grants '憎しみに囚われた心' passive."],
+        "effects": ["Grants 'Heart Bound by Hatred' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Heart Bound by Hatred",
+                "被仇恨所困的心",
+                "증오에 사로잡힌 마음",
+                "Cœur enchaîné à la haine",
+                "Hassgebundenes Herz",
+                "Corazón lleno de odio"
+            ],
+            "desc_short": [
+                "Boost MAG by 40% and parameters when setting an esper by 20%",
+                "提高40%魔力+提高20%設定幻獸時反映在兵員身上的狀態數值",
+                "마력 40% 상승+환수 장착 시 반영되는 능력치 20% 상승",
+                "Augmente la MAGIE de 40% et augmente les caractéristiques de 20% quand une chimère est attribuée",
+                "Erhöht MAG um 40% und erhöht Werte bei Festlegung eines Espers um 20%.",
+                "Aumenta la MAG un 40% y los parámetros al vincular un esper un 20%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 40% and parameters when setting an esper by 20%.",
+                "提高40%魔力，提高20%設定幻獸時反映在兵員身上的狀態數值。",
+                "마력이 40% 상승하고, 환수 장착 시 반영되는 능력치가 20% 상승합니다.",
+                "Augmente la MAGIE de 40% et augmente les caractéristiques de 20% quand une chimère est attribuée",
+                "Erhöht MAG um 40% und erhöht Werte bei Festlegung eines Espers um 20%.",
+                "Aumenta la MAG un 40% y los parámetros al vincular un esper un 20%"
+            ]
         }
     },
     "504229431": {
@@ -21100,54 +21121,117 @@
         }
     },
     "504229435": {
-        "name": "満月の導き",
+        "name": "Full Moon's Guidance",
         "compendium_id": 898,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229435],
-        "effects": ["Grants '満月の導き' passive."],
+        "effects": ["Grants 'Full Moon's Guidance' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_99.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Full Moon's Guidance",
+                "滿月的指引",
+                "보름달의 인도",
+                "Conseil de pleine lune",
+                "Unterweisung des Vollmonds",
+                "Influjo de luna llena"
+            ],
+            "desc_short": [
+                "Boost MAG by 5% and light resistance by 10%",
+                "提高5%魔力、10%光屬性耐性",
+                "마력 5%, 빛속성 저항력 10% 상승",
+                "Augmente la MAGIE de 5% et la résistance à la lumière de 10%",
+                "Erhöht MAG um 5% und Lichtresistenz um 10%.",
+                "Aumenta la MAG un 5% y la resistencia a la luz un 10%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 5% and light resistance by 10%.",
+                "提高5%魔力、10%光屬性耐性。",
+                "마력이 5%, 빛속성 저항력이 10% 상승합니다.",
+                "Augmente la MAGIE de 5% et la résistance à la lumière de 10%.",
+                "Erhöht MAG um 5% und Lichtresistenz um 10%.",
+                "Aumenta la MAG un 5% y la resistencia a la luz un 10%"
+            ]
         }
     },
     "504229436": {
-        "name": "新月の導き",
+        "name": "New Moon's Guidance",
         "compendium_id": 899,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229436],
-        "effects": ["Grants '新月の導き' passive."],
+        "effects": ["Grants 'New Moon's Guidance' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_98.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "New Moon's Guidance",
+                "新月的指引",
+                "초승달의 인도",
+                "Conseil de nouvelle lune",
+                "Unterweisung des Neumonds",
+                "Influjo de luna nueva"
+            ],
+            "desc_short": [
+                "Boost MAG by 5% and dark resistance by 10%",
+                "提高5%魔力、10%暗屬性耐性",
+                "마력 5%, 어둠속성 저항력 10% 상승",
+                "Augmente la MAGIE de 5% et la résistance aux ténèbres de 10%",
+                "Erhöht MAG um 5% und Dunkelresistenz um 10%.",
+                "Aumenta la MAG un 5% y la resistencia a la oscuridad un 10%"
+            ],
+            "desc_long": [
+                "Boosts MAG by 5% and dark resistance by 10%.",
+                "提高5%魔力、10%暗屬性耐性。",
+                "마력이 5%, 어둠속성 저항력이 10% 상승합니다.",
+                "Augmente la MAGIE de 5% et la résistance aux ténèbres de 10%.",
+                "Erhöht MAG um 5% und Dunkelresistenz um 10%.",
+                "Aumenta la MAG un 5% y la resistencia a la oscuridad un 10%"
+            ]
         }
     },
     "504229437": {
-        "name": "月の民の思念",
+        "name": "Lunarian Comprehension",
         "compendium_id": 900,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229437],
-        "effects": ["Grants '月の民の思念' passive."],
+        "effects": ["Grants 'Lunarian Comprehension' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Lunarian Comprehension",
+                "月民的思念",
+                "달의 주민의 사념",
+                "Savoir des Sélénites",
+                "Verständnis der Lunarier",
+                "Sabiduría de los lunarios"
+            ],
+            "desc_short": [
+                "Boost MP by 15% and MAG by 25%",
+                "提高15%MP、25%魔力",
+                "MP 15%, 마력 25% 상승",
+                "Augmente les PM de 15% et la MAGIE de 25%",
+                "Erhöht MP um 15% und MAG um 25%.",
+                "Aumenta los PM un 15% y la MAG un 25%"
+            ],
+            "desc_long": [
+                "Boosts MP by 15% and MAG by 25%.",
+                "提高15%MP、25%魔力。",
+                "MP가 15%, 마력이 25% 상승합니다.",
+                "Augmente les PM de 15% et la MAGIE de 25%.",
+                "Erhöht MP um 15% und MAG um 25%.",
+                "Aumenta los PM un 15% y la MAG un 25%"
+            ]
         }
     },
     "504229599": {
