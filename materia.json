@@ -12351,7 +12351,7 @@
             "desc_short": [
                 "Can equip two of any one-handed weapon and boost ATK when equipped with a sword, short sword, large sword, or katana",
                 "可以裝備2個單手武器+裝備劍短劍大劍刀時提高攻擊",
-                "한손용 무기 2개 장착 가능+검, 단검, 대검 또는 도 장착 시 공격력 상승 (중복 장착 불가)",
+                "한손용 무기 2개 장착 가능+검, 단검, 대검 또는 도 장착 시 공격력 상승",
                 "Permet d'équiper deux armes à une main, et augmente l'ATT lorsqu'une épée normale, courte ou longue ou un katana est équipé",
                 "Einheit kann zwei einhändige Schusswaffen führen und erhöht ANG, wenn ein Kurzschwert, Schwert, Langschwert oder Katana ausgerüstet ist.",
                 "Permite que la unidad pueda equiparse con dos armas de una sola mano y aumenta el ATQ al llevar espada, espada corta, espada grande o katana."
@@ -20964,54 +20964,117 @@
         }
     },
     "504229341": {
-        "name": "陰陽双手",
+        "name": "Yin-Yang Dual Hand",
         "compendium_id": 890,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229341],
-        "effects": ["Grants '陰陽双手' passive."],
-        "unique": false,
+        "effects": ["Grants 'Yin-Yang Dual Hand' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_72.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Yin-Yang Dual Hand",
+                "陰陽雙手",
+                "음양쌍수",
+                "Paumes Yin et Yang",
+                "Yin-Yang-Doppelhand",
+                "Mano dual yin-yang"
+            ],
+            "desc_short": [
+                "Boost ATK and MAG by 40%, and boost equipment ATK and MAG when armed with two one-handed weapons (Not stackable)",
+                "提高40%攻擊魔力+裝備2把單手武器時武具魔力攻擊提升 [無法重複裝備]",
+                "공격력과 마력 40% 상승+한손용 무기 2개 장착 시 장비의 공격력과 마력 상승(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40%, et augmente l'ATT et la MAGIE de l'équipement lorsque deux armes à une main sont équipées (Non cumulable)",
+                "Erhöht ANG sowie MAG um 40% und erhöht Ausrüstung-ANG sowie -MAG, wenn mit zwei einhändigen Waffen ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40%, y aumenta el ATQ y la MAG del equipo al llevar dos armas de una sola mano (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40%, and boosts equipment ATK and MAG when armed with two one-handed weapons. Not stackable.",
+                "提高20%攻擊並提高50%魔力，裝備2把單手武器時武具攻擊提升。 [無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 한손용 무기 2개 장착 시 장비의 공격력과 마력이 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40%, et augmente l'ATT et la MAGIE de l'équipement lorsque deux armes à une main sont équipées. Non cumulable.",
+                "Erhöht ANG sowie MAG um 40% und erhöht Ausrüstung-ANG sowie -MAG, wenn mit zwei einhändigen Waffen ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y aumenta el ATQ y la MAG del equipo al llevar dos armas de una sola mano (no acumulable)"
+            ]
         }
     },
     "504229343": {
-        "name": "鞭の絶技",
+        "name": "Whip Expert",
         "compendium_id": 891,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229343],
-        "effects": ["Grants '鞭の絶技' passive."],
-        "unique": false,
+        "effects": ["Grants 'Whip Expert' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_76.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Whip Expert",
+                "鞭之絕技",
+                "채찍의 절기",
+                "Expertise du fouet",
+                "Peitschenexperte",
+                "Experta del látigo"
+            ],
+            "desc_short": [
+                "Boost MP by 20%, boost ATK by 50% when equipped with a whip, and boost equipment ATK when a single weapon is equipped in both hands",
+                "提高20%MP+裝備鞭時提高50%攻擊+雙手只裝備1把武器時武具攻擊提升",
+                "MP 20% 상승+채찍 장착 시 공격력 50% 상승+양손의 장비가 무기 1개일 경우 장비의 공격력 상승",
+                "Augmente les PM de 20%, augmente l'ATT de 50% lorsqu'un fouet est équipé, et augmente l'ATT de l'équipement lorsqu'une arme est tenue avec les deux mains",
+                "Erhöht MP um 20%, erhöht ANG um 50%, wenn mit einer Peitsche ausgerüstet und erhöht Ausrüstung-ANG, wenn eine einzelne Waffen in beiden Händen ausgerüstet ist.",
+                "Aumenta los PM un 20%, aumenta el ATQ un 50% al llevar látigo y aumenta el ATQ del equipo al llevar una sola arma en ambas manos"
+            ],
+            "desc_long": [
+                "Boosts MP by 20%, boosts ATK by 50% when equipped with a whip, and boosts equipment ATK when a single weapon is equipped in both hands.",
+                "提高20%MP，裝備鞭時提高50%攻擊，雙手只裝備1把武器時武具攻擊提升。",
+                "MP가 20% 상승하고, 채찍 장착 시 공격력이 50% 상승하며, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승합니다.",
+                "Augmente les PM de 20%, augmente l'ATT de 50% lorsqu'un fouet est équipé, et augmente l'ATT de l'équipement lorsqu'une arme est tenue avec les deux mains.",
+                "Erhöht MP um 20%, erhöht ANG um 50%, wenn mit einer Peitsche ausgerüstet und erhöht Ausrüstung-ANG, wenn eine einzelne Waffen in beiden Händen ausgerüstet ist.",
+                "Aumenta los PM un 20%, aumenta el ATQ un 50% al llevar látigo y aumenta el ATQ del equipo al llevar una sola arma en ambas manos."
+            ]
         }
     },
     "504229345": {
-        "name": "二人でひとつ",
+        "name": "Two For One",
         "compendium_id": 892,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229345],
-        "effects": ["Grants '二人でひとつ' passive."],
-        "unique": false,
+        "effects": ["Grants 'Two For One' passive."],
+        "unique": true,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Two For One",
+                "合二為一",
+                "둘이서 하나",
+                "Deux pour un",
+                "Zwei für Einen",
+                "Dos por uno"
+            ],
+            "desc_short": [
+                "Boost ATK by 20%, boost SPR by 40% when equipped with an instrument, and boost ATK by 30% when equipped with a bow (Not stackable)",
+                "提高20%攻擊+裝備樂器時提高40%精神+裝備弓時提高30%攻擊 [無法重複裝備]",
+                "공격력 20% 상승+악기 장착 시 정신력 40% 상승+활 장착 시 공격력 30% 상승(중복 장착 불가)",
+                "Augmente l'ATT de 20%, augmente la PSY de 40% lorsqu'un instrument est équipé, et augmente l'ATT de 30% lorsqu'un arc est équipé (Non cumulable)",
+                "Erhöht ANG um 20%, erhöht PSY um 40%, wenn mit einem Instrument ausgerüstet und erhöht ANG um 30%, wenn mit einem Bogen ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ un 20%, aumenta el ESP un 40% al llevar instrumento, y otro 30% el ATQ al llevar arco (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 20%, boosts SPR by 40% when equipped with an instrument, and boosts ATK by 30% when equipped with a bow. Not stackable.",
+                "提高20%攻擊，裝備樂器時提高40%精神，裝備弓時提高30%攻擊。 [無法重複裝備]",
+                "공격력이 20% 상승하고, 악기 장착 시 정신력이 40% 상승하며, 활 장착 시 공격력이 30% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT de 20%, augmente la PSY de 40% lorsqu'un instrument est équipé, et augmente l'ATT de 30% lorsqu'un arc est équipé. Non cumulable.",
+                "Erhöht ANG um 20%, erhöht PSY um 40%, wenn mit einem Instrument ausgerüstet und erhöht ANG um 30%, wenn mit einem Bogen ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ un 20%, aumenta el ESP un 40% al llevar instrumento, y otro 30% el ATQ al llevar arco (no acumulable)"
+            ]
         }
     },
     "504229430": {
