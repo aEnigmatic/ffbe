@@ -10568,7 +10568,7 @@
                 "1턴에 한해, 적과 아군이 사용한 일부 마법 무효화",
                 "Annule en partie la magie pendant un tour",
                 "Annuliert teilweise Magie für eine Runde",
-                "Anula parcialmente el daño mágico durante un turno"
+                "Anula la magia de un enemigo durante un turno"
             ],
             "desc_long": [
                 "Nullifies one magic cast by an enemy for one turn.",
@@ -11888,7 +11888,7 @@
                 "Water Resistance +20%",
                 "水屬性耐性+20%",
                 "물속성 저항력+20%",
-                "Rés. à l'eau +15%",
+                "Rés. à l'eau +20%",
                 "Wasserresistenz +20%",
                 "Resistencia al agua +20%"
             ],
@@ -21599,71 +21599,155 @@
         }
     },
     "504229930": {
-        "name": "マスターマシーナリー",
+        "name": "Master of Machinery",
         "compendium_id": 915,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229930],
-        "effects": ["Grants 'マスターマシーナリー' passive."],
-        "unique": false,
+        "effects": ["Grants 'Master of Machinery' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Master of Machinery",
+                "頂級機械師",
+                "장인 기계공",
+                "Maître ingénieur",
+                "Maschinenmeister",
+                "Maestro ingeniero"
+            ],
+            "desc_short": [
+                "Boost MP by 20% and ATK by 40%, and boost physical damage against machina monsters",
+                "提高20%MP、40%攻擊+物理攻擊時提高對機械系魔物的傷害",
+                "MP 20%, 공격력 40% 상승+물리 공격 시 기계형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente les PM de 20%, l'ATT de 40%, et augmente les dégâts physiques contre les machines",
+                "Erhöht MP um 20% und ANG um 40% und erhöht physischen Schaden gegen Maschinen.",
+                "Aumenta los PM un 20%, el ATQ un 40% y el daño físico contra máquinas"
+            ],
+            "desc_long": [
+                "Boosts MP by 20% and ATK by 40%, and boosts physical damage against machina monsters. Not stackable.",
+                "提高20%MP、40%攻擊，物理攻擊時提高對機械系魔物的傷害。",
+                "MP 20%, 공격력이 40% 상승하고, 물리 공격 시 기계형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente les PM de 20%, l'ATT de 40%, et augmente les dégâts physiques contre les machines. Non cumulable.",
+                "Erhöht MP um 20% und ANG um 40% und erhöht physischen Schaden gegen Maschinen. Nicht stapelbar.",
+                "Aumenta los PM un 20%, el ATQ un 40% y el daño físico contra máquinas (no acumulable)"
+            ]
         }
     },
     "504229931": {
-        "name": "長き修行の成果",
+        "name": "Long Training Pays Off",
         "compendium_id": 916,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229931],
-        "effects": ["Grants '長き修行の成果' passive."],
-        "unique": false,
+        "effects": ["Grants 'Long Training Pays Off' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Long Training Pays Off",
+                "漫長修行的成果",
+                "긴 수행의 성과",
+                "Fruits d'un entraînement rigoureux",
+                "Jahrelanges Training zahlt sich aus",
+                "Frutos de un arduo entrenamiento"
+            ],
+            "desc_short": [
+                "Restore HP every turn and boost ATK by 60% when equipped with fists (Not stackable)",
+                "每回合恢復HP+裝備格鬥武器時提高60%攻擊",
+                "전투 중 매 턴마다 HP 회복+격투무기 장착 시 공격력 60% 상승 (중복 장착 불가)",
+                "Restaure les PV à chaque tour et augmente l'ATT de 60% lorsque des poings sont équipés (non cumulable)",
+                "Stellt jede Runde LP wieder her und erhöht ANG um 60%, wenn mit Faust ausgerüstet. Nicht stapelbar.",
+                "Recupera VIT cada turno y aumenta el ATQ un 60% al llevar puños"
+            ],
+            "desc_long": [
+                "Restores HP every turn and boosts ATK by 60% when equipped with fists. Not stackable.",
+                "每回合恢復HP，裝備格鬥武器時提高60%攻擊。",
+                "전투 중 매 턴마다 HP를 회복하고, 격투무기 장착 시 공격력이 60% 상승합니다. (중복 장착 불가)",
+                "Restaure les PV à chaque tour et augmente l'ATT de 60% lorsque des poings sont équipés. Non cumulable.",
+                "Stellt jede Runde LP wieder her und erhöht ANG um 60%, wenn mit Faust ausgerüstet. Nicht stapelbar.",
+                "Recupera VIT cada turno y aumenta el ATQ un 60% al llevar puños (no acumulable)"
+            ]
         }
     },
     "504229935": {
-        "name": "兄弟の絆・力",
+        "name": "Fraternal Power",
         "compendium_id": 917,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229935],
-        "effects": ["Grants '兄弟の絆・力' passive."],
+        "effects": ["Grants 'Fraternal Power' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Fraternal Power",
+                "兄弟羈絆·力",
+                "형제의 인연·힘",
+                "Puissance fraternelle",
+                "Brüderliche Macht",
+                "Poder fraternal"
+            ],
+            "desc_short": [
+                "Boost HP by 10% and ATK and SPR by 5%",
+                "提高10%HP、5%攻擊精神",
+                "HP 10%, 공격력과 정신력 5% 상승",
+                "Augmente les PV de 10% et l'ATT et la PSY de 5%",
+                "Erhöht LP um 10% und ANG und PSY um 5%.",
+                "Aumenta la VIT un 10% y el ATQ y el ESP un 5%"
+            ],
+            "desc_long": [
+                "Boosts HP by 10% and ATK and SPR by 5%.",
+                "提高10%HP，5%攻擊精神。",
+                "HP 10%, 공격력과 정신력이 5% 상승합니다.",
+                "Augmente les PV de 10% et l'ATT et la PSY de 5%.",
+                "Erhöht LP um 10% und ANG und PSY um 5%.",
+                "Aumenta la VIT un 10% y el ATQ y el ESP un 5%"
+            ]
         }
     },
     "504229936": {
-        "name": "兄弟の絆・知",
+        "name": "Fraternal Wisdom",
         "compendium_id": 918,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229936],
-        "effects": ["Grants '兄弟の絆・知' passive."],
+        "effects": ["Grants 'Fraternal Wisdom' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Fraternal Wisdom",
+                "兄弟羈絆·知",
+                "형제의 인연·지식",
+                "Sagesse fraternelle",
+                "Brüderliche Weisheit",
+                "Sabiduría fraternal"
+            ],
+            "desc_short": [
+                "Boost HP by 10% and DEF and MAG by 5%",
+                "提高10%HP、5%防禦魔力",
+                "HP 10%, 방어력과 마력 5% 상승",
+                "Augmente les PV de 10% et la DEF et la MAGIE de 5%",
+                "Erhöht LP um 10% und ABW und MAG um 5%.",
+                "Aumenta la VIT un 10% y la DEF y la MAG un 5%"
+            ],
+            "desc_long": [
+                "Boosts HP by 10% and DEF and MAG by 5%.",
+                "提高10%HP，5%防禦魔力。",
+                "HP 10%, 방어력과 마력이 5% 상승합니다.",
+                "Augmente les PV de 10% et la DEF et la MAGIE de 5%.",
+                "Erhöht LP um 10% und ABW und MAG um 5%.",
+                "Aumenta la VIT un 10% y la DEF y la MAG un 5%"
+            ]
         }
     },
     "504230000": {
