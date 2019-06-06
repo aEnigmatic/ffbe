@@ -10503,8 +10503,8 @@
                 "Warrior Lore",
                 "戰士心得",
                 "전사의 마음가짐",
-                "Art du tireur",
-                "Kriegerkunde",
+                "Monographie du guerrier",
+                "Krieger-Lizenz",
                 "Libro de guerrero"
             ],
             "desc_short": [
@@ -10542,7 +10542,7 @@
                 "魔道士心得",
                 "마도사의 마음가짐",
                 "Monographie du mage",
-                "Magiermonographie",
+                "Magus-Wissen",
                 "Códice del mago"
             ],
             "desc_short": [
@@ -22114,37 +22114,79 @@
         }
     },
     "504230132": {
-        "name": "バトルインテリジェンス",
+        "name": "Battle Intelligence",
         "compendium_id": 928,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230132],
-        "effects": ["Grants 'バトルインテリジェンス' passive."],
-        "unique": false,
+        "effects": ["Grants 'Battle Intelligence' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Battle Intelligence",
+                "戰鬥情報",
+                "배틀 인텔리전스",
+                "Intelligence guerrière",
+                "Schlachtintelligenz",
+                "Astucia bélica"
+            ],
+            "desc_short": [
+                "Boost ATK by 60% and boost physical damage against demons, fairies, and machina monsters (Not stackable)",
+                "提高60%攻擊+物理攻擊時提高對惡魔機械精靈系魔物傷害",
+                "공격력 60% 상승+물리 공격 시 악마, 기계, 정령형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 60% ainsi que les dégâts physiques contre les démons, les esprits et les machines (Non cumulable)",
+                "Erhöht ANG um 60% und erhöht physischen Schaden gegen Dämonen, Feen und Maschinen (Nicht stapelbar).",
+                "Aumenta el ATQ un 60% y el daño físico contra demonios, hadas y máquinas (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 60% and boosts physical damage against demons, fairies, and machina monsters. Not stackable.",
+                "提高60%攻擊，並在物理攻擊時，提高對惡魔機械精靈系魔物的傷害。",
+                "공격력이 60% 상승하고, 물리 공격 시 악마, 기계, 정령형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 60% ainsi que les dégâts physiques contre les démons, les esprits et les machines. Non cumulable.",
+                "Erhöht ANG um 60% und erhöht physischen Schaden gegen Dämonen, Feen und Maschinen. Nicht stapelbar.",
+                "Aumenta el ATQ un 60% y el daño físico contra demonios, hadas, y máquinas (no acumulable)"
+            ]
         }
     },
     "504230133": {
-        "name": "ロッドの操術",
+        "name": "Honorable Rod Arts",
         "compendium_id": 929,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230133],
-        "effects": ["Grants 'ロッドの操術' passive."],
+        "effects": ["Grants 'Honorable Rod Arts' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_96.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Honorable Rod Arts",
+                "魔棒操控術",
+                "홀장의 조술",
+                "Art du sceptre",
+                "Tugendhafte Rutenkünste",
+                "Noble arte de la vara"
+            ],
+            "desc_short": [
+                "Boost MAG by 30% and can equip rods",
+                "提高30%魔力+可裝備魔棒",
+                "마력 30% 상승+홀장 장착 가능",
+                "Augmente la MAGIE de 30% et permet d'équiper un sceptre",
+                "Erhöht MAG um 30% und Benutzer kann Ruten ausrüsten.",
+                "Aumenta la MAG un 30% y puede llevar vara"
+            ],
+            "desc_long": [
+                "Boosts MAG by 30% and enables unit to equip rods.",
+                "提高30%魔力，並可裝備魔棒。",
+                "마력이 30% 상승하고, 홀장을 장착할 수 있게 됩니다.",
+                "Augmente la MAGIE de 30% et permet à l'unité d'équiper un sceptre.",
+                "Erhöht MAG um 30% und ermöglicht es der Einheit, Ruten auszurüsten.",
+                "Aumenta la MAG un 30% y la unidad puede llevar vara"
+            ]
         }
     },
     "504230141": {
