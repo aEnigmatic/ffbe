@@ -7701,7 +7701,7 @@
                 "적 1명에게 일부 방어 무시 피해+공격력, 방어력, 마력, 정신력 감소 (랜디 전용)",
                 "Dégâts en partie fixes et réduit ATT/DEF/MAGIE/PSY d'un ennemi (Pour Randy uniquement)",
                 "Teilweise direkter Schaden, senkt Werte (nur Randi)",
-                "Daño absoluto parcial y reduce ATQ/DEF/MAG/ESP (exclusiva de Randy)"
+                "Daño que ignora parcialmente la DEF de un enemigo y reduce su ATQ, DEF, MAG y ESP (exclusiva de Randy)"
             ],
             "desc_long": [
                 "Deals damage partially unaffected by defense and reduces ATK, DEF, MAG and SPR for one enemy. Randi only.",
@@ -7709,7 +7709,7 @@
                 "적 1명에게 일부 방어 무시 피해를 주고 공격력, 방어력, 마력, 정신력을 감소시킵니다. (랜디 전용)",
                 "Dégâts qui ignorent la DEF en partie. Reduit ATT/DEF/MAGIE/PSY d'un ennemi. (Pour Randy uniquement)",
                 "Fügt einem Gegner Schaden zu, der teilweise die Abwehr umgeht, und reduziert ANG, ABW, MAG und PSY (nur Randi).",
-                "Daño absoluto parcial y reduce ATQ/DEF/MAG/ESP (exclusiva de Randy)"
+                "Daño que ignora parcialmente la DEF de un enemigo y reduce su ATQ, DEF, MAG y ESP (exclusiva de Randy)"
             ]
         }
     },
@@ -19072,27 +19072,41 @@
         }
     },
     "504228234": {
-        "name": "Unshakable",
+        "name": "Soaring Legendary Dragon",
         "compendium_id": 836,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228234],
         "effects": ["Grants 'Soaring Legendary Dragon' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
             "names": [
-                "Unshakable",
+                "Soaring Legendary Dragon",
                 "傳說飛天白龍",
-                null,
-                null,
-                "Unerschütterlich",
-                "Inquebrantable"
+                "하늘을 나는 전설의 백룡",
+                "Envol du dragon légendaire",
+                "Legendärer Himmelsdrache",
+                "Dragón legendario"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK by 60%, and boost physical damage against beasts, fairies, and reapers",
+                "提高60%攻擊+物理攻擊時提高對獸精靈死靈系魔物的傷害",
+                "공격력 60% 상승+물리 공격 시 야수, 정령, 사령형 마물에게 부여하는 피해량 상승",
+                "Augmente l'ATT de 60% ainsi que les dégâts physiques contre les bêtes, les esprits et les morts-vivants",
+                "Erhöht ANG um 60% und erhöht physischen Schaden gegen Bestien, Feen und Untote.",
+                "Aumenta el ATQ un 60% y aumenta el daño físico contra bestias, hadas y muertos vivientes"
+            ],
+            "desc_long": [
+                "Boosts ATK by 60%, and boosts physical damage against beasts, fairies, and reapers.",
+                "提高60%攻擊，物理攻擊時提高對獸精靈死靈系魔物的傷害。",
+                "공격력이 60% 상승하고, 물리 공격 시 야수, 정령, 사령형 마물에게 부여하는 피해량이 상승합니다.",
+                "Augmente l'ATT de 60% ainsi que les dégâts physiques contre les bêtes, les esprits et les morts-vivants.",
+                "Erhöht ANG um 60% und erhöht physischen Schaden gegen Bestien, Feen und Untote.",
+                "Aumenta el ATQ un 60% y aumenta el daño físico contra bestias, hadas y muertos vivientes."
+            ]
         }
     },
     "504228254": {
@@ -19102,7 +19116,7 @@
         "unit_restriction": null,
         "skills": [228254],
         "effects": ["Grants 'Secret of Mana' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
@@ -19110,13 +19124,27 @@
             "names": [
                 "Secret of Mana",
                 "瑪娜的秘密",
-                null,
-                null,
-                null,
-                null
+                "시크릿 오브 마나",
+                "Secret de Mana",
+                "Das Geheimnis des Mana",
+                "Secret of Mana"
             ],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_short": [
+                "Boost ATK by 60%, HP and MP by 15%, parameters when setting an esper by 30%, and ATK by 20% when equipped with a sword (Not stackable)",
+                "提高60%攻擊、15%HPMP+提高30%設定幻獸時反映在兵員身上的狀態數值+裝備劍時提高20%攻擊[無法重複裝備]",
+                "공격력 60%, HP와 MP 15% 상승+환수 장착 시 반영되는 능력치 30% 상승+검 장착 시 공격력 20% 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 60%, les PV et les PM de 15%, les caractéristiques de 30 % quand une chimère est attribuée, et l'ATT de 20% lorsqu'une épée est équipée (Non cumulable)",
+                "Erhöht ANG um 60%, LP und MP um 15%, erhöht Werte bei Festlegung eines Espers um 30% und erhöht ANG um 20%, wenn mit einem Schwert ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ un 60%, aumenta los parámetros un 30% al vincular un esper, y aumenta el ATQ otro 20% al llevar espada (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 60%, HP and MP by 15%, parameters when setting an esper by 30%, and ATK by 20% when equipped with a sword. Not stackable.",
+                "提高60%攻擊、15%HPMP，提高30%設定幻獸時反映在兵員身上的狀態數值，裝備劍時提高20%攻擊。",
+                "공격력 60%, HP와 MP가 15% 상승하고, 환수 장착 시 반영되는 능력치가 30% 상승하며, 검 장착 시 공격력이 20% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 60%, les PV et les PM de 15%, les caractéristiques de 30 % quand une chimère est attribuée, et l'ATT de 20% lorsqu'une épée est équipée. Non cumulable.",
+                "Erhöht ANG um 60%, LP und MP um 15%, erhöht Werte bei Festlegung eines Espers um 30% und erhöht ANG um 20%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ un 60%, aumenta los parámetros un 30% al vincular un esper, y aumenta el ATQ otro 20% al llevar espada. No acumulable."
+            ]
         }
     },
     "504228277": {
@@ -19182,34 +19210,41 @@
         }
     },
     "504228299": {
-        "name": "Rabite Heart",
+        "name": "Heart of a Rabite",
         "compendium_id": 840,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228299],
-        "effects": ["Grants 'Rabite Soul' passive."],
+        "effects": ["Grants 'Heart of a Rabite' passive."],
         "unique": false,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_99.png",
         "strings": {
             "names": [
-                "Rabite Heart",
+                "Heart of a Rabite",
                 "拉比兔之心",
-                null,
-                null,
-                null,
-                null
+                "라비의 마음",
+                "Cœur de lapyn",
+                "Mümmler-Herz",
+                "Corazón de gazapo"
             ],
             "desc_short": [
-                "Reduce dark resistance by 30%, boost SPR by 60%, and boost LB gauge fill rate (Not stackable)",
-                null,
-                null,
-                null,
-                null,
-                null
+                "Boost HP by 10% and light resistance by 15%",
+                "提高10%HP、15%光屬性耐性",
+                "HP 10%, 빛속성 저항력 15% 상승",
+                "Augmente les PV de 10% et la résistance à la lumière de 15%",
+                "Erhöht LP um 10% und Lichtresistenz um 15%.",
+                "Aumenta la VIT un 10% y la resistencia a la luz un 15%"
             ],
-            "desc_long": [null, null, null, null, null, null]
+            "desc_long": [
+                "Boosts HP by 10% and light resistance by 15%.",
+                "提高10%HP、15%光屬性耐性。",
+                "HP 10%, 빛속성 저항력이 15% 상승합니다.",
+                "Augmente les PV de 10% et la résistance à la lumière de 15%.",
+                "Erhöht LP um 10% und Lichtresistenz um 15%.",
+                "Aumenta la VIT un 10% y la resistencia a la luz un 15%."
+            ]
         }
     },
     "504228324": {
