@@ -18212,10 +18212,10 @@
             "names": [
                 "EXP +25%",
                 "獲得經驗值+25%",
-                null,
-                null,
-                null,
-                null
+                "획득 경험치+25%",
+                "EXP +25%",
+                "EXP +25%",
+                "EXP +25%"
             ],
             "desc_short": [
                 "Boost EXP obtained from battle",
@@ -18250,10 +18250,10 @@
             "names": [
                 "EXP +50%",
                 "獲得經驗值+50%",
-                null,
-                null,
-                null,
-                null
+                "획득 경험치+50%",
+                "EXP +50%",
+                "EXP +50%",
+                "EXP +50%"
             ],
             "desc_short": [
                 "Boost EXP obtained from battle",
@@ -22288,54 +22288,117 @@
         }
     },
     "504230141": {
-        "name": "スタミナチョコボ",
+        "name": "Chocobo Stamina",
         "compendium_id": 931,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230141],
-        "effects": ["Grants 'スタミナチョコボ' passive."],
+        "effects": ["Grants 'Chocobo Stamina' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_12.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Chocobo Stamina",
+                "耐久陸行鳥",
+                "스태미너 초코보",
+                "Endurance chocobo",
+                "Chocobos langer Atem",
+                "Resistencia chocobo"
+            ],
+            "desc_short": [
+                "Boost HP by 5% and wind resistance by 10%",
+                "提高5%HP、10%風屬性耐性",
+                "HP 5%, 바람속성 저항력 10% 상승",
+                "Augmente les PV de 5% et la résistance au vent de 10%",
+                "Erhöht LP um 5% und Windresistenz um 10%.",
+                "Aumenta la VIT un 5% y la resistencia al viento un 10%"
+            ],
+            "desc_long": [
+                "Boosts HP by 5% and wind resistance by 10%.",
+                "提高5%HP，10%風屬性耐性。",
+                "HP가 5%, 바람속성 저항력이 10% 상승합니다.",
+                "Augmente les PV de 5% et la résistance au vent de 10%.",
+                "Erhöht LP um 5% und Windresistenz um 10%.",
+                "Aumenta la VIT un 5% y la resistencia al viento un 10%"
+            ]
         }
     },
     "504230142": {
-        "name": "マジカルチョコボ",
+        "name": "Magical Chocobo",
         "compendium_id": 932,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230142],
-        "effects": ["Grants 'マジカルチョコボ' passive."],
+        "effects": ["Grants 'Magical Chocobo' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_12.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Magical Chocobo",
+                "魔法陸行鳥",
+                "매지컬 초코보",
+                "Chocobo magique",
+                "Magischer Cocobo",
+                "Chocobo mágico"
+            ],
+            "desc_short": [
+                "Boost MP by 5% and wind resistance by 10%",
+                "提高5%MP、10%風屬性耐性",
+                "MP 5%, 바람속성 저항력 10% 상승",
+                "Augmente les PM de 5% et la résistance au vent de 10%",
+                "Erhöht MP um 5% und Windresistenz um 10%.",
+                "Aumenta los PM un 5% y la resistencia al viento un 10%"
+            ],
+            "desc_long": [
+                "Boosts MP by 5% and wind resistance by 10%.",
+                "提高5%MP，10%風屬性耐性。",
+                "MP가 5%, 바람속성 저항력이 10% 상승합니다.",
+                "Augmente les PM de 5% et la résistance au vent de 10%.",
+                "Erhöht MP um 5% und Windresistenz um 10%.",
+                "Aumenta los PM un 5% y la resistencia al viento un 10%"
+            ]
         }
     },
     "504230150": {
-        "name": "チョコボと冒険！",
+        "name": "Chocobo Adventure!",
         "compendium_id": 930,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230150],
-        "effects": ["Grants 'チョコボと冒険！' passive."],
-        "unique": false,
+        "effects": ["Grants 'Chocobo Adventure!' passive."],
+        "unique": true,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Chocobo Adventure!",
+                "與陸行鳥冒險！",
+                "초코보와 모험!",
+                "Choco-aventure !",
+                "Chocobo-Abenteuer!",
+                "¡Aventura chocobo!"
+            ],
+            "desc_short": [
+                "Boost HP and MP by 20% and ATK, DEF, MAG, and SPR by 30% (Not stackable)",
+                "提高20%HPMP、30%攻擊防禦魔力精神(無法重複裝備)",
+                "HP와 MP 20%, 공격력, 방어력, 마력, 정신력 30% 상승 (중복 장착 불가)",
+                "Augmente les PV et les PM de 20%, ainsi que l'ATT, la DEF, la MAGIE et la PSY de 30% (Non cumulable)",
+                "Erhöht LP sowie MP um 20% und ANG, ABW, MAG und PSY um 30% (nicht stapelbar).",
+                "Aumenta la VIT y los PM un 20%, y ATQ, DEF, MAG y ESP un 30% (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP and MP by 20% and ATK, DEF, MAG, and SPR by 30%. Not stackable.",
+                "提高20%HPMP、30%攻擊防禦魔力精神。[無法重複裝備]",
+                "HP와 MP가 20%, 공격력, 방어력, 마력, 정신력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV et les PM de 20%, ainsi que l'ATT, la DEF, la MAGIE et la PSY de 30%. Non cumulable.",
+                "Erhöht LP sowie MP um 20% und ANG, ABW, MAG und PSY um 30%. Nicht stapelbar.",
+                "Aumenta la VIT y los PM un 20%, y ATQ, DEF, MAG y ESP un 30% (no acumulable)"
+            ]
         }
     },
     "504230170": {
@@ -22373,20 +22436,41 @@
         }
     },
     "504230242": {
-        "name": "エレガントガンナー",
+        "name": "Elegant Gunner",
         "compendium_id": 935,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230242],
-        "effects": ["Grants 'エレガントガンナー' passive."],
-        "unique": false,
+        "effects": ["Grants 'Elegant Gunner' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Elegant Gunner",
+                "華美的槍手",
+                "우아한 총잡이",
+                "Tireuse de choc et de charme",
+                "Elegante Schützin",
+                "Artillera elegante"
+            ],
+            "desc_short": [
+                "Nullify blind, sleep, and paralysis and boost ATK by 60% when equipped with a gun (Not stackable)",
+                "失明睡眠麻痺無效+裝備火槍時提高60%攻擊(無法重複裝備)",
+                "암흑, 수면, 마비 무효화+총 장착 시 공격력 60% 상승 (중복 장착 불가)",
+                "Annule cécité, sommeil et paralysie, et augmente l'ATT de 60% lorsqu'un pistolet est équipé (Non cumulable)",
+                "Annulliert Blind, Schlaf und Lähmung und erhöht ANG um 60%, wenn mit Schusswaffe ausgerüstet (Nicht stapelbar).",
+                "Anula ceguera, sueño y parálisis y aumenta el ATQ un 60% al llevar arma de fuego (no acumulable)"
+            ],
+            "desc_long": [
+                "Nullifies blind, sleep, and paralysis and boosts ATK by 60% when equipped with a gun. Not stackable.",
+                "失明睡眠麻痺無效，裝備火槍時提高60%攻擊。[無法重複裝備]",
+                "암흑, 수면, 마비를 무효화하고, 총 장착 시 공격력이 60% 상승합니다. (중복 장착 불가)",
+                "Annule cécité, sommeil et paralysie, et augmente l'ATT de 60% lorsqu'un pistolet est équipé. Non cumulable.",
+                "Annulliert Blind, Schlaf und Lähmung und erhöht ANG um 60%, wenn mit Schusswaffe ausgerüstet. Nicht stapelbar.",
+                "Anula ceguera, sueño y parálisis y aumenta el ATQ un 60% al llevar arma de fuego  (no acumulable).."
+            ]
         }
     },
     "504230243": {
@@ -26636,6 +26720,82 @@
                 "Augmente l'ATT quand une épée est équipée. Non cumulable.",
                 "Erhöht ANG, wenn mit einem Schwert ausgerüstet (nicht stapelbar).",
                 "Aumenta el ATQ al llevar espada (no acumulable)."
+            ]
+        }
+    },
+    "1500000105": {
+        "name": "All in Harmony",
+        "compendium_id": 90105,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [912494],
+        "effects": ["Grants 'All in Harmony' passive."],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "All in Harmony",
+                "完美和諧",
+                "온갖 화음",
+                "Harmonie ultime",
+                "Ultimative Harmonie",
+                "Todo armonía"
+            ],
+            "desc_short": [
+                "Boost MP by 30% and boost SPR by 50% when equipped with an instrument (Not stackable)",
+                "提高30%MP+雙手只裝備1把武器時提高50%精神(無法重複裝備)",
+                "MP 30% 상승+악기 장착 시 정신력 50% 상승 (중복 장착 불가)",
+                "Augmente les PM de 30% et la PSY de 50% lorsqu'un instrument est équipé (Non cumulable)",
+                "Erhöht MP um 30% und erhöht PSY um 50%, wenn mit einem Instrument ausgerüstet (nicht stapelbar).",
+                "Aumenta los PM un 30% y el ESP un 50% al llevar instrumento (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MP by 30% and boosts SPR by 50% when equipped with an instrument. Not stackable.",
+                "提高30%MP+雙手只裝備1把武器時提高50%精神[無法重複裝備]",
+                "MP가 30% 상승하고, 악기 장착 시 정신력이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente les PM de 30% et la PSY de 50% lorsqu'un instrument est équipé. Non cumulable.",
+                "Erhöht MP um 30% und erhöht PSY um 50%, wenn mit einem Instrument ausgerüstet. Nicht stapelbar.",
+                "Aumenta los PM un 30% y aumenta el ESP un 50% al llevar instrumento. No acumulable."
+            ]
+        }
+    },
+    "1500000106": {
+        "name": "Spiritual Defense",
+        "compendium_id": 90106,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [912495],
+        "effects": ["Grants 'Spiritual Defense' passive."],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "Spiritual Defense",
+                "精神防禦者",
+                "신령의 방어",
+                "Défense spirituelle",
+                "Psychische Verteidigung",
+                "Defensa espiritual"
+            ],
+            "desc_short": [
+                "Boost HP, DEF and SPR by 20% and boost SPR by 30% when equipped with a sword (Not Stackable)",
+                "提高20%HP防禦精神+裝備劍時提高30%精神(無法重複裝備)",
+                "HP, 방어력, 정신력 20% 상승+검 장착 시 정신력 30% 상승 (중복 장착 불가)",
+                "Augmente les PV, la DEF et la PSY de 20% et augmente la PSY de 30% lorsqu'une épée est équipée (Non cumulable)",
+                "Erhöht LP, ABW und PSY um 20% und erhöht PSY um 30%, wenn mit einem Schwert ausgerüstet (nicht stapelbar).",
+                "Aumenta VIT, DEF y ESP un 20%, y otro 30% el ESP al llevar espada (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP, DEF, and SPR by 20% and boosts SPR by 30% when equipped with a sword. Not stackable.",
+                "提高20%HP防禦精神+裝備劍時提高攻擊30%精神[無法重複裝備]",
+                "HP, 방어력, 정신력이 20% 상승하고, 검 장착 시 정신력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV, la DEF et la PSY de 20% et augmente la PSY de 30% lorsqu'une épée est équipée. Non cumulable.",
+                "Erhöht LP, ABW und PSY um 20% und erhöht PSY um 30%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta VIT, DEF y ESP un 20% y aumenta otro 30% el ESP al llevar espada. No acumulable."
             ]
         }
     }
