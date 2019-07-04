@@ -22402,20 +22402,41 @@
         }
     },
     "504230170": {
-        "name": "次代の才能",
+        "name": "Successor's Talent",
         "compendium_id": 933,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230170],
-        "effects": ["Grants '次代の才能' passive."],
+        "effects": ["Grants 'Successor's Talent' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_9.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Successor's Talent",
+                "下一代的才能",
+                "차세대의 재능",
+                "Talent du successeur",
+                "Talentierter Nachfolger",
+                "Talento del sucesor"
+            ],
+            "desc_short": [
+                "Boost HP by 15% and water, wind, and earth resistance by 30%",
+                "提高15%HP、30%水風土屬性耐性",
+                "HP 15% 상승+물, 바람, 땅속성 저항력 30% 상승",
+                "Augmente les PV de 15% et la résistance à l'eau, au vent et à la terre de 30%",
+                "Erhöht LP um 15% und Wasser-, Wind- und Erdresistenz um 30%.",
+                "Aumenta la VIT un 15% y la resistencia a agua, viento y tierra un 30%"
+            ],
+            "desc_long": [
+                "Boosts HP by 15% and water, wind, and earth resistance by 30%.",
+                "提高15%HP、30%水風土屬性耐性。",
+                "HP가 15% 상승하고 물, 바람, 땅속성 저항력이 30% 상승합니다.",
+                "Augmente les PV de 15% et la résistance à l'eau, au vent et à la terre de 30%.",
+                "Erhöht LP um 15% und Wasser-, Wind- und Erdresistenz um 30%.",
+                "Aumenta la VIT un 15% y la resistencia a agua, viento y tierra un 30%"
+            ]
         }
     },
     "504230240": {
@@ -25891,7 +25912,7 @@
         "unit_restriction": null,
         "skills": [911563],
         "effects": ["Grants 'Light's Vengeance' passive."],
-        "unique": false,
+        "unique": true,
         "price_buy": 1000,
         "price_sell": 1000,
         "icon": "ability_77.png",
@@ -25905,20 +25926,20 @@
                 "Venganza lumínica"
             ],
             "desc_short": [
-                "Boost HP by 20% and MAG and SPR by 30%",
-                "提高20%HP、30%魔力精神",
-                "HP 20%, 마력과 정신력 30% 상승",
-                "Augmente les PV de 20%, ainsi que la MAGIE et la PSY de 30%",
-                "Erhöht LP um 20% und MAG und PSY um 30%.",
-                "Aumenta la VIT un 20% y la MAG y el ESP un 30%"
+                "Boost HP by 40% and MAG and SPR by 30% (Not stackable)",
+                "提高40%HP、30%魔力精神(無法重複裝備)",
+                "HP 40%, 마력과 정신력 30% 상승 (중복 장착 불가)",
+                "Augmente les PV de 40% ainsi que la MAGIE et la PSY de 30% (non cumulable)",
+                "Erhöht LP um 40% und MAG sowie PSY um 30% (Nicht stapelbar).",
+                "Aumenta la VIT un 40% y la MAG y el ESP un 30% (no acumulable)"
             ],
             "desc_long": [
-                "Boosts HP by 20% and MAG and SPR by 30%.",
-                "提高20%HP、30%魔力精神。",
-                "HP가 20%, 마력과 정신력이 30% 상승합니다.",
-                "Augmente les PV de 20 % et la MAGIE et la PSY de 30 %",
-                "Erhöht LP um 20% und MAG und PSY um 30%.",
-                "Aumenta la VIT un 20% y la MAG y el ESP un 30%."
+                "Boosts HP by 40% and MAG and SPR by 30%. Not stackable.",
+                "提高40%HP，30%魔力精神。(無法重複裝備)",
+                "HP가 40%, 마력과 정신력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV de 40% ainsi que la MAGIE et la PSY de 30%. Non cumulable.",
+                "Erhöht LP um 40% und MAG sowie PSY um 30%. Nicht stapelbar.",
+                "Aumenta la VIT un 40% y la MAG y el ESP un 30%. No acumulable."
             ]
         }
     },
