@@ -3314,6 +3314,83 @@
             ]
         }
     },
+    "105007700": {
+        "name": "Fire Book of Magic",
+        "type": "Consumable",
+        "compendium_id": 859,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": ["Increase resistance to Fire by 50% for 3 turns to all allies"],
+        "effects_raw": [[2, 2, 71, [300800,  1]]],
+        "icon": "item_2023.png",
+        "strings": {
+            "names": [
+                "Fire Book of Magic",
+                "火陣魔法書",
+                "화진의 마법서",
+                "Livre de magie de feu",
+                "Grimoire der Feuermagie",
+                "Libro sobre magia de fuego"
+            ],
+            "desc_short": [
+                "A spellbook that provides protection against fire",
+                "可獲得火之加護的書籍",
+                "불의 가호를 부여하는 책",
+                "Un livre de sorts qui protège son possesseur contre le feu.",
+                "Ein Zauberbuch, das Schutz gegen Feuer bietet.",
+                "Un libro de hechizos que confiere protección contra el fuego"
+            ],
+            "desc_long": [
+                "A tome that bestows protection by divine fire. It increases the fire resistance of all allies upon use. Its rare effect and the laborious nature of its creation mean very few of it are in circulation. Its effect will disappear after just a single use due to its delicate composition.",
+                "可獲得火之加護的書籍。使用後可以提高我方全體的火屬性耐性。該書籍的效果很特別，製作起來也十分困難，因此市面上流通的數量並不多。且做工十分精細，使用一次效果就會消失。",
+                "불의 가호를 부여하는 책. 사용하면 아군 전체의 화속성 저항력이 상승한다. 희귀한 효과를 지닌 아이템이지만, 제작이 어렵고 시장에서 유통되는 수량도 얼마 되지 않는다. 그뿐만 아니라 무척이나 섬세하게 제작되어 있어, 한번 사용하게 되면 효과가 사라져 버린다고 한다.",
+                "Un livre qui confère la protection divine du feu. Son utilisation augmente la résistance au feu de tous les alliés. Les pouvoirs que cet objet renferme sont rares et sa fabrication est si difficile que seuls quelques exemplaires sont disponibles sur le marché. De plus, étant composé de matériaux délicats, ses effets disparaissent après un seul usage.",
+                "Ein Zauberbuch, das Schutz durch Heiliges Feuer bietet und bei Verwendung die Feuerresistenz aller Verbündeten erhöht. Aufgrund seines seltenen Effekts und der aufwändigen Art seiner Herstellung befinden sich nur wenige von ihnen im Umlauf. Trotz seiner unglaublich feinen Anfertigung verschwindet der Effekt nach nur einer einzigen Anwendung.",
+                "Un libro antiguo que ofrece la protección divina del fuego. Al usarlo, aumenta la resistencia al fuego de todos los aliados. Puesto que confiere un poder muy singular y su edición es extremadamente laboriosa, hay muy pocos ejemplares en el mercado. Para su edición, se emplean materiales bastante delicados, por lo que sus efectos desaparecen tras un único uso."
+            ]
+        }
+    },
+    "105007800": {
+        "name": "Lightning Book of Magic",
+        "type": "Consumable",
+        "compendium_id": 873,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": ["Increase resistance to Lightning by 50% for 3 turns to all allies"],
+        "effects_raw": [[2, 2, 71, [300810,  1]]],
+        "icon": "item_2024.png",
+        "strings": {
+            "names": [
+                "Lightning Book of Magic",
+                "雷陣魔法書",
+                null,
+                null,
+                "Grimoire der Blitzmagie",
+                null
+            ],
+            "desc_short": [
+                "A spellbook that provides protection against lightning",
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "106000100": {
         "name": "Tent",
         "type": "Consumable",
@@ -3509,7 +3586,7 @@
             "desc_short": [
                 "An illusive stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的幻礦石",
-                "환수의 힘을 각성시키는 환상광석.",
+                "환수의 힘을 각성시키는 환수 광석",
                 "Une pierre illusoire permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria que puede despertar el poder de los espers."
@@ -3517,7 +3594,7 @@
             "desc_long": [
                 "An illusive stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的幻礦石。魔力在經過無數歲月後結晶化的產物。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte  Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen  sind.",
                 "Una piedra ilusoria que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3551,7 +3628,7 @@
             "desc_short": [
                 "An illusive red stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的紅色幻礦石",
-                "환수의 힘을 각성시키는 붉은색의 환상광석.",
+                "환수의 힘을 각성시키는 붉은색의 환수 광석",
                 "Une pierre illusoire rouge permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, roter Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria roja que puede despertar el poder de los espers."
@@ -3559,7 +3636,7 @@
             "desc_long": [
                 "An illusive red stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of red based on its properties, which occurs due to the silently pulsating red light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的紅色幻礦石。魔力在經過無數歲月後結晶化的產物。根據不同的性質顏色也會有所變化，紅幻礦的內部蘊含著紅色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 붉은색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 붉은 환상광석의 내부에는 붉은빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 붉은색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 붉은 환수 광석의 내부에는 붉은빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire rouge permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de rouge reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, roter Stein, der die Kräfte von Espern zu erwecken vermag.  Der Stein ist eine kristallisierte  Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen roten Farbtönen, die durch das sacht pulsierende rote Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen  sind.",
                 "Una piedra ilusoria roja que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de rojo debido a sus propiedades. Esto sucede debido a la silenciosa luz roja que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3593,7 +3670,7 @@
             "desc_short": [
                 "An illusive blue stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的藍色幻礦石",
-                "환수의 힘을 각성시키는 푸른색의 환상광석.",
+                "환수의 힘을 각성시키는 푸른색의 환수 광석",
                 "Une pierre illusoire bleue permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, blauer Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria azul que puede despertar el poder de los espers."
@@ -3601,7 +3678,7 @@
             "desc_long": [
                 "An illusive blue stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of blue based on its properties, which occurs due to the silently pulsating blue light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的藍色幻礦石。根據不同的性質顏色也會有所變化，藍幻礦的內部蘊含著藍色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 푸른색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 푸른 환상광석의 내부에는 푸른빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 푸른색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 푸른 환수 광석의 내부에는 푸른빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire bleue permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de bleu reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, blauer Stein, der die Kräfte von Espern zu erwecken vermag.  Der Stein ist eine kristallisierte  Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen blauen Farbtönen, die durch das sacht pulsierende blaue Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen  sind.",
                 "Una piedra ilusoria azul que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de azul debido a sus propiedades. Esto sucede debido a la silenciosa luz azul que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3635,7 +3712,7 @@
             "desc_short": [
                 "An illusive green stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的綠色幻礦石",
-                "환수의 힘을 각성시키는 초록색의 환상광석.",
+                "환수의 힘을 각성시키는 초록색의 환수 광석",
                 "Une pierre illusoire verte permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, grüner Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria verde que puede despertar el poder de los espers."
@@ -3643,7 +3720,7 @@
             "desc_long": [
                 "An illusive green stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of green based on its properties, which occurs due to the silently pulsating green light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的綠色幻礦石。根據不同的性質顏色也會有所變化，綠幻礦的內部蘊含著綠色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 초록색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 초록 환상광석의 내부에는 초록색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 초록색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 초록 환수 광석의 내부에는 초록색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire verte permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de vert reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, grüner Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen grünen Farbtönen, die durch das sacht pulsierende grüne Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria verde que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de verde debido a sus propiedades. Esto sucede debido a la silenciosa luz verde que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3677,7 +3754,7 @@
             "desc_short": [
                 "An illusive white stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的白色幻礦石",
-                "환수의 힘을 각성시키는 하얀색의 환상광석.",
+                "환수의 힘을 각성시키는 하얀색의 환수 광석",
                 "Une pierre illusoire blanche permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, weißer Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria blanca que puede despertar el poder de los espers."
@@ -3685,7 +3762,7 @@
             "desc_long": [
                 "An illusive white stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of white based on its properties, which occurs due to the silently pulsating light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的白色幻礦石。根據不同的性質顏色也會有所變化，白幻礦的內部蘊含著白色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 하얀색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 하얀 환상광석의 내부에는 하얀색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 하얀색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 하얀 환수 광석의 내부에는 하얀색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire blanche permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de blanc reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, weißer Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen weißen Farbtönen, die durch das sacht pulsierende weiße Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria blanca que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de blanco debido a sus propiedades. Esto sucede debido a la silenciosa luz blanca que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3719,7 +3796,7 @@
             "desc_short": [
                 "An illusive black stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的黑色幻礦石",
-                "환수의 힘을 각성시키는 검정색의 환상광석.",
+                "환수의 힘을 각성시키는 검정색의 환수 광석",
                 "Une pierre illusoire noire permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, schwarzer Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria negra que puede despertar el poder de los espers."
@@ -3727,7 +3804,7 @@
             "desc_long": [
                 "An illusive black stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of black based on its properties, which occurs due to the silently pulsating light of dark it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的黑色幻礦石。根據不同的性質顏色也會有所變化，黑幻礦的內部蘊含著黑色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 검정색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 검정 환상광석의 내부에는 검정색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 검정색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 검정 환수 광석의 내부에는 검정색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire noire permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de noir reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, schwarzer Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen schwarzen Farbtönen, die durch das sacht pulsierende schwarze Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria negra que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de negro debido a sus propiedades. Esto sucede debido a la silenciosa luz negra que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3761,7 +3838,7 @@
             "desc_short": [
                 "An illusive yellow stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的黃色幻礦石",
-                "환수의 힘을 각성시키는 노란색의 환상광석.",
+                "환수의 힘을 각성시키는 노란색의 환수 광석",
                 "Une pierre illusoire jaune permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, gelber Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria amarilla que puede despertar el poder de los espers."
@@ -3769,7 +3846,7 @@
             "desc_long": [
                 "An illusive yellow stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of yellow based on its properties, which occurs due to the silently pulsating yellow light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的黃色幻礦石。根據不同的性質顏色也會有所變化，黃幻礦的內部蘊含著黃色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 노란색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 노란 환상광석의 내부에는 노란색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 노란색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 노란 환수 광석의 내부에는 노란색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire jaune permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de jaune reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, gelber Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen gelben Farbtönen, die durch das sacht pulsierende gelbe Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria amarilla que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de amarillo debido a sus propiedades. Esto sucede debido a la silenciosa luz amarilla que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3803,7 +3880,7 @@
             "desc_short": [
                 "An illusive orange stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的橙色幻礦石",
-                "환수의 힘을 각성시키는 주황색의 환상광석.",
+                "환수의 힘을 각성시키는 주황색의 환수 광석",
                 "Une pierre illusoire orange permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, oranger Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria naranja que puede despertar el poder de los espers."
@@ -3811,7 +3888,7 @@
             "desc_long": [
                 "An illusive orange stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of orange based on its properties, which occurs due to the silently pulsating orange light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的橙色幻礦石。根據不同的性質顏色也會有所變化，橙幻礦的內部蘊含著橙色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 주황색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 하얀 환상광석의 내부에는 하얀색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 주황색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 하얀 환수 광석의 내부에는 하얀색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire orange permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances d'orange reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, oranger Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen orangen Farbtönen, die durch das sacht pulsierende orange Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria naranja que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de naranja debido a sus propiedades. Esto sucede debido a la silenciosa luz naranja que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -3845,7 +3922,7 @@
             "desc_short": [
                 "An illusive violet stone that can awaken the powers of espers.",
                 "能讓幻獸之力覺醒的紫色幻礦石",
-                "환수의 힘을 각성시키는 보라색의 환상광석.",
+                "환수의 힘을 각성시키는 보라색의 환수 광석",
                 "Une pierre illusoire pourpre permettant d'éveiller le pouvoir des chimères.",
                 "Ein illusorischer, lilaner Stein, der die Kräfte von Espern zu erwecken vermag.",
                 "Una piedra ilusoria morada que puede despertar el poder de los espers."
@@ -3853,7 +3930,7 @@
             "desc_long": [
                 "An illusive violet stone that can awaken the powers of espers. The stone is a crystallized embodiment of magic that was formed through countless years. This stone displays variations of violet based on its properties, which occurs due to the silently pulsating violet light it holds within its core. It is said that espers can awaken to new powers by taking them in, but this only seems true among espers that have shown growth along with those they are contracted with.",
                 "能讓幻獸之力覺醒的紫色幻礦石。根據不同的性質顏色也會有所變化，紫幻礦的內部蘊含著紫色光芒的脈動。雖然說只要讓幻獸攝取後就能覺醒新的力量，但是能進行覺醒的，只有與契約者一同成長的部分幻獸。",
-                "환수의 힘을 각성시키는 보라색의 환상광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 보라 환상광석의 내부에는 보라색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
+                "환수의 힘을 각성시키는 보라색의 환수 광석. 마력이 엄청난 세월을 거쳐 결정화한 것이다. 그 성질에 따라 빛깔이 변화하며, 보라 환수 광석의 내부에는 보라색의 빛이 조용히 맥박치고 있다. 환수에게 사용하면 새로운 힘이 각성한다고 알려져 있으나 계약자와 함께 성장한 일부 환수만이 각성에 다다를 수 있는 듯하다.",
                 "Une pierre illusoire pourpre permettant d'éveiller le pouvoir des chimères. Ce minerai est le résultat de la cristallisation de la magie, une manifestation qui s'étend sur de longues années. Celui-ci en particulier affiche plusieurs nuances de pourpre reflétant ses caractéristiques. Cette couleur est due à la lueur palpitante et silencieuse qui réside en son cœur. Il est dit que les chimères peuvent éveiller leurs pouvoirs en l'absorbant. Il semblerait cependant que seules celles ayant évolué en harmonie avec la personne à laquelle elles sont liées puissent bénéficier de ce phénomène.",
                 "Ein illusorischer, lilaner Stein, der die Kräfte von Espern zu erwecken vermag. Der Stein ist eine kristallisierte Verkörperung von Magie, die über unzählige Jahre langsam Gestalt annahm. Dieser Stein erstrahlt aufgrund seiner Qualität in verschiedenen lilanen Farbtönen, die durch das sacht pulsierende lilane Licht in seinem Inneren freigesetzt werden. Es heißt, dass Esper in der Lage sind, neue Kräfte zu erwecken, indem sie einen solchen Stein einnehmen. Dies scheint allerdings nur der Fall für die Esper zu sein, die gemeinsam mit ihren Paktpartnern stärker geworden und gewachsen sind.",
                 "Una piedra ilusoria morada que puede despertar el poder de los espers. Se trata de magia que se ha ido cristalizando con el paso de muchos años. Por su parte, esta piedra en particular posee diferentes variaciones de morado debido a sus propiedades. Esto sucede debido a la silenciosa luz morada que oscila en su interior. Además, se dice que, si un esper absorbe esta piedra, podrá despertar nuevos poderes, aunque parece que esto solo se cumple si el esper ha ido creciendo junto a la persona que se vale de su ayuda."
@@ -4593,6 +4670,153 @@
                 "Eine Tauschkarte, die für den Tausch gegen einen Super-Treuemogry verwendet werden kann, wenn du eine bestimmte Anzahl von ihnen gesammelt hast. Bewahre sie sorgfältig auf.",
                 "Un tícket que se puede intercambiar por un supermoguri fiel tras reunir un número determinado. Guárdalos con cuidado."
             ]
+        }
+    },
+    "106211350": {
+        "name": "キングダム ハーツ限定交換券2018/12",
+        "type": "Consumable",
+        "compendium_id": 851,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9202.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211360": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 852,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211370": {
+        "name": "復刻NieR：Automata限定交換券[A2.2B]",
+        "type": "Consumable",
+        "compendium_id": 857,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9202.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211380": {
+        "name": "復刻OCTOPATH TRAVELER限定交換券[P.O]",
+        "type": "Consumable",
+        "compendium_id": 858,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9202.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211390": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 868,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211400": {
+        "name": "ギフト召喚チケット2019/2",
+        "type": "Consumable",
+        "compendium_id": 872,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9219.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211410": {
+        "name": "[期間限定]FFII召喚券[N.Y]2019/2",
+        "type": "Consumable",
+        "compendium_id": 874,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9235.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "106300100": {
@@ -7347,7 +7571,7 @@
         }
     },
     "106306700": {
-        "name": "キングゴールデンボムレイドコイン",
+        "name": "King Golden Bomb Raid Coin",
         "type": "Consumable",
         "compendium_id": 802,
         "compendium_shown": true,
@@ -7362,9 +7586,30 @@
         "effects_raw": "",
         "icon": "item_9224.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "King Golden Bomb Raid Coin",
+                "國王黃金炸彈共鬥硬幣",
+                "킹 골든 봄 레이드 코인",
+                "Jeton de raid du roi bombo doré",
+                "König Goldbomber-Raubzugmünze",
+                "Moneda de banda de Rey bom dorado"
+            ],
+            "desc_short": [
+                "A coin etched with the image of a king golden bomb.",
+                "描繪有國王黃金炸彈的硬幣",
+                "킹 골든 봄이 그려져 있는 코인",
+                "Un jeton frappé de l'image du roi bombo doré en son centre.",
+                "Eine Münze, die das Bild eines König Goldbombers trägt.",
+                "Una moneda con la imagen de un rey bom dorado grabada."
+            ],
+            "desc_long": [
+                "A beautiful coin etched with the image of a king golden bomb in the middle. These coins were mass produced inside of a king golden bomb over the course of a year to celebrate in grandeur. It is said that only those who have the bravery to face their opponent on equal grounds can gain these coins. However, since their creator loves festivals to the point of self-destructing with excitement, many are left scattered on the ground.",
+                "中央描繪有國王黃金炸彈的豪華硬幣，是為了慶祝盛典，國王黃金炸彈花了一年時間在體內大量製成的。只有不畏懼強大力量，有勇氣堂堂正正地挑戰並獲勝的人才能獲得。不過由於其生產者在慶典中一興奮就會自爆，所以地面上散落了不少這種硬幣。",
+                "한가운데에 킹 골든 봄이 그려져 있는 화려한 코인. 축제를 성대하게 기념하기 위해 킹 골든 봄이 일 년 동안 체내에서 대량으로 생산해온 듯하다. 거대한 힘에 꺾이지 않고 정정당당하게 맞서 싸울 용기를 지닌 자만에 손에 넣을 수 있다고 한다. 그러나 축제가 너무나 신난 나머지 금방 자폭해 버려, 땅 위에 상당수 나뒹굴고 있다.",
+                "Un superbe jeton frappé de l'image du roi bombo doré en son centre. Il a été produit en masse à l'intérieur du roi bombo doré lui-même durant un an afin de célébrer les festivals en grande pompe. On raconte que seuls ceux qui ne flanchent pas face à l'adversité peuvent l'obtenir ; en réalité, il suffit parfois d'attendre que leur créateur, grand amateur de fêtes, s'auto-détruise d'excitation pour ramasser les jetons qu'il contenait sur le sol.",
+                "Eine schöne Münze mit dem Bild eines König Goldbombers in der Mitte. Diese Münzen wurden ein Jahr lang in einem König Goldbomber in Serie gefertigt, um prächtig zu feiern. Es heißt, dass nur jene, die den Mut haben, sich auch noch so starken Gegnern auf Augenhöhe zu stellen, diese Münzen erlangen können. Allerdings ist ihr Erschaffer ein Liebhaber von Festen, der dazu neigt, sich vor Aufregung selbst zu zerstören, was viele davon auf dem Boden verstreut zurücklässt.",
+                "Una preciosa moneda con la imagen de un rey bom dorado grabada en el centro. El rey bom dorado produjo estas monedas en masa en su interior durante un año para dar una celebración por todo lo alto. Se dice que solo aquellos dispuestos a enfrentarse a su oponente en igualdad de condiciones pueden hacerse con estas monedas. Pero como a su creador le gustan los festivales hasta el punto de autodestruirse a sí mismo de la emoción, muchas acaban esparcidas por el suelo."
+            ]
         }
     },
     "106306800": {
@@ -7470,6 +7715,69 @@
                 "Eine Münze, deren Front das Konterfei eines Herzlosen ziert. Dieses Exemplar eines \"Herzlosen\" - gefühslose Geschöpfe aus einer fernen Welt - ist als \"Panzerrüstor\" bekannt. Es heißt, dass nur jene, die sich unerschrocken im Angesicht großer Macht zeigen und den Mut besitzen, einen Kampf ehrenvoll zu bestreiten, diese Münze erringen können.",
                 "Una moneda con la efigie grabada de Armadura, un tipo de sincorazón. Los sincorazón son criaturas sin sentimientos que proceden de otro mundo. Cuenta la leyenda que solo pueden obtener esta moneda aquellos que no se rinden nunca ante la adversidad y tienen el valor de luchar hasta en las peores situaciones."
             ]
+        }
+    },
+    "106307200": {
+        "name": "ナルシェ石炭",
+        "type": "Consumable",
+        "compendium_id": 853,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9229.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106307300": {
+        "name": "エアフォースレイドコイン",
+        "type": "Consumable",
+        "compendium_id": 862,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9233.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106307400": {
+        "name": "のばら",
+        "type": "Consumable",
+        "compendium_id": 869,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9234.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "107000100": {
@@ -23202,7 +23510,7 @@
         }
     },
     "235000100": {
-        "name": "雪白の花",
+        "name": "Snow White Flower",
         "type": "Item",
         "compendium_id": 803,
         "compendium_shown": true,
@@ -23217,13 +23525,34 @@
         "effects_raw": "",
         "icon": "item_8441.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Snow White Flower",
+                "雪白之花",
+                "백설화",
+                "Fleur blanche neige",
+                "Schneeweiße Blume",
+                "Flor blanca nívea"
+            ],
+            "desc_short": [
+                "Golden Bomb Rush! raid material.",
+                "「黃金炸彈衝擊！」共鬥素材",
+                "'골든 봄 러쉬!' 레이드 재료",
+                "Matériau de raid de : Charge du bombo doré !",
+                "Goldbomber-Rausch!-Raubzugsmaterial.",
+                "Material de banda de ¡Arremetida del bom dorado!"
+            ],
+            "desc_long": [
+                "A beautiful flower white as snow. It grows in the extreme cold where not even monsters roam. It is said that this is one of the phantom flowers that will not wither for decades after its bud opens. Many adventurers seek it for its large amount of magical power, although it is famed for making most flee in tears as they are beaten by the harsh environment. Adorning a dress with even one of these flowers will have great efficacy.",
+                "如冰雪般純白的美麗花朵。獨自生長在連魔物都不會接近的極寒之地、開花後數十年都不會凋謝的夢幻之花。儘管因為含有大量的魔力而成為眾人追求的目標、但大多數人在找到花之前、就已敗倒在那酷寒的環境之下。相傳只要能在禮服上裝飾上一朵這種花，就能夠獲得顯著的效果。",
+                "흰 눈처럼 하얗고 아름다운 꽃. 마물조차 다가가지 못하는 극한 지역에서 자생하며, 봉오리가 열리고 나면 수십 년이 지나도 시들지 않는다는 환상의 꽃 중 하나이다. 다량의 마력을 품고 있기 때문에 이 꽃을 찾는 사람들이 많지만, 거의 대부분은 가혹한 환경 앞에 도망쳐 버리기 때문에 모험가를 애먹이는 꽃으로 유명하다. 만약 드레스 장식 등에 한 송이라도 쓸 수 있다면 엄청난 효과를 얻게 될 것이다.",
+                "Une belle fleur aussi blanche que neige. Elle pousse dans un froid extrême que même les monstres ne sont pas capables de supporter. Il est dit qu'elle ne fânerait pas durant des dizaines d'années après son éclosion. De nombreux aventuriers désirent mettre la main dessus pour sa grande quantité de pouvoir magique, mais la plupart d'entre eux repartent la queue entre les jambes, incapables de supporter le climat difficile. Décorer sa robe de ne serait-ce qu'une seule de ces fleurs octroie un grand effet.",
+                "Eine schöne Blume, weiß wie Schnee. Sie wächst in extremer Kälte, in der nicht einmal Monster herumstreifen. Es heißt, dass dies eine der Phantomblumen ist, die jahrzehntelang nicht verblühen, nachdem sich ihre Knospen geöffnet haben. Viele Abenteurer begehren sie wegen ihrer großen Menge an magischer Macht, obwohl sie dafür berühmt ist, die meisten mit der rauen Umgebung unter Tränen in die Flucht zu schlagen. Ein Kleid auch nur mit einer dieser Blumen zu schmücken, hat einen bedeutenden Effekt.",
+                "Una flor muy bonita y blanca como la nieve. Crece en condiciones extremas de frío donde ni siquiera habitan los monstruos. Dicen que esta es una de esas flores fantasma que tardan décadas en marchitarse después de florecer. Muchos aventureros andan tras ella porque presenta un poder mágico inigualable, pero la gran mayoría termina huyendo con el rabo entre las piernas en cuanto intenta enfrentarse al entorno hostil en el que crece. Adornar un vestido con una de estas flores resulta muy eficaz."
+            ]
         }
     },
     "235000200": {
-        "name": "祝祭の花びら",
+        "name": "Festive Petals",
         "type": "Item",
         "compendium_id": 804,
         "compendium_shown": true,
@@ -23238,13 +23567,34 @@
         "effects_raw": "",
         "icon": "item_8453.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Festive Petals",
+                "慶典花瓣",
+                "축제화의 꽃잎",
+                "Pétales festifs",
+                "Festliche Blütenblätter",
+                "Pétalos festivos"
+            ],
+            "desc_short": [
+                "Golden Bomb Rush! raid material.",
+                "「黃金炸彈衝擊！」共鬥素材",
+                "'골든 봄 러쉬!' 레이드 재료",
+                "Matériau de raid de : Charge du bombo doré !",
+                "Goldbomber-Rausch!-Raubzugsmaterial.",
+                "Material de banda de ¡Arremetida del bom dorado!"
+            ],
+            "desc_long": [
+                "Festive petals from flowers that are said to bloom only once every three years. People come from far and wide to gain good fortune by seeing them in full bloom, which only lasts for a few days. While the details are unclear, one theory posits that people's gratitude is responsible for the flowers' blooming. If found, it seems to be etiquette to pick just one petal to bring home, and not the entire flower.",
+                "每三年盛開一次的祭典之花的花辦。因為花開期間只有短短幾天、若能親眼目睹盛開的花朵被認為能帶來好運。也有一種說法是此花是因為人們感謝的心情才能盛開、但沒有人知道詳細的緣由。就算見到盛開的花朵也不能將其整朵摘下，只摘下一片花辦才符合正確的禮法。",
+                "3년에 단 한 번 꽃을 피운다고 알려진 축제화의 꽃잎. 꽃이 피는 건 단 며칠 동안이기 때문에 꽃이 개화한 모습을 본 자에겐 행운이 찾아온다고도 한다. 일설에 의하면 사람들의 감사의 마음이 축제화를 꽃피우게 한다고 하지만, 자세한 것은 밝혀지지 않았다. 발견하더라도 꺾거나 하지 않고 꽃잎 한 장만 가져가는 것이 예법인 듯하다.",
+                "Des pétales de fleurs festifs qu'on ne voit éclore qu'une fois tous les trois ans. Nombreux sont ceux qui viennent de loin pour obtenir bonne fortune en les voyant en pleine éclosion, qui ne dure que quelques jours. Les détails sont inconnus, mais une théorie dit que c'est la gratitude des humains qui leur permet d'éclore. L'étiquette est de ne cueillir qu'un seul pétale de ces fleurs.",
+                "Festliche Blütenblätter von Blumen, die nur ein Mal alle drei Jahre blühen sollen. Menschen kommen von fern und nah, um sie in voller Blüte, die nur wenige Tage anhält, zu betrachten und etwas Glück zu erhalten. Während die Einzelheiten unklar sind, lautet eine Theorie, dass die Dankbarkeit der Menschen verantwortlich für das Erblühen der Blumen ist. Es scheint Etikette zu sein, jeweils nur ein Blütenblatt aus der Wildnis mit nach Hause zu nehmen und niemals die ganze Blüte.",
+                "Pétalos festivos de flores que, supuestamente, solo florecen una vez cada tres años. Gente de todas partes va a verlas en plena floración, un espectáculo que solo dura unos días, con la esperanza de que les traiga suerte. Aunque no se sabe con certeza, hay una teoría que sostiene que florecen gracias a la gratitud de la gente. Si se consigue dar con ellas, se dice que lo correcto es llevarse a casa un único pétalo de recuerdo."
+            ]
         }
     },
     "235000300": {
-        "name": "麗紫の布",
+        "name": "Beautiful Purple Cloth",
         "type": "Item",
         "compendium_id": 805,
         "compendium_shown": true,
@@ -23259,13 +23609,34 @@
         "effects_raw": "",
         "icon": "item_8454.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Beautiful Purple Cloth",
+                "靚麗紫布",
+                "진보라색 천",
+                "Beau tissu violet",
+                "Schöner lilafarbener Stoff",
+                "Tela de hermoso color violeta"
+            ],
+            "desc_short": [
+                "Golden Bomb Rush! raid material.",
+                "「黃金炸彈衝擊！」共鬥素材",
+                "'골든 봄 러쉬!' 레이드 재료",
+                "Matériau de raid de : Charge du bombo doré !",
+                "Goldbomber-Rausch!-Raubzugsmaterial.",
+                "Material de banda de ¡Arremetida del bom dorado!"
+            ],
+            "desc_long": [
+                "A piece of cloth dyed a beautiful purple. In certain countries, only those of high standing were permitted to wear this cloth. Those customs are long gone, but the high-class image remains. It is not uncommon for such beautiful purple cloth to be used for all manner of celebrations.",
+                "以美麗紫色暈染的布料。古老的風俗中只有位居高位者才有資格穿著以此布縫製的服裝，雖然現代這種風俗已然廢止、但仍未改變此布料所散發的高貴氛圍。會選擇這樣高貴美麗的布匹來製作祭典服裝也是理所當然的事。",
+                "아름다운 보라색으로 물들인 천. 어느 나라에서는 높은 지위에 있는 자만이 이 천을 사용한 옷을 입을 수 있다고 한다. 오늘날 그런 풍습은 쇠퇴해 버렸지만, 타인에게 고급스러운 인상을 전할 수 있는 것은 변함없는지 경사가 있을 때 이 진보라색 천이 쓰이는 경우가 드물지 않다.",
+                "Un tissu teint d'un beau violet. Dans certains pays, seuls ceux d'un rang élevé avaient le droit de le porter. Ces coutumes ont maintenant disparu, mais cette image d'une classe aisée est toujours présente. Il n'est pas rare de voir ce tissu utilisé pour toutes sortes de célébrations.",
+                "Ein Stück Stoff, das in einem schönen Lila gefärbt wurde. In gewissen Ländern war es nur Personen von hohem Stand erlaubt, diesen Stoff zu tragen. Jene Bräuche gehören lange der Vergangenheit an, aber das hochklassige Image bleibt. Es ist nicht ungewöhnlich für so einen schönen, lilafarbenen Stoff für alle Arten von Feiern verwendet zu werden.",
+                "Un trozo de tela teñido de un hermoso color violeta. En algunos países, solo podían llevarla las clases más altas y, pese a que ya no se siguen esas costumbres, la gente no olvida quién solía llevarla. Hoy en día, no es extraño verla en distintos tipos de celebraciones."
+            ]
         }
     },
     "235000400": {
-        "name": "誘香水",
+        "name": "Inviting Perfume",
         "type": "Item",
         "compendium_id": 806,
         "compendium_shown": true,
@@ -23280,13 +23651,34 @@
         "effects_raw": "",
         "icon": "item_8455.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Inviting Perfume",
+                "誘香水",
+                "유혹의 향수",
+                "Parfum attirant",
+                "Anziehendes Parfüm",
+                "Perfume incitante"
+            ],
+            "desc_short": [
+                "Golden Bomb Rush! raid material.",
+                "「黃金炸彈衝擊！」共鬥素材",
+                "'골든 봄 러쉬!' 레이드 재료",
+                "Matériau de raid de : Charge du bombo doré !",
+                "Goldbomber-Rausch!-Raubzugsmaterial.",
+                "Material de banda de ¡Arremetida del bom dorado!"
+            ],
+            "desc_long": [
+                "A perfume created in pursuit of an elegant fragrance. The perfumer carefully balanced every drop in order to accent the perfect night, from royal parties to anniversaries. The design philosophy also encompasses the bottle, which is a first-class product created after repeated attempts of trial and error. As such, it is said to have many adoring fans.",
+                "以最高貴的香味為目標調製的香水。調香師一點一滴小心翼翼地調製而出的芳香、往往能讓使用者在王宮的宴會或紀念祭典中成為最閃亮的一顆星。不只是香氣、連其容器都是經過不斷地重複設計精雕細琢而成的一級珍品，如此的匠心讓它在全世界各地都有著死忠的支持者。",
+                "우아한 향기를 추구하여 만든 향수. 왕궁 파티나 기념제 등이 있는 날 특별한 밤을 연출할 수 있도록 조향사가 한 방울 한 방울 심혈을 기울여 만든 것이다. 향뿐만 아니라 용기의 디자인도 시행착오를 거쳐 만든 일급품으로, 많은 팬을 거느리고 있다고 한다.",
+                "Un parfum créé dans la recherche d'une senteur élégante. Le parfumeur a équilibré chaque goutte avec attention afin de permettre une nuit parfaite, des fêtes royales aux anniversaires. Le design de la bouteille, lui aussi de première classe, est né après d'innombrables essais et échecs. Ainsi, il est dit avoir de nombreux fans.",
+                "Ein Parfüm, das auf der Suche nach einem eleganten Duft kreiert wurde. Der Parfümeur hat jeden Tropfen vorsichtig abgewogen, um die perfekte Nacht zu akzentuieren, von königlichen Partys bis hin zu Jubiläumsfeiern. Die Designphilospohie umfasst auch die Flasche, welche ein erstklassiges Produkt ist, das nach wiederholten gescheiterten Anläufen entstand. Als solche soll sie viele bewundernde Fans haben.",
+                "Un perfume diseñado con el propósito de ofrecer una fragancia elegante. El perfumista ha equilibrado primorosamente cada nota para evocar la noche perfecta, que puede darse tanto en un festejo real como en la celebración de un aniversario. Su filosofía de diseño también abarca el frasco, un producto de primera categoría concebido a base de ensayo y error. Por ello, dicen que este perfume cuenta con cientos de admiradores."
+            ]
         }
     },
     "235000500": {
-        "name": "紫の絹糸",
+        "name": "Violet Silk Thread",
         "type": "Item",
         "compendium_id": 807,
         "compendium_shown": true,
@@ -23301,9 +23693,30 @@
         "effects_raw": "",
         "icon": "item_8456.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Violet Silk Thread",
+                "紫色絹絲",
+                "보라색 명주실",
+                "Fil de soie violet",
+                "Violetter Seidenfaden",
+                "Hilo de seda violeta"
+            ],
+            "desc_short": [
+                "Golden Bomb Rush! raid material.",
+                "「黃金炸彈衝擊！」共鬥素材",
+                "'골든 봄 러쉬!' 레이드 재료",
+                "Matériau de raid de : Charge du bombo doré !",
+                "Goldbomber-Rausch!-Raubzugsmaterial.",
+                "Material de banda de ¡Arremetida del bom dorado!"
+            ],
+            "desc_long": [
+                "Violet-colored silk thread. It can only be taken from special worms, creating a stronger, more durable yarn. It is said to be a mystical thread due to the fact that the beautiful purple color is completely natural and perfectly balanced. It seems like it is mostly used in the tailoring of special clothes, such as dresses and kimonos.",
+                "紫色的絲線。只能從極為特殊的蟲繭中採取、擁有超越一般絲線的強度與長度。其所呈現的紫色完全天然，並非人工暈染，卻有著分毫不差、毫無破綻的美麗色彩，也因此被譽為神秘的絲線。多使用在獨一無二的特殊禮服或和服的製作上。",
+                "보라색 명주실. 특수한 누에에게서만 얻을 수 있는 실로, 일반적인 실보다 질기며 오래간다. 인공적으로 물들인 것이 아닌 천연 실이면서도, 얼룩 없는 선명한 보라색으로 물들기 때문에 신비의 실이라고도 불린다. 단 하나뿐인 드레스나 기모노 등 특별한 의상을 제작하는 데 쓰이는 경우가 많은 듯하다.",
+                "Un fil de soie violet. Il peut être extrait de certains vers uniquement, créant une laine plus résistante et durable. Il est appelé \"fil mystérieux\" car sa couleur est parfaitement naturelle et équilibrée. Il semble être principalement utilisé dans la confection de vêtements spéciaux tels que les robes et kimonos.",
+                "Violett gefärbter Seidenfaden. Er kann nur von besonderen Würmern gewonnen werden und produziert ein stärkeres, haltbareres Garn. Aufgrund des komplett natürlichen Tons und perfekten Ausgewogenheit seiner lilanen Färbung sagt man auch, es sei ein mysteriöses Garn. Es scheint, als würde es meist beim Schneidern besonderer Kleidungsstücke, wie Kleider und Kimonos, eingesetzt.",
+                "Hilo de seda de color violeta. Solo puede obtenerse de un tipo de gusano concreto, del que se fabrica un hilo más fuerte y resistente que la gran mayoría. Muchos lo consideran un tipo de hilo místico puesto que su hermoso color violeta es totalmente natural y está perfectamente equilibrado. Parece que suele emplearse en la confección de prendas especiales, como vestidos y kimonos."
+            ]
         }
     },
     "235001100": {
@@ -23510,6 +23923,111 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_8461.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235003010": {
+        "name": "アルドールウーツ鉱",
+        "type": "Item",
+        "compendium_id": 836,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8467.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235003020": {
+        "name": "グンガン漆",
+        "type": "Item",
+        "compendium_id": 837,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8470.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235003030": {
+        "name": "特製ガンパウダー",
+        "type": "Item",
+        "compendium_id": 838,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8469.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235003040": {
+        "name": "フッ素ゴム",
+        "type": "Item",
+        "compendium_id": 839,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8466.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235003050": {
+        "name": "チーク原木",
+        "type": "Item",
+        "compendium_id": 840,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8468.png",
         "strings": {
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
@@ -23724,6 +24242,111 @@
                 "Ein mysteriöser Tropfen, der aus einem seltenen Erz gewonnen wurde. In einer fernen Welt, die für ihre Abenteuer rund um einen sagenumwobenen \"Schlüssel\" bekannt ist, wird von diesem Utensil gesagt, dass es gemeinsam mit anderen Zutaten zu wertvollen Gegenständen und Ausrüstung geschmiedet werden kann.",
                 "Una extraña roca que procede de un mineral poco común. Dicen que normalmente se fusiona con otros ingredientes para fabricar objetos y equipo de gran valor en un mundo lejano conocido por las leyendas que hablan de una misteriosa \"llave\"."
             ]
+        }
+    },
+    "235005100": {
+        "name": "名もなき刀の柄",
+        "type": "Item",
+        "compendium_id": 863,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8481.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235005200": {
+        "name": "道化師の木版",
+        "type": "Item",
+        "compendium_id": 864,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8482.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235005300": {
+        "name": "都市迷彩布",
+        "type": "Item",
+        "compendium_id": 865,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8483.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235005400": {
+        "name": "黒鋼塊",
+        "type": "Item",
+        "compendium_id": 866,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8484.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235005500": {
+        "name": "黄魔双晶",
+        "type": "Item",
+        "compendium_id": 867,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8485.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "270000100": {
@@ -32980,6 +33603,27 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "300001410": {
+        "name": "ファイサリスの輝源",
+        "type": "Awakening",
+        "compendium_id": 841,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "300001420": {
         "name": "Sora's Prism",
         "type": "Awakening",
@@ -33062,6 +33706,174 @@
                 "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
                 "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
             ]
+        }
+    },
+    "300001440": {
+        "name": "聖夜のアメリア＆エミリアの輝源",
+        "type": "Awakening",
+        "compendium_id": 850,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001450": {
+        "name": "晴れ着フィーナの輝源",
+        "type": "Awakening",
+        "compendium_id": 854,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001460": {
+        "name": "魔導戦士ティナの輝源",
+        "type": "Awakening",
+        "compendium_id": 855,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001470": {
+        "name": "冒険者ロックの輝源",
+        "type": "Awakening",
+        "compendium_id": 856,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001480": {
+        "name": "アサシン シャドウの輝源",
+        "type": "Awakening",
+        "compendium_id": 860,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001490": {
+        "name": "大魔導士ケフカの輝源",
+        "type": "Awakening",
+        "compendium_id": 861,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001500": {
+        "name": "のばらの義士フリオニールの輝源",
+        "type": "Awakening",
+        "compendium_id": 870,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001510": {
+        "name": "闇騎士レオンハルトの輝源",
+        "type": "Awakening",
+        "compendium_id": 871,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
         }
     },
     "310000010": {
@@ -34641,6 +35453,48 @@
                 "Prisme pour Xeno de l'étoile Bêta",
                 "Prisma für Beta-Stern-Zeno",
                 "Prisma de Zeno de la estrella Beta"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "310000390": {
+        "name": "Rivera's Prism",
+        "type": "Awakening",
+        "compendium_id": 9283,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Rivera's Prism",
+                "莉薇拉的輝源",
+                "리베라의 휘석",
+                "Prisme pour Rivera",
+                "Prisma für Rivera",
+                "Prisma de Rivera"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -42452,7 +43306,7 @@
             "names": [
                 "5★ Guaranteed (30% Featured) Ticket [FFT]",
                 "★5確保(30%精選)召喚券[FFT]",
-                "픽업 유닛 30% ★5 보장 소환 티켓 [FFT]",
+                "픽업 유닛 30% ★5 보장 소환 티켓[FFT]",
                 "Ticket d'invocation d'unité 5★ garantie [FFT] (30% d'unités du moment)",
                 "Garantierte 5★ (30% Besondere) Karte [FFT]",
                 "Tícket de invocación de 5★ garantizada (30% unidad destacada) [FFT]"
@@ -42746,7 +43600,7 @@
             "names": [
                 "5★ Guaranteed (20% Featured) Ticket [A/Z]",
                 "★5確保(20%精選)召喚券[A.Z]",
-                "픽업 유닛 20% ★5 보장 소환티켓 [A/Z]",
+                "픽업 유닛 20% ★5 보장 소환티켓[A/Z]",
                 "Ticket d'invocation d'unité 5★ garantie (20% d'unités du moment) [A/X]",
                 "Garantierte 5★ (20% Besondere) [A/Z] Karte",
                 "Tícket de invocación de 5★ garantizada (20% unidad destacada) [A/Z]"
@@ -43796,7 +44650,7 @@
             "names": [
                 "Collection of Mana Limited Time Exchange Ticket [F/R]",
                 "聖劍傳說2限定交換券[F.R]",
-                "성검전설 콜렉션 기간 한정 교환 티켓 [F/R]",
+                "성검전설 콜렉션 기간 한정 교환 티켓[F/R]",
                 "Ticket d'échange à durée limitée de Collection of Mana [F/R]",
                 "Zeitbegrenzte \"Collection of Mana\"-Austauschkarte [F/R]",
                 "Tícket de intercambio limitado de Collection of Mana (F/R)"
@@ -43964,7 +44818,7 @@
             "names": [
                 "5★ Guaranteed (30% Featured) Ticket [KA/DA]",
                 "★5確保(30%精選)召喚券[KA.DA]",
-                "픽업 유닛 30% ★5 보장 소환티켓 [KA/DA]",
+                "픽업 유닛 30% ★5 보장 소환티켓[KA/DA]",
                 "Ticket d'invocation d'unité 5★ garantie [AK/AR] (30% d'unités du moment)",
                 "Garantierte 5★ (30% Besondere) [KA/SA] Karte",
                 "Tícket de 5★ garantizada (30% u. destacada) [AK/AE]"
@@ -44068,6 +44922,216 @@
                 "Échangez ce jeton contre des objets dans la boutique d'échange. Il arrive parfois que certaines invocations vous permettent de recevoir ce genre de jetons en cadeau.",
                 "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen. Du erhältst diese Münzen für gewöhnlich als kleinen Bonus in bestimmten Beschwörungen.",
                 "Intercambia esta moneda por objetos en la tienda de intercambio. Algunas invocaciones pueden dar estas monedas a modo de pequeñas bonificaciones."
+            ]
+        }
+    },
+    "1209001000": {
+        "name": "Enlightenment Point(s)",
+        "type": "Item",
+        "compendium_id": 9267,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 50000,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10275.png",
+        "strings": {
+            "names": [
+                "Enlightenment Point(s)",
+                "啟蒙點數",
+                "잠재 각성 포인트",
+                "Point(s) d'illumination",
+                "Erleuchtungspunkt(e)",
+                "Puntos de ilustración"
+            ],
+            "desc_short": [
+                "An item used to unlock or upgrade latent abilities. (Max 50000)",
+                "用於解放或強化潛在能力的道具(最大50000)",
+                "잠재 어빌리티 개방 또는 업그레이드 시 사용하는 아이템(최대 50,000)",
+                "Un objet qui permet de débloquer ou d'améliorer des aptitudes latentes. (50 000 max.)",
+                "Ein Gegenstand, der verwendet wird, um latente Fertigkeiten freizuschalten oder zu verstärken (Max 50000).",
+                "Un objeto que se usa para desbloquear o mejorar habilidades latentes (50 000 como máximo)"
+            ],
+            "desc_long": [
+                "An item used to unlock or upgrade latent abilities. (Max 50000)",
+                "用於解放或強化潛在能力的道具。(最大50000)",
+                "잠재 어빌리티 개방 또는 업그레이드 시 사용하는 아이템(최대 50,000)",
+                "Un objet qui permet de débloquer ou d'améliorer des aptitudes latentes. (50 000 max.)",
+                "Ein Gegenstand, der verwendet wird, um latente Fertigkeiten freizuschalten oder zu verstärken (Max 50000).",
+                "Un objeto que se usa para desbloquear o mejorar habilidades latentes (50 000 como máximo)"
+            ]
+        }
+    },
+    "1209001001": {
+        "name": "Diamond Enlightenment Key",
+        "type": "Consumable",
+        "compendium_id": 9268,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10276.png",
+        "strings": {
+            "names": [
+                "Diamond Enlightenment Key",
+                "鑽石啟蒙鑰匙",
+                "다이아 잠재 각성 열쇠",
+                "Clé d'illumination en diamant",
+                "Diamantener Erleuchtungsschlüssel",
+                "Llave de ilustración de diamante"
+            ],
+            "desc_short": [
+                "A key that unlocks the diamond quest within the Chamber of Enlightenment.",
+                "用於解鎖「啟蒙之間·鑽石」任務的鑰匙",
+                "잠재 각성의 틈·다이아' 퀘스트를 개방하는 열쇠",
+                "Une clé qui permet de débloquer la quête de diamant dans la Chambre de l'illumination.",
+                "Ein Schlüssel, der den Diamant-Auftrag in der Kammer der Erleuchtung freischaltet.",
+                "Una llave que desbloquea la misión de diamante de la Cámara de la Ilustración."
+            ],
+            "desc_long": [
+                "A key that unlocks the diamond quest within the Chamber of Enlightenment. Keys such as this one are rare, so be careful not to lose them while out on your adventures!",
+                "用於解鎖「啟蒙之間·鑽石」任務的鑰匙。這種鑰匙十分罕見，記得別在冒險中弄丟它！",
+                "잠재 각성의 틈·다이아' 퀘스트를 개방하는 열쇠. 무척 희귀한 열쇠이므로, 여행 도중 잃어버리지 않도록 주의하자!",
+                "Une clé qui permet de débloquer la quête de diamant dans la Chambre de l'illumination. Les clés de ce type sont rares, faites bien attention à ne pas la perdre lors de vos aventures !",
+                "Ein Schlüssel, der den Diamant-Auftrag in der Kammer der Erleuchtung freischaltet. Solche Schlüssel sind selten, sei also vorsichtig, dass du ihn auf deinen Abenteuern nicht verlierst!",
+                "Una llave que desbloquea la misión de diamante de la Cámara de la Ilustración. Este tipo de llaves no se encuentran fácilmente, ¡así que procura no perderlas a lo largo de tus aventuras!"
+            ]
+        }
+    },
+    "1209001002": {
+        "name": "Gold Enlightenment Key",
+        "type": "Consumable",
+        "compendium_id": 9269,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10277.png",
+        "strings": {
+            "names": [
+                "Gold Enlightenment Key",
+                "黃金啟蒙鑰匙",
+                "골드 잠재 각성 열쇠",
+                "Clé d'illumination en or",
+                "Goldener Erleuchtungsschlüssel",
+                "Llave de ilustración de oro"
+            ],
+            "desc_short": [
+                "A key that unlocks the gold quest within the Chamber of Enlightenment.",
+                "用於解鎖「啟蒙之間·黃金」任務的鑰匙",
+                "잠재 각성의 틈·골드' 퀘스트를 개방하는 열쇠",
+                "Une clé qui permet de débloquer la quête d'or dans la Chambre de l'illumination.",
+                "Ein Schlüssel, der den Gold-Auftrag in der Kammer der Erleuchtung freischaltet.",
+                "Una llave que desbloquea la misión de oro de la Cámara de la Ilustración."
+            ],
+            "desc_long": [
+                "A key that unlocks the gold quest within the Chamber of Enlightenment. Keys such as this one are rare, so be careful not to lose them while out on your adventures!",
+                "用於解鎖「啟蒙之間·黃金」任務的鑰匙。這種鑰匙十分罕見，記得別在冒險中弄丟它！",
+                "잠재 각성의 틈·골드' 퀘스트를 개방하는 열쇠. 무척 희귀한 열쇠이므로, 여행 도중 잃어버리지 않도록 주의하자!",
+                "Une clé qui permet de débloquer la quête d'or dans la Chambre de l'illumination. Les clés de ce type sont rares, faites bien attention à ne pas la perdre lors de vos aventures !",
+                "Ein Schlüssel, der den Gold-Auftrag in der Kammer der Erleuchtung freischaltet. Solche Schlüssel sind selten, sei also vorsichtig, dass du ihn auf deinen Abenteuern nicht verlierst!",
+                "Una llave que desbloquea la misión de oro de la Cámara de la Ilustración. Este tipo de llaves no se encuentran fácilmente, ¡así que procura no perderlas a lo largo de tus aventuras!"
+            ]
+        }
+    },
+    "1209001003": {
+        "name": "Silver Enlightenment Key",
+        "type": "Consumable",
+        "compendium_id": 9270,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10278.png",
+        "strings": {
+            "names": [
+                "Silver Enlightenment Key",
+                "白銀啟蒙鑰匙",
+                "실버 잠재 각성 열쇠",
+                "Clé d'illumination en argent",
+                "Silberner Erleuchtungsschlüssel",
+                "Llave de ilustración de plata"
+            ],
+            "desc_short": [
+                "A key that unlocks the silver quest within the Chamber of Enlightenment.",
+                "用於解鎖「啟蒙之間·白銀」任務的鑰匙",
+                "잠재 각성의 틈·실버' 퀘스트를 개방하는 열쇠",
+                "Une clé qui permet de débloquer la quête d'argent dans la Chambre de l'illumination.",
+                "Ein Schlüssel, der den Silber-Auftrag in der Kammer der Erleuchtung freischaltet.",
+                "Una llave que desbloquea la misión de plata de la Cámara de la Ilustración."
+            ],
+            "desc_long": [
+                "A key that unlocks the silver quest within the Chamber of Enlightenment. Keys such as this one are rare, so be careful not to lose them while out on your adventures!",
+                "用於解鎖「啟蒙之間·白銀」任務的鑰匙。這種鑰匙十分罕見，記得別在冒險中弄丟它！",
+                "잠재 각성의 틈·실버' 퀘스트를 개방하는 열쇠. 무척 희귀한 열쇠이므로, 여행 도중 잃어버리지 않도록 주의하자!",
+                "Une clé qui permet de débloquer la quête d'argent dans la Chambre de l'illumination. Les clés de ce type sont rares, faites bien attention à ne pas la perdre lors de vos aventures !",
+                "Ein Schlüssel, der den Silber-Auftrag in der Kammer der Erleuchtung freischaltet. Solche Schlüssel sind selten, sei also vorsichtig, dass du ihn auf deinen Abenteuern nicht verlierst!",
+                "Una llave que desbloquea la misión de plata de la Cámara de la Ilustración. Este tipo de llaves no se encuentran fácilmente, ¡así que procura no perderlas a lo largo de tus aventuras!"
+            ]
+        }
+    },
+    "1209001004": {
+        "name": "Bronze Enlightenment Key",
+        "type": "Consumable",
+        "compendium_id": 9271,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10279.png",
+        "strings": {
+            "names": [
+                "Bronze Enlightenment Key",
+                "青銅啟蒙鑰匙",
+                "브론즈 잠재 각성 열쇠",
+                "Clé d'illumination en bronze",
+                "Bronzener Erleuchtungsschlüssel",
+                "Llave de ilustración de bronce"
+            ],
+            "desc_short": [
+                "A key that unlocks the bronze quest within the Chamber of Enlightenment.",
+                "用於解鎖「啟蒙之間·青銅」任務的鑰匙",
+                "잠재 각성의 틈·브론즈' 퀘스트를 개방하는 열쇠",
+                "Une clé qui permet de débloquer la quête de bronze dans la Chambre de l'illumination.",
+                "Ein Schlüssel, der den Bronze-Auftrag in der Kammer der Erleuchtung freischaltet.",
+                "Una llave que desbloquea la misión de bronce de la Cámara de la Ilustración."
+            ],
+            "desc_long": [
+                "A key that unlocks the bronze quest within the Chamber of Enlightenment. Keys such as this one are rare, so be careful not to lose them while out on your adventures!",
+                "用於解鎖「啟蒙之間·青銅」任務的鑰匙。這種鑰匙十分罕見，記得別在冒險中弄丟它！",
+                "잠재 각성의 틈·브론즈' 퀘스트를 개방하는 열쇠. 무척 희귀한 열쇠이므로, 여행 도중 잃어버리지 않도록 주의하자!",
+                "Une clé qui permet de débloquer la quête de bronze dans la Chambre de l'illumination. Les clés de ce type sont rares, faites bien attention à ne pas la perdre lors de vos aventures !",
+                "Ein Schlüssel, der den Bronze-Auftrag in der Kammer der Erleuchtung freischaltet. Solche Schlüssel sind selten, sei also vorsichtig, dass du ihn auf deinen Abenteuern nicht verlierst!",
+                "Una llave que desbloquea la misión de bronce de la Cámara de la Ilustración. Este tipo de llaves no se encuentran fácilmente, ¡así que procura no perderlas a lo largo de tus aventuras!"
             ]
         }
     },
@@ -44510,7 +45574,7 @@
             "names": [
                 "5★ Guaranteed (20% Featured) Ticket [E/M]",
                 "★5確保(20%精選)召喚券[E.M]",
-                "픽업 유닛 20% ★5 보장 소환티켓 [E/M]",
+                "픽업 유닛 20% ★5 보장 소환티켓[E/M]",
                 "Ticket d'invocation d'unité 5★ garantie (20% d'unités du moment) [E/M]",
                 "Garantierte 5★ (20% Besondere) [E/M] Karte",
                 "Tícket de invocación de 5★ garantizada (20% unidad destacada) [E/M]"
@@ -44530,48 +45594,6 @@
                 "Utilisez 4 tickets pour effectuer une invocation garantissant l'obtention d'une unité 5★, qui a 20% de chances d'être une unité du moment.",
                 "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören.  Bei der beschworenen Einheit wird es sich zu 20% um eine der aktuellen Besonderen Einheiten handeln.",
                 "Usa 4 tickets para invocar a una unidad de 5★ garantizada. Dicha unidad tiene un 20% de probabilidad de ser una de las unidades destacadas del momento."
-            ]
-        }
-    },
-    "1209001023": {
-        "name": "5★ Guaranteed (Compensation) Ticket [Y/Z]",
-        "type": "Item",
-        "compendium_id": 9292,
-        "compendium_shown": false,
-        "usable_in_combat": false,
-        "usable_in_exploration": false,
-        "flags": [false, false, false, false, false, false],
-        "carry_limit": 0,
-        "stack_size": 9999,
-        "price_buy": 10,
-        "price_sell": 10,
-        "effects": null,
-        "effects_raw": "",
-        "icon": "global_item_10243.png",
-        "strings": {
-            "names": [
-                "5★ Guaranteed (Compensation) Ticket [Y/Z]",
-                null,
-                null,
-                null,
-                null,
-                null
-            ],
-            "desc_short": [
-                "Use this ticket to perform a 5★ Guaranteed (Compensation) Ticket [Y/Z] Summon to yield one 5★ unit.",
-                null,
-                null,
-                null,
-                null,
-                null
-            ],
-            "desc_long": [
-                "A ticket obtained from the Compensation of Rare Summon. It can be used to perform a 5★ Guaranteed (Compensation) Ticket [Y/Z] Summon with a 5★ pool.",
-                null,
-                null,
-                null,
-                null,
-                null
             ]
         }
     },
