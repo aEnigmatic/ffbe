@@ -21392,88 +21392,193 @@
         }
     },
     "504229630": {
-        "name": "力の宝玉",
+        "name": "Jewel of Strength",
         "compendium_id": 902,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229630],
-        "effects": ["Grants '力の宝玉' passive."],
+        "effects": ["Grants 'Jewel of Strength' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Jewel of Strength",
+                "力量寶玉",
+                "힘의 보옥",
+                "Joyau de force",
+                "Stärkejuwel",
+                "Joya fortalecedora"
+            ],
+            "desc_short": [
+                "Boost ATK by 10% and increase chance of being targeted",
+                "提高10%攻擊+容易被敵人攻擊",
+                "공격력 10% 상승+적의 공격 대상이 될 확률 상승",
+                "Augmente l'ATT de 10 % et augmente les chances d'être pris pour cible",
+                "Erhöht ANG um 10% und erhöht Chance, zum Ziel zu werden.",
+                "Aumenta el ATQ un 10% y aumenta la probabilidad de ser atacado"
+            ],
+            "desc_long": [
+                "Boosts ATK by 10% and increases chance of being targeted.",
+                "提高10%攻擊，容易被敵人攻擊。",
+                "공격력이 10% 상승하고, 적의 공격 대상이 될 확률이 상승합니다.",
+                "Augmente l'ATT de 10 % et augmente les chances d'être pris pour cible.",
+                "Erhöht ANG um 10% und erhöht Chance, zum Ziel zu werden.",
+                "Aumenta el ATQ un 10% y la probabilidad de ser atacado."
+            ]
         }
     },
     "504229631": {
-        "name": "守りの宝玉",
+        "name": "Jewel of Protection",
         "compendium_id": 903,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229631],
-        "effects": ["Grants '守りの宝玉' passive."],
+        "effects": ["Grants 'Jewel of Protection' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Jewel of Protection",
+                "守護寶玉",
+                "수호의 보옥",
+                "Joyau de protection",
+                "Schutzjuwel",
+                "Joya protectora"
+            ],
+            "desc_short": [
+                "Boost DEF by 10% and decrease chance of being targeted",
+                "提高10%防禦+不易被敵人攻擊",
+                "방어력 10% 상승+적의 공격 대상이 될 확률 감소",
+                "Augmente la DEF de 10 % et réduit les chances d'être pris pour cible",
+                "Erhöht ABW um 10% und verringert Chance, zum Ziel zu werden.",
+                "Aumenta la DEF un 10% y reduce la probabilidad de ser atacado"
+            ],
+            "desc_long": [
+                "Boosts DEF by 10% and decreases chance of being targeted.",
+                "提高10%防禦，不易被敵人攻擊。",
+                "방어력이 10% 상승하고, 적의 공격 대상이 될 확률이 감소합니다.",
+                "Augmente la DEF de 10 % et réduit les chances d'être pris pour cible.",
+                "Erhöht ABW um 10% und erhöht Chance, zum Ziel zu werden.",
+                "Aumenta la DEF un 10% y reduce la probabilidad de ser atacado."
+            ]
         }
     },
     "504229633": {
-        "name": "己を信じ、貫く",
+        "name": "Faith shall be my shield!",
         "compendium_id": 904,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229633],
-        "effects": ["Grants '己を信じ、貫く' passive."],
-        "unique": false,
+        "effects": ["Grants 'Faith shall be my shield!' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Faith shall be my shield!",
+                "貫徹信念",
+                "자신을 믿고, 관철하는 것",
+                "Ma foi sera mon bouclier !",
+                "Mein Glaube soll mein Schild sein!",
+                "¡Mi fe será mi escudo contra ti!"
+            ],
+            "desc_short": [
+                "Boost MAG by 30% and SPR by 60%, and escape death one time when HP is above a certain point (Not stackable)",
+                "提高30%魔力、60%精神+HP高於一定量時避免陷入無法戰鬥狀態1次(無法重複裝備)",
+                "마력 30%, 정신력 60% 상승+HP가 일정량 이상일 때 1회에 한해 전투불능 상태 견딤 (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, la PSY de 60 % et permet d'échapper à la mort une fois quand les PV sont au-dessus d'un certain seuil (non cumulable)",
+                "Erhöht MAG um 30% und PSY um 60% und entkommt dem Tod einmal, wenn LP über einem bestimmten Wert liegen (nicht stapelbar).",
+                "Aumenta la MAG un 30% y el ESP un 60%, y evita quedar K.O. una vez cuando la VIT está por encima de cierto nivel (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 30% and SPR by 60%, and escape death one time when HP is above a certain point. Not stackable.",
+                "提高30%魔力、60%精神，HP高於一定量時避免陷入無法戰鬥狀態1次。",
+                "마력이 30%, 정신력이 60% 상승하고, HP가 일정량 이상일 때 1회에 한해 전투불능 상태를 견딥니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, la PSY de 60 % et permet d'échapper à la mort une fois quand les PV sont au-dessus d'un certain seuil. Non cumulable.",
+                "Erhöht MAG um 30% und PSY um 60% und entkommt dem Tod einmal, wenn LP über einem bestimmten Wert liegen. Nicht stapelbar.",
+                "Aumenta la MAG un 30% y el ESP un 60%, y evita quedar K.O. una vez cuando la VIT está por encima de cierto nivel. No acumulable."
+            ]
         }
     },
     "504229634": {
-        "name": "旅立ちの剣士",
+        "name": "Wandering Warrior",
         "compendium_id": 905,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229634],
-        "effects": ["Grants '旅立ちの剣士' passive."],
-        "unique": false,
+        "effects": ["Grants 'Wandering Warrior' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Wandering Warrior",
+                "踏上旅途的劍士",
+                "여행길에 오른 검사",
+                "Guerrier itinérant",
+                "Wandernder Krieger",
+                "Guerrero errante"
+            ],
+            "desc_short": [
+                "Boost HP by 40%, DEF and SPR by 20%, and nullify paralysis (Not stackable)",
+                "提高40%HP、20%防禦精神+麻痺無效(無法重複裝備)",
+                "HP 40%, 방어력과 정신력 20% 상승+마비 무효화 (중복 장착 불가)",
+                "Augmente les PV de 40 %, la DEF et la PSY de 20 % et annule paralysie (non cumulable)",
+                "Erhöht LP um 40%, ABW und PSY um 20% und annulliert Lähmung (nicht stapelbar).",
+                "Aumenta la VIT un 40%, la DEF y el ESP un 20% y anula parálisis (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP by 40%, DEF and SPR by 20%, and nullifies paralysis. Not stackable.",
+                "提高40%HP、20%防禦精神，麻痺無效。(無法重複裝備)",
+                "HP 40%, 방어력과 정신력이 20% 상승하고, 마비를 무효화합니다. (중복 장착 불가)",
+                "Augmente les PV de 40 %, la DEF et la PSY de 20 % et annule paralysie. Non cumulable.",
+                "Erhöht LP um 40%, ABW und PSY um 20% und annulliert Lähmung (nicht stapelbar).",
+                "Aumenta la VIT un 40%, la DEF y el ESP un 20% y anula parálisis. No acumulable."
+            ]
         }
     },
     "504229637": {
-        "name": "見果てぬ世界への夢",
+        "name": "Dreams of a Wider World",
         "compendium_id": 906,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [229637],
-        "effects": ["Grants '見果てぬ世界への夢' passive."],
+        "effects": ["Grants 'Dreams of a Wider World' passive."],
         "unique": false,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_81.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Dreams of a Wider World",
+                "無盡世界之夢",
+                "못다 본 세계를 향한 꿈",
+                "Rêves du vaste monde",
+                "Träume von der großen, weiten Welt",
+                "Sueños de un mundo más grande"
+            ],
+            "desc_short": [
+                "Boost ATK and MAG by 20% and boost EXP obtained from battle",
+                "提高20%攻擊魔力+提高獲得的經驗值",
+                "공격력과 마력 20% 상승+획득 경험치 상승",
+                "Augmente l'ATT et la MAGIE de 20 % et augmente l'EXP obtenue en combat",
+                "Erhöht ANG und MAG um 20% und erhöht im Kampf erhaltene EXP.",
+                "Aumenta el ATQ y la MAG un 20% y la EXP que se obtiene en los combates"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 20% and boosts EXP obtained from battle.",
+                "提高20%攻擊魔力，提高獲得的經驗值。",
+                "공격력과 마력이 20% 상승하고, 획득 경험치가 상승합니다.",
+                "Augmente l'ATT et la MAGIE de 20 % et augmente l'EXP obtenue en combat.",
+                "Erhöht ANG und MAG um 20% und erhöht im Kampf erhaltene EXP.",
+                "Aumenta el ATQ y la MAG un 20% y la EXP que se obtiene en los combates."
+            ]
         }
     },
     "504229740": {
@@ -26709,18 +26814,18 @@
             "desc_short": [
                 "Boost MAG and ice resistance by 50%, and boost equipment MAG when armed with two one-handed weapons (Not stackable)",
                 "提高50%魔力+提高30%冰屬性耐性+裝備2把單手武器時武具魔力提升(不可重複裝備)",
-                "마력 50%, 얼음속성 저항력 30% 상승+한손용 무기 2개 장착 시 장비의 마력 상승 (중복 장착 불가)",
+                "마력과 얼음속성 저항력 50% 상승+한손용 무기 2개 장착 시 장비의 마력 상승 (중복 장착 불가)",
                 "Augmente la MAGIE de 50%, la résistance à la glace de 30% et la MAGIE de l'équipement lorsque deux armes à une main sont équipées (Non cumulable)",
-                "Erhöht MAG um 50% und Eisresistenz um 30% und erhöht Ausrüstung-MAG wenn mit zwei einhändigen Waffen ausgerüstet (Nicht stapelbar).",
-                "Aumenta la MAG un 50%, la resistencia al hielo un 30% y aumenta la MAG del equipo al llevar dos armas de una sola mano (no acumulable)"
+                "Erhöht MAG und Eisresistenz um 50% und erhöht Ausrüstung-MAG, wenn mit zwei einhändigen Waffen ausgerüstet (Nicht stapelbar).",
+                "Aumenta la MAG y la resistencia al hielo un 50%, y aumenta la MAG del equipo al llevar dos armas de una sola mano (No acumulable)"
             ],
             "desc_long": [
                 "Boosts MAG and ice resistance by 50%, and boosts equipment MAG when armed with two one-handed weapons. Not stackable.",
                 "提高50%魔力，提高30%冰屬性耐性，裝備2個單手武器時武具魔力提升。(不可重複裝備)",
-                "마력 50%, 얼음속성 저항력이 30% 상승하고, 한손용 무기 2개 장착 시 장비의 마력이 상승합니다. (중복 장착 불가)",
+                "마력과 얼음속성 저항력이 50% 상승하고, 한손용 무기 2개 장착 시 장비의 마력이 상승합니다. (중복 장착 불가)",
                 "Augmente la MAGIE de 50%, la résistance à la glace de 30% et la MAGIE de l'équipement lorsque deux armes à une main sont équipées. Non cumulable.",
-                "Erhöht MAG um 50% und Eisresistenz um 30% und erhöht Ausrüstung-MAG wenn mit zwei einhändigen Waffen ausgerüstet. Nicht stapelbar.",
-                "Aumenta la MAG un 50%, la resistencia al hielo un 30% y aumenta la MAG del equipo al llevar dos armas de una sola mano (no acumulable)"
+                "Erhöht MAG und Eisresistenz um 50% und erhöht Ausrüstung-MAG, wenn mit zwei einhändigen Waffen ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG y la resistencia al hielo un 50%, y aumenta la MAG del equipo al llevar dos armas de una sola mano. No acumulable."
             ]
         }
     },
@@ -27367,6 +27472,82 @@
                 "Augmente les PV, la DEF et la PSY de 20% et augmente la PSY de 30% lorsqu'une épée est équipée. Non cumulable.",
                 "Erhöht LP, ABW und PSY um 20% und erhöht PSY um 30%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
                 "Aumenta VIT, DEF y ESP un 20% y aumenta otro 30% el ESP al llevar espada. No acumulable."
+            ]
+        }
+    },
+    "1500000107": {
+        "name": "Scepter of Justice",
+        "compendium_id": 90107,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [912499],
+        "effects": ["Grants 'Scepter of Justice' passive."],
+        "unique": true,
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Scepter of Justice",
+                "正義王權",
+                "정의의 홀장",
+                "Sceptre de la justice",
+                "Zepter der Gerechtigkeit",
+                "Cetro justiciero"
+            ],
+            "desc_short": [
+                "Boost MAG by 60% when equipped with a rod (Not stackable)",
+                "裝備魔棒時提高提高60%魔力(無法重複裝備)",
+                "홀장 장착 시 마력 60% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 60 % quand un sceptre est équipé (non cumulable)",
+                "Erhöht MAG um 60%, wenn mit einer Rute ausgerüstet (Nicht stapelbar).",
+                "Aumenta la MAG un 60% al llevar vara (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 60% when equipped with a rod. Not stackable.",
+                "裝備法袍時提高提高60%魔力。(無法重複裝備)",
+                "홀장 장착 시 마력이 60% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 60 % quand un sceptre est équipé. Non cumulable.",
+                "Erhöht MAG um 60%, wenn mit einer Rute ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG un 60% al llevar vara. No acumulable."
+            ]
+        }
+    },
+    "1500000108": {
+        "name": "Engulfing Light",
+        "compendium_id": 90108,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [912500],
+        "effects": ["Grants 'Engulfing Light' passive."],
+        "unique": true,
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [
+                "Engulfing Light",
+                "吞噬之光",
+                "압도적인 빛",
+                "Lumière envahissante",
+                "Umschließendes Licht",
+                "Luz abrumadora"
+            ],
+            "desc_short": [
+                "Boost MAG by 80% when equipped with a light elemental weapon (Not stackable)",
+                "裝備光屬性武器時提高80%魔力(無法重複裝備)",
+                "빛속성 무기 장착 시 마력 80% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 80 % quand une arme élémentaire de lumière est équipée (non cumulable)",
+                "Erhöht MAG um 80%, wenn mit einer Lichtelementarwaffe ausgerüstet (Nicht stapelbar).",
+                "Aumenta la MAG un 80% al llevar arma de elemento luz (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 80% when equipped with a light elemental weapon. Not stackable.",
+                "裝備光屬性武器時提高80%魔力。(無法重複裝備)",
+                "빛속성 무기 장착 시 마력이 80% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 80 % quand une arme élémentaire de lumière est équipée. Non cumulable.",
+                "Erhöht MAG um 80%, wenn mit einer Lichtelementarwaffe ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG un 80% al llevar arma de elemento luz. No acumulable."
             ]
         }
     },
