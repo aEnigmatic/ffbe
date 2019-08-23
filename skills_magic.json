@@ -5398,10 +5398,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Restore 500 HP per turn to one ally",
-            "Restore (0.1x, Heal) MP per turn to one ally"
+            "Restore 1000 (+0.1x, Heal) HP per turn to one ally",
+            "Restore 10 (+0.1x, Heal) MP per turn to one ally"
         ],
-        "effects_raw": [[1, 2, 8, [0,  1,  500,  -1]], [1, 2, 30, [10,  1,  0,  -1]]],
+        "effects_raw": [[1, 2, 8, [10,  1,  1000,  -1]], [1, 2, 30, [10,  1,  10,  -1]]],
         "requirements": null
     },
     "91003": {

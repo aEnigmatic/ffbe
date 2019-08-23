@@ -51585,9 +51585,9 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Confusion by 100%",
-            "Increase physical damage against Dragons by 100%"
+            "Increase physical and magic damage against Dragons by 100%"
         ],
-        "effects_raw": [[1, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [1, 3, 11, [7,  100,  0]]],
+        "effects_raw": [[1, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [1, 3, 11, [7,  100,  100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53514,9 +53514,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Grim skills  [Dark Blade (910516) / Eldritch Flames (910526) / Eldritch Flames+1 (911450) / Eldritch Flames+2 (911451) / Eldritch Wave (911459) / Fire Blade (910517) / Light Blade (910515) / Shock Blade (910514) / Siphon (910522) / Soul Barrage (910520) / Soul Barrage+1 (911452) / Soul Barrage+2 (911453)] twice in one turn"
+            "Enable unit to use Grim skills  [Dark Blade (910516) / Eldritch Flames (912904) / Eldritch Wave (911459) / Fire Blade (910517) / Impending Horror (912909) / Light Blade (910515) / Shock Blade (910514) / Siphon (910522) / Soul Barrage (912903) / Specter Flames (912907) / Specter Wave (912908)] twice in one turn"
         ],
-        "effects_raw": [[0, 3, 53, [2, 911456, -1, [910514,  910515,  910516,  910517,  910520,  911452,  911453,  910522,  910526,  911450,  911451,  911459], 1]]],
+        "effects_raw": [[0, 3, 53, [2, 911456, -1, [910514,  910515,  910516,  910517,  910522,  912903,  912904,  911459,  912907,  912908,  912909], 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53846,11 +53846,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "Increase DEF by 20% when equipped with a Cloth",
-            "Increase SPR by 20% when equipped with a Robe"
-        ],
-        "effects_raw": [[1, 3, 6, [50,  0,  20,  0,  0]], [1, 3, 6, [53,  0,  0,  0,  20]]],
+        "effects": ["Increase DEF and SPR by 20%"],
+        "effects_raw": [[1, 3, 1, [0,  20,  0,  20]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53865,9 +53862,9 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Poison by 100%",
-            "Increase resistance to all elements by 15%"
+            "Increase resistance to all elements by 20%"
         ],
-        "effects_raw": [[1, 3, 2, [100,  0,  0,  0,  0,  0,  0,  0]], [1, 3, 3, [15,  15,  15,  15,  15,  15,  15,  15]]],
+        "effects_raw": [[1, 3, 2, [100,  0,  0,  0,  0,  0,  0,  0]], [1, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53932,10 +53929,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "Enable unit to use Jinx skills  [Anti-Defense Pot (911829) / Anti-Offense Pot (911828) / Cycloseismic Brew (910613) / Emberfrost Brew (910610) / Geysershock Brew (910611) / Sap ATK Pot (910620) / Sap ATK Pot+1 (911810) / Sap ATK Pot+2 (911811) / Sap DEF Pot (910616) / Sap DEF Pot+1 (911806) / Sap DEF Pot+2 (911807) / Sap MAG Pot (910621) / Sap MAG Pot+1 (911812) / Sap MAG Pot+2 (911813) / Sap SPR Pot (910617) / Sap SPR Pot+1 (911808) / Sap SPR Pot+2 (911809)] twice in one turn"
-        ],
-        "effects_raw": [[0, 3, 53, [2, 911816, -1, [910610,  910611,  910613,  910616,  911806,  911807,  910617,  911808,  911809,  910620,  911810,  911811,  910621,  911812,  911813,  911828,  911829], 1]]],
+        "effects": ["Enable unit to use Calamity Brew (911820), Cursed Eye (911817), Dark Anathema (911826), Dark Covenant (911825), Eye of Doom (911824), Hex Eye (912902), Hindering Chant (912880), Impending Doom (911822), Jinx - Cycloseismic Brew (910613), Jinx - Debilitating Pot (912877), Jinx - Emberfrost Brew (910610), Jinx - Eventide Brew (912869), Jinx - Geysershock Brew (910611), Jinx - Sap ATK Pot (912873), Jinx - Sap DEF Pot (912870), Jinx - Sap MAG Pot (912874), Jinx - Sap SPR Pot (912871), Neutralizing Chant (912875), Nullifying Chant (910622), Scry (910607), Soul Dispersion (912872), Soul Swap (910618), Spell Breaker (912876) and Wicked Eye (910625) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 911816, -1, [910607,  912870,  912871,  910610,  910611,  910618,  910613,  912873,  912874,  910622,  912902,  911820,  911822,  911825,  911826,  912869,  912872,  912875,  912876,  912880,  911817,  911824,  910625,  912877], 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -54054,8 +54049,11 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to counter physical attacks with Snowbear's Fury (910648) to caster (max 1 / turn)"],
-        "effects_raw": [[0, 3, 49, [30,  3,  910648,  1]]],
+        "effects": [
+            "50% chance to counter physical attacks with Snowbear's Fury (910648) to caster (max 1 / turn)",
+            "50% chance to counter magic attacks with Snowbear's Fury (910648) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [50,  3,  910648,  1]], [0, 3, 50, [50,  3,  910648,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -54099,8 +54097,11 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to counter magic attacks with Snowbear Guard (910656) to caster (max 1 / turn)"],
-        "effects_raw": [[0, 3, 50, [30,  3,  910656,  1]]],
+        "effects": [
+            "40% chance to counter magic attacks with Snowbear Guard (910656) to caster (max 1 / turn)",
+            "40% chance to counter physical attacks with Snowbear Guard (910656) to caster"
+        ],
+        "effects_raw": [[0, 3, 50, [40,  3,  910656,  1]], [0, 3, 49, [40,  3,  910656]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57420,8 +57421,11 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase equipment ATK by 10% when armed with two weapons"],
-        "effects_raw": [[0, 3, 69, [1,  10]]],
+        "effects": [
+            "Increase equipment ATK by 25% when armed with two weapons",
+            "25% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 69, [1,  25]], [0, 3, 22, [25]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57478,9 +57482,11 @@
         "element_inflict": null,
         "effects": [
             "Enable unit to equip two one-handed weapons",
-            "Increase equipment DEF by 30% when armed with two weapons"
+            "Increase equipment DEF by 50% when armed with two weapons",
+            "Increase maximum true double-wield bonus to 200%",
+            "Allow unit to reach 6x chain modifier, when using two one-handed weapons"
         ],
-        "effects_raw": [[1, 3, 14, ["none"]], [0, 3, 69, [2,  30]]],
+        "effects_raw": [[1, 3, 14, ["none"]], [0, 3, 69, [2,  50]], [0, 3, 81, ["none"]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57494,10 +57500,11 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase equipment ATK by 40% when armed with two weapons",
-            "Increase all stats gained from espers by 40%"
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase all stats gained from espers by 40%",
+            "10% chance of evading physical attacks"
         ],
-        "effects_raw": [[0, 3, 69, [1,  40]], [0, 3, 63, [40,  40,  40,  40,  40,  40]]],
+        "effects_raw": [[0, 3, 69, [1,  50]], [0, 3, 63, [40,  40,  40,  40,  40,  40]], [0, 3, 22, [10]]],
         "requirements": [["EQUIP", 1100000184], ["EQUIP", 1100000185]],
         "unit_restriction": null
     },
@@ -57526,9 +57533,26 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and DEF by 20% when equipped with a Katana",
-            "Increase the damage of Summer skills  [Ocean Splitter (911280) / Sea Breeze (911272) / Waves of the Ocean (911279) / Winds of the Sea (911278)] by (1.5x)"
+            "Increase the damage of Summer skills  [Ocean Splitter (911280) / Radiant Sun (912848) / Sea Breeze (911272) / Winds of the Sea (911278)] by (1.5x)",
+            "Increase the damage of Summer - W skills  [aves of the Ocean (911279) / inds of the Sea (911278)] by (9x)"
         ],
-        "effects_raw": [[0, 3, 6, [4,  20,  20,  0,  0]], [0, 3, 73, [[911272,  911280,  911278,  911279], 0, 0, 150]]],
+        "effects_raw": [[0, 3, 6, [4,  20,  20,  0,  0]], [0, 3, 73, [[911272,  911280,  911278,  912848], 0, 0, 150]], [0, 3, 73, [[911278,  911279], 0, 0, 900]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "911290": {
+        "name": "Summer Rush",
+        "icon": "ability_8.png",
+        "compendium_id": 85124,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Summer skills  [Enriched Mind (911287) / Ocean Splitter (911280) / Radiant Sun (912848) / Sea Breeze (911272) / Showdown (911285) / Tidal Splash (911269) / Umbrella Guard (911283) / Waves of the Ocean (911279) / Will of the Breeze (911273) / Will of the Sea (911270) / Winds of the Sea (911278)] 3 times in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [3, 912849, -1, [911269,  911270,  911272,  911273,  911278,  911279,  911280,  911283,  911285,  911287,  912848], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57627,10 +57651,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 50% and DEF, HP and MP by 20% when equipped with a Spear",
-            "Increase damage dealt by jump attacks by 50%"
+            "Increase ATK by 70% and DEF, HP and MP by 20%",
+            "Increase damage dealt by jump attacks by 100%"
         ],
-        "effects_raw": [[0, 3, 6, [10,  50,  20,  0,  0,  20,  20,  0]], [0, 3, 17, [50]]],
+        "effects_raw": [[0, 3, 1, [70,  20,  0,  0,  20,  20]], [0, 3, 17, [100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57644,11 +57668,11 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to equip two one-handed weapons",
-            "Increase equipment ATK by 30% when armed with two weapons",
-            "Replace LB with Destructive Thrust (950000002):\n\tReduce DEF by 45% for 3 turns to one enemy\n\tPhysical damage (11.1x, ATK) to one enemy\n\tReduce resistance to Fire, Ice and Lightning by 75% for 3 turns to one enemy"
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase maximum true double-wield bonus to 200%",
+            "Allow unit to reach 6x chain modifier, when using two one-handed weapons"
         ],
-        "effects_raw": [[1, 3, 14, ["none"]], [1, 3, 69, [1,  30]], [0, 3, 72, [950000002]]],
+        "effects_raw": [[1, 3, 69, [1,  50]], [1, 3, 81, ["none"]]],
         "requirements": [["EQUIP", 1100000077], ["EQUIP", 1500000068]],
         "unit_restriction": null
     },
@@ -57662,10 +57686,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of Mystic skills  [Blitz+2 (911070) / Thrust (910213, 910214) / Thrust+1 (911066, 911067) / Thrust+2 (911068, 911069)] by (1x)",
-            "Increase the damage of Death Crimson skills  [(910215, 910216) / ++2 (911081) / +1 (911079, 911080) / +2 (911082)] by (2x)"
+            "Increase damage dealt by jump attacks by 100%",
+            "Increase the limit burst gauge fill rate by 100%"
         ],
-        "effects_raw": [[0, 3, 73, [[910213,  910214,  911066,  911067,  911068,  911069,  911070], 0, 0, 100]], [0, 3, 73, [[910215,  910216,  911079,  911080,  911081,  911082], 0, 0, 200]]],
+        "effects_raw": [[0, 3, 17, [100]], [0, 3, 31, [100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57678,13 +57702,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": [
-            "Increase ATK by 60% when armed with a fire, ice or lightning weapon",
-            "Increase MP by 20% when armed with a fire weapon",
-            "Increase DEF by 20% when armed with an ice weapon",
-            "Increase HP by 20% when armed with a lightning weapon"
-        ],
-        "effects_raw": [[1, 3, 10004, [[1,  2,  3], 0, 0, 60, 0, 0, 0]], [1, 3, 10004, [1,  0,  20,  0,  0,  0,  0]], [1, 3, 10004, [2,  0,  0,  0,  0,  20,  0]], [1, 3, 10004, [3,  20,  0,  0,  0,  0,  0]]],
+        "effects": ["Increase ATK by 60% and DEF, HP and MP by 20%"],
+        "effects_raw": [[1, 3, 1, [60,  20,  0,  0,  20,  20,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -58496,9 +58515,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Grim skills  [Dark Blade (910516) / Eldritch Flames (910526) / Eldritch Flames+1 (911450) / Eldritch Flames+2 (911451) / Eldritch Wave (911459) / Fire Blade (910517) / Light Blade (910515) / Shock Blade (910514) / Siphon (910522) / Soul Barrage (910520) / Soul Barrage+1 (911452) / Soul Barrage+2 (911453)] 3 times in one turn"
+            "Enable unit to use Grim skills  [Dark Blade (910516) / Eldritch Flames (912904) / Eldritch Wave (911459) / Fire Blade (910517) / Impending Horror (912909) / Light Blade (910515) / Shock Blade (910514) / Siphon (910522) / Soul Barrage (912903) / Specter Flames (912907) / Specter Wave (912908)] 3 times in one turn"
         ],
-        "effects_raw": [[0, 3, 53, [3, 911458, -1, [910514,  910515,  910516,  910517,  910520,  911452,  911453,  910522,  910526,  911450,  911451,  911459], 1]]],
+        "effects_raw": [[0, 3, 53, [3, 911458, -1, [910514,  910515,  910516,  910517,  910522,  912903,  912904,  911459,  912907,  912908,  912909], 1]]],
         "requirements": [["EQUIP", 1100000109], ["EQUIP", 1500000071]],
         "unit_restriction": null
     },
@@ -58513,9 +58532,25 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 30%",
-            "Increase the damage of Grim skills  [Eldritch Flames (910526) / Eldritch Flames+1 (911450) / Eldritch Flames+2 (911451) / Soul Barrage (910520) / Soul Barrage+1 (911452) / Soul Barrage+2 (911453)] by (1x)"
+            "Increase MAG by 40% when equipped with a Spear",
+            "Increase the damage of Grim - Soul Barrage (912903) by (2x)",
+            "Increase the damage of Grim - Eldritch skills  [Flames (912904) / Wave (911459)] by (4x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 73, [[910520,  911452,  911453,  910526,  911450,  911451], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [10,  0,  0,  40,  0,  0,  0,  0]], [0, 3, 73, [912903,  0,  0,  200]], [0, 3, 73, [[912904,  911459], 0, 0, 400]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "911464": {
+        "name": "Grim Candy Master",
+        "icon": "ability_8.png",
+        "compendium_id": 85286,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Candy Master (911462), Candy Treat (911461), Rise Again (910524), Sacrificial Barrier (910528), Thunder's Protection (912906) and Undying Fervor (910519) twice in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [2, 912911, -1, [910519,  912906,  910524,  910528,  911461,  911462], 4, 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -60721,10 +60756,10 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50%",
-            "Increase equipment MAG by 30% when armed with two weapons",
-            "Increase resistance to Ice by 30%"
+            "Increase equipment MAG by 50% when armed with two weapons",
+            "Increase resistance to Ice by 50%"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 69, [3,  30]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 69, [3,  50]], [0, 3, 3, [0,  50,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -60767,10 +60802,9 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF, SPR and HP by 20%",
-            "20% chance of evading physical attacks",
-            "Replace LB with Snowbear Rampage (950000005):\n\tMagic ice damage (10x, MAG) to all enemies\n\tAdd Ice element (100%) to physical attacks for 2 turns to all allies\n\tGain 4 uses of Absolute Zero (910652), Absolute Zero+1 (911790), Absolute Zero+2 (911791), Frost Nova (910640), Glacial Storm (910651), Ice Shards (910643), Snow Burial (910654), Snow Burial+1 (911794) and Snow Burial+2 (911795) for one turn"
+            "20% chance of evading physical attacks"
         ],
-        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 22, [20]], [0, 3, 72, [950000005]]],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 22, [20]]],
         "requirements": [["EQUIP", 1100000121], ["EQUIP", 1500000088]],
         "unit_restriction": null
     },
@@ -60802,10 +60836,9 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR and HP by 20%",
-            "Increase equipment MAG by 50% when armed with a single weapon",
-            "Increase equipment MAG by 50% when armed with two weapons"
+            "Increase chance of countering by 100%"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 70, [50,  0,  2]], [0, 3, 69, [3,  50]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 20, [100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -60875,9 +60908,9 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR by 30%",
-            "Increase the damage of Jinx skills  [Cycloseismic Brew (910613) / Emberfrost Brew (910610) / Geysershock Brew (910611)] by (1x)"
+            "Increase the damage of Jinx skills  [Cycloseismic Brew (910613) / Emberfrost Brew (910610) / Eventide Brew (912869) / Geysershock Brew (910611)] by (1x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [0, 3, 73, [[910610,  910611,  910613], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [0, 3, 73, [[910610,  910611,  910613,  912869], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -60891,10 +60924,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase HP and MP by 20%",
+            "Increase SPR, HP and MP by 20%",
             "Use Winter Witch (911833) at the start of a battle"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 56, [911833]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  20,  0]], [0, 3, 56, [911833]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -65831,6 +65864,34 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "912847": {
+        "name": "Big Kahuna",
+        "icon": "ability_72.png",
+        "compendium_id": 86417,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment ATK by 25% when armed with two weapons"],
+        "effects_raw": [["", "", 69, [1,  25]]],
+        "requirements": null,
+        "unit_restriction": [401005305, 100011705, 401000305, 401000704, 100000202]
+    },
+    "912850": {
+        "name": "Heat Stroke",
+        "icon": "ability_68.png",
+        "compendium_id": 86420,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["50% chance to counter a physical attack with an attack (1x, ATK) (max 3 / turn)"],
+        "effects_raw": [[0, 3, 12, [50,  100,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "912851": {
         "name": "Flame Set",
         "icon": "ability_77.png",
@@ -65856,6 +65917,157 @@
         "element_inflict": null,
         "effects": ["Increase ATK and MAG by 10% when equipped with Yukata of Flames"],
         "effects_raw": [[0, 3, 74, [1100000290,  10,  0,  10,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912853": {
+        "name": "Snowbear's Gift",
+        "icon": "ability_77.png",
+        "compendium_id": 9641,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and HP by 50% and MP by 20%",
+            "Enable unit to equip two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  50,  20,  0]], [0, 3, 14, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912856": {
+        "name": "Winter Solstice",
+        "icon": "global_ability_10055.png",
+        "compendium_id": 86424,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Frosty Touch (911801), Frozen Armor (910645) and Hand in Hand (910646) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 912857, -1, [910645,  910646,  911801], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912858": {
+        "name": "Winter Fall",
+        "icon": "ability_8.png",
+        "compendium_id": 9655,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Absolute Zero (912854), Cold Air (910641), Cold Snap (912860), Eternal Winter (911802), Frost Fall (910642), Frost Nova (910640), Frostbite (912861), Glacial Storm (910651), Ice Shards (910643), Piercing Chill (912863), Snow Burial (912855) and Snow Surge (911799) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 912859, -1, [910640,  910641,  910642,  910643,  910651,  912854,  912855,  912860,  911799,  911802,  912861,  912863], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912867": {
+        "name": "The Last Keeper of Time",
+        "icon": "global_ability_10079.png",
+        "compendium_id": 86434,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20%",
+            "Increase Stop resistance by 100% to caster",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  100,  0]], [0, 3, 70, [50,  0,  2]], [0, 3, 69, [3,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912881": {
+        "name": "Clairvoyant",
+        "icon": "ability_19.png",
+        "compendium_id": 9616,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (5%) per turn",
+            "30% chance of evading physical attacks",
+            "20% chance of evading magic attacks",
+            "Increase HP and MP by 30%"
+        ],
+        "effects_raw": [[1, 3, 32, [5]], [0, 3, 22, [30]], [0, 3, 54, [-1,  20]], [0, 3, 1, [0,  0,  0,  0,  30,  30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912886": {
+        "name": "Triple Breath",
+        "icon": "ability_8.png",
+        "compendium_id": 86449,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Fire Breath (910205), Ice Breath (910203) and Lightning Breath (910204) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 912887, -1, [910203,  910204,  910205], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912900": {
+        "name": "Pike Master",
+        "icon": "ability_95.png",
+        "compendium_id": 9297,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 100% when equipped with a Spear",
+            "Increase damage dealt by jump attacks by 50%",
+            "Enable unit to equip two one-handed weapons",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 6, [10,  100,  0,  0,  0,  0,  0,  0]], [0, 3, 17, [50]], [0, 3, 14, ["none"]], [0, 3, 69, [1,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912901": {
+        "name": "Winged Fury",
+        "icon": "ability_95.png",
+        "compendium_id": 86461,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase damage dealt by jump attacks by 50%",
+            "Increase physical and magic damage against Dragons by 50%"
+        ],
+        "effects_raw": [[1, 3, 17, [50]], [1, 3, 11, [7,  50,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912905": {
+        "name": "Vicious",
+        "icon": "ability_95.png",
+        "compendium_id": 9544,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50% and MP by 20% when armed with a fire weapon",
+            "Increase HP by 50% and MP by 20% when armed with a dark weapon",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[1, 3, 10004, [1,  0,  20,  0,  50,  0,  0]], [1, 3, 10004, [8,  50,  20,  0,  0,  0,  0]], [0, 3, 32, [5]]],
         "requirements": null,
         "unit_restriction": null
     },
