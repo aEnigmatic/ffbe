@@ -54137,10 +54137,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "40% chance to counter magic attacks with Snowbear Guard (910656) to caster (max 1 / turn)",
-            "40% chance to counter physical attacks with Snowbear Guard (910656) to caster"
+            "40% chance to counter magic attacks with Snowbear Guard (910656) to caster (max 3 / turn)",
+            "40% chance to counter physical attacks with Snowbear Guard (910656) to caster (max 3 / turn)"
         ],
-        "effects_raw": [[0, 3, 50, [40,  3,  910656,  1]], [0, 3, 49, [40,  3,  910656]]],
+        "effects_raw": [[0, 3, 50, [40,  3,  910656,  3]], [0, 3, 49, [40,  3,  910656,  3]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -57572,10 +57572,10 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and DEF by 20% when equipped with a Katana",
-            "Increase the damage of Summer skills  [Ocean Splitter (911280) / Radiant Sun (912848) / Sea Breeze (911272) / Winds of the Sea (911278)] by (1.5x)",
+            "Increase the damage of Summer skills  [Ocean Splitter (911280) / Radiant Sun (912848) / Sea Breeze (911272)] by (1.5x)",
             "Increase the damage of Summer - W skills  [aves of the Ocean (911279) / inds of the Sea (911278)] by (9x)"
         ],
-        "effects_raw": [[0, 3, 6, [4,  20,  20,  0,  0]], [0, 3, 73, [[911272,  911280,  911278,  912848], 0, 0, 150]], [0, 3, 73, [[911278,  911279], 0, 0, 900]]],
+        "effects_raw": [[0, 3, 6, [4,  20,  20,  0,  0]], [0, 3, 73, [[911272,  911280,  912848], 0, 0, 150]], [0, 3, 73, [[911278,  911279], 0, 0, 900]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -58588,8 +58588,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Candy Master (911462), Candy Treat (911461), Rise Again (910524), Sacrificial Barrier (910528), Thunder's Protection (912906) and Undying Fervor (910519) twice in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [2, 912911, -1, [910519,  912906,  910524,  910528,  911461,  911462], 4, 1, 0]]],
+        "effects": ["Enable unit to use Candy Master (911462), Candy Treat (911461), Rise Again (910524), Sacrificial Barrier (910528), Thunder's Protection (912906) and Undying Fervor (910519) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 912911, -1, [910519,  912906,  910524,  910528,  911461,  911462], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -60858,9 +60858,9 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 30%",
-            "Increase the damage of Absolute Zero (910652), Absolute Zero+1 (911790), Absolute Zero+2 (911791), Snow Burial (910654), Snow Burial+1 (911794) and Snow Burial+2 (911795) by (1x)"
+            "Increase the damage of Absolute Zero (912854) and Snow Burial (912855) by (1x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 73, [[910652,  911790,  911791,  910654,  911794,  911795], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 73, [[912854,  912855], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64490,9 +64490,10 @@
         "effects": [
             "Increase DEF, SPR and MP by 30%",
             "Increase MP by 20% when equipped with a Robe",
-            "Increase resistance to all elements by 20%"
+            "Increase resistance to all elements by 20%",
+            "Unknown passive effect type '10006': [[23,24,25,26,27,28,29,30],50,9999,30,0,2]"
         ],
-        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  30,  0]], [0, 3, 6, [53,  0,  0,  0,  0,  0,  20,  0]], [0, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]]],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  30,  0]], [0, 3, 6, [53,  0,  0,  0,  0,  0,  20,  0]], [0, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]], [0, 3, 10006, [[23,  24,  25,  26,  27,  28,  29,  30], 50, 9999, 30, 0, 2]]],
         "requirements": [["EQUIP", 1100000300], ["EQUIP", 1100000301]],
         "unit_restriction": null
     },
