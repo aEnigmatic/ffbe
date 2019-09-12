@@ -1387,7 +1387,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Gain Brave (Auto) (30211) at the start of a battle or when revived",
+            "Gain Bravery (Auto) (30211) at the start of a battle or when revived",
             "Gain Faith (Auto) (30221) at the start of a battle or when revived",
             "Gain Regen (Auto) (10121) at the start of a battle or when revived"
         ],
@@ -1670,7 +1670,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Brave (Auto) (30211) at the start of a battle or when revived"],
+        "effects": ["Gain Bravery (Auto) (30211) at the start of a battle or when revived"],
         "effects_raw": [[1, 3, 35, [30211]]],
         "requirements": null,
         "unit_restriction": null
@@ -17196,7 +17196,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Brave (Constant Oomph) (30212) at the start of a battle or when revived"],
+        "effects": ["Gain Bravery (Constant Oomph) (30212) at the start of a battle or when revived"],
         "effects_raw": [[0, 3, 35, [30212]]],
         "requirements": null,
         "unit_restriction": null
@@ -20099,7 +20099,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50%",
-            "Gain Brave (Mars Sigil) (30213) at the start of a battle or when revived",
+            "Gain Bravery (Mars Sigil) (30213) at the start of a battle or when revived",
             "Recover MP (5%) per turn",
             "Increase LB gauge by 1 per turn"
         ],
@@ -20277,7 +20277,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Gain Brave (White Lotus) (30214) at the start of a battle or when revived",
+            "Gain Bravery (White Lotus) (30214) at the start of a battle or when revived",
             "Recover MP (12%) per turn",
             "Increase LB gauge by 2.5 per turn"
         ],
@@ -31032,12 +31032,12 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of ChocoHoly (509393), Holy (502080, 508100), Holy Retaliation (505030), Unholy Darkness (229121) and エクスホーリー (509604) by (1x)",
+            "Increase the damage of ChocoHoly (509393), Holy (502080, 508100), Holy Retaliation (505030) and Unholy Darkness (229121) by (1x)",
             "Increase the damage of Holy skills  [Blade (200770) / Mind (227653) / Mind+1 (707793) / Mind+2 (707794) / Saber (203720) / Slash (230183) / Zap (227696)] by (2x)",
             "Increase the damage of Ancient Holy (509191), Holy (10210), Holy+1 (70330) and Holy+2 (70340) by (3x)",
             "Increase SPR by 60%"
         ],
-        "effects_raw": [[0, 3, 73, [[229121,  502080,  505030,  508100,  509393,  509604], 0, 0, 100]], [0, 3, 73, [[200770,  203720,  227653,  227696,  230183,  707793,  707794], 0, 0, 200]], [0, 3, 73, [[10210,  70330,  70340,  509191], 0, 0, 300]], [0, 3, 1, [0,  0,  0,  60,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 73, [[229121,  502080,  505030,  508100,  509393], 0, 0, 100]], [0, 3, 73, [[200770,  203720,  227653,  227696,  230183,  707793,  707794], 0, 0, 200]], [0, 3, 73, [[10210,  70330,  70340,  509191], 0, 0, 300]], [0, 3, 1, [0,  0,  0,  60,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -35157,7 +35157,7 @@
         "unit_restriction": null
     },
     "230460": {
-        "name": "女神の狩猟弓",
+        "name": "Bow of the Huntress",
         "icon": "ability_79.png",
         "compendium_id": 5383,
         "rarity": 9,
@@ -35221,7 +35221,7 @@
         "unit_restriction": null
     },
     "230478": {
-        "name": "W滅殺",
+        "name": "Dual Obliteration",
         "icon": "ability_8.png",
         "compendium_id": 5393,
         "rarity": 8,
@@ -35229,13 +35229,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use イグゾーストヒート (230496), エクスキューション (230480), エクストラチャージ (230470), オファリング (230477), カオスノヴァ (230483), ソウルサクション (230473), ディヴァインソーラー (230479), デストラクション (230476), マインドスクラッチ (230471), 光闇の領域 (230475), 混沌の力 (230487), 滅びの光 (230474), 滅びの火 (230495), 滅びの闇 (230472), 滅びへの道 (230481) and 賢者の知恵 (230482) twice in one turn"],
+        "effects": ["Enable unit to use Chaotic Nova (230483), Deflagrating Heat (230496), Devastation (230476), Execution (230480), Extra Charge (230470), Light and Dark Field (230475), Mangled Mind (230471), Obliterating Darkness (230472), Obliterating Flame (230495), Obliterating Light (230474), Offering (230477), Path to Destruction (230481), Power of Chaos (230487), Sage's Wisdom (230482), Solar Divinity (230479) and Soul Suction (230473) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509560, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230488": {
-        "name": "ヘスの八賢者",
+        "name": "Hess' Eight Sages",
         "icon": "ability_72.png",
         "compendium_id": 5403,
         "rarity": 8,
@@ -35252,7 +35252,7 @@
         "unit_restriction": null
     },
     "230489": {
-        "name": "ユライシャの教え",
+        "name": "Yuraisha's Teachings",
         "icon": "ability_95.png",
         "compendium_id": 5404,
         "rarity": 8,
@@ -35269,7 +35269,7 @@
         "unit_restriction": null
     },
     "230490": {
-        "name": "魔導心臓",
+        "name": "Magitek Heart",
         "icon": "ability_91.png",
         "compendium_id": 5405,
         "rarity": 8,
@@ -35286,7 +35286,7 @@
         "unit_restriction": null
     },
     "230491": {
-        "name": "失われた感情",
+        "name": "Lost Emotions",
         "icon": "ability_77.png",
         "compendium_id": 5406,
         "rarity": 6,
@@ -35303,7 +35303,7 @@
         "unit_restriction": null
     },
     "230492": {
-        "name": "再会の約束",
+        "name": "Promised Reunion",
         "icon": "ability_91.png",
         "compendium_id": 5407,
         "rarity": 7,
@@ -35320,7 +35320,7 @@
         "unit_restriction": null
     },
     "230493": {
-        "name": "無尽の魔力",
+        "name": "Endless Magic",
         "icon": "ability_41.png",
         "compendium_id": 5408,
         "rarity": 9,
@@ -35339,7 +35339,7 @@
         "unit_restriction": null
     },
     "230494": {
-        "name": "太陽の記憶",
+        "name": "Memories of the Sun",
         "icon": "ability_78.png",
         "compendium_id": 5409,
         "rarity": 8,
@@ -35356,7 +35356,7 @@
         "unit_restriction": null
     },
     "230507": {
-        "name": "アルドール研究員",
+        "name": "Aldore Researcher",
         "icon": "ability_77.png",
         "compendium_id": 5419,
         "rarity": 5,
@@ -35370,7 +35370,7 @@
         "unit_restriction": null
     },
     "230508": {
-        "name": "望まぬ力",
+        "name": "Unwanted Power",
         "icon": "ability_95.png",
         "compendium_id": 5420,
         "rarity": 7,
@@ -35387,7 +35387,7 @@
         "unit_restriction": null
     },
     "230509": {
-        "name": "優秀すぎた博士",
+        "name": "Overly Gifted Researcher",
         "icon": "ability_77.png",
         "compendium_id": 5421,
         "rarity": 6,
@@ -35404,7 +35404,7 @@
         "unit_restriction": null
     },
     "230510": {
-        "name": "魔導心臓研究者",
+        "name": "Magitek Heart Researcher",
         "icon": "ability_77.png",
         "compendium_id": 5422,
         "rarity": 7,
@@ -35421,7 +35421,7 @@
         "unit_restriction": null
     },
     "230528": {
-        "name": "隠された野心",
+        "name": "Concealed Ambition",
         "icon": "ability_77.png",
         "compendium_id": 5431,
         "rarity": 5,
@@ -35435,7 +35435,7 @@
         "unit_restriction": null
     },
     "230529": {
-        "name": "湧きあがる嫉妬",
+        "name": "Surging Envy",
         "icon": "ability_91.png",
         "compendium_id": 5432,
         "rarity": 7,
@@ -35452,7 +35452,7 @@
         "unit_restriction": null
     },
     "230530": {
-        "name": "不老不死への憧れ",
+        "name": "Longing for Immortality",
         "icon": "ability_77.png",
         "compendium_id": 5433,
         "rarity": 5,
@@ -35466,7 +35466,7 @@
         "unit_restriction": null
     },
     "230531": {
-        "name": "執念の研究者",
+        "name": "Tenacious Researcher",
         "icon": "ability_77.png",
         "compendium_id": 5434,
         "rarity": 6,
@@ -35483,7 +35483,7 @@
         "unit_restriction": null
     },
     "230545": {
-        "name": "Wギミック",
+        "name": "Double Gimmick",
         "icon": "ability_8.png",
         "compendium_id": 5440,
         "rarity": 8,
@@ -35491,13 +35491,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use ライフピペッター (230541), 残像映写装置 (230543), 氷結護身弾 (509581), 火炎護身弾 (509580), 特製麻痺弾 (230540), 護身弾装填 (230544), 遅効性ボディブロー (230542) and 電撃護身弾 (509582) twice in one turn"],
+        "effects": ["Enable unit to use Afterimage Projector (230543), Delayed Body Blow (230542), Flame Self-Defense Shot (509580), Freeze Self-Defense Shot (509581), Life-Sucking Pipette (230541), Self-Defense Load (230544), Shock Self-Defense Shot (509582) and Stun Bullet (230540) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509583, -1, [230540,  230541,  230542,  230543,  230544,  509580,  509581,  509582], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230546": {
-        "name": "自己流護身術",
+        "name": "Self-Taught Self-Defense",
         "icon": "ability_97.png",
         "compendium_id": 5441,
         "rarity": 6,
@@ -35514,7 +35514,7 @@
         "unit_restriction": null
     },
     "230547": {
-        "name": "磨かれし学識",
+        "name": "Refined Scholarship",
         "icon": "ability_19.png",
         "compendium_id": 5442,
         "rarity": 6,
@@ -35531,7 +35531,7 @@
         "unit_restriction": null
     },
     "230548": {
-        "name": "ヘリアークの相棒",
+        "name": "Heliarc's Partner",
         "icon": "ability_84.png",
         "compendium_id": 5443,
         "rarity": 5,
@@ -35548,7 +35548,7 @@
         "unit_restriction": null
     },
     "230550": {
-        "name": "ファントムフォース",
+        "name": "Phantom Force",
         "icon": "ability_77.png",
         "compendium_id": 5444,
         "rarity": 8,
@@ -35562,7 +35562,7 @@
         "unit_restriction": null
     },
     "230551": {
-        "name": "研究室の元気者",
+        "name": "Life of the Laboratory",
         "icon": "ability_77.png",
         "compendium_id": 5445,
         "rarity": 8,
@@ -35572,14 +35572,14 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 40%",
-            "Reduce resistance to Poison and Confusion by 50%"
+            "Increase resistance to Confusion by 100%"
         ],
-        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [-50,  0,  0,  0,  0,  -50,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230552": {
-        "name": "輝き尽きぬ石",
+        "name": "Evershining Stone",
         "icon": "ability_77.png",
         "compendium_id": 5446,
         "rarity": 9,
@@ -41627,7 +41627,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
-            "Gain Brave (Auto) (30211) at the start of a battle or when revived",
+            "Gain Bravery (Auto) (30211) at the start of a battle or when revived",
             "Gain Faith (Auto) (30221) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  10,  10,  0]], [1, 3, 35, [30211]], [1, 3, 35, [30221]]],
@@ -41645,7 +41645,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 10%",
-            "Gain Brave (Auto) (30211) at the start of a battle or when revived",
+            "Gain Bravery (Auto) (30211) at the start of a battle or when revived",
             "Gain Faith (Auto) (30221) at the start of a battle or when revived",
             "Recover MP (5%) per turn"
         ],
@@ -42690,7 +42690,7 @@
         "element_inflict": null,
         "effects": [
             "Increase the limit burst gauge fill rate by 100%",
-            "Gain Brave (Auto) (30211) at the start of a battle or when revived"
+            "Gain Bravery (Auto) (30211) at the start of a battle or when revived"
         ],
         "effects_raw": [[1, 3, 31, [100]], [0, 3, 35, [30211]]],
         "requirements": null,
@@ -42707,7 +42707,7 @@
         "element_inflict": null,
         "effects": [
             "Increase the limit burst gauge fill rate by 100%",
-            "Gain Brave (Auto) (30211) at the start of a battle or when revived",
+            "Gain Bravery (Auto) (30211) at the start of a battle or when revived",
             "Increase LB gauge by 2 per turn"
         ],
         "effects_raw": [[1, 3, 31, [100]], [0, 3, 35, [30211]], [0, 3, 33, [200]]],
@@ -65222,6 +65222,20 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "912686": {
+        "name": "Triple Obliteration",
+        "icon": "ability_8.png",
+        "compendium_id": 86301,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Chaotic Nova (230483), Deflagrating Heat (230496), Devastation (230476), Execution (230480), Extra Charge (230470), Light and Dark Field (230475), Mangled Mind (230471), Obliterating Darkness (230472), Obliterating Flame (230495), Obliterating Light (230474), Offering (230477), Path to Destruction (230481), Power of Chaos (230487), Sage's Wisdom (230482), Solar Divinity (230479) and Soul Suction (230473) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 509561, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "912691": {
         "name": "Double Gestalt",
         "icon": "ability_8.png",
@@ -65914,7 +65928,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": ["Increase equipment ATK by 25% when armed with two weapons"],
-        "effects_raw": [["", "", 69, [1,  25]]],
+        "effects_raw": [[0, 3, 69, [1,  25]]],
         "requirements": null,
         "unit_restriction": [401005305, 100011705, 401000305, 401000704, 100000202]
     },
