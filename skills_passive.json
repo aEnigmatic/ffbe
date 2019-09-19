@@ -37156,11 +37156,11 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase equipment ATK by 10% when armed with two weapons",
+            "Increase equipment ATK by 50% when armed with two weapons",
             "Recover MP (5%) per turn",
             "Increase resistance to all elements by 10%"
         ],
-        "effects_raw": [[0, 3, 69, [1,  10,  0]], [0, 3, 32, [5]], [0, 3, 3, [10,  10,  10,  10,  10,  10,  10,  10]]],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]], [0, 3, 32, [5]], [0, 3, 3, [10,  10,  10,  10,  10,  10,  10,  10]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37175,9 +37175,9 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 70%",
-            "Increase equipment ATK by 20% when armed with two weapons"
+            "Increase equipment ATK by 50% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 1, [70,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  20,  0]]],
+        "effects_raw": [[0, 3, 1, [70,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  50,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37297,9 +37297,9 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and SPR by 20%",
-            "60% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
-        "effects_raw": [[0, 3, 1, [20,  0,  0,  20,  0,  0,  0]], [0, 3, 51, [40,  60,  0,  1]]],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  20,  0,  0,  0]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37314,10 +37314,10 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 20%",
-            "Increase equipment ATK by 20% when armed with two weapons",
+            "Increase equipment ATK by 50% when armed with two weapons",
             "Enable unit to equip two one-handed weapons"
         ],
-        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  20,  20,  0]], [0, 3, 69, [1,  20,  0]], [0, 3, 14, ["none"]]],
+        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  20,  20,  0]], [0, 3, 69, [1,  50,  0]], [0, 3, 14, ["none"]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37345,10 +37345,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK, HP and MP by 20%",
+            "Increase ATK by 40% and HP and MP by 20%",
             "Increase ATK, DEF, MAG and SPR by 20% when equipped with Kingdom Key (KH) or Oblivion (KH)"
         ],
-        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  20,  0]], [0, 3, 74, [[302008400,  302008500], 20, 20, 20, 20, 0, 0, 0]]],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  20,  20,  0]], [0, 3, 74, [[302008400,  302008500], 20, 20, 20, 20, 0, 0, 0]]],
         "requirements": [["EQUIP", 302008400], ["EQUIP", 504230832]],
         "unit_restriction": null
     },
@@ -37365,9 +37365,9 @@
             "Increase ATK by 30%",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase ATK by 110% when HP drops below 80% (max 9999x)"
+            "Increase ATK by 150% when HP drops below 80% (max 9999x)"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 4, [1,  110,  9999,  80,  0,  -1]]],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 4, [1,  150,  9999,  80,  0,  -1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37382,10 +37382,10 @@
         "element_inflict": null,
         "effects": [
             "Increase LB damage by 30%",
-            "Increase equipment ATK by 20% when armed with two weapons",
-            "Increase the damage of Sonic Blade (230851) and Vortex (230849) by (1x)"
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase the damage of Sonic Blade (230851) and Vortex (230849) by (3x)"
         ],
-        "effects_raw": [[0, 3, 68, [30]], [0, 3, 69, [1,  20,  0]], [0, 3, 73, [[230849,  230851], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 68, [30]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[230849,  230851], 0, 0, 300]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37400,9 +37400,9 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 20%",
-            "80% chance to set HP to 1 upon fatal damage, if HP was above 60% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
-        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 51, [60,  80,  0,  1]]],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37415,8 +37415,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase HP and MP by 30% and ATK, DEF, MAG and SPR by 10%"],
-        "effects_raw": [[0, 3, 1, [10,  10,  10,  10,  30,  30,  0]]],
+        "effects": ["Increase HP and MP by 50% and ATK, DEF, MAG and SPR by 30%"],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  50,  50,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37433,9 +37433,9 @@
             "Increase ATK by 30% when equipped with a Great Sword",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase LB gauge by 2 per turn"
+            "Increase LB gauge by 5 per turn"
         ],
-        "effects_raw": [[0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 33, [200]]],
+        "effects_raw": [[0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 33, [500]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -37499,9 +37499,9 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 40%",
-            "Increase LB damage by 20%"
+            "Increase LB damage by 40%"
         ],
-        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 68, [20]]],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 68, [40]]],
         "requirements": [["EQUIP", 409029900], ["EQUIP", 303006300]],
         "unit_restriction": null
     },
@@ -37534,10 +37534,10 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF, SPR and HP by 20%",
-            "Increase the damage of Assault Break (509745) by (1x)",
-            "Increase the damage of Continuum Cut (230879) by (1x)"
+            "Increase the damage of Assault Break (509745) by (2x)",
+            "Increase the damage of Continuum Cut (230879) by (3x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 73, [509745,  0,  0,  100]], [0, 3, 73, [230879,  0,  0,  100]]],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 73, [509745,  0,  0,  200]], [0, 3, 73, [230879,  0,  0,  300]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -39303,6 +39303,504 @@
         "element_inflict": null,
         "effects": ["Increase drop rate of items by 50%"],
         "effects_raw": [[0, 3, 47, [50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232795": {
+        "name": "Mog Suit",
+        "icon": "ability_81.png",
+        "compendium_id": 7110,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase EXP gained by battles by 15%"],
+        "effects_raw": [[0, 3, 45, [15]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232796": {
+        "name": "Mog Bangle",
+        "icon": "ability_88.png",
+        "compendium_id": 7111,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase drop rate of items by 50%"],
+        "effects_raw": [[0, 3, 47, [50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232930": {
+        "name": "Eater of Souls",
+        "icon": "ability_77.png",
+        "compendium_id": 7213,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (5%) per turn",
+            "Increase equipment ATK by 30% when armed with two weapons",
+            "Increase resistance to Light by 25%"
+        ],
+        "effects_raw": [[0, 3, 32, [5]], [0, 3, 69, [1,  30,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232931": {
+        "name": "Heart's Darkness",
+        "icon": "ability_77.png",
+        "compendium_id": 7214,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 70%",
+            "Increase resistance to Light by 50%",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [70,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  0]], [0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232932": {
+        "name": "Heroic Arts",
+        "icon": "ability_95.png",
+        "compendium_id": 7215,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and HP by 20% when equipped with a Katana"],
+        "effects_raw": [[0, 3, 6, [4,  20,  0,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232933": {
+        "name": "Clad in Darkness",
+        "icon": "ability_79.png",
+        "compendium_id": 7216,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Humans by 50%"],
+        "effects_raw": [[0, 3, 11, [5,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": [335000305]
+    },
+    "232934": {
+        "name": "Master Swordsman",
+        "icon": "ability_79.png",
+        "compendium_id": 7217,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Humans by 50%",
+            "Increase ATK by 30%"
+        ],
+        "effects_raw": [[0, 3, 11, [5,  50,  0]], [0, 3, 1, [30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232936": {
+        "name": "Sora Medal (KH)",
+        "icon": "ability_77.png",
+        "compendium_id": 7219,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Bravery (Auto) (30217) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 35, [30217]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232937": {
+        "name": "Dodge Roll",
+        "icon": "ability_97.png",
+        "compendium_id": 7220,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30%",
+            "20% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  30,  0]], [0, 3, 22, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232938": {
+        "name": "EXP Bracelet (KH)",
+        "icon": "ability_81.png",
+        "compendium_id": 7221,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase EXP gained by battles by 30%"],
+        "effects_raw": [[0, 3, 45, [30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232939": {
+        "name": "Solid Necklace",
+        "icon": "ability_77.png",
+        "compendium_id": 7222,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Protect (Auto) (30099) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 35, [30099]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232940": {
+        "name": "MP Haste",
+        "icon": "ability_91.png",
+        "compendium_id": 7223,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 15%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  15,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232956": {
+        "name": "Double Command",
+        "icon": "ability_8.png",
+        "compendium_id": 7230,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Dark Aura (232959), Dark Break (232952), Dark Firaga (232954), Dark Maelstrom (232957), Darkhand (232955), Duel Trigger (232958), Helm Split (232951), Spinning Slash (232953) and Vertical Strike (232950) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510710, -1, [232950,  232951,  232952,  232953,  232954,  232955,  232957,  232958,  232959], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232960": {
+        "name": "Dreams of Power",
+        "icon": "ability_19.png",
+        "compendium_id": 7234,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase resistance to Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232961": {
+        "name": "HP & MP Boost",
+        "icon": "ability_77.png",
+        "compendium_id": 7235,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232962": {
+        "name": "Bonds of Friendship",
+        "icon": "ability_41.png",
+        "compendium_id": 7236,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and DEF by 40%",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 10% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  40,  0,  0,  0,  0,  0]], [0, 3, 51, [10,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232963": {
+        "name": "Seeker of Unknown Worlds",
+        "icon": "ability_77.png",
+        "compendium_id": 7237,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 20%",
+            "Increase ATK by 200% for 2 turns when HP drops below 81% (max 9999x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  0,  20,  0]], [0, 3, 4, [1,  200,  9999,  81,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232964": {
+        "name": "Chosen by the Keyblade",
+        "icon": "ability_77.png",
+        "compendium_id": 7238,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% and HP and MP by 30%",
+            "Use Chosen by the Keyblade (510718) at the start of a battle",
+            "Absorb Dark elemental attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  30,  30,  0]], [0, 3, 56, [510718]], [0, 3, 42, [0,  0,  0,  0,  0,  0,  0,  1]]],
+        "requirements": [["EQUIP", 302010500], ["EQUIP", 504232931]],
+        "unit_restriction": null
+    },
+    "232965": {
+        "name": "Fighting the Darkness",
+        "icon": "ability_91.png",
+        "compendium_id": 7239,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 30%",
+            "Cast Fighting the Darkness (510714) at the start of your turn",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  0,  0]], [0, 3, 66, [510714,  100,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232966": {
+        "name": "True Chosen One",
+        "icon": "ability_72.png",
+        "compendium_id": 7240,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase LB gauge by 2 per turn",
+            "Increase the damage of Dark Aura (510713), Dark Break (232952), Dark Firaga (232954), Dark Maelstrom (232957), Darkhand (232955), Helm Split (232951), Spinning Slash (232953) and Vertical Strike (232950) by (1x)"
+        ],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]], [0, 3, 33, [200]], [0, 3, 73, [[232950,  232951,  232952,  232953,  232954,  232955,  232957,  510713], 0, 0, 100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232974": {
+        "name": "Double Limit",
+        "icon": "ability_8.png",
+        "compendium_id": 7245,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Come, power! (232978), Consuming Light (232976), Dark Blessing (232982), Descent into Darkness (232975), Engulfing Duality (232973), Life-Taker (232977), Oblivion - Absorption (232971), Oblivion - Crash (232972), Octaslash (232980), Prepare to fall! (232981) and Vanisher (232970) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510715, -1, [232970,  232971,  232972,  232973,  232975,  232976,  232977,  232978,  232980,  232981,  232982], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232979": {
+        "name": "Triple Limit",
+        "icon": "ability_8.png",
+        "compendium_id": 7250,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Come, power! (232978), Consuming Light (232976), Dark Blessing (232982), Descent into Darkness (232975), Engulfing Duality (232973), Life-Taker (232977), Oblivion - Absorption (232971), Oblivion - Crash (232972), Octaslash (232980), Prepare to fall! (232981) and Vanisher (232970) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 510716, -1, [232970,  232971,  232972,  232973,  232975,  232976,  232977,  232978,  232980,  232981,  232982], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232983": {
+        "name": "Unknown Swordsman",
+        "icon": "ability_77.png",
+        "compendium_id": 7254,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232984": {
+        "name": "The Other Dark Wing",
+        "icon": "ability_95.png",
+        "compendium_id": 7255,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 30%"],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232985": {
+        "name": "MP Recovery",
+        "icon": "ability_91.png",
+        "compendium_id": 7256,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Disease by 100%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232986": {
+        "name": "Consummate Technique",
+        "icon": "ability_95.png",
+        "compendium_id": 7257,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% when equipped with a Katana",
+            "Increase resistance to Sleep by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [4,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232987": {
+        "name": "Dark Soul",
+        "icon": "ability_19.png",
+        "compendium_id": 7258,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 30%",
+            "Increase resistance to Confusion by 100%",
+            "Increase Charm resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  30,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232988": {
+        "name": "Mysterious Heavy Swordsman",
+        "icon": "ability_77.png",
+        "compendium_id": 7259,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Bravery (Auto) (30218) at the start of a battle or when revived",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 35, [30218]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232989": {
+        "name": "One-Winged Angel",
+        "icon": "ability_76.png",
+        "compendium_id": 7260,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 40%",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  40,  0,  0]], [0, 3, 13, [100,  25,  2]]],
+        "requirements": [["EQUIP", 405008400], ["EQUIP", 304005000]],
+        "unit_restriction": null
+    },
+    "232990": {
+        "name": "I am the chosen one!",
+        "icon": "ability_79.png",
+        "compendium_id": 7261,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40% and HP by 20%",
+            "Increase resistance to Light and Dark by 50%",
+            "Increase the damage of Vanisher (232970) by (2x)"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  20,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  50]], [0, 3, 73, [232970,  0,  0,  200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "232991": {
+        "name": "Cloud's Darkness",
+        "icon": "ability_91.png",
+        "compendium_id": 7262,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and MP by 30%",
+            "Increase LB gauge by 2 per turn",
+            "Increase the damage of Engulfing Duality (232973), Octaslash (232980) and Vanisher (232970) by (1x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  30,  0]], [0, 3, 33, [200]], [0, 3, 73, [[232980,  232970,  232973], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -66331,6 +66829,556 @@
         ],
         "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  30,  0,  0]], [0, 3, 51, [5,  100,  0,  1]], [0, 3, 4, [2,  200,  9999,  1,  0,  -1]], [0, 3, 4, [4,  200,  9999,  1,  0,  -1]]],
         "requirements": [["EQUIP", 504228416], ["EQUIP", 402003000]],
+        "unit_restriction": null
+    },
+    "912963": {
+        "name": "Lovey Dovey",
+        "icon": "ability_8.png",
+        "compendium_id": 86470,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Devotion skills  [Adoring Protection (912974) / Arbitration (912967) / Fierce Guard (912978) / Give and Receive (912969) / Intervention (912968) / Life is Precious (912972) / Loving Embrace (912970) / Mystical Soul (912977) / Safe Place (912976) / Soft Kiss (912975)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 912964, -1, [912974,  912970,  912967,  912972,  912975,  912968,  912976,  912978,  912977,  912969], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912981": {
+        "name": "Spiritual Vibes",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86488,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 20% when equipped with a Robe",
+            "Increase MP by 20%"
+        ],
+        "effects_raw": [[0, 3, 6, [53,  0,  0,  0,  20,  0,  0,  0]], [0, 3, 1, [0,  0,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912982": {
+        "name": "Protective Vibes",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86489,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 20% when equipped with a Robe",
+            "Increase HP by 20%"
+        ],
+        "effects_raw": [[0, 3, 6, [53,  0,  20,  0,  0,  0,  0,  0]], [0, 3, 1, [0,  0,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912983": {
+        "name": "Affectionate",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86490,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "20% chance to counter physical attacks with Affectionate (912984) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with Affectionate (912984) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [20,  3,  912984,  1]], [0, 3, 50, [20,  3,  912984,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912985": {
+        "name": "Generous Bounty",
+        "icon": "ability_88.png",
+        "compendium_id": 86492,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase drop rate of items by 100% and rare items by 50%"],
+        "effects_raw": [[0, 3, 47, [100,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912986": {
+        "name": "Strong Vitality",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86493,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase healing power of items by 100% during battle",
+            "Increase DEF and SPR by 20%",
+            "Increase resistance to Sleep, Silence, Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 9, [100]], [0, 3, 1, [0,  20,  0,  20,  0,  0]], [0, 3, 2, [0,  0,  100,  100,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912987": {
+        "name": "Spiritual Transcendence",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86494,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "Increase SPR by 30% when equipped with a Staff",
+            "Increase SPR by 30% when equipped with a Instrument",
+            "Reduce chance of being targeted by 50%",
+            "100% chance to set HP to 20% upon fatal damage, if HP was above 20% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0]], [0, 3, 6, [5,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 25, [50]], [0, 3, 51, [20,  100,  20,  1,  0]]],
+        "requirements": [["EQUIP", 1500000115], ["EQUIP", 1100000340]],
+        "unit_restriction": null
+    },
+    "912988": {
+        "name": "Self-Confidence",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86495,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30% when equipped with a Staff",
+            "Increase SPR by 30% when equipped with a Instrument",
+            "Increase Charm resistance by 100% to caster",
+            "Recover MP (10%) per turn",
+            "Increase chance of countering by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [5,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 32, [10]], [0, 3, 20, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912989": {
+        "name": "Boundless Love",
+        "icon": "global_ability_10023.png",
+        "compendium_id": 86496,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30%",
+            "Increase equipment SPR (30%) when armed with a single weapon",
+            "Increase healing power of items by 100% during battle"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  0]], [0, 3, 10003, [0,  0,  0,  0,  0,  30,  1]], [0, 3, 9, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912990": {
+        "name": "Golden Earrings",
+        "icon": "global_materia_1500000006.png",
+        "compendium_id": 86497,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "Increase SPR by 120% when HP drops below 50% (max 9999x)",
+            "Increase equipment SPR (30%) when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0]], [0, 3, 4, [4,  120,  9999,  50,  0,  -1]], [0, 3, 10003, [0,  0,  0,  0,  0,  30,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "912991": {
+        "name": "Dual-Core Processor",
+        "icon": "ability_8.png",
+        "compendium_id": 86498,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Directive skills  [Cloned Matrix (912999) / Combative Measures (913009) / Combative Measures+ (913008) / Crossed Wires (913003) / Crossed Wires+ (913002) / Defensive Measures (913013) / Full Scan (913015) / Hacking System (913012) / Hacking System+ (913011) / Offensive Measures (913006) / Offensive Measures+ (913005) / Protective Measures (913014) / System Reboot (912997) / System Update (912995)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 912992, -1, [912995,  912997,  912999,  913002,  913003,  913005,  913006,  913008,  913009,  913011,  913012,  913013,  913014,  913015], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913016": {
+        "name": "Weapons Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86523,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30% when equipped with a Sword",
+            "Increase ATK by 30% when equipped with a Great Sword",
+            "Increase ATK by 30% when equipped with a Katana",
+            "Increase ATK by 30% when equipped with a Axe",
+            "Increase ATK by 30% when equipped with a Fist"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [8,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [16,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913017": {
+        "name": "Algorithm Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86524,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30% when equipped with a Sword",
+            "Increase MAG by 30% when equipped with a Rod",
+            "Increase MAG by 30% when equipped with a Whip",
+            "Increase MAG by 30% when equipped with a Throwing",
+            "Increase MAG by 30% when equipped with a Instrument"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [6,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [12,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [13,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913018": {
+        "name": "Bolstered Security",
+        "icon": "ability_85.png",
+        "compendium_id": 86525,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 50% when equipped with a Staff",
+            "Increase SPR by 50% when equipped with a Instrument",
+            "Increase SPR by 30% when equipped with a Robe",
+            "Increase SPR by 30% when equipped with a Hat",
+            "Increase SPR by 30% when equipped with a Light Shield"
+        ],
+        "effects_raw": [[0, 3, 6, [5,  0,  0,  0,  50,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  0,  50,  0,  0,  0]], [0, 3, 6, [53,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [40,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [30,  0,  0,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913019": {
+        "name": "Reinforced Firewall",
+        "icon": "ability_85.png",
+        "compendium_id": 86526,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 30% when equipped with a Heavy Shield",
+            "Increase DEF by 30% when equipped with a Heavy Armor",
+            "Increase DEF by 30% when equipped with a Helm",
+            "Increase HP and MP by 40% when equipped with a Cloth",
+            "Increase DEF by 30% when equipped with a Light Armor"
+        ],
+        "effects_raw": [[0, 3, 6, [31,  0,  30,  0,  0,  0,  0,  0]], [0, 3, 6, [52,  0,  30,  0,  0,  0,  0,  0]], [0, 3, 6, [41,  0,  30,  0,  0,  0,  0,  0]], [0, 3, 6, [50,  0,  0,  0,  0,  40,  40,  0]], [0, 3, 6, [51,  0,  30,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913020": {
+        "name": "Full Circuit",
+        "icon": "global_ability_10086.png",
+        "compendium_id": 86527,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 20%",
+            "Increase resistance to Blind, Sleep, Silence and Petrify by 100%",
+            "20% chance to counter physical attacks with Automatic Response (913021) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with Automatic Response (913021) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  20,  20]], [0, 3, 2, [0,  100,  100,  100,  0,  0,  0,  100]], [0, 3, 49, [20,  3,  913021,  1]], [0, 3, 50, [20,  3,  913021,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913022": {
+        "name": "Advanced Weapons Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86529,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase ATK by 30% when equipped with a Great Sword",
+            "Increase ATK by 30% when equipped with a Katana",
+            "Increase ATK by 30% when equipped with a Axe",
+            "Increase ATK by 30% when equipped with a Fist"
+        ],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [8,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [16,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913023": {
+        "name": "Advanced Algorithm Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86530,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase MAG by 30% when equipped with a Rod",
+            "Increase MAG by 30% when equipped with a Whip",
+            "Increase MAG by 30% when equipped with a Throwing",
+            "Increase MAG by 30% when equipped with a Instrument"
+        ],
+        "effects_raw": [[0, 3, 70, [50,  0,  2]], [0, 3, 6, [6,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [12,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [13,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913024": {
+        "name": "Diverse Weapons Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86531,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 200% when unarmed",
+            "Increase ATK by 50% when equipped with a Whip",
+            "Increase MAG by 50% when equipped with a Dagger",
+            "Increase MAG by 50% when equipped with a Spear",
+            "Increase SPR by 50% when equipped with a Bow"
+        ],
+        "effects_raw": [[0, 3, 19, [200]], [0, 3, 6, [12,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [1,  0,  0,  50,  0,  0,  0,  0]], [0, 3, 6, [10,  0,  0,  50,  0,  0,  0,  0]], [0, 3, 6, [7,  0,  0,  0,  50,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913025": {
+        "name": "Artificial Intelligence",
+        "icon": "global_ability_10086.png",
+        "compendium_id": 86532,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 30%",
+            "Use Infiltrate Server (913026) at the start of a battle",
+            "Enable unit to use Directive skills  [Cloned Matrix (912999) / Combative Measures (913009) / Combative Measures+ (913008) / Crossed Wires (913003) / Crossed Wires+ (913002) / Defensive Measures (913013) / Full Scan (913015) / Hacking System (913012) / Hacking System+ (913011) / Offensive Measures (913006) / Offensive Measures+ (913005) / Protective Measures (913014) / System Reboot (912997) / System Update (912995)] 3 times in one turn",
+            "Gain Triple-cast Black magic",
+            "Increase the damage of Aeroja (20330), Blizzaja (20300), Firaja (20290), Flare (20350), Flare+1 (70350), Flare+2 (70360), Flood (20380), Flood+1 (70434), Flood+2 (70435), Freeze (20360), Freeze+1 (70438), Freeze+2 (70439), Meteor (20430), Quake (20400), Quake+1 (70432, 70442), Quake+2 (70433, 70443), Stonja (20340), Thundaja (20310), Tornado (20390), Tornado+1 (70440), Tornado+2 (70441), Ultima (20440) and Waterja (20320) by (2x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  0,  0]], [0, 3, 56, [913026]], [0, 3, 53, [3, 912993, -1, [912995,  912997,  912999,  913002,  913003,  913005,  913006,  913008,  913009,  913011,  913012,  913013,  913014,  913015], 1]], [0, 3, 52, [1,  3,  508313]], [0, 3, 73, [[20350,  70350,  70360,  20400,  70432,  70433,  70442,  70443,  20390,  70440,  70441,  20360,  70438,  70439,  20380,  70434,  70435,  20290,  20300,  20310,  20320,  20330,  20340,  20440,  20430], 0, 0, 200]]],
+        "requirements": [["EQUIP", 1100000339], ["EQUIP", 1100000338]],
+        "unit_restriction": null
+    },
+    "913027": {
+        "name": "Complete Weapons Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86534,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40% when equipped with a Sword",
+            "Increase ATK by 40% when equipped with a Great Sword",
+            "Increase ATK by 40% when equipped with a Katana",
+            "Increase ATK by 40% when equipped with a Axe",
+            "Increase ATK by 40% when equipped with a Fist"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [3,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [8,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [16,  40,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913028": {
+        "name": "Complete Algorithm Database",
+        "icon": "ability_95.png",
+        "compendium_id": 86535,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40% when equipped with a Sword",
+            "Increase MAG by 40% when equipped with a Rod",
+            "Increase MAG by 40% when equipped with a Whip",
+            "Increase MAG by 40% when equipped with a Throwing",
+            "Increase MAG by 40% when equipped with a Instrument"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  0,  0,  40,  0,  0,  0,  0]], [0, 3, 6, [6,  0,  0,  40,  0,  0,  0,  0]], [0, 3, 6, [12,  0,  0,  40,  0,  0,  0,  0]], [0, 3, 6, [13,  0,  0,  40,  0,  0,  0,  0]], [0, 3, 6, [11,  0,  0,  40,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913029": {
+        "name": "Sentinel Program",
+        "icon": "ability_85.png",
+        "compendium_id": 86536,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30% when equipped with a Light Shield",
+            "Increase DEF by 30% when equipped with a Heavy Shield"
+        ],
+        "effects_raw": [[0, 3, 6, [30,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [31,  0,  30,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913030": {
+        "name": "Sentience",
+        "icon": "global_ability_10086.png",
+        "compendium_id": 86537,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 100% when armed with a single weapon",
+            "Reduce MP consumption by 30%",
+            "Increase physical and magic damage against Humans and Machinas by 75/75%"
+        ],
+        "effects_raw": [[0, 3, 13, [100,  25,  2]], [0, 3, 70, [100,  0,  2]], [0, 3, 77, [30,  1,  0]], [0, 3, 11, [[5,  6], [75,  75], [75,  75]]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913031": {
+        "name": "Installation Program",
+        "icon": "global_ability_10086.png",
+        "compendium_id": 86538,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use Installation Program (913032) at the start of a battle"],
+        "effects_raw": [[0, 3, 56, [913032]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913033": {
+        "name": "Life Extension",
+        "icon": "global_ability_10086.png",
+        "compendium_id": 86540,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Cast Life Extension (913034) at the start of your turn"],
+        "effects_raw": [[0, 3, 66, [913034,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913035": {
+        "name": "Drive Version Upgrade",
+        "icon": "ability_96.png",
+        "compendium_id": 86542,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 69, [1,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913036": {
+        "name": "CPU Version Upgrade",
+        "icon": "ability_96.png",
+        "compendium_id": 86543,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip Rods",
+            "Enable unit to equip Whips",
+            "Increase MAG by 50% when equipped with a Rod",
+            "Increase MAG by 50% when equipped with a Whip"
+        ],
+        "effects_raw": [[0, 3, 5, [6]], [0, 3, 5, [12]], [0, 3, 6, [6,  0,  0,  50,  0,  0,  0,  0]], [0, 3, 6, [12,  0,  0,  50,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913037": {
+        "name": "Security Version Upgrade",
+        "icon": "ability_96.png",
+        "compendium_id": 86544,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip Light Shields",
+            "Enable unit to equip Heavy Shields",
+            "Increase SPR by 40% and DEF and HP by 20% when equipped with a Light Shield",
+            "Increase DEF by 40% and SPR and HP by 20% when equipped with a Heavy Shield"
+        ],
+        "effects_raw": [[0, 3, 5, [30]], [0, 3, 5, [31]], [0, 3, 6, [30,  0,  20,  0,  40,  20,  0,  0]], [0, 3, 6, [31,  0,  40,  0,  20,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913039": {
+        "name": "Seeker of Darkness",
+        "icon": "ability_72.png",
+        "compendium_id": 86546,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Light by 50%",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  0]], [0, 3, 69, [1,  50]]],
+        "requirements": null,
         "unit_restriction": null
     },
     "950011": {

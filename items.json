@@ -4806,7 +4806,7 @@
         }
     },
     "106211390": {
-        "name": "[期間限定]★5確定SP召喚チケット",
+        "name": "Guaranteed 5★ Special Summon Ticket",
         "type": "Consumable",
         "compendium_id": 868,
         "compendium_shown": false,
@@ -4821,7 +4821,14 @@
         "effects_raw": "",
         "icon": "item_9203.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
+            "names": [
+                "Guaranteed 5★ Special Summon Ticket",
+                "[期間限定]★5確定SP召喚券",
+                "[기간 한정] ★5 보장 스페셜 소환티켓",
+                "Ticket d'invocation spéciale 5★ garantie",
+                "Garantierte 5★ Spezialbeschwörungskarte",
+                "Tícket de invocación especial de 5★ garantizada"
+            ],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
         }
@@ -7890,6 +7897,48 @@
             "names": [null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106308800": {
+        "name": "Large Body Raid Coin",
+        "type": "Consumable",
+        "compendium_id": 1082,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050004.png",
+        "strings": {
+            "names": [
+                "Large Body Raid Coin",
+                "大塊頭共鬥硬幣",
+                "라지 보디 레이드 코인",
+                "Jeton de raid de Rondouillard",
+                "Adowampe-Raubzugmünze",
+                "Moneda de banda de Grandullón"
+            ],
+            "desc_short": [
+                "A coin with a design of the otherworldly Heartless etched upon it.",
+                "描繪有異界「無心者」的硬幣",
+                "이계의 '하트리스'가 그려진 코인",
+                "Une pièce sur laquelle est gravée l'image du Sans-cœur surnaturel.",
+                "Eine Münze, auf der Herzlose aus einer anderen Welt abgebildet sind.",
+                "Una moneda con la efigie de un sincorazón de otro mundo."
+            ],
+            "desc_long": [
+                "A coin with an etched design of a \"Heartless,\" beings devoid of emotion from another world, known as the large body. It is said only those who remain steadfast in the face of adversity and possess the courage to fight their way through even the direst of situations can obtain it.",
+                "描繪有異界「無心者」大塊頭的硬幣。只有不畏懼強大力量，擁有勇氣堂堂正正戰鬥至最後之人，才有資格獲得。",
+                "머나먼 이계의, 마음이 없는 자 '하트리스'라 불리는 어느 존재인 라지 보디가 그려져 있는 코인. 거대한 힘에 꺾이지 않고 정정당당하게 맞서 싸울 용기를 지닌 자만이 손에 넣을 수 있다고 한다.",
+                "Une pièce sur laquelle est gravée l'image d'un Sans-cœur nommé \"Rondouillard\", un être dénué d'émotions originaire d'un autre monde. Selon la légende, seuls ceux qui ont le courage de persévérer dans leur combat quand le désespoir est à son comble sont dignes d'obtenir cet artefact.",
+                "Eine Münze, auf der Adowampe abgebildet ist, eine Art der Herzlosen aus einer fernen Welt, die zu keinerlei Gefühlen fähig sind. Es heißt, dass nur jene, die selbst im Angesicht überwältigender Stärke standhaft bleiben und tapfer kämpfen, dieser Münze habhaft werden können.",
+                "Una moneda con la efigie de Grandullón, un tipo de sincorazón. Los sincorazón son criaturas sin sentimientos que proceden de otro mundo. Cuenta la leyenda que solo pueden obtener esta moneda aquellos que no se rinden nunca ante la adversidad y tienen el valor de luchar hasta en las peores situaciones."
+            ]
         }
     },
     "107000100": {
@@ -24671,6 +24720,216 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "235017300": {
+        "name": "Orichalcum (KH)",
+        "type": "Item",
+        "compendium_id": 1083,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040004.png",
+        "strings": {
+            "names": [
+                "Orichalcum (KH)",
+                "奧利哈康（KINGDOM HEARTS）",
+                "오리할콘(KH)",
+                "Orichalque (KH)",
+                "Orichalkum (KH)",
+                "Orichalcum (KH)"
+            ],
+            "desc_short": [
+                "A raid material obtained from the Heartless: Large Body raid.",
+                "「無心者：大塊頭」共鬥素材",
+                "'하트리스: 라지 보디' 레이드 재료",
+                "Un matériau de raid qui s'obtient dans le raid \"Sans-cœur : Rondouillard\".",
+                "Ein Raubzugmaterial aus dem Herzlose: Adowampe Raubzug.",
+                "Material de banda conseguido en el evento de banda Sincorazón: Grandullón."
+            ],
+            "desc_long": [
+                "A mineral from another world. This type of material is usually used for synthesis in its world of origin, although it is quite rare and difficult to obtain. Apparently, it was once offered as a prize for winning a certain battle tournament.",
+                "來自遙遠異界的礦石，是合成道具所需的一種稀有素材。在異界，它是眾所周知的稀有礦石，甚至被當做了鬥技大會的獎品。",
+                "머나먼 이계에서 유입된 광석. 아이템 합성 시 사용하는 재료의 일종이다. 이계에서는 가장 진귀한 광석으로 알려져 있으며, 투기 대회의 상품으로 걸린 적도 있었다고 한다.",
+                "Un minerai issu d'un autre monde. Sur sa planète d'origine, ce type de matériau est typiquement utilisé dans la synthèse, bien qu'il soit plutôt rare et difficile à obtenir. Il aurait jadis été offert en récompense au vainqueur d'un certain tournoi.",
+                "Ein Mineral aus einer anderen Welt, das dort meist zur Synthese von Gegenständen verwendet wird. In jener Welt als das seltenste Mineral überhaupt angesehen, soll es einst der Preis eines gewissen Tuniers gewesen sein.",
+                "Un mineral procedente de otro mundo. En ese mundo, se usa para fusionar objetos, aunque se trata de un material muy poco común que no se encuentra fácilmente. Por lo visto, en cierta ocasión se ofreció como premio por ganar un torneo."
+            ]
+        }
+    },
+    "235017400": {
+        "name": "Breath of Wind",
+        "type": "Item",
+        "compendium_id": 1084,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040014.png",
+        "strings": {
+            "names": [
+                "Breath of Wind",
+                "風之氣息",
+                "바람의 숨결",
+                "Souffle éolien",
+                "Windatem",
+                "Aliento eólico"
+            ],
+            "desc_short": [
+                "A raid material obtained from the Heartless: Large Body raid.",
+                "「無心者：大塊頭」共鬥素材",
+                "'하트리스: 라지 보디' 레이드 재료",
+                "Un matériau de raid qui s'obtient dans le raid \"Sans-cœur : Rondouillard\".",
+                "Ein Raubzugmaterial aus dem Herzlose: Adowampe Raubzug.",
+                "Material de banda conseguido en el evento de banda Sincorazón: Grandullón."
+            ],
+            "desc_long": [
+                "A mysterious material that holds the essence of wind. A solidified cluster of magic shaped like a whirlwind, it is usually used to enhance the owner's jumping abilities or to power up tools that summon winds forth. This high grade material seems to work best when combined with valuable items from other worlds.",
+                "相傳寄宿著風之精靈的神秘素材，外形有如龍捲風一般，是製作提升跳躍力的裝備以及引發狂風的道具的原材料。它不僅是一種優秀的製作素材，還與異界道具極為相配。",
+                "바람의 정령이 깃들어 있다는 신비한 재료. 소용돌이치는 바람 모양의 마력 덩어리로, 도약력을 올려주는 장비나 강풍을 불러일으키는 도구 등을 만드는 재료로 쓰인다. 무척 뛰어난 제작용 재료로, 머나먼 이계에서 유입된 아이템과의 상성도 좋은 듯하다.",
+                "Un matériau mystérieux qui renferme l'essence du vent. Il s'agit d'un éclat de magie cristallisée en forme de tornade qui sert habituellement à augmenter les facultés physiques de l'utilisateur, lui permettant de sauter plus haut, ou à renforcer les outils capables d'invoquer le vent. Ce matériau de haute qualité semble offrir un meilleur rendement lorsqu'il est combiné à divers objets issus d'autres mondes.",
+                "Ein mysteriöses Material, das die Essenz des Windes in sich trägt. Es sieht aus wie pure Magie in Form eines Wirbelsturms und wird gewöhnlicherweise zur Herstellung von Ausrüstung verwendet, die die Sprungfähigkeit ihres Trägers verstärkt oder starken WInd heraufzubeschwören vermag. Dieses hochklassige Material scheint am besten mit anderen wertvollen Gegenständen aus jener Welt kompatibel.",
+                "Un material misterioso que encierra la esencia del viento. Este retazo de magia solidificada con forma de torbellino suele usarse para mejorar las habilidades de salto de su dueño o potenciar sus herramientas para invocar los vientos. Parece que este material de alta calidad funciona mejor al combinarse con objetos valiosos de otros mundos."
+            ]
+        }
+    },
+    "235017500": {
+        "name": "Dazzling Stone",
+        "type": "Item",
+        "compendium_id": 1085,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040013.png",
+        "strings": {
+            "names": [
+                "Dazzling Stone",
+                "閃耀之滴",
+                "반짝이는 물방울",
+                "Gemme pure",
+                "Leuchttropfen",
+                "Roca brillante"
+            ],
+            "desc_short": [
+                "A raid material obtained from the Heartless: Large Body raid.",
+                "「無心者：大塊頭」共鬥素材",
+                "'하트리스: 라지 보디' 레이드 재료",
+                "Un matériau de raid qui s'obtient dans le raid \"Sans-cœur : Rondouillard\".",
+                "Ein Raubzugmaterial aus dem Herzlose: Adowampe Raubzug.",
+                "Material de banda conseguido en el evento de banda Sincorazón: Grandullón."
+            ],
+            "desc_long": [
+                "A droplet from another world that exhibits a mysterious shine. It is said to be used for synthesizing rare items and equipment in its home world.",
+                "來自遙遠異界的水滴。散發著神秘的光芒，它是異界的一種合成用素材，用於製造稀有道具與裝備。",
+                "머나먼 이계에서 유입된 물방울. 신비로운 빛을 발하고 있다. 이계의 합성용 재료로, 희귀한 아이템이나 장비 등을 만드는 데 쓰인다고 한다.",
+                "Une pierre précieuse issue d'un autre monde qui se caractérise par son éclat mystérieux. Si l'on en croit la légende, elle serait utilisée dans le processus de synthèse sur sa planète d'origine, et permettrait de fabriquer des objets et pièces d'équipement rares.",
+                "Ein mysteriös funkelnder Tropfen aus einer anderen Welt. Dort soll er zur Synthese seltener Waffen und Ausrüstung benutzt worden sein.",
+                "Una pequeña gota de otro mundo que emite un brillo misterioso. Por lo visto, en su tierra se usa para fusionar equipo y objetos poco comunes."
+            ]
+        }
+    },
+    "235017600": {
+        "name": "Thunder Gem",
+        "type": "Item",
+        "compendium_id": 1086,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040007.png",
+        "strings": {
+            "names": [
+                "Thunder Gem",
+                "轟鳴魔石",
+                "고동치는 마석",
+                "Pierre grondante",
+                "Donnerquarz",
+                "Piedra rayo"
+            ],
+            "desc_short": [
+                "A raid material obtained from the Heartless: Large Body raid.",
+                "「無心者：大塊頭」共鬥素材",
+                "'하트리스: 라지 보디' 레이드 재료",
+                "Un matériau de raid qui s'obtient dans le raid \"Sans-cœur : Rondouillard\".",
+                "Ein Raubzugmaterial aus dem Herzlose: Adowampe Raubzug.",
+                "Material de banda conseguido en el evento de banda Sincorazón: Grandullón."
+            ],
+            "desc_long": [
+                "A magical stone from another world that holds the power of thunder. It is said to be used for synthesizing rare items and equipment in its home world.",
+                "來自遙遠異界的魔石，寄宿著雷電之力。它是異界的一種合成用素材，用於製造稀有道具與裝備。",
+                "머나먼 이계에서 유입된 마석. 번개의 힘이 깃들어 있다. 이계의 합성용 재료로, 희귀한 아이템이나 장비 등을 만드는 데 쓰인다고 한다.",
+                "Une pierre magique issue d'un autre monde qui renferme le pouvoir de la foudre. Si l'on en croit la légende, elle serait utilisée dans le processus de synthèse sur sa planète d'origine, et permettrait de fabriquer des objets et pièces d'équipement rares.",
+                "Ein magischer Stein aus einer anderen Welt.  Dort soll er zur Synthese seltener Waffen und Ausrüstung benutzt worden sein.",
+                "Una piedra mágica de otro mundo que encierra el poder del rayo. Por lo visto, en su tierra se usa para fusionar equipo y objetos poco comunes."
+            ]
+        }
+    },
+    "235017700": {
+        "name": "Frost Shard",
+        "type": "Item",
+        "compendium_id": 1087,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 500,
+        "price_sell": 50,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040008.png",
+        "strings": {
+            "names": [
+                "Frost Shard",
+                "冰凍碎片",
+                "얼어붙은 파편",
+                "Éclat glacial",
+                "Cyanitsplitter",
+                "Guijarro frío"
+            ],
+            "desc_short": [
+                "A raid material obtained from the Heartless: Large Body raid.",
+                "「無心者：大塊頭」共鬥素材",
+                "'하트리스: 라지 보디' 레이드 재료",
+                "Un matériau de raid qui s'obtient dans le raid \"Sans-cœur : Rondouillard\".",
+                "Ein Raubzugmaterial aus dem Herzlose: Adowampe Raubzug.",
+                "Material de banda conseguido en el evento de banda Sincorazón: Grandullón."
+            ],
+            "desc_long": [
+                "A magical stone shard from another world that holds the power of ice. It is said to be used for synthesizing rare items and equipment in its home world.",
+                "來自遙遠異界的魔石碎片，寄宿著寒冰之力。它是異界的一種合成用素材，用於製造稀有道具與裝備。",
+                "머나먼 이계에서 유입된 마석의 파편. 얼음의 힘이 깃들어 있다. 이계의 합성용 재료로, 희귀한 아이템이나 장비 등을 만드는 데 쓰인다고 한다.",
+                "Un tesson magique issu d'un autre monde qui renferme le pouvoir de la glace. Si l'on en croit la légende, il serait utilisé dans le processus de synthèse sur sa planète d'origine, et permettrait de fabriquer des objets et pièces d'équipement rares.",
+                "Ein magischer Stein aus einer anderen Welt.  Dort soll er zur Synthese seltener Waffen und Ausrüstung benutzt worden sein.",
+                "Un fragmento de piedra mágica procedente de otro mundo que encierra el poder del hielo. Por lo visto, en su tierra se usa para fusionar equipo y objetos poco comunes."
+            ]
+        }
+    },
     "270000100": {
         "name": "White Alcryst",
         "type": "Item",
@@ -34366,6 +34625,90 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "300002030": {
+        "name": "Riku's Prism",
+        "type": "Awakening",
+        "compendium_id": 1079,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Riku's Prism",
+                "里克的輝源",
+                "리쿠의 휘석",
+                "Prisme pour Riku",
+                "Prisma für Riku",
+                "Prisma de Riku"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "300002040": {
+        "name": "Sephiroth (KH)'s Prism",
+        "type": "Awakening",
+        "compendium_id": 1080,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Sephiroth (KH)'s Prism",
+                "賽菲羅斯(KH)的輝源",
+                "세피로스(KH)의 휘석",
+                "Prisme pour Séphiroth (KH)",
+                "Prisma für Sephiroth (KH)",
+                "Prisma de Sephiroth (KH)"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
     "310000010": {
         "name": "Olive's Prism",
         "type": "Awakening",
@@ -36153,6 +36496,111 @@
                 "Prisme pour Tsukiko",
                 "Prisma für Tsukiko",
                 "Prisma de Tsukiko"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "310000414": {
+        "name": "AI Katy's Prism",
+        "type": "Awakening",
+        "compendium_id": 9324,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "310000420": {
+        "name": "Lovely Katy's Prism",
+        "type": "Awakening",
+        "compendium_id": 9323,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Lovely Katy's Prism",
+                "可愛凱蒂的輝源",
+                "러블리 케이티의 휘석",
+                "Prisme pour Adorable Katy",
+                "Prisma für Reizende Katy",
+                "Prisma de Katy amorosa"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "310000430": {
+        "name": "A.I. Katy's Prism",
+        "type": "Awakening",
+        "compendium_id": 9324,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "A.I. Katy's Prism",
+                "A.I. 凱蒂的輝源",
+                "A.I. 케이티의 휘석",
+                "Prisme pour Katy I.A.",
+                "Prisma für KI Katy",
+                "Prisma de Katy IA"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -46924,6 +47372,258 @@
                 "Merci pour votre soutien et votre dévotion pendant toutes ces années, grâce à vous FFBE fête ses 40 M de téléchargements dans le monde entier ! Utilisez ce ticket pour invoquer une fois sur la bannière de l'invocation à paliers 5★ garantie des 40 M de téléchargements et obtenez d'incroyables récompenses !",
                 "Dank deiner jahrelangen Treue und Unterstützung freut FFBE sich über 40 Millionen Downloads weltweit! Benutze diese Karte, um  eine Garantierte 5★ 40 Mio. DL Stufenbeschwörung durchzuführen und dir großartige Belohnungen zu sichern!",
                 "¡Gracias a vuestro cariño y apoyo durante todos estos años, FFBE celebra sus 40 millones de descargas en todo el mundo! ¡Usad este tícket para realizar una invocación de pasos de 5★ garantizada 40M de descargas y haceos con rempensas alucinantes!"
+            ]
+        }
+    },
+    "1209001043": {
+        "name": "40M DL Raffle Ticket",
+        "type": "Item",
+        "compendium_id": 9321,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10295.png",
+        "strings": {
+            "names": [
+                "40M DL Raffle Ticket",
+                "4000萬下載抽獎券",
+                "4천만 다운로드 추첨 티켓",
+                "Ticket de tombola des 40 M de téléchargements",
+                "40M DL Lotterieticket",
+                "Tícket de sorteo 40M de descargas"
+            ],
+            "desc_short": [
+                "Use to perform one 40M DL raffle ticket summon.",
+                "可用來進行1次「4000萬下載抽獎券召喚」",
+                "4천만 다운로드 추첨 티켓 소환을 진행할 수 있는 티켓",
+                "Utilisez cet objet pour effectuer une invocation de ticket de tombola des 40 M de téléchargements.",
+                "Benutze dies, um eine 40M DL Lotteriebeschwörung durchzuführen.",
+                "Úsalo para realizar una invocación de tícket de sorteo 40M de descargas."
+            ],
+            "desc_long": [
+                "FINAL FANTASY BRAVE EXVIUS is proud to celebrate 40M DL worldwide! This ticket can be used to perform one 40M DL raffle ticket summon to commemorate this auspicious event.",
+                "很榮幸可以慶祝《FINAL FANTASY BRAVE EXVIUS》在全世界突破4000萬下載！這張召喚券可以進行1次「4000萬下載抽獎券召喚」以紀念這個值得慶祝的活動。",
+                "FINAL FANTASY BRAVE EXVIUS 전 세계 4천만 다운로드 기념! 이 티켓은 이 상서로운 이벤트를 기념하여 4천만 다운로드 추첨 티켓 소환에 사용할 수 있다.",
+                "FINAL FANTASY BRAVE EXVIUS est fier de célébrer ses 40 M de téléchargements dans le monde entier ! Vous pouvez utiliser ce ticket pour effectuer une invocation de ticket de tombola des 40 M de téléchargements et ainsi fêter cet événement historique !",
+                "FINAL FANTASY BRAVE EXVIUS darf sich über 40 Mio. Downloads weltweit freuen! Diese Karte kann benutzt werden, um zu diesem freudigen Anlass eine 40M DL Lotteriebeschwörung durchzuführen.",
+                "¡FINAL FANTASY BRAVE EXVIUS se enorgullece de celebrar las 40M de descargas en todo el mundo! Puedes usar este tícket para realizar una invocación de tícket de sorteo 40M de descargas y conmemorar con nosotros este fantástico evento."
+            ]
+        }
+    },
+    "1209001044": {
+        "name": "40M DL Festive Raffle Ticket",
+        "type": "Item",
+        "compendium_id": 9322,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10296.png",
+        "strings": {
+            "names": [
+                "40M DL Festive Raffle Ticket",
+                "4000萬下載慶祝抽獎券",
+                "4천만 다운로드 기념 추첨 티켓",
+                "Ticket de tombola festive des 40 M de téléchargements",
+                "Festliches 40M DL Lotterieticket",
+                "Tícket de sorteo festivo 40M de descargas"
+            ],
+            "desc_short": [
+                "Use to perform one 40M DL festive raffle ticket summon.",
+                "可用來進行1次「4000萬下載慶祝抽獎券召喚」",
+                "4천만 다운로드 기념 추첨 티켓 소환을 진행할 수 있는 티켓",
+                "Utilisez cet objet pour effectuer une invocation de ticket de tombola festive des 40 M de téléchargements.",
+                "Benutze dies, um eine Festliche 40M DL Lotteriebeschwörung durchzuführen.",
+                "Úsalo para realizar una invocación de tícket de sorteo festivo 40M de descargas."
+            ],
+            "desc_long": [
+                "FINAL FANTASY BRAVE EXVIUS is proud to celebrate 40M DL worldwide! This ticket can be used to perform one 40 million downloads festive raffle ticket summon to commemorate this auspicious event.",
+                "很榮幸可以慶祝《FINAL FANTASY BRAVE EXVIUS》在全世界突破4000萬下載！這張召喚券可以進行1次「4000萬下載慶祝抽獎券召喚」以紀念這個值得慶祝的活動。",
+                "FINAL FANTASY BRAVE EXVIUS 전 세계 4천만 다운로드 기념! 이 티켓은 이 상서로운 이벤트를 기념하여 4천만 다운로드 기념 추첨 티켓 소환에 사용할 수 있다.",
+                "FINAL FANTASY BRAVE EXVIUS est fier de célébrer ses 40 M de téléchargements dans le monde entier ! Vous pouvez utiliser ce ticket pour effectuer une invocation de ticket de tombola festive des 40 M de téléchargements et ainsi fêter cet événement historique !",
+                "FINAL FANTASY BRAVE EXVIUS darf sich über 40 Mio. Downloads weltweit freuen! Diese Karte kann benutzt werden, um zu diesem freudigen Anlass eine Festliche 40M DL Lotteriebeschwörung durchzuführen.",
+                "¡FINAL FANTASY BRAVE EXVIUS se enorgullece de celebrar las 40M de descargas en todo el mundo! Puedes usar este tícket para realizar una invocación de tícket de sorteo festivo 40M de descargas y conmemorar con nosotros este fantástico evento."
+            ]
+        }
+    },
+    "1209001045": {
+        "name": "Summon Coin (Sora/Cloud (KH))",
+        "type": "Item",
+        "compendium_id": 9325,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10258.png",
+        "strings": {
+            "names": [
+                "Summon Coin (Sora/Cloud (KH))",
+                "召喚硬幣(索拉/克勞德(KH))",
+                "소환 코인(소라/클라우드(KH))",
+                "Jeton d'invocation (Sora/Cloud (KH))",
+                "Beschwörungsmünze (Sora/Cloud (KH))",
+                "Moneda de invocación (Sora/Cloud (KH))"
+            ],
+            "desc_short": [
+                "Use this coin to exchange for items in the exchange shop.",
+                "利用此硬幣，在交換商店中兌換道具。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인",
+                "Échangez ce jeton contre des objets dans la boutique d'échange.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen.",
+                "Intercambia esta moneda por objetos en la tienda de intercambio."
+            ],
+            "desc_long": [
+                "Use this coin to exchange for items in the exchange shop. Certain summons may give these away as a small bonus.",
+                "利用此硬幣，在交換商店中兌換道具。某些召喚中的獎勵可能包含著這些硬幣。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인. 특정 소환에서 소소한 보너스로 획득할 수 있다.",
+                "Échangez ce jeton contre des objets dans la boutique d'échange. Il arrive parfois que certaines invocations vous permettent de recevoir ce genre de jetons en cadeau.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen. Du erhältst diese Münzen für gewöhnlich als kleinen Bonus in bestimmten Beschwörungen.",
+                "Intercambia esta moneda por objetos en la tienda de intercambio. Algunas invocaciones pueden dar estas monedas a modo de pequeñas bonificaciones."
+            ]
+        }
+    },
+    "1209001046": {
+        "name": "Summon Coin (Riku/Sephiroth (KH))",
+        "type": "Item",
+        "compendium_id": 9326,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10258.png",
+        "strings": {
+            "names": [
+                "Summon Coin (Riku/Sephiroth (KH))",
+                "召喚硬幣(里克/賽菲羅斯(KH))",
+                "소환 코인(리쿠/세피로스(KH))",
+                "Jeton d'invocation (Riku/Séphiroth (KH))",
+                "Beschwörungsmünze (Riku/Sephiroth (KH))",
+                "Moneda de invocación (Riku/Sephiroth (KH))"
+            ],
+            "desc_short": [
+                "Use this coin to exchange for items in the exchange shop.",
+                "利用此硬幣，在交換商店中兌換道具。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인",
+                "Échangez ce jeton contre des objets dans la boutique d'échange.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen.",
+                "Intercambia esta moneda por objetos en la tienda de intercambio."
+            ],
+            "desc_long": [
+                "Use this coin to exchange for items in the exchange shop. Certain summons may give these away as a small bonus.",
+                "利用此硬幣，在交換商店中兌換道具。某些召喚中的獎勵可能包含著這些硬幣。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인. 특정 소환에서 소소한 보너스로 획득할 수 있다.",
+                "Échangez ce jeton contre des objets dans la boutique d'échange. Il arrive parfois que certaines invocations vous permettent de recevoir ce genre de jetons en cadeau.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen. Du erhältst diese Münzen für gewöhnlich als kleinen Bonus in bestimmten Beschwörungen.",
+                "Intercambia esta moneda por objetos en la tienda de intercambio. Algunas invocaciones pueden dar estas monedas a modo de pequeñas bonificaciones."
+            ]
+        }
+    },
+    "1209001047": {
+        "name": "5★ Guaranteed (20% Featured) Ticket [Sora/Cloud (KH)]",
+        "type": "Item",
+        "compendium_id": 9327,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10243.png",
+        "strings": {
+            "names": [
+                "5★ Guaranteed (20% Featured) Ticket [Sora/Cloud (KH)]",
+                "★5確保(20%精選)召喚券[索拉/克勞德(KH)]",
+                "픽업 유닛 20% ★5 보장 소환티켓[소라/클라우드(KH)]",
+                "Ticket d'invocation d'unité 5★ garantie (20 % d'unités du moment) [Sora/Cloud (KH)]",
+                "Garantierte 5★ (20% Besondere) [Sora/Cloud (KH)] Karte",
+                "Tícket de 5★ garantizada (20% u. destacada) [Sora/Cloud (KH)]"
+            ],
+            "desc_short": [
+                "Use 4 tickets to summon a guaranteed 5★ unit with a 20% chance of being a featured unit",
+                "利用4張召喚券確保召喚1名★5兵員，其中有20%機率為精選兵員。",
+                "티켓 4장을 사용하여 20% 확률로 등장하는 ★5 보장 픽업 유닛을 소환할 수 있다.",
+                "Utilisez 4 tickets pour invoquer une unité 5★ garantie avec 20% de chances d'obtenir une unité du moment",
+                "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören, bei der es sich zu 20% um eine Besondere Einheit handelt.",
+                "Usa 4 tíckets para invocar una unidad de 5★ garantizada con un 20% de probabilidad de que sea una unidad destacada."
+            ],
+            "desc_long": [
+                "Use 4 tickets to perform one summon guaranteed to yield a 5★ unit. That unit has a 20% chance of being one of the currently featured.",
+                "利用4張召喚券確保召喚1名★5兵員，其中有20%機率為精選兵員。",
+                "티켓 4장을 사용하여 ★5 유닛 보장 소환을 1회 진행할 수 있다. 해당 유닛은 20% 확률로 등장하는 최근 픽업 유닛 중 한 명이다.",
+                "Utilisez 4 tickets pour effectuer une invocation garantissant l'obtention d'une unité 5★, qui a 20% de chances d'être une unité du moment.",
+                "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören.  Bei der beschworenen Einheit wird es sich zu 20% um eine der aktuellen Besonderen Einheiten handeln.",
+                "Usa 4 tickets para invocar a una unidad de 5★ garantizada. Dicha unidad tiene un 20% de probabilidad de ser una de las unidades destacadas del momento."
+            ]
+        }
+    },
+    "1209001048": {
+        "name": "5★ Guaranteed (20% Featured) Ticket [Riku/Sephiroth (KH)]",
+        "type": "Item",
+        "compendium_id": 9328,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10243.png",
+        "strings": {
+            "names": [
+                "5★ Guaranteed (20% Featured) Ticket [Riku/Sephiroth (KH)]",
+                "★5確保(20%精選)召喚券[里克/賽菲羅斯(KH)]",
+                "픽업 유닛 20% ★5 보장 소환티켓[리쿠/세피로스(KH)]",
+                "Ticket d'invocation d'unité 5★ garantie (20 % d'unités du moment) [Riku/Séphiroth (KH)]",
+                "Garantierte 5★ (20% Besondere) [Riku/Sephiroth (KH)] Karte",
+                "Tícket de 5★ garantizada (20% u. destacada) [Riku/Sephiroth (KH)]"
+            ],
+            "desc_short": [
+                "Use 4 tickets to summon a guaranteed 5★ unit with a 20% chance of being a featured unit",
+                "利用4張召喚券確保召喚1名★5兵員，其中有20%機率為精選兵員。",
+                "티켓 4장을 사용하여 20% 확률로 등장하는 ★5 보장 픽업 유닛을 소환할 수 있다.",
+                "Utilisez 4 tickets pour invoquer une unité 5★ garantie avec 20% de chances d'obtenir une unité du moment",
+                "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören, bei der es sich zu 20% um eine Besondere Einheit handelt.",
+                "Usa 4 tíckets para invocar una unidad de 5★ garantizada con un 20% de probabilidad de que sea una unidad destacada."
+            ],
+            "desc_long": [
+                "Use 4 tickets to perform one summon guaranteed to yield a 5★ unit. That unit has a 20% chance of being one of the currently featured.",
+                "利用4張召喚券確保召喚1名★5兵員，其中有20%機率為精選兵員。",
+                "티켓 4장을 사용하여 ★5 유닛 보장 소환을 1회 진행할 수 있다. 해당 유닛은 20% 확률로 등장하는 최근 픽업 유닛 중 한 명이다.",
+                "Utilisez 4 tickets pour effectuer une invocation garantissant l'obtention d'une unité 5★, qui a 20% de chances d'être une unité du moment.",
+                "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören.  Bei der beschworenen Einheit wird es sich zu 20% um eine der aktuellen Besonderen Einheiten handeln.",
+                "Usa 4 tickets para invocar a una unidad de 5★ garantizada. Dicha unidad tiene un 20% de probabilidad de ser una de las unidades destacadas del momento."
             ]
         }
     },
