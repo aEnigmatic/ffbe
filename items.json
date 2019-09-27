@@ -893,6 +893,27 @@
             ]
         }
     },
+    "101004000": {
+        "name": "プレゼントクッキー",
+        "type": "Consumable",
+        "compendium_id": 902,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": true,
+        "flags": [true, true, false, false, false, false],
+        "carry_limit": 5,
+        "stack_size": 99,
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects_raw": [[1, 2, 71, [300820,  1]]],
+        "icon": "item_1035.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "102000100": {
         "name": "Antidote",
         "type": "Consumable",
@@ -1754,7 +1775,7 @@
                 "炸彈碎片",
                 "봄의 파편",
                 "Éclat de bombo",
-                "Bombensplitter",
+                "Bomber-Fragment",
                 "Trozo de bom"
             ],
             "desc_short": [
@@ -1796,7 +1817,7 @@
                 "炸彈右臂",
                 "봄의 오른팔",
                 "Poigne de bombo",
-                "Bombenarm",
+                "Bomberarm",
                 "Brazo de bom"
             ],
             "desc_short": [
@@ -4875,6 +4896,237 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "106211420": {
+        "name": "[期間限定]FFBE召喚券[S.S]2019/2",
+        "type": "Consumable",
+        "compendium_id": 885,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9235.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211430": {
+        "name": "[復刻]ゼノギアス限定交換券2019/2",
+        "type": "Consumable",
+        "compendium_id": 886,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9202.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211440": {
+        "name": "ギフト召喚チケット2019/3",
+        "type": "Consumable",
+        "compendium_id": 887,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9219.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211450": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 888,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211460": {
+        "name": "[期間限定]FFI交換券[W]2019/3",
+        "type": "Consumable",
+        "compendium_id": 893,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9235.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "106211880": {
+        "name": "DQ XI S Special Unit Summoning Key [Silver]",
+        "type": "Item",
+        "compendium_id": 9331,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050007.png",
+        "strings": {
+            "names": [
+                "DQ XI S Special Unit Summoning Key [Silver]",
+                "DQ XI S 特別兵員召喚鑰匙 [白銀]",
+                "DQ XI S 스페셜 유닛 소환 열쇠[실버]",
+                "Clé d'invocation d'unité spéciale DQ XI S [Argent]",
+                "DQ XI S Spezialeinheit-Beschwörungsschlüssel (Silber)",
+                "Llave de invocación de unidad especial DQ XI S [Plata]"
+            ],
+            "desc_short": [
+                "An exchange key that can be used to obtain specific units.",
+                "可用來獲得特定兵員的交換鑰匙。",
+                "특정 유닛을 획득하는데 사용하는 교환 열쇠",
+                "Une clé d'échange qui peut être utilisée pour obtenir des unités spécifiques.",
+                "Ein Austauschschlüssel, der benutzt werden kann, um bestimmte Einheiten zu erhalten.",
+                "Una llave de intercambio que se puede usar para obtener unidades específicas."
+            ],
+            "desc_long": [
+                "After collecting 5 of them, these exchange keys can be used to obtain one of the limited time units featured on the banners accessible via Summons > Limited Time Tab > [DRAGON QUEST XI S Limited Time Silver Exchange: Eleven/Veronica/Serena]",
+                "收集5把鑰匙，並利用它們獲得1名期間限定精選兵員，透過召喚＞期間限定分頁＞[DRAGON QUEST XI S 限定白銀交換：伊雷本/薇若妮卡/雪妮雅] 進行交換。",
+                "해당 열쇠를 5개 모은 후, 소환> 기간 한정 > 'DRAGON QUEST XI S 기간 한정 실버 교환: E/V/S'로 이동하여 배너 내 기간 한정 픽업 유닛 중 1명과 교환하는 데 사용할 수 있다.",
+                "Après en avoir collecté 5, ces clés d'échange peuvent être utilisées pour obtenir une des unités disponibles pour une durée limitée en vous rendant sur l'onglet Invocations > Durée limitée > [Échange limité DRAGON QUEST XI S [Argent] : Onze/Véronica/Séréna]",
+                "Wenn 5 dieser Austauschschlüssel gesammelt wurden, können sie benutzt werden, um eine der zeitbegrenzten Einheiten auf den Bannern zu erhalten, auf die du über Beschwörungen > Zeitbegrenzt > DRAGON QUEST XI S Zeitbegrenzter Austausch (Silber): Elf/Veronika/Serena zugreifen kannst.",
+                "Tras reunir 5, estas llaves de intercambio se pueden usar para obtener una de las unidades de tiempo limitado que aparecen en las banderolas, accesibles desde Invocaciones > pestaña de Tiempo limitado > [Intercambio limitado de plata de DRAGON QUEST XI S: Once/Verónica/Serena]"
+            ]
+        }
+    },
+    "106211890": {
+        "name": "DQ XI S Special Unit Summoning Key [Gold]",
+        "type": "Item",
+        "compendium_id": 9329,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050008.png",
+        "strings": {
+            "names": [
+                "DQ XI S Special Unit Summoning Key [Gold]",
+                "DQ XI S 特別兵員召喚鑰匙 [黃金]",
+                "DQ XI S 스페셜 유닛 소환 열쇠[골드]",
+                "Clé d'invocation d'unité spéciale DQ XI S [Or]",
+                "DQ XI S Spezialeinheit-Beschwörungsschlüssel (Gold)",
+                "Llave de invocación de unidad especial DQ XI S [Oro]"
+            ],
+            "desc_short": [
+                "An exchange key that can be used to obtain specific units.",
+                "可用來獲得特定兵員的交換鑰匙。",
+                "특정 유닛을 획득하는데 사용하는 교환 열쇠",
+                "Une clé d'échange qui peut être utilisée pour obtenir des unités spécifiques.",
+                "Ein Austauschschlüssel, der benutzt werden kann, um bestimmte Einheiten zu erhalten.",
+                "Una llave de intercambio que se puede usar para obtener unidades específicas."
+            ],
+            "desc_long": [
+                "After collecting 5 of them, these exchange keys can be used to obtain one of the limited time units featured on the banners accessible via Summons > Limited Time Tab > [DRAGON QUEST XI S Limited Time Gold Exchange: Eleven], [DRAGON QUEST XI S Limited Time Gold Exchange: Veronica] or [DRAGON QUEST XI S Limited Time Gold Exchange: Serena]",
+                "收集5把鑰匙，並利用它們獲得1名期間限定精選兵員，透過召喚＞期間限定分頁＞[DRAGON QUEST XI S 限定黃金交換：伊雷本]、[DRAGON QUEST XI S 限定黃金交換：薇若妮卡]或[DRAGON QUEST XI S 限定黃金交換：雪妮雅]進行交換。",
+                "해당 열쇠를 5개 모은 후, 소환> 기간 한정 > 'DRAGON QUEST XI S 기간 한정 골드 교환: 용사 일레븐', 'DRAGON QUEST XI S 기간 한정 골드 교환: 베로니카' 또는 'DRAGON QUEST XI S 기간 한정 골드 교환: 세냐'로 이동하여 배너 내 기간 한정 픽업 유닛 중 1명과 교환하는 데 사용할 수 있다.",
+                "Après en avoir collecté 5, ces clés d'échange peuvent être utilisées pour obtenir une des unités disponibles pour une durée limitée en vous rendant sur l'onglet Invocations > Durée limitée > [Échange limité DRAGON QUEST XI S [Or] : Onze], [Échange limité DRAGON QUEST XI S [Or] : Véronica] ou [Échange limité DRAGON QUEST XI S [Or] : Séréna]",
+                "Wenn 5 dieser Austauschschlüssel gesammelt wurden, können sie benutzt werden, um eine der zeitbegrenzten Einheiten auf den Bannern zu erhalten, auf die du über Beschwörungen > Zeitbegrenzt > DRAGON QUEST XI S Zeitbegrenzter Austausch (Gold): Elf, DRAGON QUEST XI S Zeitbegrenzter Austausch (Gold): Veronika oder DRAGON QUEST XI S Zeitbegrenzter Austausch (Gold): Serena zugreifen kannst.",
+                "Tras reunir 5, estas llaves de intercambio se pueden usar para obtener una de las unidades de tiempo limitado que aparecen en las banderolas, accesibles desde Invocaciones > pestaña de Tiempo limitado > [Intercambio limitado de oro de DRAGON QUEST XI S: Once], [Intercambio limitado de oro de DRAGON QUEST XI S: Verónica] o [Intercambio limitado de oro de DRAGON QUEST XI S: Serena]"
+            ]
+        }
+    },
+    "106211910": {
+        "name": "Guaranteed 5★ Special Summon Ticket",
+        "type": "Consumable",
+        "compendium_id": 1104,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png",
+        "strings": {
+            "names": [
+                "Guaranteed 5★ Special Summon Ticket",
+                "[期間限定]★5確定SP召喚券",
+                "[기간 한정] ★5 보장 스페셜 소환티켓",
+                "Ticket d'invocation spéciale 5★ garantie",
+                "Garantierte 5★ Spezialbeschwörungskarte",
+                "Tícket de invocación especial de 5★ garantizada"
+            ],
+            "desc_short": [
+                "A limited time summon ticket from a special event.",
+                "可從特別活動中獲得的期間限定召喚券",
+                "스페셜 이벤트에서 획득할 수 있는 기간 한정 소환 티켓",
+                "Un ticket d'invocation à durée limitée utilisable pendant un événement spécial.",
+                "Eine zeitbegrenzte Beschwörungskarte für ein spezielles Ereignis.",
+                "Un tícket de invocación limitado para un evento especial."
+            ],
+            "desc_long": [
+                "A limited time summon ticket from a special event. This ticket can be used to summon a guaranteed 5★ unit.",
+                "透過特別活動可獲得的期間限定召喚券。利用這張召喚券可確保召喚1名★5兵員。",
+                "스페셜 이벤트를 통해 받을 수 있는 기간 한정 소환티켓. ★5 유닛 보장 소환 시 사용할 수 있다.",
+                "Un ticket d'invocation à durée limitée utilisable pendant un événement spécial. Il sert à invoquer une unité 5★ à coup sûr.",
+                "Eine zeitbegrenzte Beschwörungskarte für ein spezielles Ereignis. Diese Karte kann benutzt werden, um eine Garantierte 5★ Einheit zu beschwören.",
+                "Un tícket de invocación limitado para un evento especial. Este tícket se puede usar para invocar una unidad garantizada de 5★."
+            ]
+        }
+    },
     "106300100": {
         "name": "Auracite Shard",
         "type": "Consumable",
@@ -6927,7 +7179,7 @@
                 "A beautiful, transparent bottle that came from the faraway world of Eos. Various elements can be combined inside this empty bottle to create magic that can be used later. If lucky, one may not lose the magic in the bottle after it has been cast.",
                 "來自異界伊歐斯的通透漂亮的空瓶子。在異界伊歐斯，這種瓶子用來存儲與組合各種元素，並在適當的時候用來釋放魔法。而且據說用這種瓶子使用的魔法，有時會有不消耗其元素力量的幸運效果。",
                 "이계 이오스에서 유입된, 아름답고 투명한 빈 병. 이계 이오스에서는 내부에 각종 속성을 조합하여 축적했다가 사용하고 싶을 때 마법을 사용할 수 있다. 또한, 이 병을 사용한 마법은 때때로 그 힘을 소비하지 않고도 발동하는 운 좋은 효과도 있다고 한다.",
-                "Une jolie bouteille transparente venue du monde lointain d'Eos. Il est possible de combiner divers éléments à l'intérieur afin de créer des sorts et de les conserver pour plus tard. Avec de l'ingéniosité et un peu de chance, il arrive même que les sorts s'accompagnent d'effets bien pratiques.",
+                "Une jolie bouteille transparente venue du monde lointain d'Éos. Il est possible de combiner divers éléments à l'intérieur afin de créer des sorts et de les conserver pour plus tard. Avec de l'ingéniosité et un peu de chance, il arrive même que les sorts s'accompagnent d'effets bien pratiques.",
                 "Eine hübsche, durchsichtige Flasche aus der weit entfernten Welt Eos. Man kann verschiedene Elemente in dieser leeren Flasche kombinieren, um Magie zu erschaffen, die später verwendet werden kann. Wenn man Glück hat, geht sie sogar dann nicht verloren, wenn man sie bereits eingesetzt hat.",
                 "Una hermosa botella transparente procedente del lejano mundo de Eos. Se pueden combinar en ella varios elementos para crear magia y usarla más adelante. Con suerte, puede que la magia de la botella no se desvanezca tras invocarla."
             ]
@@ -7899,6 +8151,27 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "106307500": {
+        "name": "ワープキューブ",
+        "type": "Consumable",
+        "compendium_id": 889,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9236.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "106308800": {
         "name": "Large Body Raid Coin",
         "type": "Consumable",
@@ -7938,6 +8211,48 @@
                 "Une pièce sur laquelle est gravée l'image d'un Sans-cœur nommé \"Rondouillard\", un être dénué d'émotions originaire d'un autre monde. Selon la légende, seuls ceux qui ont le courage de persévérer dans leur combat quand le désespoir est à son comble sont dignes d'obtenir cet artefact.",
                 "Eine Münze, auf der Adowampe abgebildet ist, eine Art der Herzlosen aus einer fernen Welt, die zu keinerlei Gefühlen fähig sind. Es heißt, dass nur jene, die selbst im Angesicht überwältigender Stärke standhaft bleiben und tapfer kämpfen, dieser Münze habhaft werden können.",
                 "Una moneda con la efigie de Grandullón, un tipo de sincorazón. Los sincorazón son criaturas sin sentimientos que proceden de otro mundo. Cuenta la leyenda que solo pueden obtener esta moneda aquellos que no se rinden nunca ante la adversidad y tienen el valor de luchar hasta en las peores situaciones."
+            ]
+        }
+    },
+    "106308900": {
+        "name": "Drasilan Guinea",
+        "type": "Consumable",
+        "compendium_id": 1094,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050003.png",
+        "strings": {
+            "names": [
+                "Drasilan Guinea",
+                "尤格諾爾銀幣",
+                "유그노아 은화",
+                "Guinée drasilienne",
+                "Eschenburger Groschen",
+                "Guinea drasileña"
+            ],
+            "desc_short": [
+                "These coins were once used in a country called Dundrasil, located in another world.",
+                "曾經在異界尤格諾爾王國使用的銀幣",
+                "이계의 유그노아 왕국에서 사용되던 은화",
+                "Pièces qui constituaient autrefois la monnaie d'un pays appelé Fordrasil, situé dans un autre monde.",
+                "Diese Münzen wurden einst in einem Land namens Eschenburg benutzt, das in einer anderen Welt liegt.",
+                "Antaño, estas monedas se utilizaban en una nación de otro mundo llamada Dundrasil."
+            ],
+            "desc_long": [
+                "These coins were once the currency of a country called Dundrasil—a kingdom in a wondrous world known as Erdrea. As a result of Dundrasil's destruction, they are rare enough to be prized by those in the know, and are bought and sold for serious sums. Other Drasilian coins are said to have included the shilling and the sovereign.",
+                "據說曾經在異界羅德賽塔西亞存在過的尤格諾爾王國使用的貨幣。王國滅亡後，不時有人當作收藏品以高價收購。據說除了銀幣，好像還有銅幣和金幣。",
+                "이계 로토제타시아에 존재했던 나라, 유그노아 왕국에서 사용되던 화폐. 왕국이 멸망한 이후로는 높은 희소가치의 아이템으로서 고가에 거래되고 있다. 유그노아에는 은화 이외에도 동화나 금화도 존재했다고 전해진다.",
+                "Pièces qui constituaient autrefois la monnaie d'un pays appelé Fordrasil, un royaume situé dans un monde merveilleux baptisé Elréa. Suite à la destruction de Fordrasil, leur rareté en fait des objets prisés par les collectionneurs et elles s'échangent contre des sommes importantes. On dit que la monnaie drasilienne comprenait aussi le sou et le souverain.",
+                "Diese Münzen waren einst die Währung des Landes Eschenburg - ein Königreich in einer wundersamen Welt namens Erdria. Infolge von Eschenburgs Zerstörung sind sie heute so selten, dass sie von Kennern sehr geschätzt werden und gegen hohe Beträge den Besitzer wechseln. Heller und Taler sollen weitere Eschenburger Münzen gewesen sein.",
+                "Antaño, estas monedas eran la divisa de Dundrasil, un reino de un mundo fantástico llamado Erdrea. Tras la destrucción de Dundrasil, quedan muy pocas y son muy codiciadas por los coleccionistas, que pagan grandes sumas de dinero por ellas. Otras monedas que se dice fueron de curso legal en Dundrasil son los chelines y los reales drasileños."
             ]
         }
     },
@@ -24720,6 +25035,258 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "235006000": {
+        "name": "紅蓮の涙",
+        "type": "Item",
+        "compendium_id": 878,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8486.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006100": {
+        "name": "千金石",
+        "type": "Item",
+        "compendium_id": 879,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8487.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006200": {
+        "name": "ゴールドパウダー",
+        "type": "Item",
+        "compendium_id": 880,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8488.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006300": {
+        "name": "紫分子体",
+        "type": "Item",
+        "compendium_id": 881,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8489.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006400": {
+        "name": "黒の螺旋角",
+        "type": "Item",
+        "compendium_id": 882,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8490.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006500": {
+        "name": "バレンタインカカオ",
+        "type": "Consumable",
+        "compendium_id": 883,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": true,
+        "flags": [true, true, false, true, false, false],
+        "carry_limit": 5,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": ["Restore 200 HP and 20 MP to target"],
+        "effects_raw": [[1, 6, 71, [231290,  1]]],
+        "icon": "item_1034.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235006600": {
+        "name": "ルルカのチョコレートドリンク",
+        "type": "Consumable",
+        "compendium_id": 884,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": true,
+        "flags": [true, true, false, true, false, false],
+        "carry_limit": 1,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects_raw": [[1, 2, 71, [231291,  1]]],
+        "icon": "item_1033.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235007000": {
+        "name": "深紅の手織布",
+        "type": "Item",
+        "compendium_id": 895,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8491.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235007100": {
+        "name": "輝く魔糸",
+        "type": "Item",
+        "compendium_id": 896,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8435.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235007200": {
+        "name": "緋色の羽根",
+        "type": "Item",
+        "compendium_id": 897,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8492.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235007300": {
+        "name": "割れた宝珠",
+        "type": "Item",
+        "compendium_id": 898,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8493.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "235007400": {
+        "name": "蒼空の石",
+        "type": "Item",
+        "compendium_id": 899,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8494.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "235017300": {
         "name": "Orichalcum (KH)",
         "type": "Item",
@@ -27723,7 +28290,7 @@
                 "精靈光粉",
                 "정령의 빛가루",
                 "Poudre d'âme",
-                "Elementarsand",
+                "Seelensand",
                 "Arena espiritual"
             ],
             "desc_short": [
@@ -34625,6 +35192,153 @@
             "desc_long": [null, null, null, null, null, null]
         }
     },
+    "300001520": {
+        "name": "白百合の魔人フィーナの輝源",
+        "type": "Awakening",
+        "compendium_id": 875,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001530": {
+        "name": "スウィートニコルの輝源",
+        "type": "Awakening",
+        "compendium_id": 876,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001540": {
+        "name": "スウィートルルカの輝源",
+        "type": "Awakening",
+        "compendium_id": 877,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001550": {
+        "name": "ウォーリア オブ ライトの輝源",
+        "type": "Awakening",
+        "compendium_id": 890,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001560": {
+        "name": "輪廻の騎士ガーランドの輝源",
+        "type": "Awakening",
+        "compendium_id": 891,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001570": {
+        "name": "シャンティレーナの輝源",
+        "type": "Awakening",
+        "compendium_id": 892,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "300001580": {
+        "name": "アルドール王レインの輝源",
+        "type": "Awakening",
+        "compendium_id": 894,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
     "300002030": {
         "name": "Riku's Prism",
         "type": "Awakening",
@@ -34690,6 +35404,174 @@
                 "Prisme pour Séphiroth (KH)",
                 "Prisma für Sephiroth (KH)",
                 "Prisma de Sephiroth (KH)"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "300002050": {
+        "name": "Mordegon's Prism",
+        "type": "Awakening",
+        "compendium_id": 1088,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Mordegon's Prism",
+                "魔道士兀爾諾加輝源",
+                "마도사 우르노가의 휘석",
+                "Prisme pour Mortégor",
+                "Prisma für Hagrimor",
+                "Prisma de Mórdegon"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "300002070": {
+        "name": "Eleven's Prism",
+        "type": "Awakening",
+        "compendium_id": 1090,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Eleven's Prism",
+                "伊雷本輝源",
+                "용사 일레븐의 휘석",
+                "Prisme pour Onze",
+                "Prisma für Elf",
+                "Prisma de Once"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "300002080": {
+        "name": "Veronica's Prism",
+        "type": "Awakening",
+        "compendium_id": 1091,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Veronica's Prism",
+                "薇若妮卡輝源",
+                "베로니카의 휘석",
+                "Prisme pour Véronica",
+                "Prisma für Veronika",
+                "Prisma de Verónica"
+            ],
+            "desc_short": [
+                "A rainbow colored stone that holds a mysterious power.",
+                "寄宿著不可思議力量的虹色石頭",
+                "신비한 힘이 깃든 무지개색 돌",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir.",
+                "Ein regenbogenfarbener Stein, dem eine geheimnisvolle Kraft innewohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder."
+            ],
+            "desc_long": [
+                "A rainbow colored stone that holds a mysterious power. These stones are formed from the crystallization of intense energy, and constantly emits a divine glow. Those who are deemed worthy of obtaining these stones are endowed with the power of awakening.",
+                "寄宿著不可思議力量的虹色石頭，是強大的能量結晶成塊的產物，總是散發著神秘的光芒。據說身份相符的人獲得該石頭，就會獲得強大的「覺醒之力」。",
+                "신비한 힘이 깃든 무지개색 돌. 강력한 에너지 덩어리가 결정으로 변한 것으로, 항상 신비하게 반짝인다. 돌에 어울리는 자가 손에 들면, 그자에게 위대한 '각성의 힘'을 부여한다고 한다.",
+                "Une pierre aux couleurs de l'arc-en-ciel qui possède un mystérieux pouvoir. Ces pierres se forment à partir de la cristallisation d'une grande quantité d'énergie et brillent constamment d’un éclat proche du divin. Ceux qui se montrent suffisamment braves pour en porter une possèdent le pouvoir de l'éveil.",
+                "Ein regenbogenfarbener Stein, dem eine mysteriöse Kraft inne wohnt. Diese Steine werden durch die Kristallisierung heftiger Energie geformt und geben kontinuierlich ein mysteriöses Funkeln von sich. Jene, die sich als würdig erweisen, diese Steine zu besitzen, werden mit der Kraft des Erweckens belohnt.",
+                "Una piedra del color del arcoíris que alberga un misterioso poder. Estas piedras se forman a partir de la cristalización de una energía intensa, por lo que emiten un brillo divino de forma constante. Todo aquel que se considere digno de hacerse con estas piedras terminará adquiriendo el poder del despertar."
+            ]
+        }
+    },
+    "300002090": {
+        "name": "Serena's Prism",
+        "type": "Awakening",
+        "compendium_id": 1092,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 199,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png",
+        "strings": {
+            "names": [
+                "Serena's Prism",
+                "雪妮雅輝源",
+                "세냐의 휘석",
+                "Prisme pour Séréna",
+                "Prisma für Serena",
+                "Prisma de Serena"
             ],
             "desc_short": [
                 "A rainbow colored stone that holds a mysterious power.",
@@ -47624,6 +48506,48 @@
                 "Utilisez 4 tickets pour effectuer une invocation garantissant l'obtention d'une unité 5★, qui a 20% de chances d'être une unité du moment.",
                 "Benutze 4 Karten, um eine garantierte 5★ Einheit zu beschwören.  Bei der beschworenen Einheit wird es sich zu 20% um eine der aktuellen Besonderen Einheiten handeln.",
                 "Usa 4 tickets para invocar a una unidad de 5★ garantizada. Dicha unidad tiene un 20% de probabilidad de ser una de las unidades destacadas del momento."
+            ]
+        }
+    },
+    "1209001050": {
+        "name": "Summon Coin (E/V/S)",
+        "type": "Item",
+        "compendium_id": 9330,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 9999,
+        "price_buy": 10,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "global_item_10258.png",
+        "strings": {
+            "names": [
+                "Summon Coin (E/V/S)",
+                "召喚硬幣(E/V/S)",
+                "소환 코인(E/V/S)",
+                "Jeton d'invocation (O/V/S)",
+                "Beschwörungsmünze (E/V/S)",
+                "Moneda de invocación (O/V/S)"
+            ],
+            "desc_short": [
+                "Use this coin to exchange for items in the exchange shop.",
+                "利用此硬幣，在交換商店中兌換道具。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인",
+                "Échangez ce jeton contre des objets dans la boutique d'échange.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen.",
+                "Esta moneda se puede canjear por objetos en la tienda de intercambio."
+            ],
+            "desc_long": [
+                "Use this coin to exchange for items in the exchange shop. Certain summons may give these away as a small bonus.",
+                "利用此硬幣，在交換商店中兌換道具。某些召喚中的獎勵可能包含著這些硬幣。",
+                "교환 상점에서 아이템과 교환할 수 있는 코인. 특정 소환에서 소소한 보너스로 획득할 수 있다.",
+                "Échangez ce jeton contre des objets dans la boutique d'échange. Il arrive parfois que certaines invocations vous permettent de recevoir ce genre de jetons en cadeau.",
+                "Benutze diese Münze, um sie für Gegenstände im Tauschladen einzutauschen. Du erhältst diese Münzen für gewöhnlich als kleinen Bonus in bestimmten Beschwörungen.",
+                "Esta moneda se puede canjear por objetos en la tienda de intercambio. Algunas invocaciones otorgan estas monedas como bonificación."
             ]
         }
     },
