@@ -5300,7 +5300,7 @@
         "requirements": null
     },
     "70444": {
-        "name": "フラッドII",
+        "name": "Flood II",
         "icon": "ability_35.png",
         "compendium_id": 172,
         "rarity": 8,
@@ -5325,7 +5325,7 @@
         "requirements": null
     },
     "70445": {
-        "name": "フラッドII",
+        "name": "Flood II",
         "icon": "ability_35.png",
         "compendium_id": 172,
         "rarity": 8,
@@ -5343,15 +5343,15 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (1x, MAG) to one enemy",
-            "Magic water damage (6x, MAG) to one enemy",
-            "Reduce resistance to Water by 100% for 3 turns to one enemy"
+            "Magic water damage (2x, MAG) to one enemy",
+            "Magic water damage (8x, MAG) to one enemy",
+            "Reduce resistance to Water by 80% for 3 turns to one enemy"
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [1, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  800,  0]], [1, 1, 33, [0,  0,  0,  -80,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "70446": {
-        "name": "フレアII",
+        "name": "Flare II",
         "icon": "ability_30.png",
         "compendium_id": 169,
         "rarity": 8,
@@ -5376,7 +5376,7 @@
         "requirements": null
     },
     "70447": {
-        "name": "フレアII",
+        "name": "Flare II",
         "icon": "ability_30.png",
         "compendium_id": 169,
         "rarity": 8,
@@ -5394,11 +5394,11 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (1x, MAG) to one enemy",
-            "Magic fire damage (6x, MAG) to one enemy",
-            "Reduce resistance to Fire by 100% for 3 turns to one enemy"
+            "Magic fire damage (2x, MAG) to one enemy",
+            "Magic fire damage (8x, MAG) to one enemy",
+            "Reduce resistance to Fire by 80% for 3 turns to one enemy"
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  800,  0]], [1, 1, 33, [-80,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "91000": {
@@ -5864,6 +5864,200 @@
         "element_inflict": null,
         "effects": ["Restore 2200 (+15x, Heal) HP to all allies"],
         "effects_raw": [[2, 6, 2, [0,  0,  2200,  1500,  100]]],
+        "requirements": null
+    },
+    "91021": {
+        "name": "Regen (Auto)",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 4,
+        "cost": {"MP": 3},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 1200 (+1.8x, Heal) HP per turn to one ally"],
+        "effects_raw": [[1, 2, 8, [180,  1,  1200,  -1]]],
+        "requirements": null
+    },
+    "91022": {
+        "name": "Regen (Auto)",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 4,
+        "cost": {"MP": 3},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 1800 (+1.8x, Heal) HP per turn to one ally"],
+        "effects_raw": [[1, 2, 8, [180,  1,  1800,  -1]]],
+        "requirements": null
+    },
+    "91023": {
+        "name": "Stonega V",
+        "icon": "ability_28.png",
+        "compendium_id": 162,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Earth"],
+        "effects": [
+            "Magic earth damage (4x, MAG) to all enemies",
+            "Magic earth damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
+        "requirements": null
+    },
+    "91024": {
+        "name": "Waterga V",
+        "icon": "ability_23.png",
+        "compendium_id": 163,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": [
+            "Magic water damage (4x, MAG) to all enemies",
+            "Magic water damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
+        "requirements": null
+    },
+    "91025": {
+        "name": "Aeroga V",
+        "icon": "ability_25.png",
+        "compendium_id": 164,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Wind"],
+        "effects": [
+            "Magic wind damage (4x, MAG) to all enemies",
+            "Magic wind damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
+        "requirements": null
+    },
+    "91026": {
+        "name": "Firaga V",
+        "icon": "ability_21.png",
+        "compendium_id": 165,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            "Magic fire damage (4x, MAG) to all enemies",
+            "Magic fire damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
+        "requirements": null
+    },
+    "91027": {
+        "name": "Blizzaga V",
+        "icon": "ability_22.png",
+        "compendium_id": 166,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Ice"],
+        "effects": [
+            "Magic ice damage (4x, MAG) to all enemies",
+            "Magic ice damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
+        "requirements": null
+    },
+    "91028": {
+        "name": "Thundaga V",
+        "icon": "ability_20.png",
+        "compendium_id": 167,
+        "rarity": 8,
+        "cost": {"MP": 70},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [4, 1],
+        "attack_damage": [[25,  25,  25,  25], [100]],
+        "attack_frames": [[52,  72,  92,  112], [132]],
+        "effect_frames": [[50,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            "Magic lightning damage (4x, MAG) to all enemies",
+            "Magic lightning damage (8x, MAG) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]]],
         "requirements": null
     }
 }

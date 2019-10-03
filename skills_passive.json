@@ -16856,8 +16856,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the damage of Blaster (226911), Lightning Spear Jab (226912), Panther Strike (226910), Thunder Fang (507490) and Thunder Spear (226913) by (0.7x)"],
-        "effects_raw": [[0, 3, 73, [[226910,  226911,  226912,  226913,  507490], 0, 0, 70]]],
+        "effects": ["Increase the damage of Blaster (226911), Blaster+1 (913047), Blaster+2 (913048), Lightning Spear Jab (226912), Lightning Spear Jab+1 (707675), Lightning Spear Jab+2 (707676), Panther Strike (226910), Panther Strike+1 (913045), Panther Strike+2 (913046), Thunder Fang (507490), Thunder Spear (226913), Thunder Spear+1 (707677) and Thunder Spear+2 (707678) by (0.7x)"],
+        "effects_raw": [[0, 3, 73, [[226910,  226911,  226912,  226913,  507490,  707675,  707676,  707677,  707678,  913045,  913046,  913047,  913048], 0, 0, 70]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18047,7 +18047,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": ["Increase MAG by 50%"],
-        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18079,7 +18079,7 @@
             "20% chance to counter physical attacks with You're making me lose my temper, dear! (507691) to caster (max 1 / turn)",
             "20% chance to counter magic attacks with You're making me lose my temper, dear! (507691) to caster (max 1 / turn)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0]], [0, 3, 49, [20,  3,  507691,  1]], [0, 3, 50, [20,  3,  507691,  1]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  0,  0]], [0, 3, 49, [20,  3,  507691,  1]], [0, 3, 50, [20,  3,  507691,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18111,9 +18111,9 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to all status effects by 100%",
-            "Increase the damage of Cross Smash (507706, 507707), Doom Arc (507710, 507711), Dynamic Assault (507700, 507701), Dynamic Implosion (507708, 507709), Oblivion Smash (507704, 507705) and Violent Rupture (507702, 507703) by (1x)"
+            "Increase the damage of Cross Smash (507706, 507707), Cross Smash+1 (913075, 913076), Cross Smash+2 (913077, 913078), Doom Arc (507710, 507711), Doom Arc+1 (509672, 509673), Doom Arc+2 (509674, 509675), Dynamic Assault (507700, 507701), Dynamic Implosion (507708, 507709), Dynamic Implosion+1 (509676, 509677), Dynamic Implosion+2 (509678, 509679), Oblivion Smash (507704, 507705) and Violent Rupture (507702, 507703) by (1x)"
         ],
-        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 3, 73, [[507700,  507701,  507702,  507703,  507704,  507705,  507706,  507707,  507708,  507709,  507710,  507711], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 3, 73, [[507700,  507701,  507702,  507703,  507704,  507705,  507706,  507707,  507708,  507709,  507710,  507711,  509672,  509673,  509674,  509675,  509676,  509677,  509678,  509679,  913075,  913076,  913077,  913078], 0, 0, 100]]],
         "requirements": [["EQUIP", 504227237], ["EQUIP", 302005800]],
         "unit_restriction": null
     },
@@ -38792,7 +38792,7 @@
         "unit_restriction": null
     },
     "231140": {
-        "name": "ブラッドウェポン",
+        "name": "Blood Weapon",
         "icon": "ability_6.png",
         "compendium_id": 5874,
         "rarity": 8,
@@ -38806,7 +38806,7 @@
         "unit_restriction": null
     },
     "231141": {
-        "name": "スペリオルオブアームズ",
+        "name": "Weapons Specialist",
         "icon": "ability_79.png",
         "compendium_id": 5875,
         "rarity": 9,
@@ -38823,7 +38823,7 @@
         "unit_restriction": null
     },
     "231142": {
-        "name": "守護の剣",
+        "name": "Shielding Blade",
         "icon": "ability_77.png",
         "compendium_id": 5876,
         "rarity": 8,
@@ -38840,7 +38840,7 @@
         "unit_restriction": null
     },
     "231143": {
-        "name": "ダークナイトオーソリティ",
+        "name": "Dark Knight's Authority",
         "icon": "ability_95.png",
         "compendium_id": 5877,
         "rarity": 9,
@@ -38857,7 +38857,7 @@
         "unit_restriction": null
     },
     "231144": {
-        "name": "のばらの戦士",
+        "name": "Wild Rose Warrior",
         "icon": "ability_77.png",
         "compendium_id": 5878,
         "rarity": 5,
@@ -38874,7 +38874,7 @@
         "unit_restriction": null
     },
     "231145": {
-        "name": "のばらの魔導士",
+        "name": "Wild Rose Mage",
         "icon": "ability_77.png",
         "compendium_id": 5879,
         "rarity": 5,
@@ -38891,7 +38891,7 @@
         "unit_restriction": null
     },
     "231163": {
-        "name": "Wアームズ",
+        "name": "Dual Arms",
         "icon": "ability_8.png",
         "compendium_id": 5894,
         "rarity": 8,
@@ -38899,13 +38899,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アクアワンド (231159), アクセラレイトアロー (231154), アドヴァシティセーバー (231166), エアロナイフ (231160), クイックアロー (509900), ゴッドスピードアロー (509903), シャインブレード (231161), シールドブロー (231155), スピニングアックス (231151), フィン・ブロッサム (231162), ブラッディローズ (231164), プランダーランス (231152), ライジングフィスト (231150), 伝説打倒 (231156), 文明制圧 (231157) and 自然超越 (231158) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509908, -1, [231150,  231151,  231152,  231154,  231155,  231156,  231157,  231158,  231159,  231160,  231161,  231162,  231164,  231166,  509900,  509903], 1, 0]]],
+        "effects": ["Enable unit to use Accelerated Arrow (509905), Aero Knife (231160), Aqua Wand (231159), Bloody Rose (231164), Controlling Civilization (231157), Defeating Legends (231156), Fynn's Blossom (231162), Godspeed Arrow (509903), Lord of Arms II (800085), Plundering Lance (231152), Pride of the Resistance (231165), Quick Arrow (509902), Rising Fist (231150), Saber of Adversity (231166), Shield Blow (231155), Shining Blade (231161), Spinning Axe (231151) and Surpassing Nature (231158) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509908, -1, [231150,  231151,  231152,  231155,  231156,  231157,  231158,  231159,  231160,  231161,  231162,  231164,  231166,  509902,  509903,  800085,  231165,  509905], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231167": {
-        "name": "のばらの射手",
+        "name": "Wild Rose Archer",
         "icon": "ability_95.png",
         "compendium_id": 5898,
         "rarity": 8,
@@ -38922,7 +38922,7 @@
         "unit_restriction": null
     },
     "231168": {
-        "name": "のばらの闘士",
+        "name": "Wild Rose Fighter",
         "icon": "ability_95.png",
         "compendium_id": 5899,
         "rarity": 7,
@@ -38940,7 +38940,7 @@
         "unit_restriction": null
     },
     "231169": {
-        "name": "命の炎",
+        "name": "Flames of Mortality",
         "icon": "ability_19.png",
         "compendium_id": 5900,
         "rarity": 6,
@@ -38950,14 +38950,14 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Poison and Petrify by 100%",
-            "Increase ATK by 150% for 2 turns when HP drops below 61% (max 9999x)"
+            "Increase ATK by 150% when HP drops below 61% (max 1x)"
         ],
-        "effects_raw": [[0, 3, 2, [100,  0,  0,  0,  0,  0,  0,  100]], [0, 3, 4, [1,  150,  9999,  61,  0,  2]]],
+        "effects_raw": [[0, 3, 2, [100,  0,  0,  0,  0,  0,  0,  100]], [0, 3, 4, [1,  150,  1,  61,  0,  -1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231170": {
-        "name": "トゥーハンデッドウェポン",
+        "name": "Two-Handed Weapon",
         "icon": "ability_76.png",
         "compendium_id": 5901,
         "rarity": 8,
@@ -38975,7 +38975,7 @@
         "unit_restriction": null
     },
     "231171": {
-        "name": "シヴィライズキラー",
+        "name": "Civilization Destroyer",
         "icon": "ability_79.png",
         "compendium_id": 5902,
         "rarity": 8,
@@ -38989,7 +38989,7 @@
         "unit_restriction": null
     },
     "231172": {
-        "name": "反逆の剣",
+        "name": "Rebellion Blade",
         "icon": "ability_95.png",
         "compendium_id": 5903,
         "rarity": 7,
@@ -39006,7 +39006,7 @@
         "unit_restriction": null
     },
     "231173": {
-        "name": "天穿の矢",
+        "name": "Sky-Piercing Arrow",
         "icon": "ability_95.png",
         "compendium_id": 5904,
         "rarity": 7,
@@ -39023,7 +39023,7 @@
         "unit_restriction": null
     },
     "231174": {
-        "name": "星砕の斧",
+        "name": "Star-Smashing Axe",
         "icon": "ability_95.png",
         "compendium_id": 5905,
         "rarity": 7,
@@ -39040,7 +39040,7 @@
         "unit_restriction": null
     },
     "231175": {
-        "name": "力強い生命力",
+        "name": "Powerful Vitality",
         "icon": "ability_91.png",
         "compendium_id": 5906,
         "rarity": 6,
@@ -39058,7 +39058,7 @@
         "unit_restriction": null
     },
     "231176": {
-        "name": "リベリオンオブアームズ",
+        "name": "Weapons Rebel",
         "icon": "ability_77.png",
         "compendium_id": 5907,
         "rarity": 8,
@@ -39068,15 +39068,15 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 30% and MP by 20%",
-            "30% chance to counter physical attacks with リベリオンオブアームズ (509913) to caster (max 1 / turn)",
-            "30% chance to counter magic attacks with リベリオンオブアームズ (509913) to caster (max 1 / turn)"
+            "30% chance to counter physical attacks with Weapons Rebel (509913) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with Weapons Rebel (509913) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  20,  0]], [0, 3, 49, [30,  3,  509913,  1]], [0, 3, 50, [30,  3,  509913,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231177": {
-        "name": "フィンの義士",
+        "name": "Retainer of Fynn",
         "icon": "ability_77.png",
         "compendium_id": 5908,
         "rarity": 9,
@@ -39095,7 +39095,7 @@
         "unit_restriction": null
     },
     "231178": {
-        "name": "不朽の正義",
+        "name": "Everlasting Justice",
         "icon": "ability_77.png",
         "compendium_id": 5909,
         "rarity": 8,
@@ -39105,14 +39105,14 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 20%",
-            "Increase the damage of アドヴァシティセイバー (509912), フィン・ブロッサム (231162) and ブラッディローズ (509910) by (1x)"
+            "Increase the damage of Bloody Rose (509910), Fynn's Blossom (231162) and Saber of Adversity (509912) by (1x)"
         ],
         "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [[231162,  509910,  509912], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231187": {
-        "name": "二連闇技",
+        "name": "Dual Dark Technique",
         "icon": "ability_8.png",
         "compendium_id": 5917,
         "rarity": 8,
@@ -39120,13 +39120,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use ザ・ファントムII (231181), ダークコラプション (231185), ダークナイトジャッジ (231190), ダークフロウ (231182), ダークプリズン (231186), 堕落の剣 (231184), 影従の剣 (231188), 消失の剣 (231180) and 背信の剣 (231183) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509921, -1, [231180,  231181,  231182,  231183,  231184,  231185,  231186,  231188,  231190], 1, 0]]],
+        "effects": ["Enable unit to use Betrayal Blade (231183), Black Executioner (231189), Dark Corruption (231185), Dark Flow (231182), Dark Knight Charge (231190), Dark Prison (231186), Dark Servant's Blade (231188), Depravity Blade (231184), Phantom II (231181), Spread of Darkness II (800087) and Vanishing Blade (231180) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509921, -1, [231180,  231181,  231182,  231183,  231184,  231185,  231186,  231188,  231190,  800087,  231189], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231191": {
-        "name": "分かたれた道",
+        "name": "Path Divided",
         "icon": "ability_19.png",
         "compendium_id": 5921,
         "rarity": 6,
@@ -39143,7 +39143,7 @@
         "unit_restriction": null
     },
     "231192": {
-        "name": "皇帝を継ぐ者",
+        "name": "Heir to the Emperor",
         "icon": "ability_72.png",
         "compendium_id": 5922,
         "rarity": 8,
@@ -39152,7 +39152,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Use 皇帝を継ぐ者 (509925) at the start of a battle",
+            "Use Heir to the Emperor (509925) at the start of a battle",
             "Increase equipment ATK by 50% when armed with two weapons"
         ],
         "effects_raw": [[0, 3, 56, [509925]], [0, 3, 69, [1,  50,  0]]],
@@ -39160,7 +39160,7 @@
         "unit_restriction": null
     },
     "231193": {
-        "name": "力の渇望",
+        "name": "Thirst for Power",
         "icon": "ability_77.png",
         "compendium_id": 5923,
         "rarity": 7,
@@ -39177,7 +39177,7 @@
         "unit_restriction": null
     },
     "231194": {
-        "name": "ダークナイト",
+        "name": "Dark Knight (FFII)",
         "icon": "ability_95.png",
         "compendium_id": 5924,
         "rarity": 7,
@@ -39195,7 +39195,7 @@
         "unit_restriction": null
     },
     "231195": {
-        "name": "催眠技術",
+        "name": "Hypnotism",
         "icon": "ability_19.png",
         "compendium_id": 5925,
         "rarity": 8,
@@ -39213,7 +39213,7 @@
         "unit_restriction": null
     },
     "231196": {
-        "name": "闇の増幅",
+        "name": "Dark Amplification",
         "icon": "ability_99.png",
         "compendium_id": 5926,
         "rarity": 5,
@@ -39230,7 +39230,7 @@
         "unit_restriction": null
     },
     "231197": {
-        "name": "過去を捨てる覚悟",
+        "name": "Throwing Away the Past",
         "icon": "ability_72.png",
         "compendium_id": 5927,
         "rarity": 9,
@@ -39247,7 +39247,7 @@
         "unit_restriction": null
     },
     "231198": {
-        "name": "闇の先を見据える眼",
+        "name": "Gazing Beyond the Darkness",
         "icon": "ability_77.png",
         "compendium_id": 5928,
         "rarity": 8,
@@ -39257,8 +39257,8 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 30%",
-            "Increase the damage of ダークナイトジャッジ (231190) by (0.5x)",
-            "Increase the damage of ダーク skills  [コラプション (231185, 509920) / フロウ (231182)] by (1x)"
+            "Increase the damage of Dark Knight Charge (231190) by (0.5x)",
+            "Increase the damage of Dark skills  [Corruption (231185, 509920) / Flow (231182)] by (1x)"
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [231190,  0,  0,  50]], [0, 3, 73, [[231182,  231185,  509920], 0, 0, 100]]],
         "requirements": null,
@@ -50981,7 +50981,7 @@
         "unit_restriction": null
     },
     "707672": {
-        "name": "精神+30%",
+        "name": "SPR +30%",
         "icon": "ability_77.png",
         "compendium_id": 14,
         "rarity": 5,
@@ -51003,13 +51003,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Blaster (226911), Lightning Spear Jab (226912), Panther Strike (226910), Thunder Fang (226916), Thunder Spear (226913), 雷槍一迅+1 (707675), 雷槍一迅+2 (707676), 雷鳴槍+1 (707677) and 雷鳴槍+2 (707678) twice in one turn"],
+        "effects": ["Enable unit to use Blaster (226911), Lightning Spear Jab (226912), Lightning Spear Jab+1 (707675), Lightning Spear Jab+2 (707676), Panther Strike (226910), Thunder Fang (226916), Thunder Spear (226913), Thunder Spear+1 (707677) and Thunder Spear+2 (707678) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 707674, -1, [226911,  226910,  226912,  226913,  226916,  707675,  707676,  707677,  707678], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707679": {
-        "name": "おそれしらず",
+        "name": "Fearless",
         "icon": "ability_19.png",
         "compendium_id": 2915,
         "rarity": 6,
@@ -51019,15 +51019,15 @@
         "element_inflict": null,
         "effects": [
             "Increase resistance to Poison, Blind, Paralyze and Disease by 100%",
-            "Gain Regen (10124) at the start of a battle or when revived",
-            "Increase SPR by 30%"
+            "Gain Regen (Auto) (91021) at the start of a battle or when revived",
+            "Increase SPR by 30% and ATK by 25%"
         ],
-        "effects_raw": [[0, 3, 2, [100,  100,  0,  0,  100,  0,  100,  0]], [0, 3, 35, [10124]], [0, 3, 1, [0,  0,  0,  30,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 2, [100,  100,  0,  0,  100,  0,  100,  0]], [0, 3, 35, [91021]], [0, 3, 1, [25,  0,  0,  30,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707680": {
-        "name": "おそれしらず",
+        "name": "Fearless",
         "icon": "ability_19.png",
         "compendium_id": 2915,
         "rarity": 6,
@@ -51036,17 +51036,17 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase resistance to Poison, Blind, Paralyze and Disease by 100%",
-            "Gain Regen (10124) at the start of a battle or when revived",
-            "Increase SPR by 30%",
+            "Increase resistance to Poison, Blind, Paralyze, Confusion and Disease by 100%",
+            "Gain Regen (Auto) (91022) at the start of a battle or when revived",
+            "Increase ATK by 50% and SPR by 30%",
             "Recover MP (10%) per turn"
         ],
-        "effects_raw": [[0, 3, 2, [100,  100,  0,  0,  100,  0,  100,  0]], [0, 3, 35, [10124]], [0, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [0, 3, 32, [10]]],
+        "effects_raw": [[0, 3, 2, [100,  100,  0,  0,  100,  100,  100,  0]], [0, 3, 35, [91022]], [0, 3, 1, [50,  0,  0,  30,  0,  0,  0]], [0, 3, 32, [10]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707681": {
-        "name": "狩猟技術",
+        "name": "Hunting Expertise",
         "icon": "ability_79.png",
         "compendium_id": 2914,
         "rarity": 7,
@@ -51058,14 +51058,16 @@
             "Increase ATK by 30%",
             "Increase physical damage against Beasts by 75%",
             "Increase physical damage against Insects by 75%",
-            "Increase physical damage against Plants by 75%"
+            "Increase physical damage against Plants by 75%",
+            "Increase equipment ATK by 25% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [1,  75,  0]], [0, 3, 11, [9,  75,  0]], [0, 3, 11, [11,  75,  0]]],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [1,  75,  0]], [0, 3, 11, [9,  75,  0]], [0, 3, 11, [11,  75,  0]], [0, 3, 13, [25,  25,  2]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707682": {
-        "name": "狩猟技術",
+        "name": "Hunting Expertise",
         "icon": "ability_79.png",
         "compendium_id": 2914,
         "rarity": 7,
@@ -51077,14 +51079,16 @@
             "Increase ATK by 65%",
             "Increase physical damage against Beasts by 75%",
             "Increase physical damage against Insects by 75%",
-            "Increase physical damage against Plants by 75%"
+            "Increase physical damage against Plants by 75%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
         ],
-        "effects_raw": [[0, 3, 1, [65,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [1,  75,  0]], [0, 3, 11, [9,  75,  0]], [0, 3, 11, [11,  75,  0]]],
+        "effects_raw": [[0, 3, 1, [65,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [1,  75,  0]], [0, 3, 11, [9,  75,  0]], [0, 3, 11, [11,  75,  0]], [0, 3, 13, [50,  25,  2]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707687": {
-        "name": "ベテランスローワー",
+        "name": "Veteran Thrower",
         "icon": "ability_72.png",
         "compendium_id": 2933,
         "rarity": 8,
@@ -51098,7 +51102,7 @@
         "unit_restriction": null
     },
     "707688": {
-        "name": "ベテランスローワー",
+        "name": "Veteran Thrower",
         "icon": "ability_72.png",
         "compendium_id": 2933,
         "rarity": 8,
@@ -51108,14 +51112,14 @@
         "element_inflict": null,
         "effects": [
             "Increase equipment ATK by 60% when armed with two weapons",
-            "Use シェルフキルガル+2 (509342) at the start of a battle"
+            "Use Glorious Wind+2 (509342) at the start of a battle"
         ],
         "effects_raw": [[0, 3, 69, [1,  60]], [0, 3, 56, [509342]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707689": {
-        "name": "ギャルメイク",
+        "name": "Girly Makeup",
         "icon": "ability_19.png",
         "compendium_id": 2944,
         "rarity": 4,
@@ -51133,7 +51137,7 @@
         "unit_restriction": null
     },
     "707690": {
-        "name": "ギャルメイク",
+        "name": "Girly Makeup",
         "icon": "ability_19.png",
         "compendium_id": 2944,
         "rarity": 4,
@@ -51946,7 +51950,7 @@
         "unit_restriction": null
     },
     "707847": {
-        "name": "精霊魔法スキル・A+",
+        "name": "Spirit Magic Skill: A+",
         "icon": "ability_77.png",
         "compendium_id": 3092,
         "rarity": 6,
@@ -51955,12 +51959,12 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": ["Increase MAG by 70%"],
-        "effects_raw": [[0, 3, 1, [0,  0,  70,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  70,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707848": {
-        "name": "精霊魔法スキル・A+",
+        "name": "Spirit Magic Skill: A+",
         "icon": "ability_77.png",
         "compendium_id": 3092,
         "rarity": 6,
@@ -51970,16 +51974,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 100%",
-            "Increase the damage of Flare II (20700), Flood II (20730), フラッドII+1 (70444), フラッドII+2 (70445), フレアII+1 (70446) and フレアII+2 (70447) by (2x)",
-            "Increase the damage of Aero I (20590), Blizzard I (20610), Fire I (20600), Stone I (20570), Thunder I (20620) and Water I (20580) by (3x)",
-            "Increase the damage of Aeroga V (20650), Blizzaga V (20670), Firaga V (20660), Stonega V (20630), Thundaga V (20680) and Waterga V (20640) by (5x)"
+            "Increase the damage of Flare II (20700), Flare II+1 (70446), Flare II+2 (70447), Flood II (20730), Flood II+1 (70444) and Flood II+2 (70445) by (2x)",
+            "Increase the damage of Aero I (20590), Blizzard I (20610), Fire I (20600), Stone I (20570), Thunder I (20620) and Water I (20580) by (3x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  100,  0,  0]], [0, 3, 73, [[20730,  70444,  70445,  20700,  70446,  70447], 0, 0, 200]], [0, 3, 73, [[20570,  20580,  20590,  20600,  20610,  20620], 0, 0, 300]], [0, 3, 73, [[20630,  20640,  20650,  20660,  20670,  20680], 0, 0, 500]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  100,  0,  0,  0,  0]], [0, 3, 73, [[20730,  70444,  70445,  20700,  70446,  70447], 0, 0, 200]], [0, 3, 73, [[20570,  20580,  20590,  20600,  20610,  20620], 0, 0, 300]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707849": {
-        "name": "防御+30%",
+        "name": "DEF +30%",
         "icon": "ability_77.png",
         "compendium_id": 12,
         "rarity": 5,
@@ -51993,7 +51996,7 @@
         "unit_restriction": null
     },
     "707851": {
-        "name": "『口の院』元院長",
+        "name": "Former Orastery Minister",
         "icon": "ability_77.png",
         "compendium_id": 3087,
         "rarity": 6,
@@ -52001,13 +52004,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase MP by 50% and DEF, MAG and SPR by 30%"],
-        "effects_raw": [[0, 3, 1, [0,  30,  30,  30,  0,  50,  0]]],
+        "effects": ["Increase MP by 50% and DEF, MAG, SPR and HP by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  30,  30,  30,  30,  50,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707852": {
-        "name": "『口の院』元院長",
+        "name": "Former Orastery Minister",
         "icon": "ability_77.png",
         "compendium_id": 3087,
         "rarity": 6,
@@ -52015,13 +52018,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase DEF, MAG, SPR and MP by 50%"],
-        "effects_raw": [[0, 3, 1, [0,  50,  50,  50,  0,  50,  0]]],
+        "effects": ["Increase DEF, MAG, SPR, HP and MP by 50%"],
+        "effects_raw": [[0, 3, 1, [0,  50,  50,  50,  50,  50,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707857": {
-        "name": "不滅の理",
+        "name": "Immortal Justice",
         "icon": "ability_41.png",
         "compendium_id": 3109,
         "rarity": 8,
@@ -52038,7 +52041,7 @@
         "unit_restriction": null
     },
     "707858": {
-        "name": "不滅の理",
+        "name": "Immortal Justice",
         "icon": "ability_41.png",
         "compendium_id": 3109,
         "rarity": 8,
@@ -52047,15 +52050,17 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "100% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
+            "100% chance to set HP to 40% upon fatal damage, if HP was above 40% (max 1 times)",
+            "100% chance to set HP to 20% upon fatal damage, if HP was above 20% (max 1 times)",
+            "100% chance to set HP to 10% upon fatal damage, if HP was above 10% (max 1 times)",
             "Increase DEF and SPR by 30%"
         ],
-        "effects_raw": [[0, 3, 51, [40,  100,  0,  3]], [0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 51, [40,  100,  40,  1]], [0, 3, 51, [20,  100,  20,  1]], [0, 3, 51, [10,  100,  10,  1]], [0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707859": {
-        "name": "シャドウロード",
+        "name": "Shadow Lord",
         "icon": "ability_77.png",
         "compendium_id": 3112,
         "rarity": 9,
@@ -52066,14 +52071,14 @@
         "effects": [
             "Increase equipment ATK by 150% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase equipment ATK by 30% when armed with two weapons"
+            "Increase equipment ATK by 50% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 13, [150,  25,  2]], [0, 3, 69, [1,  30]]],
+        "effects_raw": [[0, 3, 13, [150,  25,  2]], [0, 3, 69, [1,  50]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707860": {
-        "name": "シャドウロード",
+        "name": "Shadow Lord",
         "icon": "ability_77.png",
         "compendium_id": 3112,
         "rarity": 9,
@@ -52084,14 +52089,14 @@
         "effects": [
             "Increase equipment ATK by 200% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase equipment ATK by 30% when armed with two weapons"
+            "Increase equipment ATK by 50% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 13, [200,  25,  2]], [0, 3, 69, [1,  30]]],
+        "effects_raw": [[0, 3, 13, [200,  25,  2]], [0, 3, 69, [1,  50]]],
         "requirements": null,
         "unit_restriction": null
     },
     "707861": {
-        "name": "精神+30%",
+        "name": "SPR +30%",
         "icon": "ability_77.png",
         "compendium_id": 14,
         "rarity": 5,
@@ -52113,7 +52118,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Blood Weapon (227231), Cross Smash (507707, 507706), Doom Arc (507711, 507710), Dynamic Assault (507701, 507700), Dynamic Implosion (507709, 507708), Manastrom (227221), Oblivion Smash (507705, 507704), Soma Wall (227223), Spawn Shadow (227222), Spell Wall (227224), Transfusion (227220), Violent Rupture (507703, 507702), ダイナミクインプロージョン+1 (509676, 509677), ダイナミクインプロージョン+2 (509678, 509679), ドゥームアーク+1 (509673, 509672) and ドゥームアーク+2 (509675, 509674) twice in one turn"],
+        "effects": ["Enable unit to use Blood Weapon (227231), Cross Smash (507707, 507706), Doom Arc (507711, 507710), Doom Arc+1 (509673, 509672), Doom Arc+2 (509675, 509674), Dynamic Assault (507701, 507700), Dynamic Implosion (507709, 507708), Dynamic Implosion+1 (509676, 509677), Dynamic Implosion+2 (509678, 509679), Manastrom (227221), Oblivion Smash (507705, 507704), Soma Wall (227223), Spawn Shadow (227222), Spell Wall (227224), Transfusion (227220) and Violent Rupture (507703, 507702) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509687, -1, [227220,  227221,  227222,  227223,  227224,  227231,  507701,  507703,  507705,  507707,  507709,  507711,  507700,  507702,  507704,  507706,  507708,  507710,  509673,  509675,  509672,  509674,  509676,  509677,  509678,  509679], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
@@ -52293,7 +52298,7 @@
         "unit_restriction": null
     },
     "707887": {
-        "name": "ロランベリー好き",
+        "name": "Rolanberry Lover",
         "icon": "ability_77.png",
         "compendium_id": 3130,
         "rarity": 5,
@@ -52307,7 +52312,7 @@
         "unit_restriction": null
     },
     "707888": {
-        "name": "ロランベリー好き",
+        "name": "Rolanberry Lover",
         "icon": "ability_77.png",
         "compendium_id": 3130,
         "rarity": 5,
@@ -52315,8 +52320,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase MP by 40% and SPR by 30%"],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  40,  0]]],
+        "effects": ["Increase MP by 40% and DEF and SPR by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  40,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -54138,7 +54143,7 @@
         "unit_restriction": null
     },
     "800086": {
-        "name": "フィン解放の礎",
+        "name": "Core of Fynn's Liberation II",
         "icon": "ability_77.png",
         "compendium_id": 87,
         "rarity": 9,
@@ -54148,15 +54153,15 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, HP and MP by 30%",
-            "Increase the damage of アクセラレイトアロー (509904, 509905) and クイックアロー (509901, 509902) by (0.5x)",
-            "Increase the damage of ゴッドスピードアロー (509903) and フィン・ブロッサム (231162) by (1x)"
+            "Increase the damage of Accelerated Arrow (509904, 509905) and Quick Arrow (509901, 509902) by (0.5x)",
+            "Increase the damage of Fynn's Blossom (231162) and Godspeed Arrow (509903) by (1x)"
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  30,  0]], [0, 3, 73, [[509901,  509902,  509904,  509905], 0, 0, 50]], [0, 3, 73, [[231162,  509903], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
     "800088": {
-        "name": "先制闇技",
+        "name": "Preemptive Dark Technique II",
         "icon": "ability_77.png",
         "compendium_id": 89,
         "rarity": 9,
@@ -54166,15 +54171,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MP by 30%",
-            "Use 先制闇技 (510061) at the start of a battle",
-            "Increase the damage of ダークコラプション (231185, 509920) by (1x)"
+            "Use Preemptive Dark Technique (510061) at the start of a battle",
+            "Increase the damage of Dark Corruption (231185, 509920) by (1x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  30,  0]], [0, 3, 56, [510061]], [0, 3, 73, [[231185,  509920], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
     "800090": {
-        "name": "パンデモニウムの主",
+        "name": "Lord of Pandaemonium II",
         "icon": "ability_77.png",
         "compendium_id": 91,
         "rarity": 9,
@@ -61662,7 +61667,23 @@
             "Increase MAG and SPR by 40% when equipped with a Rod",
             "Increase resistance to Silence and Paralyze by 100%"
         ],
-        "effects_raw": [[1, 3, 6, [6,  0,  0,  40,  40]], [1, 3, 2, [0,  0,  0,  100,  100,  0,  0]]],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  40,  40,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "911261": {
+        "name": "Aquatic Ripple",
+        "icon": "ability_8.png",
+        "compendium_id": 85095,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Aqua skills  [Splash (911255) / Stream (911256) / Stream+1 (913109) / Stream+2 (913110) / Tidal Party (911260) / Tidal Party+1 (913113) / Tidal Party+2 (913114) / Whirlpool (911258) / Whirlpool+1 (913111) / Whirlpool+2 (913112)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 913115, -1, [911255,  911256,  911258,  911260,  913109,  913110,  913111,  913112,  913113,  913114], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -61865,9 +61886,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Lifeguard skills  [Exhilarant (911300) / Refreshment (911294) / Rejuvenator (911293) / Revitalizer (911311) / Shade (911292) / Sunproof (911298) / Waterproof (911297)] twice in one turn"
+            "Enable unit to use Lifeguard skills  [Exhilarant (911300) / Refreshment (911294) / Refreshment+1 (913081) / Refreshment+2 (913082) / Rejuvenator (911293) / Rejuvenator+1 (913079) / Rejuvenator+2 (913080) / Revitalizer (911311) / Shade (911292) / Sunproof (911298) / Waterproof (911297)] twice in one turn"
         ],
-        "effects_raw": [[0, 3, 53, [2, 911377, -1, [911292,  911293,  911294,  911297,  911298,  911300,  911311], 1, 0]]],
+        "effects_raw": [[0, 3, 53, [2, 911377, -1, [911292,  911293,  911294,  911297,  911298,  911300,  911311,  913079,  913080,  913081,  913082], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -61881,9 +61902,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Diver skills  [Icicle (911302) / Regelation (911313) / Submersion (911312) / Waterfall (911301)] twice in one turn"
+            "Enable unit to use Diver skills  [Icicle (911302) / Icicle+1 (913091) / Icicle+2 (913092) / Regelation (911313) / Regelation+1 (913099) / Regelation+2 (913100) / Submersion (911312) / Submersion+1 (913097) / Submersion+2 (913098) / Waterfall (911301) / Waterfall+1 (913089) / Waterfall+2 (913090)] twice in one turn"
         ],
-        "effects_raw": [[0, 3, 53, [2, 911378, -1, [911301,  911302,  911312,  911313], 1, 0]]],
+        "effects_raw": [[0, 3, 53, [2, 911378, -1, [911301,  911302,  911312,  911313,  913089,  913090,  913091,  913092,  913097,  913098,  913099,  913100], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -71126,6 +71147,207 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913043": {
+        "name": "Triple Lightning Spear",
+        "icon": "ability_8.png",
+        "compendium_id": 5,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blaster (226911), Blaster+1 (913047), Blaster+2 (913048), Lightning Spear Jab (226912), Lightning Spear Jab+1 (707675), Lightning Spear Jab+2 (707676), Panther Strike (226910), Panther Strike+1 (913045), Panther Strike+2 (913046), Thunder Fang (226916), Thunder Spear (226913), Thunder Spear+1 (707677) and Thunder Spear+2 (707678) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 913044, -1, [226911,  226910,  226912,  226913,  226916,  707675,  707676,  707677,  707678,  913045,  913046,  913047,  913048], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913049": {
+        "name": "Doublehand Staff Skill: A+",
+        "icon": "ability_76.png",
+        "compendium_id": 3093,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment MAG by 100% when armed with a single weapon"],
+        "effects_raw": [[0, 3, 70, [100,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913050": {
+        "name": "Doublehand Staff Skill: A+",
+        "icon": "ability_76.png",
+        "compendium_id": 3093,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment MAG by 150% when armed with a single weapon"],
+        "effects_raw": [[0, 3, 70, [150,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913057": {
+        "name": "You're making me lose my temper, dear!",
+        "icon": "ability_68.png",
+        "compendium_id": 3094,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "30% chance to counter physical attacks with You're making me lose my temper, dear! (507691) to caster (max 2 / turn)",
+            "30% chance to counter magic attacks with You're making me lose my temper, dear! (507691) to caster (max 2 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 49, [30,  3,  507691,  2]], [0, 3, 50, [30,  3,  507691,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913058": {
+        "name": "You're making me lose my temper, dear!",
+        "icon": "ability_68.png",
+        "compendium_id": 3094,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "40% chance to counter physical attacks with You're making me lose my temper, dear! (507691) to caster (max 3 / turn)",
+            "40% chance to counter magic attacks with You're making me lose my temper, dear! (507691) to caster (max 3 / turn)",
+            "Replace LB with Play Rough (950000008):\n\tMagic damage (12x * 2 = 24x, MAG) to one enemy (ignore reflect)\n\tReduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 70% for 4 turns to one enemy\n\tGain Aeroga V+2 (91025), Blizzaga V+2 (91027), Firaga V+2 (91026), Stonega V+2 (91023), Thundaga V+2 (91028) and Waterga V+2 (91024) for 3 turns\n\tGrant Quadra-cast all magic for 3 turns to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 49, [40,  3,  507691,  3]], [0, 3, 50, [40,  3,  507691,  3]], [0, 3, 72, [950000008]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913065": {
+        "name": "Dynamis Lord",
+        "icon": "ability_8.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blood Weapon (227231), Blood Weapon+1 (913069), Blood Weapon+2 (913070), Cross Smash (507707, 507706), Cross Smash+1 (913075, 913076), Cross Smash+2 (913077, 913078), Doom Arc (507711, 507710), Doom Arc+1 (509673, 509672), Doom Arc+2 (509675, 509674), Dynamic Assault (507701, 507700), Dynamic Implosion (507709, 507708), Dynamic Implosion+1 (509676, 509677), Dynamic Implosion+2 (509678, 509679), Manastrom (227221), Oblivion Smash (507705, 507704), Soma Wall (227223), Spawn Shadow (227222), Spell Wall (227224), Transfusion (227220) and Violent Rupture (507703, 507702) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 913066, -1, [227220,  227221,  227222,  227223,  227224,  227231,  507701,  507703,  507705,  507707,  507709,  507711,  507700,  507702,  507704,  507706,  507708,  507710,  509673,  509675,  509672,  509674,  509676,  509677,  509678,  509679,  913069,  913070,  913075,  913076,  913077,  913078], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913067": {
+        "name": "Hatred for the Talekeeper",
+        "icon": "ability_77.png",
+        "compendium_id": 3110,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Increase ATK by 150% for 3 turns when HP drops below 50% (max 9999x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 4, [1,  150,  9999,  50,  0,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913068": {
+        "name": "Hatred for the Talekeeper",
+        "icon": "ability_77.png",
+        "compendium_id": 3110,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 70%",
+            "Increase ATK by 200% for 3 turns when HP drops below 50% (max 9999x)"
+        ],
+        "effects_raw": [[0, 3, 1, [70,  0,  0,  0,  70,  0,  0]], [0, 3, 4, [1,  200,  9999,  50,  0,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913105": {
+        "name": "Fancy Beverage",
+        "icon": "ability_77.png",
+        "compendium_id": 85141,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase all stats gained from espers by 40%",
+            "Increase DEF, MAG, SPR and HP by 20%",
+            "Increase resistance to Silence by 100%"
+        ],
+        "effects_raw": [[0, 3, 63, [40,  40,  40,  40,  40,  40,  0]], [0, 3, 1, [0,  20,  20,  20,  20,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  0,  0,  0,  0]]],
+        "requirements": [["EQUIP", 1100000182], ["EQUIP", 1100000183]],
+        "unit_restriction": null
+    },
+    "913106": {
+        "name": "Fancy Beverage",
+        "icon": "ability_77.png",
+        "compendium_id": 85141,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase all stats gained from espers by 60%",
+            "Increase DEF, MAG, SPR and HP by 20%",
+            "Increase resistance to Silence by 100%",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 63, [60,  60,  60,  60,  60,  60,  0]], [0, 3, 1, [0,  20,  20,  20,  20,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  0,  0,  0,  0]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": [["EQUIP", 1100000182], ["EQUIP", 1100000183]],
+        "unit_restriction": null
+    },
+    "913116": {
+        "name": "Refreshing Summer",
+        "icon": "ability_77.png",
+        "compendium_id": 85093,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 40% when equipped with a Rod",
+            "Increase resistance to Silence and Paralyze by 100%",
+            "Increase HP by 20%"
+        ],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  40,  40,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  0]], [0, 3, 1, [0,  0,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913117": {
+        "name": "Refreshing Summer",
+        "icon": "ability_77.png",
+        "compendium_id": 85093,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 60% when equipped with a Rod",
+            "Increase resistance to Silence and Paralyze by 100%",
+            "Increase HP by 20%",
+            "Increase resistance to Fire and Water by 25%"
+        ],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  60,  60,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  0]], [0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 3, [25,  0,  0,  25,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "950011": {
         "name": "Feelings for Rain",
         "icon": "ability_77.png",
@@ -71586,6 +71808,112 @@
             "Reduce MP consumption by 10%"
         ],
         "effects_raw": [[0, 3, 3, [20,  20,  20,  0,  0,  0,  0,  0]], [0, 3, 56, [950080]], [0, 3, 77, [10,  1,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950085": {
+        "name": "Core of Fynn's Liberation",
+        "icon": "ability_77.png",
+        "compendium_id": 87,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, HP and MP by 10%",
+            "Increase the damage of Accelerated Arrow (509904, 509905) and Quick Arrow (509901, 509902) by (0.2x)",
+            "Increase the damage of Fynn's Blossom (231162) and Godspeed Arrow (509903) by (0.5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [10,  0,  0,  0,  10,  10,  0]], [0, 3, 73, [[509901,  509902,  509904,  509905], 0, 0, 20]], [0, 3, 73, [[231162,  509903], 0, 0, 50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950086": {
+        "name": "Core of Fynn's Liberation I",
+        "icon": "ability_77.png",
+        "compendium_id": 87,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, HP and MP by 20%",
+            "Increase the damage of Accelerated Arrow (509904, 509905) and Quick Arrow (509901, 509902) by (0.35x)",
+            "Increase the damage of Fynn's Blossom (231162) and Godspeed Arrow (509903) by (0.75x)"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  20,  0]], [0, 3, 73, [[509901,  509902,  509904,  509905], 0, 0, 35]], [0, 3, 73, [[231162,  509903], 0, 0, 75]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950089": {
+        "name": "Preemptive Dark Technique",
+        "icon": "ability_77.png",
+        "compendium_id": 89,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 10%",
+            "Use Preemptive Dark Technique (510061) at the start of a battle",
+            "Increase the damage of Dark Corruption (231185, 509920) by (0.5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  10,  0]], [0, 3, 56, [510061]], [0, 3, 73, [[231185,  509920], 0, 0, 50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950090": {
+        "name": "Preemptive Dark Technique I",
+        "icon": "ability_77.png",
+        "compendium_id": 89,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 20%",
+            "Use Preemptive Dark Technique (510061) at the start of a battle",
+            "Increase the damage of Dark Corruption (231185, 509920) by (0.75x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  20,  0]], [0, 3, 56, [510061]], [0, 3, 73, [[231185,  509920], 0, 0, 75]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950095": {
+        "name": "Lord of Pandaemonium",
+        "icon": "ability_77.png",
+        "compendium_id": 91,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40% and HP by 10%",
+            "Increase the damage of Fire From Below skills  [(204980) / +1 (702710) / +2 (702720)] by (2.5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  10,  0,  0]], [0, 3, 73, [[204980,  702710,  702720], 0, 0, 250]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950096": {
+        "name": "Lord of Pandaemonium I",
+        "icon": "ability_77.png",
+        "compendium_id": 91,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 60% and HP by 15%",
+            "Increase the damage of Fire From Below skills  [(204980) / +1 (702710) / +2 (702720)] by (5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  60,  0,  15,  0,  0]], [0, 3, 73, [[204980,  702710,  702720], 0, 0, 500]]],
         "requirements": null,
         "unit_restriction": null
     }
