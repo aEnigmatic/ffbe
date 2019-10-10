@@ -31087,7 +31087,7 @@
         "effects": [
             "Increase magic damage against Demons by 50%",
             "Increase magic damage against Reapers by 75%",
-            "Increase the damage of Doomsday (20530), Doomsday+1 (70310), Doomsday+2 (70320), Meteor (20430), Meteor+1 (70210), Meteor+2 (70220) and エクスメテオ (509605) by (1x)",
+            "Increase the damage of Doomsday (20530), Doomsday+1 (70310), Doomsday+2 (70320), Ex-Meteor (509605), Meteor (20430), Meteor+1 (70210) and Meteor+2 (70220) by (1x)",
             "Increase the damage of Comet (20170) by (2x)"
         ],
         "effects_raw": [[0, 3, 11, [4,  0,  50]], [0, 3, 11, [12,  0,  75]], [0, 3, 73, [[20430,  20530,  509605,  70210,  70220,  70310,  70320], 0, 0, 100]], [0, 3, 73, [20170,  0,  0,  200]]],
@@ -35593,7 +35593,7 @@
         "unit_restriction": null
     },
     "230560": {
-        "name": "無に抗う心",
+        "name": "Hearts Against the Void",
         "icon": "ability_77.png",
         "compendium_id": 5447,
         "rarity": 5,
@@ -35607,7 +35607,7 @@
         "unit_restriction": null
     },
     "230561": {
-        "name": "希望の心を託された少女",
+        "name": "Girl Entrusted With Hope",
         "icon": "ability_77.png",
         "compendium_id": 5448,
         "rarity": 8,
@@ -35617,14 +35617,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50%",
-            "Recover MP (5%) per turn"
+            "Recover MP (5%) per turn",
+            "Increase Esper summon damage by 30%"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 32, [5]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 32, [5]], [0, 3, 21, [30,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230562": {
-        "name": "暗黒の力",
+        "name": "Power of Darkness",
         "icon": "ability_77.png",
         "compendium_id": 5449,
         "rarity": 8,
@@ -35638,7 +35639,7 @@
         "unit_restriction": null
     },
     "230563": {
-        "name": "死を超える者",
+        "name": "Overcoming Death",
         "icon": "ability_79.png",
         "compendium_id": 5450,
         "rarity": 9,
@@ -35657,7 +35658,7 @@
         "unit_restriction": null
     },
     "230564": {
-        "name": "異世界より来た戦士",
+        "name": "Warrior from Another World",
         "icon": "ability_77.png",
         "compendium_id": 5451,
         "rarity": 9,
@@ -35674,7 +35675,7 @@
         "unit_restriction": null
     },
     "230570": {
-        "name": "隕石とともに来りし少女",
+        "name": "Girl from the Meteorite",
         "icon": "ability_77.png",
         "compendium_id": 5452,
         "rarity": 6,
@@ -35688,7 +35689,7 @@
         "unit_restriction": null
     },
     "230571": {
-        "name": "賢者の声を聴く力",
+        "name": "Voice of the Elder",
         "icon": "ability_77.png",
         "compendium_id": 5453,
         "rarity": 6,
@@ -35705,7 +35706,7 @@
         "unit_restriction": null
     },
     "230572": {
-        "name": "動物と話す力",
+        "name": "Animal Whisperer",
         "icon": "ability_77.png",
         "compendium_id": 5454,
         "rarity": 7,
@@ -35722,7 +35723,7 @@
         "unit_restriction": null
     },
     "230577": {
-        "name": "バル国の王女",
+        "name": "Princess of Bal",
         "icon": "ability_77.png",
         "compendium_id": 5459,
         "rarity": 7,
@@ -35730,13 +35731,16 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase MAG and SPR by 30%"],
-        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]]],
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Increase Esper summon damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 21, [30,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230578": {
-        "name": "ガラフの孫娘",
+        "name": "Galuf's Granddaughter",
         "icon": "ability_19.png",
         "compendium_id": 5460,
         "rarity": 7,
@@ -35753,7 +35757,7 @@
         "unit_restriction": null
     },
     "230579": {
-        "name": "海竜の魂を見出す力",
+        "name": "Sea Dragon's Spirit",
         "icon": "ability_79.png",
         "compendium_id": 5461,
         "rarity": 8,
@@ -35771,7 +35775,7 @@
         "unit_restriction": null
     },
     "230585": {
-        "name": "二連飛竜",
+        "name": "Double Wind Drake",
         "icon": "ability_8.png",
         "compendium_id": 5467,
         "rarity": 8,
@@ -35779,13 +35783,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use おかえしタックル (230575), ガーディアンヒール (230576), ソフトエアロ (230574), ソフトサンダー (230573), フュリアスエアロ (230593), フュリアスサンダー (230592), マイティエアロ (230584), マイティサンダー (230583), モーグリの助言・退獣 (230581), モーグリの助言・退霊 (230582), 不思議な力 (230589), 飛竜の守護 (230590), 飛竜の急襲 (230580), 飛竜の急襲改 (230591) and 飛竜の閃き (800021) twice in one turn"],
+        "effects": ["Enable unit to use Furious Aero (230593), Furious Thunder (230592), Guardian Healing (230576), Mighty Aero (230584), Mighty Thunder (230583), Moogle's Aid - Exorcist (230582), Moogle's Aid - Hunter (230581), Mysterious Power (230589), Soft Aero (230574), Soft Thunder (230573), Vengeful Tackle (230575), Wind Drake Assault (230580), Wind Drake Assault+ (230591), Wind Drake's Insight II (800021) and Wind Drake's Protection (230590) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509590, -1, [230573,  230574,  230575,  230576,  230580,  230581,  230582,  230583,  230584,  230589,  230590,  230591,  230592,  230593,  800021], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230586": {
-        "name": "祖父の意志を継ぐ者",
+        "name": "Carrying on Grandfather's Will",
         "icon": "ability_77.png",
         "compendium_id": 5468,
         "rarity": 9,
@@ -35804,7 +35808,7 @@
         "unit_restriction": null
     },
     "230587": {
-        "name": "モーグリと仲良し",
+        "name": "Moogle Companion",
         "icon": "ability_77.png",
         "compendium_id": 5469,
         "rarity": 8,
@@ -35814,14 +35818,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 40% and MP by 20%",
-            "Increase LB damage by 30%"
+            "Increase LB damage by 30%",
+            "Increase the damage of Tornado (20390) by (5x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  20,  0]], [0, 3, 68, [30]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  20,  0]], [0, 3, 68, [30]], [0, 3, 73, [20390,  0,  0,  500]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230588": {
-        "name": "森羅万象の恵み",
+        "name": "Nature's Blessing",
         "icon": "ability_77.png",
         "compendium_id": 5470,
         "rarity": 8,
@@ -35831,15 +35836,15 @@
         "element_inflict": null,
         "effects": [
             "Increase LB gauge by 3 per turn",
-            "Increase the damage of おかえしタックル (230575) by (2.5x)",
-            "Increase the damage of フュリアス skills  [エアロ (230593) / サンダー (230592)] by (0.5x)"
+            "Increase the damage of Vengeful Tackle (230575) by (2.5x)",
+            "Increase the damage of Furious skills  [Aero (230593) / Thunder (230592)] by (0.5x)"
         ],
         "effects_raw": [[0, 3, 33, [300]], [0, 3, 73, [230575,  0,  0,  250]], [0, 3, 73, [[230592,  230593], 0, 0, 50]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230600": {
-        "name": "邪なる暗黒魔道士",
+        "name": "Wicked Dark Mage",
         "icon": "ability_77.png",
         "compendium_id": 5476,
         "rarity": 6,
@@ -35853,7 +35858,7 @@
         "unit_restriction": null
     },
     "230601": {
-        "name": "三度目の野望",
+        "name": "Third Ambition's a Charm",
         "icon": "ability_77.png",
         "compendium_id": 5477,
         "rarity": 6,
@@ -35871,7 +35876,7 @@
         "unit_restriction": null
     },
     "230602": {
-        "name": "クリスタルの破壊者",
+        "name": "Destroyer of the Crystals",
         "icon": "ability_77.png",
         "compendium_id": 5478,
         "rarity": 6,
@@ -35889,7 +35894,7 @@
         "unit_restriction": null
     },
     "230607": {
-        "name": "エクスデスソウル",
+        "name": "Exdeath Soul",
         "icon": "ability_77.png",
         "compendium_id": 5483,
         "rarity": 7,
@@ -35908,7 +35913,7 @@
         "unit_restriction": null
     },
     "230608": {
-        "name": "集束する邪悪",
+        "name": "Amassing Evil",
         "icon": "ability_19.png",
         "compendium_id": 5484,
         "rarity": 7,
@@ -35925,7 +35930,7 @@
         "unit_restriction": null
     },
     "230609": {
-        "name": "無を求めし者",
+        "name": "Seeker of the Void",
         "icon": "ability_79.png",
         "compendium_id": 5485,
         "rarity": 8,
@@ -35945,7 +35950,7 @@
         "unit_restriction": null
     },
     "230616": {
-        "name": "W暗黒魔道",
+        "name": "Double Dark Magic",
         "icon": "ability_8.png",
         "compendium_id": 5492,
         "rarity": 8,
@@ -35953,13 +35958,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Wicked Light (203910), アースグレイヴ (230611), アーススタブ (230621), アーススペル (230604), エアロガスト (230620), エアロスパーク (230610), エアロスペル (230603), エクスフレア (509603), エクスホーリー (509604), エクスメテオ (509605), ダークスペル (230605), ダークスワロー (230612), ダークルイン (230622), 全てを無へ (230624), 次元斬り (230613), 次元斬り・技増 (230614), 次元斬り・魔増 (230615), 無の力 (230623), 無の波動 (800023) and 無の衝撃 (230606) twice in one turn"],
+        "effects": ["Enable unit to use Aero Gust (230620), Aero Spark (230610), Aero Spell (230603), Complete Void (230624), Dark Ruin (230622), Dark Spell (230605), Dark Swallow (230612), Dimension Cutter (230613), Dimension Cutter - Limit Charge (230614), Dimension Cutter - Magic Boost (230615), Earth Spell (230604), Earth Stab (230621), Earth Tomb (230611), Ex-Flare (509603), Ex-Holy (509604), Ex-Meteor (509605), Power of the Void (230623), Void Impact (230606), Void Wave II (800023) and Wicked Light (203910) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509600, -1, [203910,  230603,  230604,  230605,  230606,  230610,  230611,  230612,  230613,  230614,  230615,  230620,  230621,  230622,  230623,  230624,  509603,  509604,  509605,  800023], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230617": {
-        "name": "T暗黒魔道",
+        "name": "Triple Dark Magic",
         "icon": "ability_8.png",
         "compendium_id": 5493,
         "rarity": 9,
@@ -35967,13 +35972,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Wicked Light (203910), アースグレイヴ (230611), アーススタブ (230621), アーススペル (230604), エアロガスト (230620), エアロスパーク (230610), エアロスペル (230603), エクスフレア (509603), エクスホーリー (509604), エクスメテオ (509605), ダークスペル (230605), ダークスワロー (230612), ダークルイン (230622), 全てを無へ (230624), 次元斬り (230613), 次元斬り・技増 (230614), 次元斬り・魔増 (230615), 無の力 (230623), 無の波動 (800023) and 無の衝撃 (230606) 3 times in one turn"],
+        "effects": ["Enable unit to use Aero Gust (230620), Aero Spark (230610), Aero Spell (230603), Complete Void (230624), Dark Ruin (230622), Dark Spell (230605), Dark Swallow (230612), Dimension Cutter (230613), Dimension Cutter - Limit Charge (230614), Dimension Cutter - Magic Boost (230615), Earth Spell (230604), Earth Stab (230621), Earth Tomb (230611), Ex-Flare (509603), Ex-Holy (509604), Ex-Meteor (509605), Power of the Void (230623), Void Impact (230606), Void Wave II (800023) and Wicked Light (203910) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 509601, -1, [203910,  230603,  230604,  230605,  230606,  230610,  230611,  230612,  230613,  230614,  230615,  230620,  230621,  230622,  230623,  230624,  509603,  509604,  509605,  800023], 1, 0]]],
         "requirements": [["EQUIP", 409029500], ["EQUIP", 504230563]],
         "unit_restriction": null
     },
     "230618": {
-        "name": "世界を無に帰す力",
+        "name": "World-Voiding Power",
         "icon": "ability_77.png",
         "compendium_id": 5494,
         "rarity": 8,
@@ -35991,7 +35996,7 @@
         "unit_restriction": null
     },
     "230619": {
-        "name": "宇宙の　法則が　乱れる！",
+        "name": "The laws of the universe mean nothing!",
         "icon": "ability_77.png",
         "compendium_id": 5495,
         "rarity": 8,
@@ -36008,7 +36013,7 @@
         "unit_restriction": null
     },
     "230630": {
-        "name": "老練な男",
+        "name": "Seasoned Veteran",
         "icon": "ability_77.png",
         "compendium_id": 5510,
         "rarity": 6,
@@ -36022,7 +36027,7 @@
         "unit_restriction": null
     },
     "230631": {
-        "name": "仲間想いの老戦士",
+        "name": "Friendly Old Fighter",
         "icon": "ability_83.png",
         "compendium_id": 5511,
         "rarity": 7,
@@ -36040,7 +36045,7 @@
         "unit_restriction": null
     },
     "230635": {
-        "name": "孫娘を護る決意",
+        "name": "Protecting His Granddaughter",
         "icon": "ability_95.png",
         "compendium_id": 5515,
         "rarity": 7,
@@ -36057,7 +36062,7 @@
         "unit_restriction": null
     },
     "230636": {
-        "name": "喚び起こした記憶",
+        "name": "Awakened Memories",
         "icon": "ability_19.png",
         "compendium_id": 5516,
         "rarity": 7,
@@ -36075,7 +36080,7 @@
         "unit_restriction": null
     },
     "230637": {
-        "name": "不倒の意志",
+        "name": "Unfaltering Volition",
         "icon": "ability_41.png",
         "compendium_id": 5517,
         "rarity": 8,
@@ -36092,7 +36097,7 @@
         "unit_restriction": null
     },
     "230642": {
-        "name": "暁の四戦士・ガラフ",
+        "name": "Warrior of Dawn Galuf",
         "icon": "ability_68.png",
         "compendium_id": 5522,
         "rarity": 9,
@@ -36102,15 +36107,15 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and HP by 40%",
-            "60% chance to counter physical attacks with 暁の四戦士・ガラフ (509611) to caster (max 1 / turn)",
-            "60% chance to counter magic attacks with 暁の四戦士・ガラフ (509611) to caster (max 1 / turn)"
+            "60% chance to counter physical attacks with Warrior of Dawn Galuf (509611) to caster (max 1 / turn)",
+            "60% chance to counter magic attacks with Warrior of Dawn Galuf (509611) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  0,  0,  40,  0,  0]], [0, 3, 49, [60,  3,  509611,  1]], [0, 3, 50, [60,  3,  509611,  1]]],
         "requirements": [["EQUIP", 302007900], ["EQUIP", 504230564]],
         "unit_restriction": null
     },
     "230643": {
-        "name": "バル国の王",
+        "name": "King of Bal",
         "icon": "ability_19.png",
         "compendium_id": 5523,
         "rarity": 8,
@@ -36127,7 +36132,7 @@
         "unit_restriction": null
     },
     "230644": {
-        "name": "希望の光を遺す者",
+        "name": "Bequeather of Hope",
         "icon": "ability_77.png",
         "compendium_id": 5524,
         "rarity": 8,
@@ -53556,7 +53561,7 @@
         "unit_restriction": null
     },
     "800022": {
-        "name": "大自然の預言",
+        "name": "Mother Nature's Prediction II",
         "icon": "ability_77.png",
         "compendium_id": 23,
         "rarity": 9,
@@ -53566,8 +53571,8 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and HP by 10%",
-            "Increase the damage of おかえしタックル (230575) by (1.3x)",
-            "Increase the damage of フュリアス skills  [エアロ (230593) / サンダー (230592)] by (0.5x)",
+            "Increase the damage of Vengeful Tackle (230575) by (1.3x)",
+            "Increase the damage of Furious skills  [Aero (230593) / Thunder (230592)] by (0.5x)",
             "Increase physical and magic damage against Beasts by 25%",
             "Increase physical and magic damage against Fairies by 25%"
         ],
@@ -53576,7 +53581,7 @@
         "unit_restriction": null
     },
     "800024": {
-        "name": "終焉の大樹",
+        "name": "Demise of the Guardian Tree II",
         "icon": "ability_77.png",
         "compendium_id": 25,
         "rarity": 9,
@@ -53586,14 +53591,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG and MP by 10%",
-            "Recover MP (5%) per turn"
+            "Recover MP (5%) per turn",
+            "100% chance to set HP to 1% upon fatal damage, if HP was above 1% (max 1 times)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  10,  0,  0,  10,  0]], [0, 3, 32, [5]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  10,  0,  0,  10,  0]], [0, 3, 32, [5]], [0, 3, 51, [1,  100,  1,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "800026": {
-        "name": "熱き魂",
+        "name": "Fiery Spirit II",
         "icon": "ability_9.png",
         "compendium_id": 27,
         "rarity": 9,
@@ -62356,10 +62362,10 @@
         "element_inflict": null,
         "effects": [
             "Increase the damage of Aero (20050) and Aerora (20120) by (0.5x)",
-            "Increase the damage of Aeroga (20240), Aeroga+1 (70170), Aeroga+2 (70180) and Tornado (20390) by (1x)",
-            "Increase the damage of Aero I (20590), Aeroga V (20650), Aeroja (20330) and Raging Wind (91014) by (1.5x)"
+            "Increase the damage of Aeroga (20240), Aeroga+1 (70170), Aeroga+2 (70180), Tornado (20390), Tornado+1 (70440) and Tornado+2 (70441) by (1x)",
+            "Increase the damage of Aero I (20590), Aeroga V (20650), Aeroga V+2 (91025), Aeroja (20330) and Raging Wind (91014) by (1.5x)"
         ],
-        "effects_raw": [[0, 3, 73, [[20050,  20120], 0, 0, 50]], [0, 3, 73, [[20240,  70170,  70180,  20390], 0, 0, 100]], [0, 3, 73, [[20330,  20590,  20650,  91014], 0, 0, 150]]],
+        "effects_raw": [[0, 3, 73, [[20050,  20120], 0, 0, 50]], [0, 3, 73, [[20240,  70170,  70180,  20390,  70440,  70441], 0, 0, 100]], [0, 3, 73, [[20330,  20590,  20650,  91025,  91014], 0, 0, 150]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -71914,6 +71920,116 @@
             "Increase the damage of Fire From Below skills  [(204980) / +1 (702710) / +2 (702720)] by (5x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  60,  0,  15,  0,  0]], [0, 3, 73, [[204980,  702710,  702720], 0, 0, 500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950101": {
+        "name": "Mother Nature's Prediction",
+        "icon": "ability_77.png",
+        "compendium_id": 23,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 5%",
+            "Increase the damage of Vengeful Tackle (230575) by (1x)",
+            "Increase the damage of Furious skills  [Aero (230593) / Thunder (230592)] by (0.3x)",
+            "Increase physical and magic damage against Beasts by 15%",
+            "Increase physical and magic damage against Fairies by 15%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  5,  0,  0,  5,  0,  0]], [0, 3, 73, [230575,  0,  0,  100]], [0, 3, 73, [[230592,  230593], 0, 0, 30]], [0, 3, 11, [1,  15,  15]], [0, 3, 11, [8,  15,  15]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950102": {
+        "name": "Mother Nature's Prediction I",
+        "icon": "ability_77.png",
+        "compendium_id": 23,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 7%",
+            "Increase the damage of Vengeful Tackle (230575) by (1.15x)",
+            "Increase the damage of Furious skills  [Aero (230593) / Thunder (230592)] by (0.4x)",
+            "Increase physical and magic damage against Beasts by 20%",
+            "Increase physical and magic damage against Fairies by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  7,  0,  0,  7,  0,  0]], [0, 3, 73, [230575,  0,  0,  115]], [0, 3, 73, [[230592,  230593], 0, 0, 40]], [0, 3, 11, [1,  20,  20]], [0, 3, 11, [8,  20,  20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950105": {
+        "name": "Fiery Spirit",
+        "icon": "ability_9.png",
+        "compendium_id": 27,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 5%",
+            "Increase resistance to Fire and Light by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  5,  0,  5,  0]], [0, 3, 3, [10,  0,  0,  0,  0,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950106": {
+        "name": "Fiery Spirit I",
+        "icon": "ability_9.png",
+        "compendium_id": 27,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 7%",
+            "Increase resistance to Fire and Light by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  7,  0,  7,  0]], [0, 3, 3, [20,  0,  0,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950109": {
+        "name": "Demise of the Guardian Tree",
+        "icon": "ability_77.png",
+        "compendium_id": 25,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 5%",
+            "Recover MP (3%) per turn",
+            "50% chance to set HP to 1% upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  5,  0,  0,  5,  0]], [0, 3, 32, [3]], [0, 3, 51, [1,  50,  1,  1,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950110": {
+        "name": "Demise of the Guardian Tree I",
+        "icon": "ability_77.png",
+        "compendium_id": 25,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 7%",
+            "Recover MP (4%) per turn",
+            "75% chance to set HP to 1% upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  7,  0,  0,  7,  0]], [0, 3, 32, [4]], [0, 3, 51, [1,  75,  1,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
     }
