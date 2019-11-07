@@ -18471,8 +18471,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Flame Blade (227282), Life-severing Blade (227284), Phantom Blade (227292), Ruthless Blade (227281), Servant of the Blade (227280), Unknown Traitor (227285) and Voltage Blade (227283) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 507740, -1, [227280,  227281,  227282,  227283,  227284,  227285,  227292], 1]]],
+        "effects": ["Enable unit to use Blade of Despair (950147), Blade of Despair I (950148), Blade of Despair II (800351), Bloodthirsty Swordsman+2 (707890), Flame Blade (227282), Flame Blade+1 (707897), Flame Blade+2 (707898), Life-severing Blade (227284), Phantom Blade (227292), Ruthless Blade (227281), Ruthless Blade+1 (913335), Ruthless Blade+2 (913336), Servant of the Blade (227280), Servant of the Blade+1 (707895), Servant of the Blade+2 (707896), Unknown Traitor (227285), Voltage Blade (227283), Voltage Blade+1 (707899) and Voltage Blade+2 (707900) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 507740, -1, [227280,  227281,  227282,  227283,  227284,  227285,  227292,  707890,  707895,  707896,  707897,  707898,  707899,  707900,  913335,  913336,  950147,  950148,  800351], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18505,10 +18505,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of Ruthless Blade (227281) by (0.5x)",
+            "Increase the damage of Ruthless Blade skills  [(227281) / +1 (913335) / +2 (913336)] by (0.5x)",
             "Use Selfless State (227287) at the start of a battle or when revived"
         ],
-        "effects_raw": [[0, 3, 73, [227281,  0,  0,  50]], [0, 3, 56, [227287]]],
+        "effects_raw": [[0, 3, 73, [[227281,  913335,  913336], 0, 0, 50]], [0, 3, 56, [227287]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18522,10 +18522,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of Servant of the Blade (227280) by (0.5x)",
+            "Increase the damage of Servant of the Blade skills  [(227280) / +1 (707895) / +2 (707896)] by (0.5x)",
             "Increase ATK by 30% when equipped with a Great Sword"
         ],
-        "effects_raw": [[0, 3, 73, [227280,  0,  0,  50]], [0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 73, [[227280,  707895,  707896], 0, 0, 50]], [0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -18903,10 +18903,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Creamy Milk Risotto (507878), Fluffy Chiffon Cake (507876), Golden Tail Soup (507880), Lasagna al Forno (507879), Meat-and-Beet Bouillon (227368), Memory Lane Pastry (227369), Oil-Drizzled Steamed Fish (507875), Prime Garula Rib (227367), Robust Bean Soup (507877) and Royal Banquet Canapé (227370) twice in one turn",
+            "Enable unit to use Creamy Milk Risotto (507878), Fluffy Chiffon Cake (507876), Fluffy Chiffon Cake+2 (510381), Golden Tail Soup (507880), Golden Tail Soup+2 (510379), Lasagna al Forno (507879), Lasagna al Forno+2 (510378), Meat-and-Beet Bouillon (227368), Memory Lane Pastry (227369), Oil-Drizzled Steamed Fish (507875), Oil-Drizzled Steamed Fish+2 (510380), Prime Garula Rib (227367), Robust Bean Soup (507877), Robust Bean Soup+2 (510377), Royal Banquet Canapé (227370), Royal Banquet Canapé+1 (708103) and Royal Banquet Canapé+2 (708104) twice in one turn",
             "Replace LB with Sagefire (900000107):\n\tMagic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore reflect)\n\tReduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy\n\tGain Enhancement skills  [Fire (507872) / Ice (507873) / Lightning (507874)] for one turn"
         ],
-        "effects_raw": [[0, 3, 53, [2, 507884, -1, [227367,  227368,  227369,  227370,  507875,  507876,  507877,  507878,  507879,  507880], 1]], [0, 3, 72, [900000107]]],
+        "effects_raw": [[0, 3, 53, [2, 507884, -1, [227367,  227368,  227369,  227370,  507875,  507876,  507877,  507878,  507879,  507880,  510377,  510378,  510379,  510380,  510381,  708103,  708104], 1, 0]], [0, 3, 72, [900000107]]],
         "requirements": [["EQUIP", 409020400], ["EQUIP", 301003300]],
         "unit_restriction": null
     },
@@ -40259,7 +40259,7 @@
         "unit_restriction": null
     },
     "231380": {
-        "name": "アルドール王の器",
+        "name": "Aldore King's Caliber",
         "icon": "ability_91.png",
         "compendium_id": 6054,
         "rarity": 6,
@@ -40273,7 +40273,7 @@
         "unit_restriction": null
     },
     "231381": {
-        "name": "アルドール王の威風",
+        "name": "Aldore King's Majesty",
         "icon": "ability_78.png",
         "compendium_id": 6055,
         "rarity": 8,
@@ -40290,7 +40290,7 @@
         "unit_restriction": null
     },
     "231382": {
-        "name": "アルドール王の覇気",
+        "name": "Aldore King's Ambition",
         "icon": "ability_76.png",
         "compendium_id": 6056,
         "rarity": 9,
@@ -40324,7 +40324,7 @@
         "unit_restriction": null
     },
     "231384": {
-        "name": "猛攻の大剣使い",
+        "name": "Fierce Greatsword User",
         "icon": "ability_95.png",
         "compendium_id": 6058,
         "rarity": 8,
@@ -40341,7 +40341,7 @@
         "unit_restriction": null
     },
     "231385": {
-        "name": "土魔法の知識",
+        "name": "Earth Mage's Knowledge",
         "icon": "ability_28.png",
         "compendium_id": 6059,
         "rarity": 8,
@@ -40349,13 +40349,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase the damage of Quake (20400), Quake+1 (70432, 70442), Quake+2 (70433, 70443), Stone (20060), Stone I (20570), Stonega V (20630), Stonga (20250), Stonja (20340) and Stonra (20130) by (1.5x)"],
-        "effects_raw": [[0, 3, 73, [[20060,  20130,  20250,  20340,  20400,  20570,  20630,  70432,  70433,  70442,  70443], 0, 0, 150]]],
+        "effects": ["Increase the damage of Quake (20400), Quake+1 (70432, 70442), Quake+2 (70433, 70443), Stone (20060), Stone I (20570), Stonega V (20630), Stonega V+2 (91023), Stonga (20250), Stonja (20340) and Stonra (20130) by (1.5x)"],
+        "effects_raw": [[0, 3, 73, [[20060,  20130,  20250,  20340,  20400,  20570,  20630,  70432,  70433,  70442,  70443,  91023], 0, 0, 150]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231399": {
-        "name": "Wセイバー",
+        "name": "Double Saber",
         "icon": "ability_8.png",
         "compendium_id": 6069,
         "rarity": 8,
@@ -40363,13 +40363,15 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アルドールリーダー (231392), エクストラセイバー (800116), エナジーウォール・ライズ (231398), キングセイバー (231402), グランシェルトセイバー (231400), スパークセイバー (231397), ソイルセイバー (231396), ソウルブラッド (231416), ツインセイバー (231390), ナリファイセイバー (231391), バトルブラッド (231414), ヒーリングブラッド (231415), フォースセイバー (231394), ブレイズセイバー (231395), ロイヤルセイバー (231401), 完全覚醒【アルドール王】 (231403) and 真・アンダーマイン (231393) twice in one turn"],
+        "effects": [
+            "Enable unit to use Aldore Leader (231392), Blaze Saber (231395), Blood for Battle (231414), Complete Awakening [Aldore King] (231403), Earth Saber (231396), Energy Wall - Rise (231398), Extra Saber (800116), Force Saber (231394), Grandshelt Saber (231400), Healing Blood (231415), King's Saber (231402), Nullifying Saber (231391), Royal Saber (231401), Soul Blood (231416), Spark Saber (231397), True Undermine (231393) and Twin Saber (231390) twice in one turn"
+        ],
         "effects_raw": [[0, 3, 53, [2, 510062, -1, [231390,  231391,  231392,  231393,  231394,  231395,  231396,  231397,  231398,  231400,  231401,  231402,  231403,  231414,  231415,  231416,  800116], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231406": {
-        "name": "新アルドール王",
+        "name": "New King of Aldore",
         "icon": "ability_11.png",
         "compendium_id": 6076,
         "rarity": 8,
@@ -40386,7 +40388,7 @@
         "unit_restriction": null
     },
     "231407": {
-        "name": "民を率いる人望",
+        "name": "Nation's Hopeful Leader",
         "icon": "ability_17.png",
         "compendium_id": 6077,
         "rarity": 8,
@@ -40403,7 +40405,7 @@
         "unit_restriction": null
     },
     "231408": {
-        "name": "己を律する気概",
+        "name": "Will of Self-Control",
         "icon": "ability_13.png",
         "compendium_id": 6078,
         "rarity": 8,
@@ -40420,7 +40422,7 @@
         "unit_restriction": null
     },
     "231409": {
-        "name": "ザッハの記憶を背負う者",
+        "name": "Memories of Sacher",
         "icon": "ability_19.png",
         "compendium_id": 6079,
         "rarity": 7,
@@ -40437,7 +40439,7 @@
         "unit_restriction": null
     },
     "231410": {
-        "name": "グランシェルト騎士剣技【レイン】",
+        "name": "Grandshelt Knight Sword Arts [Rain]",
         "icon": "ability_91.png",
         "compendium_id": 6080,
         "rarity": 7,
@@ -40454,7 +40456,7 @@
         "unit_restriction": null
     },
     "231411": {
-        "name": "沈まぬ太陽",
+        "name": "Never-Setting Sun",
         "icon": "ability_41.png",
         "compendium_id": 6081,
         "rarity": 8,
@@ -40468,7 +40470,7 @@
         "unit_restriction": null
     },
     "231412": {
-        "name": "レイジングブラッド",
+        "name": "Raging Blood",
         "icon": "ability_76.png",
         "compendium_id": 6082,
         "rarity": 9,
@@ -40477,17 +40479,17 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Use レイジングブラッド (510066) at the start of a battle or when revived",
+            "Use Raging Blood (510066) at the start of a battle or when revived",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Replace LB with クリムゾンノヴァ (900000337):\n\tPhysical damage (14.5x * 2 = 29x, ATK) to all enemies (ignore cover)\n\tReduce resistance to Fire by 90% for 2 turns to all enemies"
+            "Replace LB with Crimson Nova (900000337):\n\tPhysical damage (14.5x * 2 = 29x, ATK) to all enemies (ignore cover)\n\tReduce resistance to Fire by 90% for 2 turns to all enemies"
         ],
         "effects_raw": [[0, 3, 56, [510066]], [0, 3, 13, [50,  25,  2]], [0, 3, 72, [900000337]]],
         "requirements": [["EQUIP", 407004700], ["EQUIP", 303006800]],
         "unit_restriction": null
     },
     "231413": {
-        "name": "アルドールの英雄王",
+        "name": "Great King of Aldore",
         "icon": "ability_76.png",
         "compendium_id": 6083,
         "rarity": 8,
@@ -40627,7 +40629,7 @@
         "unit_restriction": null
     },
     "231447": {
-        "name": "分解剣の使い手",
+        "name": "Split Sword User",
         "icon": "ability_72.png",
         "compendium_id": 6113,
         "rarity": 8,
@@ -40641,7 +40643,7 @@
         "unit_restriction": null
     },
     "231448": {
-        "name": "剛毅硬雷",
+        "name": "Insulating Fortitude",
         "icon": "ability_13.png",
         "compendium_id": 6114,
         "rarity": 6,
@@ -40658,7 +40660,7 @@
         "unit_restriction": null
     },
     "231449": {
-        "name": "タフなメンタル",
+        "name": "Tough Psyche",
         "icon": "ability_19.png",
         "compendium_id": 6115,
         "rarity": 6,
@@ -40675,7 +40677,7 @@
         "unit_restriction": null
     },
     "231450": {
-        "name": "必殺の二剣",
+        "name": "Fatal Twin Blades",
         "icon": "ability_72.png",
         "compendium_id": 6116,
         "rarity": 8,
@@ -40689,7 +40691,7 @@
         "unit_restriction": null
     },
     "231465": {
-        "name": "ウソつきメイジィ",
+        "name": "Maisie the Liar",
         "icon": "ability_77.png",
         "compendium_id": 6122,
         "rarity": 6,
@@ -40703,7 +40705,7 @@
         "unit_restriction": null
     },
     "231466": {
-        "name": "悪だくみ",
+        "name": "Wit and Wile",
         "icon": "ability_77.png",
         "compendium_id": 6123,
         "rarity": 6,
@@ -40717,7 +40719,7 @@
         "unit_restriction": null
     },
     "231467": {
-        "name": "操土適性",
+        "name": "Earth Manipulator",
         "icon": "ability_95.png",
         "compendium_id": 6124,
         "rarity": 6,
@@ -52275,7 +52277,7 @@
         "unit_restriction": null
     },
     "707881": {
-        "name": "斧盾の構え",
+        "name": "Defensive Axe Stance",
         "icon": "ability_95.png",
         "compendium_id": 3161,
         "rarity": 5,
@@ -52289,7 +52291,7 @@
         "unit_restriction": null
     },
     "707882": {
-        "name": "斧盾の構え",
+        "name": "Defensive Axe Stance",
         "icon": "ability_95.png",
         "compendium_id": 3161,
         "rarity": 5,
@@ -52297,8 +52299,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase DEF and SPR by 60% when equipped with a Axe"],
-        "effects_raw": [[0, 3, 6, [8,  0,  60,  0,  60,  0,  0,  0]]],
+        "effects": ["Increase DEF and SPR by 60% and HP by 30% when equipped with a Axe"],
+        "effects_raw": [[0, 3, 6, [8,  0,  60,  0,  60,  30,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -52331,7 +52333,7 @@
         "unit_restriction": null
     },
     "707889": {
-        "name": "精神+30%",
+        "name": "SPR +30%",
         "icon": "ability_77.png",
         "compendium_id": 14,
         "rarity": 3,
@@ -52345,7 +52347,7 @@
         "unit_restriction": null
     },
     "707893": {
-        "name": "謎の剣士",
+        "name": "Mysterious Swordsman",
         "icon": "ability_77.png",
         "compendium_id": 3150,
         "rarity": 6,
@@ -52363,7 +52365,7 @@
         "unit_restriction": null
     },
     "707894": {
-        "name": "謎の剣士",
+        "name": "Mysterious Swordsman",
         "icon": "ability_77.png",
         "compendium_id": 3150,
         "rarity": 6,
@@ -53191,7 +53193,7 @@
         "unit_restriction": null
     },
     "708032": {
-        "name": "二刀の極意",
+        "name": "Dual Blade Mastery",
         "icon": "ability_72.png",
         "compendium_id": 9,
         "rarity": 9,
@@ -53264,7 +53266,7 @@
         "unit_restriction": null
     },
     "708049": {
-        "name": "シャドウパリング",
+        "name": "Shadow Parry",
         "icon": "ability_68.png",
         "compendium_id": 3227,
         "rarity": 8,
@@ -53273,15 +53275,15 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "35% chance to counter physical attacks with シャドウパリング+1 (510094) to caster (max 1 / turn)",
-            "35% chance to counter magic attacks with シャドウパリング+1 (510094) to caster (max 1 / turn)"
+            "35% chance to counter physical attacks with Shadow Parry+1 (510094) to caster (max 1 / turn)",
+            "35% chance to counter magic attacks with Shadow Parry+1 (510094) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 49, [35,  3,  510094,  1]], [0, 3, 50, [35,  3,  510094,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708050": {
-        "name": "シャドウパリング",
+        "name": "Shadow Parry",
         "icon": "ability_68.png",
         "compendium_id": 3227,
         "rarity": 8,
@@ -53290,15 +53292,15 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to counter physical attacks with シャドウパリング+2 (510095) to caster (max 1 / turn)",
-            "50% chance to counter magic attacks with シャドウパリング+2 (510095) to caster (max 1 / turn)"
+            "50% chance to counter physical attacks with Shadow Parry+2 (510095) to caster (max 1 / turn)",
+            "50% chance to counter magic attacks with Shadow Parry+2 (510095) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 49, [50,  3,  510095,  1]], [0, 3, 50, [50,  3,  510095,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708053": {
-        "name": "ニフルハイム帝国将軍",
+        "name": "Niflheim's High Commander",
         "icon": "ability_77.png",
         "compendium_id": 3226,
         "rarity": 6,
@@ -53315,7 +53317,7 @@
         "unit_restriction": null
     },
     "708054": {
-        "name": "ニフルハイム帝国将軍",
+        "name": "Niflheim's High Commander",
         "icon": "ability_77.png",
         "compendium_id": 3226,
         "rarity": 6,
@@ -53356,6 +53358,40 @@
         "element_inflict": null,
         "effects": ["Increase ATK and DEF by 50%"],
         "effects_raw": [[0, 3, 1, [50,  50,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708109": {
+        "name": "Regalia driver",
+        "icon": "ability_19.png",
+        "compendium_id": 3218,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 40%",
+            "Increase resistance to Poison, Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  0,  0,  0]], [0, 3, 2, [100,  0,  0,  0,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708110": {
+        "name": "Regalia driver",
+        "icon": "ability_19.png",
+        "compendium_id": 3218,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 40% and HP by 20%",
+            "Increase resistance to Poison, Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  20,  0,  0]], [0, 3, 2, [100,  0,  0,  0,  0,  100,  0,  100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -54423,7 +54459,7 @@
         "unit_restriction": null
     },
     "800117": {
-        "name": "燃えたぎる心",
+        "name": "Flaming Heart",
         "icon": "ability_77.png",
         "compendium_id": 118,
         "rarity": 9,
@@ -54436,6 +54472,24 @@
             "Increase LB damage by 50%"
         ],
         "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 68, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "800352": {
+        "name": "Trace of Crimson Rain II",
+        "icon": "ability_77.png",
+        "compendium_id": 353,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Trace of Crimson Rain (950146) at the start of the turn if Aldore King Rain is alive",
+            "Increase DEF, SPR and MP by 20%",
+            "Replace LB with Extreme Nova+ (950000012):\n\tPhysical damage (22.1x, ATK) to all enemies"
+        ],
+        "effects_raw": [[0, 3, 10002, [100023205,  3,  950146,  0]], [0, 3, 1, [0,  20,  0,  20,  0,  20,  0]], [0, 3, 72, [950000012]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -72133,6 +72187,114 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913326": {
+        "name": "Magitek Arm",
+        "icon": "ability_77.png",
+        "compendium_id": 3228,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40% and DEF by 20%",
+            "Increase resistance to Fire by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  20,  0,  0,  0,  0,  0]], [0, 3, 3, [20,  0,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913327": {
+        "name": "Magitek Arm",
+        "icon": "ability_77.png",
+        "compendium_id": 3228,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% and DEF by 40%",
+            "Increase resistance to Fire by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  40,  0,  0,  0,  0,  0]], [0, 3, 3, [30,  0,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913328": {
+        "name": "Gun Mastery",
+        "icon": "ability_95.png",
+        "compendium_id": 1011,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 75% when equipped with a Gun"],
+        "effects_raw": [[0, 3, 6, [14,  75,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913329": {
+        "name": "Gun Mastery",
+        "icon": "ability_95.png",
+        "compendium_id": 1011,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 100% when equipped with a Gun"],
+        "effects_raw": [[0, 3, 6, [14,  100,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913332": {
+        "name": "Ruler's Might",
+        "icon": "ability_76.png",
+        "compendium_id": 86721,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase LB damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 68, [30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913337": {
+        "name": "Double Blade",
+        "icon": "ability_8.png",
+        "compendium_id": 3151,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blade of Despair (950147), Blade of Despair I (950148), Blade of Despair II (800351), Bloodthirsty Swordsman+2 (707890), Flame Blade (227282), Flame Blade+1 (707897), Flame Blade+2 (707898), Improve Stance (227288), Life-severing Blade (227284), Phantom Blade (227292), Ruthless Blade (227281), Ruthless Blade+1 (913335), Ruthless Blade+2 (913336), Servant of the Blade (227280), Servant of the Blade+1 (707895), Servant of the Blade+2 (707896), Unknown Traitor (227285), Voltage Blade (227283), Voltage Blade+1 (707899) and Voltage Blade+2 (707900) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913338, -1, [227280,  227281,  227282,  227283,  227284,  227285,  227292,  707890,  707895,  707896,  707897,  707898,  707899,  707900,  913335,  913336,  950147,  950148,  800351,  227288], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913339": {
+        "name": "Double Blade",
+        "icon": "ability_8.png",
+        "compendium_id": 3151,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blade of Despair (950147), Blade of Despair I (950148), Blade of Despair II (800351), Bloodthirsty Swordsman+2 (707890), Dual Slash (210730), Flame Blade (227282), Flame Blade+1 (707897), Flame Blade+2 (707898), Heat Drive (227286), Improve Stance (227288), Life-severing Blade (227284), Phantom Blade (227292), Ruthless Blade (227281), Ruthless Blade+1 (913335), Ruthless Blade+2 (913336), Selfless State (227287), Servant of the Blade (227280), Servant of the Blade+1 (707895), Servant of the Blade+2 (707896), Unknown Traitor (227285), Voltage Blade (227283), Voltage Blade+1 (707899), Voltage Blade+2 (707900), Way of the Void (227293), Way of the Void+1 (707891) and Way of the Void+2 (707892) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913340, -1, [227280,  227281,  227282,  227283,  227284,  227285,  227292,  707890,  707895,  707896,  707897,  707898,  707899,  707900,  913335,  913336,  950147,  950148,  800351,  227288,  210730,  227286,  227287,  227293,  707891,  707892], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "950011": {
         "name": "Feelings for Rain",
         "icon": "ability_77.png",
@@ -72941,6 +73103,37 @@
         "element_inflict": null,
         "effects": ["Increase ATK by 150% for 3 turns to caster"],
         "effects_raw": [[0, 3, 3, [150,  0,  0,  0,  3,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950144": {
+        "name": "Trace of Crimson Rain",
+        "icon": "ability_77.png",
+        "compendium_id": 353,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Trace of Crimson Rain (950146) at the start of the turn if Aldore King Rain is alive"],
+        "effects_raw": [[0, 3, 10002, [100023205,  3,  950146,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950145": {
+        "name": "Trace of Crimson Rain I",
+        "icon": "ability_77.png",
+        "compendium_id": 353,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Trace of Crimson Rain (950146) at the start of the turn if Aldore King Rain is alive",
+            "Increase DEF, SPR and MP by 10%"
+        ],
+        "effects_raw": [[0, 3, 10002, [100023205,  3,  950146,  0]], [0, 3, 1, [0,  10,  0,  10,  0,  10,  0]]],
         "requirements": null,
         "unit_restriction": null
     }
