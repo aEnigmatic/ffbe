@@ -7790,7 +7790,7 @@
         "unit_restriction": null
     },
     "214030": {
-        "name": "Hi Auto-refresh",
+        "name": "High Auto-Refresh",
         "icon": "ability_91.png",
         "compendium_id": 1462,
         "rarity": 6,
@@ -14438,7 +14438,7 @@
         "unit_restriction": null
     },
     "225610": {
-        "name": "Healing Light",
+        "name": "Healing Light (SO2)",
         "icon": "ability_91.png",
         "compendium_id": 2620,
         "rarity": 8,
@@ -24011,11 +24011,11 @@
         "element_inflict": null,
         "effects": [
             "Recover MP (5%) per turn",
-            "Increase the damage of Dark Side (228313), Element Eiger (228310), Siphon Sword (228312) and Stunning Slash (228311) by (1.5x)",
-            "Increase the damage of Rush Blade (508511) by (0.75x)",
+            "Increase the damage of Dark Side (228313), Element Eiger (228310), Element Eiger+1 (708069), Element Eiger+2 (708070), Siphon Sword (228312), Siphon Sword+1 (708067), Siphon Sword+2 (708068), Stunning Slash (228311), Stunning Slash+1 (708065) and Stunning Slash+2 (708066) by (1.5x)",
+            "Increase the damage of Rush Blade skills  [(508511) / +1 (913527) / +2 (913528)] by (0.75x)",
             "Increase equipment ATK by 40% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 32, [5]], [0, 3, 73, [[228310,  228311,  228312,  228313], 0, 0, 150]], [0, 3, 73, [508511,  0,  0,  75]], [0, 3, 69, [1,  40,  0]]],
+        "effects_raw": [[0, 3, 32, [5]], [0, 3, 73, [[228310,  228311,  228312,  228313,  708069,  708070,  708065,  708066,  708067,  708068], 0, 0, 150]], [0, 3, 73, [[508511,  913527,  913528], 0, 0, 75]], [0, 3, 69, [1,  40,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -24061,9 +24061,9 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Enable unit to use Zekken skills  [Cloudless Rain (228331) / Freezing Showers (228332) / Sudden Downpour (228333) / Twilight Rain (508520)] twice in one turn"
+            "Enable unit to use Zekken skills  [Cloudless Rain (228331) / Cloudless Rain+1 (913509) / Cloudless Rain+2 (913510) / Freezing Showers (228332) / Freezing Showers+1 (913507) / Freezing Showers+2 (913508) / Sudden Downpour (228333) / Sudden Downpour+1 (708077) / Sudden Downpour+2 (708078) / Twilight Rain (508520) / Twilight Rain+1 (913505) / Twilight Rain+2 (913506)] twice in one turn"
         ],
-        "effects_raw": [[0, 3, 53, [2, 508521, -1, [228331,  228332,  228333,  508520], 1, 0]]],
+        "effects_raw": [[0, 3, 53, [2, 508521, -1, [228331,  228332,  228333,  508520,  913509,  913510,  913507,  913508,  708077,  708078,  913505,  913506], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -24185,7 +24185,7 @@
         "effects": [
             "Increase MP by 20%",
             "Increase resistance to Ice by 50%",
-            "Replace LB with Absolute Zero (900000297):\n\tReduce resistance to Ice by 75% for 2 turns to all enemies\n\tHybrid ice damage (15.5x, ATK & MAG) to all enemies\n\tIncrease ATK and MAG by 250% for 3 turns to caster\n\tGain 3 uses of Zekken skills  [Cloudless Rain (228331) / Freezing Showers (228332) / Sudden Downpour (228333) / Twilight Rain (508520)] for one turn\n\tGain Zekken - Twilight Rain (508520) for one turn",
+            "Replace LB with Absolute Zero (900000297):\n\tReduce resistance to Ice by 75% for 2 turns to all enemies\n\tHybrid ice damage (15.5x, ATK & MAG) to all enemies\n\tIncrease ATK and MAG by 250% for 3 turns to caster\n\tGain 3 uses of Zekken skills  [Cloudless Rain (228331) / Cloudless Rain+1 (913509) / Cloudless Rain+2 (913510) / Freezing Showers (228332) / Freezing Showers+1 (913507) / Freezing Showers+2 (913508) / Sudden Downpour (228333) / Sudden Downpour+1 (708077) / Sudden Downpour+2 (708078) / Twilight Rain (508520) / Twilight Rain+1 (913505) / Twilight Rain+2 (913506)] for one turn\n\tGain Zekken - Twilight Rain (508520) for one turn",
             "Use The Ice Reaper (508526) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  20,  0]], [0, 3, 3, [0,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 72, [900000297]], [0, 3, 56, [508526]]],
@@ -31301,8 +31301,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase physical damage against Beasts, Demons and Reapers by 75%"],
-        "effects_raw": [[0, 3, 11, [[1,  4,  12], 75, 0]]],
+        "effects": ["Increase physical damage against Beasts, Demons and Reapers by 75/75/75%"],
+        "effects_raw": [[0, 3, 11, [[1,  4,  12], [75,  75,  75], 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -42875,6 +42875,23 @@
             "Increase Accuracy by 25% when armed with a single weapon"
         ],
         "effects_raw": [[0, 3, 13, [25,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233768": {
+        "name": "Magma Staff",
+        "icon": "ability_68.png",
+        "compendium_id": 7865,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "20% chance to counter physical attacks with Magma Staff (511072) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with Magma Staff (511072) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [20,  3,  511072,  1]], [0, 3, 50, [20,  3,  511072,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -54546,6 +54563,69 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "708071": {
+        "name": "SPR +30%",
+        "icon": "ability_77.png",
+        "compendium_id": 14,
+        "rarity": 3,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 30%"],
+        "effects_raw": [[1, 3, 1, [0,  0,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708072": {
+        "name": "Dual Blade Mastery",
+        "icon": "ability_72.png",
+        "compendium_id": 9,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Allow unit to reach 6x chain modifier, when using two one-handed weapons"],
+        "effects_raw": [[0, 3, 81, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708073": {
+        "name": "Hometown Survivor",
+        "icon": "ability_19.png",
+        "compendium_id": 3833,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30%",
+            "Increase resistance to Poison, Blind and Disease by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 2, [100,  100,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708074": {
+        "name": "Hometown Survivor",
+        "icon": "ability_19.png",
+        "compendium_id": 3833,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, SPR and HP by 30%",
+            "Increase resistance to Poison, Blind and Disease by 100%",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  30,  0,  0]], [0, 3, 2, [100,  100,  0,  0,  0,  0,  100,  0]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "708109": {
         "name": "Regalia driver",
         "icon": "ability_19.png",
@@ -65311,8 +65391,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Aurora Storm (911665), En Garde! (911633), Flower Assault (911629), Frost Flash (910160), Frost Flower Blitz (910161), Frost Flower Blitz+1 (911006), Frost Flower Blitz+2 (911007), Frost Riposte (911630), Ice Saber (910154), Osmose Blade (200690), Saber Flunge (910151), Second Intention (910159), Second Intention+1 (911002) and Second Intention+2 (911003, 911004, 911005) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 911636, -1, [200690,  910151,  910154,  910159,  911002,  911003,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633,  911665], 1]]],
+        "effects": ["Enable unit to use Allez! (950158), Allez! I (950160), Allez! II (950162), Aurora Storm (911665), En Garde! (911633), Flower Assault (911629), Freezing Tempest (950164), Freezing Tempest I (950165), Freezing Tempest II (950166), Frost Flash (910160), Frost Flower Blitz (910161), Frost Flower Blitz+1 (911006), Frost Flower Blitz+2 (911007), Frost Riposte (911630), Ice Saber (910154), Osmose Blade (200690), Saber Flunge (910151), Second Intention (910159), Second Intention+1 (911002) and Second Intention+2 (911004, 911005) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 911636, -1, [200690,  910151,  910154,  910159,  911002,  911004,  911005,  910160,  910161,  911006,  911007,  911629,  911630,  911633,  911665,  950158,  950160,  950162,  950164,  950165,  950166], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -65463,7 +65543,7 @@
             "Increase the limit burst gauge fill rate by 50%",
             "Use Triple Flash (911666) at the start of a battle or when revived"
         ],
-        "effects_raw": [[0, 3, 1, [20,  0,  20,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]], [0, 3, 31, [50]], [0, 3, 56, [911666,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [20,  0,  20,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]], [0, 3, 31, [50]], [0, 3, 56, [911666]]],
         "requirements": [["EQUIP", 1100000219], ["EQUIP", 1100000220]],
         "unit_restriction": null
     },
@@ -65514,9 +65594,9 @@
             "Increase equipment ATK by 30% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "Increase equipment MAG by 30% when armed with a single weapon",
-            "Increase the damage of Flash skills  [Brilliance (911645) / Dazzle (911651) / Endless Punishment (911654) / Furious Radiance (911657) / Luster (911642)] by (2x)"
+            "Increase the damage of Flash skills  [Brilliance (911645) / Brilliance+1 (913483) / Brilliance+2 (913484) / Dazzle (911651) / Endless Punishment (911654) / Furious Radiance (911657) / Furious Radiance+1 (913489) / Furious Radiance+2 (913490) / Luster (911642)] by (2x)"
         ],
-        "effects_raw": [[0, 3, 13, [30,  25,  2]], [0, 3, 70, [30,  0,  2]], [0, 3, 73, [[911642,  911645,  911651,  911654,  911657], 0, 0, 200]]],
+        "effects_raw": [[0, 3, 13, [30,  25,  2]], [0, 3, 70, [30,  0,  2]], [0, 3, 73, [[911642,  911645,  913483,  913484,  911651,  911654,  911657,  913489,  913490], 0, 0, 200]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -65529,8 +65609,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Aurora Storm (911665), Flash - Brilliance (911645), Flash - Dazzle (911651), Flash - Endless Punishment (911654), Flash - Furious Radiance (911657) and Flash - Luster (911642) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 911646, -1, [911642,  911645,  911651,  911654,  911657,  911665], 1, 0]]],
+        "effects": ["Enable unit to use Aurora Storm (911665), Flash - Brilliance (911645), Flash - Brilliance+1 (913483), Flash - Brilliance+2 (913484), Flash - Dazzle (911651), Flash - Endless Punishment (911654), Flash - Furious Radiance (911657), Flash - Furious Radiance+1 (913489), Flash - Furious Radiance+2 (913490), Flash - Luster (911642), Flash - Radiant Might (950152), Flash - Radiant Might I (950153) and Flash - Radiant Might II (950154) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 911646, -1, [911642,  911645,  911651,  911654,  911657,  911665,  913483,  913484,  913489,  913490,  950152,  950153,  950154], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -73166,6 +73246,198 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913228": {
+        "name": "Target Practice",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86664,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913229": {
+        "name": "Reinforced Metal",
+        "icon": "global_ability_10020.png",
+        "compendium_id": 86665,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913230": {
+        "name": "Cannon Fire - Mortar Shot",
+        "icon": "ability_61.png",
+        "compendium_id": 86666,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": ["Error: Wrong effect active56?\nNot enough params"],
+        "effects_raw": [[0, 3, 56, [913478]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913243": {
+        "name": "Secret Weapon",
+        "icon": "ability_84.png",
+        "compendium_id": 86679,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Reduce chance of being targeted by 50%"],
+        "effects_raw": [[0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913244": {
+        "name": "Gunner Girl",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86680,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% when equipped with a Gun",
+            "Increase DEF and SPR by 20% when equipped with a Hat"
+        ],
+        "effects_raw": [[0, 3, 6, [14,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [40,  0,  20,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913245": {
+        "name": "Tactical Camouflage",
+        "icon": "ability_84.png",
+        "compendium_id": 86681,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "20% chance of evading physical attacks",
+            "Recover MP (7%) per turn"
+        ],
+        "effects_raw": [[0, 3, 22, [20]], [0, 3, 32, [7]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913246": {
+        "name": "Veteran Spy",
+        "icon": "ability_79.png",
+        "compendium_id": 86682,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Demons and Machinas by 50%"],
+        "effects_raw": [[0, 3, 11, [[4,  6], 50, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913247": {
+        "name": "Immunity",
+        "icon": "global_ability_10063.png",
+        "compendium_id": 86683,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Disease and Petrify by 100%",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  100]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913248": {
+        "name": "Lady Danger",
+        "icon": "ability_76.png",
+        "compendium_id": 86684,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913249": {
+        "name": "Quick Blast",
+        "icon": "global_ability_10055.png",
+        "compendium_id": 86685,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Cannon Fire skills  [120mm (913238) / Bioweapon (913239) / Blazing Cannonballs (913232) / Crippling Shot (913236) / Immolation Blast (913240) / Mechanical Demon (913234) / Mortar Shot (913230) / Obliteration (913241) / Scattering Shot (913237) / Shrouding Cannonballs (913233) / Staggering Shot (913235)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 913250, -1, [913230,  913232,  913233,  913234,  913235,  913236,  913237,  913238,  913239,  913240,  913241], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913252": {
+        "name": "Full Gear",
+        "icon": "ability_45.png",
+        "compendium_id": 86688,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase ATK by 50% when equipped with a Cloth",
+            "Increase ATK by 50% when equipped with a Light Armor",
+            "Increase the damage of Cannon Fire - 120mm (913238), Cannon Fire - Blazing Cannonballs (913232), Cannon Fire - Crippling Shot (913236), Cannon Fire - Scattering Shot (913237), Cannon Fire - Shrouding Cannonballs (913233), Cannon Fire - Staggering Shot (913235) and Deadly Blast (913227) by (1x)",
+            "Use Rapid Blast (913533) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 13, [100,  25,  2]], [0, 3, 6, [50,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [51,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [[913237,  913232,  913233,  913227,  913235,  913236,  913238], 0, 0, 100]], [0, 3, 56, [913533]]],
+        "requirements": [["EQUIP", 1500000116], ["EQUIP", 1100000361]],
+        "unit_restriction": null
+    },
+    "913254": {
+        "name": "Miss Big Shot",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86690,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 60% and HP and MP by 40%",
+            "Increase ATK by 50% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  0,  40,  40,  0]], [0, 3, 6, [14,  50,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "913272": {
         "name": "Dream Chemistry",
         "icon": "global_ability_10004.png",
@@ -73363,6 +73635,134 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913313": {
+        "name": "Decryption Program",
+        "icon": "ability_77.png",
+        "compendium_id": 86712,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Decryption Program (913315) at the start of the turn if Doctor Aiden is alive",
+            "Gain Decryption Program (913315) at the start of the turn if Agent Olive is alive",
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
+        ],
+        "effects_raw": [[0, 3, 10002, [401007905,  99,  913315,  0]], [0, 3, 10002, [401008005,  99,  913315,  0]], [0, 3, 10002, [401008105,  99,  913315]], [0, 3, 10002, [401008205,  99,  913315]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913314": {
+        "name": "Fast Charger",
+        "icon": "ability_77.png",
+        "compendium_id": 86713,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Fast Charger (913316) at the start of the turn if Doctor Aiden is alive",
+            "Gain Fast Charger (913316) at the start of the turn if Agent Olive is alive",
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
+        ],
+        "effects_raw": [[0, 3, 10002, [401007905,  99,  913316,  0]], [0, 3, 10002, [401008005,  99,  913316,  0]], [0, 3, 10002, [401008105,  99,  913316]], [0, 3, 10002, [401008205,  99,  913316]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913317": {
+        "name": "Spy of All Trades",
+        "icon": "ability_95.png",
+        "compendium_id": 86716,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30% when equipped with a Rod",
+            "Increase DEF by 30% when equipped with a Dagger",
+            "Increase SPR by 30% when equipped with a Staff",
+            "Increase ATK by 30% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  30,  0]], [0, 3, 6, [1,  0,  30,  0,  0]], [0, 3, 6, [5,  0,  0,  0,  30]], [0, 3, 6, [14,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913318": {
+        "name": "Suit Up",
+        "icon": "ability_95.png",
+        "compendium_id": 86717,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 30% when equipped with a Cloth",
+            "Increase MP by 20% when equipped with a Hat"
+        ],
+        "effects_raw": [[0, 3, 6, [50,  0,  0,  0,  0,  30,  0,  0]], [0, 3, 6, [40,  0,  0,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913319": {
+        "name": "Energy Pulse",
+        "icon": "ability_77.png",
+        "compendium_id": 86718,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain Energy Pulse (913479) at the start of the turn if Doctor Aiden is alive",
+            "Gain Energy Pulse (913479) at the start of the turn if Agent Olive is alive",
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
+        ],
+        "effects_raw": [[0, 3, 10002, [401007905,  99,  913479,  0]], [0, 3, 10002, [401008005,  99,  913479,  0]], [0, 3, 10002, [401008105,  99,  913479]], [0, 3, 10002, [401008205,  99,  913479]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913324": {
+        "name": "Customized Model",
+        "icon": "ability_95.png",
+        "compendium_id": 86719,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% when equipped with a Gun",
+            "Increase LB damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 6, [14,  50,  0,  0,  0]], [0, 3, 68, [30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913325": {
+        "name": "Advanced Weaponry",
+        "icon": "ability_76.png",
+        "compendium_id": 86720,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Cast Advanced Weaponry (913477) at the start of your turn"
+        ],
+        "effects_raw": [[0, 3, 13, [100,  25,  2]], [0, 3, 66, [913477,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "913326": {
         "name": "Magitek Arm",
         "icon": "ability_77.png",
@@ -73468,6 +73868,1097 @@
         "element_inflict": null,
         "effects": ["Enable unit to use Blade of Despair (950147), Blade of Despair I (950148), Blade of Despair II (800351), Bloodthirsty Swordsman+2 (707890), Dual Slash (210730), Flame Blade (227282), Flame Blade+1 (707897), Flame Blade+2 (707898), Heat Drive (227286), Improve Stance (227288), Life-severing Blade (227284), Phantom Blade (227292), Ruthless Blade (227281), Ruthless Blade+1 (913335), Ruthless Blade+2 (913336), Selfless State (227287), Servant of the Blade (227280), Servant of the Blade+1 (707895), Servant of the Blade+2 (707896), Unknown Traitor (227285), Voltage Blade (227283), Voltage Blade+1 (707899), Voltage Blade+2 (707900), Way of the Void (227293), Way of the Void+1 (707891) and Way of the Void+2 (707892) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 913340, -1, [227280,  227281,  227282,  227283,  227284,  227285,  227292,  707890,  707895,  707896,  707897,  707898,  707899,  707900,  913335,  913336,  950147,  950148,  800351,  227288,  210730,  227286,  227287,  227293,  707891,  707892], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913341": {
+        "name": "Double up!",
+        "icon": "ability_8.png",
+        "compendium_id": 86723,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Critical Mirror (913353), Dazed and Confused (913359), Elemental Mirror (913352), Grand Reversal (913365), Grand Waylay (913362), Lethal Virus (913356), Mug Life (913363), Mystical Mirror (913355), Obscure Solitude (913360), Paralyzing Darkness (913357), Projected Mirror (913346), Reciprocal Mirror (913354), Silent Slumber (913358), Survival Mirror (913351), Thief in the Night (913348), Time Burglar (913364) and Vicious Strike (913361) twice in one turn"],
+        "effects_raw": [[1, 3, 53, [2, 913342, -1, [913362,  913363,  913364,  913365,  913361,  913356,  913357,  913358,  913359,  913360,  913348,  913351,  913352,  913353,  913354,  913355,  913346], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913344": {
+        "name": "Reflector",
+        "icon": "global_ability_10055.png",
+        "compendium_id": 86726,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Critical Mirror (913353), Elemental Mirror (913352), Mystical Mirror (913355), Projected Mirror (913346), Reciprocal Mirror (913354) and Survival Mirror (913351) 3 times in one turn"],
+        "effects_raw": [[1, 3, 53, [3, 913345, -1, [913346,  913351,  913352,  913353,  913354,  913355], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913368": {
+        "name": "Training the Mind",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86750,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, HP and MP by 20%",
+            "Increase DEF by 30% when equipped with a Hat"
+        ],
+        "effects_raw": [[1, 3, 1, [20,  0,  0,  0,  20,  20,  0]], [1, 3, 6, [40,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913369": {
+        "name": "Dual Weapon Mastery",
+        "icon": "ability_72.png",
+        "compendium_id": 86751,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed weapons",
+            "Increase ATK by 20%",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[1, 3, 14, ["none"]], [1, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [1, 3, 69, [1,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913370": {
+        "name": "Art of Thievery",
+        "icon": "ability_74.png",
+        "compendium_id": 86752,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase success rate of stealing by 100%",
+            "Reduce chance of being targeted by 80%",
+            "Enable unit to also obtain gil when stealing"
+        ],
+        "effects_raw": [[1, 3, 16, [100,  100]], [1, 3, 25, [80]], [1, 3, 46, [50,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913371": {
+        "name": "Cloaked in Darkness",
+        "icon": "ability_72.png",
+        "compendium_id": 86753,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30% when equipped with a Cloth",
+            "Increase ATK by 50% when equipped with a Dagger",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[1, 3, 6, [50,  0,  0,  0,  30,  0,  0]], [1, 3, 6, [1,  50,  0,  0,  0,  0,  0]], [1, 3, 69, [1,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913372": {
+        "name": "Duality Arts",
+        "icon": "ability_72.png",
+        "compendium_id": 86754,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Allow unit to reach 6x chain modifier, when using two one-handed weapons"],
+        "effects_raw": [[1, 3, 81, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913373": {
+        "name": "Smooth Criminal",
+        "icon": "ability_91.png",
+        "compendium_id": 86755,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Blind, Paralyze, Confusion and Petrify by 100%",
+            "20% chance to counter physical attacks with Mean Mug (913374) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with Mean Mug (913374) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[1, 3, 2, [0,  100,  0,  0,  100,  100,  0,  100]], [1, 3, 49, [20,  3,  913374,  1]], [1, 3, 50, [20,  3,  913374,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913375": {
+        "name": "Losers Weepers",
+        "icon": "ability_88.png",
+        "compendium_id": 86757,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase drop rate of items by 100% and rare items by 100%",
+            "Increase gil obtained by 100%"
+        ],
+        "effects_raw": [[1, 3, 47, [100,  100]], [1, 3, 37, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913376": {
+        "name": "In The Xon",
+        "icon": "ability_71.png",
+        "compendium_id": 86758,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30% and DEF, SPR, HP and MP by 20%",
+            "20% chance of evading physical attacks"
+        ],
+        "effects_raw": [[1, 3, 1, [30,  20,  0,  20,  20,  20,  0]], [1, 3, 22, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913377": {
+        "name": "Elusive Bandit",
+        "icon": "ability_73.png",
+        "compendium_id": 86759,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase Stop resistance by 100% to caster",
+            "30% chance of evading physical attacks",
+            "Increase chance of countering by 100%",
+            "Enable unit to use Dazed and Confused (913359), Grand Waylay (913362), Lethal Virus (913356), Mug Life (913363), Obscure Solitude (913360), Paralyzing Darkness (913357), Silent Slumber (913358), Thief in the Night (913348), Time Burglar (913364) and Vicious Strike (913361) 3 times in one turn",
+            "Increase the damage of Dazed and Confused (913359), Grand Waylay (913362), Lethal Virus (913356), Mug Life (913363), Obscure Solitude (913360), Paralyzing Darkness (913357), Silent Slumber (913358), Thief in the Night (913349), Time Burglar (913364) and Vicious Strike (913361) by (5x)"
+        ],
+        "effects_raw": [[1, 3, 55, [0,  0,  0,  0,  100,  0]], [1, 3, 22, [30]], [1, 3, 20, [100]], [1, 3, 53, [3, 913343, -1, [913362,  913363,  913364,  913361,  913356,  913357,  913358,  913359,  913360,  913348], 1]], [1, 3, 73, [[913362,  913363,  913364,  913361,  913356,  913357,  913358,  913359,  913360,  913349], 0, 0, 500]]],
+        "requirements": [["EQUIP", 1100000359], ["EQUIP", 1100000360]],
+        "unit_restriction": null
+    },
+    "913378": {
+        "name": "Mastermind",
+        "icon": "global_ability_10004.png",
+        "compendium_id": 86760,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase ATK by 50% when HP drops below 50% (max 9000x)",
+            "UNKNOWN EFFECT (203) when HP drops below 20% (max 1x)",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[1, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [1, 3, 69, [1,  50]], [1, 3, 4, [1,  50,  9000,  50,  0,  -1]], [1, 3, 4, [203, [1,  2,  913379], 1, 20, 0, -1]], [1, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913380": {
+        "name": "Bounty Call",
+        "icon": "ability_88.png",
+        "compendium_id": 86762,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase drop rate of items by 50% and rare items by 50%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[1, 3, 47, [50,  50]], [1, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913381": {
+        "name": "Float Like a Butterfly",
+        "icon": "global_ability_10095.png",
+        "compendium_id": 86763,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "30% chance of evading physical attacks",
+            "Enable unit to equip two one-handed weapons",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[1, 3, 22, [30]], [1, 3, 14, ["none"]], [1, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913382": {
+        "name": "MP + 15%",
+        "icon": "ability_77.png",
+        "compendium_id": 86764,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MP by 15%"],
+        "effects_raw": [[1, 3, 1, [0,  0,  0,  0,  0,  15,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913384": {
+        "name": "Dark Disguise",
+        "icon": "ability_92.png",
+        "compendium_id": 86766,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all status effects by 100%"],
+        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913385": {
+        "name": "Night Camouflage",
+        "icon": "ability_92.png",
+        "compendium_id": 86767,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Recover MP (5%) per turn"],
+        "effects_raw": [[0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": [401007905, 401007906, 401007907, 100014703, 100014704, 100014705]
+    },
+    "913386": {
+        "name": "Sedative",
+        "icon": "ability_60.png",
+        "compendium_id": 86768,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase LB gauge by 2 per turn"],
+        "effects_raw": [[0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913390": {
+        "name": "Double Treatment",
+        "icon": "ability_8.png",
+        "compendium_id": 86772,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Operate skills  [An Apple a Day (913414) / Antibodies Boost (913393) / Black Salve (913425) / Contagion (913407) / Epidemic (913408) / Full Immunization (913401) / Plasma Boost (913395) / Potent Disinfectant (913400) / Preventative Measures (913399) / Resuscitation (913410) / Spoonful of Sugar (913418) / Sterilization (913392) / Taste of Your Own Medicine (913423) / Under the Weather (913421) / What the Doctor Ordered (913416)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 913391, -1, [913392,  913393,  913395,  913399,  913400,  913401,  913407,  913408,  913410,  913414,  913416,  913418,  913421,  913423,  913425], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913394": {
+        "name": "Vital Signs",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86776,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30% when equipped with a Robe",
+            "Increase resistance to Silence and Paralyze by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [53,  0,  0,  0,  0,  30,  30,  0]], [0, 3, 2, [0,  0,  0,  100,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913396": {
+        "name": "Doctor's Note",
+        "icon": "global_ability_10096.png",
+        "compendium_id": 86778,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "25% chance to counter physical attacks with Doctor's Note (913397) to caster (max 1 / turn)",
+            "25% chance to counter magic attacks with Doctor's Note (913397) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [25,  3,  913397,  1]], [0, 3, 50, [25,  3,  913397,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913398": {
+        "name": "Sound Disposition",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86780,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913402": {
+        "name": "Medical Practitioner",
+        "icon": "ability_86.png",
+        "compendium_id": 86784,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "20% chance of evading physical attacks",
+            "Increase equipment SPR (50%) when armed with a single weapon",
+            "Increase resistance to Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 22, [20]], [0, 3, 10003, [0,  0,  0,  0,  0,  50,  1]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913403": {
+        "name": "Involuntary Reflex",
+        "icon": "ability_91.png",
+        "compendium_id": 86785,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "25% chance to counter physical attacks with Involuntary Reflex (913404) to caster (max 1 / turn)",
+            "25% chance to counter magic attacks with Involuntary Reflex (913404) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [25,  3,  913404,  1]], [0, 3, 50, [25,  3,  913404,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913405": {
+        "name": "Covert Physician",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86787,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 20%",
+            "Increase resistance to Lightning and Dark by 40%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 3, [0,  0,  40,  0,  0,  0,  0,  40]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913406": {
+        "name": "Emergency Treatment",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86788,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Regenerate 1500 HP per turn when HP drops below 50% (max 1x)",
+            "Regenerate 60 MP per turn when HP drops below 50% (max 1x)",
+            "Increase SPR by 200% for 3 turns when HP drops below 50% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 4, [20,  1500,  1,  50,  0,  -1]], [0, 3, 4, [22,  60,  1,  50,  0,  -1]], [0, 3, 4, [4,  200,  99999,  50,  0,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913409": {
+        "name": "Vigilant Operator",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86791,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 30%",
+            "Increase resistance to Blind and Sleep by 100%",
+            "Recover MP (7%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  30,  0]], [0, 3, 2, [0,  100,  100,  0,  0,  0,  0,  0]], [0, 3, 32, [7]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913412": {
+        "name": "False Aidentity",
+        "icon": "ability_71.png",
+        "compendium_id": 86794,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "20% chance of evading magic attacks",
+            "Increase chance of countering by 100%",
+            "Use Second Opinion (913413) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 54, [-1,  20]], [0, 3, 20, [100]], [0, 3, 56, [913413]]],
+        "requirements": [["EQUIP", 1100000357], ["EQUIP", 1100000358]],
+        "unit_restriction": null
+    },
+    "913426": {
+        "name": "Alive and Kicking",
+        "icon": "ability_86.png",
+        "compendium_id": 86808,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 40%",
+            "Increase SPR by 20% when equipped with a Staff",
+            "Increase the limit burst gauge fill rate by 50%",
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 3 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  0,  0]], [0, 3, 6, [5,  0,  0,  0,  20,  0,  0,  0]], [0, 3, 31, [50]], [0, 3, 51, [30,  80,  0,  3,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913432": {
+        "name": "Covert Operative",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86814,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913436": {
+        "name": "Secret Agent",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86818,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913438": {
+        "name": "Eyes on the Prize",
+        "icon": "ability_19.png",
+        "compendium_id": 86820,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Silence, Paralyze, Confusion and Petrify by 100%"],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  100,  100,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913439": {
+        "name": "Double Identity",
+        "icon": "ability_8.png",
+        "compendium_id": 86821,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blacklisted (913471), Chilling Ploy (913454), Cold-Blooded Specter (913470), Draconic Distraction (913429), Electrical Bypass (913447), Elemental Infiltration (913466), Living Dangerously (913444), Mechanical Maneuver (913433), Obscure Breach (913450), Salvage Operation (913437), Shadowy Specter (913469), Sonic Surge (913445), Target Reconnaissance (913428), Ultrasonic Weapon (913458), Voltaic Specter (913468), Weakness Exploitation (913464) and Weapon Reconfiguration (913443) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913440, -1, [913428,  913429,  913433,  913437,  913443,  913444,  913445,  913447,  913450,  913454,  913458,  913464,  913466,  913468,  913469,  913470,  913471], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913441": {
+        "name": "Static Diversion",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86823,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 30%",
+            "Increase LB gauge by 2 per turn",
+            "Cast Electroshock (913442) at the start of your turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  0]], [0, 3, 33, [200]], [0, 3, 66, [913442,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913446": {
+        "name": "Talented Specialist",
+        "icon": "global_ability_10091.png",
+        "compendium_id": 86828,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "Increase equipment MAG by 100% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0]], [0, 3, 70, [100,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913453": {
+        "name": "Professional Spy",
+        "icon": "global_ability_10089.png",
+        "compendium_id": 86835,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 20% when equipped with a Robe",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 6, [53,  0,  0,  20,  0,  0,  20]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913457": {
+        "name": "Phantom Target",
+        "icon": "ability_41.png",
+        "compendium_id": 86839,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Lightning and Dark by 50%",
+            "100% chance to set HP to 20% upon fatal damage, if HP was above 20% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  0,  0,  0,  50]], [0, 3, 51, [20,  100,  20,  1,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913459": {
+        "name": "Encrypted Code",
+        "icon": "global_ability_10093.png",
+        "compendium_id": 86841,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50% and DEF, SPR and HP by 20%",
+            "Increase the damage of Chilling Ploy (913454), Cold-Blooded Specter (913470), Draconic Distraction (913429), Electrical Bypass (913447), Mechanical Maneuver (913433), Obscure Breach (913450), Shadowy Specter (913469) and Voltaic Specter (913468) by (1.5x)",
+            "UNKNOWN EFFECT (204) for 3 turns when HP drops below 65% (max 9000x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  50,  20,  20,  0]], [0, 3, 73, [[913429,  913433,  913447,  913450,  913454,  913468,  913469,  913470], 0, 0, 150]], [0, 3, 4, [204,  40,  9000,  65,  0,  3]]],
+        "requirements": [["EQUIP", 1500000121], ["EQUIP", 1100000362]],
+        "unit_restriction": null
+    },
+    "913460": {
+        "name": "Triple Identity",
+        "icon": "global_ability_10024.png",
+        "compendium_id": 86842,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blacklisted (913471), Chilling Ploy (913454), Cold-Blooded Specter (913470), Draconic Distraction (913429), Electrical Bypass (913447), Elemental Infiltration (913466), Living Dangerously (913444), Mechanical Maneuver (913433), Obscure Breach (913450), Salvage Operation (913437), Shadowy Specter (913469), Sonic Surge (913445), Target Reconnaissance (913428), Ultrasonic Weapon (913458), Voltaic Specter (913468), Weakness Exploitation (913464) and Weapon Reconfiguration (913443) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 913461, -1, [913428,  913429,  913433,  913437,  913443,  913444,  913445,  913447,  913450,  913454,  913458,  913464,  913466,  913468,  913469,  913470,  913471], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913462": {
+        "name": "Classified Data",
+        "icon": "ability_63.png",
+        "compendium_id": 86844,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use Classified Data (913463) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 56, [913463]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913473": {
+        "name": "Invaluable Asset",
+        "icon": "global_ability_10091.png",
+        "compendium_id": 86855,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30% and HP and MP by 20%",
+            "Increase magic damage against Dragons by 50%  when equipped with Rod",
+            "Increase magic damage against Machinas by 25%  when equipped with Rod",
+            "Increase equipment MAG and SPR (50%) when armed with a single weapon",
+            "Replace LB with Mission Completed (950000013) for 3 turns if HP is below 65%:\n\tMagic damage (14x * 2 = 28x, MAG) to all enemies (ignore reflect)\n\tIncrease MAG by 200% for 3 turns to caster (can not be removed)\n\tGain 4 uses of Blacklisted (913471), Chilling Ploy (913454), Cold-Blooded Specter (913470), Draconic Distraction (913429), Electrical Bypass (913447), Elemental Infiltration (913466), Living Dangerously (913444), Mechanical Maneuver (913433), Obscure Breach (913450), Salvage Operation (913437), Shadowy Specter (913469), Sonic Surge (913445), Target Reconnaissance (913428), Ultrasonic Weapon (913458), Voltaic Specter (913468), Weakness Exploitation (913464) and Weapon Reconfiguration (913443) for 2 turns\n\tIncrease damage of Cold-Blooded Specter (913470), Shadowy Specter (913469), Ultrasonic Weapon (913458) and Voltaic Specter (913468) by 50% for 999 turns"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  20,  20]], [0, 3, 75, [6,  7,  0,  50]], [0, 3, 75, [6,  6,  0,  25]], [0, 3, 10003, [0,  0,  0,  50,  0,  50,  1]], [0, 3, 80, [950000013,  9999,  65,  0,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913475": {
+        "name": "Top Operative",
+        "icon": "ability_60.png",
+        "compendium_id": 86857,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20% when equipped with a Rod",
+            "Increase MAG and MP by 30%",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  20,  0,  0,  0]], [0, 3, 1, [0,  0,  30,  0,  0,  30]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913476": {
+        "name": "Mechaslayer",
+        "icon": "global_ability_10074.png",
+        "compendium_id": 86858,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase magic damage against Machinas by 50%"],
+        "effects_raw": [[0, 3, 11, [6,  0,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913480": {
+        "name": "Locktek Cipher",
+        "icon": "ability_77.png",
+        "compendium_id": 86862,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, MAG, HP and MP by 20%",
+            "Increase ATK, DEF, MAG and SPR by 10% when equipped with a Cloth"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  20,  0,  20,  20,  0]], [0, 3, 6, [50,  10,  10,  10,  10,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913481": {
+        "name": "Every Demon's Rushin'",
+        "icon": "ability_79.png",
+        "compendium_id": 86863,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase ATK and MAG by 30%"
+        ],
+        "effects_raw": [[0, 3, 11, [4,  50,  50]], [0, 3, 1, [30,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913482": {
+        "name": "Access Code",
+        "icon": "ability_77.png",
+        "compendium_id": 86864,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase LB damage by 20%"],
+        "effects_raw": [[0, 3, 68, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913485": {
+        "name": "Double Flash",
+        "icon": "ability_8.png",
+        "compendium_id": 85466,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Aurora Storm (911665), Flash - Brilliance (911645), Flash - Brilliance+1 (913483), Flash - Brilliance+2 (913484), Flash - Dazzle (911651), Flash - Endless Punishment (911654), Flash - Furious Radiance (911657), Flash - Furious Radiance+1 (913489), Flash - Furious Radiance+2 (913490), Flash - Luster (911642), Flash - Radiant Might (950152), Flash - Radiant Might I (950153), Flash - Radiant Might II (950154), Healing Radiance (911648) and Purge (911643) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913486, -1, [911642,  911645,  911651,  911654,  911657,  911665,  913483,  913484,  913489,  913490,  950152,  950153,  950154,  911643,  911648], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913487": {
+        "name": "Double Flash",
+        "icon": "ability_8.png",
+        "compendium_id": 85466,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Aurora Storm (911665), First Light (911673), First Light+1 (913495), First Light+2 (913496), Flash - Brilliance (911645), Flash - Brilliance+1 (913483), Flash - Brilliance+2 (913484), Flash - Dazzle (911651), Flash - Endless Punishment (911654), Flash - Furious Radiance (911657), Flash - Furious Radiance+1 (913489), Flash - Furious Radiance+2 (913490), Flash - Luster (911642), Flash - Radiant Might (950152), Flash - Radiant Might I (950153), Flash - Radiant Might II (950154), Gift of Daylight (911672), Gift of Daylight+1 (913491), Gift of Daylight+2 (913492), Healing Radiance (911648) and Purge (911643) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913488, -1, [911642,  911645,  911651,  911654,  911657,  911665,  913483,  913484,  913489,  913490,  950152,  950153,  950154,  911643,  911648,  911672,  913491,  913492,  911673,  913495,  913496], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913499": {
+        "name": "Light Streak",
+        "icon": "ability_95.png",
+        "compendium_id": 85454,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 30%",
+            "Increase equipment ATK by 75% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 75% when armed with a single weapon",
+            "Increase the limit burst gauge fill rate by 50%",
+            "Use Triple Flash (911666) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]], [0, 3, 13, [75,  25,  2]], [0, 3, 70, [75,  0,  2]], [0, 3, 31, [50]], [0, 3, 56, [911666]]],
+        "requirements": [["EQUIP", 1100000219], ["EQUIP", 1100000220]],
+        "unit_restriction": null
+    },
+    "913500": {
+        "name": "Light Streak",
+        "icon": "ability_95.png",
+        "compendium_id": 85454,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 50%",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 100% when armed with a single weapon",
+            "Increase the limit burst gauge fill rate by 50%",
+            "Use Triple Flash (911666) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  50,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 70, [100,  0,  2]], [0, 3, 31, [50]], [0, 3, 56, [911666]]],
+        "requirements": [["EQUIP", 1100000219], ["EQUIP", 1100000220]],
+        "unit_restriction": null
+    },
+    "913501": {
+        "name": "Wielder of Light",
+        "icon": "ability_77.png",
+        "compendium_id": 85459,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 20%",
+            "Increase resistance to Light by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  20,  20,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913502": {
+        "name": "Wielder of Light",
+        "icon": "ability_77.png",
+        "compendium_id": 85459,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 50%",
+            "Increase resistance to Light by 50%",
+            "Increase the damage of Aurora Storm (911665) by (6x)",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  50,  50,  50,  50,  50,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  0]], [0, 3, 73, [911665,  0,  0,  600]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913503": {
+        "name": "Daybringer",
+        "icon": "ability_77.png",
+        "compendium_id": 85460,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 30% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 30% when armed with a single weapon",
+            "Increase the damage of Flash skills  [Brilliance (911645) / Brilliance+1 (913483) / Brilliance+2 (913484) / Dazzle (911651) / Endless Punishment (911654) / Furious Radiance (911657) / Furious Radiance+1 (913489) / Furious Radiance+2 (913490)] by (2x)",
+            "Increase the damage of Flash - Luster (911642) and Purge (911643) by (6x)"
+        ],
+        "effects_raw": [[0, 3, 13, [30,  25,  2]], [0, 3, 70, [30,  0,  2]], [0, 3, 73, [[911645,  913483,  913484,  911651,  911654,  911657,  913489,  913490], 0, 0, 200]], [0, 3, 73, [[911642,  911643], 0, 0, 600]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913504": {
+        "name": "Daybringer",
+        "icon": "ability_77.png",
+        "compendium_id": 85460,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase the damage of Flash skills  [Brilliance (911645) / Brilliance+1 (913483) / Brilliance+2 (913484) / Furious Radiance (911657) / Furious Radiance+1 (913489) / Furious Radiance+2 (913490)] by (5x)",
+            "Increase the damage of Flash - Luster (911642) and Purge (911643) by (6x)",
+            "Increase the damage of Flash skills  [Dazzle (911651) / Endless Punishment (911654)] by (15x)"
+        ],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]], [0, 3, 73, [[911645,  913483,  913484,  911657,  913489,  913490], 0, 0, 500]], [0, 3, 73, [[911642,  911643], 0, 0, 600]], [0, 3, 73, [[911651,  911654], 0, 0, 1500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913513": {
+        "name": "Double Zekken",
+        "icon": "ability_8.png",
+        "compendium_id": 3846,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blizzaja Sword (228335), Definitive Command (228334), Definitive Command+1 (708075), Definitive Command+2 (708076), Instant Hellfreeze (228330), Instant Hellfreeze+1 (913511), Instant Hellfreeze+2 (913512), Zekken - Cloudless Rain (228331), Zekken - Cloudless Rain+1 (913509), Zekken - Cloudless Rain+2 (913510), Zekken - Freezing Showers (228332), Zekken - Freezing Showers+1 (913507), Zekken - Freezing Showers+2 (913508), Zekken - Sudden Downpour (228333), Zekken - Sudden Downpour+1 (708077), Zekken - Sudden Downpour+2 (708078), Zekken - Twilight Rain (508520), Zekken - Twilight Rain+1 (913505) and Zekken - Twilight Rain+2 (913506) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913514, -1, [228331,  228332,  228333,  508520,  913509,  913510,  913507,  913508,  708077,  708078,  913505,  913506,  228335,  228334,  708075,  708076,  228330,  913511,  913512], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913515": {
+        "name": "Double Zekken",
+        "icon": "ability_8.png",
+        "compendium_id": 3846,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Blizzaja Sword (228335), Definitive Command (228334), Definitive Command+1 (708075), Definitive Command+2 (708076), Diamond Rain (228338), Diamond Rain+1 (708081), Diamond Rain+2 (708082), Ice Magic Unleashed (228337), Ice Magic Unleashed+1 (708079), Ice Magic Unleashed+2 (708080), Instant Hellfreeze (228330), Instant Hellfreeze+1 (913511), Instant Hellfreeze+2 (913512), Summon Eidolon (226813), Zekken - Cloudless Rain (228331), Zekken - Cloudless Rain+1 (913509), Zekken - Cloudless Rain+2 (913510), Zekken - Freezing Showers (228332), Zekken - Freezing Showers+1 (913507), Zekken - Freezing Showers+2 (913508), Zekken - Sudden Downpour (228333), Zekken - Sudden Downpour+1 (708077), Zekken - Sudden Downpour+2 (708078), Zekken - Twilight Rain (508520), Zekken - Twilight Rain+1 (913505) and Zekken - Twilight Rain+2 (913506) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913516, -1, [228331,  228332,  228333,  508520,  913509,  913510,  913507,  913508,  708077,  708078,  913505,  913506,  228335,  228334,  708075,  708076,  228330,  913511,  913512,  226813,  228337,  708079,  708080,  228338,  708081,  708082], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913517": {
+        "name": "The Ice Reaper",
+        "icon": "ability_77.png",
+        "compendium_id": 3855,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 50%",
+            "Increase resistance to Ice by 50%",
+            "Replace LB with Absolute Zero (950000014):\n\tReduce resistance to Ice by 90% for 2 turns to all enemies\n\tHybrid ice damage (30.5x, ATK & MAG) to all enemies\n\tIncrease ATK and MAG by 250% for 3 turns to caster\n\tGain 3 uses of Zekken skills  [Cloudless Rain (228331) / Cloudless Rain+1 (913509) / Cloudless Rain+2 (913510) / Freezing Showers (228332) / Freezing Showers+1 (913507) / Freezing Showers+2 (913508) / Sudden Downpour (228333) / Sudden Downpour+1 (708077) / Sudden Downpour+2 (708078) / Twilight Rain (508520) / Twilight Rain+1 (913505) / Twilight Rain+2 (913506)] for one turn\n\tGain Zekken - Twilight Rain+1 (913505) for one turn",
+            "Recover MP (5%) per turn",
+            "Use The Ice Reaper+1 (913519) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  50,  0]], [0, 3, 3, [0,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 72, [950000014]], [0, 3, 32, [5]], [0, 3, 56, [913519]]],
+        "requirements": [["EQUIP", 409023400], ["EQUIP", 302006600]],
+        "unit_restriction": null
+    },
+    "913518": {
+        "name": "The Ice Reaper",
+        "icon": "ability_77.png",
+        "compendium_id": 3855,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 50% and DEF, SPR and HP by 30%",
+            "Increase resistance to Ice by 50%",
+            "Replace LB with Absolute Zero (950000015):\n\tReduce resistance to Ice by 90% for 2 turns to all enemies\n\tHybrid ice damage (30.5x, ATK & MAG) to all enemies\n\tIncrease ATK and MAG by 250% for 3 turns to caster (can not be removed)\n\tGain 3 uses of Zekken skills  [Cloudless Rain (228331) / Cloudless Rain+1 (913509) / Cloudless Rain+2 (913510) / Freezing Showers (228332) / Freezing Showers+1 (913507) / Freezing Showers+2 (913508) / Sudden Downpour (228333) / Sudden Downpour+1 (708077) / Sudden Downpour+2 (708078) / Twilight Rain (508520) / Twilight Rain+1 (913505) / Twilight Rain+2 (913506)] for 2 turns\n\tGain Zekken - Twilight Rain+2 (913506) for 2 turns",
+            "Recover MP (5%) per turn",
+            "Use The Ice Reaper+2 (913520) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  50,  0]], [0, 3, 3, [0,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 72, [950000015]], [0, 3, 32, [5]], [0, 3, 56, [913520]]],
+        "requirements": [["EQUIP", 409023400], ["EQUIP", 302006600]],
+        "unit_restriction": null
+    },
+    "913521": {
+        "name": "Intimidating Stance",
+        "icon": "ability_76.png",
+        "compendium_id": 3852,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 40%",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  40,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 70, [100,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913522": {
+        "name": "Intimidating Stance",
+        "icon": "ability_76.png",
+        "compendium_id": 3852,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 80%",
+            "Increase equipment ATK by 150% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 150% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase the damage of Zekken skills  [Cloudless Rain (228331) / Cloudless Rain+1 (913509) / Cloudless Rain+2 (913510) / Freezing Showers (228332) / Freezing Showers+1 (913507) / Freezing Showers+2 (913508) / Sudden Downpour (228333) / Sudden Downpour+1 (708077) / Sudden Downpour+2 (708078)] by (7x)",
+            "Increase the damage of Zekken - Twilight Rain skills  [(508520) / +1 (913505) / +2 (913506)] by (10x)"
+        ],
+        "effects_raw": [[0, 3, 1, [80,  0,  80,  0,  0,  0,  0]], [0, 3, 13, [150,  25,  2]], [0, 3, 70, [150,  25,  2]], [0, 3, 73, [[228331,  228332,  228333,  913509,  913510,  913507,  913508,  708077,  708078], 0, 0, 700]], [0, 3, 73, [[508520,  913505,  913506], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913529": {
+        "name": "Crystal's Chosen One",
+        "icon": "ability_91.png",
+        "compendium_id": 3836,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Use Crystal's Chosen One (508512) at the start of a battle or when revived",
+            "Increase LB gauge by 1 per turn",
+            "Increase the damage of Element Eiger (228310), Element Eiger+1 (708069), Element Eiger+2 (708070), Rush Blade (508511), Rush Blade+1 (913527) and Rush Blade+2 (913528) by (1.5x)",
+            "Increase equipment ATK by 10% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 56, [508512]], [0, 3, 33, [100]], [0, 3, 73, [[228310,  708069,  708070,  508511,  913527,  913528], 0, 0, 150]], [0, 3, 69, [1,  10,  0]]],
+        "requirements": [["EQUIP", 504228324], ["EQUIP", 302006500]],
+        "unit_restriction": null
+    },
+    "913530": {
+        "name": "Crystal's Chosen One",
+        "icon": "ability_91.png",
+        "compendium_id": 3836,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 20%",
+            "Use Crystal's Chosen One (508512) at the start of a battle or when revived",
+            "Increase LB gauge by 1 per turn",
+            "Increase the damage of Element Eiger (228310), Element Eiger+1 (708069), Element Eiger+2 (708070), Rush Blade (508511), Rush Blade+1 (913527) and Rush Blade+2 (913528) by (3.5x)",
+            "Increase equipment ATK by 60% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 56, [508512]], [0, 3, 33, [100]], [0, 3, 73, [[228310,  708069,  708070,  508511,  913527,  913528], 0, 0, 350]], [0, 3, 69, [1,  60,  0]]],
+        "requirements": [["EQUIP", 504228324], ["EQUIP", 302006500]],
+        "unit_restriction": null
+    },
+    "913531": {
+        "name": "Acoustic Amplifier",
+        "icon": "ability_95.png",
+        "compendium_id": 3861,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, MAG and SPR by 30% when equipped with a Instrument",
+            "Increase resistance to Sleep and Silence by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [11,  0,  30,  30,  30,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  100,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913532": {
+        "name": "Acoustic Amplifier",
+        "icon": "ability_95.png",
+        "compendium_id": 3861,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, MAG, SPR and HP by 30% when equipped with a Instrument",
+            "Increase resistance to Sleep, Silence, Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 6, [11,  0,  30,  30,  30,  30,  0,  0]], [0, 3, 2, [0,  0,  100,  100,  100,  100,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -74310,6 +75801,112 @@
             "Increase DEF, SPR and MP by 10%"
         ],
         "effects_raw": [[0, 3, 10002, [100023205,  3,  950146,  0]], [0, 3, 1, [0,  10,  0,  10,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950149": {
+        "name": "Aurora's Bond",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86865,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 30% and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950150": {
+        "name": "Aurora's Bond I",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86865,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30% and HP by 20%",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  20,  0,  0]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950151": {
+        "name": "Aurora's Bond II",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86865,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30% and HP by 20%",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  20,  0,  0]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950155": {
+        "name": "Aurora's Guidance",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86867,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of Aurora Storm (911665), Flower Assault (911629), Frost Flower Blitz (910161), Frost Flower Blitz+1 (911006), Frost Flower Blitz+2 (911007) and Frost Riposte (911631) by (4x)"],
+        "effects_raw": [[0, 3, 73, [[910161,  911006,  911007,  911629,  911631,  911665], 0, 0, 400]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950156": {
+        "name": "Aurora's Guidance I",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86867,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of Aurora Storm (911665), Flower Assault (911629), Frost Flower Blitz (910161), Frost Flower Blitz+1 (911006), Frost Flower Blitz+2 (911007) and Frost Riposte (911631) by (6x)",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%"
+        ],
+        "effects_raw": [[0, 3, 73, [[910161,  911006,  911007,  911629,  911631,  911665], 0, 0, 600]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950157": {
+        "name": "Aurora's Guidance II",
+        "icon": "global_ability_10071.png",
+        "compendium_id": 86867,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of Aurora Storm (911665), Flower Assault (911629), Frost Flower Blitz (910161), Frost Flower Blitz+1 (911006), Frost Flower Blitz+2 (911007) and Frost Riposte (911631) by (8x)",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 73, [[910161,  911006,  911007,  911629,  911631,  911665], 0, 0, 800]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]]],
         "requirements": null,
         "unit_restriction": null
     }
