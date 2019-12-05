@@ -36828,7 +36828,7 @@
         "unit_restriction": null
     },
     "230770": {
-        "name": "ツインガンナー",
+        "name": "Twin Gunner",
         "icon": "ability_72.png",
         "compendium_id": 5619,
         "rarity": 8,
@@ -36837,15 +36837,16 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 50% when equipped with a Gun",
-            "Increase equipment ATK by 25% when armed with two weapons"
+            "Increase ATK by 30% when equipped with a Gun",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase MP by 20%"
         ],
-        "effects_raw": [[0, 3, 6, [14,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  25,  0]]],
+        "effects_raw": [[0, 3, 6, [14,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  50,  0]], [0, 3, 1, [0,  0,  0,  0,  0,  20,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230771": {
-        "name": "スナイピング・アーツ",
+        "name": "Sniping Arts",
         "icon": "ability_72.png",
         "compendium_id": 5620,
         "rarity": 9,
@@ -36859,7 +36860,7 @@
         "unit_restriction": null
     },
     "230772": {
-        "name": "大地を駆ける者",
+        "name": "Crossing the Land",
         "icon": "ability_95.png",
         "compendium_id": 5621,
         "rarity": 8,
@@ -36876,7 +36877,7 @@
         "unit_restriction": null
     },
     "230773": {
-        "name": "クイックリロード",
+        "name": "Quick Reload",
         "icon": "ability_78.png",
         "compendium_id": 5622,
         "rarity": 6,
@@ -36907,7 +36908,7 @@
         "unit_restriction": null
     },
     "230784": {
-        "name": "W最強技",
+        "name": "Triple Strongest Attack",
         "icon": "ability_8.png",
         "compendium_id": 5629,
         "rarity": 8,
@@ -36915,13 +36916,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use F型最強アイス弾 (509702), F型最強アイス弾　改 (509703), いっぱい鍛える (509705), もっといっぱい鍛える (509706), 友だち作戦 －変顔にらめっこ－ (509707), 友だち作戦 －怖いプレゼント－ (509708), 局所アイスチャージャー (509700) and 広域アイスチャージャー (509701) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509704, -1, [509700,  509701,  509702,  509703,  509705,  509706,  509707,  509708], 1, 0]]],
+        "effects": ["Enable unit to use Armored Anti-Ice Grenade (230789), F-Type Strongest Ice Shot+ (230783), Friendship Technique -Scary Present- (230788), Frozen Bullet (230781), Honeycomb Shot (230786), Hunting Type (230791), Lots of Training (230787), Moog Whirl (230785), Premium Physalis Bullet (230792), Short-Range Ice Charger (230782), Speed Type (230790), Tetrashot (230780) and Wide-Range Ice Charger (509701) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 509704, -1, [230782,  509701,  230783,  230787,  230788,  230780,  230781,  230785,  230786,  230789,  230792,  230790,  230791], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230793": {
-        "name": "期待の新星",
+        "name": "Up-and-Coming Star",
         "icon": "ability_72.png",
         "compendium_id": 5639,
         "rarity": 7,
@@ -36938,7 +36939,7 @@
         "unit_restriction": null
     },
     "230794": {
-        "name": "終わりなき成長期",
+        "name": "Constant Growth",
         "icon": "ability_91.png",
         "compendium_id": 5640,
         "rarity": 8,
@@ -36955,7 +36956,7 @@
         "unit_restriction": null
     },
     "230796": {
-        "name": "グリの助け",
+        "name": "Moog's Aid",
         "icon": "ability_19.png",
         "compendium_id": 5642,
         "rarity": 7,
@@ -36972,7 +36973,7 @@
         "unit_restriction": null
     },
     "230797": {
-        "name": "受け継ぎし二つの血",
+        "name": "The Blood of Two",
         "icon": "ability_72.png",
         "compendium_id": 5643,
         "rarity": 9,
@@ -36982,14 +36983,14 @@
         "element_inflict": null,
         "effects": [
             "Increase equipment ATK by 50% when armed with two weapons",
-            "Increase the damage of プレミアムファイサリス弾 (230792) and 防氷装甲破壊弾 (230789) by (1.5x)"
+            "Increase the damage of Armored Anti-Ice Grenade (230789) and Premium Physalis Bullet (230792) by (1.5x)"
         ],
         "effects_raw": [[0, 3, 69, [1,  50,  0]], [0, 3, 73, [[230789,  230792], 0, 0, 150]]],
         "requirements": [["EQUIP", 504230770], ["EQUIP", 313005500]],
         "unit_restriction": null
     },
     "230798": {
-        "name": "世界をひとつにする少女",
+        "name": "Bringing the World Together",
         "icon": "ability_77.png",
         "compendium_id": 5644,
         "rarity": 8,
@@ -36999,14 +37000,15 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 40% and HP and MP by 20%",
-            "Increase the damage of プレミアムファイサリス弾 (230792) and 防氷装甲破壊弾 (230789) by (1x)"
+            "Increase the damage of Armored Anti-Ice Grenade (230789) and Premium Physalis Bullet (230792) by (1x)",
+            "Increase equipment ATK by 50% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  20,  20,  0]], [0, 3, 73, [[230789,  230792], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  20,  20,  0]], [0, 3, 73, [[230789,  230792], 0, 0, 100]], [0, 3, 69, [1,  50,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230809": {
-        "name": "卓越した脚力",
+        "name": "Superior Mobility",
         "icon": "ability_77.png",
         "compendium_id": 5654,
         "rarity": 7,
@@ -37023,7 +37025,7 @@
         "unit_restriction": null
     },
     "230810": {
-        "name": "孤独な獣人戦士",
+        "name": "Lone Beast Warrior",
         "icon": "ability_19.png",
         "compendium_id": 5655,
         "rarity": 6,
@@ -37040,7 +37042,7 @@
         "unit_restriction": null
     },
     "230811": {
-        "name": "風読みの心得",
+        "name": "Reader of the Wind",
         "icon": "ability_12.png",
         "compendium_id": 5656,
         "rarity": 7,
@@ -37057,7 +37059,7 @@
         "unit_restriction": null
     },
     "230812": {
-        "name": "十三闘星",
+        "name": "The Nu Star",
         "icon": "ability_18.png",
         "compendium_id": 5657,
         "rarity": 8,
@@ -37075,7 +37077,7 @@
         "unit_restriction": null
     },
     "230824": {
-        "name": "俺様三連撃！",
+        "name": "Mighty Triple Strike!",
         "icon": "ability_8.png",
         "compendium_id": 5662,
         "rarity": 8,
@@ -37083,13 +37085,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アーマー性能強化！ (230820), バリア発生！ (230822) and 武器凶悪度アップ！ (230821) 3 times in one turn"],
+        "effects": ["Enable unit to use Activate Barrier! (230822), Increase Weapon Brutality! (230821) and Reinforce Armor Function! (230820) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 509720, -1, [230820,  230821,  230822], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230825": {
-        "name": "絶対強者！最強グドン様",
+        "name": "Gudon, the Mightiest!",
         "icon": "ability_77.png",
         "compendium_id": 5663,
         "rarity": 6,
@@ -37103,7 +37105,7 @@
         "unit_restriction": null
     },
     "230826": {
-        "name": "マザーラブ",
+        "name": "Mother Complex",
         "icon": "ability_77.png",
         "compendium_id": 5664,
         "rarity": 6,
@@ -37117,7 +37119,7 @@
         "unit_restriction": null
     },
     "230827": {
-        "name": "十四闘星",
+        "name": "The Xi Star",
         "icon": "ability_95.png",
         "compendium_id": 5665,
         "rarity": 5,
@@ -38752,7 +38754,7 @@
         "unit_restriction": null
     },
     "231126": {
-        "name": "Goddess' Power",
+        "name": "Goddess's Power",
         "icon": "ability_77.png",
         "compendium_id": 5867,
         "rarity": 8,
@@ -73859,7 +73861,7 @@
         "name": "Advanced Weaponry",
         "icon": "ability_76.png",
         "compendium_id": 86720,
-        "rarity": 7,
+        "rarity": 8,
         "unique": false,
         "effect_type": "Default",
         "attack_type": "None",
