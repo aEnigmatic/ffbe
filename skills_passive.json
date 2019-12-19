@@ -37199,7 +37199,7 @@
         "unit_restriction": null
     },
     "230834": {
-        "name": "聖夜のメイド姉妹",
+        "name": "Sisters of Winter",
         "icon": "ability_95.png",
         "compendium_id": 5670,
         "rarity": 8,
@@ -37218,7 +37218,7 @@
         "unit_restriction": null
     },
     "230835": {
-        "name": "レッドノーズレインディア",
+        "name": "Red-Nosed Reindeer",
         "icon": "ability_95.png",
         "compendium_id": 5671,
         "rarity": 9,
@@ -37542,7 +37542,7 @@
         "unit_restriction": null
     },
     "230880": {
-        "name": "双子姉妹はサンタさん",
+        "name": "Santa Sisters",
         "icon": "ability_77.png",
         "compendium_id": 5711,
         "rarity": 6,
@@ -37556,7 +37556,7 @@
         "unit_restriction": null
     },
     "230881": {
-        "name": "姉妹型トゥーハンド",
+        "name": "Dual-Handed Sisters",
         "icon": "ability_72.png",
         "compendium_id": 5712,
         "rarity": 8,
@@ -37570,7 +37570,7 @@
         "unit_restriction": null
     },
     "230888": {
-        "name": "アメリアサンタの聖夜銃",
+        "name": "Amelia's Jolly Old Rifle",
         "icon": "ability_77.png",
         "compendium_id": 5719,
         "rarity": 7,
@@ -37587,7 +37587,7 @@
         "unit_restriction": null
     },
     "230889": {
-        "name": "双子サンタの大きな袋",
+        "name": "Giant Bag of Toys",
         "icon": "ability_95.png",
         "compendium_id": 5720,
         "rarity": 7,
@@ -37605,7 +37605,7 @@
         "unit_restriction": null
     },
     "230890": {
-        "name": "バトルサンタ",
+        "name": "Battle Sleigher",
         "icon": "ability_77.png",
         "compendium_id": 5721,
         "rarity": 8,
@@ -37623,7 +37623,7 @@
         "unit_restriction": null
     },
     "230896": {
-        "name": "エミリアのプレゼント",
+        "name": "Emilia's Present",
         "icon": "ability_8.png",
         "compendium_id": 5727,
         "rarity": 8,
@@ -37631,13 +37631,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Cruel Knife (223120), Funeral Knife (223130), ウィンターエッジ (230891), ウィンタータイム (230893), シスターズ・レイジ (230895), シャインタイム (230894), シャインナイフ (230892), ジングルナイフ (230882), ビックリナイフ (230883), 双子姉妹のドッキリボックス (230904), 星明りのナイフ (230902) and 雪どけのナイフ (230901) twice in one turn"],
+        "effects": ["Enable unit to use Cruel Knife (223120), Funeral Knife (223130), Halting Knife (230883), Jingle Blade (230882), Sisters' Rage (230895), Snow Melter (230901), Starry Edge (230892), Starshine (230902), Twins' Box of Tricks (230904), Winter Star (230894), Winter's Edge (230891) and Wintertime (230893) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509750, -1, [223120,  223130,  230882,  230883,  230891,  230892,  230893,  230894,  230895,  230901,  230902,  230904], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230897": {
-        "name": "アメリアの贈り物",
+        "name": "Amelia's Gift",
         "icon": "ability_8.png",
         "compendium_id": 5728,
         "rarity": 8,
@@ -37645,13 +37645,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Disorder (208690), Ricochet (208710), ウィンタータイム (230893), ギフトバレット・攻 (230884), ギフトバレット・精 (230887), ギフトバレット・防 (230885), ギフトバレット・魔 (230886), クリスマスバレット (230903), シスターズ・レイジ (230895), シャインタイム (230894) and 双子姉妹のドッキリボックス (230904) twice in one turn"],
+        "effects": ["Enable unit to use Disorder (208690), Holiday Blast (230903), Missiletoe - ATK (230884), Missiletoe - DEF (230885), Missiletoe - MAG (230886), Missiletoe - SPR (230887), Ricochet (208710), Sisters' Rage (230895), Twins' Box of Tricks (230904), Winter Star (230894) and Wintertime (230893) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 509751, -1, [208690,  208710,  230884,  230885,  230886,  230887,  230893,  230894,  230895,  230903,  230904], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "230898": {
-        "name": "サンタメイドの極意",
+        "name": "Super Santa Maids",
         "icon": "ability_77.png",
         "compendium_id": 5729,
         "rarity": 9,
@@ -37661,15 +37661,16 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 30%",
-            "Increase the damage of シスターズ・レイジ (230895) by (5.5x)",
-            "Increase the damage of 星明りのナイフ (230902) and 雪どけのナイフ (230901) by (2.5x)"
+            "Increase the damage of Sisters' Rage (230895) by (5.5x)",
+            "Increase the damage of Snow Melter (230901) and Starshine (230902) by (2.5x)",
+            "Increase the damage of Disorder (208690) by (4x)"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [230895,  0,  0,  550]], [0, 3, 73, [[230901,  230902], 0, 0, 250]]],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [230895,  0,  0,  550]], [0, 3, 73, [[230901,  230902], 0, 0, 250]], [0, 3, 73, [208690,  0,  0,  400]]],
         "requirements": [["EQUIP", 504230834], ["EQUIP", 313005700]],
         "unit_restriction": null
     },
     "230899": {
-        "name": "元傭兵＆元諜報員",
+        "name": "Former Mercenary & Spy",
         "icon": "ability_72.png",
         "compendium_id": 5730,
         "rarity": 8,
@@ -37687,7 +37688,7 @@
         "unit_restriction": null
     },
     "230900": {
-        "name": "メリークリスマス！",
+        "name": "Season's Greetings!",
         "icon": "ability_77.png",
         "compendium_id": 5731,
         "rarity": 8,
@@ -39789,7 +39790,7 @@
         "unit_restriction": null
     },
     "231292": {
-        "name": "大禍を呼ぶ黒鉄",
+        "name": "Darksteel Calamity",
         "icon": "ability_79.png",
         "compendium_id": 5998,
         "rarity": 9,
@@ -60419,8 +60420,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Calamity Brew (911820), Cursed Eye (911817), Dark Anathema (911826), Dark Covenant (911825), Eye of Doom (911824), Hex Eye (912902), Hindering Chant (912880), Impending Doom (911822), Jinx - Cycloseismic Brew (910613), Jinx - Debilitating Pot (912877), Jinx - Emberfrost Brew (910610), Jinx - Eventide Brew (912869), Jinx - Geysershock Brew (910611), Jinx - Sap ATK Pot (912873), Jinx - Sap DEF Pot (912870), Jinx - Sap MAG Pot (912874), Jinx - Sap SPR Pot (912871), Neutralizing Chant (912875), Nullifying Chant (910622), Scry (910607), Soul Dispersion (912872), Soul Swap (910618), Spell Breaker (912876) and Wicked Eye (910625) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 911816, -1, [910607,  912870,  912871,  910610,  910611,  910618,  910613,  912873,  912874,  910622,  912902,  911820,  911822,  911825,  911826,  912869,  912872,  912875,  912876,  912880,  911817,  911824,  910625,  912877], 1]]],
+        "effects": ["Enable unit to use Calamity Brew (911820), Cursed Eye (911817), Dark Anathema (911826), Dark Covenant (911825), Eye of Doom (911824), Hex Eye (912902), Hindering Chant (912880), Impending Doom (911822), Jinx - Cycloseismic Brew (910613), Jinx - Debilitating Pot (912877), Jinx - Emberfrost Brew (910610), Jinx - Eventide Brew (912869), Jinx - Geysershock Brew (910611), Jinx - Sap ATK Pot (912873), Jinx - Sap DEF Pot (912870), Jinx - Sap MAG Pot (912874), Jinx - Sap SPR Pot (912871), Neutralizing Chant (912875), Nullifying Chant (910622), Scry (910607), Soul Dispersion (912872), Soul Surge (950193), Soul Surge I (950195), Soul Surge II (950197), Soul Swap (910618), Spell Breaker (912876) and Wicked Eye (910625) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 911816, -1, [910607,  912870,  912871,  910610,  910611,  910618,  910613,  912873,  912874,  910622,  912902,  911820,  911822,  911825,  911826,  912869,  912872,  912875,  912876,  912880,  911817,  911824,  910625,  912877,  950193,  950195,  950197], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -68762,7 +68763,7 @@
         "unit_restriction": null
     },
     "912042": {
-        "name": "Saint’s Will",
+        "name": "Saint's Will",
         "icon": "ability_91.png",
         "compendium_id": 85778,
         "rarity": 5,
@@ -71188,7 +71189,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Gain Arch-Rivals (912604) at the start of the turn if Morgana is alive"],
+        "effects": ["Error: Wrong effect passive10002?\nNot enough params"],
         "effects_raw": [[0, 3, 10002, [401007005,  3,  912604]]],
         "requirements": null,
         "unit_restriction": null
@@ -72519,8 +72520,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Absolute Zero (912854), Cold Air (910641), Cold Snap (912860), Eternal Winter (911802), Frost Fall (910642), Frost Nova (910640), Frostbite (912861), Glacial Storm (910651), Ice Shards (910643), Piercing Chill (912863), Snow Burial (912855) and Snow Surge (911799) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 912859, -1, [910640,  910641,  910642,  910643,  910651,  912854,  912855,  912860,  911799,  911802,  912861,  912863], 1, 0]]],
+        "effects": ["Enable unit to use Absolute Zero (912854), Arctic Blitz (950187), Arctic Blitz I (950188), Arctic Blitz II (950189), Cold Air (910641), Cold Snap (912860), Eternal Winter (911802), Frost Fall (910642), Frost Nova (910640), Frostbite (912861), Glacial Storm (910651), Ice Shards (910643), Piercing Chill (912863), Snow Burial (912855) and Snow Surge (911799) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 912859, -1, [910640,  910641,  910642,  910643,  910651,  912854,  912855,  912860,  911799,  911802,  912861,  912863,  950187,  950188,  950189], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -74127,20 +74128,6 @@
         "requirements": null,
         "unit_restriction": null
     },
-    "913230": {
-        "name": "Cannon Fire - Mortar Shot",
-        "icon": "ability_61.png",
-        "compendium_id": 86666,
-        "rarity": 5,
-        "unique": false,
-        "effect_type": "Default",
-        "attack_type": "Physical",
-        "element_inflict": null,
-        "effects": ["Use Cannon Fire - Mortar Shot (913478) at the start of a battle or when revived"],
-        "effects_raw": [[0, 3, 56, [913478]]],
-        "requirements": null,
-        "unit_restriction": null
-    },
     "913243": {
         "name": "Secret Weapon",
         "icon": "ability_84.png",
@@ -74234,6 +74221,22 @@
             "Increase Accuracy by 25% when armed with a single weapon"
         ],
         "effects_raw": [[0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913249": {
+        "name": "Quick Blast",
+        "icon": "global_ability_10055.png",
+        "compendium_id": 86685,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Cannon Fire skills  [120mm (913238) / Bioweapon (913239) / Blazing Cannonballs (913232) / Crippling Shot (913236) / Immolation Blast (913240) / Mechanical Demon (913234) / Mortar Shot (913230) / Obliteration (913241) / Scattering Shot (913237) / Shrouding Cannonballs (913233) / Staggering Shot (913235)] twice in one turn"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 913250, -1, [913230,  913232,  913233,  913234,  913235,  913236,  913237,  913238,  913239,  913240,  913241], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -74484,8 +74487,8 @@
         "effects": [
             "Gain Decryption Program (913315) at the start of the turn if Doctor Aiden is alive",
             "Gain Decryption Program (913315) at the start of the turn if Agent Olive is alive",
-            "Gain Decryption Program (913315) at the start of the turn if Mastermind Xon is alive",
-            "Gain Decryption Program (913315) at the start of the turn if Operative Zyrus is alive"
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
         ],
         "effects_raw": [[0, 3, 10002, [401007905,  99,  913315,  0]], [0, 3, 10002, [401008005,  99,  913315,  0]], [0, 3, 10002, [401008105,  99,  913315]], [0, 3, 10002, [401008205,  99,  913315]]],
         "requirements": null,
@@ -74503,8 +74506,8 @@
         "effects": [
             "Gain Fast Charger (913316) at the start of the turn if Doctor Aiden is alive",
             "Gain Fast Charger (913316) at the start of the turn if Agent Olive is alive",
-            "Gain Fast Charger (913316) at the start of the turn if Mastermind Xon is alive",
-            "Gain Fast Charger (913316) at the start of the turn if Operative Zyrus is alive"
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
         ],
         "effects_raw": [[0, 3, 10002, [401007905,  99,  913316,  0]], [0, 3, 10002, [401008005,  99,  913316,  0]], [0, 3, 10002, [401008105,  99,  913316]], [0, 3, 10002, [401008205,  99,  913316]]],
         "requirements": null,
@@ -74558,8 +74561,8 @@
         "effects": [
             "Gain Energy Pulse (913479) at the start of the turn if Doctor Aiden is alive",
             "Gain Energy Pulse (913479) at the start of the turn if Agent Olive is alive",
-            "Gain Energy Pulse (913479) at the start of the turn if Mastermind Xon is alive",
-            "Gain Energy Pulse (913479) at the start of the turn if Operative Zyrus is alive"
+            "Error: Wrong effect passive10002?\nNot enough params",
+            "Error: Wrong effect passive10002?\nNot enough params"
         ],
         "effects_raw": [[0, 3, 10002, [401007905,  99,  913479,  0]], [0, 3, 10002, [401008005,  99,  913479,  0]], [0, 3, 10002, [401008105,  99,  913479]], [0, 3, 10002, [401008205,  99,  913479]]],
         "requirements": null,
@@ -75799,6 +75802,415 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913536": {
+        "name": "Overt Cover",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86874,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913538": {
+        "name": "Early Detection System",
+        "icon": "ability_19.png",
+        "compendium_id": 86876,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Confusion and Petrify by 100%",
+            "Increase chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]], [0, 3, 24, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913541": {
+        "name": "True Guardian",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86879,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 30% and DEF by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  30,  0,  30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913543": {
+        "name": "Restorative Armor",
+        "icon": "ability_91.png",
+        "compendium_id": 86881,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 2 per turn",
+            "Recover MP (7%) per turn"
+        ],
+        "effects_raw": [[0, 3, 33, [200]], [0, 3, 32, [7]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913545": {
+        "name": "Defense Miscalculation",
+        "icon": "global_ability_10041.png",
+        "compendium_id": 86883,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["40% chance to counter physical attacks with Defense Miscalculation (913546) to caster (max 1 / turn)"],
+        "effects_raw": [[0, 3, 49, [40,  3,  913546,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913549": {
+        "name": "Spirit Miscalculation",
+        "icon": "global_ability_10041.png",
+        "compendium_id": 86887,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["40% chance to counter magic attacks with Spirit Miscalculation (913550) to caster (max 1 / turn)"],
+        "effects_raw": [[0, 3, 50, [40,  3,  913550,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913551": {
+        "name": "Armored Core Defense",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86889,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 30% when equipped with a Light Shield",
+            "Increase DEF, SPR, HP and MP by 30% when equipped with a Heavy Shield"
+        ],
+        "effects_raw": [[0, 3, 6, [30,  0,  30,  0,  30,  30,  30]], [0, 3, 6, [31,  0,  30,  0,  30,  30,  30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913555": {
+        "name": "Reactive Metal",
+        "icon": "ability_41.png",
+        "compendium_id": 86893,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Wind by 50%",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)",
+            "Increase DEF by 200% when HP drops below 50% (max 9000x)",
+            "Increase SPR by 200% when HP drops below 50% (max 9000x)"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  50,  0,  0,  0]], [0, 3, 51, [1,  100,  0,  1,  0]], [0, 3, 4, [2,  200,  9000,  50,  0,  -1]], [0, 3, 4, [4,  200,  9000,  50,  0,  -1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913557": {
+        "name": "Double Machinations",
+        "icon": "global_ability_10055.png",
+        "compendium_id": 86895,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Augmented Control (913565), Defensive Booster (913537), Elemental Cover (913563), Enchanted Aegis (913553), Ethereal Core (913554), Flurry Cannon (913556), Guardian Fire (913542), Guardian Ice (913544), Guardian Wind (913547), Noble Sacrifice (913540), Offensive Booster (913539), Surveillance Lights (913534) and Tri-Elemental Gift (913567) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913558, -1, [913534,  913537,  913539,  913540,  913542,  913544,  913547,  913553,  913554,  913556,  913563,  913565,  913567], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913559": {
+        "name": "Iron Guardian",
+        "icon": "global_ability_10041.png",
+        "compendium_id": 86897,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Use Arbitrary Barricade (913560) at the start of a battle or when revived",
+            "Increase SPR by 40%",
+            "Increase chance of countering by 100%",
+            "Replace LB with Erratic Barrier (950000016):\n\tReduce damage taken by 21% to all allies for 4 turns\n\tDodge 2 physical attacks for 4 turns to all allies\n\tRestore 200 MP to all allies\n\tRemove all debuffs from caster\n\tCure all status effects for caster"
+        ],
+        "effects_raw": [[0, 3, 56, [913560]], [0, 3, 1, [0,  0,  0,  40,  0,  0,  0]], [0, 3, 20, [100]], [0, 3, 72, [950000016]]],
+        "requirements": [["EQUIP", 1100000367], ["EQUIP", 1100000368]],
+        "unit_restriction": null
+    },
+    "913570": {
+        "name": "Damage Miscalculation",
+        "icon": "global_ability_10041.png",
+        "compendium_id": 86908,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 40%",
+            "Increase resistance to all elements by 20%",
+            "Increase all resistances by 50% when HP drops below 50 for 3 turns (max 9000x)",
+            "80% chance to counter physical attacks with Damage Miscalculation (913571) to caster (max 3 / turn)",
+            "80% chance to counter magic attacks with Damage Miscalculation (913571) to caster (max 3 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  40,  0]], [0, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]], [0, 3, 10006, [[23,  24,  25,  26,  27,  28,  29,  30], 50, 9000, 50, 0, 3]], [0, 3, 49, [80,  3,  913571,  3]], [0, 3, 50, [80,  3,  913571,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913576": {
+        "name": "Electric Sleigh",
+        "icon": "ability_8.png",
+        "compendium_id": 86914,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Bag O' Toys - Flurry of Candy (913591), Bag O' Toys - Freeze Ray (913593), Bag O' Toys - Sparklers (913592), Bag O' Toys - Toy Army (913589), Bag O' Toys - Toy Soldier (913590), Be Merry (913585), Checking It Twice (913582), Holiday Rush (913586), Ornaments - Decorated Tree (913597), Ornaments - Jingle Bells (913596), Ornaments - Shining Star (913598), Ornaments - Snow Globe (913594), Ornaments - Lit Candle (913595), Packed with Presents (913580), Reveal Naughty List (913587), Reveal Nice List (913588) and This Calls for a War! (913579) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913577, -1, [913585,  913586,  913590,  913592,  913593,  913594,  913595,  913596,  913597,  913598,  913591,  913589,  913580,  913582,  913579,  913587,  913588], 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913601": {
+        "name": "Festive Spirit",
+        "icon": "ability_100.png",
+        "compendium_id": 86939,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "25% chance to counter physical attacks with Festive Spirit (913383) to caster (max 1 / turn)",
+            "25% chance to counter magic attacks with Festive Spirit (913383) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [25,  3,  913383,  1]], [0, 3, 50, [25,  3,  913383,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913605": {
+        "name": "Winter's Embrace",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86943,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Fire, Ice, Wind and Earth by 20%",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 3, [20,  20,  0,  0,  20,  20,  0,  0]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913606": {
+        "name": "Dressed for the Holidays",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86944,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, MAG, HP and MP by 20%",
+            "Increase DEF and SPR by 30% when equipped with a Cloth",
+            "Increase resistance to Blind, Sleep, Paralyze, Confusion and Petrify by 100%",
+            "Increase ATK and MAG by 20% when equipped with a Mace"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  20,  0,  20,  20]], [0, 3, 6, [50,  0,  30,  0,  30,  0,  0]], [0, 3, 2, [0,  100,  100,  0,  100,  100,  0,  100]], [0, 3, 6, [15,  20,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913607": {
+        "name": "Toy Master",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86945,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 50% and DEF and SPR by 20%",
+            "Increase physical and magic damage against Humans and Fairies by 50/50%",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  20,  50,  20,  0,  0]], [0, 3, 11, [[5,  8], [50,  50], [50,  50]]], [0, 3, 70, [50,  0,  2]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913608": {
+        "name": "Mint Condition",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86946,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 50% and DEF, SPR, HP and MP by 30%",
+            "Replace LB with Toys for Everyone! (950000017):\n\tPhysical damage (25x, ATK) to all enemies\n\tMagic* damage (25x, MAG) to all enemies\n\tRestore 150 MP to caster\n\tIncrease damage of Bag O' Toys skills  [Freeze Ray (913593) / Sparklers (913592) / Toy Soldier (913590)] by 200% for 9999 turns\n\tIncrease damage of Bag O' Toys skills  [Flurry of Candy (913591) / Toy Army (913589)] by 1000% for 9999 turns",
+            "Enable unit to use Bag O' Toys - Flurry of Candy (913591), Bag O' Toys - Freeze Ray (913593), Bag O' Toys - Sparklers (913592), Bag O' Toys - Toy Army (913589), Bag O' Toys - Toy Soldier (913590), Be Merry (913585), Checking It Twice (913582), Holiday Rush (913586), Ornaments - Decorated Tree (913597), Ornaments - Jingle Bells (913596), Ornaments - Shining Star (913598), Ornaments - Snow Globe (913594), Ornaments - Lit Candle (913595), Packed with Presents (913580), Reveal Naughty List (913587), Reveal Nice List (913588) and This Calls for a War! (913579) 3 times in one turn",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  30,  50,  30,  30,  30]], [0, 3, 72, [950000017]], [0, 3, 53, [3, 913578, -1, [913585,  913586,  913590,  913592,  913593,  913594,  913595,  913596,  913597,  913598,  913591,  913589,  913580,  913582,  913579,  913587,  913588], 1]], [0, 3, 70, [50,  0,  2]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": [["EQUIP", 1100000369], ["EQUIP", 1100000370]],
+        "unit_restriction": null
+    },
+    "913609": {
+        "name": "King of Toys",
+        "icon": "global_ability_10004.png",
+        "compendium_id": 86947,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 60%",
+            "Increase equipment MAG by 100% when armed with a single weapon",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 50% when armed with a single weapon",
+            "Increase physical and magic damage against Humans and Fairies by 50/50%"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  0,  60,  0,  0,  0]], [0, 3, 70, [100,  0,  2]], [0, 3, 13, [100,  50,  2]], [0, 3, 11, [[5,  8], [50,  50], [50,  50]]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913610": {
+        "name": "Mighty Merry",
+        "icon": "ability_68.png",
+        "compendium_id": 86948,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 70, [50,  0,  2]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913612": {
+        "name": "Toy Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86964,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 5% when equipped with Toy Elf's Hat"],
+        "effects_raw": [[0, 3, 74, [1100000318,  0,  0,  0,  5,  0,  5,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913613": {
+        "name": "Toy Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86965,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 10% when equipped with Toy Elf's Tunic"],
+        "effects_raw": [[0, 3, 74, [1100000319,  0,  0,  0,  10,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913614": {
+        "name": "Toy Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86966,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 10% when equipped with Toy's Wind-Up Key"],
+        "effects_raw": [[0, 3, 74, [1100000317,  0,  0,  0,  10,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913615": {
+        "name": "Festive Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86967,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 10% when equipped with Festive Reindeer Antlers"],
+        "effects_raw": [[0, 3, 74, [1100000321,  0,  0,  0,  10,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913616": {
+        "name": "Festive Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86968,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 15% when equipped with Festive Elf Suit"],
+        "effects_raw": [[0, 3, 74, [1100000322,  0,  0,  0,  15,  0,  15,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913617": {
+        "name": "Festive Set",
+        "icon": "ability_77.png",
+        "compendium_id": 86969,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR and MP by 20% when equipped with Festive Snow Globe"],
+        "effects_raw": [[0, 3, 74, [1100000320,  0,  0,  0,  20,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "950011": {
         "name": "Feelings for Rain",
         "icon": "ability_77.png",
@@ -76702,6 +77114,210 @@
             "Increase equipment MAG by 50% when armed with a single weapon"
         ],
         "effects_raw": [[0, 3, 73, [[910161,  911006,  911007,  911629,  911631,  911665], 0, 0, 800]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950167": {
+        "name": "The White Knight",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86949,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950168": {
+        "name": "The White Knight I",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86949,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and HP by 20%",
+            "Increase chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  20,  0,  0]], [0, 3, 24, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950169": {
+        "name": "The White Knight II",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86949,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and HP by 20%",
+            "Increase chance of being targeted by 50%",
+            "Increase Stop resistance by 100% to caster",
+            "Replace LB with Silver Curtain (950000018):\n\tIncrease DEF, MAG and SPR by 120% for 4 turns to all allies\n\tRestore 25% MP to all allies\n\tReduce damage taken by 21% to the rest of the party for 4 turns"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  20,  0,  0]], [0, 3, 24, [50]], [0, 3, 55, [0,  0,  0,  0,  100,  0]], [0, 3, 72, [950000018]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950170": {
+        "name": "Mystic Bloodline",
+        "icon": "global_ability_10076.png",
+        "compendium_id": 86950,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of Aeroja (20330), Blizzaja (20300), Freeze (20360), Glacial Wave (910040), Glacial Wave+1 (910711), Glacial Wave+2 (910712) and Tornado (20390) by (8x)"],
+        "effects_raw": [[0, 3, 73, [[910040,  910711,  910712,  20330,  20390,  20300,  20360], 0, 0, 800]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950171": {
+        "name": "Mystic Bloodline I",
+        "icon": "global_ability_10076.png",
+        "compendium_id": 86950,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Aero-Storm (950175), Gale Blast (910036), Glacial Wave (910040), Glacial Wave+1 (910711), Glacial Wave+2 (910712), I'll Protect You! (911775), Ice Blitz (910034), Imminent Storm (950177), Imminent Storm I (950179), Imminent Storm II (950181), Overdrive Activate (911783) and Whiteout (950174) 3 times in one turn",
+            "Increase the damage of Aeroja (20330), Blizzaja (20300), Freeze (20360), Glacial Wave (910040), Glacial Wave+1 (910711), Glacial Wave+2 (910712) and Tornado (20390) by (8x)",
+            "Use Mystic Bloodline (950173) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 53, [3, 950176, -1, [910034,  910036,  910040,  910711,  910712,  911775,  911783,  950174,  950175,  950177,  950179,  950181], 1, 0]], [0, 3, 73, [[910040,  910711,  910712,  20330,  20390,  20300,  20360], 0, 0, 800]], [0, 3, 56, [950173]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950172": {
+        "name": "Mystic Bloodline II",
+        "icon": "global_ability_10076.png",
+        "compendium_id": 86950,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Aero-Storm (950175), Gale Blast (910036), Glacial Wave (910040), Glacial Wave+1 (910711), Glacial Wave+2 (910712), I'll Protect You! (911775), Ice Blitz (910034), Imminent Storm (950177), Imminent Storm I (950179), Imminent Storm II (950181), Overdrive Activate (911783) and Whiteout (950174) 3 times in one turn",
+            "Increase the damage of Aeroja (20330), Blizzaja (20300), Freeze (20360), Glacial Wave (910040), Glacial Wave+1 (910711), Glacial Wave+2 (910712) and Tornado (20390) by (8x)",
+            "Use Mystic Bloodline (950173) at the start of a battle or when revived",
+            "Increase equipment MAG by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 53, [3, 950176, -1, [910034,  910036,  910040,  910711,  910712,  911775,  911783,  950174,  950175,  950177,  950179,  950181], 1, 0]], [0, 3, 73, [[910040,  910711,  910712,  20330,  20390,  20300,  20360], 0, 0, 800]], [0, 3, 56, [950173]], [0, 3, 69, [3,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950183": {
+        "name": "Snowbear's Blessings",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86957,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950184": {
+        "name": "Snowbear's Blessings I",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86957,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase the damage of Snow Burial (912855) by (1x)",
+            "Increase the damage of Absolute Zero (912854) and Cold Snap (912860) by (2x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 73, [912855,  0,  0,  100]], [0, 3, 73, [[912854,  912860], 0, 0, 200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950185": {
+        "name": "Snowbear's Blessings II",
+        "icon": "global_materia_1500000015.png",
+        "compendium_id": 86957,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase the damage of Snow Burial (912855) by (1x)",
+            "Increase the damage of Absolute Zero (912854) and Cold Snap (912860) by (2x)",
+            "Use Snowbear's Blessings (950186) at the start of a battle or when revived",
+            "Increase equipment MAG by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 73, [912855,  0,  0,  100]], [0, 3, 73, [[912854,  912860], 0, 0, 200]], [0, 3, 56, [950186]], [0, 3, 69, [3,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950190": {
+        "name": "Extended Lifespan",
+        "icon": "ability_78.png",
+        "compendium_id": 86960,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF, SPR and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950191": {
+        "name": "Extended Lifespan I",
+        "icon": "ability_78.png",
+        "compendium_id": 86960,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 30%",
+            "Increase LB gauge by 2 per turn",
+            "Increase the limit burst gauge fill rate by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 33, [200]], [0, 3, 31, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950192": {
+        "name": "Extended Lifespan II",
+        "icon": "ability_78.png",
+        "compendium_id": 86960,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 30%",
+            "Increase LB gauge by 5 per turn",
+            "Increase the limit burst gauge fill rate by 100%",
+            "Increase resistance to all elements by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 33, [500]], [0, 3, 31, [100]], [0, 3, 3, [10,  10,  10,  10,  10,  10,  10,  10]]],
         "requirements": null,
         "unit_restriction": null
     }

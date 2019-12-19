@@ -13017,7 +13017,7 @@
             ],
             "desc_short": [
                 "Boost ATK by 30% and boost critical hit rate",
-                "提高30%攻擊+提高爆擊機率",
+                "提高30%攻擊+提高暴擊率",
                 "공격력 30% 상승+크리티컬 발생률 상승",
                 "Augmente l'ATT de 30% et augmente le taux de coup critique",
                 "Erhöht ANG um 30% und Chance auf kritische Treffer",
@@ -23466,20 +23466,41 @@
         }
     },
     "504230834": {
-        "name": "聖夜のメイド姉妹",
+        "name": "Sisters of Winter",
         "compendium_id": 962,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [230834],
-        "effects": ["Grants '聖夜のメイド姉妹' passive."],
-        "unique": false,
+        "effects": ["Grants 'Sisters of Winter' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Sisters of Winter",
+                "聖夜的女僕姐妹",
+                "성야의 메이드 자매",
+                "Sœurs d'hiver",
+                "Winterschwestern",
+                "Hermanas invernales"
+            ],
+            "desc_short": [
+                "Boost ATK and ice and light resistance by 20%, and boost ATK by 30% when equipped with a short sword or gun (Not stackable)",
+                "提高20%攻擊、冰光屬性耐性+裝備短劍火槍時提高30%攻擊[無法重複裝備]",
+                "공격력, 얼음과 빛속성 저항력 20% 상승+단검 또는 총 장착 시 공격력 30% 상승 (중복 장착 불가)",
+                "Augmente l'ATT ainsi que la résistance à la glace et à la lumière de 20 %, et augmente l'ATT de 30 % quand une épée courte ou un pistolet est équipé (non cumulable)",
+                "Erhöht ANG, Eis- und Lichtresistenz um 20% und erhöht ANG um 30%, wenn mit einem Kurzschwert oder einer Schusswaffe ausgerüstet (Nicht stapelbar).",
+                "Aumenta el ATQ y la resistencia a hielo y luz un 20%, y el ATQ otro 30% extra al llevar espada corta o arma de fuego (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK and ice and light resistance by 20% and boosts ATK by 30% when equipped with a short sword or gun. Not stackable.",
+                "提高20%攻擊、冰光屬性耐性，且裝備短劍火槍時，提高30%攻擊。[無法重複裝備]",
+                "공격력, 얼음과 빛속성 저항력이 20% 상승하고, 단검 또는 총 장착 시 공격력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT ainsi que la résistance à la glace et à la lumière de 20 %, et augmente l'ATT de 30 % quand une épée courte ou un pistolet est équipé. Non cumulable.",
+                "Erhöht ANG, Eis- und Lichtresistenz um 20% und erhöht ANG um 30%, wenn mit einem Kurzschwert oder einer Schusswaffe ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ y la resistencia a hielo y luz un 20%, y el ATQ otro 30% extra al llevar espada corta o arma de fuego. No acumulable."
+            ]
         }
     },
     "504230910": {
@@ -24081,7 +24102,14 @@
                 "Schutz der göttlichen Sechs",
                 "Protección de la Sideralia"
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and boost LB damage (Not stackable)",
+                "提高40%攻擊魔力+提高極限技的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+LB 게이지 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts de la limite (Non cumulable)",
+                "Erhöht ANG und MAG um 40% und erhöht Schaden durch Limitrausch (Nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño del EL (no acumulable)"
+            ],
             "desc_long": [
                 "Boosts ATK and MAG by 40% and boosts LB damage. Not stackable.",
                 "提高40%攻擊魔力，並提高極限技的傷害。[無法重複裝備]",
@@ -24112,7 +24140,14 @@
                 "Siegel der Eisgöttin",
                 "Marca de Shiva"
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Boost MAG by 50% and boost evocation damage (Not stackable)",
+                "提高50%魔力+提高召喚魔法的威力[無法重複裝備]",
+                "마력 50% 상승+소환 마법 사용 시 피해량 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 50 % et augmente les dégâts d'appel de chimère (Non cumulable)",
+                "Erhöht MAG um 50% und erhöht Rufen-Schaden (Nicht stapelbar).",
+                "Aumenta la MAG un 50% y el daño de evocación (no acumulable)"
+            ],
             "desc_long": [
                 "Boosts MAG by 50% and boosts evocation damage. Not stackable.",
                 "提高50%魔力，並提高召喚魔法的威力。[無法重複裝備]",
@@ -24143,7 +24178,14 @@
                 "Pflicht, die Welt zu beschützen",
                 "Deber de proteger el mundo"
             ],
-            "desc_short": [null, null, null, null, null, null],
+            "desc_short": [
+                "Boost ice, lightning, water, and earth resistance by 50% and boost evocation damage (Not stackable)",
+                "提高50%冰雷水土屬性耐性+提高召喚魔法的威力[無法重複裝備]",
+                "얼음, 번개, 물, 땅속성 저항력 50% 상승+소환 마법 사용 시 피해량 상승 (중복 장착 불가)",
+                "Augmente la résistance à la glace, à la foudre, à l'eau et à la terre de 50 %, et augmente les dégâts d'appel de chimère (Non cumulable)",
+                "Erhöht Eis-, Blitz-, Wasser- und Erdresistenz um 50% und erhöht Rufen-Schaden (Nicht stapelbar).",
+                "Aumenta la resistencia a hielo, rayo, agua y tierra un 50% y el daño de evocación (no acumulable)"
+            ],
             "desc_long": [
                 "Boosts ice, lightning, water, and earth resistance by 50% and boosts evocation damage. Not stackable.",
                 "提高50%冰雷水土屬性耐性，提高召喚魔法的威力。[無法重複裝備]",
