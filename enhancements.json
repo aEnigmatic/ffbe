@@ -1,4 +1,51 @@
 {
+    "100020001": {
+        "name": "HP +20%",
+        "skill_id_old": 100020,
+        "skill_id_new": 708101,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 20,
+                "270000200": 15,
+                "270000300": 10,
+                "270000400": 4,
+                "270000500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "HP +20%",
+                "HP+20%",
+                "HP+20%",
+                "PV +20%",
+                "LP + 20 %",
+                "VIT +20%"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "100020002": {
+        "name": null,
+        "skill_id_old": 708101,
+        "skill_id_new": 708102,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 30,
+                "270000200": 23,
+                "270000300": 15,
+                "270000400": 8,
+                "270000500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
     "100050001": {
         "name": "MP +20%",
         "skill_id_old": 100050,
@@ -59,11 +106,79 @@
             ],
             "description": [
                 "Ability changes to \"double angelo\"",
-                "能力變更為「W安傑洛」",
+                "能力變化為「W安傑洛」",
                 "'W안젤로'로 어빌리티 변경",
                 "Transforme l'aptitude en \"Double Angel\"",
                 "Fertigkeit ändert sich zu \"Doppel-Angel\"",
                 "La habilidad cambia a Ángelo doble"
+            ]
+        }
+    },
+    "100050003": {
+        "name": "MP +20%",
+        "skill_id_old": 100050,
+        "skill_id_new": 913830,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3,
+                "270002900": 1,
+                "270003000": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "MP +20%",
+                "MP+20%",
+                "MP+20%",
+                "PM +20%",
+                "MP + 20 %",
+                "PM +20%"
+            ],
+            "description": [
+                "Ability changes to \"saint's conviction\"",
+                "能力變更為「聖人信念」",
+                "'성인의 신념'으로 어빌리티 변경",
+                "Aptitude transformée en \"Conviction du saint\"",
+                "Fertigkeit wird zu \"Heilige Überzeugung\"",
+                "La habilidad cambia a Convicción santa"
+            ]
+        }
+    },
+    "100050004": {
+        "name": "Saint's Conviction",
+        "skill_id_old": 913830,
+        "skill_id_new": 913831,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 2,
+                "270003000": 2
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Saint's Conviction",
+                "聖人信念",
+                "성인의 신념",
+                "Conviction du saint",
+                "Heilige Überzeugung",
+                "Convicción santa"
+            ],
+            "description": [
+                "Boosts MP increase (to 60%)",
+                "提高MP增加量(至60%)",
+                "MP 상승량 상승(60%)",
+                "Amplifie l'augmentation des PM (à 60 %)",
+                "Steigert MP-Erhöhung (auf 60%)",
+                "Mayor aumento de PM (a un 60%)"
             ]
         }
     },
@@ -329,7 +444,7 @@
             ],
             "description": [
                 "Ability changes to \"twofold technique\"",
-                "能力變更為「W刀技」",
+                "能力變化為「W刀技」",
                 "'W도검술'로 어빌리티 변경",
                 "Aptitude transformée en \"Double technique\"",
                 "Fertigkeit wird zu \"Doppelklingenkunst\"",
@@ -530,7 +645,7 @@
             ],
             "description": [
                 "Ability changes to \"keen edge+\"",
-                "能力變更為「利刃‧改」",
+                "能力變化為「利刃‧改」",
                 "'개량형 킨 엣지'로 어빌리티 변경",
                 "Transforme l'aptitude en \"Tranchant acéré +\"",
                 "Fertigkeit ändert sich zu \"Kühne Schneide+\"",
@@ -664,7 +779,7 @@
             ],
             "description": [
                 "Ability changes to \"triple lightning spear\"",
-                "能力變更為「三連雷槍」",
+                "能力變化為「三連雷槍」",
                 "'3연속 뇌창'으로 어빌리티 변경",
                 "L'aptitude se change en \"Triple lance de foudre\"",
                 "Fertigkeit wird zu \"Dreifacher Blitzspeer\"",
@@ -3441,7 +3556,7 @@
             ],
             "description": [
                 "Restores caster's HP",
-                "恢復發動者的HP",
+                "恢復自身的HP",
                 "사용자의 HP 회복",
                 "Restaure les PV du lanceur",
                 "Heilt eigene LP",
@@ -8013,7 +8128,7 @@
                 "種之超越者",
                 "종의 초월자",
                 "Transcendance",
-                "Transhumanist",
+                "Transzendenz",
                 "Trascendencia"
             ],
             "description": [
@@ -8856,7 +8971,7 @@
             ],
             "description": [
                 "Boosts ATK increase (great)<br>Increases necessary HP (low)<br>Activations become unlimited",
-                "提高攻擊增加量(特大)<br>增加發動條件的HP(小)<br>發動次數變為無限制",
+                "提高攻擊增加量(特大)<br>增加發動條件的HP(小)<br>發動次數變化為無限制",
                 "공격력 상승량 상승(특대)<br>발동 조건의 HP 수치 증가(소)<br>발동 횟수가 무제한으로 변화",
                 "Amplifie l'augmentation de l'ATT (beaucoup)<br>Augmente les PV nécessaires (peu)<br>Plus de limite d'activation",
                 "Steigert ANG-Erhöhung (sehr hoch)<br>Unbegrenzte Aktivierungen",
@@ -12660,7 +12775,7 @@
             ],
             "description": [
                 "Enables dual wielding of single-handed weapons",
-                "可以裝備2個單手武器",
+                "可以裝備2把單手武器",
                 "활, 하프를 제외한 한손용 무기 동시에 2개 장착 가능",
                 "Permet à une arme à une main de pouvoir utiliser Deux armes",
                 "Ermöglicht Führen von zwei einhändigen Waffen",
@@ -17178,7 +17293,7 @@
             ],
             "description": [
                 "Boosts MAG and SPR increases (mid)<br>Enables successor - Maduin's power and dual white magic for five turns",
-                "提高魔力精神增加量(中)<br>5回合內可以使用「繼承・馬丁之力」「W白魔法」",
+                "提高魔力精神增加量(中)<br>5回合內可使用「繼承・馬丁之力」「W白魔法」",
                 "마력과 정신력 상승량 상승(중)<br>5턴 동안 '계승·마딘의 힘', 'W백마법' 사용 가능",
                 "Amplifie l'augmentation de la MAGIE et de la PSY (moyen)<br>Permet d'utiliser Succession - Pouvoir de Maduin et Double magie blanche pendant cinq tours",
                 "Steigert MAG- und PSY-Erhöhung (mittel)<br>Ermöglicht Nachfolger - Maduins Kraft und Doppelmagie Weiß für 5 Runden",
@@ -18150,7 +18265,7 @@
             ],
             "description": [
                 "Enables dual wielding of one-handed fists",
-                "可以裝備2個單手格鬥武器",
+                "可以裝備2把單手格鬥武器",
                 "한손용 격투무기 2개 장착 가능",
                 "Permet à un poing à une main de pouvoir utiliser deux armes",
                 "Ermöglicht Führen von zwei einhändigen Fäusten",
@@ -18589,7 +18704,7 @@
             ],
             "description": [
                 "After using berserker serum, blockade serum, or resist down, they can be used for one turn",
-                "使用「猛攻突擊藥」「鐵壁強壯藥」「全屬性弱化藥」後，1回合內可以使用「猛攻突擊藥」「鐵壁強壯藥」「全屬性弱化藥」",
+                "使用「猛攻突擊藥」「鐵壁強壯藥」「全屬性弱化藥」後，1回合內可使用「猛攻突擊藥」「鐵壁強壯藥」「全屬性弱化藥」",
                 "1턴에에 한해 '광전사 세럼', '철벽강장제', '모든 속성 약화 세럼' 사용 후 '광전사 세럼', '철벽강장제', '모든 속성 약화 세럼' 사용 가능",
                 "Après avoir utilisé Sérum de berserker, Sérum de tank ou Réducteur de résistance, ils peuvent être utilisé pendant un tour",
                 "Nach Einsatz von Berserker- und Blockade-Serum oder Resistenzausfall Einsatz für eine Runde",
@@ -18955,7 +19070,7 @@
             ],
             "description": [
                 "Caster can dodge some physical attacks one time at the beginning of battle or after being revived",
-                "戰鬥開始時和從無法戰鬥狀態中復活時賦予自身可閃避1次部分物理攻擊的效果",
+                "戰鬥開始時或從無法戰鬥狀態中復活時賦予自身可閃避1次部分物理攻擊的效果",
                 "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신에게 물리 공격 1회 회피 효과 부여",
                 "Le lanceur peut esquiver certaines attaques physiques une fois au début du combat ou après une résurrection",
                 "Benutzer kann einigen physischen Angriffen ein Mal zu Beginn des Kampfes oder nach Wiederbelebung ausweichen",
@@ -19620,7 +19735,7 @@
                 "火槍奧義",
                 "총의 비법",
                 "Maîtrise des pistolets",
-                "Schusswaffenmeister",
+                "Schusswaffenmeisterin",
                 "Maestría de pistolas"
             ],
             "description": [
@@ -19687,7 +19802,7 @@
                 "火槍奧義",
                 "총의 비법",
                 "Maîtrise des pistolets",
-                "Schusswaffenmeister",
+                "Schusswaffenmeisterin",
                 "Maestría de pistolas"
             ],
             "description": [
@@ -19755,7 +19870,7 @@
                 "火槍奧義",
                 "총의 비법",
                 "Maîtrise des pistolets",
-                "Schusswaffenmeister",
+                "Schusswaffenmeisterin",
                 "Maestría de pistolas"
             ],
             "description": [
@@ -19821,7 +19936,7 @@
                 "火槍奧義",
                 "총의 비법",
                 "Maîtrise des pistolets",
-                "Schusswaffenmeister",
+                "Schusswaffenmeisterin",
                 "Maestría de pistolas"
             ],
             "description": [
@@ -20532,7 +20647,7 @@
             ],
             "description": [
                 "Boosts active ability effect (mid)<br>Enables piercing spear, extreme - earthen sword, extreme - earthen large sword, and extreme - earthen axe for one turn",
-                "提高發動能力時的效果(中)<br>1回合內可以使用「貫穿之槍」「激・鈍土劍」「激・削土大劍」「激・滅土斧」",
+                "提高發動能力時的效果(中)<br>1回合內可使用「貫穿之槍」「激・鈍土劍」「激・削土大劍」「激・滅土斧」",
                 "발동하는 어빌리티 효과 상승(중)<br>1턴에 한해 '꿰뚫는 창', '격·땅을 베는 검', '격·땅을 깎는 대검', '격·땅을 멸하는 도끼' 사용 가능",
                 "Augmente l'effet des aptitudes actives (moyen)<br>Permet d'utiliser Lance perforante, Épée terrestre - EXT, Épée terrestre L - EXT, et Hache terrestre - EXT pendant un tour",
                 "Erhöht Fertigkeiteneffekte, wenn aktiv (mittel)<br>Ermöglicht Stechspeer, Extrem - Erdenes Schwert, Extrem - Erdenes Großschwert oder Extrem - Erdene Axt.",
@@ -22876,7 +22991,7 @@
             ],
             "description": [
                 "Boosts HP restoration amount (low)<br>Boosts MP restoration amount (mid)<br>Enables dual white magic for 3 turns",
-                "提高HP恢復量(小)<br>提高MP恢復量(中)<br>3回合內可以使用「W白魔法」",
+                "提高HP恢復量(小)<br>提高MP恢復量(中)<br>3回合內可使用「W白魔法」",
                 "HP 회복량 상승(소)<br>MP 회복량 상승(중)<br>3턴 동안 'W백마법' 사용 가능",
                 "Augmente la quantité de PV restaurée (peu)<br>Augmente la quantité de PM restaurée (moyen)<br>Permet d'utiliser Double magie blanche pendant 3 tours.",
                 "Erhöht Wert regenerierter LP (gering)<br>Erhöht Wert regenerierter MP (mittel)<br>Ermöglicht drei Runden lang Doppelmagie Weiß",
@@ -23880,7 +23995,7 @@
             ],
             "description": [
                 "Fills own LB gauge<br>Enables point-blank warp-strike for 1 turn",
-                "提高自身極限技槽<br>1回合內可以使用「零距離變移破解」",
+                "提高自身極限技槽<br>1回合內可使用「零距離變移破解」",
                 "사용자의 LB 게이지 증가량 상승<br>1턴 동안 '영거리 시프트 브레이크'  사용 가능",
                 "Remplit la jauge de limite du lanceur<br>Permet d'utiliser Assauts éclipse critiques pendant 1 tour",
                 "Füllt eigenen Limitmeter<br>Ermöglicht eine Runde lang Direkt-Warp",
@@ -23947,7 +24062,7 @@
             ],
             "description": [
                 "Enables point-blank warp-strike for 1 turn",
-                "1回合內可以使用「零距離變移破解」",
+                "1回合內可使用「零距離變移破解」",
                 "1턴 동안 '영거리 시프트 브레이크'  사용 가능",
                 "Permet d'utiliser Assauts éclipse critiques pendant 1 tour",
                 "Ermöglicht eine Runde lang Direkt-Warp",
@@ -45831,6 +45946,1277 @@
             ]
         }
     },
+    "227725001": {
+        "name": "Fight",
+        "skill_id_old": 227725,
+        "skill_id_new": 708137,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 8,
+                "270001200": 4,
+                "270001300": 3,
+                "270001400": 1
+            }
+        },
+        "units": [330000105, 330000205, 330000305],
+        "strings": {
+            "names": [
+                "Fight",
+                "戰鬥",
+                "투심",
+                "Combat",
+                "Gefecht",
+                "Combate"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227725002": {
+        "name": null,
+        "skill_id_old": 708137,
+        "skill_id_new": 708138,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 12,
+                "270001200": 6,
+                "270001300": 4,
+                "270001400": 1,
+                "270001500": 1
+            }
+        },
+        "units": [330000105, 330000205, 330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227730001": {
+        "name": "Chooser of the Slain",
+        "skill_id_old": 227730,
+        "skill_id_new": 708139,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 5,
+                "270003300": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Chooser of the Slain",
+                "靈魂選擇者",
+                "영혼을 택하는 자",
+                "Celle qui choisit les morts",
+                "Richterin der Seelen",
+                "Seleccionadora de los caídos"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227730002": {
+        "name": null,
+        "skill_id_old": 708139,
+        "skill_id_new": 708140,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 8,
+                "270003300": 2,
+                "270003400": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227739001": {
+        "name": "Valkyrie's Bow",
+        "skill_id_old": 227739,
+        "skill_id_new": 708135,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Valkyrie's Bow",
+                "蒼穹女武神",
+                "창공의 발키리",
+                "Valkyrie céleste",
+                "Bogen der Walküre",
+                "Arco de Valquiria"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227739002": {
+        "name": null,
+        "skill_id_old": 708135,
+        "skill_id_new": 708136,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227743001": {
+        "name": "Infinity Blast",
+        "skill_id_old": 227743,
+        "skill_id_new": 708131,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Infinity Blast",
+                "無限衝擊",
+                "무한 폭격",
+                "Impact infini",
+                "Endlosschuss",
+                "Ráfaga infinita"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227743002": {
+        "name": null,
+        "skill_id_old": 708131,
+        "skill_id_new": 708132,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227747001": {
+        "name": "Glowing Pierce",
+        "skill_id_old": 227747,
+        "skill_id_new": 708127,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 8,
+                "270004700": 4,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Glowing Pierce",
+                "灼光之槍",
+                "섬광 찌르기",
+                "Percée éblouissante",
+                "Durchbohrung",
+                "Zambullida"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227747002": {
+        "name": null,
+        "skill_id_old": 708127,
+        "skill_id_new": 708128,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 17,
+                "270004700": 10,
+                "270004800": 8,
+                "270004900": 3,
+                "270005000": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227750001": {
+        "name": "Code Break",
+        "skill_id_old": 227750,
+        "skill_id_new": 708125,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 5,
+                "270002700": 4,
+                "270002800": 3,
+                "270002900": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Code Break",
+                "代碼破壞",
+                "코드 브레이크",
+                "Craquage de code",
+                "Codebrecher",
+                "Rompecódigo"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227750002": {
+        "name": null,
+        "skill_id_old": 708125,
+        "skill_id_new": 708126,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 7,
+                "270002900": 4,
+                "270003000": 1
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227751001": {
+        "name": "Ethereal Shot",
+        "skill_id_old": 227751,
+        "skill_id_new": 708133,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270001100": 20,
+                "270001200": 15,
+                "270001300": 10,
+                "270001400": 4,
+                "270001500": 2
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Ethereal Shot",
+                "空靈射擊",
+                "환상의 사격",
+                "Tir éthéré",
+                "Ätherschuss",
+                "Tiro etéreo"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227751002": {
+        "name": null,
+        "skill_id_old": 708133,
+        "skill_id_new": 708134,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270001100": 30,
+                "270001200": 23,
+                "270001300": 15,
+                "270001400": 8,
+                "270001500": 2
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227752001": {
+        "name": "Radiant White Wings",
+        "skill_id_old": 227752,
+        "skill_id_new": 708129,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270000100": 30,
+                "270000200": 25,
+                "270000300": 20,
+                "270000400": 4,
+                "270000500": 2
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [
+                "Radiant White Wings",
+                "閃耀白翼",
+                "백익의 빛",
+                "Ailes blanches radieuses",
+                "Gleißende Weiße Flügel",
+                "Alas blancas resplandecientes"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227752002": {
+        "name": null,
+        "skill_id_old": 708129,
+        "skill_id_new": 708130,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270000100": 40,
+                "270000200": 35,
+                "270000300": 25,
+                "270000400": 8,
+                "270000500": 2
+            }
+        },
+        "units": [330000105],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227762001": {
+        "name": "Prepare to be cleansed!",
+        "skill_id_old": 227762,
+        "skill_id_new": 708143,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Prepare to be cleansed!",
+                "賜予你淨化吧",
+                "정화해주마",
+                "« Place à la purification ! »",
+                "Ich werde dich bereinigen!",
+                "¡Prepárate para purificar tu alma!"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227762002": {
+        "name": null,
+        "skill_id_old": 708143,
+        "skill_id_new": 708144,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227764001": {
+        "name": "Aerial Burst",
+        "skill_id_old": 227764,
+        "skill_id_new": 708149,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 8,
+                "270001300": 3
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Aerial Burst",
+                "空襲爆裂",
+                "공기 폭발",
+                "Explosion aérienne",
+                "Luftschlag",
+                "Explosión aérea"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227764002": {
+        "name": null,
+        "skill_id_old": 708149,
+        "skill_id_new": 708150,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 12,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227765001": {
+        "name": "Thunder Sword",
+        "skill_id_old": 227765,
+        "skill_id_new": 708151,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Thunder Sword",
+                "雷霆劍",
+                "우레의 검격",
+                "Épée de tonnerre",
+                "Donnerschwert",
+                "Espada de trueno"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227765002": {
+        "name": null,
+        "skill_id_old": 708151,
+        "skill_id_new": 708152,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227768001": {
+        "name": "Mystic Zone",
+        "skill_id_old": 227768,
+        "skill_id_new": 708153,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 8,
+                "270003800": 5,
+                "270003900": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Mystic Zone",
+                "神秘區域",
+                "신비로운 영역",
+                "Zone mystique",
+                "Mystische Zone",
+                "Zona mística"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227768002": {
+        "name": null,
+        "skill_id_old": 708153,
+        "skill_id_new": 708154,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003600": 23,
+                "270003700": 12,
+                "270003800": 8,
+                "270003900": 2,
+                "270004000": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227773001": {
+        "name": "Goddess of Purity",
+        "skill_id_old": 227773,
+        "skill_id_new": 708141,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 5,
+                "270000400": 2,
+                "270000500": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Goddess of Purity",
+                "肅清女神",
+                "숙청의 여신",
+                "Déesse de la pureté",
+                "Göttin der Reinheit",
+                "Diosa de la pureza"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227773002": {
+        "name": null,
+        "skill_id_old": 708141,
+        "skill_id_new": 708142,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 20,
+                "270000200": 17,
+                "270000300": 8,
+                "270000400": 6,
+                "270000500": 1
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227774001": {
+        "name": "Victory Sword",
+        "skill_id_old": 227774,
+        "skill_id_new": 708145,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Victory Sword",
+                "勝利之劍",
+                "승리의 검격",
+                "Épée victorieuse",
+                "Siegesschwert",
+                "Espada victoriosa"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227774002": {
+        "name": null,
+        "skill_id_old": 708145,
+        "skill_id_new": 708146,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227775001": {
+        "name": "Heavenly Punishment",
+        "skill_id_old": 227775,
+        "skill_id_new": 708147,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270003100": 30,
+                "270003200": 25,
+                "270003300": 20,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [
+                "Heavenly Punishment",
+                "天國制裁",
+                "천벌",
+                "Punition divine",
+                "Strafe des Himmels",
+                "Castigo divino"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227775002": {
+        "name": null,
+        "skill_id_old": 708147,
+        "skill_id_new": 708148,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270003100": 40,
+                "270003200": 35,
+                "270003300": 25,
+                "270003400": 8,
+                "270003500": 2
+            }
+        },
+        "units": [330000205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227783001": {
+        "name": "High Wind",
+        "skill_id_old": 227783,
+        "skill_id_new": 708163,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 8,
+                "270000300": 5,
+                "270000400": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "High Wind",
+                "空之疾風",
+                "하이윈드",
+                "Grand vent",
+                "Windpeitsche",
+                "Alto viento"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227783002": {
+        "name": null,
+        "skill_id_old": 708163,
+        "skill_id_new": 708164,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 23,
+                "270000200": 12,
+                "270000300": 8,
+                "270000400": 2,
+                "270000500": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227786001": {
+        "name": "Dragon Slayer",
+        "skill_id_old": 227786,
+        "skill_id_new": 708155,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 7,
+                "270000800": 6,
+                "270000900": 1,
+                "270001000": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "Dragon Slayer",
+                "龍劍士",
+                "드래곤 슬레이어",
+                "Tueur de Dragon",
+                "Drachentöter (VP)",
+                "Flagelo de dragones"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227786002": {
+        "name": null,
+        "skill_id_old": 708155,
+        "skill_id_new": 708156,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 17,
+                "270000700": 10,
+                "270000800": 8,
+                "270000900": 3,
+                "270001000": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227789001": {
+        "name": "Blaze Blade",
+        "skill_id_old": 227789,
+        "skill_id_new": 708157,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "Blaze Blade",
+                "焰光之刃",
+                "타오르는 칼날",
+                "Lame enflammée",
+                "Gleißende Klinge",
+                "Cuchillada llameante"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227789002": {
+        "name": null,
+        "skill_id_old": 708157,
+        "skill_id_new": 708158,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227791001": {
+        "name": "Demon Possessed",
+        "skill_id_old": 227791,
+        "skill_id_new": 708165,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "Demon Possessed",
+                "戰場死神",
+                "전장의 사신",
+                "Faucheur du champ de bataille",
+                "Todesgott des Schlachtfelds",
+                "Demonio poseído"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227791002": {
+        "name": null,
+        "skill_id_old": 708165,
+        "skill_id_new": 708166,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 17,
+                "270000800": 8,
+                "270000900": 6,
+                "270001000": 1
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227792001": {
+        "name": "Storm Edge",
+        "skill_id_old": 227792,
+        "skill_id_new": 708161,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003100": 20,
+                "270003200": 15,
+                "270003300": 10,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "Storm Edge",
+                "風暴劍刃",
+                "폭풍의 칼날",
+                "Tempête de lames",
+                "Sturmklinge",
+                "Filo tormentoso"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227792002": {
+        "name": null,
+        "skill_id_old": 708161,
+        "skill_id_new": 708162,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003100": 30,
+                "270003200": 23,
+                "270003300": 15,
+                "270003400": 8,
+                "270003500": 2
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227794001": {
+        "name": "Dead End",
+        "skill_id_old": 227794,
+        "skill_id_new": 708159,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270004600": 30,
+                "270004700": 25,
+                "270004800": 20,
+                "270004900": 4,
+                "270005000": 2
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [
+                "Dead End",
+                "死亡終結",
+                "결사의 일격",
+                "Impasse",
+                "Sackgasse",
+                "Callejón sin salida"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227794002": {
+        "name": null,
+        "skill_id_old": 708159,
+        "skill_id_new": 708160,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270004600": 40,
+                "270004700": 35,
+                "270004800": 25,
+                "270004900": 8,
+                "270005000": 2
+            }
+        },
+        "units": [330000305],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227804001": {
+        "name": "Slanting Blow",
+        "skill_id_old": 227804,
+        "skill_id_new": 708169,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 12,
+                "270002700": 9,
+                "270002800": 3
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [
+                "Slanting Blow",
+                "傾斜打擊",
+                "사선 베어 올리기",
+                "Coup oblique",
+                "Schräger Schlag",
+                "Golpe sesgado"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227804002": {
+        "name": null,
+        "skill_id_old": 708169,
+        "skill_id_new": 708170,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 18,
+                "270002700": 14,
+                "270002800": 6
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227805001": {
+        "name": "Scarlet Edge",
+        "skill_id_old": 227805,
+        "skill_id_new": 708167,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 12,
+                "270003700": 9,
+                "270003800": 3
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [
+                "Scarlet Edge",
+                "猩紅劍刃",
+                "붉은 칼날",
+                "Tranchant écarlate",
+                "Scharlachrote Schneide",
+                "Filo escarlata"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227805002": {
+        "name": null,
+        "skill_id_old": 708167,
+        "skill_id_new": 708168,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 18,
+                "270003700": 14,
+                "270003800": 6
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227806001": {
+        "name": "Fast Thunderclap",
+        "skill_id_old": 227806,
+        "skill_id_new": 708173,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 18,
+                "270004700": 12,
+                "270004800": 9
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [
+                "Fast Thunderclap",
+                "迅雷詭計",
+                "민첩한 몸놀림",
+                "Éclair fulgurant",
+                "Flinker Donnerschlag",
+                "Trueno violento"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227806002": {
+        "name": null,
+        "skill_id_old": 708173,
+        "skill_id_new": 708174,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 27,
+                "270004700": 18,
+                "270004800": 14
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227807001": {
+        "name": "Shining Bolt",
+        "skill_id_old": 227807,
+        "skill_id_new": 708171,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 18,
+                "270000200": 9,
+                "270000300": 6
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [
+                "Shining Bolt",
+                "耀眼閃電",
+                "빛나는 뇌격",
+                "Éclair brillant",
+                "Leuchtender Blitzschlag",
+                "Rayo cegador"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227807002": {
+        "name": null,
+        "skill_id_old": 708171,
+        "skill_id_new": 708172,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 27,
+                "270000200": 14,
+                "270000300": 9
+            }
+        },
+        "units": [330000404],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227810001": {
+        "name": "Fire Storm",
+        "skill_id_old": 227810,
+        "skill_id_new": 708177,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270003100": 12,
+                "270003200": 6,
+                "270003300": 1
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [
+                "Fire Storm",
+                "熾熱風暴",
+                "불타는 폭풍",
+                "Tempête de feu",
+                "Feuersturm",
+                "Tormenta de fuego"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227810002": {
+        "name": null,
+        "skill_id_old": 708177,
+        "skill_id_new": 708178,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270003100": 18,
+                "270003200": 9,
+                "270003300": 2
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227814001": {
+        "name": "Fire Lance",
+        "skill_id_old": 227814,
+        "skill_id_new": 708175,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270002600": 12,
+                "270002700": 6,
+                "270002800": 1
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [
+                "Fire Lance",
+                "烈火·長槍",
+                "화염의 창",
+                "Lance de feu",
+                "Feuerlanze",
+                "Lanza de fuego"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227814002": {
+        "name": null,
+        "skill_id_old": 708175,
+        "skill_id_new": 708176,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270002600": 18,
+                "270002700": 9,
+                "270002800": 2
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227817001": {
+        "name": "Such impudence! You face certain death.",
+        "skill_id_old": 227817,
+        "skill_id_new": 708179,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004100": 12,
+                "270004200": 9,
+                "270004300": 3
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [
+                "Such impudence! You face certain death.",
+                "無禮之人賜爾萬死",
+                "무례한 것, 백 번 죽어 마땅하도다",
+                "Quelle impudence ! C'est la mort qui t'attend.",
+                "Welch Unverfrorenheit! Tausend Tode sollst du sterben!",
+                "¡Menuda insolencia! Estás pidiendo la muerte a gritos."
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "227817002": {
+        "name": null,
+        "skill_id_old": 708179,
+        "skill_id_new": 708180,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004100": 18,
+                "270004200": 14,
+                "270004300": 6
+            }
+        },
+        "units": [330000503],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
     "227960001": {
         "name": "Demonic Spark",
         "skill_id_old": 227960,
@@ -46262,7 +47648,7 @@
             ],
             "description": [
                 "Automatically revives caster one time",
-                "賦予自身進入無法戰鬥狀態時自動復活1次的效果",
+                "賦予自身自動復活1次的效果",
                 "자신의 전투불능 상태를 1회 자동 회복하는 효과 부여",
                 "Ressuscite automatiquement le lanceur une fois",
                 "Belebt Benutzer ein Mal automatisch wieder",
@@ -47183,6 +48569,178 @@
                 "Erhöht Wert regenerierter LP (auf 6000) und regenerierter MP (auf 60)",
                 "Aumenta la recuperación de VIT (a 6000) y de PM (a 60)"
             ]
+        }
+    },
+    "228130001": {
+        "name": "Sacred Flux",
+        "skill_id_old": 228130,
+        "skill_id_new": 708111,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 24,
+                "270000700": 18,
+                "270000800": 12
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [
+                "Sacred Flux",
+                "流聖瀑",
+                "유성폭",
+                "Flux sacré",
+                "Sakralkatarakt",
+                "Flujo sagrado"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228130002": {
+        "name": null,
+        "skill_id_old": 708111,
+        "skill_id_new": 708112,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 36,
+                "270000700": 27,
+                "270000800": 18
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228131001": {
+        "name": "Luminous Fall",
+        "skill_id_old": 228131,
+        "skill_id_new": 708113,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 18,
+                "270000200": 12,
+                "270000300": 9
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [
+                "Luminous Fall",
+                "輝光瀑布",
+                "낙하하는 광휘",
+                "Ruine étincelante",
+                "Leuchtender Wasserfall",
+                "Caída luminosa"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228131002": {
+        "name": null,
+        "skill_id_old": 708113,
+        "skill_id_new": 708114,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 27,
+                "270000200": 18,
+                "270000300": 14
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228134001": {
+        "name": "Great Mage's Feats!",
+        "skill_id_old": 228134,
+        "skill_id_new": 708115,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003600": 18,
+                "270003700": 12,
+                "270003800": 9
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [
+                "Great Mage's Feats!",
+                "大魔道士的成就！",
+                "대마도사의 몸가짐!",
+                "Exploits du grand mage !",
+                "Manieren eines Großmagiers!",
+                "Proeza de archimago"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228134002": {
+        "name": null,
+        "skill_id_old": 708115,
+        "skill_id_new": 708116,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003600": 27,
+                "270003700": 18,
+                "270003800": 14
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228136001": {
+        "name": "Magna Counter",
+        "skill_id_old": 228136,
+        "skill_id_new": 708117,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 18,
+                "270003200": 9,
+                "270003300": 6
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [
+                "Magna Counter",
+                "馬格納反擊",
+                "마그나 카운터",
+                "Contre de Magna",
+                "Magnakonter",
+                "Contra de Magna"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228136002": {
+        "name": null,
+        "skill_id_old": 708117,
+        "skill_id_new": 708118,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 27,
+                "270003200": 14,
+                "270003300": 9
+            }
+        },
+        "units": [100017304],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
         }
     },
     "228310001": {
@@ -48174,6 +49732,52 @@
                 "Steigert ANG- und MAG-Erhöhungen (auf 80%)",
                 "Mayor aumento de ATQ y MAG (a un 80%)"
             ]
+        }
+    },
+    "228343001": {
+        "name": "Flames of Life",
+        "skill_id_old": 228343,
+        "skill_id_new": 708083,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [254001905],
+        "strings": {
+            "names": [
+                "Flames of Life",
+                "生命之炎",
+                "생명의 불꽃",
+                "Flammes de la vie",
+                "Lebensflammen",
+                "Fuego de la vida"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228343002": {
+        "name": null,
+        "skill_id_old": 708083,
+        "skill_id_new": 708084,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [254001905],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
         }
     },
     "228345001": {
@@ -49228,6 +50832,135 @@
                 "Erhöht Trefferzahl (auf 30)",
                 "Aumenta el número de golpes (a 30)"
             ]
+        }
+    },
+    "228524001": {
+        "name": "Searing Slash",
+        "skill_id_old": 228524,
+        "skill_id_new": 708119,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 18,
+                "270002700": 9,
+                "270002800": 6
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [
+                "Searing Slash",
+                "炎熱斬",
+                "염열참",
+                "Entaille incendiaire",
+                "Sengender Schnitt",
+                "Corte abrasador"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228524002": {
+        "name": null,
+        "skill_id_old": 708119,
+        "skill_id_new": 708120,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 27,
+                "270002700": 14,
+                "270002800": 9
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228527001": {
+        "name": "Blazing Sword Wielder",
+        "skill_id_old": 228527,
+        "skill_id_new": 708123,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 18,
+                "270004700": 12,
+                "270004800": 9
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [
+                "Blazing Sword Wielder",
+                "炎刀使用者",
+                "염도의 숙련자",
+                "Porteur de l'épée embrasée",
+                "Träger des Flammenschwerts",
+                "Maestro de la espada llameante"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228527002": {
+        "name": null,
+        "skill_id_old": 708123,
+        "skill_id_new": 708124,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 27,
+                "270004700": 18,
+                "270004800": 14
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228530001": {
+        "name": "Carmine Bisect",
+        "skill_id_old": 228530,
+        "skill_id_new": 708121,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 18,
+                "270001200": 12,
+                "270001300": 9
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [
+                "Carmine Bisect",
+                "洋紅二分斬",
+                "암적색의 양단",
+                "Division sanglante",
+                "Blutrote Zweiteilung",
+                "División sanguinolenta"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "228530002": {
+        "name": null,
+        "skill_id_old": 708121,
+        "skill_id_new": 708122,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 27,
+                "270001200": 18,
+                "270001300": 14
+            }
+        },
+        "units": [100017704],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
         }
     },
     "228621001": {
@@ -50500,6 +52233,241 @@
             ]
         }
     },
+    "229415001": {
+        "name": "Malboro Rider",
+        "skill_id_old": 229415,
+        "skill_id_new": 708099,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "Malboro Rider",
+                "毛爾波爾騎士",
+                "몰볼 라이더",
+                "Chevaucheuse de morbol",
+                "Morbol-Reiter",
+                "Jinete molbol"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229415002": {
+        "name": null,
+        "skill_id_old": 708099,
+        "skill_id_new": 708100,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229418001": {
+        "name": "Bad Breath",
+        "skill_id_old": 229418,
+        "skill_id_new": 708097,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 10,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "Bad Breath",
+                "臭氣",
+                "썩은내",
+                "Puanteur",
+                "Mundgeruch",
+                "Aliento apestoso"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229418002": {
+        "name": null,
+        "skill_id_old": 708097,
+        "skill_id_new": 708098,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 15,
+                "270001300": 12,
+                "270001400": 4,
+                "270001500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229420001": {
+        "name": "Ground Whip",
+        "skill_id_old": 229420,
+        "skill_id_new": 708093,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 15,
+                "270000800": 10,
+                "270000900": 4,
+                "270001000": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "Ground Whip",
+                "大地之鞭",
+                "대지의 채찍",
+                "Fouet tellurique",
+                "Bodenpeitsche",
+                "Látigo terrestre"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229420002": {
+        "name": null,
+        "skill_id_old": 708093,
+        "skill_id_new": 708094,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000600": 30,
+                "270000700": 23,
+                "270000800": 15,
+                "270000900": 8,
+                "270001000": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229426001": {
+        "name": "Brutal Whip",
+        "skill_id_old": 229426,
+        "skill_id_new": 708095,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270004100": 20,
+                "270004200": 15,
+                "270004300": 10,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "Brutal Whip",
+                "殘暴鞭",
+                "무자비한 채찍",
+                "Fouet brutal",
+                "Brutale Peitsche",
+                "Látigo brutal"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229426002": {
+        "name": null,
+        "skill_id_old": 708095,
+        "skill_id_new": 708096,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270004100": 30,
+                "270004200": 23,
+                "270004300": 15,
+                "270004400": 8,
+                "270004500": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229427001": {
+        "name": "Toxic Whip",
+        "skill_id_old": 229427,
+        "skill_id_new": 708091,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 25,
+                "270002800": 20,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [
+                "Toxic Whip",
+                "強毒鞭",
+                "맹독성 채찍 조이기",
+                "Fouet hyper venimeux",
+                "Giftpeitsche",
+                "Látigo venenoso"
+            ],
+            "description": [null, null, null, null, null, null]
+        }
+    },
+    "229427002": {
+        "name": null,
+        "skill_id_old": 708091,
+        "skill_id_new": 708092,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "270002600": 40,
+                "270002700": 35,
+                "270002800": 25,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [100019205],
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "description": [null, null, null, null, null, null]
+        }
+    },
     "301301001": {
         "name": "Barthundara",
         "skill_id_old": 30130,
@@ -50881,7 +52849,7 @@
             ],
             "description": [
                 "Can equip two of any one-handed short sword, whip, mace, or fist",
-                "可以裝備2個單手短劍鞭權杖格鬥武器",
+                "可以裝備2把單手短劍鞭權杖格鬥武器",
                 "한손용 단검, 채찍, 메이스, 또는 격투무기 동시에 2개 장착 가능",
                 "Permet d'équiper deux armes à une main : épées courtes, fouets, masses, ou poings",
                 "Kann zwei Exemplare beliebiger Kurzzschwerter, Peitschen, Keulen oder Fäuste ausrüsten",
@@ -52415,7 +54383,7 @@
             ],
             "description": [
                 "Enables dual white magic and full-life for three turns",
-                "3回合內可以使用「W白魔法」「大復活」",
+                "3回合內可使用「W白魔法」「大復活」",
                 "3턴 동안 'W 백마법'과 '어레이즈' 사용 가능",
                 "Permet d'utiliser Double magie blanche et Vie max pendant 3 tours",
                 "Ermöglicht drei Runden lang Doppelmagie Weiß und Erzengel",
@@ -62704,6 +64672,938 @@
                 "Augmente les dégâts (à 3250 / 3250 %)",
                 "Erhöht Schaden (auf 3250/3250%)",
                 "Aumenta el daño (a un 3250/3250%)"
+            ]
+        }
+    },
+    "911955001": {
+        "name": "Recital - Elemental Storm",
+        "skill_id_old": 911955,
+        "skill_id_new": 913789,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 8,
+                "270001300": 3,
+                "270001400": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Elemental Storm",
+                "演奏 - 五行嵐",
+                "연주·영속의 폭풍",
+                "Récital - Typhon des éléments",
+                "Aufführung - Elementarsturm",
+                "Recital - Tormenta elemental"
+            ],
+            "description": [
+                "Boosts all elemental resistance increases (to 55%)",
+                "提高全屬性耐性增加量(至55%)",
+                "모든 속성 저항력 상승량 상승(55%)",
+                "Amplifie toutes les augmentations des résistances élémentaires (à 55 %)",
+                "Steigert Erhöhungen aller Elementarresistenzen (auf 55%)",
+                "Mayor aumento de todas las resistencias elementales (a un 55%)"
+            ]
+        }
+    },
+    "911955002": {
+        "name": "Recital - Elemental Storm",
+        "skill_id_old": 913789,
+        "skill_id_new": 913790,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 12,
+                "270001300": 5,
+                "270001400": 1,
+                "270001500": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Elemental Storm",
+                "演奏 - 五行嵐",
+                "연주·영속의 폭풍",
+                "Récital - Typhon des éléments",
+                "Aufführung - Elementarsturm",
+                "Recital - Tormenta elemental"
+            ],
+            "description": [
+                "Boosts all elemental resistance increases (to 70%)",
+                "提高全屬性耐性增加量(至70%)",
+                "모든 속성 저항력 상승량 상승(70%)",
+                "Amplifie toutes les augmentations des résistances élémentaires (à 70 %)",
+                "Steigert Erhöhungen aller Elementarresistenzen (auf 70%)",
+                "Mayor aumento de todas las resistencias elementales (a un 70%)"
+            ]
+        }
+    },
+    "911961001": {
+        "name": "Recital - Ten-Sided Ambush",
+        "skill_id_old": 911961,
+        "skill_id_new": 913793,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 3,
+                "270000900": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Ten-Sided Ambush",
+                "演奏 - 十面埋伏",
+                "연주·십면 매복",
+                "Récital - Embuscade de tous côtés",
+                "Aufführung - Zehnseitiger Überfall",
+                "Recital - Emboscada sin escapatoria"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, and SPR reductions (to 50%)",
+                "提高攻擊防禦魔力精神減少量(至50%)",
+                "공격력, 방어력, 마력, 정신력 감소량 상승(50%)",
+                "Amplifie les réductions de l'ATT, de la DEF, de la MAGIE et de la PSY (à 50 %)",
+                "Steigert ANG-, ABW-, MAG- und PSY-Verringerungen (auf 50%)",
+                "Aumenta las reducciones de ATQ, DEF, MAG y ESP (a un 50%)"
+            ]
+        }
+    },
+    "911961002": {
+        "name": "Recital - Ten-Sided Ambush",
+        "skill_id_old": 913793,
+        "skill_id_new": 913794,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 5,
+                "270000900": 1,
+                "270001000": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Ten-Sided Ambush",
+                "演奏 - 十面埋伏",
+                "연주·십면 매복",
+                "Récital - Embuscade de tous côtés",
+                "Aufführung - Zehnseitiger Überfall",
+                "Recital - Emboscada sin escapatoria"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, and SPR reductions (to 65%)",
+                "提高攻擊防禦魔力精神減少量(至65%)",
+                "공격력, 방어력, 마력, 정신력 감소량 상승(65%)",
+                "Amplifie les réductions de l'ATT, de la DEF, de la MAGIE et de la PSY (à 65 %)",
+                "Steigert ANG-, ABW-, MAG- und PSY-Verringerungen (auf 65%)",
+                "Aumenta las reducciones de ATQ, DEF, MAG y ESP (a un 65%)"
+            ]
+        }
+    },
+    "911965001": {
+        "name": "Recital - Ambitious Comforts",
+        "skill_id_old": 911965,
+        "skill_id_new": 913797,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Ambitious Comforts",
+                "演奏 - 平沙落雁",
+                "연주·야심찬 위안",
+                "Récital - Réconfort des oies sauvages",
+                "Aufführung - Ambitionierte Behaglichkeiten",
+                "Recital - Consuelo insaciable"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 150%)",
+                "提高防禦精神增加量(至150%)",
+                "방어력과 정신력 상승량 상승(150%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 150 %)",
+                "Steigert ABW- und PSY-Erhöhungen (auf 150%)",
+                "Mayor aumento de DEF y ESP (a un 150%)"
+            ]
+        }
+    },
+    "911965002": {
+        "name": "Recital - Ambitious Comforts",
+        "skill_id_old": 913797,
+        "skill_id_new": 913798,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Ambitious Comforts",
+                "演奏 - 平沙落雁",
+                "연주·야심찬 위안",
+                "Récital - Réconfort des oies sauvages",
+                "Aufführung - Ambitionierte Behaglichkeiten",
+                "Recital - Consuelo insaciable"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 180%)",
+                "提高防禦精神增加量(至180%)",
+                "방어력과 정신력 상승량 상승(180%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 180 %)",
+                "Steigert ABW- und PSY-Erhöhungen (auf 180%)",
+                "Mayor aumento de DEF y ESP (a un 180%)"
+            ]
+        }
+    },
+    "911969001": {
+        "name": "Recital - Singing Praise",
+        "skill_id_old": 911969,
+        "skill_id_new": 913801,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3,
+                "270002900": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Singing Praise",
+                "演奏 - 漁舟唱晚",
+                "연주·찬송",
+                "Récital - Fierté du pêcheur",
+                "Aufführung - Lobgesang",
+                "Recital - Orgullo de cantante"
+            ],
+            "description": [
+                "Boosts ATK and MAG increases (to 150%)",
+                "提高攻擊魔力增加量(至150%)",
+                "공격력과 마력 상승량 상승(150%)",
+                "Amplifie les augmentations de l'ATT et de la MAGIE (à 150 %)",
+                "Steigert ANG- und MAG -Erhöhungen (auf 150%)",
+                "Mayor aumento de ATQ y MAG (a un 150%)"
+            ]
+        }
+    },
+    "911969002": {
+        "name": "Recital - Singing Praise",
+        "skill_id_old": 913801,
+        "skill_id_new": 913802,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 1,
+                "270003000": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Singing Praise",
+                "演奏 - 漁舟唱晚",
+                "연주·찬송",
+                "Récital - Fierté du pêcheur",
+                "Aufführung - Lobgesang",
+                "Recital - Orgullo de cantante"
+            ],
+            "description": [
+                "Boosts ATK and MAG increases (to 180%)",
+                "提高攻擊魔力增加量(至180%)",
+                "공격력과 마력 상승량 상승(180%)",
+                "Amplifie les augmentations de l'ATT et de la MAGIE (à 180 %)",
+                "Steigert ANG- und MAG-Erhöhungen (auf 180%)",
+                "Mayor aumento de ATQ y MAG (a un 180%)"
+            ]
+        }
+    },
+    "911975001": {
+        "name": "Recital - Secret Lark",
+        "skill_id_old": 911975,
+        "skill_id_new": 913805,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Secret Lark",
+                "演奏 - 寒鴉戲水",
+                "연주·비밀의 종달새",
+                "Récital - Escapade du corbeau",
+                "Aufführung - Krähenspiel",
+                "Recital - Chanza enigmática"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 130%)",
+                "提高防禦精神增加量(至130%)",
+                "방어력과 정신력 상승량 상승(130%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 130 %)",
+                "Steigert ABW- und PSY -Erhöhungen (auf 130%)",
+                "Mayor aumento de DEF y ESP (a un 130%)"
+            ]
+        }
+    },
+    "911975002": {
+        "name": "Recital - Secret Lark",
+        "skill_id_old": 913805,
+        "skill_id_new": 913806,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1,
+                "270004500": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Secret Lark",
+                "演奏 - 寒鴉戲水",
+                "연주·비밀의 종달새",
+                "Récital - Escapade du corbeau",
+                "Aufführung - Krähenspiel",
+                "Recital - Chanza enigmática"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 160%)",
+                "提高防禦精神增加量(至160%)",
+                "방어력과 정신력 상승량 상승(160%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 160 %)",
+                "Steigert ABW- und PSY-Erhöhungen (auf 160%)",
+                "Mayor aumento de DEF y ESP (a un 160%)"
+            ]
+        }
+    },
+    "911979001": {
+        "name": "Recital - Invigorating Praise",
+        "skill_id_old": 911979,
+        "skill_id_new": 913807,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Invigorating Praise",
+                "演奏 - 梅花三弄",
+                "연주·활기찬 찬사",
+                "Récital - Force des fleurs de pêcher",
+                "Aufführung - Erfrischender Lobgesang",
+                "Recital - Elogio reconfortante"
+            ],
+            "description": [
+                "Boosts ATK and MAG increases (to 130%)",
+                "提高攻擊魔力增加量(至130%)",
+                "공격력과 마력 상승량 상승(130%)",
+                "Amplifie les augmentations de l'ATT et de la MAGIE (à 130 %)",
+                "Steigert ANG- und MAG-Erhöhungen (auf 130%)",
+                "Mayor aumento de ATQ y MAG (a un 130%)"
+            ]
+        }
+    },
+    "911979002": {
+        "name": "Recital - Invigorating Praise",
+        "skill_id_old": 913807,
+        "skill_id_new": 913808,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1,
+                "270004500": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Invigorating Praise",
+                "演奏 - 梅花三弄",
+                "연주·활기찬 찬사",
+                "Récital - Force des fleurs de pêcher",
+                "Aufführung - Erfrischender Lobgesang",
+                "Recital - Elogio reconfortante"
+            ],
+            "description": [
+                "Boosts ATK and MAG increases (to 160%)",
+                "提高攻擊魔力增加量(至160%)",
+                "공격력과 마력 상승량 상승(160%)",
+                "Amplifie les augmentations de l'ATT et de la MAGIE (à 160 %)",
+                "Steigert ANG- und MAG-Erhöhungen (auf 160%)",
+                "Mayor aumento de ATQ y MAG (a un 160%)"
+            ]
+        }
+    },
+    "911983001": {
+        "name": "Recital - Helpless Longing",
+        "skill_id_old": 911983,
+        "skill_id_new": 913809,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 2
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Helpless Longing",
+                "演奏 - 漢宮秋月",
+                "연주·무력한 갈망",
+                "Récital - Lune d'automne",
+                "Aufführung - Hilflose Sehnsucht",
+                "Recital - Anhelo indefenso"
+            ],
+            "description": [
+                "Boosts turns in effect for damage reduction (to 2 turns)",
+                "提高減少傷害的效果回合數(至2回合)",
+                "피해량 감소 효과 턴 수 상승(2턴)",
+                "Augmente le nombre de tours des effets réduisant les dégâts (à 2 tours)",
+                "Erhöht Anzahl aktiver Runden für Schadensverringerung (auf 2 Runden)",
+                "Aumenta la duración de la reducción de daño (a 2 turnos)"
+            ]
+        }
+    },
+    "911983002": {
+        "name": "Recital - Helpless Longing",
+        "skill_id_old": 913809,
+        "skill_id_new": 913810,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 4,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Recital - Helpless Longing",
+                "演奏 - 漢宮秋月",
+                "연주·무력한 갈망",
+                "Récital - Lune d'automne",
+                "Aufführung - Hilflose Sehnsucht",
+                "Recital - Anhelo indefenso"
+            ],
+            "description": [
+                "Boosts turns in effect (to 3 turns)",
+                "提高效果回合數(至3回合)",
+                "효과 턴 수 상승(3턴)",
+                "Augmente le nombre de tours des effets (à 3 tours)",
+                "Erhöht Anzahl aktiver Runden (auf 3 Runden)",
+                "Aumenta la duración (a 3 turnos)"
+            ]
+        }
+    },
+    "911991001": {
+        "name": "Moonlight Sonata",
+        "skill_id_old": 911991,
+        "skill_id_new": 913811,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Moonlight Sonata",
+                "月光奏鳴曲",
+                "월광의 소나타",
+                "Sonate au clair de lune",
+                "Mondscheinsonate",
+                "Sonata Claro de luna"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, and SPR increases (to 180%)",
+                "提高攻擊防禦魔力精神增加量(至180%)",
+                "공격력, 방어력, 마력, 정신력 상승량 상승(180%)",
+                "Amplifie les augmentations de l'ATT, de la DEF, de la MAGIE et de la PSY (à 180 %)",
+                "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (auf 180%)",
+                "Mayor aumento de ATQ, DEF, MAG y ESP (a un 180%)"
+            ]
+        }
+    },
+    "911991002": {
+        "name": "Moonlight Sonata",
+        "skill_id_old": 913811,
+        "skill_id_new": 913812,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 2,
+                "270005000": 2
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Moonlight Sonata",
+                "月光奏鳴曲",
+                "월광의 소나타",
+                "Sonate au clair de lune",
+                "Mondscheinsonate",
+                "Sonata Claro de luna"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, and SPR increases (to 200%, undispellable)",
+                "提高攻擊防禦魔力精神增加量(至200%、無法解除)",
+                "공격력, 방어력, 마력, 정신력 상승량 상승(200%, 해제 불가)",
+                "Amplifie les augmentations de l'ATT, de la DEF, de la MAGIE et de la PSY (à 200 %, ne peut pas être dissipé)",
+                "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (200%, nicht bannbar)",
+                "Mayor aumento de ATQ, DEF, MAG y ESP (a un 200%, no se puede anular)"
+            ]
+        }
+    },
+    "912002001": {
+        "name": "Sforzando",
+        "skill_id_old": 912002,
+        "skill_id_new": 913817,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Sforzando",
+                "強調音符",
+                "스포르찬도",
+                "Sforzando",
+                "Sforzando",
+                "Sforzando"
+            ],
+            "description": [
+                "Boosts HP increase (to 30%)",
+                "提高HP增加量(至30%)",
+                "HP 상승량 상승(30%)",
+                "Amplifie l'augmentation des PV (à 30 %)",
+                "Steigert LP-Erhöhungen (auf 30%)",
+                "Mayor aumento de VIT (a un 30%)"
+            ]
+        }
+    },
+    "912002002": {
+        "name": "Sforzando",
+        "skill_id_old": 913817,
+        "skill_id_new": 913818,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 2,
+                "270004500": 2
+            }
+        },
+        "units": [401006605],
+        "strings": {
+            "names": [
+                "Sforzando",
+                "強調音符",
+                "스포르찬도",
+                "Sforzando",
+                "Sforzando",
+                "Sforzando"
+            ],
+            "description": [
+                "Boosts HP and MAG increases (to 50%)",
+                "提高HP魔力增加量(至50%)",
+                "HP와 마력 상승량 상승(50%)",
+                "Amplifie les augmentations des PV et de la MAGIE (à 50 %)",
+                "Steigert LP- und MAG-Erhöhungen (auf 50%)",
+                "Mayor aumento de VIT y MAG (a un 50%)"
+            ]
+        }
+    },
+    "912047001": {
+        "name": "White Tiger - Shattering Fist",
+        "skill_id_old": 912047,
+        "skill_id_new": 913820,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 2
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "White Tiger - Shattering Fist",
+                "白虎式 - 破碎拳",
+                "백호술·파쇄권",
+                "Tigre blanc - Poing fracassant",
+                "Weißer Tiger - Zerschmetternde Faust",
+                "Tigre blanco - Puño aplastante"
+            ],
+            "description": [
+                "Boosts damage amount (to 970%)",
+                "提高傷害量(至970%)",
+                "피해량 상승(970%)",
+                "Augmente les dégâts infligés (à 970 %)",
+                "Erhöht Schaden (auf 970%)",
+                "Aumenta el daño (a un 970%)"
+            ]
+        }
+    },
+    "912047002": {
+        "name": "White Tiger - Shattering Fist",
+        "skill_id_old": 913820,
+        "skill_id_new": 913821,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 4,
+                "270000400": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "White Tiger - Shattering Fist",
+                "白虎式 - 破碎拳",
+                "백호술·파쇄권",
+                "Tigre blanc - Poing fracassant",
+                "Weißer Tiger - Zerschmetternde Faust",
+                "Tigre blanco - Puño aplastante"
+            ],
+            "description": [
+                "Boosts damage amount (to 1470%)",
+                "提高傷害量(至1470%)",
+                "피해량 상승(1470%)",
+                "Augmente les dégâts infligés (à 1 470 %)",
+                "Erhöht Schaden (auf 1470%)",
+                "Aumenta el daño (a un 1470%)"
+            ]
+        }
+    },
+    "912048001": {
+        "name": "Blood Phoenix - Defensive Stance",
+        "skill_id_old": 912048,
+        "skill_id_new": 913822,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 2
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Blood Phoenix - Defensive Stance",
+                "朱雀式 - 防禦法",
+                "주작술·방어법",
+                "Phénix de sang - Posture défensive",
+                "Blutroter Phönix - Verteidigungsstand",
+                "Fénix escarlata - Postura de defensa"
+            ],
+            "description": [
+                "Boosts damage amount (to 1250%)",
+                "提高傷害量(至1250%)",
+                "피해량 상승(1250%)",
+                "Augmente les dégâts infligés (à 1 250 %)",
+                "Erhöht Schaden (auf 1250%)",
+                "Aumenta el daño (a un 1250%)"
+            ]
+        }
+    },
+    "912048002": {
+        "name": "Blood Phoenix - Defensive Stance",
+        "skill_id_old": 913822,
+        "skill_id_new": 913823,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 4,
+                "270002900": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Blood Phoenix - Defensive Stance",
+                "朱雀式 - 防禦法",
+                "주작술·방어법",
+                "Phénix de sang - Posture défensive",
+                "Blutroter Phönix - Verteidigungsstand",
+                "Fénix escarlata - Postura de defensa"
+            ],
+            "description": [
+                "Boosts damage amount (to 1870%)",
+                "提高傷害量(至1870%)",
+                "피해량 상승(1870%)",
+                "Augmente les dégâts infligés (à 1 870 %)",
+                "Erhöht Schaden (auf 1870%)",
+                "Aumenta el daño (a un 1870%)"
+            ]
+        }
+    },
+    "912063001": {
+        "name": "Saint's Bond",
+        "skill_id_old": 912063,
+        "skill_id_new": 913828,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Saint's Bond",
+                "聖人羈絆",
+                "성인의 결속",
+                "Lien du saint",
+                "Heiligenbande",
+                "Vínculo santo"
+            ],
+            "description": [
+                "Boosts ATK and SPR increases (to 20%)",
+                "提高攻擊精神增加量(至20%)",
+                "공격력과 정신력 상승량 상승(20%)",
+                "Amplifie les augmentations de l'ATT et de la PSY (à 20 %)",
+                "Steigert ANG- und PSY-Erhöhungen (auf 20%)",
+                "Mayor aumento de ATQ y ESP (a un 20%)"
+            ]
+        }
+    },
+    "912063002": {
+        "name": "Saint's Bond",
+        "skill_id_old": 913828,
+        "skill_id_new": 913829,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Saint's Bond",
+                "聖人羈絆",
+                "성인의 결속",
+                "Lien du saint",
+                "Heiligenbande",
+                "Vínculo santo"
+            ],
+            "description": [
+                "Boosts ATK and SPR increases (to 50%)",
+                "提高攻擊精神增加量(至50%)",
+                "공격력과 정신력 상승량 상승(50%)",
+                "Amplifie les augmentations de l'ATT et de la PSY (à 50 %)",
+                "Steigert ANG- und PSY-Erhöhungen (auf 50%)",
+                "Mayor aumento de ATQ y ESP (a un 50%)"
+            ]
+        }
+    },
+    "912064001": {
+        "name": "Special Arts - Saint's Boost",
+        "skill_id_old": 912064,
+        "skill_id_new": 913824,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 2
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Special Arts - Saint's Boost",
+                "特別式 - 聖人後援",
+                "특별술·성인의 후원",
+                "Arcane spécial - Élévation du saint",
+                "Spezialkünste - Schub des Heiligen",
+                "Artes especiales - Estímulo santo"
+            ],
+            "description": [
+                "Reduces MP consumed (to 60)",
+                "減少MP消耗(至60)",
+                "소비 MP 감소(60)",
+                "Réduit les PM consommés (à 60)",
+                "Verringert MP-Verbrauch (auf 60)",
+                "Reduce el consumo de PM (a 60)"
+            ]
+        }
+    },
+    "912064002": {
+        "name": "Special Arts - Saint's Boost",
+        "skill_id_old": 913824,
+        "skill_id_new": 913825,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 4,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Special Arts - Saint's Boost",
+                "特別式 - 聖人後援",
+                "특별술·성인의 후원",
+                "Arcane spécial - Élévation du saint",
+                "Spezialkünste - Schub des Heiligen",
+                "Artes especiales - Estímulo santo"
+            ],
+            "description": [
+                "Boosts enabled duration of enabled ability - fusion barrage (to 2 turns)",
+                "提高「融合散擊」的可使用回合數(至2回合)",
+                "사용 가능 어빌리티 '융합 난사'의 사용 가능 턴 수 상승(2턴)",
+                "Augmente la durée de disponibilité de l'aptitude déblocable Pluie de coups fusionnés (à 2 tours)",
+                "Erhöht Anzahl aktiver Runden von aktiver Fertigkeit - Fusioniertes Sperrfeuer (auf 2 Runden)",
+                "Aumenta la duración de la habilidad aprendida Aluvión de golpes (a 2 turnos)"
+            ]
+        }
+    },
+    "912070001": {
+        "name": "Dual Saint Mastery",
+        "skill_id_old": 912070,
+        "skill_id_new": 913832,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Dual Saint Mastery",
+                "雙聖人奧義",
+                "두 성인의 극의",
+                "Double maîtrise du saint",
+                "Doppelmeisterschaft der Heiligen",
+                "Maestría santa dual"
+            ],
+            "description": [
+                "Boosts HP (20%)",
+                "提高HP(20%)",
+                "HP 상승(20%)",
+                "Augmente les PV (20 %)",
+                "Erhöht LP (20%)",
+                "Aumenta la VIT (un 20%)"
+            ]
+        }
+    },
+    "912070002": {
+        "name": "Dual Saint Mastery",
+        "skill_id_old": 913832,
+        "skill_id_new": 913833,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1,
+                "270004500": 1
+            }
+        },
+        "units": [401006705],
+        "strings": {
+            "names": [
+                "Dual Saint Mastery",
+                "雙聖人奧義",
+                "두 성인의 극의",
+                "Double maîtrise du saint",
+                "Doppelmeisterschaft der Heiligen",
+                "Maestría santa dual"
+            ],
+            "description": [
+                "Boosts DEF increase (to 50%)",
+                "提高防禦增加量(至50%)",
+                "방어력 상승량 상승(50%)",
+                "Amplifie l'augmentation de la DEF (à 50 %)",
+                "Steigert ABW-Erhöhung (auf 50%)",
+                "Mayor aumento de DEF (a un 50%)"
             ]
         }
     }
