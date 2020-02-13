@@ -4998,7 +4998,7 @@
                 "Magia doble"
             ],
             "desc_short": [
-                "Use magic twice in one turn",
+                "Enable magic to be used twice in one turn",
                 "1回合內可使用2次魔法",
                 "1턴 동안 마법 2회 사용 가능",
                 "Permet de lancer deux sorts en un tour",
@@ -12446,7 +12446,7 @@
                 "Magia blanca doble"
             ],
             "desc_short": [
-                "Use white magic twice in one turn",
+                "Enable white magic to be used twice in one turn",
                 "1回合內可使用2次白魔法",
                 "1턴 동안 백마법 2회 사용 가능",
                 "Permet d'utiliser la magie blanche à deux reprises en un tour",
@@ -24036,37 +24036,79 @@
         }
     },
     "504231203": {
-        "name": "氷の情熱",
+        "name": "Icy Passion",
         "compendium_id": 976,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [231203],
-        "effects": ["Grants '氷の情熱' passive."],
-        "unique": false,
+        "effects": ["Grants 'Icy Passion' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Icy Passion",
+                "冰之熱情",
+                "얼음의 정열",
+                "Passion givrée",
+                "Eisige Leidenschaft",
+                "Pasión helada"
+            ],
+            "desc_short": [
+                "Boost MP by 40%, MAG by 60%, and ice resistance by 80% (Not stackable)",
+                "提高40%MP、60%魔力、80%冰屬性耐性 [無法重複裝備]",
+                "MP 40%, 마력 60%, 얼음속성 저항력 80% 상승 (중복 장착 불가)",
+                "Augmente les PM de 40 %, la MAGIE de 60 % et la résistance à la glace de 80 %",
+                "Erhöht MP um 40%, MAG um 60% und Eisresistenz um 80% (nicht stapelbar).",
+                "Aumenta los PM un 40%, la MAG un 60% y la resistencia al hielo un 80% (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MP by 40%, MAG by 60%, and ice resistance by 80%. Not stackable.",
+                "提高40%MP、60%魔力、80%冰屬性耐性。[無法重複裝備]",
+                "MP가 40%, 마력이 60%, 얼음속성 저항력이 80% 상승합니다. (중복 장착 불가)",
+                "Augmente les PM de 40 %, la MAGIE de 60 % et la résistance à la glace de 80 %.",
+                "Erhöht MP um 40%, MAG um 60% und Eisresistenz um 80%. Nicht stapelbar.",
+                "Aumenta los PM un 40%, la MAG un 60% y la resistencia al hielo un 80%. No acumulable."
+            ]
         }
     },
     "504231204": {
-        "name": "ルルカのバレンタインレシピ",
+        "name": "Luka's Valentine Recipe",
         "compendium_id": 977,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [231204],
-        "effects": ["Grants 'ルルカのバレンタインレシピ' passive."],
-        "unique": false,
+        "effects": ["Grants 'Luka's Valentine Recipe' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Luka's Valentine Recipe",
+                "露露卡的情人節食譜",
+                "루루카의 밸런타인 레시피",
+                "Recette de Saint-Valentin de Luluka",
+                "Lukas Valentinsrezept",
+                "Receta de San Valentín de Luka"
+            ],
+            "desc_short": [
+                "Boost HP and SPR by 40% and water, wind, and light resistance by 60% (Not stackable)",
+                "提高40%HP精神、60%水風光屬性耐性 [無法重複裝備]",
+                "HP와 정신력 40%, 물, 바람, 빛속성 저항력 60% 상승 (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 % ainsi que la résistance à l'eau, au vent et à la lumière de 60 %",
+                "Erhöht LP und PSY um 40% und Wasser-, Wind- und Lichtresistenz um 60% (nicht stapelbar).",
+                "Aumenta la VIT y el ESP un 40% y la resistencia a agua, viento y luz un 60% (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP and SPR by 40% and water, wind, and light resistance by 60%. Not stackable.",
+                "提高40%HP精神、60%水風光屬性耐性。[無法重複裝備]",
+                "HP와 정신력이 40%, 물, 바람, 빛속성 저항력이 60% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 % ainsi que la résistance à l'eau, au vent et à la lumière de 60 %.",
+                "Erhöht LP und PSY um 40% und Wasser-, Wind- und Lichtresistenz um 60%. Nicht stapelbar.",
+                "Aumenta la VIT y el ESP un 40% y la resistencia a agua, viento y luz un 60%. No acumulable."
+            ]
         }
     },
     "504231302": {
@@ -30466,6 +30508,162 @@
                 "Augmente la PSY lorsque des poings sont équipés, et augmente les dégâts de la limite. Non cumulable",
                 "Erhöht PSY, wenn mit Fäusten ausgerüstet, und erhöht Schaden durch Limitrausch. Nicht stapelbar.",
                 "Aumenta el ESP al llevar puños y aumenta el daño del EL. No acumulable."
+            ]
+        }
+    },
+    "1500000124": {
+        "name": "Loving Spirit",
+        "compendium_id": 90124,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [913715, 100010, 100180],
+        "effects": [
+            "Grants 'Loving Spirit' passive.",
+            "Grants 'HP +10%' passive.",
+            "Grants 'SPR +30%' passive."
+        ],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10023.png",
+        "strings": {
+            "names": [
+                "Loving Spirit",
+                "愛之精靈",
+                "사랑의 정령",
+                "Esprit amoureux",
+                "Liebeserfüllter Geist",
+                "Espíritu amoroso"
+            ],
+            "desc_short": [
+                "Boost HP by 10%, SPR by 30%, and SPR by 30% when equipped with a staff (Not stackable)",
+                "提高10%HP、30%精神+裝備手杖時提高30%精神[無法重複裝備]",
+                "HP 10%, 정신력 30% 상승+지팡이 장착 시 정신력 30% 상승 (중복 장착 불가)",
+                "Augmente les PV de 10 % et la PSY de 30 %, et augmente la PSY de 30 % lorsqu'un bâton est équipé (non cumulable)",
+                "Erhöht LP um 10%, PSY um 30% und erhöht PSY um 30%, wenn mit einem Stab ausgerüstet (nicht stapelbar).",
+                "Aumenta la VIT un 10%, el ESP un 30%, y el ESP otro 30% al llevar bastón (no acumulable)"
+            ],
+            "desc_long": [
+                "Boost HP by 10%, SPR by 30%, and SPR by 30% when equipped with a staff. Not stackable.",
+                "提高10%HP、30%精神，並且裝備手杖時提高30%精神。[無法重複裝備]",
+                "HP가 10%, 정신력이 30% 상승하고, 지팡이 장착 시 정신력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV de 10 % et la PSY de 30 %, et augmente la PSY de 30 % lorsqu'un bâton est équipé. Non cumulable.",
+                "Erhöht LP um 10%, PSY um 30% und erhöht PSY um 30%, wenn mit einem Stab ausgerüstet. Nicht stapelbar.",
+                "Aumenta la VIT un 10%, el ESP un 30%, y el ESP otro 30% al llevar bastón. No acumulable."
+            ]
+        }
+    },
+    "1500000125": {
+        "name": "Flurry of Petals",
+        "compendium_id": 90125,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [913757],
+        "effects": ["Grants 'Flurry of Petals' passive."],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10023.png",
+        "strings": {
+            "names": [
+                "Flurry of Petals",
+                "隨風飄舞的花瓣",
+                "바람에 흩날리는 꽃잎",
+                "Nuée de pétales",
+                "Blütenbrise",
+                "Vendaval de pétalos"
+            ],
+            "desc_short": [
+                "Boost ATK by 40% and HP and DEF by 20%, and boost LB gauge fill rate (Not stackable)",
+                "提高40%攻擊、20%HP防禦+提高極限技石對極限技槽的增加量[無法重複裝備]",
+                "공격력 40%, HP와 방어력 20% 상승+LB 게이지 효율 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 40 % et les PV et la DEF de 20 %, et augmente le taux de remplissage de la jauge de limite (non cumulable)",
+                "Erhöht ANG um 40%, LP sowie ABW um 20% und Limitmeter füllt sich schneller (nicht stapelbar).",
+                "Aumenta el ATQ un 40% y la VIT y la DEF un 20%, y la barra de EL se rellena más rápido (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 40% and HP and DEF by 20%, and boosts LB gauge fill rate. Not stackable.",
+                "提高40%攻擊、20%HP防禦，並且提高極限技石對極限技槽的增加量。[無法重複裝備]",
+                "공격력이 40%, HP와 방어력이 20% 상승하고, LB 게이지 효율이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 40 % et les PV et la DEF de 20 %, et augmente le taux de remplissage de la jauge de limite. Non cumulable.",
+                "Erhöht ANG um 40%, LP und ABW um 20% und Limitmeter füllt sich schneller. Nicht stapelbar.",
+                "Aumenta el ATQ un 40% y la VIT y la DEF un 20%, y la barra de EL se rellena más rápido. No acumulable."
+            ]
+        }
+    },
+    "1500000126": {
+        "name": "Love is Vital",
+        "compendium_id": 90126,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [913886],
+        "effects": ["Grants 'Love is Vital' passive."],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10023.png",
+        "strings": {
+            "names": [
+                "Love is Vital",
+                "愛不可或缺",
+                "생명 같은 사랑",
+                "L'amour est vital",
+                "Liebe ist Leben",
+                "El amor es vital"
+            ],
+            "desc_short": [
+                "Boost HP by 20%, MP by 40%, and fire, water, and light resistance by 10%",
+                "提高20%HP、40%MP、10%火水光屬性耐性",
+                "HP 20%, MP 40% 상승+불, 물, 빛속성 저항력 10% 상승",
+                "Augmente les PV de 20 %, les PM de 40 %, et la résistance au feu, à l'eau et à la lumière de 10 %",
+                "Erhöht LP um 20%, MP um 40% und Feuer-, Wasser- sowie Lichtesistenz um 10%.",
+                "Aumenta la VIT un 20%, los PM un 40%, y la resistencia a fuego, agua y luz un 10%"
+            ],
+            "desc_long": [
+                "Boosts HP by 20%, MP by 40%, and fire, water, and light resistance by 10%.",
+                "提高20%HP、40%MP、10%火水光屬性耐性",
+                "HP가 20%, MP가 40% 상승하고, 불, 물, 빛속성 저항력이 10% 상승합니다.",
+                "Augmente les PV de 20 %, les PM de 40 %, et la résistance au feu, à l'eau et à la lumière de 10 %",
+                "Erhöht LP um 20%, MP um 40% und Feuer-, Wasser- sowie Lichtesistenz um 10%.",
+                "Aumenta la VIT un 20%, los PM un 40%, y la resistencia a fuego, agua y luz un 10%"
+            ]
+        }
+    },
+    "1500000127": {
+        "name": "Love is Magical",
+        "compendium_id": 90127,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [913887],
+        "effects": ["Grants 'Love is Magical' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10023.png",
+        "strings": {
+            "names": [
+                "Love is Magical",
+                "愛充滿魔力",
+                "마법 같은 사랑",
+                "L'amour est magique",
+                "Liebe ist Magie",
+                "El amor es mágico"
+            ],
+            "desc_short": [
+                "Boost MAG and SPR by 20%, and boost MP when equipped with a robe",
+                "提高20%魔力精神+裝備法袍時提高MP",
+                "마력과 정신력 20% 상승+로브 장착 시 MP 상승",
+                "Augmente la MAGIE et la PSY de 20 %, et augmente les PM lorsqu'une tunique est équipée",
+                "Erhöht MAG sowie PSY um 20% und MP, wenn mit einer Robe ausgerüstet.",
+                "Aumenta la MAG y el ESP un 20%, y aumenta los PM al llevar túnica"
+            ],
+            "desc_long": [
+                "Boosts MAG and SPR by 20%, and boosts MP when equipped with a robe.",
+                "提高20%魔力精神+裝備法袍時提高MP",
+                "마력과 정신력이 20% 상승하고, 로브 장착 시 MP가 상승합니다.",
+                "Augmente la MAGIE et la PSY de 20 %, et augmente les PM lorsqu'une tunique est équipée",
+                "Erhöht MAG sowie PSY um 20% und MP, wenn mit einer Robe ausgerüstet.",
+                "Aumenta la MAG y el ESP un 20%, y aumenta los PM al llevar túnica"
             ]
         }
     }
