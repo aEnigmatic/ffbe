@@ -4963,7 +4963,7 @@
                 "Boost DEF for caster",
                 "提高自身的防禦",
                 "자신의 방어력 상승",
-                "Augmente la DÉF de l'utilisateur",
+                "Augmente la DÉF du lanceur",
                 "ABW hoch, Benutzer",
                 "Aumenta la DEF de quien lo usa."
             ],
@@ -4971,7 +4971,7 @@
                 "Boosts DEF for caster.",
                 "提高自身的防禦。",
                 "자신의 방어력이 상승합니다.",
-                "Augmente la DÉF de l'utilisateur.",
+                "Augmente la DÉF du lanceur.",
                 "Steigert die ABW des Benutzers.",
                 "Aumenta la DEF de quien lo usa."
             ]
@@ -11986,7 +11986,7 @@
                 "沉默無效",
                 "침묵 무효",
                 "Rés. au silence",
-                "Stille-Widerstand",
+                "Stilleresistenz",
                 "Resistencia al silencio"
             ],
             "desc_short": [
@@ -24256,54 +24256,117 @@
         }
     },
     "504231562": {
-        "name": "ツインソードの奥義",
+        "name": "Twin Swords Mastery",
         "compendium_id": 984,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [231562],
-        "effects": ["Grants 'ツインソードの奥義' passive."],
-        "unique": false,
+        "effects": ["Grants 'Twin Swords Mastery' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_72.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Twin Swords Mastery",
+                "雙劍玄奧",
+                "트윈 소드의 오의",
+                "Maîtrise d'épées jumelles",
+                "Zwillingsschwertmeister",
+                "Maestría de espadas gemelas"
+            ],
+            "desc_short": [
+                "Boost equipment ATK when armed with two one-handed weapons, and boost ATK by 50% when equipped with a sword (Not stackable)",
+                "裝備2把單手武器時武具攻擊提升+裝備劍時提高50%攻擊[無法重複裝備]",
+                "한손용 무기 2개 장착 시 장비의 공격력 상승+검 장착 시 공격력 50% 상승 (중복 장착 불가)",
+                "Augmente l'ATT de l'équipement quand deux armes à une main sont équipées, et augmente l'ATT de 50 % quand une épée est équipée (non cumulable)",
+                "Erhöht Ausrüstung-ANG, wenn mit zwei einhändigen Waffen ausgerüstet, und erhöht ANG um 50%, wenn mit einem Schwert ausgerüstet (nicht stapelbar)",
+                "Aumenta el ATQ del equipo al llevar 2 armas de una sola mano, y aumenta el ATQ un 50% al llevar espada (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts equipment ATK when armed with two one-handed weapons, and boosts ATK by 50% when equipped with a sword. Not stackable.",
+                "裝備2把單手武器時武具攻擊提升，並且在裝備劍時提高50%攻擊。[無法重複裝備]",
+                "한손용 무기 2개 장착 시 장비의 공격력이 상승하고, 검 장착 시 공격력이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de l'équipement quand deux armes à une main sont équipées, et augmente l'ATT de 50 % quand une épée est équipée. Non cumulable.",
+                "Erhöht Ausrüstung-ANG, wenn mit zwei einhändigen Waffen ausgerüstet, und erhöht ANG um 50%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ del equipo al llevar 2 armas de una sola mano, y aumenta el ATQ un 50% al llevar espada. No acumulable."
+            ]
         }
     },
     "504231563": {
-        "name": "魔王の力",
+        "name": "Demon King's Power",
         "compendium_id": 985,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [231563],
-        "effects": ["Grants '魔王の力' passive."],
+        "effects": ["Grants 'Demon King's Power' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_91.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Demon King's Power",
+                "魔王之力",
+                "마왕의 힘",
+                "Puissance du roi démoniaque",
+                "Macht des Dämonenkönigs",
+                "Poder del rey demonio"
+            ],
+            "desc_short": [
+                "Boost HP by 15% and MAG by 40%, and restore MP every turn",
+                "提高15%HP、40%魔力+每回合恢復MP",
+                "HP 15%, 마력 40% 상승+매 턴마다 MP 회복",
+                "Augmente les PV de 15 % ainsi que la MAGIE de 40 %, et restaure les PM à chaque tour",
+                "Erhöht LP um 15% sowie MAG um 40%, und regeneriert jede Runde MP.",
+                "Aumenta la VIT un 15% y la MAG un 40%, y recupera PM cada turno"
+            ],
+            "desc_long": [
+                "Boosts HP by 15% and MAG by 40%, and restores MP every turn.",
+                "提高15%HP、40%魔力，並且每回合恢復MP。",
+                "HP가 15%, 마력이 40% 상승하고, 매 턴마다 MP를 회복합니다.",
+                "Augmente les PV de 15 % ainsi que la MAGIE de 40 %, et restaure les PM à chaque tour.",
+                "Erhöht LP um 15% sowie MAG um 40%, und regeneriert jede Runde MP.",
+                "Aumenta la VIT un 15% y la MAG un 40%, y recupera PM cada turno."
+            ]
         }
     },
     "504231564": {
-        "name": "暗黒の生み出す力",
+        "name": "Tapestry of Chaos",
         "compendium_id": 986,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [231564],
-        "effects": ["Grants '暗黒の生み出す力' passive."],
-        "unique": false,
+        "effects": ["Grants 'Tapestry of Chaos' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Tapestry of Chaos",
+                "暗黑蘊育出的力量",
+                "암흑을 낳는 힘",
+                "Toile du chaos",
+                "Schwarzer Gobelin aus Chaos",
+                "Tapiz de caos y dolor"
+            ],
+            "desc_short": [
+                "Boost MAG by 25% and fire, ice, and lightning resistance by 10% when equipped with a rod, and MAG by 25% and fire, ice, and lightning resistance by 10% when equipped with a hat (Not stackable)",
+                "裝備魔棒時提高25%魔力、10%火冰雷屬性耐性+裝備帽子時提高25%魔力、10%火冰雷屬性耐性[無法重複裝備]",
+                "홀장 장착 시 마력 25%, 불, 얼음, 번개속성 저항력 10% 상승+모자 장착 시 마력 25%, 불, 얼음, 번개속성 저항력 10% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 25 %, la résistance au feu, à la glace et à la foudre de 10 % quand un sceptre est équipé, augmente la MAGIE de 25 %, la résistance au feu, à la glace et à la foudre de 10 % quand un chapeau est équipé (non cumulable)",
+                "Erhöht MAG um 25% und Feuer-, Eis- und Blitzresistenz um 10%, wenn mit einer Rute ausgerüstet, und erhöht Feuer-, Eis- und Blitzresistenz um 10%, wenn mit einem Hut ausgerüstet (nicht stapelbar).",
+                "Aumenta la MAG un 25% y la resistencia a fuego, hielo y rayo un 10% al llevar vara, y la MAG otro 25% y la resistencia a fuego, hielo y rayo otro 10% al llevar sombrero (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 25% and fire, ice, and lightning resistance by 10% when equipped with a rod, and MAG by 25% and fire, ice, and lightning resistance by 10% when equipped with a hat. Not stackable.",
+                "裝備魔棒時提高25%魔力、10%火冰雷屬性耐性，並且在裝備帽子時提高25%魔力、10%火冰雷屬性耐性。[無法重複裝備]",
+                "홀장 장착 시 마력이 25%, 불, 얼음, 번개속성 저항력이 10% 상승하고, 모자 장착 시 마력이 25%, 불, 얼음, 번개속성 저항력이 10% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 25 %, la résistance au feu, à la glace et à la foudre de 10 % quand un sceptre est équipé, augmente la MAGIE de 25 %, la résistance au feu, à la glace et à la foudre de 10 % quand un chapeau est équipé. Non cumulable.",
+                "Erhöht MAG um 25% und Feuer-, Eis- und Blitzresistenz um 10%, wenn mit einer Rute ausgerüstet, und erhöht Feuer-, Eis- und Blitzresistenz um 10%, wenn mit einem Hut ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG un 25% y la resistencia a fuego, hielo y rayo un 10% al llevar vara, y la MAG otro 25% y la resistencia a fuego, hielo y rayo otro 10% al llevar sombrero. No acumulable."
+            ]
         }
     },
     "504231651": {
@@ -30664,6 +30727,44 @@
                 "Augmente la MAGIE et la PSY de 20 %, et augmente les PM lorsqu'une tunique est équipée",
                 "Erhöht MAG sowie PSY um 20% und MP, wenn mit einer Robe ausgerüstet.",
                 "Aumenta la MAG y el ESP un 20%, y aumenta los PM al llevar túnica"
+            ]
+        }
+    },
+    "1500000128": {
+        "name": "Cupid's Blessing",
+        "compendium_id": 90128,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [913888],
+        "effects": ["Grants 'Cupid's Blessing' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10023.png",
+        "strings": {
+            "names": [
+                "Cupid's Blessing",
+                "丘比特的祝福",
+                "큐피드의 가호",
+                "Grâce de Cupidon",
+                "Amors Segen",
+                "Bendición de Cupido"
+            ],
+            "desc_short": [
+                "Boost HP and MP by 25% and fire, water, and light resistance by 20%",
+                "提高25%HPMP、20%火水光屬性耐性",
+                "HP와 MP 25% 상승+불, 물, 빛속성 저항력 20% 상승",
+                "Augmente les PV et les PM de 25 %, et la résistance au feu, à l'eau et à la lumière de 20 %",
+                "Erhöht LP sowie MP um 25% und erhöht Feuer-, Wasser- und Lichtresistenz um 20%.",
+                "Aumenta la VIT y los PM un 25% y la resistencia a fuego, agua y luz un 20%"
+            ],
+            "desc_long": [
+                "Boosts HP and MP by 25% and fire, water, and light resistance by 20%.",
+                "提高25%HPMP、20%火水光屬性耐性。",
+                "HP와 MP가 25% 상승하고, 불, 물, 빛속성 저항력이 20% 상승합니다.",
+                "Augmente les PV et les PM de 25 %, et la résistance au feu, à l'eau et à la lumière de 20 %",
+                "Erhöht LP sowie MP um 25% und erhöht Feuer-, Wasser- und Lichtresistenz um 20%.",
+                "Aumenta la VIT y los PM un 25% y la resistencia a fuego, agua y luz un 20%"
             ]
         }
     }
