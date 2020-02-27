@@ -21510,11 +21510,11 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF and HP by 20%",
-            "Increase the damage of Beat Rush (227830), Dolphin Blow (227834), Meteodrive (227833), Meteor Strike (227835), Overdrive Plus (508161), Somersault (227831) and Waterkick (227832) by (1.5x)",
-            "Increase the damage of Seventh Heaven (508162) and Zangan Combination (227837) by (0.75x)",
-            "Increase the damage of Final Heaven (227836) by (2.5x)"
+            "Increase the damage of Beat Rush (227830), Dolphin Blow (227834), Meteodrive (227833), Meteor Strike (227835), Overdrive Plus (508161), Somersault (227831), Waterkick (227832), ドルフィンブロウ+1 (707909) and ドルフィンブロウ+2 (707910) by (1.5x)",
+            "Increase the damage of Seventh Heaven (508162), Zangan Combination (227837), セブンスヘブン+1 (509873) and セブンスヘブン+2 (509874) by (0.75x)",
+            "Increase the damage of Final Heaven (227836), ファイナルヘヴン+1 (707903) and ファイナルヘヴン+2 (707904) by (2.5x)"
         ],
-        "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  20,  0,  0]], [0, 3, 73, [[227830,  227831,  227832,  227833,  227834,  227835,  508161], 0, 0, 150]], [0, 3, 73, [[227837,  508162], 0, 0, 75]], [0, 3, 73, [227836,  0,  0,  250]]],
+        "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  20,  0,  0]], [0, 3, 73, [[227830,  227831,  227832,  227833,  227834,  227835,  508161,  707909,  707910], 0, 0, 150]], [0, 3, 73, [[227837,  508162,  509873,  509874], 0, 0, 75]], [0, 3, 73, [[227836,  707903,  707904], 0, 0, 250]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -26663,8 +26663,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Quick Block (228886) and Triumphant Grasp (228883) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 508750, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 1, 0]]],
+        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 508750, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  708011,  708012,  708015,  708016], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -26747,9 +26747,9 @@
             "Increase HP by 20%",
             "Increase ATK by 40% and MP by 20% when equipped with a Great Sword",
             "Increase the damage of Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Shot (207040), Jecht Shot Mark III (228885) and Triumphant Grasp (228883) by (1.5x)",
-            "Increase the damage of Jecht Rush (228881) and Otherworld (508753) by (0.75x)"
+            "Increase the damage of Jecht Rush (228881), Otherworld (508753), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) by (0.75x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 6, [3,  40,  0,  0,  0,  0,  20,  0]], [0, 3, 73, [[207040,  228880,  228882,  228883,  228884,  228885], 0, 0, 150]], [0, 3, 73, [[228881,  508753], 0, 0, 75]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 6, [3,  40,  0,  0,  0,  0,  20,  0]], [0, 3, 73, [[207040,  228880,  228882,  228883,  228884,  228885], 0, 0, 150]], [0, 3, 73, [[228881,  508753,  708015,  708016], 0, 0, 75]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -63363,10 +63363,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 50% and MP by 30%",
+            "Increase ATK by 60% and MP by 30%",
             "Enable unit to equip two one-handed weapons"
         ],
-        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  30,  0]], [0, 3, 14, ["none"]]],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  0,  0,  30,  0]], [0, 3, 14, ["none"]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -63380,11 +63380,12 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 70% and MP by 50%",
+            "Increase ATK by 100% and MP by 50%",
             "Enable unit to equip two one-handed weapons",
-            "Increase equipment ATK by 10% when armed with two weapons"
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Recover MP (5%) per turn"
         ],
-        "effects_raw": [[0, 3, 1, [70,  0,  0,  0,  0,  50,  0]], [0, 3, 14, ["none"]], [0, 3, 69, [1,  10]]],
+        "effects_raw": [[0, 3, 1, [100,  0,  0,  0,  0,  50,  0]], [0, 3, 14, ["none"]], [0, 3, 69, [1,  50]], [0, 3, 32, [5]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -63416,11 +63417,11 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase DEF and SPR by 30%",
+            "Increase DEF and SPR by 60% and HP by 50%",
             "Increase the limit burst gauge fill rate by 100%",
             "Increase resistance to all status effects by 100%"
         ],
-        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 31, [100]], [0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]]],
+        "effects_raw": [[0, 3, 1, [0,  60,  0,  60,  50,  0,  0]], [0, 3, 31, [100]], [0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64014,10 +64015,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase HP by 30%",
-            "Increase ATK by 75% when equipped with a Great Sword"
+            "Increase HP by 30% and DEF and SPR by 10%",
+            "Increase ATK by 80% when equipped with a Great Sword"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 6, [3,  75,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  10,  0,  10,  30,  0,  0]], [0, 3, 6, [3,  80,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64031,10 +64032,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase HP by 30%",
-            "Increase ATK by 100% when equipped with a Great Sword"
+            "Increase HP by 60% and DEF and SPR by 30%",
+            "Increase ATK by 130% when equipped with a Great Sword"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 6, [3,  100,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  60,  0,  0]], [0, 3, 6, [3,  130,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64074,9 +64075,9 @@
             "Increase physical damage against Demons by 50%",
             "Increase equipment ATK by 150% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase equipment ATK by 30% when armed with two weapons"
+            "Increase equipment ATK by 70% when armed with two weapons"
         ],
-        "effects_raw": [[0, 3, 11, [1,  50,  0]], [0, 3, 11, [2,  50,  0]], [0, 3, 11, [4,  50,  0]], [0, 3, 13, [150,  25,  2]], [0, 3, 69, [1,  30,  0]]],
+        "effects_raw": [[0, 3, 11, [1,  50,  0]], [0, 3, 11, [2,  50,  0]], [0, 3, 11, [4,  50,  0]], [0, 3, 13, [150,  25,  2]], [0, 3, 69, [1,  70,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64580,10 +64581,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 50% when equipped with a Katana",
+            "Increase ATK by 70% when equipped with a Katana",
             "Increase resistance to Fire by 40%"
         ],
-        "effects_raw": [[0, 3, 6, [4,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [40,  0,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 6, [4,  70,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [40,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -64597,10 +64598,10 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 50% when equipped with a Katana",
+            "Increase ATK by 100% when equipped with a Katana",
             "Increase resistance to Fire by 60%"
         ],
-        "effects_raw": [[0, 3, 6, [4,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [60,  0,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 6, [4,  100,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [60,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -88626,6 +88627,34 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913893": {
+        "name": "速攻×2",
+        "icon": "ability_8.png",
+        "compendium_id": 4225,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913894, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  228888,  708011,  708012,  708015,  708016], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913895": {
+        "name": "速攻×2",
+        "icon": "ability_8.png",
+        "compendium_id": 4225,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Fake Out (228887), Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトキャンセル+1 (708013), ジェクトキャンセル+2 (708014), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913896, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  228887,  228888,  708011,  708012,  708013,  708014,  708015,  708016], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "950011": {
         "name": "Feelings for Rain",
         "icon": "ability_77.png",
@@ -90050,6 +90079,64 @@
             "Increase equipment SPR by 50% when armed with two weapons"
         ],
         "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  30,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 10003, [0,  0,  0,  0,  0,  50,  1]], [0, 3, 69, [1,  50]], [0, 3, 69, [4,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950261": {
+        "name": "Elite Marksman",
+        "icon": "ability_77.png",
+        "compendium_id": 87232,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of Flash Grenade (910121), Grapeshot (910124), Maiming Shot (910128), Napalm Grenade (910127), True Shot (910132), True Shot+1 (910914) and True Shot+2 (910915) by (2x)",
+            "Use Elite Marksman (950264) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 73, [[910132,  910914,  910915,  910121,  910124,  910127,  910128], 0, 0, 200]], [0, 3, 56, [950264]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950262": {
+        "name": "Elite Marksman I",
+        "icon": "ability_77.png",
+        "compendium_id": 87232,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of Flash Grenade (910121), Grapeshot (910124), Maiming Shot (910128), Napalm Grenade (910127), True Shot (910132), True Shot+1 (910914) and True Shot+2 (910915) by (3.5x)",
+            "Increase the damage of Immolation Blast (911189) by (10x)",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Use Elite Marksman (950264) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 73, [[910132,  910914,  910915,  910121,  910124,  910127,  910128], 0, 0, 350]], [0, 3, 73, [911189,  0,  0,  1000]], [0, 3, 13, [50,  25,  2]], [0, 3, 56, [950264]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950263": {
+        "name": "Elite Marksman II",
+        "icon": "ability_77.png",
+        "compendium_id": 87232,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to use Anti-Armor Ammunition (950267), Anti-Armor Ammunition I (950269), Anti-Armor Ammunition II (950271), Charged Rounds (950265), Empowering Shot (911185), Flash Grenade (910121), Grapeshot (910124), Heated Rounds (910130), Immolation Blast (911188), Maiming Shot (910128), Napalm Grenade (910127), Nitroglycerin (950273), Nitroglycerin I (950275), Nitroglycerin II (950277), Shattering Shot (910123), Shattering Shot+1 (910912), Shattering Shot+2 (910913), True Shot (910132), True Shot+1 (910914), True Shot+2 (910915) and Vanguard Force (911186) twice in one turn",
+            "Increase the damage of Flash Grenade (910121), Grapeshot (910124), Maiming Shot (910128), Napalm Grenade (910127), True Shot (910132), True Shot+1 (910914) and True Shot+2 (910915) by (5x)",
+            "Increase the damage of Immolation Blast (911189) by (25x)",
+            "Increase equipment ATK by 150% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Use Elite Marksman (950264) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 53, [2, 950266, -1, [910121,  910123,  910912,  910913,  910124,  910127,  910128,  910130,  910132,  910914,  910915,  911185,  911186,  911188,  950265,  950267,  950269,  950271,  950273,  950275,  950277], 1, 0]], [0, 3, 73, [[910132,  910914,  910915,  910121,  910124,  910127,  910128], 0, 0, 500]], [0, 3, 73, [911189,  0,  0,  2500]], [0, 3, 13, [150,  25,  2]], [0, 3, 56, [950264]]],
         "requirements": null,
         "unit_restriction": null
     }

@@ -2479,6 +2479,18 @@
                         "Inflige daño a todos los enemigos"
                     ]
                 }
+            },
+            "11802": {
+                "effects": ["Physical* damage (2,200x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  220000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[70]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [null, null, null, null, null, null],
+                    "desc": [null, null, null, null, null, null]
+                }
             }
         },
         "color": null,
@@ -2497,6 +2509,21 @@
                 "exp_pattern": 31,
                 "stat_pattern": 2,
                 "cp_pattern": [0, 3, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 4, 3, 4, 3, 4, 3, 3, 4, 3, 4, 4, 3, 4, 4, 4]
+            },
+            {
+                "stats": {
+                    "HP": [5800, 8200],
+                    "MP": [6700, 9500],
+                    "ATK": [7000, 9900],
+                    "DEF": [6500, 9200],
+                    "MAG": [5700, 8000],
+                    "SPR": [5900, 8200]
+                },
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 41,
+                "stat_pattern": 2,
+                "cp_pattern": [0, 7, 8, 7, 8, 7, 8, 7, 8, 7, 8, 7, 8, 8, 7, 8, 8, 7, 8, 8, 7, 8, 8, 8, 7, 8, 8, 8, 7, 8, 8, 8, 7, 8, 8, 8, 8, 8, 8, 8]
             }
         ]
     },
