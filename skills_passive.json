@@ -21510,9 +21510,9 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF and HP by 20%",
-            "Increase the damage of Beat Rush (227830), Dolphin Blow (227834), Meteodrive (227833), Meteor Strike (227835), Overdrive Plus (508161), Somersault (227831), Waterkick (227832), ドルフィンブロウ+1 (707909) and ドルフィンブロウ+2 (707910) by (1.5x)",
-            "Increase the damage of Seventh Heaven (508162), Zangan Combination (227837), セブンスヘブン+1 (509873) and セブンスヘブン+2 (509874) by (0.75x)",
-            "Increase the damage of Final Heaven (227836), ファイナルヘヴン+1 (707903) and ファイナルヘヴン+2 (707904) by (2.5x)"
+            "Increase the damage of Beat Rush (227830), Dolphin Blow (227834), Dolphin Blow+1 (707909), Dolphin Blow+2 (707910), Meteodrive (227833), Meteor Strike (227835), Overdrive Plus (508161), Somersault (227831) and Waterkick (227832) by (1.5x)",
+            "Increase the damage of Seventh Heaven (508162), Seventh Heaven+1 (509873), Seventh Heaven+2 (509874) and Zangan Combination (227837) by (0.75x)",
+            "Increase the damage of Final Heaven skills  [(227836) / +1 (707903) / +2 (707904)] by (2.5x)"
         ],
         "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  20,  0,  0]], [0, 3, 73, [[227830,  227831,  227832,  227833,  227834,  227835,  508161,  707909,  707910], 0, 0, 150]], [0, 3, 73, [[227837,  508162,  509873,  509874], 0, 0, 75]], [0, 3, 73, [[227836,  707903,  707904], 0, 0, 250]]],
         "requirements": null,
@@ -26663,7 +26663,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Rush+1 (708015), Jecht Rush+2 (708016), Jecht Shot (207040), Jecht Shot Mark III (228885), Quick Block (228886), Quick Block+1 (708011), Quick Block+2 (708012) and Triumphant Grasp (228883) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 508750, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  708011,  708012,  708015,  708016], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
@@ -26747,7 +26747,7 @@
             "Increase HP by 20%",
             "Increase ATK by 40% and MP by 20% when equipped with a Great Sword",
             "Increase the damage of Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Shot (207040), Jecht Shot Mark III (228885) and Triumphant Grasp (228883) by (1.5x)",
-            "Increase the damage of Jecht Rush (228881), Otherworld (508753), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) by (0.75x)"
+            "Increase the damage of Jecht Rush (228881), Jecht Rush+1 (708015), Jecht Rush+2 (708016) and Otherworld (508753) by (0.75x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 6, [3,  40,  0,  0,  0,  0,  20,  0]], [0, 3, 73, [[207040,  228880,  228882,  228883,  228884,  228885], 0, 0, 150]], [0, 3, 73, [[228881,  508753,  708015,  708016], 0, 0, 75]]],
         "requirements": null,
@@ -42286,7 +42286,7 @@
         "unit_restriction": null
     },
     "231757": {
-        "name": "Mマンイーター",
+        "name": "M Man-Eater",
         "icon": "ability_79.png",
         "compendium_id": 6344,
         "rarity": 6,
@@ -43192,7 +43192,7 @@
         "unit_restriction": null
     },
     "231910": {
-        "name": "夜会主宰者",
+        "name": "Leader of the Soiree",
         "icon": "ability_95.png",
         "compendium_id": 6451,
         "rarity": 8,
@@ -43210,7 +43210,7 @@
         "unit_restriction": null
     },
     "231911": {
-        "name": "フロンティアスピリット",
+        "name": "Frontier Spirit",
         "icon": "ability_95.png",
         "compendium_id": 6452,
         "rarity": 9,
@@ -43227,7 +43227,7 @@
         "unit_restriction": null
     },
     "231912": {
-        "name": "セービングエナジー",
+        "name": "Energy Conservation",
         "icon": "ability_77.png",
         "compendium_id": 6453,
         "rarity": 8,
@@ -43241,7 +43241,7 @@
         "unit_restriction": null
     },
     "231928": {
-        "name": "W煌技",
+        "name": "Double Shining Art",
         "icon": "ability_8.png",
         "compendium_id": 6462,
         "rarity": 8,
@@ -43249,13 +43249,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use グレイブコフィン (231923), ダークネスショット (231926), ワールドクラッシャー (231927), 天殴地壊 (231933), 天石・コンクエスト (231930), 滅石・タイラント (231931), 砕石・パーフェクトワン (231932), 覇石・ディクテーター (231929), 金剛防護・物理 (510280) and 金剛防護・魔法 (510281) twice in one turn"],
+        "effects": ["Enable unit to use Destruction Gem - Tyrant (231931), Diamond Guard - Magic (510281), Diamond Guard - Physical (510280), Disintegration Gem - Perfection (231932), Divinity Gem - Conquest (231930), Dominion Gem - Dictator (231929), Grave Danger (231923), Heaven-Earth Assault (231933), Shot of Darkness (231926) and World Crusher (231927) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 510282, -1, [231923,  231926,  231927,  231929,  231930,  231931,  231932,  231933,  510280,  510281], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "231935": {
-        "name": "マダムの館の主",
+        "name": "Head of Madam's Manor",
         "icon": "ability_19.png",
         "compendium_id": 6469,
         "rarity": 6,
@@ -43272,7 +43272,7 @@
         "unit_restriction": null
     },
     "231936": {
-        "name": "秘密の酒",
+        "name": "Secret Liquor",
         "icon": "ability_77.png",
         "compendium_id": 6470,
         "rarity": 7,
@@ -43290,7 +43290,7 @@
         "unit_restriction": null
     },
     "231937": {
-        "name": "浪漫の冒険家",
+        "name": "Romantic Adventurer",
         "icon": "ability_95.png",
         "compendium_id": 6471,
         "rarity": 8,
@@ -43307,7 +43307,7 @@
         "unit_restriction": null
     },
     "231938": {
-        "name": "秘宝獲得の決意",
+        "name": "Passion for Plundering",
         "icon": "ability_72.png",
         "compendium_id": 6472,
         "rarity": 8,
@@ -43324,7 +43324,7 @@
         "unit_restriction": null
     },
     "231939": {
-        "name": "未知への挑戦",
+        "name": "Challenging the Unknown",
         "icon": "ability_77.png",
         "compendium_id": 6473,
         "rarity": 7,
@@ -43342,7 +43342,7 @@
         "unit_restriction": null
     },
     "231940": {
-        "name": "ハーフダークエルフ",
+        "name": "Half Dark Elf",
         "icon": "ability_91.png",
         "compendium_id": 6474,
         "rarity": 7,
@@ -43359,7 +43359,7 @@
         "unit_restriction": null
     },
     "231941": {
-        "name": "常勝不敗",
+        "name": "Indefectible Invincibility",
         "icon": "ability_41.png",
         "compendium_id": 6475,
         "rarity": 9,
@@ -43373,7 +43373,7 @@
         "unit_restriction": null
     },
     "231942": {
-        "name": "生きる伝説",
+        "name": "Living Legend",
         "icon": "ability_72.png",
         "compendium_id": 6476,
         "rarity": 8,
@@ -43390,7 +43390,7 @@
         "unit_restriction": null
     },
     "231956": {
-        "name": "知性派の冒険家",
+        "name": "Intellectual Adventurer",
         "icon": "ability_77.png",
         "compendium_id": 6483,
         "rarity": 5,
@@ -43404,7 +43404,7 @@
         "unit_restriction": null
     },
     "231957": {
-        "name": "未知への探究心",
+        "name": "Searching for the Unknown",
         "icon": "ability_95.png",
         "compendium_id": 6484,
         "rarity": 7,
@@ -43421,7 +43421,7 @@
         "unit_restriction": null
     },
     "231958": {
-        "name": "天性の器用者",
+        "name": "Natural Skill",
         "icon": "ability_19.png",
         "compendium_id": 6485,
         "rarity": 6,
@@ -43438,7 +43438,7 @@
         "unit_restriction": null
     },
     "231959": {
-        "name": "エーデルのパートナー",
+        "name": "Edel's Partner",
         "icon": "ability_91.png",
         "compendium_id": 6486,
         "rarity": 6,
@@ -43455,7 +43455,7 @@
         "unit_restriction": null
     },
     "231967": {
-        "name": "遺跡盗掘者",
+        "name": "Illegal Grave Robber",
         "icon": "ability_77.png",
         "compendium_id": 6494,
         "rarity": 5,
@@ -43469,7 +43469,7 @@
         "unit_restriction": null
     },
     "231968": {
-        "name": "我流探索術",
+        "name": "Self-Trained Explorer",
         "icon": "ability_95.png",
         "compendium_id": 6495,
         "rarity": 6,
@@ -43486,7 +43486,7 @@
         "unit_restriction": null
     },
     "231969": {
-        "name": "陽気な野心家",
+        "name": "Cheer and Ambition",
         "icon": "ability_19.png",
         "compendium_id": 6496,
         "rarity": 6,
@@ -43562,7 +43562,7 @@
         "unit_restriction": null
     },
     "231974": {
-        "name": "古代遺跡の秘宝",
+        "name": "Ancient Ruins' Treasure",
         "icon": "ability_77.png",
         "compendium_id": 6501,
         "rarity": 8,
@@ -43572,7 +43572,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and HP by 50%",
-            "Increase the damage of グレイブコフィン (231923), ダークネスショット (231926), ワールドクラッシャー (231927), 天殴地壊 (231933) and 煌技・砕滅天覇 (231934) by (1.5x)"
+            "Increase the damage of Grave Danger (231923), Heaven-Earth Assault (231933), Shining Art - Descending Gem Strike (231934), Shot of Darkness (231926) and World Crusher (231927) by (1.5x)"
         ],
         "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  50,  0,  0]], [0, 3, 73, [[231923,  231926,  231927,  231933,  231934], 0, 0, 150]]],
         "requirements": null,
@@ -44374,7 +44374,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and HP by 20%",
-            "Use ㄹ (510390) at the start of a battle or when revived"
+            "Use Stubborn Ox (510390) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  20,  0,  0]], [0, 3, 56, [510390]]],
         "requirements": null,
@@ -44842,7 +44842,7 @@
         "unit_restriction": null
     },
     "232200": {
-        "name": "武神の戦印・改",
+        "name": "War Goddess' Insignia+",
         "icon": "ability_77.png",
         "compendium_id": 6662,
         "rarity": 8,
@@ -54879,7 +54879,7 @@
         "unit_restriction": null
     },
     "600670": {
-        "name": "憤怒の面",
+        "name": "Mask of Rage",
         "icon": "ability_68.png",
         "compendium_id": 30078,
         "rarity": 5,
@@ -54887,7 +54887,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to counter physical attacks with 憤怒の面 (600671) to caster (max 1 / turn)"],
+        "effects": ["50% chance to counter physical attacks with Mask of Rage (600671) to caster (max 1 / turn)"],
         "effects_raw": [[0, 3, 49, [50,  3,  600671,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -63326,7 +63326,7 @@
         "unit_restriction": null
     },
     "707905": {
-        "name": "MP+30%",
+        "name": "MP +30%",
         "icon": "ability_77.png",
         "compendium_id": 5,
         "rarity": 3,
@@ -63340,7 +63340,7 @@
         "unit_restriction": null
     },
     "707906": {
-        "name": "二刀の極意",
+        "name": "Dual Blade Mastery",
         "icon": "ability_72.png",
         "compendium_id": 5,
         "rarity": 9,
@@ -63354,7 +63354,7 @@
         "unit_restriction": null
     },
     "707907": {
-        "name": "双拳士",
+        "name": "Two-Fisted Fighter",
         "icon": "ability_72.png",
         "compendium_id": 3536,
         "rarity": 8,
@@ -63371,7 +63371,7 @@
         "unit_restriction": null
     },
     "707908": {
-        "name": "双拳士",
+        "name": "Two-Fisted Fighter",
         "icon": "ability_72.png",
         "compendium_id": 3536,
         "rarity": 8,
@@ -63390,7 +63390,7 @@
         "unit_restriction": null
     },
     "707911": {
-        "name": "気合",
+        "name": "Battle Cry",
         "icon": "ability_78.png",
         "compendium_id": 3534,
         "rarity": 7,
@@ -63408,7 +63408,7 @@
         "unit_restriction": null
     },
     "707912": {
-        "name": "気合",
+        "name": "Battle Cry",
         "icon": "ability_78.png",
         "compendium_id": 3534,
         "rarity": 7,
@@ -64006,7 +64006,7 @@
         "unit_restriction": null
     },
     "708017": {
-        "name": "スーパーインファイター",
+        "name": "Brutal Blitzer",
         "icon": "ability_95.png",
         "compendium_id": 4227,
         "rarity": 7,
@@ -64023,7 +64023,7 @@
         "unit_restriction": null
     },
     "708018": {
-        "name": "スーパーインファイター",
+        "name": "Brutal Blitzer",
         "icon": "ability_95.png",
         "compendium_id": 4227,
         "rarity": 7,
@@ -64040,7 +64040,7 @@
         "unit_restriction": null
     },
     "708019": {
-        "name": "スーパースター",
+        "name": "Superstar",
         "icon": "ability_79.png",
         "compendium_id": 4231,
         "rarity": 8,
@@ -64061,7 +64061,7 @@
         "unit_restriction": null
     },
     "708020": {
-        "name": "スーパースター",
+        "name": "Superstar",
         "icon": "ability_79.png",
         "compendium_id": 4231,
         "rarity": 8,
@@ -64572,7 +64572,7 @@
         "unit_restriction": null
     },
     "708123": {
-        "name": "炎刀の使い手",
+        "name": "Blazing Sword Wielder",
         "icon": "ability_53.png",
         "compendium_id": 3977,
         "rarity": 7,
@@ -64589,7 +64589,7 @@
         "unit_restriction": null
     },
     "708124": {
-        "name": "炎刀の使い手",
+        "name": "Blazing Sword Wielder",
         "icon": "ability_53.png",
         "compendium_id": 3977,
         "rarity": 7,
@@ -67780,9 +67780,9 @@
         "effects": [
             "Increase DEF and SPR by 40% and HP and MP by 30%",
             "Increase LB damage by 150%",
-            "Increase the damage of Jecht Rush (228881), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) by (2x)",
+            "Increase the damage of Jecht Rush skills  [(228881) / +1 (708015) / +2 (708016)] by (2x)",
             "Increase the damage of Hot Steel (228882), Jecht Bomber (228884), Jecht Shot (207040) and Otherworld (508753) by (15x)",
-            "Increase the damage of Jecht Shot Mark III (228885), Quick Block (228886), クイックブロック+1 (708011) and クイックブロック+2 (708012) by (20x)"
+            "Increase the damage of Jecht Shot Mark III (228885), Quick Block (228886), Quick Block+1 (708011) and Quick Block+2 (708012) by (20x)"
         ],
         "effects_raw": [[1, 3, 1, [0,  40,  0,  40,  30,  30,  0]], [0, 3, 68, [150]], [0, 3, 73, [[228881,  708015,  708016], 0, 0, 200]], [0, 3, 73, [[207040,  228884,  508753,  228882], 0, 0, 1500]], [0, 3, 73, [[228886,  708011,  708012,  228885], 0, 0, 2000]]],
         "requirements": null,
@@ -88628,7 +88628,7 @@
         "unit_restriction": null
     },
     "913893": {
-        "name": "速攻×2",
+        "name": "Double Quickstrike",
         "icon": "ability_8.png",
         "compendium_id": 4225,
         "rarity": 8,
@@ -88636,13 +88636,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects": ["Enable unit to use Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Rush+1 (708015), Jecht Rush+2 (708016), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Quick Block+1 (708011), Quick Block+2 (708012) and Triumphant Grasp (228883) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 913894, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  228888,  708011,  708012,  708015,  708016], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "913895": {
-        "name": "速攻×2",
+        "name": "Double Quickstrike",
         "icon": "ability_8.png",
         "compendium_id": 4225,
         "rarity": 8,
@@ -88650,7 +88650,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Fake Out (228887), Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Triumphant Grasp (228883), クイックブロック+1 (708011), クイックブロック+2 (708012), ジェクトキャンセル+1 (708013), ジェクトキャンセル+2 (708014), ジェクトラッシュ+1 (708015) and ジェクトラッシュ+2 (708016) twice in one turn"],
+        "effects": ["Enable unit to use Fake Out (228887), Fake Out+1 (708013), Fake Out+2 (708014), Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Rush+1 (708015), Jecht Rush+2 (708016), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Quick Block+1 (708011), Quick Block+2 (708012) and Triumphant Grasp (228883) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 913896, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  228887,  228888,  708011,  708012,  708013,  708014,  708015,  708016], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
