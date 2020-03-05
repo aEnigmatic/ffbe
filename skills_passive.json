@@ -18061,7 +18061,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": ["Increase MAG by 50%"],
-        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -52094,6 +52094,508 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "233330": {
+        "name": "Paragon Black Mage",
+        "icon": "ability_77.png",
+        "compendium_id": 7511,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 15%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  15,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233331": {
+        "name": "Refresh +10%",
+        "icon": "ability_91.png",
+        "compendium_id": 7512,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Recover MP (10%) per turn"],
+        "effects_raw": [[0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233332": {
+        "name": "Dance Master",
+        "icon": "ability_95.png",
+        "compendium_id": 7513,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase ATK by 30% when equipped with a Dagger"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [1,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233333": {
+        "name": "Bond with Lilisette",
+        "icon": "ability_19.png",
+        "compendium_id": 7514,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to all status effects by 100%",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233337": {
+        "name": "Store TP",
+        "icon": "ability_78.png",
+        "compendium_id": 7518,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the limit burst gauge fill rate by 25%"],
+        "effects_raw": [[0, 3, 31, [25]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233338": {
+        "name": "Resist Virus",
+        "icon": "ability_19.png",
+        "compendium_id": 7519,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Disease by 100%"],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233339": {
+        "name": "MP Recovered While Healing",
+        "icon": "ability_91.png",
+        "compendium_id": 7520,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Recover MP (3%) per turn"],
+        "effects_raw": [[0, 3, 32, [3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233348": {
+        "name": "A Lady's Triplecast",
+        "icon": "ability_8.png",
+        "compendium_id": 7529,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Cascade (233343), Divine Malison (233346), Gate of Tartarus (233345), Mana Wall+ (233344), Manawell (233350), Nightmare Scythe (233342), Play Rough (233349), Pride Higher Than the Gustaberg Range (800323), Retribution (233340), Salvation Scythe (233347), Subtle Sorcery (233351) and True Strike (233341) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 510820, -1, [233340,  233341,  233342,  233343,  233344,  233345,  233346,  233347,  233349,  233350,  233351,  800323], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233352": {
+        "name": "Clear Mind+",
+        "icon": "ability_91.png",
+        "compendium_id": 7533,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (7%) per turn",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233353": {
+        "name": "Annals of Truth - Staff",
+        "icon": "ability_76.png",
+        "compendium_id": 7534,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 50%",
+            "Increase equipment MAG by 100% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 31, [50]], [0, 3, 70, [100,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233354": {
+        "name": "Federation Demon",
+        "icon": "ability_98.png",
+        "compendium_id": 7535,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30%",
+            "Increase resistance to Dark by 50%",
+            "Increase LB damage by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  50]], [0, 3, 68, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233355": {
+        "name": "Very Well!",
+        "icon": "ability_78.png",
+        "compendium_id": 7536,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 50%",
+            "Increase the limit burst gauge fill rate by 50%",
+            "Increase LB damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  50,  0]], [0, 3, 31, [50]], [0, 3, 68, [30]]],
+        "requirements": [["EQUIP", 403049300], ["EQUIP", 408005700]],
+        "unit_restriction": null
+    },
+    "233356": {
+        "name": "Unrivaled Black Mage",
+        "icon": "ability_76.png",
+        "compendium_id": 7537,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "Increase equipment MAG by 65% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 70, [65,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233357": {
+        "name": "Conserve MP",
+        "icon": "ability_77.png",
+        "compendium_id": 7538,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Reduce MP consumption by 15%"],
+        "effects_raw": [[0, 3, 77, [15,  1,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233358": {
+        "name": "Chainspell",
+        "icon": "ability_26.png",
+        "compendium_id": 7575,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Triple-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  3,  510848,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233370": {
+        "name": "Striking Flourish",
+        "icon": "ability_8.png",
+        "compendium_id": 7549,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Dancing Edge (233366), Energy Drain (510841), Fluvial Edge (233364), Get distracted and you'll get hurt! (510832), Glacial Edge (233363), Haste Samba (233369), How about a waltz with me? (510831), I'll beat you down! (510833), Maiden of the Dusk (800325), Pyrrhic Kleos (233372), Quickstep (510842), Rousing Samba (233367), Sensual Dance (233362), This technique has no blind spots! (510830), Thorned Stance (233368), Trance (233371), Viper Bite (233360), Vivifying Waltz (233361) and Whirling Edge (233365) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510834, -1, [233360,  233361,  233362,  233363,  233364,  233365,  233366,  233367,  233368,  233369,  233371,  233372,  510830,  510831,  510832,  510833,  510841,  510842,  800325], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233373": {
+        "name": "Evasion Bonus",
+        "icon": "ability_75.png",
+        "compendium_id": 7552,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["30% chance of evading physical attacks"],
+        "effects_raw": [[0, 3, 22, [30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233374": {
+        "name": "Moonshade Butterfly",
+        "icon": "ability_19.png",
+        "compendium_id": 7553,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 30% and SPR by 20%",
+            "Increase resistance to Paralyze by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  30,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233375": {
+        "name": "Jambiya Wielder",
+        "icon": "ability_95.png",
+        "compendium_id": 7554,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 20%",
+            "Increase DEF, SPR and MP by 20% when equipped with a Dagger"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  20,  0]], [0, 3, 6, [1,  0,  20,  0,  20,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233376": {
+        "name": "Traveler from the Light Future",
+        "icon": "ability_78.png",
+        "compendium_id": 7555,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233377": {
+        "name": "Tactical Parry",
+        "icon": "ability_68.png",
+        "compendium_id": 7556,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["30% chance to counter physical attacks with Tactical Parry (510839) to caster (max 3 / turn)"],
+        "effects_raw": [[0, 3, 49, [30,  3,  510839,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233378": {
+        "name": "Dagger Skill: A+",
+        "icon": "ability_72.png",
+        "compendium_id": 7557,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase MP by 20% when equipped with a Dagger",
+            "Increase resistance to Wind by 20% when equipped with Dagger",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [1,  0,  0,  0,  0,  0,  20,  0]], [0, 3, 76, [1,  0,  0,  0,  0,  20,  0,  0,  0]], [0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233379": {
+        "name": "Resist Stop",
+        "icon": "ability_19.png",
+        "compendium_id": 7558,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase Stop resistance by 100% to caster"],
+        "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233380": {
+        "name": "Lest We Forget",
+        "icon": "ability_95.png",
+        "compendium_id": 7559,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, SPR, HP and MP by 20%",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  0,  20,  20,  20,  0]], [0, 3, 69, [1,  50,  0]]],
+        "requirements": [["EQUIP", 504233332], ["EQUIP", 409036800]],
+        "unit_restriction": null
+    },
+    "233381": {
+        "name": "Crit. Atk. Bonus",
+        "icon": "ability_77.png",
+        "compendium_id": 7560,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of Energy Drain (510841) and Quickstep (510842) by (9x)",
+            "Increase the damage of Dancing Edge (233366), This technique has no blind spots! (510830) and Viper Bite (233360) by (7x)",
+            "Increase the damage of Whirling Edge (233365) by (5x)"
+        ],
+        "effects_raw": [[0, 3, 73, [[510841,  510842], 0, 0, 900]], [0, 3, 73, [[233360,  233366,  510830], 0, 0, 700]], [0, 3, 73, [233365,  0,  0,  500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233382": {
+        "name": "Successor of the Dark Future",
+        "icon": "ability_19.png",
+        "compendium_id": 7561,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase Charm resistance by 100% to caster",
+            "Use Successor of the Dark Future (510840) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 56, [510840]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233397": {
+        "name": "The Mythril Musketeers No. 2",
+        "icon": "ability_77.png",
+        "compendium_id": 7569,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK, DEF and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233398": {
+        "name": "Darksteel Hurricane",
+        "icon": "ability_78.png",
+        "compendium_id": 7570,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the limit burst gauge fill rate by 100%"],
+        "effects_raw": [[0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233399": {
+        "name": "War Cloud",
+        "icon": "ability_77.png",
+        "compendium_id": 7571,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Increase ATK by 150% for 3 turns when HP drops below 51% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 4, [1,  150,  99999,  51,  0,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233400": {
+        "name": "Feelings for Klara",
+        "icon": "ability_77.png",
+        "compendium_id": 7572,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 30% and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233401": {
+        "name": "Survivor from the 13th Regiment",
+        "icon": "ability_41.png",
+        "compendium_id": 7573,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["80% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
+        "effects_raw": [[0, 3, 51, [30,  80,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233402": {
+        "name": "Great Sword Skill: A",
+        "icon": "ability_76.png",
+        "compendium_id": 7574,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "233761": {
         "name": "Allure Skills",
         "icon": "ability_68.png",
@@ -54508,6 +55010,20 @@
         "element_inflict": null,
         "effects": ["Gain Quadra-cast all magic"],
         "effects_raw": [[0, 3, 52, [0,  4,  510647,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "510848": {
+        "name": "Chainspell",
+        "icon": "ability_26.png",
+        "compendium_id": 7575,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Triple-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  3,  510848,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -67914,6 +68430,61 @@
             "10% chance of evading physical attacks"
         ],
         "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  30,  0,  0,  0,  0]], [0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "800324": {
+        "name": "Temper Hotter Than Mount Yuhtunga",
+        "icon": "ability_19.png",
+        "compendium_id": 325,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR and MP by 30%",
+            "Increase resistance to Confusion by 100%",
+            "Increase Charm resistance by 100% to caster",
+            "Increase the damage of Divine Malison (233346), Gate of Tartarus (233345), Nightmare Scythe (233342), Retribution (233340), Salvation Scythe (233347) and True Strike (233341) by (3x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  30,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 73, [[233340,  233341,  233342,  233345,  233346,  233347], 0, 0, 300]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "800326": {
+        "name": "In the Name of the Father",
+        "icon": "ability_77.png",
+        "compendium_id": 327,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, SPR and HP by 30%",
+            "Increase the damage of Energy Drain (510841) and Quickstep (510842) by (3x)",
+            "Increase the damage of Dancing Edge (233366), This technique has no blind spots! (510830) and Viper Bite (233360) by (4x)",
+            "Use In the Name of the Father (510852) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  30,  30,  0,  0]], [0, 3, 73, [[510841,  510842], 0, 0, 300]], [0, 3, 73, [[233360,  233366,  510830], 0, 0, 400]], [0, 3, 56, [510852]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "800338": {
+        "name": "Vanquisher of the Shadow Lord",
+        "icon": "ability_98.png",
+        "compendium_id": 339,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and DEF by 30%",
+            "Increase resistance to Dark by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  50]]],
         "requirements": null,
         "unit_restriction": null
     },
