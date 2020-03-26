@@ -2604,6 +2604,32 @@
                         "Inflige daño de agua a todos los enemigos"
                     ]
                 }
+            },
+            "11903": {
+                "effects": ["Physical* water damage (400x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  40000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[80]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Supreme Dragon Torrent",
+                        "尊龍奔流",
+                        "위대한 용의 격류",
+                        "Torrent du dragon suprême",
+                        "Höchster Drachenstrom",
+                        "Torrente del dragón supremo"
+                    ],
+                    "desc": [
+                        "Deal water damage to all enemies",
+                        "對全體敵人發動水屬性攻擊",
+                        "적 전체에 물속성 피해",
+                        "Dégâts d'eau sur tous les ennemis",
+                        "Fügt allen Gegnern Wasserschaden zu.",
+                        "Inflige daño de agua a todos los enemigos"
+                    ]
+                }
             }
         },
         "color": {
@@ -2640,6 +2666,21 @@
                 "exp_pattern": 43,
                 "stat_pattern": 2,
                 "cp_pattern": [0, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+            },
+            {
+                "stats": {
+                    "HP": [8000, 10400],
+                    "MP": [6400, 8600],
+                    "ATK": [6600, 9300],
+                    "DEF": [3800, 6900],
+                    "MAG": [4400, 7500],
+                    "SPR": [3200, 6300]
+                },
+                "element_resist": [0, 0, -50, 50, -25, 25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 100, 0, 0, 0],
+                "exp_pattern": 53,
+                "stat_pattern": 2,
+                "cp_pattern": [0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 9, 9, 9, 10, 9, 9, 9, 10, 9, 9, 9, 10, 9, 9, 9, 10, 9, 9, 10, 9, 9, 10, 9, 9, 10, 9, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
             }
         ]
     }

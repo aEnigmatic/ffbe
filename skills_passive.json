@@ -7976,7 +7976,7 @@
         "unit_restriction": null
     },
     "214370": {
-        "name": "Beam",
+        "name": "閃き",
         "icon": "ability_60.png",
         "compendium_id": 1496,
         "rarity": 8,
@@ -7984,7 +7984,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Use Beam (502280) at the start of a battle or when revived"],
+        "effects": ["Use 閃き (502280) at the start of a battle or when revived"],
         "effects_raw": [[0, 3, 56, [502280]]],
         "requirements": null,
         "unit_restriction": null
@@ -8032,7 +8032,7 @@
         "unit_restriction": null
     },
     "214420": {
-        "name": "Beam",
+        "name": "閃き",
         "icon": "ability_60.png",
         "compendium_id": 1501,
         "rarity": 8,
@@ -11802,7 +11802,7 @@
         "unit_restriction": null
     },
     "220810": {
-        "name": "Double Spellblade",
+        "name": "W魔法剣",
         "icon": "ability_8.png",
         "compendium_id": 2141,
         "rarity": 8,
@@ -29272,10 +29272,10 @@
             "Increase equipment MAG by 100% when armed with two weapons",
             "30% chance of evading physical attacks",
             "Increase LB damage by 50%",
-            "Increase the damage of Ice Splinters (229393) and Water Projection (229392) by (1x)",
-            "Increase the damage of Brilliance (229399), Dark Spirits (229400) and Dying Flora (229401) by (2x)"
+            "Increase the damage of Ice Splinters (229393), Ice Splinters+1 (913917), Ice Splinters+2 (913918), Water Projection (229392), Water Projection+1 (913915) and Water Projection+2 (913916) by (1x)",
+            "Increase the damage of Brilliance (229399), Brilliance+1 (708021), Brilliance+2 (708022), Dark Spirits (229400), Dark Spirits+1 (708023), Dark Spirits+2 (708024) and Dying Flora (229401) by (2x)"
         ],
-        "effects_raw": [[0, 3, 69, [3,  100,  0]], [0, 3, 22, [30]], [0, 3, 68, [50]], [0, 3, 73, [[229392,  229393], 0, 0, 100]], [0, 3, 73, [[229399,  229400,  229401], 0, 0, 200]]],
+        "effects_raw": [[0, 3, 69, [3,  100,  0]], [0, 3, 22, [30]], [0, 3, 68, [50]], [0, 3, 73, [[229392,  229393,  913915,  913916,  913917,  913918], 0, 0, 100]], [0, 3, 73, [[229399,  229400,  229401,  708021,  708022,  708023,  708024], 0, 0, 200]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -29368,8 +29368,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Baaad Breath (509010), Bad Breath (229418), Brutal Whip (229426), First-Aid Malboro (229413), Get Serious (229425), Ground Whip (229420), Malboro Support (229428), Malboro Tentacle (229414), Smash (229412), Toxic Whip (229427) and Wild Whip (229419) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509011, -1, [229412,  229413,  229414,  229418,  229419,  229420,  229425,  229426,  229427,  229428,  509010], 1, 0]]],
+        "effects": ["Enable unit to use Baaad Breath (509010), Baaad Breath+1 (913923), Baaad Breath+2 (510373), Bad Breath (229418), Bad Breath+1 (708097), Bad Breath+2 (708098), Brutal Whip (229426), Brutal Whip+1 (708095), Brutal Whip+2 (708096), First-Aid Malboro (229413), Get Serious (229425), Get Serious+1 (913924), Get Serious+2 (913925), Ground Whip (229420), Ground Whip+1 (708093), Ground Whip+2 (708094), Malboro Support (229428), Malboro Support+1 (913928), Malboro Support+2 (913929), Malboro Tentacle (229414), Smash (229412), Toxic Whip (229427), Toxic Whip+1 (708091), Toxic Whip+2 (708092) and Wild Whip (229419) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509011, -1, [229412,  229413,  229414,  229418,  229419,  229420,  229425,  229426,  229427,  229428,  509010,  708091,  708092,  708093,  708094,  708095,  708096,  708097,  708098,  913923,  510373,  913924,  913925,  913928,  913929], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -29423,9 +29423,9 @@
         "effects": [
             "Increase resistance to all status effects by 100%",
             "Increase the damage of Smash (229412) by (1.5x)",
-            "Increase the damage of Ground Whip (229420) and Wild Whip (229419) by (1x)"
+            "Increase the damage of Ground Whip (229420), Ground Whip+1 (708093), Ground Whip+2 (708094) and Wild Whip (229419) by (1x)"
         ],
-        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 3, 73, [229412,  0,  0,  150]], [0, 3, 73, [[229419,  229420], 0, 0, 100]]],
+        "effects_raw": [[0, 3, 2, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 3, 73, [229412,  0,  0,  150]], [0, 3, 73, [[229419,  229420,  708093,  708094], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -31512,8 +31512,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Blizzard Formation Strike (229831), Cleansing Blade (229827), Combustion Blade (229822), Exorcism Blade (229826), Fire Riser (229823), Great Slash Combo (229828), Heatwave Formation Strike (229830), Ice Riser (229824), Mist-Piercing Blade (229825), Noble Banishing Blade (229829) and Slayer's Flame Blade (229821) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509230, -1, [229821,  229822,  229823,  229824,  229825,  229826,  229827,  229828,  229829,  229830,  229831], 1, 0]]],
+        "effects": ["Enable unit to use Blizzard Formation Strike (229831), Blizzard Formation Strike+1 (913908), Blizzard Formation Strike+2 (913909), Cleansing Blade (229827), Combustion Blade (229822), Exorcism Blade (229826), Fire Riser (229823), Fire Riser+1 (707915), Fire Riser+2 (707916), Great Slash Combo (229828), Heatwave Formation Strike (229830), Heatwave Formation Strike+1 (913904), Heatwave Formation Strike+2 (913905), Ice Riser (229824), Ice Riser+1 (707917), Ice Riser+2 (707918), Mist-Piercing Blade (229825), Noble Banishing Blade (229829), Noble Banishing Blade+1 (707919), Noble Banishing Blade+2 (707920), Protector's Hidden Blade+2 (707914) and Slayer's Flame Blade (229821) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509230, -1, [229821,  229822,  229823,  229824,  229825,  229826,  229827,  229828,  229829,  229830,  229831,  707914,  707915,  707916,  707917,  707918,  707919,  707920,  913904,  913905,  913908,  913909], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -56998,7 +56998,7 @@
         "unit_restriction": null
     },
     "234090": {
-        "name": "フラメルの十字架",
+        "name": "The Flamel",
         "icon": "ability_9.png",
         "compendium_id": 8122,
         "rarity": 8,
@@ -57012,7 +57012,7 @@
         "unit_restriction": [338000105]
     },
     "234091": {
-        "name": "真理の知識",
+        "name": "Knowledge of the Truth",
         "icon": "ability_9.png",
         "compendium_id": 8123,
         "rarity": 9,
@@ -57029,7 +57029,7 @@
         "unit_restriction": null
     },
     "234092": {
-        "name": "賢者の石を求める者",
+        "name": "Philosopher's Stone Seeker",
         "icon": "ability_91.png",
         "compendium_id": 8124,
         "rarity": 8,
@@ -57039,14 +57039,14 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and DEF by 40%",
-            "Cast 賢者の石を求める者 (511570) at the start of your turn"
+            "Cast Philosopher's Stone Seeker (511570) at the start of your turn"
         ],
         "effects_raw": [[0, 3, 1, [40,  40,  0,  0,  0,  0,  0]], [0, 3, 66, [511570,  100,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234093": {
-        "name": "大の猫好き",
+        "name": "Big Cat Lover",
         "icon": "ability_91.png",
         "compendium_id": 8125,
         "rarity": 9,
@@ -57060,7 +57060,7 @@
         "unit_restriction": null
     },
     "234094": {
-        "name": "湿気厳禁",
+        "name": "Keep Dry",
         "icon": "ability_11.png",
         "compendium_id": 8126,
         "rarity": 8,
@@ -57077,7 +57077,7 @@
         "unit_restriction": [338000305]
     },
     "234095": {
-        "name": "イシュヴァールの英雄",
+        "name": "Ishval's Hero",
         "icon": "ability_11.png",
         "compendium_id": 8127,
         "rarity": 9,
@@ -57095,7 +57095,7 @@
         "unit_restriction": null
     },
     "234096": {
-        "name": "鷹の目",
+        "name": "The Hawk's Eye",
         "icon": "ability_95.png",
         "compendium_id": 8128,
         "rarity": 8,
@@ -57112,7 +57112,7 @@
         "unit_restriction": null
     },
     "234097": {
-        "name": "錬金術の基礎知識",
+        "name": "Fundamentals of Alchemy",
         "icon": "ability_91.png",
         "compendium_id": 8213,
         "rarity": 7,
@@ -57130,7 +57130,7 @@
         "unit_restriction": null
     },
     "234109": {
-        "name": "W錬金術",
+        "name": "Double Alchemy",
         "icon": "ability_8.png",
         "compendium_id": 8138,
         "rarity": 8,
@@ -57138,13 +57138,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use オートメイルブレード (234110), オートメイルブレード・土 (234114), オートメイルブレード・水 (234112), オートメイルブレード・火 (234111), オートメイルブレード・風 (234113), オートメイル格闘術 (234100), 手合わせ錬成・土 (234108), 手合わせ錬成・水 (234106), 手合わせ錬成・火 (234105), 手合わせ錬成・風 (234107), 格の違いってやつを見せてやる！！！ (234115), 武器錬成・土 (234104), 武器錬成・水 (234102), 武器錬成・火 (234101), 武器錬成・風 (234103) and 神の鉄槌 (234116) twice in one turn"],
+        "effects": ["Enable unit to use Auto-mail Blade (234110), Auto-mail Blade - Earth (234114), Auto-mail Blade - Fire (234111), Auto-mail Blade - Water (234112), Auto-mail Blade - Wind (234113), Auto-mail Combat (234100), No Comparison Between Us (234115), Runeless Alchemy - Earth (234108), Runeless Alchemy - Fire (234105), Runeless Alchemy - Water (234106), Runeless Alchemy - Wind (234107), The Hammer of God (234116), Weapon Alchemy - Earth (234104), Weapon Alchemy - Fire (234101), Weapon Alchemy - Water (234102) and Weapon Alchemy - Wind (234103) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 511571, -1, [234100,  234101,  234102,  234103,  234104,  234105,  234106,  234107,  234108,  234110,  234111,  234112,  234113,  234114,  234115,  234116], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234117": {
-        "name": "史上最年少の国家錬金術師",
+        "name": "History's Youngest State Alchemist",
         "icon": "ability_19.png",
         "compendium_id": 8146,
         "rarity": 6,
@@ -57161,7 +57161,7 @@
         "unit_restriction": null
     },
     "234118": {
-        "name": "アルフォンスとの絆",
+        "name": "Alphonse's Brother",
         "icon": "ability_91.png",
         "compendium_id": 8147,
         "rarity": 8,
@@ -57179,7 +57179,7 @@
         "unit_restriction": null
     },
     "234119": {
-        "name": "イズミの教え",
+        "name": "Izumi's Teachings",
         "icon": "ability_95.png",
         "compendium_id": 8148,
         "rarity": 7,
@@ -57197,7 +57197,7 @@
         "unit_restriction": null
     },
     "234120": {
-        "name": "一は全、全は一",
+        "name": "One is All, All is One",
         "icon": "ability_78.png",
         "compendium_id": 8149,
         "rarity": 7,
@@ -57216,7 +57216,7 @@
         "unit_restriction": null
     },
     "234121": {
-        "name": "弟を取り戻す覚悟",
+        "name": "Restoring Alphonse",
         "icon": "ability_72.png",
         "compendium_id": 8150,
         "rarity": 8,
@@ -57234,7 +57234,7 @@
         "unit_restriction": null
     },
     "234122": {
-        "name": "鋼の錬金術師",
+        "name": "Fullmetal Alchemist",
         "icon": "ability_79.png",
         "compendium_id": 8151,
         "rarity": 9,
@@ -57252,7 +57252,7 @@
         "unit_restriction": null
     },
     "234123": {
-        "name": "真理の扉を見た者",
+        "name": "Witness of the Gate",
         "icon": "ability_95.png",
         "compendium_id": 8152,
         "rarity": 8,
@@ -57263,16 +57263,16 @@
         "effects": [
             "Increase ATK and SPR by 40%",
             "Increase ATK by 20% when equipped with a Cloth",
-            "Increase the damage of 神の鉄槌 (511574) by (4.25x)",
-            "Increase the damage of オートメイルブレード (234110) by (3.25x)",
-            "Increase the damage of オートメイルブレード・ skills  [土 (234114) / 水 (234112) / 火 (234111) / 風 (234113)] by (2.5x)"
+            "Increase the damage of The Hammer of God (511574) by (4.25x)",
+            "Increase the damage of Auto-mail Blade (234110) by (3.25x)",
+            "Increase the damage of Auto-mail Blade skills  [Earth (234114) / Fire (234111) / Water (234112) / Wind (234113)] by (2.5x)"
         ],
         "effects_raw": [[0, 3, 1, [40,  0,  0,  40,  0,  0,  0]], [0, 3, 6, [50,  20,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [511574,  0,  0,  425]], [0, 3, 73, [234110,  0,  0,  325]], [0, 3, 73, [[234111,  234112,  234113,  234114], 0, 0, 250]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234139": {
-        "name": "兄と磨きし格闘術",
+        "name": "Refined Combat",
         "icon": "ability_91.png",
         "compendium_id": 8162,
         "rarity": 6,
@@ -57289,7 +57289,7 @@
         "unit_restriction": null
     },
     "234140": {
-        "name": "強靭な鎧",
+        "name": "Tough Exterior",
         "icon": "ability_95.png",
         "compendium_id": 8163,
         "rarity": 7,
@@ -57307,7 +57307,7 @@
         "unit_restriction": null
     },
     "234141": {
-        "name": "存在証明",
+        "name": "Proving One's Existence",
         "icon": "ability_78.png",
         "compendium_id": 8164,
         "rarity": 7,
@@ -57325,7 +57325,7 @@
         "unit_restriction": null
     },
     "234142": {
-        "name": "エドワードとの絆",
+        "name": "Edward's Brother",
         "icon": "ability_19.png",
         "compendium_id": 8165,
         "rarity": 7,
@@ -57343,7 +57343,7 @@
         "unit_restriction": null
     },
     "234143": {
-        "name": "兄より大きな体",
+        "name": "Bigger than Big Brother",
         "icon": "ability_83.png",
         "compendium_id": 8166,
         "rarity": 7,
@@ -57360,7 +57360,7 @@
         "unit_restriction": null
     },
     "234144": {
-        "name": "オウガーヘッド",
+        "name": "Ogre Head",
         "icon": "ability_9.png",
         "compendium_id": 8167,
         "rarity": 8,
@@ -57377,7 +57377,7 @@
         "unit_restriction": null
     },
     "234145": {
-        "name": "血で描かれた錬成陣",
+        "name": "Blood Rune",
         "icon": "ability_77.png",
         "compendium_id": 8168,
         "rarity": 9,
@@ -57396,7 +57396,7 @@
         "unit_restriction": null
     },
     "234146": {
-        "name": "禁忌の代償",
+        "name": "Taboo's Price",
         "icon": "ability_68.png",
         "compendium_id": 8169,
         "rarity": 8,
@@ -57406,15 +57406,15 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF by 60% and SPR and HP by 40%",
-            "40% chance to counter physical attacks with 禁忌の代償 (511579) to caster (max 1 / turn)",
-            "40% chance to counter magic attacks with 禁忌の代償 (511579) to caster (max 1 / turn)"
+            "40% chance to counter physical attacks with Taboo's Price (511579) to caster (max 1 / turn)",
+            "40% chance to counter magic attacks with Taboo's Price (511579) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 1, [0,  60,  0,  40,  40,  0,  0]], [0, 3, 49, [40,  3,  511579,  1]], [0, 3, 50, [40,  3,  511579,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234147": {
-        "name": "魂を定着せし鎧",
+        "name": "Armor with a Soul",
         "icon": "ability_41.png",
         "compendium_id": 8170,
         "rarity": 8,
@@ -57431,7 +57431,7 @@
         "unit_restriction": null
     },
     "234156": {
-        "name": "V焔錬成",
+        "name": "Penta Flame Alchemy",
         "icon": "ability_8.png",
         "compendium_id": 8177,
         "rarity": 8,
@@ -57439,13 +57439,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use 「死ぬな！　以上だ！」 (234154), 浄化の焔 (234160), 火鳥陣 (234155), 焔壁陣 (234153), 焼き尽くしてやろう (234161), 爆焔陣 (234151), 発火 (234150), 紅焔陣・人 (234157), 紅焔陣・悪魔 (234158), 紅焔陣・獣 (234159) and 解放の焔 (234162) 5 times in one turn (no duplicates)"],
+        "effects": ["Enable unit to use Blaze Transmutation Circle (234153), Combustion (234150), Crimson Alchemy - Bestial (234159), Crimson Alchemy - Demonic (234158), Crimson Alchemy - Human (234157), Don't die! Understood? (234154), Fire Transmutation Circle (234151), Phoenix Transmutation Circle (234155), Purifying Flames (234160), Spark of Liberation (234162) and Turn to Ash (234161) 5 times in one turn (no duplicates)"],
         "effects_raw": [[0, 3, 53, [5, 511581, -1, [234150,  234151,  234153,  234154,  234155,  234157,  234158,  234159,  234160,  234161,  234162], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234163": {
-        "name": "親友への想い",
+        "name": "Remembering Lost Friends",
         "icon": "ability_95.png",
         "compendium_id": 8184,
         "rarity": 7,
@@ -57455,14 +57455,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 30%",
-            "Increase MAG and SPR by 30% when equipped with a Cloth"
+            "Increase MAG and SPR by 30% when equipped with a Cloth",
+            "Increase MAG and SPR by 30% when equipped with a Robe"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [50,  0,  0,  30,  30,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [50,  0,  0,  30,  30,  0,  0,  0]], [0, 3, 6, [53,  0,  0,  30,  30,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234164": {
-        "name": "アメストリス国軍大佐",
+        "name": "Amestrisian State Military Colonel",
         "icon": "ability_76.png",
         "compendium_id": 8185,
         "rarity": 8,
@@ -57479,7 +57480,7 @@
         "unit_restriction": null
     },
     "234165": {
-        "name": "副官との絆",
+        "name": "Close Assistant",
         "icon": "ability_91.png",
         "compendium_id": 8186,
         "rarity": 6,
@@ -57496,7 +57497,7 @@
         "unit_restriction": null
     },
     "234166": {
-        "name": "大総統を目指す者",
+        "name": "Aspiring Fuhrer",
         "icon": "ability_9.png",
         "compendium_id": 8187,
         "rarity": 8,
@@ -57513,7 +57514,7 @@
         "unit_restriction": null
     },
     "234167": {
-        "name": "師から遺されたもの",
+        "name": "Master's Legacy",
         "icon": "ability_19.png",
         "compendium_id": 8188,
         "rarity": 6,
@@ -57530,7 +57531,7 @@
         "unit_restriction": null
     },
     "234168": {
-        "name": "焔の錬金術師",
+        "name": "Flame Alchemist",
         "icon": "ability_41.png",
         "compendium_id": 8189,
         "rarity": 9,
@@ -57548,7 +57549,7 @@
         "unit_restriction": null
     },
     "234169": {
-        "name": "部下からの信頼",
+        "name": "Trusted Superior",
         "icon": "ability_79.png",
         "compendium_id": 8190,
         "rarity": 8,
@@ -57566,7 +57567,7 @@
         "unit_restriction": null
     },
     "234177": {
-        "name": "ブラックハヤテ号への愛情",
+        "name": "Love for Black Hayate",
         "icon": "ability_91.png",
         "compendium_id": 8198,
         "rarity": 5,
@@ -57580,7 +57581,7 @@
         "unit_restriction": null
     },
     "234178": {
-        "name": "アメストリス国軍中尉",
+        "name": "Amestrisian State Military 1st Lieutenant",
         "icon": "ability_77.png",
         "compendium_id": 8199,
         "rarity": 6,
@@ -57594,7 +57595,7 @@
         "unit_restriction": null
     },
     "234179": {
-        "name": "ロイの女房役",
+        "name": "Roy's Adjutant",
         "icon": "ability_19.png",
         "compendium_id": 8200,
         "rarity": 7,
@@ -57611,7 +57612,7 @@
         "unit_restriction": null
     },
     "234180": {
-        "name": "引鉄を引く意志",
+        "name": "Pull the Trigger Without Doubt",
         "icon": "ability_95.png",
         "compendium_id": 8201,
         "rarity": 8,
@@ -57628,7 +57629,7 @@
         "unit_restriction": null
     },
     "234181": {
-        "name": "背中に刻まれた錬成陣",
+        "name": "Tattooed Transmutation Circle",
         "icon": "ability_77.png",
         "compendium_id": 8202,
         "rarity": 7,
@@ -57642,7 +57643,7 @@
         "unit_restriction": null
     },
     "234182": {
-        "name": "二挺拳銃の使い手",
+        "name": "Dual Gunner",
         "icon": "ability_72.png",
         "compendium_id": 8203,
         "rarity": 8,
@@ -57659,7 +57660,7 @@
         "unit_restriction": null
     },
     "234195": {
-        "name": "祖母ゆずりの腕前",
+        "name": "Grandmother's Coaching",
         "icon": "ability_77.png",
         "compendium_id": 8209,
         "rarity": 5,
@@ -57673,7 +57674,7 @@
         "unit_restriction": null
     },
     "234196": {
-        "name": "機械鎧整備士",
+        "name": "Auto-mail Mechanic",
         "icon": "ability_19.png",
         "compendium_id": 8210,
         "rarity": 6,
@@ -57690,7 +57691,7 @@
         "unit_restriction": null
     },
     "234197": {
-        "name": "帰りを待つ人",
+        "name": "Awaiting Their Return",
         "icon": "ability_11.png",
         "compendium_id": 8211,
         "rarity": 6,
@@ -57707,7 +57708,7 @@
         "unit_restriction": null
     },
     "234198": {
-        "name": "人を生かす手",
+        "name": "Hands Meant to Give Life",
         "icon": "ability_77.png",
         "compendium_id": 8212,
         "rarity": 5,
@@ -63249,7 +63250,7 @@
         "unit_restriction": null
     },
     "600663": {
-        "name": "黒龍の召喚強化",
+        "name": "Shadow Dragon Evocation",
         "icon": "ability_77.png",
         "compendium_id": 30075,
         "rarity": 4,
@@ -63263,7 +63264,7 @@
         "unit_restriction": null
     },
     "600664": {
-        "name": "弓の技法",
+        "name": "Bow Technique",
         "icon": "ability_95.png",
         "compendium_id": 30076,
         "rarity": 4,
@@ -71824,7 +71825,7 @@
         "unit_restriction": null
     },
     "707913": {
-        "name": "精神+30%",
+        "name": "SPR +30%",
         "icon": "ability_77.png",
         "compendium_id": 14,
         "rarity": 3,
@@ -71838,7 +71839,7 @@
         "unit_restriction": null
     },
     "707921": {
-        "name": "熱誠の剣士",
+        "name": "Earnest Swordsman",
         "icon": "ability_76.png",
         "compendium_id": 4915,
         "rarity": 8,
@@ -71857,7 +71858,7 @@
         "unit_restriction": null
     },
     "707922": {
-        "name": "熱誠の剣士",
+        "name": "Earnest Swordsman",
         "icon": "ability_76.png",
         "compendium_id": 4915,
         "rarity": 8,
@@ -71869,9 +71870,9 @@
             "Increase equipment ATK by 150% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "Increase resistance to Fire by 50%",
-            "Increase SPR by 30%"
+            "Increase ATK, DEF, SPR and HP by 30%"
         ],
-        "effects_raw": [[0, 3, 13, [150,  25,  2]], [0, 3, 3, [50,  0,  0,  0,  0,  0,  0,  0]], [0, 3, 1, [0,  0,  0,  30,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 13, [150,  25,  2]], [0, 3, 3, [50,  0,  0,  0,  0,  0,  0,  0]], [0, 3, 1, [30,  30,  0,  30,  30,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -72480,26 +72481,7 @@
         "unit_restriction": null
     },
     "708029": {
-        "name": "死角突き",
-        "icon": "ability_79.png",
-        "compendium_id": 4594,
-        "rarity": 7,
-        "unique": false,
-        "effect_type": "Default",
-        "attack_type": "None",
-        "element_inflict": null,
-        "effects": [
-            "Increase physical and magic damage against Demons by 50%",
-            "Increase physical and magic damage against Humans by 50%",
-            "Increase physical and magic damage against Reapers by 50%",
-            "Increase MAG by 30%"
-        ],
-        "effects_raw": [[0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 11, [12,  50,  50]], [0, 3, 1, [0,  0,  30,  0,  0,  0,  0]]],
-        "requirements": null,
-        "unit_restriction": null
-    },
-    "708030": {
-        "name": "死角突き",
+        "name": "Ambush",
         "icon": "ability_79.png",
         "compendium_id": 4594,
         "rarity": 7,
@@ -72517,8 +72499,28 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "708030": {
+        "name": "Ambush",
+        "icon": "ability_79.png",
+        "compendium_id": 4594,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical and magic damage against Demons by 100%",
+            "Increase physical and magic damage against Humans by 100%",
+            "Increase physical and magic damage against Reapers by 100%",
+            "Increase MAG by 50% and ATK by 30%",
+            "Increase resistance to Paralyze, Disease and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 11, [4,  100,  100]], [0, 3, 11, [5,  100,  100]], [0, 3, 11, [12,  100,  100]], [0, 3, 1, [30,  0,  50,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  0,  100,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "708031": {
-        "name": "魔力+30%",
+        "name": "MAG +30%",
         "icon": "ability_77.png",
         "compendium_id": 9,
         "rarity": 3,
@@ -72670,7 +72672,7 @@
         "unit_restriction": null
     },
     "708063": {
-        "name": "十一闘星＆十二闘星",
+        "name": "The 11th and 12th Strongest",
         "icon": "ability_77.png",
         "compendium_id": 4583,
         "rarity": 6,
@@ -72678,13 +72680,16 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase ATK and DEF by 35%"],
-        "effects_raw": [[0, 3, 1, [35,  35,  0,  0,  0,  0,  0]]],
+        "effects": [
+            "Increase ATK and DEF by 35%",
+            "Increase resistance to Blind and Silence by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [35,  35,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  100,  0,  100,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708064": {
-        "name": "十一闘星＆十二闘星",
+        "name": "The 11th and 12th Strongest",
         "icon": "ability_77.png",
         "compendium_id": 4583,
         "rarity": 6,
@@ -72692,8 +72697,11 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase ATK and DEF by 50%"],
-        "effects_raw": [[0, 3, 1, [50,  50,  0,  0,  0,  0,  0]]],
+        "effects": [
+            "Increase ATK and DEF by 50% and SPR and HP by 20%",
+            "Increase resistance to Blind, Silence, Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  50,  0,  20,  20,  0,  0]], [0, 3, 2, [0,  100,  0,  100,  100,  100,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -72797,7 +72805,7 @@
         "unit_restriction": null
     },
     "708099": {
-        "name": "モルボルライダー",
+        "name": "Malboro Rider",
         "icon": "ability_76.png",
         "compendium_id": 4610,
         "rarity": 7,
@@ -72809,15 +72817,15 @@
             "Increase ATK by 30%",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase physical and magic damage against Demons and Plants by 50%",
+            "Increase physical and magic damage against Demons and Plants by 50/50%",
             "Recover MP (7%) per turn"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 11, [[4,  11], 50, 50]], [0, 3, 32, [7]]],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 11, [[4,  11], [50,  50], [50,  50]]], [0, 3, 32, [7]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708100": {
-        "name": "モルボルライダー",
+        "name": "Malboro Rider",
         "icon": "ability_76.png",
         "compendium_id": 4610,
         "rarity": 7,
@@ -72826,14 +72834,14 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK and HP by 30%",
+            "Increase ATK by 60% and HP and MP by 30%",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase physical and magic damage against Demons and Plants by 100%",
-            "Increase ATK by 50% when equipped with a Whip",
+            "Increase physical and magic damage against Demons and Plants by 100/100%",
+            "Increase ATK by 30% when equipped with a Whip",
             "Recover MP (7%) per turn"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 11, [[4,  11], 100, 100]], [0, 3, 6, [12,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 32, [7]]],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  0,  30,  30,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 11, [[4,  11], [100,  100], [100,  100]]], [0, 3, 6, [12,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 32, [7]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -72860,7 +72868,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Baaad Breath (509010), Bad Breath (229418), Brutal Whip (229426), First-Aid Malboro (229413), Get Serious (229425), Ground Whip (229420), Malboro Support (229428), Malboro Tentacle (229414), Smash (229412), Toxic Whip (229427), Wild Whip (229419), くさい息+1 (708097), くさい息+2 (708098), くさーい息+2 (510373), グラウンドウィップ+1 (708093), グラウンドウィップ+2 (708094), ブルタルウィップ+1 (708095), ブルタルウィップ+2 (708096), 強毒性スクィーズウィップ+1 (708091) and 強毒性スクィーズウィップ+2 (708092) 3 times in one turn"],
+        "effects": ["Enable unit to use Baaad Breath (509010), Baaad Breath+2 (510373), Bad Breath (229418), Bad Breath+1 (708097), Bad Breath+2 (708098), Brutal Whip (229426), Brutal Whip+1 (708095), Brutal Whip+2 (708096), First-Aid Malboro (229413), Get Serious (229425), Ground Whip (229420), Ground Whip+1 (708093), Ground Whip+2 (708094), Malboro Support (229428), Malboro Tentacle (229414), Smash (229412), Toxic Whip (229427), Toxic Whip+1 (708091), Toxic Whip+2 (708092) and Wild Whip (229419) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 510374, -1, [229412,  229413,  229414,  229418,  229419,  229420,  229425,  229426,  229427,  229428,  509010,  510373,  708091,  708092,  708093,  708094,  708095,  708096,  708097,  708098], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
@@ -77525,7 +77533,7 @@
             "Increase DEF and HP by 30% and ATK and SPR by 20%",
             "Increase LB damage by 50%",
             "Increase equipment MAG by 50% when armed with two weapons",
-            "Increase the damage of Brilliance (229399), Dark Spirits (229400), 幽闇+1 (708023), 幽闇+2 (708024), 眩耀+1 (708021) and 眩耀+2 (708022) by (8x)",
+            "Increase the damage of Brilliance (229399), Brilliance+1 (708021), Brilliance+2 (708022), Dark Spirits (229400), Dark Spirits+1 (708023) and Dark Spirits+2 (708024) by (8x)",
             "Increase the damage of Projection - Dance of Darkness (229405), Projection - Dance of Destruction (509001), 投影・闇乱舞+1 (708027) and 投影・闇乱舞+2 (708028) by (12x)"
         ],
         "effects_raw": [[0, 3, 1, [20,  30,  0,  20,  30,  0,  0]], [0, 3, 68, [50]], [0, 3, 69, [3,  50,  0]], [0, 3, 73, [[229400,  229399,  708023,  708024,  708021,  708022], 0, 0, 800]], [0, 3, 73, [[229405,  509001,  708027,  708028], 0, 0, 1200]]],
@@ -77545,9 +77553,9 @@
             "Increase DEF by 20%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase the damage of Baaad Breath (509010), Bad Breath (229418), Ground Whip (229420), くさい息+1 (708097), くさい息+2 (708098), くさーい息+2 (510373), グラウンドウィップ+1 (708093) and グラウンドウィップ+2 (708094) by (20x)",
-            "Increase the damage of Brutal Whip (229426), ブルタルウィップ+1 (708095) and ブルタルウィップ+2 (708096) by (12x)",
-            "Increase the damage of Toxic Whip (509015), 強毒性スクィーズウィップ+1 (510371) and 強毒性スクィーズウィップ+2 (510372) by (5x)"
+            "Increase the damage of Baaad Breath (509010), Baaad Breath+2 (510373), Bad Breath (229418), Bad Breath+1 (708097), Bad Breath+2 (708098), Ground Whip (229420), Ground Whip+1 (708093) and Ground Whip+2 (708094) by (20x)",
+            "Increase the damage of Brutal Whip skills  [(229426) / +1 (708095) / +2 (708096)] by (12x)",
+            "Increase the damage of Toxic Whip skills  [(509015) / +1 (510371) / +2 (510372)] by (5x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 73, [[229418,  708097,  708098,  509010,  510373,  229420,  708093,  708094], 0, 0, 2000]], [0, 3, 73, [[708095,  708096,  229426], 0, 0, 1200]], [0, 3, 73, [[509015,  510371,  510372], 0, 0, 500]]],
         "requirements": null,
@@ -98730,6 +98738,261 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "913834": {
+        "name": "King Bradley's Eyepatch",
+        "icon": "ability_97.png",
+        "compendium_id": 87180,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["10% chance of evading physical attacks"],
+        "effects_raw": [[0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913835": {
+        "name": "Wrathful Soul",
+        "icon": "ability_77.png",
+        "compendium_id": 87181,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 30%"],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913839": {
+        "name": "Dual Sword Wielding",
+        "icon": "ability_72.png",
+        "compendium_id": 87185,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed weapons",
+            "Increase ATK by 20% when equipped with a Sword"
+        ],
+        "effects_raw": [[0, 3, 14, ["none"]], [0, 3, 6, [2,  20,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913840": {
+        "name": "Sharp Eyes",
+        "icon": "ability_60.png",
+        "compendium_id": 87186,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 20%",
+            "Increase resistance to Blind and Sleep by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  20,  0,  0]], [0, 3, 2, [0,  100,  100,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913844": {
+        "name": "Guerrilla Tactics",
+        "icon": "ability_77.png",
+        "compendium_id": 87190,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase DEF by 20% when equipped with a Cloth",
+            "Increase MP by 20% when equipped with a Cloth"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [50,  0,  20,  0,  0,  0,  0,  0]], [0, 3, 6, [50,  0,  0,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913848": {
+        "name": "Commanding Presence",
+        "icon": "ability_60.png",
+        "compendium_id": 87194,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 100%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 31, [100]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913855": {
+        "name": "Punishing Insubordination",
+        "icon": "global_ability_10004.png",
+        "compendium_id": 87201,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 20% when equipped with a Sword",
+            "30% chance to counter physical attacks with Punishing Insubordination (913885) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with Punishing Insubordination (913885) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  20,  0,  0,  0,  0,  0,  0]], [0, 3, 49, [30,  3,  913885,  1]], [0, 3, 50, [30,  3,  913885,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913860": {
+        "name": "Military Training",
+        "icon": "ability_79.png",
+        "compendium_id": 87206,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 30%",
+            "Increase physical damage against Humans by 50%",
+            "Error: Wrong effect passive10006?\nNot yet implemented."
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 11, [5,  50,  0]], [0, 3, 10006, [[95,  96,  97,  98], 100, 1, 70, 0, 3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913867": {
+        "name": "Extraordinary Reflexes",
+        "icon": "ability_77.png",
+        "compendium_id": 87213,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MP by 20%",
+            "15% chance of evading physical attacks",
+            "Increase resistance to Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  20,  0]], [0, 3, 22, [15]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913868": {
+        "name": "Agile Assault",
+        "icon": "ability_8.png",
+        "compendium_id": 87214,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use Charged Stab (913853, 913854), Conductive Stab (913858, 913859), Disabling Stab (913850, 913851), Disorienting Stab (913865, 913866), Diversionary Tactics (913846, 913847), Extrasensory Strike (913837, 913838), Furious Bloodbath (913877), Infiltration Tactics (913842, 913843), Merciless Barrage (913870), Obscuring Stab (913862, 913863), Philosopher's Stone Core (913879), Ultimate Eye (913874) and Uroboros of Wrath (913881) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 913869, -1, [913837,  913838,  913842,  913843,  913846,  913847,  913850,  913851,  913853,  913854,  913858,  913859,  913862,  913863,  913865,  913866,  913870,  913874,  913877,  913879,  913881], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913871": {
+        "name": "Inhuman Strength",
+        "icon": "ability_77.png",
+        "compendium_id": 87217,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30% and DEF and SPR by 20%",
+            "Increase Charm resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  20,  0,  20,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913872": {
+        "name": "Unbridled Rage",
+        "icon": "ability_72.png",
+        "compendium_id": 87218,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 100% when armed with two weapons",
+            "Allow unit to reach 6x chain modifier, when using two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 69, [1,  100]], [0, 3, 81, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913873": {
+        "name": "Superhuman Abilities",
+        "icon": "ability_77.png",
+        "compendium_id": 87219,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Use Superhuman Abilities (913884) at the start of a battle or when revived",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase chance of countering by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 56, [913884]], [0, 3, 69, [1,  50]], [0, 3, 20, [100]]],
+        "requirements": [["EQUIP", 1100000394], ["EQUIP", 1100000395]],
+        "unit_restriction": null
+    },
+    "913876": {
+        "name": "Inhuman Speed",
+        "icon": "ability_77.png",
+        "compendium_id": 87222,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 20%",
+            "25% chance of evading physical attacks",
+            "UNKNOWN EFFECT (67) when HP drops below 70% (max 1x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 22, [25]], [0, 3, 4, [67,  100,  1,  70,  0,  -1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913882": {
+        "name": "Human-Based Homunculus",
+        "icon": "ability_79.png",
+        "compendium_id": 87228,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)",
+            "Increase physical damage against Humans by 50%",
+            "UNKNOWN EFFECT (68) when HP drops below 50% (max 1x)",
+            "25% chance of evading magic attacks"
+        ],
+        "effects_raw": [[0, 3, 51, [1,  100,  0,  1,  0]], [0, 3, 11, [5,  50,  0]], [0, 3, 4, [68,  100,  1,  50,  0,  -1]], [0, 3, 54, [-1,  25]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "913886": {
         "name": "Love is Vital",
         "icon": "global_ability_10023.png",
@@ -98807,6 +99070,162 @@
         "effects": ["Enable unit to use Fake Out (228887), Fake Out+1 (708013), Fake Out+2 (708014), Hot Steel (228882), Jecht Beam (228880), Jecht Bomber (228884), Jecht Rush (228881), Jecht Rush+1 (708015), Jecht Rush+2 (708016), Jecht Shot (207040), Jecht Shot Mark III (228885), Otherworld (228888), Quick Block (228886), Quick Block+1 (708011), Quick Block+2 (708012) and Triumphant Grasp (228883) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 913896, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886,  228887,  228888,  708011,  708012,  708013,  708014,  708015,  708016], 1, 0]]],
         "requirements": null,
+        "unit_restriction": null
+    },
+    "913912": {
+        "name": "The Burden of a Hero",
+        "icon": "ability_79.png",
+        "compendium_id": 4917,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Use Triple Sword Combo (229832) at the start of a battle or when revived",
+            "Increase physical and magic damage against Demons by 75% when equipped with Great Sword",
+            "Increase ATK, DEF, SPR, HP and MP by 20%"
+        ],
+        "effects_raw": [[0, 3, 56, [229832]], [0, 3, 75, [3,  4,  75,  75]], [0, 3, 1, [20,  20,  0,  20,  20,  20,  0]]],
+        "requirements": [["EQUIP", 504229861], ["EQUIP", 303005700]],
+        "unit_restriction": null
+    },
+    "913913": {
+        "name": "The Burden of a Hero",
+        "icon": "ability_79.png",
+        "compendium_id": 4917,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Use Triple Sword Combo+2 (913914) at the start of a battle or when revived",
+            "Increase physical and magic damage against Demons by 75% when equipped with Great Sword",
+            "Increase ATK, DEF, SPR, HP and MP by 40%",
+            "Increase resistance to Blind, Disease and Petrify by 100%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 56, [913914]], [0, 3, 75, [3,  4,  75,  75]], [0, 3, 1, [40,  40,  0,  40,  40,  40,  0]], [0, 3, 2, [0,  100,  0,  0,  0,  0,  100,  100]], [0, 3, 32, [5]]],
+        "requirements": [["EQUIP", 504229861], ["EQUIP", 303005700]],
+        "unit_restriction": null
+    },
+    "913919": {
+        "name": "Iota Star",
+        "icon": "ability_72.png",
+        "compendium_id": 4600,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 80%",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%",
+            "Increase physical and magic damage against Reapers by 50%",
+            "Increase equipment ATK by 125% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [80,  0,  80,  0,  0,  0,  0]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 11, [12,  50,  50]], [0, 3, 69, [1,  125,  0]]],
+        "requirements": [["EQUIP", 403046300], ["EQUIP", 504229341]],
+        "unit_restriction": null
+    },
+    "913920": {
+        "name": "Iota Star",
+        "icon": "ability_72.png",
+        "compendium_id": 4600,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 120% and DEF, SPR and HP by 50%",
+            "Increase physical and magic damage against Demons by 50%",
+            "Increase physical and magic damage against Humans by 50%",
+            "Increase physical and magic damage against Reapers by 50%",
+            "Increase equipment ATK by 150% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [120,  50,  120,  50,  50,  0,  0]], [0, 3, 11, [4,  50,  50]], [0, 3, 11, [5,  50,  50]], [0, 3, 11, [12,  50,  50]], [0, 3, 69, [1,  150,  0]]],
+        "requirements": [["EQUIP", 403046300], ["EQUIP", 504229341]],
+        "unit_restriction": null
+    },
+    "913921": {
+        "name": "True Projection",
+        "icon": "ability_72.png",
+        "compendium_id": 4601,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment MAG by 125% when armed with two weapons",
+            "30% chance of evading physical attacks",
+            "Increase LB damage by 50%",
+            "Increase the damage of Ice Splinters (229393), Ice Splinters+1 (913917), Ice Splinters+2 (913918), Water Projection (229392), Water Projection+1 (913915) and Water Projection+2 (913916) by (2x)",
+            "Increase the damage of Brilliance (229399), Brilliance+1 (708021), Brilliance+2 (708022), Dark Spirits (229400), Dark Spirits+1 (708023), Dark Spirits+2 (708024) and Dying Flora (229401) by (5x)"
+        ],
+        "effects_raw": [[0, 3, 69, [3,  125,  0]], [0, 3, 22, [30]], [0, 3, 68, [50]], [0, 3, 73, [[229392,  229393,  913915,  913916,  913917,  913918], 0, 0, 200]], [0, 3, 73, [[229399,  229400,  229401,  708021,  708022,  708023,  708024], 0, 0, 500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913922": {
+        "name": "True Projection",
+        "icon": "ability_72.png",
+        "compendium_id": 4601,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment MAG by 150% when armed with two weapons",
+            "40% chance of evading physical attacks",
+            "Increase LB damage by 50%",
+            "Increase the damage of Ice Splinters (229393), Ice Splinters+1 (913917), Ice Splinters+2 (913918), Water Projection (229392), Water Projection+1 (913915) and Water Projection+2 (913916) by (5x)",
+            "Increase the damage of Brilliance (229399), Brilliance+1 (708021), Brilliance+2 (708022), Dark Spirits (229400), Dark Spirits+1 (708023), Dark Spirits+2 (708024) and Dying Flora (229401) by (10x)"
+        ],
+        "effects_raw": [[0, 3, 69, [3,  150,  0]], [0, 3, 22, [40]], [0, 3, 68, [50]], [0, 3, 73, [[229392,  229393,  913915,  913916,  913917,  913918], 0, 0, 500]], [0, 3, 73, [[229399,  229400,  229401,  708021,  708022,  708023,  708024], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913933": {
+        "name": "Gamma Star",
+        "icon": "ability_77.png",
+        "compendium_id": 4617,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% and DEF, SPR and HP by 20%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  20,  0,  20,  20,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [30,  80,  0,  1]]],
+        "requirements": [["EQUIP", 504229343], ["EQUIP", 314002000]],
+        "unit_restriction": null
+    },
+    "913934": {
+        "name": "Gamma Star",
+        "icon": "ability_77.png",
+        "compendium_id": 4617,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 80% and DEF, SPR and HP by 40%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 10% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [80,  40,  0,  40,  40,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [10,  100,  0,  1]]],
+        "requirements": [["EQUIP", 504229343], ["EQUIP", 314002000]],
         "unit_restriction": null
     },
     "950011": {

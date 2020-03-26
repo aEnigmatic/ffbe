@@ -3039,6 +3039,44 @@
             ]
         }
     },
+    "504100150": {
+        "name": "DEF +30%",
+        "compendium_id": 90129,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [100150],
+        "effects": ["Grants 'DEF +30%' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [
+                "DEF +30%",
+                "防禦+30%",
+                "방어력+30%",
+                "DEF +30%",
+                "ABW + 30 %",
+                "DEF +30%"
+            ],
+            "desc_short": [
+                "Boost DEF by 30%",
+                "提高30%防禦",
+                "방어력 30% 상승",
+                "Augmente la DEF de 30 %",
+                "Erhöht ABW um 30 %",
+                "Aumenta la DEF un 30%"
+            ],
+            "desc_long": [
+                "Boosts DEF by 30%.",
+                "提高30%防禦。",
+                "방어력이 30% 상승합니다.",
+                "Augmente la DEF de 30 %",
+                "Erhöht ABW um 30 %.",
+                "Aumenta la DEF un 30%"
+            ]
+        }
+    },
     "504100160": {
         "name": "SPR +10%",
         "compendium_id": 437,
@@ -23486,7 +23524,7 @@
                 "超越傳說之人",
                 "전설을 뛰어넘는 자",
                 "Légende surpassée",
-                "Atomstrahl",
+                "Die Legende übertreffen",
                 "Más allá de la leyenda"
             ],
             "desc_short": [
@@ -26684,88 +26722,193 @@
         }
     },
     "504234091": {
-        "name": "真理の知識",
+        "name": "Knowledge of the Truth",
         "compendium_id": 1072,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234091],
-        "effects": ["Grants '真理の知識' passive."],
-        "unique": false,
+        "effects": ["Grants 'Knowledge of the Truth' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_9.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Knowledge of the Truth",
+                "真理知識",
+                "진리의 지식",
+                "La Porte de la Vérité",
+                "Wissen der Wahrheit",
+                "Sabiduría de la Verdad"
+            ],
+            "desc_short": [
+                "Boost ATK and DEF by 50% and fire, water, wind, and earth resistance by 60% (Not stackable)",
+                "提高50%攻擊防禦、60%火水風土屬性耐性[無法重複裝備]",
+                "공격력과 방어력 50%, 불, 물, 바람, 땅속성 저항력 60% 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la DEF de 50 %, et la résistance au feu, à l'eau, au vent et à la terre de 60 % (non cumulable)",
+                "Erhöht ANG sowie ABW um 50% und erhöht Feuer-, Wasser-, Wind- sowie Erdresistenz um 60% (Nicht stapelbar).",
+                "Aumenta el ATQ y la DEF un 50%, y la resistencia a fuego, agua, viento y tierra un 60% (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF by 50% and fire, water, wind, and earth resistance by 60%. Not stackable.",
+                "提高50%攻擊防禦、60%火水風土屬性耐性。[無法重複裝備]",
+                "공격력과 방어력이 50%, 불, 물, 바람, 땅속성 저항력이 60% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la DEF de 50 %, et augmente la résistance au feu, à l'eau, au vent et à la terre de 60 %. Non cumulable",
+                "Erhöht ANG sowie ABW um 50% und erhöht Feuer-, Wasser-, Wind- sowie Erdresistenz um 60%. Nicht stapelbar.",
+                "Aumenta el ATQ y la DEF un 50%, y la resistencia a fuego, agua, viento y tierra un 60%. No acumulable."
+            ]
         }
     },
     "504234092": {
-        "name": "賢者の石を求める者",
+        "name": "Philosopher's Stone Seeker",
         "compendium_id": 1073,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234092],
-        "effects": ["Grants '賢者の石を求める者' passive."],
-        "unique": false,
+        "effects": ["Grants 'Philosopher's Stone Seeker' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_91.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Philosopher's Stone Seeker",
+                "尋求賢者之石之人",
+                "현자의 돌을 찾는 자",
+                "Chercheur de la Pierre Philosophale",
+                "Sucher des Steins der Weisen",
+                "Buscador de la piedra filosofal"
+            ],
+            "desc_short": [
+                "Boosts ATK and DEF by 40%, and restores HP and MP every turn. Not stackable.",
+                "提高40%攻擊防禦，並且每回合恢復HPMP。[無法重複裝備]",
+                "공격력과 방어력이 40% 상승하고, 매 턴마다 HP와 MP를 회복합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la DEF de 40 %, et restaure les PV et les PM à chaque tour. Non cumulable",
+                "Erhöht ANG sowie ABW um 40% und regeneriert jede Runde LP sowie MP. Nicht stapelbar.",
+                "Aumenta el ATQ y la DEF un 40%, y recupera VIT y PM cada turno. No acumulable."
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF by 40%, and restores HP and MP every turn. Not stackable.",
+                "提高40%攻擊防禦，並且每回合恢復HPMP。[無法重複裝備]",
+                "공격력과 방어력이 40% 상승하고, 매 턴마다 HP와 MP를 회복합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la DEF de 40 %, et restaure les PV et les PM à chaque tour. Non cumulable",
+                "Erhöht ANG sowie ABW um 40% und regeneriert jede Runde LP sowie MP. Nicht stapelbar.",
+                "Aumenta el ATQ y la DEF un 40%, y recupera VIT y PM cada turno. No acumulable."
+            ]
         }
     },
     "504234095": {
-        "name": "イシュヴァールの英雄",
+        "name": "Ishval's Hero",
         "compendium_id": 1074,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234095],
-        "effects": ["Grants 'イシュヴァールの英雄' passive."],
-        "unique": false,
+        "effects": ["Grants 'Ishval's Hero' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_11.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Ishval's Hero",
+                "伊修瓦爾的英雄",
+                "이슈발의 영웅",
+                "Héros d'Ishval",
+                "Held Ishavals",
+                "Héroe de Ishbal"
+            ],
+            "desc_short": [
+                "Boost MAG by 60% and fire resistance by 80%, and boost magic damage against demons (Not stackable)",
+                "提高60%魔力、80%火屬性耐性+魔法攻擊時提高對惡魔系魔物的傷害[無法重複裝備]",
+                "마력 60%, 불속성 저항력 80% 상승+마법 공격 시 악마형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 60 % et la résistance au feu de 80 %, et augmente les dégâts magiques contre les démons (Non cumulable)",
+                "Erhöht MAG um 60% und Feuerresistenz um 80% und erhöht magischen Schaden gegen Dämonen (Nicht stapelbar).",
+                "Aumenta la MAG un 60%, la resistencia al fuego un 80%, y el daño mágico contra demonios (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 60% and fire resistance by 80%, and boosts magic damage against demons. Not stackable.",
+                "提高60%魔力、80%火屬性耐性，及魔法攻擊時提高對惡魔系魔物的傷害。[無法重複裝備]",
+                "마력이 60%, 불속성 저항력이 80% 상승하고, 마법 공격 시 악마형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 60 % et la résistance au feu de 80 %, et augmente les dégâts magiques contre les démons. Non cumulable",
+                "Erhöht MAG um 60% und Feuerresistenz um 80% und erhöht magischen Schaden gegen Dämonen. Nicht stapelbar.",
+                "Aumenta la MAG un 60%, la resistencia al fuego un 80%, y el daño mágico contra demonios. No acumulable."
+            ]
         }
     },
     "504234096": {
-        "name": "鷹の目",
+        "name": "The Hawk's Eye",
         "compendium_id": 1075,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234096],
-        "effects": ["Grants '鷹の目' passive."],
+        "effects": ["Grants 'The Hawk's Eye' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "The Hawk's Eye",
+                "鷹眼",
+                "매의 눈",
+                "L'Œil du faucon",
+                "Auge des Falken",
+                "Ojo de Halcón"
+            ],
+            "desc_short": [
+                "Boost MP by 25%, and boost ATK by 40% when equipped with a gun",
+                "提高25%MP+裝備火槍時提高40%攻擊",
+                "MP 25% 상승+총 장착 시 공격력 40% 상승",
+                "Augmente les PM de 25 %, et augmente l'ATT de 40 % quand un pistolet est équipé",
+                "Erhöht MP um 25% und erhöht ANG um 40%, wenn mit einer Schusswaffe ausgerüstet.",
+                "Aumenta los PM un 25%, y aumenta el ATQ un 40% al llevar pistola"
+            ],
+            "desc_long": [
+                "Boosts MP by 25%, and boosts ATK by 40% when equipped with a gun.",
+                "提高25%MP，並且裝備火槍時提高40%攻擊。",
+                "MP가 25% 상승하고, 총 장착 시 공격력이 40% 상승합니다.",
+                "Augmente les PM de 25 %, et augmente l'ATT de 40 % quand un pistolet est équipé",
+                "Erhöht MP um 25% und erhöht ANG um 40%, wenn mit einer Schusswaffe ausgerüstet.",
+                "Aumenta los PM un 25%, y aumenta el ATQ un 40% al llevar pistola."
+            ]
         }
     },
     "504234097": {
-        "name": "錬金術の基礎知識",
+        "name": "Fundamentals of Alchemy",
         "compendium_id": 1076,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234097],
-        "effects": ["Grants '錬金術の基礎知識' passive."],
+        "effects": ["Grants 'Fundamentals of Alchemy' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_91.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Fundamentals of Alchemy",
+                "鍊金術基礎知識",
+                "연금술 기초 지식",
+                "Bases de l'alchimie",
+                "Grundwissen der Alchemie",
+                "Fundamentos de la alquimia"
+            ],
+            "desc_short": [
+                "Boost ATK and DEF by 30%, and restore HP and MP every turn",
+                "提高30%攻擊防禦+每回合恢復HPMP",
+                "공격력과 방어력 30% 상승+매 턴마다 HP와 MP 회복",
+                "Augmente l'ATT et la DEF de 30 %, et restaure les PV et les PM à chaque tour",
+                "Erhöht ANG sowie ABW um 30% und regeneriert jede Runde LP sowie MP.",
+                "Aumenta el ATQ y la DEF un 30%, y recupera VIT y PM cada turno"
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF by 30%, and restores HP and MP every turn.",
+                "提高30%攻擊防禦，並且每回合恢復HPMP。",
+                "공격력과 방어력이 30% 상승하고, 매 턴마다 HP와 MP가 상승합니다.",
+                "Augmente l'ATT et la DEF de 30 %, et restaure les PV et les PM à chaque tour",
+                "Erhöht ANG sowie ABW um 30% und regeneriert jede Runde LP sowie MP.",
+                "Aumenta el ATQ y la DEF un 30%, y recupera VIT y PM cada turno."
+            ]
         }
     },
     "504234201": {
