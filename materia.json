@@ -25143,105 +25143,231 @@
         }
     },
     "504232401": {
-        "name": "忍者の教え",
+        "name": "Long Reach",
         "compendium_id": 1014,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232401],
-        "effects": ["Grants '忍者の教え' passive."],
+        "effects": ["Grants 'Long Reach' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_97.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Long Reach",
+                "忍者的教誨",
+                "닌자의 가르침",
+                "Ninjutsu",
+                "Lehre der Ninja",
+                "Técnica ninja"
+            ],
+            "desc_short": [
+                "Chance of evading some physical attacks and nullify stone",
+                "一定機率閃避部分物理攻擊+石化無效",
+                "일정 확률로 일부 물리 공격 회피+석화 무효화",
+                "Confère une chance d'esquiver certaines attaques physiques et d'annuler pétrification",
+                "Chance, einigen physischen Angriffen auszuweichen und annulliert Stein.",
+                "Probabilidad de evadir algunos ataques físicos y anula piedra"
+            ],
+            "desc_long": [
+                "Adds chance of evading some physical attacks and nullifies stone.",
+                "一定機率閃避部分物理攻擊，且石化無效。",
+                "일정 확률로 일부 물리 공격 회피하고, 석화를 무효화합니다.",
+                "Confère une chance d'esquiver certaines attaques physiques et d'annuler pétrification",
+                "Fügt Chance hinzu, einigen physischen Angriffen ausweichen, zu können und annulliert Stein.",
+                "Probabilidad de evadir algunos ataques físicos y anula piedra."
+            ]
         }
     },
     "504232450": {
-        "name": "盗賊のあかし",
+        "name": "Thievery",
         "compendium_id": 1009,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232450],
-        "effects": ["Grants '盗賊のあかし' passive."],
-        "unique": false,
+        "effects": ["Grants 'Thievery' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Thievery",
+                "盜賊之證",
+                "도적의 증표",
+                "Coffrer",
+                "Räuberseele",
+                "Truco de caco"
+            ],
+            "desc_short": [
+                "Boost ATK by 40% when equipped with a short sword, and boost ATK by 30% when equipped with a sword",
+                "裝備短劍時提高40%攻擊+裝備劍時提高30%攻擊",
+                "단검 장착 시 공격력 40% 상승+검 장착 시 공격력 30% 상승",
+                "Augmente l'ATT de 40 % quand une épée courte est équipée, et augmente l'ATT de 30 % quand une épée est équipée",
+                "Erhöht ANG um 40%, wenn mit einem Kurzschwert ausgerüstet, und erhöht ANG um 30%, wenn mit einem Schwert ausgerüstet.",
+                "Aumenta el ATQ un 40% al llevar espada corta, y un 30% al llevar espada"
+            ],
+            "desc_long": [
+                "Boosts ATK by 40% when equipped with a short sword, and boosts ATK by 30% when equipped with a sword. Not stackable.",
+                "裝備短劍時提高40%攻擊，裝備劍時提高30%攻擊。[無法重複裝備]",
+                "단검 장착 시 공격력이 40% 상승하고, 검 장착 시 공격력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 40 % quand une épée courte est équipée, et augmente l'ATT de 30 % quand une épée est équipée. Non cumulable.",
+                "Erhöht ANG um 40%, wenn mit einem Kurzschwert ausgerüstet, und erhöht ANG um 30%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ un 40% al llevar espada corta, y un 30% al llevar espada. No acumulable."
+            ]
         }
     },
     "504232452": {
-        "name": "竜技の極意",
+        "name": "Master Dragon Knight",
         "compendium_id": 1010,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232452],
-        "effects": ["Grants '竜技の極意' passive."],
-        "unique": false,
+        "effects": ["Grants 'Master Dragon Knight' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_91.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Master Dragon Knight",
+                "龍技奧義",
+                "용기사의 극의",
+                "Maître chevalier dragon",
+                "Mysterium der Drachentechnik",
+                "Guerrera dragontina experta"
+            ],
+            "desc_short": [
+                "Boost ATK by 30%, HP and MP by 20%, and damage for jump attacks, and fill LB gauge every turn",
+                "提高30%攻擊、20%HPMP+提高跳躍系能力的傷害+每回合增加極限技槽",
+                "공격력 30%, HP와 MP 20% 상승+점프 계열 어빌리티 피해량 상승+매 턴마다 LB 게이지 증가",
+                "Augmente l'ATT de 30 %, les PV et les PM de 20 %, augmente les dégâts des attaques sautées, et remplit la jauge de limite à chaque tour",
+                "Erhöht ANG um 30%, LP sowie MP um 20%, erhöht Schaden von Sprungangriffen und erhöht jede Runde Limitmeter.",
+                "Aumenta el ATQ un 30%, la VIT y los PM un 20% y el daño de los ataques de salto, y rellena la barra de EL cada turno"
+            ],
+            "desc_long": [
+                "Boosts ATK by 30%, HP and MP by 20%, and damage for jump attacks, and fills LB gauge every turn. Not stackable.",
+                "提高30%攻擊、20%HPMP，提高跳躍系能力的傷害，並且每回合增加極限技槽。[無法重複裝備]",
+                "공격력이 30%, HP와 MP가 20% 상승하고, 점프 계열 어빌리티 피해량이 상승하며, 매 턴마다 LB 게이지가 증가합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 30 %, les PV et les PM de 20 % et les dégâts des attaques sautées, et remplit la jauge de limite à chaque tour. Non cumulable.",
+                "Erhöht ANG um 30%, LP sowie MP um 20%, erhöht Schaden von Sprungangriffen und erhöht jede Runde Limitmeter. Nicht stapelbar.",
+                "Aumenta el ATQ un 30%, la VIT y los PM un 20% y el daño de los ataques de salto, y rellena la barra de EL cada turno. No acumulable."
+            ]
         }
     },
     "504232454": {
-        "name": "黒魔道士の潜在能力",
+        "name": "Black Mage's Potential",
         "compendium_id": 1011,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232454],
-        "effects": ["Grants '黒魔道士の潜在能力' passive."],
-        "unique": false,
+        "effects": ["Grants 'Black Mage's Potential' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Black Mage's Potential",
+                "黑魔道士的潛在能力",
+                "흑마도사의 잠재 능력",
+                "Potentiel du mage noir",
+                "Potenzial des Schwarzmagiers",
+                "Potencial de mago negro"
+            ],
+            "desc_short": [
+                "Boost MAG by 50% when equipped with a rod and boost fire, ice, and lightning resistance by 20% when equipped with a hat",
+                "裝備魔棒時提高50%魔力+裝備帽子時提高20%火冰雷屬性耐性",
+                "홀장 장착 시 마력 50% 상승+모자 장착 시 불, 얼음, 번개속성 저항력 20% 상승",
+                "Augmente la MAGIE de 50 % quand un sceptre est équipé, et augmente la résistance au feu, à la glace et à la foudre de 20 % quand un chapeau est équipé",
+                "Erhöht MAG um 50%, wenn mit einer Rute ausgerüstet und erhöht Feuer-, Eis- und Blitzresistenz um 20%, wenn mt einem Hut ausgerüstet.",
+                "Aumenta la MAG un 50% al llevar vara y aumenta la resistencia a fuego, hielo y rayo un 20% al llevar sombrero"
+            ],
+            "desc_long": [
+                "Boosts MAG by 50% when equipped with a rod and boosts fire, ice, and lightning resistance by 20% when equipped with a hat. Not stackable.",
+                "裝備魔棒時提高50%魔力，並且裝備帽子時提高20%火冰雷屬性耐性。[無法重複裝備]",
+                "홀장 장착 시 마력이 50% 상승하고, 모자 장착 시 불, 얼음, 번개속성 저항력이 20% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 50 % quand un sceptre est équipé, et augmente la résistance au feu, à la glace et à la foudre de 20 % quand un chapeau est équipé. Non cumulable.",
+                "Erhöht MAG um 50%, wenn mit einer Rute ausgerüstet und erhöht Feuer-, Eis- und Blitzresistenz um 20%, wenn mt einem Hut ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG un 50% al llevar vara y aumenta la resistencia a fuego, hielo y rayo un 20% al llevar sombrero. No acumulable."
+            ]
         }
     },
     "504232456": {
-        "name": "ブルメシア最強の竜騎士",
+        "name": "Burmecia's Strongest Dragon Knight",
         "compendium_id": 1012,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232456],
-        "effects": ["Grants 'ブルメシア最強の竜騎士' passive."],
+        "effects": ["Grants 'Burmecia's Strongest Dragon Knight' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Burmecia's Strongest Dragon Knight",
+                "布爾梅西亞最強的龍騎士",
+                "블루메시아 최강의 용기사",
+                "Grand chevalier dragon de Bloumécia",
+                "Burmecias stärkster Drachenritter",
+                "El guerrero dragontino más fuerte de Burmecia"
+            ],
+            "desc_short": [
+                "Boost MP by 30% and ATK by 40% when equipped with a spear",
+                "裝備長槍時提高30%MP、40%攻擊",
+                "창 장착 시 MP 30%, 공격력 40% 상승",
+                "Augmente les PM de 30 % et l'ATT de 40 % quand une lance est équipée",
+                "Erhöht MP um 30% und ANG um 40%, wenn mit einem Speer ausgerüstet.",
+                "Aumenta los PM un 30% y el ATQ un 40% al llevar lanza"
+            ],
+            "desc_long": [
+                "Boosts MP by 30% and ATK by 40% when equipped with a spear.",
+                "裝備長槍時提高30%MP、40%攻擊。",
+                "창 장착 시 MP가 30%, 공격력이 40% 상승합니다.",
+                "Augmente les PM de 30 % et l'ATT de 40 % quand une lance est équipée",
+                "Erhöht MP um 30% und ANG um 40%, wenn mit einem Speer ausgerüstet.",
+                "Aumenta los PM un 30% y el ATQ un 40% al llevar lanza."
+            ]
         }
     },
     "504232457": {
-        "name": "月なきみそらの道化師たち",
+        "name": "Court Jesters",
         "compendium_id": 1013,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [232457],
-        "effects": ["Grants '月なきみそらの道化師たち' passive."],
+        "effects": ["Grants 'Court Jesters' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Court Jesters",
+                "宮廷小丑",
+                "달이 뜨지 않은 하늘의 어릿광대들",
+                "Bouffons de la reine",
+                "Hofnarren",
+                "Bufones de la luna"
+            ],
+            "desc_short": [
+                "Boost MAG by 40% and nullify poison",
+                "提高40%魔力+中毒無效",
+                "마력 40% 상승+독 무효화",
+                "Augmente la MAGIE de 40 % et annule poison",
+                "Erhöht MAG um 40% und annulliert Gift.",
+                "Aumenta la MAG un 40% y anula veneno"
+            ],
+            "desc_long": [
+                "Boosts MAG by 40% and nullify poison.",
+                "提高40%魔力，且中毒無效。",
+                "마력이 40% 상승하고, 독을 무효화합니다.",
+                "Augmente la MAGIE de 40 % et annule poison",
+                "Erhöht MAG um 40% und annulliert Gift.",
+                "Aumenta la MAG un 40% y anula veneno."
+            ]
         }
     },
     "504232511": {
