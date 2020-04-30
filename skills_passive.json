@@ -21019,8 +21019,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Bolt Slash (227732), Code Break (227750), Glowing Pierce (227747), Moment Slide (227735), Radiant White Wings (227752) and Vertical Raid (227738) 3 times in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [3, 508112, -1, [227732,  227735,  227738,  227747,  227750,  227752], 1, 1]]],
+        "effects": ["Enable unit to use Bolt Slash (227732), Code Break (227750), Glowing Pierce (227747), Glowing Pierce+1 (708127), Glowing Pierce+2 (708128), Moment Slide (227735), Radiant White Wings (227752), Radiant White Wings+1 (708129), Radiant White Wings+2 (708130) and Vertical Raid (227738) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 508112, -1, [227732,  227735,  227738,  227747,  227750,  227752,  708127,  708128,  708129,  708130], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -21033,8 +21033,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Ethereal Shot (227751), Infinity Blast (227743), Radiant White Wings (227752), Spread Shot (227734) and Tri-Blast (227737) 3 times in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [3, 508113, -1, [227734,  227737,  227743,  227751,  227752], 1, 1]]],
+        "effects": ["Enable unit to use Ethereal Shot (227751), Infinity Blast (227743), Radiant White Wings (227752), Radiant White Wings+1 (708129), Radiant White Wings+2 (708130), Spread Shot (227734) and Tri-Blast (227737) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 508113, -1, [227734,  227737,  227743,  227751,  227752,  708129,  708130], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -21133,8 +21133,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Aerial Burst (227764), Crimson Strike (227770), Critical Flare (227763), Heavenly Punishment (227775), Queen Press (227771), Thunder Strike (227769), Thunder Sword (227765) and Victory Sword (227774) 3 times in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [3, 508121, -1, [227763,  227764,  227765,  227769,  227770,  227771,  227774,  227775], 1, 1]]],
+        "effects": ["Enable unit to use Aerial Burst (227764), Aerial Burst+1 (708149), Aerial Burst+2 (708150), Crimson Strike (227770), Critical Flare (227763), Heavenly Punishment (227775), Heavenly Punishment+1 (708147), Heavenly Punishment+2 (708148), Queen Press (227771), Thunder Strike (227769), Thunder Sword (227765), Victory Sword (227774), Victory Sword+1 (708145) and Victory Sword+2 (708146) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 508121, -1, [227763,  227764,  227765,  227769,  227770,  227771,  227774,  227775,  708145,  708146,  708147,  708148,  708149,  708150], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -21196,9 +21196,9 @@
             "Increase MAG by 30%",
             "Increase chance of countering by 50%",
             "Increase LB damage by 50%",
-            "Increase the damage of Thunder Sword (227765) and Victory Sword (227774) by (1.5x)"
+            "Increase the damage of Thunder Sword (227765), Victory Sword (227774), Victory Sword+1 (708145) and Victory Sword+2 (708146) by (1.5x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 20, [50]], [0, 3, 68, [50]], [0, 3, 73, [[227765,  227774], 0, 0, 150]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 20, [50]], [0, 3, 68, [50]], [0, 3, 73, [[227765,  227774,  708145,  708146], 0, 0, 150]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -21263,8 +21263,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Blaze Blade (227789), Dead End (227794), Dragon Slayer (227786), High Wind (227783), Spinning Back-Knuckle (227781), Storm Edge (227792), Wild Break (227788) and Wrenching Swing (227782) 3 times in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [3, 508131, -1, [227781,  227782,  227783,  227786,  227788,  227789,  227792,  227794], 1, 1]]],
+        "effects": ["Enable unit to use Blaze Blade (227789), Blaze Blade+1 (708157), Blaze Blade+2 (708158), Dead End (227794), Dead End+1 (708159), Dead End+2 (708160), Dragon Slayer (227786), High Wind (227783), Spinning Back-Knuckle (227781), Storm Edge (227792), Storm Edge+1 (708161), Storm Edge+2 (708162), Wild Break (227788) and Wrenching Swing (227782) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 508131, -1, [227781,  227782,  227783,  227786,  227788,  227789,  227792,  227794,  708157,  708158,  708159,  708160,  708161,  708162], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -47276,7 +47276,7 @@
         "unit_restriction": null
     },
     "232600": {
-        "name": "人の道を外れた者",
+        "name": "Disconnected from Humanity",
         "icon": "ability_98.png",
         "compendium_id": 6959,
         "rarity": 8,
@@ -47290,7 +47290,7 @@
         "unit_restriction": [330000605]
     },
     "232601": {
-        "name": "禁じられた術書",
+        "name": "Forbidden Arts Volume",
         "icon": "ability_76.png",
         "compendium_id": 6960,
         "rarity": 9,
@@ -47308,7 +47308,7 @@
         "unit_restriction": null
     },
     "232602": {
-        "name": "英知と神界の力",
+        "name": "Wisdom and Divine Power",
         "icon": "ability_77.png",
         "compendium_id": 6961,
         "rarity": 8,
@@ -47322,7 +47322,7 @@
         "unit_restriction": [330000805]
     },
     "232603": {
-        "name": "天才魔術師の知識",
+        "name": "Gifted Sorceress's Knowledge",
         "icon": "ability_9.png",
         "compendium_id": 6962,
         "rarity": 9,
@@ -47339,7 +47339,7 @@
         "unit_restriction": null
     },
     "232604": {
-        "name": "ドラゴンウィーク",
+        "name": "Dragon's Wake",
         "icon": "ability_79.png",
         "compendium_id": 6963,
         "rarity": 7,
@@ -47353,7 +47353,7 @@
         "unit_restriction": null
     },
     "232605": {
-        "name": "聖杯の雫",
+        "name": "Drop from the Holy Grail",
         "icon": "ability_77.png",
         "compendium_id": 6964,
         "rarity": 5,
@@ -47367,7 +47367,7 @@
         "unit_restriction": null
     },
     "232611": {
-        "name": "魔法連鎖",
+        "name": "Magic Chain",
         "icon": "ability_8.png",
         "compendium_id": 6970,
         "rarity": 8,
@@ -47375,13 +47375,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use エヴォーク・フェザー (232606), シャドゥ・サーバント (232614), ダーク・セイヴァー (232610), バースト・レインフォース (232608), バーン・ストーム (232607), ファイア・ランス (232612), ファントム・カース (232615), プリズミック・ミサイル (232609), ヘルズ・ゲート (232616) and ライトニング・ボルト (232613) twice in one turn"],
+        "effects": ["Enable unit to use Burst Reinforce (232608), Dark Savior (Lezard Valeth) (232610), Fire Lance (Lezard Valeth) (232612), Fire Storm (Lezard Valeth) (232607), Gates of Hell (232616), Invoke Feather (Lezard Valeth) (232606), Lightning Bolt (Lezard Valeth) (232613), Phantom Curse (232615), Prismatic Missile (232609) and Shadow Servant (Lezard Valeth) (232614) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 510580, -1, [232606,  232607,  232608,  232609,  232610,  232612,  232613,  232614,  232615,  232616], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232617": {
-        "name": "異才を持つ魔術師",
+        "name": "Prodigious Sorcerer",
         "icon": "ability_91.png",
         "compendium_id": 6976,
         "rarity": 6,
@@ -47398,7 +47398,7 @@
         "unit_restriction": null
     },
     "232618": {
-        "name": "レナスへの歪んだ愛",
+        "name": "Twisted Love for Lenneth",
         "icon": "ability_19.png",
         "compendium_id": 6977,
         "rarity": 6,
@@ -47416,7 +47416,7 @@
         "unit_restriction": null
     },
     "232619": {
-        "name": "賢者の石を持つ者",
+        "name": "Master of the Philosopher's Stone",
         "icon": "ability_95.png",
         "compendium_id": 6978,
         "rarity": 7,
@@ -47430,7 +47430,7 @@
         "unit_restriction": null
     },
     "232620": {
-        "name": "勇者適正値上限 -28",
+        "name": "Hero Value Limit -28",
         "icon": "ability_79.png",
         "compendium_id": 6979,
         "rarity": 7,
@@ -47442,14 +47442,14 @@
             "Increase magic damage against Humans by 75%",
             "Increase magic damage against Fairies by 75%",
             "Increase magic damage against Reapers by 75%",
-            "Cast 勇者適正値上限 -28 (510584) at the start of your turn"
+            "Cast Hero Value Limit -28 (510584) at the start of your turn"
         ],
         "effects_raw": [[0, 3, 11, [5,  0,  75]], [0, 3, 11, [8,  0,  75]], [0, 3, 11, [12,  0,  75]], [0, 3, 66, [510584,  100,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232621": {
-        "name": "神をも恐れぬ死霊術師",
+        "name": "Necromancer Feared by the Gods",
         "icon": "ability_9.png",
         "compendium_id": 6980,
         "rarity": 7,
@@ -47466,7 +47466,7 @@
         "unit_restriction": null
     },
     "232622": {
-        "name": "ロスト・ミスティックの使い手",
+        "name": "Forbidden Arts User",
         "icon": "ability_76.png",
         "compendium_id": 6981,
         "rarity": 8,
@@ -47483,7 +47483,7 @@
         "unit_restriction": null
     },
     "232623": {
-        "name": "マッチレスウィザード",
+        "name": "Unmatched Wizard",
         "icon": "ability_77.png",
         "compendium_id": 6982,
         "rarity": 9,
@@ -47493,14 +47493,14 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and MAG by 50%",
-            "Replace LB with メテオスウォーム (900000342):\n\tNo effect\n\tIncrease LB damage by 150% for one turn\n\tMagic damage (29x, MAG) to all enemies\n\tReduce resistance to Fire, Lightning and Dark by 120% for 3 turns to all enemies\n\tRestore 200 MP to caster"
+            "Replace LB with Meteor Swarm (900000342):\n\tNo effect\n\tIncrease LB damage by 150% for one turn\n\tMagic damage (29x, MAG) to all enemies\n\tReduce resistance to Fire, Lightning and Dark by 120% for 3 turns to all enemies\n\tRestore 200 MP to caster"
         ],
         "effects_raw": [[0, 3, 1, [0,  50,  50,  0,  0,  0,  0]], [0, 3, 72, [900000342]]],
         "requirements": [["EQUIP", 408005500], ["EQUIP", 310005900]],
         "unit_restriction": null
     },
     "232624": {
-        "name": "貴様らに存在価値など無い",
+        "name": "You freaks have no place here!",
         "icon": "ability_98.png",
         "compendium_id": 6983,
         "rarity": 8,
@@ -47511,14 +47511,14 @@
         "effects": [
             "Increase MAG and SPR by 50%",
             "Increase resistance to Dark by 50%",
-            "Increase the damage of シャドゥ・サーバント (232614), ファイア・ランス (232612) and ライトニング・ボルト (232613) by (2x)"
+            "Increase the damage of Fire Lance (Lezard Valeth) (232612), Lightning Bolt (Lezard Valeth) (232613) and Shadow Servant (Lezard Valeth) (232614) by (2.5x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  50,  50,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  50]], [0, 3, 73, [[232612,  232613,  232614], 0, 0, 200]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  50,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  50]], [0, 3, 73, [[232612,  232613,  232614], 0, 0, 250]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232625": {
-        "name": "魔法三連鎖",
+        "name": "Triple Magic Chain",
         "icon": "ability_8.png",
         "compendium_id": 6984,
         "rarity": 8,
@@ -47526,13 +47526,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use エヴォーク・フェザー (232606), シャドゥ・サーバント (232614), ダーク・セイヴァー (232610), バースト・レインフォース (232608), バーン・ストーム (232607), ファイア・ランス (232612), ファントム・カース (232615), プリズミック・ミサイル (232609), ヘルズ・ゲート (232616) and ライトニング・ボルト (232613) 3 times in one turn"],
+        "effects": ["Enable unit to use Burst Reinforce (232608), Dark Savior (Lezard Valeth) (232610), Fire Lance (Lezard Valeth) (232612), Fire Storm (Lezard Valeth) (232607), Gates of Hell (232616), Invoke Feather (Lezard Valeth) (232606), Lightning Bolt (Lezard Valeth) (232613), Phantom Curse (232615), Prismatic Missile (232609) and Shadow Servant (Lezard Valeth) (232614) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 510583, -1, [232606,  232607,  232608,  232609,  232610,  232612,  232613,  232614,  232615,  232616], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232636": {
-        "name": "魔法連鎖",
+        "name": "Magic Chain",
         "icon": "ability_8.png",
         "compendium_id": 6991,
         "rarity": 8,
@@ -47540,13 +47540,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アドバンスドチャント (232632), イグニート・ジャベリン (232635), クロス・エアレイド (232639), シャドゥ・サーバント (232638), ダーク・セイヴァー (232634), バーン・ストーム (232631), ファイア・ランス (232637), ファントム・ブレス (232640), ヘブンズ・ゲート (232641), マジック・キュア (232633) and レデュース・ガード (232630) twice in one turn"],
+        "effects": ["Enable unit to use Advanced Chant (232632), Dark Savior (Mystina) (232634), Fire Lance (Mystina) (232637), Fire Storm (Mystina) (232631), Gates of Heaven (232641), Magic Cure (232633), Mystic Cross (232639), Phantom Breath (232640), Sacred Javelin (232635), Sap Guard (232630) and Shadow Servant (Mystina) (232638) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 510585, -1, [232630,  232631,  232632,  232633,  232634,  232635,  232637,  232638,  232639,  232640,  232641], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232642": {
-        "name": "エゴイストかつナルシスト",
+        "name": "Extreme Narcissism",
         "icon": "ability_91.png",
         "compendium_id": 6997,
         "rarity": 6,
@@ -47563,7 +47563,7 @@
         "unit_restriction": null
     },
     "232643": {
-        "name": "ハデ好きで理知的",
+        "name": "Gaudy Intellectual",
         "icon": "ability_95.png",
         "compendium_id": 6998,
         "rarity": 6,
@@ -47581,7 +47581,7 @@
         "unit_restriction": null
     },
     "232644": {
-        "name": "レザードの悪友",
+        "name": "Bad Blood with Lezard",
         "icon": "ability_9.png",
         "compendium_id": 6999,
         "rarity": 7,
@@ -47595,7 +47595,7 @@
         "unit_restriction": null
     },
     "232645": {
-        "name": "幽体離脱の魔法",
+        "name": "Astral Projection Magic",
         "icon": "ability_98.png",
         "compendium_id": 7000,
         "rarity": 7,
@@ -47612,7 +47612,7 @@
         "unit_restriction": null
     },
     "232646": {
-        "name": "ユグドラシルの頂上を目指す者",
+        "name": "Dream of Climbing Yggdrasil",
         "icon": "ability_95.png",
         "compendium_id": 7001,
         "rarity": 7,
@@ -47629,7 +47629,7 @@
         "unit_restriction": null
     },
     "232647": {
-        "name": "天才魔術師",
+        "name": "Talented Sorceress",
         "icon": "ability_76.png",
         "compendium_id": 7002,
         "rarity": 9,
@@ -47646,7 +47646,7 @@
         "unit_restriction": null
     },
     "232648": {
-        "name": "あんたらに存在価値なんて無いのよ",
+        "name": "You freaks have no reason to exist!",
         "icon": "ability_77.png",
         "compendium_id": 7003,
         "rarity": 8,
@@ -47656,15 +47656,15 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR and HP by 30%",
-            "Replace LB with セレスティアルスター (900000343):\n\tNo effect\n\tRemove MAG and SPR debuff from caster\n\tIncrease MAG by 300% for one turn to caster\n\tMagic wind damage (25x, MAG) to all enemies",
-            "Increase the damage of クロス・エアレイド (232639), シャドゥ・サーバント (232638) and ファイア・ランス (232637) by (1.5x)"
+            "Replace LB with Celestial Star (900000343):\n\tNo effect\n\tRemove MAG and SPR debuff from caster\n\tIncrease MAG by 300% for one turn to caster\n\tMagic wind damage (25x, MAG) to all enemies",
+            "Increase the damage of Fire Lance (Mystina) (232637), Mystic Cross (232639) and Shadow Servant (Mystina) (232638) by (1.5x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  30,  0,  0]], [0, 3, 72, [900000343]], [0, 3, 73, [[232637,  232638,  232639], 0, 0, 150]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232649": {
-        "name": "魔法三連鎖",
+        "name": "Triple Magic Chain",
         "icon": "ability_8.png",
         "compendium_id": 7004,
         "rarity": 8,
@@ -47672,13 +47672,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アドバンスドチャント (232632), イグニート・ジャベリン (232635), クロス・エアレイド (232639), シャドゥ・サーバント (232638), ダーク・セイヴァー (232634), バーン・ストーム (232631), ファイア・ランス (232637), ファントム・ブレス (232640), ヘブンズ・ゲート (232641), マジック・キュア (232633) and レデュース・ガード (232630) 3 times in one turn"],
+        "effects": ["Enable unit to use Advanced Chant (232632), Dark Savior (Mystina) (232634), Fire Lance (Mystina) (232637), Fire Storm (Mystina) (232631), Gates of Heaven (232641), Magic Cure (232633), Mystic Cross (232639), Phantom Breath (232640), Sacred Javelin (232635), Sap Guard (232630) and Shadow Servant (Mystina) (232638) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 510588, -1, [232630,  232631,  232632,  232633,  232634,  232635,  232637,  232638,  232639,  232640,  232641], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232656": {
-        "name": "通常技コンボ・槍",
+        "name": "Normal Spear Combo",
         "icon": "ability_8.png",
         "compendium_id": 7011,
         "rarity": 8,
@@ -47686,13 +47686,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use サークルエッジ (232651), スピニングエッジ (232655), ソニックエッジ (232652), ドラゴンレイジ (232653), ドラゴンロア (232654) and ラウンドキック (232650) 3 times in one turn (no duplicates)"],
+        "effects": ["Enable unit to use Circular Edge (232651), Dragon's Rage (232653), Dragon's Roar (232654), Roundkick (232650), Sonic Edge (232652) and Spinning Edge (232655) 3 times in one turn (no duplicates)"],
         "effects_raw": [[0, 3, 53, [3, 510589, -1, [232650,  232651,  232652,  232653,  232654,  232655], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "232657": {
-        "name": "力自慢",
+        "name": "Confident",
         "icon": "ability_77.png",
         "compendium_id": 7012,
         "rarity": 5,
@@ -47706,7 +47706,7 @@
         "unit_restriction": null
     },
     "232658": {
-        "name": "ドラゴンスケイル",
+        "name": "Dragon's Scale",
         "icon": "ability_77.png",
         "compendium_id": 7013,
         "rarity": 5,
@@ -47720,7 +47720,7 @@
         "unit_restriction": null
     },
     "232659": {
-        "name": "ドラゴンマジック",
+        "name": "Dragon's Magic",
         "icon": "ability_77.png",
         "compendium_id": 7014,
         "rarity": 5,
@@ -47734,7 +47734,7 @@
         "unit_restriction": null
     },
     "232660": {
-        "name": "ドラゴンアウェイク",
+        "name": "Dragon's Awakening",
         "icon": "ability_77.png",
         "compendium_id": 7015,
         "rarity": 6,
@@ -47748,7 +47748,7 @@
         "unit_restriction": null
     },
     "232661": {
-        "name": "竜紅玉の力",
+        "name": "Dragon Gem's Power",
         "icon": "ability_68.png",
         "compendium_id": 7016,
         "rarity": 7,
@@ -47757,8 +47757,8 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "35% chance to counter physical attacks with 竜紅玉の力 (510590) to caster (max 3 / turn)",
-            "35% chance to counter magic attacks with 竜紅玉の力 (510590) to caster (max 3 / turn)"
+            "35% chance to counter physical attacks with Dragon Gem's Power (510590) to caster (max 3 / turn)",
+            "35% chance to counter magic attacks with Dragon Gem's Power (510590) to caster (max 3 / turn)"
         ],
         "effects_raw": [[0, 3, 49, [35,  3,  510590,  3]], [0, 3, 50, [35,  3,  510590,  3]]],
         "requirements": null,
@@ -62768,8 +62768,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Bolt Slash (227732), Code Break (227750), Glowing Pierce (227747), Moment Slide (227735), Radiant White Wings (227752) and Vertical Raid (227738) 3 times in one turn (no duplicates)"],
-        "effects_raw": [[0, 3, 53, [3, 227744, -1, [227732,  227735,  227738,  227747,  227750,  227752], 1, 1]]],
+        "effects": ["Enable unit to use Bolt Slash (227732), Code Break (227750), Glowing Pierce (227747), Glowing Pierce+1 (708127), Glowing Pierce+2 (708128), Moment Slide (227735), Radiant White Wings (227752), Radiant White Wings+1 (708129), Radiant White Wings+2 (708130) and Vertical Raid (227738) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 227744, -1, [227732,  227735,  227738,  227747,  227750,  227752,  708127,  708128,  708129,  708130], 1, 1]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -73060,21 +73060,7 @@
         "unit_restriction": null
     },
     "708137": {
-        "name": "ファイト",
-        "icon": "ability_77.png",
-        "compendium_id": 3446,
-        "rarity": 6,
-        "unique": false,
-        "effect_type": "Default",
-        "attack_type": "None",
-        "element_inflict": null,
-        "effects": ["Increase ATK, DEF, MAG and SPR by 20%"],
-        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  0,  0,  0]]],
-        "requirements": null,
-        "unit_restriction": null
-    },
-    "708138": {
-        "name": "ファイト",
+        "name": "Fight",
         "icon": "ability_77.png",
         "compendium_id": 3446,
         "rarity": 6,
@@ -73084,14 +73070,33 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK, DEF, MAG and SPR by 30%",
+            "Increase LB gauge by 5 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  0,  0,  0]], [0, 3, 33, [500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708138": {
+        "name": "Fight",
+        "icon": "ability_77.png",
+        "compendium_id": 3446,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 90% and DEF, MAG and SPR by 50%",
+            "Increase LB gauge by 5 per turn",
+            "Increase LB damage by 60%",
             "Recover MP (5%) per turn"
         ],
-        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  0,  0,  0]], [0, 3, 32, [5]]],
+        "effects_raw": [[0, 3, 1, [90,  50,  50,  50,  0,  0,  0]], [0, 3, 33, [500]], [0, 3, 68, [60]], [0, 3, 32, [5]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708139": {
-        "name": "魂を選定する者",
+        "name": "Chooser of the Slain",
         "icon": "ability_77.png",
         "compendium_id": 3446,
         "rarity": 4,
@@ -73100,16 +73105,17 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 30% and HP and MP by 10%",
+            "Increase HP and MP by 10%",
             "Increase drop rate of rare items by 30%",
-            "Increase LB gauge by 5 per turn"
+            "Increase the damage of Vertical Raid (227738) by (15x)",
+            "Increase the damage of Tri-Blast (227737) by (12x)"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  10,  10,  0]], [0, 3, 47, [0,  30]], [0, 3, 33, [500]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  10,  10,  0]], [0, 3, 47, [0,  30]], [0, 3, 73, [227738,  0,  0,  1500]], [0, 3, 73, [227737,  0,  0,  1200]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708140": {
-        "name": "魂を選定する者",
+        "name": "Chooser of the Slain",
         "icon": "ability_77.png",
         "compendium_id": 3446,
         "rarity": 4,
@@ -73118,13 +73124,13 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase ATK by 30% and HP and MP by 10%",
+            "Increase HP and MP by 10%",
             "Increase drop rate of rare items by 30%",
-            "Increase LB gauge by 5 per turn",
-            "Increase the damage of Vertical Raid (227738) by (30x)",
-            "Increase the damage of Tri-Blast (227737) by (24x)"
+            "Increase the damage of Code Break (227750) and Vertical Raid (227738) by (30x)",
+            "Increase the damage of Infinity Blast (227743) and Tri-Blast (227737) by (24x)",
+            "Increase the damage of Ethereal Shot (227751) by (7x)"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  10,  10,  0]], [0, 3, 47, [0,  30]], [0, 3, 33, [500]], [0, 3, 73, [227738,  0,  0,  3000]], [0, 3, 73, [227737,  0,  0,  2400]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  10,  10,  0]], [0, 3, 47, [0,  30]], [0, 3, 73, [[227738,  227750], 0, 0, 3000]], [0, 3, 73, [[227737,  227743], 0, 0, 2400]], [0, 3, 73, [227751,  0,  0,  700]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -73141,7 +73147,7 @@
             "Increase MAG by 30%",
             "Increase chance of countering by 50%",
             "Increase LB damage by 125%",
-            "Increase the damage of Thunder Sword (227765), Victory Sword (227774), サンダーソード+1 (708151), サンダーソード+2 (708152), ビクトリーソード+1 (708145) and ビクトリーソード+2 (708146) by (1.5x)"
+            "Increase the damage of Thunder Sword (227765), Victory Sword (227774), Victory Sword+1 (708145), Victory Sword+2 (708146), サンダーソード+1 (708151) and サンダーソード+2 (708152) by (1.5x)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 20, [50]], [0, 3, 68, [125]], [0, 3, 73, [[227765,  227774,  708145,  708146,  708151,  708152], 0, 0, 150]]],
         "requirements": null,
@@ -73160,15 +73166,15 @@
             "Increase MAG by 30%",
             "Increase chance of countering by 50%",
             "Increase LB damage by 200%",
-            "Increase the damage of Thunder Sword (227765), Victory Sword (227774), サンダーソード+1 (708151), サンダーソード+2 (708152), ビクトリーソード+1 (708145) and ビクトリーソード+2 (708146) by (1.5x)",
-            "Replace LB with エーテルストライク (900000344):\n\tMagic damage (52.2x, MAG) to one enemy"
+            "Increase the damage of Thunder Sword (227765), Victory Sword (227774), Victory Sword+1 (708145), Victory Sword+2 (708146), サンダーソード+1 (708151) and サンダーソード+2 (708152) by (1.5x)",
+            "Replace LB with Ether Strike (900000344):\n\tMagic damage (52.2x, MAG) to one enemy"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 20, [50]], [0, 3, 68, [200]], [0, 3, 73, [[227765,  227774,  708145,  708146,  708151,  708152], 0, 0, 150]], [0, 3, 72, [900000344]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708143": {
-        "name": "浄化してあげるわ",
+        "name": "Prepare to be cleansed!",
         "icon": "ability_68.png",
         "compendium_id": 3469,
         "rarity": 5,
@@ -73177,15 +73183,15 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "20% chance to counter physical attacks with 浄化してあげるわ+1 (510602) to caster (max 1 / turn)",
-            "20% chance to counter magic attacks with 浄化してあげるわ+1 (510602) to caster (max 1 / turn)"
+            "30% chance to counter physical attacks with Prepare to be cleansed!+1 (510602) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with Prepare to be cleansed!+1 (510602) to caster (max 1 / turn)"
         ],
-        "effects_raw": [[0, 3, 49, [20,  3,  510602,  1]], [0, 3, 50, [20,  3,  510602,  1]]],
+        "effects_raw": [[0, 3, 49, [30,  3,  510602,  1]], [0, 3, 50, [30,  3,  510602,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708144": {
-        "name": "浄化してあげるわ",
+        "name": "Prepare to be cleansed!",
         "icon": "ability_68.png",
         "compendium_id": 3469,
         "rarity": 5,
@@ -73194,15 +73200,15 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "40% chance to counter physical attacks with 浄化してあげるわ+2 (510603) to caster (max 1 / turn)",
-            "40% chance to counter magic attacks with 浄化してあげるわ+2 (510603) to caster (max 1 / turn)"
+            "50% chance to counter physical attacks with Prepare to be cleansed!+2 (510603) to caster (max 1 / turn)",
+            "50% chance to counter magic attacks with Prepare to be cleansed!+2 (510603) to caster (max 1 / turn)"
         ],
-        "effects_raw": [[0, 3, 49, [40,  3,  510603,  1]], [0, 3, 50, [40,  3,  510603,  1]]],
+        "effects_raw": [[0, 3, 49, [50,  3,  510603,  1]], [0, 3, 50, [50,  3,  510603,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "708153": {
-        "name": "ミスティックゾーン",
+        "name": "Mystic Zone",
         "icon": "ability_77.png",
         "compendium_id": 3471,
         "rarity": 6,
@@ -73219,7 +73225,7 @@
         "unit_restriction": null
     },
     "708154": {
-        "name": "ミスティックゾーン",
+        "name": "Mystic Zone",
         "icon": "ability_77.png",
         "compendium_id": 3471,
         "rarity": 6,
@@ -99441,6 +99447,84 @@
         ],
         "effects_raw": [[0, 3, 31, [150]], [0, 3, 1, [0,  30,  0,  30,  50,  50,  0]], [0, 3, 3, [30,  30,  30,  30,  30,  30,  30,  30]], [0, 3, 56, [913988]]],
         "requirements": [["EQUIP", 1100000267], ["EQUIP", 1100000268]],
+        "unit_restriction": null
+    },
+    "913989": {
+        "name": "Fight",
+        "icon": "ability_77.png",
+        "compendium_id": 3446,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 30%",
+            "Increase LB damage by 50%",
+            "Recover MP (5%) per turn",
+            "Increase the damage of High Wind (227783) by (17x)",
+            "Increase the damage of Dragon Slayer (227786) by (20x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 32, [5]], [0, 3, 73, [227783,  0,  0,  1700]], [0, 3, 73, [227786,  0,  0,  2000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913990": {
+        "name": "Fight",
+        "icon": "ability_77.png",
+        "compendium_id": 3446,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 100% and DEF, MAG and SPR by 50%",
+            "Increase LB damage by 180%",
+            "Recover MP (15%) per turn",
+            "Increase the damage of High Wind (227783) by (34x)",
+            "Increase the damage of Dragon Slayer (227786) by (40x)"
+        ],
+        "effects_raw": [[0, 3, 1, [100,  50,  50,  50,  0,  0,  0]], [0, 3, 68, [180]], [0, 3, 32, [15]], [0, 3, 73, [227783,  0,  0,  3400]], [0, 3, 73, [227786,  0,  0,  4000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913991": {
+        "name": "Fight",
+        "icon": "ability_77.png",
+        "compendium_id": 3446,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 30%",
+            "Increase LB damage by 50%",
+            "Increase the damage of Thunder Sword (227765) by (16.5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [227765,  0,  0,  1650]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913992": {
+        "name": "Fight",
+        "icon": "ability_77.png",
+        "compendium_id": 3446,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 50%",
+            "Increase LB damage by 150%",
+            "Replace LB with Ether Strike (900000344):\n\tMagic damage (52.2x, MAG) to one enemy",
+            "Recover MP (5%) per turn",
+            "Increase the damage of Thunder Sword (227765) by (33x)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  50,  50,  50,  0,  0,  0]], [0, 3, 68, [150]], [0, 3, 72, [900000344]], [0, 3, 32, [5]], [0, 3, 73, [227765,  0,  0,  3300]]],
+        "requirements": null,
         "unit_restriction": null
     },
     "950011": {
