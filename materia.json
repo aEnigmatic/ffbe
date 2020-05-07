@@ -26905,71 +26905,155 @@
         }
     },
     "504233910": {
-        "name": "前進する勇気",
+        "name": "Courage to Move On",
         "compendium_id": 1063,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [233910],
-        "effects": ["Grants '前進する勇気' passive."],
-        "unique": false,
+        "effects": ["Grants 'Courage to Move On' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Courage to Move On",
+                "前進的勇氣",
+                "앞으로 나아가는 용기",
+                "Le courage de tourner la page",
+                "Der Mut, voranzuschreiten",
+                "Valor para seguir adelante"
+            ],
+            "desc_short": [
+                "Boost ATK by 60% and boost LB damage (Not stackable)",
+                "提高60%攻擊+提高極限技的傷害[無法重複裝備]",
+                "공격력 60% 상승+LB 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 60 % et augmente les dégâts de la limite (non cumulable)",
+                "Erhöht ANG um 60% und erhöht Schaden durch Limitrausch (Nicht stapelbar).",
+                "Aumenta el ATQ un 60% y el daño del EL (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 60% and boosts LB damage. Not stackable.",
+                "提高60%攻擊，並且提高極限技的傷害。[無法重複裝備]",
+                "공격력이 60% 상승하고, LB 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 60 % et augmente les dégâts de la limite. Non cumulable.",
+                "Erhöht ANG um 60% und erhöht Schaden durch Limitrausch. Nicht stapelbar.",
+                "Aumenta el ATQ un 60% y el daño del EL. No acumulable."
+            ]
         }
     },
     "504233913": {
-        "name": "迷いなき拳",
+        "name": "Unfaltering Fist",
         "compendium_id": 1064,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [233913],
-        "effects": ["Grants '迷いなき拳' passive."],
-        "unique": false,
+        "effects": ["Grants 'Unfaltering Fist' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Unfaltering Fist",
+                "毫無猶豫的拳頭",
+                "망설임 없는 주먹",
+                "Poing inébranlable",
+                "Unbeirrte Faust",
+                "Puño inquebrantable"
+            ],
+            "desc_short": [
+                "Fill LB gauge every turn, and boost ATK by 80% when equipped with fists (Not stackable)",
+                "每回合增加極限技槽+裝備格鬥裝備時提高80%攻擊[無法重複裝備]",
+                "매 턴마다 LB 게이지 증가+격투무기 장착 시 공격력 80% 상승 (중복 장착 불가)",
+                "Remplit la jauge de limite à chaque tour, et augmente l'ATT de 80 % quand des poings sont équipés (non cumulable)",
+                "Füllt jede Runde Limitmeter und erhöht ANG um 80%, wenn mit Fäusten ausgerüstet (Nicht stapelbar).",
+                "Rellena la barra de EL cada turno, y aumenta el ATQ un 80% al llevar puños (no acumulable)"
+            ],
+            "desc_long": [
+                "Fills LB gauge every turn, and boosts ATK by 80% when equipped with fists. Not stackable.",
+                "每回合增加極限技槽，並且裝備格鬥裝備時提高80%攻擊。[無法重複裝備]",
+                "매 턴마다 LB 게이지가 증가하고, 격투무기 장착 시 공격력이 80% 상승합니다. (중복 장착 불가)",
+                "Remplit la jauge de limite à chaque tour, et augmente l'ATT de 80 % quand des poings sont équipés. Non cumulable.",
+                "Füllt jede Runde Limitmeter und erhöht ANG um 80%, wenn mit Fäusten ausgerüstet. Nicht stapelbar.",
+                "Rellena la barra de EL cada turno, y aumenta el ATQ un 80% al llevar puños. No acumulable."
+            ]
         }
     },
     "504233915": {
-        "name": "母を求める心",
+        "name": "Mother-Seeking Heart",
         "compendium_id": 1065,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [233915],
-        "effects": ["Grants '母を求める心' passive."],
+        "effects": ["Grants 'Mother-Seeking Heart' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Mother-Seeking Heart",
+                "尋母之心",
+                "어머니를 원하는 마음",
+                "Pour l'amour de Mère",
+                "Sehnsucht nach Mutter",
+                "El corazón que busca a madre"
+            ],
+            "desc_short": [
+                "Boost LB gauge fill rate, and boost equipment ATK when armed with two one-handed weapons",
+                "提高極限技石對極限技槽的增加量+裝備2把單手武器時武具攻擊提升",
+                "LB 게이지 효율 상승+한손용 무기 2개 장착 시 장비의 공격력 상승",
+                "Augmente le taux de remplissage de la jauge de limite, et augmente l'ATT de l'équipement quand deux armes à une main sont équipées",
+                "Limitmeter füllt sich schneller und erhöht Ausrüstungs-ANG, wenn mit zwei einhändigen Waffen ausgerüstet.",
+                "La barra de EL se rellena más rápido, y aumenta el ATQ del equipo al llevar 2 armas de una sola mano"
+            ],
+            "desc_long": [
+                "Boosts LB gauge fill rate, and boosts equipment ATK when armed with two one-handed weapons.",
+                "提高極限技石對極限技槽的增加量，並且裝備2把單手武器時武具攻擊提升。",
+                "LB 게이지 효율이 상승하고, 한손용 무기 2개 장착 시 장비의 공격력이 상승합니다.",
+                "Augmente le taux de remplissage de la jauge de limite, et augmente l'ATT de l'équipement quand deux armes à une main sont équipées.",
+                "Limitmeter füllt sich schneller und erhöht Ausrüstungs-ANG, wenn mit zwei einhändigen Waffen ausgerüstet.",
+                "La barra de EL se rellena más rápido, y aumenta el ATQ del equipo al llevar 2 armas de una sola mano."
+            ]
         }
     },
     "504233919": {
-        "name": "Water",
+        "name": "Water (FFVII: AC)",
         "compendium_id": 1066,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [233919],
-        "effects": ["Grants 'Water' passive."],
+        "effects": ["Grants 'Water (FFVII: AC)' passive."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_9.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Water (FFVII: AC)",
+                "流水(FFVII: AC)",
+                "Water(FFVII: AC)",
+                "Eau lumineuse",
+                "Wasser (FFVII: AC)",
+                "Water"
+            ],
+            "desc_short": [
+                "Boost SPR by 20% and water and light resistance by 10%",
+                "提高20%精神、10%水光屬性耐性",
+                "정신력 20% 상승+물과 빛속성 저항력 10% 상승",
+                "Augmente la PSY de 20 % et la résistance à l'eau et à la lumière de 10 %",
+                "Erhöht PSY um 20% und Wasser- sowie Lichtresistenz um 10%.",
+                "Aumenta el ESP un 20% y la resistencia a agua y luz un 10%"
+            ],
+            "desc_long": [
+                "Boosts SPR by 20% and water and light resistance by 10%.",
+                "提高20%精神、10%水光屬性耐性。",
+                "정신력이 20% 상승하고, 물과 빛속성 저항력이 10% 상승합니다.",
+                "Augmente la PSY de 20 % et la résistance à l'eau et à la lumière de 10 %.",
+                "Erhöht PSY um 20% und Wasser- sowie Lichtresistenz um 10%.",
+                "Aumenta el ESP un 20% y la resistencia a agua y luz un 10%."
+            ]
         }
     },
     "504233920": {
@@ -26984,9 +27068,30 @@
         "price_sell": 1500,
         "icon": "ability_9.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Black Water",
+                "黑暗流水",
+                "Black Water",
+                "Eau ténébreuse",
+                "Dunkles Wasser",
+                "Black Water"
+            ],
+            "desc_short": [
+                "Boost ATK by 20% and water and dark resistance by 10%",
+                "提高20%攻擊、10%水暗屬性耐性",
+                "공격력 20% 상승+물과 어둠속성 저항력 10% 상승",
+                "Augmente l'ATT de 20 % et la résistance à l'eau et aux ténèbres de 10 %",
+                "Erhöht ANG um 20% und Wasser- sowie Dunkelresistenz um 10%.",
+                "Aumenta el ATQ un 20% y la resistencia a agua y oscuridad un 10%"
+            ],
+            "desc_long": [
+                "Boosts ATK by 20% and water and dark resistance by 10%.",
+                "提高20%攻擊、10%水暗屬性耐性。",
+                "공격력이 20% 상승하고, 물과 어둠속성 저항력이 10% 상승합니다.",
+                "Augmente l'ATT de 20 % et la résistance à l'eau et aux ténèbres de 10 %.",
+                "Erhöht ANG um 20% und Wasser- sowie Dunkelresistenz um 10%.",
+                "Aumenta el ATQ un 20% y la resistencia a agua y oscuridad un 10%."
+            ]
         }
     },
     "504234020": {
@@ -27024,37 +27129,79 @@
         }
     },
     "504234022": {
-        "name": "はりまんぼん",
+        "name": "10000 Needles",
         "compendium_id": 1070,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234022],
-        "effects": ["Grants 'はりまんぼん' ability."],
+        "effects": ["Grants '10000 Needles' ability."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_97.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "10000 Needles",
+                "萬針刺",
+                "바늘 10,000개",
+                "10 000 épines",
+                "10000 Nadeln",
+                "Diez mil espinas"
+            ],
+            "desc_short": [
+                "Damage all enemies and enable all allies to evade some physical attacks one time",
+                "攻擊全體敵人+賦予全體隊員閃避1次部分物理攻擊的效果",
+                "적 전체에 피해+아군 전체에 물리 공격 1회 회피 효과 부여",
+                "Inflige des dégâts à tous les ennemis et permet aux alliés d'esquiver certaines attaques physiques une fois",
+                "Fügt allen Gegnern Schaden zu und ermöglicht allen Verbündeten, einigen physischen Angriffen einmal auszuweichen.",
+                "Daña a todos los enemigos, y todos los aliados pueden evadir algunos ataques físicos una vez"
+            ],
+            "desc_long": [
+                "Damages all enemies and enables all allies to evade some physical attacks one time.",
+                "攻擊全體敵人，並且賦予全體隊員閃避1次部分物理攻擊的效果。",
+                "적 전체에 피해를 주고, 아군 전체에 물리 공격 1회 회피 효과를 부여합니다.",
+                "Inflige des dégâts à tous les ennemis et permet aux alliés d'esquiver certaines attaques physiques une fois.",
+                "Fügt allen Gegnern Schaden zu und ermöglicht allen Verbündeten, einigen physischen Angriffen einmal auszuweichen.",
+                "Daña a todos los enemigos, y todos los aliados pueden evadir algunos ataques físicos una vez"
+            ]
         }
     },
     "504234023": {
-        "name": "逃げ足",
+        "name": "Run Away",
         "compendium_id": 1071,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234023],
-        "effects": ["Grants '逃げ足' passive."],
+        "effects": ["Grants 'Run Away' passive."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_97.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Run Away",
+                "逃跑",
+                "꽁무니 빼기",
+                "Fuite",
+                "Weglaufen",
+                "Huida"
+            ],
+            "desc_short": [
+                "Chance of evading some physical and magic attacks",
+                "一定機率閃避部分物理、魔法攻擊",
+                "일정 확률로 일부 물리, 마법 공격 회피",
+                "Confère une chance d'esquiver certaines attaques physiques et magiques",
+                "Chance, einigen physischen und magischen Angriffen auszuweichen.",
+                "Probabilidad de evadir algunos ataques físicos y mágicos"
+            ],
+            "desc_long": [
+                "Adds chance of evading some physical and magic attacks.",
+                "一定機率閃避部分物理、魔法攻擊。",
+                "일정 확률로 일부 물리, 마법 공격을 회피합니다.",
+                "Confère une chance d'esquiver certaines attaques physiques et magiques",
+                "Chance, einigen physischen und magischen Angriffen auszuweichen.",
+                "Probabilidad de evadir algunos ataques físicos y mágicos"
+            ]
         }
     },
     "504234091": {
