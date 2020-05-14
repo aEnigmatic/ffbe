@@ -5360,7 +5360,7 @@
         "effects": ["Increase ATK by 40%"],
         "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210240": {
         "name": "Absolute Security",
@@ -5374,7 +5374,7 @@
         "effects": ["Increase resistance to Sleep, Paralyze and Confusion by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  100,  0,  100,  100,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210250": {
         "name": "Knight of Grandshelt",
@@ -5388,7 +5388,7 @@
         "effects": ["Recover MP (5%) per turn"],
         "effects_raw": [[0, 3, 32, [5]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210260": {
         "name": "Girl of Rebirth",
@@ -41759,9 +41759,9 @@
         "element_inflict": null,
         "effects": [
             "Recover MP (7%) per turn",
-            "Increase the damage of Absolute Mirror of Equity (229561, 508001, 231713, 912354), Absolute Mirror of Equity (As) (510907), Asura's Absolute Mirror of Equity (510908), Asura's Mirror of Equity - 3 Evils (510906), Asura's Mirror of Equity - Disorder (510898), Asura's True Mirror of Equity (510913), Final Mirror of Equity (510203), Mirror of Equity (200320), Mirror of Equity - 3 Evils (As) (510905), Mirror of Equity - Acuity (229563, 912340), Mirror of Equity - Blazing Pyre (231704), Mirror of Equity - Concentration (950021), Mirror of Equity - Concentration I (950022), Mirror of Equity - Concentration II (800035), Mirror of Equity - Disorder (229564, 912351), Mirror of Equity - Disorder (As) (510897), Mirror of Equity - Emptiness (229571), Mirror of Equity - Freezing Chill (231705), Mirror of Equity - Petals of Flame (231709), Mirror of Equity - Petals of Frost (231710), Mirror of Equity - Resolution (231703), Mirror of Equity - Supremacy (229565, 912353), Mirror of Equity - Universe (510204), Mirror of Equity+1 (700850), Mirror of Equity+2 (700860), Mirror of Haze (205550), Mirror of Heaven (226390), Mirror of Life (218260), Obliterating Mirror of Equity (227561), Obliterating Mirror of Equity's Azure Frost (510208), Obliterating Mirror of Equity's Crimson Flame (510207), Obliterating Mirror of Equity's Flame (510205), Obliterating Mirror of Equity's Frost (510206), Obliterating Mirror of Equity's Roar (912371), Obliterating Mirror of Equity+1 (707725), Obliterating Mirror of Equity+2 (707726), True Mirror of Equity (509112, 510209, 912370) and True Mirror of Equity (As) (510912) by (0.5x)"
+            "Increase the damage of Absolute Mirror of Equity (229561, 508001, 231713, 912354), Absolute Mirror of Equity (As) (510907), Absolute Mirror of Equity (Sh) (233697), Asura's Absolute Mirror of Equity (510908), Asura's Mirror of Equity - 3 Evils (510906), Asura's Mirror of Equity - Disorder (510898), Asura's True Mirror of Equity (510913), Final Mirror of Equity (510203), Mirror of Equity (200320), Mirror of Equity - 3 Evils (As) (510905), Mirror of Equity - Acuity (229563, 912340), Mirror of Equity - Blazing Pyre (231704), Mirror of Equity - Concentration (950021), Mirror of Equity - Concentration I (950022), Mirror of Equity - Concentration II (800035), Mirror of Equity - Disorder (229564, 912351), Mirror of Equity - Disorder (As) (510897), Mirror of Equity - Emptiness (229571), Mirror of Equity - Freezing Chill (231705), Mirror of Equity - Ice Demon (510962), Mirror of Equity - Petals of Flame (231709), Mirror of Equity - Petals of Frost (231710), Mirror of Equity - Resolution (231703), Mirror of Equity - Resolution (Sh) (233690), Mirror of Equity - Supremacy (229565, 912353), Mirror of Equity - Universe (510204), Mirror of Equity+1 (700850), Mirror of Equity+2 (700860), Mirror of Haze (205550), Mirror of Haze (Sh) (233695), Mirror of Heaven (226390), Mirror of Life (218260), Obliterating Mirror of Equity (227561), Obliterating Mirror of Equity's Azure Frost (510208), Obliterating Mirror of Equity's Crimson Flame (510207), Obliterating Mirror of Equity's Flame (510205), Obliterating Mirror of Equity's Frost (510206), Obliterating Mirror of Equity's Roar (912371), Obliterating Mirror of Equity+1 (707725), Obliterating Mirror of Equity+2 (707726), True Mirror of Equity (509112, 510209, 912370) and True Mirror of Equity (As) (510912) by (0.5x)"
         ],
-        "effects_raw": [[0, 3, 32, [7]], [0, 3, 73, [[200320,  205550,  218260,  226390,  227561,  229561,  229563,  229564,  229565,  229571,  508001,  509112,  700850,  700860,  707725,  707726,  800035,  231703,  231704,  231705,  231709,  231710,  231713,  510203,  510204,  510205,  510206,  510207,  510208,  510209,  950021,  950022,  912354,  912340,  912353,  912370,  912351,  912371,  510898,  510905,  510906,  510907,  510908,  510912,  510913,  510897], 0, 0, 50]]],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 73, [[200320,  205550,  218260,  226390,  227561,  229561,  229563,  229564,  229565,  229571,  508001,  509112,  700850,  700860,  707725,  707726,  800035,  231703,  231704,  231705,  231709,  231710,  231713,  510203,  510204,  510205,  510206,  510207,  510208,  510209,  950021,  950022,  912354,  912340,  912353,  912370,  912351,  912371,  510898,  510905,  510906,  510907,  510908,  510912,  510913,  510897,  233690,  233695,  233697,  510962], 0, 0, 50]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53700,7 +53700,7 @@
         "unit_restriction": null
     },
     "233560": {
-        "name": "氷魔の力が宿りし冠",
+        "name": "Imbued with the Ice Demon's Might",
         "icon": "ability_95.png",
         "compendium_id": 7692,
         "rarity": 8,
@@ -53717,7 +53717,7 @@
         "unit_restriction": null
     },
     "233561": {
-        "name": "氷魔の力が宿りし衣",
+        "name": "Imbued with the Ice Demon's Power",
         "icon": "ability_79.png",
         "compendium_id": 7693,
         "rarity": 9,
@@ -53731,7 +53731,7 @@
         "unit_restriction": null
     },
     "233562": {
-        "name": "オーディンシナジー",
+        "name": "Odin Synergy",
         "icon": "ability_95.png",
         "compendium_id": 7694,
         "rarity": 8,
@@ -53751,7 +53751,7 @@
         "unit_restriction": null
     },
     "233563": {
-        "name": "剣神の力が宿りし剣",
+        "name": "Imbued with the Knight Rider's Might",
         "icon": "ability_72.png",
         "compendium_id": 7695,
         "rarity": 9,
@@ -53765,7 +53765,7 @@
         "unit_restriction": null
     },
     "233564": {
-        "name": "テトラシルフィードシナジー",
+        "name": "Tetra Sylphid Synergy",
         "icon": "ability_72.png",
         "compendium_id": 7696,
         "rarity": 8,
@@ -53782,7 +53782,7 @@
         "unit_restriction": null
     },
     "233565": {
-        "name": "風精の力が宿りし銃",
+        "name": "Imbued with the Wind Sprite's Might",
         "icon": "ability_77.png",
         "compendium_id": 7697,
         "rarity": 9,
@@ -53796,7 +53796,7 @@
         "unit_restriction": null
     },
     "233566": {
-        "name": "アレキサンダーシナジー",
+        "name": "Alexander Synergy",
         "icon": "ability_99.png",
         "compendium_id": 7698,
         "rarity": 8,
@@ -53814,7 +53814,7 @@
         "unit_restriction": null
     },
     "233567": {
-        "name": "聖城の力が宿りし重鎧",
+        "name": "Imbued with the Sacred Castle's Might",
         "icon": "ability_43.png",
         "compendium_id": 7699,
         "rarity": 9,
@@ -53822,7 +53822,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Use 聖城の力が宿りし重鎧 (510930) at the start of a battle or when revived"],
+        "effects": ["Use Imbued with the Sacred Castle's Might (510930) at the start of a battle or when revived"],
         "effects_raw": [[0, 3, 56, [510930]]],
         "requirements": null,
         "unit_restriction": null
@@ -53860,7 +53860,7 @@
         "unit_restriction": null
     },
     "233570": {
-        "name": "真・氷魔との呼応",
+        "name": "Harmony with the Ice Demon+",
         "icon": "ability_77.png",
         "compendium_id": 7702,
         "rarity": 8,
@@ -53874,7 +53874,7 @@
         "unit_restriction": [100027605]
     },
     "233571": {
-        "name": "絶・氷魔との呼応",
+        "name": "Harmony with the Ice Demon++",
         "icon": "ability_77.png",
         "compendium_id": 7703,
         "rarity": 9,
@@ -53888,7 +53888,7 @@
         "unit_restriction": [100027605]
     },
     "233572": {
-        "name": "真・剣神との呼応",
+        "name": "Harmony with the Knight Rider+",
         "icon": "ability_77.png",
         "compendium_id": 7704,
         "rarity": 8,
@@ -53902,7 +53902,7 @@
         "unit_restriction": [100027705]
     },
     "233573": {
-        "name": "真・風精との呼応",
+        "name": "Harmony with the Wind Sprite+",
         "icon": "ability_77.png",
         "compendium_id": 7705,
         "rarity": 8,
@@ -53916,7 +53916,7 @@
         "unit_restriction": [100027905]
     },
     "233574": {
-        "name": "真・聖城との呼応",
+        "name": "Harmony with the Sacred Castle+",
         "icon": "ability_77.png",
         "compendium_id": 7706,
         "rarity": 8,
@@ -53930,7 +53930,7 @@
         "unit_restriction": [100027505]
     },
     "233575": {
-        "name": "真・魔狼との呼応",
+        "name": "Harmony with the Nightbringer Wolf+",
         "icon": "ability_77.png",
         "compendium_id": 7707,
         "rarity": 8,
@@ -53944,7 +53944,7 @@
         "unit_restriction": [100027805]
     },
     "233588": {
-        "name": "W最強技",
+        "name": "Double Strongest Attack",
         "icon": "ability_8.png",
         "compendium_id": 7716,
         "rarity": 8,
@@ -53952,13 +53952,15 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use F型最強轟天弾「極水天」 (233593), F型最強轟天弾「極風天」 (233594), ふかく集中する (510963), もっとふかく集中する (510964), アップドラフト (233583), シルフィードファイサリス弾・水 (233589), シルフィードファイサリス弾・風 (233590), タイプ・シルフィード (233591), タイプ・ファイサリス (233592), テトラショットTe (233580), 防水装甲破壊弾「水天」 (233586), 防風装甲破壊弾「風天」 (233587), 魔弾ストームバレット (233582) and 魔弾スプラッシュバレット (233581) twice in one turn"],
+        "effects": [
+            "Enable unit to use Armored Anti-Water Grenade [Varuna] (233586), Armored Anti-Wind Grenade [Vayu] (233587), Deep Concentration (510963), Deeper Concentration (510964), F-Type Strongest Storm Shot [Varuna+] (233593), F-Type Strongest Storm Shot [Vayu+] (233594), Magic Splash Bullet (233581), Magic Storm Bullet (233582), Physalis Type (233592), Sylphid Physalis Bullet - Water (233589), Sylphid Physalis Bullet - Wind (233590), Sylphid Type (233591), Tetrashot (Te) (233580) and Updraft (233583) twice in one turn"
+        ],
         "effects_raw": [[0, 3, 53, [2, 510931, -1, [233580,  233581,  233582,  233583,  233586,  233587,  233589,  233590,  233591,  233592,  233593,  233594,  510963,  510964], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "233595": {
-        "name": "風精の魔力",
+        "name": "Wind Sprite's Magic",
         "icon": "ability_95.png",
         "compendium_id": 7723,
         "rarity": 7,
@@ -53977,7 +53979,7 @@
         "unit_restriction": null
     },
     "233596": {
-        "name": "テトラシルフィード＆ファイサリス",
+        "name": "Tetra Sylphid & Physalis",
         "icon": "ability_12.png",
         "compendium_id": 7724,
         "rarity": 7,
@@ -53994,7 +53996,7 @@
         "unit_restriction": null
     },
     "233597": {
-        "name": "風精連携",
+        "name": "Wind Sprite's Connection",
         "icon": "ability_72.png",
         "compendium_id": 7725,
         "rarity": 8,
@@ -54013,7 +54015,7 @@
         "unit_restriction": null
     },
     "233598": {
-        "name": "テトラシルフィード＆グリ",
+        "name": "Tetra Sylphid & Moog",
         "icon": "ability_19.png",
         "compendium_id": 7726,
         "rarity": 8,
@@ -54031,7 +54033,7 @@
         "unit_restriction": null
     },
     "233599": {
-        "name": "風精の加護",
+        "name": "Wind Sprite's Protection",
         "icon": "ability_79.png",
         "compendium_id": 7727,
         "rarity": 8,
@@ -54050,7 +54052,7 @@
         "unit_restriction": null
     },
     "233600": {
-        "name": "テトラシルフィードの加勢",
+        "name": "Tetra Sylphid's Aid",
         "icon": "ability_72.png",
         "compendium_id": 7728,
         "rarity": 9,
@@ -54068,7 +54070,7 @@
         "unit_restriction": null
     },
     "233601": {
-        "name": "空に境界線なんてない！",
+        "name": "Together We're Unlimited!",
         "icon": "ability_77.png",
         "compendium_id": 7729,
         "rarity": 8,
@@ -54078,15 +54080,15 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG and SPR by 30%",
-            "Increase the damage of F型最強轟天弾「極水天」 (510934), F型最強轟天弾「極風天」 (510935), シルフィードファイサリス弾・水 (233589), シルフィードファイサリス弾・風 (233590), テトラショットTe (233580), 防水装甲破壊弾「水天」 (233586), 防風装甲破壊弾「風天」 (233587), 魔弾ストームバレット (233582) and 魔弾スプラッシュバレット (233581) by (1x)",
-            "Use アップドラフト (510937) at the start of a battle or when revived"
+            "Increase the damage of Armored Anti-Water Grenade [Varuna] (233586), Armored Anti-Wind Grenade [Vayu] (233587), F-Type Strongest Storm Shot [Varuna+] (510934), F-Type Strongest Storm Shot [Vayu+] (510935), Magic Splash Bullet (233581), Magic Storm Bullet (233582), Sylphid Physalis Bullet - Water (233589), Sylphid Physalis Bullet - Wind (233590) and Tetrashot (Te) (233580) by (1x)",
+            "Use Updraft (510937) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 73, [[233580,  233581,  233582,  233586,  233587,  233589,  233590,  510934,  510935], 0, 0, 100]], [0, 3, 56, [510937]]],
         "requirements": null,
         "unit_restriction": null
     },
     "233625": {
-        "name": "聖城の耐力",
+        "name": "Sacred Castle's Endurance",
         "icon": "ability_99.png",
         "compendium_id": 7745,
         "rarity": 7,
@@ -54104,7 +54106,7 @@
         "unit_restriction": null
     },
     "233626": {
-        "name": "騎士剣術の極致",
+        "name": "Ultimate Knight's Swordsmanship",
         "icon": "ability_95.png",
         "compendium_id": 7746,
         "rarity": 7,
@@ -54123,7 +54125,7 @@
         "unit_restriction": null
     },
     "233627": {
-        "name": "聖城連携",
+        "name": "Sacred Castle's Connection",
         "icon": "ability_79.png",
         "compendium_id": 7747,
         "rarity": 8,
@@ -54141,7 +54143,7 @@
         "unit_restriction": null
     },
     "233628": {
-        "name": "聖城の加護",
+        "name": "Sacred Castle's Protection",
         "icon": "ability_19.png",
         "compendium_id": 7748,
         "rarity": 8,
@@ -54159,7 +54161,7 @@
         "unit_restriction": null
     },
     "233629": {
-        "name": "シャルロット＆アレキサンダー",
+        "name": "Charlotte & Alexander",
         "icon": "ability_78.png",
         "compendium_id": 7749,
         "rarity": 8,
@@ -54176,7 +54178,7 @@
         "unit_restriction": null
     },
     "233630": {
-        "name": "不滅の聖義",
+        "name": "Undying Justice",
         "icon": "ability_41.png",
         "compendium_id": 7750,
         "rarity": 8,
@@ -54195,7 +54197,7 @@
         "unit_restriction": null
     },
     "233631": {
-        "name": "アレキサンダーの加勢",
+        "name": "Alexander's Aid",
         "icon": "ability_77.png",
         "compendium_id": 7751,
         "rarity": 9,
@@ -54206,14 +54208,14 @@
         "effects": [
             "Increase DEF, SPR and HP by 40%",
             "Increase resistance to Ice and Light by 30%",
-            "Use アレキサンダーの加勢 (510942) at the start of a battle or when revived"
+            "Use Alexander's Aid (510942) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  40,  0,  0]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  30,  0]], [0, 3, 56, [510942]]],
         "requirements": [["EQUIP", 504233566], ["EQUIP", 402004500]],
         "unit_restriction": null
     },
     "233632": {
-        "name": "聖砦の騎士",
+        "name": "Hallowed Aegis's Knight",
         "icon": "ability_68.png",
         "compendium_id": 7752,
         "rarity": 8,
@@ -54223,15 +54225,15 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and SPR by 40%",
-            "30% chance to counter physical attacks with 聖砦の騎士 (510943) to caster (max 1 / turn)",
-            "30% chance to counter magic attacks with 聖砦の騎士 (510943) to caster (max 1 / turn)"
+            "30% chance to counter physical attacks with Hallowed Aegis's Knight (510943) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with Hallowed Aegis's Knight (510943) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  0,  0,  0]], [0, 3, 49, [30,  3,  510943,  1]], [0, 3, 50, [30,  3,  510943,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "233651": {
-        "name": "二連闘刃",
+        "name": "Double Battle Blade",
         "icon": "ability_8.png",
         "compendium_id": 7764,
         "rarity": 8,
@@ -54239,13 +54241,15 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Fingersnap (200330), 全神全令 (233650), 八連刃Od (233649), 剣神の刃 (233646), 天下無双 (233643), 完全覚醒【剣神降臨】 (233652), 戦騎の駿撃 (233655), 正々堂々 (233642), 氷晶の刃 (233645), 瞬閃活Od (233640), 破炎の蒼剣Od (233653), 緋炎の刃 (233644), 緋蒼ノ剣Od (233648), 蒼刀破眼Od (233641), 裂氷の緋剣Od (233654) and 青嵐降天Od (233647) twice in one turn"],
+        "effects": [
+            "Enable unit to use Azure Flame Edge (Od) (233653), Blades of Azure Crimson (Od) (233648), Blue Blade Ruin (Od) (233641), Complete Awakening [Knight Rider] (233652), Crimson Frost Edge (Od) (233654), Divine Determination (233650), Fingersnap (200330), Flaming Edge (233644), Fractal Edge (233645), Honorable Fighter (Raegen) (233642), Instant Flash (Od) (233640), Knight Rider's Edge (233646), Mountain Dive (Od) (233647), Octostrike Blade (Od) (233649), Unequaled Strength (233643) and War Hero's Swift Attack (233655) twice in one turn"
+        ],
         "effects_raw": [[0, 3, 53, [2, 510944, -1, [233640,  233641,  233642,  233643,  233644,  233645,  233646,  233647,  233648,  233649,  233650,  233652,  233653,  233654,  233655,  200330], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "233656": {
-        "name": "オーディン＆レーゲン",
+        "name": "Odin & Raegen",
         "icon": "ability_95.png",
         "compendium_id": 7769,
         "rarity": 6,
@@ -54262,7 +54266,7 @@
         "unit_restriction": null
     },
     "233657": {
-        "name": "剣神の力",
+        "name": "Knight Rider's Might",
         "icon": "ability_79.png",
         "compendium_id": 7770,
         "rarity": 8,
@@ -54281,7 +54285,7 @@
         "unit_restriction": null
     },
     "233658": {
-        "name": "剣神の加護",
+        "name": "Knight Rider's Protection",
         "icon": "ability_19.png",
         "compendium_id": 7771,
         "rarity": 8,
@@ -54300,7 +54304,7 @@
         "unit_restriction": null
     },
     "233659": {
-        "name": "剣神連携",
+        "name": "Knight Rider's Connection",
         "icon": "ability_72.png",
         "compendium_id": 7772,
         "rarity": 8,
@@ -54319,7 +54323,7 @@
         "unit_restriction": null
     },
     "233660": {
-        "name": "オーディンの加勢",
+        "name": "Odin's Aid",
         "icon": "ability_72.png",
         "compendium_id": 7773,
         "rarity": 9,
@@ -54329,17 +54333,17 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 50%",
-            "Use 正々堂々 (510949) at the start of a battle or when revived",
-            "Use 天下無双 (510950) at the start of a battle or when revived",
+            "Use Honorable Fighter (Raegen) (510949) at the start of a battle or when revived",
+            "Use Unequaled Strength (510950) at the start of a battle or when revived",
             "Increase equipment ATK by 50% when armed with two weapons",
-            "Use オーディンの加勢 (510951) at the start of a battle or when revived"
+            "Use Odin's Aid (510951) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 56, [510949]], [0, 3, 56, [510950]], [0, 3, 69, [1,  50,  0]], [0, 3, 56, [510951]]],
         "requirements": [["EQUIP", 504233562], ["EQUIP", 302011300]],
         "unit_restriction": null
     },
     "233661": {
-        "name": "グランシェルトの戦騎",
+        "name": "Grandshelt's War Hero",
         "icon": "ability_77.png",
         "compendium_id": 7774,
         "rarity": 8,
@@ -54350,7 +54354,7 @@
         "effects": [
             "Increase ATK, DEF and SPR by 30%",
             "Increase LB damage by 50%",
-            "Increase the damage of 全神全令 (233650), 八連刃Od (233649), 剣神の刃 (233646), 戦騎の駿撃 (233655), 氷晶の刃 (233645), 瞬閃活Od (233640), 破炎の蒼剣Od (510946), 緋炎の刃 (233644), 緋蒼ノ剣Od (233648), 蒼刀破眼Od (233641), 裂氷の緋剣Od (510947) and 青嵐降天Od (233647) by (7x)"
+            "Increase the damage of Azure Flame Edge (Od) (510946), Blades of Azure Crimson (Od) (233648), Blue Blade Ruin (Od) (233641), Crimson Frost Edge (Od) (510947), Divine Determination (233650), Flaming Edge (233644), Fractal Edge (233645), Instant Flash (Od) (233640), Knight Rider's Edge (233646), Mountain Dive (Od) (233647), Octostrike Blade (Od) (233649) and War Hero's Swift Attack (233655) by (7x)"
         ],
         "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [[233640,  233641,  233644,  233645,  233646,  233647,  233648,  233649,  233650,  510946,  510947,  233655], 0, 0, 700]]],
         "requirements": null,
@@ -54499,7 +54503,7 @@
         "unit_restriction": null
     },
     "233699": {
-        "name": "W絶刀",
+        "name": "Double Katana Art",
         "icon": "ability_8.png",
         "compendium_id": 7804,
         "rarity": 8,
@@ -54507,13 +54511,15 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アイスエイジ　斬 (233698), ストームブレイド (233694), ダイヤモンドブレイド (233693), 三十烈斬Sh (233691), 完全覚醒【氷魔降臨】 (233700), 明鏡・断Sh (233690), 明鏡・朧Sh (233695), 明鏡・氷魔 (233703), 月光散華Sh (233692), 極・明鏡Sh (233697), 氷楔の護り (233702), 無明氷月Sh (233701) and 雪華終焉Sh (233696) twice in one turn"],
+        "effects": [
+            "Enable unit to use Absolute Mirror of Equity (Sh) (233697), Complete Awakening [Mystical Ice] (233700), Diamond Blade (233693), Fatal Bloom (Sh) (233696), Ice Age Slash (233698), Icicle Defense (233702), Mirror of Equity - Ice Demon (233703), Mirror of Equity - Resolution (Sh) (233690), Mirror of Haze (Sh) (233695), Moonlight Fall (Sh) (233692), Storm Blade (233694), Thirty Slashes of Fury (Sh) (233691) and Winter's Oblivion (Sh) (233701) twice in one turn"
+        ],
         "effects_raw": [[0, 3, 53, [2, 510958, -1, [233690,  233691,  233692,  233693,  233694,  233695,  233696,  233697,  233698,  233700,  233701,  233702,  233703], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "233704": {
-        "name": "シヴァ＆ラスウェル",
+        "name": "Shiva & Lasswell",
         "icon": "ability_95.png",
         "compendium_id": 7809,
         "rarity": 7,
@@ -54531,7 +54537,7 @@
         "unit_restriction": null
     },
     "233705": {
-        "name": "氷魔連携",
+        "name": "Ice Demon's Connection",
         "icon": "ability_78.png",
         "compendium_id": 7810,
         "rarity": 8,
@@ -54549,7 +54555,7 @@
         "unit_restriction": null
     },
     "233706": {
-        "name": "氷魔の加護",
+        "name": "Ice Demon's Protection",
         "icon": "ability_41.png",
         "compendium_id": 7811,
         "rarity": 8,
@@ -54568,7 +54574,7 @@
         "unit_restriction": null
     },
     "233707": {
-        "name": "氷魔の力",
+        "name": "Ice Demon's Might",
         "icon": "ability_76.png",
         "compendium_id": 7812,
         "rarity": 8,
@@ -54588,7 +54594,7 @@
         "unit_restriction": null
     },
     "233708": {
-        "name": "シヴァの加勢",
+        "name": "Shiva's Aid",
         "icon": "ability_76.png",
         "compendium_id": 7813,
         "rarity": 9,
@@ -54608,7 +54614,7 @@
         "unit_restriction": null
     },
     "233709": {
-        "name": "ヘスの英雄王",
+        "name": "Hero of Hess",
         "icon": "ability_77.png",
         "compendium_id": 7814,
         "rarity": 8,
@@ -54619,7 +54625,7 @@
         "effects": [
             "Increase ATK by 50%",
             "Increase LB damage by 50%",
-            "Increase the damage of アイスエイジ　斬 (233698), ストームブレイド (233694), ダイヤモンドブレイド (233693), 三十烈斬Sh (233691), 明鏡・断Sh (233690), 明鏡・朧Sh (233695), 明鏡・氷魔 (510962), 月光散華Sh (233692), 極・明鏡Sh (233697), 無明氷月Sh (510960) and 雪華終焉Sh (233696) by (2x)"
+            "Increase the damage of Absolute Mirror of Equity (Sh) (233697), Diamond Blade (233693), Fatal Bloom (Sh) (233696), Ice Age Slash (233698), Mirror of Equity - Ice Demon (510962), Mirror of Equity - Resolution (Sh) (233690), Mirror of Haze (Sh) (233695), Moonlight Fall (Sh) (233692), Storm Blade (233694), Thirty Slashes of Fury (Sh) (233691) and Winter's Oblivion (Sh) (510960) by (2x)"
         ],
         "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [[233690,  233691,  233692,  233693,  233694,  233695,  233696,  233697,  233698,  510960,  510962], 0, 0, 200]]],
         "requirements": null,
@@ -55927,8 +55933,8 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "20% chance to counter physical attacks with エアリスの遺志 (511170) to caster (max 1 / turn)",
-            "20% chance to counter magic attacks with エアリスの遺志 (511170) to caster (max 1 / turn)"
+            "20% chance to counter physical attacks with Aerith's Last Wish (511170) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with Aerith's Last Wish (511170) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 49, [20,  3,  511170,  1]], [0, 3, 50, [20,  3,  511170,  1]]],
         "requirements": null,
@@ -59347,7 +59353,7 @@
         "unit_restriction": null
     },
     "234468": {
-        "name": "致命の一刺し",
+        "name": "Fatal Sting",
         "icon": "ability_79.png",
         "compendium_id": 8416,
         "rarity": 9,
@@ -62326,7 +62332,7 @@
         "unit_restriction": null
     },
     "450950": {
-        "name": "エノキアン",
+        "name": "Enochian",
         "icon": "ability_55.png",
         "compendium_id": 20738,
         "rarity": 8,
@@ -62343,7 +62349,7 @@
         "unit_restriction": null
     },
     "450960": {
-        "name": "シンエアー",
+        "name": "Thin Air",
         "icon": "ability_55.png",
         "compendium_id": 20739,
         "rarity": 8,
@@ -62360,7 +62366,7 @@
         "unit_restriction": null
     },
     "450970": {
-        "name": "ランパート",
+        "name": "Rampart",
         "icon": "ability_55.png",
         "compendium_id": 20740,
         "rarity": 8,
@@ -62377,7 +62383,7 @@
         "unit_restriction": null
     },
     "450980": {
-        "name": "闘気",
+        "name": "Meditation",
         "icon": "ability_55.png",
         "compendium_id": 20741,
         "rarity": 8,
@@ -62394,7 +62400,7 @@
         "unit_restriction": null
     },
     "450990": {
-        "name": "激成魔",
+        "name": "Sharpcast",
         "icon": "ability_55.png",
         "compendium_id": 20742,
         "rarity": 8,
@@ -62408,7 +62414,7 @@
         "unit_restriction": null
     },
     "451000": {
-        "name": "センチネル(FFXIV)",
+        "name": "Sentinel (FFXIV)",
         "icon": "ability_55.png",
         "compendium_id": 20743,
         "rarity": 8,
@@ -62422,7 +62428,7 @@
         "unit_restriction": null
     },
     "451010": {
-        "name": "ルーシッドドリーム",
+        "name": "Lucid Dreaming",
         "icon": "ability_55.png",
         "compendium_id": 20744,
         "rarity": 8,
@@ -62481,7 +62487,7 @@
         "unit_restriction": null
     },
     "451050": {
-        "name": "切り裂く獄剣",
+        "name": "Inferno Splitting Saber",
         "icon": "ability_55.png",
         "compendium_id": 20748,
         "rarity": 8,
@@ -62498,7 +62504,7 @@
         "unit_restriction": null
     },
     "451051": {
-        "name": "貫く竜翼弓",
+        "name": "Piercing Dragon Wing Bow",
         "icon": "ability_55.png",
         "compendium_id": 20749,
         "rarity": 8,
@@ -62515,7 +62521,7 @@
         "unit_restriction": null
     },
     "451052": {
-        "name": "悪魔の冥杖",
+        "name": "Diabolos's Dark Rod",
         "icon": "ability_55.png",
         "compendium_id": 20750,
         "rarity": 8,
@@ -62532,7 +62538,7 @@
         "unit_restriction": null
     },
     "451053": {
-        "name": "鬼神の覇刀",
+        "name": "Fierce Goddess's Supreme Katana",
         "icon": "ability_55.png",
         "compendium_id": 20751,
         "rarity": 8,
@@ -62549,7 +62555,7 @@
         "unit_restriction": null
     },
     "451054": {
-        "name": "断ち切る氷魔刀",
+        "name": "Ice Demon's Slashing Katana",
         "icon": "ability_55.png",
         "compendium_id": 20752,
         "rarity": 8,
@@ -62566,7 +62572,7 @@
         "unit_restriction": null
     },
     "451055": {
-        "name": "剣神の闘剣",
+        "name": "Knight Rider's War Blade",
         "icon": "ability_55.png",
         "compendium_id": 20753,
         "rarity": 8,
@@ -62583,7 +62589,7 @@
         "unit_restriction": null
     },
     "451056": {
-        "name": "突撃の烈槍",
+        "name": "Wind Sprite's Furious Spear",
         "icon": "ability_55.png",
         "compendium_id": 20754,
         "rarity": 8,
@@ -62600,7 +62606,7 @@
         "unit_restriction": null
     },
     "451057": {
-        "name": "魔狼の暴銃",
+        "name": "Nightbringer Wolf's Wild Handgun",
         "icon": "ability_55.png",
         "compendium_id": 20755,
         "rarity": 8,
@@ -99524,6 +99530,76 @@
             "Increase the damage of Thunder Sword (227765) by (33x)"
         ],
         "effects_raw": [[0, 3, 1, [50,  50,  50,  50,  0,  0,  0]], [0, 3, 68, [150]], [0, 3, 72, [900000344]], [0, 3, 32, [5]], [0, 3, 73, [227765,  0,  0,  3300]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913993": {
+        "name": "Twilight Set",
+        "icon": "ability_77.png",
+        "compendium_id": 87255,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 20% when equipped with 1100000330"],
+        "effects_raw": [[0, 3, 74, [1100000330,  20,  20,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913994": {
+        "name": "Twilight Set",
+        "icon": "ability_77.png",
+        "compendium_id": 87256,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 20% when equipped with 1100000331"],
+        "effects_raw": [[0, 3, 74, [1100000331,  20,  20,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913995": {
+        "name": "Twilight Set",
+        "icon": "ability_77.png",
+        "compendium_id": 87257,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and DEF by 40% when equipped with 1100000329"],
+        "effects_raw": [[0, 3, 74, [1100000329,  40,  40,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913996": {
+        "name": "Brawler's Might",
+        "icon": "ability_95.png",
+        "compendium_id": 87258,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 60% when equipped with a Fist"],
+        "effects_raw": [[0, 3, 6, [16,  60,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "913997": {
+        "name": "Obscure Might",
+        "icon": "ability_95.png",
+        "compendium_id": 87259,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 80% when armed with a dark weapon"],
+        "effects_raw": [[0, 3, 10004, [8,  0,  0,  80,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
