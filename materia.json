@@ -4136,7 +4136,7 @@
                 "物理攻擊時提高對機械系的傷害。[無法重複裝備]",
                 "일반 공격 실행 시 기계형 마물에게 부여하는 피해량이 상승합니다 (중복 장착 불가)",
                 "Accroît les dégâts physiques infligés aux machines. Pas cumulable.",
-                "Erhöht den Schaden gegen Maschinenmonster. Nicht stapelbar.",
+                "Erhöht den Schaden gegen Maschinen. Nicht stapelbar.",
                 "Aumenta el daño infligido a monstruos mecánicos. No acumulable."
             ]
         }
@@ -18070,7 +18070,7 @@
                 "裝備火槍時提高攻擊+物理攻擊時提高對機械系魔物傷害的效果[無法重複裝備]",
                 "총 장착 시 공격력 상승+물리 공격 시 기계형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
                 "Augmente l'ATT lorsqu'un pistolet est équipé et augmente les dégâts physiques infligés aux machines (pas cumulable)",
-                "Erhöht ANG wenn mit Schusswaffe ausgerüstet und erhöht physischen Schaden gegen Maschinenmonster. (Nicht stapelbar).",
+                "Erhöht ANG wenn mit Schusswaffe ausgerüstet und erhöht physischen Schaden gegen Maschinen. (Nicht stapelbar).",
                 "Aumenta el ATQ al llevar arma de fuego y aumenta el daño físico contra máquinas (no acumulable)"
             ],
             "desc_long": [
@@ -18078,7 +18078,7 @@
                 "裝備火槍時提高攻擊，物理攻擊時提高對機械系魔物傷害的效果。[無法重複裝備]",
                 "총을 장착하면 공격력이 상승하고, 물리 공격 시 기계형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
                 "Augmente l'ATT lorsqu'un pistolet est équipé et augmente les dégâts physiques infligés aux machines. Non cumulable.",
-                "Erhöht ANG wenn mit Schusswaffe ausgerüstet und erhöht physischen Schaden gegen Maschinenmonster. (nicht stapelbar).",
+                "Erhöht ANG wenn mit Schusswaffe ausgerüstet und erhöht physischen Schaden gegen Maschinen (nicht stapelbar).",
                 "Aumenta el ATQ al llevar arma de fuego y aumenta el daño físico contra máquinas (no acumulable)."
             ]
         }
@@ -19058,7 +19058,7 @@
                 "魔法攻擊時提高對人機械系魔物的傷害",
                 "마법 공격 시, 인간과 기계형 마물에게 부여하는 피해량 상승",
                 "Augmente les dégâts magiques infligés aux hommes et aux machines",
-                "Erhöht mag. Schaden gegen Menschen und Maschinenmonster.",
+                "Erhöht mag. Schaden gegen Menschen und Maschinen.",
                 "Aumenta el daño mágico contra humanoides y máquinas"
             ],
             "desc_long": [
@@ -19066,7 +19066,7 @@
                 "魔法攻擊時，提高對人機械系魔物的傷害。",
                 "마법 공격 시, 인간과 기계형 마물에게 부여하는 피해량이 상승합니다.",
                 "Augmente les dégâts magiques infligés aux hommes et aux machines",
-                "Erhöht mag. Schaden gegen Menschen und Maschinenmonster.",
+                "Erhöht mag. Schaden gegen Menschen und Maschinen.",
                 "Aumenta el daño mágico contra humanoides y máquinas"
             ]
         }
@@ -26693,20 +26693,41 @@
         }
     },
     "504233569": {
-        "name": "フェンリルシナジー",
+        "name": "Fenrir Synergy",
         "compendium_id": 1050,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [233569],
-        "effects": ["Grants 'フェンリルシナジー' passive."],
+        "effects": ["Grants 'Fenrir Synergy' passive."],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Fenrir Synergy",
+                "芬里爾協同",
+                "펜리르 시너지",
+                "Synergie : Fenrir",
+                "Fenrir-Synergie",
+                "Sinergia de Fenril"
+            ],
+            "desc_short": [
+                "Boost HP and MP by 35%, ATK when HP is above a certain point, and parameters when setting Fenrir by 30%",
+                "提高35%HPMP+HP高於一定量時提高攻擊+提高30%設定幻獸「芬里爾」時反映在兵員身上的狀態數值",
+                "HP와 MP 35% 상승+HP가 일정량 이상일 때 공격력 상승+'펜리르' 장착 시 반영되는 능력치 30% 상승",
+                "Augmente les PV et les PM de 35 %, augmente l'ATT quand les PV sont au-dessus d'un certain seuil, et augmente les caractéristiques de 30 % quand Fenrir est attribué",
+                "Erhöht LP und MP um 35%, ANG, wenn sich LP über einem bestimmten Wert befinden, und Statuswerte beim Festlegen von Fenrir um 30%.",
+                "Aumenta la VIT y los PM un 35%, el ATQ cuando la VIT está por encima de cierto nivel, y los parámetros un 30% al vincular a Fenril"
+            ],
+            "desc_long": [
+                "Boosts HP and MP by 35%, ATK when HP is above a certain point, and parameters when setting Fenrir by 30%.",
+                "提高35%HPMP，以及HP高於一定量時提高攻擊，並且提高30%設定幻獸「芬里爾」時反映在兵員身上的狀態數值。",
+                "HP와 MP가 35% 상승하고, HP가 일정량 이상일 때 공격력이 상승하며, '펜리르' 장착 시 반영되는 능력치가 30% 상승합니다.",
+                "Augmente les PV et les PM de 35 %, augmente l'ATT quand les PV sont au-dessus d'un certain seuil, et augmente les caractéristiques de 30 % quand Fenrir est attribué",
+                "Erhöht LP und MP um 35%, ANG, wenn sich LP über einem bestimmten Wert befinden, und Statuswerte beim Festlegen von Fenrir um 30%.",
+                "Aumenta la VIT y los PM un 35%, el ATQ cuando la VIT está por encima de cierto nivel, y los parámetros un 30% al vincular a Fenril."
+            ]
         }
     },
     "504233711": {
@@ -29918,7 +29939,7 @@
                 "提高攻擊+物理攻擊時提高對機械系魔物的傷害+Just Cause 3兵員可以使用「叛亂」[無法重複裝備]",
                 "공격력 상승+물리공격 시 기계형 마물에 대한 피해량 상승+Just Cause 3 유닛 한정 '반란' 사용 가능 (중복 장착 불가)",
                 "Augmente l'ATT et les dégâts physiques infligés aux monstres de type machine, et permet d'utiliser Rébellion pour les unités de Just Cause 3 (pas cumulable)",
-                "Erhöht ANG und physischen Schaden gegen Maschinenmonster und ermöglicht Rebellion für Just Cause 3 Einheiten (Nicht stapelbar).",
+                "Erhöht ANG und physischen Schaden gegen Maschinen und ermöglicht Rebellion für Just Cause 3 Einheiten (Nicht stapelbar).",
                 "Aumenta el ATQ y el daño físico contra máquinas, y las unidades de Just Cause 3 aprenden Rebelión (no acumulable)"
             ],
             "desc_long": [
@@ -29926,7 +29947,7 @@
                 "提高攻擊，物理攻擊時提高對機械系魔物的傷害，Just Cause 3兵員可以使用「叛亂」。[無法重複裝備]",
                 "공격력이 상승하며, 물리 공격 시 기계형 마물에 대한 피해량 상승하고, Just Cause 3 유닛에 한해 '반란' 어빌리티를 사용할 수 있게 됩니다. (중복 장착 불가)",
                 "Augmente l'ATT et les dégâts physiques infligés aux monstres de type machine, et permet d'utiliser Rébellion pour les unités de Just Cause 3. Non cumulable.",
-                "Erhöht ANG und physischen Schaden gegen Maschinenmonster und ermöglicht Rebellion für Just Cause 3 Einheiten. (nicht stapelbar).",
+                "Erhöht ANG und physischen Schaden gegen Maschinen und ermöglicht Rebellion für Just Cause 3 Einheiten. (nicht stapelbar).",
                 "Aumenta el ATQ y el daño físico contra máquinas, y las unidades de Just Cause 3 aprenden Rebelión (no acumulable)."
             ]
         }
