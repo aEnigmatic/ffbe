@@ -20721,27 +20721,6 @@
             "9002004": "Festival of the Autumn Moon - ELT"
         }
     },
-    "90022": {
-        "names": [
-            "Dark Symphony",
-            "黑暗交響樂",
-            "어둠의 교향곡",
-            "Symphonie obscure",
-            "Dunkle Symphonie",
-            "Sinfonía tenebrosa"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "922",
-        "position": [0, 0],
-        "icon": "global_spd_bn_list_00024.png",
-        "missions": {
-            "9002201": "Dark Symphony - INT",
-            "9002202": "Dark Symphony - ADV",
-            "9002203": "Dark Symphony - PRO",
-            "9002204": "Dark Symphony - ELT"
-        }
-    },
     "90023": {
         "names": [
             "Eternal Winter - Battle",
@@ -22083,11 +22062,11 @@
         "position": [440, 720],
         "icon": "map_icon_92001.png",
         "missions": {
-            "9210101": null,
-            "9210102": null,
-            "9210103": null,
-            "9210104": null,
-            "9210105": null
+            "9210101": "Quest 1-1",
+            "9210102": "Quest 1-2",
+            "9210103": "Quest 1-3",
+            "9210104": "Quest 1-4",
+            "9210105": "Quest 1-5"
         }
     },
     "92102": {
@@ -22098,11 +22077,11 @@
         "position": [187, 530],
         "icon": "map_icon_92002.png",
         "missions": {
-            "9210201": null,
-            "9210202": null,
-            "9210203": null,
-            "9210204": null,
-            "9210205": null
+            "9210201": "Quest 2-1",
+            "9210202": "Quest 2-2",
+            "9210203": "Quest 2-3",
+            "9210204": "Quest 2-4",
+            "9210205": "Quest 2-5"
         }
     },
     "92103": {
@@ -22113,56 +22092,77 @@
         "position": [430, 365],
         "icon": "map_icon_92003.png",
         "missions": {
-            "9210301": null,
-            "9210302": null,
-            "9210303": null,
-            "9210304": null,
-            "9210305": null
+            "9210301": "Quest 3-1",
+            "9210302": "Quest 3-2",
+            "9210303": "Quest 3-3",
+            "9210304": "Quest 3-4",
+            "9210305": "Quest 3-5"
         }
     },
     "92201": {
-        "names": [null, null, null, null, null, null],
+        "names": [
+            "Area 1",
+            "區域1",
+            "구역 1",
+            "Zone 1",
+            "Gebiet 1",
+            "Zona 1"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "922",
         "position": [440, 720],
         "icon": "map_icon_92001.png",
         "missions": {
-            "9220101": null,
-            "9220102": null,
-            "9220103": null,
-            "9220104": null,
-            "9220105": null
+            "9220101": "Quest 1-1",
+            "9220102": "Quest 1-2",
+            "9220103": "Quest 1-3",
+            "9220104": "Quest 1-4",
+            "9220105": "Quest 1-5"
         }
     },
     "92202": {
-        "names": [null, null, null, null, null, null],
+        "names": [
+            "Area 2",
+            "區域2",
+            "구역 2",
+            "Zone 2",
+            "Gebiet 2",
+            "Zona 2"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "922",
         "position": [187, 530],
         "icon": "map_icon_92002.png",
         "missions": {
-            "9220201": null,
-            "9220202": null,
-            "9220203": null,
-            "9220204": null,
-            "9220205": null
+            "9220201": "Quest 2-1",
+            "9220202": "Quest 2-2",
+            "9220203": "Quest 2-3",
+            "9220204": "Quest 2-4",
+            "9220205": "Quest 2-5"
         }
     },
     "92203": {
-        "names": [null, null, null, null, null, null],
+        "names": [
+            "Area 3",
+            "區域3",
+            "구역 3",
+            "Zone 3",
+            "Gebiet 3",
+            "Zona 3"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "922",
         "position": [430, 365],
         "icon": "map_icon_92003.png",
         "missions": {
-            "9220301": null,
-            "9220302": null,
-            "9220303": null,
-            "9220304": null,
-            "9220305": null
+            "9220301": "Quest 3-1",
+            "9220302": "Quest 3-2",
+            "9220303": "Quest 3-3",
+            "9220304": "Quest 3-4",
+            "9220305": "Quest 3-5"
         }
     },
     "92209": {
@@ -22173,7 +22173,7 @@
         "position": [150, 720],
         "icon": "runningevent_icon_battle.png",
         "missions": {
-            "9220901": null
+            "9220901": "Story 1-1"
         }
     },
     "92301": {
@@ -23837,6 +23837,37 @@
             "10060112": "Vault of Hidden Treasures",
             "10060113": "Vault of Hidden Treasures",
             "10060114": "Vault of Hidden Treasures"
+        }
+    },
+    "100901": {
+        "names": [
+            "Vault of Hidden Treasures",
+            "秘密的寶物庫",
+            "비밀의 보물창고",
+            "Coffre aux trésors cachés",
+            "Gewölbe der verborgenen Schätze",
+            "Cámara de los Tesoros Escondidos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1009",
+        "position": [0, 0],
+        "icon": "spd_20161022_bn_list_treasurehouse.png",
+        "missions": {
+            "10090101": "Vault of Hidden Treasures",
+            "10090102": "Vault of Hidden Treasures",
+            "10090103": "Vault of Hidden Treasures",
+            "10090104": "Vault of Hidden Treasures",
+            "10090105": "Vault of Hidden Treasures",
+            "10090106": "Vault of Hidden Treasures",
+            "10090107": "Vault of Hidden Treasures",
+            "10090108": "Vault of Hidden Treasures",
+            "10090109": "Vault of Hidden Treasures",
+            "10090110": "Vault of Hidden Treasures",
+            "10090111": "Vault of Hidden Treasures",
+            "10090112": "Vault of Hidden Treasures",
+            "10090113": "Vault of Hidden Treasures",
+            "10090114": "Vault of Hidden Treasures"
         }
     },
     "111101": {
@@ -28242,59 +28273,150 @@
         }
     },
     "123101": {
+        "names": [
+            "Balma Plateau",
+            "巴爾馬高原",
+            "발마 고원",
+            "Plateau de Balma",
+            "Balma-Plateau",
+            "Meseta de Balma"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [1444, 355],
+        "icon": "map_icon_3880101_2.png",
         "missions": {
-            "12310101": null,
-            "12310102": null,
-            "12310103": null,
-            "12310104": null
+            "12310101": "Balma Plateau - A World without Color",
+            "12310102": "Balma Plateau - Naught but Shadow",
+            "12310103": "Balma Plateau - Blanched Beasts",
+            "12310104": "Balma Plateau - A Creature of Cruelty"
         }
     },
     "123102": {
+        "names": [
+            "Granado Highway",
+            "格拉納多街道",
+            "그라나도 가도",
+            "Route de Granado",
+            "Granado-Highway",
+            "Camino de Granado"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [1537, 899],
+        "icon": "map_icon_3880102_2.png",
         "missions": {
-            "12310201": null,
-            "12310202": null,
-            "12310203": null,
-            "12310204": null
+            "12310201": "Granado Highway - Lonesome Bruce",
+            "12310202": "Granado Highway - Searching for Painting Materials",
+            "12310203": "Granado Highway - Unending Cobblestones",
+            "12310204": "Granado Highway - Fly Way or the Highway"
         }
     },
     "123103": {
+        "names": [
+            "Azalea Bridge",
+            "阿扎利亞大橋",
+            "아잘리아 다리",
+            "Pont d'Azalea",
+            "Azaleenbrücke",
+            "Puente Azalea"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [1450, 1479],
+        "icon": "map_icon_3880103_2.png",
         "missions": {
-            "12310301": null,
-            "12310302": null,
-            "12310303": null,
-            "12310304": null
+            "12310301": "Azalea Bridge - To the Carriage",
+            "12310302": "Azalea Bridge - A Flood of Monsters",
+            "12310303": "Azalea Bridge - No Escape",
+            "12310304": "Azalea Bridge - Flightless and Ferocious"
         }
     },
     "123104": {
+        "names": [
+            "Cleves Flower Field",
+            "克利夫斯花田",
+            "클레브스 꽃밭",
+            "Champ de fleurs de Cleves",
+            "Cleves-Blumenfeld",
+            "Campo de flores de Cleves"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [841, 1392],
+        "icon": "map_icon_3880104_2.png",
         "missions": {
-            "12310401": null,
-            "12310402": null,
-            "12310403": null,
-            "12310404": null,
-            "12310405": null
+            "12310401": "Cleves Flower Field - Pale Petals",
+            "12310402": "Cleves Flower Field - What Once Bloomed",
+            "12310403": "Cleves Flower Field - Gray Pastures",
+            "12310404": "Cleves Flower Field - A Place of Former Renown",
+            "12310405": "Cleves Flower Field - A Mage Mad with Power"
         }
     },
     "123105": {
+        "names": [
+            "Emerald Plains",
+            "艾梅拉路德平原",
+            "에메랄드 평원",
+            "Plaines d'émeraude",
+            "Smaragdebene",
+            "Llanura esmeralda"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [377, 1218],
+        "icon": "map_icon_3880105_2.png",
         "missions": {
-            "12310501": null,
-            "12310502": null,
-            "12310503": null,
-            "12310504": null,
-            "12310505": null
+            "12310501": "Emerald Plains - Poppy's Bliss",
+            "12310502": "Emerald Plains - Rolling Fields",
+            "12310503": "Emerald Plains - Picking Wildflowers",
+            "12310504": "Emerald Plains - Hazy White Vistas",
+            "12310505": "Emerald Plains - That Which Hides in Plain Sight"
         }
     },
     "123106": {
+        "names": [
+            "Eggshell Carriageway",
+            "艾格謝爾馬車道",
+            "에그셸 마찻길",
+            "Chaussée d'Eggshell",
+            "Eierschalenfahrbahn",
+            "Calzada Cascarón"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [725, 986],
+        "icon": "map_icon_3880106_2.png",
         "missions": {
-            "12310601": null,
-            "12310602": null,
-            "12310603": null,
-            "12310604": null,
-            "12310605": null
+            "12310601": "Eggshell Carriageway - Chorale's Composure",
+            "12310602": "Eggshell Carriageway - To Schnee's Wormhole",
+            "12310603": "Eggshell Carriageway - Tidy Trees",
+            "12310604": "Eggshell Carriageway - Into the Horizon",
+            "12310605": "Eggshell Carriageway - The Horned Beast"
         }
     },
     "123107": {
+        "names": [
+            "Schnee, the Town of Hope",
+            "希望之街施內",
+            "희망의 도시 슈네",
+            "Schnee, la ville de l'espoir",
+            "Schnee, die Stadt der Hoffnung",
+            "Schnee, la ciudad de la esperanza"
+        ],
+        "world_id": 4,
+        "region_id": "43",
+        "subregion_id": "1231",
+        "position": [493, 725],
+        "icon": "map_icon_3880107_2.png",
         "missions": {
-            "12310701": null,
+            "12310701": "Schnee, the Town of Hope - Chorale, the Mastermind",
             "12310702": null,
             "12310703": null
         }
@@ -30761,29 +30883,43 @@
         }
     },
     "307801": {
-        "names": [null, null, null, null, null, null],
+        "names": [
+            "Guiding Hands",
+            "召喚獸 百腕巨人",
+            "소환수 헤카톤케일",
+            "Hécatonchire l'eidolon",
+            "Esper Hekatoncheir",
+            "El eidolón Hecatónquiro"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3078",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "30780101": null,
-            "30780102": null,
-            "30780103": null,
-            "30780104": null
+            "30780101": "Guiding Hands - INT",
+            "30780102": "Guiding Hands - ADV",
+            "30780103": "Guiding Hands - PRO",
+            "30780104": "Guiding Hands - ELT"
         }
     },
     "307901": {
-        "names": [null, null, null, null, null, null],
+        "names": [
+            "The Fifth Ark",
+            "第五方舟",
+            "피프스 아크",
+            "Cinquième arche",
+            "Die Fünfte Arche",
+            "Quinta Arca"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3079",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "30790101": null,
-            "30790102": null
+            "30790101": "The Fifth Ark",
+            "30790102": "The Fifth Ark - EXT"
         }
     },
     "308001": {
