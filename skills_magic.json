@@ -999,7 +999,7 @@
         "requirements": null
     },
     "10402": {
-        "name": "リジェネ(ホープ用)",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 4,
@@ -3529,7 +3529,7 @@
         "requirements": null
     },
     "30148": {
-        "name": "シェル(ライトニング用)",
+        "name": "Shell",
         "icon": "ability_77.png",
         "compendium_id": 215,
         "rarity": 3,
@@ -5134,6 +5134,31 @@
         ],
         "effects_raw": [[2, 2, 64, [20,  20]], [2, 2, 8, [3600,  1,  6300,  3]], [2, 2, 30, [0,  1,  120,  3]]],
         "requirements": [["SWITCH", 18583320]]
+    },
+    "40370": {
+        "name": "白銀の鉄槌",
+        "icon": "ability_5.png",
+        "compendium_id": 292,
+        "rarity": 6,
+        "cost": {"MP": 45},
+        "magic_type": "Blue",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1, 4],
+        "attack_damage": [[100], [25,  25,  25,  25]],
+        "attack_frames": [[450], [132,  142,  152,  162]],
+        "effect_frames": [[40,  40], [40,  40,  120,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            "Magic light damage (10x, SPR) to all enemies",
+            "Magic light damage (7.5x, SPR) per turn to all enemies for 10 turns"
+        ],
+        "effects_raw": [[2, 1, 103, [100,  99999,  1000]], [2, 1, 139, [4,  750,  0,  0,  10,  1,  32]]],
+        "requirements": [["SWITCH", 10910005]]
     },
     "70010": {
         "name": "Thundaga",

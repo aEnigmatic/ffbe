@@ -7071,7 +7071,7 @@
         "name": "Thunderfall",
         "compendium_id": 474,
         "compendium_shown": true,
-        "unit_restriction": [213000105, 213001005],
+        "unit_restriction": [213000105, 213001005, 250000205],
         "skills": [202470],
         "effects": ["Grants 'Thunderfall' ability."],
         "unique": false,
@@ -27479,105 +27479,231 @@
         }
     },
     "504234201": {
-        "name": "魔弓の射手",
+        "name": "Enchanting Archer",
         "compendium_id": 1077,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234201],
-        "effects": ["Grants '魔弓の射手' passive."],
-        "unique": false,
+        "effects": ["Grants 'Enchanting Archer' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_76.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Enchanting Archer",
+                "魔弓射手",
+                "마궁의 사수",
+                "Archère enchanteresse",
+                "Magische Bogenschützin",
+                "Arquera mágica"
+            ],
+            "desc_short": [
+                "Boost MAG by 60%, MAG by 20% when equipped with a bow, and equipment MAG when a single weapon is equipped in both hands (Not stackable)",
+                "提高60%魔力+裝備弓時提高20%魔力+雙手只裝備1把武器時武具魔力提升[無法重複裝備]",
+                "마력 60% 상승+활 장착 시 마력 20% 상승+양손의 장비가 무기 1개일 경우 장비의 마력 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 60 %, augmente la MAGIE de 20 % quand un arc est équipé et augmente la MAGIE de l'équipement quand une arme est tenue avec les deux mains (non cumulable)",
+                "Erhöht MAG um 60%, MAG zusätzlich um 20%, wenn mit einem Bogen ausgerüstet, und Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist (Nicht stapelbar).",
+                "Aumenta la MAG un 60%, otro 20% al llevar arco, y aumenta la MAG del equipo al llevar una sola arma en ambas manos (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts MAG by 60%, MAG by 20% when equipped with a bow, and equipment MAG when a single weapon is equipped in both hands. Not stackable.",
+                "提高60%魔力，並且裝備弓時提高20%魔力，以及雙手只裝備1把武器時武具魔力提升。[無法重複裝備]",
+                "마력이 60% 상승하고, 활 장착 시 마력이 20% 상승하며, 양손의 장비가 무기 1개일 경우 장비의 마력이 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 60 %, augmente la MAGIE de 20 % quand un arc est équipé et augmente la MAGIE de l'équipement quand une arme est tenue avec les deux mains. Non cumulable.",
+                "Erhöht MAG um 60%, MAG zusätzlich um 20%, wenn mit einem Bogen ausgerüstet, und Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta la MAG un 60%, otro 20% al llevar arco, y aumenta la MAG del equipo al llevar una sola arma en ambas manos. No acumulable."
+            ]
         }
     },
     "504234202": {
-        "name": "最後の守護者",
+        "name": "Last Guardian",
         "compendium_id": 1078,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234202],
-        "effects": ["Grants '最後の守護者' passive."],
-        "unique": false,
+        "effects": ["Grants 'Last Guardian' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Last Guardian",
+                "最後的守護者",
+                "최후의 수호자",
+                "Ultime gardien",
+                "Letzter Wächter",
+                "El último guardián"
+            ],
+            "desc_short": [
+                "Boost ATK by 80% and physical damage against dragons and machina monsters (Not stackable)",
+                "提高80%攻擊+物理攻擊時提高對龍機械系魔物的傷害[無法重複裝備]",
+                "공격력 80% 상승+물리 공격 시 드래곤과 기계형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 80 % et augmente les dégâts physiques infligés aux dragons et aux machines (non cumulable)",
+                "Erhöht ANG um 80% und physischen Schaden gegen Drachen und Maschinen (Nicht stapelbar).",
+                "Aumenta el ATQ un 80% y el daño físico contra dragones y máquinas (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts ATK by 80% and physical damage against dragons and machina monsters. Not stackable.",
+                "提高80%攻擊，並且物理攻擊時提高對龍機械系魔物的傷害。[無法重複裝備]",
+                "공격력이 80% 상승하고, 물리 공격 시 드래곤과 기계형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 80 % et augmente les dégâts physiques infligés aux dragons et aux machines. Non cumulable.",
+                "Erhöht ANG um 80% und physischen Schaden gegen Drachen und Maschinen. Nicht stapelbar.",
+                "Aumenta el ATQ un 80% y el daño físico contra dragones y máquinas. No acumulable."
+            ]
         }
     },
     "504234203": {
-        "name": "アカデミアの俊英",
+        "name": "Academia's Prodigy",
         "compendium_id": 1079,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234203],
-        "effects": ["Grants 'アカデミアの俊英' passive."],
+        "effects": ["Grants 'Academia's Prodigy' passive."],
         "unique": false,
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Academia's Prodigy",
+                "學院城的才俊",
+                "아카데미아의 수재",
+                "Prodige d'Academia",
+                "Akademias Wunderkind",
+                "Director de la Academia"
+            ],
+            "desc_short": [
+                "Boost MAG and SPR by 30% and boost LB gauge fill rate",
+                "提高30%魔力精神+提高極限技石對極限技槽的增加量",
+                "마력과 정신력 30% 상승+LB 게이지 효율 상승",
+                "Augmente la MAGIE et la PSY de 30 % et augmente le taux de remplissage de la jauge de limite",
+                "Erhöht MAG und PSY um 30% und Limitmeter füllt sich schneller.",
+                "Aumenta la MAG y el ESP un 30% y la barra de EL se rellena más rápido"
+            ],
+            "desc_long": [
+                "Boosts MAG and SPR by 30% and boosts LB gauge fill rate.",
+                "提高30%魔力精神，並且提高極限技石對極限技槽的增加量。",
+                "마력과 정신력이 30% 상승하고, LB 게이지 효율이 상승합니다.",
+                "Augmente la MAGIE et la PSY de 30 % et augmente le taux de remplissage de la jauge de limite.",
+                "Erhöht MAG sowie PSY um 30% und Limitmeter füllt sich schneller.",
+                "Aumenta la MAG y el ESP un 30% y la barra de EL se rellena más rápido."
+            ]
         }
     },
     "504234204": {
-        "name": "女神の騎士",
+        "name": "Etro's Champion",
         "compendium_id": 1080,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234204],
-        "effects": ["Grants '女神の騎士' passive."],
-        "unique": false,
+        "effects": ["Grants 'Etro's Champion' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Etro's Champion",
+                "女神的騎士",
+                "여신의 기사",
+                "Championne d'Etro",
+                "Ritterin Etros",
+                "Campeona de Etro"
+            ],
+            "desc_short": [
+                "Boost HP by 20%, and boost DEF and SPR by 40% when equipped with a sword (Not stackable)",
+                "提高20%HP+裝備劍時提高40%防禦精神[無法重複裝備]",
+                "HP 20% 상승+검 장착 시 방어력과 정신력 40% 상승 (중복 장착 불가)",
+                "Augmente les PV de 20 %, et augmente la DEF et la PSY de 40 % quand une épée est équipée (non cumulable)",
+                "Erhöht LP um 20% und ABW und PSY um 40%, wenn mit einem Schwert ausgerüstet (Nicht stapelbar).",
+                "Aumenta la VIT un 20%, y aumenta la DEF y el ESP un 40% al llevar espada (no acumulable)"
+            ],
+            "desc_long": [
+                "Boosts HP by 20%, and boosts DEF and SPR by 40% when equipped with a sword. Not stackable.",
+                "提高20%HP，以及裝備劍時提高40%防禦精神。[無法重複裝備]",
+                "HP가 20% 상승하고, 검 장착 시 방어력과 정신력이 40% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV de 20 % et augmente la DEF et la PSY de 40 % quand une épée est équipée. Non cumulable.",
+                "Erhöht LP um 20% und erhöht ABW sowie PSY um 40%, wenn mit einem Schwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta la VIT un 20% y aumenta la DEF y el ESP un 40% al llevar espada. No acumulable."
+            ]
         }
     },
     "504234205": {
-        "name": "ウォータリングアロー",
+        "name": "Water Arrow",
         "compendium_id": 1081,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234205],
-        "effects": ["Grants 'ウォータリングアロー' ability."],
+        "effects": ["Grants 'Water Arrow' ability."],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_23.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Water Arrow",
+                "水環矢",
+                "워터링 애로우",
+                "Flèche d'Eau",
+                "Wasserpfeil",
+                "Flecha de agua"
+            ],
+            "desc_short": [
+                "Deal water damage to one enemy",
+                "對1名敵人發動水屬性攻擊",
+                "적 1명에게 물속성 피해",
+                "Inflige des dégâts d'eau à un ennemi",
+                "Fügt einem Gegner Wasserschaden zu.",
+                "Daño de agua a un enemigo"
+            ],
+            "desc_long": [
+                "Deals water damage to one enemy.",
+                "對1名敵人發動水屬性攻擊。",
+                "적 1명에게 물속성 피해를 줍니다.",
+                "Inflige des dégâts d'eau à un ennemi.",
+                "Fügt einem Gegner Wasserschaden zu.",
+                "Daño de agua a un enemigo."
+            ]
         }
     },
     "504234206": {
-        "name": "エリアバリア",
+        "name": "Fringeward",
         "compendium_id": 1082,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [234206],
-        "effects": ["Grants 'エリアバリア' ability."],
+        "effects": ["Grants 'Fringeward' ability."],
         "unique": false,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_43.png",
         "strings": {
-            "names": [null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null]
+            "names": [
+                "Fringeward",
+                "區域護罩",
+                "에리어 배리어",
+                "Rempart circulaire",
+                "Flächenschutz",
+                "Barrera zonal"
+            ],
+            "desc_short": [
+                "Activate barrier for all allies",
+                "賦予全體隊員屏障效果",
+                "아군 전체에 배리어 부여",
+                "Érige une barrière autour de tous les alliés",
+                "Aktiviert Barriere für alle Verbündeten.",
+                "Activa Barrera para todos los aliados"
+            ],
+            "desc_long": [
+                "Activates barrier for all allies.",
+                "賦予全體隊員屏障效果。",
+                "아군 전체에 배리어를 부여합니다.",
+                "Érige une barrière autour de tous les alliés.",
+                "Aktiviert Barriere für alle Verbündeten.",
+                "Activa Barrera para todos los aliados."
+            ]
         }
     },
     "504234310": {
@@ -27825,7 +27951,7 @@
                 "提高40%攻擊+提高反擊系能力的發動機率",
                 "공격력 40% 상승+반격 계열 어빌리티 발동 확률 상승",
                 "Augmente l'Att de 40 % et augmente le taux d'activation des aptitudes de contre-attaque",
-                "Erhöht ANG um 40% und Aktivierungswahrscheinlichkeit von Konterfertigkeiten.",
+                "Erhöht ANG um 40% und Aktivierungs-<br>wahrscheinlichkeit von Konterfertigkeiten.",
                 "Aumenta el ATQ un 40% y la probabilidad de activar contrahabilidades"
             ],
             "desc_long": [
@@ -27984,6 +28110,575 @@
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234750": {
+        "name": "トラビアへの想い",
+        "compendium_id": 1101,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234750],
+        "effects": ["Grants 'トラビアへの想い' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234752": {
+        "name": "大切な記憶",
+        "compendium_id": 1102,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234752],
+        "effects": ["Grants '大切な記憶' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234754": {
+        "name": "属性防御ジャンクション",
+        "compendium_id": 1103,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234754],
+        "effects": ["Grants '属性防御ジャンクション' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_9.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234755": {
+        "name": "G.F.エクステンド",
+        "compendium_id": 1104,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234755],
+        "effects": ["Grants 'G.F.エクステンド' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234760": {
+        "name": "Gusty Attack",
+        "compendium_id": 1105,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234760],
+        "effects": ["Grants 'Gusty Attack' ability."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_25.png",
+        "strings": {
+            "names": [
+                "Gusty Attack",
+                "陣風攻擊",
+                "돌풍 공격",
+                "Attaque rafale",
+                "Bö-Angriff",
+                "Ataque racheado"
+            ],
+            "desc_short": [
+                "Deal wind damage and reduce wind resistance for one enemy, and boost wind resistance for all allies",
+                "對1名敵人發動風屬性攻擊+降低風屬性耐性+提高全體隊員的風屬性耐性",
+                "적 1명에게 바람속성 피해+바람속성 저항력 감소+아군 전체의 바람속성 저항력 상승",
+                "Inflige des dégâts de vent à un ennemi et réduit sa résistance au vent, et augmente la résistance au vent de tous les alliés",
+                "Fügt Windschaden zu, verringert Windresistenz eines Gegners und erhöht Windresistenz aller Verbündeten.",
+                "Daño de viento a un enemigo, reduce su resistencia al viento y aumenta la resistencia al viento de todos los aliados"
+            ],
+            "desc_long": [
+                "Deals wind damage and reduces wind resistance for one enemy, and boosts wind resistance for all allies.",
+                "對1名敵人發動風屬性攻擊，並且降低風屬性耐性，以及提高全體隊員的風屬性耐性。",
+                "적 1명에게 바람속성 피해를 주고, 바람속성 저항력을 감소시키며, 아군 전체의 바람속성 저항력이 상승합니다.",
+                "Inflige des dégâts de vent à un ennemi et réduit sa résistance au vent, et augmente la résistance au vent de tous les alliés",
+                "Fügt Windschaden zu, verringert Windresistenz eines Gegners und erhöht Windresistenz aller Verbündeten.",
+                "Daño de viento a un enemigo, reduce su resistencia al viento y aumenta la resistencia al viento de todos los aliados."
+            ]
+        }
+    },
+    "504234761": {
+        "name": "Chocobo Battalion",
+        "compendium_id": 1106,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234761],
+        "effects": ["Grants 'Chocobo Battalion' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_12.png",
+        "strings": {
+            "names": [
+                "Chocobo Battalion",
+                "陸行鳥大軍",
+                "초코보 부대",
+                "Bataillon de chocobos",
+                "Chocobo-Battalion",
+                "Escuadrón chocobo"
+            ],
+            "desc_short": [
+                "Boost HP and MP by 25%, and wind resistance by 30%",
+                "提高25%HPMP、30%風屬性耐性",
+                "HP와 MP 25% 상승+바람속성 저항력 30% 상승",
+                "Augmente les PV et les PM de 25 %, et la résistance au vent de 30 %",
+                "Erhöht LP sowie MP um 25% und Windresistenz um 30%.",
+                "Aumenta la VIT y los PM un 25% y la resistencia al viento un 30%"
+            ],
+            "desc_long": [
+                "Boosts HP and MP by 25%, and wind resistance by 30%.",
+                "提高25%HPMP、30%風屬性耐性。",
+                "HP와 MP가 25% 상승하고, 바람속성 저항력이 30% 상승합니다.",
+                "Augmente les PV et les PM de 25 %, et la résistance au vent de 30 %",
+                "Erhöht LP sowie MP um 25% und Windresistenz um 30%.",
+                "Aumenta la VIT y los PM un 25% y la resistencia al viento un 30%."
+            ]
+        }
+    },
+    "504234842": {
+        "name": "ノーウィングタグ",
+        "compendium_id": 1107,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234842],
+        "effects": ["Grants 'ノーウィングタグ' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234846": {
+        "name": "使命の継承者",
+        "compendium_id": 1108,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234846],
+        "effects": ["Grants '使命の継承者' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504234880": {
+        "name": "衝撃吸収装置H5",
+        "compendium_id": 1109,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [234880],
+        "effects": ["Grants '衝撃吸収装置H5' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_19.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235080": {
+        "name": "ハッピー最強！",
+        "compendium_id": 1110,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235080],
+        "effects": ["Grants 'ハッピー最強！' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235082": {
+        "name": "天賦の画才",
+        "compendium_id": 1111,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235082],
+        "effects": ["Grants '天賦の画才' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235120": {
+        "name": "真・断撃のグリモア",
+        "compendium_id": 1114,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235120],
+        "effects": ["Grants '真・断撃のグリモア' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235122": {
+        "name": "愛の伝道師たち",
+        "compendium_id": 1112,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235122],
+        "effects": ["Grants '愛の伝道師たち' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235124": {
+        "name": "恋の応援隊",
+        "compendium_id": 1113,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235124],
+        "effects": ["Grants '恋の応援隊' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235180": {
+        "name": "ダークバハムートシナジー",
+        "compendium_id": 1115,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235180],
+        "effects": ["Grants 'ダークバハムートシナジー' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235182": {
+        "name": "フェニックスシナジー",
+        "compendium_id": 1116,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235182],
+        "effects": ["Grants 'フェニックスシナジー' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235184": {
+        "name": "ラクシュミシナジー",
+        "compendium_id": 1117,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235184],
+        "effects": ["Grants 'ラクシュミシナジー' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_68.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235186": {
+        "name": "闇に抗う意志",
+        "compendium_id": 1118,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235186],
+        "effects": ["Grants '闇に抗う意志' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235187": {
+        "name": "討竜の力",
+        "compendium_id": 1119,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235187],
+        "effects": ["Grants '討竜の力' passive."],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235280": {
+        "name": "亡き兄への想い",
+        "compendium_id": 1120,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235280],
+        "effects": ["Grants '亡き兄への想い' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235282": {
+        "name": "幼馴染への恋心",
+        "compendium_id": 1121,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235282],
+        "effects": ["Grants '幼馴染への恋心' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235284": {
+        "name": "森の民の弓術",
+        "compendium_id": 1122,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235284],
+        "effects": ["Grants '森の民の弓術' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235286": {
+        "name": "星宮のもたらす力",
+        "compendium_id": 1123,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235286],
+        "effects": ["Grants '星宮のもたらす力' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235371": {
+        "name": "旅立ちの物語",
+        "compendium_id": 1124,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235371],
+        "effects": ["Grants '旅立ちの物語' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_78.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235372": {
+        "name": "華麗なる足技使い",
+        "compendium_id": 1125,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235372],
+        "effects": ["Grants '華麗なる足技使い' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235430": {
+        "name": "王女への忠誠心",
+        "compendium_id": 1126,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235430],
+        "effects": ["Grants '王女への忠誠心' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_41.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235432": {
+        "name": "アメイジングですわ",
+        "compendium_id": 1127,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235432],
+        "effects": ["Grants 'アメイジングですわ' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235437": {
+        "name": "アクアンクラッシュ",
+        "compendium_id": 1128,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235437],
+        "effects": ["Grants 'アクアンクラッシュ' passive."],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235500": {
+        "name": "宿命の王子",
+        "compendium_id": 1129,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235500],
+        "effects": ["Grants '宿命の王子' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235503": {
+        "name": "闇に咲く一輪花",
+        "compendium_id": 1130,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235503],
+        "effects": ["Grants '闇に咲く一輪花' passive."],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null]
+        }
+    },
+    "504235504": {
+        "name": "運命の王子",
+        "compendium_id": 1131,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [235504],
+        "effects": ["Grants '運命の王子' passive."],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
             "names": [null, null, null, null, null, null],
@@ -32995,9 +33690,9 @@
             "desc_short": [
                 "Boost equipment MAG when a single weapon is equipped in both hands (Not stackable)",
                 "雙手只裝備1把武器時武具魔力提升[無法重複裝備]",
-                "양손의 장비가 무기 1개일 경우 장비의 마력 상승 (중복 장착 불가)마",
+                "양손의 장비가 무기 1개일 경우 장비의 마력 상승 (중복 장착 불가)",
                 "Augmente la MAGIE de l'équipement quand une arme est tenue avec les deux mains (Non cumulable)",
-                "Erhöht Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist (Nicht stapelbar).MAG",
+                "Erhöht Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist (Nicht stapelbar).",
                 "Aumenta la MAG del equipo al llevar una sola arma en ambas manos (no acumulable)"
             ],
             "desc_long": [
@@ -33005,7 +33700,7 @@
                 "雙手只裝備1把武器時武具魔力提升。[無法重複裝備]",
                 "양손의 장비가 무기 1개일 경우 장비의 마력이 상승합니다. (중복 장착 불가)",
                 "Augmente la MAGIE de l'équipement quand une arme est tenue avec les deux mains. Non cumulable.",
-                "Erhöht Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet iist. Nicht stapelbar.",
+                "Erhöht Ausrüstung-MAG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist. Nicht stapelbar.",
                 "Aumenta la MAG del equipo al llevar una sola arma en ambas manos. No acumulable."
             ]
         }
