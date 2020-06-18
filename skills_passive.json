@@ -15406,7 +15406,7 @@
         "effects": ["Increase LB gauge by 2 per turn"],
         "effects_raw": [[0, 3, 33, [200]]],
         "requirements": null,
-        "unit_restriction": [208000105]
+        "unit_restriction": [208000105, 208001505]
     },
     "226639": {
         "name": "A Lion's Heart",
@@ -59666,7 +59666,7 @@
         "unit_restriction": null
     },
     "234520": {
-        "name": "最も強き者",
+        "name": "The Mightiest",
         "icon": "ability_76.png",
         "compendium_id": 8458,
         "rarity": 8,
@@ -59684,7 +59684,7 @@
         "unit_restriction": null
     },
     "234521": {
-        "name": "獅子の胎動",
+        "name": "Birth of the Lion",
         "icon": "ability_76.png",
         "compendium_id": 8459,
         "rarity": 9,
@@ -59702,7 +59702,7 @@
         "unit_restriction": null
     },
     "234522": {
-        "name": "ガンブレードの使い手【サイファー】",
+        "name": "Gunblade Wielder (Seifer)",
         "icon": "ability_76.png",
         "compendium_id": 8461,
         "rarity": 8,
@@ -59720,7 +59720,7 @@
         "unit_restriction": null
     },
     "234523": {
-        "name": "遥かなる高みへ",
+        "name": "To Greater Heights",
         "icon": "ability_76.png",
         "compendium_id": 8462,
         "rarity": 9,
@@ -59738,7 +59738,7 @@
         "unit_restriction": null
     },
     "234524": {
-        "name": "先輩SeeD",
+        "name": "SeeD Upperclassman",
         "icon": "ability_77.png",
         "compendium_id": 8467,
         "rarity": 8,
@@ -59755,7 +59755,7 @@
         "unit_restriction": null
     },
     "234525": {
-        "name": "セイブザクイーン(FFVIII)",
+        "name": "Save the Queen (FFVIII)",
         "icon": "ability_72.png",
         "compendium_id": 8468,
         "rarity": 9,
@@ -59769,7 +59769,7 @@
         "unit_restriction": null
     },
     "234526": {
-        "name": "カードマスター・キング",
+        "name": "Master King",
         "icon": "ability_88.png",
         "compendium_id": 8469,
         "rarity": 9,
@@ -59783,7 +59783,7 @@
         "unit_restriction": [208000305]
     },
     "234527": {
-        "name": "眠れる獅子",
+        "name": "The Sleeping Lion",
         "icon": "ability_78.png",
         "compendium_id": 8470,
         "rarity": 7,
@@ -59797,7 +59797,7 @@
         "unit_restriction": null
     },
     "234528": {
-        "name": "目覚めし獅子",
+        "name": "Lion Awoken",
         "icon": "ability_78.png",
         "compendium_id": 8471,
         "rarity": 8,
@@ -59814,7 +59814,7 @@
         "unit_restriction": null
     },
     "234529": {
-        "name": "風紀委員のプライド",
+        "name": "Pride of the Disciplinary Committee",
         "icon": "ability_68.png",
         "compendium_id": 8472,
         "rarity": 6,
@@ -59828,7 +59828,7 @@
         "unit_restriction": null
     },
     "234530": {
-        "name": "魔女の騎士のプライド",
+        "name": "Pride of the Sorceress' Knight",
         "icon": "ability_68.png",
         "compendium_id": 8473,
         "rarity": 7,
@@ -59842,7 +59842,7 @@
         "unit_restriction": null
     },
     "234531": {
-        "name": "回避ジャンクション",
+        "name": "Eva Junction",
         "icon": "ability_75.png",
         "compendium_id": 8474,
         "rarity": 5,
@@ -59859,7 +59859,7 @@
         "unit_restriction": null
     },
     "234532": {
-        "name": "運ジャンクション",
+        "name": "Luck Junction",
         "icon": "ability_88.png",
         "compendium_id": 8498,
         "rarity": 5,
@@ -59869,14 +59869,14 @@
         "element_inflict": null,
         "effects": [
             "Increase drop rate of rare items by 50%",
-            "Increase gil obtained by 5000%"
+            "Increase gil obtained by 100%"
         ],
-        "effects_raw": [[0, 3, 47, [0,  50]], [0, 3, 37, [5000]]],
+        "effects_raw": [[0, 3, 47, [0,  50]], [0, 3, 37, [100]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234533": {
-        "name": "ST防御ジャンクション",
+        "name": "ST-Def Junction",
         "icon": "ability_19.png",
         "compendium_id": 8460,
         "rarity": 8,
@@ -59893,7 +59893,7 @@
         "unit_restriction": null
     },
     "234548": {
-        "name": "Wトリガー",
+        "name": "Double Trigger",
         "icon": "ability_8.png",
         "compendium_id": 8483,
         "rarity": 8,
@@ -59901,13 +59901,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アジャイルエッジ (234547), アジャイルエッジ改 (800416), アンリファインドエッジ (234543), インサイシブエッジ (234540), ウィンドバレット改 (234546), サンダーバレット改 (234545), ドロー改 (234541), フレイムバレット改 (234544), ブレイブサークル (234542), 獅子猛襲 (234551) and 獅子興起 (234549) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 511730, -1, [234540,  234541,  234542,  234543,  234544,  234545,  234546,  234547,  234549,  234551,  800416], 1, 0]]],
+        "effects": ["Enable unit to use Agile Edge (234547), Agile Edge+ (800416), Brave Circle (234542), Draw+ (234541), Flame Barret+ (234544), Incisive Edge (234540), Lion's Rise (234549), Lion's Spirit (234550), Lion's Vigor (234551), Thunder Barret+ (234545), Unrefined Edge (234543) and Wind Barret+ (234546) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511730, -1, [234540,  234541,  234542,  234543,  234544,  234545,  234546,  234547,  234549,  234551,  800416,  234550], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234552": {
-        "name": "リノアへの想い",
+        "name": "Feelings for Rinoa",
         "icon": "ability_77.png",
         "compendium_id": 8487,
         "rarity": 6,
@@ -59921,7 +59921,7 @@
         "unit_restriction": null
     },
     "234553": {
-        "name": "魔女討伐の宿命",
+        "name": "Fated to Face the Sorceress",
         "icon": "ability_77.png",
         "compendium_id": 8488,
         "rarity": 6,
@@ -59938,7 +59938,7 @@
         "unit_restriction": null
     },
     "234554": {
-        "name": "選ばれし精鋭",
+        "name": "Chosen Elite",
         "icon": "ability_19.png",
         "compendium_id": 8489,
         "rarity": 7,
@@ -59952,7 +59952,7 @@
         "unit_restriction": null
     },
     "234555": {
-        "name": "G.F.改【スコール】",
+        "name": "GF+ (Squall)",
         "icon": "ability_77.png",
         "compendium_id": 8490,
         "rarity": 7,
@@ -59970,7 +59970,7 @@
         "unit_restriction": null
     },
     "234556": {
-        "name": "バラムガーデンの実力者【スコール】",
+        "name": "Balamb Garden's Strongest (Squall)",
         "icon": "ability_79.png",
         "compendium_id": 8491,
         "rarity": 7,
@@ -59987,7 +59987,7 @@
         "unit_restriction": null
     },
     "234557": {
-        "name": "力ジャンクション【スコール】",
+        "name": "Str Junction (Squall)",
         "icon": "ability_76.png",
         "compendium_id": 8492,
         "rarity": 8,
@@ -60005,7 +60005,7 @@
         "unit_restriction": null
     },
     "234558": {
-        "name": "額の傷【スコール】",
+        "name": "Scarred Brow (Squall)",
         "icon": "ability_41.png",
         "compendium_id": 8493,
         "rarity": 9,
@@ -60022,7 +60022,7 @@
         "unit_restriction": null
     },
     "234559": {
-        "name": "孤高の若獅子・改",
+        "name": "Orphaned Cub+",
         "icon": "ability_68.png",
         "compendium_id": 8494,
         "rarity": 8,
@@ -60032,15 +60032,15 @@
         "element_inflict": null,
         "effects": [
             "Increase the limit burst gauge fill rate by 50%",
-            "60% chance to counter physical attacks with 反撃の獅子 (511734) to caster (max 1 / turn)",
-            "60% chance to counter magic attacks with 反撃の獅子 (511734) to caster (max 1 / turn)"
+            "60% chance to counter physical attacks with Lion's Counter (511734) to caster (max 1 / turn)",
+            "60% chance to counter magic attacks with Lion's Counter (511734) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 31, [50]], [0, 3, 49, [60,  3,  511734,  1]], [0, 3, 50, [60,  3,  511734,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234560": {
-        "name": "SeeDのプライド",
+        "name": "Pride of SeeD",
         "icon": "ability_77.png",
         "compendium_id": 8495,
         "rarity": 8,
@@ -60057,7 +60057,7 @@
         "unit_restriction": null
     },
     "234561": {
-        "name": "初めて見せた笑顔",
+        "name": "His First Smile",
         "icon": "ability_76.png",
         "compendium_id": 8496,
         "rarity": 8,
@@ -60069,15 +60069,15 @@
             "Increase DEF and SPR by 40%, ATK and HP by 20% and MP by 10%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase the damage of ウィンドバレット改 (234546), サンダーバレット改 (234545) and フレイムバレット改 (234544) by (4x)",
-            "Increase the damage of アジャイルエッジ (234547) by (9x)"
+            "Increase the damage of Flame Barret+ (234544), Thunder Barret+ (234545) and Wind Barret+ (234546) by (4x)",
+            "Increase the damage of Agile Edge (234547) by (9x)"
         ],
         "effects_raw": [[0, 3, 1, [20,  40,  0,  40,  20,  10,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 73, [[234544,  234545,  234546], 0, 0, 400]], [0, 3, 73, [234547,  0,  0,  900]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234562": {
-        "name": "Tトリガー",
+        "name": "Triple Trigger",
         "icon": "ability_8.png",
         "compendium_id": 8497,
         "rarity": 9,
@@ -60085,13 +60085,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アジャイルエッジ (234547), アジャイルエッジ改 (800416), アンリファインドエッジ (234543), インサイシブエッジ (234540), ウィンドバレット改 (234546), サンダーバレット改 (234545), ドロー改 (234541), フレイムバレット改 (234544), ブレイブサークル (234542), 獅子猛襲 (234551) and 獅子興起 (234549) 3 times in one turn"],
-        "effects_raw": [[0, 3, 53, [3, 511735, -1, [234540,  234541,  234542,  234543,  234544,  234545,  234546,  234547,  234549,  234551,  800416], 1, 0]]],
+        "effects": ["Enable unit to use Agile Edge (234547), Agile Edge+ (800416), Brave Circle (234542), Draw+ (234541), Flame Barret+ (234544), Incisive Edge (234540), Lion's Rise (234549), Lion's Spirit (234550), Lion's Vigor (234551), Thunder Barret+ (234545), Unrefined Edge (234543) and Wind Barret+ (234546) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 511735, -1, [234540,  234541,  234542,  234543,  234544,  234545,  234546,  234547,  234549,  234551,  800416,  234550], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234578": {
-        "name": "W始末剣",
+        "name": "Double Fire Cross",
         "icon": "ability_8.png",
         "compendium_id": 8507,
         "rarity": 8,
@@ -60099,13 +60099,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use グラウンドバレット (234574), ダークネスバレット (234575), ドロー改 (234571), 不死剣 (800418), 夜叉斬り (234573), 岩砕八閃 (234577), 暗黒斬り (234576), 血祭り (234570), 騎士奮起 (234580), 騎士強襲 (234582), 騎士躍動 (234581) and 鬼斬り (234572) twice in one turn"],
+        "effects": ["Enable unit to use Bloodfest (FFVIII) (234570), Darkest Cut (234576), Darkness Barret (234575), Demon Slice (234572), Draw+ (234571), Earth Shatter (234577), Ground Barret (234574), Immortal Blade (800418), Knight's Assault (234582), Knight's Rouse (234580), Knight's Vitality (234581) and Yaksha Slice (234573) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 511736, -1, [234570,  234571,  234572,  234573,  234574,  234575,  234576,  234577,  234580,  234581,  234582,  800418], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234579": {
-        "name": "T始末剣",
+        "name": "Triple Fire Cross",
         "icon": "ability_8.png",
         "compendium_id": 8508,
         "rarity": 9,
@@ -60113,13 +60113,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use グラウンドバレット (234574), ダークネスバレット (234575), ドロー改 (234571), 不死剣 (800418), 夜叉斬り (234573), 岩砕八閃 (234577), 暗黒斬り (234576), 血祭り (234570), 騎士奮起 (234580), 騎士強襲 (234582), 騎士躍動 (234581) and 鬼斬り (234572) 3 times in one turn"],
+        "effects": ["Enable unit to use Bloodfest (FFVIII) (234570), Darkest Cut (234576), Darkness Barret (234575), Demon Slice (234572), Draw+ (234571), Earth Shatter (234577), Ground Barret (234574), Immortal Blade (800418), Knight's Assault (234582), Knight's Rouse (234580), Knight's Vitality (234581) and Yaksha Slice (234573) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 511737, -1, [234570,  234571,  234572,  234573,  234574,  234575,  234576,  234577,  234580,  234581,  234582,  800418], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234583": {
-        "name": "風神&雷神との絆",
+        "name": "Bonds with Fujin & Raijin",
         "icon": "ability_97.png",
         "compendium_id": 8512,
         "rarity": 6,
@@ -60136,7 +60136,7 @@
         "unit_restriction": null
     },
     "234584": {
-        "name": "ホネのあるやつリスト",
+        "name": "Added to the List",
         "icon": "ability_97.png",
         "compendium_id": 8513,
         "rarity": 6,
@@ -60153,7 +60153,7 @@
         "unit_restriction": null
     },
     "234585": {
-        "name": "ガルバディア軍司令",
+        "name": "Head of the Galbadian Army",
         "icon": "ability_19.png",
         "compendium_id": 8514,
         "rarity": 7,
@@ -60167,7 +60167,7 @@
         "unit_restriction": null
     },
     "234586": {
-        "name": "G.F.改【サイファー】",
+        "name": "GF+ (Seifer)",
         "icon": "ability_77.png",
         "compendium_id": 8515,
         "rarity": 7,
@@ -60185,7 +60185,7 @@
         "unit_restriction": null
     },
     "234587": {
-        "name": "バラムガーデンの実力者【サイファー】",
+        "name": "Balamb Garden's Strongest (Seifer)",
         "icon": "ability_79.png",
         "compendium_id": 8516,
         "rarity": 7,
@@ -60202,7 +60202,7 @@
         "unit_restriction": null
     },
     "234588": {
-        "name": "力ジャンクション【サイファー】",
+        "name": "Str Junction (Seifer)",
         "icon": "ability_76.png",
         "compendium_id": 8517,
         "rarity": 8,
@@ -60220,7 +60220,7 @@
         "unit_restriction": null
     },
     "234589": {
-        "name": "ロ～～～マンティックな夢",
+        "name": "My ROMANTIC dream!",
         "icon": "ability_76.png",
         "compendium_id": 8518,
         "rarity": 9,
@@ -60233,14 +60233,14 @@
             "20% chance of evading physical attacks",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase the damage of 暗黒斬り (234576) by (8x)"
+            "Increase the damage of Darkest Cut (234576) by (8x)"
         ],
         "effects_raw": [[0, 3, 1, [30,  40,  0,  0,  20,  0,  0]], [0, 3, 22, [20]], [0, 3, 13, [50,  25,  2]], [0, 3, 73, [234576,  0,  0,  800]]],
         "requirements": [["EQUIP", 504234522], ["EQUIP", 303008000]],
         "unit_restriction": null
     },
     "234590": {
-        "name": "魔女の騎士【サイファー】",
+        "name": "Sorceress' Knight (Seifer)",
         "icon": "ability_68.png",
         "compendium_id": 8519,
         "rarity": 8,
@@ -60250,15 +60250,15 @@
         "element_inflict": null,
         "effects": [
             "Increase the limit burst gauge fill rate by 50%",
-            "60% chance to counter physical attacks with 斬鉄剣返し (511743) to caster (max 1 / turn)",
-            "60% chance to counter magic attacks with 斬鉄剣返し (511743) to caster (max 1 / turn)"
+            "60% chance to counter physical attacks with Zantetsuken Reverse (511743) to caster (max 1 / turn)",
+            "60% chance to counter magic attacks with Zantetsuken Reverse (511743) to caster (max 1 / turn)"
         ],
         "effects_raw": [[0, 3, 31, [50]], [0, 3, 49, [60,  3,  511743,  1]], [0, 3, 50, [60,  3,  511743,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234591": {
-        "name": "額の傷【サイファー】",
+        "name": "Scarred Brow (Seifer)",
         "icon": "ability_77.png",
         "compendium_id": 8520,
         "rarity": 8,
@@ -60275,7 +60275,7 @@
         "unit_restriction": null
     },
     "234592": {
-        "name": "勝利への執念",
+        "name": "Drive to Win",
         "icon": "ability_76.png",
         "compendium_id": 8521,
         "rarity": 8,
@@ -60287,15 +60287,15 @@
             "Increase DEF by 40%, SPR by 30% and ATK, HP and MP by 20%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase the damage of グラウンドバレット (234574) and ダークネスバレット (234575) by (5x)",
-            "Increase the damage of 暗黒斬り (234576) by (10x)"
+            "Increase the damage of Darkness Barret (234575) and Ground Barret (234574) by (5x)",
+            "Increase the damage of Darkest Cut (234576) by (10x)"
         ],
         "effects_raw": [[0, 3, 1, [20,  40,  0,  30,  20,  20,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 73, [[234574,  234575], 0, 0, 500]], [0, 3, 73, [234576,  0,  0,  1000]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234608": {
-        "name": "サイファー派の団結",
+        "name": "Seifer's Posse",
         "icon": "ability_72.png",
         "compendium_id": 8530,
         "rarity": 5,
@@ -60312,7 +60312,7 @@
         "unit_restriction": null
     },
     "234609": {
-        "name": "麗しの風紀委員",
+        "name": "Graceful Committee Member",
         "icon": "ability_12.png",
         "compendium_id": 8531,
         "rarity": 6,
@@ -60329,7 +60329,7 @@
         "unit_restriction": null
     },
     "234610": {
-        "name": "屈強な風紀委員",
+        "name": "Brawny Committee Member",
         "icon": "ability_13.png",
         "compendium_id": 8532,
         "rarity": 6,
@@ -60346,7 +60346,7 @@
         "unit_restriction": null
     },
     "234611": {
-        "name": "G.F.―パンデモニウム―",
+        "name": "GF -Pandemona-",
         "icon": "ability_77.png",
         "compendium_id": 8533,
         "rarity": 7,
@@ -60365,7 +60365,7 @@
         "unit_restriction": null
     },
     "234612": {
-        "name": "さよならププルン",
+        "name": "Goodbye, Pupurun",
         "icon": "ability_72.png",
         "compendium_id": 8534,
         "rarity": 7,
@@ -60383,7 +60383,7 @@
         "unit_restriction": null
     },
     "234633": {
-        "name": "才色兼備",
+        "name": "Brains and Beauty",
         "icon": "ability_72.png",
         "compendium_id": 8548,
         "rarity": 6,
@@ -60400,7 +60400,7 @@
         "unit_restriction": null
     },
     "234634": {
-        "name": "若き女教官",
+        "name": "Youthful Educator",
         "icon": "ability_77.png",
         "compendium_id": 8549,
         "rarity": 6,
@@ -60414,7 +60414,7 @@
         "unit_restriction": null
     },
     "234635": {
-        "name": "SeeD合格最年少記録",
+        "name": "Youngest SeeD on Record",
         "icon": "ability_77.png",
         "compendium_id": 8550,
         "rarity": 6,
@@ -60428,7 +60428,7 @@
         "unit_restriction": null
     },
     "234636": {
-        "name": "秘密の特技",
+        "name": "Secret Technique",
         "icon": "ability_77.png",
         "compendium_id": 8551,
         "rarity": 7,
@@ -60442,7 +60442,7 @@
         "unit_restriction": null
     },
     "234637": {
-        "name": "青魔法の使い手",
+        "name": "Blue Mage",
         "icon": "ability_78.png",
         "compendium_id": 8552,
         "rarity": 7,
@@ -60460,7 +60460,7 @@
         "unit_restriction": null
     },
     "234638": {
-        "name": "淡い恋の記憶",
+        "name": "Fleeting Memories of Love",
         "icon": "ability_91.png",
         "compendium_id": 8553,
         "rarity": 8,
@@ -60478,7 +60478,7 @@
         "unit_restriction": null
     },
     "234639": {
-        "name": "華麗なる鞭使い",
+        "name": "Elegant Whip Wielder",
         "icon": "ability_72.png",
         "compendium_id": 8554,
         "rarity": 9,
@@ -60495,7 +60495,7 @@
         "unit_restriction": null
     },
     "234640": {
-        "name": "最年少教員免許取得者",
+        "name": "Youngest Licensed Instructor",
         "icon": "ability_77.png",
         "compendium_id": 8555,
         "rarity": 8,
@@ -60509,7 +60509,7 @@
         "unit_restriction": null
     },
     "234641": {
-        "name": "トゥリープFCの応援",
+        "name": "Trepies Forever",
         "icon": "ability_77.png",
         "compendium_id": 8556,
         "rarity": 8,
@@ -60519,7 +60519,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF by 40% and MAG and HP by 20%",
-            "Use 才媛の本領 (511752) at the start of a battle or when revived"
+            "Use Pretty Prodigy (511752) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  20,  0,  20,  0,  0]], [0, 3, 56, [511752]]],
         "requirements": null,
@@ -77599,7 +77599,7 @@
         "effects": [
             "Increase ATK, DEF and SPR by 30%",
             "Increase LB damage by 50%",
-            "Increase the damage of Big Bang (508704), Chikei (228732), Fukei (228733), Kakei (228731), Kokei (228735), Suikei (228734), Yamikei (228736), 超武技闇勁+1 (707931) and 超武技闇勁+2 (707932) by (4x)",
+            "Increase the damage of Big Bang (508704), Chikei (228732), Fukei (228733), Kakei (228731), Kokei (228735), Suikei (228734), Yamikei (228736), Yamikei+1 (707931) and Yamikei+2 (707932) by (4x)",
             "Increase LB gauge by 4 per turn"
         ],
         "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [[228731,  228732,  228733,  228734,  228735,  228736,  508704,  707931,  707932], 0, 0, 400]], [0, 3, 33, [400]]],
@@ -84103,7 +84103,7 @@
         "unit_restriction": null
     },
     "800417": {
-        "name": "ガンブレードの使い手・改【スコール】",
+        "name": "Gunblade Wielder+ (Squall)",
         "icon": "ability_76.png",
         "compendium_id": 418,
         "rarity": 9,
@@ -84122,7 +84122,7 @@
         "unit_restriction": null
     },
     "800419": {
-        "name": "ガンブレードの使い手・改【サイファー】",
+        "name": "Gunblade Wielder+ (Seifer)",
         "icon": "ability_76.png",
         "compendium_id": 420,
         "rarity": 9,
@@ -84135,14 +84135,14 @@
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "10% chance of evading physical attacks",
-            "Replace LB with 雑魚散らし (900000358):\n\tCast Death (61%) or deal physical damage (30x * 1 = 30x, ATK) to all enemies\n\tReduce DEF by 70% for 3 turns to all enemies"
+            "Replace LB with No Mercy (900000358):\n\tCast Death (61%) or deal physical damage (30x * 1 = 30x, ATK) to all enemies\n\tReduce DEF by 70% for 3 turns to all enemies"
         ],
         "effects_raw": [[0, 3, 1, [20,  0,  0,  20,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 22, [10]], [0, 3, 72, [900000358]]],
         "requirements": null,
         "unit_restriction": null
     },
     "800421": {
-        "name": "華麗なる鞭使い・改",
+        "name": "Elegant Whip Wielder+",
         "icon": "ability_72.png",
         "compendium_id": 422,
         "rarity": 9,
@@ -84177,7 +84177,7 @@
         "unit_restriction": null
     },
     "800425": {
-        "name": "ぺらぺらな仲間じゃないもんよ！",
+        "name": "We Ain't No Sell-Outs!",
         "icon": "ability_77.png",
         "compendium_id": 426,
         "rarity": 8,
