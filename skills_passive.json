@@ -11802,7 +11802,7 @@
         "unit_restriction": null
     },
     "220810": {
-        "name": "W魔法剣",
+        "name": "Double Spellblade",
         "icon": "ability_8.png",
         "compendium_id": 2141,
         "rarity": 8,
@@ -55776,7 +55776,7 @@
         "unit_restriction": null
     },
     "233904": {
-        "name": "青魔法の秘訣",
+        "name": "Secrets of Blue Magic",
         "icon": "ability_91.png",
         "compendium_id": 7970,
         "rarity": 8,
@@ -55793,7 +55793,7 @@
         "unit_restriction": null
     },
     "233905": {
-        "name": "希望の青魔道士",
+        "name": "Hopeful Blue Mage",
         "icon": "ability_99.png",
         "compendium_id": 7971,
         "rarity": 8,
@@ -61101,7 +61101,7 @@
         "unit_restriction": null
     },
     "234750": {
-        "name": "トラビアへの想い",
+        "name": "Love for Trabia",
         "icon": "ability_72.png",
         "compendium_id": 8627,
         "rarity": 9,
@@ -61110,16 +61110,17 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase MAG by 20%",
+            "Increase MAG by 50%",
             "Enable unit to equip two one-handed weapons",
-            "Increase equipment MAG by 50% when armed with two weapons"
+            "Increase equipment MAG by 50% when armed with two weapons",
+            "Increase MAG by 30% when equipped with a Fist"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]], [0, 3, 14, ["none"]], [0, 3, 69, [3,  50,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 14, ["none"]], [0, 3, 69, [3,  50,  0]], [0, 3, 6, [16,  0,  0,  30,  0,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234751": {
-        "name": "ビスマルク(FFVIII)",
+        "name": "Bismarck (FFVIII)",
         "icon": "ability_78.png",
         "compendium_id": 8628,
         "rarity": 8,
@@ -61127,13 +61128,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Increase LB damage by 10%"],
-        "effects_raw": [[0, 3, 68, [10]]],
+        "effects": ["Increase LB damage by 30%"],
+        "effects_raw": [[0, 3, 68, [30]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234752": {
-        "name": "大切な記憶",
+        "name": "Valued Memories",
         "icon": "ability_79.png",
         "compendium_id": 8629,
         "rarity": 9,
@@ -61151,7 +61152,7 @@
         "unit_restriction": null
     },
     "234753": {
-        "name": "弾道計算",
+        "name": "Calculated Ballistics",
         "icon": "ability_95.png",
         "compendium_id": 8630,
         "rarity": 7,
@@ -61165,7 +61166,7 @@
         "unit_restriction": null
     },
     "234754": {
-        "name": "属性防御ジャンクション",
+        "name": "Elem-Def Junction",
         "icon": "ability_9.png",
         "compendium_id": 8631,
         "rarity": 7,
@@ -61179,7 +61180,7 @@
         "unit_restriction": null
     },
     "234755": {
-        "name": "G.F.エクステンド",
+        "name": "GF Extension",
         "icon": "ability_77.png",
         "compendium_id": 8632,
         "rarity": 7,
@@ -61196,7 +61197,7 @@
         "unit_restriction": null
     },
     "234757": {
-        "name": "狙撃手のプライド",
+        "name": "A Sharpshooter's Pride",
         "icon": "ability_75.png",
         "compendium_id": 8634,
         "rarity": 6,
@@ -61247,7 +61248,7 @@
         "unit_restriction": null
     },
     "234780": {
-        "name": "ダブル【セルフィ】",
+        "name": "Double (Selphie)",
         "icon": "ability_8.png",
         "compendium_id": 8649,
         "rarity": 8,
@@ -61255,13 +61256,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use おうえん【VIII】 (234778), まみむめも！ (234775), インテンスウォータ (234770), インテンスクエイク (234771), エクストリームウォタガ (234782), エクストリームクエイガ (234783), オーラ【セルフィ】 (234779), スロット【VIII】 (234785), スロット・ウォータ (511842), スロット・ウォール (511840), スロット・カタストロフ (511845), スロット・クエイク (511843), スロット・ジエンド (511844), スロット・パーセント (511841), スロット・フルケア (511838), スロット・レビテガ (511839), トラビアの光 (234773), トラビアの祈り (234774), フュリアスウォタラ (234776), フュリアスクエイラ (234777), メルトン【VIII】 (234786), 本気出したろ～！ (800426) and 準備オッケィ～ (234784) twice in one turn"],
+        "effects": ["Enable unit to use Aura (Selphie) (234779), Boost (FFVIII) (234778), Booyaka! (234775), Extreme Quakega (234783), Extreme Waterga (234782), Furious Quakera (234777), Furious Watera (234776), I'm Gettin' Serious! (800426), Intense Quake (234771), Intense Water (234770), Meltdown (FFVIII) (234786), Rrready! (234784), Slot (FFVIII) (234785), Slot - Catastrophe (511845), Slot - Demi (511841), Slot - Full-cure (511838), Slot - Quake (511843), Slot - Rapture (511839), Slot - The End (511844), Slot - Wall (511840), Slot - Water (511842), Trabia's Light (234773) and Trabia's Prayer (234774) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 511830, -1, [234770,  234771,  234773,  234774,  234775,  234776,  234777,  234778,  234779,  234782,  234783,  234784,  234785,  234786,  511838,  511839,  511840,  511841,  511842,  511843,  511844,  511845,  800426], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234781": {
-        "name": "トリプル【セルフィ】",
+        "name": "Triple (Selphie)",
         "icon": "ability_8.png",
         "compendium_id": 8650,
         "rarity": 9,
@@ -61269,13 +61270,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use おうえん【VIII】 (234778), まみむめも！ (234775), インテンスウォータ (234770), インテンスクエイク (234771), エクストリームウォタガ (234782), エクストリームクエイガ (234783), オーラ【セルフィ】 (234779), スロット【VIII】 (234785), スロット・ウォータ (511842), スロット・ウォール (511840), スロット・カタストロフ (511845), スロット・クエイク (511843), スロット・ジエンド (511844), スロット・パーセント (511841), スロット・フルケア (511838), スロット・レビテガ (511839), トラビアの光 (234773), トラビアの祈り (234774), フュリアスウォタラ (234776), フュリアスクエイラ (234777), メルトン【VIII】 (234786), 本気出したろ～！ (800426) and 準備オッケィ～ (234784) 3 times in one turn"],
+        "effects": ["Enable unit to use Aura (Selphie) (234779), Boost (FFVIII) (234778), Booyaka! (234775), Extreme Quakega (234783), Extreme Waterga (234782), Furious Quakera (234777), Furious Watera (234776), I'm Gettin' Serious! (800426), Intense Quake (234771), Intense Water (234770), Meltdown (FFVIII) (234786), Rrready! (234784), Slot (FFVIII) (234785), Slot - Catastrophe (511845), Slot - Demi (511841), Slot - Full-cure (511838), Slot - Quake (511843), Slot - Rapture (511839), Slot - The End (511844), Slot - Wall (511840), Slot - Water (511842), Trabia's Light (234773) and Trabia's Prayer (234774) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 511831, -1, [234770,  234771,  234773,  234774,  234775,  234776,  234777,  234778,  234779,  234782,  234783,  234784,  234785,  234786,  511838,  511839,  511840,  511841,  511842,  511843,  511844,  511845,  800426], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234787": {
-        "name": "元気溌剌",
+        "name": "Pepper Upper",
         "icon": "ability_78.png",
         "compendium_id": 8656,
         "rarity": 6,
@@ -61292,7 +61293,7 @@
         "unit_restriction": null
     },
     "234788": {
-        "name": "バラムガーデンの転校生",
+        "name": "Balamb Garden Transfer Student",
         "icon": "ability_77.png",
         "compendium_id": 8657,
         "rarity": 6,
@@ -61309,7 +61310,7 @@
         "unit_restriction": null
     },
     "234789": {
-        "name": "A班伝令係",
+        "name": "Squad A's Messenger",
         "icon": "ability_19.png",
         "compendium_id": 8658,
         "rarity": 7,
@@ -61323,7 +61324,7 @@
         "unit_restriction": null
     },
     "234790": {
-        "name": "G.F.改【セルフィ】",
+        "name": "GF+ (Selphie)",
         "icon": "ability_91.png",
         "compendium_id": 8659,
         "rarity": 7,
@@ -61341,7 +61342,7 @@
         "unit_restriction": null
     },
     "234791": {
-        "name": "憧れのラグナ様",
+        "name": "The Great Sir Laguna",
         "icon": "ability_79.png",
         "compendium_id": 8660,
         "rarity": 7,
@@ -61358,7 +61359,7 @@
         "unit_restriction": null
     },
     "234792": {
-        "name": "ヌンチャクの使い手",
+        "name": "Nunchaku Wielder",
         "icon": "ability_72.png",
         "compendium_id": 8661,
         "rarity": 8,
@@ -61377,7 +61378,7 @@
         "unit_restriction": null
     },
     "234793": {
-        "name": "セルフィバンド",
+        "name": "Selphie's Band",
         "icon": "ability_78.png",
         "compendium_id": 8662,
         "rarity": 9,
@@ -61394,7 +61395,7 @@
         "unit_restriction": null
     },
     "234794": {
-        "name": "学園祭実行委員長",
+        "name": "Garden Festival Committee Head",
         "icon": "ability_72.png",
         "compendium_id": 8663,
         "rarity": 8,
@@ -61405,16 +61406,16 @@
         "effects": [
             "Increase equipment MAG by 50% when armed with two weapons",
             "Increase equipment MAG by 50% when armed with a single weapon",
-            "Increase the damage of まみむめも！ (234775), インテンスウォータ (234770) and インテンスクエイク (234771) by (20x)",
-            "Increase the damage of エクストリーム skills  [ウォタガ (234782) / クエイガ (234783)] by (13x)",
-            "Use はりきっていこう！ (511848) at the start of a battle or when revived"
+            "Increase the damage of Booyaka! (234775), Intense Quake (234771) and Intense Water (234770) by (20x)",
+            "Increase the damage of Extreme skills  [Quakega (234783) / Waterga (234782)] by (13x)",
+            "Use Let's Just Concentrate! (511848) at the start of a battle or when revived"
         ],
         "effects_raw": [[0, 3, 69, [3,  50,  0]], [0, 3, 70, [50,  0,  2]], [0, 3, 73, [[234770,  234771,  234775], 0, 0, 2000]], [0, 3, 73, [[234782,  234783], 0, 0, 1300]], [0, 3, 56, [511848]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234806": {
-        "name": "Wショット【VIII】",
+        "name": "Double Shot (FFVIII)",
         "icon": "ability_8.png",
         "compendium_id": 8670,
         "rarity": 8,
@@ -61422,13 +61423,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アーマーショット (234818), エンハンスショット (234809), キャニスターショット (234802), クイックショット (234803), グラベルショット (800428), グレープショット (234801), ダークショット (234805), ノーマルショット (234800), フレイムショット (234804) and 狙撃スタンバイ (234808) twice in one turn"],
+        "effects": ["Enable unit to use Armor Shot (234818), Canister Shot (234802), Dark Shot (234805), Enhanced Shot (234809), Flame Shot (FFVIII) (234804), Gravel Shot (800428), Normal Shot (234800), Quick Shot (FFVIII) (234803), Scatter Shot (234801) and Sniper on Standby (234808) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 511850, -1, [234800,  234801,  234802,  234803,  234804,  234805,  234808,  234809,  234818,  800428], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234807": {
-        "name": "Tショット【VIII】",
+        "name": "Triple Shot (FFVIII)",
         "icon": "ability_8.png",
         "compendium_id": 8671,
         "rarity": 9,
@@ -61436,13 +61437,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アーマーショット (234818), エンハンスショット (234809), キャニスターショット (234802), クイックショット (234803), グラベルショット (800428), グレープショット (234801), ダークショット (234805), ノーマルショット (234800), フレイムショット (234804) and 狙撃スタンバイ (234808) 3 times in one turn"],
+        "effects": ["Enable unit to use Armor Shot (234818), Canister Shot (234802), Dark Shot (234805), Enhanced Shot (234809), Flame Shot (FFVIII) (234804), Gravel Shot (800428), Normal Shot (234800), Quick Shot (FFVIII) (234803), Scatter Shot (234801) and Sniper on Standby (234808) 3 times in one turn"],
         "effects_raw": [[0, 3, 53, [3, 511851, -1, [234800,  234801,  234802,  234803,  234804,  234805,  234808,  234809,  234818,  800428], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234810": {
-        "name": "孤独を知る者",
+        "name": "Key to Solitude",
         "icon": "ability_77.png",
         "compendium_id": 8674,
         "rarity": 6,
@@ -61456,7 +61457,7 @@
         "unit_restriction": null
     },
     "234811": {
-        "name": "繊細なハート",
+        "name": "Fragile Psyche",
         "icon": "ability_91.png",
         "compendium_id": 8675,
         "rarity": 6,
@@ -61473,7 +61474,7 @@
         "unit_restriction": null
     },
     "234812": {
-        "name": "軽薄な男という仮面",
+        "name": "A Flirt on the Outside",
         "icon": "ability_78.png",
         "compendium_id": 8676,
         "rarity": 7,
@@ -61490,7 +61491,7 @@
         "unit_restriction": null
     },
     "234813": {
-        "name": "がんばれ、僕",
+        "name": "I'm So Brilliant",
         "icon": "ability_19.png",
         "compendium_id": 8677,
         "rarity": 7,
@@ -61508,7 +61509,7 @@
         "unit_restriction": null
     },
     "234814": {
-        "name": "バトル野郎の一員",
+        "name": "One of the Warmongers",
         "icon": "ability_76.png",
         "compendium_id": 8678,
         "rarity": 8,
@@ -61526,7 +61527,7 @@
         "unit_restriction": null
     },
     "234815": {
-        "name": "超一流の狙撃手",
+        "name": "Top-Class Sniper",
         "icon": "ability_76.png",
         "compendium_id": 8679,
         "rarity": 9,
@@ -61544,7 +61545,7 @@
         "unit_restriction": null
     },
     "234816": {
-        "name": "G.F.改【アーヴァイン】",
+        "name": "GF+ (Irvine)",
         "icon": "ability_77.png",
         "compendium_id": 8680,
         "rarity": 8,
@@ -61561,7 +61562,7 @@
         "unit_restriction": null
     },
     "234817": {
-        "name": "重圧を乗り越えた者",
+        "name": "Overcoming Pressure",
         "icon": "ability_77.png",
         "compendium_id": 8681,
         "rarity": 8,
@@ -61571,8 +61572,8 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and HP by 30% and DEF by 20%",
-            "Increase the damage of グラベルショット (800428), ダークショット (234805) and フレイムショット (234804) by (14x)",
-            "Increase the damage of クイックショット (234803) by (5x)",
+            "Increase the damage of Dark Shot (234805), Flame Shot (FFVIII) (234804) and Gravel Shot (800428) by (14x)",
+            "Increase the damage of Quick Shot (FFVIII) (234803) by (5x)",
             "Increase LB damage by 25%"
         ],
         "effects_raw": [[0, 3, 1, [30,  20,  0,  0,  30,  0,  0]], [0, 3, 73, [[234804,  234805,  800428], 0, 0, 1400]], [0, 3, 73, [234803,  0,  0,  500]], [0, 3, 68, [25]]],
@@ -61580,7 +61581,7 @@
         "unit_restriction": null
     },
     "234823": {
-        "name": "ダブル【イデア】",
+        "name": "Double (Edea)",
         "icon": "ability_8.png",
         "compendium_id": 8686,
         "rarity": 7,
@@ -61588,13 +61589,13 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アストラル・バリア (234824), アストラル・パワー (234821), アストラル・ヴォイド (234825), 冷徹なる連撃 (234820), 無情なる氷刃 (234822), 絶対零度の衝撃 (234826) and 酷薄なる氷撃 (800430) twice in one turn"],
+        "effects": ["Enable unit to use Absolute Zero Jolt (234826), Astral Barrier (234824), Astral Power (234821), Astral Void (234825), Cool-Headed Combo (234820), Cruel Ice Blade (234822) and Wicked Ice Assault (800430) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 511860, -1, [234820,  234821,  234822,  234824,  234825,  234826,  800430], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
     "234827": {
-        "name": "継承されし魔力",
+        "name": "Succession of Magic",
         "icon": "ability_77.png",
         "compendium_id": 8690,
         "rarity": 5,
@@ -61608,7 +61609,7 @@
         "unit_restriction": null
     },
     "234828": {
-        "name": "ガルバディア最高権力者",
+        "name": "Most Power in Galbadia",
         "icon": "ability_77.png",
         "compendium_id": 8691,
         "rarity": 5,
@@ -61622,7 +61623,7 @@
         "unit_restriction": null
     },
     "234829": {
-        "name": "アルティミシアの支配",
+        "name": "Ultimecia's Control",
         "icon": "ability_77.png",
         "compendium_id": 8692,
         "rarity": 6,
@@ -61636,7 +61637,7 @@
         "unit_restriction": null
     },
     "234830": {
-        "name": "妖艶な美貌",
+        "name": "Voluptuous Visage",
         "icon": "ability_91.png",
         "compendium_id": 8693,
         "rarity": 6,
@@ -61653,7 +61654,7 @@
         "unit_restriction": null
     },
     "234831": {
-        "name": "G.F.―アレキサンダー―",
+        "name": "GF -Alexander-",
         "icon": "ability_77.png",
         "compendium_id": 8694,
         "rarity": 7,
@@ -61667,7 +61668,7 @@
         "unit_restriction": null
     },
     "234832": {
-        "name": "カードゲームの魔女",
+        "name": "The Sorceress of Cards",
         "icon": "ability_79.png",
         "compendium_id": 8695,
         "rarity": 7,
@@ -61684,7 +61685,7 @@
         "unit_restriction": null
     },
     "234833": {
-        "name": "優しいママ先生",
+        "name": "The Gentle Matron",
         "icon": "ability_76.png",
         "compendium_id": 8696,
         "rarity": 7,
@@ -83522,7 +83523,7 @@
         "unit_restriction": null
     },
     "800356": {
-        "name": "六盟傑の絆【ジークハルト】",
+        "name": "Bonds of the Sworn Six [Sieghard] II",
         "icon": "ability_91.png",
         "compendium_id": 357,
         "rarity": 9,
@@ -83532,10 +83533,12 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF, SPR and HP by 30%",
-            "Increase resistance to Earth by 30%",
-            "Increase LB gauge by 5 per turn"
+            "Increase resistance to Earth by 50%",
+            "Increase LB gauge by 5 per turn",
+            "Increase the damage of Dangerous Rose skills  [(228417) / +1 (912945) / +2 (912946)] by (28x)",
+            "Increase the damage of Earthbound skills  [(508574) / +1 (912953) / +2 (912954)] by (34x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  30,  0,  0]], [0, 3, 33, [500]]],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  50,  0,  0]], [0, 3, 33, [500]], [0, 3, 73, [[228417,  912945,  912946], 0, 0, 2800]], [0, 3, 73, [[508574,  912953,  912954], 0, 0, 3400]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -84191,7 +84194,7 @@
         "unit_restriction": null
     },
     "800427": {
-        "name": "大胆過激な行動派",
+        "name": "Bold & Daring",
         "icon": "ability_79.png",
         "compendium_id": 428,
         "rarity": 9,
@@ -84209,7 +84212,7 @@
         "unit_restriction": null
     },
     "800429": {
-        "name": "狙撃手の集中力",
+        "name": "A Sharpshooter's Focus",
         "icon": "ability_79.png",
         "compendium_id": 430,
         "rarity": 9,
@@ -84228,7 +84231,7 @@
         "unit_restriction": null
     },
     "800431": {
-        "name": "魔女の秘術",
+        "name": "Sorceress Arts",
         "icon": "ability_79.png",
         "compendium_id": 432,
         "rarity": 8,
@@ -86259,7 +86262,7 @@
         "unit_restriction": [254001403]
     },
     "910201": {
-        "name": "Ignitos Bond",
+        "name": "Ignitos's Bond",
         "icon": "ability_77.png",
         "compendium_id": 9291,
         "rarity": 4,
@@ -86290,7 +86293,7 @@
         "unit_restriction": null
     },
     "910208": {
-        "name": "Ignitos Support",
+        "name": "Ignitos's Support",
         "icon": "ability_80.png",
         "compendium_id": 9298,
         "rarity": 7,
@@ -108811,6 +108814,41 @@
             "Increase the damage of Fire Breath (910205), Ice Breath (910203) and Lightning Breath (910204) by (12x)"
         ],
         "effects_raw": [[0, 3, 53, [2, 950315, -1, [200270,  912882,  912884,  912885,  910203,  910204,  910205,  912889,  912890,  912893,  912894,  911320,  912895,  912898,  912899,  950303,  950305,  950307], 1, 1]], [0, 3, 1, [50,  50,  0,  50,  50,  50,  0]], [0, 3, 3, [30,  30,  30,  0,  0,  0,  0,  0]], [0, 3, 32, [15]], [0, 3, 73, [[910203,  910204,  910205], 0, 0, 1200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950320": {
+        "name": "Bonds of the Sworn Six [Sieghard]",
+        "icon": "ability_91.png",
+        "compendium_id": 357,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 10%",
+            "Increase resistance to Earth by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  10,  0,  10,  10,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  10,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "950321": {
+        "name": "Bonds of the Sworn Six [Sieghard] I",
+        "icon": "ability_91.png",
+        "compendium_id": 357,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 20%",
+            "Increase resistance to Earth by 30%",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  30,  0,  0]], [0, 3, 33, [200]]],
         "requirements": null,
         "unit_restriction": null
     }
