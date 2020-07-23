@@ -35485,7 +35485,7 @@
             "names": [
                 "Archadian Emperor",
                 "阿爾卡迪亞帝國皇帝",
-                "아르카디아 제국 황제",
+                "아르케이디아 제국 황제",
                 "Empereur arcadien",
                 "Kaiser des Kaiserreichs Arcadia",
                 "Emperador Arcadio"
@@ -35519,7 +35519,7 @@
             "names": [
                 "Archadian Emperor",
                 "阿爾卡迪亞帝國皇帝",
-                "아르카디아 제국 황제",
+                "아르케이디아 제국 황제",
                 "Empereur arcadien",
                 "Kaiser des Kaiserreichs Arcadia",
                 "Emperador Arcadio"
@@ -55844,7 +55844,7 @@
             ],
             "description": [
                 "Changes ATK and MAG increases (to undispellable)",
-                "改變攻擊魔力增加量(至無法解除)",
+                "改變攻擊魔力增加效果(至無法解除)",
                 "공격력과 마력 상승 효과 변경(해제 불가)",
                 "Modifie les augmentations d'ATT et de MAGIE (à ne peut pas être dissipé)",
                 "Steigert ANG- und MAG-Erhöhungen (auf nicht bannbar)",
@@ -57985,6 +57985,810 @@
                 "Amplifie l'augmentation de la DEF, de la PSY, des PV et des PM (à 50 %)",
                 "Steigert ABW-, PSY,- LP- und MP-Erhöhungen (auf 50%).",
                 "Mayor aumento de DEF, ESP, VIT y PM (a un 50%)"
+            ]
+        }
+    },
+    "230185001": {
+        "name": "Knight's Command",
+        "skill_id_old": 230185,
+        "skill_id_new": 914365,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Knight's Command",
+                "騎士大號令",
+                "기사의 대호령",
+                "Ordonnance de chevalier",
+                "Ritterlicher Befehl",
+                "Orden de caballero"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 130%)",
+                "提高防禦精神增加量(至130%)",
+                "방어력과 정신력 상승량 상승(130%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 130 %)",
+                "Steigert ABW- und PSY-Erhöhungen (auf 130%)",
+                "Mayor aumento de DEF y ESP (a un 130%)"
+            ]
+        }
+    },
+    "230185002": {
+        "name": "Knight's Command",
+        "skill_id_old": 914365,
+        "skill_id_new": 914366,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Knight's Command",
+                "騎士大號令",
+                "기사의 대호령",
+                "Ordonnance de chevalier",
+                "Ritterlicher Befehl",
+                "Orden de caballero"
+            ],
+            "description": [
+                "Boosts DEF and SPR increases (to 150%)",
+                "提高防禦精神增加量(至150%)",
+                "방어력과 정신력 상승량 상승(150%)",
+                "Amplifie les augmentations de la DEF et de la PSY (à 150 %)",
+                "Steigert ABW- und PSY-Erhöhungen (auf 150%)",
+                "Mayor aumento de DEF y ESP (a un 150%)"
+            ]
+        }
+    },
+    "230187001": {
+        "name": "Undying Loyalty",
+        "skill_id_old": 230187,
+        "skill_id_new": 708201,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Undying Loyalty",
+                "不滅的忠義",
+                "불멸의 충성",
+                "Loyauté indéfectible",
+                "Immerwährende Treue",
+                "Lealtad eterna"
+            ],
+            "description": [
+                "Boosts LB gauge increase (to 400 per turn)",
+                "提高極限技槽增加量(至每回合400)",
+                "LB 게이지 증가량 상승(매 턴마다 400)",
+                "Amplifie l'augmentation de la jauge de limite (à 400 par tour)",
+                "Steigert Limitmetererhöhung (auf 400 pro Runde)",
+                "Mayor aumento de la barra de EL (a 400 por turno)"
+            ]
+        }
+    },
+    "230187002": {
+        "name": "Undying Loyalty",
+        "skill_id_old": 708201,
+        "skill_id_new": 708202,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1,
+                "270004500": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Undying Loyalty",
+                "不滅的忠義",
+                "불멸의 충성",
+                "Loyauté indéfectible",
+                "Immerwährende Treue",
+                "Lealtad eterna"
+            ],
+            "description": [
+                "Boosts ATK, DEF, SPR, and HP (30%)",
+                "提高HP攻擊防禦精神(30%)",
+                "공격력, 방어력, 정신력, HP 상승(30%)",
+                "Augmente l'ATT, la DEF, la PSY et les PV (30 %)",
+                "Erhöht ANG, ABW, PSY und LP (um 30%)",
+                "Aumenta ATQ, DEF, ESP y VIT (un 30%)"
+            ]
+        }
+    },
+    "230193001": {
+        "name": "Knight of Knights",
+        "skill_id_old": 230193,
+        "skill_id_new": 708193,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Knight of Knights",
+                "精英騎士",
+                "기사 중의 기사",
+                "Esprit chevaleresque",
+                "Ritter unter Rittern",
+                "Caballero ejemplar"
+            ],
+            "description": [
+                "Boosts own SPR for four turns (150%)",
+                "4回合內提高自身精神(150%)",
+                "4턴 동안 자신의 정신력 상승(150%)",
+                "Augmente la PSY du lanceur pendant 4 tours (150 %)",
+                "Erhöht 4 Runden lang PSY des Benutzers (um 150%)",
+                "Aumenta el ESP del usuario durante 4 turnos (un 150%)"
+            ]
+        }
+    },
+    "230193002": {
+        "name": "Knight of Knights",
+        "skill_id_old": 708193,
+        "skill_id_new": 708194,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Knight of Knights",
+                "精英騎士",
+                "기사 중의 기사",
+                "Esprit chevaleresque",
+                "Ritter unter Rittern",
+                "Caballero ejemplar"
+            ],
+            "description": [
+                "Boosts damage reduction when guarding allies (from 50% ~ 70% to 60% ~ 80%)",
+                "以「防禦」狀態代替隊員承受傷害時提高傷害減少量(由50% ~ 70%提高至60% ~ 80%)",
+                "아군을 향한 공격을 '방어' 상태로 대신 받을 시 피해 감소량 상승(50%~70% to 60%~80%)",
+                "Amplifie la réduction des dégâts lorsque le lanceur protège les alliés (de 50 % à 70 %, à 60 % à 80 %)",
+                "Steigert Schadensverringerungen, wenn Verbündete beschützt werden (von 50% - 70% auf 60% - 80%)",
+                "Aumenta la reducción de daño al proteger a aliados (de un 50%-70% a un 60%-80%)"
+            ]
+        }
+    },
+    "230194001": {
+        "name": "Noble Knight",
+        "skill_id_old": 230194,
+        "skill_id_new": 914367,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 3,
+                "270000400": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Noble Knight",
+                "高尚騎士",
+                "고결한 기사",
+                "Dame chevalier",
+                "Edler Ritter",
+                "Caballero noble"
+            ],
+            "description": [
+                "Boosts MP (30%)",
+                "提高MP(30%)",
+                "MP 상승(30%)",
+                "Augmente les PM (30 %)",
+                "Erhöht MP (um 30%)",
+                "Aumenta los PM (un 30%)"
+            ]
+        }
+    },
+    "230194002": {
+        "name": "Noble Knight",
+        "skill_id_old": 914367,
+        "skill_id_new": 914368,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 5,
+                "270000400": 1,
+                "270000500": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Noble Knight",
+                "高尚騎士",
+                "고결한 기사",
+                "Dame chevalier",
+                "Edler Ritter",
+                "Caballero noble"
+            ],
+            "description": [
+                "Boosts HP, DEF, and SPR increases (to 50%)",
+                "提高HP防禦精神增加量(至50%)",
+                "HP, 방어력, 정신력 상승량 상승(50%)",
+                "Amplifie les augmentations des PV, de la DEF et de la PSY (à 50 %)",
+                "Steigert LP-, ABW- und PSY-Erhöhungen (auf 50%)",
+                "Mayor aumento de VIT, DEF y ESP (a un 50%)"
+            ]
+        }
+    },
+    "230196001": {
+        "name": "Light of Grandshelt",
+        "skill_id_old": 230196,
+        "skill_id_new": 708199,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Light of Grandshelt",
+                "格蘭謝爾特之光",
+                "그랑셸트의 빛",
+                "Lumière de Grandshelt",
+                "Grandshelts Licht",
+                "Luz de Grandshelt"
+            ],
+            "description": [
+                "Boosts damage reduction (to 80%)",
+                "提高傷害減少量(至80%)",
+                "피해 감소량 상승(80%)",
+                "Amplifie la réduction des dégâts (à 80 %)",
+                "Steigert Schadensverringerung (auf 80%)",
+                "Aumenta la reducción de daño (a un 80%)"
+            ]
+        }
+    },
+    "230196002": {
+        "name": "Light of Grandshelt",
+        "skill_id_old": 708199,
+        "skill_id_new": 708200,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 2,
+                "270005000": 2
+            }
+        },
+        "units": [100021705],
+        "strings": {
+            "names": [
+                "Light of Grandshelt",
+                "格蘭謝爾特之光",
+                "그랑셸트의 빛",
+                "Lumière de Grandshelt",
+                "Grandshelts Licht",
+                "Luz de Grandshelt"
+            ],
+            "description": [
+                "Boosts turns in effect (to 2 turns)",
+                "提高效果回合數(至2回合)",
+                "효과 턴 수 상승(2턴)",
+                "Augmente le nombre de tours des effets (à 2 tours)",
+                "Erhöht Anzahl aktiver Runden (auf 2 Runden)",
+                "Aumenta la duración (a 2 turnos)"
+            ]
+        }
+    },
+    "230479001": {
+        "name": "Solar Divinity",
+        "skill_id_old": 230479,
+        "skill_id_new": 708203,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 2,
+                "270000400": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Solar Divinity",
+                "太陽女神",
+                "신성한 태양",
+                "Soleil divin",
+                "Solare Göttlichkeit",
+                "Divinidad solar"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1500%)",
+                "提高傷害量(基礎：至1500%)",
+                "피해량 상승(기본: 1500%)",
+                "Augmente les dégâts (Base : à 1500 %)",
+                "Steigert Schaden (Basis: auf 1500%)",
+                "Aumenta el daño (base: a un 1500%)"
+            ]
+        }
+    },
+    "230479002": {
+        "name": "Solar Divinity",
+        "skill_id_old": 708203,
+        "skill_id_new": 708204,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 4,
+                "270000400": 1,
+                "270000500": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Solar Divinity",
+                "太陽女神",
+                "신성한 태양",
+                "Soleil divin",
+                "Solare Göttlichkeit",
+                "Divinidad solar"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1750%)",
+                "提高傷害量(基礎：至1750%)",
+                "피해량 상승(기본: 1750%)",
+                "Augmente les dégâts (Base: à 1750 %)",
+                "Steigert Schaden (Basis: auf 1750%)",
+                "Aumenta el daño (base: a un 1750%)"
+            ]
+        }
+    },
+    "230480001": {
+        "name": "Execution",
+        "skill_id_old": 230480,
+        "skill_id_new": 708205,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 2,
+                "270000900": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Execution",
+                "處決",
+                "처형",
+                "Exécution",
+                "Exekution",
+                "Ejecución"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1500%)",
+                "提高傷害量(基礎：至1500%)",
+                "피해량 상승(기본: 1500%)",
+                "Augmente les dégâts (Base : à 1500 %)",
+                "Steigert Schaden (Basis: auf 1500%)",
+                "Aumenta el daño (base: a un 1500%)"
+            ]
+        }
+    },
+    "230480002": {
+        "name": "Execution",
+        "skill_id_old": 708205,
+        "skill_id_new": 708206,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 4,
+                "270000900": 1,
+                "270001000": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Execution",
+                "處決",
+                "처형",
+                "Exécution",
+                "Exekution",
+                "Ejecución"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1750%)",
+                "提高傷害量(基礎：至1750%)",
+                "피해량 상승(기본: 1750%)",
+                "Augmente les dégâts (Base: à 1750 %)",
+                "Steigert Schaden (Basis: auf 1750%)",
+                "Aumenta el daño (base: a un 1750%)"
+            ]
+        }
+    },
+    "230482001": {
+        "name": "Sage's Wisdom",
+        "skill_id_old": 230482,
+        "skill_id_new": 708209,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Sage's Wisdom",
+                "賢者智慧",
+                "현자의 지혜",
+                "Sagesse du philosophe",
+                "Weisheit des Wissenden",
+                "La sabiduría del sabio"
+            ],
+            "description": [
+                "Reduces cooldown time (to one use every 4 turns)",
+                "減少冷卻時間(減少至每4回合可使用1次)",
+                "재사용 대기 시간 감소(4턴에 1회 사용 가능)",
+                "Réduit le nombre de tours avant réutilisation (à une fois tous les 4 tours)",
+                "Verringert Abklingdauer (auf eine Benutzung alle 4 Runden)",
+                "Reduce el tiempo de espera (a un uso cada 4 turnos)"
+            ]
+        }
+    },
+    "230482002": {
+        "name": "Sage's Wisdom",
+        "skill_id_old": 708209,
+        "skill_id_new": 708210,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 1,
+                "270004500": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Sage's Wisdom",
+                "賢者智慧",
+                "현자의 지혜",
+                "Sagesse du philosophe",
+                "Weisheit des Wissenden",
+                "La sabiduría del sabio"
+            ],
+            "description": [
+                "Boosts fire, light, and dark resistance reductions (to 110%)",
+                "提高火光暗屬性耐性減少量(至110%)",
+                "불, 빛, 어둠속성 저항력 감소량 상승(110%)",
+                "Amplifie les réductions de la résistance au feu, à la lumière et aux ténèbres (à 110 %)",
+                "Steigert Verringerungen der Feuer-, Licht-, und Dunkelresistenz (auf 110%)",
+                "Aumenta las reducciones de resistencia a fuego, luz y oscuridad (a un 110%)"
+            ]
+        }
+    },
+    "230483001": {
+        "name": "Chaotic Nova",
+        "skill_id_old": 230483,
+        "skill_id_new": 708211,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3,
+                "270002900": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Chaotic Nova",
+                "混沌新星",
+                "혼돈의 신성",
+                "Nova du chaos",
+                "Chaosnova",
+                "Nova caótica"
+            ],
+            "description": [
+                "Reduces cooldown time (to one use every 5 turns)",
+                "減少冷卻時間(減少至每5回合可使用1次)",
+                "재사용 대기 시간 감소(5턴에 1회 사용 가능)",
+                "Réduit le nombre de tours avant réutilisation (à une fois tous les 5 tours)",
+                "Verringert Abklingdauer (auf eine Benutzung in 5 Runden)",
+                "Reduce el tiempo de espera (a un uso cada 5 turnos)"
+            ]
+        }
+    },
+    "230483002": {
+        "name": "Chaotic Nova",
+        "skill_id_old": 708211,
+        "skill_id_new": 708212,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 1,
+                "270003000": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Chaotic Nova",
+                "混沌新星",
+                "혼돈의 신성",
+                "Nova du chaos",
+                "Chaosnova",
+                "Nova caótica"
+            ],
+            "description": [
+                "Increases hit count of first attack (to 7)",
+                "增加首次攻擊的次數(至7)",
+                "첫 번째 공격 히트 수 상승(7)",
+                "Augmente le nombre de coups de la première attaque (à 7)",
+                "Erhöht Trefferzahl des ersten Angriffs (auf 7)",
+                "Aumenta el número de golpes del primer ataque (a 7)"
+            ]
+        }
+    },
+    "230489001": {
+        "name": "Yuraisha's Teachings",
+        "skill_id_old": 230489,
+        "skill_id_new": 708213,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Yuraisha's Teachings",
+                "尤萊莎的教誨",
+                "유라이샤의 가르침",
+                "La leçon de Yuraisha",
+                "Die Lehren von Yuraisha",
+                "Las enseñanzas de Yuraisha"
+            ],
+            "description": [
+                "Boosts equipment MAG when a single weapon is equipped in both hands (50%)",
+                "雙手只裝備1把武器時武具魔力提升(50%)",
+                "양손의 장비가 무기 1개일 경우 장비의 마력 상승(50%)",
+                "Augmente la MAGIE de l'équipement quand une arme est tenue avec les deux mains (50 %)",
+                "Erhöht Ausrüstung-MAG, wenn eine einzige Waffe in beiden Händen ausgerüstet ist (um 50%)",
+                "Aumenta la MAG del equipo al llevar una sola arma en ambas manos (un 50%)"
+            ]
+        }
+    },
+    "230489002": {
+        "name": "Yuraisha's Teachings",
+        "skill_id_old": 708213,
+        "skill_id_new": 708214,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Yuraisha's Teachings",
+                "尤萊莎的教誨",
+                "유라이샤의 가르침",
+                "La leçon de Yuraisha",
+                "Die Lehren von Yuraisha",
+                "Las enseñanzas de Yuraisha"
+            ],
+            "description": [
+                "Boosts equipment MAG increase (to 150%)",
+                "提高武具魔力增加量(至150%)",
+                "장비의 마력 상승량 상승(150%)",
+                "Amplifie l'augmentation de la MAGIE de l'équipement (à 150 %)",
+                "Steigert Erhöhung der Ausrüstung-MAG (auf 150%)",
+                "Mayor aumento de MAG del equipo (a un 150%)"
+            ]
+        }
+    },
+    "230493001": {
+        "name": "Endless Magic",
+        "skill_id_old": 230493,
+        "skill_id_new": 914370,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Endless Magic",
+                "無盡的魔力",
+                "무한한 마력",
+                "Magie sans limite",
+                "Grenzenlose Magie",
+                "Magia infinita"
+            ],
+            "description": [
+                "Boosts DEF, MAG, SPR, HP, and MP (20%)",
+                "提高HPMP防禦魔力精神(20%)",
+                "방어력, 마력, 정신력, HP, MP 상승(20%)",
+                "Augmente la DEF, la MAGIE, la PSY, les PV et les PM (20 %)",
+                "Erhöht ABW, MAG, PSY, LP und MP (um 20%)",
+                "Aumenta DEF, MAG, ESP, VIT y PM (un 20%)"
+            ]
+        }
+    },
+    "230493002": {
+        "name": "Endless Magic",
+        "skill_id_old": 914370,
+        "skill_id_new": 914371,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Endless Magic",
+                "無盡的魔力",
+                "무한한 마력",
+                "Magie sans limite",
+                "Grenzenlose Magie",
+                "Magia infinita"
+            ],
+            "description": [
+                "Boosts DEF, MAG, SPR, HP, and MP increases (to 50%)",
+                "提高HPMP防禦魔力精神增加量(至50%)",
+                "방어력, 마력, 정신력, HP, MP 상승량 상승(50%)",
+                "Amplifie les augmentations de la DEF, de la MAGIE, de la PSY, des PV et des PM  (à 50 %)",
+                "Erhöht ABW, MAG, PSY, LP und MP (um 50%)",
+                "Mayor aumento de DEF, MAG, ESP, VIT y PM (a un 50%)"
+            ]
+        }
+    },
+    "230496001": {
+        "name": "Deflagrating Heat",
+        "skill_id_old": 230496,
+        "skill_id_new": 708207,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 2,
+                "270002900": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Deflagrating Heat",
+                "速燃",
+                "열기 배출",
+                "Chaleur destructrice",
+                "Destruktive Hitze",
+                "Fogonazo abrasador"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1500%)",
+                "提高傷害量(基礎：至1500%)",
+                "피해량 상승(기본: 1500%)",
+                "Augmente les dégâts (Base : à 1500 %)",
+                "Steigert Schaden (Basis: auf 1500%)",
+                "Aumenta el daño (base: a un 1500%)"
+            ]
+        }
+    },
+    "230496002": {
+        "name": "Deflagrating Heat",
+        "skill_id_old": 708207,
+        "skill_id_new": 708208,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 4,
+                "270002900": 1,
+                "270003000": 1
+            }
+        },
+        "units": [100022305],
+        "strings": {
+            "names": [
+                "Deflagrating Heat",
+                "速燃",
+                "열기 배출",
+                "Chaleur destructrice",
+                "Destruktive Hitze",
+                "Fogonazo abrasador"
+            ],
+            "description": [
+                "Boosts damage amount (Base: to 1750%)",
+                "提高傷害量(基礎：至1750%)",
+                "피해량 상승(기본: 1750%)",
+                "Augmente les dégâts (Base: à 1750 %)",
+                "Steigert Schaden (Basis: auf 1750%)",
+                "Aumenta el daño (base: a un 1750%)"
             ]
         }
     },
@@ -62948,7 +63752,7 @@
             "names": [
                 "Archadian Light",
                 "阿爾卡迪亞之光",
-                "아르카디아의 빛",
+                "아르케이디아의 빛",
                 "Lumière archadienne",
                 "Arcadisches Licht",
                 "Luz arcadiana"
@@ -62982,7 +63786,7 @@
             "names": [
                 "Archadian Light",
                 "阿爾卡迪亞之光",
-                "아르카디아의 빛",
+                "아르케이디아의 빛",
                 "Lumière archadienne",
                 "Arcadisches Licht",
                 "Luz arcadiana"
@@ -73722,6 +74526,1074 @@
                 "Augmente les dégâts infligés par la deuxième attaque (Base : à 850 %)",
                 "Erhöht Schaden des zweiten Angriffs (Basis: auf 850%).",
                 "Aumenta el daño del segundo ataque (base: a un 850%)"
+            ]
+        }
+    },
+    "912569001": {
+        "name": "Blade of Crystal",
+        "skill_id_old": 912569,
+        "skill_id_new": 914180,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 2,
+                "270002900": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Blade of Crystal",
+                "水晶之刃",
+                "크리스탈의 칼날",
+                "Lame de cristal",
+                "Kristallschwert",
+                "Hoja de cristal"
+            ],
+            "description": [
+                "Boosts damage amount (to 1000/1000%)",
+                "提高傷害量(至1000/1000%)",
+                "피해량 상승(1000/1000%)",
+                "Augmente les dégâts (à 1000/1000 %)",
+                "Erhöht Schaden (auf 1000/1000%)",
+                "Aumenta el daño (a 1000/1000%)"
+            ]
+        }
+    },
+    "912569002": {
+        "name": "Blade of Crystal",
+        "skill_id_old": 914180,
+        "skill_id_new": 914181,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 4,
+                "270002900": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Blade of Crystal",
+                "水晶之刃",
+                "크리스탈의 칼날",
+                "Lame de cristal",
+                "Kristallschwert",
+                "Hoja de cristal"
+            ],
+            "description": [
+                "Boosts damage amount (to 1500/1500%)",
+                "提高傷害量(至1500/1500%)",
+                "피해량 상승(1500/1500%)",
+                "Augmente les dégâts (à 1500/1500 %)",
+                "Erhöht Schaden (auf 1500/1500%)",
+                "Aumenta el daño (a 1500/1500%)"
+            ]
+        }
+    },
+    "912570001": {
+        "name": "Aurora Tempest",
+        "skill_id_old": 912570,
+        "skill_id_new": 914182,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 2,
+                "270000900": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Aurora Tempest",
+                "極光之嵐",
+                "극광의 폭풍",
+                "Ouragan de l'Aurore",
+                "Aurorasturm",
+                "Albor tempestuoso"
+            ],
+            "description": [
+                "Boosts damage amount (to 1250/1250%)",
+                "提高傷害量(至1250/1250%)",
+                "피해량 상승(1250/1250%)",
+                "Augmente les dégâts (à 1250/1250 %)",
+                "Erhöht Schaden (auf 1250/1250%)",
+                "Aumenta el daño (a 1250/1250%)"
+            ]
+        }
+    },
+    "912570002": {
+        "name": "Aurora Tempest",
+        "skill_id_old": 914182,
+        "skill_id_new": 914183,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 4,
+                "270000900": 1,
+                "270001000": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Aurora Tempest",
+                "極光之嵐",
+                "극광의 폭풍",
+                "Ouragan de l'Aurore",
+                "Aurorasturm",
+                "Albor tempestuoso"
+            ],
+            "description": [
+                "Boosts damage amount (to 1750/1750%)",
+                "提高傷害量(至1750/1750%)",
+                "피해량 상승(1750/1750%)",
+                "Augmente les dégâts (à 1750/1750 %)",
+                "Erhöht Schaden (auf 1750/1750%)",
+                "Aumenta el daño (a 1750/1750%)"
+            ]
+        }
+    },
+    "912583001": {
+        "name": "Way of the Blossom",
+        "skill_id_old": 912583,
+        "skill_id_new": 914184,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3,
+                "270003900": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Way of the Blossom",
+                "冰華之道",
+                "빙화의 길",
+                "Voie de la floraison",
+                "Pfad der Blüte",
+                "El camino de la floración"
+            ],
+            "description": [
+                "Boosts damage reduction (to 40%)",
+                "提高傷害減少量(至40%)",
+                "피해 감소량 상승(40%)",
+                "Amplifie la réduction des dégâts (à 40 %)",
+                "Steigert Schadensverringerung (auf 40%)",
+                "Aumenta la reducción de daño (a un 40%)"
+            ]
+        }
+    },
+    "912583002": {
+        "name": "Way of the Blossom",
+        "skill_id_old": 914184,
+        "skill_id_new": 914185,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 1,
+                "270004000": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Way of the Blossom",
+                "冰華之道",
+                "빙화의 길",
+                "Voie de la floraison",
+                "Pfad der Blüte",
+                "El camino de la floración"
+            ],
+            "description": [
+                "Boosts ice resistance reduction (to 100%)",
+                "提高冰屬性耐性減少量(至100%)",
+                "얼음속성 저항력 감소량 상승(100%)",
+                "Amplifie la réduction de la résistance à la glace (à 100 %)",
+                "Steigert Verringerung der Eisresistenz (auf 100%)",
+                "Aumenta la reducción de resistencia al hielo (a un 100%)"
+            ]
+        }
+    },
+    "912585001": {
+        "name": "Way of the Aurora",
+        "skill_id_old": 912585,
+        "skill_id_new": 914188,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 2,
+                "270000400": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Way of the Aurora",
+                "極光之道",
+                "극광의 길",
+                "Voie de l'aurore",
+                "Pfad der Aurora",
+                "El camino de la aurora"
+            ],
+            "description": [
+                "Boosts light resistance reduction (to 100%)",
+                "提高光屬性耐性減少量(至100%)",
+                "빛속성 저항력 감소량 상승(100%)",
+                "Amplifie la réduction de la résistance à la lumière (à 100 %)",
+                "Steigert Verringerung der Lichtresistenz (auf 100%)",
+                "Aumenta la reducción de resistencia a la luz (a un 100%)"
+            ]
+        }
+    },
+    "912585002": {
+        "name": "Way of the Aurora",
+        "skill_id_old": 914188,
+        "skill_id_new": 914189,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 4,
+                "270000400": 1,
+                "270000500": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Way of the Aurora",
+                "極光之道",
+                "극광의 길",
+                "Voie de l'aurore",
+                "Pfad der Aurora",
+                "El camino de la aurora"
+            ],
+            "description": [
+                "Boosts turns in effect (to 5 turns)",
+                "提高效果回合數(至5回合)",
+                "효과 턴 수 상승(5턴)",
+                "Augmente le nombre de tours des effets (à 5 tours)",
+                "Erhöht Anzahl aktiver Runden (auf 5 Runden)",
+                "Aumenta la duración (a 5 turnos)"
+            ]
+        }
+    },
+    "912587001": {
+        "name": "Celestial Guidance",
+        "skill_id_old": 912587,
+        "skill_id_new": 914192,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 8,
+                "270001300": 3,
+                "270001400": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Celestial Guidance",
+                "天空指引",
+                "천상의 길잡이",
+                "Autorité céleste",
+                "Himmlische Unterweisung",
+                "Guía celeste"
+            ],
+            "description": [
+                "Boosts ice and light resistance reductions (to 100%)",
+                "提高冰光屬性耐性減少量(至100%)",
+                "얼음과 빛속성 저항력 감소량 상승(100%)",
+                "Amplifie les réductions de la résistance à la glace et à la lumière (à 100 %)",
+                "Steigert Verringerungen der Eis- und Lichtresistenz (auf 100%)",
+                "Aumenta las reducciones de resistencia a hielo y luz (a un 100%)"
+            ]
+        }
+    },
+    "912587002": {
+        "name": "Celestial Guidance",
+        "skill_id_old": 914192,
+        "skill_id_new": 914193,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 12,
+                "270001300": 5,
+                "270001400": 1,
+                "270001500": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Celestial Guidance",
+                "天空指引",
+                "천상의 길잡이",
+                "Autorité céleste",
+                "Himmlische Unterweisung",
+                "Guía celeste"
+            ],
+            "description": [
+                "Boosts increase to damage of certain abilities (aurora tempest: 800%, and aurora storm: 2700%)",
+                "提高特定能力的傷害增加量(極光之嵐：800%；極光風暴：2700%)",
+                "특정 어빌리티의 피해 상승량 상승(극광의 폭풍: 800%, 극광의 태풍: 2700%)",
+                "Amplifie l'augmentation des dégâts de certaines aptitudes (Ouragan de l'Aurore : 800 %, et Tempête de l'Aurore : 2700 %)",
+                "Steigert Erhöhungen des Schadens bestimmter Fertigkeiten (Aurorasturm: auf 800% und Aurora-Gewitter: auf 2700%)",
+                "Mayor aumento de daño de determinadas habilidades (Albor tempestuoso: un 800%; Tormenta del alba: un 2700%)"
+            ]
+        }
+    },
+    "912598001": {
+        "name": "Aurora Blossom Arts",
+        "skill_id_old": 912598,
+        "skill_id_new": 914196,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 8,
+                "270004300": 3,
+                "270004400": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Aurora Blossom Arts",
+                "極光冰華劍技",
+                "극광 빙화 검기",
+                "Arts de l'aurore florissante",
+                "Aurora Blütenkünste",
+                "Arte floral de la aurora"
+            ],
+            "description": [
+                "Boosts effects of enabled abilities - aurora arts and blossom arts and their enabled abilities",
+                "可使用的「極光劍技」「冰華劍技」及其解放之可使用能力的效果提高",
+                "사용 가능 어빌리티 '극광 검기', '빙화 검기'와 해당 어빌리티로 사용 가능한 어빌리티의 효과 상승",
+                "Augmente les effets des aptitudes déblocables Arts de l'aurore et Arts florissants et de leurs aptitudes déblocables",
+                "Steigert Effekte ermöglichter Fertigkeiten Aurorakunst, Blütenkunst und ihre ermöglichten Fertigkeiten",
+                "Aumenta los efectos de las habilidades aprendidas Arte albo y Arte floral, y los de sus habilidades relacionadas"
+            ]
+        }
+    },
+    "912598002": {
+        "name": "Aurora Blossom Arts",
+        "skill_id_old": 914196,
+        "skill_id_new": 914197,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 12,
+                "270004300": 5,
+                "270004400": 2
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Aurora Blossom Arts",
+                "極光冰華劍技",
+                "극광 빙화 검기",
+                "Arts de l'aurore florissante",
+                "Aurora Blütenkünste",
+                "Arte floral de la aurora"
+            ],
+            "description": [
+                "Boosts effects of enabled abilities - aurora arts and blossom arts and their enabled abilities",
+                "可使用的「極光劍技」「冰華劍技」及其解放之可使用能力的效果提高",
+                "사용 가능 어빌리티 '극광 검기', '빙화 검기'와 해당 어빌리티로 사용 가능한 어빌리티의 효과 상승",
+                "Augmente les effets des aptitudes déblocables Arts de l'aurore et Arts florissants, ainsi que de leurs aptitudes déblocables",
+                "Steigert Effekte ermöglichter Fertigkeiten Aurorakunst, Blütenkunst und ihre ermöglichten Fertigkeiten",
+                "Aumenta los efectos de las habilidades aprendidas Arte albo y Arte floral, y los de sus habilidades relacionadas"
+            ]
+        }
+    },
+    "912603001": {
+        "name": "Arch-Rivals",
+        "skill_id_old": 912603,
+        "skill_id_new": 914216,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Arch-Rivals",
+                "與對手聯手",
+                "라이벌과의 공투",
+                "Rivaux suprêmes",
+                "Erzrivalen",
+                "Archienemigas"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, and SPR (30%)",
+                "提高攻擊防禦魔力精神(30%)",
+                "공격력, 방어력, 마력, 정신력 상승(30%)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY (30 %)",
+                "Erhöht ANG, ABW, MAG und PSY (um 30%)",
+                "Aumenta ATQ, DEF, MAG y ESP (un 30%)"
+            ]
+        }
+    },
+    "912603002": {
+        "name": "Arch-Rivals",
+        "skill_id_old": 914216,
+        "skill_id_new": 914217,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Arch-Rivals",
+                "與對手聯手",
+                "라이벌과의 공투",
+                "Rivaux suprêmes",
+                "Erzrivalen",
+                "Archienemigas"
+            ],
+            "description": [
+                "Boosts HP and MP (30%)",
+                "提高HPMP(30%)",
+                "HP와 MP 상승(30%)",
+                "Augmente les PV et les PM (30 %)",
+                "Erhöht LP und MP (um 30%)",
+                "Aumenta la VIT y los PM (un 30%)"
+            ]
+        }
+    },
+    "912605001": {
+        "name": "Astraea's Partner",
+        "skill_id_old": 912605,
+        "skill_id_new": 914220,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Astraea's Partner",
+                "阿斯特賴亞的搭檔",
+                "아스트라이아의 파트너",
+                "Partenaire d'Astraea",
+                "Astraeas Partner",
+                "Compañera de Astraea"
+            ],
+            "description": [
+                "Boosts ATK, DEF, MAG, SPR, HP, and MP increases (to 50%)",
+                "提高HPMP攻擊防禦魔力精神增加量(至50%)",
+                "공격력, 방어력, 마력, 정신력, HP, MP 상승량 상승(50%)",
+                "Amplifie les augmentations de l'ATT, de la DEF, de la MAGIE, de la PSY, des PV et des PM (à 50 %)",
+                "Steigert ANG, ABW, MAG, PSY, LP und MP-Erhöhungen (auf 50%)",
+                "Mayor aumento de ATQ, DEF, MAG, ESP, VIT y PM (a un 50%)"
+            ]
+        }
+    },
+    "912605002": {
+        "name": "Astraea's Partner",
+        "skill_id_old": 914220,
+        "skill_id_new": 914221,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Astraea's Partner",
+                "阿斯特賴亞的搭檔",
+                "아스트라이아의 파트너",
+                "Partenaire d'Astraea",
+                "Astraeas Partner",
+                "Compañera de Astraea"
+            ],
+            "description": [
+                "Boosts equipment ATK and MAG increases (to 100%)",
+                "提高武具攻擊魔力增加量(至100%)",
+                "장비의 공격력과 마력 상승량 상승(100%)",
+                "Amplifie les augmentations de l'ATT et de la MAGIE de l'équipement (à 100 %)",
+                "Steigert Ausrüstung-ANG- und Ausrüstung-MAG-Erhöhungen (auf 100%)",
+                "Mayor aumento de ATQ y MAG del equipo (a un 100%)"
+            ]
+        }
+    },
+    "912607001": {
+        "name": "Precursor of the Aurora",
+        "skill_id_old": 912607,
+        "skill_id_new": 914223,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 3,
+                "270000400": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Precursor of the Aurora",
+                "極光先驅者",
+                "극광의 선도자",
+                "Ancêtre de l'aurore",
+                "Vorläufer der Aurora",
+                "Precursora de la aurora"
+            ],
+            "description": [
+                "Boosts increase to damage of certain abilities (blade of the dawn, blade of the heavens, blossom - vigilance, blossom - frost hedge, aurora - valor, aurora - radiant might, and purifying slash: 1500%)",
+                "提高特定能力的傷害增加量(拂曉之刃、天風之刃、冰華 - 防衛、冰華 - 防冰壁、極光 - 勇氣、極光 - 燦爛之力、淨化斬擊：1500%)",
+                "특정 어빌리티의 피해 상승량 상승(새벽의 칼날, 천풍의 칼날, 빙화·방위, 빙화·방빙벽, 극광·용기, 극광·빛나는 힘, 정화의 참격: 1500%)",
+                "Amplifie l'augmentation des dégâts de certaines aptitudes  (Lame de l'aube, Lame des cieux, Floraison - Vigilance, Floraison - Ronces de givre, Aurore - Valeur, Aurore - Puissance étincelante et Taillade purificatrice : 1500 %)",
+                "Steigert Schadenserhöhung gewisser Fertigkeiten (Klinge der Morgendämmerung, Klinge der Himmelswinde, Blüte - Wachsamkeit, Blüte - Frosthecke, Aurora - Tapferkeit, Aurora - Strahlende Macht und Reinigender Streich: auf 1500%)",
+                "Mayor aumento del daño de determinadas habilidades (Hoja del amanecer, Hoja de los cielos, Floración - Vigilancia, Floración - Escarcha protectora, Aurora - Valor, Aurora - Poder cegador, y Corte purificador: un 1500%)"
+            ]
+        }
+    },
+    "912607002": {
+        "name": "Precursor of the Aurora",
+        "skill_id_old": 914223,
+        "skill_id_new": 914224,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 5,
+                "270000400": 1,
+                "270000500": 1
+            }
+        },
+        "units": [401008405],
+        "strings": {
+            "names": [
+                "Precursor of the Aurora",
+                "極光先驅者",
+                "극광의 선도자",
+                "Ancêtre de l'aurore",
+                "Vorläufer der Aurora",
+                "Precursora de la aurora"
+            ],
+            "description": [
+                "Boosts increase to damage of certain abilities (blade of the dawn, blade of the heavens, blossom - vigilance, blossom - frost hedge, aurora - valor, aurora - radiant might, and purifying slash: 2300%)",
+                "提高特定能力的傷害增加量(拂曉之刃、天風之刃、冰華 - 防衛、冰華 - 防冰壁、極光 - 勇氣、極光 - 燦爛之力、淨化斬擊：2300%)",
+                "특정 어빌리티의 피해 상승량 상승(새벽의 칼날, 천풍의 칼날, 빙화·방위, 빙화·방빙벽, 극광·용기, 극광·빛나는 힘, 정화의 참격: 2300%)",
+                "Amplifie l'augmentation des dégâts de certaines aptitudes  (Lame de l'aube, Lame des cieux, Floraison - Vigilance, Floraison - Ronces de givre, Aurore - Valeur, Aurore - Puissance étincelante et Taillade purificatrice : 2300 %)",
+                "Steigert Schadenserhöhung gewisser Fertigkeiten (Klinge der Morgendämmerung, Klinge der Himmelswinde, Blüte - Wachsamkeit, Blüte - Frosthecke, Aurora - Tapferkeit, Aurora - Strahlende Macht und Reinigender Streich: auf 2300%)Steigert ANG- und MAG-Erhöhungen, wenn mit einem Großschwert ausgerüstet (auf 60%)",
+                "Mayor aumento del daño de determinadas habilidades (Hoja del amanecer, Hoja de los cielos, Floración - Vigilancia, Floración - Escarcha protectora, Aurora - Valor, Aurora - Poder cegador, y Corte purificador: un 2300%)"
+            ]
+        }
+    },
+    "912650001": {
+        "name": "Mystical Ruler",
+        "skill_id_old": 912650,
+        "skill_id_new": 914352,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 10,
+                "270000200": 8,
+                "270000300": 2
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Mystical Ruler",
+                "象征的支配者",
+                "상징적인 지배자",
+                "Suzeraine mystique",
+                "Mystische Herrscherin",
+                "Gobernadora mística"
+            ],
+            "description": [
+                "Boosts MAG increase (to 50%)",
+                "提高魔力增加量(至50%)",
+                "마력 상승량 상승(50%)",
+                "Amplifie l'augmentation de la MAGIE (à 50 %)",
+                "Steigert MAG-Erhöhung (auf 50%)",
+                "Mayor aumento de MAG (a un 50%)"
+            ]
+        }
+    },
+    "912650002": {
+        "name": "Mystical Ruler",
+        "skill_id_old": 914352,
+        "skill_id_new": 914353,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 15,
+                "270000200": 12,
+                "270000300": 4,
+                "270000400": 2
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Mystical Ruler",
+                "象徵的支配者",
+                "상징적인 지배자",
+                "Suzeraine mystique",
+                "Mystische Herrscherin",
+                "Gobernadora mística"
+            ],
+            "description": [
+                "Boosts MAG increase (to 80%)",
+                "提高魔力增加量(至80%)",
+                "마력 상승량 상승(80%)",
+                "Amplifie l'augmentation de la MAGIE (à 80 %)",
+                "Steigert MAG-Erhöhung (auf 80%)",
+                "Mayor aumento de MAG (a un 80%)"
+            ]
+        }
+    },
+    "912656001": {
+        "name": "Arch-Rivals",
+        "skill_id_old": 912656,
+        "skill_id_new": 914354,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 10,
+                "270003200": 8,
+                "270003300": 3,
+                "270003400": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Arch-Rivals",
+                "與對手聯手",
+                "라이벌과의 공투",
+                "Rivaux suprêmes",
+                "Erzrivalen",
+                "Archienemigas"
+            ],
+            "description": [
+                "Boosts DEF, HP, and MP (10%)",
+                "提高HPMP防禦(10%)",
+                "방어력, HP, MP 상승(10%)",
+                "Augmente la DEF, les PV et les PM (10 %)",
+                "Erhöht ABW, LP und MP (um 10%)",
+                "Aumenta DEF, VIT y PM (un 10%)"
+            ]
+        }
+    },
+    "912656002": {
+        "name": "Arch-Rivals",
+        "skill_id_old": 914354,
+        "skill_id_new": 914355,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 12,
+                "270003300": 5,
+                "270003400": 1,
+                "270003500": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Arch-Rivals",
+                "與對手聯手",
+                "라이벌과의 공투",
+                "Rivaux suprêmes",
+                "Erzrivalen",
+                "Archienemigas"
+            ],
+            "description": [
+                "Boosts DEF, HP, and MP increases (to 30%)",
+                "提高HPMP防禦增加量(至30%)",
+                "방어력, HP, MP 상승량 상승(30%)",
+                "Amplifie les augmentations de la DEF, des PV et des PM (à 30 %)",
+                "Steigert ABW-, LP- und MP-Erhöhungen (auf 30%)",
+                "Mayor aumento de DEF, VIT y PM (a un 30%)"
+            ]
+        }
+    },
+    "912662001": {
+        "name": "Utopian Throne",
+        "skill_id_old": 912662,
+        "skill_id_new": 914358,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3,
+                "270004900": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Utopian Throne",
+                "烏托邦的寶座",
+                "유토피아의 왕좌",
+                "Trône utopique",
+                "Utopischer Thron",
+                "Trono utópico"
+            ],
+            "description": [
+                "Boosts MP increase (to 30%)",
+                "提高MP增加量(至30%)",
+                "MP 상승량 상승(30%)",
+                "Augmente les PM (à 30 %)",
+                "Steigert MP-Erhöhung (auf 30%)",
+                "Mayor aumento de PM (a un 30%)"
+            ]
+        }
+    },
+    "912662002": {
+        "name": "Utopian Throne",
+        "skill_id_old": 914358,
+        "skill_id_new": 914359,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1,
+                "270005000": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Utopian Throne",
+                "烏托邦的寶座",
+                "유토피아의 왕좌",
+                "Trône utopique",
+                "Utopischer Thron",
+                "Trono utópico"
+            ],
+            "description": [
+                "Boosts MAG, SPR, and MP increases (to 50%)",
+                "提高MP魔力精神增加量(至50%)",
+                "마력, 정신력, MP 상승량 상승(50%)",
+                "Amplifie l'augmentation de la MAGIE, de la PSY et des PM (à 50 %)",
+                "Steigert MAG-, PSY- und MP-Erhöhungen (auf 50%)",
+                "Mayor aumento de MAG, ESP y PM (a un 50%)"
+            ]
+        }
+    },
+    "912665001": {
+        "name": "Elemental Enervation",
+        "skill_id_old": 912665,
+        "skill_id_new": 914337,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 8,
+                "270001300": 3,
+                "270001400": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Elemental Enervation",
+                "屬性弱體",
+                "속성 약체화",
+                "Exaltation élémentaire",
+                "Elementarschwächung",
+                "Prisión destructora"
+            ],
+            "description": [
+                "Boosts enabled duration of enabled ability - myriad arcana (to 2 turns)",
+                "「IV魔術」的可使用回合數提高(至2回合)",
+                "사용 가능 어빌리티 '무수의 마술'의 사용 가능 턴 수 상승(2턴)",
+                "Augmente la durée de disponibilité de l'aptitude déblocable Arcanes par myriades (à 2 tours)",
+                "Erhöht Anzahl aktiver Runden von aktiver Fertigkeit Arkane Myriaden (auf 2 Runden)",
+                "Aumenta la duración de la habilidad aprendida Miríada de arcanos (a 2 turnos)"
+            ]
+        }
+    },
+    "912665002": {
+        "name": "Elemental Enervation",
+        "skill_id_old": 914337,
+        "skill_id_new": 914338,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 12,
+                "270001300": 5,
+                "270001400": 1,
+                "270001500": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Elemental Enervation",
+                "屬性弱體",
+                "속성 약체화",
+                "Exaltation élémentaire",
+                "Elementarschwächung",
+                "Prisión destructora"
+            ],
+            "description": [
+                "Boosts ice, wind, light, and dark resistance reductions (to 110%)",
+                "提高冰風光暗屬性耐性減少量(至110%)",
+                "얼음, 바람, 빛, 어둠속성 저항력 감소량 상승(110%)",
+                "Amplifie les réductions de la résistance à la glace, au vent, à la lumière et aux ténèbres (à 110 %)",
+                "Steigert Verringerungen der Eis-, Wind-, Licht- und Dunkelresistenz (auf 110%)",
+                "Aumenta las reducciones de resistencia a hielo, viento, luz y oscuridad (a un 110%)"
+            ]
+        }
+    },
+    "912667001": {
+        "name": "Arcane Trade",
+        "skill_id_old": 912667,
+        "skill_id_new": 914341,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 3,
+                "270000900": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Arcane Trade",
+                "魔術交換",
+                "마술 변환",
+                "Échange d'arcanes",
+                "Arkaner Tausch",
+                "Intercambio arcano"
+            ],
+            "description": [
+                "Boosts evocation gauge increase (to 10)",
+                "提高召喚槽增加量(至10)",
+                "소환 게이지 증가량 상승(10)",
+                "Amplifie l'augmentation de la jauge d'appel (à 10)",
+                "Rufleiste füllt sich schneller (auf 10)",
+                "Mayor aumento de la barra de invocación (a 10)"
+            ]
+        }
+    },
+    "912667002": {
+        "name": "Arcane Trade",
+        "skill_id_old": 914341,
+        "skill_id_new": 914342,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 5,
+                "270000900": 2,
+                "270001000": 2
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Arcane Trade",
+                "魔術交換",
+                "마술 변환",
+                "Échange d'arcanes",
+                "Arkaner Tausch",
+                "Intercambio arcano"
+            ],
+            "description": [
+                "Gradually fills evocation gauge after two turns (evocation gauge increase per turn: 5)",
+                "2回合後持續增加召喚槽(每回合召喚槽增加量：5)",
+                "2턴 후 소환 게이지 서서히 증가(매 턴마다 소환 게이지 증가량: 5)",
+                "Remplit progressivement la jauge d'appel après 2 tours (augmentation de la jauge d'appel par tour : 5)",
+                "Füllt nach 2 Runden allmählich Rufleiste (Füllung pro Runde: 5)",
+                "Rellena poco a poco la barra de invocación tras 2 turnos (aumento por turno: 5)"
+            ]
+        }
+    },
+    "912669001": {
+        "name": "Unstable Energy",
+        "skill_id_old": 912669,
+        "skill_id_new": 914348,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 10,
+                "270003700": 8,
+                "270003800": 3,
+                "270003900": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Unstable Energy",
+                "不安定的能量",
+                "불안정한 에너지",
+                "Énergie instable",
+                "Instabile Energie",
+                "Energía inestable"
+            ],
+            "description": [
+                "Boosts damage amount (to 4000/0%)",
+                "提高傷害量(至4000/0%)",
+                "피해량 상승(4000/0%)",
+                "Augmente les dégâts (à 4000/0 %)",
+                "Erhöht Schaden (auf 4000/0%)",
+                "Aumenta el daño (a 4000/0%)"
+            ]
+        }
+    },
+    "912669002": {
+        "name": "Unstable Energy",
+        "skill_id_old": 914348,
+        "skill_id_new": 914349,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 12,
+                "270003800": 5,
+                "270003900": 1,
+                "270004000": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Unstable Energy",
+                "不安定的能量",
+                "불안정한 에너지",
+                "Énergie instable",
+                "Instabile Energie",
+                "Energía inestable"
+            ],
+            "description": [
+                "Boosts MAG and SPR increases (to 250%, undispellable)",
+                "提高魔力精神增加量(至250%、無法解除)",
+                "마력과 정신력 상승량 상승(250%, 해제 불가)",
+                "Amplifie les augmentations de la MAGIE et de la PSY (à 250 %, ne peut plus être dissipé)",
+                "Steigert MAG- und PSY-Erhöhungen (auf 250%, nicht bannbar)",
+                "Mayor aumento de MAG y ESP (a un 250%, no se puede eliminar)"
+            ]
+        }
+    },
+    "912673001": {
+        "name": "Empress Supreme",
+        "skill_id_old": 912673,
+        "skill_id_new": 914360,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3,
+                "270002900": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Empress Supreme",
+                "最上位女王",
+                "최고위 여왕",
+                "Impératrice suprême",
+                "Höchste Kaiserin",
+                "Emperatriz suprema"
+            ],
+            "description": [
+                "Boosts LB gauge increase (to 500 per turn)",
+                "提高極限技槽增加量(至每回合500)",
+                "LB 게이지 증가량 상승(매 턴마다 500)",
+                "Amplifie l'augmentation de la jauge de limite (à 500 par tour)",
+                "Steigerung der Limitmetererhöhung (auf 500 jede Runde)",
+                "Mayor aumento de la barra de EL (a 500 por turno)"
+            ]
+        }
+    },
+    "912673002": {
+        "name": "Empress Supreme",
+        "skill_id_old": 914360,
+        "skill_id_new": 914361,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 1,
+                "270003000": 1
+            }
+        },
+        "units": [401007005],
+        "strings": {
+            "names": [
+                "Empress Supreme",
+                "最上位女王",
+                "최고위 여왕",
+                "Impératrice suprême",
+                "Höchste Kaiserin",
+                "Emperatriz suprema"
+            ],
+            "description": [
+                "Boosts LB gauge fill rate (100%)",
+                "提高極限技石對極限技槽的增加量(100%)",
+                "LB 게이지 효율 상승(100%)",
+                "Augmente le taux de remplissage de la jauge de limite (100 %)",
+                "Limitmeter füllt sich schneller (um 100%)",
+                "Aumenta la velocidad a la que se rellena la barra de EL (un 100%)"
             ]
         }
     }
