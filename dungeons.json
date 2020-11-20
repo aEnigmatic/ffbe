@@ -21934,9 +21934,10 @@
         "region_id": "21",
         "subregion_id": "899",
         "position": [0, 0],
-        "icon": "spd_20180131_bn_list_SBF_07.png",
+        "icon": "spd_20200630_bn_list_SBF_07.png",
         "missions": {
-            "8993301": "Scorn of the 2-Headed Dragon"
+            "8993301": "Scorn of the 2-Headed Dragon",
+            "8993302": "Scorn of the 2-Headed Dragon - EXT"
         }
     },
     "89735": {
@@ -24103,6 +24104,11 @@
             "9040200": "Water Attack Challenge - PRO",
             "9040201": "Water Attack Challenge - ELT",
             "9040202": "Water Attack Challenge - LGD",
+            "9040204": "Ice Attack Challenge - INT",
+            "9040205": "Ice Attack Challenge - ADV",
+            "9040206": "Ice Attack Challenge - PRO",
+            "9040207": "Ice Attack Challenge - ELT",
+            "9040208": "Ice Attack Challenge - LGD",
             "9040234": null,
             "9040235": null,
             "9040236": null,
@@ -26641,7 +26647,7 @@
         "position": [0, 0],
         "icon": "global_spd_bn_list_00052.png",
         "missions": {
-            "9590101": "Shadows of Ruination - ELT"
+            "9590101": "Shadows of Ruination"
         }
     },
     "96001": {
@@ -26893,6 +26899,7 @@
             "9650134": "Awakened Dragon Akstar",
             "9650135": "Starlight Elena",
             "9650137": "Firion -Neo Vision-",
+            "9650140": null,
             "9650141": "Sol -Neo Vision-"
         }
     },
@@ -28469,7 +28476,7 @@
             "心技的試煉～艾琳娜的訓練～",
             "용기의 시련: 초월의 영웅들",
             "Épreuve des braves : Héros transcendantaux",
-            "Prüfung des Geistes: Überweltliche Helden",
+            "Prüfung des Geistes: Transzendente Helden",
             "Desafío de los valientes: Héroes trascendentales",
             "Tantangan sang Pemberani: Pahlawan Transenden",
             "บท\u001aท้าทาย\u001aผู้\u001aกล้า\u001a:\u001a \u001aเหล่า\u001aผู้\u001aกล้า\u001aเหนือ\u001aโลก\u001a"
@@ -28554,7 +28561,7 @@
             "超群絕倫的英雄們：VS鼬・中級",
             "초월의 영웅들: VS 이타치·중급",
             "Héros transcendantaux : VS Itachi - INT",
-            "Überweltliche Helden: vs. Itachi – FOR",
+            "Transzendente Helden: vs. Itachi – FOR",
             "Héroes trascendentales: Vs. Itachi - INT",
             "Pahlawan Transenden: Vs. Itachi - INT",
             "เหล่า\u001aผู้\u001aกล้า\u001aเหนือ\u001aโลก\u001a:\u001a \u001aVS\u001a \u001aItachi\u001a \u001a-\u001a \u001aชั้น\u001aกลาง\u001a"
@@ -40390,40 +40397,67 @@
         }
     },
     "320801": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Challenge of the Brave: Those Who Stand Against Darkness",
+            "心技的試煉～勇敢面對黑暗的人們～",
+            "용기의 시련: 어둠에 맞서 싸운 자들",
+            "Épreuve des braves : Ceux qui affrontent les ténèbres",
+            "Prüfung des Geistes: Streiter gegen die Finsternis",
+            "Desafío de los valientes: Los que se enfrentan a la oscuridad",
+            "Tantangan sang Pemberani: Bertarung Menghadapi Kegelapan",
+            "บท\u001aท้าทาย\u001aผู้\u001aกล้า\u001a \u001a:\u001a \u001aเหล่า\u001aผู้\u001aประจันหน้า\u001aต้าน\u001aความมืด\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3208",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32080101": null,
-            "32080102": null
+            "32080101": "Challenge of the Brave: Those Who Stand Against Darkness - INT",
+            "32080102": "Challenge of the Brave: Those Who Stand Against Darkness - ADV"
         }
     },
     "321001": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Eternal Wind",
+            "悠久之風",
+            "유구의 바람",
+            "Vent éternel",
+            "Zeitloser Wind",
+            "Viento eterno",
+            "Angin Abadi",
+            "สายลม\u001aนิรันดร\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3210",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32100101": null,
-            "32100102": null,
-            "32100103": null,
-            "32100104": null
+            "32100101": "Eternal Wind - INT",
+            "32100102": "Eternal Wind - ADV",
+            "32100103": "Eternal Wind - PRO",
+            "32100104": "Eternal Wind - ELT"
         }
     },
     "321101": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Nepto Dragon - EXT",
+            "涅普特海龍．極級",
+            "넵토 드래곤·극한급",
+            "Dragon Nepto - EXT",
+            "Nepto-Drache - EXT",
+            "Neptodragón - EXT",
+            "Naga Nepto - EXT",
+            "มังกร\u001a \u001aNepto\u001a \u001a-\u001a \u001aสุดขั้ว\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3211",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32110101": null
+            "32110101": "Nepto Dragon - EXT"
         }
     },
     "6100000": {
