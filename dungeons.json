@@ -24104,11 +24104,6 @@
             "9040200": "Water Attack Challenge - PRO",
             "9040201": "Water Attack Challenge - ELT",
             "9040202": "Water Attack Challenge - LGD",
-            "9040204": "Ice Attack Challenge - INT",
-            "9040205": "Ice Attack Challenge - ADV",
-            "9040206": "Ice Attack Challenge - PRO",
-            "9040207": "Ice Attack Challenge - ELT",
-            "9040208": "Ice Attack Challenge - LGD",
             "9040234": null,
             "9040235": null,
             "9040236": null,
@@ -24291,6 +24286,11 @@
             "9050200": "Magic Fire Challenge - PRO",
             "9050201": "Magic Fire Challenge - ELT",
             "9050202": "Magic Fire Challenge - LGD",
+            "9050204": "Magic Earth Challenge - INT",
+            "9050205": "Magic Earth Challenge - ADV",
+            "9050206": "Magic Earth Challenge - PRO",
+            "9050207": "Magic Earth Challenge - ELT",
+            "9050208": "Magic Earth Challenge - LGD",
             "9050234": null,
             "9050235": null,
             "9050236": null,
@@ -25709,64 +25709,109 @@
         }
     },
     "92901": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Physical Domain of Water and Wind",
+            "水·風之攻域",
+            "수풍의 공역",
+            "Domaine physique de l'eau et du vent",
+            "Kämpferisches Reich des Wassers und des Windes",
+            "Reino físico de agua y viento",
+            "Wilayah Fisik Air dan Angin",
+            "อาณาจักร\u001aกายภาพ\u001aแห่ง\u001aวารี\u001aวาตะ\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "929",
         "position": [145, 745],
         "icon": "map_icon_92001.png",
         "missions": {
-            "9290101": null,
-            "9290102": null
+            "9290101": "Physical Domain of Water and Wind 1",
+            "9290102": "Physical Domain of Water and Wind 2"
         }
     },
     "92902": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Magical Domain of Fire and Darkness",
+            "火·暗之魔域",
+            "화암의 마역",
+            "Domaine magique du feu et des ténèbres",
+            "Okkultes Reich des Feuers und der Dunkelheit",
+            "Reino mágico de fuego y oscuridad",
+            "Wilayah Magic Api dan Kegelapan",
+            "อาณาจักร\u001aเวทย์\u001aแห่ง\u001aอัคคี\u001aมืด\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "929",
         "position": [495, 685],
         "icon": "map_icon_92001.png",
         "missions": {
-            "9290201": null,
-            "9290202": null
+            "9290201": "Magical Domain of Fire and Darkness 1",
+            "9290202": "Magical Domain of Fire and Darkness 2"
         }
     },
     "92903": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Physical Domain of Ice and Earth",
+            "冰·土之攻域",
+            "빙토의 공역",
+            "Domaine physique de la glace et de la terre",
+            "Kämpferisches Reich des Eises und der Erde",
+            "Reino físico de hielo y tierra",
+            "Wilayah Fisik Es dan Tanah",
+            "อาณาจักร\u001aกายภาพ\u001aแห่ง\u001aน้ำแข็ง\u001aปฐพี\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "929",
         "position": [145, 515],
         "icon": "map_icon_92002.png",
         "missions": {
-            "9290301": null,
-            "9290302": null
+            "9290301": "Physical Domain of Ice and Earth 1",
+            "9290302": "Physical Domain of Ice and Earth 2"
         }
     },
     "92904": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Magical Domain of Lightning and Light",
+            "雷·光之魔域",
+            "뇌광의 마역",
+            "Domaine magique de la foudre et de la lumière",
+            "Okkultes Reich des Blitzes und des Lichts",
+            "Reino mágico de rayo y luz",
+            "Wilayah Magic Petir dan Cahaya",
+            "อาณาจักร\u001aเวทย์\u001aแห่ง\u001aอสนี\u001aแสง\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "929",
         "position": [495, 425],
         "icon": "map_icon_92002.png",
         "missions": {
-            "9290401": null,
-            "9290402": null
+            "9290401": "Magical Domain of Lightning and Light 1",
+            "9290402": "Magical Domain of Lightning and Light 2"
         }
     },
     "92905": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "(EX) Master's Phantom Domain",
+            "【EX】登峰造極者的幻域",
+            "[EX] 통달한 자의 환역",
+            "(EX) Domaine fantôme du maître",
+            "(EX) Illusorisches Reich der Meister",
+            "[EX] Reino ilusorio del maestro",
+            "(EX) Wilayah Ilusi sang Penguasa",
+            "(\u001aEX\u001a)\u001a  \u001aอาณาจักร\u001aมายา\u001aแห่ง\u001aปรมาจารย์\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "929",
         "position": [319, 260],
         "icon": "map_icon_92003.png",
         "missions": {
-            "9290501": null,
-            "9290502": null,
-            "9290503": null
+            "9290501": "Magical Domain of Ice and Darkness",
+            "9290502": "Physical Domain of Wind and Light",
+            "9290503": "Fallen God of War"
         }
     },
     "92909": {
@@ -26899,7 +26944,6 @@
             "9650134": "Awakened Dragon Akstar",
             "9650135": "Starlight Elena",
             "9650137": "Firion -Neo Vision-",
-            "9650140": null,
             "9650141": "Sol -Neo Vision-"
         }
     },
@@ -34455,57 +34499,147 @@
             "12511403": "West Side District Block B2 - From Rooftop to Rooftop",
             "12511404": "West Side District Block B2 - Voa Berga (First)",
             "12511405": "West Side District Block B2 - Voa Berga (Second)",
-            "12511406": null
+            "12511406": "West Side District Block B2 - Possessed Rinora"
         }
     },
     "125115": {
+        "names": [
+            "North Side District Block A3",
+            "諾爾蒂地域A3街區",
+            "노르테 지역 A3 구역",
+            "District Nord, quartier A3",
+            "Norte-Distrikt Block A3",
+            "Distrito Norta, bloque A3",
+            "Distrik Norte, Blok A3",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aA\u001a3\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [348, 464],
+        "icon": "map_icon_3940101_2.png",
         "missions": {
-            "12511501": null,
-            "12511502": null,
-            "12511503": null,
-            "12511504": null,
-            "12511505": null
+            "12511501": "North Side District Block A3 - Getting Through to Roca",
+            "12511502": "North Side District Block A3 - Building Split in Two",
+            "12511503": "North Side District Block A3 - Concrete Jungle",
+            "12511504": "North Side District Block A3 - Stone Beast Prowling the Streets",
+            "12511505": "North Side District Block A3 - Exploration"
         }
     },
     "125116": {
+        "names": [
+            "North Side District Block C3",
+            "諾爾蒂地域C3街區",
+            "노르테 지역 C3 구역",
+            "District Nord, quartier C3",
+            "Norte-Distrikt Block C3",
+            "Distrito Norta, bloque C3",
+            "Distrik Norte, Blok C3",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aC\u001a3\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [696, 406],
+        "icon": "map_icon_3940102_2.png",
         "missions": {
-            "12511601": null,
-            "12511602": null,
-            "12511603": null,
-            "12511604": null
+            "12511601": "North Side District Block C3 - Before It's Too Late",
+            "12511602": "North Side District Block C3 - Toppled Building",
+            "12511603": "North Side District Block C3 - Overturned Attic",
+            "12511604": "North Side District Block C3 - Awakened Effigy"
         }
     },
     "125117": {
+        "names": [
+            "North Side District Block D4",
+            "諾爾蒂地域D4街區",
+            "노르테 지역 D4 구역",
+            "District Nord, quartier D4",
+            "Norte-Distrikt Block D4",
+            "Distrito Norta, bloque D4",
+            "Distrik Norte, Blok D4",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aD\u001a4\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [1102, 406],
+        "icon": "map_icon_3940103_2.png",
         "missions": {
-            "12511701": null,
-            "12511702": null,
-            "12511703": null,
-            "12511704": null
+            "12511701": "North Side District Block D4 - To the Ruins",
+            "12511702": "North Side District Block D4 - Unbalanced Building",
+            "12511703": "North Side District Block D4 - Vast Rooftop",
+            "12511704": "North Side District Block D4 - Fleet-Footed Giant Bird"
         }
     },
     "125118": {
+        "names": [
+            "North Side District Block F4",
+            "諾爾蒂地域F4街區",
+            "노르테 지역 F4 구역",
+            "District Nord, quartier F4",
+            "Norte-Distrikt Block F4",
+            "Distrito Norta, bloque F4",
+            "Distrik Norte, Blok F4",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aF\u001a4\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [1450, 754],
+        "icon": "map_icon_3940104_2.png",
         "missions": {
-            "12511801": null,
-            "12511802": null,
-            "12511803": null,
-            "12511804": null
+            "12511801": "North Side District Block F4 - Putting Our Heads Together",
+            "12511802": "North Side District Block F4 - Endless Arcade",
+            "12511803": "North Side District Block F4 - Lurking in the Shadows",
+            "12511804": "North Side District Block F4 - People-Pecking Monster"
         }
     },
     "125119": {
+        "names": [
+            "North Side District Block E2",
+            "諾爾蒂地域E2街區",
+            "노르테 지역 E2 구역",
+            "District Nord, quartier E2",
+            "Norte-Distrikt Block E2",
+            "Distrito Norta, bloque E2",
+            "Distrik Norte, Blok E2",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aE\u001a2\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [1798, 464],
+        "icon": "map_icon_3940105_2.png",
         "missions": {
-            "12511901": null,
-            "12511902": null,
-            "12511903": null,
-            "12511904": null,
-            "12511905": null
+            "12511901": "North Side District Block E2 - Endless Pathways",
+            "12511902": "North Side District Block E2 - Crumbling Arch",
+            "12511903": "North Side District Block E2 - Dizzying Heights",
+            "12511904": "North Side District Block E2 - Unscathed Stone Path",
+            "12511905": "North Side District Block E2 - Heavy Mechanical Weapon"
         }
     },
     "125120": {
+        "names": [
+            "North Side District Block C1",
+            "諾爾蒂地域C1街區",
+            "노르테 지역 C1 구역",
+            "District Nord, quartier C1",
+            "Norte-Distrikt Block C1",
+            "Distrito Norta, bloque C1",
+            "Distrik Norte, Blok C1",
+            "เมือง\u001aฝั่ง\u001aเหนือ\u001a \u001aเขต\u001a \u001aC\u001a1\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "45",
+        "subregion_id": "1251",
+        "position": [1450, 348],
+        "icon": "map_icon_3940106_2.png",
         "missions": {
-            "12512001": null,
-            "12512002": null,
-            "12512003": null,
-            "12512004": null
+            "12512001": "North Side District Block C1 - Breakers vs Keepers 1",
+            "12512002": "North Side District Block C1 - Breakers vs Keepers 2",
+            "12512003": "North Side District Block C1 - Rematch with Rinora",
+            "12512004": "North Side District Block C1 - Rampaging Rinora"
         }
     },
     "126101": {
@@ -40346,42 +40480,69 @@
         }
     },
     "320401": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Challenge of the Brave: Let Your Heart Be the Guiding Key",
+            "心技的試練～由鑰匙引導的人們～",
+            "용기의 시련: 열쇠에 이끌린 자들",
+            "Épreuve des braves : Laisse ton cœur être la clef qui te guide",
+            "Prüfung des Geistes: Möge dein Herz der Schlüssel sein, der dich leitet",
+            "Desafío de los valientes: Que vuestro corazón os sirva de guía",
+            "Tantangan sang Pemberani: Hati yang Menjadi Kunci Pembimbing",
+            "บท\u001aท้าทาย\u001aผู้\u001aกล้า\u001a:\u001a \u001aใช้\u001aหัวใจ\u001aไข\u001aนำทาง\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3204",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32040101": null,
-            "32040102": null
+            "32040101": "Challenge of the Brave: Let Your Heart Be the Guiding Key - INT",
+            "32040102": "Challenge of the Brave: Let Your Heart Be the Guiding Key - ADV"
         }
     },
     "320501": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Scala ad Caelum",
+            "斯卡拉·亞德·卡爾姆",
+            "하늘로 가는 계단",
+            "Scala ad Caelum",
+            "Scala ad Caelum",
+            "Scala ad Caelum",
+            "Scala ad Caelum",
+            "Scala\u001a \u001aad\u001a \u001aCaelum\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3205",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32050101": null,
-            "32050111": null,
-            "32050121": null,
-            "32050131": null,
-            "32050141": null,
-            "32050151": null
+            "32050101": "Scala ad Caelum - BGN",
+            "32050111": "Scala ad Caelum - INT",
+            "32050121": "Scala ad Caelum - ADV",
+            "32050131": "Scala ad Caelum - PRO",
+            "32050141": "Scala ad Caelum - ELT",
+            "32050151": "Scala ad Caelum - LGD"
         }
     },
     "320601": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "VS Behemoth - EXT",
+            "VS凶惡巨獸・極級",
+            "VS 베히모스·극한급",
+            "VS Behemoth - EXT",
+            "vs. Behemoth – EXT",
+            "Vs. Bégimo - EXT",
+            "Vs. Behemoth - EXT",
+            "VS\u001a \u001aBehemoth\u001a \u001a-\u001a \u001aสุดขั้ว\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "3206",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "32060101": null
+            "32060101": "VS Behemoth - EXT"
         }
     },
     "320701": {
