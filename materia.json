@@ -14678,7 +14678,7 @@
                 "雙手只裝備1把武器時提高攻擊 [無法重複裝備]",
                 "양손의 장비가 무기 1개일 경우 장비의 공격력 상승 (중복 장착 불가)",
                 "Augmente l'ATT de l'équipement lorsqu'une arme est tenue avec les deux mains (Non cumulable)",
-                "Erhöht Ausrüstung-ANG, wenn eine einhändige Waffe beidhändig ausger. ist. (Nicht stapelbar)",
+                "Erhöht Ausrüstung-ANG, wenn eine einhändige Waffe beidhändig ausgerüstet ist. (Nicht stapelbar)",
                 "Aumenta el ATQ al equipar una sola arma en las dos manos. (no acumulable)",
                 "Meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001aของ\u001aอุปกรณ์\u001a \u001aเมื่อ\u001aใช้\u001aสอง\u001aมือถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
@@ -14688,7 +14688,7 @@
                 "當兩隻手只有一把武器時，提高攻擊。[無法重複裝備]",
                 "양손의 장비가 무기 1개일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
                 "Augmente l'ATT de l'équipement quand une arme est tenue avec les deux mains. Non cumulable.",
-                "Erhöht ANG, wenn eine einhändige Waffe beidhändig ausger. ist. Nicht stapelbar.",
+                "Erhöht ANG, wenn eine einhändige Waffe beidhändig ausgerüstet ist. Nicht stapelbar.",
                 "Aumenta el ATQ del equipo al llevar una sola arma en ambas manos (no acumulable)",
                 "Meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan. Tidak dapat ditumpuk.",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001aของ\u001aอุปกรณ์\u001a \u001aเมื่อ\u001aใช้\u001aสอง\u001aมือถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
@@ -37565,20 +37565,47 @@
         }
     },
     "504238566": {
-        "name": "草枯の威圧",
+        "name": "Plant-Withering Pressure",
         "compendium_id": 1228,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [238566],
-        "effects": ["Grants '草枯の威圧' passive."],
-        "unique": false,
+        "effects": ["Grants 'Plant-Withering Pressure' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Plant-Withering Pressure",
+                "草枯之威壓",
+                "초고의 위압",
+                "Aura flétrisseuse",
+                "Gras verwelkender Druck",
+                "Coerción marchitante",
+                "Tekanan Penghancur Tumbuhan",
+                "พลัง\u001aกดดัน\u001aพราก\u001aพฤกษา\u001a"
+            ],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and boost magic damage against plants (Not stackable)",
+                "提高40%攻擊魔力+魔法攻擊時提高對植物系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+마법 공격 시 식물형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts magiques infligés aux plantes (non cumuable)",
+                "Erhöht ANG sowie MAG um 40% und erhöht magischen Schaden gegen Pflanzen (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño mágico contra plantoides (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage magic terhadap jenis tumbuhan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aพืช\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40% and boosts magic damage against plants. Not stackable.",
+                "提高40%攻擊魔力，以及魔法攻擊時提高對植物系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 마법 공격 시 식물형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts magiques infligés aux plantes. Non cumuable.",
+                "Erhöht ANG sowie MAG um 40% und erhöht magischen Schaden gegen Pflanzen. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y el daño mágico contra plantoides. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage magic terhadap jenis tumbuhan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aพืช\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504238770": {
@@ -37939,37 +37966,91 @@
         }
     },
     "504238842": {
-        "name": "双賢者の魔力",
+        "name": "Two Sages' Magic",
         "compendium_id": 1249,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [238842],
-        "effects": ["Grants '双賢者の魔力' passive."],
-        "unique": false,
+        "effects": ["Grants 'Two Sages' Magic' passive."],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_95.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Two Sages' Magic",
+                "雙賢者的魔力",
+                "쌍현자의 마력",
+                "Magie des deux sages",
+                "Magie der zwei Weisen",
+                "La magia de dos sabios",
+                "Magic Dua Sage",
+                "พลัง\u001aเวทย์\u001aสอง\u001aนักปราชญ์\u001a"
+            ],
+            "desc_short": [
+                "Boost MAG by 30%, and boost MAG by 30% when equipped with a rod or whip (Not stackable)",
+                "提高30%魔力+裝備魔棒鞭子時提高30%魔力[無法重複裝備]",
+                "마력 30% 상승+홀장 또는 채찍 장착 시 마력 30% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, et augmente la MAGIE de 30 % quand un sceptre ou un fouet est équipé (non cumulable)",
+                "Erhöht MAG um 30% und erhöht MAG um 30%, wenn mit einer Rute oder Peitsche ausgerüstet (nicht stapelbar).",
+                "Aumenta la MAG un 30% y la aumenta otro 30% extra al llevar vara o látigo (no acumulable)",
+                "Meningkatkan MAG sebanyak 30% dan meningkatkan MAG sebanyak 30% ketika tongkat atau cambuk digunakan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30% + เพิ่มค่า MAG\u001a \u001a30% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001aหรือ\u001aแส้\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 30%, and boosts MAG by 30% when equipped with a rod or whip. Not stackable.",
+                "提高30%魔力，以及裝備魔棒鞭子時提高30%魔力。[無法重複裝備]",
+                "마력이 30% 상승하고, 홀장 또는 채찍 장착 시 마력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, et augmente la MAGIE de 30 % quand un sceptre ou un fouet est équipé. Non cumulable.",
+                "Erhöht MAG um 30% und erhöht MAG um 30%, wenn mit einer Rute oder Peitsche ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG un 30% y la aumenta otro 30% extra al llevar vara o látigo. No acumulable.",
+                "Meningkatkan MAG sebanyak 30% dan meningkatkan MAG sebanyak 30% ketika tongkat atau cambuk digunakan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30% + เพิ่มค่า MAG\u001a \u001a30% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001aหรือ\u001aแส้\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504238849": {
-        "name": "闘技大会を勝ち抜いた者",
+        "name": "Champions of the Tournament",
         "compendium_id": 1251,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [238849],
-        "effects": ["Grants '闘技大会を勝ち抜いた者' passive."],
-        "unique": false,
+        "effects": ["Grants 'Champions of the Tournament' passive."],
+        "unique": true,
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Champions of the Tournament",
+                "鬥技大會的優勝者",
+                "투기 대회의 승리자",
+                "Vainqueurs du tournoi",
+                "Turniersieger",
+                "Campeonas del torneo",
+                "Juara Turnamen",
+                "ผู้ชนะเลิศ\u001aงาน\u001aประลอง\u001a"
+            ],
+            "desc_short": [
+                "Boost magic damage against beasts (Not stackable)",
+                "魔法攻擊時提高對獸系魔物的傷害[無法重複裝備]",
+                "마법 공격 시 야수형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux bêtes (non cumulable)",
+                "Erhöht magischen Schaden gegen Bestien (nicht stapelbar).",
+                "Aumenta el daño mágico contra bestias (no acumulable)",
+                "Meningkatkan damage magic terhadap jenis makhluk buas (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aอสูร\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts magic damage against beasts. Not stackable.",
+                "魔法攻擊時提高對獸系魔物的傷害。[無法重複裝備]",
+                "마법 공격 시 야수형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux bêtes. Non cumulable.",
+                "Erhöht magischen Schaden gegen Bestien. Nicht stapelbar.",
+                "Aumenta el daño mágico contra bestias. No acumulable.",
+                "Meningkatkan damage magic terhadap jenis makhluk buas. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aอสูร\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504238993": {
