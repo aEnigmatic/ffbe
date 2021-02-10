@@ -19123,7 +19123,7 @@
                 "LB 게이지 효율 상승+단검, 검, 대검 또는 도 장착 시 공격력 상승 (중복 장착 불가)",
                 "Augmente le taux de remplissage de la jauge de limite et augmente l'ATT quand une épée, une épée courte, une épée longue ou un katana est équipé (non cumulable)",
                 "Limitmeter füllt sich schneller und erhöht ANG, wenn mit Kurzschwert, Schwert, Großschwert oder Katana ausgerüstet (Nicht stapelbar).",
-                "Las piedras de estallido recuperan más EL y aumenta el ATQ al llevar espada corta, espada, espada grande o katana (no acumulable)",
+                "La barra de EL se rellena más rápido y aumenta el ATQ al llevar espada corta, espada, espada grande o katana (no acumulable)",
                 "Meningkatkan kecepatan pengisian bar LB dan meningkatkan ATK ketika pedang pendek, pedang, pedang besar, atau katana digunakan (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001a \u001aFill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aดาบสั้น\u001a,\u001a \u001aดาบ\u001a,\u001a \u001aดาบ\u001aใหญ่\u001aหรือ\u001aดาบ\u001aคาตา\u001aนะ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
@@ -38193,20 +38193,47 @@
         }
     },
     "504239005": {
-        "name": "悪魔必滅の威圧",
+        "name": "Crucifying Coercion",
         "compendium_id": 1257,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [239005],
-        "effects": ["Grants '悪魔必滅の威圧' passive."],
-        "unique": false,
+        "effects": ["Grants 'Crucifying Coercion' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Crucifying Coercion",
+                "魔滅之威壓",
+                "마멸의 위압",
+                "Coercition crucifiante",
+                "Quälender Zwang",
+                "Coerción exorcizante",
+                "Tekanan Penghancur Demon",
+                "ขู่เข็ญ\u001aทำลาย\u001aมาร\u001a"
+            ],
+            "desc_short": [
+                "Boost MAG by 30% and boost physical and magic damage against demons (Not stackable)",
+                "提高30%魔力+物理、魔法攻擊時提高對惡魔系魔物的傷害[無法重複裝備]",
+                "마력 30% 상승+물리, 마법 공격 시 악마형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, et augmente les dégâts physiques et magiques infligés aux démons (non cumulable)",
+                "Erhöht MAG um 30% und erhöht physischen sowie magischen Schaden gegen Dämonen (nicht stapelbar).",
+                "Aumenta la MAG un 30% y el daño físico y mágico contra demonios (no acumulable)",
+                "Meningkatkan MAG sebanyak 30%, serta meningkatkan damage fisik dan magic terhadap jenis demon (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 30% and boosts physical and magic damage against demons. Not stackable.",
+                "提高30%魔力，以及物理、魔法攻擊時提高對惡魔系魔物的傷害。[無法重複裝備]",
+                "마력이 30% 상승하고, 물리, 마법 공격 시 악마형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de 30 %, et augmente les dégâts physiques et magiques infligés aux démons. Non cumulable.",
+                "Erhöht MAG um 30% und erhöht physischen sowie magischen Schaden gegen Dämonen. Nicht stapelbar.",
+                "Aumenta la MAG un 30% y el daño físico y mágico contra demonios. No acumulable.",
+                "Meningkatkan MAG sebanyak 30%, serta meningkatkan damage fisik dan magic terhadap jenis demon. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504400110": {
@@ -44893,6 +44920,50 @@
                 "Aumenta la VIT y los PM un 15% y el ATQ un 60%, los parámetros un 30% al vincular un esper, y el ATQ un 20% al llevar katana. No acumulable.",
                 "Meningkatkan HP dan MP sebanyak 15%, dan ATK sebanyak 60%, meningkatkan parameter sebanyak 30% ketika esper dipasang, dan meningkatkan ATK sebanyak 20% ketika katana digunakan. Tidak dapat ditumpuk.",
                 "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aMP\u001a \u001a15% และ ATK\u001a \u001a60% + เพิ่มค่าสเตตัสเมื่อทำการติดตั้ง Esper\u001a \u001aขึ้น\u001a \u001a30% + เพิ่มค่า ATK\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aคาตา\u001aนะ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "1500000143": {
+        "name": "Reflective Water",
+        "compendium_id": 90144,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [914734],
+        "effects": ["Grants 'Reflective Water' passive."],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_23.png",
+        "strings": {
+            "names": [
+                "Reflective Water",
+                "反射之水",
+                "반사의 물",
+                "Eau réfléchissante",
+                "Reflektierendes Wasser",
+                "Agua reflectante",
+                "Air Reflektif",
+                "ผืนน้ำ\u001aใส\u001aสะท้อน\u001a"
+            ],
+            "desc_short": [
+                "Boost MAG and SPR by 20% and fire and water resistance by 30%, boost MAG by 20% when equipped with a rod, and boost SPR by 20% when equipped with a staff (Not stackable)",
+                "提高20%魔力精神、30%火水屬性耐性+裝備魔棒時提高20%魔力+裝備手杖時提高20%精神[無法重複裝備]",
+                "마력과 정신력 20%, 불과 물속성 저항력 30% 상승+홀장 장착 시 마력 20% 상승+지팡이 장착 시 정신력 20% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE et la PSY de 20 %, et la résistance au feu et à l'eau de 30 %, augmente la MAGIE de 20 % quand un sceptre est équipé, et augmente la PSY de 20 % quand un bâton est équipé (Non cumulable)",
+                "Erhöht MAG sowie PSY um 20%, Feuer- sowie Wasserresistenz um 30%, erhöht MAG um 20%, wenn mit einer Rute ausgerüstet, und erhöht PSY um 20%, wenn mit einem Stab ausgerüstet (nicht stapelbar).",
+                "Aumenta la MAG y el ESP un 20% y la resistencia a fuego y agua un 30%, aumenta la MAG otro 30% extra al llevar vara, y aumenta el ESP otro 20% extra al llevar bastón (no acumulable)",
+                "Meningkatkan MAG dan SPR sebanyak 20%, dan resistansi api dan air sebanyak 30%, meningkatkan MAG sebanyak 20% ketika tongkat digunakan, dan meningkatkan SPR sebanyak 20% ketika staff digunakan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% + เพิ่มพลังต้านทาน<br>ธาตุไฟและน้ำ 30% + เพิ่มค่า MAG\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aSPR\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aไม้เท้า\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG and SPR by 20% and fire and water resistance by 30%, boosts MAG by 20% when equipped with a rod, and boosts SPR by 20% when equipped with a staff. Not stackable.",
+                "提高20%魔力精神、30%火水屬性耐性，以及裝備魔棒時提高20%魔力，並且裝備手杖時提高20%精神。[無法重複裝備]",
+                "마력과 정신력이 20%, 불과 물속성 저항력이 30% 상승하고, 홀장 장착 시 마력이 20% 상승하며, 지팡이 장착 시 정신력이 20% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE et la PSY de 20 %, et la résistance au feu et à l'eau de 30 %, augmente la MAGIE de 20 % quand un sceptre est équipé, et augmente la PSY de 20 % quand un bâton est équipé. Non cumulable.",
+                "Erhöht MAG sowie PSY um 20%, Feuer- sowie Wasserresistenz um 30%, erhöht MAG um 20%, wenn mit einer Rute ausgerüstet, und erhöht PSY um 20%, wenn mit einem Stab ausgerüstet. Nicht stapelbar.",
+                "Aumenta la MAG y el ESP un 20% y la resistencia a fuego y agua un 30%, aumenta la MAG otro 30% extra al llevar vara, y aumenta el ESP otro 20% extra al llevar bastón. No acumulable.",
+                "Meningkatkan MAG dan SPR sebanyak 20%, dan resistansi api dan air sebanyak 30%, meningkatkan MAG sebanyak 20% ketika tongkat digunakan, dan meningkatkan SPR sebanyak 20% ketika staff digunakan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% + เพิ่มพลังต้านทานธาตุไฟและน้ำ 30% + เพิ่มค่า MAG\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aSPR\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aไม้เท้า\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
         }
     }
