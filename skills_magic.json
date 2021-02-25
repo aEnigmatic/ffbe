@@ -1042,6 +1042,28 @@
         "effects_raw": [[1, 2, 8, [120,  1,  2900,  -1]]],
         "requirements": null
     },
+    "10404": {
+        "name": "リジェネ(サクラの仮装用)",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 2000 HP per turn to one ally"],
+        "effects_raw": [[1, 2, 8, [0,  1,  2000,  -1]]],
+        "requirements": null
+    },
     "20010": {
         "name": "Fire",
         "icon": "ability_21.png",
@@ -2873,7 +2895,7 @@
         "icon": "ability_14.png",
         "compendium_id": 200,
         "rarity": 1,
-        "cost": {"MP": 3},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2886,8 +2908,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Inflict Sleep (40%) on one enemy"],
-        "effects_raw": [[1, 1, 6, [0,  0,  40,  0,  0,  0,  0,  0,  1]]],
+        "effects": ["Inflict Sleep (100%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
     "30020": {
@@ -2895,7 +2917,7 @@
         "icon": "ability_14.png",
         "compendium_id": 201,
         "rarity": 1,
-        "cost": {"MP": 3},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2908,8 +2930,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Inflict Blind (40%) on one enemy"],
-        "effects_raw": [[1, 1, 6, [0,  40,  0,  0,  0,  0,  0,  0,  1]]],
+        "effects": ["Inflict Blind (100%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
     "30030": {
@@ -2917,7 +2939,7 @@
         "icon": "ability_11.png",
         "compendium_id": 202,
         "rarity": 1,
-        "cost": {"MP": 3},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2930,8 +2952,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [30,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Fire by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [60,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30040": {
@@ -2939,7 +2961,7 @@
         "icon": "ability_15.png",
         "compendium_id": 203,
         "rarity": 1,
-        "cost": {"MP": 3},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2952,8 +2974,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [0,  30,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Ice by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [0,  60,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30050": {
@@ -2961,7 +2983,7 @@
         "icon": "ability_13.png",
         "compendium_id": 204,
         "rarity": 1,
-        "cost": {"MP": 3},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2974,8 +2996,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [0,  0,  30,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Lightning by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [0,  0,  60,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30060": {
@@ -2983,7 +3005,7 @@
         "icon": "ability_18.png",
         "compendium_id": 205,
         "rarity": 2,
-        "cost": {"MP": 6},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -2996,8 +3018,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [0,  0,  0,  30,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Water by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30070": {
@@ -3005,7 +3027,7 @@
         "icon": "ability_12.png",
         "compendium_id": 206,
         "rarity": 2,
-        "cost": {"MP": 6},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3018,8 +3040,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  30,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Wind by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  60,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30080": {
@@ -3027,7 +3049,7 @@
         "icon": "ability_17.png",
         "compendium_id": 207,
         "rarity": 2,
-        "cost": {"MP": 6},
+        "cost": {"MP": 5},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3040,8 +3062,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 30% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  0,  30,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Earth by 60% for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  0,  60,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30090": {
@@ -3049,7 +3071,7 @@
         "icon": "ability_77.png",
         "compendium_id": 208,
         "rarity": 2,
-        "cost": {"MP": 4},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3062,8 +3084,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 20% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  20,  0,  0,  3,  1]]],
+        "effects": [
+            "Increase DEF by 100% for 4 turns to one ally",
+            "Reduce damage taken from physical attacks taken by 30% to one ally for 4 turns"
+        ],
+        "effects_raw": [[1, 2, 3, [0,  100,  0,  0,  4,  1]], [1, 2, 18, [30,  4,  1,  1]]],
         "requirements": null
     },
     "30091": {
@@ -3084,8 +3109,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 20% for this fight to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  20,  0,  0,  -1,  1]]],
+        "effects": [
+            "Increase DEF by 100% for this fight to one ally",
+            "Reduce damage taken from physical attacks taken by 30% to one ally for 99999 turns"
+        ],
+        "effects_raw": [[1, 2, 3, [0,  100,  0,  0,  -1,  1]], [1, 2, 18, [30,  99999,  1,  1]]],
         "requirements": null
     },
     "30092": {
@@ -3282,8 +3310,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Silence (40%) on one enemy"],
-        "effects_raw": [[1, 1, 6, [0,  0,  0,  40,  0,  0,  0,  0,  1]]],
+        "effects": ["Inflict Silence (100%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  100,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
     "30110": {
@@ -3291,7 +3319,7 @@
         "icon": "ability_11.png",
         "compendium_id": 211,
         "rarity": 3,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3304,8 +3332,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Fire by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [60,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30120": {
@@ -3313,7 +3341,7 @@
         "icon": "ability_15.png",
         "compendium_id": 212,
         "rarity": 3,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3326,8 +3354,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  50,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Ice by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  60,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30130": {
@@ -3335,7 +3363,7 @@
         "icon": "ability_13.png",
         "compendium_id": 213,
         "rarity": 3,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3348,8 +3376,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  50,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Lightning by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  60,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30140": {
@@ -3357,7 +3385,7 @@
         "icon": "ability_77.png",
         "compendium_id": 214,
         "rarity": 3,
-        "cost": {"MP": 4},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3370,8 +3398,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 20% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  0,  0,  20,  3,  1]]],
+        "effects": [
+            "Increase SPR by 100% for 4 turns to one ally",
+            "Reduce damage taken by magic attacks by 30% to one ally for 4 turns"
+        ],
+        "effects_raw": [[1, 2, 3, [0,  0,  0,  100,  4,  1]], [1, 2, 19, [30,  4,  1,  1]]],
         "requirements": null
     },
     "30141": {
@@ -3392,8 +3423,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 20% for this fight to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  0,  0,  20,  -1,  1]]],
+        "effects": [
+            "Increase SPR by 100% for this fight to one ally",
+            "Reduce damage taken by magic attacks by 30% to one ally for 99999 turns"
+        ],
+        "effects_raw": [[1, 2, 3, [0,  0,  0,  100,  -1,  1]], [1, 2, 19, [30,  99999,  1,  1]]],
         "requirements": null
     },
     "30142": {
@@ -3555,7 +3589,7 @@
         "icon": "ability_39.png",
         "compendium_id": 216,
         "rarity": 3,
-        "cost": {"MP": 4},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3568,8 +3602,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce DEF by 20% for 3 turns to one enemy"],
-        "effects_raw": [[1, 1, 24, [0,  -20,  0,  0,  3,  1]]],
+        "effects": ["Reduce DEF by 75% for 4 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [0,  -75,  0,  0,  4,  1]]],
         "requirements": null
     },
     "30160": {
@@ -3577,7 +3611,7 @@
         "icon": "ability_39.png",
         "compendium_id": 217,
         "rarity": 3,
-        "cost": {"MP": 4},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3590,8 +3624,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce SPR by 20% for 3 turns to one enemy"],
-        "effects_raw": [[1, 1, 24, [0,  0,  0,  -20,  3,  1]]],
+        "effects": ["Reduce SPR by 75% for 4 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [0,  0,  0,  -75,  4,  1]]],
         "requirements": null
     },
     "30170": {
@@ -3599,7 +3633,7 @@
         "icon": "ability_18.png",
         "compendium_id": 218,
         "rarity": 4,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3612,8 +3646,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  50,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Water by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30180": {
@@ -3621,7 +3655,7 @@
         "icon": "ability_12.png",
         "compendium_id": 219,
         "rarity": 4,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3634,8 +3668,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  50,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Wind by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  60,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30190": {
@@ -3643,7 +3677,7 @@
         "icon": "ability_17.png",
         "compendium_id": 220,
         "rarity": 4,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3656,8 +3690,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 50% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  50,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Earth by 60% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  60,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30200": {
@@ -3665,7 +3699,7 @@
         "icon": "ability_39.png",
         "compendium_id": 221,
         "rarity": 4,
-        "cost": {"MP": 15},
+        "cost": {"MP": 20},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3678,8 +3712,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce resistance to all elements by 20% for 3 turns to one enemy"],
-        "effects_raw": [[1, 1, 33, [-20,  -20,  -20,  -20,  -20,  -20,  -20,  -20,  1,  3]]],
+        "effects": ["Reduce resistance to all elements by 100% for 4 turns to one enemy"],
+        "effects_raw": [[1, 1, 33, [-100,  -100,  -100,  -100,  -100,  -100,  -100,  -100,  1,  4]]],
         "requirements": null
     },
     "30210": {
@@ -3687,7 +3721,7 @@
         "icon": "ability_77.png",
         "compendium_id": 222,
         "rarity": 4,
-        "cost": {"MP": 8},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3700,8 +3734,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 20% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 3, [20,  0,  0,  0,  3,  1]]],
+        "effects": ["Increase ATK by 200% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 3, [200,  0,  0,  0,  4,  1]]],
         "requirements": null
     },
     "30211": {
@@ -3722,8 +3756,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 20% for this fight to one ally"],
-        "effects_raw": [[1, 2, 3, [20,  0,  0,  0,  -1,  1]]],
+        "effects": ["Increase ATK by 200% for this fight to one ally"],
+        "effects_raw": [[1, 2, 3, [200,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
     "30212": {
@@ -3913,7 +3947,7 @@
         "icon": "ability_77.png",
         "compendium_id": 224,
         "rarity": 4,
-        "cost": {"MP": 8},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3926,8 +3960,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase MAG by 20% for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  0,  20,  0,  3,  1]]],
+        "effects": ["Increase MAG by 200% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 3, [0,  0,  200,  0,  4,  1]]],
         "requirements": null
     },
     "30221": {
@@ -3948,8 +3982,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase MAG by 20% for this fight to one ally"],
-        "effects_raw": [[1, 2, 3, [0,  0,  20,  0,  -1,  1]]],
+        "effects": ["Increase MAG by 200% for this fight to one ally"],
+        "effects_raw": [[1, 2, 3, [0,  0,  200,  0,  -1,  1]]],
         "requirements": null
     },
     "30260": {
@@ -3957,7 +3991,7 @@
         "icon": "ability_11.png",
         "compendium_id": 227,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3970,8 +4004,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [70,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Fire by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [80,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30270": {
@@ -3979,7 +4013,7 @@
         "icon": "ability_15.png",
         "compendium_id": 228,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -3992,8 +4026,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  70,  0,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Ice by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  80,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30280": {
@@ -4001,7 +4035,7 @@
         "icon": "ability_13.png",
         "compendium_id": 229,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4014,8 +4048,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  70,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Lightning by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  80,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30290": {
@@ -4023,7 +4057,7 @@
         "icon": "ability_18.png",
         "compendium_id": 230,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4036,8 +4070,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  70,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Water by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  80,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30300": {
@@ -4045,7 +4079,7 @@
         "icon": "ability_12.png",
         "compendium_id": 231,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4058,8 +4092,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  70,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Wind by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  80,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30310": {
@@ -4067,7 +4101,7 @@
         "icon": "ability_17.png",
         "compendium_id": 232,
         "rarity": 6,
-        "cost": {"MP": 22},
+        "cost": {"MP": 15},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4080,8 +4114,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  70,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Earth by 80% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  80,  0,  0,  1,  4]]],
         "requirements": null
     },
     "30320": {
@@ -4089,7 +4123,7 @@
         "icon": "ability_77.png",
         "compendium_id": 233,
         "rarity": 6,
-        "cost": {"MP": 24},
+        "cost": {"MP": 25},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4102,8 +4136,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 40% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 3, [0,  40,  0,  0,  3,  1]]],
+        "effects": [
+            "Increase DEF by 100% for 4 turns to all allies",
+            "Reduce damage taken from physical attacks taken by 30% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  100,  0,  0,  4,  1]], [2, 2, 18, [30,  4,  1,  1]]],
         "requirements": null
     },
     "30330": {
@@ -4111,7 +4148,7 @@
         "icon": "ability_77.png",
         "compendium_id": 234,
         "rarity": 6,
-        "cost": {"MP": 24},
+        "cost": {"MP": 25},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -4124,8 +4161,11 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 40% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 3, [0,  0,  0,  40,  3,  1]]],
+        "effects": [
+            "Increase SPR by 100% for 4 turns to all allies",
+            "Reduce damage taken by magic attacks by 30% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  0,  0,  100,  4,  1]], [2, 2, 19, [30,  4,  1,  1]]],
         "requirements": null
     },
     "30370": {
@@ -4146,8 +4186,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 1 spell(s) for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 86, [100,  1,  3]]],
+        "effects": ["Reflect 1 spell(s) for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 86, [100,  1,  4]]],
         "requirements": null
     },
     "30371": {
@@ -5484,7 +5524,7 @@
         "icon": "ability_13.png",
         "compendium_id": 213,
         "rarity": 3,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -5497,8 +5537,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 70% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  70,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Lightning by 70% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  70,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "70080": {
@@ -5506,7 +5546,7 @@
         "icon": "ability_13.png",
         "compendium_id": 213,
         "rarity": 3,
-        "cost": {"MP": 12},
+        "cost": {"MP": 10},
         "magic_type": "Green",
         "is_sealable": true,
         "is_reflectable": true,
@@ -5519,8 +5559,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 100% for 3 turns to all allies"],
-        "effects_raw": [[2, 2, 33, [0,  0,  100,  0,  0,  0,  0,  0,  1,  3]]],
+        "effects": ["Increase resistance to Lightning by 100% for 4 turns to all allies"],
+        "effects_raw": [[2, 2, 33, [0,  0,  100,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
     "70090": {
@@ -5861,8 +5901,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 2 spell(s) for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 86, [100,  2,  3]]],
+        "effects": ["Reflect 2 spell(s) for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 86, [100,  2,  4]]],
         "requirements": null
     },
     "70240": {
@@ -5883,8 +5923,8 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 3 spell(s) for 3 turns to one ally"],
-        "effects_raw": [[1, 2, 86, [100,  3,  3]]],
+        "effects": ["Reflect 3 spell(s) for 4 turns to one ally"],
+        "effects_raw": [[1, 2, 86, [100,  3,  4]]],
         "requirements": null
     },
     "70250": {
@@ -6796,6 +6836,106 @@
         "element_inflict": ["Fire"],
         "effects": ["Magic fire damage (14.2x, MAG) with consecutive damage increase (max. 9 times, +4.2x MAG each, 52x total) to one enemy"],
         "effects_raw": [[1, 1, 72, [0,  0,  1000,  420,  420,  10]]],
+        "requirements": null
+    },
+    "70455": {
+        "name": "プロテガ",
+        "icon": "ability_77.png",
+        "compendium_id": 233,
+        "rarity": 6,
+        "cost": {"MP": 25},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            "Increase DEF by 150% for 4 turns to all allies",
+            "Reduce damage taken from physical attacks taken by 40% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  150,  0,  0,  4,  1]], [2, 2, 18, [40,  4,  1,  1]]],
+        "requirements": null
+    },
+    "70456": {
+        "name": "プロテガ",
+        "icon": "ability_77.png",
+        "compendium_id": 233,
+        "rarity": 6,
+        "cost": {"MP": 25},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            "Increase DEF by 200% for 4 turns to all allies",
+            "Reduce damage taken from physical attacks taken by 50% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  200,  0,  0,  4,  1]], [2, 2, 18, [50,  4,  1,  1]]],
+        "requirements": null
+    },
+    "70457": {
+        "name": "シェルガ",
+        "icon": "ability_77.png",
+        "compendium_id": 234,
+        "rarity": 6,
+        "cost": {"MP": 25},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            "Increase SPR by 150% for 4 turns to all allies",
+            "Reduce damage taken by magic attacks by 40% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  0,  0,  150,  4,  1]], [2, 2, 19, [40,  4,  1,  1]]],
+        "requirements": null
+    },
+    "70458": {
+        "name": "シェルガ",
+        "icon": "ability_77.png",
+        "compendium_id": 234,
+        "rarity": 6,
+        "cost": {"MP": 25},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            "Increase SPR by 200% for 4 turns to all allies",
+            "Reduce damage taken by magic attacks by 50% to all allies for 4 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  0,  0,  200,  4,  1]], [2, 2, 19, [50,  4,  1,  1]]],
         "requirements": null
     },
     "91000": {
