@@ -573,8 +573,8 @@
         "icon": "ability_29.png",
         "strings": {
             "names": ["Comet", "彗星", "코멧", "Comète", "Komet", "Cometa", "Komet", "Comet\u001a"],
-            "desc_short": ["Deal magic damage to one enemy and power up with consecutive use", "攻擊1名敵人＋連續使用時威力提升", "적 1명에게 피해+연속 사용 시 위력 상승", "Dégâts sur un ennemi et bonus de force avec un usage consécutif", "Verursacht steigenden Schaden, ein Ziel", "Inflige daño mágico a un enemigo y aumenta el daño con cada uso.", "Memberikan damage magic pada satu musuh dan meningkatkan damage apabila digunakan secara beruntun", "สร้าง\u001aความเสียหาย\u001aทาง\u001aพลัง\u001aเวทย์\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aเมื่อ\u001aใช้งาน\u001aต่อเนื่อง\u001a"],
-            "desc_long": ["Deals damage to one enemy. Damage dealt increases with each use.", "攻擊1名敵人。重複使用可以增加傷害量。", "적 1명에게 피해를 주고, 연속 사용 시 위력이 상승합니다.", "Inflige des dégâts à un ennemi et devient plus puissant à chaque utilisation.", "Fügt einem Gegner Schaden zu und erhöht die Kraft.", "Inflige daño a un enemigo y aumenta el poder con el uso.", "Memberikan damage magic pada satu musuh. Damage akan meningkat apabila digunakan secara beruntun.", "สร้าง\u001aความเสียหาย\u001aทาง\u001aพลัง\u001aเวทย์\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aเมื่อ\u001aใช้งาน\u001aต่อเนื่อง\u001a"]
+            "desc_short": ["Deal partial unmitigated magic damage to one enemy", "對1名敵人發動無視部分魔法防禦的攻擊", "적 1명에게 일부 마법 방어 무시 피해", "Inflige des dégâts magiques en partie fixes à un ennemi", "Fügt einem Gegner teilweise direkten magischen Schaden zu.", "Daño mágico que ignora parcialmente el ESP de un enemigo", "Memberikan damage magic yang menembus sebagian SPR pada satu musuh", "สร้าง\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aที่\u001aทะลุ\u001aการป้องกัน\u001aบางส่วน\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a"],
+            "desc_long": ["Deals partial unmitigated magic damage to one enemy.", "對1名敵人發動無視部分魔法防禦的攻擊。", "적 1명에게 일부 마법 방어 무시 피해를 줍니다.", "Inflige des dégâts magiques en partie fixes à un ennemi", "Fügt einem Gegner teilweise direkten magischen Schaden zu.", "Daño mágico que ignora parcialmente el ESP de un enemigo.", "Memberikan damage magic yang menembus sebagian SPR pada satu musuh.", "สร้าง\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aที่\u001aทะลุ\u001aการป้องกัน\u001aบางส่วน\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a"]
         }
     },
     "504020180": {
@@ -6024,7 +6024,7 @@
                 "裝備槍時提高攻擊+提高跳躍系能力的傷害數值[無法重複裝備]",
                 "창 장착 시 공격력 상승+점프 계열 어빌리티 피해량 상승 (중복 장착 불가)",
                 "Augmente l'ATT quand une lance est équipée et augmente les dégâts des attaques sautées (non cumulable)",
-                "Erhöht ANG, wenn mit Speer ausgerüstet und erhöht Schaden von Sprungangriffen. (Nicht stapelbar)",
+                "Erhöht ANG, wenn mit Speer ausgerüstet, und erhöht Schaden von Sprungangriffen. (Nicht stapelbar)",
                 "Aumenta el ATQ al llevar una lanza y el ataque de las habilidades de salto. (no acumulable)",
                 "Meningkatkan ATK ketika tombak digunakan dan meningkatkan damage ability Jump (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aหอก\u001a \u001a+\u001a \u001aเพิ่ม\u001aความเสียหาย\u001aจาก\u001aการ\u001aใช้\u001a \u001aAbility\u001a \u001aแบบ\u001aกระโดด\u001aหาย\u001aจาก\u001aหน้าจอ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
@@ -20426,6 +20426,75 @@
             ]
         }
     },
+    "504239597": {
+        "name": "過去に向き合った者",
+        "compendium_id": 1274,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [239597],
+        "effects": ["Unknown skill (239597)"],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504239870": {
+        "name": "Man-Eater Sense",
+        "compendium_id": 1280,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [239870],
+        "effects": ["Grants 'Man-Eater Sense' passive."],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Man-Eater Sense", "人類捕食者之念", "인간 포식자의 원념", "Instinct anti-humains", "Gespür des Menschenverschlingers", "Sentido comehombres", "Keinginan Pemakan Manusia", "จิต\u001aเขมือบ\u001aมนุษย์\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 40%, and boost physical damage against humans (Not stackable)",
+                "提高40%攻擊魔力+物理攻擊時提高對人系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+물리 공격 시 인간형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts physiques infligés aux humains (non cumulable)",
+                "Erhöht ANG sowie MAG um 40% und erhöht physischen Schaden gegen Menschen (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y aumenta el daño fisico contra humanos (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik terhadap jenis manusia (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมนุษย์\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40%, and boosts physical damage against humans. Not stackable.",
+                "提高40%攻擊魔力，以及物理攻擊時提高對人系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 물리 공격 시 인간형 마물에게 부여하는 피해량이 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts physiques infligés aux humains. (Non cumulable).",
+                "Erhöht ANG sowie MAG um 40% und erhöht physischen Schaden gegen Menschen. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y aumenta el daño fisico contra humanos. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik terhadap jenis manusia. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมนุษย์\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "504239872": {
+        "name": "死霊喰らいの念",
+        "compendium_id": 1281,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [239872],
+        "effects": ["Grants '死霊喰らいの念' passive."],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504400110": {
         "name": "Reduce Encounter",
         "compendium_id": 784,
@@ -24360,6 +24429,41 @@
                 "Aumenta el ATQ un 70%, aumenta el daño del EL, y probabilidad de evadir algunos ataques físicos. No acumulable.",
                 "Meningkatkan ATK sebanyak 70%, meningkatkan damage LB, dan meningkatkan peluang untuk menghindari beberapa serangan fisik. Tidak dapat ditumpuk.",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001a70% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a+\u001a \u001aมีโอกาส\u001aหลบ\u001aการ\u001aโจมตี\u001aทางกายภาพ\u001aบางส่วน\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "1500000145": {
+        "name": "Protector of the Forest",
+        "compendium_id": 90146,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [914853],
+        "effects": ["Grants 'Protector of the Forest' passive."],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "global_ability_10066.png",
+        "strings": {
+            "names": ["Protector of the Forest", "森林守護者", "숲의 수호자", "Protectrice de la forêt", "Beschützerin des Waldes", "Protectora del bosque", "Pelindung Hutan", "ผู้พิทักษ์\u001aแห่ง\u001aพงไพร\u001a"],
+            "desc_short": [
+                "Boost HP and SPR by 40%, and earth and lightning resistance by 30% (Not stackable)",
+                "提高40%HP精神、30%土雷屬性耐性[無法重複裝備]",
+                "HP와 정신력 40%, 땅과 번개속성 저항력 30% 상승 (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 %, et augmente la résistance à la terre et à la foudre de 30 % (non cumulable)",
+                "Erhöht LP sowie PSY um 40% und Erd- sowie Blitzresistenz um 30% (nicht stapelbar).",
+                "Aumenta la VIT y el ESP un 40%, y la resistencia a tierra y rayo un 30% (no acumulable)",
+                "Meningkatkan HP dan SPR sebanyak 40%, serta resistansi tanah dan petir sebanyak 30% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aSPR\u001a \u001a40% \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aดิน\u001aและ\u001aสายฟ้า\u001a \u001a30% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts HP and SPR by 40%, and earth and lightning resistance by 30%. Not stackable.",
+                "提高40%HP精神、30%土雷屬性耐性。[無法重複裝備]",
+                "HP와 정신력이 40%, 땅과 번개속성 저항력이 30% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 %, et augmente la résistance à la terre et à la foudre de 30 %. Non cumulable.",
+                "Erhöht LP sowie PSY um 40% und Erd- sowie Blitzresistenz um 30%. Nicht stapelbar.",
+                "Aumenta la VIT y el ESP un 40%, y la resistencia a tierra y rayo un 30%. No acumulable.",
+                "Meningkatkan HP dan SPR sebanyak 40%, serta resistansi tanah dan petir sebanyak 30%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aSPR\u001a \u001a40% \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aดิน\u001aและ\u001aสายฟ้า\u001a \u001a30% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
         }
     }
