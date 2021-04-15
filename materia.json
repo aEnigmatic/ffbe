@@ -6235,8 +6235,8 @@
         "icon": "ability_77.png",
         "strings": {
             "names": ["Guard of the Future", "未來守護者", "미래를 지키는 힘", "Gardien du futur", "Wächter der Zukunft", "Custodio del porvenir", "Pelindung Masa Depan", "พิทักษ์\u001aอนาคต\u001a"],
-            "desc_short": ["Boost ATK, DEF, MAG and SPR by 20%, and restore HP and MP every turn", "提高20%攻擊防禦魔力精神+每回合自動恢復HPMP", "공격력, 방어력, 마력, 정신력 20% 상승+매 턴마다 HP와 MP 회복", "Augmente l'ATT/DEF/PSY et la MAGIE de 20% et restaure PV/PM à chaque tour", "Erhöht ANG, ABW, MAG und PSY um 20% und stellt jede Runde LP und MP für Benutzer wieder her.", "Aumenta el ATQ, la DEF, la MAG y el ESP un 20% y recupera VIT y PM durante cada turno.", "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 20%, serta memulihkan HP dan MP setiap giliran", "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"],
-            "desc_long": ["Boosts ATK, DEF, MAG and SPR by 20%, and restores HP and MP every turn.", "提高20%攻擊防禦魔力精神，同時每回合自動恢復HPMP。", "공격력, 방어력, 마력, 정신력이 20% 상승하고, 매 턴마다 HP와 MP를 회복합니다.", "Augmente ATT/DEF/MAGIE/PSY de 20% et restaure PV/PM à chaque tour", "Erhöht ANG, ABW, MAG und PSY um 20% und stellt jede Runde LP und MP für Benutzer wieder her.", "Aumenta el ATQ, la DEF, la MAG y el ESP un 20% y recupera VIT y PM durante cada turno.", "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 20%, serta memulihkan HP dan MP setiap giliran.", "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"]
+            "desc_short": ["Boost ATK, DEF, MAG and SPR by 20%, and restore HP and MP every turn", "提高20%攻擊防禦魔力精神+每回合自動恢復HPMP", "공격력, 방어력, 마력, 정신력 20% 상승+매 턴마다 HP와 MP 회복", "Augmente l'ATT, la DEF, la PSY et la MAGIE de 20 %, et restaure les PV et les PM à chaque tour", "Erhöht ANG, ABW, MAG und PSY um 20% und stellt jede Runde LP und MP für Benutzer wieder her.", "Aumenta el ATQ, la DEF, la MAG y el ESP un 20% y recupera VIT y PM durante cada turno.", "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 20%, serta memulihkan HP dan MP setiap giliran", "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"],
+            "desc_long": ["Boosts ATK, DEF, MAG and SPR by 20%, and restores HP and MP every turn.", "提高20%攻擊防禦魔力精神，同時每回合自動恢復HPMP。", "공격력, 방어력, 마력, 정신력이 20% 상승하고, 매 턴마다 HP와 MP를 회복합니다.", "Augmente l'ATT, la DEF, la MAGIE et la PSY de 20 %, et restaure les PV et les PM à chaque tour", "Erhöht ANG, ABW, MAG und PSY um 20% und stellt jede Runde LP und MP für Benutzer wieder her.", "Aumenta el ATQ, la DEF, la MAG y el ESP un 20% y recupera VIT y PM durante cada turno.", "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 20%, serta memulihkan HP dan MP setiap giliran.", "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"]
         }
     },
     "504213530": {
@@ -20687,20 +20687,38 @@
         }
     },
     "504239897": {
-        "name": "王家御用達の整備士",
+        "name": "Mechanic for the Royal Family",
         "compendium_id": 1282,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [239897],
-        "effects": ["Grants '王家御用達の整備士' passive."],
-        "unique": false,
+        "effects": ["Grants 'Mechanic for the Royal Family' passive."],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Mechanic for the Royal Family", "王家御用維修技師", "왕가 어용 정비사", "Mécano de la famille royale", "Mechanikerin des Königshauses", "Mecánica de la familia real", "Ahli Mekanik Bagi Keluarga Kerajaan", "ช่างเทคนิค\u001aผู้รับใช้\u001aราชวงศ์\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against machina monsters by 100%, and restore MP by 5% every turn (Not stackable)",
+                "物理、魔法攻擊時提高100%對機械系魔物的傷害+每回合恢復5%MP[無法重複裝備]",
+                "물리, 마법 공격 시 기계형 마물에게 부여하는 피해량 100% 상승+매 턴마다 MP 5% 회복 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux machines de 100 %, et restaure les PM de 5 % à chaque tour (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Maschinen um 100% und regeneriert jede Runde MP um 5% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra máquinas un 100%, y recupera un 5% de PM cada turno (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis mesin sebanyak 100%, serta memulihkan MP setiap giliran sebanyak 5% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aจักรกล\u001a \u001a100% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aMP\u001a \u001a5% \u001aทุก\u001aเทิร์น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against machina monsters by 100%, and restores MP by 5% every turn. Not stackable.",
+                "物理、魔法攻擊時提高100%對機械系魔物的傷害，以及每回合恢復5%MP。[無法重複裝備]",
+                "물리, 마법 공격 시 기계형 마물에게 부여하는 피해량이 100% 상승하고, 매 턴마다 MP를 5% 회복합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux machines de 100 %, et restaure les PM de 5 % à chaque tour. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Maschinen um 100% und regeneriert jede Runde MP um 5%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra máquinas un 100%, y recupera un 5% de PM cada turno. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis mesin sebanyak 100%, serta memulihkan MP setiap giliran sebanyak 5%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aจักรกล\u001a \u001a100% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aMP\u001a \u001a5% \u001aทุก\u001aเทิร์น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504240090": {
@@ -22761,17 +22779,17 @@
         "strings": {
             "names": ["Dragoon's Wisdom", "龍騎士的智慧", "용의 지혜", "Sagesse draconique", "Dragonerweisheit", "Sabiduría dragontina", "Kebijakan Kesatria Naga", "ปัญญา\u001aอัศวิน\u001aมังกร\u001a"],
             "desc_short": [
-                "Boost ATK by 70%, DEF, HP, and MP by 20%, and damage dealt by jump abilities. Not Stackable.",
-                "提高70%攻擊、20%防禦HPMP+提高跳躍系能力的傷害數值。[無法重複裝備]",
-                "공격력 70%, 방어력, HP, MP 20% 상승+점프 계열 어빌리티 피해량 상승. (중복 장착 불가)",
-                "Augmente l'ATT de 70 % ainsi que la DEF, les PV et les PM de 20 %, et augmente les dégâts des attaques sautées. Non cumulable.",
+                "Boost ATK by 70%, DEF, HP, and MP by 20%, and damage dealt by jump abilities (Not Stackable)",
+                "提高70%攻擊、20%防禦HPMP+提高跳躍系能力的傷害數值 [無法重複裝備]",
+                "공격력 70%, 방어력, HP, MP 20% 상승+점프 계열 어빌리티 피해량 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 70 % ainsi que la DEF, les PV et les PM de 20 %, et augmente les dégâts des attaques sautées (non cumulable)",
                 "Erhöht ANG um 70%, ABW, LP und MP um 20% und erhöht Schaden von Sprungangriffen (Nicht stapelbar).",
                 "Aumenta el ATQ un 70%, DEF, VIT y PM un 20% y aumenta el daño que infligen las habilidades de salto (no acumulable)",
                 "Meningkatkan ATK sebanyak 70%, DEF, HP, dan MP sebanyak 20%, serta meningkatkan damage ability Jump (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001a70% + เพิ่มค่า DEF\u001a,\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001a20% + เพิ่มความเสียหายที่เกิดจาก Ability\u001a \u001aประเภท\u001aกระโดด\u001aหาย\u001aไป\u001aจาก\u001aหน้าจอ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
             "desc_long": [
-                "Boost ATK by 70%, DEF, HP, and MP by 20%, and damage dealt by jump abilities. Not Stackable.",
+                "Boosts ATK by 70%, DEF, HP, and MP by 20%, and damage dealt by jump abilities. Not Stackable.",
                 "提高70%攻擊、20%防禦HPMP+提高跳躍系能力的傷害數值。[無法重複裝備]",
                 "공격력 70%, 방어력, HP, MP 20% 상승+점프 계열 어빌리티 피해량 상승. (중복 장착 불가)",
                 "Augmente l'ATT de 70 % ainsi que la DEF, les PV et les PM de 20 %, et augmente les dégâts des attaques sautées. Non cumulable.",

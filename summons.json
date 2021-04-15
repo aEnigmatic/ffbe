@@ -914,7 +914,7 @@
             },
             "11002": {
                 "effects": [
-                    ["Physical* damage (200x, EVO ATK) to all enemies", "Instant KO (50%) to all enemies"]
+                    ["Physical* damage (200x, EVO ATK) to all enemies", "Instant KO(50 %) to all enemies"]
                 ],
                 "effects_raw": [[2, 1, 94, [20000,  50,  1]]],
                 "attack_count": [1],
@@ -928,7 +928,7 @@
             },
             "11003": {
                 "effects": [
-                    ["Physical* damage (210x, EVO ATK) to all enemies", "Instant KO (60%) to all enemies"]
+                    ["Physical* damage (210x, EVO ATK) to all enemies", "Instant KO(60 %) to all enemies"]
                 ],
                 "effects_raw": [[2, 1, 94, [21000,  60,  1]]],
                 "attack_count": [1],
@@ -1425,9 +1425,9 @@
             },
             "11503": {
                 "effects": [
-                    ["Magic* damage (500x, EVO MAG) to all enemies"]
+                    ["Magic* damage (25,000x, EVO MAG) to all enemies"]
                 ],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  50000]]],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  2500000]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
                 "attack_frames": [[210]],
@@ -1480,10 +1480,10 @@
                     "SPR": [8600, 12000]
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 100, 0, 0, 0, 0, 0, 100],
                 "exp_pattern": 51,
                 "stat_pattern": 2,
-                "cp_pattern": [0, 5, 5, 5, 5, 5, 5, 5, 5, 6, 5, 6, 5, 6, 5, 6, 5, 6, 5, 6, 6, 5, 6, 6, 5, 6, 6, 5, 6, 6, 6, 5, 6, 6, 6, 5, 6, 6, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+                "cp_pattern": [0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10]
             }
         ]
     },
