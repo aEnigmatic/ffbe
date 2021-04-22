@@ -26909,7 +26909,7 @@
         "units": [215000605],
         "strings": {
             "names": ["Aerial Supremacy", "空中霸權", "에어 슈프리머시", "Suprématie aérienne", "Lufthoheit", "Supremacía aérea", "Supremasi Udara", "แสนยานุภาพ\u001aทางอากาศ\u001a"],
-            "description": ["Boosts own resistance to ATK reduction", "提高自身降低攻擊的耐性", "자신의 공격력 감소 저항력 상승", "Augmente la résistance du lanceur à la réductions de l'ATT", "Steigert Resistenz des Benutzers gegen ANG-Verringerungen", "Aumenta la resistencia propia a la reducción de ATQ", "Meningkatkan resistansi terhadap efek pengurangan ATK pada diri sendiri", "\u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aการถู\u001aกลด\u001aค่า\u001a \u001aATK\u001a \u001aของ\u001aตัวเอง\u001a"]
+            "description": ["Boosts ATK increase (mid)", "提高攻擊增加量(中)", "공격력 상승량 상승(중)", "Amplifie l'augmentation d'ATT (moyen)", "Steigert ANG-Erhöhungen (mittel)", "Mayor aumento de ataque (bastante)", "Menambah jumlah peningkatan ATK (sedang)", "\u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aปานกลาง\u001a)"]
         }
     },
     "227621002": {
@@ -26929,7 +26929,7 @@
         "units": [215000605],
         "strings": {
             "names": ["Aerial Supremacy", "空中霸權", "에어 슈프리머시", "Suprématie aérienne", "Lufthoheit", "Supremacía aérea", "Supremasi Udara", "แสนยานุภาพ\u001aทางอากาศ\u001a"],
-            "description": ["Boosts turns in effect (low)", "提高效果回合數(小)", "효과 턴 수 상승(소)", "Augmente le nombre de tours des effets (peu)", "Erhöht Anzahl aktiver Runden (gering)", "Aumenta la duración (poco)", "Menambah durasi efek (rendah)", "\u001aเพิ่มจำนวน\u001aเทิร์น\u001aที่\u001aมีผล\u001a \u001a(\u001aต่ำ\u001a)"]
+            "description": ["Boosts ATK increase (mid)", "提高效果回合數(小)", "공격력 상승량 상승(중)", "Amplifie l'augmentation d'ATT (moyen)", "Steigert ANG-Erhöhungen (mittel)", "Mayor aumento de ataque (bastante)", "Menambah jumlah peningkatan ATK (sedang)", "\u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aปานกลาง\u001a)"]
         }
     },
     "227622001": {
@@ -71224,6 +71224,225 @@
         "strings": {
             "names": ["Overgrown Flora", "花團錦簇", "마구 자란 식물들", "Flore gigantesque", "Überwucherte Flora", "Vegetación inconmensurable", "Overgrown Flora", "พันธุ์ไม้\u001aโต\u001aเกินพิกัด\u001a"],
             "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
+        }
+    },
+    "914938001": {
+        "name": "Fierce Will",
+        "skill_id_old": 914938,
+        "skill_id_new": 914939,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001300": 20,
+                "271001400": 10
+            }
+        },
+        "units": [401010907, 401010917],
+        "strings": {
+            "names": ["Fierce Will", "駭人意志", "맹렬한 의지", "Volonté féroce", "Wilder Wille", "Voluntad feroz", "Tekad yang Tinggi", "ปณิธาน\u001aอัน\u001aดุดัน\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
+    "914938002": {
+        "name": "Fierce Will",
+        "skill_id_old": 914939,
+        "skill_id_new": 914940,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001300": 30,
+                "271001400": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010907, 401010917],
+        "strings": {
+            "names": ["Fierce Will", "駭人意志", "맹렬한 의지", "Volonté féroce", "Wilder Wille", "Voluntad feroz", "Tekad yang Tinggi", "ปณิธาน\u001aอัน\u001aดุดัน\u001a"],
+            "description": ["and equipment SPR (50%)", "精神提升(50%)", "장비의 정신력(50%)", "et la PSY de l'équipement (50 %)", "und Ausrüstung-PSY (50%)", "y el ESP del equipo (un 50%)", "dan SPR perlengkapan (50%)", "\u001aและ\u001aค่า\u001a \u001aSPR\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a(\u001a50%)"]
+        }
+    },
+    "914938003": {
+        "name": "Fierce Will",
+        "skill_id_old": 914940,
+        "skill_id_new": 914941,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001300": 50,
+                "271001400": 30,
+                "271001500": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010907, 401010917],
+        "strings": {
+            "names": ["Fierce Will", "駭人意志", "맹렬한 의지", "Volonté féroce", "Wilder Wille", "Voluntad feroz", "Tekad yang Tinggi", "ปณิธาน\u001aอัน\u001aดุดัน\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
+    "914938004": {
+        "name": "Fierce Will",
+        "skill_id_old": 914941,
+        "skill_id_new": 914942,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001300": 100,
+                "271001400": 50,
+                "271001500": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010907, 401010917],
+        "strings": {
+            "names": ["Fierce Will", "駭人意志", "맹렬한 의지", "Volonté féroce", "Wilder Wille", "Voluntad feroz", "Tekad yang Tinggi", "ปณิธาน\u001aอัน\u001aดุดัน\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
+    "914959001": {
+        "name": "King's Barrier",
+        "skill_id_old": 914959,
+        "skill_id_new": 914961,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 20,
+                "271001100": 10
+            }
+        },
+        "units": [401010907],
+        "strings": {
+            "names": ["King's Barrier", "王之屏障", "제왕의 방어막", "Barrière royale", "Königsbarriere", "Barrera de rey", "Barier Raja", "บาเรีย\u001aแห่ง\u001aราชา\u001a"],
+            "description": ["ATK, ", "攻擊", "공격력", "l'ATT", "ANG, ", "ATQ", "ATK", "\u001aATK\u001a,"]
+        }
+    },
+    "914959002": {
+        "name": "King's Barrier",
+        "skill_id_old": 914961,
+        "skill_id_new": 914963,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 30,
+                "271001100": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010907],
+        "strings": {
+            "names": ["King's Barrier", "王之屏障", "제왕의 방어막", "Barrière royale", "Königsbarriere", "Barrera de rey", "Barier Raja", "บาเรีย\u001aแห่ง\u001aราชา\u001a"],
+            "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
+        }
+    },
+    "914959003": {
+        "name": "King's Barrier",
+        "skill_id_old": 914963,
+        "skill_id_new": 914965,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001000": 50,
+                "271001100": 30,
+                "271001200": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010907],
+        "strings": {
+            "names": ["King's Barrier", "王之屏障", "제왕의 방어막", "Barrière royale", "Königsbarriere", "Barrera de rey", "Barier Raja", "บาเรีย\u001aแห่ง\u001aราชา\u001a"],
+            "description": ["for 4 turns", "4回合內", "4턴 동안", "pendant 4 tours", "4 Runden lang", "durante 4 turnos", "4 giliran", "\u001aเป็นเวลา\u001a \u001a4\u001a \u001aเทิร์น"]
+        }
+    },
+    "914959004": {
+        "name": "King's Barrier",
+        "skill_id_old": 914965,
+        "skill_id_new": 914967,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001000": 100,
+                "271001100": 50,
+                "271001200": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010907],
+        "strings": {
+            "names": ["King's Barrier", "王之屏障", "제왕의 방어막", "Barrière royale", "Königsbarriere", "Barrera de rey", "Barier Raja", "บาเรีย\u001aแห่ง\u001aราชา\u001a"],
+            "description": ["250%", "250%", "250%", "250 %", "250%", "250%", "250%", "\u001a250%"]
+        }
+    },
+    "914975001": {
+        "name": "Meteor Shield",
+        "skill_id_old": 914975,
+        "skill_id_new": 914977,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401010917],
+        "strings": {
+            "names": ["Meteor Shield", "流星盾", "운석 방패", "Bouclier météore", "Meteorschild", "Escudo Meteo", "Meteor Shield", "โล่\u001aอุกกาบาต\u001a"],
+            "description": ["250%", "250%", "250%", "250 %", "250%", "250%", "250%", "\u001a250%"]
+        }
+    },
+    "914975002": {
+        "name": "Meteor Shield",
+        "skill_id_old": 914977,
+        "skill_id_new": 914979,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010917],
+        "strings": {
+            "names": ["Meteor Shield", "流星盾", "운석 방패", "Bouclier météore", "Meteorschild", "Escudo Meteo", "Meteor Shield", "โล่\u001aอุกกาบาต\u001a"],
+            "description": ["and SPR for 4 turns", "4回合內", "4턴 동안", "et la PSY pendant 4 tours", "4 Runden lang", "y el ESP durante 4 turnos", "dan SPR selama 4 giliran", "\u001aและ\u001a \u001aSPR\u001a \u001aเป็นเวลา\u001a \u001a4\u001a \u001aเทิร์น"]
+        }
+    },
+    "914975003": {
+        "name": "Meteor Shield",
+        "skill_id_old": 914979,
+        "skill_id_new": 914981,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010917],
+        "strings": {
+            "names": ["Meteor Shield", "流星盾", "운석 방패", "Bouclier météore", "Meteorschild", "Escudo Meteo", "Meteor Shield", "โล่\u001aอุกกาบาต\u001a"],
+            "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
+        }
+    },
+    "914975004": {
+        "name": "Meteor Shield",
+        "skill_id_old": 914981,
+        "skill_id_new": 914983,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010917],
+        "strings": {
+            "names": ["Meteor Shield", "流星盾", "운석 방패", "Bouclier météore", "Meteorschild", "Escudo Meteo", "Meteor Shield", "โล่\u001aอุกกาบาต\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
         }
     }
 }

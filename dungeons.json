@@ -3042,8 +3042,7 @@
         "missions": {
             "3100101": null,
             "3100102": null,
-            "9650144": "Lasswell -Neo Vision-",
-            "9650154": null
+            "9650144": "Lasswell -Neo Vision-"
         }
     },
     "31101": {
@@ -7055,7 +7054,9 @@
             "9650139": "Shoreline Fina & Daisy",
             "9650143": "Terra -Neo Vision-",
             "9650145": "Rain & Fina",
-            "9650147": "Vinera Fennes"
+            "9650147": "Vinera Fennes",
+            "9650151": null,
+            "9650154": "King Behemy"
         }
     },
     "75701": {
@@ -17846,11 +17847,11 @@
             "9020236": "Magic Water Challenge - PRO",
             "9020237": "Magic Water Challenge - ELT",
             "9020238": "Magic Water Challenge - LGD",
-            "9020240": null,
-            "9020241": null,
-            "9020242": null,
-            "9020243": null,
-            "9020244": null,
+            "9020240": "Magic Dark Challenge - INT",
+            "9020241": "Magic Dark Challenge - ADV",
+            "9020242": "Magic Dark Challenge - PRO",
+            "9020243": "Magic Dark Challenge - ELT",
+            "9020244": "Magic Dark Challenge - LGD",
             "9020246": null,
             "9020247": null,
             "9020248": null,
@@ -20147,37 +20148,84 @@
         }
     },
     "93901": {
+        "names": ["Magical Domain of Earth and Light", "土·光之魔域", "토광의 마역", "Domaine magique de la terre et de la lumière", "Okkultes Reich der Erde und des Lichts", "Reino mágico de tierra y luz", "Wilayah Magic Tanah dan Cahaya", "อาณาจักร\u001aเวทย์\u001aแห่ง\u001aปฐพี\u001aแสง\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "939",
+        "position": [145, 745],
+        "icon": "map_icon_92001.png",
+        "missions": {
+            "9390101": "Magical Domain of Earth and Light 1",
+            "9390102": "Magical Domain of Earth and Light 2"
+        }
+    },
+    "93902": {
+        "names": ["Physical Domain of Ice and Lightning", "冰·雷之攻域", "빙뢰의 공역", "Domaine physique de la glace et de la foudre", "Kämpferisches Reich des Eises und des Blitzes", "Reino físico de hielo y rayo", "Wilayah Fisik Es dan Petir", "อาณาจักร\u001aกายภาพ\u001aแห่ง\u001aน้ำแข็ง\u001aอสนี\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "939",
+        "position": [495, 685],
+        "icon": "map_icon_92001.png",
+        "missions": {
+            "9390201": "Physical Domain of Ice and Lightning 1",
+            "9390202": "Physical Domain of Ice and Lightning 2"
+        }
+    },
+    "93903": {
+        "names": ["Magical Domain of Wind and Dark", "風·暗之魔域", "풍암의 마역", "Domaine magique du vent et des ténèbres", "Okkultes Reich des Winds und der Dunkelheit", "Reino mágico de viento y oscuridad", "Wilayah Magic Angin dan Kegelapan", "อาณาจักร\u001aเวทย์\u001aแห่ง\u001aวาตะ\u001aมืด\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "939",
+        "position": [145, 515],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9390301": "Magical Domain of Wind and Dark 1",
+            "9390302": "Magical Domain of Wind and Dark 2"
+        }
+    },
+    "93904": {
+        "names": ["Physical Domain of Fire and Water", "火·水之攻域", "화수의 공역", "Domaine physique du feu et de l'eau", "Kämpferisches Reich des Feuers und des Wassers", "Reino físico de fuego y agua", "Wilayah Fisik Api dan Air", "อาณาจักร\u001aกายภาพ\u001aแห่ง\u001aอัคคี\u001aวารี\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "939",
+        "position": [495, 425],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9390401": "Physical Domain of Fire and Water 1",
+            "9390402": "Physical Domain of Fire and Water 2"
+        }
+    },
+    "93905": {
+        "names": [
+            "(EX) Phantom Domain of Those at the Water's Edge",
+            "【EX】矗立於水邊者的幻域",
+            "[EX] 물가에 머문 자의 환역",
+            "(EX) Domaine fantôme du bord des flots",
+            "(EX) Phantomreich jener am Ufer",
+            "[EX] Reino ilusorio del flotante",
+            "(EX) Wilayah Ilusi Mereka yang Berdiri di Dekat Air",
+            "(\u001aEX\u001a)\u001a \u001aอาณาจักร\u001aมายา\u001aแห่ง\u001aผู้\u001aอยู่\u001aริมฝั่ง\u001aวารี\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "939",
+        "position": [319, 260],
+        "icon": "map_icon_92003.png",
+        "missions": {
+            "9390501": "Physical Domain of Fire and Wind",
+            "9390502": "Magical Domain of Lightning and Darkness",
+            "9390503": "Submerged in the Deep"
+        }
+    },
+    "93909": {
         "names": [null, null, null, null, null, null, null, null],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "939",
-        "position": [0, 0],
-        "icon": "global_spd_bn_list_00038.png",
+        "position": [150, 720],
+        "icon": "runningevent_icon_battle.png",
         "missions": {
-            "9390101": null,
-            "9390102": null,
-            "9390103": "Sun, Sand, and Sea - ELT",
-            "9390104": "Sun, Sand, and Sea - BGN",
-            "9390105": "Sun, Sand, and Sea - ADV",
-            "9390106": "Sun, Sand, and Sea - ELT",
-            "9390107": "Sun, Sand, and Sea - BGN",
-            "9390108": "Sun, Sand, and Sea - ADV",
-            "9390109": "Sun, Sand, and Sea - ELT",
-            "9390110": "Sun, Sand, and Sea - BGN",
-            "9390111": "Sun, Sand, and Sea - ADV",
-            "9390112": "Sun, Sand, and Sea - ELT",
-            "9390113": "Sun, Sand, and Sea - BGN",
-            "9390114": "Sun, Sand, and Sea - ADV",
-            "9390115": "Sun, Sand, and Sea - ELT",
-            "9390116": "Sun, Sand, and Sea - BGN",
-            "9390117": "Sun, Sand, and Sea - ADV",
-            "9390118": "Sun, Sand, and Sea - ELT",
-            "9390119": "Sun, Sand, and Sea - BGN",
-            "9390120": "Sun, Sand, and Sea - ADV",
-            "9390121": "Sun, Sand, and Sea - ELT",
-            "9390122": "Sun, Sand, and Sea - BGN",
-            "9390123": "Sun, Sand, and Sea - ADV",
-            "9390124": "Sun, Sand, and Sea - ELT"
+            "9390901": null
         }
     },
     "94001": {
@@ -22188,6 +22236,25 @@
             "10540112": "Monthly Fortune Hunt IV"
         }
     },
+    "105501": {
+        "names": ["Brawler from Below the Depths", "來自深淵之下的鬥士", "지하의 싸움꾼", "Le combattant des profondeurs infinies", "Der Streithahn aus dem Untergrund", "El luchador de las profundidades", "Petarung dari Kedalaman", "จอม\u001aวิวาท\u001aจาก\u001aห้วง\u001aลึก\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1055",
+        "position": [0, 0],
+        "icon": null,
+        "missions": {
+            "10550101": "Brawler from Below the Depths Lvl. 1",
+            "10550102": "Brawler from Below the Depths Lvl. 2",
+            "10550103": "Brawler from Below the Depths Lvl. 3",
+            "10550104": "Brawler from Below the Depths Lvl. 4",
+            "10550105": "Brawler from Below the Depths Lvl. 5",
+            "10550106": "Brawler from Below the Depths Lvl. 6",
+            "10550107": "Brawler from Below the Depths Lvl. 7",
+            "10550108": "Brawler from Below the Depths Lvl. 8",
+            "10550109": "Brawler from Below the Depths Lvl. 9"
+        }
+    },
     "105601": {
         "names": ["Bad Hare Day", "兔難臨頭", "운수 토낀 날", "L'attaque des lapins", "Angriff der Häschen", "Ataque a los conejos", "Serangan Pasukan Kelinci", "ถึง\u001aวัน\u001a \u001a\"ต่าย\"\u001a \u001aของ\u001aเจ้า\u001aแล้ว\u001a"],
         "world_id": 2,
@@ -22224,6 +22291,17 @@
         "icon": "global_spd_bn_list_00180.png",
         "missions": {
             "10570101": "Hare-Raising Horror - LGD"
+        }
+    },
+    "105901": {
+        "names": ["Brawler Unbound", "掙脫桎梏的鬥士", "해방된 싸움꾼", "Le combattant sans limites", "Streithahn außer Rand und Band", "Luchador desencadenado", "Petarung yang Terlepas", "จอม\u001aวิวาท\u001aไร้ขีดจำกัด\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1059",
+        "position": [0, 0],
+        "icon": null,
+        "missions": {
+            "10590101": "Brawler Unbound"
         }
     },
     "111101": {
@@ -26516,8 +26594,7 @@
             "12711402": "Heart of the Hollow - Crumbling Earth",
             "12711403": "Heart of the Hollow - Wormhole Overhead",
             "12711404": "Heart of the Hollow - A Rematch with Keeper Garote",
-            "12711405": "Heart of the Hollow - The Will of Oblivion",
-            "12711406": null
+            "12711405": "Heart of the Hollow - The Will of Oblivion"
         }
     },
     "127115": {
@@ -31018,7 +31095,7 @@
     "318901": {
         "names": [
             "Challenge of the Brave: Those Who Govern Freedom and Duty",
-            "心技的試練～司掌自由與義務的人們～",
+            "心技的試煉～司掌自由與義務的人們～",
             "용기의 시련: 자유와 의무를 관장하는 자들",
             "Épreuve des Braves : Les régents de la liberté et du devoir",
             "Prüfung des Geistes: Verwalter der Freiheit und der Pflicht",
@@ -31039,7 +31116,7 @@
     "319001": {
         "names": [
             "Challenge of the Brave: Caught Between Virtues and Vices",
-            "心技的試練～身處義與謀的漩渦之中的人們～",
+            "心技的試煉～身處義與謀的漩渦之中的人們～",
             "용기의 시련: 정의와 음모 속의 사람들",
             "Épreuve des braves : Entre vices et vertus",
             "Prüfung des Geistes: Von Tugenden und Lastern",
@@ -31166,7 +31243,7 @@
     "319801": {
         "names": [
             "Challenge of the Brave: Treasured Bonds",
-            "心技的試練～守護與同伴之間羈絆的人們～",
+            "心技的試煉～守護與同伴之間羈絆的人們～",
             "용기의 시련: 동료와의 유대를 지키는 사람들",
             "Épreuve des braves : Ces liens qui nous unissent",
             "Prüfung des Geistes: Geschätzte Freundschaftsbande",
@@ -31403,7 +31480,7 @@
     "320401": {
         "names": [
             "Challenge of the Brave: Let Your Heart Be the Guiding Key",
-            "心技的試練～由鑰匙引導的人們～",
+            "心技的試煉～由鑰匙引導的人們～",
             "용기의 시련: 열쇠에 이끌린 자들",
             "Épreuve des braves : Laisse ton cœur être la clef qui te guide",
             "Prüfung des Geistes: Möge dein Herz der Schlüssel sein, der dich leitet",
@@ -31451,7 +31528,7 @@
     "320701": {
         "names": [
             "Challenge of the Brave: Pillars of Strength",
-            "心技的試練～守護同伴的少女們～",
+            "心技的試煉～守護同伴的少女們～",
             "용기의 시련: 서로의 버팀목이 되어주는 소녀들",
             "Épreuve des Braves : Les piliers de la force",
             "Prüfung des Geistes: Säulen der Stärke",
@@ -31493,7 +31570,7 @@
     "320901": {
         "names": [
             "Challenge of the Brave: At the Mercy of Magitek",
-            "心技的試練～被魔導愚弄的人們～",
+            "心技的試煉～被魔導愚弄的人們～",
             "용기의 시련: 마도에 농락당한 자들",
             "Épreuve des braves :  La domination magitech",
             "Prüfung des Geistes: Den Magitek ausgeliefert",
@@ -31767,7 +31844,7 @@
     "321801": {
         "names": [
             "Challenge of the Brave: Seekers of Peace",
-            "心技的試練～祈求國家和平的人們～",
+            "心技的試煉～祈求國家和平的人們～",
             "용기의 시련: 나라의 평화를 바라는 자들",
             "Épreuve des braves : Pour la paix",
             "Prüfung des Geistes: Friedenssucher",
@@ -32029,7 +32106,7 @@
     "322401": {
         "names": [
             "Challenge of the Brave: Bonds of the Heart",
-            "心技的試練～以愛為生的人們～",
+            "心技的試煉～以愛為生的人們～",
             "용기의 시련: 사랑을 위해 살아가는 자들",
             "Épreuve des Braves : Les liens du cœur",
             "Prüfung des Geistes: Verbunden im Herzen",
@@ -32098,7 +32175,7 @@
     "322801": {
         "names": [
             "Challenge of the Brave: Farplane Wanderers I",
-            "心技的試練～聚集於異界的人們・I～",
+            "心技的試煉～聚集於異界的人們・I～",
             "용기의 시련: 이계로 모여든 자들 I",
             "Épreuve des braves : Vagabonds de l'Au-delà I",
             "Prüfung des Geistes: Durchstreifer des Abyssums I",
@@ -32119,7 +32196,7 @@
     "322901": {
         "names": [
             "Challenge of the Brave: Farplane Wanderers II",
-            "心技的試練～聚集於異界的人們・II～",
+            "心技的試煉～聚集於異界的人們・II～",
             "용기의 시련: 이계에 모여든 자들 II",
             "Épreuve des braves : Vagabonds de l'Au-delà II",
             "Prüfung des Geistes: Durchstreifer des Abyssums II",
@@ -32140,7 +32217,7 @@
     "323001": {
         "names": [
             "Challenge of the Brave: A Race Against Time",
-            "心技的試練～奔赴世界終焉的人們～",
+            "心技的試煉～奔赴世界終焉的人們～",
             "용기의 시련: 세계의 종말을 향하는 자들",
             "Épreuve des Braves : Au secours d'un monde condamné",
             "Prüfung des Geistes: Ein Rennen gegen die Zeit",
@@ -32401,7 +32478,7 @@
     "324101": {
         "names": [
             "Challenge of the Brave: Bound Across Time",
-            "心技的試練～超越時空的羈絆維繫起的人們～",
+            "心技的試煉～超越時空的羈絆維繫起的人們～",
             "용기의 시련: 시간을 초월한 유대로 묶인 자들",
             "Épreuve des braves : Liens d’outre-temps",
             "Prüfung des Geistes: Für alle Zeiten verbunden",
