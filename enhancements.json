@@ -732,7 +732,7 @@
         },
         "units": [100015204],
         "strings": {
-            "names": ["Auto-Regen", "自動再生", "자동 리제네", "Auto-Récup", "Auto-Regena", "Auto-Revitalia", "Auto-Regen", "Auto-Regen\u001a"],
+            "names": ["Auto-Regen", "自動再生", "자동 리제네", "Auto-Récup", "Auto-Regena", "AutoRevitalia", "Auto-Regen", "Auto-Regen\u001a"],
             "description": ["Boosts HP restoration amount (great)", "提高HP恢復量(特大)", "HP 회복량 상승(특대)", "Augmente le nombre de PV restaurés (super)", "Erhöht Wert regenerierter LP (sehr hoch)", "Aumenta la recuperación de VIT (muchísimo)", "Meningkatkan daya pemulihan HP (sangat besar)", "\u001aเพิ่มค่า\u001a \u001aHP\u001a \u001aที่\u001aฟื้นฟู\u001a \u001a(\u001aสูงสุด\u001a)"]
         }
     },
@@ -769,7 +769,7 @@
         },
         "units": [215000205],
         "strings": {
-            "names": ["Auto-Regen", "自動再生", "자동 리제네", "Auto-Récup", "Auto-Regena", "Auto-Revitalia", "Auto-Regen", "Auto-Regen\u001a"],
+            "names": ["Auto-Regen", "自動再生", "자동 리제네", "Auto-Récup", "Auto-Regena", "AutoRevitalia", "Auto-Regen", "Auto-Regen\u001a"],
             "description": ["Boosts HP restoration amount (great)", "提高HP恢復量(特大)", "HP 회복량 상승(특대)", "Augmente le taux de restauration des PV (super)", "Erhöht den Wert regenerierter LP (sehr hoch)", "Aumenta la recuperación de VIT (muchísimo)", "Meningkatkan daya pemulihan HP (sangat besar)", "\u001aเพิ่มค่า\u001a \u001aHP\u001a \u001aที่\u001aฟื้นฟู\u001a \u001a(\u001aสูงสุด\u001a)"]
         }
     },
@@ -2190,6 +2190,45 @@
             "description": ["Boosts turns in effect (mid)", "提高效果回合數(中)", "효과 턴 수 상승(중)", "Augmente le nombre de tours des effets (moyen)", "Erhöht Anzahl aktiver Runden (mittel)", "Aumenta la duración (bastante)", "Menambah durasi efek (sedang)", "\u001aเพิ่มจำนวน\u001aเทิร์น\u001aที่\u001aมีผล\u001a \u001a(\u001aปานกลาง\u001a)"]
         }
     },
+    "202001001": {
+        "name": "Firaga",
+        "skill_id_old": 20200,
+        "skill_id_new": 70250,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407],
+        "strings": {
+            "names": ["Firaga", "大火焰", "파이가", "Feu X", "Feuga", "Piro++", "Firaga", "Firaga\u001a"],
+            "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
+        }
+    },
+    "202001002": {
+        "name": "Firaga",
+        "skill_id_old": 70250,
+        "skill_id_new": 70260,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407],
+        "strings": {
+            "names": ["Firaga", "大火焰", "파이가", "Feu X", "Feuga", "Piro++", "Firaga", "Firaga\u001a"],
+            "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
+        }
+    },
     "202010001": {
         "name": "Lightspeed",
         "skill_id_old": 202010,
@@ -2264,6 +2303,45 @@
         "strings": {
             "names": ["Blitz", "區域衝擊波", "에리어 블래스트", "Fauchage", "Rundumschlag", "Golpe circular", "Ledakan", "ระเบิด\u001aรอบด้าน\u001a"],
             "description": ["Boosts damage amount (low)", "提高傷害量(小)", "피해량 상승(소)", "Augmente les dégâts infligés (peu)", "Erhöht Schaden (gering)", "Aumenta el daño (poco)", "Meningkatkan damage (rendah)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001a \u001a(\u001aต่ำ\u001a)"]
+        }
+    },
+    "202101001": {
+        "name": "Blizzaga",
+        "skill_id_old": 20210,
+        "skill_id_new": 70270,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917],
+        "strings": {
+            "names": ["Blizzaga", "大暴雪", "블리자가", "Glace X", "Eisga", "Hielo++", "Blizzaga", "Blizzaga\u001a"],
+            "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
+        }
+    },
+    "202101002": {
+        "name": "Blizzaga",
+        "skill_id_old": 70270,
+        "skill_id_new": 70280,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917],
+        "strings": {
+            "names": ["Blizzaga", "大暴雪", "블리자가", "Glace X", "Eisga", "Hielo++", "Blizzaga", "Blizzaga\u001a"],
+            "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
         }
     },
     "202120001": {
@@ -2575,6 +2653,45 @@
         "strings": {
             "names": ["Thundaga", "大雷電", "선더가", "Foudre X", "Blitzga", "Electro++", "Thundaga", "Thundaga\u001a"],
             "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
+        }
+    },
+    "202201003": {
+        "name": "Thundaga",
+        "skill_id_old": 20220,
+        "skill_id_new": 70290,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407],
+        "strings": {
+            "names": ["Thundaga", "大雷電", "선더가", "Foudre X", "Blitzga", "Electro++", "Thundaga", "Thundaga\u001a"],
+            "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
+        }
+    },
+    "202201004": {
+        "name": "Thundaga",
+        "skill_id_old": 70290,
+        "skill_id_new": 70300,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407],
+        "strings": {
+            "names": ["Thundaga", "大雷電", "선더가", "Foudre X", "Blitzga", "Electro++", "Thundaga", "Thundaga\u001a"],
+            "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
         }
     },
     "202260001": {
@@ -5464,7 +5581,7 @@
         "units": [254000304],
         "strings": {
             "names": ["Double Recover", "雙重恢復", "더블 리커버리", "Double récupération", "Spaziergang", "Recuperación doble", "Double Recover", "ฟื้น\u001aพลัง\u001aสองเท่า\u001a"],
-            "description": ["Casts auto-regen during battle", "戰鬥中自動再生", "전투 중 항상 리제네 발동", "Lance automatiquement Auto-Récup en combat", "Auto-Regena im Kampf", "Otorga Auto-Revitalia", "Memulihkan HP setiap giliran", "\u001aใช้\u001a \u001aAuto-Regen\u001a \u001aใน\u001aระหว่าง\u001aการต่อสู้\u001a"]
+            "description": ["Casts auto-regen during battle", "戰鬥中自動再生", "전투 중 항상 리제네 발동", "Lance automatiquement Auto-Récup en combat", "Auto-Regena im Kampf", "Otorga AutoRevitalia", "Memulihkan HP setiap giliran", "\u001aใช้\u001a \u001aAuto-Regen\u001a \u001aใน\u001aระหว่าง\u001aการต่อสู้\u001a"]
         }
     },
     "204120002": {
@@ -11677,7 +11794,7 @@
         "units": [212000505],
         "strings": {
             "names": ["Gun Mastery", "火槍奧義", "총의 비법", "Maîtrise des pistolets", "Schusswaffenmeister", "Maestría de pistolas", "Penguasaan Senapan", "จ้าว\u001aแห่ง\u001aปืน\u001a"],
-            "description": ["Boosts ATK increase (high)", "提高攻擊增加量(大)", "공격력 상승량 상승(대)", "Amplifie l'augmentation de l'ATT (beaucoup)", "Steigert ANG-Erhöhungen (hoch)", "Mayor aumento del ATQ (mucho)", "Menambah jumlah peningkatan ATK (besar)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aสูง\u001a)"]
+            "description": ["Boosts ATK increase (high)", "提高攻擊增加量(大)", "공격력 상승량 상승(대)", "Amplifie l'augmentation de l'ATT (beaucoup)", "Steigert ANG-Erhöhung (stark)", "Mayor aumento del ATQ (mucho)", "Menambah jumlah peningkatan ATK (besar)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aสูง\u001a)"]
         }
     },
     "209540005": {
@@ -16633,7 +16750,7 @@
         "units": [215000205],
         "strings": {
             "names": ["Intercept", "衝刺防禦", "대시 가드", "Intercepter", "Abfangjäger", "Guardia vigorosa", "Intercept", "สกัดกั้น\u001a"],
-            "description": ["Boosts maximum damage reduction when active (mid)", "提高發動時的最大傷害減少量(中)", "발동 시 최대 피해 감소량 상승(중)", "Augmente la réduction des dégâts maximum une fois activé (moyen)", "Erhöht maximale Schadensverringerung, wenn aktiv (mittel)", "Mayor porcentaje de reducción máxima de daño al activarse (bastante)", "Menambah jumlah maksimum pengurangan damage ketika diaktifkan (sedang)", "ลด\u001aค่า\u001aความเสียหาย\u001aสูงสุด\u001aลง\u001aเมื่อ\u001aใช้งาน\u001a \u001a(\u001aปานกลาง\u001a)"]
+            "description": ["Boosts maximum damage reduction when active (mid)", "提高發動時的最大傷害減少量(中)", "발동 시 최대 피해 감소량 상승(중)", "Augmente la réduction des dégâts maximum une fois activé (moyen)", "Erhöht maximale Schadensverringerung, wenn aktiv (mittel)", "Mayor porcentaje de reducción máxima de daño al activarse (bastante)", "Menambah jumlah maksimum pengurangan damage ketika diaktifkan (sedang)", "ลด\u001aค่า\u001aความเสียหาย\u001aสูงสุด\u001aลง\u001aเมื่อ\u001aใช้งาน\u001a<br>(\u001aปานกลาง\u001a)"]
         }
     },
     "216110002": {
@@ -16692,7 +16809,7 @@
         "units": [215000205],
         "strings": {
             "names": ["King's Shield", "王之盾", "왕의 방패", "Bouclier royal", "Königsschild", "Escudo real", "Perisai Raja", "โล่\u001aราชัน\u001a"],
-            "description": ["Boosts HP, DEF, and SPR increases (low)", "提高HP防禦精神增加量(小)", "HP, 방어력, 정신력 상승량 상승(소)<", "Amplifie l'augmentation des PV, de la DEF et de la PSY (peu)", "Steigert LP, ABW und PSY-Erhöhungen (gering)", "Mayor aumento de VIT, DEF y ESP (poco)", "Menambah jumlah peningkatan HP, DEF, dan SPR (rendah)", "\u001aเพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aต่ำ\u001a)"]
+            "description": ["Boosts HP, DEF, and SPR increases (low)", "提高HP防禦精神增加量(小)", "HP, 방어력, 정신력 상승량 상승(소)<", "Amplifie l'augmentation des PV, de la DEF et de la PSY (peu)", "Steigert LP,- ABW- und PSY-Erhöhungen (gering)", "Mayor aumento de VIT, DEF y ESP (poco)", "Menambah jumlah peningkatan HP, DEF, dan SPR (rendah)", "\u001aเพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aต่ำ\u001a)"]
         }
     },
     "216210001": {
@@ -20223,7 +20340,7 @@
         "units": [215000705],
         "strings": {
             "names": ["Starshell", "星光彈", "스타 셸", "Fusée éclairante", "Sternenhülle", "Cuásar", "Peluru Bintang", "Starshell\u001a"],
-            "description": ["Boosts ATK and MAG reductions (mid)", "提高攻擊魔力減少量(中)", "공격력과 마력 감소량 상승(중)", "Amplifie la réduction de l'ATT et de la MAGIE (moyen)", "Steigert ANG- and MAG-Verringerungen (mittel)", "Aumenta las reducciones de ATQ y MAG (bastante)", "Menambah jumlah pengurangan ATK dan MAG (sedang)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001aที่\u001aถู\u001aกลด\u001a \u001a(\u001aปานกลาง\u001a)"]
+            "description": ["Boosts ATK and MAG reductions (mid)", "提高攻擊魔力減少量(中)", "공격력과 마력 감소량 상승(중)", "Amplifie les réductions de l'ATT et de la MAGIE (moyen)", "Steigert ANG- and MAG-Verringerungen (mittel)", "Aumenta las reducciones de ATQ y MAG (bastante)", "Menambah jumlah pengurangan ATK dan MAG (sedang)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001aที่\u001aถู\u001aกลด\u001a \u001a(\u001aปานกลาง\u001a)"]
         }
     },
     "221420001": {
@@ -20303,7 +20420,7 @@
         "units": [215000705],
         "strings": {
             "names": ["Gravity Well", "引力波", "어트랙트 웨이브", "Vortex", "Gravitationspulsator", "Gravitón", "Pusaran Gravitasi", "Gravity\u001a \u001aWell\u001a"],
-            "description": ["Boosts damage amount (high)", "提高傷害量(大)", "피해량 상승(대)", "Augmente les dégâts infligés (beaucoup)", "Erhöht Schaden (hoch)", "Aumenta el daño (mucho)", "Meningkatkan damage (besar)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001a \u001a(\u001aสูง\u001a)"]
+            "description": ["Boosts damage amount (great)", "提高傷害量(特大)", "피해량 상승(특대)", "Augmente les dégâts infligés (beaucoup)", "Erhöht Schaden (extrem)", "Aumenta el daño (muchísimo)", "Meningkatkan damage (sangat besar)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001a \u001a(\u001aสูงสุด\u001a)"]
         }
     },
     "221450001": {
@@ -26133,7 +26250,7 @@
         "units": [215000505],
         "strings": {
             "names": ["Royal Banquet Canapé", "父王們的開胃招待小點", "부왕들의 만찬 카나페", "Canapés royaux", "Königliches Kanapee", "Canapé del banquete real", "Canapé Perjamuan Kerajaan", "คา\u001aนา\u001aเป้\u001aงานเลี้ยง\u001aราชวงศ์\u001a"],
-            "description": ["Boosts ATK, DEF, MAG, and SPR increases (to 180%)", "提高攻擊防禦魔力精神增加量(至180%)", "공격력, 방어력, 마력, 정신력 상승량 상승(180%)", "Amplifie l'augmentation de l'ATT, la DEF, la MAGIE et la PSY (à 180 %)", "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (auf 180%)", "Mayor aumento de ATQ, DEF, MAG y ESP (a un 180%)", "Menambah jumlah peningkatan ATK, DEF, MAG, dan SPR (menjadi 180%)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a180%)"]
+            "description": ["Boosts ATK, DEF, MAG, and SPR increases (to 200%)", "提高攻擊防禦魔力精神增加量(至200%)", "공격력, 방어력, 마력, 정신력 상승량 상승(200%)", "Amplifie l'augmentation de l'ATT, la DEF, la MAGIE et la PSY (à 200 %)", "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (auf 200%)", "Mayor aumento de ATQ, DEF, MAG y ESP (a un 200%)", "Menambah jumlah peningkatan ATK, DEF, MAG, dan SPR (menjadi 200%)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a<br>(\u001aเป็น\u001a \u001a200%)"]
         }
     },
     "227370002": {
@@ -26153,7 +26270,7 @@
         "units": [215000505],
         "strings": {
             "names": ["Royal Banquet Canapé", "父王們的開胃招待小點", "부왕들의 만찬 카나페", "Canapés royaux", "Königliches Kanapee", "Canapé del banquete real", "Canapé Perjamuan Kerajaan", "คา\u001aนา\u001aเป้\u001aงานเลี้ยง\u001aราชวงศ์\u001a"],
-            "description": ["Boosts ATK, DEF, MAG, and SPR increases (to 200%)", "提高攻擊防禦魔力精神增加量(至200%)", "공격력, 방어력, 마력, 정신력 상승량 상승(200%)", "Amplifie l'augmentation de l'ATT, la DEF, la MAGIE et la PSY (à 200 %)", "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (auf 200%)", "Mayor aumento de ATQ, DEF, MAG y ESP (a un 200%)", "Menambah jumlah peningkatan ATK, DEF, MAG, dan SPR (menjadi 200%)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a200%)"]
+            "description": ["Boosts turns in effect (to 4 turns)", "提高效果回合數(至4回合)", "효과 턴 수 상승(4턴)", "Augmente le nombre de tours des effets (à 4 tours)", "Steigert ANG-, ABW-, MAG- und PSY-Erhöhungen (auf 200%)", "Mayor aumento de ATQ, DEF, MAG y ESP (a un 200%)", "Menambah jumlah peningkatan ATK, DEF, MAG, dan SPR (menjadi 200%)", "\u001aเพิ่มจำนวน\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a200%)"]
         }
     },
     "227371001": {
@@ -26210,11 +26327,11 @@
         "units": [215000505],
         "strings": {
             "names": ["Regalia Driver", "雷迦利亞司機", "레갈리아 드라이버", "Conducteur de Regalia", "Regalia-Fahrer", "Conductor del Regalia", "Pengendara Regalia", "Regalia\u001a \u001aDriver\u001a"],
-            "description": ["Boosts DEF and SPR increases (to 40%)", "提高防禦精神增加量(至40%)", "방어력과 정신력 상승량 상승(40%)", "Amplifie l'augmentation de la DEF et de la PSY (à 40 %)", "Steigert ABW- und PSY-Erhöhungen (auf 40%)", "Mayor aumento de DEF y ESP (a un 40%)", "Menambah jumlah peningkatan DEF dan SPR (menjadi 40%)", "\u001aเพิ่มจำนวน\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a40%)"]
+            "description": ["Boosts DEF and SPR increases (to 40%)", "提高防禦精神增加量(至40%)", "방어력과 정신력 상승량 상승(40%)", "Amplifie l'augmentation de la DEF et de la PSY (à 40 %)", "Steigert ABW- und PSY-Erhöhungen (auf 40%)", "Mayor aumento de DEF y ESP (a un 40%)", "Menambah jumlah peningkatan DEF dan SPR (menjadi 40%)", "\u001aเพิ่มจำนวน\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a<br>(\u001aเป็น\u001a \u001a40%)"]
         }
     },
     "227376002": {
-        "name": "Regalia driver",
+        "name": "Regalia Driver",
         "skill_id_old": 708109,
         "skill_id_new": 708110,
         "cost": {
@@ -26228,7 +26345,7 @@
         },
         "units": [215000505],
         "strings": {
-            "names": ["Regalia driver", "雷迦利亞司機", "레갈리아 드라이버", "Conducteur de Regalia", "Regalia-Fahrer", "Conductor del Regalia", "Pengendara Regalia", "Regalia\u001a \u001aDriver\u001a"],
+            "names": ["Regalia Driver", "雷迦利亞司機", "레갈리아 드라이버", "Conducteur de Regalia", "Regalia-Fahrer", "Conductor del Regalia", "Pengendara Regalia", "Regalia\u001a \u001aDriver\u001a"],
             "description": ["Boosts HP (20%)", "提高HP(至20%)", "HP 상승(20%)", "Augmente les PV (20 %)", "Erhöht LP (20%)", "Aumenta la VIT (un 20%)", "Meningkatkan HP (20%)", "\u001aเพิ่มค่า\u001a \u001aHP\u001a \u001a(\u001a20%)"]
         }
     },
@@ -57005,7 +57122,7 @@
         }
     },
     "300001151": {
-        "name": null,
+        "name": "Light of Virtue",
         "skill_id_old": 240230,
         "skill_id_new": 240231,
         "cost": {
@@ -57017,12 +57134,12 @@
         },
         "units": [215002407, 215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Light of Virtue", "清淨的光芒", "청정한 빛줄기", "Lueur de vertu", "Reines Licht", "Luz virtuosa", "Kilauan Kebajikan", "แสง\u001aวิสุทธิ์\u001aสาดส่อง\u001a"],
+            "description": ["5600%", "5600%", "5600%", "5600 %", "5600%", "5600%", "5600%", "\u001a5600%"]
         }
     },
     "300001152": {
-        "name": null,
+        "name": "Light of Virtue",
         "skill_id_old": 240231,
         "skill_id_new": 240232,
         "cost": {
@@ -57035,12 +57152,12 @@
         },
         "units": [215002407, 215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Light of Virtue", "清淨的光芒", "청정한 빛줄기", "Lueur de vertu", "Reines Licht", "Luz virtuosa", "Kilauan Kebajikan", "แสง\u001aวิสุทธิ์\u001aสาดส่อง\u001a"],
+            "description": ["5900%", "5900%", "5900%", "5900 %", "5900%", "5900%", "5900%", "\u001a5900%"]
         }
     },
     "300001153": {
-        "name": null,
+        "name": "Light of Virtue",
         "skill_id_old": 240232,
         "skill_id_new": 240233,
         "cost": {
@@ -57054,12 +57171,12 @@
         },
         "units": [215002407, 215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Light of Virtue", "清淨的光芒", "청정한 빛줄기", "Lueur de vertu", "Reines Licht", "Luz virtuosa", "Kilauan Kebajikan", "แสง\u001aวิสุทธิ์\u001aสาดส่อง\u001a"],
+            "description": ["6200%", "6200%", "6200%", "6200 %", "6200%", "6200%", "6200%", "\u001a6200%"]
         }
     },
     "300001154": {
-        "name": null,
+        "name": "Light of Virtue",
         "skill_id_old": 240233,
         "skill_id_new": 240234,
         "cost": {
@@ -57073,12 +57190,12 @@
         },
         "units": [215002407, 215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Light of Virtue", "清淨的光芒", "청정한 빛줄기", "Lueur de vertu", "Reines Licht", "Luz virtuosa", "Kilauan Kebajikan", "แสง\u001aวิสุทธิ์\u001aสาดส่อง\u001a"],
+            "description": ["6500%", "6500%", "6500%", "6500 %", "6500%", "6500%", "6500%", "\u001a6500%"]
         }
     },
     "300001155": {
-        "name": null,
+        "name": "Shining Star of Rebirth",
         "skill_id_old": 240236,
         "skill_id_new": 240237,
         "cost": {
@@ -57090,12 +57207,12 @@
         },
         "units": [215002407],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shining Star of Rebirth", "閃耀的復甦之星", "되살아난 별빛", "Astre éclatant de renaissance", "Funkelnder Stern der Wiedergeburt", "Estrella brillante del renacer", "Bintang Kelahiran Bercahaya", "ประกาย\u001aดารา\u001aกำเนิด\u001aใหม่\u001a"],
+            "description": ["5400%", "5400%", "5400%", "5400 %", "5400%", "5400%", "5400%", "\u001a5400%"]
         }
     },
     "300001156": {
-        "name": null,
+        "name": "Shining Star of Rebirth",
         "skill_id_old": 240237,
         "skill_id_new": 240238,
         "cost": {
@@ -57108,12 +57225,12 @@
         },
         "units": [215002407],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shining Star of Rebirth", "閃耀的復甦之星", "되살아난 별빛", "Astre éclatant de renaissance", "Funkelnder Stern der Wiedergeburt", "Estrella brillante del renacer", "Bintang Kelahiran Bercahaya", "ประกาย\u001aดารา\u001aกำเนิด\u001aใหม่\u001a"],
+            "description": ["6200%", "6200%", "6200%", "6200 %", "6200%", "6200%", "6200%", "\u001a6200%"]
         }
     },
     "300001157": {
-        "name": null,
+        "name": "Shining Star of Rebirth",
         "skill_id_old": 240238,
         "skill_id_new": 240239,
         "cost": {
@@ -57127,12 +57244,12 @@
         },
         "units": [215002407],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shining Star of Rebirth", "閃耀的復甦之星", "되살아난 별빛", "Astre éclatant de renaissance", "Funkelnder Stern der Wiedergeburt", "Estrella brillante del renacer", "Bintang Kelahiran Bercahaya", "ประกาย\u001aดารา\u001aกำเนิด\u001aใหม่\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001158": {
-        "name": null,
+        "name": "Shining Star of Rebirth",
         "skill_id_old": 240239,
         "skill_id_new": 240240,
         "cost": {
@@ -57146,12 +57263,12 @@
         },
         "units": [215002407],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shining Star of Rebirth", "閃耀的復甦之星", "되살아난 별빛", "Astre éclatant de renaissance", "Funkelnder Stern der Wiedergeburt", "Estrella brillante del renacer", "Bintang Kelahiran Bercahaya", "ประกาย\u001aดารา\u001aกำเนิด\u001aใหม่\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001159": {
-        "name": null,
+        "name": "Judgement of the Fulgarian",
         "skill_id_old": 240243,
         "skill_id_new": 240244,
         "cost": {
@@ -57163,12 +57280,12 @@
         },
         "units": [215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Judgement of the Fulgarian", "雷神的制裁", "뇌신의 심판", "Jugement du Fulguréen", "Urteil des Donnergottes", "Justicia de Lamú", "Penghakiman Dewa Petir", "พิพากษา\u001aเทพ\u001aสายฟ้า\u001a"],
+            "description": ["5600%", "5600%", "5600%", "5600 %", "5600%", "5600%", "5600%", "\u001a5600%"]
         }
     },
     "300001160": {
-        "name": null,
+        "name": "Judgement of the Fulgarian",
         "skill_id_old": 240244,
         "skill_id_new": 240245,
         "cost": {
@@ -57181,12 +57298,12 @@
         },
         "units": [215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Judgement of the Fulgarian", "雷神的制裁", "뇌신의 심판", "Jugement du Fulguréen", "Urteil des Donnergottes", "Justicia de Lamú", "Penghakiman Dewa Petir", "พิพากษา\u001aเทพ\u001aสายฟ้า\u001a"],
+            "description": ["5900%", "5900%", "5900%", "5900 %", "5900%", "5900%", "5900%", "\u001a5900%"]
         }
     },
     "300001161": {
-        "name": null,
+        "name": "Judgement of the Fulgarian",
         "skill_id_old": 240245,
         "skill_id_new": 240246,
         "cost": {
@@ -57200,12 +57317,12 @@
         },
         "units": [215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Judgement of the Fulgarian", "雷神的制裁", "뇌신의 심판", "Jugement du Fulguréen", "Urteil des Donnergottes", "Justicia de Lamú", "Penghakiman Dewa Petir", "พิพากษา\u001aเทพ\u001aสายฟ้า\u001a"],
+            "description": ["6200%", "6200%", "6200%", "6200 %", "6200%", "6200%", "6200%", "\u001a6200%"]
         }
     },
     "300001162": {
-        "name": null,
+        "name": "Judgement of the Fulgarian",
         "skill_id_old": 240246,
         "skill_id_new": 240247,
         "cost": {
@@ -57219,12 +57336,12 @@
         },
         "units": [215002417],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Judgement of the Fulgarian", "雷神的制裁", "뇌신의 심판", "Jugement du Fulguréen", "Urteil des Donnergottes", "Justicia de Lamú", "Penghakiman Dewa Petir", "พิพากษา\u001aเทพ\u001aสายฟ้า\u001a"],
+            "description": ["6500%", "6500%", "6500%", "6500 %", "6500%", "6500%", "6500%", "\u001a6500%"]
         }
     },
     "300001163": {
-        "name": null,
+        "name": "Undermining Shot",
         "skill_id_old": 240271,
         "skill_id_new": 240272,
         "cost": {
@@ -57236,12 +57353,12 @@
         },
         "units": [215000705, 215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Undermining Shot", "削弱射擊", "언더마인 샷", "Tir fragilisant", "Unterminierender Schuss", "Tiro debilitador", "Undermining Shot", "ยิง\u001aตัด\u001aพลัง\u001a"],
+            "description": ["4500%", "4500%", "4500%", "4500 %", "4500%", "4500%", "4500%", "\u001a4500%"]
         }
     },
     "300001164": {
-        "name": null,
+        "name": "Undermining Shot",
         "skill_id_old": 240272,
         "skill_id_new": 240273,
         "cost": {
@@ -57254,12 +57371,12 @@
         },
         "units": [215000705, 215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Undermining Shot", "削弱射擊", "언더마인 샷", "Tir fragilisant", "Unterminierender Schuss", "Tiro debilitador", "Undermining Shot", "ยิง\u001aตัด\u001aพลัง\u001a"],
+            "description": ["5000%", "5000%", "5000%", "5000 %", "5000%", "5000%", "5000%", "\u001a5000%"]
         }
     },
     "300001165": {
-        "name": null,
+        "name": "Undermining Shot",
         "skill_id_old": 240273,
         "skill_id_new": 240274,
         "cost": {
@@ -57273,12 +57390,12 @@
         },
         "units": [215000705, 215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Undermining Shot", "削弱射擊", "언더마인 샷", "Tir fragilisant", "Unterminierender Schuss", "Tiro debilitador", "Undermining Shot", "ยิง\u001aตัด\u001aพลัง\u001a"],
+            "description": ["5500%", "5500%", "5500%", "5500 %", "5500%", "5500%", "5500%", "\u001a5500%"]
         }
     },
     "300001166": {
-        "name": null,
+        "name": "Undermining Shot",
         "skill_id_old": 240274,
         "skill_id_new": 240275,
         "cost": {
@@ -57292,12 +57409,12 @@
         },
         "units": [215000705, 215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Undermining Shot", "削弱射擊", "언더마인 샷", "Tir fragilisant", "Unterminierender Schuss", "Tiro debilitador", "Undermining Shot", "ยิง\u001aตัด\u001aพลัง\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001167": {
-        "name": null,
+        "name": "Audax Blade",
         "skill_id_old": 240276,
         "skill_id_new": 240277,
         "cost": {
@@ -57309,12 +57426,12 @@
         },
         "units": [215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Audax Blade", "可變刀「猛進」", "가변형 칼 '아우닥스'", "Lame Audax", "Imperiale Klinge", "Audax", "Audax Blade", "ดาบ\u001aเปลี่ยนรูป\u001a \u001aAudax\u001a"],
+            "description": ["5000%", "5000%", "5000%", "5000 %", "5000%", "5000%", "5000%", "\u001a5000%"]
         }
     },
     "300001168": {
-        "name": null,
+        "name": "Audax Blade",
         "skill_id_old": 240277,
         "skill_id_new": 240278,
         "cost": {
@@ -57327,12 +57444,12 @@
         },
         "units": [215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Audax Blade", "可變刀「猛進」", "가변형 칼 '아우닥스'", "Lame Audax", "Imperiale Klinge", "Audax", "Audax Blade", "ดาบ\u001aเปลี่ยนรูป\u001a \u001aAudax\u001a"],
+            "description": ["5500%", "5500%", "5500%", "5500 %", "5500%", "5500%", "5500%", "\u001a5500%"]
         }
     },
     "300001169": {
-        "name": null,
+        "name": "Audax Blade",
         "skill_id_old": 240278,
         "skill_id_new": 240279,
         "cost": {
@@ -57346,12 +57463,12 @@
         },
         "units": [215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Audax Blade", "可變刀「猛進」", "가변형 칼 '아우닥스'", "Lame Audax", "Imperiale Klinge", "Audax", "Audax Blade", "ดาบ\u001aเปลี่ยนรูป\u001a \u001aAudax\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001170": {
-        "name": null,
+        "name": "Audax Blade",
         "skill_id_old": 240279,
         "skill_id_new": 240280,
         "cost": {
@@ -57365,12 +57482,12 @@
         },
         "units": [215000727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Audax Blade", "可變刀「猛進」", "가변형 칼 '아우닥스'", "Lame Audax", "Imperiale Klinge", "Audax", "Audax Blade", "ดาบ\u001aเปลี่ยนรูป\u001a \u001aAudax\u001a"],
+            "description": ["6500%", "6500%", "6500%", "6500 %", "6500%", "6500%", "6500%", "\u001a6500%"]
         }
     },
     "300001171": {
-        "name": null,
+        "name": "Reinforcement",
         "skill_id_old": 240300,
         "skill_id_new": 240301,
         "cost": {
@@ -57382,12 +57499,12 @@
         },
         "units": [215000505, 215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Reinforcement", "防禦強化", "라운드 부스트", "Renforts", "Verstärkung", "Reforzar", "Reinforcement", "เรียก\u001aกำลัง\u001aเสริม\u001a"],
+            "description": ["220%", "220%", "220%", "220 %", "220%", "220%", "220%", "\u001a220%"]
         }
     },
     "300001172": {
-        "name": null,
+        "name": "Reinforcement",
         "skill_id_old": 240301,
         "skill_id_new": 240302,
         "cost": {
@@ -57400,12 +57517,12 @@
         },
         "units": [215000505, 215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Reinforcement", "防禦強化", "라운드 부스트", "Renforts", "Verstärkung", "Reforzar", "Reinforcement", "เรียก\u001aกำลัง\u001aเสริม\u001a"],
+            "description": ["230%", "230%", "230%", "230 %", "230%", "230%", "230%", "\u001a230%"]
         }
     },
     "300001173": {
-        "name": null,
+        "name": "Reinforcement",
         "skill_id_old": 240302,
         "skill_id_new": 240303,
         "cost": {
@@ -57419,12 +57536,12 @@
         },
         "units": [215000505, 215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Reinforcement", "防禦強化", "라운드 부스트", "Renforts", "Verstärkung", "Reforzar", "Reinforcement", "เรียก\u001aกำลัง\u001aเสริม\u001a"],
+            "description": ["240%", "240%", "240%", "240 %", "240%", "240%", "240%", "\u001a240%"]
         }
     },
     "300001174": {
-        "name": null,
+        "name": "Reinforcement",
         "skill_id_old": 240303,
         "skill_id_new": 240304,
         "cost": {
@@ -57438,12 +57555,12 @@
         },
         "units": [215000505, 215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Reinforcement", "防禦強化", "라운드 부스트", "Renforts", "Verstärkung", "Reforzar", "Reinforcement", "เรียก\u001aกำลัง\u001aเสริม\u001a"],
+            "description": ["250%", "250%", "250%", "250 %", "250%", "250%", "250%", "\u001a250%"]
         }
     },
     "300001175": {
-        "name": null,
+        "name": "Fortification",
         "skill_id_old": 240307,
         "skill_id_new": 240308,
         "cost": {
@@ -57455,12 +57572,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fortification", "牢固防禦", "라운드 가드", "Fortification", "Befestigung", "Fortificación", "Fortification", "ตั้ง\u001aปราการ\u001aแกร่ง\u001a"],
+            "description": ["100", "100", "100", "100", "100", "a 100", "100", "\u001a100\u001a"]
         }
     },
     "300001176": {
-        "name": null,
+        "name": "Fortification",
         "skill_id_old": 240308,
         "skill_id_new": 240309,
         "cost": {
@@ -57473,12 +57590,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fortification", "牢固防禦", "라운드 가드", "Fortification", "Befestigung", "Fortificación", "Fortification", "ตั้ง\u001aปราการ\u001aแกร่ง\u001a"],
+            "description": ["35%", "35%", "35%", "35 %", "35%", "35%", "35%", "\u001a35%"]
         }
     },
     "300001177": {
-        "name": null,
+        "name": "Fortification",
         "skill_id_old": 240309,
         "skill_id_new": 240310,
         "cost": {
@@ -57492,12 +57609,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fortification", "牢固防禦", "라운드 가드", "Fortification", "Befestigung", "Fortificación", "Fortification", "ตั้ง\u001aปราการ\u001aแกร่ง\u001a"],
+            "description": ["80", "80", "80", "80", "80", "a 80", "80", "\u001a80\u001a"]
         }
     },
     "300001178": {
-        "name": null,
+        "name": "Fortification",
         "skill_id_old": 240310,
         "skill_id_new": 240311,
         "cost": {
@@ -57511,12 +57628,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fortification", "牢固防禦", "라운드 가드", "Fortification", "Befestigung", "Fortificación", "Fortification", "ตั้ง\u001aปราการ\u001aแกร่ง\u001a"],
+            "description": ["40%", "40%", "40%", "40 %", "40%", "40%", "40%", "\u001a40%"]
         }
     },
     "300001179": {
-        "name": null,
+        "name": "True Overboost",
         "skill_id_old": 240315,
         "skill_id_new": 240316,
         "cost": {
@@ -57528,12 +57645,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["True Overboost", "真・過量增幅", "진 오버 부스트", "Super accélération +", "Wahrer Überboost", "Ultrapotencia+", "Overboost+", "Overboost\u001a+\u001a"],
+            "description": ["270%", "270%", "270%", "270 %", "270%", "270%", "270%", "\u001a270%"]
         }
     },
     "300001180": {
-        "name": null,
+        "name": "True Overboost",
         "skill_id_old": 240316,
         "skill_id_new": 240317,
         "cost": {
@@ -57546,12 +57663,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["True Overboost", "真・過量增幅", "진 오버 부스트", "Super accélération +", "Wahrer Überboost", "Ultrapotencia+", "Overboost+", "Overboost\u001a+\u001a"],
+            "description": ["280%", "280%", "280%", "280 %", "280%", "280%", "280%", "\u001a280%"]
         }
     },
     "300001181": {
-        "name": null,
+        "name": "True Overboost",
         "skill_id_old": 240317,
         "skill_id_new": 240318,
         "cost": {
@@ -57565,12 +57682,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["True Overboost", "真・過量增幅", "진 오버 부스트", "Super accélération +", "Wahrer Überboost", "Ultrapotencia+", "Overboost+", "Overboost\u001a+\u001a"],
+            "description": ["290%", "290%", "290%", "290 %", "290%", "290%", "290%", "\u001a290%"]
         }
     },
     "300001182": {
-        "name": null,
+        "name": "True Overboost",
         "skill_id_old": 240318,
         "skill_id_new": 240319,
         "cost": {
@@ -57584,12 +57701,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["True Overboost", "真・過量增幅", "진 오버 부스트", "Super accélération +", "Wahrer Überboost", "Ultrapotencia+", "Overboost+", "Overboost\u001a+\u001a"],
+            "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
         }
     },
     "300001183": {
-        "name": null,
+        "name": "Hand of the True King",
         "skill_id_old": 240327,
         "skill_id_new": 240328,
         "cost": {
@@ -57601,12 +57718,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Hand of the True King", "引導真王的軍師", "진정한 왕을 이끄는 참모", "Le conseiller du roi légitime", "Berater des wahren Königs", "El estratega que guía al Entronado", "Tangan Kanan Raja Sesungguhnya", "เสนาธิการ\u001aแห่ง\u001aราชัน\u001aที่\u001aแท้จริง\u001a"],
+            "description": ["2400%", "2400%", "2400%", "2400 %", "2400%", "2400%", "2400%", "\u001a2400%"]
         }
     },
     "300001184": {
-        "name": null,
+        "name": "Hand of the True King",
         "skill_id_old": 240328,
         "skill_id_new": 240329,
         "cost": {
@@ -57619,12 +57736,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Hand of the True King", "引導真王的軍師", "진정한 왕을 이끄는 참모", "Le conseiller du roi légitime", "Berater des wahren Königs", "El estratega que guía al Entronado", "Tangan Kanan Raja Sesungguhnya", "เสนาธิการ\u001aแห่ง\u001aราชัน\u001aที่\u001aแท้จริง\u001a"],
+            "description": ["2600%", "2600%", "2600%", "2600 %", "2600%", "2600%", "2600%", "\u001a2600%"]
         }
     },
     "300001185": {
-        "name": null,
+        "name": "Hand of the True King",
         "skill_id_old": 240329,
         "skill_id_new": 240330,
         "cost": {
@@ -57638,12 +57755,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Hand of the True King", "引導真王的軍師", "진정한 왕을 이끄는 참모", "Le conseiller du roi légitime", "Berater des wahren Königs", "El estratega que guía al Entronado", "Tangan Kanan Raja Sesungguhnya", "เสนาธิการ\u001aแห่ง\u001aราชัน\u001aที่\u001aแท้จริง\u001a"],
+            "description": ["2800%", "2800%", "2800%", "2800 %", "2800%", "2800%", "2800%", "\u001a2800%"]
         }
     },
     "300001186": {
-        "name": null,
+        "name": "Hand of the True King",
         "skill_id_old": 240330,
         "skill_id_new": 240331,
         "cost": {
@@ -57657,12 +57774,12 @@
         },
         "units": [215000505],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Hand of the True King", "引導真王的軍師", "진정한 왕을 이끄는 참모", "Le conseiller du roi légitime", "Berater des wahren Königs", "El estratega que guía al Entronado", "Tangan Kanan Raja Sesungguhnya", "เสนาธิการ\u001aแห่ง\u001aราชัน\u001aที่\u001aแท้จริง\u001a"],
+            "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
         }
     },
     "300001187": {
-        "name": null,
+        "name": "Possibilities",
         "skill_id_old": 240336,
         "skill_id_new": 240337,
         "cost": {
@@ -57674,12 +57791,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Possibilities", "另一種可能", "또 하나의 가능성", "Destin alternatif", "Ein anderer Weg", "Una posibilidad más", "Kemungkinan", "อีก\u001aหนึ่ง\u001aความเป็นไปได้\u001a"],
+            "description": ["250", "250", "250", "250", "250", "250", "250", "\u001a250\u001a"]
         }
     },
     "300001188": {
-        "name": null,
+        "name": "Possibilities",
         "skill_id_old": 240337,
         "skill_id_new": 240338,
         "cost": {
@@ -57692,12 +57809,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Possibilities", "另一種可能", "또 하나의 가능성", "Destin alternatif", "Ein anderer Weg", "Una posibilidad más", "Kemungkinan", "อีก\u001aหนึ่ง\u001aความเป็นไปได้\u001a"],
+            "description": ["300", "300", "300", "300", "300", "300", "300", "\u001a300\u001a"]
         }
     },
     "300001189": {
-        "name": null,
+        "name": "Possibilities",
         "skill_id_old": 240338,
         "skill_id_new": 240339,
         "cost": {
@@ -57711,12 +57828,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Possibilities", "另一種可能", "또 하나의 가능성", "Destin alternatif", "Ein anderer Weg", "Una posibilidad más", "Kemungkinan", "อีก\u001aหนึ่ง\u001aความเป็นไปได้\u001a"],
+            "description": ["350", "350", "350", "350", "350", "350", "350", "\u001a350\u001a"]
         }
     },
     "300001190": {
-        "name": null,
+        "name": "Possibilities",
         "skill_id_old": 240339,
         "skill_id_new": 240340,
         "cost": {
@@ -57730,12 +57847,12 @@
         },
         "units": [215000527],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Possibilities", "另一種可能", "또 하나의 가능성", "Destin alternatif", "Ein anderer Weg", "Una posibilidad más", "Kemungkinan", "อีก\u001aหนึ่ง\u001aความเป็นไปได้\u001a"],
+            "description": ["400", "400", "400", "400", "400", "400", "400", "\u001a400\u001a"]
         }
     },
     "300001191": {
-        "name": null,
+        "name": "Razor Shield",
         "skill_id_old": 240361,
         "skill_id_new": 240362,
         "cost": {
@@ -57747,12 +57864,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Razor Shield", "回轉護盾", "오비탈 실드", "Bouclier lacérant", "Orbitalschild", "Furia del escudo", "Razor Shield", "Razor\u001a \u001aShield\u001a"],
+            "description": ["70% ~ 85%", "70% ~ 85%", "70% ~ 85%", "70 % ~ 85 %", "70% - 85%", "70% ~ 85%", "70% ~ 85%", "\u001a70% ~ 85%"]
         }
     },
     "300001192": {
-        "name": null,
+        "name": "Razor Shield",
         "skill_id_old": 240362,
         "skill_id_new": 240363,
         "cost": {
@@ -57765,12 +57882,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Razor Shield", "回轉護盾", "오비탈 실드", "Bouclier lacérant", "Orbitalschild", "Furia del escudo", "Razor Shield", "Razor\u001a \u001aShield\u001a"],
+            "description": ["70% ~ 90%", "70% ~ 90%", "70% ~ 90%", "70 % ~ 90 %", "70% - 90%", "70% ~ 90%", "70% ~ 90%", "\u001a70% ~ 90%"]
         }
     },
     "300001193": {
-        "name": null,
+        "name": "Razor Shield",
         "skill_id_old": 240363,
         "skill_id_new": 240364,
         "cost": {
@@ -57784,12 +57901,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Razor Shield", "回轉護盾", "오비탈 실드", "Bouclier lacérant", "Orbitalschild", "Furia del escudo", "Razor Shield", "Razor\u001a \u001aShield\u001a"],
+            "description": ["75% ~ 90%", "75% ~ 90%", "75% ~ 90%", "75 % ~ 90 %", "75% - 90%", "75% ~ 90%", "75% ~ 90%", "\u001a75% ~ 90%"]
         }
     },
     "300001194": {
-        "name": null,
+        "name": "Razor Shield",
         "skill_id_old": 240364,
         "skill_id_new": 240365,
         "cost": {
@@ -57803,12 +57920,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Razor Shield", "回轉護盾", "오비탈 실드", "Bouclier lacérant", "Orbitalschild", "Furia del escudo", "Razor Shield", "Razor\u001a \u001aShield\u001a"],
+            "description": ["80% ~ 90%", "80% ~ 90%", "80% ~ 90%", "80 % ~ 90 %", "80% - 90%", "80% ~ 90%", "80% ~ 90%", "\u001a80% ~ 90%"]
         }
     },
     "300001195": {
-        "name": null,
+        "name": "Earthshatter",
         "skill_id_old": 240367,
         "skill_id_new": 240368,
         "cost": {
@@ -57820,12 +57937,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earthshatter", "強襲重擊", "헤비 스트라이크", "Pilonnage", "Erdschmetterer", "Rompetierra", "Earthshatter", "ฟาด\u001aแยก\u001aปฐพี\u001a"],
+            "description": ["7400%", "7400%", "7400%", "7400 %", "7400%", "7400%", "7400%", "\u001a7400%"]
         }
     },
     "300001196": {
-        "name": null,
+        "name": "Earthshatter",
         "skill_id_old": 240368,
         "skill_id_new": 240369,
         "cost": {
@@ -57838,12 +57955,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earthshatter", "強襲重擊", "헤비 스트라이크", "Pilonnage", "Erdschmetterer", "Rompetierra", "Earthshatter", "ฟาด\u001aแยก\u001aปฐพี\u001a"],
+            "description": ["8200%", "8200%", "8200%", "8200 %", "8200%", "8200%", "8200%", "\u001a8200%"]
         }
     },
     "300001197": {
-        "name": null,
+        "name": "Earthshatter",
         "skill_id_old": 240369,
         "skill_id_new": 240370,
         "cost": {
@@ -57857,12 +57974,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earthshatter", "強襲重擊", "헤비 스트라이크", "Pilonnage", "Erdschmetterer", "Rompetierra", "Earthshatter", "ฟาด\u001aแยก\u001aปฐพี\u001a"],
+            "description": ["9000%", "9000%", "9000%", "9000 %", "9000%", "9000%", "9000%", "\u001a9000%"]
         }
     },
     "300001198": {
-        "name": null,
+        "name": "Earthshatter",
         "skill_id_old": 240370,
         "skill_id_new": 240371,
         "cost": {
@@ -57876,12 +57993,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earthshatter", "強襲重擊", "헤비 스트라이크", "Pilonnage", "Erdschmetterer", "Rompetierra", "Earthshatter", "ฟาด\u001aแยก\u001aปฐพี\u001a"],
+            "description": ["9900%", "9900%", "9900%", "9900 %", "9900%", "9900%", "9900%", "\u001a9900%"]
         }
     },
     "300001199": {
-        "name": null,
+        "name": "Master and Pupil",
         "skill_id_old": 240379,
         "skill_id_new": 240380,
         "cost": {
@@ -57893,12 +58010,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Master and Pupil", "師徒的羈絆", "사제의 인연", "Le maître et l'élève", "Gardisten unter sich", "Maestro y discípulo", "Guru dan Murid", "สายสัมพันธ์\u001aศิษย์\u001aอาจารย์\u001a"],
+            "description": ["2800%", "2800%", "2800%", "2800 %", "2800%", "2800%", "2800%", "\u001a2800%"]
         }
     },
     "300001200": {
-        "name": null,
+        "name": "Master and Pupil",
         "skill_id_old": 240380,
         "skill_id_new": 240381,
         "cost": {
@@ -57911,12 +58028,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Master and Pupil", "師徒的羈絆", "사제의 인연", "Le maître et l'élève", "Gardisten unter sich", "Maestro y discípulo", "Guru dan Murid", "สายสัมพันธ์\u001aศิษย์\u001aอาจารย์\u001a"],
+            "description": ["3200%", "3200%", "3200%", "3200 %", "3200%", "3200%", "3200%", "\u001a3200%"]
         }
     },
     "300001201": {
-        "name": null,
+        "name": "Master and Pupil",
         "skill_id_old": 240381,
         "skill_id_new": 240382,
         "cost": {
@@ -57930,12 +58047,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Master and Pupil", "師徒的羈絆", "사제의 인연", "Le maître et l'élève", "Gardisten unter sich", "Maestro y discípulo", "Guru dan Murid", "สายสัมพันธ์\u001aศิษย์\u001aอาจารย์\u001a"],
+            "description": ["3600%", "3600%", "3600%", "3600 %", "3600%", "3600%", "3600%", "\u001a3600%"]
         }
     },
     "300001202": {
-        "name": null,
+        "name": "Master and Pupil",
         "skill_id_old": 240382,
         "skill_id_new": 240383,
         "cost": {
@@ -57949,12 +58066,12 @@
         },
         "units": [215000205],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Master and Pupil", "師徒的羈絆", "사제의 인연", "Le maître et l'élève", "Gardisten unter sich", "Maestro y discípulo", "Guru dan Murid", "สายสัมพันธ์\u001aศิษย์\u001aอาจารย์\u001a"],
+            "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
         }
     },
     "300001203": {
-        "name": null,
+        "name": "Strength Acknowledged by the Blademaster",
         "skill_id_old": 240388,
         "skill_id_new": 240389,
         "cost": {
@@ -57966,12 +58083,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Strength Acknowledged by the Blademaster", "劍聖認可的實力", "검성이 인정한 실력", "Force reconnue par le maître d'armes", "Vom Schwertmeister anerkannte Stärke", "Reconocimiento del Maestro de la Espada", "Pengakuan dari Master Pedang", "พลัง\u001aที่\u001aจ้าว\u001aดาบ\u001aศักดิ์สิทธิ์\u001aยอมรับ\u001a"],
+            "description": ["40%", "40%", "40%", "40 %", "40%", "40%", "40%", "\u001a40%"]
         }
     },
     "300001204": {
-        "name": null,
+        "name": "Strength Acknowledged by the Blademaster",
         "skill_id_old": 240389,
         "skill_id_new": 240390,
         "cost": {
@@ -57984,12 +58101,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Strength Acknowledged by the Blademaster", "劍聖認可的實力", "검성이 인정한 실력", "Force reconnue par le maître d'armes", "Vom Schwertmeister anerkannte Stärke", "Reconocimiento del Maestro de la Espada", "Pengakuan dari Master Pedang", "พลัง\u001aที่\u001aจ้าว\u001aดาบ\u001aศักดิ์สิทธิ์\u001aยอมรับ\u001a"],
+            "description": ["50%", "50%", "50%", "50 %", "50%", "50%", "50%", "\u001a50%"]
         }
     },
     "300001205": {
-        "name": null,
+        "name": "Strength Acknowledged by the Blademaster",
         "skill_id_old": 240390,
         "skill_id_new": 240391,
         "cost": {
@@ -58003,12 +58120,12 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Strength Acknowledged by the Blademaster", "劍聖認可的實力", "검성이 인정한 실력", "Force reconnue par le maître d'armes", "Vom Schwertmeister anerkannte Stärke", "Reconocimiento del Maestro de la Espada", "Pengakuan dari Master Pedang", "พลัง\u001aที่\u001aจ้าว\u001aดาบ\u001aศักดิ์สิทธิ์\u001aยอมรับ\u001a"],
+            "description": ["60%", "60%", "60%", "60 %", "60%", "60%", "60%", "\u001a60%"]
         }
     },
     "300001206": {
-        "name": null,
+        "name": "Strength Acknowledged by the Blademaster",
         "skill_id_old": 240391,
         "skill_id_new": 240392,
         "cost": {
@@ -58022,8 +58139,8 @@
         },
         "units": [215000227],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Strength Acknowledged by the Blademaster", "劍聖認可的實力", "검성이 인정한 실력", "Force reconnue par le maître d'armes", "Vom Schwertmeister anerkannte Stärke", "Reconocimiento del Maestro de la Espada", "Pengakuan dari Master Pedang", "พลัง\u001aที่\u001aจ้าว\u001aดาบ\u001aศักดิ์สิทธิ์\u001aยอมรับ\u001a"],
+            "description": ["70%", "70%", "70%", "70 %", "70%", "70%", "70%", "\u001a70%"]
         }
     },
     "301301001": {
