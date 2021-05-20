@@ -8002,6 +8002,23 @@
             ]
         }
     },
+    "504222200": {
+        "name": "ビーストキラー改",
+        "compendium_id": 1303,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [222200],
+        "effects": ["Grant 'Beast Killer+' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504222860": {
         "name": "Chosen One",
         "compendium_id": 723,
@@ -9078,7 +9095,7 @@
         "strings": {
             "names": ["Witch's Cackle", "魔女的狂笑", "마녀의 파안대소", "Rire de sorcière", "Hexengelächter", "Risa embrujada", "Lengkingan Tawa Witch", "เสียงหัวเราะ\u001aนาง\u001aแม่มด\u001a"],
             "desc_short": [
-                "Boost MAG when equipped with a rod and restore MP every turn (Not stackable)",
+                "Boost MAG when equipped with a rod, and restore MP every turn (Not stackable)",
                 "裝備魔棒時提高魔力+每回合恢復MP [無法重複裝備]",
                 "홀장 장착 시 마력 상승+매 턴마다 MP 회복 (중복 장착 불가)",
                 "Augmente la MAGIE lorsqu'un sceptre est équipé et restaure des PM à chaque tour (non cumulable)",
@@ -9088,7 +9105,7 @@
                 "เพิ่มค่า\u001a \u001aMAG\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aคทา\u001a \u001a+\u001a \u001aฟื้นฟู\u001aค่า\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
             "desc_long": [
-                "Boosts MAG when equipped with a rod and restore MP every turn. Not stackable.",
+                "Boosts MAG when equipped with a rod, and restores MP every turn. Not stackable.",
                 "裝備魔棒時，提高魔力，並提高每回合恢復MP。[無法重複裝備]",
                 "홀장 장착 시 마력이 상승하고, 매 턴마다 MP를 회복합니다. (중복 장착 불가)",
                 "Augmente la MAGIE lorsqu'un sceptre est équipé et restaure des PM à chaque tour. Non cumulable.",
@@ -9272,7 +9289,7 @@
                 "Boost ATK by 50% when equipped with a large sword, and boost equipment ATK when only weapons are equipped in one or both hands (Not stackable)",
                 "裝備大劍時提高攻擊+雙手只裝備武器時武具攻擊提升 [無法重複裝備]",
                 "대검 장착 시 공격력 상승+한손 또는 양손의 장비가 무기뿐일 경우 장비의 공격력 상승 (중복 장착 불가)",
-                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipée dans une main ou dans les deux (non cumulable)",
+                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipées dans une main ou dans les deux (non cumulable)",
                 "Erhöht ANG um 50% wenn mit Großschwert ausgerüstet und erhöht Ausrüstung-ANG, wenn nur Waffen in einer oder beiden Händen ausgerüstet sind (Nicht stapelbar).",
                 "Aumenta el ATQ un 50% al llevar espada grande, y aumenta el ATQ del equipo al llevar armas en una o las dos manos (no acumulable)",
                 "Meningkatkan ATK sebanyak 50% ketika pedang besar digunakan dan meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan atau 2 senjata satu tangan digunakan (Tidak dapat ditumpuk)",
@@ -9282,7 +9299,7 @@
                 "Boosts ATK by 50% when equipped with a large sword, and boosts equipment ATK when only weapons are equipped in one or both hands. Not Stackable.",
                 "裝備大劍時，提高攻擊，雙手只裝備一把或兩把武器時武具攻擊提升。[無法重複裝備]",
                 "대검 장착 시 공격력이 50% 상승하고, 한손 또는 양손의 장비가 무기뿐일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
-                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipée dans une main ou dans les deux. Non cumulable.",
+                "Augmente l'ATT de 50% lorsqu'une épée longue est équipée et augmente l'ATT de l'équipement lorsque seules des armes sont équipées dans une main ou dans les deux. Non cumulable.",
                 "Erhöht ANG um 50% wenn mit Großschwert ausgerüstet und erhöht Ausrüstung-ANG, wenn nur Waffen in einer oder beiden Händen ausgerüstet sind (Nicht stapelbar).",
                 "Aumenta el ATQ un 50% al llevar espada grande, y aumenta el ATQ del equipo al llevar armas en una o las dos manos (no acumulable).",
                 "Meningkatkan ATK sebanyak 50% ketika pedang besar digunakan dan meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan atau 2 senjata satu tangan digunakan. Tidak dapat ditumpuk.",
@@ -20632,7 +20649,7 @@
                 "Boost physical and magic damage against humans by 50% and boost LB gauge fill rate by 100% (Not stackable)",
                 "物理、魔法攻擊時提高50%對人系魔物的傷害+提高100%極限技石對極限技槽的增加量[無法重複裝備]",
                 "물리, 마법 공격 시 인간형 마물에게 부여하는 피해량 50% 상승+LB 게이지 효율 100% 상승 (중복 장착 불가)",
-                "Augmente les dégâts physiques et magiques infligés aux humains de 50 %, et augmente le taux de remplissage de la jauge de limite de 100 %",
+                "Augmente les dégâts physiques et magiques infligés aux humains de 50 %, et augmente le taux de remplissage de la jauge de limite de 100 % (non cumulable)",
                 "Erhöht physischen sowie magischen Schaden gegen Menschen um 50% und Limitmeter füllt sich 100% schneller (nicht stapelbar).",
                 "Aumenta el daño físico y mágico contra humanos un 50% y la barra de EL se rellena un 100% más rápido (no acumulable)",
                 "Meningkatkan damage fisik dan magic terhadap jenis manusia sebanyak 50%, serta meningkatkan kecepatan pengisian bar LB sebanyak 100% (Tidak dapat ditumpuk)",
@@ -20912,12 +20929,320 @@
         }
     },
     "504240400": {
-        "name": "スピリットキラー改",
+        "name": "Spirit Killer+",
         "compendium_id": 1287,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [227920],
         "effects": ["Grant 'Spirit Killer+' passive"],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Spirit Killer+", "荼靈改", "개량형 정령 킬러", "Tue-esprits +", "Geisttöter +", "Mataespíritus+", "Pembantai Spirit+", "Spirit\u001a \u001aKiller\u001a+\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against fairies by 75% (Not stackable)",
+                "物理、魔法攻擊時提高75%對精靈系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 정령형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente les dégâts magiques et physiques infligés aux esprits de 75 % (non cumulable)",
+                "Erhöht physischen und magischen Schaden gegen Feen um 75% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra espíritus un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis peri sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aแฟรี่\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against fairies by 75%. Not stackable.",
+                "物理、魔法攻擊時提高75%對精靈系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 정령형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts magiques et physiques infligés aux esprits de 75 %. Non cumulable.",
+                "Erhöht physischen und magischen Schaden gegen Feen um 75%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra espíritus un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis peri sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aแฟรี่\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "504240401": {
+        "name": "Avian Eater Sense",
+        "compendium_id": 1288,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240401],
+        "effects": ["Grant 'Avian Eater Sense' passive"],
+        "unique": true,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Avian Eater Sense", "食鳥者之念", "조류 포식자의 원념", "Instinct anti-oiseaux", "Gespür des Vogelfressers", "Sentido comepájaros", "Keinginan Pemakan Makhluk Bersayap", "จิต\u001aเขมือบ\u001aสัตว์ปีก\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and physical damage against avian monsters by 75% (Not stackable)",
+                "提高40%攻擊魔力+物理攻擊時提高75%對鳥系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+물리 공격 시 조류형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts physiques infligés aux oiseaux de 75 % (non cumulable)",
+                "Erhöht ANG und MAG um 40% und physischen Schaden gegen Vogelmonster um 75% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico contra aves un 75% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik terhadap jenis makhluk bersayap sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40% and physical damage against avian monsters by 75%. Not stackable.",
+                "提高40%攻擊魔力，以及物理攻擊時提高75%對鳥系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 물리 공격 시 조류형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts physiques infligés aux oiseaux de 75 %. Non cumulable.",
+                "Erhöht ANG und MAG um 40% und physischen Schaden gegen Vogelmonster um 75%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico contra aves un 75% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik terhadap jenis makhluk bersayap sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "504240422": {
+        "name": "I Wanted to Go with You",
+        "compendium_id": 1289,
+        "compendium_shown": true,
+        "unit_restriction": [209000103, 209001505, 209002305, 209002807, 209002817, 209000304, 204000603, 206000703, 211001004, 100017105, 100010405, 401004505, 401007705, 401006605],
+        "skills": [240422],
+        "effects": ["Grant 'I Wanted to Go with You' ability"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_100.png",
+        "strings": {
+            "names": ["I Wanted to Go with You", "畢竟你說要去了", "네가 간다고 했으니까", "Parce que tu me l'as demandé", "Weil ich da hingehe, wo du hingehst!", "Porque tú dijiste que te ibas", "Aku Ingin Pergi Bersamamu", "ข้า\u001aต้องการ\u001aไป\u001aกับ\u001aเจ้า\u001a"],
+            "desc_short": ["Consume own LB gauge to boost ATK, DEF, MAG, SPR, and LB damage for all allies while singing", "歌唱期間消耗自身的極限技槽提高全體隊員的攻擊防禦魔力精神+提高極限技的傷害", "노래하는 동안 자신의 LB 게이지를 소비하여 아군 전체의 공격력, 방어력, 마력, 정신력 상승+LB 피해량 상승", "Consomme la jauge de limite du lanceur pour augmenter l'ATT, la DEF, la MAGIE, la PSY et les dégâts de la limite de tous les alliés en chantant", "Verbraucht Limitmeter des Benutzers, um während des Singens ANG, ABW, MAG, PSY sowie Schaden durch Limitrausch aller Verbündeten zu erhöhen.", "Consume la barra de EL del usuario para aumentar ATQ, DEF, MAG, ESP y el daño del EL de todos los aliados mientras canta", "Menggunakan bar LB diri sendiri untuk meningkatkan ATK, DEF, MAG, SPR, dan meningkatkan damage LB semua teman selama menyanyi", "ใช้\u001a \u001aLB\u001a \u001aGauge\u001a \u001aของ\u001aตัวเอง\u001aเพื่อ\u001aเพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001aของ\u001aสมาชิก\u001aใน\u001aทีม\u001aทุกราย\u001aใน\u001aระหว่าง\u001aที่\u001aร้องเพลง\u001a"],
+            "desc_long": ["Consumes own LB gauge to boost ATK, DEF, MAG, SPR, and LB damage for all allies while singing.", "歌唱期間消耗自身的極限技槽提高全體隊員的攻擊防禦魔力精神，以及提高極限技的傷害。", "노래하는 동안 자신의 LB 게이지를 소비하여 아군 전체의 공격력, 방어력, 마력, 정신력이 상승하며, LB 피해량이 상승합니다.", "Consomme la jauge de limite du lanceur pour augmenter l'ATT, la DEF, la MAGIE, la PSY et les dégâts de la limite de tous les alliés en chantant", "Verbraucht Limitmeter des Benutzers, um während des Singens ANG, ABW, MAG, PSY sowie Schaden durch Limitrausch aller Verbündeten zu erhöhen.", "Consume la barra de EL del usuario para aumentar ATQ, DEF, MAG, ESP y el daño del EL de todos los aliados mientras canta.", "Menggunakan bar LB diri sendiri untuk meningkatkan ATK, DEF, MAG, SPR, dan meningkatkan damage LB semua teman selama menyanyi.", "ใช้\u001a \u001aLB\u001a \u001aGauge\u001a \u001aของ\u001aตัวเอง\u001aเพื่อ\u001aเพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001aของ\u001aสมาชิก\u001aใน\u001aทีม\u001aทุกราย\u001aใน\u001aระหว่าง\u001aที่\u001aร้องเพลง\u001a"]
+        }
+    },
+    "504240423": {
+        "name": "生きることの大切さ",
+        "compendium_id": 1290,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240423],
+        "effects": ["Grant '生きることの大切さ' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_6000200.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240424": {
+        "name": "守るための剣技",
+        "compendium_id": 1291,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240424],
+        "effects": ["Grant '守るための剣技' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_6000200.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240570": {
+        "name": "厳格なリーダー",
+        "compendium_id": 1292,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240570],
+        "effects": ["Grant '厳格なリーダー' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240571": {
+        "name": "グラシャラボラスを継いだ男",
+        "compendium_id": 1293,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240571],
+        "effects": ["Grant 'グラシャラボラスを継いだ男' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_72.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240573": {
+        "name": "リリーバーソング",
+        "compendium_id": 1294,
+        "compendium_shown": true,
+        "unit_restriction": [204000603, 206000703, 211001004, 100017105, 100024705, 100010405, 100028305, 100028404, 256000101, 100030805, 100030705, 100030904, 100034205, 100003903, 249000105, 100007404, 100007505, 201000302, 253000105],
+        "skills": [240573],
+        "effects": ["Grant 'リリーバーソング' ability"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_100.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240574": {
+        "name": "赤の名を持つ怪盗",
+        "compendium_id": 1295,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240574],
+        "effects": ["Grant '赤の名を持つ怪盗' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_97.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240579": {
+        "name": "白き国の赤き物語",
+        "compendium_id": 1296,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240579],
+        "effects": ["Grant '白き国の赤き物語' passive"],
+        "unique": false,
+        "price_buy": 15000,
+        "price_sell": 1500,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240721": {
+        "name": "闇夜に潜む義賊",
+        "compendium_id": 1297,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240721],
+        "effects": ["Grant '闇夜に潜む義賊' passive"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_78.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240727": {
+        "name": "フェアリーの囁き",
+        "compendium_id": 1298,
+        "compendium_shown": true,
+        "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
+        "skills": [240727],
+        "effects": ["Grant 'フェアリーの囁き' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240728": {
+        "name": "フェアリーの願い",
+        "compendium_id": 1299,
+        "compendium_shown": true,
+        "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
+        "skills": [240728],
+        "effects": ["Grant 'フェアリーの願い' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240729": {
+        "name": "フェアリーの祈り",
+        "compendium_id": 1300,
+        "compendium_shown": true,
+        "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
+        "skills": [240729],
+        "effects": ["Grant 'フェアリーの祈り' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240730": {
+        "name": "フェアリーの想い",
+        "compendium_id": 1301,
+        "compendium_shown": true,
+        "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
+        "skills": [240730],
+        "effects": ["Grant 'フェアリーの想い' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240731": {
+        "name": "フェアリーの導き",
+        "compendium_id": 1302,
+        "compendium_shown": true,
+        "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
+        "skills": [240731],
+        "effects": ["Grant 'フェアリーの導き' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240733": {
+        "name": "鳥喰らいの魔力",
+        "compendium_id": 1304,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240733],
+        "effects": ["Grant '鳥喰らいの魔力' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
@@ -20928,17 +21253,34 @@
             "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
-    "504240401": {
-        "name": "鳥喰らいの念",
-        "compendium_id": 1288,
+    "504240840": {
+        "name": "攻めに転じた騎士",
+        "compendium_id": 1305,
         "compendium_shown": true,
         "unit_restriction": null,
-        "skills": [240401],
-        "effects": ["Grant '鳥喰らいの念' passive"],
+        "skills": [240840],
+        "effects": ["Grant '攻めに転じた騎士' passive"],
         "unique": false,
-        "price_buy": 200000,
-        "price_sell": 20000,
-        "icon": "ability_79.png",
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_78.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504240845": {
+        "name": "永遠の独裁を求める者",
+        "compendium_id": 1306,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [240845],
+        "effects": ["Grant '永遠の独裁を求める者' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_6000200.png",
         "strings": {
             "names": [null, null, null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null, null, null],
