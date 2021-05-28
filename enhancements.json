@@ -60822,7 +60822,7 @@
                 "270001400": 1
             }
         },
-        "units": [205001505],
+        "units": [401010807, 205001505, 401010817],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -60842,7 +60842,7 @@
                 "270001500": 1
             }
         },
-        "units": [205001505],
+        "units": [401010807, 205001505, 401010817],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
@@ -60861,7 +60861,7 @@
                 "270001400": 1
             }
         },
-        "units": [205001505, 100033505, 209001127, 100034307, 207001507, 207001517],
+        "units": [401010807, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 401010817],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -60881,7 +60881,7 @@
                 "270001500": 1
             }
         },
-        "units": [205001505, 100033505, 209001127, 100034307, 207001507, 207001517],
+        "units": [401010807, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 401010817],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
@@ -69559,7 +69559,7 @@
         },
         "units": [401006905],
         "strings": {
-            "names": ["Protective Vines", "防護藤蔓", "가호의 덩굴", "Racines protectrices", "Beschützende Ranken", "Vid protectora", "Protective Vines", "กลีบดอกไม้\u001aปกป้อง\u001a"],
+            "names": ["Protective Vines", "防護藤蔓", "가호의 덩굴", "Racines protectrices", "Beschützende Ranken", "Vid protectora", "Protective Vines", "เถา\u001aไม้\u001aปกป้อง\u001a"],
             "description": ["Restores HP for all allies (2000 HP)", "恢復全體隊員的HP(2000 HP)", "아군 전체의 HP 회복(HP 2000)", "Restaure les PV de tous les alliés (2 000 PV)", "Regeneriert LP aller Verbündeten (2000 LP)", "Recupera VIT de todos los aliados (2000 puntos)", "Memulihkan HP semua teman (2000 HP)", "\u001aฟื้นฟู\u001aค่า\u001a \u001aHP\u001a \u001aให้\u001aสมาชิก\u001aใน\u001aทีม\u001aทั้งหมด\u001a \u001a(\u001a2000\u001a \u001aHP\u001a)"]
         }
     },
@@ -74120,6 +74120,225 @@
         "strings": {
             "names": ["One's Pure Instinct to Survive", "戰到至死方休的純粹心情", "죽을 때까지 싸워주마", "Combattre jusqu'à la fin", "Einfach nur bis zum Tod kämpfen", "Luchar hasta la muerte", "Keinginan untuk Bertarung Sampai Mati", "สู้\u001aจนกว่า\u001aตัว\u001aจะ\u001aตาย\u001a"],
             "description": ["400", "400", "400", "400", "400", "400", "400", "\u001a400\u001a"]
+        }
+    },
+    "915026001": {
+        "name": "Cactus Break",
+        "skill_id_old": 915026,
+        "skill_id_new": 915028,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 20,
+                "271001100": 10
+            }
+        },
+        "units": [401010807, 401010817],
+        "strings": {
+            "names": ["Cactus Break", "仙人掌潰擊", "선인장 부수기", "Pampa-casse", "Kaktusbrecher", "Rompecactus", "Cactus Break", "Cactus\u001a \u001aBreak\u001a"],
+            "description": ["120%", "120%", "120%", "120 %", "120%", "120%", "120%", "\u001a120%"]
+        }
+    },
+    "915026002": {
+        "name": "Cactus Break",
+        "skill_id_old": 915028,
+        "skill_id_new": 915030,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 30,
+                "271001100": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010807, 401010817],
+        "strings": {
+            "names": ["Cactus Break", "仙人掌潰擊", "선인장 부수기", "Pampa-casse", "Kaktusbrecher", "Rompecactus", "Cactus Break", "Cactus\u001a \u001aBreak\u001a"],
+            "description": ["75%", "75%", "75%", "75 %", "75%", "120%", "75%", "\u001a75%"]
+        }
+    },
+    "915026003": {
+        "name": "Cactus Break",
+        "skill_id_old": 915030,
+        "skill_id_new": 915032,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001000": 50,
+                "271001100": 30,
+                "271001200": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010807, 401010817],
+        "strings": {
+            "names": ["Cactus Break", "仙人掌潰擊", "선인장 부수기", "Pampa-casse", "Kaktusbrecher", "Rompecactus", "Cactus Break", "Cactus\u001a \u001aBreak\u001a"],
+            "description": ["130%", "130%", "130%", "130 %", "130%", "130%", "130%", "\u001a130%"]
+        }
+    },
+    "915026004": {
+        "name": "Cactus Break",
+        "skill_id_old": 915032,
+        "skill_id_new": 915034,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001000": 100,
+                "271001100": 50,
+                "271001200": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010807, 401010817],
+        "strings": {
+            "names": ["Cactus Break", "仙人掌潰擊", "선인장 부수기", "Pampa-casse", "Kaktusbrecher", "Rompecactus", "Cactus Break", "Cactus\u001a \u001aBreak\u001a"],
+            "description": ["85%", "85%", "85%", "85 %", "85%", "130%", "85%", "\u001a85%"]
+        }
+    },
+    "915049001": {
+        "name": "Thorny Teamwork",
+        "skill_id_old": 915049,
+        "skill_id_new": 915050,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 20,
+                "271001100": 10
+            }
+        },
+        "units": [401010807],
+        "strings": {
+            "names": ["Thorny Teamwork", "帶刺協力", "가시 돋친 협업", "Collaboration épineuse", "Stachliges Teamwork", "Colaboración espinosa", "Thorny Teamwork", "หนาม\u001aแหลม\u001aสามัคคี\u001a"],
+            "description": ["210%", "210%", "210%", "210 %", "210%", "210%", "210%", "\u001a210%"]
+        }
+    },
+    "915049002": {
+        "name": "Thorny Teamwork",
+        "skill_id_old": 915050,
+        "skill_id_new": 915051,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 30,
+                "271001100": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010807],
+        "strings": {
+            "names": ["Thorny Teamwork", "帶刺協力", "가시 돋친 협업", "Collaboration épineuse", "Stachliges Teamwork", "Colaboración espinosa", "Thorny Teamwork", "หนาม\u001aแหลม\u001aสามัคคี\u001a"],
+            "description": ["220%", "220%", "220%", "220 %", "220%", "220%", "220%", "\u001a220%"]
+        }
+    },
+    "915049003": {
+        "name": "Thorny Teamwork",
+        "skill_id_old": 915051,
+        "skill_id_new": 915052,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001000": 50,
+                "271001100": 30,
+                "271001200": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010807],
+        "strings": {
+            "names": ["Thorny Teamwork", "帶刺協力", "가시 돋친 협업", "Collaboration épineuse", "Stachliges Teamwork", "Colaboración espinosa", "Thorny Teamwork", "หนาม\u001aแหลม\u001aสามัคคี\u001a"],
+            "description": ["230%", "230%", "230%", "230 %", "230%", "230%", "230%", "\u001a230%"]
+        }
+    },
+    "915049004": {
+        "name": "Thorny Teamwork",
+        "skill_id_old": 915052,
+        "skill_id_new": 915053,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001000": 100,
+                "271001100": 50,
+                "271001200": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010807],
+        "strings": {
+            "names": ["Thorny Teamwork", "帶刺協力", "가시 돋친 협업", "Collaboration épineuse", "Stachliges Teamwork", "Colaboración espinosa", "Thorny Teamwork", "หนาม\u001aแหลม\u001aสามัคคี\u001a"],
+            "description": ["250%", "250%", "250%", "250 %", "250%", "250%", "250%", "\u001a250%"]
+        }
+    },
+    "915070001": {
+        "name": "Deadly Drought",
+        "skill_id_old": 915070,
+        "skill_id_new": 915072,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 20,
+                "271001100": 10
+            }
+        },
+        "units": [401010817],
+        "strings": {
+            "names": ["Deadly Drought", "致命乾旱", "극한의 가뭄", "Sécheresse meurtrière", "Tödliche Dürre", "Sequía mortal", "Deadly Drought", "ภัยแล้ง\u001aคร่าชีวิต\u001a"],
+            "description": ["260%", "260%", "260%", "260 %", "260%", "260%", "260%", "\u001a260%"]
+        }
+    },
+    "915070002": {
+        "name": "Deadly Drought",
+        "skill_id_old": 915072,
+        "skill_id_new": 915074,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 30,
+                "271001100": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401010817],
+        "strings": {
+            "names": ["Deadly Drought", "致命乾旱", "극한의 가뭄", "Sécheresse meurtrière", "Tödliche Dürre", "Sequía mortal", "Deadly Drought", "ภัยแล้ง\u001aคร่าชีวิต\u001a"],
+            "description": ["270%", "270%", "270%", "270 %", "270%", "270%", "270%", "\u001a270%"]
+        }
+    },
+    "915070003": {
+        "name": "Deadly Drought",
+        "skill_id_old": 915074,
+        "skill_id_new": 915076,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001000": 50,
+                "271001100": 30,
+                "271001200": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401010817],
+        "strings": {
+            "names": ["Deadly Drought", "致命乾旱", "극한의 가뭄", "Sécheresse meurtrière", "Tödliche Dürre", "Sequía mortal", "Deadly Drought", "ภัยแล้ง\u001aคร่าชีวิต\u001a"],
+            "description": ["280%", "280%", "280%", "280 %", "280%", "280%", "280%", "\u001a280%"]
+        }
+    },
+    "915070004": {
+        "name": "Deadly Drought",
+        "skill_id_old": 915076,
+        "skill_id_new": 915078,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001000": 100,
+                "271001100": 50,
+                "271001200": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401010817],
+        "strings": {
+            "names": ["Deadly Drought", "致命乾旱", "극한의 가뭄", "Sécheresse meurtrière", "Tödliche Dürre", "Sequía mortal", "Deadly Drought", "ภัยแล้ง\u001aคร่าชีวิต\u001a"],
+            "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
         }
     }
 }
