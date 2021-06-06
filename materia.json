@@ -6430,7 +6430,7 @@
     "504214720": {
         "name": "アルタメノスの光",
         "compendium_id": 643,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [214720],
         "effects": ["Grant 'アルタメノスの光' passive"],
@@ -7458,7 +7458,7 @@
     "504220270": {
         "name": "Knight of Gemma",
         "compendium_id": 706,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [220270],
         "effects": ["Grant 'Knight of Gemma' passive"],
@@ -7475,7 +7475,7 @@
     "504220280": {
         "name": "Beast's Heart",
         "compendium_id": 704,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [220280],
         "effects": ["Grant 'Beast's Heart' passive"],
@@ -7492,7 +7492,7 @@
     "504220290": {
         "name": "Half-elf's Heart",
         "compendium_id": 705,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [220290],
         "effects": ["Grant 'Half-elf's Heart' passive"],
@@ -7782,7 +7782,7 @@
     "504221650": {
         "name": "Agnès' Crystalguard Captain",
         "compendium_id": 726,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [222760],
         "effects": ["Grant 'Agnès' Crystalguard Captain' passive"],
@@ -7799,7 +7799,7 @@
     "504221660": {
         "name": "Fragment of Thought",
         "compendium_id": 727,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [222780],
         "effects": ["Grant 'Fragment of Thought' passive"],
@@ -8003,20 +8003,38 @@
         }
     },
     "504222200": {
-        "name": "ビーストキラー改",
+        "name": "Beast Killer+",
         "compendium_id": 1303,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [222200],
         "effects": ["Grant 'Beast Killer+' passive"],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Beast Killer+", "亡獸改", "개량형 야수 킬러", "Tue-bêtes +", "Bestientöter +", "Matabestias+", "Pembantai Makhluk Buas+", "Beast\u001a \u001aKiller\u001a+\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against beasts by 75% (Not stackable)",
+                "物理、魔法攻擊時提高75%對獸系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 야수형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux bêtes de 75 % (non cumulable)",
+                "Erhöht physischen und magischen Schaden gegen Bestien um 75% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra bestias un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk buas sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aอสูร\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against beasts by 75%. Not stackable.",
+                "物理、魔法攻擊時提高75%對獸系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 야수형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux bêtes de 75 %. Non cumulable.",
+                "Erhöht physischen und magischen Schaden gegen Bestien um 75%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra bestias un 75%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk buas sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aอสูร\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504222860": {
@@ -9095,14 +9113,14 @@
         "strings": {
             "names": ["Witch's Cackle", "魔女的狂笑", "마녀의 파안대소", "Rire de sorcière", "Hexengelächter", "Risa embrujada", "Lengkingan Tawa Witch", "เสียงหัวเราะ\u001aนาง\u001aแม่มด\u001a"],
             "desc_short": [
-                "Boost MAG when equipped with a rod, and restore MP every turn (Not stackable)",
-                "裝備魔棒時提高魔力+每回合恢復MP [無法重複裝備]",
-                "홀장 장착 시 마력 상승+매 턴마다 MP 회복 (중복 장착 불가)",
-                "Augmente la MAGIE lorsqu'un sceptre est équipé et restaure des PM à chaque tour (non cumulable)",
-                "Erhöht MAG wenn mit Rute ausgerüstet und stellt bei jedem Zug MP wieder her (Nicht stapelbar).",
-                "Aumenta la MAG al llevar una vara y recupera PM cada turno (no acumulable)",
-                "Meningkatkan MAG ketika tongkat digunakan dan memulihkan MP setiap giliran (Tidak dapat ditumpuk)",
-                "เพิ่มค่า\u001a \u001aMAG\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aคทา\u001a \u001a+\u001a \u001aฟื้นฟู\u001aค่า\u001a \u001aMP\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "Restore MP every turn, and boost MAG by 80% when equipped with a rod (Not stackable)",
+                "每回合恢復MP+裝備魔棒時提高80%魔力[無法重複裝備]",
+                "매 턴마다 MP 회복+홀장 장착 시 마력 80% 상승 (중복 장착 불가)",
+                "Restaure les PM à chaque tour, et augmente la MAGIE quand sceptre est équipé (non cumulable)",
+                "Stellt bei jedem Zug MP wieder her und erhöht MAG um 80%, wenn mit Rute ausgerüstet (nicht stapelbar).",
+                "Recupera PM cada turno, y aumenta la MAG un 80% al llevar vara (no acumulable)",
+                "Memulihkan MP setiap giliran dan meningkatkan MAG sebanyak 80% ketika tongkat digunakan (Tidak dapat ditumpuk)",
+                "ฟื้นฟู\u001a \u001aMP\u001a \u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aMAG\u001a \u001a80% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
             "desc_long": [
                 "Boosts MAG when equipped with a rod, and restores MP every turn. Not stackable.",
@@ -9344,7 +9362,7 @@
     "504227328": {
         "name": "White Heart",
         "compendium_id": 798,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [227328],
         "effects": ["Grant 'White Heart' passive"],
@@ -9446,7 +9464,7 @@
     "504227428": {
         "name": "Holy Knight",
         "compendium_id": 804,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [227428],
         "effects": ["Grant 'Holy Sword Knight' passive"],
@@ -9463,7 +9481,7 @@
     "504227448": {
         "name": "Kaliva's Guidance",
         "compendium_id": 805,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [227448],
         "effects": ["Grant 'Kaliva's Guidance' passive"],
@@ -9480,7 +9498,7 @@
     "504227459": {
         "name": "Technical Attacker",
         "compendium_id": 806,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [227459],
         "effects": ["Grant 'Technical Attacker' passive"],
@@ -10186,7 +10204,7 @@
     "504228277": {
         "name": "Spear of the Princess",
         "compendium_id": 838,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [228277],
         "effects": ["Grant 'Royal Spearmanship' passive"],
@@ -10203,7 +10221,7 @@
     "504228287": {
         "name": "Proud Thief",
         "compendium_id": 839,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [228287],
         "effects": ["Grant 'Chivalrous Thief' passive"],
@@ -10426,7 +10444,7 @@
     "504228470": {
         "name": "Lara's Intuition",
         "compendium_id": 851,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [228470],
         "effects": ["Grant 'Croft Intuition' passive"],
@@ -11284,7 +11302,7 @@
     "504229431": {
         "name": "赤き衣を纏いし武人",
         "compendium_id": 894,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [229431],
         "effects": ["Grant '赤き衣を纏いし武人' passive"],
@@ -11301,7 +11319,7 @@
     "504229432": {
         "name": "悪意に満ちあふれた者",
         "compendium_id": 895,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [229432],
         "effects": ["Grant '悪意に満ちあふれた者' passive"],
@@ -11318,7 +11336,7 @@
     "504229433": {
         "name": "水底の悪魔",
         "compendium_id": 896,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [229433],
         "effects": ["Grant '水底の悪魔' passive"],
@@ -11335,7 +11353,7 @@
     "504229434": {
         "name": "地底の暴君",
         "compendium_id": 897,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [229434],
         "effects": ["Grant '地底の暴君' passive"],
@@ -11936,7 +11954,7 @@
     "504230014": {
         "name": "憤慨",
         "compendium_id": 926,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230014],
         "effects": ["Grant '憤慨' passive"],
@@ -12124,7 +12142,7 @@
     "504230243": {
         "name": "アルタメノスの夜明け",
         "compendium_id": 936,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230243],
         "effects": ["Grant 'アルタメノスの夜明け' passive"],
@@ -12141,7 +12159,7 @@
     "504230244": {
         "name": "亡き妹への想い",
         "compendium_id": 937,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230244],
         "effects": ["Grant '亡き妹への想い' passive"],
@@ -12158,7 +12176,7 @@
     "504230245": {
         "name": "流麗なる大剣使い",
         "compendium_id": 938,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230245],
         "effects": ["Grant '流麗なる大剣使い' passive"],
@@ -12227,7 +12245,7 @@
     "504230373": {
         "name": "伝説のミラージュ使い",
         "compendium_id": 941,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230373],
         "effects": ["Grant '伝説のミラージュ使い' passive"],
@@ -12244,7 +12262,7 @@
     "504230374": {
         "name": "獅子の心(WOFF)",
         "compendium_id": 942,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [230374],
         "effects": ["Grant '獅子の心(WOFF)' passive"],
@@ -13144,7 +13162,7 @@
     "504231383": {
         "name": "魔道を修めし吟遊詩人",
         "compendium_id": 979,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [231383],
         "effects": ["Grant '魔道を修めし吟遊詩人' passive"],
@@ -13196,7 +13214,7 @@
     "504231471": {
         "name": "光と闇の調和",
         "compendium_id": 981,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [231471],
         "effects": ["Grant '光と闇の調和' passive"],
@@ -13248,7 +13266,7 @@
     "504231473": {
         "name": "二人に敵なし！",
         "compendium_id": 983,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [231473],
         "effects": ["Grant '二人に敵なし！' passive"],
@@ -13404,7 +13422,7 @@
     "504231730": {
         "name": "破壊者の波動",
         "compendium_id": 989,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [231730],
         "effects": ["Grant '破壊者の波動' passive"],
@@ -13421,7 +13439,7 @@
     "504231731": {
         "name": "おもてなしのこころ",
         "compendium_id": 990,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [231731],
         "effects": ["Grant 'おもてなしのこころ' passive"],
@@ -13802,7 +13820,7 @@
     "504232221": {
         "name": "サイバーアーツ",
         "compendium_id": 1006,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [232221],
         "effects": ["Grant 'サイバーアーツ' passive"],
@@ -13819,7 +13837,7 @@
     "504232281": {
         "name": "魔法より素敵なもの",
         "compendium_id": 1007,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [232281],
         "effects": ["Grant '魔法より素敵なもの' passive"],
@@ -13836,7 +13854,7 @@
     "504232341": {
         "name": "たどり着きし極意",
         "compendium_id": 1008,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [232341],
         "effects": ["Grant 'たどり着きし極意' passive"],
@@ -14303,7 +14321,7 @@
     "504232801": {
         "name": "水の守人一族の夏休み",
         "compendium_id": 1027,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [232801],
         "effects": ["Grant '水の守人一族の夏休み' passive"],
@@ -14642,7 +14660,7 @@
     "504233220": {
         "name": "熟練パペッター",
         "compendium_id": 1039,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233220],
         "effects": ["Grant '熟練パペッター' passive"],
@@ -14659,7 +14677,7 @@
     "504233250": {
         "name": "終わりなき束縛",
         "compendium_id": 1040,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233250],
         "effects": ["Grant '終わりなき束縛' passive"],
@@ -14728,7 +14746,7 @@
     "504233410": {
         "name": "Instrumental Rhythm",
         "compendium_id": 1044,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233410],
         "effects": ["Grant 'Instrumental Rhythm' passive"],
@@ -15042,7 +15060,7 @@
     "504233711": {
         "name": "ファミマの極意",
         "compendium_id": 1054,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233711],
         "effects": ["Grant 'ファミマの極意' passive"],
@@ -15059,7 +15077,7 @@
     "504233712": {
         "name": "4thアニバーサリークポ！",
         "compendium_id": 1055,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233712],
         "effects": ["Grant '4thアニバーサリークポ！' passive"],
@@ -15076,7 +15094,7 @@
     "504233715": {
         "name": "ファミチキ先輩の情熱接客術",
         "compendium_id": 1056,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233715],
         "effects": ["Grant 'ファミチキ先輩の情熱接客術' passive"],
@@ -15093,7 +15111,7 @@
     "504233716": {
         "name": "4度目のフェスティバルクポ！",
         "compendium_id": 1057,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [233716],
         "effects": ["Grant '4度目のフェスティバルクポ！' passive"],
@@ -15361,7 +15379,7 @@
     "504234020": {
         "name": "クリスタルの戦士",
         "compendium_id": 1068,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234020],
         "effects": ["Grant 'クリスタルの戦士' passive"],
@@ -15378,7 +15396,7 @@
     "504234021": {
         "name": "女王のシグネット",
         "compendium_id": 1069,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234021],
         "effects": ["Grant '女王のシグネット' passive"],
@@ -15724,7 +15742,7 @@
     "504234310": {
         "name": "聖夜の祝福",
         "compendium_id": 1083,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234310],
         "effects": ["Grant '聖夜の祝福' passive"],
@@ -15741,7 +15759,7 @@
     "504234313": {
         "name": "聖夜の思い出",
         "compendium_id": 1084,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234313],
         "effects": ["Grant '聖夜の思い出' passive"],
@@ -15758,7 +15776,7 @@
     "504234360": {
         "name": "盾の少女の夢",
         "compendium_id": 1085,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234360],
         "effects": ["Grant '盾の少女の夢' passive"],
@@ -15775,7 +15793,7 @@
     "504234362": {
         "name": "双剣の演技法",
         "compendium_id": 1086,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234362],
         "effects": ["Grant '双剣の演技法' passive"],
@@ -16096,7 +16114,7 @@
     "504234650": {
         "name": "白鼠の加護",
         "compendium_id": 1098,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234650],
         "effects": ["Grant '白鼠の加護' passive"],
@@ -16148,7 +16166,7 @@
     "504234682": {
         "name": "勇敢なる騎士団長",
         "compendium_id": 1100,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [234682],
         "effects": ["Grant '勇敢なる騎士団長' passive"],
@@ -16389,7 +16407,7 @@
     "504235082": {
         "name": "天賦の画才",
         "compendium_id": 1111,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235082],
         "effects": ["Grant '天賦の画才' passive"],
@@ -16423,7 +16441,7 @@
     "504235122": {
         "name": "愛の伝道師たち",
         "compendium_id": 1112,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235122],
         "effects": ["Grant '愛の伝道師たち' passive"],
@@ -16440,7 +16458,7 @@
     "504235124": {
         "name": "恋の応援隊",
         "compendium_id": 1113,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235124],
         "effects": ["Grant '恋の応援隊' passive"],
@@ -16736,7 +16754,7 @@
     "504235371": {
         "name": "旅立ちの物語",
         "compendium_id": 1124,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235371],
         "effects": ["Grant '旅立ちの物語' passive"],
@@ -16788,7 +16806,7 @@
     "504235430": {
         "name": "王女への忠誠心",
         "compendium_id": 1126,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235430],
         "effects": ["Grant '王女への忠誠心' passive"],
@@ -16805,7 +16823,7 @@
     "504235432": {
         "name": "アメイジングですわ",
         "compendium_id": 1127,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235432],
         "effects": ["Grant 'アメイジングですわ' passive"],
@@ -16822,7 +16840,7 @@
     "504235437": {
         "name": "アクアンクラッシュ",
         "compendium_id": 1128,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235437],
         "effects": ["Grant 'アクアンクラッシュ' passive"],
@@ -17169,7 +17187,7 @@
     "504235800": {
         "name": "クラスチェンジ【ケヴィン】",
         "compendium_id": 1141,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235800],
         "effects": ["Grant 'クラスチェンジ【ケヴィン】' passive"],
@@ -17186,7 +17204,7 @@
     "504235802": {
         "name": "クラスチェンジ【シャルロット】",
         "compendium_id": 1142,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235802],
         "effects": ["Grant 'クラスチェンジ【シャルロット】' passive"],
@@ -17203,7 +17221,7 @@
     "504235804": {
         "name": "クラスチェンジ【リース】",
         "compendium_id": 1143,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235804],
         "effects": ["Grant 'クラスチェンジ【リース】' passive"],
@@ -17220,7 +17238,7 @@
     "504235870": {
         "name": "黒の刀姫",
         "compendium_id": 1144,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235870],
         "effects": ["Grant '黒の刀姫' passive"],
@@ -17237,7 +17255,7 @@
     "504235873": {
         "name": "オクタトニックブレス",
         "compendium_id": 1146,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235873],
         "effects": ["Grant 'オクタトニックブレス' passive"],
@@ -17254,7 +17272,7 @@
     "504235877": {
         "name": "幻惑の調べ",
         "compendium_id": 1147,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235877],
         "effects": ["Grant '幻惑の調べ' passive"],
@@ -17271,7 +17289,7 @@
     "504235878": {
         "name": "マインドディテクティブ",
         "compendium_id": 1145,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235878],
         "effects": ["Grant 'マインドディテクティブ' passive"],
@@ -17288,7 +17306,7 @@
     "504235950": {
         "name": "セーラの記憶",
         "compendium_id": 1148,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235950],
         "effects": ["Grant 'セーラの記憶' passive"],
@@ -17305,7 +17323,7 @@
     "504235952": {
         "name": "モーグリに愛されし少女",
         "compendium_id": 1149,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235952],
         "effects": ["Grant 'モーグリに愛されし少女' passive"],
@@ -17322,7 +17340,7 @@
     "504235955": {
         "name": "テラ文明の遺物",
         "compendium_id": 1150,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235955],
         "effects": ["Grant 'テラ文明の遺物' passive"],
@@ -17339,7 +17357,7 @@
     "504235956": {
         "name": "召喚士の祈り",
         "compendium_id": 1151,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [235956],
         "effects": ["Grant '召喚士の祈り' passive"],
@@ -18679,7 +18697,7 @@
     "504237549": {
         "name": "オートバーサク",
         "compendium_id": 1197,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [237549],
         "effects": ["Grant 'オートバーサク' passive"],
@@ -18696,7 +18714,7 @@
     "504237710": {
         "name": "火氷防衛陣",
         "compendium_id": 1198,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [237710],
         "effects": ["Grant '火氷防衛陣' passive"],
@@ -18713,7 +18731,7 @@
     "504237711": {
         "name": "風土防衛陣",
         "compendium_id": 1199,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [237711],
         "effects": ["Grant '風土防衛陣' passive"],
@@ -18730,7 +18748,7 @@
     "504237712": {
         "name": "雷水防衛陣",
         "compendium_id": 1200,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [237712],
         "effects": ["Grant '雷水防衛陣' passive"],
@@ -18747,7 +18765,7 @@
     "504237713": {
         "name": "光闇防衛陣",
         "compendium_id": 1201,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [237713],
         "effects": ["Grant '光闇防衛陣' passive"],
@@ -19547,7 +19565,7 @@
     "504238770": {
         "name": "バースト＆ブースト",
         "compendium_id": 1229,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238770],
         "effects": ["Grant 'バースト＆ブースト' passive"],
@@ -19564,7 +19582,7 @@
     "504238771": {
         "name": "祓魔の結界",
         "compendium_id": 1230,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238771],
         "effects": ["Grant '祓魔の結界' passive"],
@@ -19581,7 +19599,7 @@
     "504238772": {
         "name": "プリマ・マテリア",
         "compendium_id": 1231,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238772],
         "effects": ["Grant 'プリマ・マテリア' passive"],
@@ -19598,7 +19616,7 @@
     "504238773": {
         "name": "うらみつらみ",
         "compendium_id": 1232,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238773],
         "effects": ["Grant 'うらみつらみ' passive"],
@@ -19615,7 +19633,7 @@
     "504238774": {
         "name": "トーンクラスター",
         "compendium_id": 1233,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238774],
         "effects": ["Grant 'トーンクラスター' passive"],
@@ -19632,7 +19650,7 @@
     "504238775": {
         "name": "物語の英雄",
         "compendium_id": 1234,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238775],
         "effects": ["Grant '物語の英雄' passive"],
@@ -19649,7 +19667,7 @@
     "504238776": {
         "name": "正義の拳",
         "compendium_id": 1235,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238776],
         "effects": ["Grant '正義の拳' passive"],
@@ -19666,7 +19684,7 @@
     "504238777": {
         "name": "一意究道",
         "compendium_id": 1236,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238777],
         "effects": ["Grant '一意究道' passive"],
@@ -19683,7 +19701,7 @@
     "504238778": {
         "name": "魔心の拳",
         "compendium_id": 1237,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238778],
         "effects": ["Grant '魔心の拳' passive"],
@@ -19700,7 +19718,7 @@
     "504238779": {
         "name": "テンプテーションドライブ",
         "compendium_id": 1238,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238779],
         "effects": ["Grant 'テンプテーションドライブ' passive"],
@@ -19717,7 +19735,7 @@
     "504238780": {
         "name": "ブレイドアーツ",
         "compendium_id": 1239,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238780],
         "effects": ["Grant 'ブレイドアーツ' passive"],
@@ -19734,7 +19752,7 @@
     "504238781": {
         "name": "魔道の秘奥",
         "compendium_id": 1240,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238781],
         "effects": ["Grant '魔道の秘奥' passive"],
@@ -19751,7 +19769,7 @@
     "504238782": {
         "name": "エターナルヴィガー",
         "compendium_id": 1241,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238782],
         "effects": ["Grant 'エターナルヴィガー' passive"],
@@ -19768,7 +19786,7 @@
     "504238783": {
         "name": "風闇の理力",
         "compendium_id": 1242,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238783],
         "effects": ["Grant '風闇の理力' passive"],
@@ -19785,7 +19803,7 @@
     "504238784": {
         "name": "護身の妙術",
         "compendium_id": 1243,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238784],
         "effects": ["Grant '護身の妙術' passive"],
@@ -19802,7 +19820,7 @@
     "504238785": {
         "name": "剣士の間合い",
         "compendium_id": 1244,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238785],
         "effects": ["Grant '剣士の間合い' passive"],
@@ -19819,7 +19837,7 @@
     "504238786": {
         "name": "オールスウィープ",
         "compendium_id": 1245,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238786],
         "effects": ["Grant 'オールスウィープ' ability"],
@@ -19836,7 +19854,7 @@
     "504238787": {
         "name": "身心一如",
         "compendium_id": 1246,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238787],
         "effects": ["Grant '身心一如' passive"],
@@ -19853,7 +19871,7 @@
     "504238788": {
         "name": "ソーサリーフォース",
         "compendium_id": 1247,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238788],
         "effects": ["Grant 'ソーサリーフォース' passive"],
@@ -19870,7 +19888,7 @@
     "504238789": {
         "name": "セイクリッドオーラ",
         "compendium_id": 1248,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238789],
         "effects": ["Grant 'セイクリッドオーラ' passive"],
@@ -19992,7 +20010,7 @@
     "504238993": {
         "name": "ロッドと鞭に秘められた魔力",
         "compendium_id": 1252,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238993],
         "effects": ["Grant 'ロッドと鞭に秘められた魔力' passive"],
@@ -20009,7 +20027,7 @@
     "504238994": {
         "name": "剣と奏のユニゾン",
         "compendium_id": 1253,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [238994],
         "effects": ["Grant '剣と奏のユニゾン' passive"],
@@ -20339,7 +20357,7 @@
     "504239270": {
         "name": "グリムロードの知恵",
         "compendium_id": 1262,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [239270],
         "effects": ["Grant 'グリムロードの知恵' passive"],
@@ -20356,7 +20374,7 @@
     "504239272": {
         "name": "軍師の奇術",
         "compendium_id": 1263,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [239272],
         "effects": ["Grant '軍師の奇術' passive"],
@@ -20845,7 +20863,7 @@
     "504240090": {
         "name": "シノビの精神",
         "compendium_id": 1284,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240090],
         "effects": ["Grant 'シノビの精神' passive"],
@@ -20862,7 +20880,7 @@
     "504240092": {
         "name": "青き輝き",
         "compendium_id": 1283,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240092],
         "effects": ["Grant '青き輝き' passive"],
@@ -21034,43 +21052,79 @@
         }
     },
     "504240423": {
-        "name": "生きることの大切さ",
+        "name": "Importance of Life",
         "compendium_id": 1290,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [240423],
-        "effects": ["Grant '生きることの大切さ' passive"],
-        "unique": false,
+        "effects": ["Grant 'Importance of Life' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_6000200.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Importance of Life", "生之可貴", "삶의 소중함", "Importance de la vie", "Des Lebens Kostbarkeit", "El valor de la vida", "Pentingnya Hidup", "ความสำคัญ\u001aของ\u001aชีวิต\u001a"],
+            "desc_short": [
+                "Boost equipment MAG by 75% when a single rod is equipped in one or both hands (Not stackable)",
+                "雙手只裝備1把魔棒時武具魔力提升75%[無法重複裝備]",
+                "한손 또는 양손에 홀장 1개 장착 시 장비의 마력 75% 상승 (중복 장착 불가)",
+                "Augmente la MAGIE de l'équipement de 75 % quand un seul sceptre est équipé dans une ou les deux mains",
+                "Erhöht Ausrüstung-MAG um 75%, wenn eine einzelne Rute in einer oder beiden Händen ausgerüstet ist (nicht stapelbar).",
+                "Aumenta la MAG del equipo un 75% al llevar una sola vara en una o ambas manos (no acumulable)",
+                "Meningkatkan MAG perlengkapan sebanyak 75% ketika 1 tongkat digunakan dengan satu tangan atau kedua tangan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts equipment MAG by 75% when a single rod is equipped in one or both hands. Not stackable.",
+                "雙手只裝備1把魔棒時武具魔力提升75%。[無法重複裝備]",
+                "한손 또는 양손에 홀장 1개 장착 시 장비의 마력이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente la MAGIE de l'équipement de 75 % quand un seul sceptre est équipé dans une ou les deux mains. Non cumulable.",
+                "Erhöht Ausrüstung-MAG um 75%, wenn eine einzelne Rute in einer oder beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta la MAG del equipo un 75% al llevar una sola vara en una o ambas manos. No acumulable.",
+                "Meningkatkan MAG perlengkapan sebanyak 75% ketika 1 tongkat digunakan dengan satu tangan atau kedua tangan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aคทา\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504240424": {
-        "name": "守るための剣技",
+        "name": "Protective Sword Art",
         "compendium_id": 1291,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [240424],
-        "effects": ["Grant '守るための剣技' passive"],
-        "unique": false,
+        "effects": ["Grant 'Protective Sword Art' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_6000200.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Protective Sword Art", "為守護而生的劍技", "지키기 위한 검술", "Escrime protectrice", "Schützende Schwertkunst", "Esgrima protectora", "Teknik Pedang Perlindungan", "วิชา\u001aดาบ\u001aปกป้อง\u001aคน\u001a"],
+            "desc_short": [
+                "Boost equipment DEF by 100% when a single large sword is equipped in one or both hands (Not stackable)",
+                "雙手只裝備1把大劍時武具防禦提升100%[無法重複裝備]",
+                "한손 또는 양손에 대검 1개 장착 시 장비의 방어력 100% 상승 (중복 장착 불가)",
+                "Augmente la DEF de l'équipement de 100 % quand une seule épée longue est équipée dans une ou les deux mains (non cumulable)",
+                "Erhöht Ausrüstung-ABW um 100%, wenn ein einzelnes Großschwert in einer oder beiden Händen ausgerüstet ist (nicht stapelbar).",
+                "Aumenta la DEF del equipo un 100% al llevar una sola espada grande en una o ambas manos (no acumulable)",
+                "Meningkatkan DEF perlengkapan sebanyak 100% ketika 1 pedang besar digunakan dengan satu tangan atau kedua tangan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aDEF\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a100% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts equipment DEF by 100% when a single large sword is equipped in one or both hands. Not stackable.",
+                "雙手只裝備1把大劍時武具防禦提升100%。[無法重複裝備]",
+                "한손 또는 양손에 대검 1개 장착 시 장비의 방어력이 100% 상승합니다. (중복 장착 불가)",
+                "Augmente la DEF de l'équipement de 100 % quand une seule épée longue est équipée dans une ou les deux mains. Non cumulable",
+                "Erhöht Ausrüstung-ABW um 100%, wenn ein einzelnes Großschwert in einer oder beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta la DEF del equipo un 100% al llevar una sola espada grande en una o ambas manos. No acumulable.",
+                "Meningkatkan DEF perlengkapan sebanyak 100% ketika 1 pedang besar digunakan dengan satu tangan atau kedua tangan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aDEF\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a100% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504240570": {
         "name": "厳格なリーダー",
         "compendium_id": 1292,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240570],
         "effects": ["Grant '厳格なリーダー' passive"],
@@ -21087,7 +21141,7 @@
     "504240571": {
         "name": "グラシャラボラスを継いだ男",
         "compendium_id": 1293,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240571],
         "effects": ["Grant 'グラシャラボラスを継いだ男' passive"],
@@ -21104,7 +21158,7 @@
     "504240573": {
         "name": "リリーバーソング",
         "compendium_id": 1294,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [204000603, 206000703, 211001004, 100017105, 100024705, 100010405, 100028305, 100028404, 256000101, 100030805, 100030705, 100030904, 100034205, 100003903, 249000105, 100007404, 100007505, 201000302, 253000105],
         "skills": [240573],
         "effects": ["Grant 'リリーバーソング' ability"],
@@ -21121,7 +21175,7 @@
     "504240574": {
         "name": "赤の名を持つ怪盗",
         "compendium_id": 1295,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240574],
         "effects": ["Grant '赤の名を持つ怪盗' passive"],
@@ -21138,7 +21192,7 @@
     "504240579": {
         "name": "白き国の赤き物語",
         "compendium_id": 1296,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240579],
         "effects": ["Grant '白き国の赤き物語' passive"],
@@ -21155,7 +21209,7 @@
     "504240721": {
         "name": "闇夜に潜む義賊",
         "compendium_id": 1297,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240721],
         "effects": ["Grant '闇夜に潜む義賊' passive"],
@@ -21172,7 +21226,7 @@
     "504240727": {
         "name": "フェアリーの囁き",
         "compendium_id": 1298,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
         "skills": [240727],
         "effects": ["Grant 'フェアリーの囁き' passive"],
@@ -21189,7 +21243,7 @@
     "504240728": {
         "name": "フェアリーの願い",
         "compendium_id": 1299,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
         "skills": [240728],
         "effects": ["Grant 'フェアリーの願い' passive"],
@@ -21206,7 +21260,7 @@
     "504240729": {
         "name": "フェアリーの祈り",
         "compendium_id": 1300,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
         "skills": [240729],
         "effects": ["Grant 'フェアリーの祈り' passive"],
@@ -21223,7 +21277,7 @@
     "504240730": {
         "name": "フェアリーの想い",
         "compendium_id": 1301,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
         "skills": [240730],
         "effects": ["Grant 'フェアリーの想い' passive"],
@@ -21240,7 +21294,7 @@
     "504240731": {
         "name": "フェアリーの導き",
         "compendium_id": 1302,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": [312001007, 312001017, 312000605, 312000627, 312000505, 312000527, 312000205, 312000805, 312000905, 312000705, 312000305, 312000105, 312000404],
         "skills": [240731],
         "effects": ["Grant 'フェアリーの導き' passive"],
@@ -21255,26 +21309,44 @@
         }
     },
     "504240733": {
-        "name": "鳥喰らいの魔力",
+        "name": "Avian Eater Magic",
         "compendium_id": 1304,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [240733],
-        "effects": ["Grant '鳥喰らいの魔力' passive"],
-        "unique": false,
+        "effects": ["Grant 'Avian Eater Magic' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Avian Eater Magic", "食鳥者的魔力", "조류 포식자의 마력", "Magie anti-oiseaux", "Magie des Vogelfressers", "Magia comepájaros", "Magic Pemakan Makhluk Bersayap", "เวทย์\u001aเขมือบ\u001aสัตว์ปีก\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and boost magic damage against avian monsters by 75% (Not stackable)",
+                "提高40%攻擊魔力+魔法攻擊時提高75%對鳥系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+마법 공격 시 조류형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts magiques infligés aux oiseaux de 75 % (non cumulable)",
+                "Erhöht ANG sowie MAG um 40% und erhöht magischen Schaden gegen Vogelmonster um 75% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño mágico contra aves un 75% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage magic terhadap jenis makhluk bersayap sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40% and boosts magic damage against avian monsters by 75%. Not stackable.",
+                "提高40%攻擊魔力，以及魔法攻擊時提高75%對鳥系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 마법 공격 시 조류형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 %, et augmente les dégâts magiques infligés aux oiseaux de 75 %. Non cumulable.",
+                "Erhöht ANG sowie MAG um 40% und erhöht magischen Schaden gegen Vogelmonster um 75%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y el daño mágico contra aves un 75%. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage magic terhadap jenis makhluk bersayap sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504240840": {
         "name": "攻めに転じた騎士",
         "compendium_id": 1305,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240840],
         "effects": ["Grant '攻めに転じた騎士' passive"],
@@ -21291,7 +21363,7 @@
     "504240845": {
         "name": "永遠の独裁を求める者",
         "compendium_id": 1306,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240845],
         "effects": ["Grant '永遠の独裁を求める者' passive"],

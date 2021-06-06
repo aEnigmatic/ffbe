@@ -38,6 +38,43 @@
             "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
+    "20170001": {
+        "name": "Comet",
+        "skill_id_old": 20170,
+        "skill_id_new": 70461,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000600": 10,
+                "270000700": 8,
+                "270000800": 3
+            }
+        },
+        "units": [209002907, 209002917],
+        "strings": {
+            "names": ["Comet", "彗星", "코멧", "Comète", "Komet", "Cometa", "Comet", "Comet\u001a"],
+            "description": ["1500%", "1500%", "1500%", "1500 %", "1500%", "1500%", "1500%", "\u001a1500%"]
+        }
+    },
+    "20170002": {
+        "name": "Comet",
+        "skill_id_old": 70461,
+        "skill_id_new": 70462,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 12,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [209002907, 209002917],
+        "strings": {
+            "names": ["Comet", "彗星", "코멧", "Comète", "Komet", "Cometa", "Comet", "Comet\u001a"],
+            "description": ["2000%", "2000%", "2000%", "2000 %", "2000%", "2000%", "2000%", "\u001a2000%"]
+        }
+    },
     "100050001": {
         "name": "MP +20%",
         "skill_id_old": 100050,
@@ -58474,7 +58511,7 @@
         }
     },
     "300001219": {
-        "name": null,
+        "name": "Focus (FFIX)",
         "skill_id_old": 240500,
         "skill_id_new": 240501,
         "cost": {
@@ -58486,12 +58523,12 @@
         },
         "units": [209002907, 209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Focus (FFIX)", "凝氣(FFIX)", "모으기(FFIX)", "Stock (FFIX)", "Sammeln (FFIX)", "Acumular (FFIX)", "Fokus (FFIX)", "สั่งสม\u001aพลัง\u001a \u001a(\u001aFFIX\u001a)\u001a"],
+            "description": ["350%", "350%", "350%", "350 %", "350%", "350%", "350%", "\u001a350%"]
         }
     },
     "300001220": {
-        "name": null,
+        "name": "Focus (FFIX)",
         "skill_id_old": 240501,
         "skill_id_new": 240502,
         "cost": {
@@ -58504,12 +58541,12 @@
         },
         "units": [209002907, 209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Focus (FFIX)", "凝氣(FFIX)", "모으기(FFIX)", "Stock (FFIX)", "Sammeln (FFIX)", "Acumular (FFIX)", "Fokus (FFIX)", "สั่งสม\u001aพลัง\u001a \u001a(\u001aFFIX\u001a)\u001a"],
+            "description": ["400%", "400%", "400%", "400 %", "400%", "400%", "400%", "\u001a400%"]
         }
     },
     "300001221": {
-        "name": null,
+        "name": "Focus (FFIX)",
         "skill_id_old": 240502,
         "skill_id_new": 240503,
         "cost": {
@@ -58523,12 +58560,12 @@
         },
         "units": [209002907, 209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Focus (FFIX)", "凝氣(FFIX)", "모으기(FFIX)", "Stock (FFIX)", "Sammeln (FFIX)", "Acumular (FFIX)", "Fokus (FFIX)", "สั่งสม\u001aพลัง\u001a \u001a(\u001aFFIX\u001a)\u001a"],
+            "description": ["450%", "450%", "450%", "450 %", "450%", "450%", "450%", "\u001a450%"]
         }
     },
     "300001222": {
-        "name": null,
+        "name": "Focus (FFIX)",
         "skill_id_old": 240503,
         "skill_id_new": 240504,
         "cost": {
@@ -58542,12 +58579,12 @@
         },
         "units": [209002907, 209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Focus (FFIX)", "凝氣(FFIX)", "모으기(FFIX)", "Stock (FFIX)", "Sammeln (FFIX)", "Acumular (FFIX)", "Fokus (FFIX)", "สั่งสม\u001aพลัง\u001a \u001a(\u001aFFIX\u001a)\u001a"],
+            "description": ["500%", "500%", "500%", "500 %", "500%", "500%", "500%", "\u001a500%"]
         }
     },
     "300001223": {
-        "name": null,
+        "name": "Three-Fold Firaga Blade Infusion",
         "skill_id_old": 240507,
         "skill_id_new": 240508,
         "cost": {
@@ -58559,12 +58596,21 @@
         },
         "units": [209002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Three-Fold Firaga Blade Infusion",
+                "3連大火焰劍賦予",
+                "3연 파이가 검 부여",
+                "Sort trio-lame (Brasier X)",
+                "Dreifache Feuga-Klingeninfusion",
+                "Sable M: Piro++ triple",
+                "Three-Fold Firaga Blade Infusion",
+                "ผนวก\u001aดาบ\u001a \u001aFiraga\u001a \u001aสาม\u001aต่อเนื่อง\u001a"
+            ],
+            "description": ["18%", "18%", "18%", "18 %", "18%", "18%", "18%", "\u001a18%"]
         }
     },
     "300001224": {
-        "name": null,
+        "name": "Three-Fold Firaga Blade Infusion",
         "skill_id_old": 240508,
         "skill_id_new": 240509,
         "cost": {
@@ -58577,12 +58623,21 @@
         },
         "units": [209002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Three-Fold Firaga Blade Infusion",
+                "3連大火焰劍賦予",
+                "3연 파이가 검 부여",
+                "Sort trio-lame (Brasier X)",
+                "Dreifache Feuga-Klingeninfusion",
+                "Sable M: Piro++ triple",
+                "Three-Fold Firaga Blade Infusion",
+                "ผนวก\u001aดาบ\u001a \u001aFiraga\u001a \u001aสาม\u001aต่อเนื่อง\u001a"
+            ],
+            "description": ["21%", "21%", "21%", "21 %", "21%", "21%", "21%", "\u001a21%"]
         }
     },
     "300001225": {
-        "name": null,
+        "name": "Three-Fold Firaga Blade Infusion",
         "skill_id_old": 240509,
         "skill_id_new": 240510,
         "cost": {
@@ -58596,12 +58651,21 @@
         },
         "units": [209002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Three-Fold Firaga Blade Infusion",
+                "3連大火焰劍賦予",
+                "3연 파이가 검 부여",
+                "Sort trio-lame (Brasier X)",
+                "Dreifache Feuga-Klingeninfusion",
+                "Sable M: Piro++ triple",
+                "Three-Fold Firaga Blade Infusion",
+                "ผนวก\u001aดาบ\u001a \u001aFiraga\u001a \u001aสาม\u001aต่อเนื่อง\u001a"
+            ],
+            "description": ["24%", "24%", "24%", "24 %", "24%", "24%", "24%", "\u001a24%"]
         }
     },
     "300001226": {
-        "name": null,
+        "name": "Three-Fold Firaga Blade Infusion",
         "skill_id_old": 240510,
         "skill_id_new": 240511,
         "cost": {
@@ -58615,12 +58679,21 @@
         },
         "units": [209002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Three-Fold Firaga Blade Infusion",
+                "3連大火焰劍賦予",
+                "3연 파이가 검 부여",
+                "Sort trio-lame (Brasier X)",
+                "Dreifache Feuga-Klingeninfusion",
+                "Sable M: Piro++ triple",
+                "Three-Fold Firaga Blade Infusion",
+                "ผนวก\u001aดาบ\u001a \u001aFiraga\u001a \u001aสาม\u001aต่อเนื่อง\u001a"
+            ],
+            "description": ["30%", "30%", "30%", "30 %", "30%", "30%", "30%", "\u001a30%"]
         }
     },
     "300001227": {
-        "name": null,
+        "name": "Where the Heart Lies",
         "skill_id_old": 240522,
         "skill_id_new": 240523,
         "cost": {
@@ -58632,12 +58705,12 @@
         },
         "units": [209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Where the Heart Lies", "心之所在", "마음 있는 곳", "Le cœur a ses raisons...", "Heimat des Herzens", "Las razones del corazón", "Tempat Hati Berada", "ที่\u001aหัวใจ\u001aสถิต\u001aอยู่\u001a"],
+            "description": ["375", "375", "375", "375", "375", "375", "375", "\u001a375\u001a"]
         }
     },
     "300001228": {
-        "name": null,
+        "name": "Where the Heart Lies",
         "skill_id_old": 240523,
         "skill_id_new": 240524,
         "cost": {
@@ -58650,12 +58723,12 @@
         },
         "units": [209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Where the Heart Lies", "心之所在", "마음 있는 곳", "Le cœur a ses raisons...", "Heimat des Herzens", "Las razones del corazón", "Tempat Hati Berada", "ที่\u001aหัวใจ\u001aสถิต\u001aอยู่\u001a"],
+            "description": ["450", "450", "450", "450", "450", "450", "450", "\u001a450\u001a"]
         }
     },
     "300001229": {
-        "name": null,
+        "name": "Where the Heart Lies",
         "skill_id_old": 240524,
         "skill_id_new": 240525,
         "cost": {
@@ -58669,12 +58742,12 @@
         },
         "units": [209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Where the Heart Lies", "心之所在", "마음 있는 곳", "Le cœur a ses raisons...", "Heimat des Herzens", "Las razones del corazón", "Tempat Hati Berada", "ที่\u001aหัวใจ\u001aสถิต\u001aอยู่\u001a"],
+            "description": ["525", "525", "525", "525", "525", "525", "525", "\u001a525\u001a"]
         }
     },
     "300001230": {
-        "name": null,
+        "name": "Where the Heart Lies",
         "skill_id_old": 240525,
         "skill_id_new": 240526,
         "cost": {
@@ -58688,8 +58761,8 @@
         },
         "units": [209002917],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Where the Heart Lies", "心之所在", "마음 있는 곳", "Le cœur a ses raisons...", "Heimat des Herzens", "Las razones del corazón", "Tempat Hati Berada", "ที่\u001aหัวใจ\u001aสถิต\u001aอยู่\u001a"],
+            "description": ["600", "600", "600", "600", "600", "600", "600", "\u001a600\u001a"]
         }
     },
     "300001231": {
