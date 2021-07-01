@@ -1150,7 +1150,7 @@
         "price_sell": 500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["HP +20%", "HP+20%", "HP+20%", "PV +20%", "LP +20%", "VIT +20%", "HP +20%", "HP\u001a \u001a+\u001a20%"],
+            "names": ["HP +20%", "HP+20%", "HP+20%", "PV +20%", "LP + 20 %", "VIT +20%", "HP +20%", "HP\u001a \u001a+\u001a20%"],
             "desc_short": ["Boost HP by 20%", "提高20%HP", "HP 20% 상승", "Augmente les PV de 20%", "Erhöht LP um 20%.", "Aumenta la VIT un 20%", "Meningkatkan HP sebanyak 20%", "เพิ่มค่า\u001a \u001aHP\u001a \u001a20%"],
             "desc_long": ["Boosts HP by 20%.", "提高20%HP。", "HP가 20% 상승합니다.", "Augmente les PV de 20%", "Erhöht LP um 20%.", "Aumenta la VIT un 20%.", "Meningkatkan HP sebanyak 20%.", "เพิ่มค่า\u001a \u001aHP\u001a \u001a20%"]
         }
@@ -1303,7 +1303,7 @@
         "price_sell": 500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["MAG +20%", "魔力+20%", "마력+20%", "MAGIE +20%", "MAG +20 %", "MAG +20%", "MAG +20%", "MAG\u001a \u001a+\u001a20%"],
+            "names": ["MAG +20%", "魔力+20%", "마력+20%", "MAGIE +20%", "MAG + 20 %", "MAG +20%", "MAG +20%", "MAG\u001a \u001a+\u001a20%"],
             "desc_short": ["Boost MAG by 20%", "提高20%魔力", "마력 20% 상승", "Augmente la MAGIE de 20%", "Erhöht MAG um 20 %", "Aumenta la MAG un 20%.", "Meningkatkan MAG sebanyak 20%", "เพิ่มค่า\u001a \u001aMAG\u001a \u001a20%"],
             "desc_long": ["Boosts MAG by 20%.", "提高20%魔力。", "마력이 20% 상승합니다.", "Augmente la MAGIE de 20%", "Erhöht MAG um 20%.", "Aumenta la MAG un 20%.", "Meningkatkan MAG sebanyak 20%.", "เพิ่มค่า\u001a \u001aMAG\u001a \u001a20%"]
         }
@@ -26096,6 +26096,41 @@
                 "Aumenta el ATQ del equipo un 100% al llevar una sola arma en una o ambas manos, la barra de EL se rellena un 100% más rápido, y activa Moguri caballerosa. No acumulable.",
                 "Meningkatkan ATK perlengkapan sebanyak 100% ketika 1 senjata digunakan dengan satu tangan atau kedua tangan, meningkatkan kecepatan pengisian bar LB sebanyak 100%, dan mengaktifkan Kesatria Moogle. Tidak dapat ditumpuk.",
                 "เพิ่มค่า\u001a \u001aATK\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a100% เมื่อติดตั้งอาวุธ 1 ชิ้นในมือเดียวหรือสองมือ + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a100% + ใช้งาน Moogle\u001a \u001aจอม\u001aอัศวิน\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "1500000161": {
+        "name": "Refined Movement",
+        "compendium_id": 90162,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915145],
+        "effects": ["Grant 'Refined Movement' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": ["Refined Movement", "優美步伐", "정제된 움직임", "Mouvement raffiné", "Elegante Bewegung", "Movimiento refinado", "Refined Movement", "ท่วงท่า\u001aงาม\u001aชดช้อย\u001a"],
+            "desc_short": [
+                "Boost HP and ATK by 40% and boost LB gauge fill rate by 50% (Not stackable)",
+                "提高40%HP攻擊+提高50%極限技石對極限技槽的增加量[無法重複裝備]",
+                "HP와 공격력 40% 상승+LB 게이지 효율 50% 상승 (중복 장착 불가)",
+                "Augmente les PV et l'ATT de 40 % et augmente le taux de remplissage de la jauge de limite de 50 % (non cumulable)",
+                "Erhöht LP sowie ANG um 40% und Limitmeter füllt sich um 50% schneller (nicht stapelbar).",
+                "Aumenta la VIT y el ATQ un 40% y la barra de EL se rellena un 50% más rápido (no acumulable)",
+                "Meningkatkan HP dan ATK sebanyak 40%, serta meningkatkan kecepatan pengisian bar LB sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a40% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts HP and ATK by 40% and boosts LB gauge fill rate by 50%. Not stackable.",
+                "提高40%HP攻擊，以及提高50%極限技石對極限技槽的增加量。[無法重複裝備]",
+                "HP와 공격력이 40% 상승하고, LB 게이지 효율이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV et l'ATT de 40 % et augmente le taux de remplissage de la jauge de limite de 50 %. Non cumulable.",
+                "Erhöht LP sowie ANG um 40% und Limitmeter füllt sich um 50% schneller. Nicht stapelbar.",
+                "Aumenta la VIT y el ATQ un 40% y la barra de EL se rellena un 50% más rápido. No acumulable.",
+                "Meningkatkan HP dan ATK sebanyak 40%, serta meningkatkan kecepatan pengisian bar LB sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a40% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
         }
     }
