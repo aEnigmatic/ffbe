@@ -3033,7 +3033,7 @@
         }
     },
     "31001": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Unit Intro Quest", "兵員介紹任務", "유닛 소개 퀘스트", "Quête d'introduction d'unité", "Einheiten-Auftrag", "Misión introductoria de unidad", "Quest Pengenalan Unit", "เค\u001aวส\u001aแนะนำตัว\u001aยู\u001aนิ\u001aท\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "310",
@@ -3042,7 +3042,8 @@
         "missions": {
             "3100101": null,
             "3100102": null,
-            "9650144": "Lasswell -Neo Vision-"
+            "9650144": "Lasswell -Neo Vision-",
+            "9650158": "Guardian Blade Charlotte"
         }
     },
     "31101": {
@@ -5589,7 +5590,7 @@
         }
     },
     "72507": {
-        "names": ["When Fates Cross", "交錯的命運", "교차하는 운명", "Destins croisés", "Wenn Schicksale sich kreuzen", "Cuando los destinos se cruzan", "Persimpangan Takdir", "จุดตัด\u001aชะตากรรม\u001a"],
+        "names": ["When Fates Cross", "交錯的命運", "교차하는 운명", "Destins croisés", "Wenn Schicksale sich kreuzen", "Cuando los destinos se cruzan", "Pertemuan Takdir", "จุดตัด\u001aชะตากรรม\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "725",
@@ -8203,7 +8204,7 @@
         }
     },
     "78005": {
-        "names": ["Where Destinies Intersect", "交錯的命運", "교차하는 운명", "La croisée des destinées", "Wenn Schicksale sich schneiden", "Donde se cruzan los destinos", "Persimpangan Takdir", "จุดตัด\u001aชะตากรรม\u001a"],
+        "names": ["Where Destinies Intersect", "交錯的命運", "교차하는 운명", "La croisée des destinées", "Wenn Schicksale sich schneiden", "Donde se cruzan los destinos", "Pertemuan Takdir", "จุดตัด\u001aชะตากรรม\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "780",
@@ -17796,13 +17797,7 @@
         "region_id": "21",
         "subregion_id": "933",
         "position": [0, 0],
-        "icon": "global_spd_bn_list_00033.png",
-        "missions": {
-            "9003301": "The Son of Medici - INT",
-            "9003302": "The Son of Medici - ADV",
-            "9003303": "The Son of Medici - PRO",
-            "9003304": "The Son of Medici - ELT"
-        }
+        "icon": "global_spd_bn_list_00033.png"
     },
     "90035": {
         "names": ["The Torturous Trio", "苦痛三重奏", "고통의 삼중주", "Le trio démoniaque", "Das Terror-Trio", "El trío tortuoso", "Sang Trio Peneror", "สาม\u001aจอม\u001aทรมาน\u001a"],
@@ -19772,62 +19767,18 @@
         }
     },
     "93301": {
+        "names": ["Chamber of Challenges", "挑戰之間", "도전의 틈", "Chambre des défis", "Kammer der Herausforderungen", "Cámara de los Desafíos", "Ruang Tantangan", "ห้องโถง\u001aแห่ง\u001aการ\u001aท้าทาย\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "933",
+        "position": [0, 0],
+        "icon": "spd_bn_top_00004.png",
         "missions": {
-            "9330264": null,
-            "9330265": null,
-            "9330266": null,
-            "9330267": null,
-            "9330268": null,
-            "9330270": null,
-            "9330271": null,
-            "9330272": null,
-            "9330273": null,
-            "9330274": null,
-            "9330276": null,
-            "9330277": null,
-            "9330278": null,
-            "9330279": null,
-            "9330280": null,
-            "9330282": null,
-            "9330283": null,
-            "9330284": null,
-            "9330285": null,
-            "9330286": null,
-            "9330288": null,
-            "9330289": null,
-            "9330290": null,
-            "9330291": null,
-            "9330292": null,
-            "9330294": null,
-            "9330295": null,
-            "9330296": null,
-            "9330297": null,
-            "9330298": null,
-            "9330300": null,
-            "9330301": null,
-            "9330302": null,
-            "9330303": null,
-            "9330304": null,
-            "9330306": null,
-            "9330307": null,
-            "9330308": null,
-            "9330309": null,
-            "9330310": null,
-            "9330312": null,
-            "9330313": null,
-            "9330314": null,
-            "9330315": null,
-            "9330316": null,
-            "9330318": null,
-            "9330319": null,
-            "9330320": null,
-            "9330321": null,
-            "9330322": null,
-            "9330324": null,
-            "9330325": null,
-            "9330326": null,
-            "9330327": null,
-            "9330328": null
+            "9330246": "Magic Earth Challenge - INT",
+            "9330247": "Magic Earth Challenge - ADV",
+            "9330248": "Magic Earth Challenge - PRO",
+            "9330249": "Magic Earth Challenge - ELT",
+            "9330250": "Magic Earth Challenge - LGD"
         }
     },
     "93401": {
@@ -30775,7 +30726,7 @@
             "Challenge of the Brave: Guardians of the Planet",
             "心技的試煉 ～行星的守護者～",
             "용기의 시련: 별을 지키는 자들",
-            "Épreuve des Braves : Les gardiens de la planète",
+            "Épreuve des braves : Les gardiens de la planète",
             "Prüfung des Geistes: Hüter des Planeten",
             "Desafío de los valientes: Guardianes del planeta",
             "Para Pelindung Planet",
@@ -31370,7 +31321,7 @@
             "Challenge of the Brave: Guardians of the Planet II",
             "心技的試煉～行星的守護者再臨～",
             "용기의 시련: 별을 지키는 자들 II",
-            "Épreuve des Braves : Les gardiens de la planète II",
+            "Épreuve des braves : Les gardiens de la planète II",
             "Prüfung des Geistes: Hüter des Planeten II",
             "Desafío de los valientes: Guardianes del planeta II",
             "Para Pelindung Planet II",
@@ -31391,7 +31342,7 @@
             "Challenge of the Brave: Piercing Conviction",
             "心技的試煉～貫徹信念的英雄們～",
             "용기의 시련: 신념을 관철하는 영웅들",
-            "Épreuve des Braves : Conviction inébranlable",
+            "Épreuve des braves : Conviction inébranlable",
             "Prüfung des Geistes: Bestechende Überzeugung",
             "Desafío de los valientes: Convicción inquebrantable",
             "Keyakinan Tak Tergoyahkan",
@@ -31499,7 +31450,7 @@
             "Challenge of the Brave: Masters of Magic",
             "心技的試煉～窮盡魔道的賢者們～",
             "용기의 시련: 마도를 탐구하는 현자들",
-            "Épreuve des Braves : Les maîtres de la magie",
+            "Épreuve des braves : Les maîtres de la magie",
             "Prüfung des Geistes: Meister der Magie",
             "Desafío de los valientes: Maestros de la magia",
             "Penguasa Segala Magic",
@@ -31685,7 +31636,7 @@
             "Challenge of the Brave: Those Who Govern Freedom and Duty",
             "心技的試煉～司掌自由與義務的人們～",
             "용기의 시련: 자유와 의무를 관장하는 자들",
-            "Épreuve des Braves : Les régents de la liberté et du devoir",
+            "Épreuve des braves : Les régents de la liberté et du devoir",
             "Prüfung des Geistes: Verwalter der Freiheit und der Pflicht",
             "Desafío de los valientes: Dirigentes de la libertad y el deber",
             "Pengendali Kebebasan dan Kewajiban",
@@ -32118,7 +32069,7 @@
             "Challenge of the Brave: Pillars of Strength",
             "心技的試煉～守護同伴的少女們～",
             "용기의 시련: 서로의 버팀목이 되어주는 소녀들",
-            "Épreuve des Braves : Les piliers de la force",
+            "Épreuve des braves : Les piliers de la force",
             "Prüfung des Geistes: Säulen der Stärke",
             "Desafío de los valientes: Pilares de fuerza",
             "Pilar Kekuatan",
@@ -32696,7 +32647,7 @@
             "Challenge of the Brave: Bonds of the Heart",
             "心技的試煉～以愛為生的人們～",
             "용기의 시련: 사랑을 위해 살아가는 자들",
-            "Épreuve des Braves : Les liens du cœur",
+            "Épreuve des braves : Les liens du cœur",
             "Prüfung des Geistes: Verbunden im Herzen",
             "Desafío de los valientes: Vínculos del corazón",
             "Ikatan Hati",
@@ -32807,7 +32758,7 @@
             "Challenge of the Brave: A Race Against Time",
             "心技的試煉～奔赴世界終焉的人們～",
             "용기의 시련: 세계의 종말을 향하는 자들",
-            "Épreuve des Braves : Au secours d'un monde condamné",
+            "Épreuve des braves : Au secours d'un monde condamné",
             "Prüfung des Geistes: Ein Rennen gegen die Zeit",
             "Desafío de los valientes: Carrera contrarreloj",
             "Berpacu dengan Waktu",
@@ -33366,7 +33317,7 @@
             "Challenge of the Brave: Conflict at Baschool",
             "心技的試煉～巴茲庫爾的激鬥～",
             "용기의 시련: 바즈쿨 격투",
-            "Épreuve des Braves : La bataille de Baschool",
+            "Épreuve des braves : La bataille de Baschool",
             "Prüfung des Geistes: Der Kampf in Baschool",
             "Desafío de los valientes: Conflicto en Baschool",
             "Konflik di Baschool",
@@ -33502,32 +33453,32 @@
         }
     },
     "402001": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Unbound Offensive", "擺脫禁錮的銳鋒", "해방된 칼끝", "Offensive libérée", "Entfesselte Offensive", "Ofensiva desatada", "Serangan yang Dikerahkan", "ปลดปล่อย\u001aการ\u001aจู่โจม\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4020",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40200101": null,
-            "40200102": null,
-            "40200103": null,
-            "40200104": null,
-            "40200105": null,
-            "40200106": null,
-            "40200107": null,
-            "40200108": null
+            "40200101": "Unbound Offensive Lvl. 1",
+            "40200102": "Unbound Offensive Lvl. 2",
+            "40200103": "Unbound Offensive Lvl. 3",
+            "40200104": "Unbound Offensive Lvl. 4",
+            "40200105": "Unbound Offensive Lvl. 5",
+            "40200106": "Unbound Offensive - OP",
+            "40200107": "Unbound Offensive - EV",
+            "40200108": "Unbound Offensive - ED"
         }
     },
     "402101": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["The Awakened Emperor", "被喚醒的皇帝", "깨어난 황제", "L'éveil de l'Empereur", "Der erwachte Imperator", "El despertar del Emperador", "Kebangkitan sang Kaisar", "จักรพรรดิ\u001aลืมตา\u001aตื่น\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4021",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40210101": null
+            "40210101": "The Awakened Emperor"
         }
     },
     "403001": {
@@ -34072,23 +34023,23 @@
         }
     },
     "700201": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Zeno of the Beta Star", "二鬥星傑諾戰", "이성투사 제노전", "Xeno de l'étoile Bêta", "Beta-Stern-Zeno", "Zeno de la estrella Beta", "Bintang Beta, Zeno", "Zeno\u001a \u001aยุทธ\u001aดารา\u001aอันดับ\u001aสอง\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "7002",
         "position": [0, 0],
         "icon": "spd_2021025_bn_list_Chronicle_FFBE2nd_02.png",
         "missions": {
-            "70020101": null,
-            "70020102": null,
-            "70020103": null,
-            "70020104": null,
-            "70020105": null,
-            "70020106": null,
-            "70020107": null,
-            "70020108": null,
-            "70020109": null,
-            "70020110": null
+            "70020101": "Zeno of the Beta Star Lvl. 1",
+            "70020102": "Zeno of the Beta Star Lvl. 2",
+            "70020103": "Zeno of the Beta Star Lvl. 3",
+            "70020104": "Zeno of the Beta Star Lvl. 4",
+            "70020105": "Zeno of the Beta Star Lvl. 5",
+            "70020106": "Zeno of the Beta Star Lvl. 6",
+            "70020107": "Zeno of the Beta Star Lvl. 7",
+            "70020108": "Zeno of the Beta Star Lvl. 8",
+            "70020109": "Zeno of the Beta Star Lvl. 9",
+            "70020110": "Zeno of the Beta Star Lvl. 10"
         }
     },
     "707001": {
