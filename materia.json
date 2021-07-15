@@ -13453,6 +13453,23 @@
             "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
+    "504231757": {
+        "name": "Mマンイーター",
+        "compendium_id": 1320,
+        "compendium_shown": false,
+        "unit_restriction": null,
+        "skills": [231757],
+        "effects": ["Grant 'M Man-Eater' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504231800": {
         "name": "The Astrals' Protection",
         "compendium_id": 991,
@@ -16822,20 +16839,38 @@
         }
     },
     "504235430": {
-        "name": "王女への忠誠心",
+        "name": "Loyalty to the Princess",
         "compendium_id": 1126,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": null,
         "skills": [235430],
-        "effects": ["Grant '王女への忠誠心' passive"],
-        "unique": false,
+        "effects": ["Grant 'Loyalty to the Princess' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_41.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Loyalty to the Princess", "對公主的忠誠心", "왕녀를 향한 충성심", "Loyauté envers la princesse", "Loyalität gegenüber der Prinzessin", "Lealtad a la princesa", "Kesetiaan terhadap sang Putri", "ใจ\u001aภักดี\u001aต่อ\u001aองค์\u001aหญิง\u001a"],
+            "desc_short": [
+                "Boost ATK by 40%, chance of escaping death when HP is above a certain point, and boost ATK by 20% when equipped with a large sword (Not stackable)",
+                "提高40%攻擊+HP高於一定量時一定機率避免陷入無法戰鬥狀態+裝備大劍時提高20%攻擊[無法重複裝備]",
+                "공격력 40% 상승+HP가 일정량 이상일 때 일정 확률로 전투불능 상태 견딤+대검 장착 시 공격력 20% 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 40 %, confère une chance d'échapper à la mort quand les PV sont au-dessus d'un certain seuil, et augmente l'ATT de 20 % quand une épée longue est équipée (non cumulable)",
+                "Erhöht ANG um 40%, Chance, dem Tod zu entkommen, wenn LP über einem bestimmten Wert liegen, und erhöht ANG um 20%, wenn mit einem Großschwert ausgerüstet (nicht stapelbar).",
+                "Aumenta el ATQ un 40%, probabilidad de evitar quedar K.O. si la VIT está por encima de cierto nivel, y aumenta el ATQ otro 20% extra al llevar espada grande (no acumulable)",
+                "Meningkatkan ATK sebanyak 40%, peluang untuk menghindari K.O. ketika HP lebih dari batas tertentu, dan meningkatkan ATK sebanyak 20% ketika pedang besar digunakan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a40% + มีโอกาสหลีกเลี่ยง KO เมื่อ HP สูงกว่าที่กำหนด + เพิ่มค่า ATK\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 40%, adds chance of escaping death when HP is above a certain point, and boosts ATK by 20% when equipped with a large sword. Not stackable.",
+                "提高40%攻擊，以及HP高於一定量時一定機率避免陷入無法戰鬥狀態，並且裝備大劍時提高20%攻擊。[無法重複裝備]",
+                "공격력이 40% 상승하고, HP가 일정량 이상일 때 일정 확률로 전투불능 상태를 견디며, 대검 장착 시 공격력이 20% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 40 %, confère une chance d'échapper à la mort quand les PV sont au-dessus d'un certain seuil, et augmente l'ATT de 20 % quand une épée longue est équipée. Non cumulable",
+                "Erhöht ANG um 40%, Chance, dem Tod zu entkommen, wenn LP über einem bestimmten Wert liegen, und erhöht ANG um 20%, wenn mit einem Großschwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta el ATQ un 40%, añade la probabilidad de evitar quedar K.O. si la VIT está por encima de cierto nivel, y aumenta el ATQ otro 20% extra al llevar espada grande. No acumulable.",
+                "Meningkatkan ATK sebanyak 40%, peluang untuk menghindari K.O. ketika HP lebih dari batas tertentu, dan meningkatkan ATK sebanyak 20% ketika pedang besar digunakan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a40% + มีโอกาสหลีกเลี่ยง KO เมื่อ HP สูงกว่าที่กำหนด + เพิ่มค่า ATK\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504235432": {
@@ -17515,7 +17550,7 @@
         "name": "Saviors of the Planet",
         "compendium_id": 1156,
         "compendium_shown": true,
-        "unit_restriction": [207000105, 207001005, 207000305, 207000805, 207000204, 207000703, 207000405, 207000505, 207001105, 207000605, 207002007, 207002207, 207002105, 207001305, 207002017, 207000327, 207000527, 207002217, 207000127, 207001205],
+        "unit_restriction": [207000105, 207001005, 207000305, 207000805, 207000204, 207000703, 207000405, 207000505, 207001105, 207000605, 207002007, 207002207, 207002105, 207001305, 207002017, 207000327, 207000527, 207002217, 207000127, 207001205, 207001507, 207001517, 207002307, 207002317, 207001227, 207001327, 207001405],
         "skills": [236247],
         "effects": ["Grant 'Saviors of the Planet' passive"],
         "unique": true,
@@ -21488,7 +21523,7 @@
     "504240970": {
         "name": "神秘のオーラ",
         "compendium_id": 1307,
-        "compendium_shown": true,
+        "compendium_shown": false,
         "unit_restriction": null,
         "skills": [240970],
         "effects": ["Grant '神秘のオーラ' passive"],
@@ -21656,6 +21691,118 @@
             "names": [null, null, null, null, null, null, null, null],
             "desc_short": [null, null, null, null, null, null, null, null],
             "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504241340": {
+        "name": "最高のソルジャー",
+        "compendium_id": 1314,
+        "compendium_shown": false,
+        "unit_restriction": null,
+        "skills": [241340],
+        "effects": ["Grant '最高のソルジャー' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_6000200.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504241342": {
+        "name": "星を守る覚悟",
+        "compendium_id": 1315,
+        "compendium_shown": false,
+        "unit_restriction": null,
+        "skills": [241342],
+        "effects": ["Grant '星を守る覚悟' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504241344": {
+        "name": "反神羅の炎",
+        "compendium_id": 1316,
+        "compendium_shown": false,
+        "unit_restriction": [207002105, 207002127],
+        "skills": [241344],
+        "effects": ["Grant '反神羅の炎' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504241345": {
+        "name": "アバランチの凸凹コンビ",
+        "compendium_id": 1317,
+        "compendium_shown": false,
+        "unit_restriction": [207002505],
+        "skills": [241345],
+        "effects": ["Grant 'アバランチの凸凹コンビ' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504241450": {
+        "name": "Leviathan Synergy",
+        "compendium_id": 1318,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [241450],
+        "effects": ["Grant 'Leviathan Synergy' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_19.png",
+        "strings": {
+            "names": [
+                "Leviathan Synergy",
+                "利維坦協同",
+                "리바이어선 시너지",
+                "Synergie : Léviathan",
+                "Leviathan-Synergie",
+                "Sinergia de Leviatán",
+                "Sinergi Leviathan",
+                "รวม\u001aพลัง\u001aกับ\u001a \u001aLeviathan\u001a"
+            ],
+            "desc_short": [
+                "Nullify confusion, boost water resistance by 30%, and boost LB gauge fill rate by 100% (Not stackable)",
+                "混亂無效+提高30%水屬性耐性+提高100%極限技石對極限技槽的增加量[無法重複裝備]",
+                "혼란 무효화+물속성 저항력 30% 상승+LB 게이지 효율 100% 상승 (중복 장착 불가)",
+                "Annule confusion, augmente la résistance à l'eau de 30 %, et augmente le taux de remplissage de la jauge de limite de 100 % (non cumulable)",
+                "Annulliert Konfus, erhöht Wasserresistenz um 30% und Limitmeter füllt sich um 100% schneller (nicht stapelbar).",
+                "Anula confusión, aumenta la resistencia al agua un 30% y la barra de EL se rellena un 100% más rápido (no acumulable)",
+                "Menihilkan status confuse, meningkatkan resistansi air sebanyak 30%, dan meningkatkan kecepatan pengisian bar LB sebanyak 100% (Tidak dapat ditumpuk)",
+                "ยกเลิก\u001aสถานะ\u001a \u001aConfuse\u001a \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aน้ำ\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a100% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Nullifies confusion, boosts water resistance by 30%, and boosts LB gauge fill rate by 100%. Not stackable.",
+                "混亂無效，以及提高30%水屬性耐性，並且提高100%極限技石對極限技槽的增加量。[無法重複裝備]",
+                "혼란을 무효화하고, 물속성 저항력이 30% 상승하며, LB 게이지 효율이 100% 상승합니다. (중복 장착 불가)",
+                "Annule confusion, augmente la résistance à l'eau de 30 %, et augmente le taux de remplissage de la jauge de limite de 100%. Non cumulable.",
+                "Annulliert Konfus, erhöht Wasserresistenz um 30% und Limitmeter füllt sich um 100% schneller. Nicht stapelbar.",
+                "Anula confusión, aumenta la resistencia al agua un 30% y la barra de EL se rellena un 100% más rápido. No acumulable.",
+                "Menihilkan status confuse, meningkatkan resistansi air sebanyak 30%, dan meningkatkan kecepatan pengisian bar LB sebanyak 100%. Tidak dapat ditumpuk.",
+                "ยกเลิก\u001aสถานะ\u001a \u001aConfuse\u001a \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aน้ำ\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a100% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504400110": {
