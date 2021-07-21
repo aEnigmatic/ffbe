@@ -38,6 +38,26 @@
             "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
+    "10170003": {
+        "name": "Banishga",
+        "skill_id_old": 70464,
+        "skill_id_new": 70465,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000100": 31,
+                "270000200": 16,
+                "270000300": 12,
+                "270000400": 3,
+                "270000500": 2
+            }
+        },
+        "units": [209001127],
+        "strings": {
+            "names": ["Banishga", "強放逐", "배니시가", "Bannissement X", "Exkommunikation", "Tenue++", "Banishga", "Banishga\u001a"],
+            "description": [null, null, null, null, null, null, null, null]
+        }
+    },
     "20170001": {
         "name": "Comet",
         "skill_id_old": 20170,
@@ -73,6 +93,43 @@
         "strings": {
             "names": ["Comet", "彗星", "코멧", "Comète", "Komet", "Cometa", "Comet", "Comet\u001a"],
             "description": ["2000%", "2000%", "2000%", "2000 %", "2000%", "2000%", "2000%", "\u001a2000%"]
+        }
+    },
+    "30210001": {
+        "name": "Bravery",
+        "skill_id_old": 30210,
+        "skill_id_new": 70468,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 5,
+                "270001300": 1
+            }
+        },
+        "units": [207001405],
+        "strings": {
+            "names": ["Bravery", "勇氣", "브레이브", "Bravoure", "Courage", "Bravura", "Bravery", "Bravery\u001a"],
+            "description": ["250%", "250%", "250%", "250 %", "250%", "250%", "250%", "\u001a250%"]
+        }
+    },
+    "30210002": {
+        "name": "Bravery",
+        "skill_id_old": 70468,
+        "skill_id_new": 70469,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 8,
+                "270001300": 2,
+                "270001400": 1
+            }
+        },
+        "units": [207001405],
+        "strings": {
+            "names": ["Bravery", "勇氣", "브레이브", "Bravoure", "Courage", "Bravura", "Bravery", "Bravery\u001a"],
+            "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
         }
     },
     "100050001": {
@@ -1431,10 +1488,10 @@
                 "270000500": 1
             }
         },
-        "units": [214000105],
+        "units": [214000105, 207001507],
         "strings": {
             "names": ["Holy", "神聖", "홀리", "Sidéral", "Sanctus", "Sanctus", "Holy", "Holy\u001a"],
-            "description": ["Targets all enemies", "目標變更為全體敵人", "대상 범위 적 전체로 확대", "Cible tous les ennemis", "Greift alle Gegner an", "Ataca a todos los enemigos", "Mengubah target menjadi semua musuh", "\u001aโจมตี\u001aใส่\u001aศัตรู\u001aทั้งหมด\u001a"]
+            "description": ["all enemies", "全體敵人", "적 전체에", "tous les ennemis", "allen Gegnern", "todos los enemigos", "semua musuh", "\u001aศัตรู\u001aทุกราย\u001a"]
         }
     },
     "102101002": {
@@ -1451,10 +1508,10 @@
                 "270000500": 2
             }
         },
-        "units": [214000105],
+        "units": [214000105, 207001507],
         "strings": {
             "names": ["Holy", "神聖", "홀리", "Sidéral", "Sanctus", "Sanctus", "Holy", "Holy\u001a"],
-            "description": ["Boosts damage amount (great)", "提高傷害量(特大)", "피해량 상승(특대)", "Augmente les dégâts infligés (super)", "Erhöht Schaden (sehr hoch)", "Aumenta el daño (muchísimo)", "Meningkatkan damage (sangat besar)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001a \u001a(\u001aสูงสุด\u001a)"]
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
         }
     },
     "200060001": {
@@ -34549,7 +34606,7 @@
         "units": [100021705],
         "strings": {
             "names": ["Knight's Command", "騎士大號令", "기사의 대호령", "Ordonnance de chevalier", "Ritterlicher Befehl", "Orden de caballero", "Knight's Command", "คำบัญชา\u001aแห่ง\u001aอัศวิน\u001a"],
-            "description": ["Boosts DEF and SPR increases (to 150%)", "提高防禦精神增加量(至150%)", "방어력과 정신력 상승량 상승(150%)", "Amplifie les augmentations de la DEF et de la PSY (à 150 %)", "Steigert ABW- und PSY-Erhöhungen (auf 150%)", "Mayor aumento de DEF y ESP (a un 150%)", "Menambah jumlah peningkatan DEF dan SPR (menjadi 150%)", "\u001aเพิ่มค่า\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a150%)"]
+            "description": ["Boosts DEF and SPR increases (to 200%)", "提高防禦精神增加量(至200%)", "방어력과 정신력 상승량 상승(200%)", "Amplifie les augmentations de la DEF et de la PSY (à 200%)", "Steigert ABW- und PSY-Erhöhungen (auf 200%)", "Mayor aumento de DEF y ESP (a un 200%)", "Menambah jumlah peningkatan DEF dan SPR (menjadi 200%)", "\u001aเพิ่มค่า\u001a \u001aDEF\u001a \u001aและ\u001a \u001aSPR\u001a \u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a200%)"]
         }
     },
     "230187001": {
@@ -61411,7 +61468,7 @@
         }
     },
     "300001383": {
-        "name": null,
+        "name": "Radiant Prayer",
         "skill_id_old": 241211,
         "skill_id_new": 241212,
         "cost": {
@@ -61423,12 +61480,12 @@
         },
         "units": [207001507],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Radiant Prayer", "光芒祈禱", "광망의 기도", "Prière radieuse", "Strahlendes Gebet", "Oración de luz", "Doa Kilau Cahaya", "บท\u001aภาวนา\u001aแสง\u001aเรืองรอง\u001a"],
+            "description": ["70%", "70%", "70%", "70 %", "70%", "70%", "70%", "\u001a70%"]
         }
     },
     "300001384": {
-        "name": null,
+        "name": "Radiant Prayer",
         "skill_id_old": 241212,
         "skill_id_new": 241213,
         "cost": {
@@ -61441,12 +61498,12 @@
         },
         "units": [207001507],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Radiant Prayer", "光芒祈禱", "광망의 기도", "Prière radieuse", "Strahlendes Gebet", "Oración de luz", "Doa Kilau Cahaya", "บท\u001aภาวนา\u001aแสง\u001aเรืองรอง\u001a"],
+            "description": ["80%", "80%", "80%", "80 %", "80%", "80%", "80%", "\u001a80%"]
         }
     },
     "300001385": {
-        "name": null,
+        "name": "Radiant Prayer",
         "skill_id_old": 241213,
         "skill_id_new": 241214,
         "cost": {
@@ -61460,12 +61517,12 @@
         },
         "units": [207001507],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Radiant Prayer", "光芒祈禱", "광망의 기도", "Prière radieuse", "Strahlendes Gebet", "Oración de luz", "Doa Kilau Cahaya", "บท\u001aภาวนา\u001aแสง\u001aเรืองรอง\u001a"],
+            "description": ["90%", "90%", "90%", "90 %", "90%", "90%", "90%", "\u001a90%"]
         }
     },
     "300001386": {
-        "name": null,
+        "name": "Radiant Prayer",
         "skill_id_old": 241214,
         "skill_id_new": 241215,
         "cost": {
@@ -61479,12 +61536,12 @@
         },
         "units": [207001507],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Radiant Prayer", "光芒祈禱", "광망의 기도", "Prière radieuse", "Strahlendes Gebet", "Oración de luz", "Doa Kilau Cahaya", "บท\u001aภาวนา\u001aแสง\u001aเรืองรอง\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
         }
     },
     "300001387": {
-        "name": null,
+        "name": "Flame Fang",
         "skill_id_old": 241216,
         "skill_id_new": 241217,
         "cost": {
@@ -61496,12 +61553,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flame Fang", "烈焰牙", "플레임 팽", "Croc de feu", "Wirbelfänge der Flammen", "Colmillo de fuego", "Flame Fang", "เขี้ยว\u001aเปลว\u001aอัคคี\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001388": {
-        "name": null,
+        "name": "Flame Fang",
         "skill_id_old": 241217,
         "skill_id_new": 241218,
         "cost": {
@@ -61514,12 +61571,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flame Fang", "烈焰牙", "플레임 팽", "Croc de feu", "Wirbelfänge der Flammen", "Colmillo de fuego", "Flame Fang", "เขี้ยว\u001aเปลว\u001aอัคคี\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
         }
     },
     "300001389": {
-        "name": null,
+        "name": "Flame Fang",
         "skill_id_old": 241218,
         "skill_id_new": 241219,
         "cost": {
@@ -61533,12 +61590,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flame Fang", "烈焰牙", "플레임 팽", "Croc de feu", "Wirbelfänge der Flammen", "Colmillo de fuego", "Flame Fang", "เขี้ยว\u001aเปลว\u001aอัคคี\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001390": {
-        "name": null,
+        "name": "Flame Fang",
         "skill_id_old": 241219,
         "skill_id_new": 241220,
         "cost": {
@@ -61552,12 +61609,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flame Fang", "烈焰牙", "플레임 팽", "Croc de feu", "Wirbelfänge der Flammen", "Colmillo de fuego", "Flame Fang", "เขี้ยว\u001aเปลว\u001aอัคคี\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001391": {
-        "name": null,
+        "name": "Ardent Prayer",
         "skill_id_old": 241221,
         "skill_id_new": 241222,
         "cost": {
@@ -61569,12 +61626,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Ardent Prayer", "火焰祈禱", "화염의 기도", "Prière fervente", "Flammendes Gebet", "Oración ardiente", "Doa Kobaran Api", "บท\u001aภาวนา\u001aร้อนแรง\u001a"],
+            "description": ["70%", "70%", "70%", "70 %", "70%", "70%", "70%", "\u001a70%"]
         }
     },
     "300001392": {
-        "name": null,
+        "name": "Ardent Prayer",
         "skill_id_old": 241222,
         "skill_id_new": 241223,
         "cost": {
@@ -61587,12 +61644,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Ardent Prayer", "火焰祈禱", "화염의 기도", "Prière fervente", "Flammendes Gebet", "Oración ardiente", "Doa Kobaran Api", "บท\u001aภาวนา\u001aร้อนแรง\u001a"],
+            "description": ["80%", "80%", "80%", "80 %", "80%", "80%", "80%", "\u001a80%"]
         }
     },
     "300001393": {
-        "name": null,
+        "name": "Ardent Prayer",
         "skill_id_old": 241223,
         "skill_id_new": 241224,
         "cost": {
@@ -61606,12 +61663,12 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Ardent Prayer", "火焰祈禱", "화염의 기도", "Prière fervente", "Flammendes Gebet", "Oración ardiente", "Doa Kobaran Api", "บท\u001aภาวนา\u001aร้อนแรง\u001a"],
+            "description": ["90%", "90%", "90%", "90 %", "90%", "90%", "90%", "\u001a90%"]
         }
     },
     "300001394": {
-        "name": null,
+        "name": "Ardent Prayer",
         "skill_id_old": 241224,
         "skill_id_new": 241225,
         "cost": {
@@ -61625,8 +61682,8 @@
         },
         "units": [207001517],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Ardent Prayer", "火焰祈禱", "화염의 기도", "Prière fervente", "Flammendes Gebet", "Oración ardiente", "Doa Kobaran Api", "บท\u001aภาวนา\u001aร้อนแรง\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
         }
     },
     "300001395": {
@@ -61995,7 +62052,7 @@
         }
     },
     "300001415": {
-        "name": null,
+        "name": "Crashing Lightning",
         "skill_id_old": 241290,
         "skill_id_new": 241291,
         "cost": {
@@ -62007,12 +62064,12 @@
         },
         "units": [207001305],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Crashing Lightning", "霹靂衝鋒", "라이트닝 러시", "Ruée fulgurante", "Donnereinschlag", "Rayo fulminante", "Sambaran Petir (FFVII REMAKE)", "สายฟ้า\u001aอัด\u001aกระแทก\u001a"],
+            "description": ["7600%", "7600%", "7600%", "7600 %", "7600%", "7600%", "7600%", "\u001a7600%"]
         }
     },
     "300001416": {
-        "name": null,
+        "name": "Crashing Lightning",
         "skill_id_old": 241291,
         "skill_id_new": 241292,
         "cost": {
@@ -62025,12 +62082,12 @@
         },
         "units": [207001305],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Crashing Lightning", "霹靂衝鋒", "라이트닝 러시", "Ruée fulgurante", "Donnereinschlag", "Rayo fulminante", "Sambaran Petir (FFVII REMAKE)", "สายฟ้า\u001aอัด\u001aกระแทก\u001a"],
+            "description": ["7900%", "7900%", "7900%", "7900 %", "7900%", "7900%", "7900%", "\u001a7900%"]
         }
     },
     "300001417": {
-        "name": null,
+        "name": "Crashing Lightning",
         "skill_id_old": 241292,
         "skill_id_new": 241293,
         "cost": {
@@ -62044,12 +62101,12 @@
         },
         "units": [207001305],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Crashing Lightning", "霹靂衝鋒", "라이트닝 러시", "Ruée fulgurante", "Donnereinschlag", "Rayo fulminante", "Sambaran Petir (FFVII REMAKE)", "สายฟ้า\u001aอัด\u001aกระแทก\u001a"],
+            "description": ["8200%", "8200%", "8200%", "8200 %", "8200%", "8200%", "8200%", "\u001a8200%"]
         }
     },
     "300001418": {
-        "name": null,
+        "name": "Crashing Lightning",
         "skill_id_old": 241293,
         "skill_id_new": 241294,
         "cost": {
@@ -62063,12 +62120,12 @@
         },
         "units": [207001305],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Crashing Lightning", "霹靂衝鋒", "라이트닝 러시", "Ruée fulgurante", "Donnereinschlag", "Rayo fulminante", "Sambaran Petir (FFVII REMAKE)", "สายฟ้า\u001aอัด\u001aกระแทก\u001a"],
+            "description": ["8500%", "8500%", "8500%", "8500 %", "8500%", "8500%", "8500%", "\u001a8500%"]
         }
     },
     "300001419": {
-        "name": null,
+        "name": "Triple Shockwave",
         "skill_id_old": 241296,
         "skill_id_new": 241297,
         "cost": {
@@ -62080,12 +62137,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Triple Shockwave", "泰坦重擊", "타이탄 블로", "Frappe titanesque", "Titanfaust", "Impacto tectónico", "Triple Shockwave", "คลื่น\u001aช็อค\u001aสาม\u001aเท่า\u001a"],
+            "description": ["6900%", "6900%", "6900%", "6900 %", "6900%", "6900%", "6900%", "\u001a6900%"]
         }
     },
     "300001420": {
-        "name": null,
+        "name": "Triple Shockwave",
         "skill_id_old": 241297,
         "skill_id_new": 241298,
         "cost": {
@@ -62098,12 +62155,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Triple Shockwave", "泰坦重擊", "타이탄 블로", "Frappe titanesque", "Titanfaust", "Impacto tectónico", "Triple Shockwave", "คลื่น\u001aช็อค\u001aสาม\u001aเท่า\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001421": {
-        "name": null,
+        "name": "Triple Shockwave",
         "skill_id_old": 241298,
         "skill_id_new": 241299,
         "cost": {
@@ -62117,12 +62174,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Triple Shockwave", "泰坦重擊", "타이탄 블로", "Frappe titanesque", "Titanfaust", "Impacto tectónico", "Triple Shockwave", "คลื่น\u001aช็อค\u001aสาม\u001aเท่า\u001a"],
+            "description": ["7500%", "7500%", "7500%", "7500 %", "7500%", "7500%", "7500%", "\u001a7500%"]
         }
     },
     "300001422": {
-        "name": null,
+        "name": "Triple Shockwave",
         "skill_id_old": 241299,
         "skill_id_new": 241300,
         "cost": {
@@ -62136,12 +62193,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Triple Shockwave", "泰坦重擊", "타이탄 블로", "Frappe titanesque", "Titanfaust", "Impacto tectónico", "Triple Shockwave", "คลื่น\u001aช็อค\u001aสาม\u001aเท่า\u001a"],
+            "description": ["7800%", "7800%", "7800%", "7800 %", "7800%", "7800%", "7800%", "\u001a7800%"]
         }
     },
     "300001423": {
-        "name": null,
+        "name": "Whirlwind (FFVII REMAKE)",
         "skill_id_old": 241301,
         "skill_id_new": 241302,
         "cost": {
@@ -62153,12 +62210,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Whirlwind (FFVII REMAKE)", "閃光旋流(FFVII REMAKE)", "코르크 스크류(FFVII REMAKE)", "Revers tornade", "Fausttornado (FFVII REMAKE)", "Sacacorchos", "Pusaran Angin (FFVII REMAKE)", "ท่า\u001aหมุน\u001aลมกรด\u001a \u001a(\u001aFFVII\u001a \u001aREMAKE\u001a)\u001a"],
+            "description": ["6900%", "6900%", "6900%", "6900 %", "6900%", "6900%", "6900%", "\u001a6900%"]
         }
     },
     "300001424": {
-        "name": null,
+        "name": "Whirlwind (FFVII REMAKE)",
         "skill_id_old": 241302,
         "skill_id_new": 241303,
         "cost": {
@@ -62171,12 +62228,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Whirlwind (FFVII REMAKE)", "閃光旋流(FFVII REMAKE)", "코르크 스크류(FFVII REMAKE)", "Revers tornade", "Fausttornado (FFVII REMAKE)", "Sacacorchos", "Pusaran Angin (FFVII REMAKE)", "ท่า\u001aหมุน\u001aลมกรด\u001a \u001a(\u001aFFVII\u001a \u001aREMAKE\u001a)\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001425": {
-        "name": null,
+        "name": "Whirlwind (FFVII REMAKE)",
         "skill_id_old": 241303,
         "skill_id_new": 241304,
         "cost": {
@@ -62190,12 +62247,12 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Whirlwind (FFVII REMAKE)", "閃光旋流(FFVII REMAKE)", "코르크 스크류(FFVII REMAKE)", "Revers tornade", "Fausttornado (FFVII REMAKE)", "Sacacorchos", "Pusaran Angin (FFVII REMAKE)", "ท่า\u001aหมุน\u001aลมกรด\u001a \u001a(\u001aFFVII\u001a \u001aREMAKE\u001a)\u001a"],
+            "description": ["7500%", "7500%", "7500%", "7500 %", "7500%", "7500%", "7500%", "\u001a7500%"]
         }
     },
     "300001426": {
-        "name": null,
+        "name": "Whirlwind (FFVII REMAKE)",
         "skill_id_old": 241304,
         "skill_id_new": 241305,
         "cost": {
@@ -62209,8 +62266,8 @@
         },
         "units": [207001327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Whirlwind (FFVII REMAKE)", "閃光旋流(FFVII REMAKE)", "코르크 스크류(FFVII REMAKE)", "Revers tornade", "Fausttornado (FFVII REMAKE)", "Sacacorchos", "Pusaran Angin (FFVII REMAKE)", "ท่า\u001aหมุน\u001aลมกรด\u001a \u001a(\u001aFFVII\u001a \u001aREMAKE\u001a)\u001a"],
+            "description": ["7800%", "7800%", "7800%", "7800 %", "7800%", "7800%", "7800%", "\u001a7800%"]
         }
     },
     "300001427": {
@@ -62920,7 +62977,7 @@
                 "270001400": 1
             }
         },
-        "units": [401010807, 205001505, 401010817, 100034707],
+        "units": [205001505, 207001507, 207001517, 207002127, 100034707],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -62940,7 +62997,7 @@
                 "270001500": 1
             }
         },
-        "units": [401010807, 205001505, 401010817, 100034707],
+        "units": [205001505, 207001507, 207001517, 207002127, 100034707],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
@@ -62959,7 +63016,7 @@
                 "270001400": 1
             }
         },
-        "units": [401010807, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 401010817, 100034707],
+        "units": [205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -62979,7 +63036,7 @@
                 "270001500": 1
             }
         },
-        "units": [401010807, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 401010817, 100034707],
+        "units": [205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]

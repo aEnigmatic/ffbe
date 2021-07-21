@@ -700,7 +700,7 @@
         "icon": "ability_5.png",
         "compendium_id": 23,
         "rarity": 7,
-        "cost": {"MP": 35},
+        "cost": {},
         "magic_type": "White",
         "is_sealable": true,
         "is_reflectable": true,
@@ -714,9 +714,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (2.3x, SPR) to one enemy"]
+            ["Magic light damage (1x, SPR) with (0.3x, current MP) bonus damage to one enemy"]
         ],
-        "effects_raw": [[1, 1, 103, [100,  99999,  230]]],
+        "effects_raw": [[1, 1, 169, [4,  30,  2,  100]]],
         "requirements": null
     },
     "10230": {
@@ -6545,7 +6545,7 @@
         "icon": "ability_5.png",
         "compendium_id": 23,
         "rarity": 7,
-        "cost": {"MP": 35},
+        "cost": {},
         "magic_type": "White",
         "is_sealable": true,
         "is_reflectable": true,
@@ -6559,9 +6559,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (2.3x, SPR) to all enemies"]
+            ["Magic light damage (1x, SPR) with (0.6x, current MP) bonus damage to all enemies"]
         ],
-        "effects_raw": [[2, 1, 103, [100,  99999,  230]]],
+        "effects_raw": [[2, 1, 169, [4,  60,  2,  100]]],
         "requirements": null
     },
     "70340": {
@@ -6569,7 +6569,7 @@
         "icon": "ability_5.png",
         "compendium_id": 23,
         "rarity": 7,
-        "cost": {"MP": 40},
+        "cost": {},
         "magic_type": "White",
         "is_sealable": true,
         "is_reflectable": true,
@@ -6583,9 +6583,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (4x, SPR) to all enemies"]
+            ["Magic light damage (1x, SPR) with (1x, current MP) bonus damage to all enemies"]
         ],
-        "effects_raw": [[2, 1, 103, [100,  99999,  400]]],
+        "effects_raw": [[2, 1, 169, [4,  100,  2,  100]]],
         "requirements": null
     },
     "70350": {
@@ -7654,7 +7654,7 @@
         "requirements": null
     },
     "70468": {
-        "name": "ブレイブ",
+        "name": "Bravery",
         "icon": "ability_77.png",
         "compendium_id": 222,
         "rarity": 4,
@@ -7679,7 +7679,7 @@
         "requirements": null
     },
     "70469": {
-        "name": "ブレイブ",
+        "name": "Bravery",
         "icon": "ability_77.png",
         "compendium_id": 222,
         "rarity": 4,
