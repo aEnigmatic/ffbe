@@ -17568,7 +17568,7 @@
         "name": "Saviors of the Planet",
         "compendium_id": 1156,
         "compendium_shown": true,
-        "unit_restriction": [207000105, 207001005, 207000305, 207000805, 207000204, 207000703, 207000405, 207000505, 207001105, 207000605, 207002007, 207002207, 207002105, 207001305, 207002017, 207000327, 207000527, 207002217, 207000127, 207001205, 207001507, 207001517, 207001327, 207001405, 207002307, 207002317, 207001227],
+        "unit_restriction": [207000105, 207001005, 207000305, 207000805, 207000204, 207000703, 207000405, 207000505, 207001105, 207000605, 207002007, 207002207, 207002105, 207001305, 207002017, 207000327, 207000527, 207002217, 207000127, 207001205, 207001507, 207001517, 207002307, 207002317, 207001227, 207001327, 207001405, 207002407, 207002417, 207002505, 207002117, 207002127],
         "skills": [236247],
         "effects": ["Grant 'Saviors of the Planet' passive"],
         "unique": true,
@@ -21766,71 +21766,143 @@
         }
     },
     "504241340": {
-        "name": "最高のソルジャー",
+        "name": "SOLDIER's Best",
         "compendium_id": 1314,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241340],
-        "effects": ["Grant '最高のソルジャー' passive"],
-        "unique": false,
+        "effects": ["Grant 'SOLDIER's Best' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_6000200.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["SOLDIER's Best", "最強神羅戰士", "최고의 솔저", "SOLDAT légendaire", "Der stärkste SOLDAT", "El mejor Soldado", "SOLDIER Terbaik", "สุดยอด\u001aแห่ง\u001aหน่วย\u001a \u001aSOLDIER\u001a"],
+            "desc_short": [
+                "Boost LB damage by 50%, and boost equipment ATK by 60% when a single katana is equipped in one or both hands (Not stackable)",
+                "提高50%極限技的傷害+只裝備1把刀時武具攻擊提升60%[無法重複裝備]",
+                "LB 피해량 50% 상승+한손 또는 양손에 도 1개 장착 시 장비의 공격력 60% 상승 (중복 장착 불가)",
+                "Augmente les dégâts de la limite de 50 %, et augmente l'ATT de l'équipement de 60 % quand un seul katana est équipé dans une ou les deux mains (non cumulable)",
+                "Erhöht Schaden durch Limitrausch um 50% und erhöht Ausrüstung-ANG um 60%, wenn ein einzelnes Katana in einer oder beiden Händen ausgerüstet ist (nicht stapelbar).",
+                "Aumenta el daño del EL un 50%, y aumenta el ATQ del equipo un 60% al llevar una sola katana en una o ambas manos (no acumulable)",
+                "Meningkatkan damage LB sebanyak 50% dan meningkatkan ATK perlengkapan sebanyak 60% ketika 1 katana digunakan dengan satu tangan atau kedua tangan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a50% + เพิ่มค่า ATK\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a60% \u001aเมื่อ\u001aติดตั้ง\u001aคาตา\u001aนะ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts LB damage by 50%, and boosts equipment ATK by 60% when a single katana is equipped in one or both hands. Not stackable.",
+                "提高50%極限技的傷害，並且只裝備1把刀時武具攻擊提升60%。[無法重複裝備]",
+                "LB 피해량이 50% 상승하고, 한손 또는 양손에 도 1개 장착 시 장비의 공격력이 60% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts de la limite de 50 %, et augmente l'ATT de l'équipement de 60 % quand un seul katana est équipé dans une ou les deux mains. Non cumulable.",
+                "Erhöht Schaden durch Limitrausch um 50% und erhöht Ausrüstung-ANG um 60%, wenn ein einzelnes Katana in einer oder beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta el daño del EL un 50%, y aumenta el ATQ del equipo un 60% al llevar una sola katana en una o ambas manos. No acumulable.",
+                "Meningkatkan damage LB sebanyak 50% dan meningkatkan ATK perlengkapan sebanyak 60% ketika 1 katana digunakan dengan satu tangan atau kedua tangan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a50% + เพิ่มค่า ATK\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a60% \u001aเมื่อ\u001aติดตั้ง\u001aคาตา\u001aนะ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241342": {
-        "name": "星を守る覚悟",
+        "name": "Determined to Save the Planet",
         "compendium_id": 1315,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241342],
-        "effects": ["Grant '星を守る覚悟' passive"],
-        "unique": false,
+        "effects": ["Grant 'Determined to Save the Planet' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Determined to Save the Planet", "守護行星的決心", "별을 지킬 각오", "Résolution de sauver la planète", "Entschlossen, den Planeten zu retten", "Listos para salvar el planeta", "Tekad untuk Menyelamatkan Planet", "มุ่งมั่น\u001aช่วย\u001aดาวเคราะห์\u001a"],
+            "desc_short": [
+                "Boost HP by 500 and SPR by 50% (Not stackable)",
+                "提高500HP、50%精神[無法重複裝備]",
+                "HP 500 상승+정신력 50% 상승 (중복 장착 불가)",
+                "Augmente les PV de 500 et la PSY de 50 % (non cumulable)",
+                "Erhöht LP um 500 und PSY um 50% (nicht stapelbar).",
+                "Aumenta la VIT en 500 y el ESP un 50% (no acumulable)",
+                "Meningkatkan HP sebanyak 500 dan meningkatkan SPR sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001a500\u001a \u001aและ\u001a \u001aSPR\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts HP by 500 and SPR by 50%. Not stackable.",
+                "提高500HP、50%精神。[無法重複裝備]",
+                "HP가 500 상승하고, 정신력이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente les PV de 500 et la PSY de 50 %. Non cumulable.",
+                "Erhöht LP um 500 und PSY um 50%. Nicht stapelbar.",
+                "Aumenta la VIT en 500 y el ESP un 50%. No acumulable.",
+                "Meningkatkan HP sebanyak 500 dan meningkatkan SPR sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aHP\u001a \u001a500\u001a \u001aและ\u001a \u001aSPR\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241344": {
-        "name": "反神羅の炎",
+        "name": "Fires of Resistance",
         "compendium_id": 1316,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": [207002105, 207002127],
         "skills": [241344],
-        "effects": ["Grant '反神羅の炎' passive"],
-        "unique": false,
+        "effects": ["Grant 'Fires of Resistance' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Fires of Resistance", "反神羅之炎", "반신라의 불꽃", "Flamme anti-Shinra", "Anti-Shinra-Flamme", "Llamas anti-Shinra", "Kobaran Api Pemberontakan", "เพลิง\u001aต่อต้าน\u001a \u001aShinra\u001a"],
+            "desc_short": [
+                "Boost ATK and DEF by 50% and physical damage against reapers by 50% (Not stackable)",
+                "提高50%攻擊防禦+物理攻擊時提高50%對死靈系魔物的傷害[無法重複裝備]",
+                "공격력과 방어력 50% 상승+물리 공격 시 사령형 마물에게 부여하는 피해량 50% 상승 (중복 장착 불가)",
+                "Augmente l'ATT, la DEF et les dégâts physiques infligés aux morts-vivants de 50 % (non cumulable)",
+                "Erhöht ANG sowie ABW um 50% und physischen Schaden gegen Untote um 50% (nicht stapelbar).",
+                "Aumenta el ATQ y la DEF un 50% y el daño físico contra muertos vivientes un 50% (no acumulable)",
+                "Meningkatkan ATK dan DEF sebanyak 50%, serta meningkatkan damage fisik terhadap jenis makhluk halus sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aDEF\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and DEF by 50% and physical damage against reapers by 50%. Not stackable.",
+                "提高50%攻擊防禦，以及物理攻擊時提高50%對死靈系魔物的傷害。[無法重複裝備]",
+                "공격력과 방어력이 50% 상승하고, 물리 공격 시 사령형 마물에게 부여하는 피해량이 50% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT, la DEF et les dégâts physiques infligés aux morts-vivants de 50 %. Non cumulable.",
+                "Erhöht ANG sowie ABW um 50% und physischen Schaden gegen Untote um 50%. Nicht stapelbar.",
+                "Aumenta el ATQ y la DEF un 50% y el daño físico contra muertos vivientes un 50%. No acumulable.",
+                "Meningkatkan ATK dan DEF sebanyak 50%, serta meningkatkan damage fisik terhadap jenis makhluk halus sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aDEF\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241345": {
-        "name": "アバランチの凸凹コンビ",
+        "name": "Avalanche's Dynamic Duo",
         "compendium_id": 1317,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": [207002505],
         "skills": [241345],
-        "effects": ["Grant 'アバランチの凸凹コンビ' passive"],
-        "unique": false,
+        "effects": ["Grant 'Avalanche's Dynamic Duo' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Avalanche's Dynamic Duo", "雪崩的活力二人組", "아발란치의 정반대 콤비", "Duo de choc d'Avalanche", "Avalanches holpriges Duo", "Dúo dinámico de Avalancha", "Duo Dinamis dari Avalanche", "คู่\u001aอ้วน\u001aผอม\u001aแห่ง\u001a \u001aAvalanche\u001a"],
+            "desc_short": [
+                "Boost SPR by 50% and physical damage against reapers by 50% (Not stackable)",
+                "提高50%精神+物理攻擊時提高50%對死靈系魔物的傷害[無法重複裝備]",
+                "정신력 50% 상승+물리 공격 시 사령형 마물에게 부여하는 피해량 50% 상승 (중복 장착 불가)",
+                "Augmente la PSY et les dégâts physiques infligés aux morts-vivants de 50 % (non cumulable)",
+                "Erhöht PSY um 50% und physischen Schaden gegen Untote um 50% (nicht stapelbar).",
+                "Aumenta el ESP un 50% y el daño físico contra muertos vivientes un 50% (no acumulable)",
+                "Meningkatkan SPR sebanyak 50% dan meningkatkan damage fisik terhadap jenis makhluk halus sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts SPR by 50% and physical damage against reapers by 50%. Not stackable.",
+                "提高50%精神，以及物理攻擊時提高50%對死靈系魔物的傷害[無法重複裝備]",
+                "정신력이 50% 상승하고, 물리 공격 시 사령형 마물에게 부여하는 피해량이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente la PSY et les dégâts physiques infligés aux morts-vivants de 50 %. Non cumulable.",
+                "Erhöht PSY um 50% und physischen Schaden gegen Untote um 50%. Nicht stapelbar.",
+                "Aumenta el ESP un 50% y el daño físico contra muertos vivientes un 50%. No acumulable.",
+                "Meningkatkan SPR sebanyak 50% dan meningkatkan damage fisik terhadap jenis makhluk halus sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241450": {
