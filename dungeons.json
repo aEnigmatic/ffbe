@@ -7213,7 +7213,8 @@
             "9650155": "Kaktiria",
             "9650157": "Louise",
             "9650160": "Avalanche's Tifa",
-            "9650163": "Skye"
+            "9650163": "Skye",
+            "9650165": "Ygni"
         }
     },
     "75701": {
@@ -19878,6 +19879,11 @@
             "9320248": "Ice Attack Challenge - PRO",
             "9320249": "Ice Attack Challenge - ELT",
             "9320250": "Ice Attack Challenge - LGD",
+            "9320252": "Dark Defense Challenge - INT",
+            "9320253": "Dark Defense Challenge - ADV",
+            "9320254": "Dark Defense Challenge - PRO",
+            "9320255": "Dark Defense Challenge - ELT",
+            "9320256": "Dark Defense Challenge - LGD",
             "9320330": null,
             "9320331": null,
             "9320332": null,
@@ -20541,20 +20547,108 @@
         }
     },
     "94401": {
-        "names": ["Vault of Hidden Treasures", "秘密的寶物庫", "비밀의 보물창고", "Coffre aux trésors cachés", "Gewölbe der verborgenen Schätze", "Cámara de los Tesoros Escondidos", "Ruang Harta Karun Tersembunyi", "คลังสมบัติ\u001aเร้นลับ\u001a"],
+        "names": ["Physical & Magical Domain of Earth", "土之攻魔域", "땅의 공마역", "Domaine physique et magique de la terre", "Kämpferisches/Okkultes Reich der Erde", "Reino físico y mágico de tierra", "Wilayah Fisik dan Magic Tanah", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aปฐพี\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "944",
-        "position": [0, 0],
-        "icon": "spd_20161022_bn_list_treasurehouse.png",
+        "position": [146, 1364],
+        "icon": "map_icon_92001.png",
         "missions": {
-            "9440101": "Vault of Hidden Treasures",
-            "9440102": "Vault of Hidden Treasures",
-            "9440103": "Vault of Hidden Treasures",
-            "9440104": "Vault of Hidden Treasures",
-            "9440105": "Vault of Hidden Treasures",
-            "9440106": "Vault of Hidden Treasures",
-            "9440107": "Vault of Hidden Treasures"
+            "9440101": "Physical & Magical Domain of Earth 1",
+            "9440102": "Physical & Magical Domain of Earth 2"
+        }
+    },
+    "94402": {
+        "names": ["Physical Domain of Lightning", "雷之攻域", "번개의 공역", "Domaine physique de la foudre", "Kämpferisches Reich des Blitzes", "Reino físico de rayo", "Wilayah Fisik Petir", "อาณาจักร\u001aกายภาพ\u001aแห่ง\u001aอสนี\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [377, 1016],
+        "icon": "map_icon_92001.png",
+        "missions": {
+            "9440201": "Physical Domain of Lightning 1",
+            "9440202": "Physical Domain of Lightning 2"
+        }
+    },
+    "94403": {
+        "names": ["Magical Domain of Wind", "風之魔域", "바람의 마역", "Domaine magique du vent", "Okkultes Reich des Winds", "Reino mágico de viento", "Wilayah Magic Angin", "อาณาจักร\u001aเวทย์\u001aแห่ง\u001aวาตะ\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [174, 754],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9440301": "Magical Domain of Wind 1",
+            "9440302": "Magical Domain of Wind 2"
+        }
+    },
+    "94404": {
+        "names": ["Physical & Magical Domain of Ice", "冰之攻魔域", "얼음의 공마역", "Domaine physique et magique de la glace", "Kämpferisches/Okkultes Reich des Eises", "Reino físico y mágico de hielo", "Wilayah Fisik dan Magic Es", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aน้ำแข็ง\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [493, 638],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9440401": "Physical & Magical Domain of Ice 1",
+            "9440402": "Physical & Magical Domain of Ice 2"
+        }
+    },
+    "94405": {
+        "names": ["Physical & Magical Domain of Darkness", "暗之攻魔域", "어둠의 공마역", "Domaine physique et magique des ténèbres", "Kämpferisches/Okkultes Reich der Dunkelheit", "Reino físico y mágico de oscuridad", "Wilayah Fisik dan Magic Kegelapan", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aความมืด\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [174, 493],
+        "icon": "map_icon_92003.png",
+        "missions": {
+            "9440501": "Physical & Magical Domain of Darkness 1",
+            "9440502": "Physical & Magical Domain of Darkness 2"
+        }
+    },
+    "94406": {
+        "names": ["Physical & Magical Domain of Light", "光之攻魔域", "빛의 공마역", "Domaine physique et magique de la lumière", "Kämpferisches/Okkultes Reich des Lichts", "Reino físico y mágico de luz", "Wilayah Fisik dan Magic Cahaya", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aแสง\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [493, 406],
+        "icon": "map_icon_92003.png",
+        "missions": {
+            "9440601": "Physical & Magical Domain of Light 1",
+            "9440602": "Physical & Magical Domain of Light 2"
+        }
+    },
+    "94407": {
+        "names": [
+            "(EX) Master's Phantom Domain",
+            "【EX】登峰造極者的幻域",
+            "[EX] 통달한 자의 환역",
+            "(EX) Domaine fantôme du maître",
+            "(EX) Phantomreich des Meisters",
+            "[EX] Reino ilusorio del maestro",
+            "(EX) Wilayah Ilusi sang Penguasa",
+            "(\u001aEX\u001a)\u001a \u001aอาณาจักร\u001aมายา\u001aแห่ง\u001aปรมาจารย์\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [319, 230],
+        "icon": "map_icon_92003.png",
+        "missions": {
+            "9440701": "Physical Domain of Fire and Light",
+            "9440702": "Magical Domain of Fire and Water",
+            "9440703": "Shadowed Malice"
+        }
+    },
+    "94409": {
+        "names": [null, null, null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [150, 720],
+        "icon": "runningevent_icon_battle.png",
+        "missions": {
+            "9440901": null
         }
     },
     "94501": {
@@ -27559,52 +27653,121 @@
         }
     },
     "129108": {
+        "names": [
+            "Rainbow Tower: Top (Rain)",
+            "虹色之塔·最上層～雷因～",
+            "무지개의 탑·최상층(레인)",
+            "Tour arc-en-ciel : Sommet (Rain)",
+            "Regenbogenturm: Oberste Etage (Rain)",
+            "Torre arcoíris: nivel superior (Rain)",
+            "Menara Pelangi: Puncak (Rain)",
+            "หอคอย\u001aสายรุ้ง\u001a:\u001a \u001aส่วน\u001aยอด\u001a \u001a(\u001aRain\u001a)\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [377, 957],
+        "icon": "map_icon_4020101_2.png",
         "missions": {
-            "12910801": null
+            "12910801": "Rainbow Tower: Top (Rain) - I Swear It"
         }
     },
     "129109": {
+        "names": [
+            "Rainbow Tower: Top (Roca)",
+            "虹色之塔·最上層～洛嘉～",
+            "무지개의 탑·최상층(로카)",
+            "Tour arc-en-ciel : Sommet (Roca)",
+            "Regenbogenturm: Oberste Etage (Roca)",
+            "Torre arcoíris: nivel superior (Roca)",
+            "Menara Pelangi: Puncak (Roca)",
+            "หอคอย\u001aสายรุ้ง\u001a:\u001a \u001aส่วน\u001aยอด\u001a \u001a(\u001aRoca\u001a)\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [783, 1073],
+        "icon": "map_icon_4020102_2.png",
         "missions": {
-            "12910901": null
+            "12910901": "Rainbow Tower: Top (Roca) - Mutually Infuriating"
         }
     },
     "129110": {
+        "names": [
+            "Rainbow Tower: Top (Daisy)",
+            "虹色之塔·最上層～黛西～",
+            "무지개의 탑·최상층(데이지)",
+            "Tour arc-en-ciel : Sommet (Daisy)",
+            "Regenbogenturm: Oberste Etage (Daisy)",
+            "Torre arcoíris: nivel superior (Margarita)",
+            "Menara Pelangi: Puncak (Daisy)",
+            "หอคอย\u001aสายรุ้ง\u001a:\u001a \u001aส่วน\u001aยอด\u001a \u001a(\u001aDaisy\u001a)\u001a"
+        ],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [1218, 812],
+        "icon": "map_icon_4020103_2.png",
         "missions": {
-            "12911001": null,
-            "12911002": null
+            "12911001": "Rainbow Tower: Top (Daisy) - Daisy Shines Bright",
+            "12911002": "Rainbow Tower: Top (Daisy) - Guided by Little Fina"
         }
     },
     "129111": {
+        "names": ["Towards the Orb of Light", "奔向光球", "빛의 구체를 향해", "Création de l'orbe de lumière", "Zum Orb des Lichts", "Hacia el orbe de luz", "Menuju Bola Cahaya", "มุ่ง\u001aสู่\u001aลูก\u001aแห่ง\u001aแสง\u001a"],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [1276, 435],
+        "icon": "map_icon_4020104_2.png",
         "missions": {
-            "12911101": null,
-            "12911102": null,
-            "12911103": null,
-            "12911104": null
+            "12911101": "Towards the Orb of Light - Hurry Up",
+            "12911102": "Towards the Orb of Light - Light in the Distance",
+            "12911103": "Towards the Orb of Light - Our Little Secret",
+            "12911104": "Towards the Orb of Light - The Lightflow"
         }
     },
     "129112": {
+        "names": ["Shining Orb of Light (I)", "炫目的光球1", "찬란한 빛의 구체 1", "Orbe de lumière étincelant 1", "Strahlender Orb des Lichts 1", "Orbe de luz cegadora (I)", "Bola Cahaya Berkilau (1)", "ลูกแก้ว\u001aแห่ง\u001aแสง\u001aส่องสว่าง\u001a \u001a(\u001aI\u001a)\u001a"],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [870, 232],
+        "icon": "map_icon_4020105_2.png",
         "missions": {
-            "12911201": null,
-            "12911202": null,
-            "12911203": null,
-            "12911204": null
+            "12911201": "Shining Orb of Light (I) - I'm Coming to Get You",
+            "12911202": "Shining Orb of Light (I) - A Light from the Heavens",
+            "12911203": "Shining Orb of Light (I) - Fluttering Spirits of Light",
+            "12911204": "Shining Orb of Light (I) - A Brilliantly Warm Light"
         }
     },
     "129113": {
+        "names": ["Shining Orb of Light (II)", "炫目的光球2", "찬란한 빛의 구체 2", "Orbe de lumière étincelant 2", "Strahlender Orb des Lichts 2", "Orbe de luz cegadora (II)", "Bola Cahaya Berkilau (2)", "ลูกแก้ว\u001aแห่ง\u001aแสง\u001aส่องสว่าง\u001a \u001a(\u001aII\u001a)\u001a"],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [464, 377],
+        "icon": "map_icon_4020106_2.png",
         "missions": {
-            "12911301": null,
-            "12911302": null,
-            "12911303": null,
-            "12911304": null
+            "12911301": "Shining Orb of Light (II) - Overwhelming Radiance",
+            "12911302": "Shining Orb of Light (II) - A Dazzling World",
+            "12911303": "Shining Orb of Light (II) - Trust in Rain",
+            "12911304": "Shining Orb of Light (II) - To Save Fina"
         }
     },
     "129114": {
+        "names": ["Shining Orb of Light (The Heart)", "炫目的光球·中心部", "찬란한 빛의 구체·중심부", "Orbe de lumière étincelant (Cœur)", "Strahlender Orb des Lichts (Das Herz)", "Orbe de luz cegadora (el corazón)", "Bagian Terdalam Bola Cahaya Berkilau", "ลูกแก้ว\u001aแห่ง\u001aแสง\u001aส่องสว่าง\u001a \u001a(\u001aส่วน\u001aใจกลาง\u001a)\u001a"],
+        "world_id": 4,
+        "region_id": "50",
+        "subregion_id": "1277",
+        "position": [737, 493],
+        "icon": "map_icon_4020107_2.png",
         "missions": {
-            "12911401": null,
-            "12911402": null,
-            "12911403": null,
-            "12911404": null,
-            "12911405": null
+            "12911401": "Shining Orb of Light (The Heart) - A Corrosive Radiance",
+            "12911402": "Shining Orb of Light (The Heart) - Have Courage",
+            "12911403": "Shining Orb of Light (The Heart) - Don't Stop",
+            "12911404": "Shining Orb of Light (The Heart) - Into the Light",
+            "12911405": "Shining Orb of Light (The Heart) - The Will of Oblivion Restored"
         }
     },
     "130101": {
@@ -34822,23 +34985,23 @@
         }
     },
     "706003": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Red Dragon", "紅龍戰", "레드 드래곤전", "Dragon rouge", "Roter Drache", "Dragón rojo", "Naga Merah", "ศึก\u001aมังกร\u001aแดง\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "7060",
         "position": [0, 0],
         "icon": "spd_20210430_bn_list_Chronicle_FF6_RedDragon.png",
         "missions": {
-            "70600301": null,
-            "70600302": null,
-            "70600303": null,
-            "70600304": null,
-            "70600305": null,
-            "70600306": null,
-            "70600307": null,
-            "70600308": null,
-            "70600309": null,
-            "70600310": null
+            "70600301": "Red Dragon Lvl. 1",
+            "70600302": "Red Dragon Lvl. 2",
+            "70600303": "Red Dragon Lvl. 3",
+            "70600304": "Red Dragon Lvl. 4",
+            "70600305": "Red Dragon Lvl. 5",
+            "70600306": "Red Dragon Lvl. 6",
+            "70600307": "Red Dragon Lvl. 7",
+            "70600308": "Red Dragon Lvl. 8",
+            "70600309": "Red Dragon Lvl. 9",
+            "70600310": "Red Dragon Lvl. 10"
         }
     },
     "707001": {
