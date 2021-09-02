@@ -36350,6 +36350,102 @@
             "description": ["Boosts increase to damage for jump attacks (to 150%)", "提高跳躍系能力的傷害增加量(至150%)", "점프 계열 어빌리티 피해 상승량 상승(150%)", "Amplifie l'augmentation des dégâts des attaques sautées (à 150 %)", "Steigert Schadenserhöhung von Sprungangriffen (auf 150%)", "Mayor aumento del daño de ataques de salto (a un 150%)", "Menambah jumlah peningkatan damage ability Jump (menjadi 150%)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001aจาก\u001aการ\u001aโจมตี\u001aแบบ\u001aกระโดด\u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a150%)"]
         }
     },
+    "238103001": {
+        "name": "Unleashed Evocation",
+        "skill_id_old": 238103,
+        "skill_id_new": 708949,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "235037700": 1
+            }
+        },
+        "units": [206002507, 206002517],
+        "strings": {
+            "names": ["Unleashed Evocation", "幻獸解放", "환수 해방", "Chimère indomptable", "Esperentfesselung", "Evocación desatada", "Pelepasan Summon", "ปลดปล่อย\u001aการอัญเชิญ\u001a"],
+            "description": ["30%", "30%", "30%", "30 %", "30%", "30%", "30%", "\u001a30%"]
+        }
+    },
+    "238103002": {
+        "name": "Unleashed Evocation",
+        "skill_id_old": 708949,
+        "skill_id_new": 708950,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "235037700": 1
+            }
+        },
+        "units": [206002507, 206002517],
+        "strings": {
+            "names": ["Unleashed Evocation", "幻獸解放", "환수 해방", "Chimère indomptable", "Esperentfesselung", "Evocación desatada", "Pelepasan Summon", "ปลดปล่อย\u001aการอัญเชิญ\u001a"],
+            "description": ["35%", "35%", "35%", "35 %", "35%", "35%", "35%", "\u001a35%"]
+        }
+    },
+    "238103003": {
+        "name": "Unleashed Evocation",
+        "skill_id_old": 708950,
+        "skill_id_new": 708951,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "235037700": 2
+            }
+        },
+        "units": [206002507, 206002517],
+        "strings": {
+            "names": ["Unleashed Evocation", "幻獸解放", "환수 해방", "Chimère indomptable", "Esperentfesselung", "Evocación desatada", "Pelepasan Summon", "ปลดปล่อย\u001aการอัญเชิญ\u001a"],
+            "description": ["40%", "40%", "40%", "40 %", "40%", "40%", "40%", "\u001a40%"]
+        }
+    },
+    "238504001": {
+        "name": "Force Hunt",
+        "skill_id_old": 238504,
+        "skill_id_new": 708952,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "235037700": 1
+            }
+        },
+        "units": [206002607],
+        "strings": {
+            "names": ["Force Hunt", "原力狩獵", "포스 헌트", "Soustraction vitale", "Kraftjagd", "Caza forzosa", "Perburuan Kekuatan Penuh", "ล่า\u001aพลัง\u001a"],
+            "description": ["87%", "87%", "87%", "87 %", "87%", "87%", "87%", "\u001a87%"]
+        }
+    },
+    "238504002": {
+        "name": "Force Hunt",
+        "skill_id_old": 708952,
+        "skill_id_new": 708953,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "235037700": 1
+            }
+        },
+        "units": [206002607],
+        "strings": {
+            "names": ["Force Hunt", "原力狩獵", "포스 헌트", "Soustraction vitale", "Kraftjagd", "Caza forzosa", "Perburuan Kekuatan Penuh", "ล่า\u001aพลัง\u001a"],
+            "description": ["88%", "88%", "88%", "88 %", "88%", "88%", "88%", "\u001a88%"]
+        }
+    },
+    "238504003": {
+        "name": "Force Hunt",
+        "skill_id_old": 708953,
+        "skill_id_new": 708954,
+        "cost": {
+            "gil": 1200000,
+            "materials": {
+                "235037700": 2
+            }
+        },
+        "units": [206002607],
+        "strings": {
+            "names": ["Force Hunt", "原力狩獵", "포스 헌트", "Soustraction vitale", "Kraftjagd", "Caza forzosa", "Perburuan Kekuatan Penuh", "ล่า\u001aพลัง\u001a"],
+            "description": ["90%", "90%", "90%", "90 %", "90%", "90%", "90%", "\u001a90%"]
+        }
+    },
     "300000002": {
         "name": "Braver (FFVII REMAKE)",
         "skill_id_old": 236010,
@@ -62844,7 +62940,7 @@
         }
     },
     "300001459": {
-        "name": null,
+        "name": "Fang",
         "skill_id_old": 241570,
         "skill_id_new": 241571,
         "cost": {
@@ -62856,12 +62952,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fang", "牙", "아", "Kiba", "Fang", "Colmillo", "Fang", "ดาบ\u001aเขี้ยว\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001460": {
-        "name": null,
+        "name": "Fang",
         "skill_id_old": 241571,
         "skill_id_new": 241572,
         "cost": {
@@ -62874,12 +62970,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fang", "牙", "아", "Kiba", "Fang", "Colmillo", "Fang", "ดาบ\u001aเขี้ยว\u001a"],
+            "description": ["8400%", "8400%", "8400%", "8400 %", "8400%", "8400%", "8400%", "\u001a8400%"]
         }
     },
     "300001461": {
-        "name": null,
+        "name": "Fang",
         "skill_id_old": 241572,
         "skill_id_new": 241573,
         "cost": {
@@ -62893,12 +62989,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fang", "牙", "아", "Kiba", "Fang", "Colmillo", "Fang", "ดาบ\u001aเขี้ยว\u001a"],
+            "description": ["9200%", "9200%", "9200%", "9200 %", "9200%", "9200%", "9200%", "\u001a9200%"]
         }
     },
     "300001462": {
-        "name": null,
+        "name": "Fang",
         "skill_id_old": 241573,
         "skill_id_new": 241574,
         "cost": {
@@ -62912,12 +63008,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Fang", "牙", "아", "Kiba", "Fang", "Colmillo", "Fang", "ดาบ\u001aเขี้ยว\u001a"],
+            "description": ["10000%", "10000%", "10000%", "10 000 %", "10000%", "10 000%", "10000%", "\u001a10000%"]
         }
     },
     "300001463": {
-        "name": null,
+        "name": "Flurry (FFVI)",
         "skill_id_old": 241577,
         "skill_id_new": 241578,
         "cost": {
@@ -62929,12 +63025,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flurry (FFVI)", "舞(FFVI)", "무(FFVI)", "Maï", "Wirbel (FFVI)", "Ráfaga (FFVI)", "Flurry (FFVI)", "ดาบ\u001aร่ายรำ\u001a \u001a(\u001aFFVI\u001a)\u001a"],
+            "description": ["3500%", "3500%", "3500%", "3500 %", "3500%", "3500%", "3500%", "\u001a3500%"]
         }
     },
     "300001464": {
-        "name": null,
+        "name": "Flurry (FFVI)",
         "skill_id_old": 241578,
         "skill_id_new": 241579,
         "cost": {
@@ -62947,12 +63043,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flurry (FFVI)", "舞(FFVI)", "무(FFVI)", "Maï", "Wirbel (FFVI)", "Ráfaga (FFVI)", "Flurry (FFVI)", "ดาบ\u001aร่ายรำ\u001a \u001a(\u001aFFVI\u001a)\u001a"],
+            "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
         }
     },
     "300001465": {
-        "name": null,
+        "name": "Flurry (FFVI)",
         "skill_id_old": 241579,
         "skill_id_new": 241580,
         "cost": {
@@ -62966,12 +63062,12 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flurry (FFVI)", "舞(FFVI)", "무(FFVI)", "Maï", "Wirbel (FFVI)", "Ráfaga (FFVI)", "Flurry (FFVI)", "ดาบ\u001aร่ายรำ\u001a \u001a(\u001aFFVI\u001a)\u001a"],
+            "description": ["4500%", "4500%", "4500%", "4500 %", "4500%", "4500%", "4500%", "\u001a4500%"]
         }
     },
     "300001466": {
-        "name": null,
+        "name": "Flurry (FFVI)",
         "skill_id_old": 241580,
         "skill_id_new": 241581,
         "cost": {
@@ -62985,8 +63081,8 @@
         },
         "units": [206002907],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Flurry (FFVI)", "舞(FFVI)", "무(FFVI)", "Maï", "Wirbel (FFVI)", "Ráfaga (FFVI)", "Flurry (FFVI)", "ดาบ\u001aร่ายรำ\u001a \u001a(\u001aFFVI\u001a)\u001a"],
+            "description": ["5000%", "5000%", "5000%", "5000 %", "5000%", "5000%", "5000%", "\u001a5000%"]
         }
     },
     "300001467": {

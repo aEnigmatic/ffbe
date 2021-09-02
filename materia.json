@@ -10303,9 +10303,9 @@
                 "Boost own ATK, DEF, MAG and SPR at the beginning of battle or after being revived, boost ATK when equipped with a sword, and boost HP and ATK when equipped with clothes (Not stackable)",
                 "戰鬥開始時和從無法戰鬥狀態中復活時提高自身的攻擊防禦魔力精神+裝備劍時提高攻擊+裝備衣服時提高HP攻擊[無法重複裝備]",
                 "전투 시작 시 및 전투불능 상태에서 회복했을 때 자신의 공격력, 방어력, 마력, 정신력 상승+검 장착 시 공격력 상승+옷 장착 시 HP와 공격력 상승 (중복 장착 불가)",
-                "Augmente l'ATT, la DEF, la MAGIE et la PSY du lanceur au début du combat ou après avoir ressuscité. Augmente l'ATT lorsqu'une épée est équipée et augmente les PV et l'ATT lorsque des vêtements sont équipés (Non cumulable)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY du lanceur au début du combat ou après avoir ranimé, augmente son ATT quand une épée est équipée et augmente ses PV et son ATT quand des vêtements sont équipés (Non cumulable)",
                 "Erhöht ANG, ABW, MAG und PSY des Benutzers zu Beginn eines Kampfes oder nach Wiederbelebung, erhöht ANG wenn mit einem Schwert ausgerüstet und erhöht LP und ANG wenn mit Kleidung ausgerüstet (Nicht stapelbar).",
-                "Aumenta ATQ, DEF, MAG y ESP del usuario al comienzo del combate o tras revivir, aumenta el ATQ al llevar espada y aumenta la VIT y el ATQ al llevar ropa (no acumulable)",
+                "Aumenta ATQ, DEF, MAG y ESP del usuario al inicio del combate o tras revivir, aumenta el ATQ al llevar espada y aumenta la VIT y el ATQ al llevar ropa (no acumulable)",
                 "Meningkatkan ATK, DEF, MAG, dan SPR diri sendiri di awal battle atau setelah dihidupkan kembali, meningkatkan ATK ketika pedang digunakan, serta meningkatkan HP dan ATK ketika pakaian digunakan (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aให้\u001aตัวเอง\u001aใน\u001aช่วง\u001aเริ่มต้น\u001aการต่อสู้\u001aหรือ\u001aหลัง\u001aการ\u001aคืนชีพ\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aดาบ\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aสวม\u001aชุด\u001aผ้า\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
@@ -14439,7 +14439,7 @@
                 "提高30%HP攻擊+每回合增加極限技槽+裝備短劍時提高30%攻擊[無法重複裝備]",
                 "HP와 공격력 30% 상승+매 턴마다 LB 게이지 증가+단검 장착 시 공격력 30% 상승 (중복 장착 불가)",
                 "Augmente les PV et l'ATT de 30 %, remplit la jauge de limite à chaque tour, et augmente l'ATT de 30 % quand une épée courte est équipée (Non cumulable)",
-                "Erhöht LP sowie ANG um 30%, füllt jede Runde Limitrausch und erhöht ANG um 30%, wenn mit einem Kurzschwert ausgerüstet (Nicht stapelbar).",
+                "Erhöht LP sowie ANG um 30%, füllt jede Runde Limitmeter und erhöht ANG um 30%, wenn mit einem Kurzschwert ausgerüstet (nicht stapelbar).",
                 "Aumenta la VIT y el ATQ un 30%, rellena la barra de EL cada turno, y aumenta el ATQ otro 30% al llevar espada corta (no acumulable)",
                 "Meningkatkan HP dan ATK sebanyak 30%, mengisi bar LB setiap giliran, dan meningkatkan ATK sebanyak 30% ketika pedang pendek digunakan (Tidak dapat ditumpuk)",
                 "เพิ่ม\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a30% + เติม LB Gauge\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001a30% \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aดาบสั้น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
@@ -22001,20 +22001,38 @@
         }
     },
     "504241540": {
-        "name": "ドマの秘技",
+        "name": "Secret Technique of Doma",
         "compendium_id": 1322,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241540],
-        "effects": ["Grant 'ドマの秘技' passive"],
-        "unique": false,
+        "effects": ["Grant 'Secret Technique of Doma' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Secret Technique of Doma", "多瑪秘技", "도마의 비기", "Technique secrète de Doma", "Geheimtechnik aus Doma", "Técnica secreta de Doma", "Teknik Rahasia Doma", "วิชา\u001aลับ\u001aแห่ง\u001a \u001aDoma\u001a"],
+            "desc_short": [
+                "Boost ATK by 50%, and boost physical and magic damage against demons and avian monsters by 40% (Not stackable)",
+                "提高50%攻擊+物理、魔法攻擊時提高40%對惡魔鳥系魔物的傷害[無法重複裝備]",
+                "공격력 50% 상승+물리, 마법 공격 시 악마와 조류형 마물에게 부여하는 피해량 40% 상승 (중복 장착 불가)",
+                "Augmente l'ATT de 50 %, et augmente les dégâts physiques et magiques infligés aux démons et aux oiseaux de 40 % (non cumulable)",
+                "Erhöht ANG um 50% und erhöht physischen sowie magischen Schaden gegen Dämonen und Vogelmonster um 40% (nicht stapelbar).",
+                "Aumenta el ATQ un 50% y el daño físico y mágico contra demonios y aves un 40% (no acumulable)",
+                "Meningkatkan ATK sebanyak 50%, serta meningkatkan damage fisik dan magic terhadap jenis demon dan makhluk bersayap sebanyak 40% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001aและ\u001aสัตว์ปีก\u001a \u001a40% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 50%, and boosts physical and magic damage against demons and avian monsters by 40%. Not stackable.",
+                "提高50%攻擊，以及物理、魔法攻擊時提高40%對惡魔鳥系魔物的傷害。[無法重複裝備]",
+                "공격력이 50% 상승하고, 물리, 마법 공격 시 악마와 조류형 마물에게 부여하는 피해량이 40% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT de 50 %, et augmente les dégâts physiques et magiques infligés aux démons et aux oiseaux de 40 %. (Non cumulable).",
+                "Erhöht ANG um 50% und erhöht physischen sowie magischen Schaden gegen Dämonen und Vogelmonster um 40%. Nicht stapelbar.",
+                "Aumenta el ATQ un 50% y el daño físico y mágico contra demonios y aves un 40%. No acumulable.",
+                "Meningkatkan ATK sebanyak 50%, serta meningkatkan damage fisik dan magic terhadap jenis demon dan makhluk bersayap sebanyak 40%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001aและ\u001aสัตว์ปีก\u001a \u001a40% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241542": {
@@ -26791,10 +26809,74 @@
         }
     },
     "1500000165": {
-        "unique": true
+        "name": "Purger of Pestilence",
+        "compendium_id": 90166,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915543],
+        "effects": ["Grant 'Purger of Pestilence' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Purger of Pestilence", "疫病肅清者", "역병 제거자", "Purgateur pestilentiel", "Ausrotter der Plage", "Erradicador de plagas", "Pembasmi Wabah", "ผู้\u001aพิฆาต\u001aโรค\u001aภัย\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against reapers and insects by 50% (Not stackable)",
+                "物理、魔法攻擊時提高50%對死靈蟲系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 사령과 곤충형 마물에게 부여하는 피해량 50% 상승 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux morts-vivants et aux insectes de 50 % (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Untote und Insekten um 50% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra muertos vivientes e insectos un 50% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk halus dan serangga sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001aและ\u001aแมลง\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against reapers and insects by 50%. Not stackable.",
+                "物理、魔法攻擊時提高50%對死靈蟲系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 사령과 곤충형 마물에게 부여하는 피해량이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux morts-vivants et aux insectes de 50 %. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Untote und Insekten um 50%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra muertos vivientes e insectos un 50%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk halus dan serangga sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001aและ\u001aแมลง\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
     },
     "1500000166": {
-        "unique": true
+        "name": "Keeper of Dracaena",
+        "compendium_id": 90167,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915544],
+        "effects": ["Grant 'Keeper of Dracaena' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Keeper of Dracaena", "龍血樹看守者", "용혈수의 수호자", "Gardien de Dracanea", "Hüter von Dracena", "Guardián de Dracaena", "Pelindung Dracaena", "ผู้พิทักษ์\u001aแห่ง\u001a \u001aDracaena\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against dragons and plants by 50% (Not stackable)",
+                "物理、魔法攻擊時提高50%對龍植物系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 드래곤과 식물형 마물에게 부여하는 피해량 50% 상승 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux dragons et aux plantes de 50 % (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Drachen und Pflanzen um 50% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra dragones y plantoides un 50% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis naga dan tumbuhan sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมังกร\u001aและ\u001aพืช\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against dragons and plants by 50%. Not stackable.",
+                "物理、魔法攻擊時提高50%對龍植物系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 드래곤과 식물형 마물에게 부여하는 피해량이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux dragons et aux plantes de 50 %. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Drachen und Pflanzen um 50%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra dragones y plantoides un 50%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis naga dan tumbuhan sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมังกร\u001aและ\u001aพืช\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
     },
     "1500000167": {
         "name": "Ruler of Sea and Sky+",
@@ -26832,10 +26914,74 @@
         }
     },
     "1500000168": {
-        "unique": true
+        "name": "Purger of Pestilence+",
+        "compendium_id": 90169,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915546],
+        "effects": ["Grant 'Purger of Pestilence+' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Purger of Pestilence+", "疫病肅清者+", "역병 제거자+", "Purgateur pestilentiel +", "Ausrotter der Plage +", "Erradicador de plagas+", "Pembasmi Wabah+", "ผู้\u001aพิฆาต\u001aโรค\u001aภัย\u001a+\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against reapers and insects by 75% (Not stackable)",
+                "物理、魔法攻擊時提高75%對死靈蟲系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 사령과 곤충형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux morts-vivants et aux insectes de 75 % (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Untote und Insekten um 75% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra muertos vivientes e insectos un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk halus dan serangga sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001aและ\u001aแมลง\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against reapers and insects by 75%. Not stackable.",
+                "物理、魔法攻擊時提高75%對死靈蟲系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 사령과 곤충형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux morts-vivants et aux insectes de 75 %. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Untote und Insekten um 75%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra muertos vivientes e insectos un 75%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis makhluk halus dan serangga sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001aและ\u001aแมลง\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
     },
     "1500000169": {
-        "unique": true
+        "name": "Keeper of Dracaena+",
+        "compendium_id": 90170,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915547],
+        "effects": ["Grant 'Keeper of Dracaena+' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": ["Keeper of Dracaena+", "龍血樹看守者+", "용혈수의 수호자+", "Gardien de Dracanea +", "Hüter von Dracena +", "Guardián de Dracaena+", "Pelindung Dracaena+", "ผู้พิทักษ์\u001aแห่ง\u001a \u001aDracaena\u001a+\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against dragons and plants by 75% (Not stackable)",
+                "物理、魔法攻擊時提高75%對龍植物系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 드래곤과 식물형 마물에게 부여하는 피해량 75% 상승 (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux dragons et aux plantes de 75 % (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Drachen und Pflanzen um 75% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra dragones y plantoides un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis naga dan tumbuhan sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมังกร\u001aและ\u001aพืช\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against dragons and plants by 75%. Not stackable.",
+                "物理、魔法攻擊時提高75%對龍植物系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 드래곤과 식물형 마물에게 부여하는 피해량이 75% 상승합니다. (중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux dragons et aux plantes de 75 %. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Drachen und Pflanzen um 75%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra dragones y plantoides un 75%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis naga dan tumbuhan sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aมังกร\u001aและ\u001aพืช\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
     },
     "1500000170": {
         "name": "Pom Pom Perspicacity",
@@ -26852,6 +26998,40 @@
             "names": ["Pom Pom Perspicacity", "毛球洞悉", "폼폼의 통찰력", "Pompon perspicace", "Pom Pom-Scharfsinn", "Pompón perspicaz", "Kecerdasan Pom Pom", "พู่\u001aปอม\u001aปอม\u001aเปี่ยม\u001aปัญญา\u001a"],
             "desc_short": ["Boost equipment MAG by 50% when armed with two one-handed weapons", "裝備2把單手武器時武具魔力提升50%", "한손용 무기 2개 장착 시 장비의 마력 50% 상승", "Augmente la MAGIE de l'équipement de 50 % quand deux armes à une main sont équipées", "Erhöht Ausrüstung-MAG um 50%, wenn mit zwei Einhandwaffen ausgerüstet.", "Aumenta la MAG del equipo un 50% al llevar 2 armas de una sola mano", "Meningkatkan MAG perlengkapan sebanyak 50% ketika 2 senjata satu tangan digunakan", "เพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001aสำหรับ\u001aถือ\u001aมือ\u001aเดียว\u001a \u001a2\u001a \u001aชิ้น\u001a"],
             "desc_long": ["Boosts equipment MAG by 50% when armed with two one-handed weapons.", "裝備2把單手武器時武具魔力提升50%。", "한손용 무기 2개 장착 시 장비의 마력이 50% 상승합니다.", "Augmente la MAGIE de l'équipement de 50 % quand deux armes à une main sont équipées", "Erhöht Ausrüstung-MAG um 50%, wenn mit zwei Einhandwaffen ausgerüstet.", "Aumenta la MAG del equipo un 50% al llevar 2 armas de una sola mano.", "Meningkatkan MAG perlengkapan sebanyak 50% ketika 2 senjata satu tangan digunakan.", "เพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001aสำหรับ\u001aถือ\u001aมือ\u001aเดียว\u001a \u001a2\u001a \u001aชิ้น\u001a"]
+        }
+    },
+    "1500000171": {
+        "name": "Blessed Raiment",
+        "compendium_id": 90172,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915602],
+        "effects": ["Grant 'Blessed Raiment' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": ["Blessed Raiment", "聖潔衣裳", "축복받은 의복", "Parure sacrée", "Gesegnetes Gewand", "Atuendo bendito", "Pakaian yang Diberkati", "ชุด\u001aแห่ง\u001aพร\u001aวิเศษ\u001a"],
+            "desc_short": ["Boost HP by 10% and SPR by 20%, and restore MP by 5% every turn", "提高10%HP、20%精神+每回合恢復5%MP", "HP 10%, 정신력 20% 상승+매 턴마다 MP 5% 회복", "Augmente les PV de 10 % et la PSY de 20 %, et restaure 5 % des PM à chaque tour", "Erhöht LP um 10% sowie PSY um 20% und regeneriert jede Runde MP um 5%.", "Aumenta la VIT un 10% y el ESP un 20%, y recupera un 5% de PM cada turno", "Meningkatkan HP sebanyak 10% dan SPR sebanyak 20%, serta memulihkan MP sebanyak 5% setiap giliran", "เพิ่มค่า\u001a \u001aHP\u001a \u001a10% \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aMP\u001a \u001a5% \u001aทุก\u001aเทิร์น\u001a"],
+            "desc_long": ["Boosts HP by 10% and SPR by 20%, and restores MP by 5% every turn.", "提高10%HP、20%精神，以及每回合恢復5%MP。", "HP가 10%, 정신력이 20% 상승하고, 매 턴마다 MP를 5% 회복합니다.", "Augmente les PV de 10 % et la PSY de 20 %, et restaure 5 % des PM à chaque tour", "Erhöht LP um 10% sowie PSY um 20% und regeneriert jede Runde MP um 5%.", "Aumenta la VIT un 10% y el ESP un 20%, y recupera un 5% de PM cada turno.", "Meningkatkan HP sebanyak 10% dan SPR sebanyak 20%, serta memulihkan MP sebanyak 5% setiap giliran.", "เพิ่มค่า\u001a \u001aHP\u001a \u001a10% \u001aและ\u001a \u001aSPR\u001a \u001a20% \u001a+\u001a \u001aฟื้นฟู\u001a \u001aMP\u001a \u001a5% \u001aทุก\u001aเทิร์น\u001a"]
+        }
+    },
+    "1500000172": {
+        "name": "On to the Next Adventure",
+        "compendium_id": 90173,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915603],
+        "effects": ["Grant 'On to the Next Adventure' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": ["On to the Next Adventure", "投入下一場冒險", "다음 모험으로", "Vers de nouvelles aventures", "Auf zum nächsten Abenteuer", "¡A la próxima aventura!", "Lanjut ke petualangan berikutnya!", "สู่\u001aการผจญภัย\u001aครั้ง\u001aถัดไป\u001a"],
+            "desc_short": ["Boost MP and DEF by 30%", "提高30%MP防禦", "MP와 방어력 30% 상승", "Augmente les PM et la DEF de 30 %", "Erhöht MP und ABW um 30%.", "Aumenta los PM y la DEF un 30%", "Meningkatkan MP dan DEF sebanyak 30%", "เพิ่มค่า\u001a \u001aMP\u001a \u001aและ\u001a \u001aDEF\u001a \u001a30%"],
+            "desc_long": ["Boosts MP and DEF by 30%.", "提高30%MP防禦。", "MP와 방어력이 30% 상승합니다.", "Augmente les PM et la DEF de 30 %", "Erhöht MP und ABW um 30%.", "Aumenta los PM y la DEF un 30%.", "Meningkatkan MP dan DEF sebanyak 30%.", "เพิ่มค่า\u001a \u001aMP\u001a \u001aและ\u001a \u001aDEF\u001a \u001a30%"]
         }
     },
     "1500000173": {
@@ -26890,6 +27070,38 @@
         }
     },
     "1500000174": {
-        "unique": true
+        "name": "Adventuring with Friends+",
+        "compendium_id": 90175,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [915695],
+        "effects": ["Grant 'Adventuring with Friends+' passive"],
+        "unique": true,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": ["Adventuring with Friends+", "攜友歷險+", "친구들과의 모험+", "Aventure entre amis +", "Ein Abenteuer mit Freunden +", "De aventuras con amigos+", "Berpetualang Bersama Teman-Teman+", "ผจญภัย\u001aกับ\u001aผอง\u001aเพื่อน\u001a+\u001a"],
+            "desc_short": [
+                "Boost HP and SPR by 40% and MP and DEF by 30%, boost LB gauge fill rate by 50%, and nullify sleep and silence (Not stackable)",
+                "提高40%HP精神、30%MP防禦+提高50%極限技石對極限技槽的增加量+睡眠沉默無效[無法重複裝備]",
+                "HP와 정신력 40%, MP와 방어력 30% 상승+LB 게이지 효율 50% 상승+수면과 침묵 무효화 (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 %, augmente les PM et la DEF de 30 %, augmente le taux de remplissage de la jauge de limite de 50 %, et annule sommeil et silence (non cumulable)",
+                "Erhöht LP und PSY um 40% sowie MP und ABW um 30%, Limitmeter füllt sich um 50% schneller und annulliert Schlaf sowie Stille (nicht stapelbar).",
+                "Aumenta la VIT y el ESP un 40% y los PM y la DEF un 30%, la barra de EL se rellena un 50% más rápido y anula sueño y silencio (no acumulable)",
+                "Meningkatkan HP dan SPR sebanyak 40%, dan MP dan DEF sebanyak 30%, meningkatkan kecepatan pengisian bar LB sebanyak 50%, serta menihilkan status sleep dan silence (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aSPR\u001a \u001a40% และ MP, DEF\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a50% + ยกเลิกสถานะ Sleep\u001a \u001aและ\u001a \u001aSilence\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts HP and SPR by 40% and MP and DEF by 30%, boosts LB gauge fill rate by 50%, and nullifies sleep and silence. Not stackable.",
+                "提高40%HP精神、30%MP防禦，以及提高50%極限技石對極限技槽的增加量，並且睡眠沉默無效。[無法重複裝備]",
+                "HP와 정신력이 40%, MP와 방어력이 30% 상승하고, LB 게이지 효율이 50% 상승하며, 수면과 침묵을 무효화합니다. (중복 장착 불가)",
+                "Augmente les PV et la PSY de 40 %, augmente les PM et la DEF de 30 %, augmente le taux de remplissage de la jauge de limite de 50 %, et annule sommeil et silence. Non cumulable.",
+                "Erhöht LP und PSY um 40% sowie MP und ABW um 30%, Limitmeter füllt sich um 50% schneller und annulliert Schlaf sowie Stille. Nicht stapelbar.",
+                "Aumenta la VIT y el ESP un 40% y los PM y la DEF un 30%, la barra de EL se rellena un 50% más rápido y anula sueño y silencio. No acumulable.",
+                "Meningkatkan HP dan SPR sebanyak 40%, dan MP dan DEF sebanyak 30%, meningkatkan kecepatan pengisian bar LB sebanyak 50%, serta menihilkan status sleep dan silence. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aSPR\u001a \u001a40% และ MP, DEF\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a50% + ยกเลิกสถานะ Sleep\u001a \u001aและ\u001a \u001aSilence\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
     }
 }
