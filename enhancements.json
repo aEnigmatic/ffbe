@@ -89,7 +89,7 @@
                 "270001000": 1
             }
         },
-        "units": [100035807, 100035817, 100014005],
+        "units": [100035807, 100035817],
         "strings": {
             "names": ["Thundaja", "強雷電", "선더쟈", "Foudre max", "Blitzka", "Electro+++", "Thundaja", "Thundaja\u001a"],
             "description": ["4500%", "4500%", "4500%", "4500 %", "4500%", "4500%", "4500%", "\u001a4500%"]
@@ -109,30 +109,10 @@
                 "270001000": 2
             }
         },
-        "units": [100035807, 100035817, 100014005],
+        "units": [100035807, 100035817],
         "strings": {
             "names": ["Thundaja", "強雷電", "선더쟈", "Foudre max", "Blitzka", "Electro+++", "Thundaja", "Thundaja\u001a"],
             "description": ["6500%", "6500%", "6500%", "6500 %", "6500%", "6500%", "6500%", "\u001a6500%"]
-        }
-    },
-    "20310003": {
-        "name": "Thundaja",
-        "skill_id_old": 70471,
-        "skill_id_new": 70476,
-        "cost": {
-            "gil": 500000,
-            "materials": {
-                "270000600": 31,
-                "270000700": 20,
-                "270000800": 16,
-                "270000900": 6,
-                "270001000": 3
-            }
-        },
-        "units": [100014005],
-        "strings": {
-            "names": ["Thundaja", "強雷電", "선더쟈", "Foudre max", "Blitzka", "Electro+++", "Thundaja", "Thundaja\u001a"],
-            "description": [null, null, null, null, null, null, null, null]
         }
     },
     "30210001": {
@@ -2841,7 +2821,7 @@
                 "270000900": 1
             }
         },
-        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407, 100035807, 100035817],
+        "units": [215002407, 100034407, 100035807, 100035817],
         "strings": {
             "names": ["Thundaga", "大雷電", "선더가", "Foudre X", "Blitzga", "Electro++", "Thundaga", "Thundaga\u001a"],
             "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
@@ -2861,7 +2841,7 @@
                 "270001000": 1
             }
         },
-        "units": [254000905, 215002407, 209001405, 209002907, 209002917, 100034407, 100035807, 100035817],
+        "units": [215002407, 100034407, 100035807, 100035817],
         "strings": {
             "names": ["Thundaga", "大雷電", "선더가", "Foudre X", "Blitzga", "Electro++", "Thundaga", "Thundaga\u001a"],
             "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
@@ -80635,6 +80615,225 @@
         "strings": {
             "names": ["Mascophony", "吉祥物交響曲", "마스코포니", "Mascophonie", "Maskophonie", "Mascofonía", "Mascophony", "Mascophony\u001a"],
             "description": ["17500%", "17500%", "17500%", "17 500 %", "17500%", "17 500%", "17500%", "\u001a17500%"]
+        }
+    },
+    "915552001": {
+        "name": "Reliquarian",
+        "skill_id_old": 915552,
+        "skill_id_new": 915553,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 20,
+                "271001100": 10
+            }
+        },
+        "units": [401012007, 401012017],
+        "strings": {
+            "names": ["Reliquarian", "聖物箱", "유물 전문가", "Amatrice de reliques", "Fachfrau für Reliquien", "Relicario", "Relikuarium", "นัก\u001aล่า\u001aวัตถุ\u001aศักดิ์สิทธิ์\u001a"],
+            "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
+        }
+    },
+    "915552002": {
+        "name": "Reliquarian",
+        "skill_id_old": 915553,
+        "skill_id_new": 915554,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001000": 30,
+                "271001100": 20,
+                "1209001294": 10
+            }
+        },
+        "units": [401012007, 401012017],
+        "strings": {
+            "names": ["Reliquarian", "聖物箱", "유물 전문가", "Amatrice de reliques", "Fachfrau für Reliquien", "Relicario", "Relikuarium", "นัก\u001aล่า\u001aวัตถุ\u001aศักดิ์สิทธิ์\u001a"],
+            "description": ["160%", "160%", "160%", "160 %", "160%", "160%", "160%", "\u001a160%"]
+        }
+    },
+    "915552003": {
+        "name": "Reliquarian",
+        "skill_id_old": 915554,
+        "skill_id_new": 915555,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001000": 50,
+                "271001100": 30,
+                "271001200": 5,
+                "1209001294": 20
+            }
+        },
+        "units": [401012007, 401012017],
+        "strings": {
+            "names": ["Reliquarian", "聖物箱", "유물 전문가", "Amatrice de reliques", "Fachfrau für Reliquien", "Relicario", "Relikuarium", "นัก\u001aล่า\u001aวัตถุ\u001aศักดิ์สิทธิ์\u001a"],
+            "description": ["170%", "170%", "170%", "170 %", "170%", "170%", "170%", "\u001a170%"]
+        }
+    },
+    "915552004": {
+        "name": "Reliquarian",
+        "skill_id_old": 915555,
+        "skill_id_new": 915556,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001000": 100,
+                "271001100": 50,
+                "271001200": 10,
+                "1209001294": 30
+            }
+        },
+        "units": [401012007, 401012017],
+        "strings": {
+            "names": ["Reliquarian", "聖物箱", "유물 전문가", "Amatrice de reliques", "Fachfrau für Reliquien", "Relicario", "Relikuarium", "นัก\u001aล่า\u001aวัตถุ\u001aศักดิ์สิทธิ์\u001a"],
+            "description": ["180%", "180%", "180%", "180 %", "180%", "180%", "180%", "\u001a180%"]
+        }
+    },
+    "915561001": {
+        "name": "Hot Shot",
+        "skill_id_old": 915561,
+        "skill_id_new": 915562,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 20,
+                "271000200": 10
+            }
+        },
+        "units": [401012007],
+        "strings": {
+            "names": ["Hot Shot", "精確射擊", "위태로운 사격", "As de la gâchette", "Glühende Pistolen", "Disparo candente", "Hot Shot", "ยิง\u001aกระสุน\u001aร้อนแรง\u001a"],
+            "description": ["7300%", "7300%", "7300%", "7300 %", "7300%", "7300%", "7300%", "\u001a7300%"]
+        }
+    },
+    "915561002": {
+        "name": "Hot Shot",
+        "skill_id_old": 915562,
+        "skill_id_new": 915563,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 30,
+                "271000200": 20,
+                "1209001294": 10
+            }
+        },
+        "units": [401012007],
+        "strings": {
+            "names": ["Hot Shot", "精確射擊", "위태로운 사격", "As de la gâchette", "Glühende Pistolen", "Disparo candente", "Hot Shot", "ยิง\u001aกระสุน\u001aร้อนแรง\u001a"],
+            "description": ["7800%", "7800%", "7800%", "7800 %", "7800%", "7800%", "7800%", "\u001a7800%"]
+        }
+    },
+    "915561003": {
+        "name": "Hot Shot",
+        "skill_id_old": 915563,
+        "skill_id_new": 915564,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271000100": 50,
+                "271000200": 30,
+                "271000300": 5,
+                "1209001294": 20
+            }
+        },
+        "units": [401012007],
+        "strings": {
+            "names": ["Hot Shot", "精確射擊", "위태로운 사격", "As de la gâchette", "Glühende Pistolen", "Disparo candente", "Hot Shot", "ยิง\u001aกระสุน\u001aร้อนแรง\u001a"],
+            "description": ["8300%+2000%", "8300%", "8300%+5% 당 2000%", "8300 % + 2000 %", "8300%", "8300%+2000%", "8300%+2000%", "\u001a8300%+2000%"]
+        }
+    },
+    "915561004": {
+        "name": "Hot Shot",
+        "skill_id_old": 915564,
+        "skill_id_new": 915565,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271000100": 100,
+                "271000200": 50,
+                "271000300": 10,
+                "1209001294": 30
+            }
+        },
+        "units": [401012007],
+        "strings": {
+            "names": ["Hot Shot", "精確射擊", "위태로운 사격", "As de la gâchette", "Glühende Pistolen", "Disparo candente", "Hot Shot", "ยิง\u001aกระสุน\u001aร้อนแรง\u001a"],
+            "description": ["8800%", "8800%", "8800%", "8800 %", "8800%", "8800%", "8800%", "\u001a8800%"]
+        }
+    },
+    "915571001": {
+        "name": "Volatile Ammunition",
+        "skill_id_old": 915571,
+        "skill_id_new": 915573,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 20,
+                "271000200": 10
+            }
+        },
+        "units": [401012017],
+        "strings": {
+            "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
+            "description": ["120%", "120%", "120%", "120 %", "120%", "120%", "120%", "\u001a120%"]
+        }
+    },
+    "915571002": {
+        "name": "Volatile Ammunition",
+        "skill_id_old": 915573,
+        "skill_id_new": 915575,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 30,
+                "271000200": 20,
+                "1209001294": 10
+            }
+        },
+        "units": [401012017],
+        "strings": {
+            "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
+            "description": ["125%", "125%", "125%", "125 %", "125%", "125%", "125%", "\u001a125%"]
+        }
+    },
+    "915571003": {
+        "name": "Volatile Ammunition",
+        "skill_id_old": 915575,
+        "skill_id_new": 915577,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271000100": 50,
+                "271000200": 30,
+                "271000300": 5,
+                "1209001294": 20
+            }
+        },
+        "units": [401012017],
+        "strings": {
+            "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
+            "description": ["130%", "130%", "130%", "130 %", "130%", "130%", "130%", "\u001a130%"]
+        }
+    },
+    "915571004": {
+        "name": "Volatile Ammunition",
+        "skill_id_old": 915577,
+        "skill_id_new": 915579,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271000100": 100,
+                "271000200": 50,
+                "271000300": 10,
+                "1209001294": 30
+            }
+        },
+        "units": [401012017],
+        "strings": {
+            "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
+            "description": ["135%", "135%", "135%", "135 %", "135%", "135%", "135%", "\u001a135%"]
         }
     }
 }
