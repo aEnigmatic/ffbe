@@ -7215,7 +7215,8 @@
             "9650160": "Avalanche's Tifa",
             "9650163": "Skye",
             "9650165": "Ygni",
-            "9650167": "Bulwark & the Melodic Mascots"
+            "9650167": "Bulwark & the Melodic Mascots",
+            "9650169": "Roca"
         }
     },
     "75701": {
@@ -7469,7 +7470,7 @@
         }
     },
     "76301": {
-        "names": ["Dark Castle", "黑暗城堡", "어둠의 성", "Château obscur", "Dunkles Schloss", "Castillo de la Oscuridad", "Kastel Kegelapan", "ปราสาท\u001aทมิฬ\u001a"],
+        "names": ["Dark Castle", "黑暗城堡", "다크 캐슬", "Château obscur", "Dunkles Schloss", "Castillo de la Oscuridad", "Kastel Kegelapan", "ปราสาท\u001aทมิฬ\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "763",
@@ -19836,6 +19837,11 @@
             "9300254": "Lightning Defense Challenge - PRO",
             "9300255": "Lightning Defense Challenge - ELT",
             "9300256": "Lightning Defense Challenge - LGD",
+            "9300258": "Magic Lightning Challenge - INT",
+            "9300259": "Magic Lightning Challenge - ADV",
+            "9300260": "Magic Lightning Challenge - PRO",
+            "9300261": "Magic Lightning Challenge - ELT",
+            "9300262": "Magic Lightning Challenge - LGD",
             "9300330": null,
             "9300331": null,
             "9300332": null,
@@ -20664,14 +20670,72 @@
         }
     },
     "94501": {
-        "names": ["35 Million Downloads Raffle", "3500萬下載 抽獎", "3천5백만 다운로드 추첨", "Loterie des 35 millions de téléchargements", "Tombola für 35 Millionen Downloads", "Sorteo por las 35 millones de descargas", "Undian Lotre 35 Juta Download", "จับฉลาก\u001aครบรอบ\u001a \u001a35\u001a \u001aล้าน\u001a \u001aDownloads\u001a"],
+        "names": ["Physical & Magical Domain of Lightning", "雷之攻魔域", "번개의 공마역", "Domaine physique et magique de la foudre", "Kämpferisches/Okkultes Reich des Blitzes", "Reino físico y mágico de rayo", "Wilayah Fisik dan Magic Petir", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aอสนี\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "945",
-        "position": [0, 0],
-        "icon": "spd_30Mill_Lottery.png",
+        "position": [495, 685],
+        "icon": "map_icon_92001.png",
         "missions": {
-            "9450101": "35 Million Downloads Raffle"
+            "9450101": "Physical & Magical Domain of Lightning 1",
+            "9450102": "Physical & Magical Domain of Lightning 2"
+        }
+    },
+    "94502": {
+        "names": ["Physical & Magical Domain of Wind", "風之攻魔域", "바람의 공마역", "Domaine physique et magique du vent", "Kämpferisches/Okkultes Reich des Winds", "Reino físico y mágico de viento", "Wilayah Fisik dan Magic Angin", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aวาตะ\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "945",
+        "position": [145, 515],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9450201": "Physical & Magical Domain of Wind 1",
+            "9450202": "Physical & Magical Domain of Wind 2"
+        }
+    },
+    "94503": {
+        "names": ["Physical & Magical Domain of Fire", "火之攻魔域", "불의 공마역", "Domaine physique et magique du feu", "Kämpferisches/Okkultes Reich des Feuers", "Reino físico y mágico de fuego", "Wilayah Fisik dan Magic Api", "อาณาจักร\u001aกายภาพ\u001aเวทย์\u001aแห่ง\u001aอัคคี\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "945",
+        "position": [495, 425],
+        "icon": "map_icon_92002.png",
+        "missions": {
+            "9450301": "Physical & Magical Domain of Fire 1",
+            "9450302": "Physical & Magical Domain of Fire 2"
+        }
+    },
+    "94504": {
+        "names": [
+            "(EX) Master's Phantom Domain",
+            "【EX】登峰造極者的幻域",
+            "[EX] 통달한 자의 환역",
+            "(EX) Domaine fantôme du maître",
+            "(EX) Phantomreich des Meisters",
+            "[EX] Reino ilusorio del maestro",
+            "(EX) Wilayah Ilusi sang Penguasa",
+            "(\u001aEX\u001a)\u001a \u001aอาณาจักร\u001aมายา\u001aแห่ง\u001aปรมาจารย์\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "945",
+        "position": [319, 260],
+        "icon": "map_icon_92003.png",
+        "missions": {
+            "9450401": "Physical Domain of Lightning and Darkness",
+            "9450402": "Physical Domain of Ice and Earth",
+            "9450501": "Traitorous Warlord"
+        }
+    },
+    "94509": {
+        "names": [null, null, null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "945",
+        "position": [150, 720],
+        "icon": "runningevent_icon_battle.png",
+        "missions": {
+            "9450901": null
         }
     },
     "94601": {
@@ -23066,6 +23130,27 @@
             "10840119": "Tomb Raider: Lost Valley - Daily Challenge",
             "10840120": "Tomb Raider: Lost Valley - Daily Challenge",
             "10840121": "Tomb Raider: Lost Valley - Daily Challenge"
+        }
+    },
+    "108501": {
+        "names": [
+            "Tomb Raider: The Great Pyramid",
+            "古墓奇兵：大金字塔",
+            "툼 레이더: 거대 피라미드",
+            "Tomb Raider : La Grande Pyramide",
+            "Tomb Raider: Die große Pyramide",
+            "Tomb Raider: La Gran pirámide",
+            "Tomb Raider: Piramida Agung",
+            "Tomb\u001a \u001aRaider\u001a:\u001a \u001aมหา\u001aพีระมิด\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1085",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00221.png",
+        "missions": {
+            "10850101": "Tomb Raider: The Great Pyramid - LGD",
+            "10850102": "Tomb Raider: The Great Pyramid - EXT"
         }
     },
     "111101": {
@@ -28005,102 +28090,104 @@
             "13010702": "The All-Encompassing Light (VII) - Colossal Radiance",
             "13010703": "The All-Encompassing Light (VII) - Flash of White",
             "13010704": "The All-Encompassing Light (VII) - Not Far Now",
-            "13010705": "The All-Encompassing Light (VII) - Our Only Hope"
+            "13010705": "The All-Encompassing Light (VII) - Our Only Hope",
+            "13010706": "The All-Encompassing Light (VII) - Showdown with the Will of Equilibrium",
+            "13010707": "The All-Encompassing Light (VII) - Showdown with the Will of Equilibrium 2"
         }
     },
     "131101": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Symphonia, the Scholastic City", "學園都市歆芙妮雅", "학원도시 심포니아", "Symphonia, la ville académique", "Symphonia, die Stadt des Lernens", "Symphonia, la ciudad de los estudiantes", "Kota Para Pelajar Symphonia", "Symphonia\u001a \u001aเมือง\u001aแห่ง\u001aความรู้\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [435, 2349],
         "icon": "map_icon_3990107_2.png",
         "missions": {
-            "13110101": null,
-            "13110102": null,
-            "13110103": null,
-            "13110104": null
+            "13110101": "Symphonia, the Scholastic City - Our Journey's End",
+            "13110102": "Symphonia, the Scholastic City - Familiar Sights",
+            "13110103": "Symphonia, the Scholastic City - Best Friends Together",
+            "13110104": "Symphonia, the Scholastic City - Approaching Farewell (I)"
         }
     },
     "131102": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Couleur, the Kingdom of Colors", "色彩之國庫魯爾", "색채의 왕국 클루르", "Royaume de Couleur", "Couleur, das Königreich der Farben", "Coloria, el reino de los colores", "Kerajaan Warna Couleur", "Couleur\u001a \u001aอาณาจักร\u001aแห่ง\u001aสีสัน\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [203, 2059],
         "icon": "map_icon_3990106_2.png",
         "missions": {
-            "13110201": null,
-            "13110202": null,
-            "13110203": null,
-            "13110204": null
+            "13110201": "Couleur, the Kingdom of Colors - Home Sweet Home!",
+            "13110202": "Couleur, the Kingdom of Colors - A Resplendent Homeland",
+            "13110203": "Couleur, the Kingdom of Colors - Welcome-Home Party",
+            "13110204": "Couleur, the Kingdom of Colors - Approaching Farewell (II)"
         }
     },
     "131103": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Kingdom of Illumia", "伊魯米亞王國", "일루미아 왕국", "Royaume d'Illumia", "Königreich Illumia", "Reino de Illumia", "Kerajaan Illumia", "อาณาจักร\u001a \u001aIllumia\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [435, 1798],
         "icon": "map_icon_3990105_2.png",
         "missions": {
-            "13110301": null,
-            "13110302": null,
-            "13110303": null,
-            "13110304": null
+            "13110301": "Kingdom of Illumia - Plans for the Future",
+            "13110302": "Kingdom of Illumia - A Forest Once Traveled",
+            "13110303": "Kingdom of Illumia - Going Home",
+            "13110304": "Kingdom of Illumia - Approaching Farewell (III)"
         }
     },
     "131104": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Wohlstok", "弗爾斯特克", "올스톡", "Wohlstok", "Wohlstok", "Wohlstok", "Wohlstok", "Wohlstok\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [203, 1566],
         "icon": "map_icon_3990104_2.png",
         "missions": {
-            "13110401": null,
-            "13110402": null,
-            "13110403": null,
-            "13110404": null
+            "13110401": "Wohlstok - Where I Belong",
+            "13110402": "Wohlstok - The End of a Long Journey",
+            "13110403": "Wohlstok - Coming Home Alone",
+            "13110404": "Wohlstok - Approaching Farewell (IV)"
         }
     },
     "131105": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["The Fortress City of Berga", "城塞都市貝爾加", "성채 도시 베르가", "Berga, la cité fortifiée", "Die Befestigte Stadt Berga", "Belgaria, la ciudad amurallada", "Kota Berbenteng Berga", "Berga\u001a \u001aนคร\u001aป้อมปราการ\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [435, 1363],
         "icon": "map_icon_4000103_2.png",
         "missions": {
-            "13110501": null,
-            "13110502": null,
-            "13110503": null,
-            "13110504": null
+            "13110501": "Berga - Finally Together",
+            "13110502": "Berga - Home in the Fortress City",
+            "13110503": "Berga - A Solitary Homecoming",
+            "13110504": "Berga - With My Family"
         }
     },
     "131106": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Paladia", "帕拉迪亞", "파라디아", "Paladia", "Paladia", "Paladia", "Paladia", "Paladia\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [348, 1015],
         "icon": "map_icon_3990103_2.png",
         "missions": {
-            "13110601": null,
-            "13110602": null,
-            "13110603": null,
-            "13110604": null
+            "13110601": "Paladia - That's Everyone",
+            "13110602": "Paladia - Time Alone",
+            "13110603": "Paladia - What the Future Holds",
+            "13110604": "Paladia - VS Neilikka & Rhus"
         }
     },
     "131107": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Lapis", "拉比斯", "라피스", "Lapis", "Lapis", "Lapis", "Lapis", "Lapis\u001a"],
         "world_id": 4,
         "region_id": "52",
         "subregion_id": "1279",
         "position": [348, 406],
         "icon": "map_icon_1110202.png",
         "missions": {
-            "13110701": null
+            "13110701": "Lapis (Grandshelt) - I'll Save You This Time!"
         }
     },
     "140101": {
@@ -34231,30 +34318,39 @@
         }
     },
     "405001": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["A Journey Filled with Love", "充滿愛的冒險", "사랑으로 가득 찬 모험", "Un voyage rempli d'amour", "Eine Reise voller Liebe", "Un viaje repleto de amor", "Perjalanan Penuh Kasih Sayang", "ผจญภัย\u001aกรุ่น\u001aไอ\u001aรัก\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4050",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40500101": null,
-            "40500102": null,
-            "40500103": null,
-            "40500104": null,
-            "40500105": null,
-            "40500106": null
+            "40500101": "A Journey Filled with Love Lvl. 1",
+            "40500102": "A Journey Filled with Love Lvl. 2",
+            "40500103": "A Journey Filled with Love Lvl. 3",
+            "40500104": "A Journey Filled with Love Lvl. 4",
+            "40500105": "A Journey Filled with Love Lvl. 5",
+            "40500106": "A Journey Filled with Love - OP"
         }
     },
     "405101": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": [
+            "Rainbow Tower: Zenith",
+            "虹色之塔·最上層",
+            "무지개의 탑·최상층",
+            "Tour arc-en-ciel : Sommet",
+            "Regenbogenturm: Oberste Etage",
+            "Torre Arcoíris: Cima",
+            "Menara Pelangi: Puncak",
+            "หอคอย\u001aสายรุ้ง\u001a:\u001a \u001aส่วน\u001aยอด\u001aหอคอย\u001a"
+        ],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4051",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40510101": null
+            "40510101": "Rainbow Tower: Zenith"
         }
     },
     "500001": {
@@ -35071,23 +35167,23 @@
         }
     },
     "700401": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Voa Andigo", "沃亞・安迪哥戰", "보아 앤디고전", "Voa Andigo", "Voa Andigo", "Voa Andigo", "Voa Andigo", "ศึก\u001a \u001aVoa\u001a \u001aAndigo\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "7004",
         "position": [0, 0],
         "icon": "spd_20210531_bn_list_Chronicle_FFBE3rd_Voir.png",
         "missions": {
-            "70040101": null,
-            "70040102": null,
-            "70040103": null,
-            "70040104": null,
-            "70040105": null,
-            "70040106": null,
-            "70040107": null,
-            "70040108": null,
-            "70040109": null,
-            "70040110": null
+            "70040101": "Voa Andigo Lvl. 1",
+            "70040102": "Voa Andigo Lvl. 2",
+            "70040103": "Voa Andigo Lvl. 3",
+            "70040104": "Voa Andigo Lvl. 4",
+            "70040105": "Voa Andigo Lvl. 5",
+            "70040106": "Voa Andigo Lvl. 6",
+            "70040107": "Voa Andigo Lvl. 7",
+            "70040108": "Voa Andigo Lvl. 8",
+            "70040109": "Voa Andigo Lvl. 9",
+            "70040110": "Voa Andigo Lvl. 10"
         }
     },
     "700402": {
@@ -35111,14 +35207,14 @@
         }
     },
     "700403": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["The Will of Oblivion", "虛無意志戰", "허무의 의지전", "La Volonté du Fantôme", "Bewusstsein der Leere", "Voluntad de la Distorsión", "Kehendak Kehampaan", "ศึก\u001aเจตนารมณ์\u001aแห่ง\u001a \u001aHollow\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "7004",
         "position": [0, 0],
         "icon": "spd_20210531_bn_list_Chronicle_FFBE3rd_EX.png",
         "missions": {
-            "70040301": null
+            "70040301": "The Will of Oblivion"
         }
     },
     "706001": {
