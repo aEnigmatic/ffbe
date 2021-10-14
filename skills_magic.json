@@ -4684,27 +4684,29 @@
         "requirements": null
     },
     "30530": {
-        "name": "エンストーン",
+        "name": "Enstone",
         "icon": "ability_28.png",
         "compendium_id": 251,
         "rarity": 7,
         "cost": {"MP": 32},
         "magic_type": "Green",
         "is_sealable": true,
-        "is_reflectable": true,
+        "is_reflectable": false,
         "in_exploration": false,
         "attack_count": [0],
         "attack_damage": [[]],
         "attack_frames": [[]],
-        "effect_frames": [[]],
+        "effect_frames": [[40,  40,  40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Add Earth element (100%) to physical attacks for 3 turns to one ally"]
+            ["Add Earth element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Earth physical damage by 15% to all allies for 5 turns"],
+            ["Increase Earth magic damage by 15% to all allies for 5 turns"]
         ],
-        "effects_raw": [[1, 2, 95, [0,  0,  0,  0,  0,  100,  0,  0,  3,  1]]],
+        "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  100,  0,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  15,  0,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  15,  0,  0], 1, 5, 1]]],
         "requirements": null
     },
     "30560": {

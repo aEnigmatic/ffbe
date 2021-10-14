@@ -1754,6 +1754,43 @@
             "description": ["Boosts drain amount (mid)", "提高吸收量(中)", "흡수량 상승(중)", "Augmente l'efficacité du drainage (moyen)", "Verstärkt Stehlen (mittel)", "Aumenta la potencia de drenaje (bastante)", "Meningkatkan daya absorbsi (sedang)", "\u001aเพิ่มปริมาณ\u001aที่\u001aดูดกลืน\u001a \u001a(\u001aปานกลาง\u001a)"]
         }
     },
+    "200300001": {
+        "name": "Iai Strike",
+        "skill_id_old": 200300,
+        "skill_id_new": 708964,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3
+            }
+        },
+        "units": [100030727],
+        "strings": {
+            "names": ["Iai Strike", "居合斬", "발도술", "Iainuki", "Todesklinge", "Arte Iaido", "Tebasan Iai", "เพ\u001aลงดาบ\u001aอิ\u001aไอ\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
+    "200300002": {
+        "name": "Iai Strike",
+        "skill_id_old": 708964,
+        "skill_id_new": 708965,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [100030727],
+        "strings": {
+            "names": ["Iai Strike", "居合斬", "발도술", "Iainuki", "Todesklinge", "Arte Iaido", "Tebasan Iai", "เพ\u001aลงดาบ\u001aอิ\u001aไอ\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
+        }
+    },
     "200310001": {
         "name": "Barrage",
         "skill_id_old": 200310,
@@ -1824,6 +1861,62 @@
         "strings": {
             "names": ["Mirror of Equity", "明鏡", "잔잔한 거울", "Sérénité", "Kata", "Tranquilidad", "Cermin Keadilan", "Mirror\u001a \u001aof\u001a \u001aEquity\u001a"],
             "description": ["Boosts damage amount (mid)", "提高傷害量(中)", "피해량 상승(중)", "Augmente les dégâts infligés (moyen)", "Erhöht Schaden (mittel)", "Aumenta el daño (bastante)", "Meningkatkan damage (sedang)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001a \u001a(\u001aปานกลาง\u001a)"]
+        }
+    },
+    "200440001": {
+        "name": "Bladeblitz",
+        "skill_id_old": 200440,
+        "skill_id_new": 708961,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 10,
+                "270002700": 8,
+                "270002800": 3
+            }
+        },
+        "units": [100030727],
+        "strings": {
+            "names": ["Bladeblitz", "全斬", "전방위 베기", "Lame éclair", "Klingenblitz", "Relámpago de acero", "Bladeblitz", "Bladeblitz\u001a"],
+            "description": ["2400%", "2400%", "2400%", "2400 %", "2400%", "2400%", "2400%", "\u001a2400%"]
+        }
+    },
+    "200440002": {
+        "name": "Bladeblitz",
+        "skill_id_old": 708961,
+        "skill_id_new": 708962,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 12,
+                "270002800": 5,
+                "270002900": 1
+            }
+        },
+        "units": [100030727],
+        "strings": {
+            "names": ["Bladeblitz", "全斬", "전방위 베기", "Lame éclair", "Klingenblitz", "Relámpago de acero", "Bladeblitz", "Bladeblitz\u001a"],
+            "description": ["4800%", "4800%", "4800%", "4800 %", "4800%", "4800%", "4800%", "\u001a4800%"]
+        }
+    },
+    "200440003": {
+        "name": "Bladeblitz",
+        "skill_id_old": 708962,
+        "skill_id_new": 708963,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 16,
+                "270002800": 8,
+                "270002900": 2
+            }
+        },
+        "units": [100030727],
+        "strings": {
+            "names": ["Bladeblitz", "全斬", "전방위 베기", "Lame éclair", "Klingenblitz", "Relámpago de acero", "Bladeblitz", "Bladeblitz\u001a"],
+            "description": ["9600%", "9600%", "9600%", "9600 %", "9600%", "9600%", "9600%", "\u001a9600%"]
         }
     },
     "200450001": {
@@ -2978,7 +3071,7 @@
                 "270000900": 1
             }
         },
-        "units": [213000504, 100033407, 100033417, 100024105, 100034707, 100034717],
+        "units": [213000504, 100033407, 100033417, 100024105, 100034707, 100034717, 100035307],
         "strings": {
             "names": ["Waterga", "大流水", "워터가", "Eau X", "Aquaga", "Aqua++", "Waterga", "Waterga\u001a"],
             "description": ["3000%", "3000%", "3000%", "3000 %", "3000%", "3000%", "3000%", "\u001a3000%"]
@@ -2998,7 +3091,7 @@
                 "270001000": 1
             }
         },
-        "units": [213000504, 100033407, 100033417, 100024105, 100034707, 100034717],
+        "units": [213000504, 100033407, 100033417, 100024105, 100034707, 100034717, 100035307],
         "strings": {
             "names": ["Waterga", "大流水", "워터가", "Eau X", "Aquaga", "Aqua++", "Waterga", "Waterga\u001a"],
             "description": ["4000%", "4000%", "4000%", "4000 %", "4000%", "4000%", "4000%", "\u001a4000%"]
@@ -6119,10 +6212,10 @@
                 "270000700": 15,
                 "270000800": 10,
                 "270000900": 4,
-                "270001000": 1
+                "270001000": 2
             }
         },
-        "units": [100000315, 206000125, 100007205, 100008205, 100016905, 100016927, 100014005],
+        "units": [100000315, 206000125, 100007205, 100008205, 100016905, 100016927, 100014005, 100035307],
         "strings": {
             "names": ["Ultima", "究極", "알테마", "Ultima", "Ultima", "Artema", "Ultima", "Ultima\u001a"],
             "description": ["45", "45", "45", "45", "45", "45", "45", "\u001a45\u001a"]
@@ -6142,7 +6235,7 @@
                 "270001000": 2
             }
         },
-        "units": [100000315, 206000125, 100007205, 100008205, 100016905, 100016927],
+        "units": [100000315, 206000125, 100007205, 100008205, 100016905, 100016927, 100014005, 100035307],
         "strings": {
             "names": ["Ultima", "究極", "알테마", "Ultima", "Ultima", "Artema", "Ultima", "Ultima\u001a"],
             "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
@@ -36429,6 +36522,161 @@
             "description": ["Boosts increase to damage for jump attacks (to 150%)", "提高跳躍系能力的傷害增加量(至150%)", "점프 계열 어빌리티 피해 상승량 상승(150%)", "Amplifie l'augmentation des dégâts des attaques sautées (à 150 %)", "Steigert Schadenserhöhung von Sprungangriffen (auf 150%)", "Mayor aumento del daño de ataques de salto (a un 150%)", "Menambah jumlah peningkatan damage ability Jump (menjadi 150%)", "\u001aเพิ่มค่า\u001aความเสียหาย\u001aจาก\u001aการ\u001aโจมตี\u001aแบบ\u001aกระโดด\u001aที่\u001aถูก\u001aเพิ่ม\u001a \u001a(\u001aเป็น\u001a \u001a150%)"]
         }
     },
+    "235887001": {
+        "name": "Soul's Symphonia",
+        "skill_id_old": 235887,
+        "skill_id_new": 708955,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": ["Soul's Symphonia", "魂之歆芙妮雅", "영혼의 심포니아", "Symphonie des âmes", "Seelensymphonie", "Sinfonía del alma", "Simfoni Jiwa", "ร่วม\u001aบรรเลง\u001aเพลง\u001aวิญญาณ\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
+        }
+    },
+    "235887002": {
+        "name": "Soul's Symphonia",
+        "skill_id_old": 708955,
+        "skill_id_new": 708956,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": ["Soul's Symphonia", "魂之歆芙妮雅", "영혼의 심포니아", "Symphonie des âmes", "Seelensymphonie", "Sinfonía del alma", "Simfoni Jiwa", "ร่วม\u001aบรรเลง\u001aเพลง\u001aวิญญาณ\u001a"],
+            "description": ["15000%", "15000%", "15000%", "15 000 %", "15000%", "15000%", "15000%", "\u001a15000%"]
+        }
+    },
+    "235888001": {
+        "name": "Funeral Dirge - Machina",
+        "skill_id_old": 235888,
+        "skill_id_new": 708957,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": [
+                "Funeral Dirge - Machina",
+                "葬別哀歌【機械】",
+                "장송의 음률: 기계",
+                "Hymne funèbre - Machine",
+                "Grabgesang – Maschine",
+                "Réquiem para máquinas",
+                "Requiem - Mesin",
+                "เพลง\u001aไว้ทุกข์\u001aส่งวิญญาณ\u001a \u001a-\u001a \u001aจักรกล\u001a"
+            ],
+            "description": ["75%", "75%", "75%", "75 %", "75%", "75%", "75%", "\u001a75%"]
+        }
+    },
+    "235888002": {
+        "name": "Funeral Dirge - Machina",
+        "skill_id_old": 708957,
+        "skill_id_new": 708958,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": [
+                "Funeral Dirge - Machina",
+                "葬別哀歌【機械】",
+                "장송의 음률: 기계",
+                "Hymne funèbre - Machine",
+                "Grabgesang – Maschine",
+                "Réquiem para máquinas",
+                "Requiem - Mesin",
+                "เพลง\u001aไว้ทุกข์\u001aส่งวิญญาณ\u001a \u001a-\u001a \u001aจักรกล\u001a"
+            ],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
+    "235889001": {
+        "name": "Funeral Dirge - Reaper",
+        "skill_id_old": 235889,
+        "skill_id_new": 708959,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": [
+                "Funeral Dirge - Reaper",
+                "葬別哀歌【死靈】",
+                "장송의 음률: 사령",
+                "Hymne funèbre - Mort-vivant",
+                "Grabgesang – Untoter",
+                "Réquiem para muertos vivientes",
+                "Requiem - Makhluk Halus",
+                "เพลง\u001aไว้ทุกข์\u001aส่งวิญญาณ\u001a \u001a-\u001a \u001aภูตผี\u001a"
+            ],
+            "description": ["75%", "75%", "75%", "75 %", "75%", "75%", "75%", "\u001a75%"]
+        }
+    },
+    "235889002": {
+        "name": "Funeral Dirge - Reaper",
+        "skill_id_old": 708959,
+        "skill_id_new": 708960,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 2
+            }
+        },
+        "units": [100030705],
+        "strings": {
+            "names": [
+                "Funeral Dirge - Reaper",
+                "葬別哀歌【死靈】",
+                "장송의 음률: 사령",
+                "Hymne funèbre - Mort-vivant",
+                "Grabgesang – Untoter",
+                "Réquiem para muertos vivientes",
+                "Requiem - Makhluk Halus",
+                "เพลง\u001aไว้ทุกข์\u001aส่งวิญญาณ\u001a \u001a-\u001a \u001aภูตผี\u001a"
+            ],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
+        }
+    },
     "238103001": {
         "name": "Unleashed Evocation",
         "skill_id_old": 238103,
@@ -64543,7 +64791,7 @@
         }
     },
     "300001543": {
-        "name": null,
+        "name": "Lucidus Blade",
         "skill_id_old": 241861,
         "skill_id_new": 241862,
         "cost": {
@@ -64555,12 +64803,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Lucidus Blade", "流光之刃", "광명의 칼날", "Lumino-lame", "Erleuchtete Klinge", "Xifos leukos", "Lucidus Blade", "ดาบ\u001aแสง\u001aเจิดจ้า\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001544": {
-        "name": null,
+        "name": "Lucidus Blade",
         "skill_id_old": 241862,
         "skill_id_new": 241863,
         "cost": {
@@ -64573,12 +64821,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Lucidus Blade", "流光之刃", "광명의 칼날", "Lumino-lame", "Erleuchtete Klinge", "Xifos leukos", "Lucidus Blade", "ดาบ\u001aแสง\u001aเจิดจ้า\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
         }
     },
     "300001545": {
-        "name": null,
+        "name": "Lucidus Blade",
         "skill_id_old": 241863,
         "skill_id_new": 241864,
         "cost": {
@@ -64592,12 +64840,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Lucidus Blade", "流光之刃", "광명의 칼날", "Lumino-lame", "Erleuchtete Klinge", "Xifos leukos", "Lucidus Blade", "ดาบ\u001aแสง\u001aเจิดจ้า\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001546": {
-        "name": null,
+        "name": "Lucidus Blade",
         "skill_id_old": 241864,
         "skill_id_new": 241865,
         "cost": {
@@ -64611,12 +64859,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Lucidus Blade", "流光之刃", "광명의 칼날", "Lumino-lame", "Erleuchtete Klinge", "Xifos leukos", "Lucidus Blade", "ดาบ\u001aแสง\u001aเจิดจ้า\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001547": {
-        "name": null,
+        "name": "Liquidus Blade",
         "skill_id_old": 241866,
         "skill_id_new": 241867,
         "cost": {
@@ -64628,12 +64876,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Liquidus Blade", "液相之刃", "청수의 칼날", "Hydro-lame", "Fließende Klinge", "Xifos hidro", "Liquidus Blade", "ดาบ\u001aวารี\u001aไหล\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001548": {
-        "name": null,
+        "name": "Liquidus Blade",
         "skill_id_old": 241867,
         "skill_id_new": 241868,
         "cost": {
@@ -64646,12 +64894,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Liquidus Blade", "液相之刃", "청수의 칼날", "Hydro-lame", "Fließende Klinge", "Xifos hidro", "Liquidus Blade", "ดาบ\u001aวารี\u001aไหล\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
         }
     },
     "300001549": {
-        "name": null,
+        "name": "Liquidus Blade",
         "skill_id_old": 241868,
         "skill_id_new": 241869,
         "cost": {
@@ -64665,12 +64913,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Liquidus Blade", "液相之刃", "청수의 칼날", "Hydro-lame", "Fließende Klinge", "Xifos hidro", "Liquidus Blade", "ดาบ\u001aวารี\u001aไหล\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001550": {
-        "name": null,
+        "name": "Liquidus Blade",
         "skill_id_old": 241869,
         "skill_id_new": 241870,
         "cost": {
@@ -64684,12 +64932,12 @@
         },
         "units": [100035307],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Liquidus Blade", "液相之刃", "청수의 칼날", "Hydro-lame", "Fließende Klinge", "Xifos hidro", "Liquidus Blade", "ดาบ\u001aวารี\u001aไหล\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001551": {
-        "name": null,
+        "name": "Performing Mirror of Equity",
         "skill_id_old": 241880,
         "skill_id_new": 241881,
         "cost": {
@@ -64701,12 +64949,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Performing Mirror of Equity", "奏・明鏡", "연주·잔잔한 거울", "Sérénité symphonique", "Darstellender Spiegel des Gleichgewichts", "Tranquilidad tocada", "Pertunjukan Cermin Keadilan", "Performing\u001a \u001aMirror\u001a \u001aof\u001a \u001aEquity\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001552": {
-        "name": null,
+        "name": "Performing Mirror of Equity",
         "skill_id_old": 241881,
         "skill_id_new": 241882,
         "cost": {
@@ -64719,12 +64967,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Performing Mirror of Equity", "奏・明鏡", "연주·잔잔한 거울", "Sérénité symphonique", "Darstellender Spiegel des Gleichgewichts", "Tranquilidad tocada", "Pertunjukan Cermin Keadilan", "Performing\u001a \u001aMirror\u001a \u001aof\u001a \u001aEquity\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
         }
     },
     "300001553": {
-        "name": null,
+        "name": "Performing Mirror of Equity",
         "skill_id_old": 241882,
         "skill_id_new": 241883,
         "cost": {
@@ -64738,12 +64986,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Performing Mirror of Equity", "奏・明鏡", "연주·잔잔한 거울", "Sérénité symphonique", "Darstellender Spiegel des Gleichgewichts", "Tranquilidad tocada", "Pertunjukan Cermin Keadilan", "Performing\u001a \u001aMirror\u001a \u001aof\u001a \u001aEquity\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001554": {
-        "name": null,
+        "name": "Performing Mirror of Equity",
         "skill_id_old": 241883,
         "skill_id_new": 241884,
         "cost": {
@@ -64757,12 +65005,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Performing Mirror of Equity", "奏・明鏡", "연주·잔잔한 거울", "Sérénité symphonique", "Darstellender Spiegel des Gleichgewichts", "Tranquilidad tocada", "Pertunjukan Cermin Keadilan", "Performing\u001a \u001aMirror\u001a \u001aof\u001a \u001aEquity\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001555": {
-        "name": null,
+        "name": "Shadow Sharp Note",
         "skill_id_old": 241885,
         "skill_id_new": 241886,
         "cost": {
@@ -64774,12 +65022,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shadow Sharp Note", "暗之音刃", "어둠의 음날", "Note de l'ombre tranchante", "Schneidender Klang der Dunkelheit", "Negra con puntillo", "Shadow Sharp Note", "เสียง\u001aแหลมคม\u001aใน\u001aความมืด\u001a"],
+            "description": ["2500", "2500", "2500", "2500", "2500", "2500", "2500", "\u001a2500\u001a"]
         }
     },
     "300001556": {
-        "name": null,
+        "name": "Shadow Sharp Note",
         "skill_id_old": 241886,
         "skill_id_new": 241887,
         "cost": {
@@ -64792,12 +65040,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shadow Sharp Note", "暗之音刃", "어둠의 음날", "Note de l'ombre tranchante", "Schneidender Klang der Dunkelheit", "Negra con puntillo", "Shadow Sharp Note", "เสียง\u001aแหลมคม\u001aใน\u001aความมืด\u001a"],
+            "description": ["3000", "3000", "3000", "3000", "3000", "3000", "3000", "\u001a3000\u001a"]
         }
     },
     "300001557": {
-        "name": null,
+        "name": "Shadow Sharp Note",
         "skill_id_old": 241887,
         "skill_id_new": 241888,
         "cost": {
@@ -64811,12 +65059,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shadow Sharp Note", "暗之音刃", "어둠의 음날", "Note de l'ombre tranchante", "Schneidender Klang der Dunkelheit", "Negra con puntillo", "Shadow Sharp Note", "เสียง\u001aแหลมคม\u001aใน\u001aความมืด\u001a"],
+            "description": ["3500", "3500", "3500", "3500", "3500", "3500", "3500", "\u001a3500\u001a"]
         }
     },
     "300001558": {
-        "name": null,
+        "name": "Shadow Sharp Note",
         "skill_id_old": 241888,
         "skill_id_new": 241889,
         "cost": {
@@ -64830,12 +65078,12 @@
         },
         "units": [100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Shadow Sharp Note", "暗之音刃", "어둠의 음날", "Note de l'ombre tranchante", "Schneidender Klang der Dunkelheit", "Negra con puntillo", "Shadow Sharp Note", "เสียง\u001aแหลมคม\u001aใน\u001aความมืด\u001a"],
+            "description": ["4000", "4000", "4000", "4000", "4000", "4000", "4000", "\u001a4000\u001a"]
         }
     },
     "300001559": {
-        "name": null,
+        "name": "Bond with Akstar (Cleome)",
         "skill_id_old": 241892,
         "skill_id_new": 241893,
         "cost": {
@@ -64847,12 +65095,12 @@
         },
         "units": [100030705, 100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Bond with Akstar (Cleome)", "與阿克斯特的羈絆(可蕾歐梅)", "엑스타와의 인연(클레오메)", "Lien avec Akstar (Cléomée)", "Bande mit Akstar (Cleome)", "Vínculo con Akstar (Cleome)", "Ikatan dengan Akstar (Cleome)", "สายสัมพันธ์\u001aกับ\u001a \u001aAkstar\u001a \u001a(\u001aCleome\u001a)\u001a"],
+            "description": ["400", "400", "400", "400", "400", "400", "400", "\u001a400\u001a"]
         }
     },
     "300001560": {
-        "name": null,
+        "name": "Bond with Akstar (Cleome)",
         "skill_id_old": 241893,
         "skill_id_new": 241894,
         "cost": {
@@ -64865,12 +65113,12 @@
         },
         "units": [100030705, 100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Bond with Akstar (Cleome)", "與阿克斯特的羈絆(可蕾歐梅)", "엑스타와의 인연(클레오메)", "Lien avec Akstar (Cléomée)", "Bande mit Akstar (Cleome)", "Vínculo con Akstar (Cleome)", "Ikatan dengan Akstar (Cleome)", "สายสัมพันธ์\u001aกับ\u001a \u001aAkstar\u001a \u001a(\u001aCleome\u001a)\u001a"],
+            "description": ["600", "600", "600", "600", "600", "600", "600", "\u001a600\u001a"]
         }
     },
     "300001561": {
-        "name": null,
+        "name": "Bond with Akstar (Cleome)",
         "skill_id_old": 241894,
         "skill_id_new": 241895,
         "cost": {
@@ -64884,12 +65132,12 @@
         },
         "units": [100030705, 100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Bond with Akstar (Cleome)", "與阿克斯特的羈絆(可蕾歐梅)", "엑스타와의 인연(클레오메)", "Lien avec Akstar (Cléomée)", "Bande mit Akstar (Cleome)", "Vínculo con Akstar (Cleome)", "Ikatan dengan Akstar (Cleome)", "สายสัมพันธ์\u001aกับ\u001a \u001aAkstar\u001a \u001a(\u001aCleome\u001a)\u001a"],
+            "description": ["800", "800", "800", "800", "800", "800", "800", "\u001a800\u001a"]
         }
     },
     "300001562": {
-        "name": null,
+        "name": "Bond with Akstar (Cleome)",
         "skill_id_old": 241895,
         "skill_id_new": 241896,
         "cost": {
@@ -64903,12 +65151,12 @@
         },
         "units": [100030705, 100030727],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Bond with Akstar (Cleome)", "與阿克斯特的羈絆(可蕾歐梅)", "엑스타와의 인연(클레오메)", "Lien avec Akstar (Cléomée)", "Bande mit Akstar (Cleome)", "Vínculo con Akstar (Cleome)", "Ikatan dengan Akstar (Cleome)", "สายสัมพันธ์\u001aกับ\u001a \u001aAkstar\u001a \u001a(\u001aCleome\u001a)\u001a"],
+            "description": ["1000", "1000", "1000", "1000", "1000", "1000", "1000", "\u001a1000\u001a"]
         }
     },
     "300001563": {
-        "name": null,
+        "name": "Cover - Physical I",
         "skill_id_old": 241915,
         "skill_id_new": 241916,
         "cost": {
@@ -64920,12 +65168,21 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Cover - Physical I",
+                "袒護・物理I",
+                "감싸기: 물리 I",
+                "Couverture physique I",
+                "Verteidigen – Physisch I",
+                "Proteger - Físico I",
+                "Lindungi - Fisik I",
+                "คุ้มกัน\u001a \u001a-\u001a \u001aกายภาพ\u001a \u001aI\u001a"
+            ],
+            "description": ["70%", "70%", "70%", "70 %", "70%", "70%", "70%", "\u001a70%"]
         }
     },
     "300001564": {
-        "name": null,
+        "name": "Cover - Physical II",
         "skill_id_old": 241916,
         "skill_id_new": 241917,
         "cost": {
@@ -64938,12 +65195,21 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Cover - Physical II",
+                "袒護・物理II",
+                "감싸기: 물리 II",
+                "Couverture physique II",
+                "Verteidigen – Physisch II",
+                "Proteger - Físico II",
+                "Lindungi - Fisik II",
+                "คุ้มกัน\u001a \u001a-\u001a \u001aกายภาพ\u001a \u001aII\u001a"
+            ],
+            "description": ["60%", "60%", "60%", "60 %", "60%", "60%", "60%", "\u001a60%"]
         }
     },
     "300001565": {
-        "name": null,
+        "name": "Cover - Physical III",
         "skill_id_old": 241917,
         "skill_id_new": 241918,
         "cost": {
@@ -64957,12 +65223,21 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Cover - Physical III",
+                "袒護・物理III",
+                "감싸기: 물리 III",
+                "Couverture physique III",
+                "Verteidigen – Physisch III",
+                "Proteger - Físico III",
+                "Lindungi - Fisik III",
+                "คุ้มกัน\u001a \u001a-\u001a \u001aกายภาพ\u001a \u001aIII\u001a"
+            ],
+            "description": ["75%", "75%", "75%", "75 %", "75%", "75%", "75%", "\u001a75%"]
         }
     },
     "300001566": {
-        "name": null,
+        "name": "Cover - Physical IV",
         "skill_id_old": 241918,
         "skill_id_new": 241919,
         "cost": {
@@ -64976,12 +65251,21 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": [
+                "Cover - Physical IV",
+                "袒護・物理IV",
+                "감싸기: 물리 IV",
+                "Couverture physique IV",
+                "Verteidigen – Physisch IV",
+                "Proteger - Físico IV",
+                "Lindungi - Fisik IV",
+                "คุ้มกัน\u001a \u001a-\u001a \u001aกายภาพ\u001a \u001aIV\u001a"
+            ],
+            "description": ["65% ~ 80%", "65% ~ 80%", "65% ~ 80%", "65 % ~ 80 %", "65% - 80%", "65% ~ 80%", "65% ~ 80%", "\u001a65% ~ 80%"]
         }
     },
     "300001567": {
-        "name": null,
+        "name": "Earth Principle",
         "skill_id_old": 241900,
         "skill_id_new": 241901,
         "cost": {
@@ -64993,12 +65277,12 @@
         },
         "units": [100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earth Principle", "大地法則", "대지의 법칙", "Principe de la terre", "Prinzip der Erde", "Principio de tierra", "Earth Principle", "หลักการ\u001aปฐพี\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
         }
     },
     "300001568": {
-        "name": null,
+        "name": "Earth Principle",
         "skill_id_old": 241901,
         "skill_id_new": 241902,
         "cost": {
@@ -65011,12 +65295,12 @@
         },
         "units": [100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earth Principle", "大地法則", "대지의 법칙", "Principe de la terre", "Prinzip der Erde", "Principio de tierra", "Earth Principle", "หลักการ\u001aปฐพี\u001a"],
+            "description": ["6400%", "6400%", "6400%", "6400 %", "6400%", "6400%", "6400%", "\u001a6400%"]
         }
     },
     "300001569": {
-        "name": null,
+        "name": "Earth Principle",
         "skill_id_old": 241902,
         "skill_id_new": 241903,
         "cost": {
@@ -65030,12 +65314,12 @@
         },
         "units": [100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earth Principle", "大地法則", "대지의 법칙", "Principe de la terre", "Prinzip der Erde", "Principio de tierra", "Earth Principle", "หลักการ\u001aปฐพี\u001a"],
+            "description": ["6800%", "6800%", "6800%", "6800 %", "6800%", "6800%", "6800%", "\u001a6800%"]
         }
     },
     "300001570": {
-        "name": null,
+        "name": "Earth Principle",
         "skill_id_old": 241903,
         "skill_id_new": 241904,
         "cost": {
@@ -65049,12 +65333,12 @@
         },
         "units": [100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["Earth Principle", "大地法則", "대지의 법칙", "Principe de la terre", "Prinzip der Erde", "Principio de tierra", "Earth Principle", "หลักการ\u001aปฐพี\u001a"],
+            "description": ["7200%", "7200%", "7200%", "7200 %", "7200%", "7200%", "7200%", "\u001a7200%"]
         }
     },
     "300001571": {
-        "name": null,
+        "name": "A Crush on Rain",
         "skill_id_old": 241908,
         "skill_id_new": 241909,
         "cost": {
@@ -65066,12 +65350,12 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["A Crush on Rain", "對雷因的愛慕", "레인을 향한 연심", "Béguin pour Rain", "Verliebt in Rain", "Flechazo con Rain", "Rasa Suka pada Rain", "ผู้\u001aแอบ\u001aชอบ\u001a \u001aRain\u001a"],
+            "description": ["40%", "40%", "40%", "40 %", "40%", "40%", "40%", "\u001a40%"]
         }
     },
     "300001572": {
-        "name": null,
+        "name": "A Crush on Rain",
         "skill_id_old": 241909,
         "skill_id_new": 241910,
         "cost": {
@@ -65084,12 +65368,12 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["A Crush on Rain", "對雷因的愛慕", "레인을 향한 연심", "Béguin pour Rain", "Verliebt in Rain", "Flechazo con Rain", "Rasa Suka pada Rain", "ผู้\u001aแอบ\u001aชอบ\u001a \u001aRain\u001a"],
+            "description": ["60%", "60%", "60%", "60 %", "60%", "60%", "60%", "\u001a60%"]
         }
     },
     "300001573": {
-        "name": null,
+        "name": "A Crush on Rain",
         "skill_id_old": 241910,
         "skill_id_new": 241911,
         "cost": {
@@ -65103,12 +65387,12 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["A Crush on Rain", "對雷因的愛慕", "레인을 향한 연심", "Béguin pour Rain", "Verliebt in Rain", "Flechazo con Rain", "Rasa Suka pada Rain", "ผู้\u001aแอบ\u001aชอบ\u001a \u001aRain\u001a"],
+            "description": ["80%", "80%", "80%", "80 %", "80%", "80%", "80%", "\u001a80%"]
         }
     },
     "300001574": {
-        "name": null,
+        "name": "A Crush on Rain",
         "skill_id_old": 241911,
         "skill_id_new": 241912,
         "cost": {
@@ -65122,8 +65406,8 @@
         },
         "units": [100028305, 100028327],
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "description": [null, null, null, null, null, null, null, null]
+            "names": ["A Crush on Rain", "對雷因的愛慕", "레인을 향한 연심", "Béguin pour Rain", "Verliebt in Rain", "Flechazo con Rain", "Rasa Suka pada Rain", "ผู้\u001aแอบ\u001aชอบ\u001a \u001aRain\u001a"],
+            "description": ["100%", "100%", "100%", "100 %", "100%", "100%", "100%", "\u001a100%"]
         }
     },
     "301301001": {
@@ -65322,7 +65606,7 @@
                 "270001400": 1
             }
         },
-        "units": [401010807, 401010817, 205001505, 207001507, 207001517, 207002127, 100034707, 206002817, 100035807],
+        "units": [401010807, 401010817, 205001505, 207001507, 207001517, 207002127, 100034707, 206002817, 100035807, 100028305, 100028327],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -65342,7 +65626,7 @@
                 "270001500": 1
             }
         },
-        "units": [401010807, 401010817, 205001505, 207001507, 207001517, 207002127, 100034707, 206002817, 100035807],
+        "units": [401010807, 401010817, 205001505, 207001507, 207001517, 207002127, 100034707, 206002817, 100035807, 100028305, 100028327],
         "strings": {
             "names": ["Protectga", "超物防護", "프로테가", "Bouclier +", "Protega", "Coraza+", "Protectga", "Protectga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
@@ -65361,7 +65645,7 @@
                 "270001400": 1
             }
         },
-        "units": [401010807, 401010817, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707, 206002817, 100035807],
+        "units": [401010807, 401010817, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707, 206002817, 100035807, 100028305, 100028327],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["150%", "150%", "150%", "150 %", "150%", "150%", "150%", "\u001a150%"]
@@ -65381,7 +65665,7 @@
                 "270001500": 1
             }
         },
-        "units": [401010807, 401010817, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707, 206002817, 100035807],
+        "units": [401010807, 401010817, 205001505, 100033505, 209001127, 100034307, 207001507, 207001517, 100034707, 206002817, 100035807, 100028305, 100028327],
         "strings": {
             "names": ["Shellga", "廣魔防殼", "셸가", "Barrière X", "Vallga", "Escudo+", "Shellga", "Shellga\u001a"],
             "description": ["200%", "200%", "200%", "200 %", "200%", "200%", "200%", "\u001a200%"]
