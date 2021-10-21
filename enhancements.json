@@ -75590,7 +75590,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["4000", "4000", "4000", "4000", "4000", "4000", "4000", "\u001a4000\u001a"]
+            "description": ["4000 HP", "4000", "4000", "4000", "4000", "4000", "4000", "\u001a4000\u001a"]
         }
     },
     "914244002": {
@@ -75608,7 +75608,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["5000", "5000", "5000", "5000", "5000", "5000", "5000", "\u001a5000\u001a"]
+            "description": ["5000 HP", "5000", "5000", "5000", "5000", "5000", "5000", "\u001a5000\u001a"]
         }
     },
     "914244003": {
@@ -75627,7 +75627,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["6000", "4", "4턴", "6000", "Vier", "6000", "6000", "\u001a6000\u001a"]
+            "description": ["6000 HP, four turns", "4", "4턴", "6000", "Vier", "6000", "6000", "\u001a6000\u001a"]
         }
     },
     "914244004": {
@@ -75646,7 +75646,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["7000", "5", "5턴", "7000", "Fünf", "7000", "7000", "\u001a7000\u001a"]
+            "description": ["7000 HP, five turns", "5", "5턴", "7000", "Fünf", "7000", "7000", "\u001a7000\u001a"]
         }
     },
     "914265001": {
@@ -81157,6 +81157,225 @@
         "strings": {
             "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
             "description": ["135%", "135%", "135%", "135 %", "135%", "135%", "135%", "\u001a135%"]
+        }
+    },
+    "915709001": {
+        "name": "Inspiring Finale",
+        "skill_id_old": 915709,
+        "skill_id_new": 915711,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 20,
+                "271000200": 10
+            }
+        },
+        "units": [401012107, 401012117],
+        "strings": {
+            "names": ["Inspiring Finale", "動人終曲", "감동의 피날레", "Final inspirant", "Inspirierendes Finale", "Finale inspirador", "Finale Emosional", "ฉาก\u001aจบ\u001aบันดาลใจ\u001a"],
+            "description": ["120%", "120%", "120%", "120 %", "120%", "120%", "120%", "\u001a120%"]
+        }
+    },
+    "915709002": {
+        "name": "Inspiring Finale",
+        "skill_id_old": 915711,
+        "skill_id_new": 915713,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271000100": 30,
+                "271000200": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012107, 401012117],
+        "strings": {
+            "names": ["Inspiring Finale", "動人終曲", "감동의 피날레", "Final inspirant", "Inspirierendes Finale", "Finale inspirador", "Finale Emosional", "ฉาก\u001aจบ\u001aบันดาลใจ\u001a"],
+            "description": ["275%", "275%", "275%", "275 %", "275%", "275%", "275%", "\u001a275%"]
+        }
+    },
+    "915709003": {
+        "name": "Inspiring Finale",
+        "skill_id_old": 915713,
+        "skill_id_new": 915715,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271000100": 50,
+                "271000200": 30,
+                "271000300": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012107, 401012117],
+        "strings": {
+            "names": ["Inspiring Finale", "動人終曲", "감동의 피날레", "Final inspirant", "Inspirierendes Finale", "Finale inspirador", "Finale Emosional", "ฉาก\u001aจบ\u001aบันดาลใจ\u001a"],
+            "description": ["130%", "130%", "130%", "130 %", "130%", "130%", "130%", "\u001a130%"]
+        }
+    },
+    "915709004": {
+        "name": "Inspiring Finale",
+        "skill_id_old": 915715,
+        "skill_id_new": 915717,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271000100": 100,
+                "271000200": 50,
+                "271000300": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012107, 401012117],
+        "strings": {
+            "names": ["Inspiring Finale", "動人終曲", "감동의 피날레", "Final inspirant", "Inspirierendes Finale", "Finale inspirador", "Finale Emosional", "ฉาก\u001aจบ\u001aบันดาลใจ\u001a"],
+            "description": ["300%", "300%", "300%", "300 %", "300%", "300%", "300%", "\u001a300%"]
+        }
+    },
+    "915724001": {
+        "name": "Perfect Melody",
+        "skill_id_old": 915724,
+        "skill_id_new": 915725,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401012107],
+        "strings": {
+            "names": ["Perfect Melody", "完美樂章", "완벽한 멜로디", "Mélodie parfaite", "Die perfekte Melodie", "Melodía perfecta", "Melodi Sempurna", "ท่วงทำนอง\u001aไร้\u001aที่\u001aติ\u001a"],
+            "description": ["2500%+1100%", "2500%", "2500%+5% 당 1100%", "2500 %+1100 %", "2500% + 1100%", "2500%+1100%", "2500%+1100%", "\u001a2500%+1100%"]
+        }
+    },
+    "915724002": {
+        "name": "Perfect Melody",
+        "skill_id_old": 915725,
+        "skill_id_new": 915726,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012107],
+        "strings": {
+            "names": ["Perfect Melody", "完美樂章", "완벽한 멜로디", "Mélodie parfaite", "Die perfekte Melodie", "Melodía perfecta", "Melodi Sempurna", "ท่วงทำนอง\u001aไร้\u001aที่\u001aติ\u001a"],
+            "description": ["3000%+1200%", "3000%", "3000%+5% 당 1200%", "3000 %+ 1200 %", "3000% + 1200%", "3000%+1200%", "3000%+1200%", "\u001a3000%+1200%"]
+        }
+    },
+    "915724003": {
+        "name": "Perfect Melody",
+        "skill_id_old": 915726,
+        "skill_id_new": 915727,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012107],
+        "strings": {
+            "names": ["Perfect Melody", "完美樂章", "완벽한 멜로디", "Mélodie parfaite", "Die perfekte Melodie", "Melodía perfecta", "Melodi Sempurna", "ท่วงทำนอง\u001aไร้\u001aที่\u001aติ\u001a"],
+            "description": ["3500%+1300%", "3500%", "3500%+5% 당 1300%", "3500 % + 1300 %", "3500% + 1300%", "3500%+1300%", "3500%+1300%", "\u001a3500%+1300%"]
+        }
+    },
+    "915724004": {
+        "name": "Perfect Melody",
+        "skill_id_old": 915727,
+        "skill_id_new": 915728,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012107],
+        "strings": {
+            "names": ["Perfect Melody", "完美樂章", "완벽한 멜로디", "Mélodie parfaite", "Die perfekte Melodie", "Melodía perfecta", "Melodi Sempurna", "ท่วงทำนอง\u001aไร้\u001aที่\u001aติ\u001a"],
+            "description": ["4000%+1400%", "4000%", "4000%+5% 당 1400%", "4000 %+1400 %", "4000% + 1400%", "4000%+1400%", "4000%+1400%", "\u001a4000%+1400%"]
+        }
+    },
+    "915734001": {
+        "name": "Symphonic Harmony",
+        "skill_id_old": 915734,
+        "skill_id_new": 915735,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401012117],
+        "strings": {
+            "names": ["Symphonic Harmony", "交響和聲", "조화로운 화음", "Harmonie symphonique", "Harmonie der Sinfonie", "Armonía sinfónica", "Harmoni Simfoni", "ท่วงทำนอง\u001aซิมโฟนี่\u001a"],
+            "description": ["5500%", "5500%", "5500%", "5500 %", "5500%", "5500%", "5500%", "\u001a5500%"]
+        }
+    },
+    "915734002": {
+        "name": "Symphonic Harmony",
+        "skill_id_old": 915735,
+        "skill_id_new": 915736,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012117],
+        "strings": {
+            "names": ["Symphonic Harmony", "交響和聲", "조화로운 화음", "Harmonie symphonique", "Harmonie der Sinfonie", "Armonía sinfónica", "Harmoni Simfoni", "ท่วงทำนอง\u001aซิมโฟนี่\u001a"],
+            "description": ["6000%", "6000%", "6000%", "6000 %", "6000%", "6000%", "6000%", "\u001a6000%"]
+        }
+    },
+    "915734003": {
+        "name": "Symphonic Harmony",
+        "skill_id_old": 915736,
+        "skill_id_new": 915737,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012117],
+        "strings": {
+            "names": ["Symphonic Harmony", "交響和聲", "조화로운 화음", "Harmonie symphonique", "Harmonie der Sinfonie", "Armonía sinfónica", "Harmoni Simfoni", "ท่วงทำนอง\u001aซิมโฟนี่\u001a"],
+            "description": ["6500%", "6500%", "6500%", "6500 %", "6500%", "6500%", "6500%", "\u001a6500%"]
+        }
+    },
+    "915734004": {
+        "name": "Symphonic Harmony",
+        "skill_id_old": 915737,
+        "skill_id_new": 915738,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012117],
+        "strings": {
+            "names": ["Symphonic Harmony", "交響和聲", "조화로운 화음", "Harmonie symphonique", "Harmonie der Sinfonie", "Armonía sinfónica", "Harmoni Simfoni", "ท่วงทำนอง\u001aซิมโฟนี่\u001a"],
+            "description": ["7000%", "7000%", "7000%", "7000 %", "7000%", "7000%", "7000%", "\u001a7000%"]
         }
     }
 }
