@@ -75590,7 +75590,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["4000 HP", "4000", "4000", "4000", "4000", "4000", "4000", "\u001a4000\u001a"]
+            "description": ["4000 HP", "4000HP", "HP 4000", "4000", "4000", "4000", "4000", "\u001a4000\u001a"]
         }
     },
     "914244002": {
@@ -75608,7 +75608,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["5000 HP", "5000", "5000", "5000", "5000", "5000", "5000", "\u001a5000\u001a"]
+            "description": ["5000 HP", "5000HP", "HP 5000", "5000", "5000", "5000", "5000", "\u001a5000\u001a"]
         }
     },
     "914244003": {
@@ -75627,7 +75627,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["6000 HP, four turns", "4", "4턴", "6000", "Vier", "6000", "6000", "\u001a6000\u001a"]
+            "description": ["6000 HP, four turns", "6000HP，4回合", "4턴 동안 HP 6000", "6000", "Vier", "6000 de VIT, 4 turnos", "6000", "\u001a6000\u001a"]
         }
     },
     "914244004": {
@@ -75646,7 +75646,7 @@
         "units": [401010007, 401010017],
         "strings": {
             "names": ["Hikikomori", "繭居", "히키코모리", "Hikikomori", "Hikikomori", "Hikikomori", "Hikikomori", "ซุก\u001aตัว\u001aอยู่\u001aกับ\u001aบ้าน\u001a"],
-            "description": ["7000 HP, five turns", "5", "5턴", "7000", "Fünf", "7000", "7000", "\u001a7000\u001a"]
+            "description": ["7000 HP, five turns", "7000HP，5回合", "5턴 동안 HP 7000", "7000", "Fünf", "7000 de VIT, 5 turnos", "7000", "\u001a7000\u001a"]
         }
     },
     "914265001": {
@@ -81157,6 +81157,225 @@
         "strings": {
             "names": ["Volatile Ammunition", "易爆彈藥", "휘발성 탄약", "Munitions instables", "Querschläger", "Munición volátil", "Volatile Ammunition", "กระสุน\u001aระเบิด\u001aไวไฟ\u001a"],
             "description": ["135%", "135%", "135%", "135 %", "135%", "135%", "135%", "\u001a135%"]
+        }
+    },
+    "915660001": {
+        "name": "Cursed Precursor",
+        "skill_id_old": 915660,
+        "skill_id_new": 915661,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401012207, 401012217],
+        "strings": {
+            "names": ["Cursed Precursor", "詛咒先驅", "저주받은 선구자", "Ancêtre maudit", "Verfluchter Vorbote", "Vaticinador maldito", "Pemandu Terkutuk", "ผู้ชักนำ\u001aที่\u001aถูก\u001aสาป\u001a"],
+            "description": ["90%", "90%", "90%", "90 %", "90%", "90%", "90%", "\u001a90%"]
+        }
+    },
+    "915660002": {
+        "name": "Cursed Precursor",
+        "skill_id_old": 915661,
+        "skill_id_new": 915662,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012207, 401012217],
+        "strings": {
+            "names": ["Cursed Precursor", "詛咒先驅", "저주받은 선구자", "Ancêtre maudit", "Verfluchter Vorbote", "Vaticinador maldito", "Pemandu Terkutuk", "ผู้ชักนำ\u001aที่\u001aถูก\u001aสาป\u001a"],
+            "description": ["50%", "50%", "50%", "50 %", "50%", "50%", "50%", "\u001a50%"]
+        }
+    },
+    "915660003": {
+        "name": "Cursed Precursor",
+        "skill_id_old": 915662,
+        "skill_id_new": 915663,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012207, 401012217],
+        "strings": {
+            "names": ["Cursed Precursor", "詛咒先驅", "저주받은 선구자", "Ancêtre maudit", "Verfluchter Vorbote", "Vaticinador maldito", "Pemandu Terkutuk", "ผู้ชักนำ\u001aที่\u001aถูก\u001aสาป\u001a"],
+            "description": ["130%", "130%", "130%", "130 %", "130%", "130%", "130%", "\u001a130%"]
+        }
+    },
+    "915660004": {
+        "name": "Cursed Precursor",
+        "skill_id_old": 915663,
+        "skill_id_new": 915664,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012207, 401012217],
+        "strings": {
+            "names": ["Cursed Precursor", "詛咒先驅", "저주받은 선구자", "Ancêtre maudit", "Verfluchter Vorbote", "Vaticinador maldito", "Pemandu Terkutuk", "ผู้ชักนำ\u001aที่\u001aถูก\u001aสาป\u001a"],
+            "description": ["60%", "60%", "60%", "150 %", "60%", "60%", "60%", "\u001a60%"]
+        }
+    },
+    "915671001": {
+        "name": "Haunting Barrage",
+        "skill_id_old": 915671,
+        "skill_id_new": 915672,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401012207],
+        "strings": {
+            "names": ["Haunting Barrage", "鬼影火網", "귀신의 연격", "Déluge ensorcelant", "Gespenstisches Trommelfeuer", "Ráfaga inquietante", "Haunting Barrage", "กระหน่ำ\u001aหลอกหลอน\u001a"],
+            "description": ["600%", "600%", "600%", "600 %", "600%", "600%", "600%", "\u001a600%"]
+        }
+    },
+    "915671002": {
+        "name": "Haunting Barrage",
+        "skill_id_old": 915672,
+        "skill_id_new": 915673,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012207],
+        "strings": {
+            "names": ["Haunting Barrage", "鬼影火網", "귀신의 연격", "Déluge ensorcelant", "Gespenstisches Trommelfeuer", "Ráfaga inquietante", "Haunting Barrage", "กระหน่ำ\u001aหลอกหลอน\u001a"],
+            "description": ["750%", "750%", "750%", "750 %", "750%", "750%", "750%", "\u001a750%"]
+        }
+    },
+    "915671003": {
+        "name": "Haunting Barrage",
+        "skill_id_old": 915673,
+        "skill_id_new": 915674,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012207],
+        "strings": {
+            "names": ["Haunting Barrage", "鬼影火網", "귀신의 연격", "Déluge ensorcelant", "Gespenstisches Trommelfeuer", "Ráfaga inquietante", "Haunting Barrage", "กระหน่ำ\u001aหลอกหลอน\u001a"],
+            "description": ["850%", "850%", "850%", "850 %", "850%", "850%", "850%", "\u001a850%"]
+        }
+    },
+    "915671004": {
+        "name": "Haunting Barrage",
+        "skill_id_old": 915674,
+        "skill_id_new": 915675,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012207],
+        "strings": {
+            "names": ["Haunting Barrage", "鬼影火網", "귀신의 연격", "Déluge ensorcelant", "Gespenstisches Trommelfeuer", "Ráfaga inquietante", "Haunting Barrage", "กระหน่ำ\u001aหลอกหลอน\u001a"],
+            "description": ["1000%", "1000%", "1000%", "1000 %", "1000%", "1000%", "1000%", "\u001a1000%"]
+        }
+    },
+    "915684001": {
+        "name": "Feral Frenzy",
+        "skill_id_old": 915684,
+        "skill_id_new": 915686,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 20,
+                "271001700": 10
+            }
+        },
+        "units": [401012217],
+        "strings": {
+            "names": ["Feral Frenzy", "野性狂亂", "야성의 광란", "Frénésie sauvage", "Wilde Raserei", "Frenesí feroz", "Kegilaan Buas", "บ้าคลั่ง\u001aดุดัน\u001a"],
+            "description": ["30000%", "30000%", "30000%", "30 000 %", "30000%", "30000%", "30000%", "\u001a30000%"]
+        }
+    },
+    "915684002": {
+        "name": "Feral Frenzy",
+        "skill_id_old": 915686,
+        "skill_id_new": 915688,
+        "cost": {
+            "gil": 150000,
+            "materials": {
+                "271001600": 30,
+                "271001700": 20,
+                "1209001274": 10
+            }
+        },
+        "units": [401012217],
+        "strings": {
+            "names": ["Feral Frenzy", "野性狂亂", "야성의 광란", "Frénésie sauvage", "Wilde Raserei", "Frenesí feroz", "Kegilaan Buas", "บ้าคลั่ง\u001aดุดัน\u001a"],
+            "description": ["400%", "400%", "400%", "400 %", "400%", "400%", "400%", "\u001a400%"]
+        }
+    },
+    "915684003": {
+        "name": "Feral Frenzy",
+        "skill_id_old": 915688,
+        "skill_id_new": 915690,
+        "cost": {
+            "gil": 200000,
+            "materials": {
+                "271001600": 50,
+                "271001700": 30,
+                "271001800": 5,
+                "1209001274": 20
+            }
+        },
+        "units": [401012217],
+        "strings": {
+            "names": ["Feral Frenzy", "野性狂亂", "야성의 광란", "Frénésie sauvage", "Wilde Raserei", "Frenesí feroz", "Kegilaan Buas", "บ้าคลั่ง\u001aดุดัน\u001a"],
+            "description": ["25000%", "25000%", "25000%", "25 000 %", "25000%", "25000%", "25000%", "\u001a25000%"]
+        }
+    },
+    "915684004": {
+        "name": "Feral Frenzy",
+        "skill_id_old": 915690,
+        "skill_id_new": 915692,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "271001600": 100,
+                "271001700": 50,
+                "271001800": 10,
+                "1209001274": 30
+            }
+        },
+        "units": [401012217],
+        "strings": {
+            "names": ["Feral Frenzy", "野性狂亂", "야성의 광란", "Frénésie sauvage", "Wilde Raserei", "Frenesí feroz", "Kegilaan Buas", "บ้าคลั่ง\u001aดุดัน\u001a"],
+            "description": ["500%", "500%", "500%", "500 %", "500%", "500%", "500%", "\u001a500%"]
         }
     },
     "915709001": {
