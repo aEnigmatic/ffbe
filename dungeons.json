@@ -3033,7 +3033,7 @@
         }
     },
     "31001": {
-        "names": ["Unit Intro Quest", "兵員介紹任務", "유닛 소개 퀘스트", "Quête d'introduction d'unité", "Einheiten-Auftrag", "Misión introductoria de unidad", "Quest Pengenalan Unit", "เค\u001aวส\u001aแนะนำตัว\u001aยู\u001aนิ\u001aท\u001a"],
+        "names": ["Unit Intro Quest", "兵員介紹任務", "유닛 소개 퀘스트", "Quête d'introduction d'unité", "Einheiten-Auftrag", "Misión de presentación de unidad", "Quest Pengenalan Unit", "เค\u001aวส\u001aแนะนำตัว\u001aยู\u001aนิ\u001aท\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "310",
@@ -3043,7 +3043,8 @@
             "3100101": null,
             "3100102": null,
             "9650144": "Lasswell -Neo Vision-",
-            "9650158": "Guardian Blade Charlotte"
+            "9650158": "Guardian Blade Charlotte",
+            "9650173": "Angela"
         }
     },
     "31101": {
@@ -18051,11 +18052,11 @@
             "9020260": "Ice Defense Challenge - PRO",
             "9020261": "Ice Defense Challenge - ELT",
             "9020262": "Ice Defense Challenge - LGD",
-            "9020264": null,
-            "9020265": null,
-            "9020266": null,
-            "9020267": null,
-            "9020268": null,
+            "9020264": "Magic Water Challenge - INT",
+            "9020265": "Magic Water Challenge - ADV",
+            "9020266": "Magic Water Challenge - PRO",
+            "9020267": "Magic Water Challenge - ELT",
+            "9020268": "Magic Water Challenge - LGD",
             "9020270": null,
             "9020271": null,
             "9020272": null,
@@ -20576,14 +20577,127 @@
         }
     },
     "94301": {
-        "names": ["Challenge the Great Count", "挑戰偉大的領主", "위대한 백작에게 도전하라", "Défiez le Grand Comte", "Fordere den mächtigen Graf heraus", "Desafía al gran conde", "Tantang sang Tuan Besar", "ปะทะ\u001aท่าน\u001aเคา\u001aนท\u001a์\u001aผู้ยิ่งใหญ่\u001a"],
+        "names": ["Daria, Gem Valley", "寶石之谷多利安", "보석의 골짜기 도리안", "Doriann, vallée des gemmes", "Daria, Edelsteintal", "Daria, valle del ámbar", "Lembah Permata Daria", "Daria\u001a \u001aหุบเขา\u001aแห่ง\u001aอัญมณี\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "943",
-        "position": [0, 0],
-        "icon": "global_spd_bn_list_00042.png",
+        "position": [382, 677],
+        "icon": "map_icon_94301_1.png",
         "missions": {
-            "9430101": "Challenge the Great Count - ELT"
+            "9430101": "Land Umber Lvl. 1",
+            "9430102": "Land Umber Lvl. 2",
+            "9430103": "Land Umber"
+        }
+    },
+    "94302": {
+        "names": ["Labyrinth of Ice", "冰壁迷宮", "빙벽의 미궁", "Labyrinthe de glace", "Eislabyrinth", "Laberinto de hielo", "Labirin Es", "วงกต\u001aน้ำแข็ง\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [457, 453],
+        "icon": "map_icon_94302_1.png",
+        "missions": {
+            "9430201": "Fiegmund Lvl. 1",
+            "9430202": "Fiegmund Lvl. 2",
+            "9430203": "Fiegmund"
+        }
+    },
+    "94303": {
+        "names": ["Fiery Gorge", "火焰谷", "화염 골짜기", "Ravin de feu", "Flammenschlucht", "Desfiladero Ardiente", "Ngarai Api", "หุบเขา\u001aเพลิง\u001aโหม\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [1199, 1494],
+        "icon": "map_icon_94303_1.png",
+        "missions": {
+            "9430301": "Xan Bie Lvl. 1",
+            "9430302": "Xan Bie Lvl. 2",
+            "9430303": "Xan Bie"
+        }
+    },
+    "94304": {
+        "names": ["Gusthall", "風之迴廊", "바람의 회랑", "Col des bourrasques", "Böhalla", "Grutas Ventalia", "Koridor Angin", "ห้องโถง\u001aแห่ง\u001aสายลม\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [1168, 1093],
+        "icon": "map_icon_94304_1.png",
+        "missions": {
+            "9430401": "Dangaard Lvl. 1",
+            "9430402": "Dangaard Lvl. 2",
+            "9430403": "Dangaard"
+        }
+    },
+    "94305": {
+        "names": ["Chartmoon Tower", "月讀塔", "달빛 탑", "Tour sélène", "Turm der Monddeutung", "Torre Astral", "Menara Rembulan", "หอคอย\u001aอ่าน\u001aจันทรา\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [544, 977],
+        "icon": "map_icon_94305_1.png",
+        "missions": {
+            "9430501": "Dolan Lvl. 1",
+            "9430502": "Dolan Lvl. 2",
+            "9430503": "Dolan"
+        }
+    },
+    "94306": {
+        "names": ["Woods of Wandara", "神奇樹海", "완다의 밀림", "Forêt des splendeurs", "Wald von Wandara", "Arboleda Misteria", "Hutan Belantara Wandara", "ทะเล\u001aป่า\u001a \u001aWandara\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [959, 453],
+        "icon": "map_icon_94306_1.png",
+        "missions": {
+            "9430601": "Mispolm Lvl. 1",
+            "9430602": "Mispolm Lvl. 2",
+            "9430603": "Mispolm"
+        }
+    },
+    "94307": {
+        "names": ["Shimmering Ruins", "光之古代遺跡", "빛의 고대 유적", "Ruines iridescentes", "Schimmernde Ruinen", "Ruinas Tornasol", "Reruntuhan Cahaya", "โบราณสถาน\u001aแสง\u001aเรืองรอง\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [1003, 969],
+        "icon": "map_icon_94307_1.png",
+        "missions": {
+            "9430701": "Lightgazer Lvl. 1",
+            "9430702": "Lightgazer Lvl. 2",
+            "9430703": "Lightgazer"
+        }
+    },
+    "94308": {
+        "names": ["Night Cavern", "黑暗洞窟", "암흑의 동굴", "Grotte de la nuit", "Höhle der Nacht", "Cueva tenebrosa", "Gua Malam Gelap", "ถ้ำ\u001aราตรี\u001aมืด\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [1182, 570],
+        "icon": "map_icon_94308_1.png",
+        "missions": {
+            "9430801": "Zable Fahr"
+        }
+    },
+    "94309": {
+        "names": [null, null, null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [150, 720],
+        "icon": "runningevent_icon_battle.png",
+        "missions": {
+            "9430901": null
+        }
+    },
+    "94310": {
+        "names": ["Dark Castle", "黑暗城堡", "다크 캐슬", "Château des ténèbres", "Dunkle Burg", "Castillo de la Oscuridad", "Kastel Kegelapan", "ปราสาท\u001aทมิฬ\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [1245, 410],
+        "icon": "map_icon_94309_1.png",
+        "missions": {
+            "9431003": "Belladonna"
         }
     },
     "94401": {
@@ -21156,7 +21270,8 @@
             "9650164": "Triumphant General Celes",
             "9650166": "Cressnik",
             "9650168": "Lara Croft -Neo Vision-",
-            "9650170": "Olivera"
+            "9650170": "Olivera",
+            "9650172": "Ninja Master Hawkeye"
         }
     },
     "96601": {
