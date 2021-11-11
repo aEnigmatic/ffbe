@@ -1373,7 +1373,7 @@
         "strings": {
             "names": ["DEF +30%", "防禦+30%", "방어력+30%", "DEF +30%", "ABW +30%", "DEF +30%", "DEF +30%", "DEF\u001a \u001a+\u001a30%"],
             "desc_short": ["Boost DEF by 30%", "提高30%防禦", "방어력 30% 상승", "Augmente la DEF de 30 %", "Erhöht ABW um 30%", "Aumenta la DEF un 30%", "Meningkatkan DEF sebanyak 30%", "เพิ่มค่า\u001a \u001aDEF\u001a \u001a30%"],
-            "desc_long": ["Boosts DEF by 30%.", "提高30%防禦。", "방어력이 30% 상승합니다.", "Augmente la DEF de 30 %", "Erhöht ABW um 30 %.", "Aumenta la DEF un 30%", "Meningkatkan DEF sebanyak 30%.", "เพิ่มค่า\u001a \u001aDEF\u001a \u001a30%"]
+            "desc_long": ["Boosts DEF by 30%.", "提高30%防禦。", "방어력이 30% 상승합니다.", "Augmente la DEF de 30 %", "Erhöht ABW um 30%.", "Aumenta la DEF un 30%", "Meningkatkan DEF sebanyak 30%.", "เพิ่มค่า\u001a \u001aDEF\u001a \u001a30%"]
         }
     },
     "504100160": {
@@ -10254,20 +10254,38 @@
         }
     },
     "504228277": {
-        "name": "Spear of the Princess",
+        "name": "Royal Spearmanship",
         "compendium_id": 838,
-        "compendium_shown": false,
+        "compendium_shown": true,
         "unit_restriction": null,
         "skills": [228277],
         "effects": ["Grant 'Royal Spearmanship' passive"],
-        "unique": false,
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_95.png",
         "strings": {
-            "names": ["Spear of the Princess", "王女的槍術", null, null, "Königliche Speerkampfkunst", null, "Aliran Tombak Kerajaan", "เพลง\u001aหอก\u001aแห่ง\u001aองค์\u001aหญิง\u001a"],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Royal Spearmanship", "公主的槍術", "왕녀의 창술", "Technique de lance royale", "Königliche Speerkampfkunst", "Arte de lanza real", "Aliran Tombak Kerajaan", "เพลง\u001aหอก\u001aกษัตริยา\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 80% and DEF and SPR by 20% when equipped with a spear, and boost wind and dark resistance by 40% (Not stackable)",
+                "裝備長槍時提高80%攻擊魔力、20%防禦精神+提高40%風暗屬性耐性[無法重複裝備]",
+                "창 장착 시 공격력과 마력 80%, 방어력과 정신력 20% 상승+바람과 어둠속성 저항력 40% 상승(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 80 %, la DEF et la PSY de 20 % quand une lance est équipée, et augmente la résistance au vent et aux ténèbres de 40 % (non cumulable)",
+                "Erhöht ANG und MAG um 80% sowie ABW und PSY um 20%, wenn mit einem Speer ausgerüstet, und erhöht Wind- und Dunkelresistenz um 40% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 80% y la DEF y el ESP un 20% al llevar lanza, y aumenta la resistencia a viento y oscuridad un 40% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 80%, dan DEF dan SPR sebanyak 20% ketika tombak digunakan, serta meningkatkan resistansi angin dan kegelapan sebanyak 40% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aMAG\u001a \u001a80% และ DEF\u001a,\u001a \u001aSPR\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aหอก\u001a \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aลม\u001aและ\u001aมืด\u001a \u001a40% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 80% and DEF and SPR by 20% when equipped with a spear, and boosts wind and dark resistance by 40%. Not stackable.",
+                "裝備長槍時提高80%攻擊魔力、20%防禦精神，以及提高40%風暗屬性耐性。[無法重複裝備]",
+                "창 장착 시 공격력과 마력이 80%, 방어력과 정신력이 20% 상승하며, 바람과 어둠속성 저항력이 40% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 80 %, la DEF et la PSY de 20 % quand une lance est équipée, et augmente la résistance au vent et aux ténèbres de 40 %. Non cumulable.",
+                "Erhöht ANG und MAG um 80% sowie ABW und PSY um 20%, wenn mit einem Speer ausgerüstet, und erhöht Wind- und Dunkelresistenz um 40%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 80% y la DEF y el ESP un 20% al llevar lanza, y aumenta la resistencia a viento y oscuridad un 40%. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 80%, dan DEF dan SPR sebanyak 20% ketika tombak digunakan, serta meningkatkan resistansi angin dan kegelapan sebanyak 40%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aMAG\u001a \u001a80% และ DEF\u001a,\u001a \u001aSPR\u001a \u001a20% \u001aเมื่อ\u001aติดตั้ง\u001aหอก\u001a \u001a+\u001a \u001aเพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aลม\u001aและ\u001aมืด\u001a \u001a40% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504228287": {
@@ -16030,7 +16048,7 @@
         "price_sell": 20000,
         "icon": "ability_80.png",
         "strings": {
-            "names": ["Memories of Ragnarok", "諸神黃昏的記憶", "라그나로크의 기억", "Souvenirs de Ragnarok", "Erinnerungen an Ragnarök", "Recuerdos de Ragnarok", "Kenangan Akan Ragnarok", "ความทรงจำ\u001aแห่ง\u001a \u001aRagnarok\u001a"],
+            "names": ["Memories of Ragnarok", "諸神黃昏的記憶", "라그나로크의 기억", "Souvenirs de Ragnarok", "Erinnerungen an Ragnarok", "Recuerdos de Ragnarok", "Kenangan Akan Ragnarok", "ความทรงจำ\u001aแห่ง\u001a \u001aRagnarok\u001a"],
             "desc_short": [
                 "Boost damage for jump attacks, and boost ATK by 70% when equipped with a spear (Not stackable)",
                 "提高跳躍系能力的傷害+裝備長槍時提高70%攻擊[無法重複裝備]",
@@ -21458,7 +21476,7 @@
         "name": "Faerie's Whisper",
         "compendium_id": 1298,
         "compendium_shown": true,
-        "unit_restriction": [312001007, 312001017, 312000617, 312000627],
+        "unit_restriction": [312001007, 312001017, 312000617, 312000627, 401012407, 401012417, 312000517, 312000527],
         "skills": [240727],
         "effects": ["Grant 'Faerie's Whisper' passive"],
         "unique": false,
@@ -21475,7 +21493,7 @@
         "name": "Faerie's Wish",
         "compendium_id": 1299,
         "compendium_shown": true,
-        "unit_restriction": [312001007, 312001017, 312000617, 312000627],
+        "unit_restriction": [312001007, 312001017, 312000617, 312000627, 401012407, 401012417, 312000517, 312000527],
         "skills": [240728],
         "effects": ["Grant 'Faerie's Wish' passive"],
         "unique": false,
@@ -21492,7 +21510,7 @@
         "name": "Faerie's Prayer",
         "compendium_id": 1300,
         "compendium_shown": true,
-        "unit_restriction": [312001007, 312001017, 312000617, 312000627],
+        "unit_restriction": [312001007, 312001017, 312000617, 312000627, 401012407, 401012417, 312000517, 312000527],
         "skills": [240729],
         "effects": ["Grant 'Faerie's Prayer' passive"],
         "unique": false,
@@ -21509,7 +21527,7 @@
         "name": "Faerie's Hope",
         "compendium_id": 1301,
         "compendium_shown": true,
-        "unit_restriction": [312001007, 312001017, 312000617, 312000627],
+        "unit_restriction": [312001007, 312001017, 312000617, 312000627, 401012407, 401012417, 312000517, 312000527],
         "skills": [240730],
         "effects": ["Grant 'Faerie's Hope' passive"],
         "unique": false,
@@ -21526,7 +21544,7 @@
         "name": "Faerie's Guidance",
         "compendium_id": 1302,
         "compendium_shown": true,
-        "unit_restriction": [312001007, 312001017, 312000617, 312000627],
+        "unit_restriction": [312001007, 312001017, 312000617, 312000627, 401012407, 401012417, 312000517, 312000527],
         "skills": [240731],
         "effects": ["Grant 'Faerie's Guidance' passive"],
         "unique": false,
