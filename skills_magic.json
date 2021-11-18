@@ -4757,6 +4757,58 @@
         "effects_raw": [[0, 3, 3, [80,  80,  80,  80,  -1,  1,  0]]],
         "requirements": null
     },
+    "30600": {
+        "name": "エンサンダラ",
+        "icon": "ability_20.png",
+        "compendium_id": 302,
+        "rarity": 8,
+        "cost": {"MP": 40},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            ["Add Lightning element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Lightning physical damage by 25% to all allies for 5 turns"],
+            ["Increase Lightning magic damage by 25% to all allies for 5 turns"]
+        ],
+        "effects_raw": [[2, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  25,  0,  0,  0,  0,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  25,  0,  0,  0,  0,  0], 1, 5, 1]]],
+        "requirements": null
+    },
+    "30640": {
+        "name": "エンライトラ",
+        "icon": "ability_5.png",
+        "compendium_id": 306,
+        "rarity": 8,
+        "cost": {"MP": 40},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            ["Add Light element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Light physical damage by 25% to all allies for 5 turns"],
+            ["Increase Light magic damage by 25% to all allies for 5 turns"]
+        ],
+        "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  0,  25,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  0,  25,  0], 1, 5, 1]]],
+        "requirements": null
+    },
     "40010": {
         "name": "White Wind",
         "icon": "ability_4.png",
@@ -4780,7 +4832,7 @@
             ["Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 2, [0,  0,  2500,  1800,  100]], [2, 2, 8, [3600,  1,  6300,  3]]],
-        "requirements": [["SWITCH",  10384500]]
+        "requirements": null
     },
     "40020": {
         "name": "Light of Repentance",
@@ -4801,11 +4853,11 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (12x, SPR) to one enemy"],
-            ["Magic light damage (12x, SPR) per turn to one enemy for 3 turns"]
+            ["Magic light damage (60x, SPR) to one enemy"],
+            ["Magic light damage (40x, SPR) per turn to one enemy for 3 turns"]
         ],
-        "effects_raw": [[1, 1, 103, [100,  99999,  1200]], [1, 1, 139, [4,  1200,  0,  0,  3,  1,  22]]],
-        "requirements": [["SWITCH",  10391500]]
+        "effects_raw": [[1, 1, 103, [100,  99999,  6000]], [1, 1, 139, [4,  4000,  0,  0,  3,  1,  22]]],
+        "requirements": null
     },
     "40030": {
         "name": "Mighty Guard (FFIX)",
@@ -5270,11 +5322,11 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Reduce MAG and SPR by 65% for 3 turns to all enemies"],
+            ["Reduce MAG and SPR by 80% for 3 turns to all enemies"],
             ["Reduce resistance to Wind and Light by 100% for 3 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 24, [0,  0,  -65,  -65,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
-        "requirements": [["SWITCH",  10540500]]
+        "effects_raw": [[2, 1, 24, [0,  0,  -80,  -80,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
+        "requirements": null
     },
     "40240": {
         "name": "Mobilize",
@@ -5298,7 +5350,7 @@
             ["Increase LB damage by 30% to all allies for 3 turns"]
         ],
         "effects_raw": [[2, 2, 120, [30,  3,  1,  1]]],
-        "requirements": [["SWITCH",  10610300]]
+        "requirements": null
     },
     "40250": {
         "name": "Mighty Guard (FFBE)",
@@ -5319,12 +5371,12 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Increase DEF and SPR by 150% for 3 turns to all allies"],
+            ["Increase DEF and SPR by 250% for 3 turns to all allies"],
             ["Reduce damage taken by 30% to all allies for 3 turns"],
             ["Grant a 5000 HP shield to all allies for 3 turns"]
         ],
-        "effects_raw": [[2, 2, 3, [0,  150,  0,  150,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
-        "requirements": [["SWITCH",  10770300]]
+        "effects_raw": [[2, 2, 3, [0,  250,  0,  250,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
+        "requirements": null
     },
     "40260": {
         "name": "Laser Eye",
@@ -5619,11 +5671,11 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (10x, SPR) to all enemies"],
-            ["Magic light damage (7.5x, SPR) per turn to all enemies for 10 turns"]
+            ["Magic light damage (58x, SPR) to all enemies"],
+            ["Magic light damage (35x, SPR) per turn to all enemies for 10 turns"]
         ],
-        "effects_raw": [[2, 1, 103, [100,  99999,  1000]], [2, 1, 139, [4,  750,  0,  0,  10,  1,  32]]],
-        "requirements": [["SWITCH",  10910005]]
+        "effects_raw": [[2, 1, 103, [100,  99999,  5800]], [2, 1, 139, [4,  3500,  0,  0,  10,  1,  32]]],
+        "requirements": null
     },
     "40380": {
         "name": "White Wind (FFVI)",
