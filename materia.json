@@ -7320,7 +7320,7 @@
                 "물리, 마법 공격 시 조류형 마물에게 부여하는 피해량 75% 상승(중복 장착 불가)",
                 "Augmente les dégâts physiques et magiques infligés aux oiseaux de 75 % (non cumulable)",
                 "Erhöht physischen sowie magischen Schaden gegen Vogelmonster um 75% (nicht stapelbar).",
-                "Aumenta el daño físico contra aves un 75% (no acumulable)",
+                "Aumenta el daño físico y mágico contra aves un 75% (no acumulable)",
                 "Meningkatkan damage fisik dan magic terhadap jenis makhluk bersayap sebanyak 75% (Tidak dapat ditumpuk)",
                 "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
@@ -7330,7 +7330,7 @@
                 "물리, 마법 공격 시 조류형 마물에게 부여하는 피해량이 75% 상승합니다.(중복 장착 불가)",
                 "Augmente les dégâts physiques et magiques infligés aux oiseaux de 75 %. Non cumulable.",
                 "Erhöht physischen sowie magischen Schaden gegen Vogelmonster um 75%. Nicht stapelbar.",
-                "Aumenta el daño físico contra aves un 75%. No acumulable.",
+                "Aumenta el daño físico y mágico contra aves un 75%. No acumulable.",
                 "Meningkatkan damage fisik dan magic terhadap jenis makhluk bersayap sebanyak 75%. Tidak dapat ditumpuk.",
                 "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์ปีก\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
@@ -14468,7 +14468,7 @@
         "price_sell": 10000,
         "icon": "ability_76.png",
         "strings": {
-            "names": ["Ace of Aces", "真正的王牌", "틀림없는 에이스", "As des as", "Ass unter Assen", "As de ases", "Ace of Aces", "Ace\u001a \u001aเหนือ\u001a \u001aAce\u001a"],
+            "names": ["Ace of Aces", "真正的王牌", "틀림없는 에이스", "As des as", "Ass unter Assen", "As de ases", "Ace of Aces", "มือหนึ่ง\u001aใน\u001aมือหนึ่ง\u001a"],
             "desc_short": [
                 "Boost ATK and water resistance by 30%, fill LB gauge every turn, and boost equipment ATK when a single weapon is equipped in both hands (Not stackable)",
                 "提高30%攻擊、水屬性耐性+每回合增加極限技槽+雙手只裝備1把武器時武具攻擊提升[無法重複裝備]",
@@ -14482,7 +14482,7 @@
             "desc_long": [
                 "Boosts ATK and water resistance by 30%, fills LB gauge every turn, and boosts equipment ATK when a single weapon is equipped in both hands. Not stackable.",
                 "提高30%攻擊、水屬性耐性，每回合增加極限技槽，雙手只裝備1把武器時武具攻擊提升。[無法重複裝備]",
-                "공격력과 물속성 저항력이 30% 상승하고, 매 턴마다 LB 게이지 증가하며, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
+                "공격력과 물속성 저항력이 30% 상승하고, 매 턴마다 LB 게이지가 증가하며, 양손의 장비가 무기 1개일 경우 장비의 공격력이 상승합니다. (중복 장착 불가)",
                 "Augmente l'ATT et la résistance à l'eau de 30 %, remplit la jauge de limite à chaque tour, et augmente l'ATT de l'équipement quand une arme est tenue avec les deux mains. Non cumulable",
                 "Erhöht ANG und Wasserresistenz um 30%, füllt jede Runde Limitmeter und erhöht Ausrüstung-ANG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist. Nicht stapelbar.",
                 "Aumenta el ATQ y la resistencia al agua 30%, rellena la barra de EL cada turno, y aumenta el ATQ del equipo al llevar una sola arma en ambas manos. No acumulable.",
@@ -22892,37 +22892,55 @@
         }
     },
     "504242200": {
-        "name": "スピラの希望の光",
+        "name": "Spira's Ray of Light",
         "compendium_id": 1360,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242200],
-        "effects": ["Grant 'スピラの希望の光' passive"],
+        "effects": ["Grant 'Spira's Ray of Light' passive"],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_70.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Spira's Ray of Light", "史匹拉的希望之光", "스피라의 희망의 빛", "Lueur d'espoir de Spira", "Die Hoffnung Spiras", "La esperanza de Spira", "Sinar Harapan Spira", "แสง\u001aความหวัง\u001aแห่ง\u001a \u001aSpira\u001a"],
+            "desc_short": ["Boost evocation damage by 30% and boost damage for various chains by 100%", "提高30%召喚魔法的威力+提高100%各種CHAIN的傷害", "소환마법 사용 시 피해량 30% 상승+각종 체인 피해량 100% 상승", "Augmente les dégâts d'appel de 30 % et augmente les dégâts pour divers combos de 100 %", "Erhöht Rufen-Schaden um 30% und erhöht Schaden verschiedener Ketten um 100%.", "Aumenta el daño de evocación un 30% y el daño límite de varios combos un 100%", "Meningkatkan damage summon sebanyak 30% dan meningkatkan damage dalam berbagai combo sebanyak 100%", "เพิ่มค่า\u001aความเสียหาย\u001aจาก\u001aการ\u001aซัม\u001aม่อน\u001a \u001aEsper\u001a \u001a30% + เพิ่มค่าความเสียหายของ Chain\u001a \u001aต่างๆ\u001a \u001a100%"],
+            "desc_long": ["Boosts evocation damage by 30% and boosts damage for various chains by 100%.", "提高30%召喚魔法的威力，以及提高100%各種CHAIN的傷害上限。", "소환마법 사용 시 피해량이 30% 상승하고, 각종 체인 피해량이 100% 상승합니다.", "Augmente les dégâts d'appel de 30 % et augmente les dégâts pour divers combos de 100 %", "Erhöht Rufen-Schaden um 30% und erhöht Schaden verschiedener Ketten um 100%.", "Aumenta el daño de evocación un 30% y el daño límite de varios combos un 100%.", "Meningkatkan damage summon sebanyak 30% dan meningkatkan damage dalam berbagai combo sebanyak 100%.", "เพิ่มค่า\u001aความเสียหาย\u001aจาก\u001aการ\u001aซัม\u001aม่อน\u001a \u001aEsper\u001a \u001a30% + เพิ่มค่าความเสียหายของ Chain\u001a \u001aต่างๆ\u001a \u001a100%"]
         }
     },
     "504242218": {
-        "name": "ニギヤカ担当",
+        "name": "Merry Maker",
         "compendium_id": 1361,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242218],
-        "effects": ["Grant 'ニギヤカ担当' passive"],
-        "unique": false,
+        "effects": ["Grant 'Merry Maker' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_94.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Merry Maker", "活躍氣氛之人", "떠들썩 담당", "Boost Al Bhed", "Stimmungsmacher", "Espíritu alegre", "Pembangkit Semangat", "สร้าง\u001aความ\u001aครื้นเครง\u001aให้\u001aกลุ่ม\u001a"],
+            "desc_short": [
+                "Boost ATK by 60% and increase chance of being targeted by 30% (Not stackable)",
+                "提高60%攻擊+30%機率容易被敵人攻擊[無法重複裝備]",
+                "공격력 60% 상승+적의 공격 대상이 될 확률 30% 상승(중복 장착 불가)",
+                "Augmente l'ATT de 60 % et augmente les chances d'être pris pour cible de 30 % (non cumulable)",
+                "Erhöht ANG um 60% und erhöht Chance, zum Ziel einiger Angriffe zu werden, um 30% (nicht stapelbar).",
+                "Aumenta el ATQ un 60% y la probabilidad de ser atacado un 30% (no acumulable)",
+                "Meningkatkan ATK sebanyak 60% dan meningkatkan peluang menjadi target musuh sebanyak 30% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a60% \u001a+\u001a \u001aเพิ่ม\u001aโอกาส\u001aตกเป็น\u001aเป้าหมาย\u001aถูก\u001aโจมตี\u001a \u001a30% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 60% and increases chance of being targeted by 30%. Not stackable.",
+                "提高60%攻擊，以及30%機率容易被敵人攻擊。[無法重複裝備]",
+                "공격력이 60% 상승하고, 적의 공격 대상이 될 확률이 30% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT de 60 % et augmente les chances d'être pris pour cible de 30 %. Non cumulable.",
+                "Erhöht ANG um 60% und erhöht Chance, zum Ziel einiger Angriffe zu werden, um 30%. Nicht stapelbar.",
+                "Aumenta el ATQ un 60% y la probabilidad de ser atacado un 30%. No acumulable.",
+                "Meningkatkan ATK sebanyak 60% dan meningkatkan peluang menjadi target musuh sebanyak 30%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a60% \u001a+\u001a \u001aเพิ่ม\u001aโอกาส\u001aตกเป็น\u001aเป้าหมาย\u001aถูก\u001aโจมตี\u001a \u001a30% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242300": {
