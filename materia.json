@@ -22705,7 +22705,7 @@
         }
     },
     "504241941": {
-        "name": "アタックライズ",
+        "name": "Raise Attack",
         "compendium_id": 1338,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22716,13 +22716,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Raise Attack", "攻擊提升", "공격력 상승", "Augmentation d'ATT", "ANG-Schub", "ATQ↑", "Raise ATK", "เพิ่มค่า\u001a \u001aATK\u001a"],
+            "desc_short": ["Boost ATK by 30%", "提高30%攻擊", "공격력 30% 상승", "Augmente l'ATT de 30 %", "Erhöht ANG um 30 %", "Aumenta el ATQ un 30%", "Meningkatkan ATK sebanyak 30%", null],
+            "desc_long": ["Boosts ATK by 30%.", "提高30%攻擊。", "공격력이 30% 상승합니다.", "Augmente l'ATT de 30 %.", "Erhöht ANG um 30%.", "Aumenta el ATQ un 30%.", "Meningkatkan ATK sebanyak 30%.", "เพิ่มค่า\u001a \u001aATK\u001a \u001a30%"]
         }
     },
     "504241942": {
-        "name": "ディフェンスライズ",
+        "name": "Raise Defense",
         "compendium_id": 1339,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22733,13 +22733,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Raise Defense", "防禦提升", "방어력 상승", "Augmentation de DEF", "ABW-Schub", "DEF↑", "Raise DEF", "เพิ่มค่า\u001a \u001aDEF\u001a"],
+            "desc_short": ["Boost DEF by 30%", "提高30%防禦", "방어력 30% 상승", "Augmente la DEF de 30 %", "Erhöht ABW um 30 %", "Aumenta la DEF un 30%", "Meningkatkan DEF sebanyak 30%", null],
+            "desc_long": ["Boosts DEF by 30%.", "提高30%防禦。", "방어력이 30% 상승합니다.", "Augmente la DEF de 30 %.", "Erhöht ABW um 30%.", "Aumenta la DEF un 30%.", "Meningkatkan DEF sebanyak 30%.", "เพิ่มค่า\u001a \u001aDEF\u001a \u001a30%"]
         }
     },
     "504241943": {
-        "name": "マジックライズ",
+        "name": "Raise Magic",
         "compendium_id": 1340,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22750,13 +22750,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Raise Magic", "魔法提升", "마력 상승", "Augmentation de MAGIE", "MAG-Schub", "MAG↑", "Raise MAG", "เพิ่มค่า\u001a \u001aMAG\u001a"],
+            "desc_short": ["Boost MAG by 30%", "提高30%魔力", "마력 30% 상승", "Augmente la MAGIE de 30 %", "Erhöht MAG um 30%.", "Aumenta la MAG un 30%", "Meningkatkan MAG sebanyak 30%", null],
+            "desc_long": ["Boosts MAG by 30%.", "提高30%魔力。", "마력이 30% 상승합니다.", "Augmente la MAGIE de 30 %.", "Erhöht MAG um 30%.", "Aumenta la MAG un 30%.", "Meningkatkan MAG sebanyak 30%.", "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30%"]
         }
     },
     "504241944": {
-        "name": "マインドライズ",
+        "name": "Raise Spirit",
         "compendium_id": 1341,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22767,9 +22767,9 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Raise Spirit", "精神提升", "정신력 상승", "Augmentation de PSY", "PSY-Schub", "ESP↑", "Raise SPR", "เพิ่มค่า\u001a \u001aSPR\u001a"],
+            "desc_short": ["Boost SPR by 30%", "提高30%精神", "정신력 30% 상승", "Augmente la PSY de 30 %", "Erhöht PSY um 30 %", "Aumenta el ESP un 30%", "Meningkatkan SPR sebanyak 30%", null],
+            "desc_long": ["Boosts SPR by 30%.", "提高30%精神。", "정신력이 30% 상승합니다.", "Augmente la PSY de 30 %.", "Erhöht PSY um 30%.", "Aumenta el ESP un 30%.", "Meningkatkan SPR sebanyak 30%.", "เพิ่มค่า\u001a \u001aSPR\u001a \u001a30%"]
         }
     },
     "504242092": {
@@ -22944,71 +22944,125 @@
         }
     },
     "504242300": {
-        "name": "戦友との約束",
+        "name": "A Promise Among Comrades",
         "compendium_id": 1362,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242300],
-        "effects": ["Grant '戦友との約束' passive"],
-        "unique": false,
+        "effects": ["Grant 'A Promise Among Comrades' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["A Promise Among Comrades", "與戰友的約定", "전우와의 약속", "Serment entre compagnons", "Ein Versprechen unter Kameraden", "Promesa entre camaradas", "Janji antar Rekan", "สัญญา\u001aกับ\u001aสหาย\u001aศึก\u001a"],
+            "desc_short": [
+                "Boost ATK by 80% and parameters when setting an esper by 50% (Not stackable)",
+                "提高80%攻擊+提高50%設定幻獸時反映在兵員身上的狀態數值[無法重複裝備]",
+                "공격력 80% 상승+환수 장착 시 반영되는 능력치 50% 상승(중복 장착 불가)",
+                "Augmente l'ATT de 80 % et augmente les caractéristiques de 50 % quand une chimère est attribuée (non cumulable)",
+                "Erhöht ANG um 80% und erhöht Werte beim Festlegen eines Espers um 50% (nicht stapelbar).",
+                "Aumenta el ATQ un 80% y aumenta los parámetros un 50% al vincular un esper (no acumulable)",
+                "Meningkatkan ATK sebanyak 80% dan parameter sebanyak 50% ketika esper dipasang (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a80% + เพิ่มค่าสเตตัสที่ถูกเพิ่มเมื่อติดตั้ง Esper\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 80% and parameters when setting an esper by 50%. Not stackable.",
+                "提高80%攻擊，以及提高50%設定幻獸時反映在兵員身上的狀態數值。[無法重複裝備]",
+                "공격력이 80% 상승하고, 환수 장착 시 반영되는 능력치가 50% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT de 80% et augmente les caractéristiques de 50 % quand une chimère est attribuée. Non cumulable.",
+                "Erhöht ANG um 80% und erhöht Werte beim Festlegen eines Espers um 50%. Nicht stapelbar.",
+                "Aumenta el ATQ un 80% y aumenta los parámetros un 50% al vincular un esper. No acumulable.",
+                "Meningkatkan ATK sebanyak 80% dan parameter sebanyak 50% ketika esper dipasang. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a80% + เพิ่มค่าสเตตัสที่ถูกเพิ่มเมื่อติดตั้ง Esper\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242302": {
-        "name": "蒼の波動",
+        "name": "Blue Wave",
         "compendium_id": 1363,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242302],
-        "effects": ["Grant '蒼の波動' ability"],
+        "effects": ["Grant 'Blue Wave' ability"],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_23.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Blue Wave", "蒼之波動", "푸른 파동", "Onde azur", "Blaue Welle", "Ola cerúlea", "Ombak Biru", "พลัง\u001aคลื่น\u001aน้ำเงิน\u001a"],
+            "desc_short": ["Deal water magic damage three times to one enemy", "對1名敵人發動3次水屬性魔法攻擊", "적 1명에게 3회 물속성 마법 피해", "Inflige des dégâts magiques d'eau 3 fois à un ennemi", "Fügt einem Gegner dreimal magischen Wasserschaden zu.", "Daño mágico de agua a un enemigo 3 veces", "Memberikan damage magic air 3 kali pada satu musuh", "สร้าง\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aธาตุ\u001aน้ำ\u001a \u001a3\u001a \u001aครั้ง\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a"],
+            "desc_long": ["Deals water magic damage three times to one enemy.", "對1名敵人發動3次水屬性魔法攻擊。", "적 1명에게 3회 물속성 마법 피해를 입힙니다.", "Inflige des dégâts magiques d'eau 3 fois à un ennemi", "Fügt einem Gegner dreimal magischen Wasserschaden zu.", "Daño mágico de agua a un enemigo 3 veces.", "Memberikan damage magic air 3 kali pada satu musuh.", "สร้าง\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aธาตุ\u001aน้ำ\u001a \u001a3\u001a \u001aครั้ง\u001aแก่\u001aศัตรู\u001a \u001a1\u001a \u001aราย\u001a"]
         }
     },
     "504242304": {
-        "name": "息子へ託す想い",
+        "name": "Memories Left to a Son",
         "compendium_id": 1364,
         "compendium_shown": true,
         "unit_restriction": [210001005, 210001006, 210001007, 210001017],
         "skills": [242304],
-        "effects": ["Grant '息子へ託す想い' passive"],
-        "unique": false,
+        "effects": ["Grant 'Memories Left to a Son' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Memories Left to a Son", "託付給兒子的思念", "아들에게 남긴 마음", "Souvenirs pour un fils", "Andenken für einen Sohn", "Recuerdos para un hijo", "Kenangan untuk sang Putra", "ทิ้ง\u001aความทรงจำ\u001aให้\u001aลูกชาย\u001a"],
+            "desc_short": [
+                "Boost ATK by 50% and physical damage against fairies by 50% (Jecht only) (Not stackable)",
+                "提高50%攻擊+物理攻擊時提高50%對精靈系魔物的傷害(傑克特專屬)[無法重複裝備]",
+                "공격력 50% 상승+물리 공격 시 정령형 마물에게 부여하는 피해량 50% 상승(젝트 전용)(중복 장착 불가)",
+                "Augmente l'ATT et les dégâts physiques infligés aux esprits de 50 % (Jecht uniquement) (non cumulable)",
+                "Erhöht ANG um 50% und physischen Schaden gegen Feen um 50% (nur Jekkt) (nicht stapelbar).",
+                "Aumenta el ATQ un 50% y el daño físico contra espíritus un 50% (solo Jecht) (no acumulable)",
+                "Meningkatkan ATK sebanyak 50% dan meningkatkan damage fisik terhadap jenis peri sebanyak 50% (Khusus Jecht) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a50% + เพิ่ม<br>ค่าความเสียหายทางกายภาพเมื่อโจมตีศัตรูชนิดแฟรี่ 50% (Jecht\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 50% and physical damage against fairies by 50%. Jecht only. Not stackable.",
+                "提高50%攻擊，以及物理攻擊時提高50%對精靈系魔物的傷害。(傑克特專屬)[無法重複裝備]",
+                "공격력이 50% 상승하고, 물리 공격 시 정령형 마물에게 부여하는 피해량이 50% 상승합니다.(젝트 전용)(중복 장착 불가)",
+                "Augmente l'ATT et les dégâts physiques infligés aux esprits de 50 %. Jecht uniquement. Non cumulable.",
+                "Erhöht ANG um 50% und physischen Schaden gegen Feen um 50%. Nur Jekkt. Nicht stapelbar.",
+                "Aumenta el ATQ un 50% y el daño físico contra espíritus un 50%. Solo Jecht. No acumulable.",
+                "Meningkatkan ATK sebanyak 50% dan meningkatkan damage fisik terhadap jenis peri sebanyak 50%. Khusus Jecht. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a50% + เพิ่มค่าความเสียหายทางกายภาพเมื่อโจมตีศัตรูชนิดแฟรี่ 50% (Jecht\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242305": {
-        "name": "娘へ託す想い",
+        "name": "Memories Left to a Daughter",
         "compendium_id": 1365,
         "compendium_shown": true,
         "unit_restriction": [210001105, 210001106, 210001107],
         "skills": [242305],
-        "effects": ["Grant '娘へ託す想い' passive"],
-        "unique": false,
+        "effects": ["Grant 'Memories Left to a Daughter' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Memories Left to a Daughter", "託付給女兒的思念", "딸에게 남긴 마음", "Souvenirs pour une fille", "Andenken für eine Tochter", "Recuerdos para una hija", "Kenangan untuk sang Putri", "ทิ้ง\u001aความทรงจำ\u001aให้\u001aลูกสาว\u001a"],
+            "desc_short": [
+                "Boost SPR by 50% and magic damage against fairies by 50% (High Summoner Braska only) (Not stackable)",
+                "提高50%精神+魔法攻擊時提高50%對精靈系魔物的傷害(大召喚士布拉斯卡專屬)[無法重複裝備]",
+                "정신력 50% 상승+마법 공격 시 정령형 마물에게 부여하는 피해량 50% 상승(대소환사 브라스카 전용)(중복 장착 불가)",
+                "Augmente la PSY et les dégâts magiques infligés aux esprits de 50 % (Grand Invokeur Braska uniquement) (non cumulable)",
+                "Erhöht PSY um 50% und magischen Schaden gegen Feen um 50% (nur Hohes Medium Braska) (nicht stapelbar).",
+                "Aumenta el ESP un 50% y el daño físico contra espíritus un 50% (solo Alto invocador Braska) (no acumulable)",
+                "Meningkatkan SPR sebanyak 50% dan meningkatkan damage magic terhadap jenis peri sebanyak 50% (Khusus Summoner Agung Braska) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001a50% + เพิ่ม<br>ค่าความเสียหายพลังเวทย์เมื่อโจมตีศัตรูชนิดแฟรี่ 50% (มหาผู้อัญเชิญ Braska\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts SPR by 50% and magic damage against fairies by 50%. High Summoner Braska only. Not stackable.",
+                "提高50%精神，以及魔法攻擊時提高50%對精靈系魔物的傷害。(大召喚士布拉斯卡專屬)[無法重複裝備]",
+                "정신력이 50% 상승하고, 마법 공격 시 정령형 마물에게 부여하는 피해량이 50% 상승합니다.(대소환사 브라스카 전용)(중복 장착 불가)",
+                "Augmente la PSY et les dégâts magiques infligés aux esprits de 50 %. Grand Invokeur Braska uniquement. Non cumulable.",
+                "Erhöht PSY um 50% und magischen Schaden gegen Feen um 50%. Nur Hohes Medium Braska. Nicht stapelbar.",
+                "Aumenta el ESP un 50% y el daño físico contra espíritus un 50%. Solo Alto invocador Braska. No acumulable.",
+                "Meningkatkan SPR sebanyak 50% dan meningkatkan damage magic terhadap jenis peri sebanyak 50%. Khusus Summoner Agung Braska. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001a50% + เพิ่มค่าความเสียหายพลังเวทย์เมื่อโจมตีศัตรูชนิดแฟรี่ 50% (มหาผู้อัญเชิญ Braska\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242370": {
