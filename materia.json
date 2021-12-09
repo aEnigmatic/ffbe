@@ -7474,20 +7474,38 @@
         }
     },
     "504220130": {
-        "name": "Mアクアンキラー",
+        "name": "M Aquan Killer",
         "compendium_id": 1352,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [220130],
         "effects": ["Grant 'M Aquan Killer' passive"],
-        "unique": false,
+        "unique": true,
         "price_buy": 8000,
         "price_sell": 800,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["M Aquan Killer", "M枯水", "M수중생물 킬러", "Tue-aquatiques M", "Aquankiller M", "Mataacuáticos M", "Pembantai Makhluk Perairan M", "M\u001a \u001aAquan\u001a \u001aKiller\u001a"],
+            "desc_short": [
+                "Boost magic damage against aquatic monsters by 50% (Not stackable)",
+                "魔法攻擊時提高50%對水生系魔物的傷害[無法重複裝備]",
+                "마법 공격 시 수중형 마물에게 부여하는 피해량 50% 상승(중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux monstres aquatiques de 50 % (non cumulable)",
+                "Erhöht magischen Schaden gegen Wassermonster um 50% (nicht stapelbar).",
+                "Aumenta el daño mágico contra acuáticos un 50% (no acumulable)",
+                "Meningkatkan damage magic terhadap jenis makhluk perairan sebanyak 50% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์น้ำ\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts magic damage against aquatic monsters by 50%. Not stackable.",
+                "魔法攻擊時提高50%對水生系魔物的傷害。[無法重複裝備]",
+                "마법 공격 시 수중형 마물에게 부여하는 피해량이 50% 상승합니다.(중복 장착 불가)",
+                "Augmente les dégâts magiques infligés aux monstres aquatiques de 50 %. Non cumulable.",
+                "Erhöht magischen Schaden gegen Wassermonster um 50%. Nicht stapelbar.",
+                "Aumenta el daño mágico contra acuáticos un 50%. No acumulable.",
+                "Meningkatkan damage magic terhadap jenis makhluk perairan sebanyak 50%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aสัตว์น้ำ\u001a \u001a50% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504220140": {
@@ -22705,7 +22723,7 @@
         }
     },
     "504241941": {
-        "name": "Raise Attack",
+        "name": "アタックライズ",
         "compendium_id": 1338,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22716,13 +22734,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Raise Attack", "攻擊提升", "공격력 상승", "Augmentation d'ATT", "ANG-Schub", "ATQ↑", "Raise ATK", "เพิ่มค่า\u001a \u001aATK\u001a"],
-            "desc_short": ["Boost ATK by 30%", "提高30%攻擊", "공격력 30% 상승", "Augmente l'ATT de 30 %", "Erhöht ANG um 30 %", "Aumenta el ATQ un 30%", "Meningkatkan ATK sebanyak 30%", null],
-            "desc_long": ["Boosts ATK by 30%.", "提高30%攻擊。", "공격력이 30% 상승합니다.", "Augmente l'ATT de 30 %.", "Erhöht ANG um 30%.", "Aumenta el ATQ un 30%.", "Meningkatkan ATK sebanyak 30%.", "เพิ่มค่า\u001a \u001aATK\u001a \u001a30%"]
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504241942": {
-        "name": "Raise Defense",
+        "name": "ディフェンスライズ",
         "compendium_id": 1339,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22733,13 +22751,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Raise Defense", "防禦提升", "방어력 상승", "Augmentation de DEF", "ABW-Schub", "DEF↑", "Raise DEF", "เพิ่มค่า\u001a \u001aDEF\u001a"],
-            "desc_short": ["Boost DEF by 30%", "提高30%防禦", "방어력 30% 상승", "Augmente la DEF de 30 %", "Erhöht ABW um 30 %", "Aumenta la DEF un 30%", "Meningkatkan DEF sebanyak 30%", null],
-            "desc_long": ["Boosts DEF by 30%.", "提高30%防禦。", "방어력이 30% 상승합니다.", "Augmente la DEF de 30 %.", "Erhöht ABW um 30%.", "Aumenta la DEF un 30%.", "Meningkatkan DEF sebanyak 30%.", "เพิ่มค่า\u001a \u001aDEF\u001a \u001a30%"]
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504241943": {
-        "name": "Raise Magic",
+        "name": "マジックライズ",
         "compendium_id": 1340,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22750,13 +22768,13 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Raise Magic", "魔法提升", "마력 상승", "Augmentation de MAGIE", "MAG-Schub", "MAG↑", "Raise MAG", "เพิ่มค่า\u001a \u001aMAG\u001a"],
-            "desc_short": ["Boost MAG by 30%", "提高30%魔力", "마력 30% 상승", "Augmente la MAGIE de 30 %", "Erhöht MAG um 30%.", "Aumenta la MAG un 30%", "Meningkatkan MAG sebanyak 30%", null],
-            "desc_long": ["Boosts MAG by 30%.", "提高30%魔力。", "마력이 30% 상승합니다.", "Augmente la MAGIE de 30 %.", "Erhöht MAG um 30%.", "Aumenta la MAG un 30%.", "Meningkatkan MAG sebanyak 30%.", "เพิ่มค่า\u001a \u001aMAG\u001a \u001a30%"]
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504241944": {
-        "name": "Raise Spirit",
+        "name": "マインドライズ",
         "compendium_id": 1341,
         "compendium_shown": true,
         "unit_restriction": null,
@@ -22767,9 +22785,9 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Raise Spirit", "精神提升", "정신력 상승", "Augmentation de PSY", "PSY-Schub", "ESP↑", "Raise SPR", "เพิ่มค่า\u001a \u001aSPR\u001a"],
-            "desc_short": ["Boost SPR by 30%", "提高30%精神", "정신력 30% 상승", "Augmente la PSY de 30 %", "Erhöht PSY um 30 %", "Aumenta el ESP un 30%", "Meningkatkan SPR sebanyak 30%", null],
-            "desc_long": ["Boosts SPR by 30%.", "提高30%精神。", "정신력이 30% 상승합니다.", "Augmente la PSY de 30 %.", "Erhöht PSY um 30%.", "Aumenta el ESP un 30%.", "Meningkatkan SPR sebanyak 30%.", "เพิ่มค่า\u001a \u001aSPR\u001a \u001a30%"]
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504242092": {
@@ -23066,37 +23084,90 @@
         }
     },
     "504242370": {
-        "name": "楽しいバカンス",
+        "name": "A Super Fun Vacation",
         "compendium_id": 1366,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242370],
-        "effects": ["Grant '(仮称)ファイサリストラマス' passive"],
-        "unique": false,
+        "effects": ["Grant 'A Super Fun Vacation' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
-        "icon": "ability_91.png",
+        "icon": "ability_72.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["A Super Fun Vacation", "愉快的度假", "즐거운 바캉스", "Vacances au top", "Ein superspaßiger Urlaub", "Supervacaciones", "Liburan yang Menyenangkan", "วันหยุด\u001aมหา\u001aสนุก\u001a"],
+            "desc_short": [
+                "Fill LB gauge by 400 every turn, and boost equipment MAG by 50% when armed with two one-handed weapons (Not stackable)",
+                "每回合增加400極限技槽+裝備2把單手武器時武具魔力提升50%[無法重複裝備]",
+                "매 턴마다 LB 게이지 400 증가+한손용 무기 2개 장착 시 장비의 마력 50% 상승(중복 장착 불가)",
+                "Remplit la jauge de limite de 400 à chaque tour, et augmente la MAGIE de l'équipement de 50 % quand deux armes à une main sont équipées (non cumulable)",
+                "Limitmeter füllt sich jede Runde um 400 und erhöht Ausrüstung-MAG um 50%, wenn mit zwei Einhandwaffen ausgerüstet (nicht stapelbar).",
+                "Rellena la barra de EL en 400 cada turno, y aumenta la MAG del equipo un 50% al llevar 2 armas de una sola mano (no acumulable)",
+                "Mengisi bar LB sebanyak 400 setiap giliran dan meningkatkan MAG perlengkapan sebanyak 50% ketika 2 senjata satu tangan digunakan (Tidak dapat ditumpuk)",
+                "เติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001aสำหรับ\u001aถือ\u001aมือ\u001aเดียว\u001a \u001a2\u001a \u001aชิ้น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Fills LB gauge by 400 every turn, and boosts equipment MAG by 50% when armed with two one-handed weapons. Not stackable.",
+                "每回合增加400極限技槽，以及裝備2把單手武器時武具魔力提升50%。[無法重複裝備]",
+                "매 턴마다 LB 게이지가 400 증가하고, 한손용 무기 2개 장착 시 장비의 마력이 50% 상승합니다.(중복 장착 불가)",
+                "Remplit la jauge de limite de 400 à chaque tour, et augmente la MAGIE de l'équipement de 50 % quand deux armes à une main sont équipées. Non cumulable.",
+                "Limitmeter füllt sich jede Runde um 400 und erhöht Ausrüstung-MAG um 50%, wenn mit zwei Einhandwaffen ausgerüstet. Nicht stapelbar.",
+                "Rellena la barra de EL en 400 cada turno, y aumenta la MAG del equipo un 50% al llevar 2 armas de una sola mano. No acumulable.",
+                "Mengisi bar LB sebanyak 400 setiap giliran dan meningkatkan MAG perlengkapan sebanyak 50% ketika 2 senjata satu tangan digunakan. Tidak dapat ditumpuk.",
+                "เติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aMAG\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001aสำหรับ\u001aถือ\u001aมือ\u001aเดียว\u001a \u001a2\u001a \u001aชิ้น\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242374": {
-        "name": "恥ずかしがり屋のマーメイド",
+        "name": "A Shy Mermaid",
         "compendium_id": 1367,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242374],
-        "effects": ["Grant '(仮称)フリージアスパトラ' passive"],
-        "unique": false,
+        "effects": ["Grant 'A Shy Mermaid' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_6000200.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["A Shy Mermaid", "害羞的美人魚", "부끄럼쟁이 인어공주", "Sirène timide", "Eine scheue Meerjungfrau", "Sirena tímida", "Putri Duyung Pemalu", "เงือก\u001aสาว\u001aขี้อาย\u001a"],
+            "desc_short": [
+                "Boost equipment SPR by 200% when a single weapon is equipped in one or both hands (Not stackable)",
+                "只裝備1把武器時武具精神提升200%[無法重複裝備]",
+                "한손 또는 양손에 무기 1개 장착 시 장비의 정신력 200% 상승(중복 장착 불가)",
+                "Augmente la PSY de l'équipement de 200 % quand une seule arme est équipée dans une ou les deux mains (non cumulable)",
+                "Erhöht Ausrüstung-PSY um 200%, wenn eine einzelne Waffe in einer oder beiden Händen ausgerüstet ist (nicht stapelbar).",
+                "Aumenta el ESP del equipo un 200% al llevar una sola arma en una o ambas manos (no acumulable)",
+                "Meningkatkan SPR perlengkapan sebanyak 200% ketika 1 senjata digunakan dengan satu tangan atau kedua tangan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a200% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts equipment SPR by 200% when a single weapon is equipped in one or both hands. Not stackable.",
+                "只裝備1把武器時武具精神提升200%。[無法重複裝備]",
+                "한손 또는 양손에 무기 1개 장착 시 장비의 정신력이 200% 상승합니다.(중복 장착 불가)",
+                "Augmente la PSY de l'équipement de 200 % quand une seule arme est équipée dans une ou les deux mains. Non cumulable.",
+                "Erhöht Ausrüstung-PSY um 200%, wenn eine einzelne Waffe in einer oder beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta el ESP del equipo un 200% al llevar una sola arma en una o ambas manos. No acumulable.",
+                "Meningkatkan SPR perlengkapan sebanyak 200% ketika 1 senjata digunakan dengan satu tangan atau kedua tangan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aSPR\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a200% \u001aเมื่อ\u001aติดตั้ง\u001aอาวุธ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
+        }
+    },
+    "504242375": {
+        "name": "Ultimate Treasure Hunter",
+        "compendium_id": 1368,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242375],
+        "effects": ["Grant 'Ultimate Treasure Hunter' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_9.png",
+        "strings": {
+            "names": ["Ultimate Treasure Hunter", "尋寶秘籍", "보물찾기의 비법", "Experte de la chasse au trésor", "Ultimativer Schatzjäger", "Cazatesoros experta", "Pemburu Harta Karun Andal", "สุดยอด\u001aนัก\u001aล่า\u001aสมบัติ\u001a"],
+            "desc_short": ["Boost lightning, water, wind, and earth resistance by 20%, and fill LB gauge by 400 every turn", "提高20%雷水風土屬性耐性+每回合增加400極限技槽", "번개, 물, 바람, 땅속성 저항력 20% 상승+매 턴마다 LB 게이지 400 증가", "Augmente la résistance à la foudre, à l'eau, au vent et à la terre de 20 %, et remplit la jauge de limite de 400 à chaque tour", "Erhöht Blitz-, Wasser-, Wind- und Erdresistenz um 20% und Limitmeter füllt sich jede Runde um 400.", "Aumenta la resistencia a rayo, agua, viento y tierra un 20%, y rellena la barra de EL en 400 cada turno", "Meningkatkan resistansi petir, air, angin, dan tanah sebanyak 20%, serta mengisi bar LB sebanyak 400 setiap giliran", "เพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aสายฟ้า\u001a,\u001a \u001aน้ำ\u001a,\u001a \u001aลม\u001aและ\u001aดิน\u001a \u001a20% + เติม LB Gauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a"],
+            "desc_long": ["Boosts lightning, water, wind, and earth resistance by 20%, and fills LB gauge by 400 every turn.", "提高20%雷水風土屬性耐性，以及每回合增加400極限技槽。", "번개, 물, 바람, 땅속성 저항력이 20% 상승하고, 매 턴마다 LB 게이지가 400 증가합니다.", "Augmente la résistance à la foudre, à l'eau, au vent et à la terre de 20 %, et remplit la jauge de limite de 400 à chaque tour", "Erhöht Blitz-, Wasser-, Wind- und Erdresistenz um 20% und Limitmeter füllt sich jede Runde um 400.", "Aumenta la resistencia a rayo, agua, viento y tierra un 20%, y rellena la barra de EL en 400 cada turno.", "Meningkatkan resistansi petir, air, angin, dan tanah sebanyak 20%, serta mengisi bar LB sebanyak 400 setiap giliran.", "เพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aสายฟ้า\u001a,\u001a \u001aน้ำ\u001a,\u001a \u001aลม\u001aและ\u001aดิน\u001a \u001a20% + เติม LB Gauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a"]
         }
     },
     "504400110": {
