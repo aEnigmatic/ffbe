@@ -4492,7 +4492,7 @@
         "icon": "ability_91.png",
         "strings": {
             "names": ["Domineering Spirit", "霸者的鬥氣", "패자의 투기", "Esprit de champion", "Tyrannenseele", "Espíritu dominador", "Semangat Penakluk", "ปราณ\u001aแห่ง\u001aผู้พิชิต\u001a"],
-            "desc_short": ["Restore HP and MP, and fill LB gauge every turn", "戰鬥中每回合自動恢復HPMP+增加極限技槽", "매 턴마다 HP와 MP 회복+LB 게이지 증가", "Restaure les PV et les PM et remplit la jauge de limite à chaque tour", "Regeneriert LP und MP, Limitmeter steigt langsam.", "Recupera VIT y PM y rellena la barra de LB cada turno", "Memulihkan HP dan MP, serta mengisi bar LB setiap giliran", "ฟื้นฟู\u001aค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001a+\u001a \u001aเติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"],
+            "desc_short": ["Restore HP and MP, and fill LB gauge every turn", "戰鬥中每回合自動恢復HPMP+增加極限技槽", "매 턴마다 HP와 MP 회복+LB 게이지 증가", "Restaure les PV et les PM et remplit la jauge de limite à chaque tour", "Regeneriert LP und MP, Limitmeter steigt langsam.", "Recupera VIT y PM y rellena la barra de EL cada turno", "Memulihkan HP dan MP, serta mengisi bar LB setiap giliran", "ฟื้นฟู\u001aค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001a+\u001a \u001aเติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"],
             "desc_long": ["Recovers HP and MP every turn during battle, and fills the limit burst gauge.", "每回合自動恢復HPMP並增加極限技槽。", "매 턴마다 HP와 MP를 회복하고, LB 게이지가 증가합니다.", "Restaure les PV et les PM et remplit la jauge de limite à chaque tour", "Stellt LP und MP bei jedem Zug wieder her, Limitmeter steigt langsam.", "Recupera VIT y PM y rellena la barra de LB cada turno", "Memulihkan HP dan MP, serta mengisi bar limit burst setiap giliran.", "ฟื้นฟู\u001aค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aMP\u001a \u001a+\u001a \u001aเติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001aใน\u001aทุก\u001aเทิร์น\u001a"]
         }
     },
@@ -4500,7 +4500,7 @@
         "name": "Wave of Panic",
         "compendium_id": 545,
         "compendium_shown": true,
-        "unit_restriction": [306000105],
+        "unit_restriction": [306000105, 306000127],
         "skills": [205660],
         "effects": ["Grant 'Wave of Panic' ability"],
         "unique": false,
@@ -4560,7 +4560,7 @@
         "icon": "ability_21.png",
         "strings": {
             "names": ["Scorch", "灼熱", "작열", "Brûlure", "Hitzewelle", "Quemadura", "Scorch", "เผา\u001aเกรียม\u001a"],
-            "desc_short": ["Deal fire damage to all enemies", "對全體敵人發動火屬性攻擊", "적 전체에 불속성 피해", "Dégâts de feu sur tous les ennemis", "Feuerschaden, alle Ziele", "Daño de fuego a todos los enemigos", "Memberikan damage api pada semua musuh", "สร้าง\u001aความเสียหาย\u001aธาตุ\u001aไฟ\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"],
+            "desc_short": ["Deal fire damage to all enemies", "對全體敵人發動火屬性攻擊", "적 전체에 불속성 피해", "Dégâts de feu sur tous les ennemis", "Fügt allen Gegnern Feuerschaden zu.", "Daño de fuego a todos los enemigos", "Memberikan damage api pada semua musuh", "สร้าง\u001aความเสียหาย\u001aธาตุ\u001aไฟ\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"],
             "desc_long": ["Deals fire damage to all enemies.", "對全體敵人發動火屬性攻擊。", "적 전체에 불속성 피해를 줍니다.", "Dégâts de feu sur tous les ennemis", "Fügt allen Gegnern Feuerschaden zu.", "Daño de fuego a todos los enemigos", "Memberikan damage api pada semua musuh.", "สร้าง\u001aความเสียหาย\u001aธาตุ\u001aไฟ\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"]
         }
     },
@@ -22655,71 +22655,125 @@
         }
     },
     "504241930": {
-        "name": "獅子王の猛り",
+        "name": "Furrocious Fury",
         "compendium_id": 1334,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241930],
-        "effects": ["Grant '獅子王の猛り' passive"],
-        "unique": false,
+        "effects": ["Grant 'Furrocious Fury' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_41.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
+            "names": ["Furrocious Fury", "獅王之勇猛", "사자왕의 분노", "Furie féroce", "Tierisches Tosen", "Furia felina", "Furrocious Fury", "พิโรธ\u001aราชัน\u001aสิงโต\u001a"],
+            "desc_short": [
+                "Boost ATK by 60% and LB gauge fill rate by 100%, and escape death one time when HP is above a certain point (Not stackable)",
+                "提高60%攻擊+提高100%極限技石對極限技槽的增加量+HP高於一定量時避免陷入無法戰鬥狀態1次[無法重複裝備]",
+                "공격력 60% 상승+LB 게이지 효율 100% 상승+HP가 일정량 이상일 때 1회에 한해 전투불능 상태 견딤(중복 장착 불가)",
+                "Augmente l'ATT de 60 % et le taux de remplissage de la jauge de limite de 100 %, et permet d'échapper à la mort une fois quand les PV sont au-dessus d'un certain seuil (non cumulable)",
+                "Erhöht ANG um 60%, Limitmeter füllt sich 100% schneller und lässt einmal dem Tod entkommen, wenn LP über einem bestimmten Wert liegen (nicht stapelbar).",
+                "Aumenta el ATQ un 60% y la barra de EL se rellena un 100% más rápido, y evita quedar K.O. una vez cuando la VIT está por encima de cierto nivel (no acumulable)",
+                "Meningkatkan ATK sebanyak 60%, meningkatkan kecepatan pengisian bar LB sebanyak 100%, dan menghindari K.O. 1 kali ketika HP lebih dari batas tertentu (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001a60% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a100% \u001a+\u001a \u001aหลีกเลี่ยง\u001a \u001aKO\u001a \u001aได้\u001a \u001a1\u001a \u001aครั้ง\u001aเมื่อ\u001a \u001aHP\u001a \u001aสู\u001aงก\u001aว่าที่\u001aกำหนด\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
             "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504241933": {
-        "name": "滅びの王の魔力",
+        "name": "King of Destruction's Magic",
         "compendium_id": 1335,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241933],
-        "effects": ["Grant '滅びの王の魔力' passive"],
-        "unique": false,
+        "effects": ["Grant 'King of Destruction's Magic' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
+            "names": ["King of Destruction's Magic", "毀滅之王的魔力", "멸망의 왕의 마력", "Magie du roi de la dévastation", "Magie der Zerstörung", "Magia del rey de la destrucción", "Magic Raja Kehancuran", "พลัง\u001aเวทย์\u001aราชัน\u001aการทำลายล้าง\u001a"],
+            "desc_short": [
+                "Boost MAG by 80% and LB damage by 75% (Not stackable)",
+                "提高80%魔力+提高75%極限技的傷害[無法重複裝備]",
+                "마력 80% 상승+LB 피해량 75% 상승(중복 장착 불가)",
+                "Augmente la MAGIE de<br>80 % et les dégâts de la limite de 75 % (non cumulable)",
+                "Erhöht MAG um 80% und Schaden durch Limitrausch um 75% (nicht stapelbar).",
+                "Aumenta la MAG un 80% y el daño del EL un 75% (no acumulable)",
+                "Meningkatkan MAG sebanyak  80% dan meningkatkan damage LB sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a80% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
             "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504241938": {
-        "name": "りゅうおうのチカラ",
+        "name": "Dragonlord's Power",
         "compendium_id": 1336,
         "compendium_shown": true,
         "unit_restriction": [306000105, 306000127],
         "skills": [241938],
-        "effects": ["Grant 'りゅうおうのチカラ' passive"],
-        "unique": false,
+        "effects": ["Grant 'Dragonlord's Power' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Dragonlord's Power", "龍王之力", "용왕의 힘", "Pouvoir de Lordragon", "Macht des Drachenfürsten", "Poder de Draconarius", "Kekuatan Dragonlord", "พลัง\u001aแห่ง\u001aราชัน\u001aมังกร\u001a"],
+            "desc_short": [
+                "Boost MAG by 50% and magic damage against fairies and aquatic monsters by 50% (Dragonlord only) (Not stackable)",
+                "提高50%魔力+魔法攻擊時提高50%對精靈水生系魔物的傷害(龍王專屬)[無法重複裝備]",
+                "마력 50% 상승+마법 공격 시 정령과 수중형 마물에게 부여하는 피해량 50% 상승(용왕 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 50 % et les dégâts magiques infligés aux esprits et aux monstres aquatiques de 50 % (Lordragon uniquement) (non cumulable)",
+                "Erhöht MAG um 50% und erhöht magischen Schaden gegen Feen und Wassermonster um 50% (nur Drachenfürst) (nicht stapelbar).",
+                "Aumenta la MAG un 50% y el daño mágico contra espíritus y acuáticos un 50% (solo Draconarius) (no acumulable)",
+                "Meningkatkan MAG sebanyak 50%, serta meningkatkan damage magic terhadap jenis peri dan makhluk perairan sebanyak 50% (Khusus Dragonlord) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aแฟรี่\u001aและ\u001aสัตว์น้ำ\u001a \u001a50% \u001a(\u001aราชัน\u001aมังกร\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 50% and magic damage against fairies and aquatic monsters by 50%. Dragonlord only. Not stackable.",
+                "提高50%魔力，以及魔法攻擊時提高50%對精靈水生系魔物的傷害。(龍王專屬)[無法重複裝備]",
+                "마력이 50% 상승하고, 마법 공격 시 정령과 수중형 마물에게 부여하는 피해량이 50% 상승합니다.(용왕 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 50 % et les dégâts magiques infligés aux esprits et aux monstres aquatiques de 50 %. Lordragon uniquement. Non cumulable.",
+                "Erhöht MAG um 50% und erhöht magischen Schaden gegen Feen und Wassermonster um 50%. Nur Drachenfürst. Nicht stapelbar.",
+                "Aumenta la MAG un 50% y el daño mágico contra espíritus y acuáticos un 50%. Solo Draconarius. No acumulable.",
+                "Meningkatkan MAG sebanyak 50%, serta meningkatkan damage magic terhadap jenis peri dan makhluk perairan sebanyak 50%. Khusus Dragonlord. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a50% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aแฟรี่\u001aและ\u001aสัตว์น้ำ\u001a \u001a50% \u001a(\u001aราชัน\u001aมังกร\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241939": {
-        "name": "スライムのチカラ",
+        "name": "Slime's Power",
         "compendium_id": 1337,
         "compendium_shown": true,
         "unit_restriction": [306000603, 306000627],
         "skills": [241939],
-        "effects": ["Grant 'スライムのチカラ' passive"],
-        "unique": false,
+        "effects": ["Grant 'Slime's Power' passive"],
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Slime's Power", "史萊姆之力", "슬라임의 힘", "Pouvoir de gluant", "Macht des Schleims", "Poder del limo", "Kekuatan Slime", "พลัง\u001aแห่ง\u001a \u001aSlime\u001a"],
+            "desc_short": [
+                "Boost MAG by 50% and magic damage against fairies and aquatic monsters by 50% (Slime only) (Not stackable)",
+                "提高50%魔力+魔法攻擊時提高50%對精靈水生系魔物的傷害(史萊姆專屬)[無法重複裝備]",
+                "마력 50% 상승+마법 공격 시 정령과 수중형 마물에게 부여하는 피해량 50% 상승(슬라임 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 50 % et les dégâts magiques infligés aux esprits et aux monstres aquatiques de 50 % (Gluant uniquement) (non cumulable)",
+                "Erhöht MAG um 50% und erhöht magischen Schaden gegen Feen und Wassermonster um 50% (nur Schleim) (nicht stapelbar).",
+                "Aumenta la MAG un 50% y el daño mágico contra espíritus y acuáticos un 50% (solo Limo) (no acumulable)",
+                "Meningkatkan MAG sebanyak 50%, serta meningkatkan damage magic terhadap jenis peri dan makhluk perairan sebanyak 50% (Khusus Slime) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a50% +<br>เพิ่มค่าความเสียหายพลังเวทย์เมื่อโจมตีศัตรูชนิดแฟรี่และสัตว์น้ำ 50% (Slime\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 50% and magic damage against fairies and aquatic monsters by 50%. Slime only. Not stackable.",
+                "提高50%魔力，以及魔法攻擊時提高50%對精靈水生系魔物的傷害。(史萊姆專屬)[無法重複裝備]",
+                "마력이 50% 상승하고, 마법 공격 시 정령과 수중형 마물에게 부여하는 피해량이 50% 상승합니다.(슬라임 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 50 % et les dégâts magiques infligés aux esprits et aux monstres aquatiques de 50 %. Gluant uniquement. Non cumulable.",
+                "Erhöht MAG um 50% und erhöht magischen Schaden gegen Feen und Wassermonster um 50%. Nur Schleim. Nicht stapelbar.",
+                "Aumenta la MAG un 50% y el daño mágico contra espíritus y acuáticos un 50%. Solo Limo. No acumulable.",
+                "Meningkatkan MAG sebanyak 50%, serta meningkatkan damage magic terhadap jenis peri dan makhluk perairan sebanyak 50%. Khusus Slime. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a50% +<br>เพิ่มค่าความเสียหายพลังเวทย์เมื่อโจมตีศัตรูชนิดแฟรี่และสัตว์น้ำ 50% (Slime\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504241941": {
