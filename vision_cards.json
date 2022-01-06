@@ -863,7 +863,8 @@
             "10": [238802]
         },
         "restriction": {
-            "238802": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100002401"]
+            "238802": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100002401"],
+            "230407": [7601, "発動条件：【★7ユニット】"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1057,7 +1058,9 @@
             "7": [239917],
             "10": [239918]
         },
-        "restriction": null,
+        "restriction": {
+            "242466": [7601, "発動条件：【★7ユニット】"]
+        },
         "max_level": 10,
         "exp_pattern": 110,
         "stat_pattern": 100,
@@ -1285,7 +1288,9 @@
             "7": [241354],
             "10": [241355]
         },
-        "restriction": null,
+        "restriction": {
+            "242467": [7601, "発動条件：【★7ユニット】"]
+        },
         "max_level": 10,
         "exp_pattern": 110,
         "stat_pattern": 100,
@@ -1525,6 +1530,306 @@
             "music_id": "400338"
         }
     },
+    "100004401": {
+        "name": "A Special Mission",
+        "compendium_id": 78,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [125, 125, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [242456, 242457, 242458]
+        },
+        "restriction": {
+            "242458": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100004401"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Taivas and his partner Runda proceed onward in the name of their mission, but not before annihilating the enemy soldiers they encounter en route with overwhelming force.",
+            "info": "Taivas and his partner Runda proceed onward in the name of their mission, but not before annihilating the enemy soldiers they encounter en route with overwhelming force.",
+            "shop": "A Special Mission",
+            "music": "Here We Are!!!",
+            "music_id": "400327"
+        }
+    },
+    "100004501": {
+        "name": "ヒーロー参上！",
+        "compendium_id": 79,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [40, 80, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242459],
+            "7": [242460],
+            "10": [242461]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "オメガ種に襲われる少年少女を華麗に助けたものの、少女を追ってきた男タイヴァスには一歩届かなかったトゥーリエン。彼が真のヒーローになれる日は来るのだろうか。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ヒーロー参上！",
+            "music": "♪Monument Valley",
+            "music_id": "400325"
+        }
+    },
+    "100004801": {
+        "name": "タイヴァス、ありがとう",
+        "compendium_id": 87,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [400, 800, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [40, 80, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [40, 80, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243199],
+            "7": [243200],
+            "10": [243201]
+        },
+        "restriction": {
+            "243201": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "鬼さながらに剣を振るい、レフティアを救出したタイヴァス。休息のひととき、助けてくれたことを感謝するレフティアに、彼は自分を苦しめ続けてきた過去について話す。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "タイヴァス、ありがとう",
+            "music": "♪Mystic Ruins",
+            "music_id": "400205"
+        }
+    },
+    "100004901": {
+        "name": "少女との出会い",
+        "compendium_id": 88,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [30, 60, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [30, 60, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243202],
+            "7": [243203],
+            "10": [243204]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "森の中で出会ったハーヴェとレフティア。彼女は悲しそうな顔で小鳥の亡骸を埋めていた。儚い命に涙を浮かべる少女に、少年は想いを寄せる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "少女との出会い",
+            "music": "♪Peaceful Village",
+            "music_id": "400201"
+        }
+    },
+    "100005001": {
+        "name": "強襲！ダークレイン",
+        "compendium_id": 89,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [130, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243289, 243290, 243291]
+        },
+        "restriction": {
+            "243290,243291": [7111, "発動条件：【魔攻ユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "パラデイアの大統領就任式に現れた謎の襲撃者。レインそっくりの姿をしたその男は、ヴィセクトラムの市街地に向かって攻撃を始める。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "強襲！ダークレイン",
+            "music": "♪Revival of an Adversary",
+            "music_id": "400344"
+        }
+    },
+    "100005101": {
+        "name": "演説前の一幕",
+        "compendium_id": 90,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 70, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [35, 70, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243292],
+            "7": [243293],
+            "10": [243294]
+        },
+        "restriction": {
+            "243293,243294": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "大統領就任演説を控えたレーゲンのもとに六盟傑が駆けつけた。新生パラデイアの代表として第一歩を踏み出す彼に、戦友たちは応援の言葉をかける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "演説前の一幕",
+            "music": "♪Once more Dance?",
+            "music_id": "400203"
+        }
+    },
+    "100005201": {
+        "name": "再臨の帝王",
+        "compendium_id": 91,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [30, 60, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [30, 60, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243295],
+            "7": [243296],
+            "10": [243297]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "レーゲンの大統領就任式の日。災厄はその男とともに現れた。レインと同じ姿を持つ「帝王」の目的とは何か？パラデイアの命運を懸けた戦いが、今始まる――",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "再臨の帝王",
+            "music": "♪Celestial Battle",
+            "music_id": "400007"
+        }
+    },
+    "100005301": {
+        "name": "大地が起こした奇跡",
+        "compendium_id": 92,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [1000, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [100, 100, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [100, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243314, 243315, 243316]
+        },
+        "restriction": {
+            "243316": [7114, "発動条件：【回復ユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "苦戦を強いられるレインとラスウェルのため、奇跡を祈るフィーナ。彼女の想いは大地を形成するクリスタルに届き、戦場に強い輝きが発生した。現れた輝きは三人がよく知る人物の姿へと形を変えてゆく……。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "大地が起こした奇跡",
+            "music": "♪Triumph of Destiny",
+            "music_id": "400313"
+        }
+    },
     "202000101": {
         "name": "Battle with the Black Knights",
         "compendium_id": 15,
@@ -1603,6 +1908,123 @@
             "music_id": "401005"
         }
     },
+    "204000101": {
+        "name": "VSバルバリシア",
+        "compendium_id": 83,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10004,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242897],
+            "7": [242898],
+            "10": [242899]
+        },
+        "restriction": {
+            "242899": [7204, "発動条件：【FFIVユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ゾットの塔で、ゴルベーザ四天王の1人であるバルバリシアと対峙するセシルたち。正気に戻ったカインは、竜巻状態のバルバリシアをジャンプで攻撃する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSバルバリシア",
+            "music": "♪ゴルザベーザ四天王とのバトル",
+            "music_id": "400808"
+        }
+    },
+    "204000201": {
+        "name": "VSルビカンテ",
+        "compendium_id": 86,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10004,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 70, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [35, 70, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243116],
+            "7": [243117],
+            "10": [243118]
+        },
+        "restriction": {
+            "243117,243118": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "両親を失って慟哭するエッジの前に、ゴルベーザ四天王の最後の1人・ルビカンテが現れる。怒りによって眠っていた力を目覚めさせたエッジは、ルビカンテに挑む。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSルビカンテ",
+            "music": "♪黒い甲冑ゴルベーザ",
+            "music_id": "400809"
+        }
+    },
+    "204000301": {
+        "name": "幻界からの帰還",
+        "compendium_id": 84,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10004,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242900],
+            "7": [242901],
+            "10": [242902]
+        },
+        "restriction": {
+            "242902": [7204, "発動条件：【FFIVユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ドワーフの城にある闇のクリスタルを守るため、ゴルベーザと戦うセシルたち。絶体絶命の危機に陥った彼らの前に現れたのは、幻界で大きな成長を遂げたリディアだった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "幻界からの帰還",
+            "music": "♪黒い甲冑ゴルベーザ",
+            "music_id": "400809"
+        }
+    },
     "205000101": {
         "name": "Syldra! Come Up and Say Hello!",
         "compendium_id": 41,
@@ -1640,6 +2062,45 @@
             "shop": "Syldra! Come Up and Say Hello!",
             "music": "Pirates Ahoy",
             "music_id": "401019"
+        }
+    },
+    "205000301": {
+        "name": "レナ、飛竜への想い",
+        "compendium_id": 80,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10005,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242547],
+            "7": [242553],
+            "10": [242554]
+        },
+        "restriction": {
+            "242554": [7205, "発動条件：【FFVユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "北の山の頂上で、傷ついた飛竜を発見した一行。飛竜の傷を癒すためにレナは毒草地帯を進み、その奥に生えていた飛竜草を採取する。危険を顧みないレナの行動は、飛竜に対する強い想いからくるものだ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "レナ、飛竜への想い",
+            "music": "♪レナのテーマ",
+            "music_id": "400902"
         }
     },
     "206000101": {
@@ -2525,6 +2986,45 @@
             "music_id": "400703"
         }
     },
+    "331000101": {
+        "name": "それはゼロじゃない",
+        "compendium_id": 82,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20024,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242680],
+            "7": [242681],
+            "10": [242682]
+        },
+        "restriction": {
+            "242682": [7263, "発動条件：【ゼノギアスユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "戦艦ゴリアテ墜落の際に仲間たちと離れ、海上を漂流することになったフェイとエリィ。弱音を吐露するフェイを励ますように、エリィはフェイのおかげで自分が変われたのだと打ち明ける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "それはゼロじゃない",
+            "music": "♪SMALL TWO OF PIECES ～軋んだ破片（かけら）～",
+            "music_id": "400725"
+        }
+    },
     "335000101": {
         "name": "The Keyblade Graveyard Battle",
         "compendium_id": 19,
@@ -2640,6 +3140,45 @@
             "shop": "The Paopu Fruit's Bond",
             "music": "Moment of Recall",
             "music_id": "400003"
+        }
+    },
+    "336000101": {
+        "name": "ライブラリ",
+        "compendium_id": 85,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20030,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243012],
+            "7": [243013],
+            "10": [243014]
+        },
+        "restriction": {
+            "243014": [7269, "発動条件：【SINoALICEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "無数の物語が浮かぶ不思議な空間“ライブラリ”でのひとときを過ごすキャラクターズ。彼女たちは作者復活という目的のため、時に共闘することもあるが、最終的には殺し合う運命を辿る。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ライブラリ",
+            "music": "♪偽書ト世界",
+            "music_id": "400728"
         }
     },
     "338000101": {
@@ -3635,8 +4174,8 @@
         "merge_exp": 0,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "The long-awaited appearance of a metal cactuar. He flew onstage feeling a strong obligation to provide experience to vision cards, but fled backstage and ran home after noticing the spotlight.",
-            "info": "The long-awaited appearance of a metal cactuar. He flew onstage feeling a strong obligation to provide experience to vision cards, but fled backstage and ran home after noticing the spotlight.",
+            "desc": "The long-awaited appearance of a metal cactuar. He flew onstage feeling a strong obligation to provide experience to vision cards but fled backstage and ran home after noticing the spotlight.",
+            "info": "The long-awaited appearance of a metal cactuar. He flew onstage feeling a strong obligation to provide experience to vision cards but fled backstage and ran home after noticing the spotlight.",
             "shop": "Metal Gigantuar's Here!",
             "music": "Thump!",
             "music_id": "400338"

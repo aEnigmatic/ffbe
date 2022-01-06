@@ -747,6 +747,23 @@
             "desc_long": ["Deals dark damage to all enemies.", "對全體敵人發動暗屬性攻擊。", "적 전체에 어둠속성 피해를 줍니다.", "Dégâts de ténèbres sur tous les ennemis", "Feuerschaden, ein Gegner.", "Inflige daño oscuro a todos los enemigos.", "Memberikan damage kegelapan pada semua musuh.", "สร้าง\u001aความเสียหาย\u001aธาตุ\u001aมืด\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"]
         }
     },
+    "504020470": {
+        "name": "ダーガ",
+        "compendium_id": 1396,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [20470],
+        "effects": ["Grant 'Darkga' magic"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_26.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504030010": {
         "name": "Sleep",
         "compendium_id": 67,
@@ -2628,6 +2645,23 @@
             "names": ["Bladeblitz", "全斬", "전방위 베기", "Lame éclair", "Klingenblitz", "Relámpago de acero", "Bladeblitz", "Bladeblitz\u001a"],
             "desc_short": ["Damage all enemies", "攻擊全體敵人", "적 전체에 피해", "Dégâts sur tous les ennemis", "Schaden, alle Ziele", "Inflige daño a todos los enemigos.", "Memberikan damage pada semua musuh", "สร้าง\u001aความเสียหาย\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"],
             "desc_long": ["Deals damage to all enemies.", "攻擊全體敵人。", "적 전체에 피해를 줍니다.", "Inflige des dégâts à tous les ennemis.", "Fügt allen Gegnern Schaden zu.", "Inflige daño a todos los enemigos.", "Memberikan damage pada semua musuh.", "สร้าง\u001aความเสียหาย\u001aแก่\u001aศัตรู\u001aทุกราย\u001a"]
+        }
+    },
+    "504200500": {
+        "name": "挑発II",
+        "compendium_id": 1370,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [200500],
+        "effects": ["Unknown skill (200500)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_94.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504200510": {
@@ -4834,24 +4868,24 @@
         "strings": {
             "names": ["Large Sword Mastery", "大劍奧義", "대검의 비법", "Maîtrise des épées longues", "Großschwert-Meister", "Maestría de espada grande", "Penguasaan Pedang Besar", "จ้าว\u001aแห่ง\u001aดาบ\u001aใหญ่\u001a"],
             "desc_short": [
-                "Boost ATK when equipped with a large sword (Not stackable)",
-                "裝備大劍時提高攻擊 [無法重複裝備]",
-                "대검 장착 시 공격력 상승 (중복 장착 불가)",
-                "Augmente l'ATT lorsqu'une longue épée est équipée (non cumulable)",
-                "Erhöht ANG, wenn mit Langschwert ausgerüstet (Nicht stapelbar)",
-                "Aumenta el ATQ al llevar espadas grandes (no acumulable)",
-                "Meningkatkan ATK ketika pedang besar digunakan (Tidak dapak ditumpuk)",
-                "เพิ่มค่า\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "Boost ATK, DEF, MAG, and SPR by 50% when equipped with a large sword (Not stackable)",
+                "裝備大劍時提高50%攻擊防禦魔力精神[無法重複裝備]",
+                "대검 장착 시 공격력, 방어력, 마력, 정신력 50% 상승 (중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY de 50 % quand une épée longue est équipée (non cumulable)",
+                "Erhöht ANG, ABW, MAG und PSY um 50%, wenn mit einem Großschwert ausgerüstet (Nicht stapelbar).",
+                "Aumenta ATQ, DEF, MAG y ESP un 50% al llevar espada grande (no acumulable)",
+                "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 50% ketika pedang besar digunakan (Tidak dapak ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
             "desc_long": [
-                "Boosts ATK when equipped with a large sword. Not stackable.",
-                "裝備大劍時，提高攻擊。[無法重複裝備]",
-                "대검을 장착하면 공격력이 상승합니다. (중복 장착 불가)",
-                "Augmente l'ATT lorsqu'une longue épée est équipée. Non cumulable.",
-                "Erhöht ANG, wenn mit Langschwert ausgerüstet. Nicht stapelbar.",
-                "Aumenta el ATQ al llevar espada grande. No acumulable.",
-                "Meningkatkan ATK ketika pedang besar digunakan. Tidak dapak ditumpuk.",
-                "เพิ่มค่า\u001a \u001aATK\u001a \u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aถือ\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "Boosts ATK, DEF, MAG, and SPR by 50% when equipped with a large sword. Not stackable.",
+                "裝備大劍時提高50%攻擊防禦魔力精神。[無法重複裝備]",
+                "대검 장착 시 공격력, 방어력, 마력, 정신력이 50% 상승합니다. (중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY de 50 % quand une épée longue est équipée. Non cumulable.",
+                "Erhöht ANG, ABW, MAG und PSY um 50%, wenn mit einem Großschwert ausgerüstet. Nicht stapelbar.",
+                "Aumenta ATQ, DEF, MAG y ESP un 50% al llevar espada grande. No acumulable.",
+                "Meningkatkan ATK, DEF, MAG, dan SPR sebanyak 50% ketika pedang besar digunakan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a50% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
         }
     },
@@ -8398,6 +8432,23 @@
             "desc_long": ["Boosts HP, MP, and dark resistance by 5%.", "提高5%HPMP、暗屬性耐性。", "HP, MP, 어둠속성 저항력이 5% 상승합니다.", "Augmente les PV, les PM et la rés. aux ténèbres de 5%", "Erhöht LP, MP und Dunkelresistenz um 5%.", "Aumenta la VIT, los PM y la resistencia a la oscuridad un 5%.", "Meningkatkan HP, MP, dan resistansi kegelapan sebanyak 5%.", "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aMP\u001a \u001aและ\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aมืด\u001a \u001a5%"]
         }
     },
+    "504224880": {
+        "name": "ストーンキラー改",
+        "compendium_id": 1349,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [224880],
+        "effects": ["Grant 'Stone Killer+' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504224890": {
         "name": "Bug Killer+",
         "compendium_id": 857,
@@ -9478,6 +9529,23 @@
             "names": ["Essence of Summoning", "召喚之真髓", "소환의 진수", "Essence d'invocation", "Beschwörerseele", "Esencia de invocadora", "Esensi Pemanggilan", "แก่นแท้\u001aการ\u001aซัม\u001aม่อน\u001a"],
             "desc_short": ["Boost HP, MP, and SPR by 15%, parameters of espers evoked by 30%", "提高15%HPMP精神+發動召喚魔法時提高30%幻獸狀態", "HP, MP, 정신력 15% 상승+소환마법 사용 시 환수의 능력치 30% 상승", "Augmente les PV, PM et la PSY de 15% ainsi que les caractéristiques des chimères appelées de 30%", "Erhöht LP, MP und PSY um 15% und erhöht Werte gerufener Esper um 30%.", "Aumenta VIT, PM y ESP un 15%, y aumenta un 30% los parámetros de los espers invocados", "Meningkatkan HP, MP, dan SPR sebanyak 15%, serta parameter esper yang dipanggil sebanyak 30%", "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aMP\u001a,\u001a \u001aSPR\u001a \u001a15% + เพิ่มค่าสเตตัสของ Esper\u001a \u001aที่\u001aเรียก\u001aมา\u001a \u001a30%"],
             "desc_long": ["Boost HP, MP, and SPR by 15%, parameters of espers evoked by 30%.", "提高15%HPMP精神，發動召喚魔法時提高30%幻獸狀態。", "HP, MP, 정신력이 15% 상승하고, 소환마법 사용 시 환수의 능력치가 30% 상승합니다.", "Augmente les PV, PM et la PSY de 15% ainsi que les caractéristiques des chimères appelées de 30%", "Erhöht LP, MP und PSY um 15% und erhöht Werte gerufener Esper um 30%.", "Aumenta VIT, PM y ESP un 15%, y aumenta un 30% los parámetros de los espers invocados.", "Meningkatkan HP, MP, dan SPR sebanyak 15%, serta parameter esper yang dipanggil sebanyak 30%.", "เพิ่มค่า\u001a \u001aHP\u001a,\u001a \u001aMP\u001a,\u001a \u001aSPR\u001a \u001a15% + เพิ่มค่าสเตตัสของ Esper\u001a \u001aที่\u001aเรียก\u001aมา\u001a \u001a30%"]
+        }
+    },
+    "504227315": {
+        "name": "アンデッドキラー改",
+        "compendium_id": 1393,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [227315],
+        "effects": ["Grant 'Undead Killer+' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504227318": {
@@ -23222,6 +23290,585 @@
             "names": ["Ultimate Treasure Hunter", "尋寶秘籍", "보물찾기의 비법", "Experte de la chasse au trésor", "Ultimativer Schatzjäger", "Cazatesoros experta", "Pemburu Harta Karun Andal", "สุดยอด\u001aนัก\u001aล่า\u001aสมบัติ\u001a"],
             "desc_short": ["Boost lightning, water, wind, and earth resistance by 20%, and fill LB gauge by 400 every turn", "提高20%雷水風土屬性耐性+每回合增加400極限技槽", "번개, 물, 바람, 땅속성 저항력 20% 상승+매 턴마다 LB 게이지 400 증가", "Augmente la résistance à la foudre, à l'eau, au vent et à la terre de 20 %, et remplit la jauge de limite de 400 à chaque tour", "Erhöht Blitz-, Wasser-, Wind- und Erdresistenz um 20% und Limitmeter füllt sich jede Runde um 400.", "Aumenta la resistencia a rayo, agua, viento y tierra un 20%, y rellena la barra de EL en 400 cada turno", "Meningkatkan resistansi petir, air, angin, dan tanah sebanyak 20%, serta mengisi bar LB sebanyak 400 setiap giliran", "เพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aสายฟ้า\u001a,\u001a \u001aน้ำ\u001a,\u001a \u001aลม\u001aและ\u001aดิน\u001a \u001a20% + เติม LB Gauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a"],
             "desc_long": ["Boosts lightning, water, wind, and earth resistance by 20%, and fills LB gauge by 400 every turn.", "提高20%雷水風土屬性耐性，以及每回合增加400極限技槽。", "번개, 물, 바람, 땅속성 저항력이 20% 상승하고, 매 턴마다 LB 게이지가 400 증가합니다.", "Augmente la résistance à la foudre, à l'eau, au vent et à la terre de 20 %, et remplit la jauge de limite de 400 à chaque tour", "Erhöht Blitz-, Wasser-, Wind- und Erdresistenz um 20% und Limitmeter füllt sich jede Runde um 400.", "Aumenta la resistencia a rayo, agua, viento y tierra un 20%, y rellena la barra de EL en 400 cada turno.", "Meningkatkan resistansi petir, air, angin, dan tanah sebanyak 20%, serta mengisi bar LB sebanyak 400 setiap giliran.", "เพิ่ม\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aสายฟ้า\u001a,\u001a \u001aน้ำ\u001a,\u001a \u001aลม\u001aและ\u001aดิน\u001a \u001a20% + เติม LB Gauge\u001a \u001a400\u001a \u001aทุก\u001aเทิร์น\u001a"]
+        }
+    },
+    "504242451": {
+        "name": "Taivas's Spirit",
+        "compendium_id": 1369,
+        "compendium_shown": true,
+        "unit_restriction": [2],
+        "skills": [242451],
+        "effects": ["Grant 'Taivas's Spirit' ability"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": ["Taivas's Spirit", "泰瓦斯之魂", "소울 오브 타이바스", "Âme de Taivas", "Taivas' Geist", "Alma de Taivas", "Jiwa Taivas", "จิตวิญญาณ\u001aแห่ง\u001a \u001aTaivas\u001a"],
+            "desc_short": [
+                "(One use every 4 turns) Boost damage of certain LBs, ATK, and LB damage, and fill LB gauge for caster (Attacker units only)",
+                "【每4回合可使用1次】提高自身特定極限技的傷害+提高攻擊+提高極限技的傷害+增加極限技槽(攻擊型兵員專屬)",
+                "[4턴에 1회 사용 가능] 자신의 특정 LB의 피해량 상승+공격력 상승+LB 피해량 상승+LB 게이지 증가(물리 공격 유닛 한정)",
+                "(Une fois tous les 4 tours) Augmente les dégâts de certaines limites du lanceur, augmente son ATT et les dégâts de sa limite, et remplit sa jauge de limite (attaquants physiques uniquement)",
+                "(Einmal in 4 Runden) Erhöht Schaden des Benutzers durch bestimmte Limiträusche, dessen ANG, dessen Schaden durch Limitrausch und füllt dessen Limitmeter (nur Angreifer-Einheiten).",
+                "(Un uso cada 4 turnos) Aumenta el daño de determinados EL del usuario, su ATQ, el daño de su EL y rellena su barra de EL (solo para unidades atacantes)",
+                "(1 kali penggunaan setiap 4 giliran) Meningkatkan damage LB tertentu, meningkatkan ATK, meningkatkan damage LB, dan mengisi bar LB diri sendiri (Khusus unit attacker)",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a4\u001a \u001aเทิร์น)\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001aที่\u001aกำหนด\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a+\u001a \u001aเติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001aของ\u001aผู้ใช้\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aโจมตี\u001aเท่านั้น\u001a)\u001a"
+            ],
+            "desc_long": [
+                "(One use every 4 turns) Boosts damage of certain LBs, ATK, and LB damage, and fills LB gauge for caster. Attacker units only.",
+                "【每4回合可使用1次】提高自身特定極限技的傷害，以及提高攻擊，並且提高極限技的傷害，再增加極限技槽。(攻擊型兵員專屬)",
+                "[4턴에 1회 사용 가능] 자신의 특정 LB의 피해량이 상승하고, 공격력이 상승하며, LB 피해량이 상승하고 LB 게이지가 증가합니다.(물리 공격 유닛 한정)",
+                "(Une fois tous les 4 tours) Augmente les dégâts de certaines limites du lanceur, augmente son ATT et les dégâts de sa limite, et remplit sa jauge de limite. Attaquants physiques uniquement.",
+                "(Einmal in 4 Runden) Erhöht Schaden des Benutzers durch bestimmte Limiträusche, dessen ANG, dessen Schaden durch Limitrausch und füllt dessen Limitmeter. Nur Angreifer-Einheiten.",
+                "(Un uso cada 4 turnos) Aumenta el daño de determinados EL del usuario, su ATQ, el daño de su EL y rellena su barra de EL. Solo para unidades atacantes.",
+                "(1 kali penggunaan setiap 4 giliran) Meningkatkan damage LB tertentu, meningkatkan ATK, meningkatkan damage LB, dan mengisi bar LB diri sendiri. Khusus unit attacker.",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a4\u001a \u001aเทิร์น)\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001aที่\u001aกำหนด\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a+\u001a \u001aเติม\u001a \u001aLB\u001a \u001aGauge\u001a \u001aของ\u001aผู้ใช้\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aโจมตี\u001aเท่านั้น\u001a)\u001a"
+            ]
+        }
+    },
+    "504242462": {
+        "name": "ソイルオールダウン",
+        "compendium_id": 1371,
+        "compendium_shown": true,
+        "unit_restriction": [2],
+        "skills": [242462],
+        "effects": ["Grant 'ソイルオールダウン' ability"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242540": {
+        "name": "いたわりの召喚士",
+        "compendium_id": 1372,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242540],
+        "effects": ["Grant 'いたわりの召喚士' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242543": {
+        "name": "封印されし邪悪を見守る者",
+        "compendium_id": 1373,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242543],
+        "effects": ["Grant '封印されし邪悪を見守る者' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242545": {
+        "name": "老成持重",
+        "compendium_id": 1374,
+        "compendium_shown": true,
+        "unit_restriction": [205001005, 205001027, 205000303],
+        "skills": [242545],
+        "effects": ["Grant '老成持重' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242546": {
+        "name": "退霊の古書",
+        "compendium_id": 1375,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242546],
+        "effects": ["Grant '退霊の古書' passive"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242548": {
+        "name": "死霊喰らいの念",
+        "compendium_id": 1376,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242548],
+        "effects": ["Grant '死霊喰らいの念' passive"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242660": {
+        "name": "憎しみの暗殺者",
+        "compendium_id": 1377,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242660],
+        "effects": ["Unknown skill (242660)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242662": {
+        "name": "力の求道者",
+        "compendium_id": 1378,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242662],
+        "effects": ["Unknown skill (242662)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242665": {
+        "name": "孤児たちを守る少年神父",
+        "compendium_id": 1380,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242665],
+        "effects": ["Unknown skill (242665)"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242666": {
+        "name": "ゼボイム科学の結晶",
+        "compendium_id": 1381,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242666],
+        "effects": ["Unknown skill (242666)"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242673": {
+        "name": "ゾハルアクセス",
+        "compendium_id": 1382,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242673],
+        "effects": ["Unknown skill (242673)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242674": {
+        "name": "ゾハルアクセス+1",
+        "compendium_id": 1383,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242674],
+        "effects": ["Unknown skill (242674)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242675": {
+        "name": "ゾハルアクセス+2",
+        "compendium_id": 1384,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242675],
+        "effects": ["Unknown skill (242675)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242676": {
+        "name": "ゾハルアクセス+3",
+        "compendium_id": 1385,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242676],
+        "effects": ["Unknown skill (242676)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242677": {
+        "name": "ゾハルアクセス+4",
+        "compendium_id": 1386,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242677],
+        "effects": ["Unknown skill (242677)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242890": {
+        "name": "天空の覇者",
+        "compendium_id": 1387,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242890],
+        "effects": ["Unknown skill (242890)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_80.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242893": {
+        "name": "亡き母の記憶",
+        "compendium_id": 1388,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242893],
+        "effects": ["Unknown skill (242893)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504242896": {
+        "name": "四天王の紅一点",
+        "compendium_id": 1389,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [242896],
+        "effects": ["Unknown skill (242896)"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243109": {
+        "name": "虚脱の雷鎖",
+        "compendium_id": 1390,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243109],
+        "effects": ["Unknown skill (243109)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243111": {
+        "name": "四天王の長",
+        "compendium_id": 1391,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243111],
+        "effects": ["Unknown skill (243111)"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243112": {
+        "name": "人体構造の知識",
+        "compendium_id": 1392,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243112],
+        "effects": ["Unknown skill (243112)"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243119": {
+        "name": "機械喰らいの念",
+        "compendium_id": 1394,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243119],
+        "effects": ["Unknown skill (243119)"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243190": {
+        "name": "紅火の波動",
+        "compendium_id": 1395,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243190],
+        "effects": ["Unknown skill (243190)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_21.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243197": {
+        "name": "ソウルオブタイヴァス+1",
+        "compendium_id": 1397,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243197],
+        "effects": ["Unknown skill (243197)"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243280": {
+        "name": "マジックブースト改",
+        "compendium_id": 1398,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243280],
+        "effects": ["Unknown skill (243280)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_87.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243281": {
+        "name": "ブライトオールダウン",
+        "compendium_id": 1399,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243281],
+        "effects": ["Unknown skill (243281)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243282": {
+        "name": "時代に愛された男",
+        "compendium_id": 1400,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243282],
+        "effects": ["Unknown skill (243282)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243287": {
+        "name": "帝王の魔手を拒む意志",
+        "compendium_id": 1401,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243287],
+        "effects": ["Unknown skill (243287)"],
+        "unique": false,
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243300": {
+        "name": "ダークネスオールダウン",
+        "compendium_id": 1402,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243300],
+        "effects": ["Unknown skill (243300)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_105.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243310": {
+        "name": "汚れなき魂の祈り",
+        "compendium_id": 1403,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243310],
+        "effects": ["Unknown skill (243310)"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243312": {
+        "name": "独裁に抗う力",
+        "compendium_id": 1404,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243312],
+        "effects": ["Unknown skill (243312)"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504243313": {
+        "name": "新時代の守護者",
+        "compendium_id": 1405,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243313],
+        "effects": ["Unknown skill (243313)"],
+        "unique": false,
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504400110": {
