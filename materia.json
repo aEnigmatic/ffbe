@@ -1848,7 +1848,7 @@
         "price_sell": 800,
         "icon": "ability_79.png",
         "strings": {
-            "names": ["Stone Killer", "碎石", "돌 킬러", "Tue-pierre", "Herz aus Stein", "Matapétreos", "Pembantai Batu", "Stone\u001a \u001aKiller\u001a"],
+            "names": ["Stone Killer", "碎石", "돌 킬러", "Tue-pierres", "Herz aus Stein", "Matapétreos", "Pembantai Batu", "Stone\u001a \u001aKiller\u001a"],
             "desc_short": [
                 "Boost physical damage against stone monsters (Not stackable)",
                 "物理攻擊時提高對岩石系的傷害[無法重複裝備]",
@@ -8433,20 +8433,38 @@
         }
     },
     "504224880": {
-        "name": "ストーンキラー改",
+        "name": "Stone Killer+",
         "compendium_id": 1349,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [224880],
         "effects": ["Grant 'Stone Killer+' passive"],
-        "unique": false,
+        "unique": true,
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Stone Killer+", "碎石·改", "개량형 돌 킬러", "Tue-pierres +", "Herz aus Stein+", "Matapétreos+", "Pembantai Batu+", "Stone\u001a \u001aKiller\u001a+\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against stone monsters by 75% (Not stackable)",
+                "物理、魔法攻擊時提高75%對岩石系魔物的傷害[無法重複裝備]",
+                "물리, 마법 공격 시 암석형 마물에게 부여하는 피해량 75% 상승(중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux monstres de pierre de 75 % (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Steinmonster um 75% (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra pétreos un 75% (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis batu sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aศิลา\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against stone monsters by 75%. Not stackable.",
+                "物理、魔法攻擊時提高75%對岩石系魔物的傷害。[無法重複裝備]",
+                "물리, 마법 공격 시 암석형 마물에게 부여하는 피해량이 75% 상승합니다.(중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux monstres de pierre de 75 %. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Steinmonster um 75%. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra pétreos un 75%. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis batu sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aศิลา\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504224890": {
@@ -23328,20 +23346,38 @@
         }
     },
     "504242462": {
-        "name": "ソイルオールダウン",
+        "name": "Earth Breaker",
         "compendium_id": 1371,
         "compendium_shown": true,
         "unit_restriction": [2],
         "skills": [242462],
-        "effects": ["Grant 'ソイルオールダウン' ability"],
+        "effects": ["Grant 'Earth Breaker' ability"],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_105.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Earth Breaker", "崩壤者", "어스 올 다운", "Briseur de terre", "Erdbrecher", "Erosión reductora", "Earth Breaker", "แยก\u001aทำลาย\u001aโลกา\u001a"],
+            "desc_short": [
+                "(One use every 5 turns) Reduce ATK, DEF, MAG, SPR, and earth resistance for all enemies (Breaker units only)",
+                "【每5回合可使用1次】降低全體敵人的攻擊防禦魔力精神、土屬性耐性(妨害型兵員專屬)",
+                "[5턴에 1회 사용 가능] 적 전체의 공격력, 방어력, 마력, 정신력과 땅속성 저항력 감소(방해 유닛 한정)",
+                "(Une fois tous les 5 tours) Réduit l'ATT, la DEF, la MAGIE, la PSY et la résistance à la terre de tous les ennemis (unités \"Briseur\" uniquement)",
+                "(Einmal in 5 Runden) Verringert ANG, ABW, MAG, PSY und Erdresistenz aller Gegner (nur Brecher-Einheiten).",
+                "(Un uso cada 5 turnos) Reduce ATQ, DEF, MAG y ESP de todos los enemigos y reduce su resistencia a la tierra (solo para unidades obstructoras)",
+                "(1 kali penggunaan setiap 5 giliran) Mengurangi ATK, DEF, MAG, SPR, dan resistansi tanah pada semua musuh (Khusus unit breaker)",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a5\u001a \u001aเทิร์น)\u001a \u001aลด\u001aค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aลด\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aดิน\u001aของ\u001aศัตรู\u001aทุกราย\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aทำลายล้าง\u001aเท่านั้น\u001a)\u001a"
+            ],
+            "desc_long": [
+                "(One use every 5 turns) Reduces ATK, DEF, MAG, SPR, and earth resistance for all enemies. Breaker units only.",
+                "【每5回合可使用1次】降低全體敵人的攻擊防禦魔力精神、土屬性耐性。(妨害型兵員專屬)",
+                "[5턴에 1회 사용 가능] 적 전체의 공격력, 방어력, 마력, 정신력과 땅속성 저항력이 감소합니다.(방해 유닛 한정)",
+                "(Une fois tous les 5 tours) Réduit l'ATT, la DEF, la MAGIE, la PSY et la résistance à la terre de tous les ennemis (unités \"Briseur\" uniquement)",
+                "(Einmal in 5 Runden) Verringert ANG, ABW, MAG, PSY und Erdresistenz aller Gegner. Nur Brecher-Einheiten.",
+                "(Un uso cada 5 turnos) Reduce ATQ, DEF, MAG y ESP de todos los enemigos y reduce su resistencia a la tierra. Solo para unidades obstructoras.",
+                "(1 kali penggunaan setiap 5 giliran) Mengurangi ATK, DEF, MAG, SPR, dan resistansi tanah pada semua musuh. Khusus unit breaker.",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a5\u001a \u001aเทิร์น)\u001a \u001aลด\u001aค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aลด\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aดิน\u001aของ\u001aศัตรู\u001aทุกราย\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aทำลายล้าง\u001aเท่านั้น\u001a)\u001a"
+            ]
         }
     },
     "504242540": {
@@ -23413,20 +23449,38 @@
         }
     },
     "504242548": {
-        "name": "死霊喰らいの念",
+        "name": "Reaper Eater Sense",
         "compendium_id": 1376,
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [242548],
-        "effects": ["Grant '死霊喰らいの念' passive"],
-        "unique": false,
+        "effects": ["Grant 'Reaper Eater Sense' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Reaper Eater Sense", "死靈捕食者之念", "사령 포식자의 원념", "Instinct anti morts-vivants", "Gespür des Untotenverschlingers", "Sentido comezombis", "Keinginan Pemakan Makhluk Halus", "จิต\u001aเขมือบ\u001aภูตผี\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and physical and magic damage against reapers by 75% (Not stackable)",
+                "提高40%攻擊魔力+物理攻擊時提高75%對死靈系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+물리, 마법 공격 시 사령형 마물에게 부여하는 피해량 75% 상승(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 % et augmente les dégâts physiques et magiques infligés aux morts-vivants de 75 % (non cumulable)",
+                "Erhöht ANG und MAG um 40% und erhöht physischen sowie magischen Schaden gegen Untote um 75% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico y mágico contra muertos vivientes un 75% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik dan magic terhadap jenis makhluk halus sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40% and physical and magic damage against reapers by 75%. Not stackable.",
+                "提高40%攻擊魔力，以及物理攻擊時提高75%對死靈系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 물리, 마법 공격 시 사령형 마물에게 부여하는 피해량이 75% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 % et augmente les dégâts physiques et magiques infligés aux morts-vivants de 75 %. Non cumulable.",
+                "Erhöht ANG und MAG um 40% und erhöht physischen sowie magischen Schaden gegen Untote um 75%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico y mágico contra muertos vivientes un 75%. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik dan magic terhadap jenis makhluk halus sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aภูตผี\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504242660": {
