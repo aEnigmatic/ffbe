@@ -20062,6 +20062,11 @@
             "9300266": "Magic Dark Challenge - PRO",
             "9300267": "Magic Dark Challenge - ELT",
             "9300268": "Magic Dark Challenge - LGD",
+            "9300270": "Earth Attack Challenge - INT",
+            "9300271": "Earth Attack Challenge - ADV",
+            "9300272": "Earth Attack Challenge - PRO",
+            "9300273": "Earth Attack Challenge - ELT",
+            "9300274": "Earth Attack Challenge - LGD",
             "9300330": null,
             "9300331": null,
             "9300332": null,
@@ -20112,6 +20117,11 @@
             "9310266": "Physical Earth Challenge - PRO",
             "9310267": "Physical Earth Challenge - ELT",
             "9310268": "Physical Earth Challenge - LGD",
+            "9310270": null,
+            "9310271": null,
+            "9310272": null,
+            "9310273": null,
+            "9310274": null,
             "9310336": null,
             "9310337": null,
             "9310338": null,
@@ -21688,7 +21698,8 @@
             "9650170": "Olivera",
             "9650172": "Ninja Master Hawkeye",
             "9650177": "Summoner Yuna",
-            "9650178": "Whimsical Winter Tiana"
+            "9650178": "Whimsical Winter Tiana",
+            "9650181": "Divine Beast Chow"
         }
     },
     "96601": {
@@ -23845,6 +23856,31 @@
             "10910208": "Seymour Flux Lvl. 8",
             "10910209": "Seymour Flux Lvl. 9",
             "10910210": "Seymour Flux Lvl. 10"
+        }
+    },
+    "109201": {
+        "names": ["The Grrreat Tiger Spirit", "偉大虎靈", "호랑이 기운이 어흥", "L'esprit du tigre rrrrugissant", "Geist des grrrrrandiosen Tigers", "El grrran espíritu tigre", "Roh Harrrimau Agung", "วิญญาณ\u001aจอม\u001aพยัคฆ์\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1092",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00249.png",
+        "missions": {
+            "10920101": "The Grrreat Tiger Spirit - BGN",
+            "10920102": "The Grrreat Tiger Spirit - ADV",
+            "10920103": "The Grrreat Tiger Spirit - LGD"
+        }
+    },
+    "109301": {
+        "names": ["Hu, What, When, Where", "猛虎出沒", "범 내려온다", "Méfiez-vous de l'eau qui mord", "Getigertes Wasser", "Hungla de cristal", "Hujan Serangan Harimau", "ฟัด\u001aเสือ\u001aใหญ่\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1093",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00250.png",
+        "missions": {
+            "10930101": "Hu, What, When, Where",
+            "10930102": "Hu, What, When, Where, and Why"
         }
     },
     "109401": {
@@ -29244,67 +29280,154 @@
         }
     },
     "140122": {
+        "names": ["Ivre Hills", "伊布蕾丘陵", "이브레 언덕", "Collines d'Ibre", "Ivre-Hügel", "Colinas Ivre", "Perbukitan Ivre", "เนินเขา\u001a \u001aIvre\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [1407, 786],
+        "icon": "map_icon_4020131_r.png",
         "missions": {
-            "14012201": null,
-            "14012202": null,
-            "14012203": null
+            "14012201": "Ivre Hills 1",
+            "14012202": "Ivre Hills 2",
+            "14012203": "King of the Hills"
         }
     },
     "140123": {
+        "names": ["Brightflame Forest", "灼炎之森", "작열의 숲", "Forêt ardente", "Lichterloh-Wald", "Bosque en llamas", "Hutan Nyala Api", "ป่า\u001aเพลิง\u001aโชติช่วง\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [1342, 589],
+        "icon": "map_icon_4020132_r.png",
         "missions": {
-            "14012301": null,
-            "14012302": null,
-            "14012303": null
+            "14012301": "Unending Doubts",
+            "14012302": "In Search of the Bomb Omega Spawn",
+            "14012303": "VS Bomby"
         }
     },
     "140124": {
+        "names": [
+            "(EX-1) Brightflame Forest",
+            "灼炎之森・EX戰鬥1",
+            "작열의 숲(EX-1)",
+            "Forêt ardente (EX 1)",
+            "Lichterloh-Wald (EX 1)",
+            "[EX1] Bosque en llamas",
+            "(EX-1) Hutan Nyala Api",
+            "(\u001aEX-\u001a1\u001a)\u001a \u001aป่า\u001aเพลิง\u001aโชติช่วง\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [1491, 370],
+        "icon": "map_icon_4020132_2.png",
         "missions": {
-            "14012401": null
+            "14012401": "VS Succulent Omega II"
         }
     },
     "140125": {
+        "names": [
+            "(EX-2) Brightflame Forest",
+            "灼炎之森・EX戰鬥2",
+            "작열의 숲(EX-2)",
+            "Forêt ardente (EX 2)",
+            "Lichterloh-Wald (EX 2)",
+            "[EX2] Bosque en llamas",
+            "(EX-2) Hutan Nyala Api",
+            "(\u001aEX-\u001a2\u001a)\u001a \u001aป่า\u001aเพลิง\u001aโชติช่วง\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [1695, 474],
+        "icon": "map_icon_4020132_3.png",
         "missions": {
-            "14012501": null
+            "14012501": "VS Golden Bomb Omega"
         }
     },
     "140126": {
+        "names": ["Brightflame Forest Depths", "灼炎之森深處", "작열의 숲 안쪽", "Profondeurs de la forêt ardente", "In den Tiefen des Lichterloh-Waldes", "Profundidades del bosque en llamas", "Bagian Dalam Hutan Nyala Api", "ป่า\u001aเพลิง\u001aโชติช่วง\u001aตอน\u001aลึก\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [1042, 445],
+        "icon": "map_icon_4020133_r.png",
         "missions": {
-            "14012601": null,
-            "14012602": null,
-            "14012603": null
+            "14012601": "Mage Hunt 1",
+            "14012602": "Mage Hunt 2",
+            "14012603": "The Mysterious Man"
         }
     },
     "140127": {
+        "names": [
+            "(EX-1) Brightflame Forest Depths",
+            "灼炎之森深處・EX戰鬥1",
+            "작열의 숲 안쪽(EX-1)",
+            "Profondeurs de la forêt ardente (EX 1)",
+            "In den Tiefen des Lichterloh-Waldes (EX1)",
+            "[EX1] Profundidades del bosque en llamas",
+            "(EX-1) Bagian Dalam Hutan Nyala Api",
+            "(\u001aEX-\u001a1\u001a)\u001a \u001aป่า\u001aเพลิง\u001aโชติช่วง\u001aตอน\u001aลึก\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [898, 636],
+        "icon": "map_icon_4020133_2.png",
         "missions": {
-            "14012701": null
+            "14012701": "VS Wolla"
         }
     },
     "140128": {
+        "names": ["Northern Plaek Highway", "普雷克街道北側", "프레이크 가도 북쪽", "Route nord de Plaek", "Nördliche Plaek-Landstraße", "Camino de Plaek, zona norte", "Jalan Plaek Utara", "ทางหลวง\u001a \u001aPlaek\u001a \u001aตอนเหนือ\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [291, 1071],
+        "icon": "map_icon_4020134_b.png",
         "missions": {
-            "14012801": null,
-            "14012802": null,
-            "14012803": null
+            "14012801": "Shifting Skies 1",
+            "14012802": "Shifting Skies 2",
+            "14012803": "VS the Raiders"
         }
     },
     "140129": {
+        "names": ["Whitefog Woods", "白霧山林", "흰 안개 낀 숲", "Bois de la brume blanche", "Weißnebel-Wälder", "Bosques de niebla blanca", "Hutan Kabut Putih", "ป่า\u001aหมอก\u001aขาว\u001aคลุม\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [589, 955],
+        "icon": "map_icon_4020135_b.png",
         "missions": {
-            "14012901": null,
-            "14012902": null,
-            "14012903": null
+            "14012901": "Our Only Hope",
+            "14012902": "Mystifying Mists",
+            "14012903": "Prepared to Die"
         }
     },
     "140130": {
+        "names": ["Whitefog Wetlands", "白霧濕地", "흰 안개 낀 습지", "Marécages de la brume blanche", "Weißnebel-Marschen", "Pantano de niebla blanca", "Rawa Kabut Putih", "หนองน้ำ\u001aหมอก\u001aขาว\u001aคลุม\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [315, 795],
+        "icon": "map_icon_4020136_b.png",
         "missions": {
-            "14013001": null,
-            "14013002": null,
-            "14013003": null
+            "14013001": "A Solemn Vow",
+            "14013002": "Whitefog Wetlands 1",
+            "14013003": "Whitefog Wetlands 2"
         }
     },
     "140131": {
+        "names": ["Road to the Base", "通向基地的道路", "기지로 가는 길", "Route vers la base", "Straße zur Basis", "Camino hacia la base", "Jalan Menuju Markas", "เส้นทาง\u001aกลับ\u001aฐานทัพ\u001a"],
+        "world_id": 5,
+        "region_id": "53",
+        "subregion_id": "1311",
+        "position": [520, 507],
+        "icon": "map_icon_4020137_b.png",
         "missions": {
-            "14013101": null,
-            "14013102": null,
-            "14013103": null
+            "14013101": "Just One More",
+            "14013102": "Road to the Base 1",
+            "14013103": "Road to the Base 2"
         }
     },
     "140132": {
@@ -37418,6 +37541,30 @@
             "95000103": "Tree of Unknown Origin",
             "95000104": "Tree of Unknown Origin",
             "95000105": "Tree of Unknown Origin"
+        }
+    },
+    "950101": {
+        "names": [
+            "Clash Of Wills: Fragment of the Beast",
+            "意志對決：猛獸碎片",
+            "의지의 격돌: 야수의 파편",
+            "Choc des volontés : Fragment de la bête",
+            "Krieg des Willens: Fragment der Bestie",
+            "Choque de voluntades: Fragmento de la Bestia",
+            "Pertentangan Tekad: Serpihan sang Monster",
+            "ปะทะ\u001aจิตวิญญาณ\u001a:\u001a \u001aเศษ\u001aเสี้ยว\u001aจอม\u001aอสูร\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "9501",
+        "position": [0, 0],
+        "icon": null,
+        "missions": {
+            "95010101": "Fragment of the Beast",
+            "95010102": "Fragment of the Beast",
+            "95010103": "Fragment of the Beast",
+            "95010104": "Fragment of the Beast",
+            "95010105": "Fragment of the Beast"
         }
     },
     "6100000": {
