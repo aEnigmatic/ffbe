@@ -1909,7 +1909,7 @@
         }
     },
     "204000101": {
-        "name": "VSバルバリシア",
+        "name": "Battle with Barbariccia",
         "compendium_id": 83,
         "compendium_shown": true,
         "rarity": 1,
@@ -1932,7 +1932,7 @@
             "10": [242899]
         },
         "restriction": {
-            "242899": [7204, "発動条件：【FFIVユニット】"]
+            "242899": [7204, "MST_VISION_CARD_ABILITY_ACT_COND_204000101"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1940,10 +1940,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ゾットの塔で、ゴルベーザ四天王の1人であるバルバリシアと対峙するセシルたち。正気に戻ったカインは、竜巻状態のバルバリシアをジャンプで攻撃する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSバルバリシア",
-            "music": "♪ゴルザベーザ四天王とのバトル",
+            "desc": "Cecil and his party come face-to-face with Barbariccia, one of Golbez's four Archfiends, in the Tower of Zot. Kain, sanity reclaimed, executes a jumping attack on the cyclone-like Empress of the Winds.",
+            "info": "Cecil and his party come face-to-face with Barbariccia, one of Golbez's four Archfiends, in the Tower of Zot. Kain, sanity reclaimed, executes a jumping attack on the cyclone-like Empress of the Winds.",
+            "shop": "Battle with Barbariccia",
+            "music": "Battle with the Four Fiends",
             "music_id": "400808"
         }
     },
@@ -1987,7 +1987,7 @@
         }
     },
     "204000301": {
-        "name": "幻界からの帰還",
+        "name": "Return from the Feymarch",
         "compendium_id": 84,
         "compendium_shown": true,
         "rarity": 1,
@@ -2010,7 +2010,7 @@
             "10": [242902]
         },
         "restriction": {
-            "242902": [7204, "発動条件：【FFIVユニット】"]
+            "242902": [7204, "MST_VISION_CARD_ABILITY_ACT_COND_204000101"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -2018,10 +2018,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ドワーフの城にある闇のクリスタルを守るため、ゴルベーザと戦うセシルたち。絶体絶命の危機に陥った彼らの前に現れたのは、幻界で大きな成長を遂げたリディアだった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "幻界からの帰還",
-            "music": "♪黒い甲冑ゴルベーザ",
+            "desc": "Cecil and his allies battle with Golbez in a bid to defend the Dark Crystal in the Dwarven Castle. Just as the party is backed into a corner with no way out, Rydia appears before them, now grown from her time in the Feymarch.",
+            "info": "Cecil and his allies battle with Golbez in a bid to defend the Dark Crystal in the Dwarven Castle. Just as the party is backed into a corner with no way out, Rydia appears before them, now grown from her time in the Feymarch.",
+            "shop": "Return from the Feymarch",
+            "music": "Golbez Clad in Darkness",
             "music_id": "400809"
         }
     },
@@ -2987,7 +2987,7 @@
         }
     },
     "331000101": {
-        "name": "それはゼロじゃない",
+        "name": "A Part Is Better than Zero",
         "compendium_id": 82,
         "compendium_shown": true,
         "rarity": 1,
@@ -3018,10 +3018,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "戦艦ゴリアテ墜落の際に仲間たちと離れ、海上を漂流することになったフェイとエリィ。弱音を吐露するフェイを励ますように、エリィはフェイのおかげで自分が変われたのだと打ち明ける。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "それはゼロじゃない",
-            "music": "♪SMALL TWO OF PIECES ～軋んだ破片（かけら）～",
+            "desc": "Following the fall of the Goliath, Fei and Elly are separated from their comrades and find themselves adrift at sea. In order to raise the spirits of her despondent raftmate, Elly confesses that it was thanks to Fei that she was able to change.",
+            "info": "Following the fall of the Goliath, Fei and Elly are separated from their comrades and find themselves adrift at sea. In order to raise the spirits of her despondent raftmate, Elly confesses that it was thanks to Fei that she was able to change.",
+            "shop": "A Part Is Better than Zero",
+            "music": "Small Two of Pieces -Screeching Shards-",
             "music_id": "400725"
         }
     },
@@ -4222,6 +4222,41 @@
             "shop": "Leave Things to Me!",
             "music": "United We Stand",
             "music_id": "400102"
+        }
+    },
+    "401002701": {
+        "name": "Warrior of the Azure Crystal",
+        "compendium_id": 9027,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [110, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [110, 110, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [916056, 916057, 916058]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Elena became the Warrior of the Azure Crystal in order to foil the evil schemes of the Dark Crystal. Her heart filled with an unwavering sense of justice, she continues to walk the path of a hero.",
+            "info": "Elena became the Warrior of the Azure Crystal in order to foil the evil schemes of the Dark Crystal. Her heart filled with an unwavering sense of justice, she continues to walk the path of a hero.",
+            "shop": "Warrior of the Azure Crystal",
+            "music": "Over the Rain Clouds",
+            "music_id": "400109"
         }
     },
     "900020101": {

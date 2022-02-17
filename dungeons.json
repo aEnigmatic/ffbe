@@ -7352,7 +7352,8 @@
             "9650171": "Full Moon Karten",
             "9650176": "Maeve",
             "9650179": "Summer Sniper Physalis",
-            "9650180": "Taivas"
+            "9650180": "Taivas",
+            "9650182": "Dragoon Kain"
         }
     },
     "75701": {
@@ -17196,9 +17197,15 @@
         }
     },
     "89761": {
+        "names": ["Dullahan", "無頭騎士", "듈라한", "Dullahan", "Dullahan", "Dullahan", "Dullahan", "Dullahan\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1899",
+        "position": [0, 0],
+        "icon": "spd_20210910_bn_list_12syuzoku.png",
         "missions": {
-            "8998801": null,
-            "8998802": null
+            "8998801": "Dullahan - INT",
+            "8998802": "Dullahan - ADV"
         }
     },
     "89801": {
@@ -20222,6 +20229,11 @@
             "9330266": "Dark Attack Challenge - PRO",
             "9330267": "Dark Attack Challenge - ELT",
             "9330268": "Dark Attack Challenge - LGD",
+            "9330270": "Magic Earth Challenge - INT",
+            "9330271": "Magic Earth Challenge - ADV",
+            "9330272": "Magic Earth Challenge - PRO",
+            "9330273": "Magic Earth Challenge - ELT",
+            "9330274": "Magic Earth Challenge - LGD",
             "9330330": null,
             "9330331": null,
             "9330332": null,
@@ -29530,67 +29542,154 @@
         }
     },
     "140132": {
+        "names": ["Fort Vorn", "沃倫基地", "보른 기지", "Fort Vorn", "Vorn-Basis", "Fortaleza de Vorn", "Markas Vorn", "ป้อมปราการ\u001a \u001aVorn\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1882, 2156],
+        "icon": "map_icon_4020138_b.png",
         "missions": {
-            "14013201": null,
-            "14013202": null,
-            "14013203": null
+            "14013201": "Breaching the Defenses",
+            "14013202": "Where is Lehftia?",
+            "14013203": "To Determine a Victor"
         }
     },
     "140133": {
+        "names": ["Vorn Highroad", "沃倫街道", "보른 가도", "Grande route de Vorn", "Vorn-Straße", "Camino de Vorn", "Jalan Utama Vorn", "ทางหลวง\u001a \u001aVorn\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1800, 1732],
+        "icon": "map_icon_4020139_b.png",
         "missions": {
-            "14013301": null,
-            "14013302": null,
-            "14013303": null
+            "14013301": "Vorn Highroad 1",
+            "14013302": "Vorn Highroad 2",
+            "14013303": "Qualifications for Satisfaction"
         }
     },
     "140134": {
+        "names": [
+            "(EX-1) Vorn Highroad",
+            "沃倫街道・EX戰鬥1",
+            "보른 가도(EX-1)",
+            "Grande route de Vorn (EX 1)",
+            "Vorn-Straße (EX 1)",
+            "[EX1] Camino de Vorn",
+            "(EX-1) Jalan Utama Vorn",
+            "(\u001aEX-\u001a1\u001a)\u001a \u001aทางหลวง\u001a \u001aVorn\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [2094, 1806],
+        "icon": "map_icon_4020139_2.png",
         "missions": {
-            "14013401": null
+            "14013401": "VS Yshe and Kall"
         }
     },
     "140135": {
+        "names": ["Zahhak Gorge", "佐哈克溪谷", "조하크 계곡", "Gorges de Zahhak", "Zahhak-Schlucht", "Garganta de Zahhak", "Ngarai Zahhak", "ช่องเขา\u001a \u001aZahhak\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [2644, 1602],
+        "icon": "map_icon_4020140_r.png",
         "missions": {
-            "14013501": null,
-            "14013502": null,
-            "14013503": null
+            "14013501": "Pursuing the Man in Armor 1",
+            "14013502": "Pursuing the Man in Armor 2",
+            "14013503": "Mega-Sized Omega Spawn"
         }
     },
     "140136": {
+        "names": [
+            "(EX-1) Zahhak Gorge",
+            "佐哈克溪谷・EX戰鬥1",
+            "조하크 계곡(EX-1)",
+            "Gorges de Zahhak (EX 1)",
+            "Zahhak-Schlucht (EX 1)",
+            "[EX1] Garganta de Zahhak",
+            "(EX-1) Ngarai Zahhak",
+            "(\u001aEX-\u001a1\u001a)\u001a \u001aช่องเขา\u001a \u001aZahhak\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [2667, 1338],
+        "icon": "map_icon_4020140_2.png",
         "missions": {
-            "14013601": null
+            "14013601": "VS Riesigrex Omega"
         }
     },
     "140137": {
+        "names": ["Zahhak Outpost", "佐哈克前哨基地", "조하크 계곡 전초기지", "Avant-poste de Zahhak", "Zahhak-Außenposten", "Puesto de Zahhak", "Pos Terdepan Zahhak", "ด่าน\u001aหน้าที่\u001a \u001aZahhak\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [2406, 1388],
+        "icon": "map_icon_4020141_r.png",
         "missions": {
-            "14013701": null,
-            "14013702": null,
-            "14013703": null
+            "14013701": "Don't Let Your Guard Down",
+            "14013702": "Unto the Outpost 1",
+            "14013703": "Unto the Outpost 2"
         }
     },
     "140138": {
+        "names": ["Galanthus Plateau", "葛倫薩斯台地", "갈렌서스 대지", "Plateau de Galanthus", "Galanthus-Plateau", "Meseta Galanthus", "Dataran Tinggi Galanthus", "ที่ราบสูง\u001a \u001aGalanthus\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1794, 1434],
+        "icon": "map_icon_4020142_b.png",
         "missions": {
-            "14013801": null,
-            "14013802": null,
-            "14013803": null
+            "14013801": "Rush to the Testing Grounds",
+            "14013802": "Disimprisoning the Damsel",
+            "14013803": "No Two Ways About It"
         }
     },
     "140139": {
+        "names": ["Galanthus Testing Grounds", "葛倫薩斯實驗場", "갈렌서스 실험장", "Aire expérimentale de Galanthus", "Galanthus-Prüfgelände", "Zona de pruebas de Galanthus", "Tempat Percobaan Galanthus", "พื้นที่\u001aทดสอบ\u001a \u001aGalanthus\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1760, 1234],
+        "icon": "map_icon_4020143_b.png",
         "missions": {
-            "14013901": null,
-            "14013902": null,
-            "14013903": null
+            "14013901": "Activation Test 1",
+            "14013902": "Activation Test 2",
+            "14013903": "Everything I've Got"
         }
     },
     "140140": {
+        "names": ["Proto-Omega", "歐米茄原型機", "프로토 오메가", "Proto-Oméga", "Proto-Omega", "Prototipo Omega", "Proto-Omega", "Proto-Omega\u001a"],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1518, 1326],
+        "icon": "map_icon_4020144_b.png",
         "missions": {
-            "14014001": null,
-            "14014002": null,
-            "14014003": null
+            "14014001": "Approaching Proto-Omega",
+            "14014002": "Rescue Lehftia",
+            "14014003": "Rampage"
         }
     },
     "140141": {
+        "names": [
+            "(EX-1) Proto-Omega",
+            "歐米茄原型機・EX戰鬥1",
+            "프로토 오메가(EX-1)",
+            "Proto-Oméga (EX 1)",
+            "Proto-Omega (EX 1)",
+            "[EX1] Prototipo Omega",
+            "(EX-1) Proto-Omega",
+            "(\u001aEX-\u001a1\u001a)\u001a \u001aProto-Omega\u001a"
+        ],
+        "world_id": 5,
+        "region_id": "54",
+        "subregion_id": "1312",
+        "position": [1438, 1558],
+        "icon": "map_icon_4020144_2.png",
         "missions": {
-            "14014101": null
+            "14014101": "VS Proto-Omega"
         }
     },
     "140142": {
@@ -35837,30 +35936,30 @@
         }
     },
     "408001": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["The Last Crystal", "最後的水晶", "최후의 크리스탈", "Le dernier cristal", "Der letzte Kristall", "El último cristal", "Kristal Terakhir", "คริสตัล\u001aแท่ง\u001aสุดท้าย\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4080",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40800101": null,
-            "40800102": null,
-            "40800103": null,
-            "40800104": null,
-            "40800105": null
+            "40800101": "The Last Crystal Lvl. 1",
+            "40800102": "The Last Crystal Lvl. 2",
+            "40800103": "The Last Crystal Lvl. 3",
+            "40800104": "The Last Crystal Lvl. 4",
+            "40800105": "The Last Crystal Lvl. 5"
         }
     },
     "408101": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["The Looming Wall", "惡魔墻襲來", "엄습하는 악마의 벽", "Le mur qui se dessine", "Die lauernde Wand", "El muro hostil", "Tembok yang Datang Menyerang", "กำแพง\u001aปีศาจ\u001aเข้า\u001aโจมตี\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "4081",
         "position": [0, 0],
         "icon": "spd_bn_dummy.png",
         "missions": {
-            "40810101": null,
-            "40810102": null
+            "40810101": "The Looming Wall",
+            "40810102": "The Looming Wall - EXT"
         }
     },
     "408201": {
@@ -37124,23 +37223,23 @@
         }
     },
     "704002": {
-        "names": [null, null, null, null, null, null, null, null],
+        "names": ["Cagnazzo", "凱納槽戰", "카이나초전", "Cagnazzo", "Cagnazzo", "Cagnazzo", "Cagnazzo", "ศึก\u001a \u001aCagnazzo\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "7040",
         "position": [0, 0],
         "icon": "spd_20210910_bn_list_Chronicle_FF4_04.png",
         "missions": {
-            "70400201": null,
-            "70400202": null,
-            "70400203": null,
-            "70400204": null,
-            "70400205": null,
-            "70400206": null,
-            "70400207": null,
-            "70400208": null,
-            "70400209": null,
-            "70400210": null
+            "70400201": "Cagnazzo Lvl. 1",
+            "70400202": "Cagnazzo Lvl. 2",
+            "70400203": "Cagnazzo Lvl. 3",
+            "70400204": "Cagnazzo Lvl. 4",
+            "70400205": "Cagnazzo Lvl. 5",
+            "70400206": "Cagnazzo Lvl. 6",
+            "70400207": "Cagnazzo Lvl. 7",
+            "70400208": "Cagnazzo Lvl. 8",
+            "70400209": "Cagnazzo Lvl. 9",
+            "70400210": "Cagnazzo Lvl. 10"
         }
     },
     "704003": {
