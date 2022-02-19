@@ -1,0 +1,2761 @@
+{
+    "1001": {
+        "id": "1001",
+        "name": "レイン、ラスウェル、フィーナ、ニコル、リド、ジェイク、サクラから選抜",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Only select units can be required used",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", false, [100000102, 100000202, 100000302, 100000403, 100000503, 100000703, 100000603]]
+        ],
+        "conditions_raw": "1001:0:100000102:100000202:100000302:100000403:100000503:100000703:100000603"
+    },
+    "1002": {
+        "id": "1002",
+        "name": "レイン必須、他ラスウェル、フィーナ、ニコル、リド、ジェイク、サクラから選抜",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Rain required, select other required units<color=255:255:204>(Only the original version of Rain is eligible)</color>",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000102]],
+            ["UNIT_ID", false, [100000202, 100000302, 100000403, 100000503, 100000703, 100000603, 100000102]]
+        ],
+        "conditions_raw": "1001:1:100000102,1001:0:100000202:100000302:100000403:100000503:100000703:100000603:100000102"
+    },
+    "1003": {
+        "id": "1003",
+        "name": "ラスウェル必須、他ラスウェル、フィーナ、ニコル、リド、ジェイク、サクラから選抜",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Lasswell required, select other required units<color=255:255:204>(Only the original version of Lasswell is eligible)</color>",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000202]],
+            ["UNIT_ID", false, [100000102, 100000302, 100000403, 100000503, 100000703, 100000603, 100000202]]
+        ],
+        "conditions_raw": "1001:1:100000202,1001:0:100000102:100000302:100000403:100000503:100000703:100000603:100000202"
+    },
+    "1004": {
+        "id": "1004",
+        "name": "フィーナ必須、他ラスウェル、フィーナ、ニコル、リド、ジェイク、サクラから選抜",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Fina required, select other required units<color=255:255:204>(Only the original version of Fina is eligible)</color>",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000302]],
+            ["UNIT_ID", false, [100000102, 100000202, 100000403, 100000503, 100000703, 100000603, 100000302]]
+        ],
+        "conditions_raw": "1001:1:100000302,1001:0:100000102:100000202:100000403:100000503:100000703:100000603:100000302"
+    },
+    "2001": {
+        "id": "2001",
+        "name": "レイン、ラスウェル　パーティ編成不可",
+        "desc1": "Challenge Mission Story Event",
+        "desc2": "Rain, Lasswell cannot be in party",
+        "desc3": null,
+        "conditions": [
+            [1002, [100000102, 100000202]]
+        ],
+        "conditions_raw": "1002:100000102:100000202"
+    },
+    "2002": {
+        "id": "2002",
+        "name": "ゴール到達",
+        "desc1": "Tryout (5 out of 10 questions)",
+        "desc2": "Goal Reached",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030111, 100]
+        ],
+        "conditions_raw": "11001:100:18030111"
+    },
+    "2003": {
+        "id": "2003",
+        "name": "全問正解",
+        "desc1": "Tryout (5 out of 10 questions)",
+        "desc2": "All Correct",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030112, 100]
+        ],
+        "conditions_raw": "11001:100:18030112"
+    },
+    "2004": {
+        "id": "2004",
+        "name": "ゴール到達",
+        "desc1": "Easy (5 out of 30 questions)",
+        "desc2": "Goal Reached",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030231, 100]
+        ],
+        "conditions_raw": "11001:100:18030231"
+    },
+    "2005": {
+        "id": "2005",
+        "name": "全問正解",
+        "desc1": "Easy (5 out of 30 questions)",
+        "desc2": "All Correct",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030232, 100]
+        ],
+        "conditions_raw": "11001:100:18030232"
+    },
+    "2006": {
+        "id": "2006",
+        "name": "ゴール到達",
+        "desc1": "Normal (5 out of 30 questions)",
+        "desc2": "Goal Reached",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030331, 100]
+        ],
+        "conditions_raw": "11001:100:18030331"
+    },
+    "2007": {
+        "id": "2007",
+        "name": "全問正解",
+        "desc1": "Normal (5 out of 30 questions)",
+        "desc2": "All Correct",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030332, 100]
+        ],
+        "conditions_raw": "11001:100:18030332"
+    },
+    "2008": {
+        "id": "2008",
+        "name": "ゴール到達",
+        "desc1": "Slightly Difficult (5 out of 30 questions)",
+        "desc2": "Goal Reached",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030431, 100]
+        ],
+        "conditions_raw": "11001:100:18030431"
+    },
+    "2009": {
+        "id": "2009",
+        "name": "全問正解",
+        "desc1": "Slightly Difficult (5 out of 30 questions)",
+        "desc2": "All Correct",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030432, 100]
+        ],
+        "conditions_raw": "11001:100:18030432"
+    },
+    "2010": {
+        "id": "2010",
+        "name": "ゴール到達",
+        "desc1": "Near Impossible (5 out of 30 questions)",
+        "desc2": "Goal Reached",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030531, 100]
+        ],
+        "conditions_raw": "11001:100:18030531"
+    },
+    "2011": {
+        "id": "2011",
+        "name": "全問正解",
+        "desc1": "Near Impossible (5 out of 30 questions)",
+        "desc2": "All Correct",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18030532, 100]
+        ],
+        "conditions_raw": "11001:100:18030532"
+    },
+    "2012": {
+        "id": "2012",
+        "name": "「テント」で拠点を設営してクリア",
+        "desc1": "Peaceful Stream",
+        "desc2": "Set up a tent",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10164101, 100]
+        ],
+        "conditions_raw": "11001:100:10164101"
+    },
+    "2013": {
+        "id": "2013",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Bright Forest",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10165101, 100]
+        ],
+        "conditions_raw": "11001:100:10165101"
+    },
+    "2014": {
+        "id": "2014",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Cavern of Desolation",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10166101, 100]
+        ],
+        "conditions_raw": "11001:100:10166101"
+    },
+    "2015": {
+        "id": "2015",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Pass of Trials",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10167101, 100]
+        ],
+        "conditions_raw": "11001:100:10167101"
+    },
+    "2016": {
+        "id": "2016",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Clear Reef",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10168101, 100]
+        ],
+        "conditions_raw": "11001:100:10168101"
+    },
+    "2017": {
+        "id": "2017",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Fading Coast",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10169101, 100]
+        ],
+        "conditions_raw": "11001:100:10169101"
+    },
+    "2018": {
+        "id": "2018",
+        "name": "３箇所以上「採取」してクリア",
+        "desc1": "Endless Cliff",
+        "desc2": "Collect from 3 harvest points",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10170101, 100]
+        ],
+        "conditions_raw": "11001:100:10170101"
+    },
+    "2019": {
+        "id": "2019",
+        "name": "全ての「バハムートの幻影」討伐",
+        "desc1": "Eternal Summit",
+        "desc2": "Defeat all bahamuts",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 10171004, 100]
+        ],
+        "conditions_raw": "11001:100:10171004"
+    },
+    "2020": {
+        "id": "2020",
+        "name": "「ベンヌ」を倒してクリア",
+        "desc1": "Ancient Ruins 1",
+        "desc2": "Ancient Ruins 1",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 30001118, 300]
+        ],
+        "conditions_raw": "11001:300:30001118"
+    },
+    "2021": {
+        "id": "2021",
+        "name": "ラスウェル必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000202]]
+        ],
+        "conditions_raw": "1001:1:100000202"
+    },
+    "2022": {
+        "id": "2022",
+        "name": "フィーナ必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000302]]
+        ],
+        "conditions_raw": "1001:1:100000302"
+    },
+    "2023": {
+        "id": "2023",
+        "name": "リド必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000503]]
+        ],
+        "conditions_raw": "1001:1:100000503"
+    },
+    "2024": {
+        "id": "2024",
+        "name": "ニコル必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000403]]
+        ],
+        "conditions_raw": "1001:1:100000403"
+    },
+    "2025": {
+        "id": "2025",
+        "name": "ジェイク必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000703]]
+        ],
+        "conditions_raw": "1001:1:100000703"
+    },
+    "2026": {
+        "id": "2026",
+        "name": "サクラ必須",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", true, [100000603]]
+        ],
+        "conditions_raw": "1001:1:100000603"
+    },
+    "2027": {
+        "id": "2027",
+        "name": "フィーナひとり",
+        "desc1": "Only select units can be selected to depart.",
+        "desc2": "Only select units can be selected to depart.",
+        "desc3": null,
+        "conditions": [
+            ["UNIT_ID", false, [100000302]]
+        ],
+        "conditions_raw": "1001:0:100000302"
+    },
+    "2028": {
+        "id": "2028",
+        "name": "「ウンディーネ」を倒してクリア",
+        "desc1": "Ancient Ruins 2",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 30001128, 300]
+        ],
+        "conditions_raw": "11001:300:30001128"
+    },
+    "2029": {
+        "id": "2029",
+        "name": "「デーランボー」を倒してクリア",
+        "desc1": "古代遺跡3",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 30001166, 300]
+        ],
+        "conditions_raw": "11001:300:30001166"
+    },
+    "2030": {
+        "id": "2030",
+        "name": "「オチュー」を倒してクリア",
+        "desc1": "古代遺跡4",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 30001186, 300]
+        ],
+        "conditions_raw": "11001:300:30001186"
+    },
+    "2031": {
+        "id": "2031",
+        "name": "「ジラント」を倒してクリア",
+        "desc1": "古代遺跡5",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 30001213, 300]
+        ],
+        "conditions_raw": "11001:300:30001213"
+    },
+    "2032": {
+        "id": "2032",
+        "name": "青魔導士フィーナ必須",
+        "desc1": "You may only depart once you've included the specified unit in your party.",
+        "desc2": "Include specified unit in party",
+        "desc3": "MST_UNIT_NAME_100025705",
+        "conditions": [
+            ["UNIT_ID", true, [100025705]]
+        ],
+        "conditions_raw": "1001:1:100025705"
+    },
+    "2034": {
+        "id": "2034",
+        "name": "人形の間のメモを入手してクリア",
+        "desc1": "人形の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533300, 103]
+        ],
+        "conditions_raw": "11001:103:18533300"
+    },
+    "2035": {
+        "id": "2035",
+        "name": "博物の間のメモを入手してクリア",
+        "desc1": "博物の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533350, 103]
+        ],
+        "conditions_raw": "11001:103:18533350"
+    },
+    "2036": {
+        "id": "2036",
+        "name": "鈴蘭の間のメモを入手してクリア",
+        "desc1": "鈴蘭の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533400, 103]
+        ],
+        "conditions_raw": "11001:103:18533400"
+    },
+    "2037": {
+        "id": "2037",
+        "name": "計画の間のメモを入手してクリア",
+        "desc1": "計画の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533450, 103]
+        ],
+        "conditions_raw": "11001:103:18533450"
+    },
+    "2038": {
+        "id": "2038",
+        "name": "友情の間のメモを入手してクリア",
+        "desc1": "友情の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533500, 103],
+            ["SWITCH", 18533502, 103],
+            ["SWITCH", 18533503, 103],
+            ["SWITCH", 18533504, 103]
+        ],
+        "conditions_raw": "11001:103:18533500,11001:103:18533502,11001:103:18533503,11001:103:18533504"
+    },
+    "2039": {
+        "id": "2039",
+        "name": "信頼の間のメモを入手してクリア",
+        "desc1": "信頼の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533550, 103]
+        ],
+        "conditions_raw": "11001:103:18533550"
+    },
+    "2040": {
+        "id": "2040",
+        "name": "荒廃の間のメモを入手してクリア",
+        "desc1": "荒廃の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533600, 103],
+            ["SWITCH", 18533602, 103]
+        ],
+        "conditions_raw": "11001:103:18533600,11001:103:18533602"
+    },
+    "2041": {
+        "id": "2041",
+        "name": "生命の間のメモを入手してクリア",
+        "desc1": "生命の間1周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533650, 103]
+        ],
+        "conditions_raw": "11001:103:18533650"
+    },
+    "2042": {
+        "id": "2042",
+        "name": "人形の間のメモを入手してクリア",
+        "desc1": "人形の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533301, 103]
+        ],
+        "conditions_raw": "11001:103:18533301"
+    },
+    "2043": {
+        "id": "2043",
+        "name": "博物の間のメモを入手してクリア",
+        "desc1": "博物の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533351, 103]
+        ],
+        "conditions_raw": "11001:103:18533351"
+    },
+    "2044": {
+        "id": "2044",
+        "name": "鈴蘭の間のメモを入手してクリア",
+        "desc1": "鈴蘭の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533401, 103]
+        ],
+        "conditions_raw": "11001:103:18533401"
+    },
+    "2045": {
+        "id": "2045",
+        "name": "計画の間のメモを入手してクリア",
+        "desc1": "計画の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533452, 103]
+        ],
+        "conditions_raw": "11001:103:18533452"
+    },
+    "2046": {
+        "id": "2046",
+        "name": "友情の間のメモを入手してクリア",
+        "desc1": "友情の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533505, 103]
+        ],
+        "conditions_raw": "11001:103:18533505"
+    },
+    "2047": {
+        "id": "2047",
+        "name": "信頼の間のメモを入手してクリア",
+        "desc1": "信頼の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533551, 103]
+        ],
+        "conditions_raw": "11001:103:18533551"
+    },
+    "2048": {
+        "id": "2048",
+        "name": "荒廃の間のメモを入手してクリア",
+        "desc1": "荒廃の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533603, 103]
+        ],
+        "conditions_raw": "11001:103:18533603"
+    },
+    "2049": {
+        "id": "2049",
+        "name": "生命の間のメモを入手してクリア",
+        "desc1": "生命の間2周目",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533654, 103]
+        ],
+        "conditions_raw": "11001:103:18533654"
+    },
+    "2050": {
+        "id": "2050",
+        "name": "真実の間開放",
+        "desc1": "真実の間開放",
+        "desc2": "",
+        "desc3": null,
+        "conditions": [
+            ["SWITCH", 18533270, 101]
+        ],
+        "conditions_raw": "11001:101:18533270"
+    },
+    "3001": {
+        "id": "3001",
+        "name": "セイレーン",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210400, 1]]
+        ],
+        "conditions_raw": "12001:20:106210400:1"
+    },
+    "3002": {
+        "id": "3002",
+        "name": "イフリート",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210300, 1]]
+        ],
+        "conditions_raw": "12001:20:106210300:1"
+    },
+    "3003": {
+        "id": "3003",
+        "name": "ゴーレム",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210900, 1]]
+        ],
+        "conditions_raw": "12001:20:106210900:1"
+    },
+    "3004": {
+        "id": "3004",
+        "name": "シヴァ",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106211000, 1]]
+        ],
+        "conditions_raw": "12001:20:106211000:1"
+    },
+    "3005": {
+        "id": "3005",
+        "name": "ラムウ",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210800, 1]]
+        ],
+        "conditions_raw": "12001:20:106210800:1"
+    },
+    "3006": {
+        "id": "3006",
+        "name": "ディアボロス",
+        "desc1": "N/A chocobo quest",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210700, 1]]
+        ],
+        "conditions_raw": "12001:20:106210700:1"
+    },
+    "3007": {
+        "id": "3007",
+        "name": "カーバンクル",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210600, 1]]
+        ],
+        "conditions_raw": "12001:20:106210600:1"
+    },
+    "3009": {
+        "id": "3009",
+        "name": "タイタン",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210900, 1]]
+        ],
+        "conditions_raw": "12001:20:106210900:1"
+    },
+    "3010": {
+        "id": "3010",
+        "name": "ラクシュミ",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※探検チョコボで獲得することができます",
+        "desc2": "NA Exploration Chocobo",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210200, 1]]
+        ],
+        "conditions_raw": "12001:20:106210200:1"
+    },
+    "3011": {
+        "id": "3011",
+        "name": "テトラシルフィード",
+        "desc1": "N/A chocobo quest",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 106210500, 1]]
+        ],
+        "conditions_raw": "12001:20:106210500:1"
+    },
+    "3101": {
+        "id": "3101",
+        "name": "地図クエ用、トラモグの地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000100, 1]]
+        ],
+        "conditions_raw": "12001:20:110000100:1"
+    },
+    "3102": {
+        "id": "3102",
+        "name": "地図クエ用、大結晶の地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000200, 1]]
+        ],
+        "conditions_raw": "12001:20:110000200:1"
+    },
+    "3103": {
+        "id": "3103",
+        "name": "地図クエ用、ランクEXPの地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000300, 1]]
+        ],
+        "conditions_raw": "12001:20:110000300:1"
+    },
+    "3104": {
+        "id": "3104",
+        "name": "地図クエ用、覚醒素材の地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000400, 1]]
+        ],
+        "conditions_raw": "12001:20:110000400:1"
+    },
+    "3105": {
+        "id": "3105",
+        "name": "地図クエ用、スタークォーツの地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000500, 1]]
+        ],
+        "conditions_raw": "12001:20:110000500:1"
+    },
+    "3106": {
+        "id": "3106",
+        "name": "地図クエ用、ギルの地図",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000600, 1]]
+        ],
+        "conditions_raw": "12001:20:110000600:1"
+    },
+    "3107": {
+        "id": "3107",
+        "name": "地図クエ用、火の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000700, 1]]
+        ],
+        "conditions_raw": "12001:20:110000700:1"
+    },
+    "3108": {
+        "id": "3108",
+        "name": "地図クエ用、水の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000800, 1]]
+        ],
+        "conditions_raw": "12001:20:110000800:1"
+    },
+    "3109": {
+        "id": "3109",
+        "name": "地図クエ用、土の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110000900, 1]]
+        ],
+        "conditions_raw": "12001:20:110000900:1"
+    },
+    "3110": {
+        "id": "3110",
+        "name": "地図クエ用、風の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001000, 1]]
+        ],
+        "conditions_raw": "12001:20:110001000:1"
+    },
+    "3111": {
+        "id": "3111",
+        "name": "地図クエ用、氷の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001100, 1]]
+        ],
+        "conditions_raw": "12001:20:110001100:1"
+    },
+    "3112": {
+        "id": "3112",
+        "name": "地図クエ用、雷の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001200, 1]]
+        ],
+        "conditions_raw": "12001:20:110001200:1"
+    },
+    "3113": {
+        "id": "3113",
+        "name": "地図クエ用、闇の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001300, 1]]
+        ],
+        "conditions_raw": "12001:20:110001300:1"
+    },
+    "3114": {
+        "id": "3114",
+        "name": "地図クエ用、光の大結晶の地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001400, 1]]
+        ],
+        "conditions_raw": "12001:20:110001400:1"
+    },
+    "3115": {
+        "id": "3115",
+        "name": "地図クエ用、メタルジャボテンの地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001500, 1]]
+        ],
+        "conditions_raw": "12001:20:110001500:1"
+    },
+    "3116": {
+        "id": "3116",
+        "name": "地図クエ用、ポッドの地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001600, 1]]
+        ],
+        "conditions_raw": "12001:20:110001600:1"
+    },
+    "3117": {
+        "id": "3117",
+        "name": "地図クエ用、真・トラモグの地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001700, 1]]
+        ],
+        "conditions_raw": "12001:20:110001700:1"
+    },
+    "3118": {
+        "id": "3118",
+        "name": "地図クエ用、スーパートラストモーグリ交換チケットの地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001800, 1]]
+        ],
+        "conditions_raw": "12001:20:110001800:1"
+    },
+    "3119": {
+        "id": "3119",
+        "name": "地図クエ用、メタルミニテンキングの地図",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 110001900, 1]]
+        ],
+        "conditions_raw": "12001:20:110001900:1"
+    },
+    "3201": {
+        "id": "3201",
+        "name": "バレンタインイベント2019_エンブレムクエスト",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 235006600, 1]]
+        ],
+        "conditions_raw": "12001:20:235006600:1"
+    },
+    "3202": {
+        "id": "3202",
+        "name": "バレンタインイベント2020_エンブレムクエスト",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 235024100, 1]]
+        ],
+        "conditions_raw": "12001:20:235024100:1"
+    },
+    "3301": {
+        "id": "3301",
+        "name": "欠片クエスト用基本設定",
+        "desc1": "You can depart with a party that meets the following requirements.",
+        "desc2": "-Your party contains at least one Neo Vision unit<br>-Your party does not contain two of the same unit (regardless of differing rarity)",
+        "desc3": "Rarity: <color=255:255:0>Neo Vision Units</color>",
+        "conditions": [
+            [1017, [0]],
+            [1018, [0]]
+        ],
+        "conditions_raw": "1017:0,1018:0"
+    },
+    "4001": {
+        "id": "4001",
+        "name": "基礎レアリティ★3スタートユニット",
+        "desc1": "基礎レアリティ★3スタートのユニットのみで編成されたパーティで出発可能となります。覚醒済みユニットでも編成可能です。",
+        "desc2": "基礎レアリティ★3スタートのユニットを編成",
+        "desc3": null,
+        "conditions": [
+            ["BASE_RARITY", 3]
+        ],
+        "conditions_raw": "1013:0:3"
+    },
+    "4002": {
+        "id": "4002",
+        "name": "基礎レアリティ★4スタートユニット",
+        "desc1": "基礎レアリティ★4スタートのユニットのみで編成されたパーティで出発可能となります。覚醒済みユニットでも編成可能です。",
+        "desc2": "基礎レアリティ★4スタートのユニットを編成",
+        "desc3": null,
+        "conditions": [
+            ["BASE_RARITY", 4]
+        ],
+        "conditions_raw": "1013:0:4"
+    },
+    "4008": {
+        "id": "4008",
+        "name": "FFVIIのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFVII",
+        "conditions": [
+            ["GAME_ID", 10007]
+        ],
+        "conditions_raw": "1003:0:10007"
+    },
+    "4014": {
+        "id": "4014",
+        "name": "特定ユニットのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Specified units only",
+        "desc3": "ボーナス対象ユニットのみ出撃可能",
+        "conditions": [
+            ["UNIT_ID", false, [100031507, 100031517, 100031105, 100031405, 100011705, 100011727, 100023605, 100010005, 100008605, 100012605, 100019205, 100019105, 100022805]]
+        ],
+        "conditions_raw": "1001:0:100031507:100031517:100031105:100031405:100011705:100011727:100023605:100010005:100008605:100012605:100019205:100019105:100022805"
+    },
+    "4015": {
+        "id": "4015",
+        "name": "FFXIIのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFXII",
+        "conditions": [
+            ["GAME_ID", 10012]
+        ],
+        "conditions_raw": "1003:0:10012"
+    },
+    "4016": {
+        "id": "4016",
+        "name": "FFIIのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFII",
+        "conditions": [
+            ["GAME_ID", 10002]
+        ],
+        "conditions_raw": "1003:0:10002"
+    },
+    "4018": {
+        "id": "4018",
+        "name": "FFBEのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFBE",
+        "conditions": [
+            ["GAME_ID", 11001]
+        ],
+        "conditions_raw": "1003:0:11001"
+    },
+    "4019": {
+        "id": "4019",
+        "name": "特定ユニットのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Specified units only",
+        "desc3": "You can only depart with a party of bonus units.",
+        "conditions": [
+            ["UNIT_ID", false, [340000107, 340000117, 340000207, 340000217, 340000307, 340000317, 341000105, 335000105, 335000205, 335000405, 335000305, 207000305, 207000327, 207000405, 207001105, 207000605, 208000105, 208001505, 208000505, 210000105, 210001805, 210000605, 249000105, 249000205, 249000305, 206000804, 210000303, 208001005, 209000203, 209001405, 207001705, 207001605, 207000105, 207000127, 207002007, 207002017, 207002207, 207002217, 207001005, 208001604]]
+        ],
+        "conditions_raw": "1001:0:340000107:340000117:340000207:340000217:340000307:340000317:341000105:335000105:335000205:335000405:335000305:207000305:207000327:207000405:207001105:207000605:208000105:208001505:208000505:210000105:210001805:210000605:249000105:249000205:249000305:206000804:210000303:208001005:209000203:209001405:207001705:207001605:207000105:207000127:207002007:207002017:207002207:207002217:207001005:208001604"
+    },
+    "4020": {
+        "id": "4020",
+        "name": "FFIII及びFFBEのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFIII<br>FFBE",
+        "conditions": [
+            ["GAME_ID", 10003]
+        ],
+        "conditions_raw": "1003:0:10003:11001"
+    },
+    "4021": {
+        "id": "4021",
+        "name": "FFVI及びFFBEのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFVI<br>FFBE",
+        "conditions": [
+            ["GAME_ID", 10006]
+        ],
+        "conditions_raw": "1003:0:10006:11001"
+    },
+    "4022": {
+        "id": "4022",
+        "name": "FFVIのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFVI",
+        "conditions": [
+            ["GAME_ID", 10006]
+        ],
+        "conditions_raw": "1003:0:10006"
+    },
+    "4023": {
+        "id": "4023",
+        "name": "零式のみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FF TYPE-0",
+        "conditions": [
+            ["GAME_ID", 11003]
+        ],
+        "conditions_raw": "1003:0:11003"
+    },
+    "4024": {
+        "id": "4024",
+        "name": "FFVのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFV",
+        "conditions": [
+            ["GAME_ID", 10005]
+        ],
+        "conditions_raw": "1003:0:10005"
+    },
+    "4025": {
+        "id": "4025",
+        "name": "FFIV及びFFIVTAのみ",
+        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
+        "desc2": "指定シリーズユニットのみ",
+        "desc3": "FFIV及びFFIVTA",
+        "conditions": [
+            ["GAME_ID", 10004]
+        ],
+        "conditions_raw": "1003:0:10004:11008"
+    },
+    "4026": {
+        "id": "4026",
+        "name": "FFVIIIのみ",
+        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
+        "desc2": "指定シリーズユニットのみ",
+        "desc3": "FFVIII",
+        "conditions": [
+            ["GAME_ID", 10008]
+        ],
+        "conditions_raw": "1003:0:10008"
+    },
+    "5001": {
+        "id": "5001",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 300501]
+        ],
+        "conditions_raw": "13001:167:300501:7000"
+    },
+    "5002": {
+        "id": "5002",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 300501]
+        ],
+        "conditions_raw": "13001:167:300501:7000"
+    },
+    "5003": {
+        "id": "5003",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 300501]
+        ],
+        "conditions_raw": "13001:167:300501:7000"
+    },
+    "5004": {
+        "id": "5004",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 300501]
+        ],
+        "conditions_raw": "13001:167:300501:8000"
+    },
+    "5005": {
+        "id": "5005",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 300501]
+        ],
+        "conditions_raw": "13001:167:300501:9500"
+    },
+    "5006": {
+        "id": "5006",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>EP</color>が所定数値に達している必要があります。 <br><br> <br><color=255:165:0>【EP】</color><br>EP  <param=point> 以上<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 301901]
+        ],
+        "conditions_raw": "13001:210:301901:10000"
+    },
+    "5007": {
+        "id": "5007",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>EP</color>が所定数値に達している必要があります。 <br><br> <br><color=255:165:0>【EP】</color><br>EP  <param=point> 以上<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 301901]
+        ],
+        "conditions_raw": "13001:210:301901:20000"
+    },
+    "5008": {
+        "id": "5008",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>EP</color>が所定数値に達している必要があります。 <br><br> <br><color=255:165:0>【EP】</color><br>EP  <param=point> 以上<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 301901]
+        ],
+        "conditions_raw": "13001:210:301901:30000"
+    },
+    "5009": {
+        "id": "5009",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>EP</color>が所定数値に達している必要があります。 <br><br> <br><color=255:165:0>【EP】</color><br>EP  <param=point> 以上<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 301901]
+        ],
+        "conditions_raw": "13001:210:301901:40000"
+    },
+    "5010": {
+        "id": "5010",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>EP</color>が所定数値に達している必要があります。 <br><br> <br><color=255:165:0>【EP】</color><br>EP  <param=point> 以上<br>",
+        "desc2": "<param=point>",
+        "desc3": null,
+        "conditions": [
+            ["EP_COST", 301901]
+        ],
+        "conditions_raw": "13001:210:301901:50000"
+    },
+    "5011": {
+        "id": "5011",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": "",
+        "conditions": [
+            ["EP_COST", 321501]
+        ],
+        "conditions_raw": "13001:242:321501:10000"
+    },
+    "5012": {
+        "id": "5012",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": "",
+        "conditions": [
+            ["EP_COST", 321501]
+        ],
+        "conditions_raw": "13001:242:321501:20000"
+    },
+    "5013": {
+        "id": "5013",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": "",
+        "conditions": [
+            ["EP_COST", 321501]
+        ],
+        "conditions_raw": "13001:242:321501:30000"
+    },
+    "5014": {
+        "id": "5014",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": "",
+        "conditions": [
+            ["EP_COST", 321501]
+        ],
+        "conditions_raw": "13001:242:321501:40000"
+    },
+    "5015": {
+        "id": "5015",
+        "name": "シーズンイベントポイントを達成したのでミッションを開放",
+        "desc1": "In order to proceed on this quest, a certain amount of <color=255:255:0>event points</color> is required in addition to energy.<br><br> <br><color=255:165:0>[Pts]</color><br><param=point> or more event points required<br>",
+        "desc2": "<param=point>",
+        "desc3": "",
+        "conditions": [
+            ["EP_COST", 321501]
+        ],
+        "conditions_raw": "13001:242:321501:50000"
+    },
+    "7101": {
+        "id": "7101",
+        "name": "【性別】その他",
+        "desc1": "【性別】その他だったら有効",
+        "desc2": "【性別】その他に設定する",
+        "desc3": "",
+        "conditions": [
+            ["SEX_ID", 0]
+        ],
+        "conditions_raw": "1005:0:0"
+    },
+    "7102": {
+        "id": "7102",
+        "name": "【性別】男性",
+        "desc1": "【性別】男性だったら有効",
+        "desc2": "【性別】男性に設定する",
+        "desc3": "",
+        "conditions": [
+            ["SEX_ID", 1]
+        ],
+        "conditions_raw": "1005:0:1"
+    },
+    "7103": {
+        "id": "7103",
+        "name": "【性別】女性",
+        "desc1": "【性別】女だったら有効",
+        "desc2": "【性別】女に設定する",
+        "desc3": "",
+        "conditions": [
+            ["SEX_ID", 2]
+        ],
+        "conditions_raw": "1005:0:2"
+    },
+    "7110": {
+        "id": "7110",
+        "name": "【TYPE】物攻",
+        "desc1": "【TYPE】物攻だったら有効",
+        "desc2": "【TYPE】物攻に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:1"
+    },
+    "7111": {
+        "id": "7111",
+        "name": "【TYPE】魔攻",
+        "desc1": "【TYPE】魔攻だったら有効",
+        "desc2": "【TYPE】魔攻に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:2"
+    },
+    "7112": {
+        "id": "7112",
+        "name": "【TYPE】物防",
+        "desc1": "【TYPE】物防だったら有効",
+        "desc2": "【TYPE】物防に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:3"
+    },
+    "7113": {
+        "id": "7113",
+        "name": "【TYPE】魔防",
+        "desc1": "【TYPE】魔防だったら有効",
+        "desc2": "【TYPE】魔防に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:4"
+    },
+    "7114": {
+        "id": "7114",
+        "name": "【TYPE】回復",
+        "desc1": "【TYPE】回復だったら有効",
+        "desc2": "【TYPE】回復に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:5"
+    },
+    "7115": {
+        "id": "7115",
+        "name": "【TYPE】支援",
+        "desc1": "【TYPE】支援だったら有効",
+        "desc2": "【TYPE】支援に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:6"
+    },
+    "7116": {
+        "id": "7116",
+        "name": "【TYPE】妨害",
+        "desc1": "【TYPE】妨害だったら有効",
+        "desc2": "【TYPE】妨害に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:7"
+    },
+    "7117": {
+        "id": "7117",
+        "name": "【TYPE】万能",
+        "desc1": "【TYPE】万能だったら有効",
+        "desc2": "【TYPE】万能に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:8"
+    },
+    "7118": {
+        "id": "7118",
+        "name": "【TYPE】物攻または魔攻",
+        "desc1": "【TYPE】物攻or魔攻だったら有効",
+        "desc2": "【TYPE】物攻or魔攻に設定する",
+        "desc3": "",
+        "conditions": [
+            ["ROLE_ID", 0],
+            ["ROLE_ID", 0]
+        ],
+        "conditions_raw": "1015:0:1@1015:0:2"
+    },
+    "7201": {
+        "id": "7201",
+        "name": "【シリーズ】FF1",
+        "desc1": "【シリーズ】FF1だったら有効",
+        "desc2": "【シリーズ】FF1に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10001]
+        ],
+        "conditions_raw": "1003:0:10001"
+    },
+    "7202": {
+        "id": "7202",
+        "name": "【シリーズ】FF2",
+        "desc1": "【シリーズ】FF2だったら有効",
+        "desc2": "【シリーズ】FF2に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10002]
+        ],
+        "conditions_raw": "1003:0:10002"
+    },
+    "7203": {
+        "id": "7203",
+        "name": "【シリーズ】FF3",
+        "desc1": "【シリーズ】FF3だったら有効",
+        "desc2": "【シリーズ】FF3に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10003]
+        ],
+        "conditions_raw": "1003:0:10003"
+    },
+    "7204": {
+        "id": "7204",
+        "name": "【シリーズ】FF4",
+        "desc1": "【シリーズ】FF4だったら有効",
+        "desc2": "【シリーズ】FF4に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10004]
+        ],
+        "conditions_raw": "1003:0:10004"
+    },
+    "7205": {
+        "id": "7205",
+        "name": "【シリーズ】FF5",
+        "desc1": "Activated for FFV units",
+        "desc2": "【シリーズ】FF5に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10005]
+        ],
+        "conditions_raw": "1003:0:10005"
+    },
+    "7206": {
+        "id": "7206",
+        "name": "【シリーズ】FF6",
+        "desc1": "【シリーズ】FF6だったら有効",
+        "desc2": "【シリーズ】FF6に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10006]
+        ],
+        "conditions_raw": "1003:0:10006"
+    },
+    "7207": {
+        "id": "7207",
+        "name": "【シリーズ】FF7",
+        "desc1": "【シリーズ】FF7だったら有効",
+        "desc2": "【シリーズ】FF7に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10007]
+        ],
+        "conditions_raw": "1003:0:10007"
+    },
+    "7208": {
+        "id": "7208",
+        "name": "【シリーズ】FF8",
+        "desc1": "【シリーズ】FF8だったら有効",
+        "desc2": "【シリーズ】FF8に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10008]
+        ],
+        "conditions_raw": "1003:0:10008"
+    },
+    "7209": {
+        "id": "7209",
+        "name": "【シリーズ】FF9",
+        "desc1": "【シリーズ】FF9だったら有効",
+        "desc2": "【シリーズ】FF9に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10009]
+        ],
+        "conditions_raw": "1003:0:10009"
+    },
+    "7210": {
+        "id": "7210",
+        "name": "【シリーズ】FF10",
+        "desc1": "【シリーズ】FF10だったら有効",
+        "desc2": "【シリーズ】FF10に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10010]
+        ],
+        "conditions_raw": "1003:0:10010"
+    },
+    "7211": {
+        "id": "7211",
+        "name": "【シリーズ】FF11",
+        "desc1": "【シリーズ】FF11だったら有効",
+        "desc2": "【シリーズ】FF11に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10011]
+        ],
+        "conditions_raw": "1003:0:10011"
+    },
+    "7212": {
+        "id": "7212",
+        "name": "【シリーズ】FF12",
+        "desc1": "【シリーズ】FF12だったら有効",
+        "desc2": "【シリーズ】FF12に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10012]
+        ],
+        "conditions_raw": "1003:0:10012"
+    },
+    "7213": {
+        "id": "7213",
+        "name": "【シリーズ】FF13",
+        "desc1": "【シリーズ】FF13だったら有効",
+        "desc2": "【シリーズ】FF13に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10013]
+        ],
+        "conditions_raw": "1003:0:10013"
+    },
+    "7214": {
+        "id": "7214",
+        "name": "【シリーズ】FF14",
+        "desc1": "【シリーズ】FF14だったら有効",
+        "desc2": "【シリーズ】FF14に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10014]
+        ],
+        "conditions_raw": "1003:0:10014"
+    },
+    "7215": {
+        "id": "7215",
+        "name": "【シリーズ】FF15",
+        "desc1": "【シリーズ】FF15だったら有効",
+        "desc2": "【シリーズ】FF15に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10015]
+        ],
+        "conditions_raw": "1003:0:10015"
+    },
+    "7216": {
+        "id": "7216",
+        "name": "【シリーズ】FFBE",
+        "desc1": "【シリーズ】FFBEだったら有効",
+        "desc2": "【シリーズ】FFBEに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11001]
+        ],
+        "conditions_raw": "1003:0:11001"
+    },
+    "7217": {
+        "id": "7217",
+        "name": "【シリーズ】FFT",
+        "desc1": "【シリーズ】FFTだったら有効",
+        "desc2": "【シリーズ】FFTに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11002]
+        ],
+        "conditions_raw": "1003:0:11002"
+    },
+    "7218": {
+        "id": "7218",
+        "name": "【シリーズ】FF零式",
+        "desc1": "【シリーズ】FF零式だったら有効",
+        "desc2": "【シリーズ】FF零式に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11003]
+        ],
+        "conditions_raw": "1003:0:11003"
+    },
+    "7219": {
+        "id": "7219",
+        "name": "【シリーズ】FF10-2",
+        "desc1": "【シリーズ】FF10-2だったら有効",
+        "desc2": "【シリーズ】FF10-2に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11004]
+        ],
+        "conditions_raw": "1003:0:11004"
+    },
+    "7220": {
+        "id": "7220",
+        "name": "【シリーズ】FF12 RW",
+        "desc1": "【シリーズ】FF12 RWだったら有効",
+        "desc2": "【シリーズ】FF12 RWに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11005]
+        ],
+        "conditions_raw": "1003:0:11005"
+    },
+    "7221": {
+        "id": "7221",
+        "name": "【シリーズ】FF13-2",
+        "desc1": "【シリーズ】FF13-2だったら有効",
+        "desc2": "【シリーズ】FF13-2に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11006]
+        ],
+        "conditions_raw": "1003:0:11006"
+    },
+    "7222": {
+        "id": "7222",
+        "name": "【シリーズ】LR FF13",
+        "desc1": "【シリーズ】LR FF13だったら有効",
+        "desc2": "【シリーズ】LR FF13に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11007]
+        ],
+        "conditions_raw": "1003:0:11007"
+    },
+    "7223": {
+        "id": "7223",
+        "name": "【シリーズ】FF4TA",
+        "desc1": "【シリーズ】FF4TAだったら有効",
+        "desc2": "【シリーズ】FF4TAに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11008]
+        ],
+        "conditions_raw": "1003:0:11008"
+    },
+    "7224": {
+        "id": "7224",
+        "name": "【シリーズ】FF7AC",
+        "desc1": "【シリーズ】FF7ACだったら有効",
+        "desc2": "【シリーズ】FF7ACに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11009]
+        ],
+        "conditions_raw": "1003:0:11009"
+    },
+    "7225": {
+        "id": "7225",
+        "name": "【シリーズ】FFBE幻影戦争",
+        "desc1": "【シリーズ】FFBE幻影戦争だったら有効",
+        "desc2": "【シリーズ】FFBE幻影戦争に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11010]
+        ],
+        "conditions_raw": "1003:0:11010"
+    },
+    "7226": {
+        "id": "7226",
+        "name": "【シリーズ】FINAL FANTASY Record Keeper",
+        "desc1": "【シリーズ】FINAL FANTASY Record Keeperだったら有効",
+        "desc2": "【シリーズ】FINAL FANTASY Record Keeperに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11011]
+        ],
+        "conditions_raw": "1003:0:11011"
+    },
+    "7240": {
+        "id": "7240",
+        "name": "【シリーズ】TERRA BATTLE",
+        "desc1": "【シリーズ】TERRA BATTLEだったら有効",
+        "desc2": "【シリーズ】TERRA BATTLEに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20001]
+        ],
+        "conditions_raw": "1003:0:20001"
+    },
+    "7241": {
+        "id": "7241",
+        "name": "【シリーズ】ImperialSaGa",
+        "desc1": "【シリーズ】ImperialSaGaだったら有効",
+        "desc2": "【シリーズ】ImperialSaGaに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20002]
+        ],
+        "conditions_raw": "1003:0:20002"
+    },
+    "7242": {
+        "id": "7242",
+        "name": "【シリーズ】ブレイブ フロンティア",
+        "desc1": "【シリーズ】ブレイブ フロンティアだったら有効",
+        "desc2": "【シリーズ】ブレイブ フロンティアに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20003]
+        ],
+        "conditions_raw": "1003:0:20003"
+    },
+    "7243": {
+        "id": "7243",
+        "name": "【シリーズ】CRYSTAL DEFENDERS",
+        "desc1": "【シリーズ】CRYSTAL DEFENDERSだったら有効",
+        "desc2": "【シリーズ】CRYSTAL DEFENDERSに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20004]
+        ],
+        "conditions_raw": "1003:0:20004"
+    },
+    "7244": {
+        "id": "7244",
+        "name": "【シリーズ】聖剣伝説2",
+        "desc1": "【シリーズ】聖剣伝説2だったら有効",
+        "desc2": "【シリーズ】聖剣伝説2に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20005]
+        ],
+        "conditions_raw": "1003:0:20005"
+    },
+    "7245": {
+        "id": "7245",
+        "name": "【シリーズ】DQMSL",
+        "desc1": "【シリーズ】DQMSLだったら有効",
+        "desc2": "【シリーズ】DQMSLに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20006]
+        ],
+        "conditions_raw": "1003:0:20006"
+    },
+    "7246": {
+        "id": "7246",
+        "name": "【シリーズ】モンスターハンターエクスプロア",
+        "desc1": "【シリーズ】モンスターハンターエクスプロアだったら有効",
+        "desc2": "【シリーズ】モンスターハンターエクスプロアに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20007]
+        ],
+        "conditions_raw": "1003:0:20007"
+    },
+    "7247": {
+        "id": "7247",
+        "name": "【シリーズ】RomancingSa・Ga3",
+        "desc1": "【シリーズ】RomancingSa・Ga3だったら有効",
+        "desc2": "【シリーズ】RomancingSa・Ga3に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20008]
+        ],
+        "conditions_raw": "1003:0:20008"
+    },
+    "7248": {
+        "id": "7248",
+        "name": "【シリーズ】ARIANA GRANDE",
+        "desc1": "【シリーズ】ARIANA GRANDEだったら有効",
+        "desc2": "【シリーズ】ARIANA GRANDEに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20009]
+        ],
+        "conditions_raw": "1003:0:20009"
+    },
+    "7249": {
+        "id": "7249",
+        "name": "【シリーズ】NieR:Automata",
+        "desc1": "【シリーズ】NieR:Automataだったら有効",
+        "desc2": "【シリーズ】NieR:Automataに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20010]
+        ],
+        "conditions_raw": "1003:0:20010"
+    },
+    "7250": {
+        "id": "7250",
+        "name": "【シリーズ】聖剣伝説",
+        "desc1": "【シリーズ】聖剣伝説だったら有効",
+        "desc2": "【シリーズ】聖剣伝説に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20011]
+        ],
+        "conditions_raw": "1003:0:20011"
+    },
+    "7251": {
+        "id": "7251",
+        "name": "【シリーズ】聖剣伝説3",
+        "desc1": "【シリーズ】聖剣伝説3だったら有効",
+        "desc2": "【シリーズ】聖剣伝説3に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20012]
+        ],
+        "conditions_raw": "1003:0:20012"
+    },
+    "7252": {
+        "id": "7252",
+        "name": "【シリーズ】BRAVELYDEFAULT",
+        "desc1": "【シリーズ】BRAVELYDEFAULTだったら有効",
+        "desc2": "【シリーズ】BRAVELYDEFAULTに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20013]
+        ],
+        "conditions_raw": "1003:0:20013"
+    },
+    "7253": {
+        "id": "7253",
+        "name": "【シリーズ】BRAVELYDEFAULTFE",
+        "desc1": "【シリーズ】BRAVELYDEFAULTFEだったら有効",
+        "desc2": "【シリーズ】BRAVELYDEFAULTFEに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20014]
+        ],
+        "conditions_raw": "1003:0:20014"
+    },
+    "7254": {
+        "id": "7254",
+        "name": "【シリーズ】BRAVELYSECOND",
+        "desc1": "【シリーズ】BRAVELYSECONDだったら有効",
+        "desc2": "【シリーズ】BRAVELYSECONDに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20015]
+        ],
+        "conditions_raw": "1003:0:20015"
+    },
+    "7255": {
+        "id": "7255",
+        "name": "【シリーズ】SO1",
+        "desc1": "【シリーズ】SO1だったら有効",
+        "desc2": "【シリーズ】SO1に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20016]
+        ],
+        "conditions_raw": "1003:0:20016"
+    },
+    "7256": {
+        "id": "7256",
+        "name": "【シリーズ】SO2",
+        "desc1": "【シリーズ】SO2だったら有効",
+        "desc2": "【シリーズ】SO2に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20017]
+        ],
+        "conditions_raw": "1003:0:20017"
+    },
+    "7257": {
+        "id": "7257",
+        "name": "【シリーズ】SO3",
+        "desc1": "【シリーズ】SO3だったら有効",
+        "desc2": "【シリーズ】SO3に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20018]
+        ],
+        "conditions_raw": "1003:0:20018"
+    },
+    "7258": {
+        "id": "7258",
+        "name": "【シリーズ】SO4",
+        "desc1": "【シリーズ】SO4だったら有効",
+        "desc2": "【シリーズ】SO4に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20019]
+        ],
+        "conditions_raw": "1003:0:20019"
+    },
+    "7259": {
+        "id": "7259",
+        "name": "【シリーズ】SO5",
+        "desc1": "【シリーズ】SO5だったら有効",
+        "desc2": "【シリーズ】SO5に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20020]
+        ],
+        "conditions_raw": "1003:0:20020"
+    },
+    "7260": {
+        "id": "7260",
+        "name": "【シリーズ】キングスナイト WoDD",
+        "desc1": "【シリーズ】キングスナイト WoDDだったら有効",
+        "desc2": "【シリーズ】キングスナイト WoDDに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20021]
+        ],
+        "conditions_raw": "1003:0:20021"
+    },
+    "7261": {
+        "id": "7261",
+        "name": "【シリーズ】ヴァルキリープロファイル",
+        "desc1": "【シリーズ】ヴァルキリープロファイルだったら有効",
+        "desc2": "【シリーズ】ヴァルキリープロファイルに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20022]
+        ],
+        "conditions_raw": "1003:0:20022"
+    },
+    "7262": {
+        "id": "7262",
+        "name": "【シリーズ】ララ・クロフト アンド テンプル オブ オシリス",
+        "desc1": "【シリーズ】ララ・クロフト アンド テンプル オブ オシリスだったら有効",
+        "desc2": "【シリーズ】ララ・クロフト アンド テンプル オブ オシリスに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20023]
+        ],
+        "conditions_raw": "1003:0:20023"
+    },
+    "7263": {
+        "id": "7263",
+        "name": "【シリーズ】ゼノギアス",
+        "desc1": "【シリーズ】ゼノギアスだったら有効",
+        "desc2": "【シリーズ】ゼノギアスに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20024]
+        ],
+        "conditions_raw": "1003:0:20024"
+    },
+    "7264": {
+        "id": "7264",
+        "name": "【シリーズ】オクトパストラベラー",
+        "desc1": "【シリーズ】オクトパストラベラーだったら有効",
+        "desc2": "【シリーズ】オクトパストラベラーに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20025]
+        ],
+        "conditions_raw": "1003:0:20025"
+    },
+    "7265": {
+        "id": "7265",
+        "name": "【シリーズ】リコドキッ！",
+        "desc1": "【シリーズ】リコドキッ！だったら有効",
+        "desc2": "【シリーズ】リコドキッ！に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20026]
+        ],
+        "conditions_raw": "1003:0:20026"
+    },
+    "7266": {
+        "id": "7266",
+        "name": "【シリーズ】WOFF",
+        "desc1": "【シリーズ】WOFFだったら有効",
+        "desc2": "【シリーズ】WOFFに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20027]
+        ],
+        "conditions_raw": "1003:0:20027"
+    },
+    "7267": {
+        "id": "7267",
+        "name": "【シリーズ】KH",
+        "desc1": "【シリーズ】KHだったら有効",
+        "desc2": "【シリーズ】KHに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20028]
+        ],
+        "conditions_raw": "1003:0:20028"
+    },
+    "7268": {
+        "id": "7268",
+        "name": "【シリーズ】DQXIS",
+        "desc1": "【シリーズ】DQXISだったら有効",
+        "desc2": "【シリーズ】DQXISに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20029]
+        ],
+        "conditions_raw": "1003:0:20029"
+    },
+    "7269": {
+        "id": "7269",
+        "name": "【シリーズ】SINoALICE",
+        "desc1": "【シリーズ】SINoALICEだったら有効",
+        "desc2": "【シリーズ】SINoALICEに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20030]
+        ],
+        "conditions_raw": "1003:0:20030"
+    },
+    "7270": {
+        "id": "7270",
+        "name": "【シリーズ】KATY PERRY",
+        "desc1": "【シリーズ】KATY PERRYだったら有効",
+        "desc2": "【シリーズ】KATY PERRYに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20031]
+        ],
+        "conditions_raw": "1003:0:20031"
+    },
+    "7271": {
+        "id": "7271",
+        "name": "【シリーズ】鋼の錬金術師",
+        "desc1": "【シリーズ】鋼の錬金術師だったら有効",
+        "desc2": "【シリーズ】鋼の錬金術師に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20032]
+        ],
+        "conditions_raw": "1003:0:20032"
+    },
+    "7272": {
+        "id": "7272",
+        "name": "【シリーズ】KHorキングダムハーツIIIorキングダムハーツ ダークロード",
+        "desc1": "【シリーズ】KHorキングダムハーツIIIorキングダムハーツ ダークロードだったら有効",
+        "desc2": "【シリーズ】KHorキングダムハーツIIIorキングダムハーツ ダークロードに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20028],
+            ["GAME_ID", 20033],
+            ["GAME_ID", 20034]
+        ],
+        "conditions_raw": "1003:0:20028@1003:0:20033@1003:0:20034"
+    },
+    "7273": {
+        "id": "7273",
+        "name": "【シリーズ】FF13orFF13-2orLR FF13",
+        "desc1": "【シリーズ】FF13orFF13-2orLR FF13だったら有効",
+        "desc2": "【シリーズ】FF13orFF13-2orLR FF13に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 10013],
+            ["GAME_ID", 11006],
+            ["GAME_ID", 11007]
+        ],
+        "conditions_raw": "1003:0:10013@1003:0:11006@1003:0:11007"
+    },
+    "7274": {
+        "id": "7274",
+        "name": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3",
+        "desc1": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3だったら有効",
+        "desc2": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20011],
+            ["GAME_ID", 20005],
+            ["GAME_ID", 20012]
+        ],
+        "conditions_raw": "1003:0:20011@1003:0:20005@1003:0:20012"
+    },
+    "7301": {
+        "id": "7301",
+        "name": "【武器】短剣",
+        "desc1": "【武器】短剣だったら有効",
+        "desc2": "【武器】短剣に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 1]
+        ],
+        "conditions_raw": "1016:0:1"
+    },
+    "7302": {
+        "id": "7302",
+        "name": "【武器】剣",
+        "desc1": "【武器】剣だったら有効",
+        "desc2": "【武器】剣に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 2]
+        ],
+        "conditions_raw": "1016:0:2"
+    },
+    "7303": {
+        "id": "7303",
+        "name": "【武器】大剣",
+        "desc1": "【武器】大剣だったら有効",
+        "desc2": "【武器】大剣に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 3]
+        ],
+        "conditions_raw": "1016:0:3"
+    },
+    "7304": {
+        "id": "7304",
+        "name": "【武器】刀",
+        "desc1": "【武器】刀だったら有効",
+        "desc2": "【武器】刀に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 4]
+        ],
+        "conditions_raw": "1016:0:4"
+    },
+    "7305": {
+        "id": "7305",
+        "name": "【武器】杖",
+        "desc1": "【武器】杖だったら有効",
+        "desc2": "【武器】杖に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 5]
+        ],
+        "conditions_raw": "1016:0:5"
+    },
+    "7306": {
+        "id": "7306",
+        "name": "【武器】ロッド",
+        "desc1": "【武器】ロッドだったら有効",
+        "desc2": "【武器】ロッドに設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 6]
+        ],
+        "conditions_raw": "1016:0:6"
+    },
+    "7307": {
+        "id": "7307",
+        "name": "【武器】弓",
+        "desc1": "【武器】弓だったら有効",
+        "desc2": "【武器】弓に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 7]
+        ],
+        "conditions_raw": "1016:0:7"
+    },
+    "7308": {
+        "id": "7308",
+        "name": "【武器】斧",
+        "desc1": "【武器】斧だったら有効",
+        "desc2": "【武器】斧に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 8]
+        ],
+        "conditions_raw": "1016:0:8"
+    },
+    "7309": {
+        "id": "7309",
+        "name": "【武器】ハンマー",
+        "desc1": "【武器】ハンマーだったら有効",
+        "desc2": "【武器】ハンマーに設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 9]
+        ],
+        "conditions_raw": "1016:0:9"
+    },
+    "7310": {
+        "id": "7310",
+        "name": "【武器】槍",
+        "desc1": "【武器】槍だったら有効",
+        "desc2": "【武器】槍に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 10]
+        ],
+        "conditions_raw": "1016:0:10"
+    },
+    "7311": {
+        "id": "7311",
+        "name": "【武器】楽器",
+        "desc1": "【武器】楽器だったら有効",
+        "desc2": "【武器】楽器に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 11]
+        ],
+        "conditions_raw": "1016:0:11"
+    },
+    "7312": {
+        "id": "7312",
+        "name": "【武器】鞭",
+        "desc1": "【武器】鞭だったら有効",
+        "desc2": "【武器】鞭に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 12]
+        ],
+        "conditions_raw": "1016:0:12"
+    },
+    "7313": {
+        "id": "7313",
+        "name": "【武器】投擲",
+        "desc1": "【武器】投擲だったら有効",
+        "desc2": "【武器】投擲に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 13]
+        ],
+        "conditions_raw": "1016:0:13"
+    },
+    "7314": {
+        "id": "7314",
+        "name": "【武器】銃",
+        "desc1": "【武器】銃だったら有効",
+        "desc2": "【武器】銃に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 14]
+        ],
+        "conditions_raw": "1016:0:14"
+    },
+    "7315": {
+        "id": "7315",
+        "name": "【武器】メイス",
+        "desc1": "【武器】メイスだったら有効",
+        "desc2": "【武器】メイスに設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 15]
+        ],
+        "conditions_raw": "1016:0:15"
+    },
+    "7316": {
+        "id": "7316",
+        "name": "【武器】格闘",
+        "desc1": "【武器】格闘だったら有効",
+        "desc2": "【武器】格闘に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 16]
+        ],
+        "conditions_raw": "1016:0:16"
+    },
+    "7317": {
+        "id": "7317",
+        "name": "【武器】剣orロッド",
+        "desc1": "【武器】剣orロッドだったら有効",
+        "desc2": "【武器】剣orロッドに設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 2],
+            ["WEAPON_TYPE", 0, 6]
+        ],
+        "conditions_raw": "1016:0:2@1016:0:6"
+    },
+    "7318": {
+        "id": "7318",
+        "name": "【武器】短剣and銃",
+        "desc1": "【武器】短剣and銃だったら有効",
+        "desc2": "【武器】短剣and銃に設定する",
+        "desc3": "",
+        "conditions": [
+            ["WEAPON_TYPE", 0, 1],
+            ["WEAPON_TYPE", 0, 14]
+        ],
+        "conditions_raw": "1016:0:1,1016:0:14"
+    },
+    "7401": {
+        "id": "7401",
+        "name": "【ユニット】目覚めし臥竜アクスター",
+        "desc1": "【ユニット】目覚めし臥竜アクスターだったら有効",
+        "desc2": "【ユニット】目覚めし臥竜アクスターに設定する",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", true, [100031507]],
+            ["UNIT_ID", true, [100031517]]
+        ],
+        "conditions_raw": "1001:1:100031507@1001:1:100031517"
+    },
+    "7501": {
+        "id": "7501",
+        "name": "【ユニット】FFBE 4thシーズン",
+        "desc1": "【ユニット】FFBE 4thシーズンだったら有効",
+        "desc2": "【ユニット】FFBE 4thシーズンに設定する",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", true, [100035907]],
+            ["UNIT_ID", true, [100035917]]
+        ],
+        "conditions_raw": "1001:1:100035907@1001:1:100035917"
+    },
+    "7601": {
+        "id": "7601",
+        "name": "【レアリティ】★7",
+        "desc1": "【レアリティ】★7だったら有効",
+        "desc2": "【レアリティ】★7に設定する",
+        "desc3": "",
+        "conditions": [
+            ["RARITY", 7]
+        ],
+        "conditions_raw": "1009:0:7"
+    },
+    "9001": {
+        "id": "9001",
+        "name": "Diamond AP Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001001, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001001:1"
+    },
+    "9002": {
+        "id": "9002",
+        "name": "Gold AP Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001002, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001002:1"
+    },
+    "9003": {
+        "id": "9003",
+        "name": "Silver AP Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001003, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001003:1"
+    },
+    "9004": {
+        "id": "9004",
+        "name": "Bronze AP Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001004, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001004:1"
+    },
+    "9005": {
+        "id": "9005",
+        "name": "The Fighting Pits Coin",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個<br>※<color=255:255:0>エクスデス城</color>で獲得することができます",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209000998, 1]]
+        ],
+        "conditions_raw": "12002:20:1209000998:1"
+    },
+    "9006": {
+        "id": "9006",
+        "name": "Fujimoto boss Raid A",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001072, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001072:1"
+    },
+    "9007": {
+        "id": "9007",
+        "name": "Fujimoto boss Raid B",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001073, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001073:1"
+    },
+    "9008": {
+        "id": "9008",
+        "name": "Fujimoto boss Raid C",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": null,
+        "conditions": [
+            ["ITEM_COST", [20, 1209001074, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001074:1"
+    },
+    "9009": {
+        "id": "9009",
+        "name": "FFX Challenge Quest Unlock Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001179, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001179:1"
+    },
+    "9010": {
+        "id": "9010",
+        "name": "FFX Challenge Quest Unlock Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001180, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001180:1"
+    },
+    "9011": {
+        "id": "9011",
+        "name": "FFX Challenge Quest Unlock Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001181, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001181:1"
+    },
+    "9012": {
+        "id": "9012",
+        "name": "FFX Challenge Quest Unlock Key",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001182, 1]]
+        ],
+        "conditions_raw": "12002:20:1209001182:1"
+    },
+    "9501": {
+        "id": "9501",
+        "name": "【シリーズ】FFBEorFFBE幻影戦争",
+        "desc1": "【シリーズ】FFBEorFFBE幻影戦争だったら有効",
+        "desc2": "【シリーズ】FFBEorFFBE幻影戦争に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 11001],
+            ["GAME_ID", 11010]
+        ],
+        "conditions_raw": "1003:0:11001@1003:0:11010"
+    },
+    "9502": {
+        "id": "9502",
+        "name": "[Series] Tomb Raider",
+        "desc1": "[Series] Tomb Raider unit",
+        "desc2": "[Series] Tomb Raider unit",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 90008]
+        ],
+        "conditions_raw": "1003:0:90008"
+    },
+    "9812": {
+        "id": "9812",
+        "name": "ストーリーダイジェスト2-1",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2001]
+        ],
+        "conditions_raw": "1014:2001"
+    },
+    "9813": {
+        "id": "9813",
+        "name": "ストーリーダイジェスト2-2",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2002]
+        ],
+        "conditions_raw": "1014:2002"
+    },
+    "9814": {
+        "id": "9814",
+        "name": "ストーリーダイジェスト2-3",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2003]
+        ],
+        "conditions_raw": "1014:2003"
+    },
+    "9815": {
+        "id": "9815",
+        "name": "ストーリーダイジェスト2-4",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2004]
+        ],
+        "conditions_raw": "1014:2004"
+    },
+    "9816": {
+        "id": "9816",
+        "name": "ストーリーダイジェスト2-5",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2005]
+        ],
+        "conditions_raw": "1014:2005"
+    },
+    "9817": {
+        "id": "9817",
+        "name": "ストーリーダイジェスト2-6",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2006]
+        ],
+        "conditions_raw": "1014:2006"
+    },
+    "9818": {
+        "id": "9818",
+        "name": "ストーリーダイジェスト2-7",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2007]
+        ],
+        "conditions_raw": "1014:2007"
+    },
+    "9819": {
+        "id": "9819",
+        "name": "ストーリーダイジェスト2-8",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2008]
+        ],
+        "conditions_raw": "1014:2008"
+    },
+    "9820": {
+        "id": "9820",
+        "name": "ストーリーダイジェスト2-9",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2009]
+        ],
+        "conditions_raw": "1014:2009"
+    },
+    "9821": {
+        "id": "9821",
+        "name": "ストーリーダイジェスト2-10",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2010]
+        ],
+        "conditions_raw": "1014:2010"
+    },
+    "9822": {
+        "id": "9822",
+        "name": "ストーリーダイジェスト2-11",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2011]
+        ],
+        "conditions_raw": "1014:2011"
+    },
+    "9823": {
+        "id": "9823",
+        "name": "ストーリーダイジェスト2-12",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2012]
+        ],
+        "conditions_raw": "1014:2012"
+    },
+    "9824": {
+        "id": "9824",
+        "name": "ストーリーダイジェスト2-13",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2013]
+        ],
+        "conditions_raw": "1014:2013"
+    },
+    "9825": {
+        "id": "9825",
+        "name": "ストーリーダイジェスト2-14",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2014]
+        ],
+        "conditions_raw": "1014:2014"
+    },
+    "9826": {
+        "id": "9826",
+        "name": "ストーリーダイジェスト2-15",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2015]
+        ],
+        "conditions_raw": "1014:2015"
+    },
+    "9827": {
+        "id": "9827",
+        "name": "ストーリーダイジェスト2-16",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2016]
+        ],
+        "conditions_raw": "1014:2016"
+    },
+    "9828": {
+        "id": "9828",
+        "name": "ストーリーダイジェスト2-17",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2017]
+        ],
+        "conditions_raw": "1014:2017"
+    },
+    "9829": {
+        "id": "9829",
+        "name": "ストーリーダイジェスト2-18",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2018]
+        ],
+        "conditions_raw": "1014:2018"
+    },
+    "9830": {
+        "id": "9830",
+        "name": "ストーリーダイジェスト2-19",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2019]
+        ],
+        "conditions_raw": "1014:2019"
+    },
+    "9831": {
+        "id": "9831",
+        "name": "ストーリーダイジェスト2-20",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2020]
+        ],
+        "conditions_raw": "1014:2020"
+    },
+    "9832": {
+        "id": "9832",
+        "name": "ストーリーダイジェスト2-21",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2021]
+        ],
+        "conditions_raw": "1014:2021"
+    },
+    "9833": {
+        "id": "9833",
+        "name": "ストーリーダイジェスト2-22",
+        "desc1": "このクエストはパーティが固定されています。",
+        "desc2": "パーティ固定クエスト",
+        "desc3": "",
+        "conditions": [
+            ["FIXED_PARTY", 2022]
+        ],
+        "conditions_raw": "1014:2022"
+    },
+    "10410101": {
+        "id": "10410101",
+        "name": "Monthly Reward Dungeon Item Requirement",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001310, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001310:1"
+    },
+    "10450101": {
+        "id": "10450101",
+        "name": "Monthly Reward Dungeon Item Requirement (Jan 2021)",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001314, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001314:1"
+    },
+    "10520101": {
+        "id": "10520101",
+        "name": "Monthly Reward Dungeon Item Requirement (Feb 2021)",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001335, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001335:1"
+    },
+    "10540101": {
+        "id": "10540101",
+        "name": "Monthly Reward Dungeon Item Requirement (Mar 2021)",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required in addition to energy.<br><br><br><color=255:165:0>Necessary Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001338, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001338:1"
+    }
+}
