@@ -2131,16 +2131,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (2.3x, MAG) to one enemy"],
-            ["Reduce resistance to Water by 30% for 3 turns to one enemy"]
+            ["Magic fire damage (70x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 100% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  230,  0]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  7000,  0]], [1, 1, 33, [-100,  0,  0,  -100,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "20360": {
@@ -6875,16 +6875,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (2.8x, MAG) to one enemy"],
-            ["Reduce resistance to Fire and Water by 30% for 3 turns to one enemy"]
+            ["Magic fire damage (100x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 120% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  280,  0]], [1, 1, 33, [-30,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  10000,  0]], [1, 1, 33, [-120,  0,  0,  -120,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "70360": {
@@ -6900,16 +6900,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (3.5x, MAG) to one enemy"],
-            ["Reduce resistance to Fire and Water by 50% for 3 turns to one enemy"]
+            ["Magic fire damage (130x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 125% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350,  0]], [1, 1, 33, [-50,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  13000,  0]], [1, 1, 33, [-125,  0,  0,  -125,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "70370": {
