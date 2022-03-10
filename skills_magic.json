@@ -1177,7 +1177,7 @@
         "requirements": null
     },
     "10406": {
-        "name": "リジェネ",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 8,
@@ -1201,7 +1201,7 @@
         "requirements": null
     },
     "10407": {
-        "name": "リジェネ",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 8,
@@ -1225,7 +1225,7 @@
         "requirements": null
     },
     "10408": {
-        "name": "リジェネ",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 8,
@@ -1249,7 +1249,7 @@
         "requirements": null
     },
     "10409": {
-        "name": "リジェネ",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 8,
@@ -1273,7 +1273,7 @@
         "requirements": null
     },
     "10410": {
-        "name": "リジェネ",
+        "name": "Regen",
         "icon": "ability_4.png",
         "compendium_id": 14,
         "rarity": 8,
@@ -2370,23 +2370,23 @@
         "icon": "ability_26.png",
         "compendium_id": 145,
         "rarity": 4,
-        "cost": {"MP": 9},
+        "cost": {"MP": 10},
         "magic_type": "Black",
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[170]],
-        "effect_frames": [[40]],
+        "attack_count": [9],
+        "attack_damage": [[7,  7,  7,  7,  7,  7,  7,  7,  44]],
+        "attack_frames": [[42,  48,  54,  60,  66,  72,  78,  84,  90]],
+        "effect_frames": [[38,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            ["Magic dark damage (1.4x, MAG) to all enemies"]
+            ["Magic dark damage (10x, MAG) to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]]],
         "requirements": null
     },
     "20470": {
@@ -4904,7 +4904,7 @@
         "requirements": null
     },
     "30630": {
-        "name": "エンストーンラ",
+        "name": "Enstonra",
         "icon": "ability_28.png",
         "compendium_id": 305,
         "rarity": 8,
@@ -4956,7 +4956,7 @@
         "requirements": null
     },
     "30650": {
-        "name": "エンダークラ",
+        "name": "Endarkra",
         "icon": "ability_26.png",
         "compendium_id": 307,
         "rarity": 8,
@@ -8317,7 +8317,7 @@
         "requirements": null
     },
     "70486": {
-        "name": "ダーガ",
+        "name": "Darkga",
         "icon": "ability_26.png",
         "compendium_id": 146,
         "rarity": 6,
@@ -8341,7 +8341,7 @@
         "requirements": null
     },
     "70487": {
-        "name": "ダーガ",
+        "name": "Darkga",
         "icon": "ability_26.png",
         "compendium_id": 146,
         "rarity": 6,
@@ -8365,7 +8365,7 @@
         "requirements": null
     },
     "70488": {
-        "name": "ダーガ",
+        "name": "Darkga",
         "icon": "ability_26.png",
         "compendium_id": 146,
         "rarity": 6,
