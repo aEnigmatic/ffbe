@@ -16418,7 +16418,7 @@
                 "Erhöht Schaden durch Limitrausch und erhöht Ausrüstung-ANG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist (Nicht stapelbar).",
                 "Aumenta el daño del EL y aumenta el ATQ del equipo al llevar una sola arma en ambas manos (no acumulable)",
                 "Meningkatkan damage LB dan meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan (Tidak dapat ditumpuk)",
-                "เพิ่ม\u001aความเสียหาย\u001a \u001aLB\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aอุปกรณ์\u001aเม\u001aื่ื่อ\u001aยู\u001aนิ\u001aท\u001aใช้\u001aมือ\u001aทั้งสอง\u001aข้าง\u001aถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "เพิ่ม\u001aความเสียหาย\u001a \u001aLB\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aอุปกรณ์\u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aใช้\u001aมือ\u001aทั้งสอง\u001aข้าง\u001aถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ],
             "desc_long": [
                 "Boosts LB damage, and boosts equipment ATK when a single weapon is equipped in both hands. Not stackable.",
@@ -16428,7 +16428,7 @@
                 "Erhöht Schaden durch Limitrausch und erhöht Ausrüstung-ANG, wenn eine einzelne Waffe in beiden Händen ausgerüstet ist. Nicht stapelbar.",
                 "Aumenta el daño del EL y aumenta el ATQ del equipo al llevar una sola arma en ambas manos. No acumulable.",
                 "Meningkatkan damage LB dan meningkatkan ATK perlengkapan ketika 1 senjata digunakan dengan kedua tangan. Tidak dapat ditumpuk.",
-                "เพิ่ม\u001aความเสียหาย\u001a \u001aLB\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aอุปกรณ์\u001aเม\u001aื่ื่อ\u001aยู\u001aนิ\u001aท\u001aใช้\u001aมือ\u001aทั้งสอง\u001aข้าง\u001aถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "เพิ่ม\u001aความเสียหาย\u001a \u001aLB\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001aอุปกรณ์\u001aเมื่อ\u001aยู\u001aนิ\u001aท\u001aใช้\u001aมือ\u001aทั้งสอง\u001aข้าง\u001aถือ\u001aอาวุธ\u001aชิ้น\u001aเดียว\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
             ]
         }
     },
@@ -24092,20 +24092,38 @@
         }
     },
     "504243300": {
-        "name": "ダークネスオールダウン",
+        "name": "Dark Breaker",
         "compendium_id": 1402,
         "compendium_shown": true,
         "requirements": [["RULE", 7116]],
         "skills": [243300],
-        "effects": ["Grant 'ダークネスオールダウン' ability"],
+        "effects": ["Grant 'Dark Breaker' ability"],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_105.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Dark Breaker", "全體黑暗下降", "다크니스 올 다운", "Briseur de ténèbres", "Dunkelbrecher", "Oscuridad reductora", "Dark Breaker", "แยก\u001aทำลาย\u001aความ\u001aมืดมิด\u001a"],
+            "desc_short": [
+                "(One use every 5 turns) Reduce ATK, DEF, MAG, SPR, and dark resistance for all enemies (Breaker units only)",
+                "【每5回合可使用1次】降低全體敵人的攻擊防禦魔力精神、暗屬性耐性(妨害型兵員專屬)",
+                "[5턴에 1회 사용 가능] 적 전체의 공격력, 방어력, 마력, 정신력과 어둠속성 저항력 감소(방해 유닛 한정)",
+                "(Une fois tous les 5 tours) Réduit l'ATT, la DEF, la MAGIE, la PSY et la résistance aux ténèbres de tous les ennemis (unités \"Briseur\" uniquement)",
+                "(Einmal in 5 Runden) Verringert ANG, ABW, MAG, PSY und Dunkelresistenz aller Gegner (nur Brecher-Einheiten).",
+                "(Un uso cada 5 turnos) Reduce ATQ, DEF, MAG y ESP de todos los enemigos y su resistencia a la oscuridad (solo unidades de tipo obstructor)",
+                "(1 kali penggunaan setiap 5 giliran) Mengurangi ATK, DEF, MAG, SPR, dan resistansi kegelapan pada semua musuh (Khusus unit breaker)",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a5\u001a \u001aเทิร์น)\u001a \u001aลด\u001aค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aลด\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aมืด\u001aของ\u001aศัตรู\u001aทุกราย\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aทำลายล้าง\u001aเท่านั้น\u001a)\u001a"
+            ],
+            "desc_long": [
+                "(One use every 5 turns) Reduces ATK, DEF, MAG, SPR, and dark resistance for all enemies. Breaker units only.",
+                "【每5回合可使用1次】降低全體敵人的攻擊防禦魔力精神、暗屬性耐性。(妨害型兵員專屬)",
+                "[5턴에 1회 사용 가능] 적 전체의 공격력, 방어력, 마력, 정신력과 어둠속성 저항력을 감소시킵니다.(방해 유닛 한정)",
+                "(Une fois tous les 5 tours) Réduit l'ATT, la DEF, la MAGIE, la PSY et la résistance aux ténèbres de tous les ennemis. Unités \"Briseur\" uniquement.",
+                "(Einmal in 5 Runden) Verringert ANG, ABW, MAG, PSY und Dunkelresistenz aller Gegner. Nur Brecher-Einheiten.",
+                "(Un uso cada 5 turnos) Reduce ATQ, DEF, MAG y ESP de todos los enemigos y su resistencia a la oscuridad. Solo unidades de tipo obstructor.",
+                "(1 kali penggunaan setiap 5 giliran) Mengurangi ATK, DEF, MAG, SPR, dan resistansi kegelapan pada semua musuh. Khusus unit breaker.",
+                "(\u001aใช้ได้\u001a \u001a1\u001a \u001aครั้ง\u001aทุก\u001a \u001a5\u001a \u001aเทิร์น)\u001a \u001aลด\u001aค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001a+\u001a \u001aลด\u001aพลัง\u001aต้านทาน\u001aธาตุ\u001aมืด\u001aของ\u001aศัตรู\u001aทุกราย\u001a \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aทำลายล้าง\u001aเท่านั้น\u001a)\u001a"
+            ]
         }
     },
     "504243310": {

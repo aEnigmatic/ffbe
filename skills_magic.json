@@ -6526,6 +6526,30 @@
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
+    "70201": {
+        "name": "Waterga",
+        "icon": "ability_23.png",
+        "compendium_id": 122,
+        "rarity": 6,
+        "cost": {"MP": 20},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [8],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  44]],
+        "attack_frames": [[42,  62,  82,  102,  122,  142,  162,  182]],
+        "effect_frames": [[76,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": [
+            ["Magic water damage (72x, MAG) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]]],
+        "requirements": null
+    },
     "70210": {
         "name": "Meteor",
         "icon": "ability_29.png",
@@ -7157,10 +7181,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            ["Magic water damage (48x, MAG) to all enemies"],
-            ["Reduce resistance to Water by 120% for 5 turns to all enemies"]
+            ["Magic water damage (72x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 130% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4800,  0]], [2, 1, 33, [0,  0,  0,  -120,  0,  0,  0,  0,  1,  5]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]], [2, 1, 33, [0,  0,  0,  -130,  0,  0,  0,  0,  1,  5]]],
         "requirements": null
     },
     "70436": {
@@ -8386,6 +8410,31 @@
             ["Magic dark damage (72x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]]],
+        "requirements": null
+    },
+    "70489": {
+        "name": "Flood",
+        "icon": "ability_35.png",
+        "compendium_id": 137,
+        "rarity": 8,
+        "cost": {"MP": 48},
+        "magic_type": "Black",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [12],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  12]],
+        "attack_frames": [[133,  145,  157,  169,  181,  193,  205,  217,  229,  241,  253,  265]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": [
+            ["Magic water damage (120x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 135% for 5 turns to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  12000,  0]], [2, 1, 33, [0,  0,  0,  -135,  0,  0,  0,  0,  1,  5]]],
         "requirements": null
     },
     "91000": {
