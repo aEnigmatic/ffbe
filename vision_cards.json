@@ -860,11 +860,11 @@
         "skills": {
             "4": [238800],
             "7": [238801],
-            "10": [238802]
+            "10": [238802, 230407]
         },
         "restriction": {
             "238802": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100002401"],
-            "230407": [7601, "発動条件：【★7ユニット】"]
+            "230407": [7601, "MST_VISION_CARD_ABILITY_ACT_COND_100002901"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1056,10 +1056,10 @@
         "skills": {
             "4": [239916],
             "7": [239917],
-            "10": [239918]
+            "10": [239918, 242466]
         },
         "restriction": {
-            "242466": [7601, "発動条件：【★7ユニット】"]
+            "242466": [7601, "MST_VISION_CARD_ABILITY_ACT_COND_100002901"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1067,8 +1067,8 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
-            "info": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "desc": "The skilled gunsmith Macmedi and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "info": "The skilled gunsmith Macmedi and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
             "shop": "Chores with Grandpa",
             "music": "Peaceful Village",
             "music_id": "400201"
@@ -1286,10 +1286,10 @@
         "skills": {
             "4": [241353],
             "7": [241354],
-            "10": [241355]
+            "10": [241355, 242467]
         },
         "restriction": {
-            "242467": [7601, "発動条件：【★7ユニット】"]
+            "242467": [7601, "MST_VISION_CARD_ABILITY_ACT_COND_100002901"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1789,8 +1789,8 @@
             "desc": "レーゲンの大統領就任式の日。災厄はその男とともに現れた。レインと同じ姿を持つ「帝王」の目的とは何か？パラデイアの命運を懸けた戦いが、今始まる――",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "再臨の帝王",
-            "music": "♪Celestial Battle",
-            "music_id": "400007"
+            "music": "♪Revival of an Adversary",
+            "music_id": "400344"
         }
     },
     "100005301": {
@@ -1828,6 +1828,158 @@
             "shop": "Miracle of the Earth",
             "music": "Triumph of Destiny",
             "music_id": "400313"
+        }
+    },
+    "100005401": {
+        "name": "With a Little Help",
+        "compendium_id": 93,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243326],
+            "7": [243327],
+            "10": [243328]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Presidential aides are responsible for all manner of tasks. While assignments such as regulating the political itinerary and gathering intel are vital services, image management is also of the utmost importance. In order for the new president to gain the people's trust and adoration, Nichol and Sakura take ample time to coordinate Raegen's attire.",
+            "info": "Presidential aides are responsible for all manner of tasks. While assignments such as regulating the political itinerary and gathering intel are vital services, image management is also of the utmost importance. In order for the new president to gain the people's trust and adoration, Nichol and Sakura take ample time to coordinate Raegen's attire.",
+            "shop": "With a Little Help",
+            "music": "Chill Out",
+            "music_id": "400337"
+        }
+    },
+    "100005501": {
+        "name": "最強の戦士の誕生",
+        "compendium_id": 94,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [130, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243345, 243346, 243347]
+        },
+        "restriction": {
+            "243346,243347": [7110, "発動条件：【物攻ユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "フィーナの祈りによって、パラデイアの大地から呼び出された無数の想いは、レインとラスウェルの魂を融合させ、最強の戦士を生み出した。世界の命運をかけたダークレインとの決戦が今、始まる！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "最強の戦士の誕生",
+            "music": "♪Forging a Dream",
+            "music_id": "400401"
+        }
+    },
+    "201000101": {
+        "name": "そして……探求の旅は始まった",
+        "compendium_id": 100,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [50, 100, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243414],
+            "7": [243415],
+            "10": [243416]
+        },
+        "restriction": {
+            "243415,243416": [7112, "発動条件：【物防ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "コーネリア王の計らいで架けられた橋を渡り、北の大陸へと向かう光の戦士たち。彼らは、クリスタルを携え、再びこの世に光の輝きを取り戻すために旅立った。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "そして……探求の旅は始まった",
+            "music": "♪オープニング・テーマ",
+            "music_id": "4000072"
+        }
+    },
+    "201000201": {
+        "name": "VSマリリス",
+        "compendium_id": 101,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243417],
+            "7": [243418],
+            "10": [243419]
+        },
+        "restriction": {
+            "243419": [7201, "発動条件：【FFIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "グルグ火山の深部で、火のカオス・マリリスと戦う光の戦士たち。マリリスの操る無数の剣とすべてを焼きつくす炎が一行を襲う。それでも光の戦士たちは決して勝利をあきらめない！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSマリリス",
+            "music": "♪戦闘シーン",
+            "music_id": "400913"
         }
     },
     "202000101": {
@@ -2444,6 +2596,84 @@
             "shop": "A Touching Reunion",
             "music": "Those Chosen by the Planet",
             "music_id": "401051"
+        }
+    },
+    "208000101": {
+        "name": "本当の心",
+        "compendium_id": 95,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10008,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243348],
+            "7": [243349],
+            "10": [243350]
+        },
+        "restriction": {
+            "243350": [7208, "発動条件：【FFVIIIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "昏睡状態に陥ったリノアを救うため、エルオーネがいるというエスタを目指すスコール。その道中で彼は、今まで隠してきた本心を、リノアだけにそっと打ち明ける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "本当の心",
+            "music": "♪Love Grows",
+            "music_id": "400870"
+        }
+    },
+    "208000201": {
+        "name": "役者デビュー！",
+        "compendium_id": 96,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10008,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243368],
+            "7": [243369],
+            "10": [243370]
+        },
+        "restriction": {
+            "243370": [7208, "発動条件：【FFVIIIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "旅費を稼ぐため映画のロケに参加していたところ、着ぐるみではなく本物のドラゴンに襲われたラグナ。監督や女優は逃げ出してしまい、単身ガンブレードで立ち向かうことに。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "役者デビュー！",
+            "music": "♪Slide Show Part2",
+            "music_id": "4000160"
         }
     },
     "209000101": {
@@ -3220,6 +3450,45 @@
             "music_id": "400003"
         }
     },
+    "339000101": {
+        "name": "謎の巨大クリスタル",
+        "compendium_id": 97,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11010,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [50, 100, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243386],
+            "7": [243387],
+            "10": [243388]
+        },
+        "restriction": {
+            "243387,243388": [7112, "発動条件：【物防ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "リオニスの地下から突如として現れた巨大なクリスタル。クリスタル教の宗祖サーダリーが唱えていた説の通り「聖なる大地を悲しみと憎しみの血で染め上げた」際に姿を見せた。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "謎の巨大クリスタル",
+            "music": "♪Venom Fang",
+            "music_id": "400733"
+        }
+    },
     "342000101": {
         "name": "ただいま",
         "compendium_id": 72,
@@ -3259,6 +3528,45 @@
             "music_id": "400715"
         }
     },
+    "343000101": {
+        "name": "神様の降臨",
+        "compendium_id": 99,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20036,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243411],
+            "7": [243412],
+            "10": [243413]
+        },
+        "restriction": {
+            "243413": [7275, "発動条件：【アクトレイザー・ルネサンスユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "かつての人間たちが神の姿を想像し、彫刻した古い石像。今再び目覚めた神様は、この石像に宿ることで地上に降り立ち、地上に蔓延る魔物たちを一掃すべく動き出す。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "神様の降臨",
+            "music": "♪フィルモア",
+            "music_id": "400734"
+        }
+    },
     "401000101": {
         "name": "Virtual Training",
         "compendium_id": 9003,
@@ -3280,9 +3588,11 @@
         "skills": {
             "4": [914278],
             "7": [914279],
-            "10": [914280]
+            "10": [914280, 916268]
         },
-        "restriction": null,
+        "restriction": {
+            "916268": [7601, "MST_VISION_CARD_ABILITY_ACT_COND_100002901"]
+        },
         "max_level": 10,
         "exp_pattern": 110,
         "stat_pattern": 100,
@@ -3393,10 +3703,11 @@
         "skills": {
             "4": [914281],
             "7": [914282],
-            "10": [914283]
+            "10": [914283, 916267]
         },
         "restriction": {
-            "914283": [7103, "MST_VISION_CARD_ABILITY_ACT_COND_100000003"]
+            "914283": [7103, "MST_VISION_CARD_ABILITY_ACT_COND_100000003"],
+            "916267": [7601, "MST_VISION_CARD_ABILITY_ACT_COND_100002901"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -4370,6 +4681,43 @@
             "shop": "Bond with the Crimson Dragon",
             "music": "Monument Valley",
             "music_id": "400325"
+        }
+    },
+    "401003201": {
+        "name": "Weaver of Wishes",
+        "compendium_id": 9031,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [110, 110, 0, 0],
+            "SPR": [110, 110, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [916256, 916257, 916258]
+        },
+        "restriction": {
+            "916258": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100001101"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Her heart and will have grown strong from the many encounters and farewells made on her journey. She prays with all of her might, giving in to neither powerful enemies nor encumbering despair. Her wishes are sure to be answered with nothing less than a miracle.",
+            "info": "Her heart and will have grown strong from the many encounters and farewells made on her journey. She prays with all of her might, giving in to neither powerful enemies nor encumbering despair. Her wishes are sure to be answered with nothing less than a miracle.",
+            "shop": "Weaver of Wishes",
+            "music": "State of Grace",
+            "music_id": "400204"
         }
     },
     "900020101": {

@@ -196,6 +196,13 @@
         ],
         "effects_raw": [[0, 0, 9, [300]]]
     },
+    "100000029": {
+        "duration": -1,
+        "effects": [
+            ["Increase DEF by 300%"]
+        ],
+        "effects_raw": [[0, 0, 1, [[0,  0], [300,  300], [0,  0], [0,  0]]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -632,6 +639,13 @@
             ["Increase Light magic damage by 30%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  30,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  30,  0]]]
+    },
+    "200000060": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Dark by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [0,  -30]]]]
     },
     "900000001": {
         "duration": 3,
