@@ -7023,7 +7023,7 @@
         "strings": {
             "names": ["Azure Crimson Soul", "蒼紅之魂", "창홍의 영혼", "Âme pourpre azur", "Azurpurpurseele", "Alma azur carmesí", "Jiwa Azure Crimson", "จิตวิญญาณ\u001aฟ้า\u001aแดง\u001a"],
             "desc_short": ["Boost HP and ATK by 30%, and boost LB gauge fill rate", "提高30%HP、攻擊+提高極限技槽增加量", "HP, 공격력 30% 상승+LB 게이지 효율 상승", "Augmente les PV et l'ATT de 30% et la jauge de limite se remplit plus rapidement", "Erhöht LP und ANG um 30% und Limitmeter steigt.", "Aumenta VIT y ATQ un 30%, la barra EL se llena más rápido", "Meningkatkan HP dan ATK sebanyak 30%, serta meningkatkan kecepatan pengisian bar LB", "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a"],
-            "desc_long": ["Boosts HP and ATK by 30% and boosts the fill rate of burst stones.", "提高30%HP、攻擊，並提高極限技槽增加量。", "HP와 공격력이 30% 상승하고, LB 게이지 효율이 상승합니다.", "Augmente les PV et l'ATT de 30% et la jauge de limite se remplit plus rapidement", "Erhöht LP und ANG um 30% und Limitmeter füllt sich schneller.", "Aumenta la VIT y el ATQ un 30%, la barra EL se llena más rápido.", "Meningkatkan HP dan ATK sebanyak 30%, serta meningkatkan kecepatan pengisian bar limit burst.", "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a"]
+            "desc_long": ["Boosts HP and ATK by 30% and boosts the limit burst gauge fill rate.", "提高30%HP、攻擊，並提高極限技槽增加量。", "HP와 공격력이 30% 상승하고, LB 게이지 효율이 상승합니다.", "Augmente les PV et l'ATT de 30% et la jauge de limite se remplit plus rapidement", "Erhöht LP und ANG um 30% und Limitmeter füllt sich schneller.", "Aumenta la VIT y el ATQ un 30%, la barra EL se llena más rápido.", "Meningkatkan HP dan ATK sebanyak 30%, serta meningkatkan kecepatan pengisian bar limit burst.", "เพิ่มค่า\u001a \u001aHP\u001a \u001aและ\u001a \u001aATK\u001a \u001a30% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a"]
         }
     },
     "504218390": {
@@ -24337,37 +24337,73 @@
         }
     },
     "504243341": {
-        "name": "祈りが結びつけし魂",
+        "name": "Souls Joined through Prayer",
         "compendium_id": 1410,
         "compendium_shown": true,
         "requirements": null,
         "skills": [243341],
-        "effects": ["Grant '祈りが結びつけし魂' passive"],
-        "unique": false,
+        "effects": ["Grant 'Souls Joined through Prayer' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Souls Joined through Prayer", "祈禱所連結的靈魂", "기도가 묶어준 영혼", "Âmes unies par la prière", "Seelen verbunden durch ein Gebet", "Almas unidas a través de la oración", "Jiwa yang Bersatu Melalui Doa", "วิญญาณ\u001aหลอม\u001aรวม\u001aด้วย\u001aภาวนา\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against demons and humans by 75% when equipped with a large sword or katana (Not stackable)",
+                "裝備大劍刀時提高75%對惡魔人系魔物的物理、魔法攻擊傷害[無法重複裝備]",
+                "대검 또는 도 장착 시 악마와 인간형 마물에게 부여하는 물리, 마법 피해량 75% 상승(중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux démons et aux humains de 75 % quand une épée longue ou un katana est équipé (non cumulable)",
+                "Erhöht physischen sowie magischen Schaden gegen Dämonen und Menschen um 75%, wenn mit einem Großschwert oder Katana ausgerüstet (nicht stapelbar).",
+                "Aumenta el daño físico y mágico contra demonios y humanos un 75% al llevar espada grande o katana (no acumulable)",
+                "Meningkatkan damage fisik dan magic terhadap jenis demon dan manusia sebanyak 75% ketika pedang besar atau katana digunakan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001aและ\u001aมนุษย์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001aหรือ\u001aคาตา\u001aนะ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against demons and humans by 75% when equipped with a large sword or katana. Not stackable.",
+                "裝備大劍、刀時，提高75%對惡魔人系魔物的物理、魔法攻擊傷害。[無法重複裝備]",
+                "대검 또는 도 장착 시 악마와 인간형 마물에게 부여하는 물리, 마법 피해량이 75% 상승합니다.(중복 장착 불가)",
+                "Augmente les dégâts physiques et magiques infligés aux démons et aux humains de 75 % quand une épée longue ou un katana est équipé. Non cumulable.",
+                "Erhöht physischen sowie magischen Schaden gegen Dämonen und Menschen um 75%, wenn mit einem Großschwert oder Katana ausgerüstet. Nicht stapelbar.",
+                "Aumenta el daño físico y mágico contra demonios y humanos un 75% al llevar espada grande o katana. No acumulable.",
+                "Meningkatkan damage fisik dan magic terhadap jenis demon dan manusia sebanyak 75% ketika pedang besar atau katana digunakan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001aและ\u001aมนุษย์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aดาบ\u001aใหญ่\u001aหรือ\u001aคาตา\u001aนะ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504243343": {
-        "name": "スコールとの約束",
+        "name": "Promise with Squall",
         "compendium_id": 1411,
         "compendium_shown": true,
         "requirements": [["RULE", 7208]],
         "skills": [243343],
-        "effects": ["Grant 'スコールとの約束' passive"],
-        "unique": false,
+        "effects": ["Grant 'Promise with Squall' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
-        "icon": "ability_77.png",
+        "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Promise with Squall", "與斯考爾的約定", "스퀄과의 약속", "Promesse à Squall", "Versprechen mit Squall", "Promesa con Squall", "Janji dengan Squall", "คำสัญญา\u001aกับ\u001a \u001aSquall\u001a"],
+            "desc_short": [
+                "Boost MAG by 500 and boost physical and magic damage against beasts, demons, humans, dragons, fairies, insects, plants, reapers, and avian, aquatic, machina, and stone monsters by 50% (FFVIII units only) (Not stackable)",
+                "提高500魔力+物理、魔法攻擊時提高50%獸惡魔人龍精靈昆蟲植物死靈鳥水生機械岩石系魔物的傷害(FFVIII兵員專屬)[無法重複裝備]",
+                "마력 500 상승+물리, 마법 공격 시 야수, 악마, 인간, 드래곤, 정령, 곤충, 식물, 사령, 조류, 수중, 기계, 암석형 마물에게 부여하는 피해량 50% 상승(FFVIII 유닛 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 500, les dégâts physiques et magiques infligés aux bêtes, aux démons, aux humains, aux dragons, aux esprits, aux insectes, aux plantes, aux morts-vivants, aux oiseaux, aux monstres aquatiques, aux machines et aux monstres de pierre de 50 % (unités FFVIII uniquement) (non cumulable)",
+                "Erhöht MAG um 500 und erhöht physischen sowie magischen Schaden gegen Bestien, Dämonen, Menschen, Drachen, Feen, Insekten, Pflanzen, Untote, Vogelmonster, Wassermonster, Maschinen sowie Steinmonster um 50% (nur FFVIII-Einheiten) (nicht stapelbar).",
+                "Aumenta la MAG en 500 y el daño físico y mágico contra bestias, demonios, humanos, dragones, espíritus, insectos, plantoides, muertos vivientes, aves, acuáticos, máquinas y pétreos un 50% (solo unidades de FFVIII) (no acumulable)",
+                "Meningkatkan MAG sebanyak 500, serta meningkatkan damage fisik dan magic terhadap jenis makhluk buas, demon, manusia, naga, peri, serangga, tumbuhan, makhluk halus, makhluk bersayap, makhluk perairan, mesin, dan batu sebanyak 50% (Khusus unit FFVIII) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a500\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aช\u001aนิ\u001aอสูร\u001a,\u001a \u001aปีศาจ\u001a,\u001a \u001aมนุษย์\u001a,\u001a \u001aมังกร\u001a,\u001a \u001aแฟรี่\u001a,\u001a \u001aแมลง\u001a,\u001a \u001aพืช\u001a,\u001a \u001aภูตผี\u001a,\u001a \u001aสัตว์ปีก\u001a,\u001a \u001aสัตว์น้ำ\u001a,\u001a \u001aจักรกล\u001aและ\u001aศิลา\u001a \u001a50% (ยูนิท FFVIII\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 500 and boosts physical and magic damage against beasts, demons, humans, dragons, fairies, insects, plants, reapers, and avian, aquatic, machina, and stone monsters by 50%. FFVIII units only. Not stackable.",
+                "提高500魔力，以及物理、魔法攻擊時提高50%獸惡魔人龍精靈昆蟲植物死靈鳥水生機械岩石系魔物的傷害。(FFVIII兵員專屬)[無法重複裝備]",
+                "마력이 500 상승하고, 물리, 마법 공격 시 야수, 악마, 인간, 드래곤, 정령, 곤충, 식물, 사령, 조류, 수중, 기계, 암석형 마물에게 부여하는 피해량이 50% 상승합니다.(FFVIII 유닛 전용)(중복 장착 불가)",
+                "Augmente la MAGIE de 500, les dégâts physiques et magiques infligés aux bêtes, aux démons, aux humains, aux dragons, aux esprits, aux insectes, aux plantes, aux morts-vivants, aux oiseaux, aux monstres aquatiques, aux machines et aux monstres de pierre de 50 %. Unités FFVIII uniquement. Non cumulable.",
+                "Erhöht MAG um 500 und erhöht physischen sowie magischen Schaden gegen Bestien, Dämonen, Menschen, Drachen, Feen, Insekten, Pflanzen, Untote, Vogelmonster, Wassermonster, Maschinen und Steinmonster um 50%. Nur FFVIII-Einheiten. Nicht stapelbar.",
+                "Aumenta la MAG en 500 y el daño físico y mágico contra bestias, demonios, humanos, dragones, espíritus, insectos, plantoides, muertos vivientes, aves, acuáticos, máquinas y pétreos un 50%. Solo unidades de FFVIII. No acumulable.",
+                "Meningkatkan MAG sebanyak 500, serta meningkatkan damage fisik dan magic terhadap jenis makhluk buas, demon, manusia, naga, peri, serangga, tumbuhan, makhluk halus, makhluk bersayap, makhluk perairan, dan batu sebanyak 50%. Khusus unit FFVIII. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aMAG\u001a \u001a500\u001a \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aช\u001aนิ\u001aอสูร\u001a,\u001a \u001aปีศาจ\u001a,\u001a \u001aมนุษย์\u001a,\u001a \u001aมังกร\u001a,\u001a \u001aแฟรี่\u001a,\u001a \u001aแมลง\u001a,\u001a \u001aพืช\u001a,\u001a \u001aภูตผี\u001a,\u001a \u001aสัตว์ปีก\u001a,\u001a \u001aสัตว์น้ำ\u001a,\u001a \u001aจักรกล\u001aและ\u001aศิลา\u001a \u001a50% (ยูนิท FFVIII\u001a \u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504243360": {

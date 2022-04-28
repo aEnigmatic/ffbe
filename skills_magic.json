@@ -2262,10 +2262,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (2.75x, MAG) to all enemies"],
-            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
+            ["Magic earth damage (24x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 100% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  275,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -100,  0,  0,  1,  5]]],
         "requirements": null
     },
     "20410": {
@@ -2614,7 +2614,7 @@
         "icon": "ability_37.png",
         "compendium_id": 155,
         "rarity": 8,
-        "cost": {"MP": 75},
+        "cost": {"MP": 80},
         "magic_type": "Black",
         "is_sealable": false,
         "is_reflectable": false,
@@ -2626,11 +2626,11 @@
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
-        "element_inflict": null,
+        "element_inflict": ["Dark"],
         "effects": [
-            ["Magic damage (10x, MAG) to all enemies"]
+            ["Magic dark damage (125x, MAG) to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  12500,  0]]],
         "requirements": null
     },
     "20570": {
@@ -7157,10 +7157,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (2.95x, MAG) to all enemies"],
-            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
+            ["Magic earth damage (36x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 110% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  295,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3600,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -110,  0,  0,  1,  5]]],
         "requirements": null
     },
     "70433": {
@@ -7182,10 +7182,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (3.2x, MAG) to all enemies"],
-            ["Reduce resistance to Earth by 65% for 3 turns to all enemies"]
+            ["Magic earth damage (72x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 130% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -65,  0,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -130,  0,  0,  1,  5]]],
         "requirements": null
     },
     "70434": {
@@ -7405,10 +7405,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (3.25x, MAG) to all enemies"],
-            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
+            ["Magic earth damage (36x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 110% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  325,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3600,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -110,  0,  0,  1,  5]]],
         "requirements": null
     },
     "70443": {
@@ -7430,10 +7430,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (3.75x, MAG) to all enemies"],
-            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
+            ["Magic earth damage (72x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 130% for 5 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  375,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -130,  0,  0,  1,  5]]],
         "requirements": null
     },
     "70444": {
@@ -8319,7 +8319,7 @@
         "requirements": null
     },
     "70481": {
-        "name": "エアロガ",
+        "name": "Aeroga",
         "icon": "ability_25.png",
         "compendium_id": 123,
         "rarity": 6,
@@ -8329,9 +8329,9 @@
         "is_reflectable": true,
         "in_exploration": false,
         "attack_count": [8],
-        "attack_damage": [[10,  10,  10,  10,  10,  10,  10,  30]],
+        "attack_damage": [[8,  8,  8,  8,  8,  8,  8,  44]],
         "attack_frames": [[42,  62,  82,  102,  122,  142,  162,  182]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[76,  40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
@@ -8588,7 +8588,7 @@
         "requirements": null
     },
     "70494": {
-        "name": "アポカリプス",
+        "name": "Apocalypse",
         "icon": "ability_37.png",
         "compendium_id": 155,
         "rarity": 8,
@@ -8612,7 +8612,7 @@
         "requirements": null
     },
     "70495": {
-        "name": "アポカリプス",
+        "name": "Apocalypse",
         "icon": "ability_37.png",
         "compendium_id": 155,
         "rarity": 8,
@@ -8636,7 +8636,7 @@
         "requirements": null
     },
     "70497": {
-        "name": "クエイク",
+        "name": "Quake",
         "icon": "ability_34.png",
         "compendium_id": 139,
         "rarity": 8,
@@ -8900,6 +8900,54 @@
             ["Magic dark damage (40x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
+        "requirements": null
+    },
+    "70523": {
+        "name": "Aura",
+        "icon": "ability_4.png",
+        "compendium_id": 244,
+        "rarity": 5,
+        "cost": {"MP": 24},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[80]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Increase LB gauge by 4 to all allies"]
+        ],
+        "effects_raw": [[2, 2, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70525": {
+        "name": "Aura",
+        "icon": "ability_4.png",
+        "compendium_id": 244,
+        "rarity": 5,
+        "cost": {"MP": 24},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[80]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Increase LB gauge by 6 to all allies"]
+        ],
+        "effects_raw": [[2, 2, 125, [600,  600]]],
         "requirements": null
     },
     "91000": {
