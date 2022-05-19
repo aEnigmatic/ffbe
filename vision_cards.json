@@ -1905,7 +1905,7 @@
         }
     },
     "201000101": {
-        "name": "そして……探求の旅は始まった",
+        "name": "And So Their Quest Began",
         "compendium_id": 100,
         "compendium_shown": true,
         "rarity": 1,
@@ -1928,7 +1928,7 @@
             "10": [243416]
         },
         "restriction": {
-            "243415,243416": [7112, "発動条件：【物防ユニット】"]
+            "243415,243416": [7112, "MST_VISION_CARD_ABILITY_ACT_COND_201000101"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1936,15 +1936,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "コーネリア王の計らいで架けられた橋を渡り、北の大陸へと向かう光の戦士たち。彼らは、クリスタルを携え、再びこの世に光の輝きを取り戻すために旅立った。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "そして……探求の旅は始まった",
-            "music": "♪オープニング・テーマ",
+            "desc": "Having crossed the drawbridge, which was rebuilt on the king of Cornelia's orders, the Warriors of Light now venture to the northern continent. Crystals in hand, they set off on their quest to return light to the world.",
+            "info": "Having crossed the drawbridge, which was rebuilt on the king of Cornelia's orders, the Warriors of Light now venture to the northern continent. Crystals in hand, they set off on their quest to return light to the world.",
+            "shop": "And So Their Quest Began",
+            "music": "Opening Theme",
             "music_id": "4000072"
         }
     },
     "201000201": {
-        "name": "VSマリリス",
+        "name": "Battle with Marilith",
         "compendium_id": 101,
         "compendium_shown": true,
         "rarity": 1,
@@ -1967,7 +1967,7 @@
             "10": [243419]
         },
         "restriction": {
-            "243419": [7201, "発動条件：【FFIユニット】"]
+            "243419": [7201, "MST_VISION_CARD_ABILITY_ACT_COND_201000201"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -1975,10 +1975,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "グルグ火山の深部で、火のカオス・マリリスと戦う光の戦士たち。マリリスの操る無数の剣とすべてを焼きつくす炎が一行を襲う。それでも光の戦士たちは決して勝利をあきらめない！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSマリリス",
-            "music": "♪戦闘シーン",
+            "desc": "Deep within Mount Gulg, the Warriors of Light battle Marilith, the Fiend of Fire. Though Marilith assails the party with unrelenting slashes and all-consuming flames, the Warriors of Light shall fight ever onward to victory!",
+            "info": "Deep within Mount Gulg, the Warriors of Light battle Marilith, the Fiend of Fire. Though Marilith assails the party with unrelenting slashes and all-consuming flames, the Warriors of Light shall fight ever onward to victory!",
+            "shop": "Battle with Marilith",
+            "music": "Battle",
             "music_id": "400913"
         }
     },
@@ -3451,7 +3451,7 @@
         }
     },
     "339000101": {
-        "name": "謎の巨大クリスタル",
+        "name": "Gigantic Crystal of Mystery",
         "compendium_id": 97,
         "compendium_shown": true,
         "rarity": 1,
@@ -3474,7 +3474,7 @@
             "10": [243388]
         },
         "restriction": {
-            "243387,243388": [7112, "発動条件：【物防ユニット】"]
+            "243387,243388": [7112, "MST_VISION_CARD_ABILITY_ACT_COND_339000101"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -3482,10 +3482,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "リオニスの地下から突如として現れた巨大なクリスタル。クリスタル教の宗祖サーダリーが唱えていた説の通り「聖なる大地を悲しみと憎しみの血で染め上げた」際に姿を見せた。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "謎の巨大クリスタル",
-            "music": "♪Venom Fang",
+            "desc": "A gigantic crystal which suddenly emerged from beneath the kingdom of Leonis. According to Sadali, founder of the Crystal Sanctum, it is said to appear \"when the holy ground is soaked with blood shed in sorrow and hatred.\"",
+            "info": "A gigantic crystal which suddenly emerged from beneath the kingdom of Leonis. According to Sadali, founder of the Crystal Sanctum, it is said to appear \"when the holy ground is soaked with blood shed in sorrow and hatred.\"",
+            "shop": "Gigantic Crystal of Mystery",
+            "music": "Venom Fang",
             "music_id": "400733"
         }
     },
@@ -4757,6 +4757,43 @@
             "shop": "Weaver of Wishes",
             "music": "State of Grace",
             "music_id": "400204"
+        }
+    },
+    "401003501": {
+        "name": "Proof of Resolution and Resolve",
+        "compendium_id": 9034,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [1500, 1500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [110, 110, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [916264, 916265, 916266]
+        },
+        "restriction": {
+            "916266": [7112, "MST_VISION_CARD_ABILITY_ACT_COND_339000101"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "The young King of the Lions always has someone in mind when he wields his sword across the battlefield. Surely there are many who have been influenced by Mont in his long fight for a world without war.",
+            "info": "The young King of the Lions always has someone in mind when he wields his sword across the battlefield. Surely there are many who have been influenced by Mont in his long fight for a world without war.",
+            "shop": "Proof of Resolution and Resolve",
+            "music": "Triumph of Destiny",
+            "music_id": "400313"
         }
     },
     "900020101": {
