@@ -1354,18 +1354,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[70]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[70], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
         "effects": [
-            ["Magic lightning damage (1.2x, MAG) to one enemy"]
+            ["Magic lightning damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Lightning by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20040": {
@@ -3261,7 +3263,7 @@
         "requirements": null
     },
     "20870": {
-        "name": "カーズ",
+        "name": "Curse",
         "icon": "ability_39.png",
         "compendium_id": 103,
         "rarity": 8,
@@ -9638,7 +9640,7 @@
         "requirements": null
     },
     "70537": {
-        "name": "サンダー8",
+        "name": "Thunder VIII",
         "icon": "ability_20.png",
         "compendium_id": 102,
         "rarity": 1,
@@ -9664,7 +9666,7 @@
         "requirements": null
     },
     "70538": {
-        "name": "サンダー12",
+        "name": "Thunder XII",
         "icon": "ability_20.png",
         "compendium_id": 102,
         "rarity": 1,
@@ -9690,7 +9692,7 @@
         "requirements": null
     },
     "70539": {
-        "name": "サンダー16",
+        "name": "Thunder XVI",
         "icon": "ability_20.png",
         "compendium_id": 102,
         "rarity": 1,

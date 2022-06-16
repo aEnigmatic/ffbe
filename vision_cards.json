@@ -2291,7 +2291,7 @@
         }
     },
     "202000201": {
-        "name": "蘇る皇帝",
+        "name": "The Emperor Reborn",
         "compendium_id": 114,
         "compendium_shown": true,
         "rarity": 1,
@@ -2314,7 +2314,7 @@
             "10": [243600]
         },
         "restriction": {
-            "243600": [7202, "発動条件：【FFIIユニット】"]
+            "243600": [7202, "MST_VISION_CARD_ABILITY_ACT_COND_202000201"]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -2322,15 +2322,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "フリオニールたちの前に地獄から蘇った皇帝が現れ、世界を破壊し尽くすと宣言。リチャードは仲間たちを逃がし、たった1人で皇帝に立ち向かう。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "蘇る皇帝",
-            "music": "♪皇帝復活",
+            "desc": "Newly risen from the bowels of Hell, the emperor appears before Firion and his companions, announcing his plan to destroy the world. Ricard allows the others to flee while he faces the emperor alone.",
+            "info": "Newly risen from the bowels of Hell, the emperor appears before Firion and his companions, announcing his plan to destroy the world. Ricard allows the others to flee while he faces the emperor alone.",
+            "shop": "The Emperor Reborn",
+            "music": "The Emperor's Rebirth",
             "music_id": "4000091"
         }
     },
     "202000301": {
-        "name": "VSラウンドウォーム",
+        "name": "VS Roundworm",
         "compendium_id": 115,
         "compendium_shown": true,
         "rarity": 1,
@@ -2359,10 +2359,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "リバイアサンからの脱出をはかるフリオニールたち。新たに仲間に加わった竜騎士リチャードと力を合わせ、出口に立ちふさがるラウンドウォームに挑む。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSラウンドウォーム",
-            "music": "♪ダンジョン",
+            "desc": "In a bid to escape Leviathan, Firion and his allies stand alongside their new companion, Ricard, and challenge the Roundworm that blocks their path.",
+            "info": "In a bid to escape Leviathan, Firion and his allies stand alongside their new companion, Ricard, and challenge the Roundworm that blocks their path.",
+            "shop": "VS Roundworm",
+            "music": "Dungeon",
             "music_id": "4000092"
         }
     },
@@ -5326,6 +5326,43 @@
             "shop": "Proof of Resolution and Resolve",
             "music": "Triumph of Destiny",
             "music_id": "400313"
+        }
+    },
+    "401003701": {
+        "name": "Dazzling Demoness",
+        "compendium_id": 9036,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [500, 500, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [120, 120, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [916427, 916428, 916429]
+        },
+        "restriction": {
+            "916429": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100001101"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Contrary to the implications of her title as the \"Demon of Hess,\" she holds an earnest desire in her heart. When the world is stricken with despair, she once again appears from the Earth Crystal. Miracles are brought forth by her wish to save those whom she loves and the world that they live in.",
+            "info": "Contrary to the implications of her title as the \"Demon of Hess,\" she holds an earnest desire in her heart. When the world is stricken with despair, she once again appears from the Earth Crystal. Miracles are brought forth by her wish to save those whom she loves and the world that they live in.",
+            "shop": "Dazzling Demoness",
+            "music": "Secrets in her Eyes",
+            "music_id": "400310"
         }
     },
     "900020101": {
