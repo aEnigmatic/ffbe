@@ -698,5 +698,29 @@
             ["Increase Ice magic damage by 25%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  25,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [0,  25,  0,  0,  0,  0,  0,  0]]]
+    },
+    "900000008": {
+        "duration": 10,
+        "effects": [
+            ["Increase all physical elemental damage physical damage by 50%"],
+            ["Increase all magic elemental damage magic damage by 50%"],
+            ["Unknown active effect type '12': [[50,0],[50,0],[50,0],[50,0],[50,0],[50,0],[50,0],[50,0]]"]
+        ],
+        "effects_raw": [[0, 0, 10, [[50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0]]], [0, 0, 11, [[50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0]]], [0, 0, 12, [[50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0], [50,  0]]]]
+    },
+    "900000009": {
+        "duration": 10,
+        "effects": [
+            ["Increase enemy physical damage by 25%"],
+            ["Increase enemy magic damage by 25%"]
+        ],
+        "effects_raw": [[0, 0, 7, [[25,  0]]], [0, 0, 8, [[25,  0]]]]
+    },
+    "900000010": {
+        "duration": 10,
+        "effects": [
+            ["Increase enemy physical damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 7, [[50,  0]]]]
     }
 }
