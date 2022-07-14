@@ -1888,7 +1888,7 @@
                 "Boost physical damage against insects (Not stackable)",
                 "物理攻擊時提高對蟲系的傷害[無法重複裝備]",
                 "물리 공격 시 곤충형 마물에게 부여하는 피해량 상승 (중복 장착 불가)",
-                "Dégâts physiques accrus contre les insectes (non cumulable)",
+                "Augmente les dégâts physiques infligés aux insectes de 50 % (non cumulable)",
                 "Mehr physischer Schaden gegen Insektenmonster (Nicht stapelbar)",
                 "Aumenta el daño infligido a monstruos insecto (no acumulable)",
                 "Meningkatkan damage fisik terhadap jenis serangga (Tidak dapat ditumpuk)",
@@ -8537,7 +8537,7 @@
                 "Boost physical and magic damage against insects (Not stackable)",
                 "物理、魔法攻擊時提高對蟲系魔物的傷害[無法重複裝備]",
                 "물리, 마법 공격 시 곤충형 마물에게 부여하는 피해량 상승",
-                "Dégâts phys. et mag. accrus contre les insectes (non cumulable)",
+                "Augmente les dégâts physiques et magiques infligés aux insectes de 75 % (non cumulable)",
                 "Erhöht physischen und magischen Schaden gegen Insekten (Nicht stapelbar).",
                 "Aumenta el daño físico y mágico contra insectos (no acumulable)",
                 "Meningkatkan damage fisik dan magic terhadap jenis serangga (Tidak dapat ditumpuk)",
@@ -24852,20 +24852,38 @@
         }
     },
     "504243454": {
-        "name": "悪魔喰らいの念",
+        "name": "Demon Eater Sense",
         "compendium_id": 1426,
         "compendium_shown": true,
         "requirements": null,
         "skills": [243454],
-        "effects": ["Grant '悪魔喰らいの念' passive"],
-        "unique": false,
+        "effects": ["Grant 'Demon Eater Sense' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Demon Eater Sense", "惡魔捕食者之念", "악마 포식자의 원념", "Instinct anti-démons", "Gespür des Dämonenverschlingers", "Sentido comedemonios", "Keinginan Pemakan Demon", "จิต\u001aเขมือบ\u001aปีศาจ\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 40% and boost physical and magic damage against demons by 75% (Not stackable)",
+                "提高40%攻擊魔力+物理、魔法攻擊時提高75%對惡魔系魔物的傷害[無法重複裝備]",
+                "공격력과 마력 40% 상승+물리, 마법 공격 시 악마형 마물에게 부여하는 피해량 75% 상승(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 % et augmente les dégâts physiques et magiques infligés aux démons de 75 % (non cumulable)",
+                "Erhöht ANG sowie MAG um 40% und erhöht physischen sowie magischen Schaden gegen Dämonen um 75% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico y mágico contra demonios un 75% (no acumulable)",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik dan magic terhadap jenis demon sebanyak 75% (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 40% and boosts physical and magic damage against demons by 75%. Not stackable.",
+                "提高40%攻擊魔力，以及物理、魔法攻擊時提高75%對惡魔系魔物的傷害。[無法重複裝備]",
+                "공격력과 마력이 40% 상승하고, 물리, 마법 공격 시 악마형 마물에게 부여하는 피해량이 75% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 40 % et augmente les dégâts physiques et magiques infligés aux démons de 75 %. Non cumulable.",
+                "Erhöht ANG sowie MAG um 40% und erhöht physischen sowie magischen Schaden gegen Dämonen um 75%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 40% y el daño físico y mágico contra demonios un 75%. No acumulable.",
+                "Meningkatkan ATK dan MAG sebanyak 40%, serta meningkatkan damage fisik dan magic terhadap jenis demon sebanyak 75%. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a \u001aและ\u001a \u001aMAG\u001a \u001a40% \u001a+\u001a \u001aเพิ่มค่า\u001aความเสียหาย\u001aทางกายภาพ\u001aและ\u001aพลัง\u001aเวทย์\u001aเมื่อ\u001aโจมตี\u001aศัตรู\u001aชนิด\u001aปีศาจ\u001a \u001a75% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504243469": {
@@ -24920,37 +24938,73 @@
         }
     },
     "504243486": {
-        "name": "刀の神髄",
+        "name": "Spirit of the Katana",
         "compendium_id": 1430,
         "compendium_shown": true,
         "requirements": null,
         "skills": [243486],
-        "effects": ["Grant '刀の神髄' passive"],
-        "unique": false,
+        "effects": ["Grant 'Spirit of the Katana' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_6000200.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Spirit of the Katana", "刀之精髓", "도의 진수", "Esprit du katana", "Seele des Katanas", "Espíritu de la katana", "Jiwa Katana", "จิตวิญญาณ\u001aแห่ง\u001aคาตา\u001aนะ\u001a"],
+            "desc_short": [
+                "Boost equipment ATK, DEF, MAG, and SPR by 75% when a single katana is equipped in one or both hands (Not stackable)",
+                "只裝備1把刀時武具攻擊防禦魔力精神提升75%[無法重複裝備]",
+                "한손 또는 양손에 도 1개 장착 시 장비의 공격력, 방어력, 마력, 정신력 75% 상승(중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY de l'équipement de 75 % quand un seul katana est équipé dans une ou les deux mains (non cumulable)",
+                "Erhöht Ausrüstung-ANG, -ABW, -MAG und -PSY um 75%, wenn ein einzelnes Katana in einer oder beiden Händen ausgerüstet ist (nicht stapelbar).",
+                "Aumenta ATQ, DEF, MAG y ESP del equipo un 75% al llevar una sola katana en una o ambas manos (no acumulable)",
+                "Meningkatkan ATK, DEF, MAG, dan SPR perlengkapan sebanyak 75% ketika 1 katana digunakan dengan satu tangan atau kedua tangan (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aคาตา\u001aนะ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boost equipment ATK, DEF, MAG, and SPR by 75% when a single katana is equipped in one or both hands. Not stackable.",
+                "只裝備1把刀時武具攻擊防禦魔力精神提升75%。[無法重複裝備]",
+                "한손 또는 양손에 도 1개 장착 시 장비의 공격력, 방어력, 마력, 정신력이 75% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT, la DEF, la MAGIE et la PSY de l'équipement de 75 % quand un seul katana est équipé dans une ou les deux mains. Non cumulable.",
+                "Erhöht Ausrüstung-ANG, -ABW, -MAG und -PSY um 75%, wenn ein einzelnes Katana in einer oder beiden Händen ausgerüstet ist. Nicht stapelbar.",
+                "Aumenta ATQ, DEF, MAG y ESP del equipo un 75% al llevar una sola katana en una o ambas manos. No acumulable.",
+                "Meningkatkan ATK, DEF, MAG, dan SPR perlengkapan sebanyak 75% ketika 1 katana digunakan dengan satu tangan atau kedua tangan. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001a \u001aATK\u001a,\u001a \u001aDEF\u001a,\u001a \u001aMAG\u001a \u001aและ\u001a \u001aSPR\u001a \u001aของ\u001aอุปกรณ์\u001a \u001a75% \u001aเมื่อ\u001aติดตั้ง\u001aคาตา\u001aนะ\u001a \u001a1\u001a \u001aชิ้น\u001aใน\u001aมือ\u001aเดียว\u001aหรือ\u001aสอง\u001aมือ\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504243487": {
-        "name": "ヘスの秘伝",
+        "name": "Mysteries of Hess",
         "compendium_id": 1431,
         "compendium_shown": true,
         "requirements": [["RULE", 7111]],
         "skills": [243487],
-        "effects": ["Grant 'ヘスの秘伝' passive"],
-        "unique": false,
+        "effects": ["Grant 'Mysteries of Hess' passive"],
+        "unique": true,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_78.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Mysteries of Hess", "赫斯秘傳", "헤스의 비전", "Mystères de Hess", "Die Mysterien von Hess", "Misterios de Hess", "Misteri Hess", "ปริศนา\u001aแห่ง\u001a \u001aHess\u001a"],
+            "desc_short": [
+                "Boost LB damage by 100% and LB gauge fill rate by 200% (Mage units only) (Not stackable)",
+                "提高100%極限技的傷害+提高200%極限技石對極限技槽的增加量(魔攻型兵員專屬)[無法重複裝備]",
+                "LB 피해량 100% 상승+LB 게이지 효율 200% 상승(마법 공격 유닛 전용)(중복 장착 불가)",
+                "Augmente les dégâts de la limite de 100 % et le taux de remplissage de la jauge de limite de 200 % (unités \"Attaquant magique\" uniquement) (non cumulable)",
+                "Erhöht Schaden durch Limitrausch um 100% und Limitmeter füllt sich um 200% schneller (nur Magier-Einheiten) (nicht stapelbar).",
+                "Aumenta el daño del EL un 100% y la barra de EL se rellena un 200% más rápido (solo unidades de tipo mago) (no acumulable)",
+                "Meningkatkan damage LB sebanyak 100% dan kecepatan pengisian bar LB sebanyak 200% (Khusus unit mage) (Tidak dapat ditumpuk)",
+                "เพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a100% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a200% \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aเวทย์\u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts LB damage by 100% and LB gauge fill rate by 200%. Mage units only. Not stackable.",
+                "提高100%極限技的傷害，以及提高200%極限技石對極限技槽的增加量。(魔攻型兵員專屬)[無法重複裝備]",
+                "LB 피해량이 100% 상승하고, LB 게이지 효율이 200% 상승합니다.(마법 공격 유닛 전용)(중복 장착 불가)",
+                "Augmente les dégâts de la limite de 100 % et le taux de remplissage de la jauge de limite de 200 %. Unités \"Attaquant magique\" uniquement. Non cumulable.",
+                "Erhöht Schaden durch Limitrausch um 100% und Limitmeter füllt sich um 200% schneller. Nur Magier-Einheiten. Nicht stapelbar.",
+                "Aumenta el daño del EL un 100% y la barra de EL se rellena un 200% más rápido. Solo unidades de tipo mago. No acumulable.",
+                "Meningkatkan damage LB sebanyak 100% dan kecepatan pengisian bar LB sebanyak 200%. Khusus unit mage. Tidak dapat ditumpuk.",
+                "เพิ่มค่า\u001aความเสียหาย\u001aของ\u001a \u001aLB\u001a \u001a100% + เพิ่มค่า Fill\u001a \u001aRate\u001a \u001aของ\u001a \u001aLB\u001a \u001aGauge\u001a \u001a200% \u001a(\u001aยู\u001aนิ\u001aทสา\u001aย\u001aเวทย์\u001aเท่านั้น\u001a)\u001a \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+            ]
         }
     },
     "504243490": {
