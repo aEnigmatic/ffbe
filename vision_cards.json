@@ -1342,7 +1342,7 @@
         }
     },
     "100003801": {
-        "name": "アクスターの記憶",
+        "name": "Memories of Akstar",
         "compendium_id": 59,
         "compendium_shown": true,
         "rarity": 1,
@@ -1363,7 +1363,7 @@
             "1": [241170, 241171, 241172]
         },
         "restriction": {
-            "241172": [7401, "発動条件：【目覚めし臥竜アクスター】"]
+            "241172": [7401, "MST_VISION_CARD_ABILITY_ACT_COND_100003801"]
         },
         "max_level": 1,
         "exp_pattern": 1,
@@ -1371,10 +1371,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "仲間たちを失ったレインの前に現れた、オーダーズ二闘星のゼノ。打倒ヴラド皇帝という同一の悲願を持つ二人の男は、時を渡った先でも協力し合う。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "アクスターの記憶",
-            "music": "♪Dawn",
+            "desc": "Zeno of the Beta Star, who appeared before Rain after the crushing loss of his friends. Reaching across time itself, the two work towards their deepest wish, a goal they hold in common: to defeat Emperor Vlad.",
+            "info": "Zeno of the Beta Star, who appeared before Rain after the crushing loss of his friends. Reaching across time itself, the two work towards their deepest wish, a goal they hold in common: to defeat Emperor Vlad.",
+            "shop": "Memories of Akstar",
+            "music": "Dawn",
             "music_id": "400329"
         }
     },
@@ -2171,6 +2171,43 @@
             "shop": "Let Demons Be Slain!",
             "music": "Celestial Battle",
             "music_id": "400007"
+        }
+    },
+    "100006401": {
+        "name": "ウィガール承認！",
+        "compendium_id": 116,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [70, 140, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243622],
+            "7": [243623],
+            "10": [243624]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "カレドヴルフ第１部隊の切り札、ウィガール。超越の証を原動力とする機械の鎧。その力は絶大であり、多くの被害を出したオメガ種をたやすく制圧することができるという。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ウィガール承認！",
+            "music": "♪United We Stand",
+            "music_id": "400102"
         }
     },
     "201000101": {
@@ -3173,6 +3210,115 @@
             "music_id": "4000024"
         }
     },
+    "210000401": {
+        "name": "最後じゃなくて……ずっと",
+        "compendium_id": 124,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10010,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [150, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243700, 243701, 243702]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "マカラーニャの森にある泉で抱きしめ合うティーダとユウナ。美しくも幻想的な場所で、二人は互いの気持ちを確かめるように口づけを交わす。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "最後じゃなくて……ずっと",
+            "music": "♪いつか終わる夢",
+            "music_id": "400884"
+        }
+    },
+    "210000501": {
+        "name": "聖ベベル宮突入",
+        "compendium_id": 125,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10010,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [55, 110, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243703],
+            "7": [243704],
+            "10": [243705]
+        },
+        "restriction": {
+            "243705": [7210, "発動条件：【FFXユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "聖ベベル宮で行われるシーモアとユウナの結婚式場に向かうティーダたち。飛空艇から射出されたアンカーつきワイヤーの上を、華麗に滑り降りていく。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "聖ベベル宮突入",
+            "music": "♪襲撃",
+            "music_id": "4000302"
+        }
+    },
+    "210000601": {
+        "name": "ジェクトシュート",
+        "compendium_id": 126,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10010,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [5000, 5000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [130, 130, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243717, 243718, 243719]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "まだ小さかった頃のティーダと、父親のジェクト。ジェクトシュートを失敗するティーダの前で、ジェクトが成功例を披露する。ティーダにとって、忘れられない『あの日の思い出』だ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ジェクトシュート",
+            "music": "♪ジェクトのテーマ",
+            "music_id": "4000306"
+        }
+    },
     "211000101": {
         "name": "Ragnarok",
         "compendium_id": 58,
@@ -3247,6 +3393,123 @@
             "shop": "Judge Magister",
             "music": "The Archadian Empire",
             "music_id": "400997"
+        }
+    },
+    "212000301": {
+        "name": "この物語の主人公さ",
+        "compendium_id": 117,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10012,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243640],
+            "7": [243641],
+            "10": [243642]
+        },
+        "restriction": {
+            "243642": [7212, "発動条件：【FFXIIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ラバナスタ王宮の宝物庫に忍び込み、女神像に隠されていた魔石を手に入れたヴァン。しかしそこに、魔石を狙う空賊バルフレアと相棒のフランが現れる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "この物語の主人公さ",
+            "music": "♪予兆 (Zodiac Age Version)",
+            "music_id": "4000205"
+        }
+    },
+    "212000401": {
+        "name": "古き神との契約",
+        "compendium_id": 118,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10012,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [50, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243643],
+            "7": [243644],
+            "10": [243645]
+        },
+        "restriction": {
+            "243645": [7212, "発動条件：【FFXIIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "古代都市ギルヴェガンにて、イヴァリースの歴史を陰で操る存在・オキューリアと対面したアーシェ。ラスラの幻に導かれるようにして、彼女は復讐のための刃となる契約の剣を手にする。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "古き神との契約",
+            "music": "♪アーシェのテーマ (Zodiac Age Version)",
+            "music_id": "4000204"
+        }
+    },
+    "212000501": {
+        "name": "初めての空",
+        "compendium_id": 119,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10012,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [45, 90, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243661],
+            "7": [243662],
+            "10": [243663]
+        },
+        "restriction": {
+            "243662,243663": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "バルフレアの飛空艇シュトラールに乗り込み、空中都市ビュエルバに飛び立つ一行。ヴァンは初めての飛空艇に心を躍らせつつ、連れ去られたパンネロを助け出すと誓う。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "初めての空",
+            "music": "♪フォーン海岸 (Zodiac Age Version)",
+            "music_id": "400976"
         }
     },
     "213000101": {
@@ -5474,6 +5737,82 @@
             "shop": "On to Another Journey",
             "music": "United We Stand",
             "music_id": "400102"
+        }
+    },
+    "401003901": {
+        "name": "A Happy Family",
+        "compendium_id": 9038,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [95, 125, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [916448],
+            "7": [916449],
+            "10": [916450]
+        },
+        "restriction": {
+            "916450": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100001101"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "After Chizuru retired from her duties as a samurai, she was married and gave birth to two children. She taught them the ways of the samurai, and the four of them lived together as a family. However, their happiness ended when her daughter left to join forces of darkness...",
+            "info": "After Chizuru retired from her duties as a samurai, she was married and gave birth to two children. She taught them the ways of the samurai, and the four of them lived together as a family. However, their happiness ended when her daughter left to join forces of darkness...",
+            "shop": "A Happy Family",
+            "music": "Walkabout",
+            "music_id": "400308"
+        }
+    },
+    "401004001": {
+        "name": "Lone Swordsman",
+        "compendium_id": 9039,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [120, 120, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [916510, 916511, 916512]
+        },
+        "restriction": {
+            "916512": [7216, "MST_VISION_CARD_ABILITY_ACT_COND_100001101"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Rain never for a single moment forgot the tragedy that took place in the town of Sacher. He shoved all the rage, all the sorrow, all the bitter frustration born on that day behind a jet-black mask and quietly stoked his resolve. He would see the empire defeated by his own hand, no matter what it cost. Until then, he refused to set aside his blade, even if that meant turning it against those he'd once called his friends.",
+            "info": "Rain never for a single moment forgot the tragedy that took place in the town of Sacher. He shoved all the rage, all the sorrow, all the bitter frustration born on that day behind a jet-black mask and quietly stoked his resolve. He would see the empire defeated by his own hand, no matter what it cost. Until then, he refused to set aside his blade, even if that meant turning it against those he'd once called his friends.",
+            "shop": "Lone Swordsman",
+            "music": "The Oath",
+            "music_id": "400106"
         }
     },
     "900020101": {
