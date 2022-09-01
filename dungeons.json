@@ -19221,11 +19221,11 @@
             "9050290": "Light Attack Challenge - PRO",
             "9050291": "Light Attack Challenge - ELT",
             "9050292": "Light Attack Challenge - LGD",
-            "9050294": null,
-            "9050295": null,
-            "9050296": null,
-            "9050297": null,
-            "9050298": null,
+            "9050294": "Magic Fire Challenge - INT",
+            "9050295": "Magic Fire Challenge - ADV",
+            "9050296": "Magic Fire Challenge - PRO",
+            "9050297": "Magic Fire Challenge - ELT",
+            "9050298": "Magic Fire Challenge - LGD",
             "9050300": null,
             "9050301": null,
             "9050302": null,
@@ -22422,18 +22422,136 @@
         }
     },
     "96101": {
-        "names": ["Eggstinction", "「蛋」盡糧絕", "멸종된 달걀", "Catastrœuf", "Verheierung und Verneichtung", "Eggstinción", "Eggstinction", "ข.\u001aไข่\u001aไล่\u001aสังหาร\u001a"],
+        "names": ["1. Mushroom Rock Road", "1. 蘑菇岩街道", "1. 버섯바위 가도", "1. Route des Mycorocs", "1. Fungus-Pass", "1. Senda de las Rocas Hongo", "1. Jalur Jamur Batu", "1.\u001a \u001aถนน\u001aเห็ด\u001aศิลา\u001a"],
         "world_id": 2,
         "region_id": "21",
         "subregion_id": "961",
-        "position": [0, 0],
-        "icon": "global_spd_bn_list_00053.png",
+        "position": [816, 1750],
+        "icon": "map_icon_96101_1.png",
         "missions": {
-            "9610101": "Eggstinction - INT",
-            "9610102": "Eggstinction - ADV",
-            "9610103": "Eggstinction - PRO",
-            "9610104": "Eggstinction - ELT",
-            "9610105": "Eggstinction - LGD"
+            "9610101": "Sinspawn Gui Lvl. 1",
+            "9610102": "Sinspawn Gui"
+        }
+    },
+    "96102": {
+        "names": ["2. Macalania Woods", "2. 馬卡拉尼亞之森", "2. 마카라냐의 숲", "2. Forêt de Macalania", "2. Macalania Wald", "2. Bosque de Macalania", "2. Hutan Macalania", "2.\u001a \u001aป่า\u001a \u001aMacalania\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [808, 1134],
+        "icon": "map_icon_96102_1.png",
+        "missions": {
+            "9610201": "Spherimorph Lvl. 1",
+            "9610202": "Spherimorph"
+        }
+    },
+    "96103": {
+        "names": ["3. Mt. Gagazet", "3. 嘎嘎札特山", "3. 가가제트 산", "3. Mont Gagazet", "3. Berg Gagazet", "3. Monte Gagazet", "3. Gunung Gagazet", "3.\u001a \u001aภูเขา\u001a \u001aGagazet\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [988, 860],
+        "icon": "map_icon_96103_1.png",
+        "missions": {
+            "9610301": "Biran Ronso & Yenke Ronso Lvl. 1",
+            "9610302": "Biran Ronso & Yenke Ronso"
+        }
+    },
+    "96104": {
+        "names": [
+            "4. Mt. Gagazet - Prominence",
+            "4. 嘎嘎札特山‧隘口",
+            "4. 가가제트 산: 고개",
+            "4. Mont Gagazet - Col",
+            "4. Gagazet - Vorsprung",
+            "4. Monte Gagazet - Paso",
+            "4. Puncak Gunung Gagazet",
+            "4.\u001a \u001aภูเขา\u001a \u001aGagazet\u001a \u001a-\u001a \u001aช่องเขา\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [584, 728],
+        "icon": "map_icon_96104_1.png",
+        "missions": {
+            "9610401": "Seymour Flux Lvl. 1",
+            "9610402": "Seymour Flux"
+        }
+    },
+    "96105": {
+        "names": ["5. Zanarkand Ruins", "5. 札納爾坎德遺跡", "5. 자나르칸드 유적", "5. Ruines de Zanarkand", "5. Zanarkand-Ruinen", "5. Ruinas de Zanarkand", "5. Reruntuhan Zanarkand", "5.\u001a \u001aซาก\u001aโบราณสถาน\u001a \u001aZanarkand\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [924, 512],
+        "icon": "map_icon_96105_1.png",
+        "missions": {
+            "9610501": "Behemoth Lvl. 1",
+            "9610502": "Behemoth"
+        }
+    },
+    "96106": {
+        "names": ["6. Omega Ruins", "6. 歐米茄遺跡", "6. 오메가 유적", "6. Ruines d'Oméga", "6. Omega-Ruinen", "6. Ruinas Omega", "6. Reruntuhan Omega", "6.\u001a \u001aซาก\u001a \u001aOmega\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [1514, 1218],
+        "icon": "map_icon_96106_1.png",
+        "missions": {
+            "9610601": "Defender Z Lvl. 1",
+            "9610602": "Defender Z"
+        }
+    },
+    "96107": {
+        "names": [
+            "7. Zanarkand Dome - Chamber of the Fayth",
+            "7. 耶朋巨蛋‧祈禱者室",
+            "7. 에본 돔: 기도자의 방",
+            "7. Dôme de Yevon - Chambre du Priant",
+            "7. Yevon Dom - Asthra",
+            "7. Recinto de Yevon - Cámara del orador",
+            "7. Kubah Zanarkand - Ruang Fayth",
+            "7.\u001a \u001aโดม\u001a \u001aZanarkand\u001a \u001a-\u001a \u001aห้องโถง\u001aแห่ง\u001a \u001aFayth\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [1194, 591],
+        "icon": "map_icon_96107_1.png",
+        "missions": {
+            "9610701": "Spectral Keeper Lvl. 1",
+            "9610702": "Spectral Keeper"
+        }
+    },
+    "96108": {
+        "names": [
+            "8. Zanarkand Dome - The Beyond",
+            "8. 耶朋巨蛋‧魔天",
+            "8. 에본 돔: 마천",
+            "8. Dôme de Yevon - Limbes",
+            "8. Yevon Dom - Yunalescas Reich",
+            "8. Recinto de Yevon - El Limbo",
+            "8. Kubah Zanarkand - Limbo",
+            "8.\u001a \u001aโดม\u001a \u001aZanarkand\u001a \u001a-\u001a \u001aเหนือ\u001aสวรรค์\u001a"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [1563, 591],
+        "icon": "map_icon_96108_1.png",
+        "missions": {
+            "9610801": "Yunalesca"
+        }
+    },
+    "96109": {
+        "names": [null, null, null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "961",
+        "position": [150, 720],
+        "icon": "runningevent_icon_battle.png",
+        "missions": {
+            "9610901": null
         }
     },
     "96201": {
@@ -24779,6 +24897,17 @@
             "10910208": "Seymour Flux Lvl. 8",
             "10910209": "Seymour Flux Lvl. 9",
             "10910210": "Seymour Flux Lvl. 10"
+        }
+    },
+    "109103": {
+        "names": ["Sin", "辛戰", "신", "Sin", "Sin", "Sinh", "Sin", "ศึก\u001a \u001aSin\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "9905",
+        "position": [0, 0],
+        "icon": null,
+        "missions": {
+            "10910301": "Sin"
         }
     },
     "109201": {
@@ -41244,6 +41373,21 @@
         "icon": null,
         "missions": {
             "99070101": "Creeping Malice - EXT"
+        }
+    },
+    "990901": {
+        "names": ["Eggstinction", "「蛋」盡糧絕", "멸종된 달걀", "Catastrœuf", "Verheierung und Verneichtung", "Eggstinción", "Eggstinction", "ข.\u001aไข่\u001aไล่\u001aสังหาร\u001a"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "9909",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00053.png",
+        "missions": {
+            "99090101": "Eggstinction - INT",
+            "99090102": "Eggstinction - ADV",
+            "99090103": "Eggstinction - PRO",
+            "99090104": "Eggstinction - ELT",
+            "99090105": "Eggstinction - LGD"
         }
     },
     "6100000": {
