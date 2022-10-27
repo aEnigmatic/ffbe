@@ -394,7 +394,7 @@
         "effects": [
             ["Reduce resistance to Water by 25%"]
         ],
-        "effects_raw": [[0, 0, 2, [0,  0,  0,  -25,  0,  0,  0,  0]]]
+        "effects_raw": [[0, 0, 2, [0, 0, 0, [-25,  -25], 0, 0, 0, 0]]]
     },
     "200000027": {
         "duration": 4,
@@ -487,7 +487,7 @@
         "effects": [
             ["Reduce resistance to Lightning by 25%"]
         ],
-        "effects_raw": [[0, 0, 2, [0,  0,  -25,  0,  0,  0,  0,  0]]]
+        "effects_raw": [[0, 0, 2, [0, 0, [-25,  -25], 0, 0, 0, 0, 0]]]
     },
     "200000039": {
         "duration": 10,
@@ -742,6 +742,27 @@
             ["Increase Light magic damage by 50%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  50,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  50,  0]]]
+    },
+    "200000076": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Lightning by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [0,  -30], 0, 0, 0, 0, 0]]]
+    },
+    "200000077": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Lightning by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [0,  -40], 0, 0, 0, 0, 0]]]
+    },
+    "200000078": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Lightning by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [0,  -50], 0, 0, 0, 0, 0]]]
     },
     "200000079": {
         "duration": 10,
