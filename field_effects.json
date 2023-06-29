@@ -1584,5 +1584,20 @@
             ["Increase DEF and SPR by 50%"]
         ],
         "effects_raw": [[0, 0, 1, [0, [50,  50], 0, [50,  50]]]]
+    },
+    "900000016": {
+        "duration": 10,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100%"]
+        ],
+        "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
+    },
+    "900000018": {
+        "duration": -1,
+        "effects": [
+            ["Increase Ice, Wind and Light physical damage by 100 / 0%"],
+            ["Increase Ice, Wind and Light magic damage by 100 / 0%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, [100,  0], 0, 0, [100,  0], 0, [100,  0], 0]], [0, 0, 11, [0, [100,  0], 0, 0, [100,  0], 0, [100,  0], 0]]]
     }
 }
