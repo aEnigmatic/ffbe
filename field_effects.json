@@ -441,6 +441,41 @@
         ],
         "effects_raw": [[0, 0, 11, [0, 0, 0, 0, [100,  100], 0, 0, 0]], [0, 0, 10, [0, 0, 0, 0, [100,  100], 0, 0, 0]]]
     },
+    "100000064": {
+        "duration": 5,
+        "effects": [
+            ["Reduce ATK, DEF, MAG and SPR by 50%"]
+        ],
+        "effects_raw": [[0, 0, 1, [-50,  -50,  -50,  -50]]]
+    },
+    "100000065": {
+        "duration": 5,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 0 / 10%"]
+        ],
+        "effects_raw": [[0, 0, 1, [[0,  10], [0,  10], [0,  10], [0,  10]]]]
+    },
+    "100000066": {
+        "duration": 5,
+        "effects": [
+            ["Reduce ATK, DEF, MAG and SPR by 85%"]
+        ],
+        "effects_raw": [[0, 0, 1, [-85,  -85,  -85,  -85]]]
+    },
+    "100000067": {
+        "duration": 5,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 0 / 5%"]
+        ],
+        "effects_raw": [[0, 0, 1, [[0,  5], [0,  5], [0,  5], [0,  5]]]]
+    },
+    "100000068": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Dark by 75%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [-75,  -75]]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -1744,6 +1779,14 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  -50,  0,  0,  0]]]
     },
+    "200000183": {
+        "duration": 10,
+        "effects": [
+            ["Increase Water physical damage by 35 / 0%"],
+            ["Increase Water magic damage by 35 / 0%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, [35,  0], 0, 0, 0, 0]], [0, 0, 11, [0, 0, 0, [35,  0], 0, 0, 0, 0]]]
+    },
     "200000184": {
         "duration": 10,
         "effects": [
@@ -1757,6 +1800,13 @@
             ["Increase LB damage by 100%"]
         ],
         "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000186": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -50,  0,  0]]]
     },
     "200000187": {
         "duration": 10,
@@ -1779,6 +1829,69 @@
             ["Increase ATK, DEF, MAG and SPR by 100 / 0%"]
         ],
         "effects_raw": [[0, 0, 1, [[100,  0], [100,  0], [100,  0], [100,  0]]]]
+    },
+    "200000190": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Lightning, Water and Earth by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-40,  0,  -40,  -40,  0,  -40,  0,  0]]]
+    },
+    "200000191": {
+        "duration": 1,
+        "effects": [
+            ["Increase Fire, Ice, Lightning and Water physical damage by 40%"],
+            ["Increase Fire, Ice, Lightning and Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  40,  40,  0,  0,  0,  0]], [0, 0, 11, [40,  40,  40,  40,  0,  0,  0,  0]]]
+    },
+    "200000192": {
+        "duration": 2,
+        "effects": [
+            ["Increase Fire, Ice, Lightning and Water physical damage by 40%"],
+            ["Increase Fire, Ice, Lightning and Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  40,  40,  0,  0,  0,  0]], [0, 0, 11, [40,  40,  40,  40,  0,  0,  0,  0]]]
+    },
+    "200000193": {
+        "duration": 3,
+        "effects": [
+            ["Increase Fire, Ice, Lightning and Water physical damage by 40%"],
+            ["Increase Fire, Ice, Lightning and Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  40,  40,  0,  0,  0,  0]], [0, 0, 11, [40,  40,  40,  40,  0,  0,  0,  0]]]
+    },
+    "200000194": {
+        "duration": 4,
+        "effects": [
+            ["Increase Fire, Ice, Lightning and Water physical damage by 40%"],
+            ["Increase Fire, Ice, Lightning and Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  40,  40,  0,  0,  0,  0]], [0, 0, 11, [40,  40,  40,  40,  0,  0,  0,  0]]]
+    },
+    "200000195": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice, Lightning and Water physical damage by 40%"],
+            ["Increase Fire, Ice, Lightning and Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  40,  40,  0,  0,  0,  0]], [0, 0, 11, [40,  40,  40,  40,  0,  0,  0,  0]]]
+    },
+    "200000196": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth physical damage by 30%"],
+            ["Increase Earth magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  30,  0,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  30,  0,  0]]]
+    },
+    "200000197": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth physical damage by 35%"],
+            ["Increase Earth magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  35,  0,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  35,  0,  0]]]
     },
     "900000001": {
         "duration": 3,
