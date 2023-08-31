@@ -7134,5 +7134,373 @@
             "position": [4, 4],
             "cost": {"SP": 100}
         }
+    },
+    "20": {
+        "200001": {
+            "parent_node_id": null,
+            "reward": null,
+            "position": [0, 0],
+            "cost": null
+        },
+        "200002": {
+            "parent_node_id": 200001,
+            "reward": ["MAG", 200],
+            "position": [-1, -1],
+            "cost": {"SP": 20}
+        },
+        "200003": {
+            "parent_node_id": 200001,
+            "reward": ["SPR", 200],
+            "position": [0, -1],
+            "cost": {"SP": 20}
+        },
+        "200004": {
+            "parent_node_id": 200001,
+            "reward": ["MAGIC", 20050],
+            "position": [-1, 0],
+            "cost": {"SP": 10}
+        },
+        "200005": {
+            "parent_node_id": 200001,
+            "reward": ["MAGIC", 20030],
+            "position": [1, 0],
+            "cost": {"SP": 10}
+        },
+        "200006": {
+            "parent_node_id": 200004,
+            "reward": ["MAGIC", 20120],
+            "position": [0, 1],
+            "cost": {"SP": 30}
+        },
+        "200007": {
+            "parent_node_id": 200005,
+            "reward": ["MAGIC", 20100],
+            "position": [1, 1],
+            "cost": {"SP": 30}
+        },
+        "200008": {
+            "parent_node_id": 200011,
+            "reward": ["HP", 600],
+            "position": [-2, -2],
+            "cost": {"SP": 60}
+        },
+        "200009": {
+            "parent_node_id": 200003,
+            "reward": ["MP", 300],
+            "position": [-1, -2],
+            "cost": {"SP": 30}
+        },
+        "200010": {
+            "parent_node_id": 200009,
+            "reward": ["SPR", 400],
+            "position": [0, -2],
+            "cost": {"SP": 45}
+        },
+        "200011": {
+            "parent_node_id": 200002,
+            "reward": ["MAG", 400],
+            "position": [-2, -1],
+            "cost": {"SP": 45}
+        },
+        "200012": {
+            "parent_node_id": 200010,
+            "reward": ["ABILITY", 600721],
+            "position": [1, -1],
+            "cost": {"SP": 150}
+        },
+        "200013": {
+            "parent_node_id": 200011,
+            "reward": ["ABILITY", 620000],
+            "position": [-2, 0],
+            "cost": {"SP": 150}
+        },
+        "200014": {
+            "parent_node_id": 200016,
+            "reward": ["ABILITY", 243590],
+            "position": [2, 0],
+            "cost": {"SP": 75}
+        },
+        "200015": {
+            "parent_node_id": 200017,
+            "reward": ["WindRes", 20],
+            "position": [-1, 1],
+            "cost": {"SP": 150}
+        },
+        "200016": {
+            "parent_node_id": 200019,
+            "reward": ["ABILITY", 231800],
+            "position": [2, 1],
+            "cost": {"SP": 50}
+        },
+        "200017": {
+            "parent_node_id": 200018,
+            "reward": ["ABILITY", 231801],
+            "position": [0, 2],
+            "cost": {"SP": 50}
+        },
+        "200018": {
+            "parent_node_id": 200006,
+            "reward": ["DEF", 400],
+            "position": [1, 2],
+            "cost": {"SP": 40}
+        },
+        "200019": {
+            "parent_node_id": 200007,
+            "reward": ["ATK", 400],
+            "position": [2, 2],
+            "cost": {"SP": 40}
+        },
+        "200020": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-3, -3],
+            "cost": {"SP": 20}
+        },
+        "200021": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-2, -3],
+            "cost": {"SP": 20}
+        },
+        "200022": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-1, -3],
+            "cost": {"SP": 20}
+        },
+        "200023": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [0, -3],
+            "cost": {"SP": 20}
+        },
+        "200024": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-3, -2],
+            "cost": {"SP": 20}
+        },
+        "200025": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [1, -2],
+            "cost": {"SP": 20}
+        },
+        "200026": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-3, -1],
+            "cost": {"SP": 20}
+        },
+        "200027": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [2, -1],
+            "cost": {"SP": 20}
+        },
+        "200028": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-3, 0],
+            "cost": {"SP": 20}
+        },
+        "200029": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [3, 0],
+            "cost": {"SP": 20}
+        },
+        "200030": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-2, 1],
+            "cost": {"SP": 20}
+        },
+        "200031": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [3, 1],
+            "cost": {"SP": 20}
+        },
+        "200032": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [-1, 2],
+            "cost": {"SP": 20}
+        },
+        "200033": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [3, 2],
+            "cost": {"SP": 20}
+        },
+        "200034": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [0, 3],
+            "cost": {"SP": 20}
+        },
+        "200035": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [1, 3],
+            "cost": {"SP": 20}
+        },
+        "200036": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [2, 3],
+            "cost": {"SP": 20}
+        },
+        "200037": {
+            "parent_node_id": null,
+            "reward": ["HP", 20],
+            "position": [3, 3],
+            "cost": {"SP": 20}
+        },
+        "200038": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-4, -3],
+            "cost": {"SP": 30}
+        },
+        "200039": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [1, -3],
+            "cost": {"SP": 30}
+        },
+        "200040": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-4, -2],
+            "cost": {"SP": 30}
+        },
+        "200041": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [2, -2],
+            "cost": {"SP": 30}
+        },
+        "200042": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-4, -1],
+            "cost": {"SP": 30}
+        },
+        "200043": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [3, -1],
+            "cost": {"SP": 30}
+        },
+        "200044": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-4, 0],
+            "cost": {"SP": 30}
+        },
+        "200045": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [4, 0],
+            "cost": {"SP": 30}
+        },
+        "200046": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-3, 1],
+            "cost": {"SP": 30}
+        },
+        "200047": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [4, 1],
+            "cost": {"SP": 30}
+        },
+        "200048": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-2, 2],
+            "cost": {"SP": 30}
+        },
+        "200049": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [4, 2],
+            "cost": {"SP": 30}
+        },
+        "200050": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-1, 3],
+            "cost": {"SP": 30}
+        },
+        "200051": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [4, 3],
+            "cost": {"SP": 30}
+        },
+        "200052": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-4, -4],
+            "cost": {"SP": 30}
+        },
+        "200053": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-3, -4],
+            "cost": {"SP": 30}
+        },
+        "200054": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-2, -4],
+            "cost": {"SP": 30}
+        },
+        "200055": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [-1, -4],
+            "cost": {"SP": 30}
+        },
+        "200056": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [0, -4],
+            "cost": {"SP": 30}
+        },
+        "200057": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [0, 4],
+            "cost": {"SP": 30}
+        },
+        "200058": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [1, 4],
+            "cost": {"SP": 30}
+        },
+        "200059": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [2, 4],
+            "cost": {"SP": 30}
+        },
+        "200060": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [3, 4],
+            "cost": {"SP": 30}
+        },
+        "200061": {
+            "parent_node_id": null,
+            "reward": ["HP", 30],
+            "position": [4, 4],
+            "cost": {"SP": 30}
+        }
     }
 }
