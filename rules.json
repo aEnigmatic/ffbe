@@ -46,6 +46,17 @@
         ],
         "conditions_raw": "1001:1:100000302,1001:0:100000102:100000202:100000403:100000503:100000703:100000603:100000302"
     },
+    "1005": {
+        "id": "1005",
+        "name": "以下のユニットのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", [100025705, 100025727, 100040407, 100040417, 100040507, 100040517, 100035107, 100035117, 100035307, 100035317, 100028305, 100028327, 100030705, 100030727, 100030205, 100030227, 100029305, 100029327, 100028705, 100031205, 100031305], false]
+        ],
+        "conditions_raw": "1001:0:100025705:100025727:100040407:100040417:100040507:100040517:100035107:100035117:100035307:100035317:100028305:100028327:100030705:100030727:100030205:100030227:100029305:100029327:100028705:100031205:100031305"
+    },
     "2001": {
         "id": "2001",
         "name": "レイン、ラスウェル　パーティ編成不可",
@@ -589,6 +600,61 @@
         ],
         "conditions_raw": "11001:101:18533270"
     },
+    "2061": {
+        "id": "2061",
+        "name": "封印されし塔1層の宝箱を全て獲得してクリア",
+        "desc1": "塔1層の宝箱コンプリート",
+        "desc2": "",
+        "desc3": "",
+        "conditions": [
+            ["SWITCH", 20010181, 100]
+        ],
+        "conditions_raw": "11001:100:20010181"
+    },
+    "2062": {
+        "id": "2062",
+        "name": "封印されし塔2層の宝箱を全て獲得してクリア",
+        "desc1": "塔2層の宝箱コンプリート",
+        "desc2": "",
+        "desc3": "",
+        "conditions": [
+            ["SWITCH", 20010182, 100]
+        ],
+        "conditions_raw": "11001:100:20010182"
+    },
+    "2071": {
+        "id": "2071",
+        "name": "7.5周年クイズLV1ゴール到達",
+        "desc1": "7.5周年クイズLV1ゴール到達",
+        "desc2": "",
+        "desc3": "",
+        "conditions": [
+            ["SWITCH", 18030701, 100]
+        ],
+        "conditions_raw": "11001:100:18030701"
+    },
+    "2072": {
+        "id": "2072",
+        "name": "7.5周年クイズLV2ゴール到達",
+        "desc1": "7.5周年クイズLV2ゴール到達",
+        "desc2": "",
+        "desc3": "",
+        "conditions": [
+            ["SWITCH", 18030801, 100]
+        ],
+        "conditions_raw": "11001:100:18030801"
+    },
+    "2073": {
+        "id": "2073",
+        "name": "7.5周年クイズLV3ゴール到達",
+        "desc1": "7.5周年クイズLV3ゴール到達",
+        "desc2": "",
+        "desc3": "",
+        "conditions": [
+            ["SWITCH", 18030901, 100]
+        ],
+        "conditions_raw": "11001:100:18030901"
+    },
     "3001": {
         "id": "3001",
         "name": "セイレーン",
@@ -975,6 +1041,17 @@
         ],
         "conditions_raw": "1003:0:10007"
     },
+    "4009": {
+        "id": "4009",
+        "name": "FFXのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFX",
+        "conditions": [
+            ["GAME_ID", 10010]
+        ],
+        "conditions_raw": "1003:0:10010"
+    },
     "4014": {
         "id": "4014",
         "name": "特定ユニットのみ",
@@ -1088,9 +1165,9 @@
     "4025": {
         "id": "4025",
         "name": "FFIV及びFFIVTAのみ",
-        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
-        "desc2": "指定シリーズユニットのみ",
-        "desc3": "FFIV及びFFIVTA",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": null,
         "conditions": [
             ["GAME_ID", 10004]
         ],
@@ -1099,13 +1176,642 @@
     "4026": {
         "id": "4026",
         "name": "FFVIIIのみ",
-        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
-        "desc2": "指定シリーズユニットのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
         "desc3": "FFVIII",
         "conditions": [
             ["GAME_ID", 10008]
         ],
         "conditions_raw": "1003:0:10008"
+    },
+    "4027": {
+        "id": "4027",
+        "name": "FFIXのみ",
+        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
+        "desc2": "指定シリーズユニットのみ",
+        "desc3": "FFIX",
+        "conditions": [
+            ["GAME_ID", 10009]
+        ],
+        "conditions_raw": "1003:0:10009"
+    },
+    "4028": {
+        "id": "4028",
+        "name": "ゼノギアスのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "MST_GAME_TITLE_NAME_20024",
+        "conditions": [
+            ["GAME_ID", 20024]
+        ],
+        "conditions_raw": "1003:0:20024"
+    },
+    "4029": {
+        "id": "4029",
+        "name": "FFVII及びFFVIIACのみ",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFVII & FFVIIAC",
+        "conditions": [
+            ["GAME_ID", 10007]
+        ],
+        "conditions_raw": "1003:0:10007:11009"
+    },
+    "4030": {
+        "id": "4030",
+        "name": "[FFBE2nd]のみ",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFBE2nd]<br>　<br>※カテゴリはNeo Visionと一部の★7ユニットのみ<br>所持しています。<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。",
+        "conditions": [
+            ["GAME_ID", 11001]
+        ],
+        "conditions_raw": "1003:0:11001"
+    },
+    "4031": {
+        "id": "4031",
+        "name": "[Anniv.Story]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Anniversary (JP)<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000012]]
+        ],
+        "conditions_raw": "1021:0:40000012"
+    },
+    "4032": {
+        "id": "4032",
+        "name": "[氷]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Ice<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000002]]
+        ],
+        "conditions_raw": "1021:0:10000002"
+    },
+    "4033": {
+        "id": "4033",
+        "name": "[雷]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Lightning<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000003]]
+        ],
+        "conditions_raw": "1021:0:10000003"
+    },
+    "4034": {
+        "id": "4034",
+        "name": "[FFBE4th]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE S4<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000004]]
+        ],
+        "conditions_raw": "1021:0:40000004"
+    },
+    "4035": {
+        "id": "4035",
+        "name": "[FFXIのみ]",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFXI<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010011]]
+        ],
+        "conditions_raw": "1021:0:30010011"
+    },
+    "4036": {
+        "id": "4036",
+        "name": "「異世界の強者」または「FFBE4th」",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "「異世界の強者」または「FFBE4th」<br>　<br>※カテゴリはNeo Visionと一部の★7ユニットのみ<br>所持しています。<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。",
+        "conditions": [
+            [1021, [0, 30020001, 40000004]]
+        ],
+        "conditions_raw": "1021:0:30020001:40000004"
+    },
+    "4037": {
+        "id": "4037",
+        "name": "[FFVII]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFVII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010007]]
+        ],
+        "conditions_raw": "1021:0:30010007"
+    },
+    "4038": {
+        "id": "4038",
+        "name": "[FFVIII]のみ（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFVIII]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010008]]
+        ],
+        "conditions_raw": "1021:0:30010008"
+    },
+    "4039": {
+        "id": "4039",
+        "name": "[マナの加護]のみ",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "MST_RULE_UNIT_DES_4039",
+        "conditions": [
+            [1021, [0, 40000016]]
+        ],
+        "conditions_raw": "1021:0:40000016"
+    },
+    "4040": {
+        "id": "4040",
+        "name": "[FFVIII]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFVIII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010008]]
+        ],
+        "conditions_raw": "1021:0:30010008"
+    },
+    "4041": {
+        "id": "4041",
+        "name": "[魔将の系譜]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Dark Lineage<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000013]]
+        ],
+        "conditions_raw": "1021:0:40000013"
+    },
+    "4042": {
+        "id": "4042",
+        "name": "[FF零式]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FF Type-0<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30011003]]
+        ],
+        "conditions_raw": "1021:0:30011003"
+    },
+    "4043": {
+        "id": "4043",
+        "name": "[クリスタルの加護]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Blessing of the Crystals<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000018]]
+        ],
+        "conditions_raw": "1021:0:40000018"
+    },
+    "4044": {
+        "id": "4044",
+        "name": "「風」または「FFII」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Wind or FFII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000005, 30010002]]
+        ],
+        "conditions_raw": "1021:0:10000005:30010002"
+    },
+    "4045": {
+        "id": "4045",
+        "name": "[FFBE4th]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE S4<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000004]]
+        ],
+        "conditions_raw": "1021:0:40000004"
+    },
+    "4046": {
+        "id": "4046",
+        "name": "[FF零式]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FF Type-0<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30011003]]
+        ],
+        "conditions_raw": "1021:0:30011003"
+    },
+    "4047": {
+        "id": "4047",
+        "name": "「風」または「FFIX」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Wind or FFIX<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000005, 30010009]]
+        ],
+        "conditions_raw": "1021:0:10000005:30010009"
+    },
+    "4049": {
+        "id": "4049",
+        "name": "「FFBE幻影戦争」または「クリスタルの加護」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFBE幻影戦争]or[クリスタルの加護]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000021, 40000018]]
+        ],
+        "conditions_raw": "1021:0:40000021:40000018"
+    },
+    "4050": {
+        "id": "4050",
+        "name": "「叛旗を翻す者たち」または「FFVII」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "The Rebellion or FFVII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000019, 30010007]]
+        ],
+        "conditions_raw": "1021:0:40000019:30010007"
+    },
+    "4051": {
+        "id": "4051",
+        "name": "ゼノギアスのみ（同行者込み）",
+        "desc1": "指定内のユニットで編成されたパーティのみ出発可能となります。<br>指定以外のユニットを編成することはできません。",
+        "desc2": "指定シリーズユニットのみ",
+        "desc3": "ゼノギアス",
+        "conditions": [
+            ["GAME_ID", 20024]
+        ],
+        "conditions_raw": "1003:0:20024"
+    },
+    "4052": {
+        "id": "4052",
+        "name": "FFBEのみ（同行者込み）",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFBE",
+        "conditions": [
+            ["GAME_ID", 11001]
+        ],
+        "conditions_raw": "1003:0:11001"
+    },
+    "4053": {
+        "id": "4053",
+        "name": "[FFVII]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFVII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010007]]
+        ],
+        "conditions_raw": "1021:0:30010007"
+    },
+    "4054": {
+        "id": "4054",
+        "name": "以下のユニットのみ（同行者込み）",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Designated units only",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", [100025705, 100025727, 100040407, 100040417, 100040507, 100040517, 100035107, 100035117, 100035307, 100035317, 100028305, 100028327, 100030705, 100030727, 100030205, 100030227, 100029305, 100029327, 100028705, 100031205, 100031305], false]
+        ],
+        "conditions_raw": "1001:0:100025705:100025727:100040407:100040417:100040507:100040517:100035107:100035117:100035307:100035317:100028305:100028327:100030705:100030727:100030205:100030227:100029305:100029327:100028705:100031205:100031305"
+    },
+    "4055": {
+        "id": "4055",
+        "name": "FFVのみ（同行者込み）",
+        "desc1": "You can only depart with a party containing select units.<br>You cannot put any other units in your party.",
+        "desc2": "Units from designated series only",
+        "desc3": "FFV",
+        "conditions": [
+            ["GAME_ID", 10005]
+        ],
+        "conditions_raw": "1003:0:10005"
+    },
+    "4056": {
+        "id": "4056",
+        "name": "[FFBE2nd]のみ（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFBE2nd]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000002]]
+        ],
+        "conditions_raw": "1021:0:40000002"
+    },
+    "4057": {
+        "id": "4057",
+        "name": "[Anniv.Story]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[Anniv.Story]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000012]]
+        ],
+        "conditions_raw": "1021:0:40000012"
+    },
+    "4058": {
+        "id": "4058",
+        "name": "[氷]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[氷]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 10000002]]
+        ],
+        "conditions_raw": "1021:0:10000002"
+    },
+    "4059": {
+        "id": "4059",
+        "name": "[雷]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[雷]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 10000003]]
+        ],
+        "conditions_raw": "1021:0:10000003"
+    },
+    "4060": {
+        "id": "4060",
+        "name": "[FFBE4th]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE S4<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000004]]
+        ],
+        "conditions_raw": "1021:0:40000004"
+    },
+    "4061": {
+        "id": "4061",
+        "name": "[FFXIのみ]（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[FFXI]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010011]]
+        ],
+        "conditions_raw": "1021:0:30010011"
+    },
+    "4062": {
+        "id": "4062",
+        "name": "[マナの加護]のみ（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[マナの加護]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000016]]
+        ],
+        "conditions_raw": "1021:0:40000016"
+    },
+    "4063": {
+        "id": "4063",
+        "name": "[FFVIII]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFVIII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010008]]
+        ],
+        "conditions_raw": "1021:0:30010008"
+    },
+    "4064": {
+        "id": "4064",
+        "name": "[魔将の系譜]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[魔将の系譜]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000013]]
+        ],
+        "conditions_raw": "1021:0:40000013"
+    },
+    "4065": {
+        "id": "4065",
+        "name": "[クリスタルの加護]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "[クリスタルの加護]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000018]]
+        ],
+        "conditions_raw": "1021:0:40000018"
+    },
+    "4066": {
+        "id": "4066",
+        "name": "[FFIX]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFIX<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010009]]
+        ],
+        "conditions_raw": "1021:0:30010009"
+    },
+    "4067": {
+        "id": "4067",
+        "name": "[絆]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Bonds<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000020]]
+        ],
+        "conditions_raw": "1021:0:40000020"
+    },
+    "4068": {
+        "id": "4068",
+        "name": "「FFVI」または「叛旗を翻す者たち」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[叛旗を翻す者たち] or [FFVI]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010006, 40000019]]
+        ],
+        "conditions_raw": "1021:0:30010006:40000019"
+    },
+    "4069": {
+        "id": "4069",
+        "name": "「絆」または「闇」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[絆] or [闇]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000020, 10000008]]
+        ],
+        "conditions_raw": "1021:0:40000020:10000008"
+    },
+    "4070": {
+        "id": "4070",
+        "name": "「FFBE3rd」または「叛旗を翻す者たち」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[叛旗を翻す者たち] or [FFBE3rd]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000003, 40000019]]
+        ],
+        "conditions_raw": "1021:0:40000003:40000019"
+    },
+    "4071": {
+        "id": "4071",
+        "name": "「FFXIII」または「雷」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFXIII] or [雷]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010013, 10000003]]
+        ],
+        "conditions_raw": "1021:0:30010013:10000003"
+    },
+    "4072": {
+        "id": "4072",
+        "name": "[FFXIII]のみ（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFXIII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010013]]
+        ],
+        "conditions_raw": "1021:0:30010013"
+    },
+    "4073": {
+        "id": "4073",
+        "name": "[FFXIII]のみ",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFXIII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010013]]
+        ],
+        "conditions_raw": "1021:0:30010013"
+    },
+    "4074": {
+        "id": "4074",
+        "name": "「水」または「FFX」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Water or FFX<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000004, 30010010]]
+        ],
+        "conditions_raw": "1021:0:10000004:30010010"
+    },
+    "4075": {
+        "id": "4075",
+        "name": "「召喚」または「Anniv.Story」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Evocation or Anniversary (JP)<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000014, 40000012]]
+        ],
+        "conditions_raw": "1021:0:40000014:40000012"
+    },
+    "4076": {
+        "id": "4076",
+        "name": "「召喚」または「FFIV」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Evocation or FFIV<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000014, 30010004]]
+        ],
+        "conditions_raw": "1021:0:40000014:30010004"
+    },
+    "4077": {
+        "id": "4077",
+        "name": "「Anniv.Story」または「氷」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Anniversary (JP) or Ice<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 10000002, 40000012]]
+        ],
+        "conditions_raw": "1021:0:10000002:40000012"
+    },
+    "4078": {
+        "id": "4078",
+        "name": "「光」または「FFX」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[光]or[FFX]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010010, 10000007]]
+        ],
+        "conditions_raw": "1021:0:30010010:10000007"
+    },
+    "4079": {
+        "id": "4079",
+        "name": "[FFⅢ]のみ（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[FFIII]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 30010003]]
+        ],
+        "conditions_raw": "1021:0:30010003"
+    },
+    "4080": {
+        "id": "4080",
+        "name": "「火」または「FFI」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[火] or [FFI]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 10000001, 30010001]]
+        ],
+        "conditions_raw": "1021:0:10000001:30010001"
+    },
+    "4081": {
+        "id": "4081",
+        "name": "「叛旗を翻す者たち」または「FFII」（同行者込み）",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "指定カテゴリ所持ユニットのみ",
+        "desc3": "[叛旗を翻す者たち] or [FFII]<br>　<br>※カテゴリ所持ユニットはソートフィルターの<br>カテゴリフィルターを使用してご確認ください。<br>※一部ユニットは、カテゴリを所持していない<br>場合がございます。",
+        "conditions": [
+            [1021, [0, 40000019, 30010002]]
+        ],
+        "conditions_raw": "1021:0:40000019:30010002"
+    },
+    "4082": {
+        "id": "4082",
+        "name": "「クリスタルの加護」または「FFIII」（同行者込み）",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "Blessing of the Crystals or FFIII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 40000018, 30010003]]
+        ],
+        "conditions_raw": "1021:0:40000018:30010003"
+    },
+    "4501": {
+        "id": "4501",
+        "name": "ダークビジョンズアビス一部ユニット制限",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "・指定ユニットの編成禁止<br>・指定装備品、アビリティ、<br>　ビジョンカードの装備禁止<br><param=point>",
+        "desc3": "",
+        "conditions": [
+            [14001, [346000107]],
+            [14002, [346000101]]
+        ],
+        "conditions_raw": "14001:346000107,14002:346000101"
+    },
+    "4502": {
+        "id": "4502",
+        "name": "ダークビジョンズアビス一部ユニット制限",
+        "desc1": "下記の条件を満たしているパーティで出発可能になります。",
+        "desc2": "・指定ユニットの編成禁止<br>・指定装備品、アビリティ、<br>　ビジョンカードの装備禁止<br><param=point>",
+        "desc3": "",
+        "conditions": [
+            [14001, [339000707]],
+            [14002, [339000201]]
+        ],
+        "conditions_raw": "14001:339000707,14002:339000201"
     },
     "5001": {
         "id": "5001",
@@ -1441,7 +2147,7 @@
     "7204": {
         "id": "7204",
         "name": "【シリーズ】FF4",
-        "desc1": "【シリーズ】FF4だったら有効",
+        "desc1": "Activated for FFIV units",
         "desc2": "【シリーズ】FF4に設定する",
         "desc3": "",
         "conditions": [
@@ -2071,16 +2777,50 @@
     },
     "7274": {
         "id": "7274",
-        "name": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3",
-        "desc1": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3だったら有効",
-        "desc2": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3に設定する",
+        "name": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3or聖剣伝説LoM",
+        "desc1": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3or聖剣伝説LoMだったら有効",
+        "desc2": "【シリーズ】聖剣伝説or聖剣伝説2or聖剣伝説3or聖剣伝説LoMに設定する",
         "desc3": "",
         "conditions": [
             ["GAME_ID", 20011],
             ["GAME_ID", 20005],
-            ["GAME_ID", 20012]
+            ["GAME_ID", 20012],
+            ["GAME_ID", 20035]
         ],
-        "conditions_raw": "1003:0:20011@1003:0:20005@1003:0:20012"
+        "conditions_raw": "1003:0:20011@1003:0:20005@1003:0:20012@1003:0:20035"
+    },
+    "7275": {
+        "id": "7275",
+        "name": "【シリーズ】アクトレイザー・ルネサンス",
+        "desc1": "【シリーズ】アクトレイザー・ルネサンスだったら有効",
+        "desc2": "【シリーズアクトレイザー・ルネサンスに設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20036]
+        ],
+        "conditions_raw": "1003:0:20036"
+    },
+    "7276": {
+        "id": "7276",
+        "name": "【シリーズ】ダイの大冒険",
+        "desc1": "【シリーズ】ダイの大冒険だったら有効",
+        "desc2": "【シリーズ】ダイの大冒険に設定する",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20037]
+        ],
+        "conditions_raw": "1003:0:20037"
+    },
+    "7277": {
+        "id": "7277",
+        "name": "【シリーズ】クロノ・クロス",
+        "desc1": "Activated for Chrono Cross units",
+        "desc2": "Equip on a Chrono Cross unit",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 20038]
+        ],
+        "conditions_raw": "1003:0:20038"
     },
     "7301": {
         "id": "7301",
@@ -2294,6 +3034,18 @@
         ],
         "conditions_raw": "1001:1:100031507@1001:1:100031517"
     },
+    "7402": {
+        "id": "7402",
+        "name": "【ユニット】魔人フィーナ -武神参詣-",
+        "desc1": "【ユニット】魔人フィーナ -武神参詣-だったら有効",
+        "desc2": "【ユニット】魔人フィーナ -武神参詣-に設定する",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", [100039407], true],
+            ["UNIT_ID", [100039417], true]
+        ],
+        "conditions_raw": "1001:1:100039407@1001:1:100039417"
+    },
     "7501": {
         "id": "7501",
         "name": "【ユニット】FFBE 4thシーズン",
@@ -2316,6 +3068,237 @@
             ["RARITY", 7]
         ],
         "conditions_raw": "1009:0:7"
+    },
+    "7701": {
+        "id": "7701",
+        "name": "【カテゴリ】火",
+        "desc1": "【カテゴリ】火だったら有効",
+        "desc2": "【カテゴリ】火に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000001]]
+        ],
+        "conditions_raw": "1021:0:10000001"
+    },
+    "7702": {
+        "id": "7702",
+        "name": "【カテゴリ】氷",
+        "desc1": "【カテゴリ】氷だったら有効",
+        "desc2": "【カテゴリ】氷に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000002]]
+        ],
+        "conditions_raw": "1021:0:10000002"
+    },
+    "7703": {
+        "id": "7703",
+        "name": "【カテゴリ】雷",
+        "desc1": "【カテゴリ】雷だったら有効",
+        "desc2": "【カテゴリ】雷に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000003]]
+        ],
+        "conditions_raw": "1021:0:10000003"
+    },
+    "7704": {
+        "id": "7704",
+        "name": "【カテゴリ】水",
+        "desc1": "【カテゴリ】水だったら有効",
+        "desc2": "【カテゴリ】水に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000004]]
+        ],
+        "conditions_raw": "1021:0:10000004"
+    },
+    "7705": {
+        "id": "7705",
+        "name": "【カテゴリ】風",
+        "desc1": "【カテゴリ】風だったら有効",
+        "desc2": "【カテゴリ】風に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000005]]
+        ],
+        "conditions_raw": "1021:0:10000005"
+    },
+    "7706": {
+        "id": "7706",
+        "name": "【カテゴリ】土",
+        "desc1": "【カテゴリ】土だったら有効",
+        "desc2": "【カテゴリ】土に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000006]]
+        ],
+        "conditions_raw": "1021:0:10000006"
+    },
+    "7707": {
+        "id": "7707",
+        "name": "【カテゴリ】光",
+        "desc1": "【カテゴリ】光だったら有効",
+        "desc2": "【カテゴリ】光に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000007]]
+        ],
+        "conditions_raw": "1021:0:10000007"
+    },
+    "7708": {
+        "id": "7708",
+        "name": "【カテゴリ】闇",
+        "desc1": "【カテゴリ】闇だったら有効",
+        "desc2": "【カテゴリ】闇に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 10000008]]
+        ],
+        "conditions_raw": "1021:0:10000008"
+    },
+    "7901": {
+        "id": "7901",
+        "name": "【カテゴリ】FFI",
+        "desc1": "【カテゴリ】FFIだったら有効",
+        "desc2": "【カテゴリ】FFIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010001]]
+        ],
+        "conditions_raw": "1021:0:30010001"
+    },
+    "7902": {
+        "id": "7902",
+        "name": "【カテゴリ】FFII",
+        "desc1": "【カテゴリ】FFIIだったら有効",
+        "desc2": "【カテゴリ】FFIIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010002]]
+        ],
+        "conditions_raw": "1021:0:30010002"
+    },
+    "7903": {
+        "id": "7903",
+        "name": "【カテゴリ】FFIII",
+        "desc1": "【カテゴリ】FFIIIだったら有効",
+        "desc2": "【カテゴリ】FFIIIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010003]]
+        ],
+        "conditions_raw": "1021:0:30010003"
+    },
+    "7907": {
+        "id": "7907",
+        "name": "【カテゴリ】FFVII",
+        "desc1": "【カテゴリ】FFVIIだったら有効",
+        "desc2": "【カテゴリ】FFVIIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010007]]
+        ],
+        "conditions_raw": "1021:0:30010007"
+    },
+    "7908": {
+        "id": "7908",
+        "name": "【カテゴリ】FFVIII",
+        "desc1": "【カテゴリ】FFVIIIだったら有効",
+        "desc2": "【カテゴリ】FFVIIIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010008]]
+        ],
+        "conditions_raw": "1021:0:30010008"
+    },
+    "7909": {
+        "id": "7909",
+        "name": "【カテゴリ】FFIX",
+        "desc1": "【カテゴリ】FFIXだったら有効",
+        "desc2": "【カテゴリ】FFIXに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010009]]
+        ],
+        "conditions_raw": "1021:0:30010009"
+    },
+    "7913": {
+        "id": "7913",
+        "name": "【カテゴリ】FFXIII",
+        "desc1": "【カテゴリ】FFXIIIだったら有効",
+        "desc2": "【カテゴリ】FFXIIIに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30010013]]
+        ],
+        "conditions_raw": "1021:0:30010013"
+    },
+    "7933": {
+        "id": "7933",
+        "name": "【カテゴリ】FF零式",
+        "desc1": "【カテゴリ】FF零式だったら有効",
+        "desc2": "【カテゴリ】FF零式に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 30011003]]
+        ],
+        "conditions_raw": "1021:0:30011003"
+    },
+    "7952": {
+        "id": "7952",
+        "name": "【カテゴリ】FFBE 幻影戦争",
+        "desc1": "【カテゴリ】FFBE 幻影戦争だったら有効",
+        "desc2": "【カテゴリ】FFBE 幻影戦争に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 40000021]]
+        ],
+        "conditions_raw": "1021:0:40000021"
+    },
+    "8014": {
+        "id": "8014",
+        "name": "【カテゴリ】叛旗を翻す者たち",
+        "desc1": "【カテゴリ】叛旗を翻す者たちだったら有効",
+        "desc2": "【カテゴリ】叛旗を翻す者たちに設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 40000019]]
+        ],
+        "conditions_raw": "1021:0:40000019"
+    },
+    "8015": {
+        "id": "8015",
+        "name": "【カテゴリ】召喚",
+        "desc1": "【カテゴリ】召喚だったら有効",
+        "desc2": "【カテゴリ】召喚に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 40000014]]
+        ],
+        "conditions_raw": "1021:0:40000014"
+    },
+    "8016": {
+        "id": "8016",
+        "name": "【カテゴリ】ヘスの血脈",
+        "desc1": "【カテゴリ】ヘスの血脈だったら有効",
+        "desc2": "【カテゴリ】ヘスの血脈に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 40000022]]
+        ],
+        "conditions_raw": "1021:0:40000022"
+    },
+    "8017": {
+        "id": "8017",
+        "name": "【カテゴリ】クリスタルの加護",
+        "desc1": "【カテゴリ】クリスタルの加護だったら有効",
+        "desc2": "【カテゴリ】クリスタルの加護に設定する",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 40000018]]
+        ],
+        "conditions_raw": "1021:0:40000018"
     },
     "9001": {
         "id": "9001",
@@ -2449,6 +3432,17 @@
         ],
         "conditions_raw": "12002:20:1209001182:1"
     },
+    "9056": {
+        "id": "9056",
+        "name": "test1",
+        "desc1": "In order to proceed on this quest, a <color=255:255:0>special item</color> is required.<br><br><br><color=255:165:0>Required Item</color><br><param=item1> x<param=require_num1>",
+        "desc2": "<param=item1> x<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 1209001876, 1]]
+        ],
+        "conditions_raw": "12001:20:1209001876:1"
+    },
     "9501": {
         "id": "9501",
         "name": "【シリーズ】FFBEorFFBE幻影戦争",
@@ -2471,6 +3465,128 @@
             ["GAME_ID", 90008]
         ],
         "conditions_raw": "1003:0:90008"
+    },
+    "9503": {
+        "id": "9503",
+        "name": "Category Clash of Wills",
+        "desc1": "Category Clash of Wills",
+        "desc2": "Category Clash of Wills",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 90000001]]
+        ],
+        "conditions_raw": "1021:0:90000001"
+    },
+    "9505": {
+        "id": "9505",
+        "name": "Series Addison Rae",
+        "desc1": "Series Addison Rae",
+        "desc2": "Series Addison Rae",
+        "desc3": "",
+        "conditions": [
+            ["GAME_ID", 90009]
+        ],
+        "conditions_raw": "1003:0:90009"
+    },
+    "9507": {
+        "id": "9507",
+        "name": "FFBE Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30011001]]
+        ],
+        "conditions_raw": "1021:0:30011001"
+    },
+    "9508": {
+        "id": "9508",
+        "name": "FFBE or FFBE S4 Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE or FFBE S4<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30011001, 40000004]]
+        ],
+        "conditions_raw": "1021:0:30011001:40000004"
+    },
+    "9509": {
+        "id": "9509",
+        "name": "FFBE or FFBE S3 Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFBE or FFBE S3<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30011001, 40000003]]
+        ],
+        "conditions_raw": "1021:0:30011001:40000003"
+    },
+    "9510": {
+        "id": "9510",
+        "name": "FFIV Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFIV<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010004]]
+        ],
+        "conditions_raw": "1021:0:30010004"
+    },
+    "9511": {
+        "id": "9511",
+        "name": "FFV Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFV<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010005]]
+        ],
+        "conditions_raw": "1021:0:30010005"
+    },
+    "9512": {
+        "id": "9512",
+        "name": "FFVI Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFVI<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010006]]
+        ],
+        "conditions_raw": "1021:0:30010006"
+    },
+    "9513": {
+        "id": "9513",
+        "name": "FFX Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFX<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010010]]
+        ],
+        "conditions_raw": "1021:0:30010010"
+    },
+    "9514": {
+        "id": "9514",
+        "name": "FFXII Unit Category Only",
+        "desc1": "You can only depart with a party containing units that meet the following conditions:",
+        "desc2": "Units that meet certain conditions only",
+        "desc3": "FFXII<br><br>*Unit categories can be confirmed via the Category Filter tab.<br>*Certain units may not fall under any category.",
+        "conditions": [
+            [1021, [0, 30010012]]
+        ],
+        "conditions_raw": "1021:0:30010012"
+    },
+    "9516": {
+        "id": "9516",
+        "name": "Guardian of the Underworld Chow only",
+        "desc1": "Guardian of the Underworld Chow only",
+        "desc2": "Guardian of the Underworld Chow only",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", [401015507], true],
+            ["UNIT_ID", [401015517], true]
+        ],
+        "conditions_raw": "1001:1:401015507@1001:1:401015517"
     },
     "9812": {
         "id": "9812",
@@ -2713,6 +3829,50 @@
             ["FIXED_PARTY", 2022]
         ],
         "conditions_raw": "1014:2022"
+    },
+    "10001": {
+        "id": "10001",
+        "name": "赤閃の鍵",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 500000001, 1]]
+        ],
+        "conditions_raw": "12001:20:500000001:1"
+    },
+    "10002": {
+        "id": "10002",
+        "name": "黄閃の鍵",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 500000002, 1]]
+        ],
+        "conditions_raw": "12001:20:500000002:1"
+    },
+    "10003": {
+        "id": "10003",
+        "name": "緑閃の鍵",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 500000003, 1]]
+        ],
+        "conditions_raw": "12001:20:500000003:1"
+    },
+    "10004": {
+        "id": "10004",
+        "name": "青閃の鍵",
+        "desc1": "このクエストに進むには、体力とは別に<color=255:255:0>専用アイテム</color>が必要となります。<br><br>　<br><color=255:165:0>【必要アイテム】</color><br><param=item1>　<param=require_num1>個",
+        "desc2": "<param=item1>ｘ<param=require_num1>",
+        "desc3": "",
+        "conditions": [
+            ["ITEM_COST", [20, 500000004, 1]]
+        ],
+        "conditions_raw": "12001:20:500000004:1"
     },
     "10410101": {
         "id": "10410101",
