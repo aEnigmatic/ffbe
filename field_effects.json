@@ -2250,5 +2250,22 @@
             ["Reduce resistance to Water and Light by 25%"]
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  0,  -25,  0,  0,  -25,  0]]]
+    },
+    "900000026": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice by 30% and Fire by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-40,  -30,  0,  0,  0,  0,  0,  0]]]
+    },
+    "900000027": {
+        "duration": 5,
+        "effects": [
+            ["Physical damage (9.1x, ATK) to all enemies"],
+            ["Inflict Stop (40%) for 3 turns on all enemies"],
+            ["Reduce DEF by 45% for 3 turns to all enemies"],
+            ["Restore 100% HP to caster"]
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  910,  0]], [2, 1, 88, [40,  3]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]], [0, 3, 26, [100,  100,  100]]]
     }
 }

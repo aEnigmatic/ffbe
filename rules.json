@@ -3686,6 +3686,17 @@
         ],
         "conditions_raw": "1021:0:30010012"
     },
+    "9515": {
+        "id": "9515",
+        "name": "Category CW Fire",
+        "desc1": "Category CW Fire",
+        "desc2": "Category CW Fire",
+        "desc3": "",
+        "conditions": [
+            [1021, [0, 90000002]]
+        ],
+        "conditions_raw": "1021:0:90000002"
+    },
     "9516": {
         "id": "9516",
         "name": "Guardian of the Underworld Chow only",
@@ -3697,6 +3708,20 @@
             ["UNIT_ID", [401015517], true]
         ],
         "conditions_raw": "1001:1:401015507@1001:1:401015517"
+    },
+    "9517": {
+        "id": "9517",
+        "name": "Hyoh & Panthera Ultimus and Solitary Warrior Veritas of the Frost only",
+        "desc1": "Hyoh & Panthera Ultimus and Solitary Warrior Veritas of the Frost only",
+        "desc2": "Hyoh & Panthera Ultimus and Solitary Warrior Veritas of the Frost only",
+        "desc3": "",
+        "conditions": [
+            ["UNIT_ID", [401015607], true],
+            ["UNIT_ID", [401015617], true],
+            ["UNIT_ID", [401015707], true],
+            ["UNIT_ID", [401015717], true]
+        ],
+        "conditions_raw": "1001:1:401015607@1001:1:401015617@1001:1:401015707@1001:1:401015717"
     },
     "9812": {
         "id": "9812",
