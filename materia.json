@@ -8951,24 +8951,24 @@
         "strings": {
             "names": ["The Subservient", "被利用者", "이용당한 자", "Le subordonné", "Der Manipulierte", "El subsirviente", "Orang yang Dimanfaatkan", "ผู้\u001aถูก\u001aหลอก\u001aใช้\u001a"],
             "desc_short": [
-                "Damage caster every turn and boost ATK by 80% (Not stackable)",
-                "每回合對自身造成傷害+提高80%攻擊 [無法重複裝備]",
-                "매 턴마다 자신에게 피해+공격력 80% 상승 (중복 장착 불가)",
-                "Inflige des dégâts au lanceur à chaque tour et augmente l'ATT de 80% (non cumulable)",
-                "Fügt dem Benutzer jede Runde Schaden zu und erhöht seinen ANG um 80% (Nicht stapelbar).",
-                "Daña al usuario cada turno y aumenta el ATQ un 80% (no acumulable)",
-                "Meningkatkan ATK sebanyak 80% dan memberikan damage pada diri sendiri setiap giliran (Tidak dapat ditumpuk)",
-                "สร้าง\u001aความเสียหาย\u001aให้\u001aตัวเอง\u001aใน\u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001a80% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "Boost ATK and MAG by 100% (Not stackable)",
+                "提高100%攻擊魔力[無法重複裝備]",
+                "공격력과 마력 100% 상승(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 100 % (non cumulable)",
+                "Erhöht ANG und MAG um 100% (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 100% (no acumulable)",
+                "Boost ATK and MAG by 100% (Not stackable)",
+                "Boost\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a100% (Not\u001a \u001astackable\u001a)\u001a"
             ],
             "desc_long": [
-                "Damages caster every turn and boosts ATK by 80%. Not stackable.",
-                "每回合對自身造成傷害，並提高80%攻擊。[無法重複裝備]",
-                "매 턴마다 자신에게 피해를 주고, 공격력이 80% 상승합니다. (중복 장착 불가)",
-                "Inflige des dégâts au lanceur à chaque tour et augmente l'ATT de 80%. Non cumulable.",
-                "Fügt dem Benutzer jede Runde Schaden zu und erhöht seinen ANG um 80% (nicht stapelbar).",
-                "Daña al usuario cada turno y aumenta el ATQ un 80%. No acumulable.",
-                "Meningkatkan ATK sebanyak 80% dan memberikan damage pada diri sendiri setiap giliran. Tidak dapat ditumpuk.",
-                "สร้าง\u001aความเสียหาย\u001aให้\u001aตัวเอง\u001aใน\u001aทุก\u001aเทิร์น\u001a \u001a+\u001a \u001aเพิ่มค่า\u001a \u001aATK\u001a \u001a80% \u001a(ผล\u001aที่เกิด\u001aไม่\u001aสามารถ\u001aทับซ้อน\u001aกัน\u001aได้\u001a)\u001a"
+                "Boosts ATK and MAG by 100%. Not stackable.",
+                "提高100%攻擊魔力。[無法重複裝備]",
+                "공격력과 마력이 100% 상승합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 100 %. Non cumulable.",
+                "Erhöht ANG und MAG um 100%. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 100%. No acumulable.",
+                "Boosts ATK and MAG by 100%. Not stackable.",
+                "Boosts\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a100%. Not\u001a \u001astackable\u001a.\u001a"
             ]
         }
     },
@@ -29226,20 +29226,38 @@
         }
     },
     "504244746": {
-        "name": "ベオルブ家の剣術",
+        "name": "House Beoulve Swordsmanship",
         "compendium_id": 1561,
         "compendium_shown": true,
         "requirements": null,
         "skills": [244746],
-        "effects": ["Grant 'ベオルブ家の剣術' passive"],
-        "unique": false,
+        "effects": ["Grant 'House Beoulve Swordsmanship' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["House Beoulve Swordsmanship", "貝歐魯布家家傳劍術", "베올브 가문의 검술", "Épéiste de la Maison Béoulve", "Schwertkunst des Hauses Beoulve", "Esgrima de la Casa Beoulve", "House Beoulve Swordsmanship", "House\u001a \u001aBeoulve\u001a \u001aSwordsmanship\u001a"],
+            "desc_short": [
+                "Boost ATK and MAG by 50% and fill LB gauge by 400 every turn (Not stackable)",
+                "提高50%攻擊魔力+每回合增加400極限技槽[無法重複裝備]",
+                "공격력과 마력 50% 상승+매 턴마다 LB 게이지 400 증가(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 50 % et remplit la jauge de limite de 400 à chaque tour (non cumulable)",
+                "Erhöht ANG und MAG um 50% und füllt jede Runde Limitmeter um 400 (nicht stapelbar).",
+                "Aumenta el ATQ y la MAG un 50% y rellena la barra de EL en 400 cada turno (no acumulable)",
+                "Boost ATK and MAG by 50% and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a50% and\u001a \u001afill\u001a \u001aLB\u001a \u001agauge\u001a \u001aby\u001a \u001a400\u001a \u001aevery\u001a \u001aturn\u001a \u001a(\u001aNot\u001a \u001astackable\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK and MAG by 50% and fills LB gauge by 400 every turn. Not stackable.",
+                "提高50%攻擊魔力，以及每回合增加400極限技槽。[無法重複裝備]",
+                "공격력과 마력이 50% 상승하고, 매 턴마다 LB 게이지가 400 증가합니다.(중복 장착 불가)",
+                "Augmente l'ATT et la MAGIE de 50 % et remplit la jauge de limite de 400 à chaque tour. Non cumulable.",
+                "Erhöht ANG und MAG um 50% und füllt jede Runde Limitmeter um 400. Nicht stapelbar.",
+                "Aumenta el ATQ y la MAG un 50% y rellena la barra de EL en 400 cada turno. No acumulable.",
+                "Boosts ATK and MAG by 50% and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a50% and\u001a \u001afills\u001a \u001aLB\u001a \u001agauge\u001a \u001aby\u001a \u001a400\u001a \u001aevery\u001a \u001aturn\u001a.\u001a \u001aNot\u001a \u001astackable\u001a.\u001a"
+            ]
         }
     },
     "504244765": {
