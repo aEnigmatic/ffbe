@@ -3954,7 +3954,7 @@
         "price_sell": 3000,
         "icon": "ability_63.png",
         "strings": {
-            "names": ["Mana", "瑪娜", "마나", "Mana", "Mana", "Mana", "Mana", "Mana\u001a"],
+            "names": ["Mana", "瑪那", "마나", "Mana", "Mana", "Mana", "Mana", "Mana\u001a"],
             "desc_short": [
                 "Boost ATK for one ally (Primm and Popoi only)",
                 "提高1名隊員的攻擊 [普利姆・波波伊專用]",
@@ -3980,7 +3980,7 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Mana's Protection", "瑪娜的加護", "마나의 가호", "Égide de Mana", "Beistand des Mana", "Custodia de Mana", "Perlindungan Mana", "การปกป้อง\u001aแห่ง\u001aมา\u001aนา\u001a"],
+            "names": ["Mana's Protection", "瑪那的加護", "마나의 가호", "Égide de Mana", "Beistand des Mana", "Custodia de Mana", "Perlindungan Mana", "การปกป้อง\u001aแห่ง\u001aมา\u001aนา\u001a"],
             "desc_short": ["Boost MP by +5% and DEF by 10%", "提高5%MP、10%防禦", "MP 5%, 방어력 10% 상승", "Augmente les PM de 5% et la DEF de 10%", "Erhöht MP um 5%, ABW um 10%", "Aumenta los PM un 5% y la DEF un 10%", "Meningkatkan MP sebanyak 5% dan DEF sebanyak 10%", "เพิ่มค่า\u001a \u001aMP\u001a \u001a5% และเพิ่มค่า DEF\u001a \u001a10%"],
             "desc_long": ["Boosts MP by 5% and DEF by 10%.", "提高5%MP、10%防禦。", "MP가 5%, 방어력이 10% 상승합니다.", "Augmente les PM de 5% et la DEF de 10%.", "Erhöht MP um 5% und ABW um 10%.", "Aumenta los PM un 5% y la DEF un 10%", "Meningkatkan MP sebanyak 5% dan DEF sebanyak 10%.", "เพิ่มค่า\u001a \u001aMP\u001a \u001a5% และเพิ่มค่า DEF\u001a \u001a10%"]
         }
@@ -3997,7 +3997,7 @@
         "price_sell": 1500,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Mana's Blessing", "瑪娜的祝福", "마나의 축복", "Bénédiction de Mana", "Segen des Mana", "Bendición de Mana", "Berkah Mana", "มา\u001aนา\u001aอำนวยพร\u001a"],
+            "names": ["Mana's Blessing", "瑪那的祝福", "마나의 축복", "Bénédiction de Mana", "Segen des Mana", "Bendición de Mana", "Berkah Mana", "มา\u001aนา\u001aอำนวยพร\u001a"],
             "desc_short": ["Boost HP by +5% and SPR by 10%", "提高5%HP、10%精神", "HP 5%, 정신력 10% 상승", "Augmente les PV de 5% et la PSY de 10%", "Erhöht LP um 5%, PSY um 10%", "Aumenta la VIT un 5% y el ESP un 10%", "Meningkatkan HP sebanyak 5% dan SPR sebanyak 10%", "เพิ่มค่า\u001a \u001aHP\u001a \u001a5% \u001aและ\u001aเพิ่มค่า\u001a \u001aSPR\u001a \u001a10%"],
             "desc_long": ["Boosts HP by 5% and SPR by 10%.", "提高5%HP、10%精神。", "HP가 5%, 정신력이 10% 상승합니다.", "Augmente les PV de 5% et la PSY de 10%.", "Erhöht LP um 5% und PSY um 10%.", "Aumenta la VIT un 5% y el ESP un 10%", "Meningkatkan HP sebanyak 5% dan SPR sebanyak 10%.", "เพิ่มค่า\u001a \u001aHP\u001a \u001a5% \u001aและ\u001aเพิ่มค่า\u001a \u001aSPR\u001a \u001a0%"]
         }
@@ -10660,7 +10660,7 @@
         "price_sell": 20000,
         "icon": "ability_77.png",
         "strings": {
-            "names": ["Secret of Mana", "瑪娜的秘密", "시크릿 오브 마나", "Secret de Mana", "Das Geheimnis des Mana", "Secret of Mana", "Rahasia Mana", "Secret\u001a \u001aof\u001a \u001aMana\u001a"],
+            "names": ["Secret of Mana", "瑪那的秘密", "시크릿 오브 마나", "Secret de Mana", "Das Geheimnis des Mana", "Secret of Mana", "Rahasia Mana", "Secret\u001a \u001aof\u001a \u001aMana\u001a"],
             "desc_short": [
                 "Boost ATK by 60%, HP and MP by 15%, parameters when setting an esper by 30%, and ATK by 20% when equipped with a sword (Not stackable)",
                 "提高60%攻擊、15%HPMP+提高30%設定幻獸時反映在兵員身上的狀態數值+裝備劍時提高20%攻擊[無法重複裝備]",
@@ -29382,20 +29382,38 @@
         }
     },
     "504244812": {
-        "name": "機械のエキスパート",
+        "name": "Meister of Machinery",
         "compendium_id": 1567,
         "compendium_shown": true,
         "requirements": null,
         "skills": [244812],
-        "effects": ["Grant '機械のエキスパート' passive"],
-        "unique": false,
+        "effects": ["Grant 'Meister of Machinery' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Meister of Machinery", "機械專家", "Meister of Machinery", "Meister of Machinery", "Meister of Machinery", "Meister of Machinery", "Meister of Machinery", "Meister\u001a \u001aof\u001a \u001aMachinery\u001a"],
+            "desc_short": [
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "物理、魔法攻擊時提高50%對機械系魔物的傷害+每回合增加400極限技槽[無法重複裝備]",
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost physical and magic damage against machina monsters by 50%, and fill LB gauge by 400 every turn (Not stackable)",
+                "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001amachina\u001a \u001amonsters\u001a \u001aby\u001a \u001a50%, and\u001a \u001afill\u001a \u001aLB\u001a \u001agauge\u001a \u001aby\u001a \u001a400\u001a \u001aevery\u001a \u001aturn\u001a \u001a(\u001aNot\u001a \u001astackable\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "物理、魔法攻擊時提高50%對機械系魔物的傷害，並且每回合增加400極限技槽。[無法重複裝備]",
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts physical and magic damage against machina monsters by 50%, and fills LB gauge by 400 every turn. Not stackable.",
+                "Boosts\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001amachina\u001a \u001amonsters\u001a \u001aby\u001a \u001a50%, and\u001a \u001afills\u001a \u001aLB\u001a \u001agauge\u001a \u001aby\u001a \u001a400\u001a \u001aevery\u001a \u001aturn\u001a.\u001a \u001aNot\u001a \u001astackable\u001a.\u001a"
+            ]
         }
     },
     "504244818": {
@@ -29467,88 +29485,88 @@
         }
     },
     "504244910": {
-        "name": "レガリアでの旅Lv1",
+        "name": "Regalia Road Trip",
         "compendium_id": 1568,
         "compendium_shown": true,
         "requirements": ["RULE", [7915]],
         "skills": [244910],
-        "effects": ["Grant 'レガリアでの旅Lv1' passive"],
+        "effects": ["Grant 'Regalia Road Trip' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Regalia Road Trip", "乘坐雷格里亞的旅途Lv.1", "Regalia Road Trip", "Regalia Road Trip", "Regalia Road Trip", "Regalia Road Trip", "Regalia Road Trip", "Regalia\u001a \u001aRoad\u001a \u001aTrip\u001a"],
+            "desc_short": ["Boost physical and magic damage against reapers by 15%", "物理、魔法攻擊時提高15%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a15%"],
+            "desc_long": ["Boost physical and magic damage against reapers by 15%", "物理、魔法攻擊時提高15%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost physical and magic damage against reapers by 15%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a15%"]
         }
     },
     "504244911": {
-        "name": "レガリアでの旅Lv2",
+        "name": "Regalia Road Trip II",
         "compendium_id": 1569,
         "compendium_shown": true,
         "requirements": ["RULE", [7915]],
         "skills": [244911],
-        "effects": ["Grant 'レガリアでの旅Lv2' passive"],
+        "effects": ["Grant 'Regalia Road Trip II' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Regalia Road Trip II", "乘坐雷格里亞的旅途Lv.2", "Regalia Road Trip II", "Regalia Road Trip II", "Regalia Road Trip II", "Regalia Road Trip II", "Regalia Road Trip II", "Regalia\u001a \u001aRoad\u001a \u001aTrip\u001a \u001aII\u001a"],
+            "desc_short": ["Boost physical and magic damage against reapers by 30%", "物理、魔法攻擊時提高30%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a30%"],
+            "desc_long": ["Boost physical and magic damage against reapers by 30%", "物理、魔法攻擊時提高30%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost physical and magic damage against reapers by 30%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a30%"]
         }
     },
     "504244912": {
-        "name": "レガリアでの旅Lv3",
+        "name": "Regalia Road Trip III",
         "compendium_id": 1570,
         "compendium_shown": true,
         "requirements": ["RULE", [7915]],
         "skills": [244912],
-        "effects": ["Grant 'レガリアでの旅Lv3' passive"],
+        "effects": ["Grant 'Regalia Road Trip III' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Regalia Road Trip III", "乘坐雷格里亞的旅途Lv.3", "Regalia Road Trip III", "Regalia Road Trip III", "Regalia Road Trip III", "Regalia Road Trip III", "Regalia Road Trip III", "Regalia\u001a \u001aRoad\u001a \u001aTrip\u001a \u001aIII\u001a"],
+            "desc_short": ["Boost physical and magic damage against reapers by 45%", "物理、魔法攻擊時提高45%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a45%"],
+            "desc_long": ["Boost physical and magic damage against reapers by 45%", "物理、魔法攻擊時提高45%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost physical and magic damage against reapers by 45%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a45%"]
         }
     },
     "504244913": {
-        "name": "レガリアでの旅Lv4",
+        "name": "Regalia Road Trip IV",
         "compendium_id": 1571,
         "compendium_shown": true,
         "requirements": ["RULE", [7915]],
         "skills": [244913],
-        "effects": ["Grant 'レガリアでの旅Lv4' passive"],
+        "effects": ["Grant 'Regalia Road Trip IV' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Regalia Road Trip IV", "乘坐雷格里亞的旅途Lv.4", "Regalia Road Trip IV", "Regalia Road Trip IV", "Regalia Road Trip IV", "Regalia Road Trip IV", "Regalia Road Trip IV", "Regalia\u001a \u001aRoad\u001a \u001aTrip\u001a \u001aIV\u001a"],
+            "desc_short": ["Boost physical and magic damage against reapers by 60%", "物理、魔法攻擊時提高60%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a60%"],
+            "desc_long": ["Boost physical and magic damage against reapers by 60%", "物理、魔法攻擊時提高60%對死靈系魔物的傷害", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost physical and magic damage against reapers by 60%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a60%"]
         }
     },
     "504244914": {
-        "name": "レガリアでの旅Lv5",
+        "name": "Regalia Road Trip V",
         "compendium_id": 1572,
         "compendium_shown": true,
         "requirements": ["RULE", [7915]],
         "skills": [244914],
-        "effects": ["Grant 'レガリアでの旅Lv5' passive"],
+        "effects": ["Grant 'Regalia Road Trip V' passive"],
         "unique": false,
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Regalia Road Trip V", "乘坐雷格里亞的旅途Lv.5", "Regalia Road Trip V", "Regalia Road Trip V", "Regalia Road Trip V", "Regalia Road Trip V", "Regalia Road Trip V", "Regalia\u001a \u001aRoad\u001a \u001aTrip\u001a \u001aV\u001a"],
+            "desc_short": ["Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "物理、魔法攻擊時提高75%對死靈系魔物的傷害+提高25%極限技的傷害", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a75% and\u001a \u001aboost\u001a \u001aLB\u001a \u001adamage\u001a \u001aby\u001a \u001a25%"],
+            "desc_long": ["Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "物理、魔法攻擊時提高75%對死靈系魔物的傷害，並且提高25%極限技的傷害。", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost physical and magic damage against reapers by 75% and boost LB damage by 25%", "Boost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001areapers\u001a \u001aby\u001a \u001a75% and\u001a \u001aboost\u001a \u001aLB\u001a \u001adamage\u001a \u001aby\u001a \u001a25%"]
         }
     },
     "504400110": {
