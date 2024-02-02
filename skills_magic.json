@@ -5159,6 +5159,30 @@
         "effects_raw": [[1, 2, 95, [0,  0,  0,  100,  0,  0,  0,  0,  5,  1]]],
         "requirements": null
     },
+    "30520": {
+        "name": "エンエアロ",
+        "icon": "ability_25.png",
+        "compendium_id": 250,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Wind"],
+        "effects": [
+            ["Add Wind element (100%) to physical attacks for 5 turns to one ally"]
+        ],
+        "effects_raw": [[1, 2, 95, [0,  0,  0,  0,  100,  0,  0,  0,  5,  1]]],
+        "requirements": null
+    },
     "30530": {
         "name": "Enstone",
         "icon": "ability_28.png",
@@ -5209,6 +5233,30 @@
             ["Increase Light magic damage by 15% to all allies for 5 turns"]
         ],
         "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  0,  15,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  0,  15,  0], 1, 5, 1]]],
+        "requirements": null
+    },
+    "30550": {
+        "name": "エンダーク",
+        "icon": "ability_26.png",
+        "compendium_id": 253,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Dark"],
+        "effects": [
+            ["Add Dark element (100%) to physical attacks for 3 turns to one ally"]
+        ],
+        "effects_raw": [[1, 2, 95, [0,  0,  0,  0,  0,  0,  0,  100,  3,  1]]],
         "requirements": null
     },
     "30560": {
@@ -5997,6 +6045,54 @@
             ["Increase resistance to Dark by 80% for 4 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  0,  0,  80,  1,  4]]],
+        "requirements": null
+    },
+    "30840": {
+        "name": "バライトラ",
+        "icon": "ability_99.png",
+        "compendium_id": 335,
+        "rarity": 4,
+        "cost": {"MP": 10},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            ["Increase resistance to Light by 60% for 4 turns to all allies"]
+        ],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  0,  60,  0,  1,  4]]],
+        "requirements": null
+    },
+    "30850": {
+        "name": "バダーラ",
+        "icon": "ability_98.png",
+        "compendium_id": 336,
+        "rarity": 4,
+        "cost": {"MP": 10},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Dark"],
+        "effects": [
+            ["Increase resistance to Dark by 60% for 4 turns to all allies"]
+        ],
+        "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  0,  0,  60,  1,  4]]],
         "requirements": null
     },
     "40010": {
