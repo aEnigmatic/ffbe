@@ -23436,7 +23436,7 @@
         "name": "Knight of the Clarius",
         "compendium_id": 1342,
         "compendium_shown": true,
-        "requirements": ["UNIT_ID", [304000105, 304000204, 342000107, 342000117, 304000303, 304000405, 304000503, 342000207, 342000217, 312001007, 312001017, 312000517, 312000527, 312000617, 312000627, 401012407, 401012417]],
+        "requirements": ["RULE", [8020]],
         "skills": [242092],
         "effects": ["Grant 'Knight of the Clarius' passive"],
         "unique": true,
@@ -29556,20 +29556,38 @@
         }
     },
     "504244851": {
-        "name": "ディラックへの愛",
+        "name": "Adoration for Dyluck",
         "compendium_id": 1564,
         "compendium_shown": true,
         "requirements": null,
         "skills": [244851],
-        "effects": ["Grant 'ディラックへの愛' passive"],
-        "unique": false,
+        "effects": ["Grant 'Adoration for Dyluck' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Adoration for Dyluck", "對戴拉克的愛", null, null, null, null, "Adoration for Dyluck", "Adoration\u001a \u001afor\u001a \u001aDyluck\u001a"],
+            "desc_short": [
+                "Boost MP by 40%, and boost physical and magic damage against beasts and fairies by 50% when equipped with fists (Not stackable)",
+                "提高40%MP+裝備格鬥武器時物理、魔法攻擊時提高50%對獸精靈系魔物的傷害[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boost MP by 40%, and boost physical and magic damage against beasts and fairies by 50% when equipped with fists (Not stackable)",
+                "Boost\u001a \u001aMP\u001a \u001aby\u001a \u001a40%, and\u001a \u001aboost\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001abeasts\u001a \u001aand\u001a \u001afairies\u001a \u001aby\u001a \u001a50% when\u001a \u001aequipped\u001a \u001awith\u001a \u001afists\u001a \u001a(\u001aNot\u001a \u001astackable\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MP by 40%, and boosts physical and magic damage against beasts and fairies by 50% when equipped with fists. Not stackable.",
+                "提高40%MP，並且裝備格鬥武器時物理、魔法攻擊時提高50%對獸精靈系魔物的傷害。[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boosts MP by 40%, and boosts physical and magic damage against beasts and fairies by 50% when equipped with fists. Not stackable.",
+                "Boosts\u001a \u001aMP\u001a \u001aby\u001a \u001a40%, and\u001a \u001aboosts\u001a \u001aphysical\u001a \u001aand\u001a \u001amagic\u001a \u001adamage\u001a \u001aagainst\u001a \u001abeasts\u001a \u001aand\u001a \u001afairies\u001a \u001aby\u001a \u001a50% when\u001a \u001aequipped\u001a \u001awith\u001a \u001afists\u001a.\u001a \u001aNot\u001a \u001astackable\u001a.\u001a"
+            ]
         }
     },
     "504244862": {
@@ -29761,20 +29779,20 @@
         }
     },
     "504244963": {
-        "name": "太古の二刀剣術",
+        "name": "Ancient Dual Blade Arts",
         "compendium_id": 1576,
         "compendium_shown": true,
         "requirements": null,
         "skills": [244963],
-        "effects": ["Grant '太古の二刀剣術' passive"],
+        "effects": ["Grant 'Ancient Dual Blade Arts' passive"],
         "unique": false,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_72.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Ancient Dual Blade Arts", "太古的雙刀劍術", null, null, null, null, "Ancient Dual Blade Arts", "Ancient\u001a \u001aDual\u001a \u001aBlade\u001a \u001aArts\u001a"],
+            "desc_short": ["Boost equipment ATK and MAG by 100% when armed with two one-handed weapons, and boost damage for various chains by 100%", "裝備2把單手武器時武具攻擊魔力提升100%+提高100%各種CHAIN的傷害", null, null, null, null, "Boost equipment ATK and MAG by 100% when armed with two one-handed weapons, and boost damage for various chains by 100%", "Boost\u001a \u001aequipment\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a100% when\u001a \u001aarmed\u001a \u001awith\u001a \u001atwo\u001a \u001aone-handed\u001a \u001aweapons\u001a,\u001a \u001aand\u001a \u001aboost\u001a \u001adamage\u001a \u001afor\u001a \u001avarious\u001a \u001achains\u001a \u001aby\u001a \u001a100%"],
+            "desc_long": ["Boosts equipment ATK and MAG by 100% when armed with two one-handed weapons, and boosts damage for various chains by 100%.", "裝備2把單手武器時武具攻擊魔力提升100%+提高100%各種CHAIN的傷害", null, null, null, null, "Boosts equipment ATK and MAG by 100% when armed with two one-handed weapons, and boosts damage for various chains by 100%.", "Boosts\u001a \u001aequipment\u001a \u001aATK\u001a \u001aand\u001a \u001aMAG\u001a \u001aby\u001a \u001a100% when\u001a \u001aarmed\u001a \u001awith\u001a \u001atwo\u001a \u001aone-handed\u001a \u001aweapons\u001a,\u001a \u001aand\u001a \u001aboosts\u001a \u001adamage\u001a \u001afor\u001a \u001avarious\u001a \u001achains\u001a \u001aby\u001a \u001a100%.\u001a"]
         }
     },
     "504244970": {
