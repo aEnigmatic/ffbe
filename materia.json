@@ -30073,20 +30073,38 @@
         }
     },
     "504245136": {
-        "name": "成長するナノマシン",
+        "name": "Maturing Nanomachines",
         "compendium_id": 1612,
         "compendium_shown": true,
         "requirements": null,
         "skills": [245136],
-        "effects": ["Grant '成長するナノマシン' passive"],
-        "unique": false,
+        "effects": ["Grant 'Maturing Nanomachines' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_98.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Maturing Nanomachines", "會成長的奈米機器", null, null, null, null, "Maturing Nanomachines", "Maturing\u001a \u001aNanomachines\u001a"],
+            "desc_short": [
+                "Boost MAG by 60% and dark resistance by 40% (Not stackable)",
+                "提高60%魔力、40%暗屬性耐性[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boost MAG by 60% and dark resistance by 40% (Not stackable)",
+                "Boost\u001a \u001aMAG\u001a \u001aby\u001a \u001a60% and\u001a \u001adark\u001a \u001aresistance\u001a \u001aby\u001a \u001a40% (Not\u001a \u001astackable\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts MAG by 60% and dark resistance by 40%. Not stackable.",
+                "提高60%魔力、40%暗屬性耐性。[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boosts MAG by 60% and dark resistance by 40%. Not stackable.",
+                "Boosts\u001a \u001aMAG\u001a \u001aby\u001a \u001a60% and\u001a \u001adark\u001a \u001aresistance\u001a \u001aby\u001a \u001a40%. Not\u001a \u001astackable\u001a.\u001a"
+            ]
         }
     },
     "504245141": {
@@ -30344,6 +30362,23 @@
             "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
+    "504245204": {
+        "name": "一流選手の矜持",
+        "compendium_id": 1616,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245204],
+        "effects": ["Grant '一流選手の矜持' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_98.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
     "504245213": {
         "name": "Balthasar's Granddaughter",
         "compendium_id": 1606,
@@ -30359,6 +30394,618 @@
             "names": ["Balthasar's Granddaughter", "賢者巴薩扎爾的孫女", "Balthasar's Granddaughter", "Balthasar's Granddaughter", "Balthasar's Granddaughter", "Balthasar's Granddaughter", "Balthasar's Granddaughter", "Balthasar\u001a'\u001as\u001a \u001aGranddaughter\u001a"],
             "desc_short": ["Boost MAG by 500", "提高500魔力", "Boost MAG by 500", "Boost MAG by 500", "Boost MAG by 500", "Boost MAG by 500", "Boost MAG by 500", "Boost\u001a \u001aMAG\u001a \u001aby\u001a \u001a500\u001a"],
             "desc_long": ["Boosts MAG by 500.", "提高500魔力。", "Boosts MAG by 500.", "Boosts MAG by 500.", "Boosts MAG by 500.", "Boosts MAG by 500.", "Boosts MAG by 500.", "Boosts\u001a \u001aMAG\u001a \u001aby\u001a \u001a500.\u001a"]
+        }
+    },
+    "504245240": {
+        "name": "谷底に眠る祈り子",
+        "compendium_id": 1617,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8022]],
+        "skills": [245240],
+        "effects": ["Grant '谷底に眠る祈り子' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245241": {
+        "name": "谷底に眠る祈り子+1",
+        "compendium_id": 1618,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8022]],
+        "skills": [245241],
+        "effects": ["Grant '谷底に眠る祈り子+1' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245242": {
+        "name": "谷底に眠る祈り子+2",
+        "compendium_id": 1619,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8022]],
+        "skills": [245242],
+        "effects": ["Grant '谷底に眠る祈り子+2' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245243": {
+        "name": "谷底に眠る祈り子+3",
+        "compendium_id": 1620,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8022]],
+        "skills": [245243],
+        "effects": ["Grant '谷底に眠る祈り子+3' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245244": {
+        "name": "谷底に眠る祈り子+4",
+        "compendium_id": 1621,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8022]],
+        "skills": [245244],
+        "effects": ["Grant '谷底に眠る祈り子+4' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245248": {
+        "name": "空を駆ける願い",
+        "compendium_id": 1632,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245248],
+        "effects": ["Grant '空を駆ける願い' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245259": {
+        "name": "テグミンの武勇",
+        "compendium_id": 1624,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245259],
+        "effects": ["Grant 'テグミンの武勇' passive"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245260": {
+        "name": "巫女の願い",
+        "compendium_id": 1622,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8023]],
+        "skills": [245260],
+        "effects": ["Grant '巫女の願い' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245261": {
+        "name": "オメガとの同調",
+        "compendium_id": 1623,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245261],
+        "effects": ["Grant 'オメガとの同調' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245264": {
+        "name": "シノンの斧使い",
+        "compendium_id": 1628,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245264],
+        "effects": ["Grant 'シノンの斧使い' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245266": {
+        "name": "半人半妖の生き様",
+        "compendium_id": 1629,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245266],
+        "effects": ["Grant '半人半妖の生き様' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245267": {
+        "name": "選んだ未来",
+        "compendium_id": 1630,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245267],
+        "effects": ["Grant '選んだ未来' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_98.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245275": {
+        "name": "エロールの加護",
+        "compendium_id": 1625,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245275],
+        "effects": ["Grant 'エロールの加護' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_99.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245280": {
+        "name": "エイルネップの女王",
+        "compendium_id": 1626,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245280],
+        "effects": ["Grant 'エイルネップの女王' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245291": {
+        "name": "同化の法",
+        "compendium_id": 1627,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8023]],
+        "skills": [245291],
+        "effects": ["Grant '同化の法' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245313": {
+        "name": "忠義の心",
+        "compendium_id": 1648,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245313],
+        "effects": ["Grant '忠義の心' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_76.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245330": {
+        "name": "鋼鉄の異端児",
+        "compendium_id": 1631,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245330],
+        "effects": ["Grant '鋼鉄の異端児' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_95.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245341": {
+        "name": "氷のメガリスを制した力",
+        "compendium_id": 1636,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245341],
+        "effects": ["Grant '氷のメガリスを制した力' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245342": {
+        "name": "氷のメガリスを制した力+1",
+        "compendium_id": 1637,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245342],
+        "effects": ["Grant '氷のメガリスを制した力+1' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245343": {
+        "name": "氷のメガリスを制した力+2",
+        "compendium_id": 1638,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245343],
+        "effects": ["Grant '氷のメガリスを制した力+2' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245344": {
+        "name": "氷のメガリスを制した力+3",
+        "compendium_id": 1639,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245344],
+        "effects": ["Grant '氷のメガリスを制した力+3' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245345": {
+        "name": "氷のメガリスを制した力+4",
+        "compendium_id": 1640,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8014]],
+        "skills": [245345],
+        "effects": ["Grant '氷のメガリスを制した力+4' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245350": {
+        "name": "異端の神の力",
+        "compendium_id": 1633,
+        "compendium_shown": true,
+        "requirements": ["UNIT_ID", [212003107, 212003117]],
+        "skills": [245350],
+        "effects": ["Grant '異端の神の力' passive"],
+        "unique": false,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245351": {
+        "name": "神々が操る歴史の終焉",
+        "compendium_id": 1634,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245351],
+        "effects": ["Grant '神々が操る歴史の終焉' passive"],
+        "unique": false,
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_19.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245352": {
+        "name": "神々に抗いし者",
+        "compendium_id": 1635,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8023]],
+        "skills": [245352],
+        "effects": ["Grant '神々に抗いし者' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245363": {
+        "name": "背徳の皇帝を従えし力",
+        "compendium_id": 1643,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245363],
+        "effects": ["Grant '背徳の皇帝を従えし力' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245364": {
+        "name": "背徳の皇帝を従えし力+1",
+        "compendium_id": 1644,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245364],
+        "effects": ["Grant '背徳の皇帝を従えし力+1' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245365": {
+        "name": "背徳の皇帝を従えし力+2",
+        "compendium_id": 1645,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245365],
+        "effects": ["Grant '背徳の皇帝を従えし力+2' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245366": {
+        "name": "背徳の皇帝を従えし力+3",
+        "compendium_id": 1646,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245366],
+        "effects": ["Grant '背徳の皇帝を従えし力+3' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245367": {
+        "name": "背徳の皇帝を従えし力+4",
+        "compendium_id": 1647,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8018]],
+        "skills": [245367],
+        "effects": ["Grant '背徳の皇帝を従えし力+4' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245368": {
+        "name": "旧ダルマスカ王国の勇将",
+        "compendium_id": 1649,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8024]],
+        "skills": [245368],
+        "effects": ["Grant '旧ダルマスカ王国の勇将' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245375": {
+        "name": "暗黒亀を打ち破りし力",
+        "compendium_id": 1650,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8019]],
+        "skills": [245375],
+        "effects": ["Grant '暗黒亀を打ち破りし力' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245376": {
+        "name": "暗黒亀を打ち破りし力+1",
+        "compendium_id": 1651,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8019]],
+        "skills": [245376],
+        "effects": ["Grant '暗黒亀を打ち破りし力+1' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245377": {
+        "name": "暗黒亀を打ち破りし力+2",
+        "compendium_id": 1652,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8019]],
+        "skills": [245377],
+        "effects": ["Grant '暗黒亀を打ち破りし力+2' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245378": {
+        "name": "暗黒亀を打ち破りし力+3",
+        "compendium_id": 1653,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8019]],
+        "skills": [245378],
+        "effects": ["Grant '暗黒亀を打ち破りし力+3' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
+        }
+    },
+    "504245379": {
+        "name": "暗黒亀を打ち破りし力+4",
+        "compendium_id": 1654,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8019]],
+        "skills": [245379],
+        "effects": ["Grant '暗黒亀を打ち破りし力+4' passive"],
+        "unique": false,
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png",
+        "strings": {
+            "names": [null, null, null, null, null, null, null, null],
+            "desc_short": [null, null, null, null, null, null, null, null],
+            "desc_long": [null, null, null, null, null, null, null, null]
         }
     },
     "504400110": {
