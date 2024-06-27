@@ -3089,5 +3089,21 @@
             ["Reduce resistance to Ice, Lightning, Water, Earth and Dark by 30%"]
         ],
         "effects_raw": [[0, 0, 2, [0,  -30,  -30,  -30,  0,  -30,  0,  -30]]]
+    },
+    "900000037": {
+        "duration": 10,
+        "effects": [
+            ["Magic water damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore reflect)"],
+            ["Magic water damage (0.3x, MAG) as MP drain (30%) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  455,  50]], [2, 1, 10, [30,  30,  100]]]
+    },
+    "900000038": {
+        "duration": 10,
+        "effects": [
+            ["Increase Fire, Lightning, Water, Wind and Dark physical damage by 40%"],
+            ["Increase Fire, Lightning, Water, Wind and Dark magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  0,  40,  40,  40,  0,  0,  40]], [0, 0, 11, [40,  0,  40,  40,  40,  0,  0,  40]]]
     }
 }
