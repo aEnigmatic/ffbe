@@ -32015,20 +32015,20 @@
         }
     },
     "504245549": {
-        "name": "蘇りし英雄",
+        "name": "Hero Resurrected",
         "compendium_id": 1713,
         "compendium_shown": true,
         "requirements": ["RULE", [7707]],
         "skills": [245549],
-        "effects": ["Grant '蘇りし英雄' passive"],
-        "unique": false,
+        "effects": ["Grant 'Hero Resurrected' passive"],
+        "unique": true,
         "price_buy": 400000,
         "price_sell": 40000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Hero Resurrected", "復甦的英雄", null, null, null, null, "Hero Resurrected", "Hero\u001a \u001aResurrected\u001a"],
+            "desc_short": ["Boost ATK by 500", "提高500攻擊", null, null, null, null, "Boost ATK by 500", "Boost\u001a \u001aATK\u001a \u001aby\u001a \u001a500\u001a"],
+            "desc_long": ["Boosts ATK by 500.", "提高500攻擊。", null, null, null, null, "Boosts ATK by 500.", "Boosts\u001a \u001aATK\u001a \u001aby\u001a \u001a500.\u001a"]
         }
     },
     "504245558": {
@@ -32066,37 +32066,55 @@
         }
     },
     "504245565": {
-        "name": "第１部隊の一員として！",
+        "name": "As a member of Unit 1!",
         "compendium_id": 1711,
         "compendium_shown": true,
         "requirements": null,
         "skills": [245565],
-        "effects": ["Grant '第１部隊の一員として！' passive"],
-        "unique": false,
+        "effects": ["Grant 'As a member of Unit 1!' passive"],
+        "unique": true,
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["As a member of Unit 1!", "作為第１部隊的一員！", null, null, null, null, "As a member of Unit 1!", "As\u001a \u001aa\u001a \u001amember\u001a \u001aof\u001a \u001aUnit\u001a \u001a1\u001a!\u001a"],
+            "desc_short": [
+                "Boost ATK by 50% and fire, lightning, and light resistance by 30% (Not stackable)",
+                "提高50%攻擊、30%火雷光屬性耐性[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boost ATK by 50% and fire, lightning, and light resistance by 30% (Not stackable)",
+                "Boost\u001a \u001aATK\u001a \u001aby\u001a \u001a50% and\u001a \u001afire\u001a,\u001a \u001alightning\u001a,\u001a \u001aand\u001a \u001alight\u001a \u001aresistance\u001a \u001aby\u001a \u001a30% (Not\u001a \u001astackable\u001a)\u001a"
+            ],
+            "desc_long": [
+                "Boosts ATK by 50% and fire, lightning, and light resistance by 30%. Not stackable.",
+                "提高50%攻擊、30%火雷光屬性耐性。[無法重複裝備]",
+                null,
+                null,
+                null,
+                null,
+                "Boosts ATK by 50% and fire, lightning, and light resistance by 30%. Not stackable.",
+                "Boosts\u001a \u001aATK\u001a \u001aby\u001a \u001a50% and\u001a \u001afire\u001a,\u001a \u001alightning\u001a,\u001a \u001aand\u001a \u001alight\u001a \u001aresistance\u001a \u001aby\u001a \u001a30%. Not\u001a \u001astackable\u001a.\u001a"
+            ]
         }
     },
     "504245568": {
-        "name": "緋く燃えたつ魂",
+        "name": "Burning Crimson Soul",
         "compendium_id": 1712,
         "compendium_shown": true,
         "requirements": ["RULE", [8022]],
         "skills": [245568],
-        "effects": ["Grant '緋く燃えたつ魂' passive"],
-        "unique": false,
+        "effects": ["Grant 'Burning Crimson Soul' passive"],
+        "unique": true,
         "price_buy": 400000,
         "price_sell": 40000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Burning Crimson Soul", "緋炎燃燒之魂", null, null, null, null, "Burning Crimson Soul", "Burning\u001a \u001aCrimson\u001a \u001aSoul\u001a"],
+            "desc_short": ["Boost ATK by 500", "提高500攻擊", null, null, null, null, "Boost ATK by 500", "Boost\u001a \u001aATK\u001a \u001aby\u001a \u001a500\u001a"],
+            "desc_long": ["Boosts ATK by 500.", "提高500攻擊。", null, null, null, null, "Boosts ATK by 500.", "Boosts\u001a \u001aATK\u001a \u001aby\u001a \u001a500.\u001a"]
         }
     },
     "504245594": {
@@ -32219,20 +32237,20 @@
         }
     },
     "504245603": {
-        "name": "破壊衝動を制する力+4",
+        "name": "Fighting the Urge to Destroy",
         "compendium_id": 1723,
         "compendium_shown": true,
         "requirements": ["RULE", [8004]],
         "skills": [245603],
-        "effects": ["Grant '破壊衝動を制する力+4' passive"],
+        "effects": ["Grant 'Fighting the Urge to Destroy' passive"],
         "unique": false,
         "price_buy": 400000,
         "price_sell": 40000,
         "icon": "ability_77.png",
         "strings": {
-            "names": [null, null, null, null, null, null, null, null],
-            "desc_short": [null, null, null, null, null, null, null, null],
-            "desc_long": [null, null, null, null, null, null, null, null]
+            "names": ["Fighting the Urge to Destroy", "遏制破壞衝動的力量+4", null, null, null, null, "Fighting the Urge to Destroy", "Fighting\u001a \u001athe\u001a \u001aUrge\u001a \u001ato\u001a \u001aDestroy\u001a"],
+            "desc_short": ["Boost ATK by 60% for FFBE S4 category units", "提高「FFBE S4」類別的兵員60%攻擊", null, null, null, null, "Boost ATK by 60% for FFBE S4 category units", "Boost\u001a \u001aATK\u001a \u001aby\u001a \u001a60% for\u001a \u001aFFBE\u001a \u001aS\u001a4\u001a \u001acategory\u001a \u001aunits\u001a"],
+            "desc_long": ["Boosts ATK by 60% for FFBE S4 category units.", "提高「FFBE S4」類別的兵員60%攻擊。", null, null, null, null, "Boosts ATK by 60% for FFBE S4 category units.", "Boosts\u001a \u001aATK\u001a \u001aby\u001a \u001a60% for\u001a \u001aFFBE\u001a \u001aS\u001a4\u001a \u001acategory\u001a \u001aunits\u001a.\u001a"]
         }
     },
     "504400110": {
